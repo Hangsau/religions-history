@@ -1,0 +1,23 @@
+{
+  "religion": "道教",
+  "source_platform": "zh.wikisource.org",
+  "license": "CC BY-SA 4.0",
+  "language": "古典漢語",
+  "notes": "道教 Wikisource catalog. 與 daoism.json (ctext) 互補：ctext 已抓的 (tao-te-ching / zhuangzi / liezi / yinfu-jing) 透過 skip-if-verified 自動跳過。本檔涵蓋宗教性道經 (不在 ctext) + ctext 限額卡住的剩餘部分。",
+  "scriptures": [
+    {"slug": "zhouyi-cantong-qi", "wikisource_title": "周易參同契", "name_zh": "周易參同契", "name_en": "Cantong Qi", "version": "Wikisource 通行本", "version_date": "東漢", "tier": "核心"},
+    {"slug": "huangting-neijing", "wikisource_title": "黃庭內景經", "name_zh": "黃庭內景經", "name_en": "Huangting Inner Vision Jing", "version": "Wikisource 通行本", "version_date": "魏晉", "tier": "核心"},
+    {"slug": "huangting-waijing", "wikisource_title": "黃庭外景經", "name_zh": "黃庭外景經", "name_en": "Huangting Outer Vision Jing", "version": "Wikisource 通行本", "version_date": "魏晉", "tier": "核心"},
+    {"slug": "taishang-ganying-pian", "wikisource_title": "太上感應篇", "name_zh": "太上感應篇", "name_en": "Taishang Ganying Pian", "version": "Wikisource 通行本", "version_date": "宋", "tier": "核心"},
+    {"slug": "qingjing-jing", "wikisource_title": "清靜經", "name_zh": "太上老君說常清靜經", "name_en": "Qingjing Jing", "version": "Wikisource 通行本", "version_date": "唐", "tier": "核心"},
+    {"slug": "wenshi-zhenjing", "skip_reason": "文始真經 為 關尹子 別名, Wikisource 同頁; 不重複收"},
+    {"slug": "guanyin-zi", "wikisource_title": "關尹子", "name_zh": "關尹子", "name_en": "Guanyinzi", "version": "Wikisource 通行本", "version_date": "唐宋", "tier": "次要"},
+    {"slug": "taiping-jing", "wikisource_title": "太平經", "name_zh": "太平經", "name_en": "Taiping Jing", "version": "Wikisource 通行殘本", "version_date": "東漢", "tier": "核心"},
+    {"slug": "baopuzi", "wikisource_title": "抱朴子", "name_zh": "抱朴子（內外篇）", "name_en": "Baopuzi (Inner + Outer Chapters)", "version": "Wikisource 葛洪本", "version_date": "4 世紀", "tier": "核心"},
+    {"slug": "shenxian-zhuan", "wikisource_title": "神仙傳", "name_zh": "神仙傳", "name_en": "Biographies of Divine Transcendents", "version": "Wikisource 葛洪本", "version_date": "4 世紀", "tier": "次要"},
+    {"slug": "wenzi", "wikisource_title": "文子", "name_zh": "文子", "name_en": "Wenzi", "version": "Wikisource 通行本", "version_date": "戰國—西漢", "tier": "核心"},
+    {"slug": "huangdi-neijing", "wikisource_title": "黃帝內經", "name_zh": "黃帝內經", "name_en": "Huangdi Neijing", "version": "Wikisource 通行本", "version_date": "戰國—漢", "tier": "核心"},
+    {"slug": "huainanzi", "wikisource_title": "淮南子", "name_zh": "淮南子", "name_en": "Huainanzi", "version": "Wikisource 通行本", "version_date": "西漢", "tier": "核心"},
+    {"slug": "yunji-qiqian", "wikisource_title": "雲笈七籤", "name_zh": "雲笈七籤", "name_en": "Yunji Qiqian", "version": "Wikisource 張君房本", "version_date": "宋", "tier": "次要", "expected_chapter_count": 126, "notes": "Wikisource 含 122 卷 + 113上/下 + 序 = 126 sections"}
+  ]
+}
