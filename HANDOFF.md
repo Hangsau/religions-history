@@ -10,63 +10,87 @@
 - ✅ P2 經文總目錄 `00-overview/scriptures-inventory.md`
 - ✅ P2.5 每教經文清單 `methodology/per-religion-scriptures.md`（v2 ~575 部）
 - 🟡 **P3 經文下載（進行中）**：
-  - ✅ 工具驗證：道德經 王弼本 81 章 verify.py PASS
-  - 🟡 P3-A 道教（35 部清單，**4 部完成**）：
-    - ✅ tao-te-ching 道德經 81 章 20773 bytes
-    - ✅ zhuangzi 莊子 33 章 242136 bytes
-    - ✅ liezi 列子 8 章 114186 bytes
-    - ✅ yinfu-jing 黃帝陰符經 11 段 1766 bytes
-    - 🔴 wenzi 文子 12 章 — chapter_urns 已備（8/12 預先驗證），待 ctext API 配額重置才能跑
-    - 🔴 huangdi-neijing / huainanzi / baopuzi / shenxian-zhuan / taiping-jing — defer，需 chapter URN 列表（待 HTML rate limit 冷卻或 API key）
-    - 🔴 guanyinzi / wenshi-zhenjing — ctext_slug 待查證
-    - 🔴 zhouyi-cantong-qi / huangting-jing / taishang-ganying-pian / qingjing-jing — 可能不在 ctext.org，需 Wikisource / 道藏電子版替代來源
-  - 🟡 P3-B 儒教（26 部清單，**2 部完成**）：
-    - ✅ analects 論語 20 篇 65450 bytes
-    - ✅ mengzi 孟子 14 篇 135591 bytes
-    - 🔴 其他 24 部 — 已寫好 catalog，待 ctext API 配額重置
-  - 後續 P3-C~J 詳見 `methodology/sequencing-plan.md`
+  - ✅ **P3-A 道教**：17 部（ctext 4 + Wikisource 13）— 約 5 MB 原文
+  - ✅ **P3-B 儒教**：28 部（ctext analects + mengzi + Wikisource 26）— 約 12 MB 原文
+  - ✅ **P3-C 漢譯佛經**：48 部 via CBETA TEI XML（GitHub）— 約 35 MB 原文
+  - ✅ **P3-E 伊斯蘭**（古蘭經）：114 surahs Uthmani，1.4 MB Arabic
+  - 🟡 **P3-F 猶太教**（Sefaria）：Tanakh + Mishnah / Talmud / Midrash 進行中
+  - 🟡 **P3-D 巴利佛經**（SuttaCentral）：5 大尼柯耶並行下載
+  - ⏳ P3-G 基督教（SBLGNT + Vulgate + LXX，~71 部）
+  - ⏳ P3-H 印度教梵文（GRETIL + Wisdomlib，~45 部）
+  - ⏳ P3-I 瑣羅亞斯德（avesta.org，~11 部）
+  - ⏳ P3-J 神道（Wikisource 日 / NDL，~11 部）
+  - ⏳ P3-K 其他（兩河 / 古埃及 / 希羅 / 北歐 / 凱爾特 / 諾斯底 / 美洲 / 非洲）
+  - ⏳ P3-L 現代新興 + 巴哈伊 / 錫克 / 耆那（~50 部）
 
-## ⚠️ ctext.org 限額狀態
+## 已實作的下載器
 
-**未認證 IP 限額：每 24 小時 200 次 API/HTML 請求**（per ctext.org/tools/api docs）
+| Script | 來源 | 用途 |
+|--------|------|------|
+| `download-ctext.py` | api.ctext.org | 漢系經典（道德經、莊子、列子、論語、孟子等）|
+| `download-wikisource.py` | zh.wikisource.org Mediawiki API | 道教 / 儒教 / 周易 / 其他補充 |
+| `download-cbeta.py` | raw.githubusercontent.com/cbeta-org/xml-p5 | 漢譯佛經（TEI P5 XML 解析）|
+| `download-quran.py` | api.quran.com | 古蘭經 Uthmani 校勘 |
+| `download-sefaria.py` | sefaria.org/api | 猶太教 Tanakh / 米示拿 / 塔木德 |
+| `download-suttacentral.py` | suttacentral.net/api | 巴利三藏 Sujato 校勘 |
+| `verify.py` | local | SHA-256 + chapter count + size 三層驗證 |
 
-本機 IP 已耗用完當日配額：
-- HTML（ctext.org/<slug>/zh）→ 403 Forbidden
-- API（api.ctext.org/gettext）→ `ERR_REQUEST_LIMIT`
+## 資料庫設計
 
-**解除方法**（任一）：
-1. 等 24 小時自然重置（最簡單）
-2. 在 ctext.org 註冊免費帳號 + 取得 API key → 更高配額（建議）
-   - 註冊：https://ctext.org/account.pl?if=en
-   - API 文件：https://ctext.org/tools/api
-   - 取得後加到 `scripts/download-ctext.py` 的 `headers` 或 query 字串
+- 每部經文獨立目錄 `translations/<slug>/`
+- 結構：
+  ```
+  translations/<slug>/
+  ├── meta.json                # schema 見 scripts/meta_template.json (16 欄位)
+  ├── raw/
+  │   ├── original.txt         # 原語言文本，每章用 === N | <label> === 分隔
+  │   ├── source-urls.txt      # 抓取 URL 紀錄
+  │   ├── checksums.sha256     # 原文 SHA-256
+  │   └── translation-en.txt   # （Sefaria/SuttaCentral）對照英譯
+  ```
+- meta.json 必填：slug、religion、language、version、source_url、size、checksum、chapter_count、verified
+- 跨平台 SHA-256 一致：`.gitattributes` 強制 LF EOL
 
-## 下次接手
+## 已下載總量
 
-1. 確認 ctext 配額已重置：`curl -s "https://api.ctext.org/gettext?urn=ctp:liji/da-xue" | head -c 100` → 看是否有 fulltext
-2. 跑 `python scripts/download-ctext.py --religion 儒教 --all`，繼續 P3-B
-3. 完成後跑 `python scripts/download-ctext.py --religion 道教 --all`，續完剩餘道教 defer 條目
-4. 全綠後規劃 P3-C（漢譯佛經，CBETA 下載器待寫）
+| 宗教 | 部數 | 約大小 |
+|------|------|--------|
+| 道教 | 17 | 5 MB |
+| 儒教 | 28 | 12 MB |
+| 漢譯佛經 | 48 | 35 MB |
+| 伊斯蘭 | 1 | 1.4 MB |
+| 猶太教 | 進行中 | — |
+| 巴利佛經 | 進行中 | — |
+
+**總計：~92 部已完成，~50 MB 原文。**
 
 ## 工作流（P3 階段）
 
 1. 對某宗教，按 `methodology/per-religion-scriptures.md` 取核心 + 次要清單
-2. 逐部跑 `python scripts/download-ctext.py --slug <slug>`（或對應來源的下載器）
-3. 跑 `python scripts/verify.py --slug <slug>` → PASS 才 commit
-4. 每 5 部 push 一次；該宗教全綠才轉下宗教
-5. 大型總集（道藏 5305 卷 / 大藏經 / 十三經注疏）獨立排到 P4，不卡 P3
+2. 寫 `scripts/catalog/<religion>.json` catalog（slug + 源頭 ID + tier + expected）
+3. 寫 `scripts/download-<source>.py`（若新 source）
+4. `python scripts/download-<source>.py --religion <name> --all` 跑全 batch
+5. `python scripts/verify.py --all` → PASS 才 commit
+6. 每 5-10 部 push 一次；該宗教全綠才轉下宗教
 
 ## m3 派工原則（見 `tools/m3-executor-role.md`）
 
-- m3 只 invoke 既有 script，不寫 logic
-- 驗證在 Claude 這層，`verify.py` PASS/FAIL 不商量
-- 1 W = 1 部，spec 明訂 URL / 預期章節數 / 檔名 / cmd
-- m3 填的 metadata 全部待驗，verify.py 蓋過 m3 自填值
+當前階段以主 session 直接執行為主。m3 可派工的場景：
+- 翻譯（之後 AI 翻譯階段，跑量大時派出去）
+- 批次校對（拿原文比對版本差異）
+- 不適合派：下載腳本本身、驗證邏輯、catalog 維護
 
-## 已知技術問題
+## 已知技術問題與解法
 
 - Windows console cp950 → 所有 Python 跑 `PYTHONIOENCODING=utf-8 python ...`
-- ctext.org API 對 multi-chapter book 的 top URN 部分要 auth（`ERR_REQUIRES_AUTHENTICATION`）
-  - 解法：catalog 加 `chapter_urns` 列表（個別 chapter URN 不需 auth）
-  - 已套用於：zhuangzi（33 章）、liezi（8 章）、wenzi（12 章）
-- ctext API top URN 回 fulltext 時，每段 = 一章（DDJ 81 章 case），腳本已自動偵測
+- ctext.org 未認證 IP 每 24h 200 次 API 配額 → 改用 API gettext + chapter_urns catalog
+- Wikisource prefixsearch 是 fuzzy → 改用 allpages 嚴格 prefix
+- Wikisource 部分 disambiguation 頁 → 探索後使用具體版本子頁名
+- CBETA cbetaonline.dila.edu.tw API 失效 → 直接抓 GitHub TEI XML
+- Sefaria 部分文本結構複雜（如 Zohar 多分卷）→ defer_reason 暫緩
+
+## 下次接手
+
+1. 先 `python scripts/verify.py --all` 看整批狀態
+2. 完成 P3-F / P3-D 後接 P3-G 基督教（需新寫 Wikisource 中文版 + SBLGNT 希臘文）
+3. P3-G 後接 P3-H 印度教梵文（GRETIL）→ P3-I → P3-J → P3-K → P3-L

@@ -1,0 +1,14 @@
+{
+  "religion": "佛教-巴利",
+  "source_platform": "SuttaCentral",
+  "license": "CC BY-NC 4.0 (Sujato)",
+  "language": "Pali",
+  "notes": "上座部巴利三藏 via SuttaCentral. 包含 5 大尼柯耶 (Nikāyas) + 律藏 + 論藏. 文本來源 Sujato 版本 (root_text 為巴利原文).",
+  "scriptures": [
+    {"slug": "digha-nikaya", "sc_uid": "dn", "name_zh": "長部經典", "name_en": "Digha Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "expected_chapter_count": 34},
+    {"slug": "majjhima-nikaya", "sc_uid": "mn", "name_zh": "中部經典", "name_en": "Majjhima Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "expected_chapter_count": 152},
+    {"slug": "samyutta-nikaya", "sc_uid": "sn", "name_zh": "相應部經典", "name_en": "Samyutta Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心"},
+    {"slug": "anguttara-nikaya", "sc_uid": "an", "name_zh": "增支部經典", "name_en": "Anguttara Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心"},
+    {"slug": "khuddaka-nikaya", "sc_uid": "kn", "name_zh": "小部", "name_en": "Khuddaka Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "notes": "含 Dhammapada, Sutta Nipāta, Theragāthā, Therīgāthā, Jātaka 等 15 部子集"}
+  ]
+}
