@@ -1,0 +1,23 @@
+{
+  "slug": "zhuangzi",
+  "name_zh": "莊子",
+  "name_en": "Zhuangzi",
+  "name_original": "莊子",
+  "religion": "道教",
+  "language": "古典漢語",
+  "version": "郭象注本",
+  "version_date": "3 世紀",
+  "source_platform": "ctext.org (api)",
+  "source_url": "https://api.ctext.org/gettext?urn=ctp:zhuangzi",
+  "downloaded_at": "2026-06-29T17:07:32+00:00",
+  "size_bytes": 242136,
+  "checksum_sha256": "be72bc152d993ac9028320eb4059fc29a080eb03db4ae234358d184f5f801a7c",
+  "chapter_count": 33,
+  "expected_chapter_count": 33,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-SA 4.0",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

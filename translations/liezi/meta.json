@@ -1,0 +1,23 @@
+{
+  "slug": "liezi",
+  "name_zh": "列子",
+  "name_en": "Liezi",
+  "name_original": "列子",
+  "religion": "道教",
+  "language": "古典漢語",
+  "version": "張湛注本",
+  "version_date": "4 世紀",
+  "source_platform": "ctext.org (api)",
+  "source_url": "https://api.ctext.org/gettext?urn=ctp:liezi",
+  "downloaded_at": "2026-06-29T17:07:43+00:00",
+  "size_bytes": 114186,
+  "checksum_sha256": "7c0ad359a475fae8a6583af498d51f5db411a13d47db81e642ecdea8cadc0179",
+  "chapter_count": 8,
+  "expected_chapter_count": 8,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-SA 4.0",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

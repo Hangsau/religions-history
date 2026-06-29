@@ -10,11 +10,18 @@
 - ✅ P2 經文總目錄 `00-overview/scriptures-inventory.md`
 - ✅ P2.5 每教經文清單 `methodology/per-religion-scriptures.md`（v2 ~575 部）
 - 🟡 **P3 經文下載（進行中）**：按宗教逐教深做，工具難度由低到高
-  - 工具驗證（道德經單部） — 進行中
-  - P3-A 道教（~35 部）— 待
-  - P3-B 儒教（~35 部）— 待
-  - P3-C 漢譯佛經（~60 部）— 待
+  - ✅ 工具驗證：道德經 王弼本 81 章 20790 bytes，verify.py PASS
+  - 🟡 P3-A 道教 — 卡 ctext.org IP rate-limit，背景 watcher 等冷卻；catalog 18 部待跑
+  - 🟡 P3-B 儒教 — catalog 26 部已建，待 P3-A 完
+  - P3-C 漢譯佛經（~60 部，CBETA）— 待
   - 後續 P3-D~J 詳見 `methodology/sequencing-plan.md` 待補表
+
+## ctext.org rate limit 注意
+
+抓 zhuangzi 36 個子章節後被 ctext.org IP 級 403，base UA 換瀏覽器 UA 仍擋。
+腳本已加 5 次指數 backoff（30s 起跳，最高 480s），但等 IP rate limit 自然冷卻較有效。
+規則：跑 `--religion 道教` 時用更大 `SLEEP_BETWEEN_REQUESTS`（目前 3s）；
+若仍被擋，考慮註冊 ctext.org API key（個人使用免費）改用 `https://api.ctext.org/` endpoints。
 
 ## 工作流（P3 階段）
 

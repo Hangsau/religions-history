@@ -5,23 +5,84 @@
   "language": "古典漢語",
   "scriptures": [
     {"slug": "tao-te-ching", "ctext_slug": "dao-de-jing", "name_zh": "道德經", "name_en": "Tao Te Ching", "version": "王弼本", "version_date": "3 世紀", "tier": "核心", "expected_chapter_count": 81},
-    {"slug": "zhuangzi", "ctext_slug": "zhuangzi", "name_zh": "莊子", "name_en": "Zhuangzi", "version": "郭象注本", "version_date": "3 世紀", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "liezi", "ctext_slug": "liezi", "name_zh": "列子", "name_en": "Liezi", "version": "張湛注本", "version_date": "4 世紀", "tier": "核心", "expected_chapter_count": 8, "multi_chapter": true},
-    {"slug": "wenzi", "ctext_slug": "wenzi", "name_zh": "文子", "name_en": "Wenzi", "version": "通行本", "version_date": "戰國—西漢", "tier": "核心", "expected_chapter_count": 12, "multi_chapter": true},
-    {"slug": "huangdi-neijing", "ctext_slug": "huangdi-neijing", "name_zh": "黃帝內經", "name_en": "Huangdi Neijing", "version": "素問+靈樞", "version_date": "戰國—漢", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "yinfu-jing", "ctext_slug": "yinfujing", "name_zh": "黃帝陰符經", "name_en": "Yinfu Jing", "version": "通行本", "version_date": "唐", "tier": "核心", "expected_chapter_count": 3, "multi_chapter": false},
-    {"slug": "huainanzi", "ctext_slug": "huainanzi", "name_zh": "淮南子", "name_en": "Huainanzi", "version": "通行本", "version_date": "西漢", "tier": "核心", "expected_chapter_count": 21, "multi_chapter": true},
-    {"slug": "guanyin-zi", "ctext_slug": "guanyinzi", "name_zh": "關尹子", "name_en": "Guanyinzi", "version": "通行本", "version_date": "唐宋", "tier": "次要", "expected_chapter_count": 9, "multi_chapter": false},
-    {"slug": "baopuzi-neipian", "ctext_slug": "baopuzi", "name_zh": "抱朴子內篇", "name_en": "Baopuzi Inner Chapters", "version": "葛洪本", "version_date": "4 世紀", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "shenxian-zhuan", "ctext_slug": "shenxianzhuan", "name_zh": "神仙傳", "name_en": "Biographies of Divine Transcendents", "version": "葛洪本", "version_date": "4 世紀", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "taiping-jing", "ctext_slug": "taipingjing", "name_zh": "太平經", "name_en": "Taiping Jing", "version": "通行殘本", "version_date": "東漢", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "zhouyi-cantong-qi", "ctext_slug": "zhouyi-cantong-qi", "name_zh": "周易參同契", "name_en": "Cantong Qi", "version": "魏伯陽本", "version_date": "東漢", "tier": "核心", "expected_chapter_count": null, "multi_chapter": false},
-    {"slug": "huangting-jing", "ctext_slug": "huangtingjing", "name_zh": "黃庭經", "name_en": "Huangting Jing", "version": "外景+內景", "version_date": "魏晉", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "taishang-ganying-pian", "ctext_slug": "taishangganyingpian", "name_zh": "太上感應篇", "name_en": "Taishang Ganying Pian", "version": "通行本", "version_date": "宋", "tier": "核心", "expected_chapter_count": 1, "multi_chapter": false},
-    {"slug": "qingjing-jing", "ctext_slug": "qingjingjing", "name_zh": "太上老君說常清靜經", "name_en": "Qingjing Jing", "version": "通行本", "version_date": "唐", "tier": "核心", "expected_chapter_count": 1, "multi_chapter": false},
-    {"slug": "yinfu-jing-extra", "ctext_slug": "yinfujing-extra", "name_zh": "陰符經注", "name_en": "Yinfu Jing Commentaries", "version": "歷代注本", "version_date": "唐—宋", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true, "skip_reason": "進階注本，暫緩 — placeholder for later"},
-    {"slug": "wenshi-zhenjing", "ctext_slug": "wenshizhenjing", "name_zh": "文始真經", "name_en": "Wenshi Zhenjing", "version": "通行本", "version_date": "唐宋", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true},
-    {"slug": "chongxu-zhide-zhenjing", "ctext_slug": "chongxuzhide", "name_zh": "沖虛至德真經", "name_en": "Chongxu Zhide Zhenjing", "version": "別名列子", "version_date": "—", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true, "skip_reason": "等同列子，避免重複"}
+
+    {"slug": "zhuangzi", "ctext_slug": "zhuangzi", "name_zh": "莊子", "name_en": "Zhuangzi", "version": "郭象注本", "version_date": "3 世紀", "tier": "核心", "expected_chapter_count": 33,
+     "chapter_urns": [
+       "ctp:zhuangzi/enjoyment-in-untroubled-ease",
+       "ctp:zhuangzi/adjustment-of-controversies",
+       "ctp:zhuangzi/nourishing-the-lord-of-life",
+       "ctp:zhuangzi/man-in-the-world-associated-with",
+       "ctp:zhuangzi/seal-of-virtue-complete",
+       "ctp:zhuangzi/great-and-most-honoured-master",
+       "ctp:zhuangzi/normal-course-for-rulers-and-kings",
+       "ctp:zhuangzi/webbed-toes",
+       "ctp:zhuangzi/horsess-hoofs",
+       "ctp:zhuangzi/cutting-open-satchels",
+       "ctp:zhuangzi/letting-be-and-exercising-forbearance",
+       "ctp:zhuangzi/heaven-and-earth",
+       "ctp:zhuangzi/tian-dao",
+       "ctp:zhuangzi/revolution-of-heaven",
+       "ctp:zhuangzi/ingrained-ideas",
+       "ctp:zhuangzi/correcting-the-nature",
+       "ctp:zhuangzi/floods-of-autumn",
+       "ctp:zhuangzi/perfect-enjoyment",
+       "ctp:zhuangzi/full-understanding-of-life",
+       "ctp:zhuangzi/tree-on-the-mountain",
+       "ctp:zhuangzi/tian-zi-fang",
+       "ctp:zhuangzi/knowledge-rambling-in-the-north",
+       "ctp:zhuangzi/geng-sang-chu",
+       "ctp:zhuangzi/xu-wu-gui",
+       "ctp:zhuangzi/ze-yang",
+       "ctp:zhuangzi/what-comes-from-without",
+       "ctp:zhuangzi/metaphorical-language",
+       "ctp:zhuangzi/kings-who-have-wished-to-resign",
+       "ctp:zhuangzi/robber-zhi",
+       "ctp:zhuangzi/delight-in-the-sword-fight",
+       "ctp:zhuangzi/old-fisherman",
+       "ctp:zhuangzi/lie-yu-kou",
+       "ctp:zhuangzi/tian-xia"
+     ]},
+
+    {"slug": "liezi", "ctext_slug": "liezi", "name_zh": "列子", "name_en": "Liezi", "version": "張湛注本", "version_date": "4 世紀", "tier": "核心", "expected_chapter_count": 8,
+     "chapter_urns": [
+       "ctp:liezi/tian-rui",
+       "ctp:liezi/huang-di",
+       "ctp:liezi/zhou-mu-wang",
+       "ctp:liezi/zhong-ni",
+       "ctp:liezi/tang-wen",
+       "ctp:liezi/li-ming",
+       "ctp:liezi/yang-zhu",
+       "ctp:liezi/shuo-fu"
+     ]},
+
+    {"slug": "wenzi", "ctext_slug": "wenzi", "name_zh": "文子", "name_en": "Wenzi", "version": "通行本", "version_date": "戰國—西漢", "tier": "核心", "expected_chapter_count": 12, "defer_reason": "需 chapter URN 列表，待補"},
+
+    {"slug": "huangdi-neijing", "ctext_slug": "huangdi-neijing", "name_zh": "黃帝內經", "name_en": "Huangdi Neijing", "version": "素問+靈樞", "version_date": "戰國—漢", "tier": "核心", "expected_chapter_count": null, "defer_reason": "素問 81 篇 + 靈樞 81 篇 = 162，URN 待補"},
+
+    {"slug": "yinfu-jing", "ctext_slug": "yinfujing", "name_zh": "黃帝陰符經", "name_en": "Yinfu Jing", "version": "通行本", "version_date": "唐", "tier": "核心", "expected_chapter_count": null},
+
+    {"slug": "huainanzi", "ctext_slug": "huainanzi", "name_zh": "淮南子", "name_en": "Huainanzi", "version": "通行本", "version_date": "西漢", "tier": "核心", "expected_chapter_count": 21, "defer_reason": "21 篇 URN 待補"},
+
+    {"slug": "guanyinzi", "ctext_slug": "guan-yin-zi", "name_zh": "關尹子", "name_en": "Guanyinzi", "version": "通行本", "version_date": "唐宋", "tier": "次要", "expected_chapter_count": 9, "defer_reason": "ctext slug 待查證"},
+
+    {"slug": "baopuzi-neipian", "ctext_slug": "baopuzi", "name_zh": "抱朴子內篇", "name_en": "Baopuzi Inner Chapters", "version": "葛洪本", "version_date": "4 世紀", "tier": "核心", "expected_chapter_count": null, "defer_reason": "URN 待補"},
+
+    {"slug": "shenxian-zhuan", "ctext_slug": "shen-xian-zhuan", "name_zh": "神仙傳", "name_en": "Biographies of Divine Transcendents", "version": "葛洪本", "version_date": "4 世紀", "tier": "次要", "expected_chapter_count": null, "defer_reason": "URN 待補"},
+
+    {"slug": "taiping-jing", "ctext_slug": "tai-ping-jing", "name_zh": "太平經", "name_en": "Taiping Jing", "version": "通行殘本", "version_date": "東漢", "tier": "核心", "expected_chapter_count": null, "defer_reason": "ctext slug 待查證"},
+
+    {"slug": "zhouyi-cantong-qi", "ctext_slug": "zhouyi-cantong-qi", "name_zh": "周易參同契", "name_en": "Cantong Qi", "version": "魏伯陽本", "version_date": "東漢", "tier": "核心", "expected_chapter_count": null, "defer_reason": "可能不在 ctext.org TEXTDB"},
+
+    {"slug": "huangting-jing", "ctext_slug": "huangtingjing", "name_zh": "黃庭經", "name_en": "Huangting Jing", "version": "外景+內景", "version_date": "魏晉", "tier": "核心", "expected_chapter_count": null, "defer_reason": "可能不在 ctext.org TEXTDB"},
+
+    {"slug": "taishang-ganying-pian", "ctext_slug": "taishangganyingpian", "name_zh": "太上感應篇", "name_en": "Taishang Ganying Pian", "version": "通行本", "version_date": "宋", "tier": "核心", "expected_chapter_count": 1, "defer_reason": "可能不在 ctext.org TEXTDB"},
+
+    {"slug": "qingjing-jing", "ctext_slug": "qingjingjing", "name_zh": "太上老君說常清靜經", "name_en": "Qingjing Jing", "version": "通行本", "version_date": "唐", "tier": "核心", "expected_chapter_count": 1, "defer_reason": "可能不在 ctext.org TEXTDB"},
+
+    {"slug": "wenshi-zhenjing", "ctext_slug": "wenshizhenjing", "name_zh": "文始真經", "name_en": "Wenshi Zhenjing", "version": "通行本", "version_date": "唐宋", "tier": "次要", "expected_chapter_count": null, "defer_reason": "ctext slug 待查證"},
+
+    {"slug": "yinfu-jing-extra", "skip_reason": "進階注本，暫緩 — placeholder for later"},
+    {"slug": "chongxu-zhide-zhenjing", "skip_reason": "等同列子，避免重複"}
   ],
-  "notes": "本檔列道教核心 + 主要次要經典於 ctext.org 之 slug。部分（如老子想爾注、敦煌寫本、道藏分冊）不在 ctext，需另尋來源、後期擴增。道藏 5305 卷為總集，獨立排到 P4。"
+  "notes": "本檔列道教核心 + 主要次要經典於 ctext.org 之 slug。有 defer_reason 的條目需後續以 HTML 探索或別處取得：(1) 多章節結構 URN 列表需從 ctext.org HTML 抓 (待 rate limit 冷卻); (2) 部分宗教性道教經典 (周易參同契、黃庭經、太上感應篇、清靜經、文始真經) 可能不在 ctext TEXTDB，需用維基文庫 / 道藏 / 國學網等替代來源 (P3-A 延後子任務)。"
 }
