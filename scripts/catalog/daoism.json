@@ -1,0 +1,27 @@
+{
+  "religion": "道教",
+  "source_platform": "ctext.org",
+  "license": "CC BY-SA 4.0",
+  "language": "古典漢語",
+  "scriptures": [
+    {"slug": "tao-te-ching", "ctext_slug": "dao-de-jing", "name_zh": "道德經", "name_en": "Tao Te Ching", "version": "王弼本", "version_date": "3 世紀", "tier": "核心", "expected_chapter_count": 81},
+    {"slug": "zhuangzi", "ctext_slug": "zhuangzi", "name_zh": "莊子", "name_en": "Zhuangzi", "version": "郭象注本", "version_date": "3 世紀", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "liezi", "ctext_slug": "liezi", "name_zh": "列子", "name_en": "Liezi", "version": "張湛注本", "version_date": "4 世紀", "tier": "核心", "expected_chapter_count": 8, "multi_chapter": true},
+    {"slug": "wenzi", "ctext_slug": "wenzi", "name_zh": "文子", "name_en": "Wenzi", "version": "通行本", "version_date": "戰國—西漢", "tier": "核心", "expected_chapter_count": 12, "multi_chapter": true},
+    {"slug": "huangdi-neijing", "ctext_slug": "huangdi-neijing", "name_zh": "黃帝內經", "name_en": "Huangdi Neijing", "version": "素問+靈樞", "version_date": "戰國—漢", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "yinfu-jing", "ctext_slug": "yinfujing", "name_zh": "黃帝陰符經", "name_en": "Yinfu Jing", "version": "通行本", "version_date": "唐", "tier": "核心", "expected_chapter_count": 3, "multi_chapter": false},
+    {"slug": "huainanzi", "ctext_slug": "huainanzi", "name_zh": "淮南子", "name_en": "Huainanzi", "version": "通行本", "version_date": "西漢", "tier": "核心", "expected_chapter_count": 21, "multi_chapter": true},
+    {"slug": "guanyin-zi", "ctext_slug": "guanyinzi", "name_zh": "關尹子", "name_en": "Guanyinzi", "version": "通行本", "version_date": "唐宋", "tier": "次要", "expected_chapter_count": 9, "multi_chapter": false},
+    {"slug": "baopuzi-neipian", "ctext_slug": "baopuzi", "name_zh": "抱朴子內篇", "name_en": "Baopuzi Inner Chapters", "version": "葛洪本", "version_date": "4 世紀", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "shenxian-zhuan", "ctext_slug": "shenxianzhuan", "name_zh": "神仙傳", "name_en": "Biographies of Divine Transcendents", "version": "葛洪本", "version_date": "4 世紀", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "taiping-jing", "ctext_slug": "taipingjing", "name_zh": "太平經", "name_en": "Taiping Jing", "version": "通行殘本", "version_date": "東漢", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "zhouyi-cantong-qi", "ctext_slug": "zhouyi-cantong-qi", "name_zh": "周易參同契", "name_en": "Cantong Qi", "version": "魏伯陽本", "version_date": "東漢", "tier": "核心", "expected_chapter_count": null, "multi_chapter": false},
+    {"slug": "huangting-jing", "ctext_slug": "huangtingjing", "name_zh": "黃庭經", "name_en": "Huangting Jing", "version": "外景+內景", "version_date": "魏晉", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "taishang-ganying-pian", "ctext_slug": "taishangganyingpian", "name_zh": "太上感應篇", "name_en": "Taishang Ganying Pian", "version": "通行本", "version_date": "宋", "tier": "核心", "expected_chapter_count": 1, "multi_chapter": false},
+    {"slug": "qingjing-jing", "ctext_slug": "qingjingjing", "name_zh": "太上老君說常清靜經", "name_en": "Qingjing Jing", "version": "通行本", "version_date": "唐", "tier": "核心", "expected_chapter_count": 1, "multi_chapter": false},
+    {"slug": "yinfu-jing-extra", "ctext_slug": "yinfujing-extra", "name_zh": "陰符經注", "name_en": "Yinfu Jing Commentaries", "version": "歷代注本", "version_date": "唐—宋", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true, "skip_reason": "進階注本，暫緩 — placeholder for later"},
+    {"slug": "wenshi-zhenjing", "ctext_slug": "wenshizhenjing", "name_zh": "文始真經", "name_en": "Wenshi Zhenjing", "version": "通行本", "version_date": "唐宋", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true},
+    {"slug": "chongxu-zhide-zhenjing", "ctext_slug": "chongxuzhide", "name_zh": "沖虛至德真經", "name_en": "Chongxu Zhide Zhenjing", "version": "別名列子", "version_date": "—", "tier": "次要", "expected_chapter_count": null, "multi_chapter": true, "skip_reason": "等同列子，避免重複"}
+  ],
+  "notes": "本檔列道教核心 + 主要次要經典於 ctext.org 之 slug。部分（如老子想爾注、敦煌寫本、道藏分冊）不在 ctext，需另尋來源、後期擴增。道藏 5305 卷為總集，獨立排到 P4。"
+}
