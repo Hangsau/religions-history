@@ -37,15 +37,32 @@ CHAPTER_SEP_RE = re.compile(r"^=== \d+ \|", re.MULTILINE)
 CTEXT_BASE = "https://ctext.org"
 USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
 REQ_TIMEOUT = 30
-SLEEP_BETWEEN_REQUESTS = 1.5
+SLEEP_BETWEEN_REQUESTS = 3.0  # base inter-request delay
+MAX_RETRIES = 5
+BACKOFF_INITIAL = 30.0  # seconds; doubles each retry
 
 
 def fetch(url: str) -> str:
     headers = {"User-Agent": USER_AGENT}
-    r = requests.get(url, headers=headers, timeout=REQ_TIMEOUT)
-    r.raise_for_status()
-    r.encoding = "utf-8"
-    return r.text
+    backoff = BACKOFF_INITIAL
+    last_exc = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            r = requests.get(url, headers=headers, timeout=REQ_TIMEOUT)
+            if r.status_code in (403, 429, 503):
+                print(f"  [rate-limit {r.status_code}] sleep {backoff:.0f}s (attempt {attempt}/{MAX_RETRIES})")
+                time.sleep(backoff)
+                backoff *= 2
+                continue
+            r.raise_for_status()
+            r.encoding = "utf-8"
+            return r.text
+        except requests.RequestException as e:
+            last_exc = e
+            print(f"  [req-error {type(e).__name__}] sleep {backoff:.0f}s (attempt {attempt}/{MAX_RETRIES}): {e}")
+            time.sleep(backoff)
+            backoff *= 2
+    raise requests.HTTPError(f"max retries exceeded for {url}: {last_exc}")
 
 
 def extract_ctext_passages(html: str) -> list[str]:
@@ -113,6 +130,17 @@ def download_scripture(entry: dict) -> dict:
     if entry.get("skip_reason"):
         print(f"[skip] {slug}: {entry['skip_reason']}")
         return {"slug": slug, "status": "skipped", "reason": entry["skip_reason"]}
+
+    # Skip if already downloaded and verified
+    meta_path_check = TRANSLATIONS_DIR / slug / "meta.json"
+    if meta_path_check.exists():
+        try:
+            existing = json.loads(meta_path_check.read_text(encoding="utf-8"))
+            if existing.get("verified") and (TRANSLATIONS_DIR / slug / "raw" / "original.txt").exists():
+                print(f"[skip] {slug}: already verified")
+                return {"slug": slug, "status": "already_verified"}
+        except (json.JSONDecodeError, OSError):
+            pass
 
     index_url = f"{CTEXT_BASE}/{ctext_slug}/zh"
     print(f"[fetch] {index_url}")
