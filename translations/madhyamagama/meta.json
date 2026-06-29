@@ -1,0 +1,23 @@
+{
+  "slug": "madhyamagama",
+  "name_zh": "中阿含經",
+  "name_en": "Madhyamāgama",
+  "name_original": "中阿含經",
+  "religion": "佛教-漢譯",
+  "language": "古典漢語",
+  "version": "瞿曇僧伽提婆譯",
+  "version_date": "398 AD",
+  "source_platform": "CBETA (TEI P5 XML, GitHub)",
+  "source_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T01/T01n0026.xml",
+  "downloaded_at": "2026-06-29T23:20:05+00:00",
+  "size_bytes": 1980552,
+  "checksum_sha256": "a17643c69f51d0e8f4c90a8a08b04677f8bb9827f95190b4352a8a85a05e99f0",
+  "chapter_count": 60,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC-SA 4.0 (CBETA)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

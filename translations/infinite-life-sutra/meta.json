@@ -1,0 +1,23 @@
+{
+  "slug": "infinite-life-sutra",
+  "name_zh": "佛說無量壽經",
+  "name_en": "Infinite Life Sutra",
+  "name_original": "佛說無量壽經",
+  "religion": "佛教-漢譯",
+  "language": "古典漢語",
+  "version": "康僧鎧譯",
+  "version_date": "252 AD",
+  "source_platform": "CBETA (TEI P5 XML, GitHub)",
+  "source_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0360.xml",
+  "downloaded_at": "2026-06-29T23:19:12+00:00",
+  "size_bytes": 66999,
+  "checksum_sha256": "d91664b63f2e03d9b9872f51f1831d98fb3b5920e8a7b6a9ece16844d5332fa6",
+  "chapter_count": 2,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC-SA 4.0 (CBETA)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

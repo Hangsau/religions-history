@@ -1,0 +1,23 @@
+{
+  "slug": "ksitigarbha-sutra",
+  "name_zh": "地藏菩薩本願經",
+  "name_en": "Ksitigarbha Sutra",
+  "name_original": "地藏菩薩本願經",
+  "religion": "佛教-漢譯",
+  "language": "古典漢語",
+  "version": "實叉難陀譯",
+  "version_date": "唐",
+  "source_platform": "CBETA (TEI P5 XML, GitHub)",
+  "source_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T13/T13n0412.xml",
+  "downloaded_at": "2026-06-29T23:19:17+00:00",
+  "size_bytes": 64712,
+  "checksum_sha256": "2b5322082701ec66f16544ac2fbd780c74998ae207b80300eb6574fe484630c1",
+  "chapter_count": 2,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC-SA 4.0 (CBETA)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

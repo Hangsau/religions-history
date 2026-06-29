@@ -1,0 +1,23 @@
+{
+  "slug": "dirghagama",
+  "name_zh": "長阿含經",
+  "name_en": "Dīrghāgama",
+  "name_original": "長阿含經",
+  "religion": "佛教-漢譯",
+  "language": "古典漢語",
+  "version": "佛陀耶舍共竺佛念譯",
+  "version_date": "412 AD",
+  "source_platform": "CBETA (TEI P5 XML, GitHub)",
+  "source_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T01/T01n0001.xml",
+  "downloaded_at": "2026-06-29T23:19:58+00:00",
+  "size_bytes": 776734,
+  "checksum_sha256": "7e610c2fa4f01e92ae2aa7ccfc168af812873a4686a7ae6e0ec71a4b57524ae3",
+  "chapter_count": 22,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC-SA 4.0 (CBETA)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

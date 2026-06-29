@@ -1,19 +1,28 @@
 #!/usr/bin/env python
 """
-Download a Buddhist scripture from CBETA (Chinese Buddhist Electronic Text Association)
-and save to translations/<slug>/raw/.
+Download Chinese Buddhist scriptures (漢譯佛經) directly from CBETA's TEI XML
+on GitHub (https://github.com/cbeta-org/xml-p5) and save to translations/<slug>/raw/.
 
-CBETA has the complete 漢譯大藏經 (Taisho + Shinsan) with open API:
-    https://cbetaonline.dila.edu.tw/api/
+Why GitHub XML and not cbetaonline.dila.edu.tw API:
+    The DILA online reader is a SPA; the /api/ endpoints return the SPA HTML, not JSON.
+    The canonical CBETA data lives in cbeta-org/xml-p5 as TEI P5 XML, openly licensed
+    (CC BY-NC-SA). One file per work, e.g. T/T08/T08n0250.xml for 心經.
 
-API structure (open, no auth, no hard rate limit for individual users):
-    /api/totals → high-level catalogue summary
-    /api/works/<work-id> → metadata for a work (e.g. T0250 for 心經, T0235 for 金剛經)
-    /api/juans/<work-id>/<juan> → text of one juan (卷)
+Catalog entries:
+    {
+      "slug": "heart-sutra-kumarajiva",
+      "cbeta_path": "T/T08/T08n0250.xml",
+      "name_zh": "摩訶般若波羅蜜大明咒經",
+      "name_en": "Heart Sutra (Kumarajiva tr.)",
+      "version": "鳩摩羅什譯",
+      "version_date": "402 AD",
+      "tier": "核心",
+      "expected_chapter_count": 1
+    }
 
 Usage:
     python scripts/download-cbeta.py --slug heart-sutra-kumarajiva
-    python scripts/download-cbeta.py --religion 漢譯佛經 --all
+    python scripts/download-cbeta.py --religion 佛教-漢譯 --all
 """
 
 import argparse
@@ -26,33 +35,40 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG_DIR = ROOT / "scripts" / "catalog"
 TRANSLATIONS_DIR = ROOT / "translations"
 
-CBETA_API = "https://cbetaonline.dila.edu.tw/api"
+CBETA_RAW = "https://raw.githubusercontent.com/cbeta-org/xml-p5/master"
 USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
 REQ_TIMEOUT = 30
-SLEEP_BETWEEN_REQUESTS = 1.0
+SLEEP_BETWEEN_REQUESTS = 0.3
 MAX_RETRIES = 5
-BACKOFF_INITIAL = 15.0
+BACKOFF_INITIAL = 10.0
+
+TEI_NS = "{http://www.tei-c.org/ns/1.0}"
 
 
-def api_get(path: str, params: dict | None = None) -> dict:
-    url = f"{CBETA_API}/{path.lstrip('/')}"
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+def fetch_xml(path: str) -> str:
+    url = f"{CBETA_RAW}/{path.lstrip('/')}"
+    headers = {"User-Agent": USER_AGENT}
     backoff = BACKOFF_INITIAL
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            r = requests.get(url, params=params, headers=headers, timeout=REQ_TIMEOUT)
+            r = requests.get(url, headers=headers, timeout=REQ_TIMEOUT)
+            if r.status_code == 404:
+                # File doesn't exist — no point retrying
+                raise FileNotFoundError(f"404 at {url}")
             if r.status_code in (429, 503):
                 print(f"  [rate-limit {r.status_code}] sleep {backoff:.0f}s")
                 time.sleep(backoff)
                 backoff *= 2
                 continue
             r.raise_for_status()
-            return r.json()
+            r.encoding = "utf-8"
+            return r.text
         except requests.RequestException as e:
             print(f"  [req-error attempt {attempt}/{MAX_RETRIES}] sleep {backoff:.0f}s: {e}")
             time.sleep(backoff)
@@ -60,45 +76,92 @@ def api_get(path: str, params: dict | None = None) -> dict:
     raise RuntimeError(f"max retries exceeded for {url}")
 
 
-def fetch_work_juans(work_id: str) -> list[str]:
-    """Get list of juan numbers for a work via /api/works/<work_id>."""
-    data = api_get(f"works/{work_id}")
-    # Response structure varies; the works endpoint returns metadata including juan list
-    if "results" in data and data["results"]:
-        w = data["results"][0]
-        juan_count = w.get("juan", 1)
-        if isinstance(juan_count, str) and juan_count.isdigit():
-            juan_count = int(juan_count)
-        return [str(i) for i in range(1, juan_count + 1)]
-    return ["1"]
+def tei_to_text(xml: str) -> tuple[list[tuple[str, str]], dict]:
+    """Parse CBETA TEI P5 XML.
 
+    CBETA TEI structure:
+        - teiHeader has metadata (title, author)
+        - <text><body> contains main content
+        - Body has:
+            * <milestone>, <lb/>, <pb/> (page/line break markers — ignore)
+            * <docNumber> (work number — ignore)
+            * <juan> (INLINE fascicle title markers — used to split chapters)
+            * <byline> (translator — useful as meta)
+            * <div type="jing|lun|vinaya|xu|pin|...">: actual content sections
+        - Content divs contain <p>, <lg>, <l>, <head>, etc
 
-def fetch_juan_text(work_id: str, juan: str) -> str:
-    """Fetch one juan's text. Tries multiple endpoint shapes."""
-    # The CBETA API returns html-ish content; we strip tags for plain text.
-    data = api_get(f"juans", params={"work": work_id, "juan": juan, "format": "json"})
-    # Adapt to actual response shape
-    if isinstance(data, dict):
-        if "results" in data and data["results"]:
-            first = data["results"][0]
-            for key in ("body", "content", "text", "html"):
-                if key in first and first[key]:
-                    return strip_html(first[key])
-        for key in ("body", "content", "text", "html"):
-            if key in data and data[key]:
-                return strip_html(data[key])
-    return ""
+    Strategy:
+        - Strip <note>, <respStmt>, etc
+        - Find all <juan> markers in body order (these split chapters)
+        - For each chapter, collect <p>/<lg>/<l>/<head> text in document order
+          between this <juan> and the next
+        - If no <juan> markers, treat whole body as one chapter
+    """
+    soup = BeautifulSoup(xml, "xml")
+    meta: dict = {}
+    title_m = soup.find("titleStmt")
+    if title_m:
+        for t in title_m.find_all("title"):
+            level = t.get("level")
+            lang = t.get("{http://www.w3.org/XML/1998/namespace}lang") or t.get("xml:lang")
+            txt = t.get_text(strip=True)
+            if not txt:
+                continue
+            if level == "m" and lang and "zh" in lang:
+                meta["title_zh"] = meta.get("title_zh") or txt
+            elif level == "m":
+                meta["title_en"] = meta.get("title_en") or txt
+        author = title_m.find("author")
+        if author:
+            meta["author"] = author.get_text(strip=True)
 
+    # Strip out elements we don't want
+    for tag_name in ["note", "respStmt", "encodingDesc", "revisionDesc",
+                     "fileDesc", "tagsDecl"]:
+        for el in soup.find_all(tag_name):
+            el.decompose()
 
-def strip_html(html: str) -> str:
-    text = re.sub(r"<[^>]+>", "", html)
-    text = re.sub(r"&nbsp;", " ", text)
-    text = re.sub(r"&lt;", "<", text)
-    text = re.sub(r"&gt;", ">", text)
-    text = re.sub(r"&amp;", "&", text)
-    text = re.sub(r"　+", "　", text)
-    text = re.sub(r"\n\s*\n", "\n\n", text)
-    return text.strip()
+    body = soup.find("body")
+    if body is None:
+        return [], meta
+
+    # Collect content tags in document order
+    content_tags = body.find_all(["juan", "p", "lg", "l", "head"], recursive=True)
+
+    chapters: list[tuple[str, str]] = []
+    current_label = None
+    current_parts: list[str] = []
+    seen_first_juan = False
+
+    def flush(label):
+        if current_parts:
+            chapters.append((label or str(len(chapters) + 1), "\n".join(current_parts)))
+
+    for el in content_tags:
+        if el.name == "juan":
+            # Only fun="open" marks a new fascicle start; "close" is end marker (skip)
+            if el.get("fun") != "open":
+                continue
+            new_label = el.get("n") or str(len(chapters) + 1)
+            if not seen_first_juan:
+                seen_first_juan = True
+                current_label = new_label
+                continue
+            flush(current_label)
+            current_parts = []
+            current_label = new_label
+        else:
+            t = el.get_text(separator="", strip=True)
+            if t:
+                current_parts.append(t)
+    flush(current_label or "1")
+
+    if not chapters:
+        # Fallback: extract whole body text
+        t = body.get_text(separator="\n", strip=True)
+        chapters = [("1", t)] if t else []
+
+    return chapters, meta
 
 
 def download_scripture(entry: dict) -> dict:
@@ -110,9 +173,9 @@ def download_scripture(entry: dict) -> dict:
         print(f"[defer] {slug}: {entry['defer_reason']}")
         return {"slug": slug, "status": "deferred", "reason": entry["defer_reason"]}
 
-    work_id = entry.get("cbeta_work_id")
-    if not work_id:
-        return {"slug": slug, "status": "error", "reason": "no cbeta_work_id"}
+    cbeta_path = entry.get("cbeta_path")
+    if not cbeta_path:
+        return {"slug": slug, "status": "error", "reason": "no cbeta_path"}
 
     meta_path = TRANSLATIONS_DIR / slug / "meta.json"
     out_dir = TRANSLATIONS_DIR / slug / "raw"
@@ -126,22 +189,20 @@ def download_scripture(entry: dict) -> dict:
             pass
 
     try:
-        juans = entry.get("juans") or fetch_work_juans(work_id)
-        print(f"  [work] {work_id} ({len(juans)} juans)")
-        chapters: list[tuple[str, str]] = []
-        urls: list[str] = []
-        for j in juans:
-            print(f"  [juan] {work_id} 卷 {j}")
-            time.sleep(SLEEP_BETWEEN_REQUESTS)
-            urls.append(f"{CBETA_API}/juans?work={work_id}&juan={j}")
-            text = fetch_juan_text(work_id, j)
-            if text.strip():
-                chapters.append((j, text))
-    except (RuntimeError, requests.RequestException) as e:
+        print(f"  [fetch] {cbeta_path}")
+        time.sleep(SLEEP_BETWEEN_REQUESTS)
+        xml = fetch_xml(cbeta_path)
+        chapters, xml_meta = tei_to_text(xml)
+    except FileNotFoundError as e:
+        print(f"[not-found] {slug}: {cbeta_path} does not exist on CBETA")
+        return {"slug": slug, "status": "not_found", "reason": str(e)}
+    except RuntimeError as e:
         return {"slug": slug, "status": "error", "reason": str(e)}
+    except requests.RequestException as e:
+        return {"slug": slug, "status": "fetch_error", "reason": str(e)}
 
     if not chapters:
-        return {"slug": slug, "status": "empty", "reason": f"no text returned for {work_id}"}
+        return {"slug": slug, "status": "empty", "reason": "no text extracted from TEI"}
 
     out_dir.mkdir(parents=True, exist_ok=True)
     lines = []
@@ -153,21 +214,21 @@ def download_scripture(entry: dict) -> dict:
     original_bytes = original_text.encode("utf-8")
 
     (out_dir / "original.txt").write_bytes(original_bytes)
-    (out_dir / "source-urls.txt").write_bytes(("\n".join(urls) + "\n").encode("utf-8"))
+    (out_dir / "source-urls.txt").write_bytes((f"{CBETA_RAW}/{cbeta_path}\n").encode("utf-8"))
     sha = hashlib.sha256(original_bytes).hexdigest()
     (out_dir / "checksums.sha256").write_bytes(f"{sha}  original.txt\n".encode("utf-8"))
 
     meta = {
         "slug": slug,
         "name_zh": entry["name_zh"],
-        "name_en": entry.get("name_en", ""),
+        "name_en": entry.get("name_en", xml_meta.get("title_en", "")),
         "name_original": entry.get("name_original") or entry["name_zh"],
         "religion": entry.get("religion", "佛教-漢譯"),
         "language": entry.get("language", "古典漢語"),
-        "version": entry.get("version", f"CBETA {work_id}"),
+        "version": entry.get("version", xml_meta.get("author") or "CBETA"),
         "version_date": entry.get("version_date", "—"),
-        "source_platform": "CBETA",
-        "source_url": f"https://cbetaonline.dila.edu.tw/zh/{work_id}",
+        "source_platform": "CBETA (TEI P5 XML, GitHub)",
+        "source_url": f"{CBETA_RAW}/{cbeta_path}",
         "downloaded_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "size_bytes": len(original_bytes),
         "checksum_sha256": sha,
@@ -188,7 +249,7 @@ def download_scripture(entry: dict) -> dict:
 
 
 def load_catalog(religion: str) -> list[dict]:
-    name_map = {"漢譯佛經": "buddhism-cbeta.json"}
+    name_map = {"漢譯佛經": "buddhism-cbeta.json", "佛教-漢譯": "buddhism-cbeta.json"}
     if religion not in name_map:
         sys.exit(f"unknown religion: {religion}")
     path = CATALOG_DIR / name_map[religion]

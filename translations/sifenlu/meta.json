@@ -1,0 +1,23 @@
+{
+  "slug": "sifenlu",
+  "name_zh": "四分律",
+  "name_en": "Dharmaguptaka Vinaya",
+  "name_original": "四分律",
+  "religion": "佛教-漢譯",
+  "language": "古典漢語",
+  "version": "佛陀耶舍共竺佛念譯",
+  "version_date": "412 AD",
+  "source_platform": "CBETA (TEI P5 XML, GitHub)",
+  "source_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T22/T22n1428.xml",
+  "downloaded_at": "2026-06-29T23:20:27+00:00",
+  "size_bytes": 2226037,
+  "checksum_sha256": "21bc3ce775921aaf09c972bdd5d262332f5930b3cb091c240df854b41a446b72",
+  "chapter_count": 60,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC-SA 4.0 (CBETA)",
+  "verified": true,
+  "tier": "次要",
+  "notes": null
+}

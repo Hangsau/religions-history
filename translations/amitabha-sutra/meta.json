@@ -1,0 +1,23 @@
+{
+  "slug": "amitabha-sutra",
+  "name_zh": "佛說阿彌陀經",
+  "name_en": "Amitabha Sutra (Smaller)",
+  "name_original": "佛說阿彌陀經",
+  "religion": "佛教-漢譯",
+  "language": "古典漢語",
+  "version": "鳩摩羅什譯",
+  "version_date": "402 AD",
+  "source_platform": "CBETA (TEI P5 XML, GitHub)",
+  "source_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0366.xml",
+  "downloaded_at": "2026-06-29T23:19:11+00:00",
+  "size_bytes": 7501,
+  "checksum_sha256": "9863d47e42cd3baa6bf0168ef6159f7a1c8bf6bdf823b1c9fe3c9d7cb8eaf57b",
+  "chapter_count": 1,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC-SA 4.0 (CBETA)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

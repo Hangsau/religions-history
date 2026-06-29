@@ -1,0 +1,65 @@
+{
+  "religion": "佛教-漢譯",
+  "source_platform": "CBETA TEI P5 XML (GitHub)",
+  "license": "CC BY-NC-SA 4.0",
+  "language": "古典漢語",
+  "notes": "漢譯佛經 catalog, 資料源 cbeta-org/xml-p5. 涵蓋大乘核心經、論、律、密教及四阿含等漢譯本。",
+  "scriptures": [
+    {"slug": "heart-sutra-kumarajiva", "cbeta_path": "T/T08/T08n0250.xml", "name_zh": "摩訶般若波羅蜜大明咒經", "name_en": "Heart Sutra (Kumarajiva)", "version": "鳩摩羅什譯", "version_date": "402 AD", "tier": "核心"},
+    {"slug": "heart-sutra-xuanzang", "cbeta_path": "T/T08/T08n0251.xml", "name_zh": "般若波羅蜜多心經", "name_en": "Heart Sutra (Xuanzang)", "version": "玄奘譯", "version_date": "649 AD", "tier": "核心"},
+    {"slug": "diamond-sutra-kumarajiva", "cbeta_path": "T/T08/T08n0235.xml", "name_zh": "金剛般若波羅蜜經", "name_en": "Diamond Sutra (Kumarajiva)", "version": "鳩摩羅什譯", "version_date": "402 AD", "tier": "核心"},
+    {"slug": "diamond-sutra-xuanzang", "skip_reason": "大般若 600卷分散 T05-07 多檔案; 金剛能斷分卷 N/A 在 T0220 內. 後期專項處理"},
+    {"slug": "lotus-sutra", "cbeta_path": "T/T09/T09n0262.xml", "name_zh": "妙法蓮華經", "name_en": "Lotus Sutra", "version": "鳩摩羅什譯", "version_date": "406 AD", "tier": "核心"},
+    {"slug": "avatamsaka-sutra", "cbeta_path": "T/T10/T10n0279.xml", "name_zh": "大方廣佛華嚴經（八十華嚴）", "name_en": "Avatamsaka Sutra (80 fascicle)", "version": "實叉難陀譯", "version_date": "699 AD", "tier": "核心"},
+    {"slug": "shurangama-sutra", "cbeta_path": "T/T19/T19n0945.xml", "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經", "name_en": "Shurangama Sutra", "version": "般剌蜜帝譯", "version_date": "705 AD", "tier": "核心"},
+    {"slug": "vimalakirti-sutra", "cbeta_path": "T/T14/T14n0475.xml", "name_zh": "維摩詰所說經", "name_en": "Vimalakirti Sutra", "version": "鳩摩羅什譯", "version_date": "406 AD", "tier": "核心"},
+    {"slug": "amitabha-sutra", "cbeta_path": "T/T12/T12n0366.xml", "name_zh": "佛說阿彌陀經", "name_en": "Amitabha Sutra (Smaller)", "version": "鳩摩羅什譯", "version_date": "402 AD", "tier": "核心"},
+    {"slug": "infinite-life-sutra", "cbeta_path": "T/T12/T12n0360.xml", "name_zh": "佛說無量壽經", "name_en": "Infinite Life Sutra", "version": "康僧鎧譯", "version_date": "252 AD", "tier": "核心"},
+    {"slug": "contemplation-sutra", "cbeta_path": "T/T12/T12n0365.xml", "name_zh": "佛說觀無量壽佛經", "name_en": "Contemplation Sutra", "version": "畺良耶舍譯", "version_date": "424 AD", "tier": "核心"},
+    {"slug": "perfect-enlightenment-sutra", "cbeta_path": "T/T17/T17n0842.xml", "name_zh": "大方廣圓覺修多羅了義經", "name_en": "Perfect Enlightenment Sutra", "version": "佛陀多羅譯", "version_date": "693 AD", "tier": "核心"},
+    {"slug": "ksitigarbha-sutra", "cbeta_path": "T/T13/T13n0412.xml", "name_zh": "地藏菩薩本願經", "name_en": "Ksitigarbha Sutra", "version": "實叉難陀譯", "version_date": "唐", "tier": "核心"},
+    {"slug": "medicine-buddha-sutra", "cbeta_path": "T/T14/T14n0450.xml", "name_zh": "藥師琉璃光如來本願功德經", "name_en": "Medicine Buddha Sutra", "version": "玄奘譯", "version_date": "650 AD", "tier": "核心"},
+    {"slug": "mahaparinirvana-sutra-northern", "cbeta_path": "T/T12/T12n0374.xml", "name_zh": "大般涅槃經（北本）", "name_en": "Mahaparinirvana Sutra (Northern)", "version": "曇無讖譯", "version_date": "421 AD", "tier": "核心"},
+    {"slug": "fortytwo-chapters-sutra", "cbeta_path": "T/T17/T17n0784.xml", "name_zh": "四十二章經", "name_en": "Sutra in 42 Sections", "version": "迦葉摩騰共法蘭譯", "version_date": "67 AD (傳)", "tier": "核心"},
+
+    {"slug": "diamond-mulamadhyamaka", "cbeta_path": "T/T30/T30n1564.xml", "name_zh": "中論", "name_en": "Mūlamadhyamakakārikā", "version": "鳩摩羅什譯", "version_date": "409 AD", "tier": "核心"},
+    {"slug": "awakening-of-faith", "cbeta_path": "T/T32/T32n1666.xml", "name_zh": "大乘起信論", "name_en": "Awakening of Faith", "version": "真諦譯", "version_date": "550 AD", "tier": "核心"},
+    {"slug": "abhidharmakosa", "cbeta_path": "T/T29/T29n1558.xml", "name_zh": "阿毘達磨俱舍論", "name_en": "Abhidharmakośa", "version": "玄奘譯", "version_date": "唐", "tier": "核心"},
+    {"slug": "yogacarabhumi", "cbeta_path": "T/T30/T30n1579.xml", "name_zh": "瑜伽師地論", "name_en": "Yogācārabhūmi", "version": "玄奘譯", "version_date": "唐", "tier": "核心"},
+    {"slug": "mahaprajnaparamita-shastra", "cbeta_path": "T/T25/T25n1509.xml", "name_zh": "大智度論", "name_en": "Mahāprajñāpāramitā-śāstra", "version": "鳩摩羅什譯", "version_date": "405 AD", "tier": "核心"},
+    {"slug": "mahayanasamgraha", "cbeta_path": "T/T31/T31n1593.xml", "name_zh": "攝大乘論", "name_en": "Mahāyānasaṃgraha", "version": "真諦譯", "version_date": "563 AD", "tier": "核心"},
+    {"slug": "vijnaptimatratasiddhi", "cbeta_path": "T/T31/T31n1585.xml", "name_zh": "成唯識論", "name_en": "Vijñaptimātratāsiddhi", "version": "玄奘譯", "version_date": "659 AD", "tier": "核心"},
+
+    {"slug": "dirghagama", "cbeta_path": "T/T01/T01n0001.xml", "name_zh": "長阿含經", "name_en": "Dīrghāgama", "version": "佛陀耶舍共竺佛念譯", "version_date": "412 AD", "tier": "核心"},
+    {"slug": "madhyamagama", "cbeta_path": "T/T01/T01n0026.xml", "name_zh": "中阿含經", "name_en": "Madhyamāgama", "version": "瞿曇僧伽提婆譯", "version_date": "398 AD", "tier": "核心"},
+    {"slug": "samyuktagama", "cbeta_path": "T/T02/T02n0099.xml", "name_zh": "雜阿含經", "name_en": "Saṃyuktāgama", "version": "求那跋陀羅譯", "version_date": "443 AD", "tier": "核心"},
+    {"slug": "ekottarikagama", "cbeta_path": "T/T02/T02n0125.xml", "name_zh": "增一阿含經", "name_en": "Ekottarikāgama", "version": "瞿曇僧伽提婆譯", "version_date": "397 AD", "tier": "核心"},
+
+    {"slug": "sifenlu", "cbeta_path": "T/T22/T22n1428.xml", "name_zh": "四分律", "name_en": "Dharmaguptaka Vinaya", "version": "佛陀耶舍共竺佛念譯", "version_date": "412 AD", "tier": "次要"},
+    {"slug": "wufenlu", "cbeta_path": "T/T22/T22n1421.xml", "name_zh": "五分律", "name_en": "Mahīśāsaka Vinaya", "version": "佛陀什共竺道生譯", "version_date": "424 AD", "tier": "次要"},
+    {"slug": "mahasanghika-vinaya", "cbeta_path": "T/T22/T22n1425.xml", "name_zh": "摩訶僧祇律", "name_en": "Mahāsāṃghika Vinaya", "version": "佛陀跋陀羅共法顯譯", "version_date": "416 AD", "tier": "次要"},
+    {"slug": "shisonglu", "cbeta_path": "T/T23/T23n1435.xml", "name_zh": "十誦律", "name_en": "Sarvāstivāda Vinaya", "version": "鳩摩羅什等譯", "version_date": "404 AD", "tier": "次要"},
+
+    {"slug": "lankavatara-sutra", "cbeta_path": "T/T16/T16n0670.xml", "name_zh": "楞伽阿跋多羅寶經", "name_en": "Lankavatara Sutra", "version": "求那跋陀羅譯", "version_date": "443 AD", "tier": "次要"},
+    {"slug": "samdhinirmocana-sutra", "cbeta_path": "T/T16/T16n0676.xml", "name_zh": "解深密經", "name_en": "Samdhinirmocana Sutra", "version": "玄奘譯", "version_date": "647 AD", "tier": "次要"},
+    {"slug": "srimaladevi-sutra", "cbeta_path": "T/T12/T12n0353.xml", "name_zh": "勝鬘師子吼一乘大方便方廣經", "name_en": "Srimala Sutra", "version": "求那跋陀羅譯", "version_date": "436 AD", "tier": "次要"},
+    {"slug": "tathagatagarbha-sutra", "cbeta_path": "T/T16/T16n0666.xml", "name_zh": "大方等如來藏經", "name_en": "Tathagatagarbha Sutra", "version": "佛陀跋陀羅譯", "version_date": "420 AD", "tier": "次要"},
+
+    {"slug": "mahavairocana-sutra", "cbeta_path": "T/T18/T18n0848.xml", "name_zh": "大毘盧遮那成佛神變加持經", "name_en": "Mahavairocana Sutra", "version": "善無畏共一行譯", "version_date": "724 AD", "tier": "次要"},
+    {"slug": "vajrasekhara-sutra", "cbeta_path": "T/T18/T18n0865.xml", "name_zh": "金剛頂一切如來真實攝大乘現證大教王經", "name_en": "Vajrasekhara Sutra", "version": "不空譯", "version_date": "753 AD", "tier": "次要"},
+
+    {"slug": "samantabhadra-meditation-sutra", "cbeta_path": "T/T09/T09n0277.xml", "name_zh": "佛說觀普賢菩薩行法經", "name_en": "Samantabhadra Meditation Sutra", "version": "曇無蜜多譯", "version_date": "424 AD", "tier": "次要"},
+    {"slug": "trishika", "cbeta_path": "T/T31/T31n1586.xml", "name_zh": "唯識三十論頌", "name_en": "Triṃśikā", "version": "玄奘譯", "version_date": "唐", "tier": "次要"},
+    {"slug": "vimsika", "cbeta_path": "T/T31/T31n1590.xml", "name_zh": "唯識二十論", "name_en": "Viṃśatikā", "version": "玄奘譯", "version_date": "唐", "tier": "次要"},
+    {"slug": "abhidharmasamuccaya", "cbeta_path": "T/T31/T31n1605.xml", "name_zh": "大乘阿毘達磨集論", "name_en": "Abhidharmasamuccaya", "version": "玄奘譯", "version_date": "唐", "tier": "次要"},
+    {"slug": "satyasiddhi", "cbeta_path": "T/T32/T32n1646.xml", "name_zh": "成實論", "name_en": "Satyasiddhi-śāstra", "version": "鳩摩羅什譯", "version_date": "411 AD", "tier": "次要"},
+    {"slug": "abhidharma-jnanaprasthana", "cbeta_path": "T/T26/T26n1544.xml", "name_zh": "阿毘達磨發智論", "name_en": "Jñānaprasthāna", "version": "玄奘譯", "version_date": "唐", "tier": "次要"},
+
+    {"slug": "tathagatagarbha-mahaparinirvana", "cbeta_path": "T/T01/T01n0007.xml", "name_zh": "大般涅槃經（小本）", "name_en": "Mahaparinirvana Sutra (smaller)", "version": "法顯譯", "version_date": "417 AD", "tier": "次要"},
+    {"slug": "mahasannipata-sutra", "cbeta_path": "T/T13/T13n0397.xml", "name_zh": "大方等大集經", "name_en": "Mahāsaṃnipāta Sutra", "version": "曇無讖等譯", "version_date": "414 AD", "tier": "次要"},
+    {"slug": "ratnakuta-sutra", "cbeta_path": "T/T11/T11n0310.xml", "name_zh": "大寶積經", "name_en": "Mahāratnakūṭa Sutra", "version": "菩提流志譯", "version_date": "713 AD", "tier": "次要"},
+    {"slug": "prajnaparamita-8000", "cbeta_path": "T/T08/T08n0227.xml", "name_zh": "小品般若波羅蜜經", "name_en": "Aṣṭasāhasrikā Prajñāpāramitā", "version": "鳩摩羅什譯", "version_date": "408 AD", "tier": "次要"},
+    {"slug": "prajnaparamita-25000", "cbeta_path": "T/T08/T08n0223.xml", "name_zh": "摩訶般若波羅蜜經", "name_en": "Pañcaviṃśatisāhasrikā Prajñāpāramitā", "version": "鳩摩羅什譯", "version_date": "404 AD", "tier": "次要"},
+    {"slug": "humane-king-sutra", "cbeta_path": "T/T08/T08n0245.xml", "name_zh": "仁王般若波羅蜜經", "name_en": "Humane King Sutra", "version": "鳩摩羅什譯", "version_date": "402 AD", "tier": "次要"}
+  ]
+}
