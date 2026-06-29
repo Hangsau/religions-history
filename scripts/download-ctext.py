@@ -43,7 +43,7 @@ API_BASE = "https://api.ctext.org"
 HTML_BASE = "https://ctext.org"
 USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
 REQ_TIMEOUT = 30
-SLEEP_BETWEEN_REQUESTS = 1.0
+SLEEP_BETWEEN_REQUESTS = 2.0
 MAX_RETRIES = 5
 BACKOFF_INITIAL = 20.0
 MAX_RECURSION_DEPTH = 5
@@ -62,7 +62,14 @@ def fetch_json(url: str) -> dict:
                 backoff *= 2
                 continue
             r.raise_for_status()
-            return r.json()
+            data = r.json()
+            # API-level rate limit signal
+            if isinstance(data, dict) and data.get("error", {}).get("code") == "ERR_REQUEST_LIMIT":
+                print(f"  [api-rate-limit] sleep {backoff:.0f}s (attempt {attempt}/{MAX_RETRIES})")
+                time.sleep(backoff)
+                backoff *= 2
+                continue
+            return data
         except requests.RequestException as e:
             last_exc = e
             print(f"  [req-error {type(e).__name__}] sleep {backoff:.0f}s (attempt {attempt}/{MAX_RETRIES}): {e}")

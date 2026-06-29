@@ -1,0 +1,23 @@
+{
+  "slug": "analects",
+  "name_zh": "論語",
+  "name_en": "Analects",
+  "name_original": "論語",
+  "religion": "儒教",
+  "language": "古典漢語",
+  "version": "通行本（朱熹集注）",
+  "version_date": "戰國—宋",
+  "source_platform": "ctext.org (api)",
+  "source_url": "https://api.ctext.org/gettext?urn=ctp:analects",
+  "downloaded_at": "2026-06-29T17:12:44+00:00",
+  "size_bytes": 65450,
+  "checksum_sha256": "e1c54115b36f0102f7c2f9adb3b34d4e5bec91c0ae5824448253595c1f7b393c",
+  "chapter_count": 20,
+  "expected_chapter_count": 20,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-SA 4.0",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

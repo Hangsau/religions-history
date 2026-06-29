@@ -55,7 +55,21 @@
        "ctp:liezi/shuo-fu"
      ]},
 
-    {"slug": "wenzi", "ctext_slug": "wenzi", "name_zh": "文子", "name_en": "Wenzi", "version": "通行本", "version_date": "戰國—西漢", "tier": "核心", "expected_chapter_count": 12, "defer_reason": "需 chapter URN 列表，待補"},
+    {"slug": "wenzi", "ctext_slug": "wenzi", "name_zh": "文子", "name_en": "Wenzi", "version": "通行本", "version_date": "戰國—西漢", "tier": "核心", "expected_chapter_count": 12,
+     "chapter_urns": [
+       "ctp:wenzi/dao-yuan",
+       "ctp:wenzi/jing-cheng",
+       "ctp:wenzi/jiu-shou",
+       "ctp:wenzi/fu-yan",
+       "ctp:wenzi/dao-de",
+       "ctp:wenzi/shang-de",
+       "ctp:wenzi/wei-ming",
+       "ctp:wenzi/zi-ran",
+       "ctp:wenzi/xia-de",
+       "ctp:wenzi/shang-ren",
+       "ctp:wenzi/shang-yi",
+       "ctp:wenzi/shang-li"
+     ]},
 
     {"slug": "huangdi-neijing", "ctext_slug": "huangdi-neijing", "name_zh": "黃帝內經", "name_en": "Huangdi Neijing", "version": "素問+靈樞", "version_date": "戰國—漢", "tier": "核心", "expected_chapter_count": null, "defer_reason": "素問 81 篇 + 靈樞 81 篇 = 162，URN 待補"},
 

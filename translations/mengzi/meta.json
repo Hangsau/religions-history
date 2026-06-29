@@ -1,0 +1,23 @@
+{
+  "slug": "mengzi",
+  "name_zh": "孟子",
+  "name_en": "Mencius",
+  "name_original": "孟子",
+  "religion": "儒教",
+  "language": "古典漢語",
+  "version": "通行本",
+  "version_date": "戰國",
+  "source_platform": "ctext.org (api)",
+  "source_url": "https://api.ctext.org/gettext?urn=ctp:mengzi",
+  "downloaded_at": "2026-06-29T17:13:19+00:00",
+  "size_bytes": 135591,
+  "checksum_sha256": "8a6680ad381231b5f3bc810ec0c994a09af98cc917f8ee71dfaaaa548aa09a31",
+  "chapter_count": 14,
+  "expected_chapter_count": 14,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-SA 4.0",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}
