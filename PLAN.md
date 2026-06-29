@@ -63,12 +63,30 @@
 
 ## 3. 工作方法
 
+### 3.0 翻譯原則（2026-06-29 修訂）
+
+**整個計畫不使用已翻譯的譯文。原文優先 → AI 翻譯 → 交叉比對。**
+
+- **第一步：原文** — 抓原語言文本（梵文、阿拉伯、希伯來、古典漢語、巴利、希臘等）
+- **第二步：AI 翻譯** — 用 LLM 直接從原文翻成繁中白話
+- **第三步：交叉比對** — 拿現有譯本（Legge、KJV、Griffith 等）只作 cross-check，不主用
+- **第四步：記錄差異** — 翻譯中遇到的歧義 / 多解 / 學界爭論 → 寫進註腳
+
+**為什麼**：
+- 現成譯本帶翻譯者神學 / 文化立場（如 KJV 對教派、LXX vs MT 舊約差異）
+- AI 翻譯獨立於教派，可作「中立第三方」對照
+- 交叉比對才能標出爭議
+
+詳細 SOP 見 [`methodology/translation-workflow.md`](./methodology/translation-workflow.md)。
+
 ### 3.1 資料來源（嚴格分流）
 
-- **A 級**：學術專著、Stanford Encyclopedia of Philosophy、Encyclopaedia Britannica
-- **B 級**：大學公開課、博物館展覽
-- **C 級**：中文百科 — 僅 cross-check
-- **D 級**：教內自述 — 標明「教內視角」
+- **A 級**：原文資料庫（VIAF、GRETIL、SEFARIA、Perseus、SAT、CBETA、ctext.org 等）
+- **B 級**：學術專著、Stanford Encyclopedia of Philosophy、Encyclopaedia Britannica
+- **C 級**：大學公開課、博物館展覽
+- **D 級**：中文百科 — 僅 cross-check
+- **E 級**：教內自述 — 標明「教內視角」
+- **X 級**：現成譯本 — **只用於交叉比對**，不直接引用
 
 ### 3.2 清單格式（宗教條目）
 
