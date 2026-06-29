@@ -1,0 +1,10 @@
+{
+  "religion": "伊斯蘭",
+  "source_platform": "Quran.com API",
+  "license": "Public Domain (Uthmani text)",
+  "language": "古典阿拉伯",
+  "notes": "古蘭經 114 章 Uthmani 校勘版. 聖訓集另需 Sunnah.com API (後期).",
+  "scriptures": [
+    {"slug": "quran", "surah_range": [1, 114], "name_zh": "古蘭經", "name_en": "Quran", "name_original": "القرآن", "version": "Uthmani 正典本", "version_date": "651 AD", "tier": "核心", "expected_chapter_count": 114}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "quran",
+  "name_zh": "古蘭經",
+  "name_en": "Quran",
+  "name_original": "القرآن",
+  "religion": "伊斯蘭",
+  "language": "古典阿拉伯",
+  "version": "Uthmani 正典本",
+  "version_date": "651 AD",
+  "source_platform": "Quran.com API",
+  "source_url": "https://quran.com/1",
+  "downloaded_at": "2026-06-29T23:30:27+00:00",
+  "size_bytes": 1408169,
+  "checksum_sha256": "9fc5a1acb196117b088c53d111ddc494ef593ecb5763881cd24abca1ccfc4020",
+  "chapter_count": 114,
+  "expected_chapter_count": 114,
+  "license": "Public Domain (Uthmani text)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}
