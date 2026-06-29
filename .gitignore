@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts（未來加 Hugo / Astro 時啟用）
+# public/
+# dist/
+# .cache/
+
+# 私人草稿
+drafts/
+notes/private/
