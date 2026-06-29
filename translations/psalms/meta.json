@@ -1,0 +1,23 @@
+{
+  "slug": "psalms",
+  "name_zh": "詩篇",
+  "name_en": "Psalms",
+  "name_original": "Psalms",
+  "religion": "猶太教",
+  "language": "希伯來",
+  "version": "Sefaria 校勘版",
+  "version_date": "—",
+  "source_platform": "Sefaria",
+  "source_url": "https://www.sefaria.org/Psalms",
+  "downloaded_at": "2026-06-29T23:43:46+00:00",
+  "size_bytes": 367406,
+  "checksum_sha256": "c66d5418f41948c7235c66e5b9644262c9910798422b3c111dd0b2e00e425b17",
+  "chapter_count": 150,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-NC 4.0 (Sefaria)",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

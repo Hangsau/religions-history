@@ -7,8 +7,15 @@
   "scriptures": [
     {"slug": "digha-nikaya", "sc_uid": "dn", "name_zh": "長部經典", "name_en": "Digha Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "expected_chapter_count": 34},
     {"slug": "majjhima-nikaya", "sc_uid": "mn", "name_zh": "中部經典", "name_en": "Majjhima Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "expected_chapter_count": 152},
-    {"slug": "samyutta-nikaya", "sc_uid": "sn", "name_zh": "相應部經典", "name_en": "Samyutta Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心"},
-    {"slug": "anguttara-nikaya", "sc_uid": "an", "name_zh": "增支部經典", "name_en": "Anguttara Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心"},
-    {"slug": "khuddaka-nikaya", "sc_uid": "kn", "name_zh": "小部", "name_en": "Khuddaka Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "notes": "含 Dhammapada, Sutta Nipāta, Theragāthā, Therīgāthā, Jātaka 等 15 部子集"}
+    {"slug": "samyutta-nikaya", "sc_uid": "sn", "name_zh": "相應部經典", "name_en": "Samyutta Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "defer_reason": "SN 含 56 samyutta × 多 group × 多 sutta = ~3000 leaves; 直接遞迴 menu API 太慢. 後期改用分 samyutta 個別下載"},
+    {"slug": "anguttara-nikaya", "sc_uid": "an", "name_zh": "增支部經典", "name_en": "Anguttara Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "defer_reason": "同 SN, ~7000 leaves; 改用分 nipata 個別下載"},
+    {"slug": "khuddaka-nikaya", "sc_uid": "kn", "name_zh": "小部", "name_en": "Khuddaka Nikaya", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心", "defer_reason": "KN 含 15 部子集; 改用 dhammapada / suttanipata 等個別下載",
+     "notes": "含 Dhammapada, Sutta Nipāta, Theragāthā, Therīgāthā, Jātaka 等 15 部子集"},
+    {"slug": "dhammapada", "sc_uid": "dhp", "name_zh": "法句經", "name_en": "Dhammapada", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心"},
+    {"slug": "sutta-nipata", "sc_uid": "snp", "name_zh": "經集", "name_en": "Sutta Nipāta", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "核心"},
+    {"slug": "udana", "sc_uid": "ud", "name_zh": "自說經", "name_en": "Udāna", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "次要"},
+    {"slug": "itivuttaka", "sc_uid": "iti", "name_zh": "如是語經", "name_en": "Itivuttaka", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "次要"},
+    {"slug": "theragatha", "sc_uid": "thag", "name_zh": "長老偈", "name_en": "Theragāthā", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "次要"},
+    {"slug": "therigatha", "sc_uid": "thig", "name_zh": "長老尼偈", "name_en": "Therīgāthā", "version": "Sujato/Mahāsaṅgīti edition", "version_date": "—", "tier": "次要"}
   ]
 }
