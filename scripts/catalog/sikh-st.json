@@ -1,0 +1,11 @@
+{
+  "religion": "錫克教",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation, parts romanized Punjabi)",
+  "notes": "錫克教核心經典英譯本. Macauliffe 全集 (6 vols) 已 en.wikisource 抓; 補 Guru Granth Sahib 完整 + Religion of the Sikhs.",
+  "scriptures": [
+    {"slug": "guru-granth-sahib-st", "st_book_path": "skh/granth", "name_zh": "錫克教根本經 Shri Guru Granth Sahib", "name_en": "Shri Guru Granth Sahib", "version": "Gopal Singh translation 1962 (sacred-texts 編)", "tier": "核心", "is_original_language": false},
+    {"slug": "religion-of-sikhs", "st_book_path": "skh/rosi", "name_zh": "錫克教宗教 (Field)", "name_en": "The Religion of the Sikhs", "version": "Field 1914", "tier": "次要", "is_original_language": false}
+  ]
+}

@@ -241,6 +241,7 @@ CATALOG_MAP = {
     "美洲": "americas-st.json",
     "非洲": "africa-st.json",
     "猶太教-輔助": "judaism-st.json",
+    "錫克教-輔助": "sikh-st.json",
 }
 
 
