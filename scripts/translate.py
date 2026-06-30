@@ -69,7 +69,7 @@ CORE_SLUGS = [
     "diamond-sutra-kumarajiva",
 ]
 
-MAX_CHARS_PER_CALL = 30000  # m3 input safety; longer → chunk by chapter
+MAX_CHARS_PER_CALL = 15000  # m3 input safety; longer → chunk by chapter (larger sizes risk m3 timeouts)
 CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
 
 
@@ -164,6 +164,7 @@ def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str
 
 
 def call_m3(prompt: str, dry_run: bool = False) -> str | None:
+    sys.stdout.flush()  # ensure prior prints land before subprocess wait
     """Invoke claude CLI with MiniMax-M3 env vars (equivalent to claude-m3 shell function)."""
     if dry_run:
         print(f"\n[DRY RUN] prompt length: {len(prompt)} chars\n{'='*60}")
@@ -274,10 +275,18 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         tr_path = TRANSLATIONS_DIR / slug / "01-translation.md"
         if tr_path.exists():
             translation_text = tr_path.read_text(encoding="utf-8")
+        else:
+            print(f"  [error] {slug} (annotate): 01-translation.md not yet exists; run --task translate first")
+            return False
+
+    # The text we chunk: original for translate, translation for annotate
+    # (annotation should reason over the translated/preserved Chinese form, not the raw source language)
+    chunkable_text = original_text if task == "translate" else translation_text
+    aux_text = None if task == "translate" else original_text  # not actively chunked, just for reference
 
     # Single-call path: text fits
-    if len(original_text) <= MAX_CHARS_PER_CALL:
-        prompt = build_prompt(task, role, slug, meta, original_text, translation_text)
+    if len(chunkable_text) <= MAX_CHARS_PER_CALL:
+        prompt = build_prompt(task, role, slug, meta, chunkable_text, translation_text)
         print(f"  [start] {slug} ({task})  (prompt {len(prompt)} chars)")
         output = call_m3(prompt, dry_run=dry_run)
         if output is None or dry_run:
@@ -288,15 +297,20 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         return True
 
     # Chunked path
-    chapters = split_chapters(original_text)
+    chapters = split_chapters(chunkable_text)
     groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)  # reserve room for role+prompt
     print(f"  [chunk] {slug} ({task}): {len(chapters)} chapters → {len(groups)} chunks")
 
     parts: list[str] = []
     for i, group in enumerate(groups, 1):
         chunk_text = "\n".join(group)
-        chunk_meta_note = f"\n\n**注意：本經分 {len(groups)} 段送譯，這是第 {i}/{len(groups)} 段。請只處理本段內容，標題列只在第 1 段需要，後續段直接從 `=== N | label ===` 開始即可。**"
-        prompt = build_prompt(task, role, slug, meta, chunk_text + chunk_meta_note, translation_text)
+        chunk_meta_note = f"\n\n**注意：本經分 {len(groups)} 段處理，這是第 {i}/{len(groups)} 段。請只處理本段內容，標題列只在第 1 段需要，後續段直接從 `=== N | label ===` 開始即可。**"
+        # For annotate, pass chunk as the "translation" to annotate (since we're chunking the translation now)
+        if task == "translate":
+            prompt = build_prompt(task, role, slug, meta, chunk_text + chunk_meta_note, translation_text)
+        else:
+            # Annotation: chunk_text is the translation chunk; original is not actively passed in chunked mode
+            prompt = build_prompt(task, role, slug, meta, "(原文略，見原文檔)", chunk_text + chunk_meta_note)
         print(f"    [chunk {i}/{len(groups)}] {slug} ({task})  ({len(chunk_text)} chars)")
         output = call_m3(prompt, dry_run=dry_run)
         if output is None:
