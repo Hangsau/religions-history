@@ -124,33 +124,51 @@
 
 ---
 
-## 4. 階段規劃 (v3, 改寫於 2026-06-30)
+## 4. 階段規劃（v4，2026-07-01 重新定位）
 
-**目標重訂**：從「v2 精選 575 部」改為「**全本目錄 + 階段獲取**」。詳全本目錄見
-`methodology/per-religion-scriptures.md` v3 (~2,400 列出 entry，估全本級 ~85,000+)。
+### 策略轉向
 
-階段：
+**從「無限收集」轉為「先補核心缺口 + 進入品質階段」。**
 
-| 階段 | 範圍 | 預期產出 | 狀態 |
-|------|------|---------|------|
-| **P0** | 框架 + PLAN + 結構 | PLAN + CLAUDE + README + 00-overview | ✓ |
-| **P1** | 宗教總目錄 | `00-overview/religions-inventory.md` | ✓ |
-| **P2** | 經文總目錄 | `00-overview/scriptures-inventory.md` | ✓ |
-| **P2.5 / v3** | **全本經典目錄** | `methodology/per-religion-scriptures.md` v3 | ✓ |
-| **P3 Phase A** | 主要宗教核心 + 部分次要 | 8 主要宗教 + 6 邊緣部分 | ✓ ~234 部 |
-| **P3 Phase B** | 補齊主要宗教原文 + 中型總集 | 希臘 NT / Vulgate / LXX / Sanskrit Mahabharata / 耆那 45 / 巴哈伊核心 / Avesta / 神道 5 | 待 |
-| **P3 Phase C** | 巴利全展開 + 漢譯佛經補完 + 道藏精選 + 儒教十三經注疏 | ~2,000 部 | 待 |
-| **P3 Phase D** | 大規模逐部 | 巴比倫塔木德 / 教父全集 / 大正藏全本 / 道藏全本 | 待，多月工程 |
-| **P3 Phase E** | 邊緣補完 | 兩河 ETCSL / 古埃及 / 美洲 / 非洲 / 現代新興全部 | 待 |
-| **P4** | AI 翻譯 (按 `methodology/translation-workflow.md` SOP) | 每部 01-translation.md | 待 |
-| **P5** | 交叉專題 | 宗教與政治、宗教與科學、末世論比較 | 待 |
-| **P6** | 心理學 | 11-psychology/ 目錄 + 跨宗教心理學分析 | 待 |
-| **P7** | 開放資料 / 視覺化 | 知識圖譜、引用檔、英文版 | 待 |
+理由：v3 列出 ~2,400 主要 entries，目前已 80%（1932 部）。再無限深挖（道藏 5305 全 / 大正藏 T18+ / 塔木德 76 全 / 教父 ANF+NPNF 全）會：
+- 失控（量級爆到 30k+ 難管）
+- 稀釋品質（資料不會自動分析）
+- 延後 P4 翻譯 + P5 標籤 + P7 網站的有意義工作
 
-**翻譯原則**（P4 階段強制）：
+改成：**先把核心列出的補滿 → 然後做翻譯、標籤、索引、連結、網站等品質工作。**
 
-只用原文當主資料。已下載的譯文（CBETA 漢譯 / 和合本 / Mahabharata Ganguli / Iliad Butler 等）
-標 `is_original_language: false` 在 meta.json，僅作 cross-check。AI 翻譯只能從原文做。
+### 階段
+
+| 階段 | 範圍 | 狀態 |
+|------|------|------|
+| **P0** | 框架 + PLAN + 結構 | ✓ |
+| **P1** | 宗教總目錄 (`00-overview/religions-inventory.md`) | ✓ |
+| **P2** | 經文總目錄 (`00-overview/scriptures-inventory.md`) | ✓ |
+| **P2.5** | v3 全本目錄改寫 (`methodology/per-religion-scriptures.md`) | ✓ |
+| **P3 A**：主流核心 + 次要 | 道 / 儒 / 漢譯佛 / 巴利佛 / 古蘭 / 猶 / 基 / 印 8 大宗教 | ✓ |
+| **P3 B**：原文補齊 + 中型總集 | 希臘 NT / 拉丁 Vulgate / Sanskrit Veda 全 / Avesta / 古希臘羅馬 / 北歐 / 凱爾特 / 諾斯底 / 美洲 / 非洲 / 巴哈伊 + 主流深挖開始 | ✓ |
+| **P3 C**：主流深挖 + 多語版本 | CBETA T01-T17 / Sefaria Mishnah 全 + 諸家注疏 / 巴利 SN+AN+KN 子集 | ✓ |
+| **P3 D**：**補核心缺口（補完即停）** | 神道 5 / 兩河 15 / 古埃及 12 / 諾斯底 Nag Hammadi 全 52 / 現代新興（D&C / Scientology / 巴哈伊核心）/ 美洲 codices / 凱爾特剩 / 北歐剩 / 印度教 18 大 Purana | **進行中** |
+| **P4** | AI 翻譯 | 待 |
+| **P5** | 語義標籤 + 索引（跨宗教概念表）| 待 |
+| **P6** | 宗教心理學分析（11-psychology/）| 待 |
+| **P7** | 網站（Astro + Pagefind + Cloudflare Pages，見 STRATEGY §2）| 待 |
+
+### 不再做（已凍結）
+
+以下原 v3 規劃的「大規模逐部展開」**停止追求**（資料若有需要再單獨任務 spin up）：
+- 道藏 5305 卷全展開
+- 大正藏 T18-T55 全（已抓 T01-T17 約 41%，足夠樣本）
+- 卍續藏 1300+ 部全
+- 巴比倫塔木德 37 tractate × 全 daf（已有 Mishnah + 主要 commentaries 樣本）
+- 教父全集 ANF+NPNF 38 卷
+- 印度教 18 大 + 18 小往世書全卷展開
+
+理由：上述每項都是「總集逐部展開」級別工程（萬部規模）。在沒有翻譯 + 標籤 + 索引基礎前展開，等於把資料堆成更大但更難用的山。先把 D 階段補完、P4-P7 跑起來，**之後若有需要再回頭做總集級展開**。
+
+### 翻譯原則（P4 階段強制）
+
+只用原文當主資料。已下載的譯文（CBETA 漢譯 / 和合本 / Mahabharata Ganguli / Iliad Butler / Pickthall Quran 等）標 `is_original_language: false` 在 meta.json，僅作 cross-check。AI 翻譯只能從原文翻。
 
 ---
 

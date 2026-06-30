@@ -3,99 +3,98 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前進度 — ~510+ 部 / ~150 MB 原文
+## 當前狀態
 
-### 完成宗教覆蓋
+**1932 部 / 252.6 MB / 20 宗教 / 原文 1494 + 譯文 438**
 
-| 宗教 | 部數 | 主要源 | 約大小 |
-|------|------|--------|--------|
-| 佛教 - 巴利 | 8 | SuttaCentral | 5 MB |
-| 佛教 - 漢傳 | 48 (核心) + **165+ CBETA T01-T03+ 進行中** | CBETA TEI GitHub | 35+ MB |
-| 佛教 - 梵文原典 | (與 Hindu 共用 GRETIL) | GRETIL | — |
-| 道教 | 17 | ctext + Wikisource | 5 MB |
-| 儒教 | 28 | ctext + Wikisource | 12 MB |
-| 印度教 | 32 (Vedas 4 + Upanishads 11 + 史詩 + 哲學經 + Brahmana) | GRETIL Sanskrit + en.ws English | 12 MB |
-| 猶太教 | 47 (Sefaria) + 10 (sacred-texts) = 57 | Sefaria + sacred-texts | 10 MB |
-| 基督教 | 66 (和合本中譯) + 27 (SBLGNT 希臘) + 76 (Vulgate 拉丁) = 169 | en/zh/la Wikisource + SBLGNT GitHub | 16 MB |
-| 伊斯蘭 | 1 (古蘭經 114 surah Uthmani) | Quran.com API | 1.4 MB |
-| 瑣羅亞斯德 | 8 (Avesta + Pahlavi) | sacred-texts SBE | 6.4 MB |
-| 耆那教 | 2 (SBE 22+45) | sacred-texts | 0.8 MB |
-| 神道 | (defer, NDL 待) | — | — |
-| 古埃及 | 2 (Book of Dead + Pyramid Texts) | sacred-texts | 0.5 MB |
-| 古希臘羅馬 | 18+ (Homer/Hesiod/Ovid/Virgil/Plato/Plotinus etc) | sacred-texts + en.ws Butler | 5 MB |
-| 北歐 | 3 (Heimskringla + Poetic Edda + Volsunga) | en.ws + sacred-texts | 2 MB |
-| 凱爾特 | 6 (Mabinogion + Cuchulain + Carmina Gadelica + Welsh Triads) | sacred-texts + en.ws | 3 MB |
-| 諾斯底 / 赫爾墨斯 | 5 (Mead) | sacred-texts | 4 MB |
-| 美洲 | 6 (Chilam Balam + Aztec + Inca + Cherokee + Hopi + 等) | sacred-texts | 2 MB |
-| 非洲 | 6 (Yoruba + Hausa + Dahomey + Rastafarian) | sacred-texts | 1 MB |
-| 巴哈伊 | 1 (Splendour of God) | sacred-texts | 0.3 MB |
-| 錫克教 | 1 (Sikh Religion Macauliffe) | en.wikisource | 0.8 MB |
-| 現代新興 (摩門) | 2 (BoM 1830 + Pearl) | en.wikisource | 1.6 MB |
-| 印度教英譯 | 1 (Mahabharata Ganguli 618 sections) | en.wikisource | 3.5 MB |
+詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 
-### Phase B 已完成
-- 補齊基督教原文（希臘 SBLGNT 27 + 拉丁 Vulgate 76）
-- 補齊印度教梵文（吠陀 / 奧義書 / 史詩 / 6 哲學經）
-- 瑣羅亞斯德 SBE 8 部
-- 耆那 + 古埃及 SBE
-- 古希臘羅馬 + 北歐 + 凱爾特 + 諾斯底 + 美洲 + 非洲 + 巴哈伊
+## 策略決定（2026-07-01）
 
-### Phase C 進行中
-- ✅ CBETA T01 大正藏第 1 卷 98 經
-- 🟡 CBETA T02-T04 by m3
-- ⏳ Sefaria 全圖書館深爬
-- ⏳ SuttaCentral 巴利全展開 (SN/AN/KN samyutta-by-samyutta)
+**轉向：先補核心缺口 → 進入 P4 翻譯 + P5 標籤 + P7 網站，不再無限深挖。**
 
-### Phase D 規劃
-- CBETA T05-T55 全大正藏 + 卍續藏
-- Sefaria 巴比倫塔木德 37 tractate 全本
-- Maimonides Mishneh Torah 14 卷
-- 教父全集 (ANF + NPNF, 24+ 卷)
+理由：v3 列出 ~2400 entries，目前已 80%。再深挖（道藏 5305 全 / 大正藏 T18+ / 塔木德 76 全 / 教父 ANF+NPNF 全）會稀釋品質，先把列出的補齊，再做翻譯 / 標籤 / 連結等品質工作更有意義。
 
-## 已實作下載器 (10 個)
+## 立即下一步
 
-| Script | 來源 | 對應 |
-|--------|------|------|
-| download-ctext.py | api.ctext.org | 道教/儒教漢系 |
-| download-wikisource.py (--lang zh/ja/en/la/sa) | Wikisource Mediawiki API | 道教/儒教/基督教中譯/拉丁 Vulgate/世界古典英譯/神道日 |
-| download-cbeta.py | raw.githubusercontent.com cbeta-org/xml-p5 | 漢譯佛經 catalog 式 |
-| download-cbeta-full.py | 同上 + GitHub Contents API | 漢譯佛經全藏自動爬 |
-| download-quran.py | api.quran.com | 古蘭經 |
-| download-sefaria.py | sefaria.org/api | 猶太教 Tanakh/Talmud |
-| download-suttacentral.py | suttacentral.net/api | 巴利三藏 |
-| download-gretil.py | gretil.sub.uni-goettingen.de | 梵文印度教 + 佛教 |
-| download-sblgnt.py | morphgnt/sblgnt GitHub | 希臘新約原文 |
-| download-sacred-texts.py | sacred-texts.com | 13 catalogs (瑣羅/耆那/古埃/古希臘羅馬/北歐/凱/諾/曼/美洲/非洲/巴哈伊/猶太-輔/錫克-輔) |
-| verify.py | local | SHA-256 + chapter count + size |
+### 補核心缺口（一輪）
 
-## 標記原文 vs 譯文
+| 宗教 | 缺什麼 | 來源 |
+|------|--------|------|
+| 神道 | 5 部（古事記、日本書紀、延喜式、風土記、古語拾遺）| NDL or ja.ws Kokushi Taikei |
+| 兩河（蘇美 + 巴比倫 + 赫梯 + 烏加里特）| 15 部 | ETCSL Sumerian + sacred-texts /ane/ |
+| 古埃及 | 12 部（Amduat、Coffin Texts、Wisdom Literature 等）| sacred-texts + 學界數位 |
+| 美洲 codices | Dresden / Madrid / Paris codices | FAMSI or sacred-texts |
+| 諾斯底 Nag Hammadi | 52 篇本身（不只 Mead 學派）| en.wikisource or specialized |
+| 現代新興 | Doctrine and Covenants、Scientology 主要、巴哈伊核心 | en.wikisource + bahai-library |
+| 巴哈伊核心 | Kitab-i-Aqdas、Kitab-i-Iqan、Hidden Words 等 | reference.bahai.org |
+| 凱爾特 | 補 Táin Bó Cúailnge、Welsh Triads 完整版 | sacred-texts / en.ws |
+| 北歐 | 補 Skaldic、Heimskringla 完整、Beowulf | sacred-texts / en.ws |
+| 印度教 | 18 大 + 18 小 Purana（只有 Bhagavata + Skanda 1-31）| GRETIL or wisdomlib |
 
-`meta.json` 加 `is_original_language` 欄位:
-- true: 原文（巴利 / Sanskrit / Pali / Greek NT / Hebrew OT / Arabic Quran / Old Chinese / Tibetan etc）
-- false: 譯文（和合本 / Mahabharata Ganguli / Iliad Butler / Avesta English / etc）
+預估補完約 +200-300 部 → 累計 ~2200 部。
 
-譯文僅作 cross-check 比對用，P4 AI 翻譯只能從原文翻。
+### 補完後切 P4 / P5
 
-## m3 派工狀態
+- P4：AI 翻譯（按 `methodology/translation-workflow.md` SOP）。原文每部生 `01-translation.md`，譯文 cross-check
+- P5：語義標籤抽取（每部 ~100 字主旨 + 0-N 個概念 tag），生 `00-overview/tag-index.json`
+- P7：Astro 站，從 `translations/` 自動生頁面
 
-當前 m3 跑：CBETA T02-T04 + 猶太教-輔助。
-派工模式運作正常，每 batch 完成自動 commit + push.
+## 進行中（m3 背景）
+
+當前 m3 task: **Phase C-3**
+- CBETA T13-T17（大集 + 經集 ~150 部）— 完成
+- 伊斯蘭輔助 7 部 — 完成
+- Sefaria Mishnah 全 63 tractate + 諸家注疏 — 進行中
+
+完成後**停止深挖**，進入補核心缺口。
+
+## 已實作下載器（12 個）
+
+矩陣見 [`CLAUDE.md` 既有下載器矩陣](./CLAUDE.md#既有下載器矩陣-12-個)。
+
+## 已完成宗教覆蓋摘要
+
+| 宗教 | 部數 | 評估 |
+|------|------|------|
+| 佛教（漢傳 / 巴利 / 梵文混）| 961 | 漢傳 T01-T17 41% / 巴利 SN+AN+KN 子集 / 梵文 與印度教共用 |
+| 猶太教 | 657 | Sefaria Mishnah 全展開 |
+| 基督教 | 169 | 希臘 NT + 拉丁 Vulgate + 中文和合本 + Mahabharata Ganguli |
+| 印度教 | 33 | 4 Vedas + 11 Upanishads + Ramayana + 6 哲學經 |
+| 儒教 | 26 | 五經 + 四書 + 主要諸子 + 朱子語類 + 傳習錄 |
+| 古希臘羅馬 | 18 | Homer / Hesiod / Ovid / Virgil / Plato / Plotinus 等 |
+| 道教 | 17 | 道德經 + 莊子 + 列子 + 文子 + 抱朴子 + 雲笈七籤等 |
+| 瑣羅亞斯德 | 8 | Avesta SBE 04+23+31 + Pahlavi 4 卷 |
+| 伊斯蘭 | 7 | 古蘭原文 + Pickthall 英譯 + Bukhari + 蘇菲（Rumi/Ibn Arabi/Ghazali）|
+| 美洲 / 凱爾特 / 非洲 | 6 each | 部分 codices / Mabinogion / Yoruba 等 |
+| 諾斯底 | 5 | Mead Hermetica + Gnostic Remains |
+| 錫克 / 北歐 | 3 each | Macauliffe / Guru Granth / Edda / Volsunga / Heimskringla |
+| 古埃及 / 耆那 / 現代新興 | 2 each | Book of Dead / Pyramid Texts / SBE 22+45 / 摩門經+Pearl |
+| 巴哈伊 | 1 | Splendour of God |
+| 神道 | 0 | 待寫 NDL downloader |
+
+## 已知技術問題
+
+- **Windows console cp950** → 所有 Python 跑 `PYTHONIOENCODING=utf-8 python ...`
+- **跨平台 SHA-256** → `.gitattributes` 強制 LF EOL
+- **ctext.org 200/24h 配額** → 已避開改用 GitHub mirror
+- **sacred-texts.com Cloudflare** → 用 Mozilla Mac Chrome UA 解
+- **CBETA cbetaonline API 失效** → 直接抓 GitHub TEI XML（download-cbeta.py）
+- **Sefaria Guide for the Perplexed API 500** → 用 sacred-texts 替代
+- **SuttaCentral SN/AN/KN 深層遞迴** → catalog 分 samyutta/nipata 子 entry
+- **GRETIL 路徑分新舊** → `1_sanskr/*` (老) vs `corpustei/transformations/html/*` (新)
+
+## 爬蟲倫理
+
+所有 downloader 已實作（2026-07-01 更新）：
+- `_polite.py` 共用 UA：`religions-history-research/0.1 (academic research; contact: psyhangsau@gmail.com; +https://github.com/Hangsau/religions-history)`
+- 每請求 jitter（random 0-0.5s）打破規律 pattern
+- 每 100 次請求自動暫停 30s
+- 5 次指數 backoff（10 → 480s）處理 429/403/503
 
 ## 下次接手
 
-1. `python scripts/verify.py --all` 看狀態
-2. 完成 CBETA T02-T04 後接 T08（般若部 + 心經系列）、T09-T10（法華+華嚴）、T11-T13（寶積+涅槃+大集）
-3. T14-T17 經集部、T22-T24 律部、T25-T31 論部
-4. T05-T07 大般若 600卷（巨型，獨立任務）
-5. Phase D 啟動：sefaria-full / suttacentral-deep
-6. 後續 P4 AI 翻譯
-
-## 已知問題與解法
-
-- ctext.org 配額限制 → 改用 GitHub mirror / Wikisource
-- sacred-texts.com 需要 Mozilla Mac UA → 已 hardcoded
-- Sefaria Guide for the Perplexed API 失敗 → 用 sacred-texts 替代
-- SuttaCentral SN/AN/KN 深層遞迴 → 分 nipata 逐個下載
-- GRETIL 路徑分新舊 (1_sanskr/* vs corpustei/*) → catalog 區分
-- Windows console cp950 → 所有 Python 跑 `PYTHONIOENCODING=utf-8`
-- 跨平台 SHA-256 一致 → .gitattributes 強制 LF EOL
+1. 跑 `python scripts/verify.py --all` 看狀態
+2. 跑 `python scripts/generate-index.py` 重生 INDEX
+3. 看 HANDOFF「立即下一步」決定先補哪個核心缺口
+4. 補完後切 P4 翻譯 / P5 標籤
