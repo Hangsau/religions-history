@@ -1,0 +1,22 @@
+{
+  "slug": "sefaria-genesis",
+  "name_zh": "Genesis",
+  "name_en": "Genesis",
+  "name_original": "Genesis",
+  "religion": "猶太教",
+  "tradition": "Tanakh",
+  "language": "Hebrew",
+  "version": "Sefaria edition",
+  "version_date": "—",
+  "source_platform": "Sefaria",
+  "source_url": "https://www.sefaria.org/Genesis",
+  "downloaded_at": "2026-06-30T13:41:02+00:00",
+  "size_bytes": 356468,
+  "checksum_sha256": "19953eedf192bd04bcc1d2c737d4201bb188d95f76511bcaff1e6377fb464d7e",
+  "chapter_count": 50,
+  "license": "CC BY-NC 4.0 (Sefaria)",
+  "verified": false,
+  "tier": "Sefaria full crawl",
+  "is_original_language": true,
+  "notes": "Category: Tanakh"
+}
