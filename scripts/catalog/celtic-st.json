@@ -1,0 +1,15 @@
+{
+  "religion": "凱爾特",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "凱爾特 (愛爾蘭 / 威爾士 / 蘇格蘭) 神話 + 史詩 + 民間文獻英譯本.",
+  "scriptures": [
+    {"slug": "mabinogion-st", "st_book_path": "neu/celt/mab", "name_zh": "Mabinogion 馬比諾吉昂 (Welsh)", "name_en": "The Mabinogion", "version": "Lady Charlotte Guest 1877", "tier": "核心", "is_original_language": false},
+    {"slug": "cuchulain-muirthemne", "st_book_path": "neu/celt/cuch", "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)", "name_en": "Cuchulain of Muirthemne", "version": "Lady Gregory 1902", "tier": "核心", "is_original_language": false},
+    {"slug": "book-of-kells", "st_book_path": "neu/celt/bok", "name_zh": "凱爾斯之書", "name_en": "The Book of Kells", "version": "Sullivan 1914", "tier": "次要", "is_original_language": false},
+    {"slug": "celtic-folklore-rhys", "st_book_path": "neu/celt/cfu", "name_zh": "凱爾特民俗 (Rhys)", "name_en": "Celtic Folklore (Rhys)", "version": "Rhys 1901", "tier": "次要", "is_original_language": false},
+    {"slug": "carmina-gadelica-1", "st_book_path": "neu/celt/cg1", "name_zh": "Carmina Gadelica Vol 1", "name_en": "Carmina Gadelica Vol 1", "version": "Carmichael 1900", "tier": "核心", "is_original_language": false},
+    {"slug": "carmina-gadelica-2", "st_book_path": "neu/celt/cg2", "name_zh": "Carmina Gadelica Vol 2", "name_en": "Carmina Gadelica Vol 2", "version": "Carmichael 1900", "tier": "核心", "is_original_language": false}
+  ]
+}

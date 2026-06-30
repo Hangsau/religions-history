@@ -234,11 +234,11 @@ CATALOG_MAP = {
     "古埃及": "egypt-st.json",
     "古希臘羅馬": "classical-st.json",
     "北歐": "norse-st.json",
+    "凱爾特": "celtic-st.json",
     "巴哈伊": "bahai-st.json",
     "諾斯底": "gnostic-st.json",
     "曼達派": "mandaean-st.json",
-    "美洲-瑪雅": "maya-st.json",
-    "美洲-阿茲特克": "aztec-st.json",
+    "美洲": "americas-st.json",
     "非洲": "africa-st.json",
 }
 

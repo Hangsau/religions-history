@@ -1,0 +1,10 @@
+{
+  "religion": "巴哈伊",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "巴哈伊核心著作英譯本 (有限 - 大部分巴哈伊文獻在 reference.bahai.org 完整, sacred-texts 只有早期片段).",
+  "scriptures": [
+    {"slug": "splendour-of-god", "st_book_path": "bhi/sog", "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)", "name_en": "The Splendour of God", "version": "Eric Hammond 1909", "tier": "核心", "is_original_language": false}
+  ]
+}
