@@ -1,0 +1,23 @@
+{
+  "religion": "印度教",
+  "source_platform": "GRETIL",
+  "license": "Academic use (GRETIL reference)",
+  "language": "Sanskrit",
+  "notes": "GRETIL 為 Göttingen Register 提供的學術參考用 Sanskrit 文本. IAST UTF-8. 路徑相對於 http://gretil.sub.uni-goettingen.de/gretil/",
+  "scriptures": [
+    {"slug": "rigveda", "gretil_path": "1_sanskr/1_veda/1_sam/1_rv/rvh1-10u.htm", "name_zh": "梨俱吠陀", "name_en": "Rgveda", "name_original": "ऋग्वेद", "version": "Aufrecht 1877 校勘版", "version_date": "—", "tier": "核心"},
+    {"slug": "bhagavad-gita", "gretil_path": "1_sanskr/2_epic/mbh/ext/bhagvg_u.htm", "name_zh": "薄伽梵歌", "name_en": "Bhagavad Gītā", "name_original": "भगवद्गीता", "version_date": "—", "tier": "核心"},
+    {"slug": "manu-smrti", "gretil_path": "1_sanskr/6_sastra/4_dharma/smrti/manu1__u.htm", "name_zh": "摩奴法典", "name_en": "Manu-Smṛti", "version_date": "—", "tier": "核心"},
+    {"slug": "yoga-sutra", "gretil_path": "1_sanskr/6_sastra/3_phil/yoga/yogasutu.htm", "name_zh": "瑜伽經", "name_en": "Yoga Sūtra of Patañjali", "version_date": "—", "tier": "核心"},
+    {"slug": "brahma-sutra", "gretil_path": "1_sanskr/6_sastra/3_phil/vedanta/brahmsuu.htm", "name_zh": "梵經", "name_en": "Brahma Sūtra", "version_date": "—", "tier": "核心"},
+    {"slug": "isha-upanishad", "gretil_path": "corpustei/transformations/html/sa_IzopaniSad-or-IzAvAsyopaniSadkANva-recension-comm.htm", "name_zh": "伊舍奧義書", "name_en": "Īśā Upaniṣad", "version_date": "—", "tier": "核心"},
+    {"slug": "katha-upanishad", "gretil_path": "corpustei/transformations/html/sa_kathopaniSad.htm", "name_zh": "迦塔奧義書", "name_en": "Kaṭha Upaniṣad", "version_date": "—", "tier": "核心"},
+    {"slug": "chandogya-upanishad", "gretil_path": "corpustei/transformations/html/sa_chAndogyopaniSad-comm.htm", "name_zh": "唱讚奧義書（含注）", "name_en": "Chāndogya Upaniṣad (with commentary)", "version_date": "—", "tier": "核心"},
+    {"slug": "brihadaranyaka-upanishad", "gretil_path": "1_sanskr/1_veda/4_upa/brup___u.htm", "name_zh": "大林間奧義書", "name_en": "Bṛhadāraṇyaka Upaniṣad", "version_date": "—", "tier": "核心"},
+    {"slug": "taittiriya-upanishad", "gretil_path": "corpustei/transformations/html/sa_taittirIyopaniSad-zaMkarabhASya.htm", "name_zh": "鷓鴣氏奧義書（含商羯羅注）", "name_en": "Taittirīya Upaniṣad (with Śaṅkara bhāṣya)", "version_date": "—", "tier": "核心"},
+    {"slug": "aitareya-upanishad", "gretil_path": "corpustei/transformations/html/sa_aitareyopaniSad-comm.htm", "name_zh": "愛多列雅奧義書（含注）", "name_en": "Aitareya Upaniṣad (with commentary)", "version_date": "—", "tier": "核心"},
+    {"slug": "bhagavata-purana", "gretil_path": "corpustei/transformations/html/sa_bhAgavatapurANa.htm", "name_zh": "薄伽梵往世書", "name_en": "Bhāgavata Purāṇa", "version_date": "—", "tier": "核心"},
+    {"slug": "brahmabindu-upanishad", "gretil_path": "corpustei/transformations/html/sa_brahmabindUpaniSad.htm", "name_zh": "梵點奧義書", "name_en": "Brahmabindu Upaniṣad", "version_date": "—", "tier": "次要"},
+    {"slug": "nadabindu-upanishad", "gretil_path": "corpustei/transformations/html/sa_nAdabindUpaniSad.htm", "name_zh": "聲點奧義書", "name_en": "Nādabindu Upaniṣad", "version_date": "—", "tier": "次要"}
+  ]
+}

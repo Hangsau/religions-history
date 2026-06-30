@@ -1,0 +1,83 @@
+=== 1 | sa_nAdabindUpaniSad ===
+Nādabindūpaniṣad
+Header
+This file is an html transformation of
+sa_nAdabindUpaniSad.xml
+with a rudimentary header. For a more extensive header please refer to the source
+file.
+Data entry:
+Oliver Hellwig
+Contribution:
+Oliver Hellwig
+Date of this version:
+2020-07-31
+Source:
+Ramamaya Tarkaratna In: The Atharvana-Upanishads. - Calcutta : Ganesha Press, 1872
+(Bibliotheca Indica ; 76).
+Publisher:
+Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen
+Licence:
+This e-text was provided to GRETIL in good faith that no copyright rights have been
+infringed.
+If anyone wishes to assert copyright over this file, please contact the GRETIL management
+at gretil(at)sub(dot)uni-goettingen(dot)de.
+The file will be immediately removed pending resolution of the claim.
+Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License.
+Interpretive markup:
+none
+Notes:
+This file has been created by mass conversion of GRETIL's Sanskrit corpus from
+ndbiuppu.htm
+. Due to the heterogeneity of the sources the header markup might be suboptimal. For
+the sake of transparency the header of the legacy file is documented in the <note> element below:
+Nadabindu-Upanisad
+Based on the edition by Ramamaya Tarkaratna
+In: The Atharvana-Upanishads. - Calcutta : Ganesha Press, 1872
+(Bibliotheca Indica ; 76)
+Input by Oliver Hellwig
+Revisions:
+2020-07-31: TEI encoding by mass conversion of GRETIL's Sanskrit corpus
+Text
+Nādabindūpaniṣat
+oṃ
+akāro dakṣiṇaḥ pakṣa ukāras tūttaraḥ smṛtaḥ /
+makāras tasya pucchaṃ vā ardhamātrā śiras tathā // NbiUp_1 //
+pādau rajas tamas tasya śarīraṃ sattvam ucyate /
+dharmaś ca dakṣiṇaṃ cakṣur adharmaś cottaraṃ smṛtam // NbiUp_2 //
+bhūr lokaḥ pādayos tasya bhuvar lokas tu jānunoḥ /
+svar lokaḥ kaṭideśe tu nābhideśe mahar jagat // NbiUp_3 //
+janalokas tu hṛdaye kaṇṭhadeśe tapas tataḥ /
+bhruvor lalāṭamadhye tu satyaloko vyavasthitaḥ // NbiUp_4 //
+sahasram iti cātra mantra eva pradarśitaḥ /
+evam enaṃ samārūḍho haṃsaṃ yogavicakṣaṇaḥ // NbiUp_5 //
+na badhyate karmacārī pāpakoṭiśatair api /
+āgneyī prathamā mātrā vāyavyaiṣā vaśānugā // NbiUp_6 //
+bhānumaṇḍalasaṃkāśā bhaven mātrā tathottarā /
+paramā cārdhamātrā ca vāruṇīṃ tāṃ vidur budhāḥ // NbiUp_7 //
+kalātrayānanā vāpi tāsāṃ mātrāpratiṣṭhitā /
+eṣa oṃkāra ākhyāto dhāraṇābhir nibodhata // NbiUp_8 //
+yoṣiṇī prathamā mātrā vidyunmālā tathāparā /
+pataṃgī ca tṛtīyā syāc caturthī vāyuveginī // NbiUp_9 //
+pañcamīnām adheyā ca ṣaṣṭhī caindrī vidhīyate /
+saptamī vaiṣṇavī nāma śaṃkarī ca tathāṣṭamī // NbiUp_10 //
+navamī mahatī nāma dhruveti daśamī matā /
+ekādaśī bhaven maunī brāhmīti dvādaśī matā // NbiUp_11 //
+prathamāyāṃ tu mātrāyāṃ yadi prāṇair viyujyate /
+sa rājā bhārate varṣe sārvabhaumaḥ prajāyate // NbiUp_12 //
+dvitīyāyāṃ samutkrānto bhaved yakṣo mahātmavān /
+vidyādharas tṛtīyāyāṃ gandharvas tu caturthikām // NbiUp_13 //
+pañcamyām atha mātrāyāṃ yadi prāṇair viyujyate /
+uṣitaḥ sahadevatvaṃ somaloke mahīyate // NbiUp_14 //
+ṣaṣṭhyām indrasya sāyujyaṃ saptamyāṃ vaiṣṇavaṃ padam /
+aṣṭamyāṃ vrajate rudraṃ paśūnāṃ ca patiṃ tathā // NbiUp_15 //
+navamyāṃ ca maharlokaṃ daśamyāṃ ca dhruvaṃ vrajet /
+ekādaśyāṃ tapolokaṃ dvādaśyāṃ brahma śāśvatam // NbiUp_16 //
+tataḥ paraṃ śuddhaṃ vyāpakaṃ niṣkalaṃ śivam /
+sadoditaṃ paraṃ brahma jyotiṣām udayo yataḥ // NbiUp_17 //
+atīndriyaṃ guṇātītaṃ mano līnaṃ yadā bhavet /
+anaupamyam abhāvaṃ ca yogayuktaṃ tadādiśet // NbiUp_18 //
+tadbhaktas tatsamāsaktaḥ śanair muñcet kalevaram /
+susthito yogacāreṇa sarvasaṅgavivarjitaḥ // NbiUp_19 //
+tato vilīnapāśo 'sau vimalaḥ kevalaḥ prabhuḥ /
+tenaiva brahmabhāvena paramānandam aśnute // NbiUp_20 //
