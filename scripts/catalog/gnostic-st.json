@@ -1,0 +1,14 @@
+{
+  "religion": "諾斯底",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (G.R.S. Mead and other 19c. translations)",
+  "notes": "諾斯底主義 / 赫爾墨斯主義 / 早期基督教神秘文獻英譯本. 拿戈瑪第文庫 (Nag Hammadi) 主要英譯版本.",
+  "scriptures": [
+    {"slug": "gnostics-and-their-remains", "st_book_path": "gno/gar", "name_zh": "諾斯底與其遺存 (King)", "name_en": "The Gnostics and Their Remains", "version": "King 1887", "tier": "核心", "is_original_language": false},
+    {"slug": "fragments-of-faith-forgotten", "st_book_path": "gno/fff", "name_zh": "被遺忘信仰的碎片 (Mead)", "name_en": "Fragments of a Faith Forgotten", "version": "Mead 1900", "tier": "核心", "is_original_language": false},
+    {"slug": "thrice-greatest-hermes-1", "st_book_path": "gno/th1", "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)", "name_en": "Thrice-Greatest Hermes Vol 1", "version": "Mead 1906", "tier": "核心", "is_original_language": false},
+    {"slug": "thrice-greatest-hermes-2", "st_book_path": "gno/th2", "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)", "name_en": "Thrice-Greatest Hermes Vol 2", "version": "Mead 1906", "tier": "核心", "is_original_language": false},
+    {"slug": "thrice-greatest-hermes-3", "st_book_path": "gno/th3", "name_zh": "三度偉大的赫爾墨斯 Vol 3", "name_en": "Thrice-Greatest Hermes Vol 3", "version": "Mead 1906", "tier": "核心", "is_original_language": false}
+  ]
+}

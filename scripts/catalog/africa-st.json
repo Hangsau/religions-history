@@ -1,0 +1,15 @@
+{
+  "religion": "非洲",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "非洲傳統宗教文獻英譯本 via sacred-texts.com /afr/. 含約魯巴 (Yoruba) / 班圖 / 豪薩 / 西非 各民族.",
+  "scriptures": [
+    {"slug": "yoruba-religion", "st_book_path": "afr/yor", "name_zh": "約魯巴宗教與神話", "name_en": "Yoruba Religion", "religion": "非洲", "tier": "核心", "is_original_language": false},
+    {"slug": "ife-mythology", "st_book_path": "afr/ife", "name_zh": "伊費神話 (約魯巴)", "name_en": "Ife Mythology", "religion": "非洲", "tier": "核心", "is_original_language": false},
+    {"slug": "hausa-folklore", "st_book_path": "afr/hausa", "name_zh": "豪薩民俗", "name_en": "Hausa Folklore", "religion": "非洲", "tier": "次要", "is_original_language": false},
+    {"slug": "fjort-religion", "st_book_path": "afr/fjort", "name_zh": "Fjort 民族宗教 (西非)", "name_en": "Fjort Religion", "religion": "非洲", "tier": "次要", "is_original_language": false},
+    {"slug": "dahomey-religion", "st_book_path": "afr/dbn", "name_zh": "達荷美宗教", "name_en": "Dahomey Religion", "religion": "非洲", "tier": "次要", "is_original_language": false},
+    {"slug": "rastafarian-bible", "st_book_path": "afr/piby", "name_zh": "Rastafarian 黑人聖經", "name_en": "The Promised Key (Rastafarian)", "religion": "非洲", "tier": "次要", "is_original_language": false}
+  ]
+}

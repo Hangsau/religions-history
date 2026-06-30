@@ -1,0 +1,22 @@
+{
+  "religion": "美洲",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "美洲原住民 + 中美 + 南美 宗教文獻英譯本. 含瑪雅 / 阿茲特克 / 印加 / 北美各部落.",
+  "scriptures": [
+    {"slug": "chilam-balam", "st_book_path": "nam/maya/cbc", "name_zh": "契倫·巴蘭之書 (Chumayel)", "name_en": "Chilam Balam of Chumayel", "religion": "美洲", "tier": "核心", "is_original_language": false},
+    {"slug": "maya-hieroglyphic-writing", "st_book_path": "nam/maya/mhw", "name_zh": "瑪雅象形文字書 (節錄)", "name_en": "Maya Hieroglyphic Writing (excerpts)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "yucatan-before-after-conquest", "st_book_path": "nam/maya/ybac", "name_zh": "尤卡坦征服前後 (Landa)", "name_en": "Yucatan Before and After the Conquest", "religion": "美洲", "tier": "核心", "is_original_language": false},
+    {"slug": "aztec-rva", "st_book_path": "nam/aztec/rva", "name_zh": "阿茲特克儀禮", "name_en": "Aztec rites and laws", "religion": "美洲", "tier": "核心", "is_original_language": false},
+    {"slug": "inca-rites", "st_book_path": "nam/inca", "name_zh": "印加儀禮與法律", "name_en": "Rites and Laws of the Yncas", "religion": "美洲", "tier": "核心", "is_original_language": false},
+    {"slug": "iroquois-cosmology", "st_book_path": "nam/iro", "name_zh": "易洛魁神話與宇宙觀", "name_en": "Iroquois Cosmology and Mythology", "religion": "美洲", "tier": "核心", "is_original_language": false},
+    {"slug": "cherokee-myths", "st_book_path": "nam/cher", "name_zh": "切羅基神話", "name_en": "Cherokee Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "navajo-myths", "st_book_path": "nam/nav", "name_zh": "納瓦霍神話", "name_en": "Navajo Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "hopi-myths", "st_book_path": "nam/hopi", "name_zh": "霍皮神話", "name_en": "Hopi Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "zuni-myths", "st_book_path": "nam/zuni", "name_zh": "祖尼神話", "name_en": "Zuni Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "inuit-myths", "st_book_path": "nam/inu", "name_zh": "因紐特神話", "name_en": "Inuit Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "plains-myths", "st_book_path": "nam/pla", "name_zh": "北美平原原住民神話", "name_en": "Plains Mythology", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "northwest-coast-myths", "st_book_path": "nam/nw", "name_zh": "西北海岸原住民神話", "name_en": "Northwest Coast Mythology", "religion": "美洲", "tier": "次要", "is_original_language": false}
+  ]
+}
