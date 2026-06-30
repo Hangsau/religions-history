@@ -1,0 +1,27 @@
+{
+  "religion": "古希臘羅馬",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "古希臘 + 古羅馬 主要宗教 / 哲學文獻英譯本 via sacred-texts.com. 原文 Greek / Latin 多在 Wikisource grc / la 可獲取.",
+  "scriptures": [
+    {"slug": "homer-iliad-pope", "st_book_path": "cla/homer/ili", "name_zh": "伊利亞德 (Pope/Bryant 英譯)", "name_en": "Iliad", "name_original": "Ἰλιάς", "religion": "古希臘羅馬", "version": "Pope or Bryant 19c translation", "tier": "核心", "is_original_language": false},
+    {"slug": "homer-odyssey-st", "st_book_path": "cla/homer/ody", "name_zh": "奧德賽 (Pope/Bryant 英譯)", "name_en": "Odyssey", "name_original": "Ὀδύσσεια", "religion": "古希臘羅馬", "version": "Pope or Bryant 19c translation", "tier": "核心", "is_original_language": false},
+    {"slug": "homer-greek", "st_book_path": "cla/homer/greek", "name_zh": "伊利亞德 + 奧德賽 (希臘原文)", "name_en": "Iliad and Odyssey in Greek", "religion": "古希臘羅馬", "version": "Greek original", "tier": "核心", "is_original_language": true},
+    {"slug": "hesiod-works", "st_book_path": "cla/hesiod", "name_zh": "赫西俄德 (神譜 + 工作與時日)", "name_en": "Works of Hesiod (Theogony + Works and Days)", "religion": "古希臘羅馬", "version": "Evelyn-White 1914", "tier": "核心", "is_original_language": false},
+    {"slug": "homeric-hymns-st", "st_book_path": "cla/hh", "name_zh": "荷馬諸頌 (33 篇)", "name_en": "The Homeric Hymns", "religion": "古希臘羅馬", "version": "Evelyn-White 1914", "tier": "核心", "is_original_language": false},
+    {"slug": "ovid-metamorphoses", "st_book_path": "cla/ovid/meta", "name_zh": "變形記 (奧維德)", "name_en": "Metamorphoses (Ovid)", "religion": "古希臘羅馬", "version": "Dryden et al. translation", "tier": "核心", "is_original_language": false},
+    {"slug": "virgil-aeneid", "st_book_path": "cla/virgil/aen", "name_zh": "伊尼德 (維吉爾)", "name_en": "Aeneid (Virgil)", "religion": "古希臘羅馬", "version": "Williams 1910", "tier": "核心", "is_original_language": false},
+    {"slug": "virgil-eclogues", "st_book_path": "cla/virgil/ecl", "name_zh": "牧歌 (維吉爾)", "name_en": "Eclogues (Virgil)", "religion": "古希臘羅馬", "version": "Williams 1916", "tier": "次要", "is_original_language": false},
+    {"slug": "virgil-georgics", "st_book_path": "cla/virgil/geo", "name_zh": "農事詩 (維吉爾)", "name_en": "Georgics (Virgil)", "religion": "古希臘羅馬", "version": "Williams 1915", "tier": "次要", "is_original_language": false},
+    {"slug": "plato-works", "st_book_path": "cla/plato", "name_zh": "柏拉圖對話集 (sacred-texts 選)", "name_en": "Plato (sacred-texts selection)", "religion": "古希臘羅馬", "version": "Jowett 19c translations", "tier": "核心", "is_original_language": false},
+    {"slug": "plotinus-enneads", "st_book_path": "cla/plotenn", "name_zh": "普羅提諾九章集", "name_en": "Plotinus Enneads", "religion": "古希臘羅馬", "version": "Mackenna translation", "tier": "核心", "is_original_language": false},
+    {"slug": "proclus-works", "st_book_path": "cla/proc", "name_zh": "普羅克洛 著作集", "name_en": "Proclus", "religion": "古希臘羅馬", "version": "Taylor translation", "tier": "次要", "is_original_language": false},
+    {"slug": "sappho-poetry", "st_book_path": "cla/usappho", "name_zh": "莎孚詩集", "name_en": "Sappho Poetry", "religion": "古希臘羅馬", "version": "Wharton 1885", "tier": "次要", "is_original_language": false},
+    {"slug": "sibylline-oracles", "st_book_path": "cla/sib", "name_zh": "西比拉神諭集", "name_en": "Sibylline Oracles", "religion": "古希臘羅馬", "version": "Floyer / Lanchester translation", "tier": "核心", "is_original_language": false},
+    {"slug": "aeschylus-works", "st_book_path": "cla/aesch", "name_zh": "埃斯庫羅斯戲劇 (含宗教面)", "name_en": "Aeschylus", "religion": "古希臘羅馬", "version": "Smyth 1922", "tier": "次要", "is_original_language": false},
+    {"slug": "sophocles-works", "st_book_path": "cla/soph", "name_zh": "索福克里斯戲劇", "name_en": "Sophocles", "religion": "古希臘羅馬", "version": "Jebb 1894", "tier": "次要", "is_original_language": false},
+    {"slug": "argonautica", "st_book_path": "cla/argo", "name_zh": "阿爾戈尼卡 (羅得島阿波羅尼俄斯)", "name_en": "Argonautica (Apollonius of Rhodes)", "religion": "古希臘羅馬", "version": "Coleridge 1889", "tier": "次要", "is_original_language": false},
+    {"slug": "aristotle-st", "st_book_path": "cla/ari", "name_zh": "亞里斯多德 (sacred-texts 選)", "name_en": "Aristotle (sacred-texts selection)", "religion": "古希臘羅馬", "version": "various 19c", "tier": "核心", "is_original_language": false}
+  ]
+}

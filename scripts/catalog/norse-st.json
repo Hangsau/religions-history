@@ -1,0 +1,14 @@
+{
+  "religion": "北歐",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "北歐神話 / 神道宗教文獻英譯本 via sacred-texts.com /neu/. 原文 Old Norse 多在 Wikisource 可獲取.",
+  "scriptures": [
+    {"slug": "poetic-edda-bellows", "st_book_path": "neu/pre", "name_zh": "詩體埃達 (Bellows 譯)", "name_en": "Poetic Edda (Bellows)", "name_original": "Sæmundar Edda", "version": "Bellows 1923", "tier": "核心", "is_original_language": false},
+    {"slug": "prose-edda-brodeur", "st_book_path": "neu/pre/index", "name_zh": "散文埃達 (Brodeur 譯)", "name_en": "Prose Edda (Brodeur)", "name_original": "Snorra Edda", "version": "Brodeur 1916", "tier": "核心", "is_original_language": false, "defer_reason": "需要確認 path; sacred-texts.com 結構可能在 neu/pre 內或別處"},
+    {"slug": "heimskringla-st", "st_book_path": "neu/heim", "name_zh": "赫姆斯克林格拉", "name_en": "Heimskringla", "version": "Laing 1844 (Anderson rev 1889)", "tier": "核心", "is_original_language": false, "defer_reason": "已從 en.wikisource 抓; 不重抓"},
+    {"slug": "story-of-burnt-njal", "st_book_path": "neu/njal", "name_zh": "燒尼亞勒傳奇", "name_en": "The Story of Burnt Njal", "version": "Dasent 1900", "tier": "次要", "is_original_language": false},
+    {"slug": "volsunga-saga", "st_book_path": "neu/vlsng", "name_zh": "沃爾松傳奇", "name_en": "Volsunga Saga", "version": "Morris-Magnusson 1888", "tier": "核心", "is_original_language": false}
+  ]
+}
