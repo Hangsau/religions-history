@@ -1,0 +1,11 @@
+{
+  "religion": "古埃及",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (Budge translation)",
+  "notes": "古埃及主要宗教文獻英譯 via Budge / Faulkner. 原文 hieroglyphs 待專門 source.",
+  "scriptures": [
+    {"slug": "egyptian-book-of-dead", "st_book_path": "egy/ebod", "name_zh": "古埃及死者之書", "name_en": "Egyptian Book of the Dead", "version": "Budge 1895", "tier": "核心", "is_original_language": false},
+    {"slug": "pyramid-texts-mercer", "st_book_path": "egy/pyt", "name_zh": "金字塔銘文", "name_en": "Pyramid Texts", "version": "Mercer 1952", "tier": "核心", "is_original_language": false}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "religion": "耆那教",
+  "source_platform": "sacred-texts.com (Sacred Books of the East)",
+  "license": "Public Domain",
+  "language": "English (Jacobi 19c translation)",
+  "notes": "耆那教 Śvetāmbara Āgama 主要文獻 via SBE 22 / 45 (Jacobi 1884, 1895). 含 Acaranga, Kalpa Sutra, Sutrakritanga, Uttaradhyayana. 原文 Prakrit 待從專門 Jain 圖書館抓.",
+  "scriptures": [
+    {"slug": "jain-sbe22", "st_book_path": "jai/sbe22", "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)", "name_en": "Jaina Sutras Part I (SBE 22)", "version": "Jacobi 1884", "tier": "核心", "is_original_language": false},
+    {"slug": "jain-sbe45", "st_book_path": "jai/sbe45", "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)", "name_en": "Jaina Sutras Part II (SBE 45)", "version": "Jacobi 1895", "tier": "核心", "is_original_language": false}
+  ]
+}

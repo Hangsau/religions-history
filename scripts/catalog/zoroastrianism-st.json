@@ -1,0 +1,17 @@
+{
+  "religion": "瑣羅亞斯德",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (19c. translation)",
+  "notes": "Avesta + Pahlavi 文獻, 多為 19 世紀英譯本 (Darmesteter, Mills, West 等). 原文阿維斯塔語 + 中古波斯語待從其他源補.",
+  "scriptures": [
+    {"slug": "avesta-sbe04", "st_book_path": "zor/sbe04", "name_zh": "阿維斯塔 SBE 04 (Vendidad)", "name_en": "Zend-Avesta SBE 4 (Vendidad)", "version": "Darmesteter 1880", "tier": "核心", "is_original_language": false},
+    {"slug": "avesta-sbe23", "st_book_path": "zor/sbe23", "name_zh": "阿維斯塔 SBE 23 (Yasht)", "name_en": "Zend-Avesta SBE 23", "version": "Darmesteter 1883", "tier": "核心", "is_original_language": false},
+    {"slug": "avesta-sbe31", "st_book_path": "zor/sbe31", "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)", "name_en": "Zend-Avesta SBE 31", "version": "Mills 1887", "tier": "核心", "is_original_language": false},
+    {"slug": "bundahishn", "st_book_path": "zor/sbe05", "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast", "name_en": "SBE 5 Pahlavi Texts Part I", "version": "West 1880", "tier": "核心", "is_original_language": false},
+    {"slug": "dadestan-i-denig", "st_book_path": "zor/sbe18", "name_zh": "Dadestan-i Denig (宗教裁判)", "name_en": "SBE 18 Pahlavi Texts Part II", "version": "West 1882", "tier": "核心", "is_original_language": false},
+    {"slug": "denkard-3-bahman-yasht", "st_book_path": "zor/sbe24", "name_zh": "Pahlavi Texts Part III", "name_en": "SBE 24 Pahlavi Texts Part III", "version": "West 1885", "tier": "核心", "is_original_language": false},
+    {"slug": "denkard-bk-7-8", "st_book_path": "zor/sbe37", "name_zh": "Dinkard Books 8-9", "name_en": "SBE 37 Pahlavi Texts Part IV", "version": "West 1892", "tier": "核心", "is_original_language": false},
+    {"slug": "denkard-bk-5", "st_book_path": "zor/sbe47", "name_zh": "Pahlavi Texts Part V (Contents of the Nasks)", "name_en": "SBE 47 Pahlavi Texts Part V", "version": "West 1897", "tier": "核心", "is_original_language": false}
+  ]
+}
