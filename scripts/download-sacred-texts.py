@@ -240,6 +240,7 @@ CATALOG_MAP = {
     "曼達派": "mandaean-st.json",
     "美洲": "americas-st.json",
     "非洲": "africa-st.json",
+    "猶太教-輔助": "judaism-st.json",
 }
 
 

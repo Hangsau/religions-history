@@ -1,0 +1,20 @@
+{
+  "religion": "猶太教",
+  "tradition": "輔助文獻",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "Sefaria 已抓 Tanakh + Mishnah/Talmud Berakhot + Midrash Rabbah 3 部. 本 catalog 補充 Sefaria 沒有或失敗的: Guide for the Perplexed (Maimonides), 卡巴拉典籍, Josephus, Legends of the Jews 等.",
+  "scriptures": [
+    {"slug": "guide-for-the-perplexed-st", "st_book_path": "jud/gfp", "name_zh": "迷途指津 (Maimonides)", "name_en": "Guide for the Perplexed", "version": "Friedländer 1881-85", "tier": "核心", "is_original_language": false},
+    {"slug": "cabala-mathers", "st_book_path": "jud/cab", "name_zh": "卡巴拉 (Mathers 譯)", "name_en": "The Cabala", "version": "Bischoff 1903", "tier": "次要", "is_original_language": false},
+    {"slug": "kabbalah-unveiled", "st_book_path": "jud/tku", "name_zh": "卡巴拉揭示 (Mathers)", "name_en": "The Kabbalah Unveiled", "version": "Mathers 1887", "tier": "核心", "is_original_language": false, "notes": "三部 Zohar 重要篇 (Siphra Dzeniutha / Idra Rabba / Idra Zuta) 英譯"},
+    {"slug": "legends-of-the-jews", "st_book_path": "jud/loj", "name_zh": "猶太人的傳說 (Ginzberg)", "name_en": "Legends of the Jews", "version": "Ginzberg 1909", "tier": "核心", "is_original_language": false},
+    {"slug": "josephus-works", "st_book_path": "jud/josephus", "name_zh": "約瑟夫斯著作", "name_en": "Works of Flavius Josephus", "version": "Whiston 1737", "tier": "核心", "is_original_language": false},
+    {"slug": "talmud-rodkinson", "st_book_path": "jud/bar", "name_zh": "塔木德 (Rodkinson 選譯)", "name_en": "Babylonian Talmud (Rodkinson)", "version": "Rodkinson 1903", "tier": "核心", "is_original_language": false},
+    {"slug": "kitab-al-khazari", "st_book_path": "jud/khz", "name_zh": "庫薩里 (Judah Halevi)", "name_en": "Kitab al Khazari", "version": "Hirschfeld 1905", "tier": "核心", "is_original_language": false},
+    {"slug": "eighteen-treatises-mishnah", "st_book_path": "jud/etm", "name_zh": "米示拿 18 卷選譯", "name_en": "Eighteen Treatises from the Mishna", "version": "De Sola 1845", "tier": "次要", "is_original_language": false},
+    {"slug": "standard-prayer-book", "st_book_path": "jud/spb", "name_zh": "標準禱書 (Singer)", "name_en": "The Standard Prayer Book", "version": "Singer 1890", "tier": "次要", "is_original_language": false},
+    {"slug": "jewish-fairy-tales", "st_book_path": "jud/jftl", "name_zh": "猶太童話與傳說", "name_en": "Jewish Fairy Tales and Legends", "version": "Landa 1908", "tier": "次要", "is_original_language": false}
+  ]
+}
