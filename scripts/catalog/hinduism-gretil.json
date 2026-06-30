@@ -18,6 +18,26 @@
     {"slug": "aitareya-upanishad", "gretil_path": "corpustei/transformations/html/sa_aitareyopaniSad-comm.htm", "name_zh": "愛多列雅奧義書（含注）", "name_en": "Aitareya Upaniṣad (with commentary)", "version_date": "—", "tier": "核心"},
     {"slug": "bhagavata-purana", "gretil_path": "corpustei/transformations/html/sa_bhAgavatapurANa.htm", "name_zh": "薄伽梵往世書", "name_en": "Bhāgavata Purāṇa", "version_date": "—", "tier": "核心"},
     {"slug": "brahmabindu-upanishad", "gretil_path": "corpustei/transformations/html/sa_brahmabindUpaniSad.htm", "name_zh": "梵點奧義書", "name_en": "Brahmabindu Upaniṣad", "version_date": "—", "tier": "次要"},
-    {"slug": "nadabindu-upanishad", "gretil_path": "corpustei/transformations/html/sa_nAdabindUpaniSad.htm", "name_zh": "聲點奧義書", "name_en": "Nādabindu Upaniṣad", "version_date": "—", "tier": "次要"}
+    {"slug": "nadabindu-upanishad", "gretil_path": "corpustei/transformations/html/sa_nAdabindUpaniSad.htm", "name_zh": "聲點奧義書", "name_en": "Nādabindu Upaniṣad", "version_date": "—", "tier": "次要"},
+
+    {"slug": "samaveda", "gretil_path": "corpustei/transformations/html/sa_sAmavedasaMhitA.htm", "name_zh": "沙摩吠陀", "name_en": "Sāmaveda Saṁhitā", "tier": "核心"},
+    {"slug": "atharvaveda-saunaka", "gretil_path": "1_sanskr/1_veda/1_sam/avs_acu.htm", "name_zh": "阿闥婆吠陀（Śaunaka）", "name_en": "Atharvaveda Saṁhitā (Śaunaka)", "tier": "核心"},
+    {"slug": "maitrayani-samhita", "gretil_path": "1_sanskr/1_veda/1_sam/maitrs_au.htm", "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）", "name_en": "Maitrāyaṇī Saṁhitā (Black Yajurveda)", "tier": "核心"},
+    {"slug": "prashna-upanishad", "gretil_path": "corpustei/transformations/html/sa_praznopaniSad-comm.htm", "name_zh": "問難奧義書", "name_en": "Praśna Upaniṣad", "tier": "核心"},
+    {"slug": "mandukya-upanishad", "gretil_path": "corpustei/transformations/html/sa_mANDUkyopaniSad-comm.htm", "name_zh": "蛙氏奧義書", "name_en": "Māṇḍūkya Upaniṣad (含注)", "tier": "核心"},
+    {"slug": "mandukya-karika", "gretil_path": "corpustei/transformations/html/sa_mANDUkyopaniSatkArikA.htm", "name_zh": "蛙氏奧義頌（Gauḍapāda）", "name_en": "Māṇḍūkya Kārikā", "tier": "次要"},
+    {"slug": "shvetashvatara-upanishad", "gretil_path": "corpustei/transformations/html/sa_zvetAzvataropaniSad.htm", "name_zh": "白騾奧義書", "name_en": "Śvetāśvatara Upaniṣad", "tier": "核心"},
+    {"slug": "shivasankalpa-upanishad", "gretil_path": "corpustei/transformations/html/sa_zivasaMkalpopaniSad.htm", "name_zh": "濕婆意願奧義書", "name_en": "Śivasaṃkalpa Upaniṣad", "tier": "次要"},
+    {"slug": "valmiki-ramayana", "gretil_path": "corpustei/transformations/html/sa_rAmAyaNa.htm", "name_zh": "羅摩衍那（Valmiki, critical）", "name_en": "Rāmāyaṇa (Vālmīki, critical edition)", "tier": "核心"},
+    {"slug": "ramayana-southern", "gretil_path": "corpustei/transformations/html/sa_vAlmIki-rAmAyaNa-southern-2.htm", "name_zh": "羅摩衍那（南方校本）", "name_en": "Rāmāyaṇa (Southern recension)", "tier": "次要"},
+    {"slug": "skanda-purana-1-31", "gretil_path": "corpustei/transformations/html/sa_skandapurANa1-31.htm", "name_zh": "塞建陀往世書（1-31 章）", "name_en": "Skanda Purāṇa (Adhyāya 1-31)", "tier": "核心"},
+    {"slug": "shatapatha-brahmana-1", "gretil_paths": ["1_sanskr/1_veda/2_bra/satapath/sb_01_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_02_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_03_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_04_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_05_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_06_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_07_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_08_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_09_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_10_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_11_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_13_u.htm", "1_sanskr/1_veda/2_bra/satapath/sb_14_u.htm"], "name_zh": "百道梵書", "name_en": "Śatapatha Brāhmaṇa (13 of 14 kāṇḍa)", "tier": "核心"},
+    {"slug": "kaushitaki-brahmana", "gretil_path": "corpustei/transformations/html/sa_kauSItakibrAhmaNa.htm", "name_zh": "歌詩多基梵書", "name_en": "Kauṣītaki Brāhmaṇa", "tier": "次要"},
+    {"slug": "nyaya-sutra-gautama", "gretil_path": "corpustei/transformations/html/sa_gautama-nyAyasUtra.htm", "name_zh": "正理經（喬達摩）", "name_en": "Nyāya Sūtra (Gautama)", "tier": "核心"},
+    {"slug": "vaisheshika-sutra-kanada", "gretil_path": "corpustei/transformations/html/sa_kaNAda-vaizeSikasUtra.htm", "name_zh": "勝論經（迦那陀）", "name_en": "Vaiśeṣika Sūtra (Kaṇāda)", "tier": "核心"},
+    {"slug": "mimamsa-sutra-jaimini", "gretil_path": "corpustei/transformations/html/sa_jaimini-mImAMsAsUtra.htm", "name_zh": "彌曼差經（闍彌尼）", "name_en": "Mīmāṁsā Sūtra (Jaimini)", "tier": "核心"},
+    {"slug": "samkhya-sutra-kapila", "gretil_path": "corpustei/transformations/html/sa_kapila-sAMkhyasUtra.htm", "name_zh": "數論經（迦毗羅）", "name_en": "Sāṅkhya Sūtra (Kapila)", "tier": "核心"},
+    {"slug": "samkhya-karika-ishvarakrshna", "gretil_path": "corpustei/transformations/html/sa_IzvarakRSNa-sAMkhyakArikA.htm", "name_zh": "數論頌（自在黑）", "name_en": "Sāṅkhya Kārikā (Īśvarakṛṣṇa)", "tier": "核心"},
+    {"slug": "atharva-paripishtas", "gretil_path": "corpustei/transformations/html/sa_atharvavedapariziSTas.htm", "name_zh": "阿闥婆吠陀補遺", "name_en": "Atharvaveda Pariśiṣṭas", "tier": "次要"}
   ]
 }
