@@ -5,17 +5,17 @@
 
 ## 統計總覽
 
-- 總計: **2007** 部
-- 已驗證: 867
-- 原文 (vs 譯文): 1569 / 2007
-- 總大小: ~253.3 MB
+- 總計: **2377** 部
+- 已驗證: 2377
+- 原文 (vs 譯文): 1813 / 2377
+- 總大小: ~257.4 MB
 
 ## 按宗教
 
 | 宗教 | 部數 |
 |------|------|
+| 猶太教 | 1102 |
 | 佛教 | 922 |
-| 猶太教 | 732 |
 | 基督教 | 169 |
 | 佛教-巴利 | 39 |
 | 印度教 | 33 |
@@ -39,8 +39,8 @@
 
 | 傳統 | 部數 |
 |------|------|
+| 猶太教 - Commentary | 979 |
 | 佛教 - 漢傳 | 914 |
-| 猶太教 - Commentary | 609 |
 | 基督教 | 142 |
 | 猶太教 - Mishnah | 64 |
 | 猶太教 | 57 |
@@ -68,8 +68,8 @@
 
 | 來源 | 部數 |
 |------|------|
+| Sefaria | 1092 |
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 866 |
-| Sefaria | 722 |
 | zh.wikisource.org | 103 |
 | la.wikisource.org | 76 |
 | sacred-texts.com | 71 |
@@ -1359,6 +1359,7 @@
 | `ruth` | 路得記 | 猶太教 | 22803 |
 | `samuel-1` | 撒母耳記上 | 猶太教 | 235867 |
 | `samuel-2` | 撒母耳記下 | 猶太教 | 194889 |
+| `sefaria-a-new-israeli-commentary-on-pirkei-avot` | A New Israeli Commentary on Pirkei Avot | 猶太教 | 10144 |
 | `sefaria-bartenura-on-mishnah-arakhin` | Bartenura on Mishnah Arakhin | 猶太教 | 45976 |
 | `sefaria-bartenura-on-mishnah-avodah-zarah` | Bartenura on Mishnah Avodah Zarah | 猶太教 | 7499 |
 | `sefaria-bartenura-on-mishnah-bava-batra` | Bartenura on Mishnah Bava Batra | 猶太教 | 25944 |
@@ -1493,8 +1494,134 @@
 | `sefaria-eliyahu-rabbah-on-mishnah-tevul-yom` | Eliyahu Rabbah on Mishnah Tevul Yom | 猶太教 | 712 |
 | `sefaria-eliyahu-rabbah-on-mishnah-yadayim` | Eliyahu Rabbah on Mishnah Yadayim | 猶太教 | 3287 |
 | `sefaria-eliyahu-rabbah-on-mishnah-zavim` | Eliyahu Rabbah on Mishnah Zavim | 猶太教 | 5545 |
+| `sefaria-english-explanation-of-mishnah-arakhin` | English Explanation of Mishnah Arakhin | 猶太教 | 3903 |
+| `sefaria-english-explanation-of-mishnah-avodah-zarah` | English Explanation of Mishnah Avodah Zarah | 猶太教 | 2256 |
+| `sefaria-english-explanation-of-mishnah-bava-batra` | English Explanation of Mishnah Bava Batra | 猶太教 | 5571 |
+| `sefaria-english-explanation-of-mishnah-bava-kamma` | English Explanation of Mishnah Bava Kamma | 猶太教 | 2832 |
+| `sefaria-english-explanation-of-mishnah-bava-metzia` | English Explanation of Mishnah Bava Metzia | 猶太教 | 4093 |
+| `sefaria-english-explanation-of-mishnah-beitzah` | English Explanation of Mishnah Beitzah | 猶太教 | 1998 |
+| `sefaria-english-explanation-of-mishnah-bekhorot` | English Explanation of Mishnah Bekhorot | 猶太教 | 2468 |
+| `sefaria-english-explanation-of-mishnah-berakhot` | English Explanation of Mishnah Berakhot | 猶太教 | 3709 |
+| `sefaria-english-explanation-of-mishnah-bikkurim` | English Explanation of Mishnah Bikkurim | 猶太教 | 2982 |
+| `sefaria-english-explanation-of-mishnah-chagigah` | English Explanation of Mishnah Chagigah | 猶太教 | 3102 |
+| `sefaria-english-explanation-of-mishnah-challah` | English Explanation of Mishnah Challah | 猶太教 | 2130 |
+| `sefaria-english-explanation-of-mishnah-chullin` | English Explanation of Mishnah Chullin | 猶太教 | 2315 |
+| `sefaria-english-explanation-of-mishnah-demai` | English Explanation of Mishnah Demai | 猶太教 | 1838 |
+| `sefaria-english-explanation-of-mishnah-eduyot` | English Explanation of Mishnah Eduyot | 猶太教 | 2887 |
+| `sefaria-english-explanation-of-mishnah-eruvin` | English Explanation of Mishnah Eruvin | 猶太教 | 1832 |
+| `sefaria-english-explanation-of-mishnah-gittin` | English Explanation of Mishnah Gittin | 猶太教 | 3719 |
+| `sefaria-english-explanation-of-mishnah-horayot` | English Explanation of Mishnah Horayot | 猶太教 | 2353 |
+| `sefaria-english-explanation-of-mishnah-kelim` | English Explanation of Mishnah Kelim | 猶太教 | 1816 |
+| `sefaria-english-explanation-of-mishnah-keritot` | English Explanation of Mishnah Keritot | 猶太教 | 3406 |
+| `sefaria-english-explanation-of-mishnah-ketubot` | English Explanation of Mishnah Ketubot | 猶太教 | 3275 |
+| `sefaria-english-explanation-of-mishnah-kiddushin` | English Explanation of Mishnah Kiddushin | 猶太教 | 3549 |
+| `sefaria-english-explanation-of-mishnah-kilayim` | English Explanation of Mishnah Kilayim | 猶太教 | 3199 |
+| `sefaria-english-explanation-of-mishnah-kinnim` | English Explanation of Mishnah Kinnim | 猶太教 | 2585 |
+| `sefaria-english-explanation-of-mishnah-maaser-sheni` | English Explanation of Mishnah Maaser Sheni | 猶太教 | 1387 |
+| `sefaria-english-explanation-of-mishnah-maasrot` | English Explanation of Mishnah Maasrot | 猶太教 | 1870 |
+| `sefaria-english-explanation-of-mishnah-makhshirin` | English Explanation of Mishnah Makhshirin | 猶太教 | 1410 |
+| `sefaria-english-explanation-of-mishnah-makkot` | English Explanation of Mishnah Makkot | 猶太教 | 4578 |
+| `sefaria-english-explanation-of-mishnah-megillah` | English Explanation of Mishnah Megillah | 猶太教 | 2018 |
+| `sefaria-english-explanation-of-mishnah-meilah` | English Explanation of Mishnah Meilah | 猶太教 | 2935 |
+| `sefaria-english-explanation-of-mishnah-menachot` | English Explanation of Mishnah Menachot | 猶太教 | 2948 |
+| `sefaria-english-explanation-of-mishnah-middot` | English Explanation of Mishnah Middot | 猶太教 | 2200 |
+| `sefaria-english-explanation-of-mishnah-mikvaot` | English Explanation of Mishnah Mikvaot | 猶太教 | 2872 |
+| `sefaria-english-explanation-of-mishnah-moed-katan` | English Explanation of Mishnah Moed Katan | 猶太教 | 2181 |
+| `sefaria-english-explanation-of-mishnah-nazir` | English Explanation of Mishnah Nazir | 猶太教 | 2338 |
+| `sefaria-english-explanation-of-mishnah-nedarim` | English Explanation of Mishnah Nedarim | 猶太教 | 3132 |
+| `sefaria-english-explanation-of-mishnah-negaim` | English Explanation of Mishnah Negaim | 猶太教 | 1797 |
+| `sefaria-english-explanation-of-mishnah-niddah` | English Explanation of Mishnah Niddah | 猶太教 | 3447 |
+| `sefaria-english-explanation-of-mishnah-oholot` | English Explanation of Mishnah Oholot | 猶太教 | 1314 |
+| `sefaria-english-explanation-of-mishnah-oktzin` | English Explanation of Mishnah Oktzin | 猶太教 | 1075 |
+| `sefaria-english-explanation-of-mishnah-orlah` | English Explanation of Mishnah Orlah | 猶太教 | 1516 |
+| `sefaria-english-explanation-of-mishnah-parah` | English Explanation of Mishnah Parah | 猶太教 | 4843 |
+| `sefaria-english-explanation-of-mishnah-peah` | English Explanation of Mishnah Peah | 猶太教 | 2985 |
+| `sefaria-english-explanation-of-mishnah-pesachim` | English Explanation of Mishnah Pesachim | 猶太教 | 3057 |
+| `sefaria-english-explanation-of-mishnah-rosh-hashanah` | English Explanation of Mishnah Rosh Hashanah | 猶太教 | 3498 |
+| `sefaria-english-explanation-of-mishnah-sanhedrin` | English Explanation of Mishnah Sanhedrin | 猶太教 | 2289 |
+| `sefaria-english-explanation-of-mishnah-shabbat` | English Explanation of Mishnah Shabbat | 猶太教 | 4066 |
+| `sefaria-english-explanation-of-mishnah-shekalim` | English Explanation of Mishnah Shekalim | 猶太教 | 2817 |
+| `sefaria-english-explanation-of-mishnah-sheviit` | English Explanation of Mishnah Sheviit | 猶太教 | 2121 |
+| `sefaria-english-explanation-of-mishnah-shevuot` | English Explanation of Mishnah Shevuot | 猶太教 | 3437 |
+| `sefaria-english-explanation-of-mishnah-sotah` | English Explanation of Mishnah Sotah | 猶太教 | 2374 |
+| `sefaria-english-explanation-of-mishnah-sukkah` | English Explanation of Mishnah Sukkah | 猶太教 | 3106 |
+| `sefaria-english-explanation-of-mishnah-taanit` | English Explanation of Mishnah Taanit | 猶太教 | 2225 |
+| `sefaria-english-explanation-of-mishnah-tahorot` | English Explanation of Mishnah Tahorot | 猶太教 | 4232 |
+| `sefaria-english-explanation-of-mishnah-tamid` | English Explanation of Mishnah Tamid | 猶太教 | 3970 |
+| `sefaria-english-explanation-of-mishnah-temurah` | English Explanation of Mishnah Temurah | 猶太教 | 3756 |
+| `sefaria-english-explanation-of-mishnah-terumot` | English Explanation of Mishnah Terumot | 猶太教 | 1638 |
+| `sefaria-english-explanation-of-mishnah-tevul-yom` | English Explanation of Mishnah Tevul Yom | 猶太教 | 3814 |
+| `sefaria-english-explanation-of-mishnah-yadayim` | English Explanation of Mishnah Yadayim | 猶太教 | 2902 |
+| `sefaria-english-explanation-of-mishnah-yevamot` | English Explanation of Mishnah Yevamot | 猶太教 | 7614 |
+| `sefaria-english-explanation-of-mishnah-yoma` | English Explanation of Mishnah Yoma | 猶太教 | 3318 |
+| `sefaria-english-explanation-of-mishnah-zavim` | English Explanation of Mishnah Zavim | 猶太教 | 3573 |
+| `sefaria-english-explanation-of-mishnah-zevachim` | English Explanation of Mishnah Zevachim | 猶太教 | 2805 |
+| `sefaria-english-explanation-of-pirkei-avot` | English Explanation of Pirkei Avot | 猶太教 | 4132 |
 | `sefaria-exodus` | Exodus | 猶太教 | 293790 |
 | `sefaria-genesis` | Genesis | 猶太教 | 356468 |
+| `sefaria-german-commentary-introduction` | German Commentary, Introduction | 猶太教 | 10987 |
+| `sefaria-german-commentary-introduction-to-seder-nezikin` | German Commentary, Introduction to Seder Nezikin | 猶太教 | 78582 |
+| `sefaria-german-commentary-on-mishnah-arakhin` | German Commentary on Mishnah Arakhin | 猶太教 | 1157 |
+| `sefaria-german-commentary-on-mishnah-avodah-zarah` | German Commentary on Mishnah Avodah Zarah | 猶太教 | 5567 |
+| `sefaria-german-commentary-on-mishnah-bava-batra` | German Commentary on Mishnah Bava Batra | 猶太教 | 16008 |
+| `sefaria-german-commentary-on-mishnah-bava-kamma` | German Commentary on Mishnah Bava Kamma | 猶太教 | 22074 |
+| `sefaria-german-commentary-on-mishnah-bava-metzia` | German Commentary on Mishnah Bava Metzia | 猶太教 | 17534 |
+| `sefaria-german-commentary-on-mishnah-beitzah` | German Commentary on Mishnah Beitzah | 猶太教 | 3504 |
+| `sefaria-german-commentary-on-mishnah-bekhorot` | German Commentary on Mishnah Bekhorot | 猶太教 | 2504 |
+| `sefaria-german-commentary-on-mishnah-berakhot` | German Commentary on Mishnah Berakhot | 猶太教 | 1472 |
+| `sefaria-german-commentary-on-mishnah-bikkurim` | German Commentary on Mishnah Bikkurim | 猶太教 | 110 |
+| `sefaria-german-commentary-on-mishnah-chagigah` | German Commentary on Mishnah Chagigah | 猶太教 | 2209 |
+| `sefaria-german-commentary-on-mishnah-chullin` | German Commentary on Mishnah Chullin | 猶太教 | 4637 |
+| `sefaria-german-commentary-on-mishnah-demai` | German Commentary on Mishnah Demai | 猶太教 | 754 |
+| `sefaria-german-commentary-on-mishnah-eduyot` | German Commentary on Mishnah Eduyot | 猶太教 | 21348 |
+| `sefaria-german-commentary-on-mishnah-eruvin` | German Commentary on Mishnah Eruvin | 猶太教 | 1376 |
+| `sefaria-german-commentary-on-mishnah-gittin` | German Commentary on Mishnah Gittin | 猶太教 | 5419 |
+| `sefaria-german-commentary-on-mishnah-horayot` | German Commentary on Mishnah Horayot | 猶太教 | 4911 |
+| `sefaria-german-commentary-on-mishnah-kelim` | German Commentary on Mishnah Kelim | 猶太教 | 1148 |
+| `sefaria-german-commentary-on-mishnah-keritot` | German Commentary on Mishnah Keritot | 猶太教 | 4287 |
+| `sefaria-german-commentary-on-mishnah-ketubot` | German Commentary on Mishnah Ketubot | 猶太教 | 6217 |
+| `sefaria-german-commentary-on-mishnah-kiddushin` | German Commentary on Mishnah Kiddushin | 猶太教 | 1779 |
+| `sefaria-german-commentary-on-mishnah-kilayim` | German Commentary on Mishnah Kilayim | 猶太教 | 1993 |
+| `sefaria-german-commentary-on-mishnah-kinnim` | German Commentary on Mishnah Kinnim | 猶太教 | 1994 |
+| `sefaria-german-commentary-on-mishnah-maasrot` | German Commentary on Mishnah Maasrot | 猶太教 | 336 |
+| `sefaria-german-commentary-on-mishnah-makhshirin` | German Commentary on Mishnah Makhshirin | 猶太教 | 2488 |
+| `sefaria-german-commentary-on-mishnah-makkot` | German Commentary on Mishnah Makkot | 猶太教 | 8696 |
+| `sefaria-german-commentary-on-mishnah-megillah` | German Commentary on Mishnah Megillah | 猶太教 | 1905 |
+| `sefaria-german-commentary-on-mishnah-meilah` | German Commentary on Mishnah Meilah | 猶太教 | 4738 |
+| `sefaria-german-commentary-on-mishnah-menachot` | German Commentary on Mishnah Menachot | 猶太教 | 4144 |
+| `sefaria-german-commentary-on-mishnah-middot` | German Commentary on Mishnah Middot | 猶太教 | 3824 |
+| `sefaria-german-commentary-on-mishnah-mikvaot` | German Commentary on Mishnah Mikvaot | 猶太教 | 5258 |
+| `sefaria-german-commentary-on-mishnah-moed-katan` | German Commentary on Mishnah Moed Katan | 猶太教 | 3294 |
+| `sefaria-german-commentary-on-mishnah-nazir` | German Commentary on Mishnah Nazir | 猶太教 | 4909 |
+| `sefaria-german-commentary-on-mishnah-nedarim` | German Commentary on Mishnah Nedarim | 猶太教 | 11835 |
+| `sefaria-german-commentary-on-mishnah-negaim` | German Commentary on Mishnah Negaim | 猶太教 | 1745 |
+| `sefaria-german-commentary-on-mishnah-niddah` | German Commentary on Mishnah Niddah | 猶太教 | 4984 |
+| `sefaria-german-commentary-on-mishnah-oholot` | German Commentary on Mishnah Oholot | 猶太教 | 1706 |
+| `sefaria-german-commentary-on-mishnah-oktzin` | German Commentary on Mishnah Oktzin | 猶太教 | 2756 |
+| `sefaria-german-commentary-on-mishnah-orlah` | German Commentary on Mishnah Orlah | 猶太教 | 73 |
+| `sefaria-german-commentary-on-mishnah-parah` | German Commentary on Mishnah Parah | 猶太教 | 3376 |
+| `sefaria-german-commentary-on-mishnah-peah` | German Commentary on Mishnah Peah | 猶太教 | 410 |
+| `sefaria-german-commentary-on-mishnah-pesachim` | German Commentary on Mishnah Pesachim | 猶太教 | 2868 |
+| `sefaria-german-commentary-on-mishnah-rosh-hashanah` | German Commentary on Mishnah Rosh Hashanah | 猶太教 | 6001 |
+| `sefaria-german-commentary-on-mishnah-sanhedrin` | German Commentary on Mishnah Sanhedrin | 猶太教 | 26532 |
+| `sefaria-german-commentary-on-mishnah-shabbat` | German Commentary on Mishnah Shabbat | 猶太教 | 2882 |
+| `sefaria-german-commentary-on-mishnah-shekalim` | German Commentary on Mishnah Shekalim | 猶太教 | 568 |
+| `sefaria-german-commentary-on-mishnah-sheviit` | German Commentary on Mishnah Sheviit | 猶太教 | 517 |
+| `sefaria-german-commentary-on-mishnah-shevuot` | German Commentary on Mishnah Shevuot | 猶太教 | 17417 |
+| `sefaria-german-commentary-on-mishnah-sotah` | German Commentary on Mishnah Sotah | 猶太教 | 4063 |
+| `sefaria-german-commentary-on-mishnah-sukkah` | German Commentary on Mishnah Sukkah | 猶太教 | 1621 |
+| `sefaria-german-commentary-on-mishnah-ta-anit` | German Commentary on Mishnah Ta'anit | 猶太教 | 1406 |
+| `sefaria-german-commentary-on-mishnah-tahorot` | German Commentary on Mishnah Tahorot | 猶太教 | 3369 |
+| `sefaria-german-commentary-on-mishnah-tamid` | German Commentary on Mishnah Tamid | 猶太教 | 5716 |
+| `sefaria-german-commentary-on-mishnah-temurah` | German Commentary on Mishnah Temurah | 猶太教 | 8859 |
+| `sefaria-german-commentary-on-mishnah-terumot` | German Commentary on Mishnah Terumot | 猶太教 | 644 |
+| `sefaria-german-commentary-on-mishnah-tevul-yom` | German Commentary on Mishnah Tevul Yom | 猶太教 | 4671 |
+| `sefaria-german-commentary-on-mishnah-yadayim` | German Commentary on Mishnah Yadayim | 猶太教 | 4912 |
+| `sefaria-german-commentary-on-mishnah-yevamot` | German Commentary on Mishnah Yevamot | 猶太教 | 7304 |
+| `sefaria-german-commentary-on-mishnah-yoma` | German Commentary on Mishnah Yoma | 猶太教 | 1425 |
+| `sefaria-german-commentary-on-mishnah-zavim` | German Commentary on Mishnah Zavim | 猶太教 | 4069 |
+| `sefaria-german-commentary-on-mishnah-zevachim` | German Commentary on Mishnah Zevachim | 猶太教 | 3854 |
+| `sefaria-german-commentary-on-pirkei-avot` | German Commentary on Pirkei Avot | 猶太教 | 6308 |
 | `sefaria-gra-on-pirkei-avot` | Gra on Pirkei Avot | 猶太教 | 6007 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kilayim` | Haggahot Ya'avetz on Mishnah Kilayim | 猶太教 | 134 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kinnim` | Haggahot Ya'avetz on Mishnah Kinnim | 猶太教 | 742 |
@@ -1819,8 +1946,71 @@
 | `sefaria-mishnah-yoma` | Mishnah Yoma | 猶太教 | 47220 |
 | `sefaria-mishnah-zavim` | Mishnah Zavim | 猶太教 | 24901 |
 | `sefaria-mishnah-zevachim` | Mishnah Zevachim | 猶太教 | 82420 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-arakhin` | Mishnat Eretz Yisrael on Mishnah Arakhin | 猶太教 | 35159 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-avodah-zarah` | Mishnat Eretz Yisrael on Mishnah Avodah Zarah | 猶太教 | 5354 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-baba-batra` | Mishnat Eretz Yisrael on Mishnah Baba Batra | 猶太教 | 34051 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-baba-kamma` | Mishnat Eretz Yisrael on Mishnah Baba Kamma | 猶太教 | 61550 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-baba-metzia` | Mishnat Eretz Yisrael on Mishnah Baba Metzia | 猶太教 | 26913 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-beitzah` | Mishnat Eretz Yisrael on Mishnah Beitzah | 猶太教 | 25053 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-bekhorot` | Mishnat Eretz Yisrael on Mishnah Bekhorot | 猶太教 | 22584 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-berakhot` | Mishnat Eretz Yisrael on Mishnah Berakhot | 猶太教 | 61364 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-bikkurim` | Mishnat Eretz Yisrael on Mishnah Bikkurim | 猶太教 | 22600 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-chagigah` | Mishnat Eretz Yisrael on Mishnah Chagigah | 猶太教 | 121418 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-challah` | Mishnat Eretz Yisrael on Mishnah Challah | 猶太教 | 21189 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-chullin` | Mishnat Eretz Yisrael on Mishnah Chullin | 猶太教 | 18678 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-demai` | Mishnat Eretz Yisrael on Mishnah Demai | 猶太教 | 35603 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-eduyot` | Mishnat Eretz Yisrael on Mishnah Eduyot | 猶太教 | 19910 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-eruvin` | Mishnat Eretz Yisrael on Mishnah Eruvin | 猶太教 | 17679 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-gittin` | Mishnat Eretz Yisrael on Mishnah Gittin | 猶太教 | 50888 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-horayot` | Mishnat Eretz Yisrael on Mishnah Horayot | 猶太教 | 78614 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-keritot` | Mishnat Eretz Yisrael on Mishnah Keritot | 猶太教 | 16824 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-ketubot` | Mishnat Eretz Yisrael on Mishnah Ketubot | 猶太教 | 24254 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-kiddushin` | Mishnat Eretz Yisrael on Mishnah Kiddushin | 猶太教 | 66939 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-kilayim` | Mishnat Eretz Yisrael on Mishnah Kilayim | 猶太教 | 39898 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-kinnim` | Mishnat Eretz Yisrael on Mishnah Kinnim | 猶太教 | 19731 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-maaser-sheni` | Mishnat Eretz Yisrael on Mishnah Maaser Sheni | 猶太教 | 22092 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-maasrot` | Mishnat Eretz Yisrael on Mishnah Maasrot | 猶太教 | 19380 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-makhshirin` | Mishnat Eretz Yisrael on Mishnah Makhshirin | 猶太教 | 13806 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-makkot` | Mishnat Eretz Yisrael on Mishnah Makkot | 猶太教 | 22155 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-megillah` | Mishnat Eretz Yisrael on Mishnah Megillah | 猶太教 | 30491 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-meilah` | Mishnat Eretz Yisrael on Mishnah Meilah | 猶太教 | 18992 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-menachot` | Mishnat Eretz Yisrael on Mishnah Menachot | 猶太教 | 7944 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-middot` | Mishnat Eretz Yisrael on Mishnah Middot | 猶太教 | 10290 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-mikvaot` | Mishnat Eretz Yisrael on Mishnah Mikvaot | 猶太教 | 17545 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-moed-katan` | Mishnat Eretz Yisrael on Mishnah Moed Katan | 猶太教 | 25944 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-nazir` | Mishnat Eretz Yisrael on Mishnah Nazir | 猶太教 | 25800 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-nedarim` | Mishnat Eretz Yisrael on Mishnah Nedarim | 猶太教 | 40220 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-negaim` | Mishnat Eretz Yisrael on Mishnah Negaim | 猶太教 | 18099 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-niddah` | Mishnat Eretz Yisrael on Mishnah Niddah | 猶太教 | 43170 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-oholot` | Mishnat Eretz Yisrael on Mishnah Oholot | 猶太教 | 13309 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-oktzin` | Mishnat Eretz Yisrael on Mishnah Oktzin | 猶太教 | 4222 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-orlah` | Mishnat Eretz Yisrael on Mishnah Orlah | 猶太教 | 10318 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-parah` | Mishnat Eretz Yisrael on Mishnah Parah | 猶太教 | 23537 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-peah` | Mishnat Eretz Yisrael on Mishnah Peah | 猶太教 | 61390 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-pesachim` | Mishnat Eretz Yisrael on Mishnah Pesachim | 猶太教 | 23717 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-rosh-hashanah` | Mishnat Eretz Yisrael on Mishnah Rosh Hashanah | 猶太教 | 73985 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-sanhedrin` | Mishnat Eretz Yisrael on Mishnah Sanhedrin | 猶太教 | 43977 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-shabbat` | Mishnat Eretz Yisrael on Mishnah Shabbat | 猶太教 | 12281 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-shekalim` | Mishnat Eretz Yisrael on Mishnah Shekalim | 猶太教 | 42474 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-sheviit` | Mishnat Eretz Yisrael on Mishnah Sheviit | 猶太教 | 10672 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-shevuot` | Mishnat Eretz Yisrael on Mishnah Shevuot | 猶太教 | 20279 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-sotah` | Mishnat Eretz Yisrael on Mishnah Sotah | 猶太教 | 46086 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-sukkah` | Mishnat Eretz Yisrael on Mishnah Sukkah | 猶太教 | 17468 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-taanit` | Mishnat Eretz Yisrael on Mishnah Taanit | 猶太教 | 14970 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-tahorot` | Mishnat Eretz Yisrael on Mishnah Tahorot | 猶太教 | 29401 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-tamid` | Mishnat Eretz Yisrael on Mishnah Tamid | 猶太教 | 30233 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-temurah` | Mishnat Eretz Yisrael on Mishnah Temurah | 猶太教 | 16757 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-terumot` | Mishnat Eretz Yisrael on Mishnah Terumot | 猶太教 | 54900 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-tevul-yom` | Mishnat Eretz Yisrael on Mishnah Tevul Yom | 猶太教 | 24087 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-yadayim` | Mishnat Eretz Yisrael on Mishnah Yadayim | 猶太教 | 20389 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-yevamot` | Mishnat Eretz Yisrael on Mishnah Yevamot | 猶太教 | 38502 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-yoma` | Mishnat Eretz Yisrael on Mishnah Yoma | 猶太教 | 37913 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-zavim` | Mishnat Eretz Yisrael on Mishnah Zavim | 猶太教 | 25447 |
+| `sefaria-mishnat-eretz-yisrael-on-mishnah-zevachim` | Mishnat Eretz Yisrael on Mishnah Zevachim | 猶太教 | 24303 |
+| `sefaria-mishnat-eretz-yisrael-on-pirkei-avot` | Mishnat Eretz Yisrael on Pirkei Avot | 猶太教 | 87789 |
 | `sefaria-motar-kinnim` | Motar Kinnim | 猶太教 | 1116 |
 | `sefaria-nachalat-avot-on-avot` | Nachalat Avot on Avot | 猶太教 | 38694 |
+| `sefaria-notes-by-rabbi-yehoshua-hartman-on-derekh-chayim` | Notes by Rabbi Yehoshua Hartman on Derekh Chayim | 猶太教 | 255658 |
 | `sefaria-petach-einayim-on-mishnah-demai` | Petach Einayim on Mishnah Demai | 猶太教 | 4483 |
 | `sefaria-petach-einayim-on-mishnah-kelim` | Petach Einayim on Mishnah Kelim | 猶太教 | 1471 |
 | `sefaria-petach-einayim-on-mishnah-kilayim` | Petach Einayim on Mishnah Kilayim | 猶太教 | 1483 |
@@ -1931,30 +2121,46 @@
 | `sefaria-rash-mishantz-on-mishnah-tevul-yom` | Rash MiShantz on Mishnah Tevul Yom | 猶太教 | 7487 |
 | `sefaria-rash-mishantz-on-mishnah-yadayim` | Rash MiShantz on Mishnah Yadayim | 猶太教 | 14112 |
 | `sefaria-rash-mishantz-on-mishnah-zavim` | Rash MiShantz on Mishnah Zavim | 猶太教 | 22340 |
+| `sefaria-rashash-on-mishnah-arakhin` | Rashash on Mishnah Arakhin | 猶太教 | 7564 |
 | `sefaria-rashash-on-mishnah-avodah-zarah` | Rashash on Mishnah Avodah Zarah | 猶太教 | 435 |
 | `sefaria-rashash-on-mishnah-bava-batra` | Rashash on Mishnah Bava Batra | 猶太教 | 9862 |
 | `sefaria-rashash-on-mishnah-bava-kamma` | Rashash on Mishnah Bava Kamma | 猶太教 | 9462 |
 | `sefaria-rashash-on-mishnah-bava-metzia` | Rashash on Mishnah Bava Metzia | 猶太教 | 7159 |
 | `sefaria-rashash-on-mishnah-beitzah` | Rashash on Mishnah Beitzah | 猶太教 | 6057 |
+| `sefaria-rashash-on-mishnah-bekhorot` | Rashash on Mishnah Bekhorot | 猶太教 | 8785 |
 | `sefaria-rashash-on-mishnah-berakhot` | Rashash on Mishnah Berakhot | 猶太教 | 4357 |
 | `sefaria-rashash-on-mishnah-bikkurim` | Rashash on Mishnah Bikkurim | 猶太教 | 2927 |
 | `sefaria-rashash-on-mishnah-chagigah` | Rashash on Mishnah Chagigah | 猶太教 | 6960 |
+| `sefaria-rashash-on-mishnah-chullin` | Rashash on Mishnah Chullin | 猶太教 | 5118 |
 | `sefaria-rashash-on-mishnah-demai` | Rashash on Mishnah Demai | 猶太教 | 4056 |
 | `sefaria-rashash-on-mishnah-eduyot` | Rashash on Mishnah Eduyot | 猶太教 | 1710 |
 | `sefaria-rashash-on-mishnah-eruvin` | Rashash on Mishnah Eruvin | 猶太教 | 8325 |
 | `sefaria-rashash-on-mishnah-gittin` | Rashash on Mishnah Gittin | 猶太教 | 2855 |
 | `sefaria-rashash-on-mishnah-horayot` | Rashash on Mishnah Horayot | 猶太教 | 562 |
+| `sefaria-rashash-on-mishnah-kelim` | Rashash on Mishnah Kelim | 猶太教 | 15308 |
+| `sefaria-rashash-on-mishnah-keritot` | Rashash on Mishnah Keritot | 猶太教 | 7650 |
 | `sefaria-rashash-on-mishnah-ketubot` | Rashash on Mishnah Ketubot | 猶太教 | 6956 |
 | `sefaria-rashash-on-mishnah-kiddushin` | Rashash on Mishnah Kiddushin | 猶太教 | 2554 |
 | `sefaria-rashash-on-mishnah-kilayim` | Rashash on Mishnah Kilayim | 猶太教 | 8381 |
+| `sefaria-rashash-on-mishnah-kinnim` | Rashash on Mishnah Kinnim | 猶太教 | 2274 |
 | `sefaria-rashash-on-mishnah-maaser-sheni` | Rashash on Mishnah Maaser Sheni | 猶太教 | 2004 |
 | `sefaria-rashash-on-mishnah-maasrot` | Rashash on Mishnah Maasrot | 猶太教 | 1880 |
+| `sefaria-rashash-on-mishnah-makhshirin` | Rashash on Mishnah Makhshirin | 猶太教 | 2849 |
 | `sefaria-rashash-on-mishnah-makkot` | Rashash on Mishnah Makkot | 猶太教 | 5007 |
 | `sefaria-rashash-on-mishnah-megillah` | Rashash on Mishnah Megillah | 猶太教 | 1284 |
+| `sefaria-rashash-on-mishnah-meilah` | Rashash on Mishnah Meilah | 猶太教 | 2892 |
+| `sefaria-rashash-on-mishnah-menachot` | Rashash on Mishnah Menachot | 猶太教 | 6745 |
+| `sefaria-rashash-on-mishnah-middot` | Rashash on Mishnah Middot | 猶太教 | 4485 |
+| `sefaria-rashash-on-mishnah-mikvaot` | Rashash on Mishnah Mikvaot | 猶太教 | 6560 |
 | `sefaria-rashash-on-mishnah-moed-katan` | Rashash on Mishnah Moed Katan | 猶太教 | 1003 |
 | `sefaria-rashash-on-mishnah-nazir` | Rashash on Mishnah Nazir | 猶太教 | 10159 |
 | `sefaria-rashash-on-mishnah-nedarim` | Rashash on Mishnah Nedarim | 猶太教 | 9926 |
+| `sefaria-rashash-on-mishnah-negaim` | Rashash on Mishnah Negaim | 猶太教 | 6531 |
+| `sefaria-rashash-on-mishnah-niddah` | Rashash on Mishnah Niddah | 猶太教 | 5504 |
+| `sefaria-rashash-on-mishnah-oholot` | Rashash on Mishnah Oholot | 猶太教 | 18231 |
+| `sefaria-rashash-on-mishnah-oktzin` | Rashash on Mishnah Oktzin | 猶太教 | 610 |
 | `sefaria-rashash-on-mishnah-orlah` | Rashash on Mishnah Orlah | 猶太教 | 4966 |
+| `sefaria-rashash-on-mishnah-parah` | Rashash on Mishnah Parah | 猶太教 | 6686 |
 | `sefaria-rashash-on-mishnah-peah` | Rashash on Mishnah Peah | 猶太教 | 2713 |
 | `sefaria-rashash-on-mishnah-pesachim` | Rashash on Mishnah Pesachim | 猶太教 | 8515 |
 | `sefaria-rashash-on-mishnah-rosh-hashanah` | Rashash on Mishnah Rosh Hashanah | 猶太教 | 6126 |
@@ -1966,11 +2172,152 @@
 | `sefaria-rashash-on-mishnah-sotah` | Rashash on Mishnah Sotah | 猶太教 | 6259 |
 | `sefaria-rashash-on-mishnah-sukkah` | Rashash on Mishnah Sukkah | 猶太教 | 1510 |
 | `sefaria-rashash-on-mishnah-taanit` | Rashash on Mishnah Taanit | 猶太教 | 707 |
+| `sefaria-rashash-on-mishnah-tahorot` | Rashash on Mishnah Tahorot | 猶太教 | 5528 |
+| `sefaria-rashash-on-mishnah-tamid` | Rashash on Mishnah Tamid | 猶太教 | 8252 |
+| `sefaria-rashash-on-mishnah-temurah` | Rashash on Mishnah Temurah | 猶太教 | 12428 |
 | `sefaria-rashash-on-mishnah-terumot` | Rashash on Mishnah Terumot | 猶太教 | 10131 |
+| `sefaria-rashash-on-mishnah-tevul-yom` | Rashash on Mishnah Tevul Yom | 猶太教 | 2263 |
+| `sefaria-rashash-on-mishnah-yadayim` | Rashash on Mishnah Yadayim | 猶太教 | 803 |
 | `sefaria-rashash-on-mishnah-yevamot` | Rashash on Mishnah Yevamot | 猶太教 | 11567 |
 | `sefaria-rashash-on-mishnah-yoma` | Rashash on Mishnah Yoma | 猶太教 | 8278 |
+| `sefaria-rashash-on-mishnah-zavim` | Rashash on Mishnah Zavim | 猶太教 | 5968 |
+| `sefaria-rashash-on-mishnah-zevachim` | Rashash on Mishnah Zevachim | 猶太教 | 11691 |
 | `sefaria-rashash-on-pirkei-avot` | Rashash on Pirkei Avot | 猶太教 | 1716 |
 | `sefaria-rashi-on-avot` | Rashi on Avot | 猶太教 | 13178 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-challah` | Sha'arei Torat Bavel on Mishnah Challah | 猶太教 | 442 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-demai` | Sha'arei Torat Bavel on Mishnah Demai | 猶太教 | 2319 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-eduyot` | Sha'arei Torat Bavel on Mishnah Eduyot | 猶太教 | 608 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-kelim` | Sha'arei Torat Bavel on Mishnah Kelim | 猶太教 | 4127 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-kilayim` | Sha'arei Torat Bavel on Mishnah Kilayim | 猶太教 | 3030 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-makhshirin` | Sha'arei Torat Bavel on Mishnah Makhshirin | 猶太教 | 525 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-negaim` | Sha'arei Torat Bavel on Mishnah Negaim | 猶太教 | 2734 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-oholot` | Sha'arei Torat Bavel on Mishnah Oholot | 猶太教 | 1977 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-parah` | Sha'arei Torat Bavel on Mishnah Parah | 猶太教 | 601 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-peah` | Sha'arei Torat Bavel on Mishnah Peah | 猶太教 | 1366 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-sheviit` | Sha'arei Torat Bavel on Mishnah Sheviit | 猶太教 | 1816 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-terumot` | Sha'arei Torat Bavel on Mishnah Terumot | 猶太教 | 414 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-yadayim` | Sha'arei Torat Bavel on Mishnah Yadayim | 猶太教 | 773 |
+| `sefaria-sha-arei-torat-bavel-on-mishnah-zavim` | Sha'arei Torat Bavel on Mishnah Zavim | 猶太教 | 374 |
+| `sefaria-sha-arei-torat-bavel-on-pirkei-avot` | Sha'arei Torat Bavel on Pirkei Avot | 猶太教 | 1060 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-arakhin` | Tosafot Rabbi Akiva Eiger on Mishnah Arakhin | 猶太教 | 7222 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-avodah-zarah` | Tosafot Rabbi Akiva Eiger on Mishnah Avodah Zarah | 猶太教 | 1321 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-bava-batra` | Tosafot Rabbi Akiva Eiger on Mishnah Bava Batra | 猶太教 | 16691 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-bava-kamma` | Tosafot Rabbi Akiva Eiger on Mishnah Bava Kamma | 猶太教 | 13419 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-bava-metzia` | Tosafot Rabbi Akiva Eiger on Mishnah Bava Metzia | 猶太教 | 17725 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-beitzah` | Tosafot Rabbi Akiva Eiger on Mishnah Beitzah | 猶太教 | 5357 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-bekhorot` | Tosafot Rabbi Akiva Eiger on Mishnah Bekhorot | 猶太教 | 4237 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-berakhot` | Tosafot Rabbi Akiva Eiger on Mishnah Berakhot | 猶太教 | 13926 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-bikkurim` | Tosafot Rabbi Akiva Eiger on Mishnah Bikkurim | 猶太教 | 728 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-chagigah` | Tosafot Rabbi Akiva Eiger on Mishnah Chagigah | 猶太教 | 4112 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-challah` | Tosafot Rabbi Akiva Eiger on Mishnah Challah | 猶太教 | 1616 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-chullin` | Tosafot Rabbi Akiva Eiger on Mishnah Chullin | 猶太教 | 8860 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-demai` | Tosafot Rabbi Akiva Eiger on Mishnah Demai | 猶太教 | 15600 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-eduyot` | Tosafot Rabbi Akiva Eiger on Mishnah Eduyot | 猶太教 | 506 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-eruvin` | Tosafot Rabbi Akiva Eiger on Mishnah Eruvin | 猶太教 | 11016 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-gittin` | Tosafot Rabbi Akiva Eiger on Mishnah Gittin | 猶太教 | 45641 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-horayot` | Tosafot Rabbi Akiva Eiger on Mishnah Horayot | 猶太教 | 661 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-kelim` | Tosafot Rabbi Akiva Eiger on Mishnah Kelim | 猶太教 | 3680 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-keritot` | Tosafot Rabbi Akiva Eiger on Mishnah Keritot | 猶太教 | 3308 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-ketubot` | Tosafot Rabbi Akiva Eiger on Mishnah Ketubot | 猶太教 | 21534 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-kiddushin` | Tosafot Rabbi Akiva Eiger on Mishnah Kiddushin | 猶太教 | 22441 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-kilayim` | Tosafot Rabbi Akiva Eiger on Mishnah Kilayim | 猶太教 | 7944 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-maaser-sheni` | Tosafot Rabbi Akiva Eiger on Mishnah Maaser Sheni | 猶太教 | 5836 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-maasrot` | Tosafot Rabbi Akiva Eiger on Mishnah Maasrot | 猶太教 | 612 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-makkot` | Tosafot Rabbi Akiva Eiger on Mishnah Makkot | 猶太教 | 7560 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-megillah` | Tosafot Rabbi Akiva Eiger on Mishnah Megillah | 猶太教 | 1994 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-meilah` | Tosafot Rabbi Akiva Eiger on Mishnah Meilah | 猶太教 | 2398 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-menachot` | Tosafot Rabbi Akiva Eiger on Mishnah Menachot | 猶太教 | 2170 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-mikvaot` | Tosafot Rabbi Akiva Eiger on Mishnah Mikvaot | 猶太教 | 1920 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-moed-katan` | Tosafot Rabbi Akiva Eiger on Mishnah Moed Katan | 猶太教 | 5902 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-nazir` | Tosafot Rabbi Akiva Eiger on Mishnah Nazir | 猶太教 | 4197 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-nedarim` | Tosafot Rabbi Akiva Eiger on Mishnah Nedarim | 猶太教 | 13835 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-niddah` | Tosafot Rabbi Akiva Eiger on Mishnah Niddah | 猶太教 | 6719 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-oholot` | Tosafot Rabbi Akiva Eiger on Mishnah Oholot | 猶太教 | 3498 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-orlah` | Tosafot Rabbi Akiva Eiger on Mishnah Orlah | 猶太教 | 2323 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-parah` | Tosafot Rabbi Akiva Eiger on Mishnah Parah | 猶太教 | 214 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-peah` | Tosafot Rabbi Akiva Eiger on Mishnah Peah | 猶太教 | 10654 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-pesachim` | Tosafot Rabbi Akiva Eiger on Mishnah Pesachim | 猶太教 | 7933 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-rosh-hashanah` | Tosafot Rabbi Akiva Eiger on Mishnah Rosh Hashanah | 猶太教 | 4960 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-sanhedrin` | Tosafot Rabbi Akiva Eiger on Mishnah Sanhedrin | 猶太教 | 3707 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-shabbat` | Tosafot Rabbi Akiva Eiger on Mishnah Shabbat | 猶太教 | 42761 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-shekalim` | Tosafot Rabbi Akiva Eiger on Mishnah Shekalim | 猶太教 | 1497 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-sheviit` | Tosafot Rabbi Akiva Eiger on Mishnah Sheviit | 猶太教 | 3691 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-shevuot` | Tosafot Rabbi Akiva Eiger on Mishnah Shevuot | 猶太教 | 12867 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-sotah` | Tosafot Rabbi Akiva Eiger on Mishnah Sotah | 猶太教 | 4180 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-sukkah` | Tosafot Rabbi Akiva Eiger on Mishnah Sukkah | 猶太教 | 7464 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-taanit` | Tosafot Rabbi Akiva Eiger on Mishnah Taanit | 猶太教 | 1285 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-tahorot` | Tosafot Rabbi Akiva Eiger on Mishnah Tahorot | 猶太教 | 1451 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-tamid` | Tosafot Rabbi Akiva Eiger on Mishnah Tamid | 猶太教 | 857 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-temurah` | Tosafot Rabbi Akiva Eiger on Mishnah Temurah | 猶太教 | 2428 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-terumot` | Tosafot Rabbi Akiva Eiger on Mishnah Terumot | 猶太教 | 6000 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-yevamot` | Tosafot Rabbi Akiva Eiger on Mishnah Yevamot | 猶太教 | 23813 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-yoma` | Tosafot Rabbi Akiva Eiger on Mishnah Yoma | 猶太教 | 4678 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-zevachim` | Tosafot Rabbi Akiva Eiger on Mishnah Zevachim | 猶太教 | 13935 |
+| `sefaria-tosafot-rabbi-akiva-eiger-on-pirkei-avot` | Tosafot Rabbi Akiva Eiger on Pirkei Avot | 猶太教 | 482 |
+| `sefaria-tosafot-yom-tov-introduction-to-the-mishnah` | Tosafot Yom Tov Introduction to the Mishnah | 猶太教 | 25655 |
+| `sefaria-tosafot-yom-tov-on-mishnah-arakhin` | Tosafot Yom Tov on Mishnah Arakhin | 猶太教 | 3085 |
+| `sefaria-tosafot-yom-tov-on-mishnah-avodah-zarah` | Tosafot Yom Tov on Mishnah Avodah Zarah | 猶太教 | 2446 |
+| `sefaria-tosafot-yom-tov-on-mishnah-bava-batra` | Tosafot Yom Tov on Mishnah Bava Batra | 猶太教 | 6239 |
+| `sefaria-tosafot-yom-tov-on-mishnah-bava-kamma` | Tosafot Yom Tov on Mishnah Bava Kamma | 猶太教 | 10675 |
+| `sefaria-tosafot-yom-tov-on-mishnah-bava-metzia` | Tosafot Yom Tov on Mishnah Bava Metzia | 猶太教 | 9408 |
+| `sefaria-tosafot-yom-tov-on-mishnah-beitzah` | Tosafot Yom Tov on Mishnah Beitzah | 猶太教 | 14128 |
+| `sefaria-tosafot-yom-tov-on-mishnah-bekhorot` | Tosafot Yom Tov on Mishnah Bekhorot | 猶太教 | 3198 |
+| `sefaria-tosafot-yom-tov-on-mishnah-berakhot` | Tosafot Yom Tov on Mishnah Berakhot | 猶太教 | 22410 |
+| `sefaria-tosafot-yom-tov-on-mishnah-bikkurim` | Tosafot Yom Tov on Mishnah Bikkurim | 猶太教 | 823 |
+| `sefaria-tosafot-yom-tov-on-mishnah-chagigah` | Tosafot Yom Tov on Mishnah Chagigah | 猶太教 | 5300 |
+| `sefaria-tosafot-yom-tov-on-mishnah-challah` | Tosafot Yom Tov on Mishnah Challah | 猶太教 | 5517 |
+| `sefaria-tosafot-yom-tov-on-mishnah-chullin` | Tosafot Yom Tov on Mishnah Chullin | 猶太教 | 8878 |
+| `sefaria-tosafot-yom-tov-on-mishnah-demai` | Tosafot Yom Tov on Mishnah Demai | 猶太教 | 6242 |
+| `sefaria-tosafot-yom-tov-on-mishnah-eduyot` | Tosafot Yom Tov on Mishnah Eduyot | 猶太教 | 268 |
+| `sefaria-tosafot-yom-tov-on-mishnah-eruvin` | Tosafot Yom Tov on Mishnah Eruvin | 猶太教 | 1184 |
+| `sefaria-tosafot-yom-tov-on-mishnah-gittin` | Tosafot Yom Tov on Mishnah Gittin | 猶太教 | 9557 |
+| `sefaria-tosafot-yom-tov-on-mishnah-horayot` | Tosafot Yom Tov on Mishnah Horayot | 猶太教 | 2103 |
+| `sefaria-tosafot-yom-tov-on-mishnah-kelim` | Tosafot Yom Tov on Mishnah Kelim | 猶太教 | 5611 |
+| `sefaria-tosafot-yom-tov-on-mishnah-keritot` | Tosafot Yom Tov on Mishnah Keritot | 猶太教 | 40485 |
+| `sefaria-tosafot-yom-tov-on-mishnah-ketubot` | Tosafot Yom Tov on Mishnah Ketubot | 猶太教 | 4260 |
+| `sefaria-tosafot-yom-tov-on-mishnah-kiddushin` | Tosafot Yom Tov on Mishnah Kiddushin | 猶太教 | 10915 |
+| `sefaria-tosafot-yom-tov-on-mishnah-kilayim` | Tosafot Yom Tov on Mishnah Kilayim | 猶太教 | 1524 |
+| `sefaria-tosafot-yom-tov-on-mishnah-kinnim` | Tosafot Yom Tov on Mishnah Kinnim | 猶太教 | 2940 |
+| `sefaria-tosafot-yom-tov-on-mishnah-maaser-sheni` | Tosafot Yom Tov on Mishnah Maaser Sheni | 猶太教 | 1398 |
+| `sefaria-tosafot-yom-tov-on-mishnah-maasrot` | Tosafot Yom Tov on Mishnah Maasrot | 猶太教 | 623 |
+| `sefaria-tosafot-yom-tov-on-mishnah-makhshirin` | Tosafot Yom Tov on Mishnah Makhshirin | 猶太教 | 4286 |
+| `sefaria-tosafot-yom-tov-on-mishnah-makkot` | Tosafot Yom Tov on Mishnah Makkot | 猶太教 | 7600 |
+| `sefaria-tosafot-yom-tov-on-mishnah-megillah` | Tosafot Yom Tov on Mishnah Megillah | 猶太教 | 3257 |
+| `sefaria-tosafot-yom-tov-on-mishnah-meilah` | Tosafot Yom Tov on Mishnah Meilah | 猶太教 | 5701 |
+| `sefaria-tosafot-yom-tov-on-mishnah-menachot` | Tosafot Yom Tov on Mishnah Menachot | 猶太教 | 2212 |
+| `sefaria-tosafot-yom-tov-on-mishnah-middot` | Tosafot Yom Tov on Mishnah Middot | 猶太教 | 1856 |
+| `sefaria-tosafot-yom-tov-on-mishnah-mikvaot` | Tosafot Yom Tov on Mishnah Mikvaot | 猶太教 | 4042 |
+| `sefaria-tosafot-yom-tov-on-mishnah-moed-katan` | Tosafot Yom Tov on Mishnah Moed Katan | 猶太教 | 6254 |
+| `sefaria-tosafot-yom-tov-on-mishnah-nazir` | Tosafot Yom Tov on Mishnah Nazir | 猶太教 | 4957 |
+| `sefaria-tosafot-yom-tov-on-mishnah-nedarim` | Tosafot Yom Tov on Mishnah Nedarim | 猶太教 | 13632 |
+| `sefaria-tosafot-yom-tov-on-mishnah-negaim` | Tosafot Yom Tov on Mishnah Negaim | 猶太教 | 4416 |
+| `sefaria-tosafot-yom-tov-on-mishnah-niddah` | Tosafot Yom Tov on Mishnah Niddah | 猶太教 | 3419 |
+| `sefaria-tosafot-yom-tov-on-mishnah-oholot` | Tosafot Yom Tov on Mishnah Oholot | 猶太教 | 1149 |
+| `sefaria-tosafot-yom-tov-on-mishnah-oktzin` | Tosafot Yom Tov on Mishnah Oktzin | 猶太教 | 1190 |
+| `sefaria-tosafot-yom-tov-on-mishnah-orlah` | Tosafot Yom Tov on Mishnah Orlah | 猶太教 | 1434 |
+| `sefaria-tosafot-yom-tov-on-mishnah-parah` | Tosafot Yom Tov on Mishnah Parah | 猶太教 | 24726 |
+| `sefaria-tosafot-yom-tov-on-mishnah-pesachim` | Tosafot Yom Tov on Mishnah Pesachim | 猶太教 | 3902 |
+| `sefaria-tosafot-yom-tov-on-mishnah-rosh-hashanah` | Tosafot Yom Tov on Mishnah Rosh Hashanah | 猶太教 | 7451 |
+| `sefaria-tosafot-yom-tov-on-mishnah-sanhedrin` | Tosafot Yom Tov on Mishnah Sanhedrin | 猶太教 | 4893 |
+| `sefaria-tosafot-yom-tov-on-mishnah-shabbat` | Tosafot Yom Tov on Mishnah Shabbat | 猶太教 | 53754 |
+| `sefaria-tosafot-yom-tov-on-mishnah-shekalim` | Tosafot Yom Tov on Mishnah Shekalim | 猶太教 | 4397 |
+| `sefaria-tosafot-yom-tov-on-mishnah-sheviit` | Tosafot Yom Tov on Mishnah Sheviit | 猶太教 | 1072 |
+| `sefaria-tosafot-yom-tov-on-mishnah-shevuot` | Tosafot Yom Tov on Mishnah Shevuot | 猶太教 | 5509 |
+| `sefaria-tosafot-yom-tov-on-mishnah-sotah` | Tosafot Yom Tov on Mishnah Sotah | 猶太教 | 5155 |
+| `sefaria-tosafot-yom-tov-on-mishnah-sukkah` | Tosafot Yom Tov on Mishnah Sukkah | 猶太教 | 4419 |
+| `sefaria-tosafot-yom-tov-on-mishnah-taanit` | Tosafot Yom Tov on Mishnah Taanit | 猶太教 | 3353 |
+| `sefaria-tosafot-yom-tov-on-mishnah-tahorot` | Tosafot Yom Tov on Mishnah Tahorot | 猶太教 | 7625 |
+| `sefaria-tosafot-yom-tov-on-mishnah-tamid` | Tosafot Yom Tov on Mishnah Tamid | 猶太教 | 5628 |
+| `sefaria-tosafot-yom-tov-on-mishnah-temurah` | Tosafot Yom Tov on Mishnah Temurah | 猶太教 | 3932 |
+| `sefaria-tosafot-yom-tov-on-mishnah-terumot` | Tosafot Yom Tov on Mishnah Terumot | 猶太教 | 3355 |
+| `sefaria-tosafot-yom-tov-on-mishnah-tevul-yom` | Tosafot Yom Tov on Mishnah Tevul Yom | 猶太教 | 2853 |
+| `sefaria-tosafot-yom-tov-on-mishnah-yadayim` | Tosafot Yom Tov on Mishnah Yadayim | 猶太教 | 2826 |
+| `sefaria-tosafot-yom-tov-on-mishnah-yevamot` | Tosafot Yom Tov on Mishnah Yevamot | 猶太教 | 7055 |
+| `sefaria-tosafot-yom-tov-on-mishnah-yoma` | Tosafot Yom Tov on Mishnah Yoma | 猶太教 | 1425 |
+| `sefaria-tosafot-yom-tov-on-mishnah-zavim` | Tosafot Yom Tov on Mishnah Zavim | 猶太教 | 16409 |
+| `sefaria-tosafot-yom-tov-on-mishnah-zevachim` | Tosafot Yom Tov on Mishnah Zevachim | 猶太教 | 36945 |
+| `sefaria-tosafot-yom-tov-on-pirkei-avot` | Tosafot Yom Tov on Pirkei Avot | 猶太教 | 4048 |
+| `sefaria-tosefot-yom-tov-on-mishnah-peah` | Tosefot Yom Tov on Mishnah Peah | 猶太教 | 6897 |
 | `sefaria-yachin-on-mishnah-arakhin` | Yachin on Mishnah Arakhin | 猶太教 | 5206 |
 | `sefaria-yachin-on-mishnah-avodah-zarah` | Yachin on Mishnah Avodah Zarah | 猶太教 | 574 |
 | `sefaria-yachin-on-mishnah-bava-batra` | Yachin on Mishnah Bava Batra | 猶太教 | 1843 |
@@ -2034,6 +2381,29 @@
 | `sefaria-yachin-on-mishnah-zavim` | Yachin on Mishnah Zavim | 猶太教 | 730 |
 | `sefaria-yachin-on-mishnah-zevachim` | Yachin on Mishnah Zevachim | 猶太教 | 3393 |
 | `sefaria-yachin-on-pirkei-avot` | Yachin on Pirkei Avot | 猶太教 | 4958 |
+| `sefaria-yein-levanon-on-avot` | Yein Levanon on Avot | 猶太教 | 39817 |
+| `sefaria-yesh-seder-lamishnah-introduction` | Yesh Seder LaMishnah Introduction | 猶太教 | 30827 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-beitzah` | Yesh Seder LaMishnah on Mishnah Beitzah | 猶太教 | 11699 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-berakhot` | Yesh Seder LaMishnah on Mishnah Berakhot | 猶太教 | 41116 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-chagigah` | Yesh Seder LaMishnah on Mishnah Chagigah | 猶太教 | 22520 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-demai` | Yesh Seder LaMishnah on Mishnah Demai | 猶太教 | 34476 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-eruvin` | Yesh Seder LaMishnah on Mishnah Eruvin | 猶太教 | 13793 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-kilayim` | Yesh Seder LaMishnah on Mishnah Kilayim | 猶太教 | 1429 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-maaser-sheni` | Yesh Seder LaMishnah on Mishnah Maaser Sheni | 猶太教 | 338 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-maasrot` | Yesh Seder LaMishnah on Mishnah Maasrot | 猶太教 | 1141 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-megillah` | Yesh Seder LaMishnah on Mishnah Megillah | 猶太教 | 3601 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-moed-katan` | Yesh Seder LaMishnah on Mishnah Moed Katan | 猶太教 | 2815 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-orlah` | Yesh Seder LaMishnah on Mishnah Orlah | 猶太教 | 9511 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-peah` | Yesh Seder LaMishnah on Mishnah Peah | 猶太教 | 3298 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-pesachim` | Yesh Seder LaMishnah on Mishnah Pesachim | 猶太教 | 5745 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-rosh-hashanah` | Yesh Seder LaMishnah on Mishnah Rosh Hashanah | 猶太教 | 7319 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-shabbat` | Yesh Seder LaMishnah on Mishnah Shabbat | 猶太教 | 13697 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-shekalim` | Yesh Seder LaMishnah on Mishnah Shekalim | 猶太教 | 2357 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-sheviit` | Yesh Seder LaMishnah on Mishnah Sheviit | 猶太教 | 2468 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-taanit` | Yesh Seder LaMishnah on Mishnah Taanit | 猶太教 | 1056 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-terumot` | Yesh Seder LaMishnah on Mishnah Terumot | 猶太教 | 21231 |
+| `sefaria-yesh-seder-lamishnah-on-mishnah-yoma` | Yesh Seder LaMishnah on Mishnah Yoma | 猶太教 | 19693 |
+| `sefaria-zeroa-yamin` | Zeroa Yamin | 猶太教 | 44351 |
 | `sefer-yetzirah` | 創造之書 | 猶太教 | 15675 |
 | `shemot-rabbah` | 出埃及記拉巴 | 猶太教 | 1516846 |
 | `song-of-songs` | 雅歌 | 猶太教 | 23759 |

@@ -54,20 +54,19 @@ CORE_SLUGS = [
     "heart-sutra-kumarajiva",
     "heart-sutra-xuanzang",
     "tao-te-ching",
-    "dhammapada-pali",
+    "dhammapada",
     "bhagavad-gita",
     "genesis",
-    "matthew-greek",
+    "sblgnt-matthew",
     "quran",
     "isha-upanishad",
-    "kena-upanishad",
     "katha-upanishad",
     "analects",
     "great-learning",
     "doctrine-of-the-mean",
     "zhuangzi",
     "lotus-sutra",
-    "diamond-sutra",
+    "diamond-sutra-kumarajiva",
 ]
 
 MAX_CHARS_PER_CALL = 40000  # m3 input safety; longer → chunk by chapter
