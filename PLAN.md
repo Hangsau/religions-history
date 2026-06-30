@@ -124,18 +124,33 @@
 
 ---
 
-## 4. 階段規劃
+## 4. 階段規劃 (v3, 改寫於 2026-06-30)
 
-| 階段 | 範圍 | 預期產出 |
-|------|------|---------|
-| **P0** | 框架 + PLAN + 結構 | PLAN + CLAUDE + README + 00-overview | ✓ 完成 |
-| **P1** | 宗教總目錄 | `00-overview/religions-inventory.md`（≥50 條目）|
-| **P2** | 經文總目錄 | `00-overview/scriptures-inventory.md`（≥80 條目）|
-| **P3** | 各區域細節 | 每個區域一個 overview.md + 主要宗教子條目 |
-| **P4** | 經典摘錄 / 概要 | 重要經典做簡介（不是全文翻譯）|
-| **P5** | 交叉專題 | 宗教與政治、宗教與科學、末世論比較 |
-| **P6** | 心理學（延後）| 11-psychology/ 目錄建立 + 主要分支介紹 |
-| **P7** | 開放資料 / 視覺化 | 知識圖譜、引用檔、英文版 |
+**目標重訂**：從「v2 精選 575 部」改為「**全本目錄 + 階段獲取**」。詳全本目錄見
+`methodology/per-religion-scriptures.md` v3 (~2,400 列出 entry，估全本級 ~85,000+)。
+
+階段：
+
+| 階段 | 範圍 | 預期產出 | 狀態 |
+|------|------|---------|------|
+| **P0** | 框架 + PLAN + 結構 | PLAN + CLAUDE + README + 00-overview | ✓ |
+| **P1** | 宗教總目錄 | `00-overview/religions-inventory.md` | ✓ |
+| **P2** | 經文總目錄 | `00-overview/scriptures-inventory.md` | ✓ |
+| **P2.5 / v3** | **全本經典目錄** | `methodology/per-religion-scriptures.md` v3 | ✓ |
+| **P3 Phase A** | 主要宗教核心 + 部分次要 | 8 主要宗教 + 6 邊緣部分 | ✓ ~234 部 |
+| **P3 Phase B** | 補齊主要宗教原文 + 中型總集 | 希臘 NT / Vulgate / LXX / Sanskrit Mahabharata / 耆那 45 / 巴哈伊核心 / Avesta / 神道 5 | 待 |
+| **P3 Phase C** | 巴利全展開 + 漢譯佛經補完 + 道藏精選 + 儒教十三經注疏 | ~2,000 部 | 待 |
+| **P3 Phase D** | 大規模逐部 | 巴比倫塔木德 / 教父全集 / 大正藏全本 / 道藏全本 | 待，多月工程 |
+| **P3 Phase E** | 邊緣補完 | 兩河 ETCSL / 古埃及 / 美洲 / 非洲 / 現代新興全部 | 待 |
+| **P4** | AI 翻譯 (按 `methodology/translation-workflow.md` SOP) | 每部 01-translation.md | 待 |
+| **P5** | 交叉專題 | 宗教與政治、宗教與科學、末世論比較 | 待 |
+| **P6** | 心理學 | 11-psychology/ 目錄 + 跨宗教心理學分析 | 待 |
+| **P7** | 開放資料 / 視覺化 | 知識圖譜、引用檔、英文版 | 待 |
+
+**翻譯原則**（P4 階段強制）：
+
+只用原文當主資料。已下載的譯文（CBETA 漢譯 / 和合本 / Mahabharata Ganguli / Iliad Butler 等）
+標 `is_original_language: false` 在 meta.json，僅作 cross-check。AI 翻譯只能從原文做。
 
 ---
 
