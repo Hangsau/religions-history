@@ -14,6 +14,7 @@ import json
 import re
 import sys
 import time
+import random
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -23,11 +24,26 @@ ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
 
 SEFARIA_API = "https://www.sefaria.org/api"
-USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
+USER_AGENT = "religions-history-research/0.1 (academic research; contact: psyhangsau@gmail.com; +https://github.com/Hangsau/religions-history)"
 REQ_TIMEOUT = 30
 SLEEP_BETWEEN_REQUESTS = 0.5
+
+_polite_req_count = 0
+_LONG_PAUSE_EVERY = 100
+_LONG_PAUSE_SECONDS = 30.0
 MAX_RETRIES = 5
 BACKOFF_INITIAL = 10.0
+
+
+
+def _polite_sleep_inline(base: float) -> None:
+    """Sleep base + random jitter; every 100 requests take 30s break."""
+    global _polite_req_count
+    _polite_req_count += 1
+    time.sleep(base + random.uniform(0, 0.5))
+    if _polite_req_count > 0 and _polite_req_count % _LONG_PAUSE_EVERY == 0:
+        print(f"  [polite-pause] {_LONG_PAUSE_SECONDS:.0f}s break after {_polite_req_count} requests")
+        time.sleep(_LONG_PAUSE_SECONDS)
 
 
 def api_get(path: str, params: dict | None = None) -> dict | list:
@@ -120,7 +136,7 @@ def fetch_book_text(book_title: str) -> tuple[list[str], list[str], int]:
     en_chs: list[str] = []
     for ch in range(1, n_chap + 1):
         ref = f"{book_title} {ch}"
-        time.sleep(SLEEP_BETWEEN_REQUESTS)
+        _polite_sleep_inline(SLEEP_BETWEEN_REQUESTS)
         try:
             data = api_get(f"texts/{ref.replace(' ', '%20')}", params={"context": 0})
         except RuntimeError:

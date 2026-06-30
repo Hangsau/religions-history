@@ -18,6 +18,7 @@ import json
 import re
 import sys
 import time
+import random
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -28,11 +29,26 @@ CATALOG_DIR = ROOT / "scripts" / "catalog"
 TRANSLATIONS_DIR = ROOT / "translations"
 
 SC_API = "https://suttacentral.net/api"
-USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
+USER_AGENT = "religions-history-research/0.1 (academic research; contact: psyhangsau@gmail.com; +https://github.com/Hangsau/religions-history)"
 REQ_TIMEOUT = 30
 SLEEP_BETWEEN_REQUESTS = 0.5
+
+_polite_req_count = 0
+_LONG_PAUSE_EVERY = 100
+_LONG_PAUSE_SECONDS = 30.0
 MAX_RETRIES = 5
 BACKOFF_INITIAL = 10.0
+
+
+
+def _polite_sleep_inline(base: float) -> None:
+    """Sleep base + random jitter; every 100 requests take 30s break."""
+    global _polite_req_count
+    _polite_req_count += 1
+    time.sleep(base + random.uniform(0, 0.5))
+    if _polite_req_count > 0 and _polite_req_count % _LONG_PAUSE_EVERY == 0:
+        print(f"  [polite-pause] {_LONG_PAUSE_SECONDS:.0f}s break after {_polite_req_count} requests")
+        time.sleep(_LONG_PAUSE_SECONDS)
 
 
 def api_get(path: str) -> dict | list:
@@ -79,7 +95,7 @@ def list_leaf_uids(uid: str, depth: int = 0) -> list[str]:
                 if child.get("node_type") == "leaf":
                     leaves.append(child_uid)
                 else:
-                    time.sleep(SLEEP_BETWEEN_REQUESTS)
+                    _polite_sleep_inline(SLEEP_BETWEEN_REQUESTS)
                     leaves.extend(list_leaf_uids(child_uid, depth + 1))
         elif item.get("uid"):
             leaves.append(item["uid"])
@@ -142,7 +158,7 @@ def download_scripture(entry: dict) -> dict:
     for uid in leaves:
         print(f"  [sutta] {uid}")
         fetched.append(uid)
-        time.sleep(SLEEP_BETWEEN_REQUESTS)
+        _polite_sleep_inline(SLEEP_BETWEEN_REQUESTS)
         try:
             pali, english = fetch_sutta_text(uid)
         except RuntimeError as e:

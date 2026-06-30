@@ -20,6 +20,7 @@ import json
 import re
 import sys
 import time
+import random
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -39,8 +40,22 @@ TRANSLATIONS_DIR = ROOT / "translations"
 
 GH_API = "https://api.github.com/repos/cbeta-org/xml-p5/contents"
 CBETA_RAW = "https://raw.githubusercontent.com/cbeta-org/xml-p5/master"
-USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
+USER_AGENT = "religions-history-research/0.1 (academic research; contact: psyhangsau@gmail.com; +https://github.com/Hangsau/religions-history)"
 SLEEP_BETWEEN_FILES = 0.3
+
+_polite_req_count = 0
+_LONG_PAUSE_EVERY = 100
+_LONG_PAUSE_SECONDS = 30.0
+
+
+def _polite_sleep_inline(base: float) -> None:
+    """Sleep base + random jitter; every 100 requests take 30s break."""
+    global _polite_req_count
+    _polite_req_count += 1
+    time.sleep(base + random.uniform(0, 0.5))
+    if _polite_req_count > 0 and _polite_req_count % _LONG_PAUSE_EVERY == 0:
+        print(f"  [polite-pause] {_LONG_PAUSE_SECONDS:.0f}s break after {_polite_req_count} requests")
+        time.sleep(_LONG_PAUSE_SECONDS)
 
 # Volumes/canon descriptions for meta
 CANON_NAMES = {
@@ -193,7 +208,7 @@ def main():
             continue
         print(f"  [files] {len(files)}")
         for filename in files:
-            time.sleep(SLEEP_BETWEEN_FILES)
+            _polite_sleep_inline(SLEEP_BETWEEN_FILES)
             r = download_work(args.canon, vol, filename)
             status = r["status"]
             total_summary[status] = total_summary.get(status, 0) + 1
