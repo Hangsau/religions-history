@@ -1,0 +1,15 @@
+{
+  "religion": "古希臘羅馬",
+  "source_platform": "en.wikisource.org",
+  "license": "Public Domain (translations pre-1928)",
+  "language": "English (translation from Greek/Latin/Old Norse/etc)",
+  "notes": "古典宗教文獻英譯 via en.wikisource. 各文獻按宗教在 meta.json 分類; 翻譯為英文.",
+  "scriptures": [
+    {"slug": "iliad-butler", "wikisource_title": "The Iliad (Butler)", "name_zh": "伊利亞德（Butler 譯）", "name_en": "Iliad (Butler tr.)", "name_original": "Ἰλιάς", "religion": "古希臘羅馬", "version": "Butler 1898 translation", "version_date": "8 世紀 BC (composed)", "tier": "核心"},
+    {"slug": "odyssey-butler", "wikisource_title": "The Odyssey (Butler)", "name_zh": "奧德賽（Butler 譯）", "name_en": "Odyssey (Butler tr.)", "name_original": "Ὀδύσσεια", "religion": "古希臘羅馬", "version": "Butler 1900 translation", "version_date": "8 世紀 BC (composed)", "tier": "核心"},
+    {"slug": "heimskringla", "wikisource_title": "Heimskringla", "name_zh": "赫姆斯克林格拉", "name_en": "Heimskringla", "name_original": "Heimskringla", "religion": "北歐", "version": "Samuel Laing translation 1844", "version_date": "1230 AD (composed)", "tier": "核心"},
+    {"slug": "book-of-mormon-1830", "wikisource_title": "Book of Mormon (1830)", "name_zh": "摩門經（1830 初版）", "name_en": "Book of Mormon (1830)", "name_original": "Book of Mormon", "religion": "現代新興", "version": "1830 first edition", "version_date": "1830 AD", "tier": "核心"},
+    {"slug": "pearl-of-great-price", "wikisource_title": "Pearl of Great Price", "name_zh": "無價珍珠", "name_en": "Pearl of Great Price", "religion": "現代新興", "version": "Wikisource version", "version_date": "1851 AD compiled", "tier": "核心"},
+    {"slug": "welsh-triads", "wikisource_title": "Welsh Triads", "name_zh": "威爾士三聯", "name_en": "Welsh Triads", "religion": "凱爾特", "version": "Wikisource version", "version_date": "13 世紀", "tier": "次要"}
+  ]
+}

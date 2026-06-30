@@ -185,7 +185,8 @@ def extract_main_text(html: str) -> str:
         t = el.get_text(strip=True)
         if not t:
             continue
-        if not re.search(r"[一-鿿]", t):
+        # Drop only if there's no script content at all (whitespace / digits only)
+        if not re.search(r"[^\s\d.,;:!?'\"()-]", t):
             continue
         if is_chrome(t):
             continue
@@ -194,7 +195,7 @@ def extract_main_text(html: str) -> str:
         t = container.get_text("\n", strip=True)
         parts = [
             line for line in t.split("\n")
-            if line.strip() and re.search(r"[一-鿿]", line) and not is_chrome(line)
+            if line.strip() and len(line.strip()) > 2 and not is_chrome(line)
         ]
     return "\n".join(parts)
 
@@ -313,6 +314,7 @@ def load_catalog(religion: str) -> list[dict]:
         "儒教": "confucianism-ws.json",
         "基督教": "christianity-ws.json",
         "神道": "shinto-ws.json",
+        "世界古典": "world-classics-en-ws.json",
     }
     if religion not in name_map:
         sys.exit(f"unknown religion: {religion}")

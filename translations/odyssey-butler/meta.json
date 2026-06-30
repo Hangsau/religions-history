@@ -1,0 +1,23 @@
+{
+  "slug": "odyssey-butler",
+  "name_zh": "奧德賽（Butler 譯）",
+  "name_en": "Odyssey (Butler tr.)",
+  "name_original": "奧德賽（Butler 譯）",
+  "religion": "古希臘羅馬",
+  "language": "English (translation from Greek/Latin/Old Norse/etc)",
+  "version": "Butler 1900 translation",
+  "version_date": "8 世紀 BC (composed)",
+  "source_platform": "en.wikisource.org",
+  "source_url": "https://en.wikisource.org/wiki/The_Odyssey_(Butler)",
+  "downloaded_at": "2026-06-30T07:08:15+00:00",
+  "size_bytes": 621600,
+  "checksum_sha256": "e972f6ef5725406f8178ac506e5439b865fb3a0ae27f158c463c3fefd50ad687",
+  "chapter_count": 25,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-SA 4.0",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}
