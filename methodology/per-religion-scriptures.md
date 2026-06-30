@@ -34,362 +34,24 @@
 
 ---
 
-# 1. 漢譯佛教 (Chinese Buddhism)
+# 1. 佛教 (Buddhism)
 
-## 1.1 大正新脩大藏經 (Taishō Tripiṭaka, 100 卷, ~2200 經)
+佛教是一個宗教，依流傳地區與文獻傳承分為以下主要**傳統**。
+注意：「漢譯」「藏譯」描述的是**翻譯狀態**（從梵文 / 巴利譯入漢 / 藏），
+不是另一個宗教。許多漢傳 / 藏傳的經典是漢人 / 藏人祖師的**原創著作**
+（如六祖壇經、宗喀巴菩提道次第論），不是翻譯。
 
-按部類組織：
+主要傳統：
+- **1.1 巴利傳統 (Theravāda)** — 巴利語三藏 + 注疏，以斯里蘭卡、緬甸、泰國、寮國、柬埔寨為主
+- **1.2 漢傳佛教 (Chinese Buddhism)** — 大正藏 / 卍續藏，含漢譯佛經 + 漢撰著作（中國、日本、韓國、越南共用）
+- **1.3 藏傳佛教 (Tibetan Buddhism)** — 甘珠爾 + 丹珠爾 + 各派祖師全集（西藏、蒙古、不丹、布里亞特、卡爾梅克）
+- **1.4 梵文佛教原典 (Sanskrit Buddhist originals)** — 梵文殘存原典（多數已散佚於印度本土，部分由尼泊爾、克什米爾、藏地寫本保存）
+- **1.5 其他佛教傳統** — 韓、日、越、蒙、現代西方系統
 
-### 阿含部 (Āgama) Vols 1-2
+## 1.1 巴利傳統 (Theravāda Pali Canon)
 
-- T0001 長阿含經 ✓
-- T0002 七佛經 ⏳
-- T0003 毘婆尸佛經 ⏳
-- T0004 七佛父母姓字經 ⏳
-- T0005 佛般泥洹經 ⏳
-- T0006 般泥洹經 ⏳
-- T0007 大般涅槃經 (小本) ✓
-- T0008-T0025 阿含部其餘短經 ⏳
-- T0026 中阿含經 ✓
-- T0027-T0098 中阿含部別出短經 ⏳
-- T0099 雜阿含經 ✓
-- T0100 別譯雜阿含經 ⏳
-- T0101-T0124 雜阿含部別出短經 ⏳
-- T0125 增一阿含經 ✓
-- T0126-T0151 增一阿含部別出短經 ⏳
 
-### 本緣部 (Jātaka / 故事集) Vols 3-4
-
-- T0152 六度集經 ⏳
-- T0153 菩薩本緣經 ⏳
-- T0154 生經 ⏳
-- T0155 菩薩本行經 ⏳
-- T0156 大方便佛報恩經 ⏳
-- T0157 悲華經 ⏳
-- T0158 ~T0219 本緣部其他 ⏳
-
-### 般若部 (Prajñāpāramitā) Vols 5-8
-
-- T0220 大般若波羅蜜多經 (玄奘 600 卷) ⏳ (deferred, 分散多檔)
-- T0221 放光般若 ⏳
-- T0222 光讚經 ⏳
-- T0223 摩訶般若波羅蜜經 (鳩摩羅什 25000頌) ✓
-- T0224 道行般若 ⏳
-- T0225 大明度經 ⏳
-- T0226 摩訶般若鈔經 ⏳
-- T0227 小品般若波羅蜜經 ✓
-- T0228 佛說佛母出生三法藏般若 ⏳
-- T0229 佛說佛母寶德藏般若 ⏳
-- T0230-T0234 其他般若部 ⏳
-- T0235 金剛般若波羅蜜經 (鳩摩羅什) ✓
-- T0236 金剛般若波羅蜜經 (菩提流支) ⏳
-- T0237 金剛般若波羅蜜經 (真諦) ⏳
-- T0238 能斷金剛般若波羅蜜多經 (玄奘) ⏳
-- T0239 能斷金剛般若波羅蜜多經 (義淨) ⏳
-- T0240-T0244 般若部其他 ⏳
-- T0245 仁王般若波羅蜜經 ✓
-- T0246 仁王護國般若波羅蜜多經 ⏳
-- T0247 仁王經疏 (圓測) ⏳
-- T0248-T0249 ⏳
-- T0250 摩訶般若波羅蜜大明咒經 (鳩摩羅什心經) ✓
-- T0251 般若波羅蜜多心經 (玄奘心經) ✓
-- T0252 普遍智藏般若波羅蜜多心經 (法月心經) ⏳
-- T0253 般若波羅蜜多心經 (般若三藏) ⏳
-- T0254 般若波羅蜜多心經 (智慧輪) ⏳
-- T0255 般若波羅蜜多心經 (法成) ⏳
-- T0256 唐梵翻對字音般若波羅蜜多心經 ⏳
-- T0257 佛說聖佛母般若波羅蜜多經 ⏳
-- T0258-T0261 般若部其他 ⏳
-
-### 法華部 Vols 9
-
-- T0262 妙法蓮華經 (鳩摩羅什) ✓
-- T0263 正法華經 (竺法護) ⏳
-- T0264 添品妙法蓮華經 ⏳
-- T0265 薩曇分陀利經 ⏳
-- T0266 佛說阿惟越致遮經 ⏳
-- T0267-T0277 法華部其他短經 ⏳
-- T0277 佛說觀普賢菩薩行法經 ✓
-
-### 華嚴部 Vols 9-10
-
-- T0278 大方廣佛華嚴經 (60 華嚴, 佛馱跋陀羅譯) ⏳
-- T0279 大方廣佛華嚴經 (80 華嚴, 實叉難陀譯) ✓
-- T0280 佛說兜沙經 ⏳
-- T0281 佛說菩薩本業經 ⏳
-- T0282-T0299 華嚴部別出單品 ⏳
-- T0293 大方廣佛華嚴經 (40 華嚴, 般若譯) ⏳
-- T0300-T0309 其他華嚴部 ⏳
-
-### 寶積部 Vols 11-12
-
-- T0310 大寶積經 (菩提流志合譯 120 卷) ✓
-- T0311-T0373 寶積部別出單品 ⏳
-- T0360 佛說無量壽經 (康僧鎧) ✓
-- T0361-T0364 無量壽經其他譯 ⏳
-- T0365 佛說觀無量壽佛經 ✓
-- T0366 佛說阿彌陀經 (鳩摩羅什) ✓
-- T0367 稱讚淨土佛攝受經 (玄奘阿彌陀經) ⏳
-
-### 涅槃部 Vol 12
-
-- T0374 大般涅槃經 (北本, 曇無讖) ✓
-- T0375 大般涅槃經 (南本, 慧嚴整理) ⏳
-- T0376-T0396 涅槃部其他短經 + 後分 ⏳
-
-### 大集部 Vol 13
-
-- T0397 大方等大集經 ✓
-- T0398-T0411 大集部其他 ⏳
-
-### 經集部 Vols 14-17
-
-- T0412 地藏菩薩本願經 ✓
-- T0413-T0449 經集部單品 (多種) ⏳
-- T0450 藥師琉璃光如來本願功德經 ✓
-- T0451-T0474 經集部其他 ⏳
-- T0475 維摩詰所說經 (鳩摩羅什) ✓
-- T0476 維摩詰經 (支謙) ⏳
-- T0477 說無垢稱經 (玄奘) ⏳
-- T0478-T0665 經集部大量單品 (含勝鬘經 T0353 ✓、楞伽 T0670 ✓、解深密 T0676 ✓、如來藏 T0666 ✓)
-- T0666 大方等如來藏經 ✓
-- T0670 楞伽阿跋多羅寶經 ✓
-- T0671 入楞伽經 ⏳
-- T0672 大乘入楞伽經 ⏳
-- T0676 解深密經 ✓
-- T0353 勝鬘師子吼一乘大方便方廣經 ✓
-- T0784 四十二章經 ✓
-- T0842 大方廣圓覺修多羅了義經 ✓
-
-### 密教部 Vols 18-21
-
-- T0848 大毘盧遮那成佛神變加持經 (大日經) ✓
-- T0849-T0864 密教部單品 ⏳
-- T0865 金剛頂一切如來真實攝大乘現證大教王經 ✓
-- T0866-T1300 密教部 (~500 部) ⏳
-- 主要: 蘇悉地經 / 攝大儀軌 / 蘇婆呼童子請問經 / 不空羂索神變真言經 / 千光眼觀自在等 ⏳
-
-### 律部 Vols 22-24
-
-- T1421 五分律 (彌沙塞部) ✓
-- T1422 五分戒本 ⏳
-- T1425 摩訶僧祇律 ✓
-- T1426 摩訶僧祇大比丘戒本 ⏳
-- T1428 四分律 (法藏部) ✓
-- T1429-T1434 四分律相關 ⏳
-- T1435 十誦律 (一切有部) ✓
-- T1436-T1450 十誦律相關 + 根本說一切有部律 ⏳
-- T1451 根本說一切有部毘奈耶雜事 ⏳
-- T1452-T1504 律部其他 ⏳
-
-### 釋經論部 Vols 25-26
-
-- T1509 大智度論 (鳩摩羅什, 100 卷) ✓
-- T1510-T1530 釋經論部 (中觀 / 般若注) ⏳
-- T1521 十住毘婆沙論 ⏳
-
-### 毘曇部 Vols 26-29
-
-- T1543 阿毘達磨發智論 ⏳ (cf. T1544)
-- T1544 阿毘達磨發智論 ✓
-- T1545 阿毘達磨大毘婆沙論 (200 卷) ⏳
-- T1546 阿毘曇毘婆沙論 ⏳
-- T1547-T1557 毘曇部 ⏳
-- T1558 阿毘達磨俱舍論 (玄奘) ✓
-- T1559 阿毘達磨俱舍釋論 (真諦) ⏳
-- T1560 阿毘達磨俱舍論本頌 ⏳
-- T1561-T1604 毘曇部其他 ⏳
-- T1605 大乘阿毘達磨集論 ✓
-- T1606 大乘阿毘達磨雜集論 ⏳
-
-### 中觀部 Vol 30
-
-- T1564 中論 (青目釋, 鳩摩羅什) ✓
-- T1565 順中論 ⏳
-- T1566 般若燈論 ⏳
-- T1567 大乘中觀釋論 ⏳
-- T1568 十二門論 ⏳
-- T1569 百論 ⏳
-- T1570 廣百論 ⏳
-- T1571 廣百論本 ⏳
-- T1572 大乘廣百論釋論 ⏳
-- T1573 百字論 ⏳
-- T1574 大乘破有論 ⏳
-- T1575 六十頌如理論 ⏳
-- T1576 大乘二十頌論 ⏳
-- T1577 大丈夫論 ⏳
-- T1578 大乘掌珍論 ⏳
-
-### 瑜伽部 Vols 30-31
-
-- T1579 瑜伽師地論 (玄奘, 100 卷) ✓
-- T1580-T1584 瑜伽部論 ⏳
-- T1585 成唯識論 (玄奘) ✓
-- T1586 唯識三十論頌 ✓
-- T1587 轉識論 ⏳
-- T1588 唯識論 ⏳
-- T1589 唯識論 (玄奘) ⏳
-- T1590 唯識二十論 ✓
-- T1591 大乘唯識論 ⏳
-- T1592 攝大乘論 (佛陀扇多) ⏳
-- T1593 攝大乘論 (真諦) ✓
-- T1594 攝大乘論本 (玄奘) ⏳
-- T1595 攝大乘論釋 (世親) ⏳
-- T1596 攝大乘論釋 (世親, 真諦譯) ⏳
-- T1597 攝大乘論釋 (玄奘) ⏳
-- T1598 攝大乘論釋 (無性) ⏳
-- T1599 中邊分別論 ⏳
-- T1600 辯中邊論頌 ⏳
-- T1601 辯中邊論 ⏳
-- T1602 顯揚聖教論 ⏳
-- T1603 顯揚聖教論頌 ⏳
-- T1604 大乘莊嚴經論 ⏳
-- T1605 大乘阿毘達磨集論 (重複) ✓
-- T1606 大乘阿毘達磨雜集論 ⏳
-- T1610 佛性論 ⏳
-- T1611 究竟一乘寶性論 ⏳
-- T1612-T1644 瑜伽部其他 ⏳
-
-### 論集部 Vol 32
-
-- T1666 大乘起信論 (真諦) ✓
-- T1667 大乘起信論 (實叉難陀) ⏳
-- T1668 釋摩訶衍論 ⏳
-- T1670 那先比丘經 (大版) ⏳
-- T1671-T1700 論集部其他 ⏳
-- T1670B 那先比丘經 (小版) ⏳
-
-### 經疏部 Vols 33-39 (~150 部疏)
-
-- 智者大師: 法華玄義 / 法華文句 / 摩訶止觀 / 維摩經玄疏 等 (T1716-T1727 等)
-- 吉藏: 中觀論疏 / 百論疏 / 十二門論疏 / 法華義疏 等
-- 法藏: 華嚴經探玄記 / 華嚴一乘教義分齊章 / 起信論義記 / 大乘起信論疏 等
-- 智儼: 華嚴經搜玄記 等
-- 澄觀: 華嚴經疏 / 隨疏演義鈔 等
-- 宗密: 圓覺經大疏 / 禪源諸詮集都序 等
-- 慧遠: 大乘義章 / 維摩經義記 等
-- 元曉: 起信論疏 / 涅槃經疏 等
-- 窺基: 成唯識論述記 等
-- 良賁: 仁王經疏 等
-
-(完整列舉略，~150 部)
-
-### 律疏部 + 論疏部 Vols 40-44 (~80 部)
-
-- 法礪、智首、道宣 律疏
-- 普光、神泰、法寶 俱舍疏
-- 窺基、慧沼、智周 唯識疏
-- ...
-
-### 諸宗部 Vols 45-48 (~150 部)
-
-**三論宗**: 二諦義、八不義 等
-**天台宗**: 智者大師全集 + 灌頂、湛然、知禮 等
-**華嚴宗**: 法藏 + 澄觀 + 宗密 全集
-**唯識 (法相) 宗**: 玄奘譯 + 窺基 + 慧沼 等
-**淨土宗**: 曇鸞 / 道綽 / 善導 全集 + 慧遠 + 宗曉
-**禪宗**:
-- T2003 碧巖錄 (圓悟克勤) ⏳
-- T2004 從容錄 (萬松行秀) ⏳
-- T2005 無門關 (無門慧開) ⏳
-- T2006-T2025 禪宗語錄 (~60 部)
-- T2007 六祖壇經 ⏳
-- T2008 六祖大師法寶壇經 ⏳
-- 達摩、慧能、神秀、馬祖、百丈、臨濟、洞山、雲門、法眼九宗各祖師語錄
-- T2076 景德傳燈錄 ⏳
-- T2077 續傳燈錄 ⏳
-- T2078 五燈會元 ⏳
-**律宗**: 道宣全集
-**密宗**: 善無畏 + 一行 + 不空 + 空海 全集
-
-### 史傳部 Vols 49-52 (~150 部)
-
-- T2034 歷代三寶紀 ⏳
-- T2035 佛祖統紀 ⏳
-- T2036 佛祖歷代通載 ⏳
-- T2037 釋氏稽古略 ⏳
-- T2059 高僧傳 (慧皎) ⏳
-- T2060 續高僧傳 (道宣) ⏳
-- T2061 宋高僧傳 (贊寧) ⏳
-- T2062 大明高僧傳 ⏳
-- T2063 比丘尼傳 ⏳
-- T2064 神僧傳 ⏳
-- T2065 海東高僧傳 ⏳
-- T2066 西域求法高僧傳 (義淨) ⏳
-- T2067 弘贊法華傳 ⏳
-- T2068 法華傳記 ⏳
-- T2085 法顯傳 ⏳
-- T2087 大唐西域記 ⏳
-- T2089 釋迦譜 ⏳
-- T2122 法苑珠林 ⏳
-- T2123-T2126 史傳部其他 ⏳
-
-### 事彙部 + 外教部 + 目錄部 Vols 53-55 (~50 部)
-
-- T2128 一切經音義 (玄應 / 慧琳) ⏳
-- T2131 翻譯名義集 ⏳
-- T2145 出三藏記集 (僧祐) ⏳
-- T2147 開元釋教錄 ⏳
-- T2153 大唐內典錄 ⏳
-- T2154 開元釋教錄略出 ⏳
-- 中觀外道論 ⏳
-- 唯識外道破論 ⏳
-
-### 古逸部 Vol 85
-
-- 敦煌寫本佛經 (~80 部) ⏳
-
-## 1.2 卍續藏 (Manji Zokuzōkyō, 90 卷, ~1300 部)
-
-- 早期律疏 / 經疏 / 論疏（未入大正藏者）
-- 禪宗語錄全集
-- 淨土宗大量註疏
-- 律宗大量註疏
-- 中國天台、華嚴、唯識後代著作
-- 朝鮮 / 日本 漢譯佛典
-
-(每部單獨列舉略，總計 ~1300 部 ⏳)
-
-## 1.3 中華電子佛典 (CBETA) 收錄但大正卍續以外
-
-- 朝鮮 (K)
-- 日本 (J, D, ZW 諸藏)
-- 嘉興藏 (J)
-- 房山石經 (F)
-- 趙城金藏 (A)
-- 永樂北藏 (P)
-- 龍藏 (L)
-- 國家圖書館善本 (GA)
-- 各地藏經選錄
-
-## 1.4 漢傳禪宗祖師語錄 (CBETA 內 + 外)
-
-- 達摩二入四行論
-- 慧能六祖壇經 (多版)
-- 神秀觀心論
-- 馬祖道一語錄
-- 百丈懷海語錄 + 百丈清規
-- 黃檗希運《傳心法要》《宛陵錄》
-- 臨濟義玄《臨濟錄》
-- 洞山良价語錄
-- 曹山本寂語錄
-- 雲門文偃語錄
-- 法眼文益語錄 + 宗門十規論
-- 大慧宗杲《大慧語錄》《大慧書》
-- 圓悟克勤《圓悟心要》《碧巖錄》
-- 萬松行秀《從容錄》《請益錄》
-- 無門慧開《無門關》
-- 宏智正覺《宏智頌古》
-- 雪竇重顯《雪竇頌古》
-- 永明延壽《宗鏡錄》100 卷
-- 明本中峰《天目中峰廣錄》
-- 紫柏真可、憨山德清、雪浪洪恩、藕益智旭、雲棲袾宏 全集
-- 虛雲、太虛、印光、弘一、來果 全集
-- ...
-
-# 2. 巴利佛教 (Theravāda)
-
-## 2.1 律藏 (Vinaya Piṭaka, 5 部)
+### 2.1 律藏 (Vinaya Piṭaka, 5 部)
 
 - Suttavibhaṅga (含 Pārājika 4 + Pācittiya 92 + 其他戒) ⏳
   - Mahāvibhaṅga (比丘戒)
@@ -399,17 +61,17 @@
   - Cullavagga (12 章) ⏳
 - Parivāra (附隨, 19 章) ⏳
 
-## 2.2 經藏 (Sutta Piṭaka, 5 Nikāya)
+### 2.2 經藏 (Sutta Piṭaka, 5 Nikāya)
 
-### 2.2.1 長部 (Dīgha Nikāya, 34 經) ✓
+#### 2.2.1 長部 (Dīgha Nikāya, 34 經) ✓
 
 DN 1-34 全 (Brahmajāla / Sāmaññaphala / Ambaṭṭha / ... / Dasuttara) ✓
 
-### 2.2.2 中部 (Majjhima Nikāya, 152 經) ✓
+#### 2.2.2 中部 (Majjhima Nikāya, 152 經) ✓
 
 MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
-### 2.2.3 相應部 (Saṁyutta Nikāya, 56 samyuttas, ~2904 經) ⏸ (defer, 太深)
+#### 2.2.3 相應部 (Saṁyutta Nikāya, 56 samyuttas, ~2904 經) ⏸ (defer, 太深)
 
 **Sagāthā-vagga (有偈品)**:
 - SN 1 Devatā-saṁyutta (天人相應, 81 經)
@@ -477,7 +139,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - SN 55 Sotāpatti-saṁyutta (預流, 74)
 - SN 56 Sacca-saṁyutta (諦相應, 131)
 
-### 2.2.4 增支部 (Aṅguttara Nikāya, 11 nipātas, ~7762 經) ⏸ (defer, 太深)
+#### 2.2.4 增支部 (Aṅguttara Nikāya, 11 nipātas, ~7762 經) ⏸ (defer, 太深)
 
 - AN 1s (一法集) ~575 經
 - AN 2s (二法集) ~480
@@ -491,7 +153,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - AN 10s ~746
 - AN 11s ~353
 
-### 2.2.5 小部 (Khuddaka Nikāya, 15-19 子集)
+#### 2.2.5 小部 (Khuddaka Nikāya, 15-19 子集)
 
 - Khuddakapāṭha (小誦, 9 短文) ⏳
 - Dhammapada (法句經, 423 verses) ✓
@@ -513,7 +175,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Peṭakopadesa (藏釋, Burmese KN) ⏳
 - Milindapañha (彌蘭王問經, Burmese KN) ⏳
 
-## 2.3 論藏 (Abhidhamma Piṭaka, 7 部)
+### 2.3 論藏 (Abhidhamma Piṭaka, 7 部)
 
 - Dhammasaṅgaṇī (法集論) ⏳
 - Vibhaṅga (分別論) ⏳
@@ -523,7 +185,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Yamaka (雙論) ⏳
 - Paṭṭhāna (發趣論, 24 緣) ⏳
 
-## 2.4 注疏 (Aṭṭhakathā) by Buddhaghosa, Dhammapāla, others (~50 部)
+### 2.4 注疏 (Aṭṭhakathā) by Buddhaghosa, Dhammapāla, others (~50 部)
 
 - Visuddhimagga (清淨道論, Buddhaghosa) ⏳
 - DN aṭṭhakathā (Sumaṅgalavilāsinī, 3 卷) ⏳
@@ -534,7 +196,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Vinaya aṭṭhakathā (Samantapāsādikā, 7 卷) ⏳
 - Abhidhamma aṭṭhakathā (各論各有) ⏳
 
-## 2.5 後代手冊 / Tika / Sub-commentaries (~100 部)
+### 2.5 後代手冊 / Tika / Sub-commentaries (~100 部)
 
 - Abhidhammatthasaṅgaha (Anuruddha, 攝阿毘達磨義論) ⏳
 - Abhidhammāvatāra ⏳
@@ -543,16 +205,373 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Mahā-ṭīkā / Saṁyutta-ṭīkā 等 ⏳
 - Burmese / Sri Lankan / Thai 各派注疏
 
-## 2.6 史傳
+### 2.6 史傳
 
 - Mahāvaṁsa (大史) ⏳
 - Dīpavaṁsa (島史) ⏳
 - Cūḷavaṁsa (小史) ⏳
 - 高僧傳: Anubhava, Visuddhajanavilāsinī 等
 
-# 3. 藏文佛教 (Tibetan Buddhism)
 
-## 3.1 甘珠爾 (Kangyur, ~108 函, ~1100 經)
+## 1.2 漢傳佛教 (Chinese Buddhism)
+
+
+### 1.1 大正新脩大藏經 (Taishō Tripiṭaka, 100 卷, ~2200 經)
+
+按部類組織：
+
+#### 阿含部 (Āgama) Vols 1-2
+
+- T0001 長阿含經 ✓
+- T0002 七佛經 ⏳
+- T0003 毘婆尸佛經 ⏳
+- T0004 七佛父母姓字經 ⏳
+- T0005 佛般泥洹經 ⏳
+- T0006 般泥洹經 ⏳
+- T0007 大般涅槃經 (小本) ✓
+- T0008-T0025 阿含部其餘短經 ⏳
+- T0026 中阿含經 ✓
+- T0027-T0098 中阿含部別出短經 ⏳
+- T0099 雜阿含經 ✓
+- T0100 別譯雜阿含經 ⏳
+- T0101-T0124 雜阿含部別出短經 ⏳
+- T0125 增一阿含經 ✓
+- T0126-T0151 增一阿含部別出短經 ⏳
+
+#### 本緣部 (Jātaka / 故事集) Vols 3-4
+
+- T0152 六度集經 ⏳
+- T0153 菩薩本緣經 ⏳
+- T0154 生經 ⏳
+- T0155 菩薩本行經 ⏳
+- T0156 大方便佛報恩經 ⏳
+- T0157 悲華經 ⏳
+- T0158 ~T0219 本緣部其他 ⏳
+
+#### 般若部 (Prajñāpāramitā) Vols 5-8
+
+- T0220 大般若波羅蜜多經 (玄奘 600 卷) ⏳ (deferred, 分散多檔)
+- T0221 放光般若 ⏳
+- T0222 光讚經 ⏳
+- T0223 摩訶般若波羅蜜經 (鳩摩羅什 25000頌) ✓
+- T0224 道行般若 ⏳
+- T0225 大明度經 ⏳
+- T0226 摩訶般若鈔經 ⏳
+- T0227 小品般若波羅蜜經 ✓
+- T0228 佛說佛母出生三法藏般若 ⏳
+- T0229 佛說佛母寶德藏般若 ⏳
+- T0230-T0234 其他般若部 ⏳
+- T0235 金剛般若波羅蜜經 (鳩摩羅什) ✓
+- T0236 金剛般若波羅蜜經 (菩提流支) ⏳
+- T0237 金剛般若波羅蜜經 (真諦) ⏳
+- T0238 能斷金剛般若波羅蜜多經 (玄奘) ⏳
+- T0239 能斷金剛般若波羅蜜多經 (義淨) ⏳
+- T0240-T0244 般若部其他 ⏳
+- T0245 仁王般若波羅蜜經 ✓
+- T0246 仁王護國般若波羅蜜多經 ⏳
+- T0247 仁王經疏 (圓測) ⏳
+- T0248-T0249 ⏳
+- T0250 摩訶般若波羅蜜大明咒經 (鳩摩羅什心經) ✓
+- T0251 般若波羅蜜多心經 (玄奘心經) ✓
+- T0252 普遍智藏般若波羅蜜多心經 (法月心經) ⏳
+- T0253 般若波羅蜜多心經 (般若三藏) ⏳
+- T0254 般若波羅蜜多心經 (智慧輪) ⏳
+- T0255 般若波羅蜜多心經 (法成) ⏳
+- T0256 唐梵翻對字音般若波羅蜜多心經 ⏳
+- T0257 佛說聖佛母般若波羅蜜多經 ⏳
+- T0258-T0261 般若部其他 ⏳
+
+#### 法華部 Vols 9
+
+- T0262 妙法蓮華經 (鳩摩羅什) ✓
+- T0263 正法華經 (竺法護) ⏳
+- T0264 添品妙法蓮華經 ⏳
+- T0265 薩曇分陀利經 ⏳
+- T0266 佛說阿惟越致遮經 ⏳
+- T0267-T0277 法華部其他短經 ⏳
+- T0277 佛說觀普賢菩薩行法經 ✓
+
+#### 華嚴部 Vols 9-10
+
+- T0278 大方廣佛華嚴經 (60 華嚴, 佛馱跋陀羅譯) ⏳
+- T0279 大方廣佛華嚴經 (80 華嚴, 實叉難陀譯) ✓
+- T0280 佛說兜沙經 ⏳
+- T0281 佛說菩薩本業經 ⏳
+- T0282-T0299 華嚴部別出單品 ⏳
+- T0293 大方廣佛華嚴經 (40 華嚴, 般若譯) ⏳
+- T0300-T0309 其他華嚴部 ⏳
+
+#### 寶積部 Vols 11-12
+
+- T0310 大寶積經 (菩提流志合譯 120 卷) ✓
+- T0311-T0373 寶積部別出單品 ⏳
+- T0360 佛說無量壽經 (康僧鎧) ✓
+- T0361-T0364 無量壽經其他譯 ⏳
+- T0365 佛說觀無量壽佛經 ✓
+- T0366 佛說阿彌陀經 (鳩摩羅什) ✓
+- T0367 稱讚淨土佛攝受經 (玄奘阿彌陀經) ⏳
+
+#### 涅槃部 Vol 12
+
+- T0374 大般涅槃經 (北本, 曇無讖) ✓
+- T0375 大般涅槃經 (南本, 慧嚴整理) ⏳
+- T0376-T0396 涅槃部其他短經 + 後分 ⏳
+
+#### 大集部 Vol 13
+
+- T0397 大方等大集經 ✓
+- T0398-T0411 大集部其他 ⏳
+
+#### 經集部 Vols 14-17
+
+- T0412 地藏菩薩本願經 ✓
+- T0413-T0449 經集部單品 (多種) ⏳
+- T0450 藥師琉璃光如來本願功德經 ✓
+- T0451-T0474 經集部其他 ⏳
+- T0475 維摩詰所說經 (鳩摩羅什) ✓
+- T0476 維摩詰經 (支謙) ⏳
+- T0477 說無垢稱經 (玄奘) ⏳
+- T0478-T0665 經集部大量單品 (含勝鬘經 T0353 ✓、楞伽 T0670 ✓、解深密 T0676 ✓、如來藏 T0666 ✓)
+- T0666 大方等如來藏經 ✓
+- T0670 楞伽阿跋多羅寶經 ✓
+- T0671 入楞伽經 ⏳
+- T0672 大乘入楞伽經 ⏳
+- T0676 解深密經 ✓
+- T0353 勝鬘師子吼一乘大方便方廣經 ✓
+- T0784 四十二章經 ✓
+- T0842 大方廣圓覺修多羅了義經 ✓
+
+#### 密教部 Vols 18-21
+
+- T0848 大毘盧遮那成佛神變加持經 (大日經) ✓
+- T0849-T0864 密教部單品 ⏳
+- T0865 金剛頂一切如來真實攝大乘現證大教王經 ✓
+- T0866-T1300 密教部 (~500 部) ⏳
+- 主要: 蘇悉地經 / 攝大儀軌 / 蘇婆呼童子請問經 / 不空羂索神變真言經 / 千光眼觀自在等 ⏳
+
+#### 律部 Vols 22-24
+
+- T1421 五分律 (彌沙塞部) ✓
+- T1422 五分戒本 ⏳
+- T1425 摩訶僧祇律 ✓
+- T1426 摩訶僧祇大比丘戒本 ⏳
+- T1428 四分律 (法藏部) ✓
+- T1429-T1434 四分律相關 ⏳
+- T1435 十誦律 (一切有部) ✓
+- T1436-T1450 十誦律相關 + 根本說一切有部律 ⏳
+- T1451 根本說一切有部毘奈耶雜事 ⏳
+- T1452-T1504 律部其他 ⏳
+
+#### 釋經論部 Vols 25-26
+
+- T1509 大智度論 (鳩摩羅什, 100 卷) ✓
+- T1510-T1530 釋經論部 (中觀 / 般若注) ⏳
+- T1521 十住毘婆沙論 ⏳
+
+#### 毘曇部 Vols 26-29
+
+- T1543 阿毘達磨發智論 ⏳ (cf. T1544)
+- T1544 阿毘達磨發智論 ✓
+- T1545 阿毘達磨大毘婆沙論 (200 卷) ⏳
+- T1546 阿毘曇毘婆沙論 ⏳
+- T1547-T1557 毘曇部 ⏳
+- T1558 阿毘達磨俱舍論 (玄奘) ✓
+- T1559 阿毘達磨俱舍釋論 (真諦) ⏳
+- T1560 阿毘達磨俱舍論本頌 ⏳
+- T1561-T1604 毘曇部其他 ⏳
+- T1605 大乘阿毘達磨集論 ✓
+- T1606 大乘阿毘達磨雜集論 ⏳
+
+#### 中觀部 Vol 30
+
+- T1564 中論 (青目釋, 鳩摩羅什) ✓
+- T1565 順中論 ⏳
+- T1566 般若燈論 ⏳
+- T1567 大乘中觀釋論 ⏳
+- T1568 十二門論 ⏳
+- T1569 百論 ⏳
+- T1570 廣百論 ⏳
+- T1571 廣百論本 ⏳
+- T1572 大乘廣百論釋論 ⏳
+- T1573 百字論 ⏳
+- T1574 大乘破有論 ⏳
+- T1575 六十頌如理論 ⏳
+- T1576 大乘二十頌論 ⏳
+- T1577 大丈夫論 ⏳
+- T1578 大乘掌珍論 ⏳
+
+#### 瑜伽部 Vols 30-31
+
+- T1579 瑜伽師地論 (玄奘, 100 卷) ✓
+- T1580-T1584 瑜伽部論 ⏳
+- T1585 成唯識論 (玄奘) ✓
+- T1586 唯識三十論頌 ✓
+- T1587 轉識論 ⏳
+- T1588 唯識論 ⏳
+- T1589 唯識論 (玄奘) ⏳
+- T1590 唯識二十論 ✓
+- T1591 大乘唯識論 ⏳
+- T1592 攝大乘論 (佛陀扇多) ⏳
+- T1593 攝大乘論 (真諦) ✓
+- T1594 攝大乘論本 (玄奘) ⏳
+- T1595 攝大乘論釋 (世親) ⏳
+- T1596 攝大乘論釋 (世親, 真諦譯) ⏳
+- T1597 攝大乘論釋 (玄奘) ⏳
+- T1598 攝大乘論釋 (無性) ⏳
+- T1599 中邊分別論 ⏳
+- T1600 辯中邊論頌 ⏳
+- T1601 辯中邊論 ⏳
+- T1602 顯揚聖教論 ⏳
+- T1603 顯揚聖教論頌 ⏳
+- T1604 大乘莊嚴經論 ⏳
+- T1605 大乘阿毘達磨集論 (重複) ✓
+- T1606 大乘阿毘達磨雜集論 ⏳
+- T1610 佛性論 ⏳
+- T1611 究竟一乘寶性論 ⏳
+- T1612-T1644 瑜伽部其他 ⏳
+
+#### 論集部 Vol 32
+
+- T1666 大乘起信論 (真諦) ✓
+- T1667 大乘起信論 (實叉難陀) ⏳
+- T1668 釋摩訶衍論 ⏳
+- T1670 那先比丘經 (大版) ⏳
+- T1671-T1700 論集部其他 ⏳
+- T1670B 那先比丘經 (小版) ⏳
+
+#### 經疏部 Vols 33-39 (~150 部疏)
+
+- 智者大師: 法華玄義 / 法華文句 / 摩訶止觀 / 維摩經玄疏 等 (T1716-T1727 等)
+- 吉藏: 中觀論疏 / 百論疏 / 十二門論疏 / 法華義疏 等
+- 法藏: 華嚴經探玄記 / 華嚴一乘教義分齊章 / 起信論義記 / 大乘起信論疏 等
+- 智儼: 華嚴經搜玄記 等
+- 澄觀: 華嚴經疏 / 隨疏演義鈔 等
+- 宗密: 圓覺經大疏 / 禪源諸詮集都序 等
+- 慧遠: 大乘義章 / 維摩經義記 等
+- 元曉: 起信論疏 / 涅槃經疏 等
+- 窺基: 成唯識論述記 等
+- 良賁: 仁王經疏 等
+
+(完整列舉略，~150 部)
+
+#### 律疏部 + 論疏部 Vols 40-44 (~80 部)
+
+- 法礪、智首、道宣 律疏
+- 普光、神泰、法寶 俱舍疏
+- 窺基、慧沼、智周 唯識疏
+- ...
+
+#### 諸宗部 Vols 45-48 (~150 部)
+
+**三論宗**: 二諦義、八不義 等
+**天台宗**: 智者大師全集 + 灌頂、湛然、知禮 等
+**華嚴宗**: 法藏 + 澄觀 + 宗密 全集
+**唯識 (法相) 宗**: 玄奘譯 + 窺基 + 慧沼 等
+**淨土宗**: 曇鸞 / 道綽 / 善導 全集 + 慧遠 + 宗曉
+**禪宗**:
+- T2003 碧巖錄 (圓悟克勤) ⏳
+- T2004 從容錄 (萬松行秀) ⏳
+- T2005 無門關 (無門慧開) ⏳
+- T2006-T2025 禪宗語錄 (~60 部)
+- T2007 六祖壇經 ⏳
+- T2008 六祖大師法寶壇經 ⏳
+- 達摩、慧能、神秀、馬祖、百丈、臨濟、洞山、雲門、法眼九宗各祖師語錄
+- T2076 景德傳燈錄 ⏳
+- T2077 續傳燈錄 ⏳
+- T2078 五燈會元 ⏳
+**律宗**: 道宣全集
+**密宗**: 善無畏 + 一行 + 不空 + 空海 全集
+
+#### 史傳部 Vols 49-52 (~150 部)
+
+- T2034 歷代三寶紀 ⏳
+- T2035 佛祖統紀 ⏳
+- T2036 佛祖歷代通載 ⏳
+- T2037 釋氏稽古略 ⏳
+- T2059 高僧傳 (慧皎) ⏳
+- T2060 續高僧傳 (道宣) ⏳
+- T2061 宋高僧傳 (贊寧) ⏳
+- T2062 大明高僧傳 ⏳
+- T2063 比丘尼傳 ⏳
+- T2064 神僧傳 ⏳
+- T2065 海東高僧傳 ⏳
+- T2066 西域求法高僧傳 (義淨) ⏳
+- T2067 弘贊法華傳 ⏳
+- T2068 法華傳記 ⏳
+- T2085 法顯傳 ⏳
+- T2087 大唐西域記 ⏳
+- T2089 釋迦譜 ⏳
+- T2122 法苑珠林 ⏳
+- T2123-T2126 史傳部其他 ⏳
+
+#### 事彙部 + 外教部 + 目錄部 Vols 53-55 (~50 部)
+
+- T2128 一切經音義 (玄應 / 慧琳) ⏳
+- T2131 翻譯名義集 ⏳
+- T2145 出三藏記集 (僧祐) ⏳
+- T2147 開元釋教錄 ⏳
+- T2153 大唐內典錄 ⏳
+- T2154 開元釋教錄略出 ⏳
+- 中觀外道論 ⏳
+- 唯識外道破論 ⏳
+
+#### 古逸部 Vol 85
+
+- 敦煌寫本佛經 (~80 部) ⏳
+
+### 1.2 卍續藏 (Manji Zokuzōkyō, 90 卷, ~1300 部)
+
+- 早期律疏 / 經疏 / 論疏（未入大正藏者）
+- 禪宗語錄全集
+- 淨土宗大量註疏
+- 律宗大量註疏
+- 中國天台、華嚴、唯識後代著作
+- 朝鮮 / 日本 漢譯佛典
+
+(每部單獨列舉略，總計 ~1300 部 ⏳)
+
+### 1.3 中華電子佛典 (CBETA) 收錄但大正卍續以外
+
+- 朝鮮 (K)
+- 日本 (J, D, ZW 諸藏)
+- 嘉興藏 (J)
+- 房山石經 (F)
+- 趙城金藏 (A)
+- 永樂北藏 (P)
+- 龍藏 (L)
+- 國家圖書館善本 (GA)
+- 各地藏經選錄
+
+### 1.4 漢傳禪宗祖師語錄 (CBETA 內 + 外)
+
+- 達摩二入四行論
+- 慧能六祖壇經 (多版)
+- 神秀觀心論
+- 馬祖道一語錄
+- 百丈懷海語錄 + 百丈清規
+- 黃檗希運《傳心法要》《宛陵錄》
+- 臨濟義玄《臨濟錄》
+- 洞山良价語錄
+- 曹山本寂語錄
+- 雲門文偃語錄
+- 法眼文益語錄 + 宗門十規論
+- 大慧宗杲《大慧語錄》《大慧書》
+- 圓悟克勤《圓悟心要》《碧巖錄》
+- 萬松行秀《從容錄》《請益錄》
+- 無門慧開《無門關》
+- 宏智正覺《宏智頌古》
+- 雪竇重顯《雪竇頌古》
+- 永明延壽《宗鏡錄》100 卷
+- 明本中峰《天目中峰廣錄》
+- 紫柏真可、憨山德清、雪浪洪恩、藕益智旭、雲棲袾宏 全集
+- 虛雲、太虛、印光、弘一、來果 全集
+- ...
+
+
+## 1.3 藏傳佛教 (Tibetan Buddhism)
+
+
+### 3.1 甘珠爾 (Kangyur, ~108 函, ~1100 經)
 
 按部類:
 
@@ -575,7 +594,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   - Charya Tantra (行部)
   - Kriya Tantra (事部)
 
-## 3.2 丹珠爾 (Tengyur, ~225 函, ~3400 論)
+### 3.2 丹珠爾 (Tengyur, ~225 函, ~3400 論)
 
 按部類:
 
@@ -609,7 +628,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 聲明
 - 各路 stotra / Sādhanā
 
-## 3.3 寧瑪派祖師全集
+### 3.3 寧瑪派祖師全集
 
 - Padmasambhava 著作（含 Termas 大量）
 - Vimalamitra 著作
@@ -627,7 +646,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 各 Terma 系
 - 蓮花生伏藏 (Dakini's Treasures)
 
-## 3.4 噶舉派祖師全集
+### 3.4 噶舉派祖師全集
 
 - Marpa Lotsawa 著作
 - Milarepa Mila Grubum (10 萬詩集)
@@ -636,13 +655,13 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 6 法 of Naropa (Naro Chos Drug)
 - 4 派系: Karma, Drikung, Drukpa, Taklung
 
-## 3.5 薩迦派祖師全集
+### 3.5 薩迦派祖師全集
 
 - Sakya Pandita (~30 部, Sakya Legshe 等)
 - Sapan & Drogon Choegyal Phagpa 全集
 - 路徑與成果教法 (Lamdre)
 
-## 3.6 格魯派祖師全集
+### 3.6 格魯派祖師全集
 
 - Tsongkhapa 18 部 (Lamrim Chenmo, Ngagrim Chenmo, Drangnge Legshe Nyingpo, etc.)
 - Gyaltsab Je 全集
@@ -650,7 +669,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 達賴喇嘛 1-14 各全集
 - 班禪喇嘛 1-10 各全集
 
-## 3.7 苯教 (Bon)
+### 3.7 苯教 (Bon)
 
 - Klu-'bum (萬龍經)
 - Bonpo Kangyur (~178 函)
@@ -658,9 +677,73 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - gZi-brjid (12 卷, Tonpa Shenrab 傳)
 - 各派祖師著作
 
-# 4. 道教 (Daoism)
 
-## 4.1 正統道藏 (1445, 5305 卷)
+## 1.4 梵文佛教原典 (Sanskrit Buddhist Originals)
+
+印度本土散佚的梵文原典，部分由尼泊爾、克什米爾、藏地寫本保存。
+
+- Mahāvastu (Lokottaravāda 部, 3 卷 ~26,000 ślokas) ⏳
+- Lalitavistara (大乘佛傳, ~9000 ślokas) ⏳
+- Buddhacarita (Aśvaghoṣa 佛所行讚, 28 cantos, 殘 13) ⏳
+- Saundarananda (Aśvaghoṣa 美難陀傳, 18 cantos) ⏳
+- Aṣṭasāhasrikā Prajñāpāramitā (8000 頌般若, 梵本) ⏳
+- Pañcaviṃśatisāhasrikā Prajñāpāramitā (25000 頌般若, 梵本) ⏳
+- Saddharmapuṇḍarīka Sūtra (法華梵本, Gilgit + Kashgar + Nepalese) ⏳
+- Vimalakīrti-nirdeśa (維摩詰梵本, 2002 西藏發現) ⏳
+- Avataṃsaka Sūtra (華嚴, Gaṇḍavyūha + Daśabhūmika 梵本) ⏳
+- Suvarṇa-prabhāsa Sūtra (金光明梵本) ⏳
+- Mahā-parinirvāṇa Sūtra (大般涅槃, 梵本殘) ⏳
+- Saṃyukta-āgama 部分梵本 (Turfan + Schøyen) ⏳
+- 心經 (Heart Sutra) 梵本 (Gilgit + Schøyen + 西藏寫本 + 于闐 + 龜茲文殘) ✓ (盤點見 `translations/heart-sutra/00-version.md`)
+- Bodhicaryāvatāra (寂天入菩薩行論梵本) ⏳
+- Sūtra-samuccaya (寂天經集) ⏳
+- 律藏: 根本說一切有部律 (Mūlasarvāstivāda Vinaya, 梵本 Gilgit) ⏳
+- Mahāyāna-sūtra-alaṅkāra (大乘莊嚴經論梵本) ⏳
+- Abhisamayālaṅkāra (現觀莊嚴論梵本) ⏳
+- Madhyānta-vibhāga (辯中邊論梵本) ⏳
+- Dharma-dharmatā-vibhāga (法法性辯論梵本) ⏳
+- Ratna-gotra-vibhāga (寶性論梵本) ⏳
+- Mūla-madhyamaka-kārikā (中論梵本) ⏳
+- 各 Tantra 梵本 (Hevajra / Cakra-saṃvara / Guhyasamāja / Kālacakra 等 ~30 部殘存) ⏳
+
+## 1.5 其他佛教傳統
+
+### 韓國佛教
+- 元曉 (Wonhyo) 大乘起信論疏記、十門和諍論、金剛三昧經論 等 ⏳
+- 知訥 (Jinul) 修心訣、定慧結社文 等 ⏳
+- 休靜 (Hyujeong) 禪家龜鑑 等 ⏳
+- 高麗大藏經 (~1500 經, 漢傳重刻) ⏳
+
+### 日本佛教
+- 空海 (Kūkai): 十住心論、辨顯密二教論、三教指歸 等 ⏳
+- 最澄 (Saichō): 守護國界章、顯戒論 等 ⏳
+- 親鸞 (Shinran): 教行信證、淨土和讚、嘆異抄 等 ⏳
+- 法然 (Hōnen): 選擇本願念佛集 ⏳
+- 道元 (Dōgen): 正法眼藏 (75-95 卷)、永平廣錄、典座教訓 等 ⏳
+- 日蓮 (Nichiren): 立正安國論、開目抄、觀心本尊抄、御書全集 (~400 篇) ⏳
+- 一遍 (Ippen): 一遍上人語錄 ⏳
+- 白隱 (Hakuin): 遠羅天釜、夜船閑話 等 ⏳
+- 鈴木大拙、西田幾多郎 (近代禪) ⏳
+- 大正新脩大藏經諸日本宗派部 (Vols 70-84)
+
+### 越南佛教
+- 越南禪宗各派 (無言通、滅喜、草堂、竹林) 語錄 ⏳
+- 大越史記全書 含佛教史 ⏳
+
+### 蒙古佛教
+- Mongolian Kangyur (108 函) ⏳
+- Mongolian Tengyur (225 函) ⏳
+- Jebtsundamba Khutughtu 著作
+
+### 現代西方佛教
+- D.T. Suzuki 全集 ⏳
+- Edward Conze 翻譯 (般若系) ⏳
+- Thich Nhat Hanh 著作 ⏳
+- 各 Insight / Zen / Vipassana 老師著作
+
+# 2. 道教 (Daoism)
+
+## 2.1 正統道藏 (1445, 5305 卷)
 
 按三洞四輔十二類:
 
@@ -762,7 +845,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 諸真歌頌 ⏳
 - 各派《內丹道書》/ 仙傳 ⏳
 
-## 4.2 萬曆續道藏 (1607, 180 卷)
+## 2.2 萬曆續道藏 (1607, 180 卷)
 
 - 張三豐先生全集 ⏳
 - 紫陽真人悟真篇詩注 ⏳
@@ -773,7 +856,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 邱祖全書 ⏳
 - 道藏輯要 (1906 蔣予蒲) — 220 集精選
 
-## 4.3 道藏輯要 (220 集) + 道藏精華錄
+## 2.3 道藏輯要 (220 集) + 道藏精華錄
 
 - 全真道祖師五祖七真全集:
   - 北五祖: 王玄甫、鍾離權、呂洞賓、劉海蟾、王重陽
@@ -782,7 +865,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 白玉蟾《海瓊集》⏳
 - 海瓊白真人語錄 ⏳
 
-## 4.4 民間道教 / 善書
+## 2.4 民間道教 / 善書
 
 - 玉皇本行集經 ⏳
 - 玉皇心印妙經 ⏳
@@ -797,15 +880,15 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 了凡四訓 ⏳
 - 各乩文 / 鸞書
 
-## 4.5 現代道教文獻
+## 2.5 現代道教文獻
 
 - 陳攖寧《道教與養生》⏳
 - 蕭天石《道海玄微》⏳
 - 各代道長語錄
 
-# 5. 儒教 (Confucianism)
+# 3. 儒教 (Confucianism)
 
-## 5.1 十三經注疏 (~330 卷)
+## 3.1 十三經注疏 (~330 卷)
 
 - 周易注疏 (王弼注 + 韓康伯注 + 孔穎達正義) ⏳
 - 尚書注疏 (孔安國傳 + 孔穎達正義) ⏳
@@ -821,11 +904,11 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 爾雅注疏 (郭璞注 + 邢昺疏) ⏳ (部分 via 爾雅注 ⚡)
 - 孟子注疏 (趙岐注 + 孫奭疏) ⏳
 
-## 5.2 五經 + 四書 ✓
+## 3.2 五經 + 四書 ✓
 
 (本體已有, 見已抓清單)
 
-## 5.3 四庫全書經部 (按類目, ~1700 部)
+## 3.3 四庫全書經部 (按類目, ~1700 部)
 
 ### 易類 (~200 部)
 - 周易 (本經) ✓
@@ -949,7 +1032,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 阮元《經籍籑詁》⏳
 - ... (餘 ~190)
 
-## 5.4 諸子 (儒家類 + 雜家相關)
+## 3.4 諸子 (儒家類 + 雜家相關)
 
 - 荀子 ✓
 - 春秋繁露 ✓
@@ -1006,7 +1089,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 焦循《孟子正義》《雕菰樓集》⏳
 - 阮元《揅經室集》⏳
 
-## 5.5 皇清經解 (1400 卷, 180 種) + 續皇清經解 (1200 卷, 220 種)
+## 3.5 皇清經解 (1400 卷, 180 種) + 續皇清經解 (1200 卷, 220 種)
 
 代表性收錄（其中 360+ 種, 一一展開略）:
 - 顧炎武《九經誤字》《左傳杜解補正》
@@ -1026,13 +1109,13 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 (餘略, 各書名標題實際全列需另一份附表)
 
-# 6. 猶太教 (Judaism)
+# 4. 猶太教 (Judaism)
 
-## 6.1 塔納克 (Tanakh, 24 卷)
+## 4.1 塔納克 (Tanakh, 24 卷)
 
 ✓ 全 39 卷（基督教 OT 分卷算）via Sefaria + Wikisource
 
-## 6.2 米示拿 (Mishnah, 6 序 63 tractate)
+## 4.2 米示拿 (Mishnah, 6 序 63 tractate)
 
 **Zeraim (種子, 11)**:
 - Berakhot (祝福) ✓
@@ -1109,7 +1192,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Yadayim (手) ⏳
 - Uktzin (莖) ⏳
 
-## 6.3 巴比倫塔木德 (Talmud Bavli, 37 tractate, ~5400 daf)
+## 4.3 巴比倫塔木德 (Talmud Bavli, 37 tractate, ~5400 daf)
 
 - Berakhot ⚡ (Sefaria 部分)
 - Shabbat ⏳
@@ -1149,11 +1232,11 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Niddah ⏳
 - Tamid ⏳
 
-## 6.4 耶路撒冷塔木德 (Talmud Yerushalmi, 39 tractate)
+## 4.4 耶路撒冷塔木德 (Talmud Yerushalmi, 39 tractate)
 
 (對應米示拿 39 個 tractate, 餘略) ⏳
 
-## 6.5 米德拉什 (Midrash)
+## 4.5 米德拉什 (Midrash)
 
 **Halakhic Midrash**:
 - Mekhilta de-Rabbi Ishmael ⏳
@@ -1183,7 +1266,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Seder Olam Zutta ⏳
 - Avot de-Rabbi Natan ⏳
 
-## 6.6 哈拉卡法典 (Halakha)
+## 4.6 哈拉卡法典 (Halakha)
 
 - Maimonides Mishneh Torah (14 卷):
   1. Madda (知識)
@@ -1211,7 +1294,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Kitzur Shulchan Aruch (Ganzfried) ⏳
 - Chayye Adam, Chochmat Adam ⏳
 
-## 6.7 拉比注疏
+## 4.7 拉比注疏
 
 - Rashi commentary on Torah ⏳ (Sefaria 提供)
 - Rashi commentary on Talmud ⏳
@@ -1223,7 +1306,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Or HaChaim (Chaim ibn Attar) ⏳
 - Kli Yakar (Ephraim of Luntschitz) ⏳
 
-## 6.8 哲學
+## 4.8 哲學
 
 - Saadia Gaon: Emunot ve-De'ot (Beliefs and Opinions) ⏳
 - Bahya ibn Paquda: Chovot HaLevavot (Duties of the Heart) ⏳
@@ -1233,7 +1316,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Hasdai Crescas: Or Hashem ⏳
 - Joseph Albo: Sefer ha-Ikkarim ⏳
 
-## 6.9 卡巴拉
+## 4.9 卡巴拉
 
 - Sefer Yetzirah (Book of Formation) ✓
 - Sefer ha-Bahir ⏳
@@ -1247,7 +1330,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Reshit Chochmah (Elijah de Vidas) ⏳
 - Shaarei Kedushah (Chaim Vital) ⏳
 
-## 6.10 哈西底 (Hasidic)
+## 4.10 哈西底 (Hasidic)
 
 - Tanya (Schneur Zalman, 5 部) ⏳
 - Likutei Moharan (Nachman of Breslov) ⏳
@@ -1256,7 +1339,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Sefat Emet ⏳
 - 拉比 Kook 全集 ⏳
 
-## 6.11 現代 (19-20世紀)
+## 4.11 現代 (19-20世紀)
 
 - Hermann Cohen, Religion of Reason ⏳
 - Franz Rosenzweig, Star of Redemption ⏳
@@ -1265,9 +1348,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Joseph Soloveitchik, Halakhic Man / Lonely Man of Faith ⏳
 - Emmanuel Levinas, Totality and Infinity / Difficult Freedom ⏳
 
-# 7. 基督教 (Christianity)
+# 5. 基督教 (Christianity)
 
-## 7.1 聖經
+## 5.1 聖經
 
 **原文**:
 - 希伯來舊約 (Masoretic Text) ✓ (via Sefaria, Tanakh 39 卷)
@@ -1353,7 +1436,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Shepherd of Hermas ⏳
 - Epistle of Barnabas ⏳
 
-## 7.2 教父文集 (Patristics)
+## 5.2 教父文集 (Patristics)
 
 ### Apostolic Fathers (~10 卷)
 - Didache ⏳
@@ -1441,7 +1524,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Gregory Palamas: Triads, 150 Chapters ⏳
 - Philokalia (5 vols, 36 authors compiled by St. Nikodimos) ⏳
 
-## 7.3 中世紀神學
+## 5.3 中世紀神學
 
 - Anselm: Cur Deus Homo, Proslogion, Monologion ⏳
 - Bernard of Clairvaux: On Loving God, On the Steps of Humility, Sermons on the Song of Songs (~86) ⏳
@@ -1468,7 +1551,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - The Cloud of Unknowing ⏳
 - Julian of Norwich: Revelations of Divine Love ⏳
 
-## 7.4 宗教改革 (Reformation)
+## 5.4 宗教改革 (Reformation)
 
 - Luther:
   - 95 Theses
@@ -1496,7 +1579,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Wesley: Standard Sermons (52), Journal, Methodist Hymnal, Notes on the New Testament, A Plain Account of Christian Perfection ⏳
 - Edwards: Religious Affections, Freedom of the Will, History of the Work of Redemption, Sinners in the Hands of an Angry God, ~30 部 ⏳
 
-## 7.5 近代神學 (17-20c)
+## 5.5 近代神學 (17-20c)
 
 - Pascal: Pensées, Provincial Letters ⏳
 - Schleiermacher: On Religion (Speeches), Christian Faith ⏳
@@ -1510,9 +1593,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Niebuhr (R+H): Nature and Destiny of Man, Christ and Culture ⏳
 - Pannenberg, Moltmann 等
 
-# 8. 伊斯蘭 (Islam)
+# 6. 伊斯蘭 (Islam)
 
-## 8.1 古蘭經 (Qur'an)
+## 6.1 古蘭經 (Qur'an)
 
 - 阿拉伯 Uthmani 校勘 ✓
 - 多版讀法 Qira'at (10 種正典 + 4 種附加) ⏳
@@ -1527,7 +1610,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Maududi, Tafhim al-Quran ⏳
 - Sayyid Qutb, Fi Zilal al-Quran ⏳
 
-## 8.2 聖訓 (Hadith)
+## 6.2 聖訓 (Hadith)
 
 **六大正典 Sahih Sittah**:
 - Sahih al-Bukhari (7,563 則) ⏳
@@ -1548,7 +1631,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Ibn Khuzaymah Sahih ⏳
 - Ibn Hibban Sahih ⏳
 
-## 8.3 法學派 (Madhhab)
+## 6.3 法學派 (Madhhab)
 
 **Hanafi**:
 - Imam Abu Hanifa: al-Fiqh al-Akbar ⏳
@@ -1579,7 +1662,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Ibn Taymiyyah: Majmu' al-Fatawa (37 卷), Minhaj al-Sunnah, Dar' Ta'arud al-'Aql wa al-Naql, ~500 著作 ⏳
 - Ibn al-Qayyim: al-Da' wa al-Dawa', Madarij al-Salikin, Zad al-Ma'ad, ~50 著作 ⏳
 
-## 8.4 信仰學 / Kalam
+## 6.4 信仰學 / Kalam
 
 - al-Ash'ari: Maqalat al-Islamiyyin, al-Ibanah, al-Luma' ⏳
 - al-Maturidi: Kitab al-Tawhid ⏳
@@ -1592,7 +1675,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - al-Taftazani: Sharh al-Maqasid, Sharh al-Aqa'id al-Nasafiyyah ⏳
 - al-Sanusi: Umm al-Barahin ⏳
 
-## 8.5 蘇菲文學 (Sufism)
+## 6.5 蘇菲文學 (Sufism)
 
 **古典 manual**:
 - al-Sarraj: Kitab al-Luma' fi al-Tasawwuf ⏳
@@ -1634,7 +1717,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Ahmad Sirhindi: Maktubat ⏳
 - Shah Wali Allah: Hujjat Allah al-Baligha ⏳
 
-## 8.6 什葉派 (Shi'a)
+## 6.6 什葉派 (Shi'a)
 
 **Twelver 主要文獻**:
 - Nahj al-Balagha (Ali, compiled by al-Sharif al-Radi) ⏳
@@ -1657,7 +1740,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Imam Zayd: Majmu' al-Fiqh ⏳
 - al-Mansur Billah: al-Shifa' ⏳
 
-## 8.7 早期 + 近代學派
+## 6.7 早期 + 近代學派
 
 - Ibn Hazm: al-Muhalla, al-Fasl ⏳
 - Ibn Khaldun: Muqaddima ⏳
@@ -1667,9 +1750,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Hasan al-Banna 文集 ⏳
 - Sayyid Qutb: Milestones, Fi Zilal al-Quran ⏳
 
-# 9. 印度教 (Hinduism)
+# 7. 印度教 (Hinduism)
 
-## 9.1 四吠陀本集 (Vedic Saṁhitās)
+## 7.1 四吠陀本集 (Vedic Saṁhitās)
 
 - Ṛgveda (1028 hymns, 10 mandalas) ✓
 - Sāmaveda (1875 verses) ⏳
@@ -1680,7 +1763,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   - Śaunaka recension (20 books) ⏳
   - Paippalāda recension ⏳
 
-## 9.2 梵書 (Brāhmaṇas)
+## 7.2 梵書 (Brāhmaṇas)
 
 - Aitareya Brāhmaṇa (40 chapters, RV) ⏳
 - Kauṣītaki Brāhmaṇa (RV) ⏳
@@ -1692,7 +1775,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Taittirīya Brāhmaṇa (Black YV) ⏳
 - Gopatha Brāhmaṇa (AV) ⏳
 
-## 9.3 森林書 (Āraṇyakas)
+## 7.3 森林書 (Āraṇyakas)
 
 - Aitareya Āraṇyaka (5 books) ⏳
 - Kauṣītaki Āraṇyaka ⏳
@@ -1700,7 +1783,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Maitrāyaṇī Āraṇyaka ⏳
 - Bṛhad Āraṇyaka (Śatapatha 14) ⏳
 
-## 9.4 奧義書 (Upaniṣads)
+## 7.4 奧義書 (Upaniṣads)
 
 **13 主要 (Mukhya)**:
 - Īśā ✓
@@ -1743,7 +1826,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 **廣義奧義書** (200+ 部含後期 Sanskrit 教派文獻) ⏳
 
-## 9.5 史詩 (Itihāsa)
+## 7.5 史詩 (Itihāsa)
 
 - Mahābhārata (1.8M ślokas, 18 parvas):
   1. Ādi Parva ⚡ (英譯 via Ganguli)
@@ -1776,7 +1859,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   7. Uttara-kāṇḍa ⏳
 - Tulsidas: Rāmacaritamānasa (Hindi 版) ⏳
 
-## 9.6 往世書 (Purāṇa)
+## 7.6 往世書 (Purāṇa)
 
 **18 大 (Mahāpurāṇa)**:
 1. Brahma ⏳
@@ -1818,7 +1901,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 17. Bhārgava-Liṅga
 18. Bhāgavata-Devī (各列表略有不同)
 
-## 9.7 法經 / Dharma-śāstra
+## 7.7 法經 / Dharma-śāstra
 
 - Manu-Smṛti ✓
 - Yājñavalkya-Smṛti ⏳
@@ -1835,7 +1918,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Mitākṣarā (Vijñāneśvara, 商法注) ⏳
 - Dāyabhāga (Jīmūtavāhana) ⏳
 
-## 9.8 哲學經 (Darśana Sūtras)
+## 7.8 哲學經 (Darśana Sūtras)
 
 - Brahma-Sūtra ✓ (Vedānta, Bādarāyaṇa)
 - Yoga-Sūtra (Patañjali) ✓
@@ -1846,7 +1929,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Mīmāṁsā-Sūtra (Jaimini) ⏳
 - Cārvāka 殘篇 (Bṛhaspati-Sūtra 散佚) ⨯
 
-## 9.9 主要學派注釋 (Bhāṣya / Commentary)
+## 7.9 主要學派注釋 (Bhāṣya / Commentary)
 
 **Advaita Vedānta**:
 - Śaṅkara: Brahma-Sūtra-Bhāṣya, Upadeśasāhasrī, Vivekacūḍāmaṇi, Ātma-bodha, ~300 部 (含偽托) ⏳
@@ -1894,7 +1977,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Prabhākara: Bṛhatī ⏳
 - Pārthasārathi Miśra ⏳
 
-## 9.10 Tantra
+## 7.10 Tantra
 
 **Śaiva**:
 - Śiva-Sūtra (Vasugupta) ⏳
@@ -1928,7 +2011,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Viṣṇu-Sahasra-Nāma ⏳
 - Nārāyaṇīya ⏳
 
-## 9.11 巴克提運動文獻
+## 7.11 巴克提運動文獻
 
 - Bhāgavata Purāṇa ✓
 - Caitanya-Caritāmṛta (Kṛṣṇa-dāsa Kavi-rāja) ⏳
@@ -1942,7 +2025,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Tulsīdās 全集 ⏳
 - Tyāgarāja Kṛti (Telugu Sanskrit) ⏳
 
-## 9.12 現代 (19-21c)
+## 7.12 現代 (19-21c)
 
 - Vivekananda Complete Works (9 卷) ⏳
 - Sri Aurobindo Complete Works (37 卷):
@@ -1956,9 +2039,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Ramana Maharshi: 全集 (含 Talks, Forty Verses on Reality, Maharshi's Gospel) ⏳
 - J. Krishnamurti: 全集 (~70 部) ⏳
 
-# 10. 耆那教 (Jainism)
+# 8. 耆那教 (Jainism)
 
-## 10.1 Śvetāmbara canon (45 部 Āgama)
+## 8.1 Śvetāmbara canon (45 部 Āgama)
 
 **12 Aṅga** (最古, 第 12 Diṣṭi-vāda 散佚):
 1. Ācārāṅga Sūtra (Āyāra) ⏳
@@ -2018,7 +2101,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Ṭīkā (大量)
 - Vṛtti
 
-## 10.2 Digambara canon
+## 8.2 Digambara canon
 
 (主流不承認 Śvetāmbara 經, 自有典籍體系)
 
@@ -2030,7 +2113,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Kṣapaṇā-sāra ⏳
 - Triloka-sāra ⏳
 
-## 10.3 哲學論
+## 8.3 哲學論
 
 - Tattvārtha-Sūtra (Umāsvāti, 兩派共同經典) ⏳
 - Tattvārtha-rāja-vārttika ⏳
@@ -2048,7 +2131,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Vidyā-nandi: Aṣṭa-sahasrī, Pramāṇa-parīkṣā ⏳
 - Hema-candra: Yoga-śāstra, Pramāṇa-mīmāṁsā ⏳
 
-## 10.4 故事 + 普及文獻
+## 8.4 故事 + 普及文獻
 
 - Triṣaṣṭi-śalākā-puruṣa-caritra (Hema-candra, 63 賢人傳) ⏳
 - Bhagavatī-ārādhanā ⏳
@@ -2056,7 +2139,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Rāja-vārtika ⏳
 - Sāgara-dharmāmṛta ⏳
 
-# 11. 錫克教 (Sikhism)
+# 9. 錫克教 (Sikhism)
 
 - Guru Granth Sahib (Adi Granth, 1430 ang, ~6000 śabad):
   - 6 Gurus (Nanak, Angad, Amar Das, Ram Das, Arjan, Tegh Bahadur 部分)
@@ -2091,9 +2174,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Sikh Reht Maryada
 - Sikh Ardas
 
-# 12. 巴哈伊 (Bahá'í Faith)
+# 10. 巴哈伊 (Bahá'í Faith)
 
-## 12.1 巴哈歐拉 (Bahá'u'lláh) 著作
+## 10.1 巴哈歐拉 (Bahá'u'lláh) 著作
 
 - Kitáb-i-Aqdas (Most Holy Book, 1873) ⏳
 - Kitáb-i-Íqán (Book of Certitude, 1862) ⏳
@@ -2113,7 +2196,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Bishárát
 - 100+ Tablets
 
-## 12.2 巴布 (The Báb)
+## 10.2 巴布 (The Báb)
 
 - Persian Bayán ⏳
 - Arabic Bayán ⏳
@@ -2121,7 +2204,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Tablet to Muhammad Shah
 - Selections from the Writings of the Báb (compiled) ⏳
 
-## 12.3 阿博都·巴哈 (Abdu'l-Bahá)
+## 10.3 阿博都·巴哈 (Abdu'l-Bahá)
 
 - Some Answered Questions ⏳
 - Tablets of the Divine Plan ⏳
@@ -2134,7 +2217,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - The Promulgation of Universal Peace (US talks) ⏳
 - 1000+ tablets ⏳
 
-## 12.4 守基阿芬第 (Shoghi Effendi)
+## 10.4 守基阿芬第 (Shoghi Effendi)
 
 - God Passes By ⏳
 - The Promised Day Is Come ⏳
@@ -2142,13 +2225,13 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - The Advent of Divine Justice ⏳
 - Messages to America / India / Bahá'í World ⏳
 
-## 12.5 環球正義院 (Universal House of Justice)
+## 10.5 環球正義院 (Universal House of Justice)
 
 - 各書信集 (Compilations) ⏳
 
-# 13. 瑣羅亞斯德 (Zoroastrianism)
+# 11. 瑣羅亞斯德 (Zoroastrianism)
 
-## 13.1 Avesta
+## 11.1 Avesta
 
 **Yasna (72 chapters)**:
 - 含 Gathas (Zarathustra 詩頌 17 篇):
@@ -2199,7 +2282,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 **Aogemadaecha** (短禱) ⏳
 
-## 13.2 Pahlavi 文獻 (Middle Persian)
+## 11.2 Pahlavi 文獻 (Middle Persian)
 
 - Greater Bundahishn ⏳
 - Indian Bundahishn ⏳
@@ -2218,7 +2301,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Karnamag-i Ardashir-i Babagan ⏳
 - Drakht-i Asurig ⏳
 
-## 13.3 Pazend / 後代 Persian 文獻
+## 11.3 Pazend / 後代 Persian 文獻
 
 - Saddar Bundahesh ⏳
 - Saddar Nasr ⏳
@@ -2226,9 +2309,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Spiritual Songs / Monajat ⏳
 - Dadestan-i Dini ⏳
 
-# 14. 神道 (Shinto)
+# 12. 神道 (Shinto)
 
-## 14.1 古典經典
+## 12.1 古典經典
 
 - 古事記 (Kojiki, 712 AD, 3 卷) ⏸ (Wikisource 內容在外部 NDL)
 - 日本書紀 (Nihon Shoki, 720 AD, 30 卷) ⏸
@@ -2244,7 +2327,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 新撰姓氏錄 (Shinsen Shōjiroku, 815 AD) ⏸
 - 万葉集 (Manyōshū, 含神話歌, ~4500 首) ⏳
 
-## 14.2 中世神道五部書 (Watarai 神道)
+## 12.2 中世神道五部書 (Watarai 神道)
 
 - 天照大神儀軌 ⏳
 - 倭姫命世記 ⏳
@@ -2252,7 +2335,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 神道大意 ⏳
 - 神道大成經 (爭議偽作) ⏳
 
-## 14.3 後期文獻
+## 12.3 後期文獻
 
 - 山田諸天王御鎮座傳記 ⏳
 - 中臣祓 ⏳
@@ -2266,7 +2349,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 本居宣長: 古事記傳 (44 卷), 直毘霊 ⏳
 - 賀茂真淵: 万葉考、国意考 ⏳
 
-## 14.4 民俗 / 神社
+## 12.4 民俗 / 神社
 
 - 各神社縁起 (Shrine origin stories)
 - 神話伝承録
@@ -2275,9 +2358,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   - 役行者本記
 - 民俗信仰 (本山信仰、稲荷信仰、八幡信仰 等資料)
 
-# 15. 兩河 (Sumerian / Babylonian / Assyrian / Hittite / Ugaritic)
+# 13. 兩河 (Sumerian / Babylonian / Assyrian / Hittite / Ugaritic)
 
-## 15.1 蘇美 (Sumerian)
+## 13.1 蘇美 (Sumerian)
 
 **故事 / 神話**:
 - Sumerian King List (W-B 444) ⏳
@@ -2334,7 +2417,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 (ETCSL 公開 ~400 部蘇美文獻全可獲取)
 
-## 15.2 阿卡德 / 巴比倫 / 亞述 (Akkadian)
+## 13.2 阿卡德 / 巴比倫 / 亞述 (Akkadian)
 
 - Enūma Eliš (Babylonian creation, 7 tablets) ⏳
 - Standard Babylonian Gilgamesh Epic (12 tablets) ⏳
@@ -2364,7 +2447,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Royal inscriptions (Sargon, Naram-Sin, Tukulti-Ninurta, Tiglath-Pileser, Sennacherib, Esarhaddon, Ashurbanipal) ⏳
 - Ashurbanipal library catalogues ⏳
 
-## 15.3 赫梯 (Hittite)
+## 13.3 赫梯 (Hittite)
 
 - Telipinu Myth ⏳
 - Song of Kumarbi cycle:
@@ -2380,7 +2463,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Ullikummi
 - The Storm-God and the Sea
 
-## 15.4 烏加里特 (Ugaritic, 古迦南)
+## 13.4 烏加里特 (Ugaritic, 古迦南)
 
 - Baal Cycle (KTU 1.1-1.6) ⏳
 - Aqhat (KTU 1.17-1.19) ⏳
@@ -2391,7 +2474,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - El's Banquet (KTU 1.114) ⏳
 - Various ritual texts ⏳
 
-## 15.5 腓尼基 / 古以色列銘文
+## 13.5 腓尼基 / 古以色列銘文
 
 - KAI (Kanaanäische und Aramäische Inschriften) corpus ⏳
 - Sidon, Tyre, Byblos 銘文 ⏳
@@ -2402,7 +2485,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Lachish ostraca ⏳
 - Arad ostraca ⏳
 
-# 16. 古埃及 (Ancient Egypt)
+# 14. 古埃及 (Ancient Egypt)
 
 - Pyramid Texts (5-6 王朝, ~759 spells):
   - Unas (Saqqara)
@@ -2456,7 +2539,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Coptic Gospel apocrypha
 - 各 Coptic 聖人傳記
 
-# 17. 古希臘 (Ancient Greece, 含希臘宗教 + 神秘教派)
+# 15. 古希臘 (Ancient Greece, 含希臘宗教 + 神秘教派)
 
 - Homer: Iliad (Greek 原文) ⏳ (英譯 ✓)
 - Homer: Odyssey (Greek 原文) ⏳ (英譯 ✓)
@@ -2553,7 +2636,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 **Greek Magical Papyri (PGM, ~130 文獻)**: ⏳
 
-# 18. 羅馬宗教 (Roman Religion)
+# 16. 羅馬宗教 (Roman Religion)
 
 - Virgil: Aeneid (Latin 原文, 12 books) ⏳
 - Virgil: Georgics, Eclogues ⏳
@@ -2588,7 +2671,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Pliny Natural History (宗教面)
 - 法律: Twelve Tables, Lex 12 Tabularum 殘篇
 
-# 19. 北歐 / 日耳曼 (Norse / Germanic)
+# 17. 北歐 / 日耳曼 (Norse / Germanic)
 
 **Poetic Edda (Codex Regius, 38 poems)**:
 - Völuspá
@@ -2664,7 +2747,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 **Runic inscriptions corpus**: Gokstad, Eggjum, Rök, Karlevi, etc.
 
-# 20. 凱爾特 (Celtic)
+# 18. 凱爾特 (Celtic)
 
 **Welsh**:
 - Mabinogion:
@@ -2713,7 +2796,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Coligny Calendar
 - Larzac, Chamalières, Lezoux tablets
 
-# 21. 斯拉夫 (Slavic)
+# 19. 斯拉夫 (Slavic)
 
 - Primary Chronicle (Russian Povest' vremennykh let) ⏳
 - Igor's Tale (Slovo o polku Igoreve) ⏳
@@ -2727,9 +2810,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Apocalypse of Abraham (Slavonic) ⏳
 - Adam and Eve Slavonic version
 
-# 22. 諾斯底 + 摩尼教 + 曼達派 (Gnosticism / Manichaeism / Mandaeism)
+# 20. 諾斯底 + 摩尼教 + 曼達派 (Gnosticism / Manichaeism / Mandaeism)
 
-## 22.1 拿戈瑪第文庫 (Nag Hammadi, 13 codices, 52 篇)
+## 20.1 拿戈瑪第文庫 (Nag Hammadi, 13 codices, 52 篇)
 
 **Codex I (Jung Codex)**:
 - Prayer of the Apostle Paul
@@ -2815,7 +2898,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Sophia of Jesus Christ
 - Act of Peter
 
-## 22.2 教父引述的諾斯底碎片
+## 20.2 教父引述的諾斯底碎片
 
 - Valentinus 殘篇
 - Basilides 殘篇
@@ -2825,7 +2908,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Heracleon 殘篇 (Commentary on John 殘存)
 - Ptolemy: Letter to Flora
 
-## 22.3 摩尼教 (Manichaean)
+## 20.3 摩尼教 (Manichaean)
 
 - Kephalaia of the Teacher (Coptic, 530+ chapters) ⏳
 - Manichaean Psalm-Book (Coptic) ⏳
@@ -2839,7 +2922,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Book of Mysteries
 - Book of Giants
 
-## 22.4 曼達派 (Mandaeism, 現存少數派)
+## 20.4 曼達派 (Mandaeism, 現存少數派)
 
 - Ginza Rabba (Great Treasure, ~600 pages):
   - Right Ginza (18 books)
@@ -2851,7 +2934,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Haran Gawaita
 - 1012 Questions
 
-## 22.5 後期諾斯底 / 異端
+## 20.5 後期諾斯底 / 異端
 
 - Hypsiphrone fragments
 - Apelles 殘篇
@@ -2859,9 +2942,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Mar Ammo (摩尼弟子)
 - Cathars (12-13c.): Interrogatio Iohannis ⏳
 
-# 23. 美洲 (Pre-Columbian Americas)
+# 21. 美洲 (Pre-Columbian Americas)
 
-## 23.1 瑪雅 (Maya)
+## 21.1 瑪雅 (Maya)
 
 - Popol Vuh (K'iche', Adrián Recinos / Dennis Tedlock 編譯) ⏳
 - Books of Chilam Balam (8 known versions):
@@ -2883,7 +2966,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Título de Yax / Título de Pedro Velasco ⏳
 - Crónica de Calkiní ⏳
 
-## 23.2 阿茲特克 (Aztec / Nahua)
+## 21.2 阿茲特克 (Aztec / Nahua)
 
 **Codices**:
 - Codex Borgia ⏳
@@ -2911,7 +2994,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Crónica Mexicáyotl (Tezozómoc) ⏳
 - Historia de los Mexicanos por sus Pinturas ⏳
 
-## 23.3 印加 (Inca / Quechua)
+## 21.3 印加 (Inca / Quechua)
 
 - Huarochirí Manuscript (Francisco de Ávila) ⏳
 - Inca royal narratives:
@@ -2923,14 +3006,14 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Guamán Poma de Ayala: Nueva Corónica y Buen Gobierno (1200 page illustrated)
 - Quipu studies (Locke, Urton 等)
 
-## 23.4 其他中美 / 南美
+## 21.4 其他中美 / 南美
 
 - Mixtec codices: Vindobonensis, Zouche-Nuttall, Bodley, Selden, Colombino-Becker
 - Mapuche oral tradition (集成)
 - Aymara religion texts
 - Guarani: Mbyá creation myths
 
-## 23.5 北美原住民 (post-contact 記錄)
+## 21.5 北美原住民 (post-contact 記錄)
 
 - Iroquois Great Law of Peace ⏳
 - Iroquois Creation (Sky Woman)
@@ -2955,9 +3038,9 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - California: Chumash, Pomo
 - Cree, Salish 各民族集
 
-# 24. 非洲傳統 + 衣索比亞正教 + 諾斯底非洲分支
+# 22. 非洲傳統 + 衣索比亞正教 + 諾斯底非洲分支
 
-## 24.1 約魯巴 (Yoruba)
+## 22.1 約魯巴 (Yoruba)
 
 - Odu Ifa (16 主 × 16 = 256 figures, with verses):
   - Eji Ogbe, Oyeku, Iwori, Odi, Irosun, Owonrin, Obara, Okanran, Ogunda, Osa, Ika, Oturupon, Otura, Irete, Ose, Ofun (16 主 Odu)
@@ -2966,7 +3049,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Yoruba creation: Olorun-Olodumare, Oduduwa stories
 - Orisha pantheon textual references
 
-## 24.2 班圖 (Bantu) + 西非
+## 22.2 班圖 (Bantu) + 西非
 
 - Various ethnic group oral tradition (學界記錄):
   - Akan / Ashanti (anansesem)
@@ -2983,7 +3066,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Liyongo Epic (Swahili)
 - Kongo cosmogony
 
-## 24.3 海地巫毒 / 古巴 / 巴西 (Diaspora)
+## 22.3 海地巫毒 / 古巴 / 巴西 (Diaspora)
 
 - Vodou liturgical traditions (Haitian)
 - Petwo / Rada cycle
@@ -2992,7 +3075,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Palo Mayombe (Cuban) ritual
 - Quimbanda
 
-## 24.4 衣索比亞正教 (Ethiopian Orthodox Tewahedo)
+## 22.4 衣索比亞正教 (Ethiopian Orthodox Tewahedo)
 
 **Ge'ez 經典**:
 - 1 Enoch (Mashafa Henok, 完整衣索比亞語版) ⏳
@@ -3010,16 +3093,16 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Acts of Saints (300+ hagiographies)
 - Beta Israel (Falasha) 文獻
 
-## 24.5 撒哈拉以南 古王國銘文
+## 22.5 撒哈拉以南 古王國銘文
 
 - Aksum royal inscriptions (Ge'ez)
 - Nubian Christian texts (Old Nubian)
 - Funj Sultanate manuscripts
 - Sokoto Caliphate religious writings
 
-# 25. 現代新興宗教 (Modern New Religions)
+# 23. 現代新興宗教 (Modern New Religions)
 
-## 25.1 摩門教 / LDS
+## 23.1 摩門教 / LDS
 
 - Book of Mormon (1830 ✓ + 1981 等多版)
 - Doctrine and Covenants (138 sections) ⏳
@@ -3033,20 +3116,20 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Community of Christ (RLDS): Doctrine and Covenants (their version)
 - FLDS scriptures (separate canon for some)
 
-## 25.2 基督科學會 (Christian Science)
+## 23.2 基督科學會 (Christian Science)
 
 - Mary Baker Eddy: Science and Health with Key to the Scriptures ⏳
 - Manual of The Mother Church ⏳
 - Mary Baker Eddy: Prose Works (~16) ⏳
 - Christian Science Hymnal
 
-## 25.3 耶和華見證人 (Jehovah's Witnesses)
+## 23.3 耶和華見證人 (Jehovah's Witnesses)
 
 - New World Translation of the Holy Scriptures ⏳
 - Watchtower 主要書 (Insight on the Scriptures 等) ⏳
 - Russell: Studies in the Scriptures (Millennial Dawn, 7 vols) ⏳
 
-## 25.4 統一教 (Unification Church / Tongil)
+## 23.4 統一教 (Unification Church / Tongil)
 
 - Divine Principle (原理講論) ⏳
 - Sun Myung Moon 演說集 (~600 卷韓國原版)
@@ -3054,7 +3137,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Cham Bumo Gyeong (真父母經)
 - Pyeong Hwa Gyeong (平和經)
 
-## 25.5 山達基 (Scientology)
+## 23.5 山達基 (Scientology)
 
 - L. Ron Hubbard:
   - Dianetics: The Modern Science of Mental Health
@@ -3067,13 +3150,13 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   - Bridge to Total Freedom
   - HCO Bulletins / Policy Letters (萬則)
 
-## 25.6 雷爾運動 (Raëlism)
+## 23.6 雷爾運動 (Raëlism)
 
 - Raël: Intelligent Design / The Book Which Tells the Truth
 - Yes to Human Cloning
 - 等 ⏳
 
-## 25.7 威卡 / 新異教 (Wicca / Neo-Pagan)
+## 23.7 威卡 / 新異教 (Wicca / Neo-Pagan)
 
 - Gerald Gardner: Witchcraft Today, The Meaning of Witchcraft, High Magic's Aid
 - Doreen Valiente: 主要 Wicca 詩文 (Charge of the Goddess)
@@ -3087,7 +3170,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Crowley: Book of the Law, Magick in Theory and Practice
 - Various Wicca tradition Books of Shadows
 
-## 25.8 法輪功 (Falun Gong)
+## 23.8 法輪功 (Falun Gong)
 
 - 李洪志:
   - 法輪功 (China Falun Gong, 1993)
@@ -3097,7 +3180,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   - 各會議演說
   - 對話集
 
-## 25.9 一貫道
+## 23.9 一貫道
 
 - 性理題釋
 - 暫定真經
@@ -3105,7 +3188,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - 中華大藏經補編
 - 各乩文 / 鸞書
 
-## 25.10 新時代 / New Age
+## 23.10 新時代 / New Age
 
 - A Course in Miracles (Helen Schucman, 1976)
 - Seth Material (Jane Roberts):
@@ -3117,7 +3200,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Eckhart Tolle: The Power of Now, A New Earth
 - Wayne Dyer 著作
 
-## 25.11 神智學 (Theosophy)
+## 23.11 神智學 (Theosophy)
 
 - Helena Blavatsky:
   - Isis Unveiled (2 vols, 1877)
@@ -3130,7 +3213,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Charles Leadbeater: Inner Life, Hidden Side of Things, The Christian Creed
 - Krishnamurti (early): At the Feet of the Master (歸入年輕著作)
 
-## 25.12 人智學 (Anthroposophy)
+## 23.12 人智學 (Anthroposophy)
 
 - Rudolf Steiner Complete Works (~350 vols):
   - Theosophy
@@ -3144,7 +3227,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
   - Apocalypse Lectures
   - ...
 
-## 25.13 古魯吉夫派 (Gurdjieff)
+## 23.13 古魯吉夫派 (Gurdjieff)
 
 - All and Everything: Beelzebub's Tales to His Grandson
 - Meetings with Remarkable Men
@@ -3152,7 +3235,7 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Views from the Real World
 - P.D. Ouspensky: In Search of the Miraculous, Tertium Organum
 
-## 25.14 現代瑜伽 / 印度教延伸
+## 23.14 現代瑜伽 / 印度教延伸
 
 - Vivekananda Complete Works (9 vols)
 - Yogananda: Autobiography of a Yogi, God Talks with Arjuna (Gita comm.), 各 Self-Realization Lessons
@@ -3168,13 +3251,13 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 - Eknath Easwaran translations
 - 現代 Advaita teachers: Nisargadatta (I Am That), Mooji, Adyashanti, Eckhart Tolle (上)
 
-## 25.15 蘇菲現代
+## 23.15 蘇菲現代
 
 - Idries Shah: 30+ 部 (The Sufis, Tales of the Dervishes 等)
 - Inayat Khan (西方蘇菲) 著作集
 - Hazrat Inayat Khan Complete Sayings
 
-## 25.16 其他現代
+## 23.16 其他現代
 
 - Druze (Tawhid 信仰)
 - Yazidi (Mishefa Reş, Kitab al-Jilwa)
@@ -3199,9 +3282,12 @@ MN 1-152 全 (Mūlapariyāya / ... / Indriyabhāvanā) ✓
 
 | 宗教 | 已列 entry | 估全本 entry (若道藏 5305 / 大藏經 2200 等逐部展開) |
 |------|-----------|--------|
-| 漢譯佛教 | ~250 | ~3,500 |
-| 巴利佛教 | ~80 | ~5,000 (各 SN / AN 經逐部) |
-| 藏文佛教 | ~80 | ~4,500 |
+| 佛教 (合) | ~600 | ~13,000+ (巴利三藏全 + 大正卍續 + Kangyur/Tengyur + 梵文原典 + 韓日越蒙) |
+|   含巴利傳統 | ~80 | ~5,000 (SN 56 samyuttas + AN 11 nipatas + KN 全展開) |
+|   含漢傳佛教 | ~250 | ~3,500 (大正藏 2,200 + 卍續藏 1,300) |
+|   含藏傳佛教 | ~80 | ~4,500 (Kangyur 1,100 + Tengyur 3,400) |
+|   含梵文原典 | ~30 | ~100 (尼泊爾/克什米爾/藏地寫本) |
+|   含其他傳統 | ~30 | ~500 (韓國/日本/越南/蒙古/現代西方) |
 | 道教 | ~200 | ~5,500 (道藏逐卷) |
 | 儒教 | ~250 | ~5,000 (四庫經部逐部) |
 | 印度教 | ~250 | ~3,000 (含 18 Purāṇa 逐章) |
