@@ -35,7 +35,15 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG_DIR = ROOT / "scripts" / "catalog"
 TRANSLATIONS_DIR = ROOT / "translations"
 
-WS_API = "https://zh.wikisource.org/w/api.php"
+WS_API_DEFAULT = "https://zh.wikisource.org/w/api.php"
+WS_API_LANG = {
+    "zh": "https://zh.wikisource.org/w/api.php",
+    "ja": "https://ja.wikisource.org/w/api.php",
+    "en": "https://en.wikisource.org/w/api.php",
+    "la": "https://la.wikisource.org/w/api.php",
+    "sa": "https://sa.wikisource.org/w/api.php",
+}
+WS_API = WS_API_DEFAULT  # mutated via --lang in main()
 USER_AGENT = "religions-history-research/0.1 (https://github.com/Hangsau/religions-history; academic use)"
 REQ_TIMEOUT = 30
 SLEEP_BETWEEN_REQUESTS = 0.5
@@ -263,7 +271,8 @@ def download_scripture(entry: dict) -> dict:
     original_bytes = original_text.encode("utf-8")
 
     (out_dir / "original.txt").write_bytes(original_bytes)
-    page_urls = [f"https://zh.wikisource.org/wiki/{t.replace(' ', '_')}" for t in fetched_titles]
+    ws_host = WS_API.replace("/w/api.php", "")
+    page_urls = [f"{ws_host}/wiki/{t.replace(' ', '_')}" for t in fetched_titles]
     (out_dir / "source-urls.txt").write_bytes(("\n".join(page_urls) + "\n").encode("utf-8"))
     sha = hashlib.sha256(original_bytes).hexdigest()
     (out_dir / "checksums.sha256").write_bytes(f"{sha}  original.txt\n".encode("utf-8"))
@@ -277,8 +286,8 @@ def download_scripture(entry: dict) -> dict:
         "language": entry.get("language", "古典漢語"),
         "version": entry.get("version", "Wikisource 通行本"),
         "version_date": entry.get("version_date", "—"),
-        "source_platform": "zh.wikisource.org",
-        "source_url": f"https://zh.wikisource.org/wiki/{title.replace(' ', '_')}",
+        "source_platform": WS_API.split("//")[1].split("/")[0],
+        "source_url": f"{ws_host}/wiki/{title.replace(' ', '_')}",
         "downloaded_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "size_bytes": len(original_bytes),
         "checksum_sha256": sha,
@@ -299,7 +308,12 @@ def download_scripture(entry: dict) -> dict:
 
 
 def load_catalog(religion: str) -> list[dict]:
-    name_map = {"道教": "daoism-ws.json", "儒教": "confucianism-ws.json", "基督教": "christianity-ws.json"}
+    name_map = {
+        "道教": "daoism-ws.json",
+        "儒教": "confucianism-ws.json",
+        "基督教": "christianity-ws.json",
+        "神道": "shinto-ws.json",
+    }
     if religion not in name_map:
         sys.exit(f"unknown religion: {religion}")
     path = CATALOG_DIR / name_map[religion]
@@ -326,11 +340,14 @@ def find_entry(slug: str) -> dict | None:
 
 
 def main():
+    global WS_API
     p = argparse.ArgumentParser()
     p.add_argument("--slug")
     p.add_argument("--religion")
     p.add_argument("--all", action="store_true")
+    p.add_argument("--lang", default="zh", choices=list(WS_API_LANG.keys()))
     args = p.parse_args()
+    WS_API = WS_API_LANG[args.lang]
 
     if args.slug and not args.religion:
         e = find_entry(args.slug)

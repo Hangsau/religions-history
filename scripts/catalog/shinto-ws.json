@@ -1,0 +1,14 @@
+{
+  "religion": "神道",
+  "source_platform": "ja.wikisource.org",
+  "license": "Public Domain",
+  "language": "古典日本語",
+  "notes": "神道核心經典 via 日本 Wikisource. 古事記 / 日本書紀 / 延喜式 + 風土記等.",
+  "scriptures": [
+    {"slug": "kojiki", "defer_reason": "ja.wikisource 主頁僅 TOC, 全文在 NDL 國立国会图书館数字資料庫 (info:ndljp/pid/991097), 需 NDL 下載器"},
+    {"slug": "nihon-shoki", "defer_reason": "同 kojiki, 全文在 NDL"},
+    {"slug": "engi-shiki", "defer_reason": "同 kojiki, 全文在 NDL"},
+    {"slug": "kogo-shui", "defer_reason": "頁面不存在, 待找替代來源"},
+    {"slug": "fudoki-izumo", "defer_reason": "頁面不存在, 待找替代來源"}
+  ]
+}
