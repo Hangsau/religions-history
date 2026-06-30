@@ -9,36 +9,59 @@
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 
-## 策略決定（2026-07-01）
+## 策略（2026-07-01）
 
-**轉向：先補核心缺口 → 進入 P4 翻譯 + P5 標籤 + P7 網站，不再無限深挖。**
+**並行三 pipeline + 強追蹤防遺漏**：
+- **A. 持續收集**（不中斷，繼續深挖 CBETA T18+ / 道藏 / 塔木德全 / 教父全集 等）
+- **B. AI 翻譯**（已下載原文 → `01-translation.md`，邊收邊譯，不等收完）
+- **C. 標籤 + 索引**（LLM 抽 semantic_tags、建跨宗教概念表、生 tag-index.json）
 
-理由：v3 列出 ~2400 entries，目前已 80%。再深挖（道藏 5305 全 / 大正藏 T18+ / 塔木德 76 全 / 教父 ANF+NPNF 全）會稀釋品質，先把列出的補齊，再做翻譯 / 標籤 / 連結等品質工作更有意義。
+三條 pipeline 互不衝突（A 寫 `raw/`、B 寫 `01-translation.md`、C 寫 meta `semantic_tags`），可同時派工。
 
-## 立即下一步
+**防遺漏機制：** 寫 `scripts/track-progress.py`：
+- 對照 v3 inventory 列出「該抓但還沒抓」清單，按宗教分類
+- 識別「抓了但不在 v3」的部分（需補進 inventory）
+- 失敗 batch 進 `failed.json` 隊列下次自動重試
+- 每完成大批 → 重生 INDEX.md + 重跑 track-progress
 
-### 補核心缺口（一輪）
+## 並行任務優先順序
 
-| 宗教 | 缺什麼 | 來源 |
-|------|--------|------|
-| 神道 | 5 部（古事記、日本書紀、延喜式、風土記、古語拾遺）| NDL or ja.ws Kokushi Taikei |
-| 兩河（蘇美 + 巴比倫 + 赫梯 + 烏加里特）| 15 部 | ETCSL Sumerian + sacred-texts /ane/ |
-| 古埃及 | 12 部（Amduat、Coffin Texts、Wisdom Literature 等）| sacred-texts + 學界數位 |
-| 美洲 codices | Dresden / Madrid / Paris codices | FAMSI or sacred-texts |
-| 諾斯底 Nag Hammadi | 52 篇本身（不只 Mead 學派）| en.wikisource or specialized |
-| 現代新興 | Doctrine and Covenants、Scientology 主要、巴哈伊核心 | en.wikisource + bahai-library |
-| 巴哈伊核心 | Kitab-i-Aqdas、Kitab-i-Iqan、Hidden Words 等 | reference.bahai.org |
-| 凱爾特 | 補 Táin Bó Cúailnge、Welsh Triads 完整版 | sacred-texts / en.ws |
-| 北歐 | 補 Skaldic、Heimskringla 完整、Beowulf | sacred-texts / en.ws |
-| 印度教 | 18 大 + 18 小 Purana（只有 Bhagavata + Skanda 1-31）| GRETIL or wisdomlib |
+### Pipeline A（收集）— m3 持續跑
 
-預估補完約 +200-300 部 → 累計 ~2200 部。
+| 序 | 任務 | 量 |
+|----|------|------|
+| 1 | 補核心缺口：神道 + 兩河 + 古埃及 + 諾斯底 Nag Hammadi + 現代新興 + 巴哈伊 + 凱爾特 / 北歐 剩 + 印度教 Purana 18 | ~200 部 |
+| 2 | CBETA T18-T55 全（密教 / 律 / 論 / 經疏 / 諸宗 / 史傳）| ~1300 部 |
+| 3 | Sefaria Talmud Bavli 37 + Yerushalmi + Halakhah + Kabbalah 全 | ~600 部 |
+| 4 | 教父全集 ANF + NPNF | ~38 卷 |
+| 5 | 巴利 Vinaya / KN Jataka 547 故事 | ~1000 部 |
+| 6 | 道藏精選按部類展開 ~500 部 | ~500 部 |
+| 7 | 印度教 Sanskrit 缺漏（18 大 Purana 全、Itihasa 全、Tantra）| ~100 部 |
+| 8 | 大正藏 T05-T07 大般若 600 卷（後期專項）| 600 部 |
+| 9 | 韓國 / 日本 / 越南 / 蒙古 佛教祖師全集 | ~500 部 |
+| 10 | 藏文 Kangyur 1100 + Tengyur 3400（後期專項）| ~5000 部 |
 
-### 補完後切 P4 / P5
+### Pipeline B（翻譯）— 從現在開始 m3 並行跑
 
-- P4：AI 翻譯（按 `methodology/translation-workflow.md` SOP）。原文每部生 `01-translation.md`，譯文 cross-check
-- P5：語義標籤抽取（每部 ~100 字主旨 + 0-N 個概念 tag），生 `00-overview/tag-index.json`
-- P7：Astro 站，從 `translations/` 自動生頁面
+優先翻譯：核心經典原文 → 繁中白話
+- 道德經 ✓ 已抓 → 翻譯
+- 心經（鳩摩羅什 + 玄奘）→ 翻譯
+- 金剛經 → 翻譯
+- 古蘭經（阿拉伯 → 繁中）
+- 創世記（希伯來 → 繁中）
+- 馬太福音（希臘 → 繁中）
+- Bhagavad Gītā（Sanskrit → 繁中）
+- Dhammapada（巴利 → 繁中）
+
+每翻完一部 → commit + push。
+
+### Pipeline C（標籤）— Sonnet 並行做
+
+1. 訂跨宗教概念表（受控詞彙）→ `00-overview/concepts.md`
+2. 每部 meta.json 加 `semantic_tags: []` + `summary_100w`
+3. LLM 為已下載的核心經典先抽（道德經 / 論語 / 金剛經 / 創世記 / 古蘭開端 etc）
+4. 反向索引：`00-overview/tag-index.json`
+
 
 ## 進行中（m3 背景）
 

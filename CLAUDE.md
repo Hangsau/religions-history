@@ -9,11 +9,15 @@
 
 ## 當前階段
 
-**P3 收集階段尾聲 → P4 翻譯階段過渡**
+**P3 收集 + P4 翻譯 + P5 標籤 並行（不分先後）**
 
-- ~1900 部已收（全部 GitHub 版本控制）
-- 補核心缺口中（神道 / 兩河 / 古埃及 / 現代新興 / Nag Hammadi 全 52 篇）
-- 補完後切到 P4 AI 翻譯
+- ~2000 部已收（GitHub 版本控制）
+- Pipeline A：繼續收集（補核心缺口 + CBETA T18+ + Sefaria 深挖 + 教父全集 + 道藏 + 藏文等）
+- Pipeline B：AI 翻譯（從核心經典開始）
+- Pipeline C：語義標籤 + 跨宗教概念表
+- 三條 pipeline 並行，互不等候
+
+防遺漏：`scripts/track-progress.py` 對照 v3 inventory 自動算「該抓但沒抓」per 宗教，失敗進重試隊列。
 
 ## 工作守則
 

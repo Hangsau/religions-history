@@ -154,17 +154,26 @@
 | **P6** | 宗教心理學分析（11-psychology/）| 待 |
 | **P7** | 網站（Astro + Pagefind + Cloudflare Pages，見 STRATEGY §2）| 待 |
 
-### 不再做（已凍結）
+### 並行設計（不停止收集）
 
-以下原 v3 規劃的「大規模逐部展開」**停止追求**（資料若有需要再單獨任務 spin up）：
-- 道藏 5305 卷全展開
-- 大正藏 T18-T55 全（已抓 T01-T17 約 41%，足夠樣本）
-- 卍續藏 1300+ 部全
-- 巴比倫塔木德 37 tractate × 全 daf（已有 Mishnah + 主要 commentaries 樣本）
-- 教父全集 ANF+NPNF 38 卷
-- 印度教 18 大 + 18 小往世書全卷展開
+**P3 收集 / P4 翻譯 / P5 標籤 並行進行，互不等候。**
 
-理由：上述每項都是「總集逐部展開」級別工程（萬部規模）。在沒有翻譯 + 標籤 + 索引基礎前展開，等於把資料堆成更大但更難用的山。先把 D 階段補完、P4-P7 跑起來，**之後若有需要再回頭做總集級展開**。
+理由：原文檔案（`raw/original.txt`）、翻譯檔（`01-translation.md`）、標籤欄位（meta.json `semantic_tags`）寫的是不同目標檔案，可同時派工不衝突。
+
+繼續收集 P3 D-J 全部（不凍結）：
+- D：神道 / 兩河 / 古埃及 / Nag Hammadi 全 52 / 現代新興 / 巴哈伊核心 / 凱爾特 / 北歐 / 印度教 Purana
+- E：CBETA T18-T55 全（密教 / 律 / 論 / 經疏 / 諸宗 / 史傳）
+- F：Sefaria Talmud Bavli 37 + Yerushalmi + Halakhah + Kabbalah 全
+- G：教父全集 ANF + NPNF 38 卷
+- H：巴利 KN Jataka 547 + Vinaya 全
+- I：道藏精選按部類展開 ~500 部
+- J：藏文 Kangyur + Tengyur（後期專項）
+
+**防失控機制**（`scripts/track-progress.py`）：
+- 對照 v3 inventory 自動算「該抓但還沒抓」per 宗教
+- 識別「抓了但 inventory 沒列」的（補進 inventory）
+- 失敗 batch 進 `failed.json` 自動重試
+- 每完成大批跑一次 → 重生 INDEX + 跑 track-progress 報告
 
 ### 翻譯原則（P4 階段強制）
 

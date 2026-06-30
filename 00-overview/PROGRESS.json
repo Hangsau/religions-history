@@ -1,0 +1,400 @@
+{
+  "伊斯蘭": {
+    "done": 7,
+    "target_core": 1,
+    "target_v3_listed": 200,
+    "target_full_canon": 50000,
+    "pct_core": 100,
+    "pct_v3_listed": 3.5,
+    "pct_full": 0.01,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 4388849,
+    "by_tradition": {
+      "—": 7
+    },
+    "by_source": {
+      "sacred-texts.com": 6,
+      "Quran.com API": 1
+    },
+    "original_count": 0
+  },
+  "佛教": {
+    "done": 922,
+    "target_core": 60,
+    "target_v3_listed": 460,
+    "target_full_canon": 13000,
+    "pct_core": 100,
+    "pct_v3_listed": 100,
+    "pct_full": 7.09,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 108870262,
+    "by_tradition": {
+      "漢傳": 914,
+      "巴利": 8
+    },
+    "by_source": {
+      "CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka)": 866,
+      "CBETA (TEI P5 XML, GitHub)": 48,
+      "SuttaCentral": 8
+    },
+    "original_count": 866
+  },
+  "佛教-巴利": {
+    "done": 39,
+    "target_core": 0,
+    "target_v3_listed": 0,
+    "target_full_canon": 0,
+    "pct_core": null,
+    "pct_v3_listed": null,
+    "pct_full": null,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 9458871,
+    "by_tradition": {
+      "—": 39
+    },
+    "by_source": {
+      "SuttaCentral": 39
+    },
+    "original_count": 0
+  },
+  "儒教": {
+    "done": 26,
+    "target_core": 9,
+    "target_v3_listed": 35,
+    "target_full_canon": 5000,
+    "pct_core": 100,
+    "pct_v3_listed": 74.3,
+    "pct_full": 0.52,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 11957287,
+    "by_tradition": {
+      "—": 26
+    },
+    "by_source": {
+      "zh.wikisource.org": 24,
+      "ctext.org (api)": 2
+    },
+    "original_count": 0
+  },
+  "凱爾特": {
+    "done": 6,
+    "target_core": 4,
+    "target_v3_listed": 40,
+    "target_full_canon": 500,
+    "pct_core": 100,
+    "pct_v3_listed": 15.0,
+    "pct_full": 1.2,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 2760922,
+    "by_tradition": {
+      "—": 6
+    },
+    "by_source": {
+      "sacred-texts.com": 5,
+      "en.wikisource.org": 1
+    },
+    "original_count": 0
+  },
+  "北歐": {
+    "done": 3,
+    "target_core": 2,
+    "target_v3_listed": 30,
+    "target_full_canon": 300,
+    "pct_core": 100,
+    "pct_v3_listed": 10.0,
+    "pct_full": 1.0,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 2780524,
+    "by_tradition": {
+      "—": 3
+    },
+    "by_source": {
+      "sacred-texts.com": 2,
+      "en.wikisource.org": 1
+    },
+    "original_count": 0
+  },
+  "印度教": {
+    "done": 33,
+    "target_core": 25,
+    "target_v3_listed": 250,
+    "target_full_canon": 3000,
+    "pct_core": 100,
+    "pct_v3_listed": 13.2,
+    "pct_full": 1.1,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 17626897,
+    "by_tradition": {
+      "—": 33
+    },
+    "by_source": {
+      "GRETIL": 32,
+      "en.wikisource.org": 1
+    },
+    "original_count": 0
+  },
+  "古埃及": {
+    "done": 2,
+    "target_core": 3,
+    "target_v3_listed": 60,
+    "target_full_canon": 1000,
+    "pct_core": 66.7,
+    "pct_v3_listed": 3.3,
+    "pct_full": 0.2,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 1517072,
+    "by_tradition": {
+      "—": 2
+    },
+    "by_source": {
+      "sacred-texts.com": 2
+    },
+    "original_count": 0
+  },
+  "古希臘羅馬": {
+    "done": 18,
+    "target_core": 10,
+    "target_v3_listed": 100,
+    "target_full_canon": 500,
+    "pct_core": 100,
+    "pct_v3_listed": 18.0,
+    "pct_full": 3.6,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 18399580,
+    "by_tradition": {
+      "—": 18
+    },
+    "by_source": {
+      "sacred-texts.com": 16,
+      "en.wikisource.org": 2
+    },
+    "original_count": 1
+  },
+  "基督教": {
+    "done": 169,
+    "target_core": 66,
+    "target_v3_listed": 250,
+    "target_full_canon": 3000,
+    "pct_core": 100,
+    "pct_v3_listed": 67.6,
+    "pct_full": 5.63,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 20220132,
+    "by_tradition": {
+      "—": 142,
+      "新約-希臘原文": 27
+    },
+    "by_source": {
+      "la.wikisource.org": 76,
+      "zh.wikisource.org": 66,
+      "morphgnt/sblgnt (GitHub)": 27
+    },
+    "original_count": 27
+  },
+  "巴哈伊": {
+    "done": 1,
+    "target_core": 5,
+    "target_v3_listed": 25,
+    "target_full_canon": 1200,
+    "pct_core": 20.0,
+    "pct_v3_listed": 4.0,
+    "pct_full": 0.08,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 149561,
+    "by_tradition": {
+      "—": 1
+    },
+    "by_source": {
+      "sacred-texts.com": 1
+    },
+    "original_count": 0
+  },
+  "猶太教": {
+    "done": 787,
+    "target_core": 24,
+    "target_v3_listed": 150,
+    "target_full_canon": 1000,
+    "pct_core": 100,
+    "pct_v3_listed": 100,
+    "pct_full": 78.7,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 40935500,
+    "by_tradition": {
+      "Commentary": 664,
+      "Mishnah": 64,
+      "—": 57,
+      "Tanakh": 2
+    },
+    "by_source": {
+      "Sefaria": 777,
+      "sacred-texts.com": 10
+    },
+    "original_count": 730
+  },
+  "現代新興": {
+    "done": 2,
+    "target_core": 5,
+    "target_v3_listed": 100,
+    "target_full_canon": 1000,
+    "pct_core": 40.0,
+    "pct_v3_listed": 2.0,
+    "pct_full": 0.2,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 1578014,
+    "by_tradition": {
+      "—": 2
+    },
+    "by_source": {
+      "en.wikisource.org": 2
+    },
+    "original_count": 0
+  },
+  "瑣羅亞斯德": {
+    "done": 8,
+    "target_core": 5,
+    "target_v3_listed": 50,
+    "target_full_canon": 200,
+    "pct_core": 100,
+    "pct_v3_listed": 16.0,
+    "pct_full": 4.0,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 6384528,
+    "by_tradition": {
+      "—": 8
+    },
+    "by_source": {
+      "sacred-texts.com": 8
+    },
+    "original_count": 0
+  },
+  "美洲": {
+    "done": 6,
+    "target_core": 3,
+    "target_v3_listed": 50,
+    "target_full_canon": 500,
+    "pct_core": 100,
+    "pct_v3_listed": 12.0,
+    "pct_full": 1.2,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 1389943,
+    "by_tradition": {
+      "—": 6
+    },
+    "by_source": {
+      "sacred-texts.com": 6
+    },
+    "original_count": 0
+  },
+  "耆那教": {
+    "done": 2,
+    "target_core": 5,
+    "target_v3_listed": 60,
+    "target_full_canon": 150,
+    "pct_core": 40.0,
+    "pct_v3_listed": 3.3,
+    "pct_full": 1.33,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 1419812,
+    "by_tradition": {
+      "—": 2
+    },
+    "by_source": {
+      "sacred-texts.com": 2
+    },
+    "original_count": 0
+  },
+  "諾斯底": {
+    "done": 5,
+    "target_core": 9,
+    "target_v3_listed": 60,
+    "target_full_canon": 200,
+    "pct_core": 55.6,
+    "pct_v3_listed": 8.3,
+    "pct_full": 2.5,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 4156517,
+    "by_tradition": {
+      "—": 5
+    },
+    "by_source": {
+      "sacred-texts.com": 5
+    },
+    "original_count": 0
+  },
+  "道教": {
+    "done": 17,
+    "target_core": 15,
+    "target_v3_listed": 40,
+    "target_full_canon": 6000,
+    "pct_core": 100,
+    "pct_v3_listed": 42.5,
+    "pct_full": 0.28,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 5255044,
+    "by_tradition": {
+      "—": 17
+    },
+    "by_source": {
+      "zh.wikisource.org": 13,
+      "ctext.org (api)": 4
+    },
+    "original_count": 0
+  },
+  "錫克教": {
+    "done": 3,
+    "target_core": 1,
+    "target_v3_listed": 10,
+    "target_full_canon": 30,
+    "pct_core": 100,
+    "pct_v3_listed": 30.0,
+    "pct_full": 10.0,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 5563558,
+    "by_tradition": {
+      "—": 3
+    },
+    "by_source": {
+      "sacred-texts.com": 2,
+      "en.wikisource.org": 1
+    },
+    "original_count": 0
+  },
+  "非洲": {
+    "done": 6,
+    "target_core": 2,
+    "target_v3_listed": 30,
+    "target_full_canon": 500,
+    "pct_core": 100,
+    "pct_v3_listed": 20.0,
+    "pct_full": 1.2,
+    "with_translation": 0,
+    "with_semantic_tags": 0,
+    "total_bytes": 1299517,
+    "by_tradition": {
+      "—": 6
+    },
+    "by_source": {
+      "sacred-texts.com": 6
+    },
+    "original_count": 0
+  }
+}
