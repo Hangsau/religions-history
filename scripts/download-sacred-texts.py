@@ -232,6 +232,8 @@ CATALOG_MAP = {
     "瑣羅亞斯德": "zoroastrianism-st.json",
     "耆那教": "jainism-st.json",
     "古埃及": "egypt-st.json",
+    "古希臘羅馬": "classical-st.json",
+    "北歐": "norse-st.json",
     "巴哈伊": "bahai-st.json",
     "諾斯底": "gnostic-st.json",
     "曼達派": "mandaean-st.json",
