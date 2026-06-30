@@ -1,0 +1,51 @@
+targets: 1 × tasks: ['translate', 'annotate']
+  [start] heart-sutra-xuanzang (translate)  (prompt 4487 chars)
+  [done] heart-sutra-xuanzang (translate)  →  01-translation.md (1453 chars)
+  [start] heart-sutra-xuanzang (annotate)  (prompt 5828 chars)
+  [done] heart-sutra-xuanzang (annotate)  �targets: 1 × tasks: ['translate', 'annotate']
+  [start] tao-te-ching (translate)  (prompt 11061 chars)
+  [done] tao-te-ching (translate)  →  01-translation.md (8125 chars)
+  [start] tao-te-ching (annotate)  (prompt 19074 chars)
+  [done] tao-te-ching (annotate)  →  02-annotation.md (34190 chars)
+
+done: 2/2
+=== isha-upanishad ===
+targets: 1 × tasks: ['translate', 'annotate']
+  [skip-done] isha-upanishad (translate)
+  [start] isha-upanishad (annotate)  (prompt 52921 chars)
+  [done] isha-upanishad (annotate)  →  02-annotation.md (7022 chars)
+
+done: 2/2
+=== katha-upanishad ===
+targets: 1 × tasks: ['translate', 'annotate']
+  [start] katha-upanishad (translate)  (prompt 20524 chars)
+  [done] katha-upanishad (translate)  →  01-translation.md (5353 chars)
+  [start] katha-upanishad (annotate)  (prompt 25765 chars)
+  [done] katha-upanishad (annotate)  →  02-annotation.md (16919 chars)
+
+done: 2/2
+=== great-learning ===
+targets: 1 × tasks: ['translate', 'annotate']
+  [start] great-learning (translate)  (prompt 5429 chars)
+  [done] great-learning (translate)  →  01-translation.md (2400 chars)
+  [start] great-learning (annotate)  (prompt 7717 chars)
+  [done] great-learning (annotate)  →  02-annotation.md (7214 chars)
+
+done: 2/2
+=== doctrine-of-the-mean ===
+targets: 1 × tasks: ['translate', 'annotate']
+  [start] doctrine-of-the-mean (translate)  (prompt 7792 chars)
+  [done] doctrine-of-the-mean (translate)  →  01-translation.md (4750 chars)
+  [start] doctrine-of-the-mean (annotate)  (prompt 12430 chars)
+  [done] doctrine-of-the-mean (annotate)  →  02-annotation.md (11099 chars)
+
+done: 2/2
+=== diamond-sutra-kumarajiva ===
+targets: 1 × tasks: ['translate', 'annotate']
+  [start] diamond-sutra-kumarajiva (translate)  (prompt 9897 chars)
+  [done] diamond-sutra-kumarajiva (translate)  →  01-translation.md (6865 chars)
+  [start] diamond-sutra-kumarajiva (annotate)  (prompt 16650 chars)
+  [done] diamond-sutra-kumarajiva (annotate)  →  02-annotation.md (11654 chars)
+
+done: 2/2
+=== batch1 DONE ===

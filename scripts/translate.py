@@ -69,7 +69,8 @@ CORE_SLUGS = [
     "diamond-sutra-kumarajiva",
 ]
 
-MAX_CHARS_PER_CALL = 40000  # m3 input safety; longer → chunk by chapter
+MAX_CHARS_PER_CALL = 30000  # m3 input safety; longer → chunk by chapter
+CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
 
 
 def load_role(task: str) -> str:
@@ -196,6 +197,66 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
         return None
 
 
+def split_chapters(original_text: str) -> list[str]:
+    """Split original.txt on `=== N | label ===` boundaries.
+    Returns list of chunks where each chunk starts with `=== ...`."""
+    lines = original_text.split("\n")
+    chunks = []
+    current = []
+    for line in lines:
+        if line.startswith(CHUNK_HEADER_RE):
+            if current:
+                chunks.append("\n".join(current))
+            current = [line]
+        else:
+            current.append(line)
+    if current:
+        chunks.append("\n".join(current))
+    return chunks
+
+
+def group_chunks(chapters: list[str], max_chars: int) -> list[list[str]]:
+    """Pack chapters into groups, each group totaling <= max_chars."""
+    groups = []
+    cur_group: list[str] = []
+    cur_size = 0
+    for ch in chapters:
+        ch_size = len(ch) + 1  # +1 for \n joiner
+        if ch_size > max_chars:
+            # single chapter exceeds limit — split it raw
+            if cur_group:
+                groups.append(cur_group)
+                cur_group, cur_size = [], 0
+            # naive split
+            for i in range(0, len(ch), max_chars):
+                groups.append([ch[i:i + max_chars]])
+            continue
+        if cur_size + ch_size > max_chars and cur_group:
+            groups.append(cur_group)
+            cur_group, cur_size = [], 0
+        cur_group.append(ch)
+        cur_size += ch_size
+    if cur_group:
+        groups.append(cur_group)
+    return groups
+
+
+def strip_output_wrappers(output: str) -> str:
+    output = output.strip()
+    if not output.startswith("#"):
+        first_h = output.find("\n# ")
+        if first_h > 0:
+            output = output[first_h:].strip()
+    if output.startswith("```markdown\n"):
+        output = output[len("```markdown\n"):]
+    if output.startswith("```\n"):
+        output = output[len("```\n"):]
+    output = output.rstrip()
+    if output.endswith("```"):
+        output = output[:-3].rstrip()
+    return output
+
+
 def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_run: bool = False) -> bool:
     out_name = TASK_TO_OUTFILE[task]
     out_path = TRANSLATIONS_DIR / slug / out_name
@@ -208,38 +269,56 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         return False
     original_text, meta = loaded
 
-    if len(original_text) > MAX_CHARS_PER_CALL:
-        print(f"  [warn] {slug}: {len(original_text)} chars > {MAX_CHARS_PER_CALL}, chunking not yet implemented; using first window only")
-        original_text = original_text[:MAX_CHARS_PER_CALL]
-
     translation_text = None
     if task == "annotate":
         tr_path = TRANSLATIONS_DIR / slug / "01-translation.md"
         if tr_path.exists():
             translation_text = tr_path.read_text(encoding="utf-8")
 
-    prompt = build_prompt(task, role, slug, meta, original_text, translation_text)
-    print(f"  [start] {slug} ({task})  (prompt {len(prompt)} chars)")
-    output = call_m3(prompt, dry_run=dry_run)
-    if output is None or dry_run:
-        return dry_run
+    # Single-call path: text fits
+    if len(original_text) <= MAX_CHARS_PER_CALL:
+        prompt = build_prompt(task, role, slug, meta, original_text, translation_text)
+        print(f"  [start] {slug} ({task})  (prompt {len(prompt)} chars)")
+        output = call_m3(prompt, dry_run=dry_run)
+        if output is None or dry_run:
+            return dry_run
+        output = strip_output_wrappers(output)
+        out_path.write_text(output + "\n", encoding="utf-8", newline="\n")
+        print(f"  [done] {slug} ({task})  →  {out_name} ({len(output)} chars)")
+        return True
 
-    output = output.strip()
-    if not output.startswith("#"):
-        first_h = output.find("\n# ")
-        if first_h > 0:
-            output = output[first_h:].strip()
-    # Strip stray markdown fence wrappers that m3 sometimes adds
-    if output.startswith("```markdown\n"):
-        output = output[len("```markdown\n"):]
-    if output.startswith("```\n"):
-        output = output[len("```\n"):]
-    output = output.rstrip()
-    if output.endswith("```"):
-        output = output[:-3].rstrip()
+    # Chunked path
+    chapters = split_chapters(original_text)
+    groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)  # reserve room for role+prompt
+    print(f"  [chunk] {slug} ({task}): {len(chapters)} chapters → {len(groups)} chunks")
 
-    out_path.write_text(output + "\n", encoding="utf-8", newline="\n")
-    print(f"  [done] {slug} ({task})  →  {out_name} ({len(output)} chars)")
+    parts: list[str] = []
+    for i, group in enumerate(groups, 1):
+        chunk_text = "\n".join(group)
+        chunk_meta_note = f"\n\n**注意：本經分 {len(groups)} 段送譯，這是第 {i}/{len(groups)} 段。請只處理本段內容，標題列只在第 1 段需要，後續段直接從 `=== N | label ===` 開始即可。**"
+        prompt = build_prompt(task, role, slug, meta, chunk_text + chunk_meta_note, translation_text)
+        print(f"    [chunk {i}/{len(groups)}] {slug} ({task})  ({len(chunk_text)} chars)")
+        output = call_m3(prompt, dry_run=dry_run)
+        if output is None:
+            print(f"    [error] chunk {i} failed for {slug} ({task})")
+            return False
+        if dry_run:
+            continue
+        output = strip_output_wrappers(output)
+        if i > 1:
+            # Strip duplicate title header from later chunks
+            lines = output.split("\n")
+            for j, line in enumerate(lines):
+                if line.startswith(CHUNK_HEADER_RE):
+                    output = "\n".join(lines[j:])
+                    break
+        parts.append(output)
+
+    if dry_run:
+        return True
+    final = "\n\n".join(parts)
+    out_path.write_text(final + "\n", encoding="utf-8", newline="\n")
+    print(f"  [done] {slug} ({task})  →  {out_name} ({len(final)} chars, {len(groups)} chunks)")
     return True
 
 

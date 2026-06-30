@@ -5,9 +5,17 @@
 
 ## 當前狀態
 
-**1932 部 / 252.6 MB / 20 宗教 / 原文 1494 + 譯文 438**
+**2062 部 / 20 宗教 / 原文 1500+ + 譯文 500+**
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
+進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
+
+**Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
+- 翻譯（純翻譯，不解釋）→ `01-translation.md`
+- 註釋（白話解釋 + 名相 + 學術爭議）→ `02-annotation.md`
+- m3 角色：`tools/m3-translator-role.md` + `tools/m3-annotator-role.md`
+- 派工腳本：`scripts/translate.py --task translate/annotate/both`
+- 已實作 chunking（依 `=== N | ===` 章節分塊，>25k chars 自動切）
 
 ## 策略（2026-07-01）
 
