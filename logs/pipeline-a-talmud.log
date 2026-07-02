@@ -67,3 +67,110 @@
   [empty] Kiddushin: 
   [book] Bava Kamma
   [polite-pause] 30s break after 2800 requests
+  [polite-pause] 30s break after 2900 requests
+  [polite-pause] 30s break after 3000 requests
+  [empty] Bava Kamma: 
+  [book] Bava Metzia
+  [polite-pause] 30s break after 3100 requests
+  [polite-pause] 30s break after 3200 requests
+  [ok] sefaria-bava-metzia: 1 chapters, 2039 bytes
+  [book] Bava Batra
+  [polite-pause] 30s break after 3300 requests
+  [polite-pause] 30s break after 3400 requests
+  [polite-pause] 30s break after 3500 requests
+  [polite-pause] 30s break after 3600 requests
+  [rate-limit 503] sleep 10s
+  [empty] Bava Batra: 
+  [book] Sanhedrin
+  [polite-pause] 30s break after 3700 requests
+  [polite-pause] 30s break after 3800 requests
+  [empty] Sanhedrin: 
+  [book] Makkot
+  [empty] Makkot: 
+  [book] Shevuot
+  [polite-pause] 30s break after 3900 requests
+  [empty] Shevuot: 
+  [book] Avodah Zarah
+  [polite-pause] 30s break after 4000 requests
+  [polite-pause] 30s break after 4100 requests
+  [empty] Avodah Zarah: 
+  [book] Horayot
+  [ok] sefaria-horayot: 1 chapters, 3156 bytes
+  [book] Zevachim
+  [polite-pause] 30s break after 4200 requests
+  [polite-pause] 30s break after 4300 requests
+  [polite-pause] 30s break after 4400 requests
+  [empty] Zevachim: 
+  [book] Menachot
+  [polite-pause] 30s break after 4500 requests
+  [polite-pause] 30s break after 4600 requests
+  [ok] sefaria-menachot: 1 chapters, 8816 bytes
+  [book] Chullin
+  [polite-pause] 30s break after 4700 requests
+  [polite-pause] 30s break after 4800 requests
+  [polite-pause] 30s break after 4900 requests
+  [ok] sefaria-chullin: 1 chapters, 4761 bytes
+  [book] Bekhorot
+  [polite-pause] 30s break after 5000 requests
+  [ok] sefaria-bekhorot: 1 chapters, 4258 bytes
+  [book] Arakhin
+  [ok] sefaria-arakhin: 1 chapters, 2844 bytes
+  [book] Temurah
+  [polite-pause] 30s break after 5100 requests
+  [ok] sefaria-temurah: 1 chapters, 6272 bytes
+  [book] Keritot
+  [polite-pause] 30s break after 5200 requests
+  [empty] Keritot: 
+  [book] Meilah
+  [ok] sefaria-meilah: 1 chapters, 988 bytes
+  [book] Tamid
+  [polite-pause] 30s break after 5300 requests
+  [empty] Tamid: 
+  [book] Niddah
+  [polite-pause] 30s break after 5400 requests
+  [ok] sefaria-niddah: 1 chapters, 4832 bytes
+  [book] Avot DeRabbi Natan
+  [polite-pause] 30s break after 5500 requests
+  [ok] sefaria-avot-derabbi-natan: 41 chapters, 287260 bytes
+  [book] Avot DeRabbi Natan, Recension B
+  [ok] sefaria-avot-derabbi-natan-recension-b: 1 chapters, 13129 bytes
+  [book] Tractate Avadim
+  [ok] sefaria-tractate-avadim: 3 chapters, 7417 bytes
+  [book] Tractate Derekh Eretz Rabbah
+  [ok] sefaria-tractate-derekh-eretz-rabbah: 11 chapters, 46286 bytes
+  [book] Tractate Derekh Eretz Zuta
+  [ok] sefaria-tractate-derekh-eretz-zuta: 1 chapters, 4084 bytes
+  [book] Tractate Gerim
+  [ok] sefaria-tractate-gerim: 4 chapters, 10169 bytes
+  [book] Tractate Kallah
+  [ok] sefaria-tractate-kallah: 5 chapters, 18581 bytes
+  [book] Tractate Kallah Rabbati
+  [ok] sefaria-tractate-kallah-rabbati: 10 chapters, 140993 bytes
+  [book] Tractate Kutim
+  [ok] sefaria-tractate-kutim: 2 chapters, 5602 bytes
+  [book] Tractate Mezuzah
+  [ok] sefaria-tractate-mezuzah: 2 chapters, 4662 bytes
+  [book] Tractate Sefer Torah
+  [ok] sefaria-tractate-sefer-torah: 5 chapters, 14507 bytes
+  [book] Tractate Semachot
+  [ok] sefaria-tractate-semachot: 1 chapters, 3222 bytes
+  [book] Tractate Soferim
+  [ok] sefaria-tractate-soferim: 21 chapters, 106641 bytes
+  [book] Tractate Tefillin
+  [ok] sefaria-tractate-tefillin: 1 chapters, 8084 bytes
+  [book] Tractate Tzitzit
+  [ok] sefaria-tractate-tzitzit: 1 chapters, 2928 bytes
+  [book] Darkhei HaTalmud
+  [ok] sefaria-darkhei-hatalmud: 6 chapters, 88989 bytes
+  [book] Introductions to Amoraic Literature
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Amoraic%20Literature%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Amoraic%20Literature%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Amoraic%20Literature%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Amoraic%20Literature%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Amoraic%20Literature%201?context=0
+  [empty] Introductions to Amoraic Literature: 
+  [book] Introductions to Tanaitic Literature
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0

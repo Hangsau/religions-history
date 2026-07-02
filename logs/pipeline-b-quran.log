@@ -29,3 +29,24 @@ targets: 1 × tasks: ['translate', 'annotate']
     [chunk 26/99] quran (translate)  (10000 chars)
     [chunk 27/99] quran (translate)  (2258 chars)
     [chunk 28/99] quran (translate)  (10000 chars)
+    [chunk 29/99] quran (translate)  (10000 chars)
+    [chunk 30/99] quran (translate)  (4905 chars)
+    [chunk 31/99] quran (translate)  (10000 chars)
+    [chunk 32/99] quran (translate)  (7584 chars)
+    [chunk 33/99] quran (translate)  (10000 chars)
+    [chunk 34/99] quran (translate)  (8326 chars)
+    [chunk 35/99] quran (translate)  (10000 chars)
+    [chunk 36/99] quran (translate)  (7024 chars)
+    [chunk 37/99] quran (translate)  (8206 chars)
+    [chunk 38/99] quran (translate)  (8157 chars)
+    [chunk 39/99] quran (translate)  (7074 chars)
+    [chunk 40/99] quran (translate)  (10000 chars)
+    [chunk 41/99] quran (translate)  (8209 chars)
+    [chunk 42/99] quran (translate)  (10000 chars)
+    [chunk 43/99] quran (translate)  (5417 chars)
+  [error] m3 timeout after 600s
+    [error] chunk 43 failed for quran (translate)
+  [error] quran (annotate): 01-translation.md not yet exists; run --task translate first
+
+done: 0/2
+=== quran DONE ===
