@@ -38,6 +38,8 @@ ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
 ROLE_TRANSLATOR = ROOT / "tools" / "m3-translator-role.md"
 ROLE_ANNOTATOR = ROOT / "tools" / "m3-annotator-role.md"
+ROLE_TAGGER = ROOT / "tools" / "m3-tagger-role.md"
+CONCEPTS_PATH = ROOT / "00-overview" / "concepts.md"
 MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
 
 TASK_TO_OUTFILE = {
@@ -47,27 +49,31 @@ TASK_TO_OUTFILE = {
 TASK_TO_ROLE = {
     "translate": ROLE_TRANSLATOR,
     "annotate": ROLE_ANNOTATOR,
+    "tag": ROLE_TAGGER,
 }
 
-# Priority list — translate these first (small, iconic, high analytical value)
-CORE_SLUGS = [
-    "heart-sutra-kumarajiva",
-    "heart-sutra-xuanzang",
-    "tao-te-ching",
-    "dhammapada",
-    "bhagavad-gita",
-    "genesis",
-    "sblgnt-matthew",
-    "quran",
-    "isha-upanishad",
-    "katha-upanishad",
-    "analects",
-    "great-learning",
-    "doctrine-of-the-mean",
-    "zhuangzi",
-    "lotus-sutra",
-    "diamond-sutra-kumarajiva",
-]
+
+def load_tag_whitelist() -> set[str]:
+    """Parse the controlled-vocabulary tags (backtick code-spans) from concepts.md."""
+    if not CONCEPTS_PATH.exists():
+        return set()
+    import re as _re
+    text = CONCEPTS_PATH.read_text(encoding="utf-8")
+    # tags look like `ultimate-reality` — lowercase words joined by hyphens
+    return set(_re.findall(r"`([a-z][a-z0-9-]+)`", text))
+
+
+def load_slugs_by_tier(tier: str) -> list[str]:
+    """Return slugs whose meta.json tier == given value, sorted."""
+    out = []
+    for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
+        try:
+            meta = json.loads(meta_p.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if meta.get("tier") == tier:
+            out.append(meta_p.parent.name)
+    return out
 
 MAX_CHARS_PER_CALL = 8000  # m3 input safety; longer → chunk by chapter (larger sizes risk m3 timeouts)
 CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
@@ -88,9 +94,10 @@ def load_scripture(slug: str) -> tuple[str, dict] | None:
 
 
 def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str, translation_text: str | None = None) -> str:
+    source_language = meta.get("source_language") or meta.get("language", "?")
     meta_block = f"""- **slug**: {slug}
 - **name_zh**: {meta.get('name_zh', '?')}
-- **source_language**: {meta.get('source_language', '?')}
+- **source_language**: {source_language}
 - **version**: {meta.get('version', '?')}
 - **religion**: {meta.get('religion', '?')}
 - **tradition**: {meta.get('tradition', '?')}"""
@@ -337,31 +344,175 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     return True
 
 
+def build_tag_prompt(role: str, slug: str, meta: dict, text: str, whitelist: set[str], chunk_note: str = "") -> str:
+    source_language = meta.get("source_language") or meta.get("language", "?")
+    vocab = " ".join(sorted(whitelist))
+    return f"""{role}
+
+---
+
+## 本次任務
+
+- **slug**: {slug}
+- **name_zh**: {meta.get('name_zh', '?')}
+- **religion**: {meta.get('religion', '?')}
+- **source_language**: {source_language}
+
+## semantic_tags 受控詞彙白名單（只能從這裡選，表外詞一律放 keywords）
+
+{vocab}
+
+{chunk_note}
+
+---
+
+## 待標記文本
+
+{text}
+
+---
+
+## **輸出規定（必讀）**
+
+你只是 JSON 產生器。**唯一動作**：在 stdout 直接輸出一個 JSON 物件，格式：
+
+{{"semantic_tags": ["tag-a", "tag-b"], "keywords": ["關鍵詞1", "神名", "地名", "主題詞"]}}
+
+- `semantic_tags`：**只能**填上方白名單內的英文 tag，挑真正切題的 3–8 個，表外詞禁止放這。
+- `keywords`：5–15 個自由詞（神名 / 地名 / 關鍵術語 / 核心主題），繁中或原文皆可，供搜尋用。
+- 不要 markdown fence、不要前言、不要解釋。第一個字元是 `{{`，最後一個是 `}}`。
+"""
+
+
+def parse_tag_json(output: str) -> dict | None:
+    """Extract first {...} JSON object from M3 output."""
+    output = output.strip()
+    start = output.find("{")
+    end = output.rfind("}")
+    if start < 0 or end <= start:
+        return None
+    try:
+        obj = json.loads(output[start:end + 1])
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(obj, dict):
+        return None
+    return obj
+
+
+def merge_meta_tags(slug: str, semantic_tags: list[str], keywords: list[str]) -> None:
+    """Merge tags into meta.json, preserving all existing fields + verify.py's format."""
+    meta_p = TRANSLATIONS_DIR / slug / "meta.json"
+    meta = json.loads(meta_p.read_text(encoding="utf-8"))
+    meta["semantic_tags"] = semantic_tags
+    meta["keywords"] = keywords
+    meta["tag_status"] = "done"
+    meta_p.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
+                      encoding="utf-8", newline="\n")
+
+
+def tag_one(slug: str, role: str, whitelist: set[str], skip_done: bool = False, dry_run: bool = False) -> bool:
+    slug_dir = TRANSLATIONS_DIR / slug
+    meta_p = slug_dir / "meta.json"
+    if not meta_p.exists():
+        print(f"  [skip] {slug} (tag): no meta.json")
+        return False
+    meta = json.loads(meta_p.read_text(encoding="utf-8"))
+    if skip_done and meta.get("tag_status") == "done" and meta.get("semantic_tags"):
+        print(f"  [skip-done] {slug} (tag)")
+        return True
+
+    # Prefer the Chinese translation (compact) as tagging source; fall back to original
+    tr_path = slug_dir / "01-translation.md"
+    orig_path = slug_dir / "raw" / "original.txt"
+    if tr_path.exists() and tr_path.stat().st_size > 100:
+        text = tr_path.read_text(encoding="utf-8")
+    elif orig_path.exists():
+        text = orig_path.read_text(encoding="utf-8")
+    else:
+        print(f"  [skip] {slug} (tag): no translation or original")
+        return False
+
+    sem: set[str] = set()
+    kw: list[str] = []
+
+    def ingest(obj: dict) -> None:
+        for t in obj.get("semantic_tags", []) or []:
+            if isinstance(t, str) and t in whitelist:
+                sem.add(t)
+        for k in obj.get("keywords", []) or []:
+            if isinstance(k, str) and k.strip() and k not in kw:
+                kw.append(k.strip())
+
+    # Chunk if large; union tags across chunks
+    if len(text) <= MAX_CHARS_PER_CALL:
+        prompt = build_tag_prompt(role, slug, meta, text, whitelist)
+        print(f"  [start] {slug} (tag)  (prompt {len(prompt)} chars)")
+        output = call_m3(prompt, dry_run=dry_run)
+        if output is None or dry_run:
+            return dry_run
+        obj = parse_tag_json(output)
+        if obj is None:
+            print(f"  [error] {slug} (tag): unparseable JSON")
+            return False
+        ingest(obj)
+    else:
+        chapters = split_chapters(text)
+        groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)
+        print(f"  [chunk] {slug} (tag): {len(chapters)} chapters → {len(groups)} chunks")
+        got_any = False
+        for i, group in enumerate(groups, 1):
+            chunk_text = "\n".join(group)
+            note = f"**本經分 {len(groups)} 段，這是第 {i}/{len(groups)} 段，只針對本段抽標籤。**"
+            prompt = build_tag_prompt(role, slug, meta, chunk_text, whitelist, note)
+            print(f"    [chunk {i}/{len(groups)}] {slug} (tag)")
+            output = call_m3(prompt, dry_run=dry_run)
+            if output is None:
+                continue
+            obj = parse_tag_json(output)
+            if obj:
+                ingest(obj)
+                got_any = True
+        if not got_any and not dry_run:
+            print(f"  [error] {slug} (tag): all chunks failed")
+            return False
+
+    if dry_run:
+        return True
+    semantic_tags = sorted(sem)
+    keywords = kw[:15]
+    merge_meta_tags(slug, semantic_tags, keywords)
+    print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} tags, {len(keywords)} keywords")
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", help="single slug to process")
-    ap.add_argument("--core", action="store_true", help=f"process {len(CORE_SLUGS)} priority slugs")
+    ap.add_argument("--core", action="store_true", help="process all tier=核心 slugs (from meta.json)")
+    ap.add_argument("--tier", help="process all slugs of a given tier (核心/次要/總集)")
     ap.add_argument("--all", action="store_true", help="process all scriptures")
-    ap.add_argument("--task", choices=["translate", "annotate", "both"], default="translate",
-                    help="translate=只翻譯; annotate=只註釋; both=兩個都跑（先翻後註）")
-    ap.add_argument("--skip-done", action="store_true", help="skip slugs that already have the output file")
+    ap.add_argument("--task", choices=["translate", "annotate", "tag", "both"], default="translate",
+                    help="translate=只翻譯; annotate=只註釋; tag=抽標籤; both=先翻後註")
+    ap.add_argument("--skip-done", action="store_true", help="skip slugs already done")
     ap.add_argument("--dry-run", action="store_true", help="print prompt but don't call m3")
     args = ap.parse_args()
 
     if args.slug:
         targets = [args.slug]
     elif args.core:
-        targets = CORE_SLUGS
+        targets = load_slugs_by_tier("核心")
+    elif args.tier:
+        targets = load_slugs_by_tier(args.tier)
     elif args.all:
-        targets = []
-        for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
-            targets.append(meta_p.parent.name)
+        targets = [p.parent.name for p in sorted(TRANSLATIONS_DIR.glob("*/meta.json"))]
     else:
-        sys.exit("specify --slug / --core / --all")
+        sys.exit("specify --slug / --core / --tier / --all")
 
     tasks = ["translate", "annotate"] if args.task == "both" else [args.task]
     print(f"targets: {len(targets)} × tasks: {tasks}")
 
+    whitelist = load_tag_whitelist() if "tag" in tasks else set()
     total_ok = 0
     total = len(targets) * len(tasks)
     for task in tasks:
@@ -369,7 +520,11 @@ def main():
             sys.exit(f"missing role spec: {TASK_TO_ROLE[task]}")
         role = load_role(task)
         for slug in targets:
-            if translate_one(slug, task, role, args.skip_done, args.dry_run):
+            if task == "tag":
+                ok = tag_one(slug, role, whitelist, args.skip_done, args.dry_run)
+            else:
+                ok = translate_one(slug, task, role, args.skip_done, args.dry_run)
+            if ok:
                 total_ok += 1
     print(f"\ndone: {total_ok}/{total}")
 

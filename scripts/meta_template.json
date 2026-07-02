@@ -43,6 +43,10 @@
     "license": {"type": "string", "description": "e.g. CC BY-SA 4.0, public domain, academic-use-only"},
     "verified": {"type": "boolean", "description": "true after verify.py PASS"},
     "tier": {"type": "string", "enum": ["核心", "次要", "總集"], "description": "Per per-religion-scriptures.md"},
+    "semantic_tags": {"type": "array", "items": {"type": "string"}, "description": "Pipeline C: controlled-vocabulary tags from 00-overview/concepts.md (closed set). Whitelist-filtered."},
+    "keywords": {"type": "array", "items": {"type": "string"}, "description": "Pipeline C: free-form salient search terms (proper nouns, key concepts, themes). Open set."},
+    "translation_status": {"type": "string", "enum": ["none", "done", "needs-review"], "description": "Pipeline B: 01-translation.md state. none=未譯, done=已譯, needs-review=品質待人工複核"},
+    "tag_status": {"type": "string", "enum": ["none", "done"], "description": "Pipeline C: semantic_tags/keywords 是否已填"},
     "notes": {"type": ["string", "null"]}
   }
 }
