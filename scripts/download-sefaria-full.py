@@ -58,6 +58,9 @@ def api_get(path: str, params: dict | None = None) -> dict | list:
                 time.sleep(backoff)
                 backoff *= 2
                 continue
+            if r.status_code == 400:
+                # 400 = bad request (usually book name / chapter doesn't exist), skip immediately
+                raise RuntimeError(f"400 for {url} — book may not have expected structure")
             r.raise_for_status()
             return r.json()
         except requests.RequestException as e:

@@ -1,0 +1,20 @@
+=== Sefaria Midrash ===
+[fetch] /api/index
+[books] 129 discovered
+  [book] Footnotes on Mekhilta DeRabbi Shimon Ben Yochai
+  [empty] Footnotes on Mekhilta DeRabbi Shimon Ben Yochai: 
+  [book] Mekhilta DeRabbi Shimon Ben Yochai
+  [empty] Mekhilta DeRabbi Shimon Ben Yochai: 
+  [book] Mekhilta DeRabbi Yishmael
+  [req-error attempt 1/5] sleep 10s: 500 Server Error: Internal Server Error for url: https://www.sefaria.org/api/texts/Mekhilta%20DeRabbi%20Yishmael%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Mekhilta%20DeRabbi%20Yishmael%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Mekhilta%20DeRabbi%20Yishmael%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Mekhilta%20DeRabbi%20Yishmael%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Mekhilta%20DeRabbi%20Yishmael%201?context=0
+  [empty] Mekhilta DeRabbi Yishmael: 
+  [book] Sifra
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0

@@ -174,3 +174,87 @@
   [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
   [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
   [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20Tanaitic%20Literature%201?context=0
+  [empty] Introductions to Tanaitic Literature: 
+  [book] Introductions to the Babylonian Talmud
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20the%20Babylonian%20Talmud%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20the%20Babylonian%20Talmud%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20the%20Babylonian%20Talmud%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20the%20Babylonian%20Talmud%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Introductions%20to%20the%20Babylonian%20Talmud%201?context=0
+  [empty] Introductions to the Babylonian Talmud: 
+  [book] Mevo HaTalmud (Chajes)
+  [ok] sefaria-mevo-hatalmud-chajes: 1 chapters, 17326 bytes
+  [book] Rashi on Berakhot
+  [polite-pause] 30s break after 5600 requests
+  [polite-pause] 30s break after 5700 requests
+  [ok] sefaria-rashi-on-berakhot: 1 chapters, 333 bytes
+  [book] Rashi on Shabbat
+  [polite-pause] 30s break after 5800 requests
+  [polite-pause] 30s break after 5900 requests
+  [polite-pause] 30s break after 6000 requests
+  [empty] Rashi on Shabbat: 
+  [book] Rashi on Eruvin
+  [polite-pause] 30s break after 6100 requests
+  [polite-pause] 30s break after 6200 requests
+  [ok] sefaria-rashi-on-eruvin: 1 chapters, 915 bytes
+  [book] Rashi on Pesachim
+  [polite-pause] 30s break after 6300 requests
+  [polite-pause] 30s break after 6400 requests
+  [empty] Rashi on Pesachim: 
+  [book] Rashi on Rosh Hashanah
+  [polite-pause] 30s break after 6500 requests
+  [ok] sefaria-rashi-on-rosh-hashanah: 1 chapters, 162 bytes
+  [book] Rashi on Yoma
+  [polite-pause] 30s break after 6600 requests
+  [polite-pause] 30s break after 6700 requests
+  [ok] sefaria-rashi-on-yoma: 1 chapters, 278 bytes
+  [book] Rashi on Sukkah
+  [polite-pause] 30s break after 6800 requests
+  [empty] Rashi on Sukkah: 
+  [book] Rashi on Beitzah
+  [polite-pause] 30s break after 6900 requests
+  [empty] Rashi on Beitzah: 
+  [book] Rashi on Taanit
+  [ok] sefaria-rashi-on-taanit: 1 chapters, 297 bytes
+  [book] Rashi on Megillah
+  [polite-pause] 30s break after 7000 requests
+  [ok] sefaria-rashi-on-megillah: 1 chapters, 134 bytes
+  [book] Rashi on Moed Katan
+  [ok] sefaria-rashi-on-moed-katan: 1 chapters, 184 bytes
+  [book] Rashi on Chagigah
+  [polite-pause] 30s break after 7100 requests
+  [ok] sefaria-rashi-on-chagigah: 1 chapters, 79 bytes
+  [book] Rashi on Yevamot
+  [polite-pause] 30s break after 7200 requests
+  [polite-pause] 30s break after 7300 requests
+  [empty] Rashi on Yevamot: 
+  [book] Rashi on Ketubot
+  [polite-pause] 30s break after 7400 requests
+  [polite-pause] 30s break after 7500 requests
+  [polite-pause] 30s break after 7600 requests
+  [empty] Rashi on Ketubot: 
+  [book] Rashi on Nedarim
+  [polite-pause] 30s break after 7700 requests
+  [polite-pause] 30s break after 7800 requests
+  [empty] Rashi on Nedarim: 
+  [book] Rashi on Nazir
+  [polite-pause] 30s break after 7900 requests
+  [empty] Rashi on Nazir: 
+  [book] Rashi on Sotah
+  [polite-pause] 30s break after 8000 requests
+  [empty] Rashi on Sotah: 
+  [book] Rashi on Gittin
+  [polite-pause] 30s break after 8100 requests
+  [polite-pause] 30s break after 8200 requests
+  [empty] Rashi on Gittin: 
+  [book] Rashi on Kiddushin
+  [polite-pause] 30s break after 8300 requests
+  [empty] Rashi on Kiddushin: 
+  [book] Rashi on Bava Kamma
+  [polite-pause] 30s break after 8400 requests
+  [polite-pause] 30s break after 8500 requests
+  [polite-pause] 30s break after 8600 requests
+  [empty] Rashi on Bava Kamma: 
+  [book] Rashi on Bava Metzia
+  [polite-pause] 30s break after 8700 requests

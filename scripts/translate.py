@@ -69,7 +69,7 @@ CORE_SLUGS = [
     "diamond-sutra-kumarajiva",
 ]
 
-MAX_CHARS_PER_CALL = 15000  # m3 input safety; longer → chunk by chapter (larger sizes risk m3 timeouts)
+MAX_CHARS_PER_CALL = 8000  # m3 input safety; longer → chunk by chapter (larger sizes risk m3 timeouts)
 CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
 
 
@@ -314,8 +314,9 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         print(f"    [chunk {i}/{len(groups)}] {slug} ({task})  ({len(chunk_text)} chars)")
         output = call_m3(prompt, dry_run=dry_run)
         if output is None:
-            print(f"    [error] chunk {i} failed for {slug} ({task})")
-            return False
+            print(f"    [warn] chunk {i} failed for {slug} ({task}); marking placeholder + continuing")
+            parts.append(f"\n<!-- CHUNK {i}/{len(groups)} FAILED — retry needed -->\n")
+            continue
         if dry_run:
             continue
         output = strip_output_wrappers(output)
