@@ -42,3 +42,11 @@
   [book] Yevamot
   [polite-pause] 30s break after 1600 requests
   [polite-pause] 30s break after 1700 requests
+  [polite-pause] 30s break after 1800 requests
+  [empty] Yevamot: 
+  [book] Ketubot
+  [polite-pause] 30s break after 1900 requests
+  [polite-pause] 30s break after 2000 requests
+  [empty] Ketubot: 
+  [book] Nedarim
+  [polite-pause] 30s break after 2100 requests

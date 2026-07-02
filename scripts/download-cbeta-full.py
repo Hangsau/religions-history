@@ -185,6 +185,10 @@ def main():
 
     if args.volume:
         volumes = [args.volume]
+        # Auto-detect canon from volume prefix (X01 → canon X, T18 → canon T)
+        m = re.match(r"([A-Z]+)\d+", args.volume)
+        if m:
+            args.canon = m.group(1)
     else:
         volumes = list_canon_volumes(args.canon)
         if args.from_volume:
