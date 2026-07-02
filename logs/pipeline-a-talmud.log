@@ -1,0 +1,44 @@
+[fetch] /api/index
+[books] 1727 discovered
+  [book] Berakhot
+  [polite-pause] 30s break after 100 requests
+  [ok] sefaria-berakhot: 1 chapters, 5418 bytes
+  [book] Shabbat
+  [polite-pause] 30s break after 200 requests
+  [polite-pause] 30s break after 300 requests
+  [polite-pause] 30s break after 400 requests
+  [empty] Shabbat: 
+  [book] Eruvin
+  [polite-pause] 30s break after 500 requests
+  [polite-pause] 30s break after 600 requests
+  [ok] sefaria-eruvin: 1 chapters, 4123 bytes
+  [book] Pesachim
+  [polite-pause] 30s break after 700 requests
+  [polite-pause] 30s break after 800 requests
+  [empty] Pesachim: 
+  [book] Rosh Hashanah
+  [polite-pause] 30s break after 900 requests
+  [ok] sefaria-rosh-hashanah: 1 chapters, 4294 bytes
+  [book] Yoma
+  [polite-pause] 30s break after 1000 requests
+  [polite-pause] 30s break after 1100 requests
+  [ok] sefaria-yoma: 1 chapters, 3978 bytes
+  [book] Sukkah
+  [polite-pause] 30s break after 1200 requests
+  [empty] Sukkah: 
+  [book] Beitzah
+  [polite-pause] 30s break after 1300 requests
+  [empty] Beitzah: 
+  [book] Taanit
+  [ok] sefaria-taanit: 1 chapters, 3988 bytes
+  [book] Megillah
+  [polite-pause] 30s break after 1400 requests
+  [ok] sefaria-megillah: 1 chapters, 5863 bytes
+  [book] Moed Katan
+  [polite-pause] 30s break after 1500 requests
+  [ok] sefaria-moed-katan: 1 chapters, 2108 bytes
+  [book] Chagigah
+  [ok] sefaria-chagigah: 1 chapters, 3412 bytes
+  [book] Yevamot
+  [polite-pause] 30s break after 1600 requests
+  [polite-pause] 30s break after 1700 requests
