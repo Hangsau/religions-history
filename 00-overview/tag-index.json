@@ -13,7 +13,40 @@
       "religion": "道教"
     }
   ],
+  "chanting": [
+    {
+      "slug": "heart-sutra-kumarajiva",
+      "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    }
+  ],
+  "chaos-to-order": [
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
+      "religion": "道教"
+    }
+  ],
+  "commandments-law": [
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "compassion": [
+    {
+      "slug": "heart-sutra-kumarajiva",
+      "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    }
+  ],
   "congregational": [
+    {
+      "slug": "sblgnt-3-john",
+      "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
@@ -25,6 +58,11 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    },
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
+      "religion": "道教"
     }
   ],
   "economic-justice": [
@@ -32,6 +70,32 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "emptiness": [
+    {
+      "slug": "heart-sutra-kumarajiva",
+      "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    }
+  ],
+  "essentially-good": [
+    {
+      "slug": "sblgnt-3-john",
+      "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "extinction-of-self": [
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
     }
   ],
   "forgiveness": [
@@ -57,15 +121,44 @@
   ],
   "humility": [
     {
+      "slug": "sblgnt-3-john",
+      "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "lay-practitioner": [
+    {
+      "slug": "sblgnt-3-john",
+      "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "liberation-by-knowledge": [
+    {
+      "slug": "heart-sutra-kumarajiva",
+      "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
     }
   ],
   "meditation": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
       "religion": "道教"
     }
   ],
@@ -76,10 +169,46 @@
       "religion": "猶太教"
     }
   ],
+  "monotheist-exclusive": [
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "multiple-souls": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    }
+  ],
+  "mystical-union": [
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
+      "religion": "道教"
+    }
+  ],
+  "non-dual": [
+    {
+      "slug": "heart-sutra-kumarajiva",
+      "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
       "religion": "道教"
     }
   ],
@@ -95,6 +224,11 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "prophetic-revelation": [
@@ -108,6 +242,23 @@
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    }
+  ],
+  "self-effort": [
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
       "religion": "道教"
     }
   ],
@@ -130,6 +281,30 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "truthfulness": [
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-3-john",
+      "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "ultimate-reality": [
+    {
+      "slug": "qingjing-jing",
+      "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "yinfu-jing",
+      "name_zh": "黃帝陰符經",
+      "religion": "道教"
     }
   ],
   "vision-experience": [
