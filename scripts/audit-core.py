@@ -30,9 +30,25 @@ ALL_RELIGIONS = [
 ]
 
 
+# Name/title markers that hint a text may be a phonetic transliteration (音譯),
+# not a meaning-bearing translatable text. Flagged for manual text_role review so the
+# pipeline doesn't vernacular-translate a dhāraṇī. Detection is advisory, never auto-classifies.
+_TRANSLIT_HINTS = ("咒", "陀羅尼", "真言", "神咒", "dharani", "dhāraṇī",
+                   "mantra", "曼怛羅", "明咒")
+
+
+def _suspect_transliteration(meta: dict) -> bool:
+    if meta.get("text_role"):  # already classified → not a pending suspect
+        return False
+    hay = " ".join(str(meta.get(k, "")) for k in ("name_zh", "name_en", "name_original", "slug")).lower()
+    return any(h.lower() in hay for h in _TRANSLIT_HINTS)
+
+
 def main():
     by_religion: dict[str, list[dict]] = defaultdict(list)
     religions_in_corpus: set[str] = set()
+    translit_suspects: list[dict] = []
+    role_counts: dict[str, int] = defaultdict(int)
     for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
         try:
             meta = json.loads(meta_p.read_text(encoding="utf-8"))
@@ -43,6 +59,10 @@ def main():
         if meta.get("tier") != "核心":
             continue
         slug = meta_p.parent.name
+        role_counts[meta.get("text_role") or "(未標)"] += 1
+        if _suspect_transliteration(meta):
+            translit_suspects.append({"slug": slug, "name_zh": meta.get("name_zh", ""),
+                                      "religion": rel})
         tr_done = (TRANSLATIONS_DIR / slug / "01-translation.md").exists()
         tag_done = bool(meta.get("tag_status") == "done" and meta.get("semantic_tags"))
         by_religion[rel].append({
@@ -99,6 +119,32 @@ def main():
     ]
     lines += ([f"- **{r}**" for r in sorted(no_core_but_present)] or ["- （無）"])
 
+    # text_role coverage + transliteration safety net
+    lines += [
+        "",
+        "## text_role 分類覆蓋",
+        "",
+        "> `original`/`translation`/`transliteration`/`contested`；`(未標)` = 尚未判定，"
+        "翻譯管線按 `language` 走安全預設（原文原樣保留 / 外語直譯），不臆測。",
+        "",
+        "| text_role | 核心部數 |",
+        "|-----------|---------|",
+    ]
+    for role in ("original", "translation", "transliteration", "contested", "(未標)"):
+        if role_counts.get(role):
+            lines.append(f"| {role} | {role_counts[role]} |")
+
+    lines += [
+        "",
+        "### 疑似音譯 / 咒語，待人工確認 text_role",
+        "",
+        "> 標題含 咒 / 陀羅尼 / 真言 / mantra 等且尚未標 text_role。"
+        "音譯文本禁意譯，需人工確認後標 `text_role: transliteration`，翻譯管線才會原樣保留。",
+        "",
+    ]
+    lines += ([f"- `{e['slug']}` {e['name_zh']}（{e['religion']}）" for e in translit_suspects]
+              or ["- （無）"])
+
     lines += ["", "## 各宗教核心明細", ""]
     for rel in sorted(by_religion, key=lambda r: -len(by_religion[r])):
         lines.append(f"### {rel}（{len(by_religion[rel])} 部）")
@@ -117,6 +163,9 @@ def main():
         print(f"  語料庫缺口: {', '.join(absent)}")
     if no_core_but_present:
         print(f"  有經文但無核心標記: {', '.join(sorted(no_core_but_present))}")
+    if translit_suspects:
+        print(f"  疑似音譯待確認 text_role: {len(translit_suspects)} 部 "
+              f"({', '.join(e['slug'] for e in translit_suspects[:8])})")
 
 
 if __name__ == "__main__":

@@ -4,13 +4,13 @@
 
 - 核心總數：**365** 部
 - 已翻譯：**26** / 365
-- 已標籤：**2** / 365
+- 已標籤：**3** / 365
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 3 | 0 |
+| 基督教 | 159 | 3 | 1 |
 | 猶太教 | 45 | 5 | 1 |
 | 佛教-巴利 | 31 | 0 | 0 |
 | 佛教 | 30 | 5 | 0 |
@@ -47,6 +47,21 @@
 - **印加**
 
 ### B. 有經文但無核心標記（只需補標 tier，不需下載）
+
+- （無）
+
+## text_role 分類覆蓋
+
+> `original`/`translation`/`transliteration`/`contested`；`(未標)` = 尚未判定，翻譯管線按 `language` 走安全預設（原文原樣保留 / 外語直譯），不臆測。
+
+| text_role | 核心部數 |
+|-----------|---------|
+| contested | 2 |
+| (未標) | 363 |
+
+### 疑似音譯 / 咒語，待人工確認 text_role
+
+> 標題含 咒 / 陀羅尼 / 真言 / mantra 等且尚未標 text_role。音譯文本禁意譯，需人工確認後標 `text_role: transliteration`，翻譯管線才會原樣保留。
 
 - （無）
 
@@ -142,7 +157,7 @@
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯✓ 標–
-- `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標–
+- `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-revelation` 啟示錄（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-romans` 羅馬書（希臘原文）（Koine Greek）譯– 標–

@@ -40,9 +40,20 @@
 
 ### 3. 區分原文 vs 譯文
 
-`meta.json` 必填 `is_original_language: bool`：
+`meta.json` 兩層分類：
+
+**粗分 `is_original_language: bool`**（歷史欄位，288/365 核心尚未回填）：
 - **true**：原文（巴利、Sanskrit、Greek、Hebrew、Arabic、古典漢語、藏文、阿維斯塔語、Pahlavi 等）
 - **false**：譯文（CBETA 漢譯佛經、和合本、Mahabharata Ganguli 英譯、Iliad Butler 英譯等）
+
+**細分 `text_role`（2026-07-03 新增，enum，優先於粗分）**：
+- `original`：成書原典文本。
+- `translation`：從他語譯來（和合本＝`古典中文`、Vulgate＝`Latin`、19c 英譯等）。P4 只從 `original` 翻，此類僅作對照，不重譯。
+- `transliteration`：音譯（大悲咒 / 陀羅尼類，漢字記梵音非表意）。**P4 禁意譯**，`translate.py` 短路原樣保留 + 附註，不呼叫 M3；梵文還原與釋義歸 `02-annotation.md`。
+- `contested`：成書語言有學術爭議（如心經，Nattier 1992 疑梵本為漢譯回譯）。以 `composition_note` 說明，依主流傳統處理（心經＝漢傳主文本，古典漢語原樣保留）。
+- **未標（null）＝安全預設**：不臆測。翻譯管線按 `language` 走（`古典漢語`/`古典中文` 原樣保留；外語直譯）；`load_slugs_by_tier` 排序把未知語言當 original-priority（原樣保留無損）。**不確定的一律不自動標**，交 `audit-core.py` 的「疑似音譯 / 待人工確認」清單人工判。
+
+**判斷語言的關鍵訊號**：`古典中文`＝和合本中譯（translation）；`古典漢語`＝佛/道/儒漢傳原典（original）。兩者都是中文但角色相反，勿混。
 
 **P4 翻譯只能從原文翻**，譯文只作 cross-check。違規會被推回。
 
@@ -112,23 +123,33 @@
 
 ## 後續階段（P4-P7）規則
 
-### P4 AI 翻譯
+### P4 AI 翻譯（經文式）
 
-按 [`methodology/translation-workflow.md`](./methodology/translation-workflow.md) SOP：
+按 [`methodology/translation-workflow.md`](./methodology/translation-workflow.md) SOP，**權威翻譯規則見 [`tools/m3-translator-role.md`](./tools/m3-translator-role.md)**：
 1. 讀 `raw/original.txt`（必是原文，不能是譯文）
-2. AI 翻成繁中白話
+2. 經文式翻譯：**古典漢語原樣保留**（禁白話化）、外語直譯保留名相原文、詩體保詩體、歧義標 `[歧義: A / B]`、`=== N | label ===` 原樣保留
 3. 寫到 `translations/<slug>/01-translation.md`
-4. 對照既有譯本（CBETA 漢譯 / 和合本 / Mahabharata Ganguli / Iliad Butler 等）標差異
-5. 標歧義處（`[歧義]`）
+4. 白話解釋 / 交叉比對 / 文化背景另歸 `02-annotation.md`（可延後做）
 
 m3 適合大量跑翻譯。
 
-### P5 標籤索引
+### P5 語義標籤 + 索引（已實作）
 
 - Layer 1 結構標籤（已有）：religion / tradition / language / era / genre
-- Layer 2 語義標籤（待加）：跨宗教概念表（救贖 / 創世 / 戒律 / 末世 / 神聖體驗 等 14 大概念）
-- LLM 抽 semantic_tags 填回 meta.json
-- 反向索引：`00-overview/tag-index.json`
+- Layer 2 語義標籤（**已實作**）：翻譯後即抽，權威規則見 [`tools/m3-tagger-role.md`](./tools/m3-tagger-role.md)
+  - `semantic_tags`：受控詞彙，只填 [`00-overview/concepts.md`](./00-overview/concepts.md) 14 大類白名單（orchestrator 過濾違規 tag）
+  - `keywords`：自由詞 5–15 個（神名 / 地名 / 術語 / 主題）
+  - 兩者回填 `meta.json`（不動 `raw/original.txt`，不破 SHA-256）
+- 反向索引：`scripts/build-tag-index.py` → `00-overview/{tag-index.json, keyword-index.json}`
+
+### 自動化：tier 佇列協調器
+
+`scripts/auto-pipeline.py` 串 P4→P5，tier 佇列驅動（核心先跑），可續跑（`--skip-done`）、容錯（`logs/pipeline-failed.json`）、只 add 本次路徑不與 Pipeline A 收集互踩。狀態見 `00-overview/PIPELINE_STATUS.md`（自動生）。核心稽核見 `scripts/audit-core.py` → `00-overview/core-manifest.md`。
+
+```bash
+PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心          # 全量核心
+PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心 --limit 3 --no-push  # 小批驗證
+```
 
 ### P6 宗教心理學
 

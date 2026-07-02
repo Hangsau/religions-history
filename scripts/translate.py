@@ -63,17 +63,50 @@ def load_tag_whitelist() -> set[str]:
     return set(_re.findall(r"`([a-z][a-z0-9-]+)`", text))
 
 
+# Language buckets for the fallback heuristic when is_original_language / text_role are unset.
+# 288/365 core metas lack is_original_language, so ordering must degrade gracefully.
+# NOTE: 古典中文 = 和合本 中譯本 (translation); 古典漢語 = 佛/道/儒 漢傳原典 (original). Real split in corpus.
+_TRANSLATION_LANG_HINTS = ("古典中文", "Latin")  # 和合本 + Vulgate — both are translations
+
+
+def _is_original_text(meta: dict) -> bool:
+    """Best-effort original-vs-translation decision, degrading gracefully.
+
+    Priority: text_role (explicit) → is_original_language (explicit) → language heuristic.
+    Unknown languages default to original (safe: verbatim-preserve, no lossy re-translation).
+    """
+    role = meta.get("text_role")
+    if role == "translation":
+        return False
+    if role in ("original", "transliteration", "contested"):
+        return True
+    if isinstance(meta.get("is_original_language"), bool):
+        return meta["is_original_language"]
+    lang = (meta.get("source_language") or meta.get("language") or "")
+    if lang.startswith("English") or lang in _TRANSLATION_LANG_HINTS:
+        return False
+    return True  # 古典漢語 / 希伯來 / Greek / Sanskrit / Pali / 未知 → original-priority (verbatim-safe)
+
+
 def load_slugs_by_tier(tier: str) -> list[str]:
-    """Return slugs whose meta.json tier == given value, sorted."""
-    out = []
+    """Return slugs whose meta.json tier == given value, ordered original-first then short-first.
+
+    Transliteration short-circuits cheaply (verbatim), so we don't special-case its order.
+    """
+    rows = []  # (not_original, size_bytes, slug)
     for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
         try:
             meta = json.loads(meta_p.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
             continue
-        if meta.get("tier") == tier:
-            out.append(meta_p.parent.name)
-    return out
+        if meta.get("tier") != tier:
+            continue
+        slug = meta_p.parent.name
+        orig = meta_p.parent / "raw" / "original.txt"
+        size = orig.stat().st_size if orig.exists() else 0
+        rows.append((0 if _is_original_text(meta) else 1, size, slug))
+    rows.sort(key=lambda r: (r[0], r[1], r[2]))
+    return [slug for _, _, slug in rows]
 
 MAX_CHARS_PER_CALL = 8000  # m3 input safety; longer → chunk by chapter (larger sizes risk m3 timeouts)
 CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
@@ -276,6 +309,21 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     if not loaded:
         return False
     original_text, meta = loaded
+
+    # Transliteration short-circuit (e.g. 大悲咒/陀羅尼): 漢字記梵音非表意，禁止意譯。
+    # 原樣保留 + 附成書說明；梵文還原/釋義留給 02-annotation.md。不呼叫 M3、不計 quota。
+    if task == "translate" and meta.get("text_role") == "transliteration":
+        note = meta.get("composition_note") or "音譯文本：漢字記錄原語（多為梵文）讀音，非表意翻譯；此處原樣保留，梵文還原與釋義見 02-annotation.md。"
+        body = (f"# {meta.get('name_zh', slug)} — 原文（音譯保留）\n\n"
+                f"> **text_role: transliteration** — {note}\n\n"
+                f"> 本檔依守則「音譯不意譯」原樣保留原文；不做白話翻譯。\n\n"
+                f"---\n\n{original_text}")
+        if dry_run:
+            print(f"  [dry-run transliteration] {slug}: would write verbatim ({len(body)} chars)")
+            return True
+        out_path.write_text(body + "\n", encoding="utf-8", newline="\n")
+        print(f"  [transliteration] {slug}: verbatim preserved → {out_name} ({len(body)} chars, no M3 call)")
+        return True
 
     translation_text = None
     if task == "annotate":

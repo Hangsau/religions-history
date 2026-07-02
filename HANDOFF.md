@@ -17,6 +17,24 @@
 - 派工腳本：`scripts/translate.py --task translate/annotate/both`
 - 已實作 chunking（依 `=== N | ===` 章節分塊，>25k chars 自動切）
 
+**Pipeline B+C 收斂：核心先行 + 標籤內建（2026-07-03）**
+- **收斂策略**：目標不變（收全經文），但翻譯 + 標籤先集中跑各宗教**核心經文**（`meta.json` 的 `tier == 核心`，365 部）。
+- **tier 佇列協調器 `scripts/auto-pipeline.py`**：每部 translate（`01-translation.md`，經文式）→ tag（`semantic_tags`/`keywords` 回填 `meta.json`）→ 批次重生反向索引 → commit + push。可續跑（`--skip-done` 預設）、容錯（`logs/pipeline-failed.json`）、只 add 本次路徑（不與 Pipeline A 互踩）。
+  - `PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心`（全量核心）
+  - `... --limit 3 --no-push`（小批驗證）
+- **Pipeline C 標籤已實作**：`tools/m3-tagger-role.md`（角色）+ `00-overview/concepts.md`（14 類白名單）+ `scripts/build-tag-index.py`（生 `tag-index.json` / `keyword-index.json`）。標籤只改 `meta.json`，不動 `raw/original.txt`，不破 SHA-256。
+- **核心稽核**：`scripts/audit-core.py` → `00-overview/core-manifest.md`（各宗教核心數 / 已譯 / 已標 + 缺口分析）。
+- **即時進度**：`00-overview/PIPELINE_STATUS.md`（協調器自動生，勿手改）。
+- **註釋（`02-annotation.md`）可延後**：收斂期先完成 譯 + 標，註釋另跑。
+- **已知收集品質缺口**：部分核心 slug 的 `raw/original.txt` 只有目錄（如 `huangting-neijing` 僅 761 bytes 章目，現排在核心佇列第一），翻譯會偏薄 —— 屬 Pipeline A 下載不全，非翻譯機制問題，需回頭補抓正文。
+
+**text_role 分類 + 佇列排序（2026-07-03）**
+- **`meta.json` 新增 `text_role`（enum：original / translation / transliteration / contested）+ `composition_note`**（additive，不破 SHA-256）。細分優先於粗分 `is_original_language`（後者 288/365 核心未回填）。分類規則見 `CLAUDE.md §3`。
+- **音譯短路**：`translate.py` 對 `text_role == transliteration` 原樣保留 + 附註、**不呼叫 M3**（大悲咒 / 陀羅尼類禁意譯）。角色檔 `m3-translator-role.md` 規則 0 已加音譯 / contested / 和合本(古典中文) 路由。
+- **佇列排序**：`load_slugs_by_tier` 改「原文優先 + 短經優先」。核心 365＝177 原文（小→大先跑）+ 188 譯本（和合本 `古典中文` + Vulgate `Latin`，殿後）。關鍵訊號：`古典中文`＝和合本譯本，`古典漢語`＝漢傳原典。
+- **安全網**：沒把握不自動標；`audit-core.py` 新增「疑似音譯 / 咒語，待人工確認 text_role」清單（標題含 咒 / 陀羅尼 / 真言 / mantra）+ `text_role` 覆蓋統計。語料庫 250+ 陀羅尼文本幾乎全在 `tier=總集逐部`，非核心，待跑到該 tier 時人工確認再標。
+- **已分類**：`heart-sutra-kumarajiva` + `heart-sutra-xuanzang` → `contested`（Nattier 假說，漢傳主文本古典漢語原樣保留）。
+
 ## 策略（2026-07-01）
 
 **並行三 pipeline + 強追蹤防遺漏**：
@@ -63,12 +81,12 @@
 
 每翻完一部 → commit + push。
 
-### Pipeline C（標籤）— Sonnet 並行做
+### Pipeline C（標籤）— 已併入 auto-pipeline.py（2026-07-03）
 
-1. 訂跨宗教概念表（受控詞彙）→ `00-overview/concepts.md`
-2. 每部 meta.json 加 `semantic_tags: []` + `summary_100w`
-3. LLM 為已下載的核心經典先抽（道德經 / 論語 / 金剛經 / 創世記 / 古蘭開端 etc）
-4. 反向索引：`00-overview/tag-index.json`
+1. 跨宗教概念表（受控詞彙）→ `00-overview/concepts.md` ✓
+2. 翻譯後即抽 `semantic_tags`（白名單過濾）+ `keywords`（自由詞）回填 meta.json ✓
+3. 協調器對核心 tier 逐部跑（translate→tag）✓
+4. 反向索引：`scripts/build-tag-index.py` → `00-overview/{tag-index.json, keyword-index.json}` ✓
 
 
 ## 進行中（m3 背景，2026-07-03）
@@ -133,7 +151,8 @@ lotus-sutra, mengzi, proverbs, quran, sblgnt-john, sblgnt-matthew, tao-te-ching,
 
 ## 下次接手
 
-1. 跑 `python scripts/verify.py --all` 看狀態
-2. 跑 `python scripts/generate-index.py` 重生 INDEX
-3. 看 HANDOFF「立即下一步」決定先補哪個核心缺口
-4. 補完後切 P4 翻譯 / P5 標籤
+1. 看 `00-overview/PIPELINE_STATUS.md` — 核心翻譯+標籤跑到哪、失敗幾部
+2. 續跑：`PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心`（`--skip-done` 預設，接著跑）
+3. 看 `logs/pipeline-failed.json` 有無卡住的 slug；薄譯多半是 `raw/original.txt` 只有目錄 → Pipeline A 補抓正文
+4. 核心跑完 → `--tier 次要` 往外延伸；並行 Pipeline A 繼續補收集缺口（神道 / 兩河 / 諾斯底 等）
+5. 標籤索引最新度：`python scripts/build-tag-index.py`；核心稽核：`python scripts/audit-core.py`
