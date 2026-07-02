@@ -3,9 +3,9 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態
+## 當前狀態（2026-07-03 重生統計）
 
-**2062 部 / 20 宗教 / 原文 1500+ + 譯文 500+**
+**4174 部 / 20 宗教 / ~509 MB / 原文 3609 + 譯文 565 / 已 AI 譯註 23 部 / 已驗證 2377**
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
@@ -71,14 +71,19 @@
 4. 反向索引：`00-overview/tag-index.json`
 
 
-## 進行中（m3 背景）
+## 進行中（m3 背景，2026-07-03）
 
-當前 m3 task: **Phase C-3**
-- CBETA T13-T17（大集 + 經集 ~150 部）— 完成
+Pipeline A 仍在跑（logs/pipeline-a-*.log 持續變動）：
+- CBETA T13-T17（大集 + 經集）— 完成
+- CBETA T18-T55（密教/律/論/經疏/諸宗/史傳）— 已抓大批（佛教漢傳達 2429 部）
+- 卍續藏 X01-X88 — downloader bug 已修，抓 111 部
+- Sefaria Mishnah 63 + Talmud + Halakhah 88 + Midrash 36 + 諸家注疏 1103 — 進行中（猶太教達 1384 部）
 - 伊斯蘭輔助 7 部 — 完成
-- Sefaria Mishnah 全 63 tractate + 諸家注疏 — 進行中
 
-完成後**停止深挖**，進入補核心缺口。
+Pipeline B 已 AI 譯註 23 部：analects, bhagavad-gita, brihadaranyaka-upanishad, dhammapada,
+diamond-sutra-kumarajiva, doctrine-of-the-mean, ecclesiastes, genesis, great-learning,
+heart-sutra-kumarajiva, heart-sutra-xuanzang, isha-upanishad, job, katha-upanishad, liezi,
+lotus-sutra, mengzi, proverbs, quran, sblgnt-john, sblgnt-matthew, tao-te-ching, zhuangzi。
 
 ## 已實作下載器（12 個）
 
@@ -86,11 +91,14 @@
 
 ## 已完成宗教覆蓋摘要
 
+> 分宗教即時明細見 `00-overview/INDEX.md`（`generate-index.py` 自動產生）。以下為 2026-07-03 快照。
+
 | 宗教 | 部數 | 評估 |
 |------|------|------|
-| 佛教（漢傳 / 巴利 / 梵文混）| 961 | 漢傳 T01-T17 41% / 巴利 SN+AN+KN 子集 / 梵文 與印度教共用 |
-| 猶太教 | 657 | Sefaria Mishnah 全展開 |
-| 基督教 | 169 | 希臘 NT + 拉丁 Vulgate + 中文和合本 + Mahabharata Ganguli |
+| 佛教（漢傳）| 2437 | 漢傳 T01-T55 + 卍續藏 X 大批深挖中；含巴利 8 sub |
+| 猶太教 | 1384 | Sefaria Tanakh + Mishnah 64 + Talmud 32 + Halakhah 88 + Midrash 36 + 諸家注疏 1103 |
+| 基督教 | 169 | 希臘 NT 27 + 拉丁 Vulgate + 中文和合本 + Mahabharata Ganguli |
+| 佛教-巴利 | 39 | SuttaCentral SN+AN+KN 子集 |
 | 印度教 | 33 | 4 Vedas + 11 Upanishads + Ramayana + 6 哲學經 |
 | 儒教 | 26 | 五經 + 四書 + 主要諸子 + 朱子語類 + 傳習錄 |
 | 古希臘羅馬 | 18 | Homer / Hesiod / Ovid / Virgil / Plato / Plotinus 等 |
