@@ -27,7 +27,7 @@
     "pct_core": 100,
     "pct_v3_listed": 100,
     "pct_full": 7.09,
-    "with_translation": 0,
+    "with_translation": 5,
     "with_semantic_tags": 0,
     "total_bytes": 108870262,
     "by_tradition": {
@@ -68,7 +68,7 @@
     "pct_core": 100,
     "pct_v3_listed": 74.3,
     "pct_full": 0.52,
-    "with_translation": 0,
+    "with_translation": 3,
     "with_semantic_tags": 0,
     "total_bytes": 11957287,
     "by_tradition": {
@@ -128,7 +128,7 @@
     "pct_core": 100,
     "pct_v3_listed": 13.2,
     "pct_full": 1.1,
-    "with_translation": 0,
+    "with_translation": 3,
     "with_semantic_tags": 0,
     "total_bytes": 17626897,
     "by_tradition": {
@@ -187,7 +187,7 @@
     "pct_core": 100,
     "pct_v3_listed": 67.6,
     "pct_full": 5.63,
-    "with_translation": 0,
+    "with_translation": 1,
     "with_semantic_tags": 0,
     "total_bytes": 20220132,
     "by_tradition": {
@@ -221,27 +221,27 @@
     "original_count": 0
   },
   "猶太教": {
-    "done": 787,
+    "done": 1102,
     "target_core": 24,
     "target_v3_listed": 150,
     "target_full_canon": 1000,
     "pct_core": 100,
     "pct_v3_listed": 100,
-    "pct_full": 78.7,
-    "with_translation": 0,
+    "pct_full": 110.2,
+    "with_translation": 1,
     "with_semantic_tags": 0,
-    "total_bytes": 40935500,
+    "total_bytes": 44687413,
     "by_tradition": {
-      "Commentary": 664,
+      "Commentary": 979,
       "Mishnah": 64,
       "—": 57,
       "Tanakh": 2
     },
     "by_source": {
-      "Sefaria": 777,
+      "Sefaria": 1092,
       "sacred-texts.com": 10
     },
-    "original_count": 730
+    "original_count": 919
   },
   "現代新興": {
     "done": 2,
@@ -346,7 +346,7 @@
     "pct_core": 100,
     "pct_v3_listed": 42.5,
     "pct_full": 0.28,
-    "with_translation": 0,
+    "with_translation": 2,
     "with_semantic_tags": 0,
     "total_bytes": 5255044,
     "by_tradition": {
