@@ -20,6 +20,13 @@
       "religion": "基督教"
     }
   ],
+  "三尸神": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "三才": [
     {
       "slug": "yinfu-jing",
@@ -48,6 +55,13 @@
       "religion": "道教"
     }
   ],
+  "不敬虔": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "丟特腓": [
     {
       "slug": "sblgnt-3-john",
@@ -55,11 +69,25 @@
       "religion": "基督教"
     }
   ],
+  "五濁惡世": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    }
+  ],
   "五臟神": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "五蘊": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
     }
   ],
   "五賊": [
@@ -118,10 +146,24 @@
       "religion": "猶太教"
     }
   ],
+  "以諾": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "保羅": [
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "信仰": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -132,11 +174,32 @@
       "religion": "道教"
     }
   ],
+  "修身": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "假師傅": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "僊人": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "儒家": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
     }
   ],
   "兄弟": [
@@ -174,6 +237,20 @@
       "religion": "道教"
     }
   ],
+  "可拉": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "司過之神": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "呼吸": [
     {
       "slug": "huangting-neijing",
@@ -195,11 +272,39 @@
       "religion": "基督教"
     }
   ],
+  "善惡之報": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "四書": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "因果報應": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "國度": [
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "地仙": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
     }
   ],
   "報應": [
@@ -209,10 +314,22 @@
       "religion": "猶太教"
     }
   ],
+  "大學": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
   "大明咒": [
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
     }
   ],
@@ -230,10 +347,31 @@
       "religion": "道教"
     }
   ],
+  "天仙": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "天道": [
     {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
+      "religion": "道教"
+    }
+  ],
+  "太上": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "太上感應篇": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
       "religion": "道教"
     }
   ],
@@ -249,6 +387,25 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "巴蘭": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "平天下": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
     }
   ],
   "底米特": [
@@ -258,6 +415,20 @@
       "religion": "基督教"
     }
   ],
+  "庚申日": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "廣長舌相": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    }
+  ],
   "弟兄": [
     {
       "slug": "sblgnt-philemon",
@@ -265,11 +436,25 @@
       "religion": "基督教"
     }
   ],
+  "往生": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    }
+  ],
   "心神": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "念佛": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
     }
   ],
   "恩惠": [
@@ -286,11 +471,25 @@
       "religion": "基督教"
     }
   ],
+  "慎獨": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
   "拯救者": [
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "持名": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
     }
   ],
   "捆鎖": [
@@ -321,6 +520,20 @@
       "religion": "基督教"
     }
   ],
+  "摩西": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "改悔": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "教會": [
     {
       "slug": "sblgnt-3-john",
@@ -340,11 +553,46 @@
       "religion": "基督教"
     }
   ],
+  "明明德": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "曾子": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "末世": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "東華帝君": [
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "格物致知": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "極樂世界": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
     }
   ],
   "機": [
@@ -361,10 +609,29 @@
       "religion": "道教"
     }
   ],
+  "治國": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "法性": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
   "涅槃": [
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
     }
   ],
@@ -417,6 +684,13 @@
       "religion": "道教"
     }
   ],
+  "玄奘": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
   "甲子": [
     {
       "slug": "yinfu-jing",
@@ -429,6 +703,13 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "真如": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
     }
   ],
   "真理": [
@@ -450,11 +731,37 @@
       "religion": "道教"
     }
   ],
+  "禍福無門": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "空": [
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
+  "竈神": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "米迦勒": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "紫清": [
@@ -462,6 +769,13 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "絜矩之道": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
     }
   ],
   "老君": [
@@ -475,6 +789,11 @@
     {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -520,7 +839,19 @@
       "religion": "道教"
     }
   ],
+  "舍利子": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
   "舍利弗": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
@@ -534,10 +865,22 @@
       "religion": "佛教"
     }
   ],
+  "般若波羅蜜多": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
   "色即是空": [
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
     }
   ],
@@ -546,6 +889,18 @@
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
+  "菩薩": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
     }
   ],
   "葛玄": [
@@ -553,6 +908,13 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "西方": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
     }
   ],
   "西王母": [
@@ -569,11 +931,32 @@
       "religion": "佛教"
     }
   ],
+  "觀自在菩薩": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
   "該猶": [
     {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "該隱": [
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "誠意": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
     }
   ],
   "誦經": [
@@ -597,11 +980,32 @@
       "religion": "基督教"
     }
   ],
+  "道教倫理": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "釋迦牟尼": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    }
+  ],
   "錫安山": [
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "長生": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
     }
   ],
   "長老": [
@@ -621,6 +1025,25 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "阿彌陀佛": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    }
+  ],
+  "阿耨多羅三藐三菩提": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
     }
   ],
   "陰符經": [
@@ -663,6 +1086,13 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "齊家": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
     }
   ]
 }
