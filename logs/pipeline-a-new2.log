@@ -2,3 +2,32 @@
 [fetch] /api/index
 [books] 129 discovered
   [book] Footnotes on Mekhilta DeRabbi Shimon Ben Yochai
+  [empty] Footnotes on Mekhilta DeRabbi Shimon Ben Yochai: 
+  [book] Mekhilta DeRabbi Shimon Ben Yochai
+  [empty] Mekhilta DeRabbi Shimon Ben Yochai: 
+  [book] Mekhilta DeRabbi Yishmael
+  [empty] Mekhilta DeRabbi Yishmael: 
+  [book] Sifra
+  [empty] Sifra: 
+  [book] Sifrei Bamidbar
+  [polite-pause] 30s break after 100 requests
+  [ok] sefaria-sifrei-bamidbar: 161 chapters, 531360 bytes
+  [book] Sifrei Zuta
+  [polite-pause] 30s break after 200 requests
+  [ok] sefaria-sifrei-zuta: 7 chapters, 16156 bytes
+  [book] Sifrei Devarim
+  [polite-pause] 30s break after 300 requests
+  [polite-pause] 30s break after 400 requests
+  [polite-pause] 30s break after 500 requests
+  [ok] sefaria-sifrei-devarim: 357 chapters, 1233170 bytes
+  [book] Midrash Tannaim on Deuteronomy
+  [ok] sefaria-midrash-tannaim-on-deuteronomy: 20 chapters, 72231 bytes
+  [book] Chafetz Chaim on Sifra
+  [empty] Chafetz Chaim on Sifra: 
+  [book] Ra'avad on Sifra
+  [empty] Ra'avad on Sifra: 
+  [book] Bereshit Rabbah
+  [polite-pause] 30s break after 600 requests
+  [ok] sefaria-bereshit-rabbah: 100 chapters, 2338095 bytes
+  [book] Shemot Rabbah
+  [polite-pause] 30s break after 700 requests

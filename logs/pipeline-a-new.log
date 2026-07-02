@@ -18,3 +18,5 @@
   [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
   [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
   [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
+  [empty] Sifra: 
+  [book] Sifrei Bamidbar

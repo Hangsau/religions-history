@@ -258,3 +258,84 @@
   [empty] Rashi on Bava Kamma: 
   [book] Rashi on Bava Metzia
   [polite-pause] 30s break after 8700 requests
+  [polite-pause] 30s break after 8800 requests
+  [ok] sefaria-rashi-on-bava-metzia: 1 chapters, 1095 bytes
+  [book] Rashi on Bava Batra
+  [polite-pause] 30s break after 8900 requests
+  [polite-pause] 30s break after 9000 requests
+  [req-error attempt 1/5] sleep 10s: HTTPSConnectionPool(host='www.sefaria.org', port=443): Read timed out. (read timeout=30)
+  [req-error attempt 2/5] sleep 20s: HTTPSConnectionPool(host='www.sefaria.org', port=443): Read timed out. (read timeout=30)
+  [polite-pause] 30s break after 9100 requests
+  [polite-pause] 30s break after 9200 requests
+  [empty] Rashi on Bava Batra: 
+  [book] Rashi on Sanhedrin
+  [polite-pause] 30s break after 9300 requests
+  [polite-pause] 30s break after 9400 requests
+  [empty] Rashi on Sanhedrin: 
+  [book] Rashi on Makkot
+  [empty] Rashi on Makkot: 
+  [book] Rashi on Shevuot
+  [polite-pause] 30s break after 9500 requests
+  [empty] Rashi on Shevuot: 
+  [book] Rashi on Avodah Zarah
+  [polite-pause] 30s break after 9600 requests
+  [polite-pause] 30s break after 9700 requests
+  [empty] Rashi on Avodah Zarah: 
+  [book] Rashi on Horayot
+  [empty] Rashi on Horayot: 
+  [book] Rashi on Zevachim
+  [polite-pause] 30s break after 9800 requests
+  [polite-pause] 30s break after 9900 requests
+  [empty] Rashi on Zevachim: 
+  [book] Rashi on Menachot
+  [polite-pause] 30s break after 10000 requests
+  [polite-pause] 30s break after 10100 requests
+  [polite-pause] 30s break after 10200 requests
+  [empty] Rashi on Menachot: 
+  [book] Rashi on Chullin
+  [polite-pause] 30s break after 10300 requests
+  [polite-pause] 30s break after 10400 requests
+  [ok] sefaria-rashi-on-chullin: 1 chapters, 655 bytes
+  [book] Rashi on Bekhorot
+  [polite-pause] 30s break after 10500 requests
+  [polite-pause] 30s break after 10600 requests
+  [empty] Rashi on Bekhorot: 
+  [book] Rashi on Arakhin
+  [ok] sefaria-rashi-on-arakhin: 1 chapters, 332 bytes
+  [book] Rashi on Temurah
+  [polite-pause] 30s break after 10700 requests
+  [ok] sefaria-rashi-on-temurah: 1 chapters, 1265 bytes
+  [book] Rashi on Keritot
+  [polite-pause] 30s break after 10800 requests
+  [empty] Rashi on Keritot: 
+  [book] Rashi on Meilah
+  [ok] sefaria-rashi-on-meilah: 1 chapters, 280 bytes
+  [book] Rashi on Niddah
+  [polite-pause] 30s break after 10900 requests
+  [ok] sefaria-rashi-on-niddah: 1 chapters, 243 bytes
+  [book] Rashbam on Pesachim
+  [polite-pause] 30s break after 11000 requests
+  [polite-pause] 30s break after 11100 requests
+  [polite-pause] 30s break after 11200 requests
+  [empty] Rashbam on Pesachim: 
+  [book] Rashbam on Bava Batra
+  [polite-pause] 30s break after 11300 requests
+  [polite-pause] 30s break after 11400 requests
+  [polite-pause] 30s break after 11500 requests
+  [empty] Rashbam on Bava Batra: 
+  [book] Rashbam on Menachot
+  [polite-pause] 30s break after 11600 requests
+  [polite-pause] 30s break after 11700 requests
+  [polite-pause] 30s break after 11800 requests
+  [empty] Rashbam on Menachot: 
+  [book] Tosafot on Berakhot
+  [polite-pause] 30s break after 11900 requests
+  [empty] Tosafot on Berakhot: 
+  [book] Tosafot on Shabbat
+  [polite-pause] 30s break after 12000 requests
+  [polite-pause] 30s break after 12100 requests
+  [polite-pause] 30s break after 12200 requests
+  [empty] Tosafot on Shabbat: 
+  [book] Tosafot on Eruvin
+  [polite-pause] 30s break after 12300 requests
+  [polite-pause] 30s break after 12400 requests
