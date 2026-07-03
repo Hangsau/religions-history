@@ -19,5 +19,35 @@
   "license": "CC BY-SA 4.0",
   "verified": true,
   "tier": "核心",
-  "notes": null
+  "notes": null,
+  "era": "classical-antiquity",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "commandments-law",
+    "grace-from-god",
+    "messianism",
+    "original-sin",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+  ],
+  "keywords": [
+    "Paulus",
+    "Romani",
+    "Vulgata Clementina",
+    "fides",
+    "gratia",
+    "lex",
+    "justitia Dei",
+    "evangelium",
+    "Iesus Christus",
+    "apostolus",
+    "因信稱義",
+    "恩典",
+    "律法",
+    "神的義"
+  ],
+  "tag_status": "done",
+  "is_original_language": false,
+  "text_role": "translation"
 }
