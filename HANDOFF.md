@@ -5,7 +5,7 @@
 
 ## 當前狀態（2026-07-03 重生統計）
 
-**4174 部 / 20 宗教 / ~509 MB / 原文 3609 + 譯文 565 / 已 AI 譯註 23 部 / 已驗證 2377**
+**4207 部 / 22 宗教 / ~517 MB / 已 AI 譯註 23 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
@@ -49,9 +49,22 @@
 - **神道原文**：NDL / ja.wikisource 日文全文（古事記 / 日本書紀 / 延喜式）— ja.wikisource 多僅目錄，全文在 NDL，無 downloader。
 - **Popol Vuh（瑪雅）**：**不在 sacred-texts**（nam/maya 僅 cbc/ybac/mhw 三部已收），需另找專屬來源（Ximénez 手稿 K'iche' 原文 / 公版英譯）。
 - **北歐**：散文埃達（Prose Edda, Snorri）為主要缺項；sacred-texts neu/ice 為 landing page，路徑未清，需再查（詩體埃達 neu/pre 已收）。
-- **分類折疊（非真缺口）**：`audit-core.py` 缺口清單的 瑪雅/阿茲特克/印加 已收在 `美洲` 傘下、赫爾墨斯 收在 `諾斯底` 傘下，均已在翻譯佇列中；如要作為獨立宗教瀏覽需另議 religion 欄位重分類（影響 INDEX/tag-index，未做）。
+- **分類折疊（非真缺口）**：瑪雅/阿茲特克/印加 收在 `美洲` 傘下（`美洲` 已為合法 enum 值）、赫爾墨斯 收在 `諾斯底` 傘下，均已在翻譯佇列中；如要作為獨立宗教瀏覽需另議 religion 欄位重分類（影響 INDEX/tag-index，未做）。
 
 **LLM fleet 擴充（討論中，2026-07-03）**：用戶考慮加便宜 worker 分攤 MiniMax-M3 流量。關鍵發現：`translate.py:206 call_m3` 靠 `claude -p` + `ANTHROPIC_BASE_URL/AUTH_TOKEN/MODEL` 打 MiniMax Anthropic-相容端點 → 任何有 Anthropic 端點的廠商（DeepSeek/智譜 GLM-4.6/Moonshot Kimi K2，皆中文母語且便宜）換三行 env 即 drop-in，加 profile pool 約十幾行。建議分工：英譯 fallback→便宜 worker；難古典原文→留強模型；漢傳/和合本 原樣保留不耗 LLM。待用戶決定 provider + 辦 key。
+
+**資料對齊 Alignment（2026-07-03，用戶要求「把所有資料都對齊以利撈取」）**
+> MiniMax M3 同有 5H/7D 限制（約 Claude Pro 5×，非無限）。對齊按 token 成本分層：0-token 規則優先做滿，M3 只留給小輸出分類。
+- **Layer 0（0-token 規則，已完成 push）**：
+  - `scripts/align-metadata.py`：由 `language` 回補 `text_role`（0%→4128）+ `is_original_language`（缺 366→缺 76）。高信心語言映射，`Latin`(76，Vulgate/古典拉丁歧義) 留白交人工。
+  - religion enum 違規修正：`佛教-巴利`(39)→`佛教`+tradition`巴利`（同步改 `buddhism-pali.json` / `download-suttacentral.py` 防回歸）；`美洲`(6，americas umbrella) 加入 `meta_template` enum。現 enum 違規 0，22 宗教。
+  - `genre` 0-token 子集：猶太 `Halakhah`/`Mishnah`→`law-code`、`Commentary`/`Midrash`/`Talmud`→`commentary`，共 1329 部(31.6%)。
+- **Layer 1（詞彙已定義，已 push）**：`00-overview/era-genre-vocab.md`：`era` 7 桶 + `genre` 11 類，加入 `meta_template` enum。
+- **Layer 2（待跑，M3 小輸出，因配額暫緩等用戶過目詞彙）**：
+  - `era`（全 4207 皆 null，version_date 僅 3% 且異質，幾乎不可規則化）→ M3 讀原文首段+標題分類。
+  - `genre` 其餘 2879 null（CBETA 漢傳 2429 混經/律/論、Greek NT、Pali、古代宗教）→ M3。
+  - `semantic_tags`/`keywords`（0.8%）→ M3 從**原文**抽（不必等全文翻譯），與 era/genre 同一次 M3 呼叫省配額。
+  - **建議**：Layer 2 三項合併成單一 M3 classify 呼叫/部（讀原文首 N 段 → 回 era+genre+tags+keywords，白名單過濾），核心 tier 先跑。
 
 ## 策略（2026-07-01）
 
