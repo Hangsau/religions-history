@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**30** 部，橫跨 **9** 宗教
+- 待補原文核心：**29** 部，橫跨 **9** 宗教
 
 ## 古埃及（8 部）
 
@@ -17,14 +17,6 @@
 - [ ] `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）— 未譯，原文待補
 - [ ] `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）— 未譯，原文待補
 
-## 諾斯底（5 部）
-
-- [ ] `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-
 ## 瑣羅亞斯德（5 部）
 
 - [ ] `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）— 未譯，原文待補
@@ -32,6 +24,13 @@
 - [ ] `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）— 未譯，原文待補
 - [ ] `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）— 未譯，原文待補
 - [ ] `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）— 未譯，原文待補
+
+## 諾斯底（4 部）
+
+- [ ] `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 
 ## 美洲（4 部）
 
@@ -51,15 +50,15 @@
 - [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
 - [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
-## 錫克教（1 部）
+## 巴哈伊（1 部）
 
-- [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
 
 ## 斯拉夫（1 部）
 
 - [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
 
-## 巴哈伊（1 部）
+## 錫克教（1 部）
 
-- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
+- [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 

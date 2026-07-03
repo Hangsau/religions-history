@@ -218,18 +218,29 @@
       "notes": "西比拉神諭 14 卷（Πρόλογος＋Βιβλίο Α–ΙΔ＋Αβέβαια）希臘原文；對應 sacred-texts SBE/Terry 英譯"
     },
     {
-      "slug": "poimandres-el",
-      "name_zh": "牧人者（赫爾墨斯文集卷一，希臘原文）",
-      "name_en": "Poimandres (Corpus Hermeticum I, Greek)",
+      "slug": "corpus-hermeticum-el",
+      "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
+      "name_en": "Corpus Hermeticum (Greek, 8 treatises)",
       "religion": "赫爾墨斯",
       "language": "希臘",
       "lang": "el",
-      "wikisource_title": "Ποιμάνδρης",
+      "wikisource_titles": [
+        "Ποιμάνδρης",
+        "Προς Ασκληπιόν λόγος καθολικός",
+        "Λόγος ιερός",
+        "Ο κρατήρ, η μονάς",
+        "Κλεις",
+        "Προς Τατ υιόν",
+        "Προς Ασκληπιόν",
+        "Κηρύγματα"
+      ],
       "text_role": "original",
       "is_original_language": true,
+      "original_of": "thrice-greatest-hermes-2",
       "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 8,
       "tier": "核心",
-      "notes": "赫爾墨斯文集第一篇《牧人者》希臘原文（單篇）。獨立新收；el.wikisource 僅有此篇，非完整 Corpus Hermeticum，故不掛 thrice-greatest-hermes"
+      "notes": "赫爾墨斯文集希臘原文八篇（el.wikisource 作者頁「Ερμής ο Τρισμέγιστος」全收：Ποιμάνδρης/Προς Ασκληπιόν λόγος καθολικός/Λόγος ιερός/Ο κρατήρ η μονάς/Κλεις/Προς Τατ υιόν/Προς Ασκληπιόν/Κηρύγματα）。對應 Mead《Thrice-Greatest Hermes》Vol 2（Corpus Hermeticum 英譯）thrice-greatest-hermes-2。取代舊 poimandres-el 單篇 entry"
     },
     {
       "slug": "guru-granth-sahib-pa",
