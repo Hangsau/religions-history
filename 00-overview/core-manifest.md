@@ -55,8 +55,8 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 173 |
-| translation | 201 |
+| original | 175 |
+| translation | 199 |
 | contested | 2 |
 | (未標) | 1 |
 
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**15** 個 / 核心 **59** 部
-- 名單：古希臘羅馬、瑣羅亞斯德、古埃及、諾斯底、美洲、凱爾特、兩河、北歐、現代新興、錫克教、非洲、耆那教、斯拉夫、神道、巴哈伊
+- 唯一英譯本宗教：**14** 個 / 核心 **57** 部
+- 名單：古希臘羅馬、瑣羅亞斯德、古埃及、諾斯底、美洲、凱爾特、兩河、北歐、錫克教、非洲、耆那教、斯拉夫、神道、巴哈伊
 
 ## 各宗教核心明細
 
@@ -487,8 +487,8 @@
 
 ### 現代新興（2 部）
 
-- `book-of-mormon-1830` 摩門經（1830 初版）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `pearl-of-great-price` 無價珍珠（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標✓
+- `pearl-of-great-price` 無價珍珠（English (原典)）譯– 標✓
 
 ### 錫克教（2 部）
 

@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**59** 部，橫跨 **15** 宗教
+- 待補原文核心：**57** 部，橫跨 **14** 宗教
 
 ## 古希臘羅馬（12 部）
 
@@ -76,11 +76,6 @@
 - [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 - [ ] `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）— 未譯，原文待補
 - [ ] `volsunga-saga` 沃爾松傳奇（English (translation)）— 未譯，原文待補
-
-## 現代新興（2 部）
-
-- [ ] `book-of-mormon-1830` 摩門經（1830 初版）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-- [ ] `pearl-of-great-price` 無價珍珠（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 
 ## 錫克教（2 部）
 

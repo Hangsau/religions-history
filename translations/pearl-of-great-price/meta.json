@@ -4,7 +4,7 @@
   "name_en": "Pearl of Great Price",
   "name_original": "無價珍珠",
   "religion": "現代新興",
-  "language": "English (translation from Greek/Latin/Old Norse/etc)",
+  "language": "English (原典)",
   "version": "Wikisource version",
   "version_date": "1851 AD compiled",
   "source_platform": "en.wikisource.org",
@@ -20,8 +20,8 @@
   "verified": true,
   "tier": "核心",
   "notes": null,
-  "is_original_language": false,
-  "text_role": "translation",
+  "is_original_language": true,
+  "text_role": "original",
   "era": "modern",
   "genre": "scripture-revealed",
   "semantic_tags": [
@@ -50,5 +50,6 @@
     "偶像崇拜",
     "Ur"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "composition_note": "英文即原典：摩西書/斯密史為英文原著；亞伯拉罕書所據埃及莎草紙(JSP)經學界鑑定為葬儀文本與內容無關，故英文為最原始文本，無原文可補。"
 }
