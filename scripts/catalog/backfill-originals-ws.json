@@ -110,6 +110,35 @@
       "version": "Wikisource 威爾斯 J. M. Edwards 版",
       "tier": "核心",
       "notes": "Rhonabwy/Taliesin/Lludd/Peredur + 導論，威爾斯原文"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "name_en": "The Tale of Igor's Campaign (Old East Slavic)",
+      "religion": "斯拉夫",
+      "language": "古東斯拉夫",
+      "lang": "ru",
+      "wikisource_title": "Слово о полку Игореве/Текст",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "tale-of-igor-campaign",
+      "version": "Wikisource 原文（底本）",
+      "tier": "核心",
+      "notes": "《伊戈爾遠征記》古東斯拉夫語原文"
+    },
+    {
+      "slug": "snorra-edda-is",
+      "name_zh": "散文埃達（古諾斯語原文）",
+      "name_en": "Prose Edda / Snorra Edda (Old Norse)",
+      "religion": "北歐",
+      "language": "古諾斯語",
+      "lang": "is",
+      "wikisource_title": "Snorra Edda",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 古諾斯語版",
+      "tier": "核心",
+      "notes": "斯諾里散文埃達（Prologus/Gylfaginning/Skáldskaparmál/Háttatal 等）古諾斯語原文；補收，非既有待補 slug"
     }
   ]
 }

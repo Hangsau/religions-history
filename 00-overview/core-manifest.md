@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**384** 部
-- 已翻譯：**77** / 384
-- 已標籤：**376** / 384
+- 核心總數：**386** 部
+- 已翻譯：**77** / 386
+- 已標籤：**376** / 386
 
 ## 各宗教核心進度
 
@@ -22,14 +22,14 @@
 | 凱爾特 | 6 | 0 | 4 |
 | 諾斯底 | 5 | 0 | 5 |
 | 美洲 | 4 | 0 | 4 |
+| 北歐 | 4 | 0 | 3 |
 | 伊斯蘭 | 4 | 1 | 4 |
 | 兩河 | 3 | 0 | 3 |
-| 北歐 | 3 | 0 | 3 |
+| 斯拉夫 | 3 | 0 | 2 |
 | 現代新興 | 2 | 0 | 2 |
 | 錫克教 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
 | 耆那教 | 2 | 0 | 2 |
-| 斯拉夫 | 2 | 0 | 2 |
 | 神道 | 1 | 0 | 1 |
 | 巴哈伊 | 1 | 0 | 1 |
 
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 184 |
+| original | 186 |
 | translation | 197 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**14** 個 / 核心 **46** 部
-- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、兩河、凱爾特、北歐、非洲、斯拉夫、古希臘羅馬、耆那教、錫克教、神道、巴哈伊
+- 唯一英譯本宗教：**14** 個 / 核心 **45** 部
+- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、北歐、兩河、凱爾特、錫克教、非洲、耆那教、古希臘羅馬、神道、斯拉夫、巴哈伊
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -479,6 +479,13 @@
 - `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
 - `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標✓
 
+### 北歐（4 部）
+
+- `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯– 標✓
+- `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯– 標–
+- `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標✓
+
 ### 伊斯蘭（4 部）
 
 - `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯– 標✓
@@ -492,11 +499,11 @@
 - `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯– 標✓
 - `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯– 標✓
 
-### 北歐（3 部）
+### 斯拉夫（3 部）
 
-- `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯– 標✓
-- `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標✓
+- `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標✓
+- `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯– 標✓
+- `tale-of-igor-ru` 伊戈爾遠征記（古東斯拉夫原文）（古東斯拉夫）譯– 標–
 
 ### 現代新興（2 部）
 
@@ -517,11 +524,6 @@
 
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
-
-### 斯拉夫（2 部）
-
-- `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標✓
-- `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯– 標✓
 
 ### 神道（1 部）
 

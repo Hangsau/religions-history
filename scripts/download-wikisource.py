@@ -254,7 +254,11 @@ def download_scripture(entry: dict) -> dict:
     chapters: list[tuple[str, str]] = []
 
     try:
-        if entry.get("wikisource_subpages_explicit"):
+        if entry.get("wikisource_titles"):
+            # Curated list of independent top-level pages (e.g. the ~30 Eddic poems),
+            # each fetched as one chapter under its own title.
+            subs = entry["wikisource_titles"]
+        elif entry.get("wikisource_subpages_explicit"):
             subs = entry["wikisource_subpages_explicit"]
         else:
             subs = discover_subpages(title)
