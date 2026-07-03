@@ -126,7 +126,9 @@ def commit_batch(paths: list[Path], message: str, push: bool) -> None:
 def rebuild_indexes() -> list[Path]:
     child_env = os.environ.copy()
     child_env["PYTHONIOENCODING"] = "utf-8"
-    for script in ("build-tag-index.py", "track-progress.py"):
+    # audit-core last: it reads meta/text_role that this batch just updated, so its
+    # reports (core-manifest / original-text-todo) never go stale between runs.
+    for script in ("build-tag-index.py", "track-progress.py", "audit-core.py"):
         subprocess.run([sys.executable, str(ROOT / "scripts" / script)],
                        cwd=ROOT, capture_output=True, text=True,
                        encoding="utf-8", errors="replace", env=child_env)
@@ -134,6 +136,8 @@ def rebuild_indexes() -> list[Path]:
         OVERVIEW_DIR / "tag-index.json",
         OVERVIEW_DIR / "keyword-index.json",
         OVERVIEW_DIR / "PROGRESS.md",
+        OVERVIEW_DIR / "core-manifest.md",
+        OVERVIEW_DIR / "original-text-todo.md",
         STATUS_PATH,
     ]
 

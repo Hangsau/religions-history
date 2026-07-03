@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
 OVERVIEW_DIR = ROOT / "00-overview"
 MANIFEST_PATH = OVERVIEW_DIR / "core-manifest.md"
+ORIGINAL_TODO_PATH = OVERVIEW_DIR / "original-text-todo.md"
 
 # religions declared in meta_template.json enum — used to detect zero-core gaps
 ALL_RELIGIONS = [
@@ -69,6 +70,7 @@ def main():
             "slug": slug,
             "name_zh": meta.get("name_zh", ""),
             "language": meta.get("language", ""),
+            "text_role": meta.get("text_role") or "",
             "translated": tr_done,
             "tagged": tag_done,
         })
@@ -76,6 +78,20 @@ def main():
     total = sum(len(v) for v in by_religion.values())
     tr_total = sum(1 for v in by_religion.values() for e in v if e["translated"])
     tag_total = sum(1 for v in by_religion.values() for e in v if e["tagged"])
+
+    # Sole-source vs redundant translation classification (deterministic, per-religion):
+    #   religion with >=1 text_role==original core  → its translations are 冗餘對照 (原文已在庫)
+    #   religion with 0 original cores              → ALL its cores are 唯一英譯本 (待補原文)
+    # This encodes the standing policy "no original available → translate the English now,
+    # but still backfill the original later" so it stops resurfacing as an open question.
+    def _has_original(entries: list[dict]) -> bool:
+        return any(e["text_role"] == "original" for e in entries)
+
+    sole_source_religions = sorted(
+        (rel for rel, v in by_religion.items() if not _has_original(v)),
+        key=lambda r: -len(by_religion[r]),
+    )
+    sole_source_slugs = [e for rel in sole_source_religions for e in by_religion[rel]]
 
     lines = [
         "# 核心經文清單（core-manifest）",
@@ -145,6 +161,19 @@ def main():
     lines += ([f"- `{e['slug']}` {e['name_zh']}（{e['religion']}）" for e in translit_suspects]
               or ["- （無）"])
 
+    # Sole-source (English-only) religions — policy is settled, not an open gap
+    lines += [
+        "",
+        "## 唯一英譯本核心（政策已定，非待決缺口）",
+        "",
+        "> 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**"
+        "（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 "
+        "`original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。",
+        "",
+        f"- 唯一英譯本宗教：**{len(sole_source_religions)}** 個 / 核心 **{len(sole_source_slugs)}** 部",
+        f"- 名單：{('、'.join(sole_source_religions)) or '（無）'}",
+    ]
+
     lines += ["", "## 各宗教核心明細", ""]
     for rel in sorted(by_religion, key=lambda r: -len(by_religion[r])):
         lines.append(f"### {rel}（{len(by_religion[rel])} 部）")
@@ -155,9 +184,32 @@ def main():
             lines.append(f"- `{e['slug']}` {e['name_zh']}（{e['language']}）{tr} {tg}")
         lines.append("")
 
+    # Persistent 待補原文 backlog — the durable home for "still fill the original later"
+    todo = [
+        "# 待補原文清單（original-text-todo）",
+        "",
+        "> 由 `scripts/audit-core.py` 自動產生。列出**核心語料只有英譯本、原文尚未收**的部。",
+        "> 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。",
+        "> 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。",
+        "",
+        f"- 待補原文核心：**{len(sole_source_slugs)}** 部，橫跨 **{len(sole_source_religions)}** 宗教",
+        "",
+    ]
+    for rel in sole_source_religions:
+        entries = sorted(by_religion[rel], key=lambda x: x["slug"])
+        todo.append(f"## {rel}（{len(entries)} 部）")
+        todo.append("")
+        for e in entries:
+            tr = "已英→中✓" if e["translated"] else "未譯"
+            todo.append(f"- [ ] `{e['slug']}` {e['name_zh']}（{e['language']}）— {tr}，原文待補")
+        todo.append("")
+
     OVERVIEW_DIR.mkdir(exist_ok=True)
     MANIFEST_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+    ORIGINAL_TODO_PATH.write_text("\n".join(todo) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {MANIFEST_PATH.relative_to(ROOT)}")
+    print(f"wrote {ORIGINAL_TODO_PATH.relative_to(ROOT)} "
+          f"({len(sole_source_slugs)} 部待補原文 / {len(sole_source_religions)} 宗教)")
     print(f"  核心 {total} / 已譯 {tr_total} / 已標籤 {tag_total}")
     if absent:
         print(f"  語料庫缺口: {', '.join(absent)}")
