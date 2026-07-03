@@ -97,7 +97,8 @@ def main():
         except (json.JSONDecodeError, OSError):
             continue
         if meta.get("original_of") and (meta.get("text_role") == "original"):
-            covered_by_original.add(meta["original_of"])
+            oo = meta["original_of"]
+            covered_by_original.update([oo] if isinstance(oo, str) else oo)
         rel = meta.get("religion", "?")
         religions_in_corpus.add(rel)
         if meta.get("tier") != "核心":

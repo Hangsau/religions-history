@@ -34,6 +34,52 @@
       "expected_chapter_count": 12,
       "tier": "核心",
       "notes": "12 卷（Liber I–XII），Virgil 拉丁原文"
+    },
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "name_en": "Republic (Plato, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Πολιτεία",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "plato-works",
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 10,
+      "tier": "核心",
+      "notes": "10 卷（Α–Κ），柏拉圖《理想國》希臘原文"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "name_en": "Symposium (Plato, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Συμπόσιον (Πλάτων)",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "plato-works",
+      "version": "Wikisource 希臘通行本",
+      "tier": "核心",
+      "notes": "柏拉圖《會飲篇》希臘原文（單頁）"
+    },
+    {
+      "slug": "plato-phaedo-el",
+      "name_zh": "斐多篇（希臘原文）",
+      "name_en": "Phaedo (Plato, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Φαίδων",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "plato-works",
+      "version": "Wikisource 希臘通行本",
+      "tier": "核心",
+      "notes": "柏拉圖《斐多篇》希臘原文（單頁）"
     }
   ]
 }

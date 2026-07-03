@@ -5,7 +5,13 @@
   "name_original": "伊利亞德 + 奧德賽 (希臘原文)",
   "religion": "古希臘羅馬",
   "tradition": null,
-  "language": "English (translation)",
+  "language": "希臘",
+  "original_of": [
+    "homer-iliad-pope",
+    "homer-odyssey-st",
+    "iliad-butler",
+    "odyssey-butler"
+  ],
   "version": "Greek original",
   "version_date": "—",
   "source_platform": "sacred-texts.com",
