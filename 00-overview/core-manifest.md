@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**394** 部
-- 已翻譯：**77** / 394
-- 已標籤：**376** / 394
+- 核心總數：**397** 部
+- 已翻譯：**77** / 397
+- 已標籤：**376** / 397
 
 ## 各宗教核心進度
 
@@ -14,7 +14,7 @@
 | 佛教 | 61 | 18 | 61 |
 | 猶太教 | 45 | 17 | 45 |
 | 印度教 | 26 | 9 | 25 |
-| 古希臘羅馬 | 18 | 0 | 12 |
+| 古希臘羅馬 | 21 | 0 | 12 |
 | 道教 | 14 | 9 | 14 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 儒教 | 9 | 4 | 9 |
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 195 |
+| original | 198 |
 | translation | 196 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**13** 個 / 核心 **40** 部
-- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、凱爾特、兩河、北歐、非洲、古希臘羅馬、錫克教、神道、斯拉夫、巴哈伊
+- 唯一英譯本宗教：**13** 個 / 核心 **39** 部
+- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、兩河、凱爾特、北歐、非洲、錫克教、巴哈伊、斯拉夫、神道、古希臘羅馬
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -384,9 +384,10 @@
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
-### 古希臘羅馬（18 部）
+### 古希臘羅馬（21 部）
 
 - `herodotus-histories` 希羅多德《歷史》(英希對照)（希臘）譯– 標✓
+- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（希臘）譯– 標–
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（希臘）譯– 標✓
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
@@ -394,6 +395,7 @@
 - `homeric-hymns-el` 荷馬諸頌（希臘原文）（希臘）譯– 標–
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（希臘）譯– 標–
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（拉丁）譯– 標–
 - `plato-phaedo-el` 斐多篇（希臘原文）（希臘）譯– 標–
@@ -401,6 +403,7 @@
 - `plato-symposium-el` 會飲篇（希臘原文）（希臘）譯– 標–
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
+- `plotinus-enneads-el` 九章集（希臘原文）（希臘）譯– 標–
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
 - `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
 - `virgil-aeneid-la` 伊尼德（拉丁原文）（拉丁）譯– 標–

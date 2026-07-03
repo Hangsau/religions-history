@@ -154,6 +154,52 @@
       "expected_chapter_count": 34,
       "tier": "核心",
       "notes": "33 篇荷馬式頌歌希臘原文（el.wikisource 分篇）。獨立新收原文（sacred-texts 無完整荷馬頌歌英譯本；原 homeric-hymns-st 位元組實為 Herodotus，已更正為 herodotus-histories）"
+    },
+    {
+      "slug": "plotinus-enneads-el",
+      "name_zh": "九章集（希臘原文）",
+      "name_en": "Enneads (Plotinus, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Εννεάδες",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "plotinus-enneads",
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 60,
+      "tier": "核心",
+      "notes": "普羅提諾《九章集》54 篇論文（6 Ennead×9，el.wikisource 巢狀分篇）希臘原文；對應 sacred-texts MacKenna 英譯"
+    },
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "name_en": "Orphic Hymns (Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Ορφικοί ύμνοι",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "tier": "核心",
+      "notes": "俄耳甫斯教讚歌集（87 篇，el.wikisource 分篇）希臘原文；獨立新收（庫內無對應英譯 slug）"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "name_en": "Hesiod: Theogony + Works and Days (Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_titles": ["Θεογονία", "Έργα και ημέραι"],
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "hesiod-works",
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 2,
+      "tier": "核心",
+      "notes": "赫西俄德《神譜》＋《工作與時日》希臘原文；對應 sacred-texts Evelyn-White 英譯"
     }
   ]
 }
