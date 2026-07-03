@@ -22,6 +22,24 @@ TRANSLATIONS_DIR = ROOT / "translations"
 OVERVIEW_DIR = ROOT / "00-overview"
 MANIFEST_PATH = OVERVIEW_DIR / "core-manifest.md"
 ORIGINAL_TODO_PATH = OVERVIEW_DIR / "original-text-todo.md"
+# Cores already investigated to have no cleanly-collectable original (hard source-access
+# block, no single底本, or oral/no-script tradition). Documented per-slug with probed sources
+# so the 待補 list separates "collectable, not yet done" from "verified no clean source".
+SOURCE_STATUS_PATH = ROOT / "scripts" / "catalog" / "original-source-status.json"
+_STATUS_LABELS = {
+    "blocked-access": "來源受牆／無乾淨匯出（原文存於已知數位語料庫但存取受阻）",
+    "no-single-original": "英/西譯為學術彙編或選集，無單一底本",
+    "oral-no-script": "口傳傳統，無文字書寫系統（採錄本即最早可及形式）",
+}
+
+
+def _load_source_status() -> dict:
+    if not SOURCE_STATUS_PATH.exists():
+        return {}
+    try:
+        return json.loads(SOURCE_STATUS_PATH.read_text(encoding="utf-8")).get("statuses", {})
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 # religions declared in meta_template.json enum — used to detect zero-core gaps
 ALL_RELIGIONS = [
@@ -164,10 +182,20 @@ def main():
         key=lambda e: -e["native_ratio"],
     )
 
-    sole_source_slugs = [e for v in by_religion.values() for e in v if _is_sole_source(e)]
+    source_status = _load_source_status()
+
+    def _is_actionable_sole_source(e: dict) -> bool:
+        # 待補 that is genuinely collectable: sole-source AND not yet documented as
+        # having no clean original source.
+        return _is_sole_source(e) and e["slug"] not in source_status
+
+    sole_source_slugs = [e for v in by_religion.values() for e in v if _is_actionable_sole_source(e)]
+    # Documented-no-clean-source cores that still count as sole-source (English-only on disk).
+    documented_slugs = [e for v in by_religion.values() for e in v
+                        if _is_sole_source(e) and e["slug"] in source_status]
     sole_source_religions = sorted(
-        {e["religion"] for v in by_religion.values() for e in v if _is_sole_source(e)},
-        key=lambda r: -sum(1 for e in by_religion[r] if _is_sole_source(e)),
+        {e["religion"] for v in by_religion.values() for e in v if _is_actionable_sole_source(e)},
+        key=lambda r: -sum(1 for e in by_religion[r] if _is_actionable_sole_source(e)),
     )
 
     lines = [
@@ -273,15 +301,15 @@ def main():
     todo = [
         "# 待補原文清單（original-text-todo）",
         "",
-        "> 由 `scripts/audit-core.py` 自動產生。列出**核心語料只有英譯本、原文尚未收**的部。",
+        "> 由 `scripts/audit-core.py` 自動產生。列出**核心語料只有英譯本、且原文有乾淨來源可收但尚未收**的部。",
         "> 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。",
-        "> 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。",
+        "> 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。",
         "",
-        f"- 待補原文核心：**{len(sole_source_slugs)}** 部，橫跨 **{len(sole_source_religions)}** 宗教",
+        f"- 可收待補原文核心：**{len(sole_source_slugs)}** 部，橫跨 **{len(sole_source_religions)}** 宗教",
         "",
     ]
     for rel in sole_source_religions:
-        entries = sorted((e for e in by_religion[rel] if _is_sole_source(e)),
+        entries = sorted((e for e in by_religion[rel] if _is_actionable_sole_source(e)),
                          key=lambda x: x["slug"])
         if not entries:
             continue
@@ -291,6 +319,36 @@ def main():
             tr = "已英→中✓" if e["translated"] else "未譯"
             todo.append(f"- [ ] `{e['slug']}` {e['name_zh']}（{e['language']}）— {tr}，原文待補")
         todo.append("")
+
+    if documented_slugs:
+        todo += [
+            "---",
+            "",
+            "## 已查明無乾淨原文來源（附探查記錄，非未查的待辦）",
+            "",
+            "> 這些核心經過實際探查，確認目前無乾淨可收的原文來源。分三類，逐部附理由與已探來源。",
+            "> 出現乾淨來源即收——移除 `original-source-status.json` 對應條目即回到可收待補。",
+            "",
+            f"- 已查明無乾淨來源：**{len(documented_slugs)}** 部",
+            "",
+        ]
+        by_status: dict[str, list[dict]] = defaultdict(list)
+        for e in sorted(documented_slugs, key=lambda x: x["slug"]):
+            by_status[source_status[e["slug"]].get("status", "?")].append(e)
+        for st in ("blocked-access", "no-single-original", "oral-no-script"):
+            group = by_status.get(st)
+            if not group:
+                continue
+            todo.append(f"### {_STATUS_LABELS.get(st, st)}（{len(group)} 部）")
+            todo.append("")
+            for e in group:
+                info = source_status[e["slug"]]
+                probed = "；".join(info.get("probed", []))
+                todo.append(f"- `{e['slug']}` {e['name_zh']}（{e['religion']}）")
+                todo.append(f"  - 理由：{info.get('reason', '')}")
+                if probed:
+                    todo.append(f"  - 已探來源：{probed}")
+            todo.append("")
 
     if mislabeled_originals:
         todo += [
@@ -312,7 +370,8 @@ def main():
     ORIGINAL_TODO_PATH.write_text("\n".join(todo) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {MANIFEST_PATH.relative_to(ROOT)}")
     print(f"wrote {ORIGINAL_TODO_PATH.relative_to(ROOT)} "
-          f"({len(sole_source_slugs)} 部待補原文 / {len(sole_source_religions)} 宗教)")
+          f"({len(sole_source_slugs)} 部可收待補 / {len(sole_source_religions)} 宗教; "
+          f"{len(documented_slugs)} 部已查明無乾淨來源)")
     print(f"  核心 {total} / 已譯 {tr_total} / 已標籤 {tag_total}")
     if mislabeled_originals:
         print(f"  內容檢查揪出原文已在庫但標錯 text_role: {len(mislabeled_originals)} 部 "
