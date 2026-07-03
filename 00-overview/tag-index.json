@@ -16,6 +16,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
@@ -30,9 +35,19 @@
   ],
   "apocalypse": [
     {
+      "slug": "joel",
+      "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-peter",
@@ -53,6 +68,13 @@
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
+    }
+  ],
+  "asceticism": [
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "awe-fear": [
@@ -87,6 +109,11 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "celibate-tradition": [
@@ -110,6 +137,11 @@
     {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
     },
     {
@@ -166,12 +198,27 @@
       "religion": "佛教"
     },
     {
+      "slug": "joel",
+      "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教-巴利"
     }
   ],
   "congregational": [
+    {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
@@ -273,6 +320,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "essentially-flawed": [
@@ -302,6 +354,11 @@
     }
   ],
   "fasting": [
+    {
+      "slug": "joel",
+      "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
     {
       "slug": "jonah",
       "name_zh": "約拿書",
@@ -341,8 +398,18 @@
   ],
   "grace-from-god": [
     {
+      "slug": "joel",
+      "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -419,9 +486,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "lay-practitioner": [
@@ -440,6 +517,11 @@
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
     }
   ],
@@ -463,6 +545,11 @@
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
       "religion": "佛教-巴利"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "mandate-of-heaven": [
@@ -519,6 +606,11 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "messianism": [
@@ -567,9 +659,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "joel",
+      "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-john",
@@ -648,6 +750,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
     }
   ],
   "prayer": [
@@ -655,6 +762,16 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-thessalonians",
@@ -711,6 +828,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
@@ -725,6 +847,11 @@
     {
       "slug": "haggai",
       "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "joel",
+      "name_zh": "約珥書",
       "religion": "猶太教"
     },
     {
@@ -758,6 +885,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
@@ -778,9 +910,19 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
     }
   ],
   "revealed-text": [
+    {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
@@ -797,6 +939,11 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    },
+    {
+      "slug": "medicine-buddha-sutra",
+      "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
     },
     {
       "slug": "qingjing-jing",
@@ -816,8 +963,18 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -888,9 +1045,19 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
     }
   ],
   "sexual-ethics": [
+    {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
@@ -928,6 +1095,11 @@
   ],
   "suffering-as-purifying": [
     {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
       "religion": "佛教-巴利"
@@ -937,6 +1109,11 @@
     {
       "slug": "haggai",
       "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "joel",
+      "name_zh": "約珥書",
       "religion": "猶太教"
     },
     {
@@ -994,6 +1171,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "joel",
+      "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -1025,6 +1207,11 @@
     {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-timothy",
+      "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1083,6 +1270,18 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "yoga-sutra",
+      "name_zh": "瑜伽經",
+      "religion": "印度教"
+    }
+  ],
+  "universal-resurrection": [
+    {
+      "slug": "sblgnt-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "vision-experience": [
