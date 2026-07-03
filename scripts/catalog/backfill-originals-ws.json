@@ -80,6 +80,36 @@
       "version": "Wikisource 希臘通行本",
       "tier": "核心",
       "notes": "柏拉圖《斐多篇》希臘原文（單頁）"
+    },
+    {
+      "slug": "mabinogion-cy-1",
+      "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
+      "name_en": "Mabinogion Vol 1 (Welsh)",
+      "religion": "凱爾特",
+      "language": "威爾斯",
+      "lang": "cy",
+      "wikisource_title": "Mabinogion J M Edwards Cyf 1",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "mabinogion-st",
+      "version": "Wikisource 威爾斯 J. M. Edwards 版",
+      "tier": "核心",
+      "notes": "四支馬比諾吉（Pwyll/Branwen/Manawyddan/Math）+ 導論，威爾斯原文"
+    },
+    {
+      "slug": "mabinogion-cy-2",
+      "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
+      "name_en": "Mabinogion Vol 2 (Welsh)",
+      "religion": "凱爾特",
+      "language": "威爾斯",
+      "lang": "cy",
+      "wikisource_title": "Mabinogion J M Edwards Cyf 2",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "mabinogion-st",
+      "version": "Wikisource 威爾斯 J. M. Edwards 版",
+      "tier": "核心",
+      "notes": "Rhonabwy/Taliesin/Lludd/Peredur + 導論，威爾斯原文"
     }
   ]
 }

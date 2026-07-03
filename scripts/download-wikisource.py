@@ -47,6 +47,8 @@ WS_API_LANG = {
     "ru": "https://ru.wikisource.org/w/api.php",
     "he": "https://he.wikisource.org/w/api.php",
     "de": "https://de.wikisource.org/w/api.php",
+    "is": "https://is.wikisource.org/w/api.php",
+    "cy": "https://cy.wikisource.org/w/api.php",
 }
 WS_API = WS_API_DEFAULT  # mutated via --lang in main()
 USER_AGENT = "religions-history-research/0.1 (academic research; contact: psyhangsau@gmail.com; +https://github.com/Hangsau/religions-history)"

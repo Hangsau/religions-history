@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**382** 部
-- 已翻譯：**77** / 382
-- 已標籤：**376** / 382
+- 核心總數：**384** 部
+- 已翻譯：**77** / 384
+- 已標籤：**376** / 384
 
 ## 各宗教核心進度
 
@@ -19,9 +19,9 @@
 | 儒教 | 9 | 4 | 9 |
 | 瑣羅亞斯德 | 8 | 0 | 8 |
 | 古埃及 | 8 | 0 | 8 |
+| 凱爾特 | 6 | 0 | 4 |
 | 諾斯底 | 5 | 0 | 5 |
 | 美洲 | 4 | 0 | 4 |
-| 凱爾特 | 4 | 0 | 4 |
 | 伊斯蘭 | 4 | 1 | 4 |
 | 兩河 | 3 | 0 | 3 |
 | 北歐 | 3 | 0 | 3 |
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 182 |
+| original | 184 |
 | translation | 197 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**14** 個 / 核心 **47** 部
-- 名單：瑣羅亞斯德、古埃及、諾斯底、凱爾特、美洲、北歐、兩河、耆那教、古希臘羅馬、斯拉夫、非洲、錫克教、巴哈伊、神道
+- 唯一英譯本宗教：**14** 個 / 核心 **46** 部
+- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、兩河、凱爾特、北歐、非洲、斯拉夫、古希臘羅馬、耆那教、錫克教、神道、巴哈伊
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -455,6 +455,15 @@
 - `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯– 標✓
 - `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標✓
 
+### 凱爾特（6 部）
+
+- `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）譯– 標✓
+- `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）譯– 標✓
+- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
+- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
+
 ### 諾斯底（5 部）
 
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
@@ -469,13 +478,6 @@
 - `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）譯– 標✓
 - `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
 - `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標✓
-
-### 凱爾特（4 部）
-
-- `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）譯– 標✓
-- `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）譯– 標✓
-- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
-- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
 
 ### 伊斯蘭（4 部）
 
