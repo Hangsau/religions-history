@@ -21,5 +21,35 @@
   "tier": "核心",
   "notes": null,
   "is_original_language": false,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "classical-antiquity",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "dualistic-cosmos",
+    "grace-from-god",
+    "messianism",
+    "monotheist-exclusive",
+    "salvation-by-faith",
+    "theophany"
+  ],
+  "keywords": [
+    "道",
+    "耶穌",
+    "基督",
+    "彌賽亞",
+    "施洗約翰",
+    "永生",
+    "重生",
+    "恩典",
+    "真理",
+    "聖靈",
+    "光",
+    "黑暗",
+    "拿撒勒",
+    "迦拿",
+    "和合本"
+  ],
+  "tag_status": "done"
 }
