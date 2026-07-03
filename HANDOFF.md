@@ -35,19 +35,23 @@
 - **安全網**：沒把握不自動標；`audit-core.py` 新增「疑似音譯 / 咒語，待人工確認 text_role」清單（標題含 咒 / 陀羅尼 / 真言 / mantra）+ `text_role` 覆蓋統計。語料庫 250+ 陀羅尼文本幾乎全在 `tier=總集逐部`，非核心，待跑到該 tier 時人工確認再標。
 - **已分類**：`heart-sutra-kumarajiva` + `heart-sutra-xuanzang` → `contested`（Nattier 假說，漢傳主文本古典漢語原樣保留）。
 
-**Pipeline A：兩河 + 神道 核心英譯收集（2026-07-03）**
-- **原則**：原文優先，但原文難尋時先收英譯 fallback（誠實標 `is_original_language=false`），原文待 Phase 2 補。用戶明示「拿到英譯再補原文，也是沒辦法中的辦法」。
-- **兩河（新，7 部）** `scripts/catalog/mesopotamia-st.json`：核心＝`enuma-elish-stc`（創世七碑/Enuma Elish）、`epic-of-gilgamesh-st`、`code-of-hammurabi-st`；次要 4 部（巴比倫創世傳說 / 伊什塔爾與伊茲杜巴 / 迦勒底洪水記 / 巴比倫亞述神話傳說）。全 sacred-texts 英譯，verify PASS。
-- **神道（新，2 部）** `scripts/catalog/shinto-st.json`：核心＝`kojiki-chamberlain`（古事記，Chamberlain 1882 英譯，192 章）；次要＝`kogoshui`（古語拾遺）。verify PASS。（注：`shinto-ws.json` 的日文原文條目仍 deferred 待 NDL。）
-- **CATALOG_MAP**：`download-sacred-texts.py` 已加「兩河→mesopotamia-st.json」「神道→shinto-st.json」。
-- **核心數** 365→369（兩河 3 + 神道 1 新核心）。跑著的翻譯管線 `--skip-done` 會自動接手翻這 9 部。
+**Pipeline A：古代宗教核心英譯收集（2026-07-03，本 session 共 +27 部）**
+- **原則**：原文優先，但原文難尋時先收英譯 fallback（誠實標 `is_original_language=false`），原文待 Phase 2 補。用戶明示「拿到英譯再補原文，也是沒辦法中的辦法」。全走 `download-sacred-texts.py`（Cloudflare-bypass UA + 禮貌節奏），逐部 verify PASS。
+- **兩河（+7）** `mesopotamia-st.json`：核心＝創世七碑(Enuma Elish)/吉爾伽美什史詩/漢摩拉比法典；次要 4。
+- **神道（+2）** `shinto-st.json`：核心＝古事記(Chamberlain 英譯,192 章)；次要＝古語拾遺。（日文原文條目仍在 `shinto-ws.json` deferred 待 NDL。）
+- **古埃及（+12，核心 2→8）** `egypt-st.json`：新核心＝諸神傳說/門之書/阿姆杜阿特之書/埃及天堂地獄/伊西斯悲歌/葬祭儀軌；次要＝魔法/智慧書/羅塞塔石碑等。
+- **斯拉夫（+6，核心 0→2）** `slavic-st.json`：異教無成文經典，以史詩＋民族誌為主要來源。核心＝伊戈爾遠征記/俄羅斯人民之歌(Ralston)；次要 4 部民間故事。
+- **CATALOG_MAP** 已加：兩河/神道/斯拉夫 三 catalog。核心數 365→377。跑著的翻譯管線 `--skip-done` 下輪重算佇列時自動接手（本次已在跑的 run 佇列在啟動時就固定，故要等下一輪或重啟才翻到這 27 部）。
+- **爬蟲節奏**：本 session 已做 4 次 sacred-texts 拉取，之後暫停爬取讓 rate 冷卻（用戶提醒「別撞攔截」）。
 
 **Phase 2 原文層待辦（需新寫 downloader，均需爬蟲）**
 - **兩河原文**：ETCSL（Oxford 蘇美語轉寫）— 無 downloader。
 - **神道原文**：NDL / ja.wikisource 日文全文（古事記 / 日本書紀 / 延喜式）— ja.wikisource 多僅目錄，全文在 NDL，無 downloader。
 - **Popol Vuh（瑪雅）**：**不在 sacred-texts**（nam/maya 僅 cbc/ybac/mhw 三部已收），需另找專屬來源（Ximénez 手稿 K'iche' 原文 / 公版英譯）。
-- **斯拉夫**：**sacred-texts 無此傳統**（neu/ 僅 Basque/Celtic/England/Icelandic/Roma）；真缺口，需 Primary Chronicle 等專屬來源。
+- **北歐**：散文埃達（Prose Edda, Snorri）為主要缺項；sacred-texts neu/ice 為 landing page，路徑未清，需再查（詩體埃達 neu/pre 已收）。
 - **分類折疊（非真缺口）**：`audit-core.py` 缺口清單的 瑪雅/阿茲特克/印加 已收在 `美洲` 傘下、赫爾墨斯 收在 `諾斯底` 傘下，均已在翻譯佇列中；如要作為獨立宗教瀏覽需另議 religion 欄位重分類（影響 INDEX/tag-index，未做）。
+
+**LLM fleet 擴充（討論中，2026-07-03）**：用戶考慮加便宜 worker 分攤 MiniMax-M3 流量。關鍵發現：`translate.py:206 call_m3` 靠 `claude -p` + `ANTHROPIC_BASE_URL/AUTH_TOKEN/MODEL` 打 MiniMax Anthropic-相容端點 → 任何有 Anthropic 端點的廠商（DeepSeek/智譜 GLM-4.6/Moonshot Kimi K2，皆中文母語且便宜）換三行 env 即 drop-in，加 profile pool 約十幾行。建議分工：英譯 fallback→便宜 worker；難古典原文→留強模型；漢傳/和合本 原樣保留不耗 LLM。待用戶決定 provider + 辦 key。
 
 ## 策略（2026-07-01）
 
