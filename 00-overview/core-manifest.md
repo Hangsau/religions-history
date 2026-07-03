@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**386** 部
-- 已翻譯：**77** / 386
-- 已標籤：**376** / 386
+- 核心總數：**390** 部
+- 已翻譯：**77** / 390
+- 已標籤：**376** / 390
 
 ## 各宗教核心進度
 
@@ -20,6 +20,7 @@
 | 瑣羅亞斯德 | 8 | 0 | 8 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 6 | 0 | 4 |
+| 耆那教 | 6 | 0 | 2 |
 | 諾斯底 | 5 | 0 | 5 |
 | 美洲 | 4 | 0 | 4 |
 | 北歐 | 4 | 0 | 3 |
@@ -29,7 +30,6 @@
 | 現代新興 | 2 | 0 | 2 |
 | 錫克教 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
-| 耆那教 | 2 | 0 | 2 |
 | 神道 | 1 | 0 | 1 |
 | 巴哈伊 | 1 | 0 | 1 |
 
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 186 |
+| original | 190 |
 | translation | 197 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**14** 個 / 核心 **45** 部
-- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、北歐、兩河、凱爾特、錫克教、非洲、耆那教、古希臘羅馬、神道、斯拉夫、巴哈伊
+- 唯一英譯本宗教：**13** 個 / 核心 **43** 部
+- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、北歐、兩河、凱爾特、古希臘羅馬、錫克教、非洲、神道、巴哈伊、斯拉夫
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -464,6 +464,15 @@
 - `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
 - `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
 
+### 耆那教（6 部）
+
+- `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
+- `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
+- `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+
 ### 諾斯底（5 部）
 
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
@@ -519,11 +528,6 @@
 
 - `ife-mythology` 伊費神話 (約魯巴)（English (translation)）譯– 標✓
 - `yoruba-religion` 約魯巴宗教與神話（English (translation)）譯– 標✓
-
-### 耆那教（2 部）
-
-- `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
-- `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
 
 ### 神道（1 部）
 

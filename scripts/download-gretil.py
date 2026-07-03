@@ -218,6 +218,10 @@ def download_scripture(entry: dict) -> dict:
         "tier": entry.get("tier"),
         "notes": entry.get("notes"),
     }
+    for k in ("text_role", "is_original_language", "translation_of", "original_of", "composition_note"):
+        v = entry.get(k)
+        if v is not None:
+            meta[k] = v
     (TRANSLATIONS_DIR / slug / "meta.json").write_bytes(
         (json.dumps(meta, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     )
@@ -226,7 +230,8 @@ def download_scripture(entry: dict) -> dict:
 
 
 def load_catalog(religion: str) -> list[dict]:
-    name_map = {"印度教梵文": "hinduism-gretil.json", "印度教": "hinduism-gretil.json"}
+    name_map = {"印度教梵文": "hinduism-gretil.json", "印度教": "hinduism-gretil.json",
+                "耆那教": "jainism-gretil.json"}
     if religion not in name_map:
         sys.exit(f"unknown religion: {religion}")
     path = CATALOG_DIR / name_map[religion]
@@ -242,7 +247,7 @@ def load_catalog(religion: str) -> list[dict]:
 
 
 def find_entry(slug: str) -> dict | None:
-    for cat_file in CATALOG_DIR.glob("hinduism-gretil*.json"):
+    for cat_file in CATALOG_DIR.glob("*-gretil*.json"):
         data = json.loads(cat_file.read_text(encoding="utf-8"))
         for e in data["scriptures"]:
             if e["slug"] == slug:

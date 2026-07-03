@@ -1,0 +1,72 @@
+{
+  "religion": "耆那教",
+  "source_platform": "GRETIL",
+  "license": "Academic use (GRETIL reference)",
+  "language": "半摩揭陀俗語",
+  "notes": "GRETIL 2_prakrt/ 耆那教 Ardhamāgadhī Prakrit 原文（IAST UTF-8）。對應 sacred-texts Jacobi 19c 英譯 (jain-sbe22/jain-sbe45)。",
+  "scriptures": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "gretil_path": "2_prakrt/ayarangu.htm",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "name_en": "Ācārāṅga Sūtra (Āyāraṃga, Prakrit)",
+      "name_original": "आयारंग",
+      "language": "半摩揭陀俗語",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "jain-sbe22",
+      "tier": "核心",
+      "notes": "第一阿含（Aṅga），耆那教最古經典，Ardhamāgadhī 原文"
+    },
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "gretil_path": "2_prakrt/suyagadu.htm",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "name_en": "Sūtrakṛtāṅga (Sūyagaḍa, Prakrit)",
+      "name_original": "सूयगड",
+      "language": "半摩揭陀俗語",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "jain-sbe45",
+      "tier": "核心",
+      "notes": "第二阿含（Aṅga），Ardhamāgadhī 原文"
+    },
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "gretil_path": "2_prakrt/uttaraju.htm",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "name_en": "Uttarādhyayana Sūtra (Uttarajjhayaṇa, Prakrit)",
+      "name_original": "उत्तरज्झयण",
+      "language": "半摩揭陀俗語",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "jain-sbe45",
+      "tier": "核心",
+      "notes": "大雄臨終說法集，Ardhamāgadhī 原文"
+    },
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "gretil_path": "2_prakrt/dasaveyu.htm",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "name_en": "Daśavaikālika Sūtra (Dasaveyāliya, Prakrit)",
+      "name_original": "दसवेयालिय",
+      "language": "半摩揭陀俗語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "耆那教僧團行儀根本經，Ardhamāgadhī 原文；補收"
+    },
+    {
+      "slug": "jain-isibhasiyaim-pkt",
+      "gretil_path": "2_prakrt/isibhasu.htm",
+      "name_zh": "仙人所說（半摩揭陀原文）",
+      "name_en": "Isibhāsiyāiṃ (Ṛṣibhāṣitāni, Prakrit)",
+      "name_original": "इसिभासियाइं",
+      "language": "半摩揭陀俗語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "仙人法語集，Ardhamāgadhī 原文；補收"
+    }
+  ]
+}
