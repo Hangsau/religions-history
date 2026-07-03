@@ -1,0 +1,23 @@
+{
+  "slug": "sefaria-midrash-mishlei",
+  "name_zh": "Midrash Mishlei",
+  "name_en": "Midrash Mishlei",
+  "name_original": "Midrash Mishlei",
+  "religion": "猶太教",
+  "tradition": "Midrash",
+  "language": "Hebrew",
+  "version": "Sefaria edition",
+  "version_date": "—",
+  "source_platform": "Sefaria",
+  "source_url": "https://www.sefaria.org/Midrash%20Mishlei",
+  "downloaded_at": "2026-07-02T20:29:59+00:00",
+  "size_bytes": 232746,
+  "checksum_sha256": "4d555b64e7b26d0120c8777ddb7c6eba73539ca98ec86a2c3d73f8cd184b5737",
+  "chapter_count": 31,
+  "license": "CC BY-NC 4.0 (Sefaria)",
+  "verified": false,
+  "tier": "Sefaria full crawl",
+  "is_original_language": true,
+  "notes": "Category: Midrash",
+  "text_role": "original"
+}

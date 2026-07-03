@@ -5,34 +5,37 @@
 
 ## 統計總覽
 
-- 總計: **4174** 部
-- 已驗證: 2377
-- 原文 (vs 譯文): 3609 / 4174
-- 總大小: ~509.4 MB
+- 總計: **4206** 部
+- 已驗證: 2404
+- 原文 (vs 譯文): 3832 / 4206
+- 總大小: ~517.5 MB
 
 ## 按宗教
 
 | 宗教 | 部數 |
 |------|------|
 | 佛教 | 2437 |
-| 猶太教 | 1384 |
+| 猶太教 | 1389 |
 | 基督教 | 169 |
 | 佛教-巴利 | 39 |
 | 印度教 | 33 |
 | 儒教 | 26 |
 | 古希臘羅馬 | 18 |
 | 道教 | 17 |
+| 古埃及 | 14 |
 | 瑣羅亞斯德 | 8 |
+| 兩河 | 7 |
 | 伊斯蘭 | 7 |
 | 美洲 | 6 |
 | 凱爾特 | 6 |
 | 非洲 | 6 |
+| 斯拉夫 | 6 |
 | 諾斯底 | 5 |
 | 錫克教 | 3 |
 | 北歐 | 3 |
 | 現代新興 | 2 |
-| 古埃及 | 2 |
 | 耆那教 | 2 |
+| 神道 | 2 |
 | 巴哈伊 | 1 |
 
 ## 按傳統 (宗教 - 傳統)
@@ -40,7 +43,7 @@
 | 傳統 | 部數 |
 |------|------|
 | 佛教 - 漢傳 | 2429 |
-| 猶太教 - Commentary | 1103 |
+| 猶太教 - Commentary | 1108 |
 | 基督教 | 142 |
 | 猶太教 - Halakhah | 88 |
 | 猶太教 - Mishnah | 64 |
@@ -53,18 +56,21 @@
 | 儒教 | 26 |
 | 古希臘羅馬 | 18 |
 | 道教 | 17 |
+| 古埃及 | 14 |
 | 瑣羅亞斯德 | 8 |
 | 佛教 - 巴利 | 8 |
+| 兩河 | 7 |
 | 伊斯蘭 | 7 |
 | 美洲 | 6 |
 | 凱爾特 | 6 |
 | 非洲 | 6 |
+| 斯拉夫 | 6 |
 | 諾斯底 | 5 |
 | 錫克教 | 3 |
 | 北歐 | 3 |
 | 現代新興 | 2 |
-| 古埃及 | 2 |
 | 耆那教 | 2 |
+| 神道 | 2 |
 | 猶太教 - Guides | 2 |
 | 猶太教 - Tanakh | 2 |
 
@@ -73,11 +79,11 @@
 | 來源 | 部數 |
 |------|------|
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
-| Sefaria | 1374 |
+| Sefaria | 1379 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | zh.wikisource.org | 103 |
+| sacred-texts.com | 98 |
 | la.wikisource.org | 76 |
-| sacred-texts.com | 71 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
 | SuttaCentral | 47 |
 | GRETIL | 32 |
@@ -2599,6 +2605,13 @@
 | `yi-li` | 儀禮 | 儒教 | 209255 |
 | `zhou-li` | 周禮 | 儒教 | 185237 |
 | `zhuzi-yulei` | 朱子語類 | 儒教 | 5884169 |
+| `babylonian-legends-creation` | 巴比倫創世傳說 | 兩河 | 106550 |
+| `chaldean-account-deluge` | 迦勒底洪水記 | 兩河 | 41694 |
+| `code-of-hammurabi-st` | 漢摩拉比法典 | 兩河 | 111749 |
+| `enuma-elish-stc` | 創世七碑（埃努瑪·埃利什） | 兩河 | 218473 |
+| `epic-of-gilgamesh-st` | 吉爾伽美什史詩 | 兩河 | 130399 |
+| `ishtar-and-izdubar` | 伊什塔爾與伊茲杜巴（吉爾伽美什） | 兩河 | 263385 |
+| `myths-legends-babylonia-assyria` | 巴比倫與亞述神話傳說 | 兩河 | 1075377 |
 | `book-of-kells` | 凱爾斯之書 | 凱爾特 | 134510 |
 | `carmina-gadelica-1` | Carmina Gadelica Vol 1 | 凱爾特 | 397459 |
 | `carmina-gadelica-2` | Carmina Gadelica Vol 2 | 凱爾特 | 575130 |
@@ -2641,8 +2654,20 @@
 | `vaisheshika-sutra-kanada` | 勝論經（迦那陀） | 印度教 | 24334 |
 | `valmiki-ramayana` | 羅摩衍那（Valmiki, critical） | 印度教 | 2387863 |
 | `yoga-sutra` | 瑜伽經 | 印度教 | 18293 |
+| `book-of-am-tuat` | 阿姆杜阿特之書（幽冥界之書） | 古埃及 | 144976 |
+| `book-of-gates` | 門之書 | 古埃及 | 192849 |
+| `burden-of-isis` | 伊西斯的悲歌（奧西里斯讚歌） | 古埃及 | 54895 |
+| `demotic-magical-papyrus` | 倫敦與萊頓世俗體魔法紙草 | 古埃及 | 163642 |
 | `egyptian-book-of-dead` | 古埃及死者之書 | 古埃及 | 976311 |
+| `egyptian-heaven-and-hell` | 埃及的天堂與地獄 | 古埃及 | 251752 |
+| `egyptian-ideas-future-life` | 埃及人的來世觀 | 古埃及 | 265542 |
+| `egyptian-magic` | 埃及魔法 | 古埃及 | 318509 |
+| `legends-of-the-gods-egypt` | 諸神傳說（古埃及文本） | 古埃及 | 336896 |
+| `liturgy-funerary-offerings` | 葬祭供養儀軌 | 古埃及 | 220637 |
 | `pyramid-texts-mercer` | 金字塔銘文 | 古埃及 | 540761 |
+| `religion-thought-ancient-egypt` | 古埃及宗教與思想的發展 | 古埃及 | 716650 |
+| `rosetta-stone` | 羅塞塔石碑 | 古埃及 | 121072 |
+| `wisdom-of-the-egyptians` | 埃及智慧書（含普塔霍特普訓誡） | 古埃及 | 362895 |
 | `aeschylus-works` | 埃斯庫羅斯戲劇 (含宗教面) | 古希臘羅馬 | 397412 |
 | `argonautica` | 阿爾戈尼卡 (羅得島阿波羅尼俄斯) | 古希臘羅馬 | 877223 |
 | `hesiod-works` | 赫西俄德 (神譜 + 工作與時日) | 古希臘羅馬 | 237518 |
@@ -2831,6 +2856,12 @@
 | `vulgate-zechariah` | 撒迦利亞書（武加大） | 基督教 | 28568 |
 | `vulgate-zephaniah` | 西番雅書（武加大） | 基督教 | 7308 |
 | `splendour-of-god` | 上帝的光輝 (巴哈歐拉著作節錄) | 巴哈伊 | 149561 |
+| `folk-tales-from-russian` | 俄羅斯民間故事 | 斯拉夫 | 253759 |
+| `heroic-ballads-servia` | 塞爾維亞英雄敘事詩 | 斯拉夫 | 253639 |
+| `key-of-gold-czech-tales` | 金鑰匙：捷克民間故事 | 斯拉夫 | 182707 |
+| `slavonic-folk-tales-sixty` | 斯拉夫民間故事六十篇 | 斯拉夫 | 589273 |
+| `songs-of-russian-people` | 俄羅斯人民之歌 | 斯拉夫 | 657569 |
+| `tale-of-igor-campaign` | 伊戈爾遠征記 | 斯拉夫 | 212434 |
 | `amos` | 阿摩司書 | 猶太教 | 36104 |
 | `bereishit-rabbah` | 創世記拉巴 | 猶太教 | 2337295 |
 | `cabala-mathers` | 卡巴拉 (Mathers 譯) | 猶太教 | 143722 |
@@ -3050,6 +3081,8 @@
 | `sefaria-boaz-on-pirkei-avot` | Boaz on Pirkei Avot | 猶太教 | 48898 |
 | `sefaria-buber-footnotes-on-midrash-mishlei` | Buber footnotes on Midrash Mishlei | 猶太教 | 390 |
 | `sefaria-chagigah` | Chagigah | 猶太教 | 3412 |
+| `sefaria-chiddushei-anshei-shem-on-sanhedrin` | Chiddushei Anshei Shem on Sanhedrin | 猶太教 | 199 |
+| `sefaria-chiddushei-anshei-shem-on-yoma` | Chiddushei Anshei Shem on Yoma | 猶太教 | 190 |
 | `sefaria-chiddushei-haradal-on-bamidbar-rabbah` | Chiddushei HaRadal on Bamidbar Rabbah | 猶太教 | 16080 |
 | `sefaria-chiddushei-haradal-on-devarim-rabbah` | Chiddushei HaRadal on Devarim Rabbah | 猶太教 | 9748 |
 | `sefaria-chiddushei-haradal-on-eikhah-rabbah` | Chiddushei HaRadal on Eikhah Rabbah | 猶太教 | 1226 |
@@ -3225,6 +3258,8 @@
 | `sefaria-haggahot-ya-avetz-on-mishnah-peah` | Haggahot Ya'avetz on Mishnah Peah | 猶太教 | 885 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-sheviit` | Haggahot Ya'avetz on Mishnah Sheviit | 猶太教 | 74 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-terumot` | Haggahot Ya'avetz on Mishnah Terumot | 猶太教 | 724 |
+| `sefaria-hamaor-hagadol-on-sotah` | HaMaor HaGadol on Sotah | 猶太教 | 10932 |
+| `sefaria-hamaor-hakatan-on-chagigah` | HaMaor HaKatan on Chagigah | 猶太教 | 5991 |
 | `sefaria-hon-ashir-on-mishnah-arakhin` | Hon Ashir on Mishnah Arakhin | 猶太教 | 3178 |
 | `sefaria-hon-ashir-on-mishnah-avodah-zarah` | Hon Ashir on Mishnah Avodah Zarah | 猶太教 | 736 |
 | `sefaria-hon-ashir-on-mishnah-bava-batra` | Hon Ashir on Mishnah Bava Batra | 猶太教 | 7838 |
@@ -3351,6 +3386,7 @@
 | `sefaria-ikar-tosafot-yom-tov-on-mishnah-zavim` | Ikar Tosafot Yom Tov on Mishnah Zavim | 猶太教 | 7265 |
 | `sefaria-ikar-tosafot-yom-tov-on-mishnah-zevachim` | Ikar Tosafot Yom Tov on Mishnah Zevachim | 猶太教 | 24381 |
 | `sefaria-ikar-tosafot-yom-tov-on-pirkei-avot` | Ikar Tosafot Yom Tov on Pirkei Avot | 猶太教 | 16879 |
+| `sefaria-introdution-to-hamaor` | Introdution to HaMaor | 猶太教 | 21386 |
 | `sefaria-kohelet-rabbah` | Kohelet Rabbah | 猶太教 | 79281 |
 | `sefaria-lechem-shamayim-introduction-to-mishnah-commentary` | Lechem Shamayim, Introduction to Mishnah Commentary | 猶太教 | 67709 |
 | `sefaria-lechem-shamayim-on-mishnah-arakhin` | Lechem Shamayim on Mishnah Arakhin | 猶太教 | 9189 |
@@ -4225,6 +4261,8 @@
 | `denkard-3-bahman-yasht` | Pahlavi Texts Part III | 瑣羅亞斯德 | 730626 |
 | `denkard-bk-5` | Pahlavi Texts Part V (Contents of the Nasks) | 瑣羅亞斯德 | 411471 |
 | `denkard-bk-7-8` | Dinkard Books 8-9 | 瑣羅亞斯德 | 957532 |
+| `kogoshui` | 古語拾遺 | 神道 | 133215 |
+| `kojiki-chamberlain` | 古事記 | 神道 | 1088822 |
 | `aztec-rva` | 阿茲特克儀禮 | 美洲 | 100087 |
 | `chilam-balam` | 契倫·巴蘭之書 (Chumayel) | 美洲 | 499667 |
 | `inca-rites` | 印加儀禮與法律 | 美洲 | 99192 |

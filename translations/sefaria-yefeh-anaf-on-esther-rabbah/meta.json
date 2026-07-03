@@ -10,7 +10,7 @@
   "version_date": "—",
   "source_platform": "Sefaria",
   "source_url": "https://www.sefaria.org/Yefeh%20Anaf%20on%20Esther%20Rabbah",
-  "downloaded_at": "2026-07-02T19:30:54+00:00",
+  "downloaded_at": "2026-07-02T19:39:18+00:00",
   "size_bytes": 1150,
   "checksum_sha256": "b10b10d5a65847d1652f013f42c632aad98028d0a2fc0a989b8f4815097a0285",
   "chapter_count": 1,
@@ -18,5 +18,6 @@
   "verified": false,
   "tier": "Sefaria full crawl",
   "is_original_language": true,
-  "notes": "Category: Commentary"
+  "notes": "Category: Commentary",
+  "text_role": "original"
 }

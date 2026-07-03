@@ -10,7 +10,7 @@
   "version_date": "—",
   "source_platform": "Sefaria",
   "source_url": "https://www.sefaria.org/Yedei%20Moshe%20on%20Kohelet%20Rabbah",
-  "downloaded_at": "2026-07-02T19:30:49+00:00",
+  "downloaded_at": "2026-07-02T19:39:15+00:00",
   "size_bytes": 675,
   "checksum_sha256": "6d04566f5def70b352b4cf65b74580f71bf7e188820ce90302503ec5523fd8ef",
   "chapter_count": 2,
@@ -18,5 +18,6 @@
   "verified": false,
   "tier": "Sefaria full crawl",
   "is_original_language": true,
-  "notes": "Category: Commentary"
+  "notes": "Category: Commentary",
+  "text_role": "original"
 }

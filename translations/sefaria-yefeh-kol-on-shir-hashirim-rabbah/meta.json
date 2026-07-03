@@ -10,7 +10,7 @@
   "version_date": "—",
   "source_platform": "Sefaria",
   "source_url": "https://www.sefaria.org/Yefeh%20Kol%20on%20Shir%20HaShirim%20Rabbah",
-  "downloaded_at": "2026-07-02T19:31:07+00:00",
+  "downloaded_at": "2026-07-02T19:39:31+00:00",
   "size_bytes": 14753,
   "checksum_sha256": "74b9b8ccbeb1885b40b529f39646a998965afd01af460472cc036172006a1256",
   "chapter_count": 8,
@@ -18,5 +18,6 @@
   "verified": false,
   "tier": "Sefaria full crawl",
   "is_original_language": true,
-  "notes": "Category: Commentary"
+  "notes": "Category: Commentary",
+  "text_role": "original"
 }

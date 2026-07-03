@@ -10,7 +10,7 @@
   "version_date": "—",
   "source_platform": "Sefaria",
   "source_url": "https://www.sefaria.org/Yefeh%20To'ar%20on%20Bereshit%20Rabbah",
-  "downloaded_at": "2026-07-02T19:33:45+00:00",
+  "downloaded_at": "2026-07-02T19:42:02+00:00",
   "size_bytes": 159628,
   "checksum_sha256": "2a0fa11da40f3b98e2a6b89aa211366e688110ecabf9b903878350c9d9c2ee7c",
   "chapter_count": 96,
@@ -18,5 +18,6 @@
   "verified": false,
   "tier": "Sefaria full crawl",
   "is_original_language": true,
-  "notes": "Category: Commentary"
+  "notes": "Category: Commentary",
+  "text_role": "original"
 }

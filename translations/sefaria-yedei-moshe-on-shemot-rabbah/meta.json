@@ -10,7 +10,7 @@
   "version_date": "—",
   "source_platform": "Sefaria",
   "source_url": "https://www.sefaria.org/Yedei%20Moshe%20on%20Shemot%20Rabbah",
-  "downloaded_at": "2026-07-02T19:28:02+00:00",
+  "downloaded_at": "2026-07-02T19:36:42+00:00",
   "size_bytes": 40771,
   "checksum_sha256": "b5b4b51cace6f76eccc508cc4a9644e393ae7512080f72e375697eeac427f02b",
   "chapter_count": 36,
@@ -18,5 +18,6 @@
   "verified": false,
   "tier": "Sefaria full crawl",
   "is_original_language": true,
-  "notes": "Category: Commentary"
+  "notes": "Category: Commentary",
+  "text_role": "original"
 }

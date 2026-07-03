@@ -10,7 +10,7 @@
   "version_date": "—",
   "source_platform": "Sefaria",
   "source_url": "https://www.sefaria.org/Yefeh%20To'ar%20on%20Shemot%20Rabbah",
-  "downloaded_at": "2026-07-02T19:34:50+00:00",
+  "downloaded_at": "2026-07-02T19:43:12+00:00",
   "size_bytes": 119143,
   "checksum_sha256": "f5f9aca77e462a4620223fe175a4196d58b9bec717572f456075a37828684994",
   "chapter_count": 52,
@@ -18,5 +18,6 @@
   "verified": false,
   "tier": "Sefaria full crawl",
   "is_original_language": true,
-  "notes": "Category: Commentary"
+  "notes": "Category: Commentary",
+  "text_role": "original"
 }
