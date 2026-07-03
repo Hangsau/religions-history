@@ -1,0 +1,70 @@
+{
+  "religion": "北歐",
+  "source_platform": "heimskringla.no",
+  "license": "Public domain / academic use (heimskringla.no, Guðni Jónsson editions)",
+  "language": "古諾斯語",
+  "notes": "heimskringla.no /wiki/ 頁預設古諾斯語（Norrønt）原文，Guðni Jónsson 校訂本。api.php 停用，改抓 HTML .mw-parser-output，剝語言選單表與版本 center 標頭。三部對應 sacred-texts 英譯（poetic-edda-bellows / heimskringla / volsunga-saga）。",
+  "scriptures": [
+    {
+      "slug": "poetic-edda-on",
+      "name_zh": "詩體埃達（古諾斯語原文）",
+      "name_en": "Poetic Edda / Eddukvæði (Old Norse)",
+      "name_original": "Eddukvæði",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "poetic-edda-bellows",
+      "expected_chapter_count": 46,
+      "tier": "核心",
+      "heim_pages": [
+        "Völuspá", "Hávamál", "Vafþrúðnismál", "Grímnismál", "Skírnismál",
+        "Hárbarðsljóð", "Hymiskviða", "Lokasenna", "Þrymskviða", "Alvíssmál",
+        "Völundarkviða", "Helgakviða Hjörvarðssonar", "Helgakviða Hundingsbana I",
+        "Völsungakviða in forna", "Frá dauða Sinfjötla", "Grípisspá", "Reginsmál",
+        "Fáfnismál", "Sigrdrífumál", "Sigurðarkviða in meiri", "Guðrúnarkviða in fyrsta",
+        "Sigurðarkviða in skamma", "Helreið Brynhildar", "Dráp Niflunga",
+        "Guðrúnarkviða in forna", "Guðrúnarkviða in þriðja", "Oddrúnarkviða",
+        "Atlakviða", "Atlamál in grænlenzku", "Guðrúnarhvöt", "Hamðismál",
+        "Baldrs draumar", "Rígsþula", "Hyndluljóð", "Völuspá in skamma",
+        "Gróttasöngr", "Grógaldr", "Fjölsvinnsmál", "Hjálmarskviða", "Hervararkviða",
+        "Hlöðskviða", "Hálfsrekkaljóð", "Heiðreksgátur", "Eddubrot", "Sólarljóð",
+        "Forspjallsljóð"
+      ],
+      "notes": "Guðni Jónsson《Eddukvæði》全 46 篇古諾斯語原文（Codex Regius 神話英雄詩 + Hervarar saga 詩 + Sólarljóð 等附錄）；對應 sacred-texts Bellows 英譯 poetic-edda-bellows"
+    },
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "name_en": "Heimskringla (Old Norse)",
+      "name_original": "Heimskringla",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "heimskringla",
+      "expected_chapter_count": 17,
+      "tier": "核心",
+      "heim_pages": [
+        "Prologus (Heimskringla)", "Ynglinga saga", "Saga Hálfdanar svarta",
+        "Haralds saga hins hárfagra", "Saga Hákonar góða",
+        "Sagan af Haraldi konungi gráfeld ok Hákoni jarli", "Saga Ólafs Tryggvasonar",
+        "Saga Ólafs hins helga", "Sagan af Magnúsi góða", "Sagan af Haraldi harðráða",
+        "Saga Ólafs kyrra", "Saga Magnús konungs berfœtts",
+        "Saga Sigurðar jórsalafara, Eysteins ok Ólafs",
+        "Saga Magnús blinda ok Haralds gilla", "Saga Inga Haraldssonar ok brœðra hans",
+        "Sagan af Hákoni herðibreið", "Saga Magnús konungs Erlingssonar"
+      ],
+      "notes": "斯諾里《赫姆斯克林格拉》挪威列王傳，Prologus + 16 saga 古諾斯語原文（Guðni Jónsson 本）；對應 sacred-texts 英譯 heimskringla"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "name_en": "Völsunga saga (Old Norse)",
+      "name_original": "Völsunga saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "volsunga-saga",
+      "expected_chapter_count": 1,
+      "tier": "核心",
+      "heim_pages": ["Völsunga saga"],
+      "notes": "《沃爾松傳奇》古諾斯語原文（單頁全 44 章，Guðni Jónsson 本）；對應 sacred-texts Morris 英譯 volsunga-saga"
+    }
+  ]
+}
