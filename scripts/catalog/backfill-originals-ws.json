@@ -230,6 +230,22 @@
       "version": "Wikisource 希臘通行本",
       "tier": "核心",
       "notes": "赫爾墨斯文集第一篇《牧人者》希臘原文（單篇）。獨立新收；el.wikisource 僅有此篇，非完整 Corpus Hermeticum，故不掛 thrice-greatest-hermes"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "name_en": "Guru Granth Sahib (Gurmukhi)",
+      "religion": "錫克教",
+      "language": "旁遮普",
+      "lang": "pa",
+      "wikisource_title": "ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "guru-granth-sahib-st",
+      "version": "Wikisource 古木基文字原文",
+      "expected_chapter_count": 10,
+      "tier": "核心",
+      "notes": "錫克教根本經《古魯格蘭特薩希卜》古木基（Gurmukhi）文字旁遮普原文（pa.wikisource 分 10 頁）；對應 sacred-texts 英譯 guru-granth-sahib-st"
     }
   ]
 }

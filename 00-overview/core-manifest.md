@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**399** 部
-- 已翻譯：**77** / 399
-- 已標籤：**376** / 399
+- 核心總數：**400** 部
+- 已翻譯：**77** / 400
+- 已標籤：**376** / 400
 
 ## 各宗教核心進度
 
@@ -26,9 +26,9 @@
 | 北歐 | 4 | 0 | 3 |
 | 伊斯蘭 | 4 | 1 | 4 |
 | 兩河 | 3 | 0 | 3 |
+| 錫克教 | 3 | 0 | 2 |
 | 斯拉夫 | 3 | 0 | 2 |
 | 現代新興 | 2 | 0 | 2 |
-| 錫克教 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
 | 神道 | 1 | 0 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 200 |
+| original | 201 |
 | translation | 196 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**12** 個 / 核心 **38** 部
-- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、北歐、兩河、凱爾特、錫克教、非洲、斯拉夫、神道、巴哈伊
+- 唯一英譯本宗教：**12** 個 / 核心 **37** 部
+- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、北歐、凱爾特、兩河、非洲、巴哈伊、斯拉夫、神道、錫克教
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -516,6 +516,12 @@
 - `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯– 標✓
 - `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯– 標✓
 
+### 錫克教（3 部）
+
+- `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯– 標–
+- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
+- `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+
 ### 斯拉夫（3 部）
 
 - `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標✓
@@ -526,11 +532,6 @@
 
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯– 標✓
-
-### 錫克教（2 部）
-
-- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
-- `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 
 ### 非洲（2 部）
 
