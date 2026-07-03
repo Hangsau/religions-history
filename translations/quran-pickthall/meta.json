@@ -20,5 +20,35 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "medieval",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "fasting",
+    "heaven-hell",
+    "monotheist-exclusive",
+    "pilgrimage",
+    "prayer",
+    "revealed-text"
+  ],
+  "keywords": [
+    "Allah",
+    "Muhammad",
+    "Qur'ân",
+    "surah",
+    "al-Fatihah",
+    "al-Baqarah",
+    "tawhid",
+    "sharia",
+    "hajj",
+    "salat",
+    "jannah",
+    "jahannam",
+    "Mecca",
+    "Iblis",
+    "Day of Judgment"
+  ],
+  "tag_status": "done"
 }

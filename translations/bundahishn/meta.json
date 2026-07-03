@@ -20,5 +20,33 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "medieval",
+  "genre": "commentary",
+  "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "dualistic-cosmos",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "Ahura Mazda",
+    "Angra Mainyu",
+    "Bundahishn",
+    "Bahman Yasht",
+    "Shayast la-Shayast",
+    "Pahlavi",
+    "Avesta",
+    "Zand",
+    "Mazdayasnian",
+    "Zoroaster",
+    "Amesha Spentas",
+    "creation",
+    "cosmology",
+    "twelve-thousand-years"
+  ],
+  "tag_status": "done"
 }

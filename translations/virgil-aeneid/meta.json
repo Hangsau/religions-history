@@ -20,5 +20,33 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "classical-antiquity",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "theophany"
+  ],
+  "keywords": [
+    "Virgil",
+    "Aeneas",
+    "Juno",
+    "Jove",
+    "Aeolus",
+    "Troy",
+    "Rome",
+    "Carthage",
+    "Latium",
+    "Dido",
+    "fate",
+    "Trojan War",
+    "founding myth",
+    "Latin epic",
+    "Pius Aeneas"
+  ],
+  "tag_status": "done"
 }

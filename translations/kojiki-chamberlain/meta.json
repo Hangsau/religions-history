@@ -20,5 +20,34 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "B.H. Chamberlain 1882 英譯. 古典日語 / 漢文原文待補（NDL）.",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "medieval",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "古事記",
+    "Kojiki",
+    "天照大神",
+    "Amaterasu",
+    "伊邪那岐",
+    "伊邪那美",
+    "Izanagi",
+    "Izanami",
+    "大國主",
+    "Okuninushi",
+    "天孫降臨",
+    "神代",
+    "神道",
+    "Records of Ancient Matters",
+    "Chamberlain"
+  ],
+  "tag_status": "done"
 }

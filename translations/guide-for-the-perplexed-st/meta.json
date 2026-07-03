@@ -20,5 +20,34 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "medieval",
+  "genre": "philosophy-doctrine",
+  "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "emanation",
+    "prophetic-revelation",
+    "study",
+    "theodicy"
+  ],
+  "keywords": [
+    "Maimonides",
+    "Rambam",
+    "邁蒙尼德",
+    "Moreh Nevukhim",
+    "迷途指津",
+    "Guide for the Perplexed",
+    "Aristotelianism",
+    "Neoplatonism",
+    "negative theology",
+    "Torah",
+    "Mitzvot",
+    "prophecy",
+    "creation",
+    "reason and faith",
+    "Arabic original"
+  ],
+  "tag_status": "done"
 }
