@@ -35,6 +35,20 @@
 - **安全網**：沒把握不自動標；`audit-core.py` 新增「疑似音譯 / 咒語，待人工確認 text_role」清單（標題含 咒 / 陀羅尼 / 真言 / mantra）+ `text_role` 覆蓋統計。語料庫 250+ 陀羅尼文本幾乎全在 `tier=總集逐部`，非核心，待跑到該 tier 時人工確認再標。
 - **已分類**：`heart-sutra-kumarajiva` + `heart-sutra-xuanzang` → `contested`（Nattier 假說，漢傳主文本古典漢語原樣保留）。
 
+**Pipeline A：兩河 + 神道 核心英譯收集（2026-07-03）**
+- **原則**：原文優先，但原文難尋時先收英譯 fallback（誠實標 `is_original_language=false`），原文待 Phase 2 補。用戶明示「拿到英譯再補原文，也是沒辦法中的辦法」。
+- **兩河（新，7 部）** `scripts/catalog/mesopotamia-st.json`：核心＝`enuma-elish-stc`（創世七碑/Enuma Elish）、`epic-of-gilgamesh-st`、`code-of-hammurabi-st`；次要 4 部（巴比倫創世傳說 / 伊什塔爾與伊茲杜巴 / 迦勒底洪水記 / 巴比倫亞述神話傳說）。全 sacred-texts 英譯，verify PASS。
+- **神道（新，2 部）** `scripts/catalog/shinto-st.json`：核心＝`kojiki-chamberlain`（古事記，Chamberlain 1882 英譯，192 章）；次要＝`kogoshui`（古語拾遺）。verify PASS。（注：`shinto-ws.json` 的日文原文條目仍 deferred 待 NDL。）
+- **CATALOG_MAP**：`download-sacred-texts.py` 已加「兩河→mesopotamia-st.json」「神道→shinto-st.json」。
+- **核心數** 365→369（兩河 3 + 神道 1 新核心）。跑著的翻譯管線 `--skip-done` 會自動接手翻這 9 部。
+
+**Phase 2 原文層待辦（需新寫 downloader，均需爬蟲）**
+- **兩河原文**：ETCSL（Oxford 蘇美語轉寫）— 無 downloader。
+- **神道原文**：NDL / ja.wikisource 日文全文（古事記 / 日本書紀 / 延喜式）— ja.wikisource 多僅目錄，全文在 NDL，無 downloader。
+- **Popol Vuh（瑪雅）**：**不在 sacred-texts**（nam/maya 僅 cbc/ybac/mhw 三部已收），需另找專屬來源（Ximénez 手稿 K'iche' 原文 / 公版英譯）。
+- **斯拉夫**：**sacred-texts 無此傳統**（neu/ 僅 Basque/Celtic/England/Icelandic/Roma）；真缺口，需 Primary Chronicle 等專屬來源。
+- **分類折疊（非真缺口）**：`audit-core.py` 缺口清單的 瑪雅/阿茲特克/印加 已收在 `美洲` 傘下、赫爾墨斯 收在 `諾斯底` 傘下，均已在翻譯佇列中；如要作為獨立宗教瀏覽需另議 religion 欄位重分類（影響 INDEX/tag-index，未做）。
+
 ## 策略（2026-07-01）
 
 **並行三 pipeline + 強追蹤防遺漏**：
