@@ -3,14 +3,35 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
+    }
+  ],
+  "Brahman": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "GRETIL": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "Hiraṇyagarbha": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
     }
   ],
   "Indaka": [
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "Iēsous Christos": [
@@ -20,6 +41,13 @@
       "religion": "基督教"
     }
   ],
+  "Katha Upanishad": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "Krētē": [
     {
       "slug": "sblgnt-titus",
@@ -27,11 +55,32 @@
       "religion": "基督教"
     }
   ],
+  "Naciketas": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "Nibbāna": [
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
+    }
+  ],
+  "Olivelle": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "Om": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
     }
   ],
   "Patañjali": [
@@ -48,11 +97,18 @@
       "religion": "基督教"
     }
   ],
+  "Sanskrit": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "Sūciloma": [
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "Titos": [
@@ -60,6 +116,13 @@
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "Vallī": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
     }
   ],
   "YHWH": [
@@ -99,6 +162,13 @@
       "religion": "猶太教"
     }
   ],
+  "Yama": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "abhyāsa": [
     {
       "slug": "yoga-sutra",
@@ -124,13 +194,20 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "aṣṭāṅga": [
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
+      "religion": "印度教"
+    }
+  ],
+  "bhakti": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
       "religion": "印度教"
     }
   ],
@@ -145,14 +222,14 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "dhamma": [
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "episkopos": [
@@ -166,7 +243,14 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
+    }
+  ],
+  "haṃsa": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
     }
   ],
   "kaivalya": [
@@ -187,7 +271,7 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "palingenesia": [
@@ -208,7 +292,7 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "prakṛti": [
@@ -243,14 +327,14 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "saddhā": [
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "samādhi": [
@@ -264,7 +348,7 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "shofar": [
@@ -278,7 +362,7 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "vairāgya": [
@@ -299,7 +383,7 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "yoga": [
@@ -313,13 +397,20 @@
     {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "īśvara": [
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
+      "religion": "印度教"
+    }
+  ],
+  "Śvetāśvatara": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
       "religion": "印度教"
     }
   ],
@@ -344,11 +435,18 @@
       "religion": "道教"
     }
   ],
+  "三明": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
   "三昧": [
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "三毒": [
@@ -617,6 +715,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
@@ -810,7 +913,7 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "利未": [
@@ -818,6 +921,13 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    }
+  ],
+  "割禮": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "十二大願": [
@@ -839,6 +949,13 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    }
+  ],
+  "十字架": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "印戒": [
@@ -876,6 +993,13 @@
       "religion": "儒教"
     }
   ],
+  "吠陀": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
   "呼吸": [
     {
       "slug": "huangting-neijing",
@@ -895,6 +1019,13 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    }
+  ],
+  "和平": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "哀求": [
@@ -918,6 +1049,20 @@
       "religion": "猶太教"
     }
   ],
+  "哲學": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "唵": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
   "善": [
     {
       "slug": "sblgnt-3-john",
@@ -932,11 +1077,18 @@
       "religion": "道教"
     }
   ],
+  "善說": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
   "喬答摩": [
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "四書": [
@@ -958,6 +1110,13 @@
       "religion": "佛教"
     }
   ],
+  "四相": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    }
+  ],
   "因果報應": [
     {
       "slug": "taishang-ganying-pian",
@@ -969,7 +1128,7 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "國度": [
@@ -984,6 +1143,13 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "基督": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "基督耶穌": [
@@ -1110,11 +1276,39 @@
       "religion": "道教"
     }
   ],
+  "奧秘": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "奧義書": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "奴僕": [
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "如來": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    }
+  ],
+  "婆耆舍": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
     }
   ],
   "存思": [
@@ -1217,6 +1411,11 @@
   ],
   "布施": [
     {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -1246,6 +1445,13 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "幻": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
     }
   ],
   "底米特": [
@@ -1307,6 +1513,11 @@
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "心神": [
@@ -1327,6 +1538,13 @@
     {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
+  "忍辱波羅蜜": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
     }
   ],
@@ -1365,7 +1583,7 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "患難": [
@@ -1379,7 +1597,7 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "愛": [
@@ -1575,6 +1793,13 @@
       "religion": "佛教"
     }
   ],
+  "救贖": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "教會": [
     {
       "slug": "sblgnt-1-thessalonians",
@@ -1584,6 +1809,11 @@
     {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1625,6 +1855,20 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "普魯沙": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "智慧": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "暴力": [
@@ -1678,7 +1922,7 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "格物致知": [
@@ -1686,6 +1930,25 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "梵": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "梵文": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
     }
   ],
   "極樂世界": [
@@ -1709,6 +1972,27 @@
       "religion": "道教"
     }
   ],
+  "歌利王": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    }
+  ],
+  "歌羅西": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "死魔": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
   "殿": [
     {
       "slug": "malachi",
@@ -1720,14 +2004,14 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "比丘尼": [
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "沉淪之子": [
@@ -1758,11 +2042,25 @@
       "religion": "儒教"
     }
   ],
+  "法": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
   "法性": [
     {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    }
+  ],
+  "洗禮": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "涅槃": [
@@ -1777,9 +2075,14 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "淨琉璃世界": [
@@ -1819,9 +2122,21 @@
   ],
   "無常": [
     {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
+    }
+  ],
+  "無我": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
     }
   ],
   "無所得": [
@@ -1835,7 +2150,7 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "父神": [
@@ -1843,6 +2158,13 @@
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "牟尼": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
     }
   ],
   "狂傲": [
@@ -1885,6 +2207,13 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
+    }
+  ],
+  "瑜伽": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
     }
   ],
   "瑪拉基": [
@@ -1967,6 +2296,13 @@
       "religion": "道教"
     }
   ],
+  "祇樹給孤獨園": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    }
+  ],
   "神諭": [
     {
       "slug": "nahum",
@@ -2009,6 +2345,11 @@
     {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -2263,11 +2604,32 @@
       "religion": "基督教"
     }
   ],
+  "肢體": [
+    {
+      "slug": "sblgnt-colossians",
+      "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "腓利門": [
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "自在": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "自性": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
     }
   ],
   "自然": [
@@ -2301,16 +2663,33 @@
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
+  "舍衛國": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
     }
   ],
   "舍衛城": [
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "般若波羅蜜": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    },
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
@@ -2353,6 +2732,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
     }
   ],
   "萬軍之YHWH": [
@@ -2387,7 +2771,7 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "藥師琉璃光如來": [
@@ -2516,6 +2900,13 @@
       "religion": "道教"
     }
   ],
+  "貪欲": [
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
   "路加": [
     {
       "slug": "sblgnt-2-timothy",
@@ -2535,11 +2926,18 @@
       "religion": "猶太教"
     }
   ],
+  "迦塔奧義書": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "迦葉瞿曇": [
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "迷惑人": [
@@ -2568,6 +2966,13 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    }
+  ],
+  "那吉迦多": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
     }
   ],
   "那鴻": [
@@ -2602,7 +3007,21 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
+    }
+  ],
+  "金剛經": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    }
+  ],
+  "金胎": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
     }
   ],
   "錫安": [
@@ -2648,6 +3067,13 @@
       "religion": "基督教"
     }
   ],
+  "閻摩": [
+    {
+      "slug": "katha-upanishad",
+      "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    }
+  ],
   "阿尼西母": [
     {
       "slug": "sblgnt-philemon",
@@ -2662,11 +3088,18 @@
       "religion": "佛教"
     }
   ],
+  "阿特曼": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
   "阿羅毘迦": [
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "阿羅漢": [
@@ -2674,12 +3107,22 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
     }
   ],
   "阿耨多羅三藐三菩提": [
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
     },
     {
@@ -2699,7 +3142,7 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "阿難": [
@@ -2709,9 +3152,14 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn8-vangisa",
+      "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ],
   "陰符經": [
@@ -2772,7 +3220,14 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
+    }
+  ],
+  "須菩提": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
     }
   ],
   "須陀洹": [
@@ -2820,6 +3275,20 @@
       "religion": "基督教"
     }
   ],
+  "魯特羅": [
+    {
+      "slug": "shvetashvatara-upanishad",
+      "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "鳩摩羅什": [
+    {
+      "slug": "diamond-sutra-kumarajiva",
+      "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    }
+  ],
   "麻衣": [
     {
       "slug": "jonah",
@@ -2864,7 +3333,7 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
-      "religion": "佛教-巴利"
+      "religion": "佛教"
     }
   ]
 }
