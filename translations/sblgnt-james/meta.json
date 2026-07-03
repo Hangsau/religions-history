@@ -22,5 +22,32 @@
   "tier": "核心",
   "is_original_language": true,
   "notes": null,
-  "text_role": "original"
+  "text_role": "original",
+  "era": "classical-antiquity",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "economic-justice",
+    "humility",
+    "liberation-by-works",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "雅各",
+    "Ἰάκωβος",
+    "十二支派",
+    "diaspora",
+    "πίστις 信",
+    "ἔργα 行為",
+    "σοφία 智慧",
+    "πειρασμός 試煉",
+    "γλῶσσα 舌頭",
+    "νόμος τῆς ἐλευθερίας 自由之律",
+    "ὑπομονή 忍耐",
+    "ἔλεος κρίσεως 慈悲勝審判"
+  ],
+  "tag_status": "done"
 }
