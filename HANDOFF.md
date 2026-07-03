@@ -10,6 +10,12 @@
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
 
+**桌面刊版（狀態看板）= `scripts/status_gui.py`**
+- 常駐 Tkinter GUI，視窗標題「religions-history 刊版」，每 30 秒自掃全庫刷新。**是進度監控牆，不是經文閱讀器。**
+- 啟動：雙擊專案根 `狀態看板.bat`（背景 `pythonw`，無主控台）；或 `PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py`。
+- 顯示：頂部總量（部/宗教/MB）＋ 對齊覆蓋率（各 meta 欄位回填 %）＋ M3 分類進度（tier×era+genre+tags 三齊全）＋ Pipeline A 收集動態（最新收錄/近 30 分/日誌尾）＋ 翻譯進度（translation_status==done）＋ classify 背景管線。
+- 資料 helper 沿用 `scripts/status.py`（`load_all` / `filled` / `ALIGN_FIELDS` / `log_ok_count` / `log_tail`）；GUI 只管畫面。綠條＝≥99.5% 完成、琥珀＝進行中。
+
 **Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
 - 翻譯（純翻譯，不解釋）→ `01-translation.md`
 - 註釋（白話解釋 + 名相 + 學術爭議）→ `02-annotation.md`
@@ -44,7 +50,19 @@
 - **CATALOG_MAP** 已加：兩河/神道/斯拉夫 三 catalog。核心數 365→377。跑著的翻譯管線 `--skip-done` 下輪重算佇列時自動接手（本次已在跑的 run 佇列在啟動時就固定，故要等下一輪或重啟才翻到這 27 部）。
 - **爬蟲節奏**：本 session 已做 4 次 sacred-texts 拉取，之後暫停爬取讓 rate 冷卻（用戶提醒「別撞攔截」）。
 
-**Phase 2 原文層待辦（需新寫 downloader，均需爬蟲）**
+**原文補收進度（2026-07-03，sibling-original 管線）**
+- 用戶指令「補阿 還有要加的也去加一加 可以不要便宜行事」→ 開始真收原文，非只標籤。
+- **模型**：原文以「新 sibling slug（`<英譯slug>-<lang>`，`text_role=original`，`original_of` 反向連結英譯 slug）」入庫，英譯留作對照；`audit-core.py` 見 `original_of` 即把對應英譯移出待補。`original_of` 可為 list（一原典對多英譯，如 homer-greek→4 荷馬英譯）。
+- **download-wikisource.py 擴充**：per-entry `lang`（entry 自帶語言，不靠全域 --lang）、`text_role`/`is_original_language`/`original_of` 寫入 meta；新增 el/ru/he/de/is/cy 端點。catalog＝`scripts/catalog/backfill-originals-ws.json`（religion key「原文補收」）。
+- **本 session 已收 + verify PASS（待補 54→46）**：Ovid 變形記(la,15卷)、Virgil 伊尼德(la,12卷)、Plato 理想國/會飲/斐多(el)、Mabinogion 威爾斯兩卷(cy)；並將既在庫的 homer-greek(希臘伊利亞德+奧德賽,48卷) 連結 4 荷馬英譯 slug、language 由誤標 English 改「希臘」。
+- **反 便宜行事 做法**：每部先 live API 探 title/subpages/實際內容（`get_page_text`）確認是原生文字才入 catalog，不猜標題。
+- **Wikisource 已探明但緩收**：Kojiki（ja `古事記 (原文)` 是紅連結，全文不在 WS，需 NDL）；Heimskringla（is 852 巢狀子頁，需 saga 級 curated catalog）；Slovo（ru `/Текст` 可取但頁首有「Другие переводы」導航塊需加強 strip）；Snorra Edda（is 散文埃達，子頁乾淨，非待補 slug 但值得加）。
+
+**Phase 2 原文層待辦（需新寫 downloader / 專屬來源，剩 46 部）**
+- **可續收（Wikisource，需 curated catalog / strip 強化）**：斯拉夫 Slovo(ru)、北歐 Snorra/Poetic Edda 逐篇(is)。
+- **需新 downloader（專屬 repo）**：耆那 Prakrit→GRETIL（downloader 已存在，缺 catalog+URL 探查）；瑣羅亞斯德 Avestan/Pahlavi→avesta.org/TITUS；諾斯底/赫爾墨斯 Coptic/Greek→Perseus/Coptic SCRIPTORIUM；希臘 Plotinus/Sibylline→Perseus（不在 el.WS）；錫克 Gurmukhi→SriGranth。
+- **象形/楔形（觸及用戶「象形文取最早或最新來處理」決策）**：古埃及→TLA 轉寫；兩河→ETCSL 蘇美語轉寫。
+- **無書寫系統→改標非待補**：非洲(口傳)、印加(無文字)、部分阿茲特克/瑪雅——應 `text_role=original`（口傳英譯即現存最早文本）脫離待補。
 - **兩河原文**：ETCSL（Oxford 蘇美語轉寫）— 無 downloader。
 - **神道原文**：NDL / ja.wikisource 日文全文（古事記 / 日本書紀 / 延喜式）— ja.wikisource 多僅目錄，全文在 NDL，無 downloader。
 - **Popol Vuh（瑪雅）**：**不在 sacred-texts**（nam/maya 僅 cbc/ybac/mhw 三部已收），需另找專屬來源（Ximénez 手稿 K'iche' 原文 / 公版英譯）。
