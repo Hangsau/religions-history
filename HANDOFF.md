@@ -7,6 +7,8 @@
 
 **4207 部 / 22 宗教 / ~517 MB / 已 AI 譯註 23 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
+> **原文補收（2026-07-03）：可收待補歸零。** 所有有乾淨來源的核心原文皆已收；剩 28 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
+
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
 
@@ -50,24 +52,20 @@
 - **CATALOG_MAP** 已加：兩河/神道/斯拉夫 三 catalog。核心數 365→377。跑著的翻譯管線 `--skip-done` 下輪重算佇列時自動接手（本次已在跑的 run 佇列在啟動時就固定，故要等下一輪或重啟才翻到這 27 部）。
 - **爬蟲節奏**：本 session 已做 4 次 sacred-texts 拉取，之後暫停爬取讓 rate 冷卻（用戶提醒「別撞攔截」）。
 
-**原文補收進度（2026-07-03，sibling-original 管線）**
-- 用戶指令「補阿 還有要加的也去加一加 可以不要便宜行事」→ 開始真收原文，非只標籤。
-- **模型**：原文以「新 sibling slug（`<英譯slug>-<lang>`，`text_role=original`，`original_of` 反向連結英譯 slug）」入庫，英譯留作對照；`audit-core.py` 見 `original_of` 即把對應英譯移出待補。`original_of` 可為 list（一原典對多英譯，如 homer-greek→4 荷馬英譯）。
-- **download-wikisource.py 擴充**：per-entry `lang`（entry 自帶語言，不靠全域 --lang）、`text_role`/`is_original_language`/`original_of` 寫入 meta；新增 el/ru/he/de/is/cy 端點。catalog＝`scripts/catalog/backfill-originals-ws.json`（religion key「原文補收」）。
-- **本 session 已收 + verify PASS（待補 54→46）**：Ovid 變形記(la,15卷)、Virgil 伊尼德(la,12卷)、Plato 理想國/會飲/斐多(el)、Mabinogion 威爾斯兩卷(cy)；並將既在庫的 homer-greek(希臘伊利亞德+奧德賽,48卷) 連結 4 荷馬英譯 slug、language 由誤標 English 改「希臘」。
-- **反 便宜行事 做法**：每部先 live API 探 title/subpages/實際內容（`get_page_text`）確認是原生文字才入 catalog，不猜標題。
-- **Wikisource 已探明但緩收**：Kojiki（ja `古事記 (原文)` 是紅連結，全文不在 WS，需 NDL）；Heimskringla（is 852 巢狀子頁，需 saga 級 curated catalog）；Slovo（ru `/Текст` 可取但頁首有「Другие переводы」導航塊需加強 strip）；Snorra Edda（is 散文埃達，子頁乾淨，非待補 slug 但值得加）。
+**原文補收進度（2026-07-03，sibling-original 管線）— 可收待補歸零**
+- 用戶指令「補阿 還有要加的也去加一加 可以不要便宜行事」「能顯示的字就下載原文，既然抓的到有什麼理由繞過」→ 真收原文並收到底。
+- **模型**：原文以「新 sibling slug（`<英譯slug>-<lang>`，`text_role=original`，`original_of` 反向連結英譯 slug）」入庫，英譯留作對照；`audit-core.py` 見 `original_of` 或 檔內含 ≥15% 非拉丁原生文字 或 `text_role=original` 即把對應核心移出待補。`original_of` 可為 list。
+- **download-wikisource.py 擴充**：per-entry `lang`、`wikisource_titles`（多頁明列）、`text_role`/`is_original_language`/`original_of` 寫入 meta；端點含 el/ru/he/de/is/cy/pa。catalog＝`scripts/catalog/backfill-originals-ws.json`。
+- **兩個新 downloader**：`download-heimskringla.py`（heimskringla.no HTML 爬，api.php 停用；catalog `norse-heimskringla.json`）、`download-celt.py`（celt.ucc.ie TEI，錨定最後含「Author:」標題切檔頭；catalog `celtic-celt.json`）。
+- **本輪已收/改標（待補 54→46→…→0 可收）**：早段 Ovid/Virgil/Plato/Mabinogion/homer-greek 連結；後段 guru-granth-sahib-pa(Gurmukhi)、kojiki-zh(漢文,zh.WS)、poetic-edda-on/heimskringla-on/volsunga-saga-on(古諾斯語)、tain-bo-cuailnge-ga(古愛爾蘭語)、corpus-hermeticum-el(希臘8篇,→thrice-greatest-hermes-2)。**檔內已含原文、只改標**：carmina-gadelica-1/2(蘇格蘭蓋爾語facing)、aztec-rva(Brinton RVA 20首聖歌納瓦特爾語facing)。
+- **反 便宜行事 做法**：每部先 live API/HTML 探 title/subpages/實際內容，數原生字比例確認才入庫；改標前 grep 檔內證實原文真存在（非猜）。
 
-**Phase 2 原文層待辦（需新寫 downloader / 專屬來源，剩 46 部）**
-- **可續收（Wikisource，需 curated catalog / strip 強化）**：斯拉夫 Slovo(ru)、北歐 Snorra/Poetic Edda 逐篇(is)。
-- **需新 downloader（專屬 repo）**：耆那 Prakrit→GRETIL（downloader 已存在，缺 catalog+URL 探查）；瑣羅亞斯德 Avestan/Pahlavi→avesta.org/TITUS；諾斯底/赫爾墨斯 Coptic/Greek→Perseus/Coptic SCRIPTORIUM；希臘 Plotinus/Sibylline→Perseus（不在 el.WS）；錫克 Gurmukhi→SriGranth。
-- **象形/楔形（觸及用戶「象形文取最早或最新來處理」決策）**：古埃及→TLA 轉寫；兩河→ETCSL 蘇美語轉寫。
-- **無書寫系統→改標非待補**：非洲(口傳)、印加(無文字)、部分阿茲特克/瑪雅——應 `text_role=original`（口傳英譯即現存最早文本）脫離待補。
-- **兩河原文**：ETCSL（Oxford 蘇美語轉寫）— 無 downloader。
-- **神道原文**：NDL / ja.wikisource 日文全文（古事記 / 日本書紀 / 延喜式）— ja.wikisource 多僅目錄，全文在 NDL，無 downloader。
-- **Popol Vuh（瑪雅）**：**不在 sacred-texts**（nam/maya 僅 cbc/ybac/mhw 三部已收），需另找專屬來源（Ximénez 手稿 K'iche' 原文 / 公版英譯）。
-- **北歐**：散文埃達（Prose Edda, Snorri）為主要缺項；sacred-texts neu/ice 為 landing page，路徑未清，需再查（詩體埃達 neu/pre 已收）。
-- **分類折疊（非真缺口）**：瑪雅/阿茲特克/印加 收在 `美洲` 傘下（`美洲` 已為合法 enum 值）、赫爾墨斯 收在 `諾斯底` 傘下，均已在翻譯佇列中；如要作為獨立宗教瀏覽需另議 religion 欄位重分類（影響 INDEX/tag-index，未做）。
+**Phase 2 原文層 — 已查明無乾淨來源（28 部，非未查待辦）**
+- 新增 `scripts/catalog/original-source-status.json`：逐 slug 記 status＋理由＋已探來源；`audit-core.py` 據此把「已查明無乾淨來源」與「可收待補」拆開（現可收待補=0）。詳見 `00-overview/original-text-todo.md` 文末分區。
+- **blocked-access（16）**：古埃及×8（Budge/Mercer 英譯，連續原文僅 TLA，實測檔內 0 連續音譯）、瑣羅Pahlavi×5（avesta.org 僅 West 英譯，轉寫僅 TITUS 受阻/Pakzad 版權）、兩河×3（阿卡德，ORACC 不含/eBL 登入牆/SEAL JS-SPA/ETCSL 蘇美語）。**若日後突破**：TLA 開放資料匯出、TITUS 結構化抓取、eBL 帳號 → 移除對應條目即回可收。
+- **no-single-original（9）**：諾斯底 Mead/King 學術著作×2＋TGH-1(導論)/TGH-3(Stobaeus 散篇)、錫克 Macauliffe 彙編（Gurbani 原文已另收）、斯拉夫 Ralston 民俗彙編、巴哈伊 Hammond 選集（原文散於各原著）、美洲 Landa(西文僅 2002 受版權 OCR)/Chumayel(馬雅轉寫無乾淨全文)。
+- **oral-no-script（3）**：非洲約魯巴 ife/yoruba（口傳無文字）、印加 inca-rites（quipu 無表音文字）。採錄英譯即最早可及形式，保留 text_role=translation（非 original，因確為英譯）。
+- **分類折疊（非缺口）**：瑪雅/阿茲特克/印加 收在 `美洲` 傘下、赫爾墨斯 收在 `諾斯底`／`赫爾墨斯` 傘下；獨立宗教瀏覽需另議 religion 重分類（影響 INDEX/tag-index，未做）。
 
 **LLM fleet 擴充（討論中，2026-07-03）**：用戶考慮加便宜 worker 分攤 MiniMax-M3 流量。關鍵發現：`translate.py:206 call_m3` 靠 `claude -p` + `ANTHROPIC_BASE_URL/AUTH_TOKEN/MODEL` 打 MiniMax Anthropic-相容端點 → 任何有 Anthropic 端點的廠商（DeepSeek/智譜 GLM-4.6/Moonshot Kimi K2，皆中文母語且便宜）換三行 env 即 drop-in，加 profile pool 約十幾行。建議分工：英譯 fallback→便宜 worker；難古典原文→留強模型；漢傳/和合本 原樣保留不耗 LLM。待用戶決定 provider + 辦 key。
 

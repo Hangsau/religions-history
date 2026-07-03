@@ -102,13 +102,13 @@
 - **EOL**：`.gitattributes` 強制 LF（防 CRLF 破壞 SHA-256）
 - **GitHub**：https://github.com/Hangsau/religions-history（公開）
 
-## 既有下載器矩陣（12 個）
+## 既有下載器矩陣（15 個）
 
 | Script | 來源 | 對應 |
 |--------|------|------|
 | `_polite.py` | — | 共用 UA + 禮貌睡眠 helper |
 | `download-ctext.py` | api.ctext.org | 道教 / 儒教 漢系 |
-| `download-wikisource.py --lang zh/ja/en/la/sa` | Wikisource API | 道教 / 儒教 / 基督教中譯 / 拉丁 Vulgate / 神道 / 世界古典英譯 |
+| `download-wikisource.py --lang zh/ja/en/la/sa/el/ru/he/de/is/cy/pa` | Wikisource API | 漢系 / Vulgate / 世界古典原文（希臘/拉丁/古諾斯/威爾斯/古東斯拉夫/旁遮普古木基…）。per-entry `lang`＋`wikisource_titles`；backfill catalog `backfill-originals-ws.json` |
 | `download-cbeta.py` | raw.githubusercontent.com cbeta-org/xml-p5 | 漢譯佛經（catalog 式單部）|
 | `download-cbeta-full.py` | 同上 + GitHub Contents API | 漢譯佛經全卷自動爬 |
 | `download-quran.py` | api.quran.com | 古蘭經 |
@@ -117,9 +117,13 @@
 | `download-suttacentral.py` | suttacentral.net/api | 巴利三藏 Sujato |
 | `download-gretil.py` | gretil.sub.uni-goettingen.de | 梵文印度教 + 部分佛教 |
 | `download-sblgnt.py` | morphgnt/sblgnt GitHub | 希臘新約 |
+| `download-avesta.py` | avesta.org | 瑣羅亞斯德 Avestan 原文（catalog `zoroastrian-avesta.json`）|
+| `download-heimskringla.py` | heimskringla.no（HTML 爬，api.php 停用）| 北歐古諾斯語（詩體埃達逐篇 / Heimskringla / Völsunga；catalog `norse-heimskringla.json`）|
+| `download-celt.py` | celt.ucc.ie（TEI，錨最後含「Author:」標題切檔頭）| 凱爾特古/中愛爾蘭語（catalog `celtic-celt.json`）|
 | `download-sacred-texts.py` | sacred-texts.com | 13 個 catalog（瑣羅 / 耆那 / 古埃 / 古希臘羅馬 / 北歐 / 凱 / 諾 / 美洲 / 非洲 / 猶輔 / 錫輔 / 伊輔 / 巴哈伊）|
 | `verify.py` | 本地 | SHA-256 + chapter count + size |
 | `generate-index.py` | 本地 | 重生 INDEX.json + INDEX.md |
+| `audit-core.py` | 本地 | 核心稽核；待補原文拆「可收」vs「已查明無乾淨來源」（`original-source-status.json`）|
 
 ## 後續階段（P4-P7）規則
 
