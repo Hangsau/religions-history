@@ -1,9 +1,21 @@
 {
+  "against-idolatry": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "apocalypse": [
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-jude",
@@ -16,6 +28,18 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
+  "celibate-tradition": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
     }
   ],
   "chanting": [
@@ -44,8 +68,18 @@
   ],
   "commandments-law": [
     {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -58,12 +92,22 @@
   ],
   "compassion": [
     {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
     }
   ],
   "congregational": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
@@ -72,6 +116,11 @@
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -120,9 +169,21 @@
   ],
   "enlightenment": [
     {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    }
+  ],
+  "essentially-flawed": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "essentially-good": [
@@ -163,11 +224,23 @@
       "religion": "基督教"
     }
   ],
+  "grace-from-god": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "heaven-hell": [
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-jude",
@@ -184,6 +257,11 @@
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
       "religion": "道教"
     }
   ],
@@ -202,9 +280,19 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "karma-rebirth": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
     {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
@@ -254,6 +342,11 @@
       "religion": "道教"
     },
     {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
@@ -271,7 +364,19 @@
       "religion": "猶太教"
     }
   ],
+  "monastic": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
   "monotheist-exclusive": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
@@ -291,6 +396,11 @@
     }
   ],
   "mystical-union": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
@@ -314,6 +424,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
@@ -333,12 +448,22 @@
   ],
   "prayer": [
     {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
     }
   ],
   "prophetic-critique": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
@@ -357,9 +482,19 @@
   ],
   "prophetic-revelation": [
     {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-jude",
@@ -377,6 +512,13 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    }
+  ],
+  "revealed-text": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "ritual-practice": [
@@ -401,6 +543,11 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "secular-state": [
@@ -412,9 +559,19 @@
   ],
   "self-effort": [
     {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     },
     {
       "slug": "qingjing-jing",
@@ -465,8 +622,25 @@
   ],
   "theodicy": [
     {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "theophany": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
       "religion": "猶太教"
     }
   ],
@@ -479,6 +653,11 @@
   ],
   "truthfulness": [
     {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
@@ -487,6 +666,11 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "ultimate-reality": [
@@ -494,6 +678,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     },
     {
       "slug": "qingjing-jing",
@@ -516,6 +705,16 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    },
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     }
   ]
 }

@@ -1,5 +1,38 @@
 {
+  "Iēsous Christos": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "Krētē": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "Paulos": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "Titos": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "YHWH": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
@@ -20,6 +53,27 @@
       "religion": "基督教"
     }
   ],
+  "episkopos": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "palingenesia": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "presbyteros": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "三尸神": [
     {
       "slug": "taishang-ganying-pian",
@@ -36,8 +90,20 @@
   ],
   "三毒": [
     {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    }
+  ],
+  "三神": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
       "religion": "道教"
     }
   ],
@@ -62,10 +128,31 @@
       "religion": "基督教"
     }
   ],
+  "不法的人": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "丟特腓": [
     {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "丹田": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
+  "主的日子": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -74,6 +161,13 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    }
+  ],
+  "五臟": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     }
   ],
   "五臟神": [
@@ -118,6 +212,13 @@
       "religion": "基督教"
     }
   ],
+  "亞述": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "代求": [
     {
       "slug": "sblgnt-philemon",
@@ -155,8 +256,18 @@
   ],
   "保羅": [
     {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -164,6 +275,13 @@
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "信心": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -188,6 +306,13 @@
       "religion": "基督教"
     }
   ],
+  "偶像": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "僊人": [
     {
       "slug": "huangting-neijing",
@@ -209,6 +334,13 @@
       "religion": "猶太教"
     }
   ],
+  "克里特": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "內景": [
     {
       "slug": "huangting-neijing",
@@ -217,6 +349,11 @@
     }
   ],
   "內觀": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
@@ -235,6 +372,13 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "出家": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
     }
   ],
   "可拉": [
@@ -265,6 +409,13 @@
       "religion": "基督教"
     }
   ],
+  "命門": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
   "善": [
     {
       "slug": "sblgnt-3-john",
@@ -284,6 +435,13 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "四果": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
     }
   ],
   "因果報應": [
@@ -354,6 +512,13 @@
       "religion": "道教"
     }
   ],
+  "天竺": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
   "天道": [
     {
       "slug": "yinfu-jing",
@@ -375,6 +540,13 @@
       "religion": "道教"
     }
   ],
+  "太和陰陽炁": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
   "奴僕": [
     {
       "slug": "sblgnt-philemon",
@@ -382,7 +554,19 @@
       "religion": "基督教"
     }
   ],
+  "存思": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
   "審判": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
@@ -394,10 +578,45 @@
       "religion": "基督教"
     }
   ],
+  "尼尼微": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
+  "崑崙": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
+  "巫術": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "巴蘭": [
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "布施": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
+  "帖撒羅尼迦": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -450,11 +669,25 @@
       "religion": "道教"
     }
   ],
+  "忍辱": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
   "念佛": [
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    }
+  ],
+  "恩典": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "恩惠": [
@@ -471,11 +704,25 @@
       "religion": "基督教"
     }
   ],
+  "愛欲": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
   "慎獨": [
     {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "成聖": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "拯救者": [
@@ -489,6 +736,13 @@
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    }
+  ],
+  "持戒": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
       "religion": "佛教"
     }
   ],
@@ -511,9 +765,26 @@
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "提多": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "提摩太": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
@@ -524,6 +795,13 @@
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "撒但": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -551,6 +829,20 @@
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "斯陀含": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
+  "明堂": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     }
   ],
   "明明德": [
@@ -602,11 +894,25 @@
       "religion": "道教"
     }
   ],
+  "沉淪之子": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "沐浴": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "沙門": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
     }
   ],
   "治國": [
@@ -642,6 +948,20 @@
       "religion": "道教"
     }
   ],
+  "漢明帝": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
+  "烈怒": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "無": [
     {
       "slug": "qingjing-jing",
@@ -667,6 +987,13 @@
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    }
+  ],
+  "猶大": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
       "religion": "猶太教"
     }
   ],
@@ -700,9 +1027,21 @@
   ],
   "異象": [
     {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "監督": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "真如": [
@@ -731,11 +1070,25 @@
       "religion": "道教"
     }
   ],
+  "神諭": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "禍福無門": [
     {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "福音": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "空": [
@@ -764,6 +1117,13 @@
       "religion": "基督教"
     }
   ],
+  "精炁": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
   "紫清": [
     {
       "slug": "huangting-neijing",
@@ -776,6 +1136,13 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "絳宮": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     }
   ],
   "老君": [
@@ -795,6 +1162,11 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "耶路撒冷": [
@@ -809,6 +1181,13 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "聖靈": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "肉身": [
@@ -903,11 +1282,32 @@
       "religion": "佛教"
     }
   ],
+  "萬軍之YHWH": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "葛玄": [
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "蓮花": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
+  "西拉瓦努斯": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "西方": [
@@ -980,6 +1380,13 @@
       "religion": "基督教"
     }
   ],
+  "逼迫": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "道教倫理": [
     {
       "slug": "taishang-ganying-pian",
@@ -987,11 +1394,32 @@
       "religion": "道教"
     }
   ],
+  "還丹": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
+  "那鴻": [
+    {
+      "slug": "nahum",
+      "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
   "釋迦牟尼": [
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    }
+  ],
+  "重生": [
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "錫安山": [
@@ -1018,6 +1446,11 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-titus",
+      "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "阿尼西母": [
@@ -1034,6 +1467,13 @@
       "religion": "佛教"
     }
   ],
+  "阿羅漢": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
   "阿耨多羅三藐三菩提": [
     {
       "slug": "amitabha-sutra",
@@ -1043,6 +1483,13 @@
     {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
+  "阿那含": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
       "religion": "佛教"
     }
   ],
@@ -1067,6 +1514,27 @@
       "religion": "猶太教"
     }
   ],
+  "靈根": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
+  "須陀洹": [
+    {
+      "slug": "fortytwo-chapters-sutra",
+      "name_zh": "四十二章經",
+      "religion": "佛教"
+    }
+  ],
+  "顯現": [
+    {
+      "slug": "sblgnt-2-thessalonians",
+      "name_zh": "帖撒羅尼迦後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "馬可": [
     {
       "slug": "sblgnt-philemon",
@@ -1085,6 +1553,11 @@
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
       "religion": "道教"
     }
   ],
