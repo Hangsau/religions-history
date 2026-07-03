@@ -66,6 +66,15 @@
   - `semantic_tags`/`keywords`（0.8%）→ M3 從**原文**抽（不必等全文翻譯），與 era/genre 同一次 M3 呼叫省配額。
   - **建議**：Layer 2 三項合併成單一 M3 classify 呼叫/部（讀原文首 N 段 → 回 era+genre+tags+keywords，白名單過濾），核心 tier 先跑。
 
+**唯一英譯本核心政策寫死 + huangting 補抓（2026-07-03）**
+- **huangting-neijing 補抓**：舊 catalog `wikisource_title=黃庭內景經` 只是章目錄頁（761B）；正文在 `太上黃庭內景玉經/<章>` 子頁面。已改標題重抓（15251B / 37 章）+ 重譯 + 重標。掃過全核心，`raw<2KB` 僅此一部是真薄譯，其餘 6 部（心經 / 2-3 約翰 / 陰符經）本就短，正常。
+- **止血復發的「分類問題」**：英譯本核心（古埃及 / 兩河 / 北歐 / 希臘 / 神道 等，`text_role=translation` 且語料庫無原文）政策從沒寫進工具，每次 audit 都被當開放缺口重問。三層根因對應解法：
+  1. **報表過時** → `auto-pipeline.py:rebuild_indexes` 每批加跑 `audit-core.py`，`core-manifest.md` / `original-text-todo.md` 納入 commit，永不過時。（舊 core-manifest 顯示已譯 53/已標 33，實為 77/376）
+  2. **英譯本無政策** → `m3-translator-role.md` 加 English 列＝**英→中二手翻譯**，header 標「原文待補」。落實用戶「真的沒辦法先用英文」。
+  3. **「補原文」無落腳處** → `audit-core.py` 生持久 `00-overview/original-text-todo.md`（59 部核心 / 15 宗教）＝ Pipeline A 補抓待辦。落實「還是要補原文」。
+- **唯一 vs 冗餘判定**（確定性）：宗教有 ≥1 `text_role=original` 核心 → 譯本冗餘對照（基督教有 sblgnt 希臘 / 印度教有梵文）；0 原文核心 → 全部唯一英譯，該翻+補原文。
+- **已知 caveat（待修 text_role 誤標）**：`book-of-mormon-1830`（摩門經 1830）英文即原典（Joseph Smith 英文著作），被 heuristic 誤標 `translation` → 誤列入待補原文；`pearl-of-great-price` 部分同理。應改 `text_role=original` 使其脫離待補清單（英文仍需英→中翻譯）。homer-greek 名為「希臘原文」實為 Butler 英譯，命名待正。
+
 ## 策略（2026-07-01）
 
 **並行三 pipeline + 強追蹤防遺漏**：
