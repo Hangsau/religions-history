@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**393** 部
-- 已翻譯：**77** / 393
-- 已標籤：**376** / 393
+- 核心總數：**394** 部
+- 已翻譯：**77** / 394
+- 已標籤：**376** / 394
 
 ## 各宗教核心進度
 
@@ -14,7 +14,7 @@
 | 佛教 | 61 | 18 | 61 |
 | 猶太教 | 45 | 17 | 45 |
 | 印度教 | 26 | 9 | 25 |
-| 古希臘羅馬 | 17 | 0 | 12 |
+| 古希臘羅馬 | 18 | 0 | 12 |
 | 道教 | 14 | 9 | 14 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 儒教 | 9 | 4 | 9 |
@@ -55,8 +55,8 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 193 |
-| translation | 197 |
+| original | 195 |
+| translation | 196 |
 | contested | 2 |
 | (未標) | 1 |
 
@@ -71,13 +71,13 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**13** 個 / 核心 **40** 部
-- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、凱爾特、北歐、兩河、非洲、錫克教、古希臘羅馬、神道、斯拉夫、巴哈伊
+- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、凱爾特、兩河、北歐、非洲、古希臘羅馬、錫克教、神道、斯拉夫、巴哈伊
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
 > `original.txt` 實測含 ≥15% 非拉丁原生文字，卻未標 `text_role=original`。改標即可，勿重複下載。詳見 `original-text-todo.md` 末段。
 
-- `homeric-hymns-st` 荷馬諸頌 (33 篇)（古希臘羅馬，原生文字 44%）
+- （無）
 
 ## 各宗教核心明細
 
@@ -384,13 +384,14 @@
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
-### 古希臘羅馬（17 部）
+### 古希臘羅馬（18 部）
 
+- `herodotus-histories` 希羅多德《歷史》(英希對照)（希臘）譯– 標✓
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（希臘）譯– 標✓
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
-- `homeric-hymns-st` 荷馬諸頌 (33 篇)（English (translation)）譯– 標✓
+- `homeric-hymns-el` 荷馬諸頌（希臘原文）（希臘）譯– 標–
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓

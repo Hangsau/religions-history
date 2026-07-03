@@ -139,6 +139,21 @@
       "version": "Wikisource 古諾斯語版",
       "tier": "核心",
       "notes": "斯諾里散文埃達（Prologus/Gylfaginning/Skáldskaparmál/Háttatal 等）古諾斯語原文；補收，非既有待補 slug"
+    },
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "name_en": "Homeric Hymns (Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Ομηρικοί Ύμνοι",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 34,
+      "tier": "核心",
+      "notes": "33 篇荷馬式頌歌希臘原文（el.wikisource 分篇）。獨立新收原文（sacred-texts 無完整荷馬頌歌英譯本；原 homeric-hymns-st 位元組實為 Herodotus，已更正為 herodotus-histories）"
     }
   ]
 }
