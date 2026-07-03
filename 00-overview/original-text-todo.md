@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**29** 部，橫跨 **9** 宗教
+- 待補原文核心：**28** 部，橫跨 **9** 宗教
 
 ## 古埃及（8 部）
 
@@ -32,9 +32,8 @@
 - [ ] `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 - [ ] `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 
-## 美洲（4 部）
+## 美洲（3 部）
 
-- [ ] `aztec-rva` 阿茲特克儀禮（English (translation)）— 未譯，原文待補
 - [ ] `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）— 未譯，原文待補
 - [ ] `inca-rites` 印加儀禮與法律（English (translation)）— 未譯，原文待補
 - [ ] `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）— 未譯，原文待補
@@ -50,13 +49,13 @@
 - [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
 - [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
-## 巴哈伊（1 部）
-
-- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
-
 ## 斯拉夫（1 部）
 
 - [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
+
+## 巴哈伊（1 部）
+
+- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
 
 ## 錫克教（1 部）
 

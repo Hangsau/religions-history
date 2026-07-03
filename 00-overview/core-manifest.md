@@ -55,8 +55,8 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 208 |
-| translation | 194 |
+| original | 209 |
+| translation | 193 |
 | contested | 2 |
 | (未標) | 1 |
 
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**9** 個 / 核心 **29** 部
-- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、兩河、非洲、巴哈伊、斯拉夫、錫克教
+- 唯一英譯本宗教：**9** 個 / 核心 **28** 部
+- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、兩河、非洲、斯拉夫、巴哈伊、錫克教
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -502,7 +502,7 @@
 
 ### 美洲（4 部）
 
-- `aztec-rva` 阿茲特克儀禮（English (translation)）譯– 標✓
+- `aztec-rva` 阿茲特克儀禮（古典納瓦特爾語／英語對照）譯– 標✓
 - `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）譯– 標✓
 - `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
 - `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標✓
