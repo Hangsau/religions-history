@@ -22,5 +22,33 @@
   "tier": "核心",
   "is_original_language": true,
   "notes": null,
-  "text_role": "original"
+  "text_role": "original",
+  "era": "classical-antiquity",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "commandments-law",
+    "grace-from-god",
+    "messianism",
+    "monotheist-exclusive",
+    "salvation-by-faith",
+    "theodicy"
+  ],
+  "keywords": [
+    "保羅",
+    "Paul",
+    "羅馬書",
+    "Romans",
+    "Πρὸς Ῥωμαίους",
+    "因信稱義",
+    "justification by faith",
+    "恩典",
+    "νόμος",
+    "福音",
+    "εὐαγγέλιον",
+    "δικαιοσύνη θεοῦ",
+    "神的義",
+    "外邦人",
+    "Ἰησοῦς Χριστός"
+  ],
+  "tag_status": "done"
 }

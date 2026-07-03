@@ -22,5 +22,32 @@
   "tier": "核心",
   "is_original_language": true,
   "notes": null,
-  "text_role": "original"
+  "text_role": "original",
+  "era": "classical-antiquity",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "heaven-hell",
+    "messianism",
+    "monotheist-exclusive",
+    "salvation-by-faith",
+    "spirit-possession",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Ἰησοῦς",
+    "Χριστός",
+    "βασιλεία τοῦ θεοῦ",
+    "εὐαγγέλιον",
+    "βάπτισμα",
+    "Ἰωάννης ὁ βαπτίζων",
+    "Καφαρναούμ",
+    "Γαλιλαία",
+    "δαιμόνιον",
+    "λέπρα",
+    "πίστις",
+    "ἁμαρτία",
+    "ἔρημος"
+  ],
+  "tag_status": "done"
 }
