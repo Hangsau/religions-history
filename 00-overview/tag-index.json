@@ -1,8 +1,70 @@
 {
+  "accept-fate": [
+    {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    }
+  ],
   "against-idolatry": [
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
     {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
       "religion": "猶太教"
     },
     {
@@ -11,9 +73,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "micah",
+      "name_zh": "彌迦書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "sblgnt-1-thessalonians",
@@ -28,12 +100,47 @@
   ],
   "ancestor-worship": [
     {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
       "religion": "儒教"
     }
   ],
   "apocalypse": [
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
     {
       "slug": "joel",
       "name_zh": "約珥書",
@@ -43,6 +150,11 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-1-thessalonians",
@@ -65,6 +177,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
@@ -72,13 +189,48 @@
   ],
   "asceticism": [
     {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
+      "religion": "佛教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
     },
     {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     },
     {
@@ -111,6 +263,31 @@
   ],
   "breath-control": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "name_zh": "黃帝內經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
@@ -121,13 +298,45 @@
       "religion": "道教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
     },
     {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
+      "religion": "道教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
+    }
+  ],
+  "caste-system": [
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
       "religion": "印度教"
     }
   ],
@@ -145,6 +354,41 @@
       "religion": "佛教"
     },
     {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "atharvaveda-saunaka",
+      "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
@@ -155,17 +399,72 @@
       "religion": "佛教"
     },
     {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "lotus-sutra",
+      "name_zh": "妙法蓮華經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
     },
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
     }
   ],
   "chaos-to-order": [
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
     {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
@@ -174,14 +473,134 @@
   ],
   "commandments-law": [
     {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an3-threes",
+      "name_zh": "AN3 三法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
     },
     {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-john",
@@ -194,12 +613,77 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-galatians",
+      "name_zh": "加拉太書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-romans",
+      "name_zh": "羅馬書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
     }
   ],
   "commentarial-layer": [
+    {
+      "slug": "abhidharmakosa",
+      "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chun-qiu-zuo-zhuan",
+      "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
     {
       "slug": "great-learning",
       "name_zh": "大學",
@@ -209,12 +693,92 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "vaisheshika-sutra-kanada",
+      "name_zh": "勝論經（迦那陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vijnaptimatratasiddhi",
+      "name_zh": "成唯識論",
+      "religion": "佛教"
     }
   ],
   "compassion": [
     {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an3-threes",
+      "name_zh": "AN3 三法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an8-eights",
+      "name_zh": "AN8 八法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
       "religion": "佛教"
     },
     {
@@ -228,9 +792,44 @@
       "religion": "佛教"
     },
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "lotus-sutra",
+      "name_zh": "妙法蓮華經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
     },
     {
       "slug": "medicine-buddha-sutra",
@@ -238,15 +837,75 @@
       "religion": "佛教"
     },
     {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ruth",
+      "name_zh": "路得記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
       "religion": "佛教"
     }
   ],
   "congregational": [
     {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -270,7 +929,51 @@
       "religion": "基督教"
     }
   ],
+  "cosmic-egg": [
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
+    }
+  ],
+  "created-in-image": [
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    }
+  ],
   "creation-ex-nihilo": [
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
@@ -284,6 +987,31 @@
   ],
   "creator-deity": [
     {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
       "religion": "基督教"
@@ -294,11 +1022,93 @@
       "religion": "印度教"
     }
   ],
+  "cyclic-cosmos": [
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "name_zh": "黃帝內經",
+      "religion": "道教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra-kapila",
+      "name_zh": "數論經（迦毗羅）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
+      "religion": "道教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
+      "religion": "道教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
+    }
+  ],
   "divine-immanence": [
+    {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
     {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "huainanzi",
+      "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "name_zh": "黃帝內經",
+      "religion": "道教"
     },
     {
       "slug": "huangting-neijing",
@@ -306,13 +1116,63 @@
       "religion": "道教"
     },
     {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "lotus-sutra",
+      "name_zh": "妙法蓮華經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -321,16 +1181,123 @@
       "religion": "印度教"
     },
     {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
+      "religion": "道教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
+    }
+  ],
+  "divine-kingship": [
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samuel-1",
+      "name_zh": "撒母耳記上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
     }
   ],
   "divine-transcendence": [
     {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
     },
     {
       "slug": "jonah",
@@ -338,9 +1305,69 @@
       "religion": "猶太教"
     },
     {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "micah",
+      "name_zh": "彌迦書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-hebrews",
+      "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "shvetashvatara-upanishad",
@@ -353,11 +1380,38 @@
       "religion": "道教"
     }
   ],
+  "dualistic-cosmos": [
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra-kapila",
+      "name_zh": "數論經（迦毗羅）",
+      "religion": "印度教"
+    }
+  ],
   "economic-justice": [
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
     {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "micah",
+      "name_zh": "彌迦書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-philemon",
@@ -366,6 +1420,16 @@
     }
   ],
   "emptiness": [
+    {
+      "slug": "abhidharmakosa",
+      "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
@@ -382,12 +1446,87 @@
       "religion": "佛教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "sn22-khandha",
+      "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vijnaptimatratasiddhi",
+      "name_zh": "成唯識論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "zhuangzi",
+      "name_zh": "莊子",
       "religion": "道教"
     }
   ],
   "enlightenment": [
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
     {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
@@ -404,6 +1543,91 @@
       "religion": "印度教"
     },
     {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "lotus-sutra",
+      "name_zh": "妙法蓮華經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra-kapila",
+      "name_zh": "數論經（迦毗羅）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn2-devaputta",
+      "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn46-bojjhanga",
+      "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
@@ -416,12 +1640,22 @@
   ],
   "essentially-flawed": [
     {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
     }
   ],
   "essentially-good": [
+    {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
     {
       "slug": "great-learning",
       "name_zh": "大學",
@@ -431,6 +1665,13 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "evil-as-deception": [
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
     }
   ],
   "extinction-of-self": [
@@ -443,9 +1684,24 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
     }
   ],
   "fasting": [
+    {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
     {
       "slug": "joel",
       "name_zh": "約珥書",
@@ -455,13 +1711,38 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
     }
   ],
   "forgiveness": [
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-philemon",
@@ -471,16 +1752,136 @@
   ],
   "four-noble-truths": [
     {
+      "slug": "abhidharmakosa",
+      "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn22-khandha",
+      "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn46-bojjhanga",
+      "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
       "religion": "佛教"
     }
   ],
   "golden-rule": [
     {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-philemon",
@@ -493,6 +1894,21 @@
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-peter",
@@ -510,6 +1926,26 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-galatians",
+      "name_zh": "加拉太書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-romans",
+      "name_zh": "羅馬書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
@@ -519,6 +1955,16 @@
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
       "religion": "佛教"
     },
     {
@@ -532,6 +1978,21 @@
       "religion": "印度教"
     },
     {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
+    },
+    {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
@@ -542,12 +2003,42 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn2-devaputta",
+      "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
     }
   ],
   "human-as-microcosm": [
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "name_zh": "黃帝內經",
+      "religion": "道教"
+    },
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
@@ -557,17 +2048,92 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
     }
   ],
   "humility": [
+    {
+      "slug": "an3-threes",
+      "name_zh": "AN3 三法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
     {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
     },
     {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ruth",
+      "name_zh": "路得記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -576,15 +2142,102 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
+      "religion": "道教"
+    }
+  ],
+  "inclusive-monotheism": [
+    {
+      "slug": "ruth",
+      "name_zh": "路得記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-acts",
+      "name_zh": "使徒行傳（希臘原文）",
       "religion": "基督教"
     }
   ],
   "karma-rebirth": [
     {
+      "slug": "abhidharmakosa",
+      "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an5-fives",
+      "name_zh": "AN5 五法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
     },
     {
@@ -593,9 +2246,54 @@
       "religion": "佛教"
     },
     {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra-kapila",
+      "name_zh": "數論經（迦毗羅）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "vaisheshika-sutra-kanada",
+      "name_zh": "勝論經（迦那陀）",
+      "religion": "印度教"
     },
     {
       "slug": "yoga-sutra",
@@ -610,15 +2308,65 @@
       "religion": "佛教"
     },
     {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "lotus-sutra",
+      "name_zh": "妙法蓮華經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sn22-khandha",
+      "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
     }
   ],
   "liberation-by-devotion": [
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
     },
     {
@@ -629,8 +2377,63 @@
   ],
   "liberation-by-knowledge": [
     {
+      "slug": "abhidharmakosa",
+      "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
       "religion": "佛教"
     },
     {
@@ -644,8 +2447,48 @@
       "religion": "佛教"
     },
     {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra-kapila",
+      "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
     },
     {
@@ -659,35 +2502,269 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn22-khandha",
+      "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn46-bojjhanga",
+      "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vaisheshika-sutra-kanada",
+      "name_zh": "勝論經（迦那陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vijnaptimatratasiddhi",
+      "name_zh": "成唯識論",
       "religion": "佛教"
     },
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
+    },
+    {
+      "slug": "zhuangzi",
+      "name_zh": "莊子",
+      "religion": "道教"
+    }
+  ],
+  "liberation-by-works": [
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "lineage-importance": [
+    {
+      "slug": "an8-eights",
+      "name_zh": "AN8 八法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chun-qiu-zuo-zhuan",
+      "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ruth",
+      "name_zh": "路得記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
     }
   ],
   "mandate-of-heaven": [
     {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
+      "slug": "chun-qiu-zuo-zhuan",
+      "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
       "religion": "儒教"
     }
   ],
   "marriage-sacred": [
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ruth",
+      "name_zh": "路得記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "song-of-songs",
+      "name_zh": "雅歌",
       "religion": "猶太教"
     }
   ],
   "meditation": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an3-threes",
+      "name_zh": "AN3 三法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an5-fives",
+      "name_zh": "AN5 五法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an8-eights",
+      "name_zh": "AN8 八法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "name_zh": "黃帝內經",
+      "religion": "道教"
     },
     {
       "slug": "huangting-neijing",
@@ -700,8 +2777,43 @@
       "religion": "道教"
     },
     {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "lotus-sutra",
+      "name_zh": "妙法蓮華經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
       "religion": "印度教"
     },
     {
@@ -710,9 +2822,19 @@
       "religion": "道教"
     },
     {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
     },
     {
       "slug": "sn10-yakkha",
@@ -720,8 +2842,53 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn2-devaputta",
+      "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn46-bojjhanga",
+      "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
       "religion": "佛教"
     },
     {
@@ -733,6 +2900,36 @@
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
+      "religion": "道教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
+      "religion": "道教"
     },
     {
       "slug": "yinfu-jing",
@@ -743,12 +2940,37 @@
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
     }
   ],
   "messianism": [
     {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "micah",
+      "name_zh": "彌迦書",
       "religion": "猶太教"
     },
     {
@@ -757,9 +2979,79 @@
       "religion": "猶太教"
     },
     {
+      "slug": "samuel-1",
+      "name_zh": "撒母耳記上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-galatians",
+      "name_zh": "加拉太書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-hebrews",
+      "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-romans",
+      "name_zh": "羅馬書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
     },
     {
       "slug": "zephaniah",
@@ -769,8 +3061,118 @@
   ],
   "monastic": [
     {
+      "slug": "abhidharmakosa",
+      "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an3-threes",
+      "name_zh": "AN3 三法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an5-fives",
+      "name_zh": "AN5 五法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an8-eights",
+      "name_zh": "AN8 八法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "infinite-life-sutra",
+      "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "religion": "佛教"
     },
     {
@@ -779,8 +3181,68 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn2-devaputta",
+      "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn46-bojjhanga",
+      "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
     },
     {
@@ -792,12 +3254,72 @@
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
     }
   ],
   "monotheist-exclusive": [
     {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
       "religion": "猶太教"
     },
     {
@@ -806,13 +3328,43 @@
       "religion": "猶太教"
     },
     {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
     },
     {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
+    },
+    {
       "slug": "sblgnt-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -821,9 +3373,49 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-galatians",
+      "name_zh": "加拉太書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-hebrews",
+      "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-romans",
+      "name_zh": "羅馬書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
     },
     {
       "slug": "zephaniah",
@@ -840,6 +3432,11 @@
   ],
   "mystical-union": [
     {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -848,6 +3445,16 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
     },
     {
       "slug": "qingjing-jing",
@@ -860,6 +3467,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
@@ -868,9 +3480,49 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "zhuangzi",
+      "name_zh": "莊子",
+      "religion": "道教"
     }
   ],
   "non-dual": [
+    {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
@@ -887,14 +3539,39 @@
       "religion": "佛教"
     },
     {
+      "slug": "huainanzi",
+      "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
     },
     {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
     },
     {
       "slug": "qingjing-jing",
@@ -912,9 +3589,118 @@
       "religion": "佛教"
     },
     {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
+      "religion": "道教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
+      "slug": "vijnaptimatratasiddhi",
+      "name_zh": "成唯識論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
+      "religion": "道教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "zhuangzi",
+      "name_zh": "莊子",
+      "religion": "道教"
+    }
+  ],
+  "non-violence": [
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    }
+  ],
+  "oral-tradition": [
+    {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "atharvaveda-saunaka",
+      "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
     }
   ],
   "other-power": [
@@ -924,25 +3710,101 @@
       "religion": "佛教"
     },
     {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
     }
   ],
+  "patriarchal": [
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    }
+  ],
+  "pilgrimage": [
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    }
+  ],
+  "polytheist": [
+    {
+      "slug": "atharvaveda-saunaka",
+      "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    }
+  ],
   "prayer": [
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
     {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
     },
     {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
     },
     {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -951,32 +3813,152 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-acts",
+      "name_zh": "使徒行傳（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
       "religion": "基督教"
     }
   ],
   "priesthood": [
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
     },
     {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samuel-1",
+      "name_zh": "撒母耳記上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-hebrews",
+      "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
       "religion": "猶太教"
     }
   ],
   "prophetic-critique": [
     {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
     },
     {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "micah",
+      "name_zh": "彌迦書",
       "religion": "猶太教"
     },
     {
@@ -988,6 +3970,11 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-john",
@@ -1012,6 +3999,26 @@
   ],
   "prophetic-revelation": [
     {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -1019,6 +4026,21 @@
     {
       "slug": "haggai",
       "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
       "religion": "猶太教"
     },
     {
@@ -1032,8 +4054,28 @@
       "religion": "猶太教"
     },
     {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "micah",
+      "name_zh": "彌迦書",
       "religion": "猶太教"
     },
     {
@@ -1045,6 +4087,16 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-peter",
@@ -1062,14 +4114,54 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-acts",
+      "name_zh": "使徒行傳（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-galatians",
+      "name_zh": "加拉太書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
+      "religion": "道教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
     },
     {
       "slug": "zephaniah",
@@ -1084,9 +4176,24 @@
       "religion": "佛教"
     },
     {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
     },
     {
       "slug": "medicine-buddha-sutra",
@@ -1095,6 +4202,16 @@
     }
   ],
   "revealed-text": [
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
@@ -1113,9 +4230,54 @@
   ],
   "ritual-practice": [
     {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
+      "slug": "atharvaveda-saunaka",
+      "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chun-qiu-zuo-zhuan",
+      "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
     },
     {
       "slug": "huangting-neijing",
@@ -1123,13 +4285,73 @@
       "religion": "道教"
     },
     {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
     },
     {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
+      "religion": "道教"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
       "religion": "道教"
     },
     {
@@ -1140,20 +4362,140 @@
   ],
   "sacred-language": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "atharvaveda-saunaka",
+      "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "maitrayani-samhita",
+      "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "rigveda",
+      "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vaisheshika-sutra-kanada",
+      "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
     }
   ],
   "salvation-by-faith": [
+    {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
     {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
     },
     {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1167,13 +4509,58 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-acts",
+      "name_zh": "使徒行傳（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-galatians",
+      "name_zh": "加拉太書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-hebrews",
+      "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-romans",
+      "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1184,12 +4571,102 @@
   ],
   "secular-state": [
     {
+      "slug": "chun-qiu-zuo-zhuan",
+      "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "huainanzi",
+      "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "self-effort": [
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an3-threes",
+      "name_zh": "AN3 三法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an5-fives",
+      "name_zh": "AN5 五法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an6-sixes",
+      "name_zh": "AN6 六法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "baopuzi",
+      "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
@@ -1211,6 +4688,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "huainanzi",
+      "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -1219,6 +4701,16 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
     },
     {
       "slug": "qingjing-jing",
@@ -1231,8 +4723,63 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn2-devaputta",
+      "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn22-khandha",
+      "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn46-bojjhanga",
+      "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
     },
     {
@@ -1246,8 +4793,23 @@
       "religion": "佛教"
     },
     {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
+      "religion": "道教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
       "religion": "道教"
     },
     {
@@ -1259,6 +4821,11 @@
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
+    },
+    {
+      "slug": "zhuangzi",
+      "name_zh": "莊子",
+      "religion": "道教"
     }
   ],
   "sexual-ethics": [
@@ -1268,16 +4835,61 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-1-timothy",
+      "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "猶太教"
     }
   ],
   "sin-as-disobedience": [
     {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-1",
+      "name_zh": "撒母耳記上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-peter",
@@ -1293,20 +4905,127 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
+    }
+  ],
+  "spirit-possession": [
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-acts",
+      "name_zh": "使徒行傳（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "study": [
     {
+      "slug": "an8-eights",
+      "name_zh": "AN8 八法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
     }
   ],
   "suffering-as-purifying": [
     {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "samkhya-karika-ishvarakrshna",
+      "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "sblgnt-1-peter",
+      "name_zh": "彼得前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-james",
+      "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
     },
     {
       "slug": "sn5-bhikkhuni",
@@ -1314,7 +5033,29 @@
       "religion": "佛教"
     }
   ],
+  "synagogue-mosque-style": [
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    }
+  ],
   "temple-centered": [
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
     {
       "slug": "haggai",
       "name_zh": "哈該書",
@@ -1326,20 +5067,117 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
+    }
+  ],
+  "theocracy": [
+    {
+      "slug": "deuteronomy",
+      "name_zh": "申命記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
       "religion": "猶太教"
     }
   ],
   "theodicy": [
+    {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
     {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
     },
     {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
       "religion": "猶太教"
     },
     {
@@ -1350,6 +5188,11 @@
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ruth",
+      "name_zh": "路得記",
       "religion": "猶太教"
     },
     {
@@ -1363,12 +5206,37 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-romans",
+      "name_zh": "羅馬書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
     }
   ],
   "theophany": [
+    {
+      "slug": "amos",
+      "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "chronicles-2",
+      "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
     {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
@@ -1380,8 +5248,28 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "joel",
       "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
       "religion": "猶太教"
     },
     {
@@ -1390,8 +5278,73 @@
       "religion": "猶太教"
     },
     {
+      "slug": "micah",
+      "name_zh": "彌迦書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-1",
+      "name_zh": "撒母耳記上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-acts",
+      "name_zh": "使徒行傳（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-hebrews",
+      "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philippians",
+      "name_zh": "腓立比書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
       "religion": "猶太教"
     },
     {
@@ -1402,6 +5355,26 @@
   ],
   "tribal-traditional": [
     {
+      "slug": "joshua",
+      "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
@@ -1409,8 +5382,28 @@
   ],
   "truthfulness": [
     {
+      "slug": "an4-fours",
+      "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an5-fives",
+      "name_zh": "AN5 五法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "analects",
+      "name_zh": "論語",
+      "religion": "儒教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "digha-nikaya",
+      "name_zh": "長部經典",
       "religion": "佛教"
     },
     {
@@ -1419,9 +5412,54 @@
       "religion": "佛教"
     },
     {
+      "slug": "huainanzi",
+      "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-jataka",
+      "name_zh": "小部·本生 (547 故事)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-milindapanha",
+      "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-john",
@@ -1439,9 +5477,19 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
     },
     {
       "slug": "sn10-yakkha",
@@ -1449,16 +5497,91 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn3-kosala",
+      "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
     }
   ],
   "ultimate-reality": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "an10-tens",
+      "name_zh": "AN10 十法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an8-eights",
+      "name_zh": "AN8 八法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "chandogya-upanishad",
+      "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dirghagama",
+      "name_zh": "長阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
     },
     {
       "slug": "habakkuk",
@@ -1471,13 +5594,88 @@
       "religion": "佛教"
     },
     {
+      "slug": "huainanzi",
+      "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "name_zh": "黃帝內經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
     },
     {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "liji",
+      "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-upanishad",
+      "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "micah",
+      "name_zh": "彌迦書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
       "religion": "印度教"
     },
     {
@@ -1486,9 +5684,79 @@
       "religion": "道教"
     },
     {
+      "slug": "samkhya-sutra-kapila",
+      "name_zh": "數論經（迦毗羅）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "sblgnt-1-john",
+      "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-mark",
+      "name_zh": "馬可福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-matthew",
+      "name_zh": "馬太福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn12-nidana",
+      "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn2-devaputta",
+      "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn22-khandha",
+      "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn35-salayatana",
+      "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
     },
     {
       "slug": "sn5-bhikkhuni",
@@ -1496,9 +5764,49 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "taiping-jing",
+      "name_zh": "太平經",
+      "religion": "道教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "tao-te-ching",
+      "name_zh": "道德經",
+      "religion": "道教"
+    },
+    {
+      "slug": "vaisheshika-sutra-kanada",
+      "name_zh": "勝論經（迦那陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vijnaptimatratasiddhi",
+      "name_zh": "成唯識論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "wenzi",
+      "name_zh": "文子",
+      "religion": "道教"
     },
     {
       "slug": "yinfu-jing",
@@ -1509,6 +5817,11 @@
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
+    },
+    {
+      "slug": "zhuangzi",
+      "name_zh": "莊子",
+      "religion": "道教"
     }
   ],
   "universal-resurrection": [
@@ -1525,6 +5838,26 @@
       "religion": "佛教"
     },
     {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezekiel",
+      "name_zh": "以西結書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -1535,14 +5868,49 @@
       "religion": "道教"
     },
     {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jeremiah",
+      "name_zh": "耶利米書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-1",
+      "name_zh": "撒母耳記上",
       "religion": "猶太教"
     },
     {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-luke",
+      "name_zh": "路加福音（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
     }
   ]
 }
