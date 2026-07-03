@@ -88,11 +88,16 @@ def main():
     religions_in_corpus: set[str] = set()
     translit_suspects: list[dict] = []
     role_counts: dict[str, int] = defaultdict(int)
+    # English cores whose original-language sibling is already collected. Any -original
+    # slug that declares original_of=<english-slug> clears that english slug off the待補 list.
+    covered_by_original: set[str] = set()
     for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
         try:
             meta = json.loads(meta_p.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
             continue
+        if meta.get("original_of") and (meta.get("text_role") == "original"):
+            covered_by_original.add(meta["original_of"])
         rel = meta.get("religion", "?")
         religions_in_corpus.add(rel)
         if meta.get("tier") != "核心":
@@ -142,9 +147,11 @@ def main():
 
     def _is_sole_source(e: dict) -> bool:
         # content-truth guard: a native-script file already carries its original on disk.
+        # covered-by-sibling guard: an original-language sibling slug was already collected.
         return (e["religion"] in BACKFILL_RELIGIONS
                 and e["text_role"] != "original"
-                and not e["has_native_script"])
+                and not e["has_native_script"]
+                and e["slug"] not in covered_by_original)
 
     # Cores inside candidate sole-source religions whose bytes prove the original is already
     # on disk but whose label still says otherwise — a data-quality backlog: fix text_role,

@@ -1,0 +1,39 @@
+{
+  "religion": "原文補收",
+  "language": null,
+  "_note": "Sibling original-language texts for cores that previously only had English translations (sacred-texts.com anthology). Each entry carries its own lang/religion/text_role. English slug stays as 對照; audit clears 待補 when the linked original_of slug exists with text_role=original.",
+  "scriptures": [
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "name_en": "Metamorphoses (Ovid, Latin)",
+      "religion": "古希臘羅馬",
+      "language": "拉丁",
+      "lang": "la",
+      "wikisource_title": "Metamorphoses (Ovidius)",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "ovid-metamorphoses",
+      "version": "Wikisource 拉丁通行本",
+      "expected_chapter_count": 15,
+      "tier": "核心",
+      "notes": "15 卷（Liber I–XV），Ovid 拉丁原文"
+    },
+    {
+      "slug": "virgil-aeneid-la",
+      "name_zh": "伊尼德（拉丁原文）",
+      "name_en": "Aeneis (Virgil, Latin)",
+      "religion": "古希臘羅馬",
+      "language": "拉丁",
+      "lang": "la",
+      "wikisource_title": "Aeneis",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "virgil-aeneid",
+      "version": "Wikisource 拉丁通行本",
+      "expected_chapter_count": 12,
+      "tier": "核心",
+      "notes": "12 卷（Liber I–XII），Virgil 拉丁原文"
+    }
+  ]
+}

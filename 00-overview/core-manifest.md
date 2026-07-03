@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**377** 部
-- 已翻譯：**77** / 377
-- 已標籤：**376** / 377
+- 核心總數：**379** 部
+- 已翻譯：**77** / 379
+- 已標籤：**376** / 379
 
 ## 各宗教核心進度
 
@@ -15,7 +15,7 @@
 | 猶太教 | 45 | 17 | 45 |
 | 印度教 | 26 | 9 | 25 |
 | 道教 | 14 | 9 | 14 |
-| 古希臘羅馬 | 12 | 0 | 12 |
+| 古希臘羅馬 | 14 | 0 | 12 |
 | 儒教 | 9 | 4 | 9 |
 | 瑣羅亞斯德 | 8 | 0 | 8 |
 | 古埃及 | 8 | 0 | 8 |
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 177 |
+| original | 179 |
 | translation | 197 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**14** 個 / 核心 **54** 部
-- 名單：古希臘羅馬、古埃及、瑣羅亞斯德、諾斯底、美洲、凱爾特、北歐、兩河、非洲、斯拉夫、錫克教、耆那教、神道、巴哈伊
+- 唯一英譯本宗教：**14** 個 / 核心 **52** 部
+- 名單：古埃及、瑣羅亞斯德、古希臘羅馬、諾斯底、美洲、凱爾特、北歐、兩河、非洲、耆那教、斯拉夫、錫克教、神道、巴哈伊
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -401,7 +401,7 @@
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
 - `zhuangzi` 莊子（古典漢語）譯✓ 標✓
 
-### 古希臘羅馬（12 部）
+### 古希臘羅馬（14 部）
 
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（English (translation)）譯– 標✓
@@ -411,10 +411,12 @@
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
+- `ovid-metamorphoses-la` 變形記（拉丁原文）（拉丁）譯– 標–
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
 - `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
+- `virgil-aeneid-la` 伊尼德（拉丁原文）（拉丁）譯– 標–
 
 ### 儒教（9 部）
 

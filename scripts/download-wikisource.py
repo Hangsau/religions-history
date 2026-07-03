@@ -43,6 +43,10 @@ WS_API_LANG = {
     "en": "https://en.wikisource.org/w/api.php",
     "la": "https://la.wikisource.org/w/api.php",
     "sa": "https://sa.wikisource.org/w/api.php",
+    "el": "https://el.wikisource.org/w/api.php",
+    "ru": "https://ru.wikisource.org/w/api.php",
+    "he": "https://he.wikisource.org/w/api.php",
+    "de": "https://de.wikisource.org/w/api.php",
 }
 WS_API = WS_API_DEFAULT  # mutated via --lang in main()
 USER_AGENT = "religions-history-research/0.1 (academic research; contact: psyhangsau@gmail.com; +https://github.com/Hangsau/religions-history)"
@@ -217,7 +221,10 @@ def extract_main_text(html: str) -> str:
 
 
 def download_scripture(entry: dict) -> dict:
+    global WS_API
     slug = entry["slug"]
+    if entry.get("lang"):
+        WS_API = WS_API_LANG[entry["lang"]]
     if entry.get("skip_reason"):
         print(f"[skip] {slug}: {entry['skip_reason']}")
         return {"slug": slug, "status": "skipped", "reason": entry["skip_reason"]}
@@ -317,6 +324,16 @@ def download_scripture(entry: dict) -> dict:
         "tier": entry.get("tier"),
         "notes": entry.get("notes"),
     }
+    if entry.get("text_role"):
+        meta["text_role"] = entry["text_role"]
+    if entry.get("is_original_language") is not None:
+        meta["is_original_language"] = entry["is_original_language"]
+    if entry.get("translation_of"):
+        meta["translation_of"] = entry["translation_of"]
+    if entry.get("original_of"):
+        meta["original_of"] = entry["original_of"]
+    if entry.get("composition_note"):
+        meta["composition_note"] = entry["composition_note"]
     (TRANSLATIONS_DIR / slug / "meta.json").write_bytes(
         (json.dumps(meta, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     )
@@ -332,6 +349,7 @@ def load_catalog(religion: str) -> list[dict]:
         "基督教-拉丁": "christianity-vulgate.json",
         "神道": "shinto-ws.json",
         "世界古典": "world-classics-en-ws.json",
+        "原文補收": "backfill-originals-ws.json",
     }
     if religion not in name_map:
         sys.exit(f"unknown religion: {religion}")

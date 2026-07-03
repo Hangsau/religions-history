@@ -4,19 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**54** 部，橫跨 **14** 宗教
-
-## 古希臘羅馬（9 部）
-
-- [ ] `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）— 未譯，原文待補
-- [ ] `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）— 未譯，原文待補
-- [ ] `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-- [ ] `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-- [ ] `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）— 未譯，原文待補
-- [ ] `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）— 未譯，原文待補
-- [ ] `plotinus-enneads` 普羅提諾九章集（English (translation)）— 未譯，原文待補
-- [ ] `sibylline-oracles` 西比拉神諭集（English (translation)）— 未譯，原文待補
-- [ ] `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）— 未譯，原文待補
+- 待補原文核心：**52** 部，橫跨 **14** 宗教
 
 ## 古埃及（8 部）
 
@@ -39,6 +27,16 @@
 - [ ] `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）— 未譯，原文待補
 - [ ] `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）— 未譯，原文待補
 - [ ] `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）— 未譯，原文待補
+
+## 古希臘羅馬（7 部）
+
+- [ ] `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）— 未譯，原文待補
+- [ ] `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）— 未譯，原文待補
+- [ ] `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）— 未譯，原文待補
+- [ ] `plotinus-enneads` 普羅提諾九章集（English (translation)）— 未譯，原文待補
+- [ ] `sibylline-oracles` 西比拉神諭集（English (translation)）— 未譯，原文待補
 
 ## 諾斯底（5 部）
 
@@ -79,6 +77,11 @@
 - [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
 - [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
+## 耆那教（2 部）
+
+- [ ] `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）— 未譯，原文待補
+- [ ] `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）— 未譯，原文待補
+
 ## 斯拉夫（2 部）
 
 - [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
@@ -88,11 +91,6 @@
 
 - [ ] `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）— 未譯，原文待補
 - [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-
-## 耆那教（2 部）
-
-- [ ] `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）— 未譯，原文待補
-- [ ] `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）— 未譯，原文待補
 
 ## 神道（1 部）
 
