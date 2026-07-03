@@ -20,5 +20,33 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "classical-antiquity",
+  "genre": "commentary",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "monotheist-exclusive",
+    "oral-tradition",
+    "ritual-practice",
+    "study",
+    "temple-centered",
+    "theocracy"
+  ],
+  "keywords": [
+    "塔木德",
+    "Talmud",
+    "Babylonian Talmud",
+    "Rodkinson",
+    "Barclay",
+    "拉比",
+    "Rabbi",
+    "Mishnah",
+    "Halakha",
+    "Torah",
+    "Red Heifer",
+    "Sanhedrin",
+    "Temple"
+  ],
+  "tag_status": "done"
 }

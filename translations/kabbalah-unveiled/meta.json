@@ -20,5 +20,35 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "三部 Zohar 重要篇 (Siphra Dzeniutha / Idra Rabba / Idra Zuta) 英譯",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "medieval",
+  "genre": "scripture-revealed",
+  "semantic_tags": [
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "messianism",
+    "multiple-souls",
+    "mystical-union",
+    "oral-tradition",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Zohar",
+    "Kabbalah",
+    "Sefirot",
+    "Ein Sof",
+    "生命之樹",
+    "Rabbi Shimon bar Yochai",
+    "Knorr von Rosenroth",
+    "Mathers",
+    "Golden Dawn",
+    "Sifra de-Tsni'uta",
+    "Idra Rabba",
+    "Idra Zuta",
+    "Moses de León",
+    "神秘主義",
+    "Thelema"
+  ],
+  "tag_status": "done"
 }

@@ -20,5 +20,33 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "axial-age",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "Homer 荷馬",
+    "Achilles 阿基里斯",
+    "Agamemnon 阿伽門農",
+    "Apollo 阿波羅",
+    "Zeus 宙斯",
+    "Troy 特洛伊",
+    "Trojan War 特洛伊戰爭",
+    "Achaeans 阿開亞人",
+    "Calchas 卡爾卡斯",
+    "Peleus 佩流斯",
+    "Hera 赫拉",
+    "Leto 勒托",
+    "Chryses 克律塞斯",
+    "Homeric epic 荷馬史詩"
+  ],
+  "tag_status": "done"
 }
