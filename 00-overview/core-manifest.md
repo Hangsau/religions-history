@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**404** 部
-- 已翻譯：**77** / 404
-- 已標籤：**376** / 404
+- 核心總數：**405** 部
+- 已翻譯：**77** / 405
+- 已標籤：**376** / 405
 
 ## 各宗教核心進度
 
@@ -19,8 +19,8 @@
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 儒教 | 9 | 4 | 9 |
 | 古埃及 | 8 | 0 | 8 |
+| 凱爾特 | 7 | 0 | 4 |
 | 北歐 | 7 | 0 | 3 |
-| 凱爾特 | 6 | 0 | 4 |
 | 耆那教 | 6 | 0 | 2 |
 | 諾斯底 | 5 | 0 | 5 |
 | 美洲 | 4 | 0 | 4 |
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 205 |
+| original | 206 |
 | translation | 196 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**10** 個 / 核心 **33** 部
-- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、兩河、凱爾特、非洲、巴哈伊、錫克教、斯拉夫
+- 唯一英譯本宗教：**10** 個 / 核心 **32** 部
+- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、兩河、凱爾特、非洲、斯拉夫、巴哈伊、錫克教
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -463,6 +463,16 @@
 - `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯– 標✓
 - `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標✓
 
+### 凱爾特（7 部）
+
+- `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）譯– 標✓
+- `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）譯– 標✓
+- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
+- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
+- `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
+
 ### 北歐（7 部）
 
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
@@ -472,15 +482,6 @@
 - `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯– 標–
 - `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標✓
 - `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯– 標–
-
-### 凱爾特（6 部）
-
-- `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）譯– 標✓
-- `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）譯– 標✓
-- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
-- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
-- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
-- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
 
 ### 耆那教（6 部）
 

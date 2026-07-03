@@ -1,0 +1,22 @@
+{
+  "religion": "凱爾特",
+  "source_platform": "celt.ucc.ie",
+  "license": "Academic use (CELT, University College Cork; PD / CC BY-NC editions)",
+  "language": "古愛爾蘭語",
+  "notes": "CELT（Corpus of Electronic Texts, UCC）已刊 G-編號 = 原文校訂本，T-編號 = 英譯。厄爾斯特傳說群（Ulster Cycle）古／中愛爾蘭語原文，對應 sacred-texts Lady Gregory 英文改寫 cuchulain-muirthemne。抽取時以 <h1> 標題第二次出現切除 TEI 檔頭。",
+  "scriptures": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "name_en": "Táin Bó Cúailnge (Old Irish, Recension I + Book of Leinster)",
+      "name_original": "Táin Bó Cúailnge",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "cuchulain-muirthemne",
+      "expected_chapter_count": 2,
+      "tier": "核心",
+      "celt_ids": ["G301012", "G301035"],
+      "notes": "厄爾斯特傳說群核心《奪牛長征記》古愛爾蘭語原文：G301012 = Recension I（O'Rahilly），G301035 = Book of Leinster 傳本。對應 sacred-texts Lady Gregory《Cuchulain of Muirthemne》英文改寫（cuchulain-muirthemne 為全 Ulster Cycle 綜述，此處收其核心 Táin 原文）"
+    }
+  ]
+}

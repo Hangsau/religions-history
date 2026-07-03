@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**33** 部，橫跨 **10** 宗教
+- 待補原文核心：**32** 部，橫跨 **10** 宗教
 
 ## 古埃及（8 部）
 
@@ -46,16 +46,19 @@
 - [ ] `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）— 未譯，原文待補
 - [ ] `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）— 未譯，原文待補
 
-## 凱爾特（3 部）
+## 凱爾特（2 部）
 
 - [ ] `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）— 未譯，原文待補
 - [ ] `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）— 未譯，原文待補
-- [ ] `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）— 未譯，原文待補
 
 ## 非洲（2 部）
 
 - [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
 - [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
+
+## 斯拉夫（1 部）
+
+- [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
 
 ## 巴哈伊（1 部）
 
@@ -64,8 +67,4 @@
 ## 錫克教（1 部）
 
 - [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-
-## 斯拉夫（1 部）
-
-- [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
 
