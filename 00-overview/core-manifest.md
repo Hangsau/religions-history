@@ -2,23 +2,24 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**369** 部
-- 已翻譯：**40** / 369
-- 已標籤：**20** / 369
+- 核心總數：**375** 部
+- 已翻譯：**51** / 375
+- 已標籤：**32** / 375
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 8 | 6 |
-| 猶太教 | 45 | 8 | 4 |
-| 佛教-巴利 | 31 | 0 | 0 |
-| 佛教 | 30 | 7 | 4 |
-| 印度教 | 26 | 4 | 0 |
+| 基督教 | 159 | 10 | 8 |
+| 猶太教 | 45 | 12 | 8 |
+| 佛教-巴利 | 31 | 3 | 3 |
+| 佛教 | 30 | 8 | 5 |
+| 印度教 | 26 | 5 | 1 |
 | 道教 | 14 | 8 | 5 |
 | 古希臘羅馬 | 12 | 0 | 0 |
-| 儒教 | 9 | 4 | 1 |
+| 儒教 | 9 | 4 | 2 |
 | 瑣羅亞斯德 | 8 | 0 | 0 |
+| 古埃及 | 8 | 0 | 0 |
 | 諾斯底 | 5 | 0 | 0 |
 | 美洲 | 4 | 0 | 0 |
 | 凱爾特 | 4 | 0 | 0 |
@@ -26,7 +27,6 @@
 | 兩河 | 3 | 0 | 0 |
 | 北歐 | 3 | 0 | 0 |
 | 現代新興 | 2 | 0 | 0 |
-| 古埃及 | 2 | 0 | 0 |
 | 錫克教 | 2 | 0 | 0 |
 | 非洲 | 2 | 0 | 0 |
 | 耆那教 | 2 | 0 | 0 |
@@ -57,7 +57,7 @@
 | text_role | 核心部數 |
 |-----------|---------|
 | contested | 2 |
-| (未標) | 367 |
+| (未標) | 373 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -142,9 +142,9 @@
 - `sblgnt-1-timothy` 提摩太前書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-2-corinthians` 哥林多後書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-2-john` 約翰二書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-2-peter` 彼得後書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-2-peter` 彼得後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-thessalonians` 帖撒羅尼迦後書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-2-timothy` 提摩太後書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-2-timothy` 提摩太後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-3-john` 約翰三書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯– 標–
@@ -249,8 +249,8 @@
 - `isaiah` 以賽亞書（希伯來）譯– 標–
 - `jeremiah` 耶利米書（希伯來）譯– 標–
 - `job` 約伯記（希伯來）譯✓ 標–
-- `joel` 約珥書（希伯來）譯– 標–
-- `jonah` 約拿書（希伯來）譯– 標–
+- `joel` 約珥書（希伯來）譯✓ 標✓
+- `jonah` 約拿書（希伯來）譯✓ 標✓
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標–
 - `joshua` 約書亞記（希伯來）譯– 標–
 - `judges` 士師記（希伯來）譯– 標–
@@ -261,7 +261,7 @@
 - `lamentations` 耶利米哀歌（希伯來）譯– 標–
 - `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標–
 - `leviticus` 利未記（希伯來）譯– 標–
-- `malachi` 瑪拉基書（希伯來）譯– 標–
+- `malachi` 瑪拉基書（希伯來）譯✓ 標✓
 - `micah` 彌迦書（希伯來）譯– 標–
 - `nahum` 那鴻書（希伯來）譯✓ 標✓
 - `nehemiah` 尼希米記（希伯來）譯– 標–
@@ -275,7 +275,7 @@
 - `song-of-songs` 雅歌（希伯來）譯– 標–
 - `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標–
 - `zechariah` 撒迦利亞書（希伯來）譯– 標–
-- `zephaniah` 西番雅書（希伯來）譯– 標–
+- `zephaniah` 西番雅書（希伯來）譯✓ 標✓
 
 ### 佛教-巴利（31 部）
 
@@ -293,7 +293,7 @@
 - `kn-jataka` 小部·本生 (547 故事)（Pali）譯– 標–
 - `kn-milindapanha` 小部·彌蘭王問經（Pali）譯– 標–
 - `sn1-devata` SN1 天人相應 (81 經)（Pali）譯– 標–
-- `sn10-yakkha` SN10 夜叉相應（Pali）譯– 標–
+- `sn10-yakkha` SN10 夜叉相應（Pali）譯✓ 標✓
 - `sn11-sakka` SN11 帝釋相應（Pali）譯– 標–
 - `sn12-nidana` SN12 因緣相應 (93 經)（Pali）譯– 標–
 - `sn2-devaputta` SN2 天子相應（Pali）譯– 標–
@@ -304,12 +304,12 @@
 - `sn45-magga` SN45 道相應 (180 經)（Pali）譯– 標–
 - `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯– 標–
 - `sn47-satipatthana` SN47 念處相應 (104 經)（Pali）譯– 標–
-- `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯– 標–
+- `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯✓ 標✓
 - `sn56-sacca` SN56 諦相應 (131 經)（Pali）譯– 標–
 - `sn6-brahma` SN6 梵天相應（Pali）譯– 標–
 - `sn7-brahmana` SN7 婆羅門相應（Pali）譯– 標–
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯– 標–
-- `sn9-vana` SN9 林相應（Pali）譯– 標–
+- `sn9-vana` SN9 林相應（Pali）譯✓ 標✓
 
 ### 佛教（30 部）
 
@@ -335,7 +335,7 @@
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標–
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標–
 - `majjhima-nikaya` 中部經典（Pali）譯– 標–
-- `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯– 標–
+- `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯– 標–
 - `samyuktagama` 雜阿含經（古典漢語）譯– 標–
 - `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標–
@@ -371,7 +371,7 @@
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯– 標–
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯– 標–
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標–
-- `yoga-sutra` 瑜伽經（Sanskrit）譯– 標–
+- `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
 ### 道教（14 部）
 
@@ -411,7 +411,7 @@
 - `book-of-changes` 周易（古典漢語）譯– 標–
 - `book-of-poetry` 詩經（古典漢語）譯– 標–
 - `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯– 標–
-- `doctrine-of-the-mean` 中庸（古典漢語）譯✓ 標–
+- `doctrine-of-the-mean` 中庸（古典漢語）譯✓ 標✓
 - `great-learning` 大學（古典漢語）譯✓ 標✓
 - `liji` 禮記（古典漢語）譯– 標–
 - `mengzi` 孟子（古典漢語）譯✓ 標–
@@ -427,6 +427,17 @@
 - `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯– 標–
 - `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯– 標–
 - `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標–
+
+### 古埃及（8 部）
+
+- `book-of-am-tuat` 阿姆杜阿特之書（幽冥界之書）（English (Budge translation)）譯– 標–
+- `book-of-gates` 門之書（English (Budge translation)）譯– 標–
+- `burden-of-isis` 伊西斯的悲歌（奧西里斯讚歌）（English (Budge translation)）譯– 標–
+- `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯– 標–
+- `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯– 標–
+- `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯– 標–
+- `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯– 標–
+- `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標–
 
 ### 諾斯底（5 部）
 
@@ -473,11 +484,6 @@
 
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `pearl-of-great-price` 無價珍珠（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
-
-### 古埃及（2 部）
-
-- `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯– 標–
-- `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標–
 
 ### 錫克教（2 部）
 

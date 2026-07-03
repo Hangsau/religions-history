@@ -3,9 +3,21 @@
   "source_platform": "sacred-texts.com",
   "license": "Public Domain",
   "language": "English (Budge translation)",
-  "notes": "古埃及主要宗教文獻英譯 via Budge / Faulkner. 原文 hieroglyphs 待專門 source.",
+  "notes": "古埃及主要宗教文獻英譯 via Budge / Faulkner / Mercer. 原文 hieroglyphs 待專門 source（原文優先、英譯 fallback）.",
   "scriptures": [
     {"slug": "egyptian-book-of-dead", "st_book_path": "egy/ebod", "name_zh": "古埃及死者之書", "name_en": "Egyptian Book of the Dead", "version": "Budge 1895", "tier": "核心", "is_original_language": false},
-    {"slug": "pyramid-texts-mercer", "st_book_path": "egy/pyt", "name_zh": "金字塔銘文", "name_en": "Pyramid Texts", "version": "Mercer 1952", "tier": "核心", "is_original_language": false}
+    {"slug": "pyramid-texts-mercer", "st_book_path": "egy/pyt", "name_zh": "金字塔銘文", "name_en": "Pyramid Texts", "version": "Mercer 1952", "tier": "核心", "is_original_language": false},
+    {"slug": "legends-of-the-gods-egypt", "st_book_path": "egy/leg", "name_zh": "諸神傳說（古埃及文本）", "name_en": "Legends of the Gods: The Egyptian Texts", "version": "Budge 1912", "tier": "核心", "is_original_language": false, "notes": "含伊西斯與拉、荷魯斯神話等原始神話文本英譯."},
+    {"slug": "book-of-am-tuat", "st_book_path": "egy/bat", "name_zh": "阿姆杜阿特之書（幽冥界之書）", "name_en": "The Book of Am-Tuat", "version": "Budge", "tier": "核心", "is_original_language": false},
+    {"slug": "book-of-gates", "st_book_path": "egy/gate", "name_zh": "門之書", "name_en": "The Book of Gates", "version": "Budge", "tier": "核心", "is_original_language": false},
+    {"slug": "egyptian-heaven-and-hell", "st_book_path": "egy/ehh", "name_zh": "埃及的天堂與地獄", "name_en": "The Egyptian Heaven and Hell", "version": "Budge", "tier": "核心", "is_original_language": false},
+    {"slug": "burden-of-isis", "st_book_path": "egy/boi", "name_zh": "伊西斯的悲歌（奧西里斯讚歌）", "name_en": "The Burden of Isis", "version": "Dennis 1910", "tier": "核心", "is_original_language": false, "notes": "奧西里斯哀歌與讚歌，宗教頌詩."},
+    {"slug": "liturgy-funerary-offerings", "st_book_path": "egy/lfo", "name_zh": "葬祭供養儀軌", "name_en": "The Liturgy of Funerary Offerings", "version": "Budge", "tier": "核心", "is_original_language": false},
+    {"slug": "religion-thought-ancient-egypt", "st_book_path": "egy/rtae", "name_zh": "古埃及宗教與思想的發展", "name_en": "Development of Religion and Thought in Ancient Egypt", "version": "Breasted 1912", "tier": "次要", "is_original_language": false},
+    {"slug": "wisdom-of-the-egyptians", "st_book_path": "egy/woe", "name_zh": "埃及智慧書（含普塔霍特普訓誡）", "name_en": "The Wisdom of the Egyptians", "version": "Budge 1923", "tier": "次要", "is_original_language": false},
+    {"slug": "egyptian-magic", "st_book_path": "egy/ema", "name_zh": "埃及魔法", "name_en": "Egyptian Magic", "version": "Budge 1901", "tier": "次要", "is_original_language": false},
+    {"slug": "egyptian-ideas-future-life", "st_book_path": "egy/efl", "name_zh": "埃及人的來世觀", "name_en": "Egyptian Ideas of the Future Life", "version": "Budge 1900", "tier": "次要", "is_original_language": false},
+    {"slug": "rosetta-stone", "st_book_path": "egy/trs", "name_zh": "羅塞塔石碑", "name_en": "The Rosetta Stone", "version": "Budge", "tier": "次要", "is_original_language": false},
+    {"slug": "demotic-magical-papyrus", "st_book_path": "egy/dmp", "name_zh": "倫敦與萊頓世俗體魔法紙草", "name_en": "The Demotic Magical Papyrus of London and Leiden", "version": "Griffith & Thompson", "tier": "次要", "is_original_language": false}
   ]
 }
