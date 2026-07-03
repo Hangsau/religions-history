@@ -20,5 +20,32 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "L.W. King 英譯. 巴比倫創世史詩. 阿卡德語原文待補.",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "bronze-age",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "theophany"
+  ],
+  "keywords": [
+    "Marduk",
+    "Tiamat",
+    "Apsu",
+    "Enuma Elish",
+    "Babylon",
+    "Seven Tablets",
+    "創世",
+    "馬爾杜克",
+    "提阿馬特",
+    "楔形文字",
+    "cuneiform",
+    "Mesopotamian cosmology",
+    "dragon-slaying",
+    "primordial waters"
+  ],
+  "tag_status": "done"
 }

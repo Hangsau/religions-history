@@ -20,5 +20,34 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "含伊西斯與拉、荷魯斯神話等原始神話文本英譯.",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "bronze-age",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "goddess-tradition",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+  ],
+  "keywords": [
+    "Neb-er-tcher",
+    "Ra",
+    "Horus",
+    "Isis",
+    "Osiris",
+    "Khnemu",
+    "Khensu",
+    "Thebes",
+    "Edfu",
+    "Bekhten",
+    "Metternich Stele",
+    "British Museum Papyrus 10188",
+    "creation",
+    "resurrection"
+  ],
+  "tag_status": "done"
 }

@@ -20,5 +20,32 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "12 世紀古東斯拉夫史詩，含斯拉夫異教神祇（Dazhbog / Veles / Stribog）。古東斯拉夫語原文待補.",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "medieval",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "oral-tradition",
+    "prayer",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+  ],
+  "keywords": [
+    "伊戈爾",
+    "Боян",
+    "Велес",
+    "波洛伏齊人",
+    "基輔羅斯",
+    "聶伯河",
+    "普提夫利",
+    "諾夫哥羅德",
+    "德魯日納",
+    "史詩",
+    "歐斯里古斯拉夫語",
+    "斯拉夫異教",
+    "口傳史詩",
+    "Владимир",
+    "Мстислав"
+  ],
+  "tag_status": "done"
 }
