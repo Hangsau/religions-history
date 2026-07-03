@@ -246,6 +246,22 @@
       "expected_chapter_count": 10,
       "tier": "核心",
       "notes": "錫克教根本經《古魯格蘭特薩希卜》古木基（Gurmukhi）文字旁遮普原文（pa.wikisource 分 10 頁）；對應 sacred-texts 英譯 guru-granth-sahib-st"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "name_en": "Kojiki (Old Japanese original, kanbun)",
+      "religion": "神道",
+      "language": "上代日本語",
+      "lang": "zh",
+      "wikisource_titles": ["古事記/上卷", "古事記/中卷", "古事記/下卷"],
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "kojiki-chamberlain",
+      "version": "Wikisource 漢文・萬葉假名混寫原文",
+      "expected_chapter_count": 3,
+      "tier": "核心",
+      "notes": "《古事記》712 年太安萬侶編，上代日本語漢文＋萬葉假名混寫原文（zh.wikisource 上／中／下三卷，上卷已含序）；對應 sacred-texts Chamberlain 英譯 kojiki-chamberlain。日文 ja.wikisource 僅版本頁，原文本體置於 zh.wikisource"
     }
   ]
 }

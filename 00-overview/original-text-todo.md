@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**37** 部，橫跨 **12** 宗教
+- 待補原文核心：**36** 部，橫跨 **11** 宗教
 
 ## 古埃及（8 部）
 
@@ -40,11 +40,11 @@
 - [ ] `inca-rites` 印加儀禮與法律（English (translation)）— 未譯，原文待補
 - [ ] `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）— 未譯，原文待補
 
-## 北歐（3 部）
+## 兩河（3 部）
 
-- [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-- [ ] `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）— 未譯，原文待補
-- [ ] `volsunga-saga` 沃爾松傳奇（English (translation)）— 未譯，原文待補
+- [ ] `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）— 未譯，原文待補
+- [ ] `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）— 未譯，原文待補
+- [ ] `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）— 未譯，原文待補
 
 ## 凱爾特（3 部）
 
@@ -52,30 +52,26 @@
 - [ ] `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）— 未譯，原文待補
 - [ ] `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）— 未譯，原文待補
 
-## 兩河（3 部）
+## 北歐（3 部）
 
-- [ ] `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）— 未譯，原文待補
-- [ ] `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）— 未譯，原文待補
-- [ ] `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）— 未譯，原文待補
+- [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）— 未譯，原文待補
+- [ ] `volsunga-saga` 沃爾松傳奇（English (translation)）— 未譯，原文待補
 
 ## 非洲（2 部）
 
 - [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
 - [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
-## 巴哈伊（1 部）
+## 錫克教（1 部）
 
-- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
+- [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 
 ## 斯拉夫（1 部）
 
 - [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
 
-## 神道（1 部）
+## 巴哈伊（1 部）
 
-- [ ] `kojiki-chamberlain` 古事記（English (translation)）— 未譯，原文待補
-
-## 錫克教（1 部）
-
-- [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
 
