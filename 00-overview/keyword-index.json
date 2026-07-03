@@ -1,4 +1,18 @@
 {
+  "Anāthapiṇḍika": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "Indaka": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "Iēsous Christos": [
     {
       "slug": "sblgnt-titus",
@@ -13,11 +27,25 @@
       "religion": "基督教"
     }
   ],
+  "Nibbāna": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "Paulos": [
     {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "Sūciloma": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
     }
   ],
   "Titos": [
@@ -36,6 +64,11 @@
     {
       "slug": "haggai",
       "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
       "religion": "猶太教"
     },
     {
@@ -68,10 +101,24 @@
       "religion": "基督教"
     }
   ],
+  "appamāda": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "devatā": [
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "dhamma": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
       "religion": "佛教-巴利"
     }
   ],
@@ -103,6 +150,20 @@
       "religion": "基督教"
     }
   ],
+  "parousia": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "paññā": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "presbyteros": [
     {
       "slug": "sblgnt-titus",
@@ -110,10 +171,45 @@
       "religion": "基督教"
     }
   ],
+  "sacca": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "saddhā": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "saṁvega": [
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "uposatha": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "yakkha": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "Āḷavaka": [
+    {
+      "slug": "sn10-yakkha",
+      "name_zh": "SN10 夜叉相應",
       "religion": "佛教-巴利"
     }
   ],
@@ -129,6 +225,13 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "三昧": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
     }
   ],
   "三毒": [
@@ -185,6 +288,20 @@
       "religion": "基督教"
     }
   ],
+  "中和": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    }
+  ],
+  "中庸": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    }
+  ],
   "丹田": [
     {
       "slug": "huangting-waijing",
@@ -193,6 +310,11 @@
     }
   ],
   "主的日子": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
@@ -269,6 +391,13 @@
       "religion": "猶太教"
     }
   ],
+  "仁": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    }
+  ],
   "他施": [
     {
       "slug": "jonah",
@@ -283,6 +412,13 @@
       "religion": "基督教"
     }
   ],
+  "以利亞": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
   "以巴弗": [
     {
       "slug": "sblgnt-philemon",
@@ -292,12 +428,22 @@
   ],
   "以掃": [
     {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
     }
   ],
   "以東": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
@@ -309,6 +455,20 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "休妻": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
+  "何烈山": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
     }
   ],
   "保羅": [
@@ -351,15 +511,34 @@
   ],
   "修身": [
     {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "假先知": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "假師傅": [
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "假師父": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -436,6 +615,13 @@
       "religion": "道教"
     }
   ],
+  "公義的太陽": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
   "六慾": [
     {
       "slug": "qingjing-jing",
@@ -455,6 +641,27 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    }
+  ],
+  "出離": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "利未": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
+  "十分之一": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
     }
   ],
   "印戒": [
@@ -483,6 +690,13 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "君子": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
     }
   ],
   "呼吸": [
@@ -550,6 +764,11 @@
   ],
   "四書": [
     {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
@@ -567,6 +786,13 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "因緣和合": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
     }
   ],
   "國度": [
@@ -658,6 +884,13 @@
       "religion": "道教"
     }
   ],
+  "天命": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    }
+  ],
   "天竺": [
     {
       "slug": "fortytwo-chapters-sutra",
@@ -705,6 +938,13 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    }
+  ],
+  "孝": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
     }
   ],
   "審判": [
@@ -779,6 +1019,11 @@
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-jude",
@@ -898,6 +1143,13 @@
       "religion": "佛教-巴利"
     }
   ],
+  "惡魔波旬": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "愛": [
     {
       "slug": "sblgnt-2-john",
@@ -933,6 +1185,13 @@
       "religion": "基督教"
     }
   ],
+  "所多瑪": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "所羅巴伯": [
     {
       "slug": "haggai",
@@ -959,6 +1218,13 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    }
+  ],
+  "挪亞": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "捆鎖": [
@@ -1022,6 +1288,11 @@
   ],
   "摩西": [
     {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
@@ -1067,6 +1338,13 @@
       "religion": "佛教"
     }
   ],
+  "新天新地": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "明堂": [
     {
       "slug": "huangting-waijing",
@@ -1097,9 +1375,21 @@
   ],
   "末世": [
     {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "朱熹": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
     }
   ],
   "東華帝君": [
@@ -1144,10 +1434,24 @@
       "religion": "道教"
     }
   ],
+  "殿": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
   "比丘": [
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "比丘尼": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
       "religion": "佛教-巴利"
     }
   ],
@@ -1245,6 +1549,13 @@
       "religion": "佛教"
     }
   ],
+  "無漏": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "父神": [
     {
       "slug": "sblgnt-2-john",
@@ -1287,11 +1598,25 @@
       "religion": "佛教"
     }
   ],
+  "瑪拉基": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
   "甲子": [
     {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "異端": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "異象": [
@@ -1303,6 +1628,13 @@
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    }
+  ],
+  "盟約": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
       "religion": "猶太教"
     }
   ],
@@ -1346,6 +1678,13 @@
       "religion": "猶太教"
     }
   ],
+  "祭司": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    }
+  ],
   "禁食": [
     {
       "slug": "jonah",
@@ -1365,6 +1704,13 @@
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "禮": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
     }
   ],
   "空": [
@@ -1491,6 +1837,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
@@ -1515,6 +1866,11 @@
   ],
   "聖人": [
     {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
@@ -1533,6 +1889,11 @@
     }
   ],
   "聖靈": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
@@ -1584,6 +1945,13 @@
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
+    }
+  ],
+  "舍衛城": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
     }
   ],
   "般若波羅蜜": [
@@ -1659,6 +2027,20 @@
       "religion": "佛教"
     }
   ],
+  "蓮華色": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "蛾摩拉": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "西拉瓦努斯": [
     {
       "slug": "sblgnt-2-thessalonians",
@@ -1687,6 +2069,13 @@
       "religion": "猶太教"
     }
   ],
+  "西門彼得": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "觀世音菩薩": [
     {
       "slug": "heart-sutra-kumarajiva",
@@ -1713,6 +2102,13 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "誠": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
     }
   ],
   "誠意": [
@@ -1806,6 +2202,13 @@
       "religion": "基督教"
     }
   ],
+  "金剛女": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "錫安": [
     {
       "slug": "zephaniah",
@@ -1856,6 +2259,13 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    }
+  ],
+  "阿羅毘迦": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
     }
   ],
   "阿羅漢": [
@@ -1921,6 +2331,11 @@
   ],
   "雅各": [
     {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
@@ -1940,11 +2355,25 @@
       "religion": "猶太教"
     }
   ],
+  "非我": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "須陀洹": [
     {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    }
+  ],
+  "預言": [
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "顯現": [
