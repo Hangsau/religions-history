@@ -9,12 +9,23 @@
 或： PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py
 """
 
+import time
 import tkinter as tk
 from datetime import datetime, timezone, timedelta
 
 import status  # 同目錄；沿用其資料 helper
 
 REFRESH_MS = 30_000
+
+
+def fmt_ago(sec: float) -> str:
+    if sec < 90:
+        return "剛剛"
+    if sec < 3600:
+        return f"{int(sec / 60)} 分前"
+    if sec < 86400:
+        return f"{int(sec / 3600)} 時前"
+    return f"{int(sec / 86400)} 天前"
 
 # ---- 配色：departure board / NOC 監控牆（深色面板 + 琥珀/綠燈號）----
 BG    = "#15181c"
@@ -61,6 +72,25 @@ def collect() -> dict:
     d["tr_done"] = sum(1 for m in metas if m.get("translation_status") == "done")
     d["classify_ok"] = status.log_ok_count("classify-core.log")
     d["classify_last"] = status.log_tail("classify-core.log")
+
+    # ---- 收集 / 下載（Pipeline A）動態 ----
+    now = time.time()
+    paths = list(status.TRANSLATIONS_DIR.glob("*/meta.json"))
+    if paths:
+        newest = max(paths, key=lambda p: p.stat().st_mtime)
+        d["dl_newest"] = newest.parent.name
+        d["dl_newest_ago"] = fmt_ago(now - newest.stat().st_mtime)
+        d["dl_landed_30m"] = sum(1 for p in paths if now - p.stat().st_mtime < 1800)
+    else:
+        d["dl_newest"], d["dl_newest_ago"], d["dl_landed_30m"] = "—", "—", 0
+    dl_logs = list(status.LOGS.glob("pipeline-a*.log"))
+    if dl_logs:
+        active = max(dl_logs, key=lambda p: p.stat().st_mtime)
+        d["dl_log_name"] = active.name
+        d["dl_log_ago"] = fmt_ago(now - active.stat().st_mtime)
+        d["dl_log_tail"] = status.log_tail(active.name)
+    else:
+        d["dl_log_name"], d["dl_log_ago"], d["dl_log_tail"] = "—", "—", "（無日誌）"
     return d
 
 
@@ -69,8 +99,8 @@ class Board:
         self.root = root
         root.title("religions-history 狀態看板")
         root.configure(bg=BG)
-        root.geometry("660x720")
-        root.minsize(560, 600)
+        root.geometry("660x800")
+        root.minsize(560, 640)
 
         self.rows = {}   # key -> (canvas, count_label)
         self._build_static()
@@ -109,6 +139,14 @@ class Board:
         self._section(self.root, "M3 分類進度（era + genre + tags 三者齊全）")
         for t in ["核心", "次要", "總集"]:
             self._bar_row(self.root, "tier:" + t, "tier " + t)
+
+        self._section(self.root, "收集 / 下載（Pipeline A）")
+        self.dl_label = tk.Label(self.root, text="—", bg=BG, fg=FG, font=F_ROW,
+                                 anchor="w", justify="left")
+        self.dl_label.pack(fill="x", padx=18)
+        self.dl_log = tk.Label(self.root, text="—", bg=BG, fg=MUTED, font=F_SMALL,
+                               anchor="w", wraplength=600, justify="left")
+        self.dl_log.pack(fill="x", padx=18)
 
         self._section(self.root, "翻譯進度")
         self.tr_label = tk.Label(self.root, text="—", bg=BG, fg=FG,
@@ -149,6 +187,12 @@ class Board:
             self._draw_bar("cov:" + key, c, tot, pct)
         for t, done, tot, pct in d["tiers"]:
             self._draw_bar("tier:" + t, done, tot, pct)
+
+        self.dl_label.config(
+            text=f"最新收錄：{d['dl_newest']}（{d['dl_newest_ago']}）"
+                 f"　·　近 30 分 +{d['dl_landed_30m']} 部")
+        self.dl_log.config(
+            text=f"下載日誌 {d['dl_log_name']}（{d['dl_log_ago']}）：{d['dl_log_tail']}")
 
         self.tr_label.config(
             text=f"translation_status == done：{d['tr_done']} / {d['n']} 部已翻譯")

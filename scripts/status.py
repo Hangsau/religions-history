@@ -128,6 +128,23 @@ def build() -> str:
     L.append(f"- `translation_status == done`：**{tr_done} / {n}** 部已翻譯（`01-translation.md`）")
     L.append("")
 
+    # ---- 收集 / 下載（Pipeline A）----
+    import time as _time
+    now = _time.time()
+    paths = list(TRANSLATIONS_DIR.glob("*/meta.json"))
+    L.append("## 收集 / 下載（Pipeline A）")
+    L.append("")
+    if paths:
+        newest = max(paths, key=lambda p: p.stat().st_mtime)
+        landed = sum(1 for p in paths if now - p.stat().st_mtime < 1800)
+        ago_m = int((now - newest.stat().st_mtime) / 60)
+        L.append(f"- 最新收錄：`{newest.parent.name}`（{ago_m} 分前）· 近 30 分 **+{landed}** 部")
+    dl_logs = list(LOGS.glob("pipeline-a*.log"))
+    if dl_logs:
+        active = max(dl_logs, key=lambda p: p.stat().st_mtime)
+        L.append(f"- 下載日誌 `{active.name}`：`{log_tail(active.name)}`")
+    L.append("")
+
     # ---- 背景管線 ----
     L.append("## 背景管線快照")
     L.append("")
