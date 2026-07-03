@@ -1,0 +1,161 @@
+#!/usr/bin/env python
+"""
+統一狀態看板：一個指令看到收集 / 翻譯 / 對齊分類 的全貌。
+
+pull-based，無 daemon：隨時跑 `python scripts/status.py` 取當下快照。
+同時印到終端 + 寫 00-overview/STATUS.md（GitHub 上也看得到）。
+
+Usage:
+  PYTHONIOENCODING=utf-8 python scripts/status.py
+"""
+
+import json
+import subprocess
+from collections import Counter
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+TRANSLATIONS_DIR = ROOT / "translations"
+LOGS = ROOT / "logs"
+OUT = ROOT / "00-overview" / "STATUS.md"
+
+ALIGN_FIELDS = [
+    ("text_role", "文本角色"),
+    ("is_original_language", "原文/譯文"),
+    ("era", "成書時期"),
+    ("genre", "文類"),
+    ("semantic_tags", "語義標籤"),
+    ("keywords", "關鍵詞"),
+]
+
+
+def bar(pct: float, width: int = 24) -> str:
+    n = round(pct / 100 * width)
+    return "█" * n + "·" * (width - n)
+
+
+def load_all() -> list[dict]:
+    out = []
+    for p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
+        try:
+            out.append(json.loads(p.read_text(encoding="utf-8")))
+        except (json.JSONDecodeError, OSError):
+            continue
+    return out
+
+
+def filled(v) -> bool:
+    return v not in (None, "", [], {})
+
+
+def git_recent(n: int = 6) -> list[str]:
+    try:
+        r = subprocess.run(["git", "log", f"-{n}", "--oneline", "--no-decorate"],
+                           cwd=ROOT, capture_output=True, text=True,
+                           encoding="utf-8", errors="replace")
+        return [l for l in r.stdout.splitlines() if l.strip()]
+    except Exception:  # noqa: BLE001
+        return []
+
+
+def log_tail(name: str) -> str:
+    p = LOGS / name
+    if not p.exists():
+        return "（無日誌）"
+    try:
+        lines = [l for l in p.read_text(encoding="utf-8", errors="replace").splitlines() if l.strip()]
+        return lines[-1] if lines else "（空）"
+    except OSError:
+        return "（讀取失敗）"
+
+
+def log_ok_count(name: str) -> int:
+    p = LOGS / name
+    if not p.exists():
+        return 0
+    try:
+        return sum(1 for l in p.read_text(encoding="utf-8", errors="replace").splitlines() if "[ok]" in l)
+    except OSError:
+        return 0
+
+
+def build() -> str:
+    metas = load_all()
+    n = len(metas)
+    ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S +0800")
+    total_bytes = sum(m.get("size_bytes") or 0 for m in metas)
+    religions = len({m.get("religion") for m in metas})
+
+    L = []
+    L.append("# STATUS — religions-history 統一看板")
+    L.append("")
+    L.append(f"> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：{ts}")
+    L.append("")
+    L.append(f"**{n} 部 / {religions} 宗教 / {total_bytes/1024/1024:.0f} MB**")
+    L.append("")
+
+    # ---- 對齊覆蓋率 ----
+    L.append("## 對齊覆蓋率（欄位回填進度）")
+    L.append("")
+    L.append("| 欄位 | 已填 | 覆蓋率 | |")
+    L.append("|------|------|--------|---|")
+    for key, label in ALIGN_FIELDS:
+        c = sum(1 for m in metas if filled(m.get(key)))
+        pct = 100 * c / n if n else 0
+        L.append(f"| {label} `{key}` | {c}/{n} | {pct:5.1f}% | `{bar(pct)}` |")
+    L.append("")
+
+    # ---- 分類進度 by tier（era+genre+tags 三者齊全）----
+    L.append("## M3 分類進度（era+genre+tags 三者齊全）")
+    L.append("")
+    tiers = ["核心", "次要", "總集"]
+    tier_tot = Counter(m.get("tier") for m in metas)
+    L.append("| tier | 完成 | 總數 | |")
+    L.append("|------|------|------|---|")
+    for t in tiers:
+        tot = tier_tot.get(t, 0)
+        done = sum(1 for m in metas if m.get("tier") == t
+                   and filled(m.get("era")) and filled(m.get("genre")) and filled(m.get("semantic_tags")))
+        pct = 100 * done / tot if tot else 0
+        L.append(f"| {t} | {done} | {tot} | `{bar(pct)}` {pct:4.0f}% |")
+    L.append("")
+
+    # ---- 翻譯進度 ----
+    tr_done = sum(1 for m in metas if m.get("translation_status") == "done")
+    L.append("## 翻譯進度")
+    L.append("")
+    L.append(f"- `translation_status == done`：**{tr_done} / {n}** 部已翻譯（`01-translation.md`）")
+    L.append("")
+
+    # ---- 背景管線 ----
+    L.append("## 背景管線快照")
+    L.append("")
+    L.append(f"- **分類（classify-metadata）**：日誌已分類 {log_ok_count('classify-core.log')} 部")
+    L.append(f"  - 最新：`{log_tail('classify-core.log')}`")
+    ps = ROOT / "00-overview" / "PIPELINE_STATUS.md"
+    if ps.exists():
+        for line in ps.read_text(encoding="utf-8").splitlines():
+            if line.startswith("- 進度") or line.startswith("- 目前處理"):
+                L.append(f"- **翻譯管線**：{line.lstrip('- ')}")
+    L.append("")
+
+    # ---- 最近 commits ----
+    L.append("## 最近 git 提交")
+    L.append("")
+    for c in git_recent():
+        L.append(f"- `{c}`")
+    L.append("")
+
+    return "\n".join(L) + "\n"
+
+
+def main():
+    md = build()
+    OUT.write_text(md, encoding="utf-8", newline="\n")
+    print(md)
+    print(f"[written] {OUT.relative_to(ROOT)}")
+
+
+if __name__ == "__main__":
+    main()
