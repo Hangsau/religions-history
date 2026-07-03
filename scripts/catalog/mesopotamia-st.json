@@ -1,0 +1,16 @@
+{
+  "religion": "兩河",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "兩河（蘇美 / 阿卡德 / 巴比倫 / 亞述）宗教文獻英譯本. 原文（楔形文字轉寫）待以 ETCSL 等來源補；此為『原文優先、英譯 fallback』原則下的先行英譯收集.",
+  "scriptures": [
+    {"slug": "enuma-elish-stc", "st_book_path": "ane/stc", "name_zh": "創世七碑（埃努瑪·埃利什）", "name_en": "The Seven Tablets of Creation (Enuma Elish)", "name_original": "Enūma Eliš", "religion": "兩河", "tier": "核心", "is_original_language": false, "notes": "L.W. King 英譯. 巴比倫創世史詩. 阿卡德語原文待補."},
+    {"slug": "epic-of-gilgamesh-st", "st_book_path": "ane/eog", "name_zh": "吉爾伽美什史詩", "name_en": "The Epic of Gilgamish", "name_original": "ša naqba īmuru", "religion": "兩河", "tier": "核心", "is_original_language": false, "notes": "R.C. Thompson 英譯. 阿卡德語原文待補."},
+    {"slug": "code-of-hammurabi-st", "st_book_path": "ane/ham", "name_zh": "漢摩拉比法典", "name_en": "The Code of Hammurabi", "religion": "兩河", "tier": "核心", "is_original_language": false, "notes": "C.H.W. Johns 英譯. 阿卡德語原文待補."},
+    {"slug": "babylonian-legends-creation", "st_book_path": "ane/blc", "name_zh": "巴比倫創世傳說", "name_en": "The Babylonian Legends of Creation", "religion": "兩河", "tier": "次要", "is_original_language": false},
+    {"slug": "ishtar-and-izdubar", "st_book_path": "ane/iai", "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）", "name_en": "Ishtar and Izdubar", "religion": "兩河", "tier": "次要", "is_original_language": false},
+    {"slug": "chaldean-account-deluge", "st_book_path": "ane/chad", "name_zh": "迦勒底洪水記", "name_en": "The Chaldean Account of the Deluge", "religion": "兩河", "tier": "次要", "is_original_language": false},
+    {"slug": "myths-legends-babylonia-assyria", "st_book_path": "ane/mba", "name_zh": "巴比倫與亞述神話傳說", "name_en": "Myths and Legends of Babylonia and Assyria", "religion": "兩河", "tier": "次要", "is_original_language": false}
+  ]
+}

@@ -2,33 +2,35 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**365** 部
-- 已翻譯：**26** / 365
-- 已標籤：**3** / 365
+- 核心總數：**369** 部
+- 已翻譯：**40** / 369
+- 已標籤：**20** / 369
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 3 | 1 |
-| 猶太教 | 45 | 5 | 1 |
+| 基督教 | 159 | 8 | 6 |
+| 猶太教 | 45 | 8 | 4 |
 | 佛教-巴利 | 31 | 0 | 0 |
-| 佛教 | 30 | 5 | 0 |
+| 佛教 | 30 | 7 | 4 |
 | 印度教 | 26 | 4 | 0 |
-| 道教 | 14 | 4 | 1 |
+| 道教 | 14 | 8 | 5 |
 | 古希臘羅馬 | 12 | 0 | 0 |
-| 儒教 | 9 | 4 | 0 |
+| 儒教 | 9 | 4 | 1 |
 | 瑣羅亞斯德 | 8 | 0 | 0 |
 | 諾斯底 | 5 | 0 | 0 |
 | 美洲 | 4 | 0 | 0 |
 | 凱爾特 | 4 | 0 | 0 |
 | 伊斯蘭 | 4 | 1 | 0 |
+| 兩河 | 3 | 0 | 0 |
 | 北歐 | 3 | 0 | 0 |
 | 現代新興 | 2 | 0 | 0 |
 | 古埃及 | 2 | 0 | 0 |
 | 錫克教 | 2 | 0 | 0 |
 | 非洲 | 2 | 0 | 0 |
 | 耆那教 | 2 | 0 | 0 |
+| 神道 | 1 | 0 | 0 |
 | 巴哈伊 | 1 | 0 | 0 |
 
 ## 缺口分析
@@ -38,8 +40,6 @@
 > schema enum 有此宗教但語料庫一部都沒有。神道需另寫 NDL 爬蟲。
 > 註：schema 把美洲細分為瑪雅/阿茲特克/印加、赫爾墨斯獨立，但語料庫用較粗的『美洲』『諾斯底』歸類，故此清單含分類折疊項，非全為真缺口。
 
-- **神道**
-- **兩河**
 - **斯拉夫**
 - **赫爾墨斯**
 - **瑪雅**
@@ -57,7 +57,7 @@
 | text_role | 核心部數 |
 |-----------|---------|
 | contested | 2 |
-| (未標) | 363 |
+| (未標) | 367 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -141,11 +141,11 @@
 - `sblgnt-1-thessalonians` 帖撒羅尼迦前書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-1-timothy` 提摩太前書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-2-corinthians` 哥林多後書（希臘原文）（Koine Greek）譯– 標–
-- `sblgnt-2-john` 約翰二書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-2-john` 約翰二書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-peter` 彼得後書（希臘原文）（Koine Greek）譯– 標–
-- `sblgnt-2-thessalonians` 帖撒羅尼迦後書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-2-thessalonians` 帖撒羅尼迦後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-timothy` 提摩太後書（希臘原文）（Koine Greek）譯– 標–
-- `sblgnt-3-john` 約翰三書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-3-john` 約翰三書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-ephesians` 以弗所書（希臘原文）（Koine Greek）譯– 標–
@@ -153,7 +153,7 @@
 - `sblgnt-hebrews` 希伯來書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-james` 雅各書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯✓ 標–
-- `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯✓ 標–
@@ -161,7 +161,7 @@
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-revelation` 啟示錄（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-romans` 羅馬書（希臘原文）（Koine Greek）譯– 標–
-- `sblgnt-titus` 提多書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-titus` 提多書（希臘原文）（Koine Greek）譯✓ 標✓
 - `vulgate-1-chronicles` 歷代志上（武加大）（Latin）譯– 標–
 - `vulgate-1-corinthians` 哥林多前書（武加大）（Latin）譯– 標–
 - `vulgate-1-john` 約翰一書（武加大）（Latin）譯– 標–
@@ -243,8 +243,8 @@
 - `ezra` 以斯拉記（希伯來）譯– 標–
 - `genesis` 創世記（希伯來）譯✓ 標–
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯– 標–
-- `habakkuk` 哈巴谷書（希伯來）譯– 標–
-- `haggai` 哈該書（希伯來）譯– 標–
+- `habakkuk` 哈巴谷書（希伯來）譯✓ 標✓
+- `haggai` 哈該書（希伯來）譯✓ 標✓
 - `hosea` 何西阿書（希伯來）譯– 標–
 - `isaiah` 以賽亞書（希伯來）譯– 標–
 - `jeremiah` 耶利米書（希伯來）譯– 標–
@@ -263,7 +263,7 @@
 - `leviticus` 利未記（希伯來）譯– 標–
 - `malachi` 瑪拉基書（希伯來）譯– 標–
 - `micah` 彌迦書（希伯來）譯– 標–
-- `nahum` 那鴻書（希伯來）譯– 標–
+- `nahum` 那鴻書（希伯來）譯✓ 標✓
 - `nehemiah` 尼希米記（希伯來）譯– 標–
 - `numbers` 民數記（希伯來）譯– 標–
 - `obadiah` 俄巴底亞書（希伯來）譯✓ 標✓
@@ -314,7 +314,7 @@
 ### 佛教（30 部）
 
 - `abhidharmakosa` 阿毘達磨俱舍論（古典漢語）譯– 標–
-- `amitabha-sutra` 佛說阿彌陀經（古典漢語）譯– 標–
+- `amitabha-sutra` 佛說阿彌陀經（古典漢語）譯✓ 標✓
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯– 標–
 - `awakening-of-faith` 大乘起信論（古典漢語）譯– 標–
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯– 標–
@@ -324,9 +324,9 @@
 - `digha-nikaya` 長部經典（Pali）譯– 標–
 - `dirghagama` 長阿含經（古典漢語）譯– 標–
 - `ekottarikagama` 增一阿含經（古典漢語）譯– 標–
-- `fortytwo-chapters-sutra` 四十二章經（古典漢語）譯– 標–
-- `heart-sutra-kumarajiva` 摩訶般若波羅蜜大明咒經（古典漢語）譯✓ 標–
-- `heart-sutra-xuanzang` 般若波羅蜜多心經（古典漢語）譯✓ 標–
+- `fortytwo-chapters-sutra` 四十二章經（古典漢語）譯✓ 標✓
+- `heart-sutra-kumarajiva` 摩訶般若波羅蜜大明咒經（古典漢語）譯✓ 標✓
+- `heart-sutra-xuanzang` 般若波羅蜜多心經（古典漢語）譯✓ 標✓
 - `infinite-life-sutra` 佛說無量壽經（古典漢語）譯– 標–
 - `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯– 標–
 - `lotus-sutra` 妙法蓮華經（古典漢語）譯✓ 標–
@@ -379,14 +379,14 @@
 - `huainanzi` 淮南子（古典漢語）譯– 標–
 - `huangdi-neijing` 黃帝內經（古典漢語）譯– 標–
 - `huangting-neijing` 黃庭內景經（古典漢語）譯✓ 標✓
-- `huangting-waijing` 黃庭外景經（古典漢語）譯– 標–
+- `huangting-waijing` 黃庭外景經（古典漢語）譯✓ 標✓
 - `liezi` 列子（古典漢語）譯✓ 標–
-- `qingjing-jing` 太上老君說常清靜經（古典漢語）譯– 標–
+- `qingjing-jing` 太上老君說常清靜經（古典漢語）譯✓ 標✓
 - `taiping-jing` 太平經（古典漢語）譯– 標–
-- `taishang-ganying-pian` 太上感應篇（古典漢語）譯– 標–
+- `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
 - `tao-te-ching` 道德經（古典漢語）譯✓ 標–
 - `wenzi` 文子（古典漢語）譯– 標–
-- `yinfu-jing` 黃帝陰符經（古典漢語）譯– 標–
+- `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯– 標–
 - `zhuangzi` 莊子（古典漢語）譯✓ 標–
 
@@ -412,7 +412,7 @@
 - `book-of-poetry` 詩經（古典漢語）譯– 標–
 - `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯– 標–
 - `doctrine-of-the-mean` 中庸（古典漢語）譯✓ 標–
-- `great-learning` 大學（古典漢語）譯✓ 標–
+- `great-learning` 大學（古典漢語）譯✓ 標✓
 - `liji` 禮記（古典漢語）譯– 標–
 - `mengzi` 孟子（古典漢語）譯✓ 標–
 - `shang-shu` 尚書（古典漢語）譯– 標–
@@ -457,6 +457,12 @@
 - `quran` 古蘭經（古典阿拉伯）譯✓ 標–
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標–
 
+### 兩河（3 部）
+
+- `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯– 標–
+- `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯– 標–
+- `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯– 標–
+
 ### 北歐（3 部）
 
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
@@ -487,6 +493,10 @@
 
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標–
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標–
+
+### 神道（1 部）
+
+- `kojiki-chamberlain` 古事記（English (translation)）譯– 標–
 
 ### 巴哈伊（1 部）
 

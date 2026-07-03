@@ -255,6 +255,8 @@ CATALOG_MAP = {
     "諾斯底": "gnostic-st.json",
     "曼達派": "mandaean-st.json",
     "美洲": "americas-st.json",
+    "兩河": "mesopotamia-st.json",
+    "神道": "shinto-st.json",
     "非洲": "africa-st.json",
     "猶太教-輔助": "judaism-st.json",
     "錫克教-輔助": "sikh-st.json",

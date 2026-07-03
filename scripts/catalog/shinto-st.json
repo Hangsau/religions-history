@@ -1,0 +1,11 @@
+{
+  "religion": "神道",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "神道核心文獻英譯本. 原文（古典日語 / 漢文）待以 NDL / ja.wikisource 補（見 shinto-ws.json，多因全文在 NDL 而 deferred）；此為『原文優先、英譯 fallback』下的先行英譯收集.",
+  "scriptures": [
+    {"slug": "kojiki-chamberlain", "st_book_path": "shi/kj", "name_zh": "古事記", "name_en": "The Kojiki", "name_original": "古事記", "religion": "神道", "tier": "核心", "is_original_language": false, "notes": "B.H. Chamberlain 1882 英譯. 古典日語 / 漢文原文待補（NDL）."},
+    {"slug": "kogoshui", "st_book_path": "shi/kgsh", "name_zh": "古語拾遺", "name_en": "Kogoshui: Gleanings from Ancient Stories", "name_original": "古語拾遺", "religion": "神道", "tier": "次要", "is_original_language": false, "notes": "英譯本. 漢文原文待補."}
+  ]
+}
