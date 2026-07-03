@@ -20,5 +20,33 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "R.C. Thompson 英譯. 阿卡德語原文待補.",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "bronze-age",
+  "genre": "epic-myth",
+  "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Gilgamesh",
+    "Enkidu",
+    "Utnapishtim",
+    "Ishtar",
+    "Anu",
+    "Humbaba",
+    "Siduri",
+    "Tammuz",
+    "Cedar Forest",
+    "Flood",
+    "Underworld",
+    "cuneiform",
+    "Sumerian",
+    "Akkadian",
+    "eternal life"
+  ],
+  "tag_status": "done"
 }

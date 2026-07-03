@@ -20,5 +20,32 @@
   "tier": "核心",
   "is_original_language": false,
   "notes": "C.H.W. Johns 英譯. 阿卡德語原文待補.",
-  "text_role": "translation"
+  "text_role": "translation",
+  "era": "bronze-age",
+  "genre": "law-code",
+  "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "divine-kingship",
+    "divine-transcendence",
+    "economic-justice",
+    "sin-as-disobedience",
+    "theocracy"
+  ],
+  "keywords": [
+    "Hammurabi",
+    "Babylon",
+    "Akkadian",
+    "cuneiform",
+    "lex talionis",
+    "Shamash",
+    "Marduk",
+    "stele",
+    "Euphrates",
+    "retribution",
+    "Old Babylonian",
+    "巴比倫",
+    "法典"
+  ],
+  "tag_status": "done"
 }
