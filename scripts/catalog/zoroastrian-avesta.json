@@ -1,0 +1,63 @@
+{
+  "religion": "瑣羅亞斯德",
+  "source_platform": "avesta.org",
+  "license": "Public domain / academic use (avesta.org, ed. J. H. Peterson)",
+  "language": "阿維斯塔語",
+  "notes": "avesta.org Geldner 1896 羅馬轉寫（Avestan transliteration，IAST-like UTF-8）。3 部阿維斯塔語原文對應 sacred-texts SBE 英譯（avesta-sbe04/23/31）。Pahlavi 5 部（bundahishn 等）avesta.org 僅有 West 英譯，原文須改走 TITUS，另案。",
+  "scriptures": [
+    {
+      "slug": "avesta-sbe04-ae",
+      "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "name_en": "Vendidad (Vidēvdād, Avestan)",
+      "name_original": "Vidēvdāt",
+      "language": "阿維斯塔語",
+      "avesta_paths": ["vendidad/vd.htm"],
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "avesta-sbe04",
+      "tier": "核心",
+      "expected_chapter_count": 1,
+      "notes": "22 fargard 全文（單頁 anchor 分章），Geldner 阿維斯塔語轉寫；對應 SBE04 英譯"
+    },
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "name_en": "Yashts (Avestan)",
+      "name_original": "Yašt",
+      "language": "阿維斯塔語",
+      "avesta_paths": [
+        "ka/yt1_bi.htm", "ka/yt2_bi.htm", "ka/yt3_bi.htm", "ka/yt4_bi.htm",
+        "ka/yt5.htm", "ka/yt6.htm", "ka/yt7.htm", "ka/yt8.htm", "ka/yt9.htm",
+        "ka/yt10.htm", "ka/yt11.htm", "ka/yt11a.htm", "ka/yt12.htm", "ka/yt13.htm",
+        "ka/yt14.htm", "ka/yt15.htm", "ka/yt16.htm", "ka/yt17.htm", "ka/yt18.htm",
+        "ka/yt19.htm", "ka/yt20.htm", "ka/yt21.htm"
+      ],
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "avesta-sbe23",
+      "tier": "核心",
+      "expected_chapter_count": 22,
+      "notes": "21 篇 Yasht（yt1–4 短篇 bilingual，yt5–21 純阿維斯塔語轉寫）；對應 SBE23 英譯"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "name_en": "Yasna + Visperad + Khordah Avesta (Avestan)",
+      "name_original": "Yasna, Visparad, Xwardag Abestāg",
+      "language": "阿維斯塔語",
+      "avesta_paths": [
+        "yasna/y0to8.htm", "yasna/y9to11.htm", "yasna/y12.htm", "yasna/y13to27.htm",
+        "yasna/y28to34.htm", "yasna/y35to42.htm", "yasna/y43to46.htm", "yasna/y47to50.htm",
+        "yasna/y51.htm", "yasna/y52.htm", "yasna/y53.htm", "yasna/y54to72.htm",
+        "visperad/visperad.htm",
+        "ka/s1.htm", "ka/s2.htm", "ka/a1.htm", "ka/a2.htm", "ka/a3.htm", "ka/a4.htm"
+      ],
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "avesta-sbe31",
+      "tier": "核心",
+      "expected_chapter_count": 19,
+      "notes": "Yasna 72 章（12 頁）＋ Visperad 全篇＋ Khordah（Sirozah s1/s2、Afrinagan a1–4）阿維斯塔語轉寫；對應 SBE31 英譯"
+    }
+  ]
+}

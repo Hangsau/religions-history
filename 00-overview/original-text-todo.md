@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**43** 部，橫跨 **13** 宗教
+- 待補原文核心：**40** 部，橫跨 **13** 宗教
 
 ## 古埃及（8 部）
 
@@ -17,11 +17,8 @@
 - [ ] `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）— 未譯，原文待補
 - [ ] `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）— 未譯，原文待補
 
-## 瑣羅亞斯德（8 部）
+## 瑣羅亞斯德（5 部）
 
-- [ ] `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）— 未譯，原文待補
-- [ ] `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）— 未譯，原文待補
-- [ ] `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）— 未譯，原文待補
 - [ ] `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）— 未譯，原文待補
 - [ ] `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）— 未譯，原文待補
 - [ ] `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）— 未譯，原文待補
@@ -43,6 +40,12 @@
 - [ ] `inca-rites` 印加儀禮與法律（English (translation)）— 未譯，原文待補
 - [ ] `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）— 未譯，原文待補
 
+## 凱爾特（3 部）
+
+- [ ] `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）— 未譯，原文待補
+- [ ] `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）— 未譯，原文待補
+- [ ] `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）— 未譯，原文待補
+
 ## 北歐（3 部）
 
 - [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
@@ -55,38 +58,32 @@
 - [ ] `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）— 未譯，原文待補
 - [ ] `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）— 未譯，原文待補
 
-## 凱爾特（3 部）
+## 非洲（2 部）
 
-- [ ] `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）— 未譯，原文待補
-- [ ] `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）— 未譯，原文待補
-- [ ] `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）— 未譯，原文待補
-
-## 古希臘羅馬（2 部）
-
-- [ ] `plotinus-enneads` 普羅提諾九章集（English (translation)）— 未譯，原文待補
-- [ ] `sibylline-oracles` 西比拉神諭集（English (translation)）— 未譯，原文待補
+- [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
+- [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
 ## 錫克教（2 部）
 
 - [ ] `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）— 未譯，原文待補
 - [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 
-## 非洲（2 部）
+## 古希臘羅馬（2 部）
 
-- [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
-- [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
+- [ ] `plotinus-enneads` 普羅提諾九章集（English (translation)）— 未譯，原文待補
+- [ ] `sibylline-oracles` 西比拉神諭集（English (translation)）— 未譯，原文待補
 
 ## 神道（1 部）
 
 - [ ] `kojiki-chamberlain` 古事記（English (translation)）— 未譯，原文待補
 
-## 巴哈伊（1 部）
-
-- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
-
 ## 斯拉夫（1 部）
 
 - [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
+
+## 巴哈伊（1 部）
+
+- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
 
 ---
 

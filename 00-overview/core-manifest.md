@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**390** 部
-- 已翻譯：**77** / 390
-- 已標籤：**376** / 390
+- 核心總數：**393** 部
+- 已翻譯：**77** / 393
+- 已標籤：**376** / 393
 
 ## 各宗教核心進度
 
@@ -16,8 +16,8 @@
 | 印度教 | 26 | 9 | 25 |
 | 古希臘羅馬 | 17 | 0 | 12 |
 | 道教 | 14 | 9 | 14 |
+| 瑣羅亞斯德 | 11 | 0 | 8 |
 | 儒教 | 9 | 4 | 9 |
-| 瑣羅亞斯德 | 8 | 0 | 8 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 6 | 0 | 4 |
 | 耆那教 | 6 | 0 | 2 |
@@ -55,7 +55,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 190 |
+| original | 193 |
 | translation | 197 |
 | contested | 2 |
 | (未標) | 1 |
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**13** 個 / 核心 **43** 部
-- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、北歐、兩河、凱爾特、古希臘羅馬、錫克教、非洲、神道、巴哈伊、斯拉夫
+- 唯一英譯本宗教：**13** 個 / 核心 **40** 部
+- 名單：古埃及、瑣羅亞斯德、諾斯底、美洲、凱爾特、北歐、兩河、非洲、錫克教、古希臘羅馬、神道、斯拉夫、巴哈伊
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -421,6 +421,20 @@
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
 - `zhuangzi` 莊子（古典漢語）譯✓ 標✓
 
+### 瑣羅亞斯德（11 部）
+
+- `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯– 標✓
+- `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標✓
+- `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯– 標✓
+- `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標✓
+- `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標✓
+- `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯– 標✓
+- `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯– 標✓
+- `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標✓
+
 ### 儒教（9 部）
 
 - `analects` 論語（古典漢語）譯✓ 標✓
@@ -432,17 +446,6 @@
 - `liji` 禮記（古典漢語）譯– 標✓
 - `mengzi` 孟子（古典漢語）譯✓ 標✓
 - `shang-shu` 尚書（古典漢語）譯– 標✓
-
-### 瑣羅亞斯德（8 部）
-
-- `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯– 標✓
-- `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標✓
-- `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯– 標✓
-- `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標✓
-- `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標✓
-- `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯– 標✓
-- `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯– 標✓
-- `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標✓
 
 ### 古埃及（8 部）
 
