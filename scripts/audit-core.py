@@ -13,6 +13,7 @@ Usage:
 """
 
 import json
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -45,6 +46,43 @@ def _suspect_transliteration(meta: dict) -> bool:
     return any(h.lower() in hay for h in _TRANSLIT_HINTS)
 
 
+# Content-truth guard (2026-07-03): the sole-source (待補原文) list used to trust the
+# metadata label alone, which created phantom entries — e.g. homer-greek is 99% Greek
+# text on disk but was labelled "English translation" and so kept resurfacing as
+# "needs original". This reads the actual bytes: fraction of alphabetic characters that
+# are NON-Latin script. A file that carries substantial Greek/Cyrillic/Devanagari/Han/
+# Arabic/Hebrew/Coptic/cuneiform already contains its original and is NOT 待補.
+# Limitation: originals in Latin script (Old Norse, Welsh, Nahuatl, romanized Avestan,
+# Latin Vulgate) read ~0 non-Latin, so this only rescues non-Latin-script originals —
+# which is exactly where the label bug bit. Latin-script cases stay label-dependent.
+NATIVE_SCRIPT_MIN = 0.15
+_LATIN_RANGES = ((0x0041, 0x005A), (0x0061, 0x007A), (0x00C0, 0x024F), (0x1E00, 0x1EFF))
+
+
+def _is_latin_letter(o: int) -> bool:
+    return any(lo <= o <= hi for lo, hi in _LATIN_RANGES)
+
+
+def _native_script_ratio(slug: str) -> float:
+    """Fraction of alphabetic chars in original.txt that are non-Latin script."""
+    p = TRANSLATIONS_DIR / slug / "raw" / "original.txt"
+    if not p.exists():
+        return 0.0
+    try:
+        txt = p.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return 0.0
+    latin = nonlatin = 0
+    for ch in txt:
+        o = ord(ch)
+        if _is_latin_letter(o):
+            latin += 1
+        elif unicodedata.category(ch).startswith("L"):
+            nonlatin += 1
+    tot = latin + nonlatin
+    return (nonlatin / tot) if tot else 0.0
+
+
 def main():
     by_religion: dict[str, list[dict]] = defaultdict(list)
     religions_in_corpus: set[str] = set()
@@ -66,32 +104,63 @@ def main():
                                       "religion": rel})
         tr_done = (TRANSLATIONS_DIR / slug / "01-translation.md").exists()
         tag_done = bool(meta.get("tag_status") == "done" and meta.get("semantic_tags"))
+        native_ratio = _native_script_ratio(slug)
         by_religion[rel].append({
             "slug": slug,
+            "religion": rel,
             "name_zh": meta.get("name_zh", ""),
             "language": meta.get("language", ""),
             "text_role": meta.get("text_role") or "",
             "translated": tr_done,
             "tagged": tag_done,
+            "native_ratio": native_ratio,
+            "has_native_script": native_ratio >= NATIVE_SCRIPT_MIN,
         })
 
     total = sum(len(v) for v in by_religion.values())
     tr_total = sum(1 for v in by_religion.values() for e in v if e["translated"])
     tag_total = sum(1 for v in by_religion.values() for e in v if e["tagged"])
 
-    # Sole-source vs redundant translation classification (deterministic, per-religion):
-    #   religion with >=1 text_role==original core  → its translations are 冗餘對照 (原文已在庫)
-    #   religion with 0 original cores              → ALL its cores are 唯一英譯本 (待補原文)
-    # This encodes the standing policy "no original available → translate the English now,
-    # but still backfill the original later" so it stops resurfacing as an open question.
-    def _has_original(entries: list[dict]) -> bool:
-        return any(e["text_role"] == "original" for e in entries)
+    # Sole-source vs redundant translation classification. A core is genuinely 待補原文
+    # only when it is BOTH (a) not labelled text_role==original AND (b) its original.txt
+    # does not already carry a non-Latin native script on disk (content-truth guard).
+    # This stops the phantom-entry recurrence: homer-greek is 99% Greek bytes, so even
+    # though its label said "English translation" it no longer lands on the待補 list.
+    # 待補 is tracked PER-SLUG within the ancient/pagan religions that were bulk-collected as
+    # 19c English anthologies (sacred-texts.com). Per-slug matters: 古希臘羅馬 having the Greek
+    # Homer (homer-greek) does NOT cover Ovid/Virgil/Plato, whose Latin/Greek originals are
+    # still missing — a religion-level "covered" flag would wrongly hide them.
+    # Mainstream religions (佛/道/儒/基督/伊斯蘭/印度/猶太) have dedicated original pipelines
+    # (CBETA / ctext / sblgnt / quran / sefaria / gretil …), so their non-original cores are
+    # redundant 對照, not 待補, and are excluded here. This also stops the 和合本/漢譯 false
+    # positives: those live in mainstream religions and never enter this set.
+    BACKFILL_RELIGIONS = {
+        "古希臘羅馬", "瑣羅亞斯德", "古埃及", "諾斯底", "赫爾墨斯", "美洲",
+        "瑪雅", "阿茲特克", "印加", "凱爾特", "兩河", "北歐", "錫克教",
+        "非洲", "耆那教", "斯拉夫", "神道", "巴哈伊",
+    }
 
-    sole_source_religions = sorted(
-        (rel for rel, v in by_religion.items() if not _has_original(v)),
-        key=lambda r: -len(by_religion[r]),
+    def _is_sole_source(e: dict) -> bool:
+        # content-truth guard: a native-script file already carries its original on disk.
+        return (e["religion"] in BACKFILL_RELIGIONS
+                and e["text_role"] != "original"
+                and not e["has_native_script"])
+
+    # Cores inside candidate sole-source religions whose bytes prove the original is already
+    # on disk but whose label still says otherwise — a data-quality backlog: fix text_role,
+    # do NOT re-download.
+    mislabeled_originals = sorted(
+        (e for v in by_religion.values() for e in v
+         if e["religion"] in BACKFILL_RELIGIONS
+         and e["has_native_script"] and e["text_role"] != "original"),
+        key=lambda e: -e["native_ratio"],
     )
-    sole_source_slugs = [e for rel in sole_source_religions for e in by_religion[rel]]
+
+    sole_source_slugs = [e for v in by_religion.values() for e in v if _is_sole_source(e)]
+    sole_source_religions = sorted(
+        {e["religion"] for v in by_religion.values() for e in v if _is_sole_source(e)},
+        key=lambda r: -sum(1 for e in by_religion[r] if _is_sole_source(e)),
+    )
 
     lines = [
         "# 核心經文清單（core-manifest）",
@@ -172,7 +241,15 @@ def main():
         "",
         f"- 唯一英譯本宗教：**{len(sole_source_religions)}** 個 / 核心 **{len(sole_source_slugs)}** 部",
         f"- 名單：{('、'.join(sole_source_religions)) or '（無）'}",
+        "",
+        "### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）",
+        "",
+        "> `original.txt` 實測含 ≥15% 非拉丁原生文字，卻未標 `text_role=original`。"
+        "改標即可，勿重複下載。詳見 `original-text-todo.md` 末段。",
+        "",
     ]
+    lines += ([f"- `{e['slug']}` {e['name_zh']}（{e['religion']}，原生文字 {round(e['native_ratio']*100)}%）"
+               for e in mislabeled_originals] or ["- （無）"])
 
     lines += ["", "## 各宗教核心明細", ""]
     for rel in sorted(by_religion, key=lambda r: -len(by_religion[r])):
@@ -196,12 +273,30 @@ def main():
         "",
     ]
     for rel in sole_source_religions:
-        entries = sorted(by_religion[rel], key=lambda x: x["slug"])
+        entries = sorted((e for e in by_religion[rel] if _is_sole_source(e)),
+                         key=lambda x: x["slug"])
+        if not entries:
+            continue
         todo.append(f"## {rel}（{len(entries)} 部）")
         todo.append("")
         for e in entries:
             tr = "已英→中✓" if e["translated"] else "未譯"
             todo.append(f"- [ ] `{e['slug']}` {e['name_zh']}（{e['language']}）— {tr}，原文待補")
+        todo.append("")
+
+    if mislabeled_originals:
+        todo += [
+            "---",
+            "",
+            "## 原文其實已在庫、只是 text_role 標錯（改標，不需下載）",
+            "",
+            "> `audit-core.py` 內容檢查：`original.txt` 實際含 ≥15% 非拉丁原生文字，"
+            "但 `text_role` 未標 `original`。這些不是缺口，是標籤債，改 `text_role=original` 即可。",
+            "",
+        ]
+        for e in mislabeled_originals:
+            pct = round(e["native_ratio"] * 100)
+            todo.append(f"- [ ] `{e['slug']}` {e['name_zh']}（原生文字 {pct}%）— 改標 text_role=original")
         todo.append("")
 
     OVERVIEW_DIR.mkdir(exist_ok=True)
@@ -211,6 +306,9 @@ def main():
     print(f"wrote {ORIGINAL_TODO_PATH.relative_to(ROOT)} "
           f"({len(sole_source_slugs)} 部待補原文 / {len(sole_source_religions)} 宗教)")
     print(f"  核心 {total} / 已譯 {tr_total} / 已標籤 {tag_total}")
+    if mislabeled_originals:
+        print(f"  內容檢查揪出原文已在庫但標錯 text_role: {len(mislabeled_originals)} 部 "
+              f"({', '.join(e['slug'] for e in mislabeled_originals[:8])})")
     if absent:
         print(f"  語料庫缺口: {', '.join(absent)}")
     if no_core_but_present:

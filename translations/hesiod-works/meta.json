@@ -18,9 +18,9 @@
   "license": "Public Domain (most sacred-texts pre-1928)",
   "verified": true,
   "tier": "核心",
-  "is_original_language": false,
+  "is_original_language": true,
   "notes": null,
-  "text_role": "translation",
+  "text_role": "original",
   "era": "axial-age",
   "genre": "epic-myth",
   "semantic_tags": [
@@ -48,5 +48,6 @@
     "普羅米修斯",
     "潘朵拉"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "composition_note": "希臘原文+英譯對照（Evelyn-White），約30%希臘原文，原典已在庫"
 }

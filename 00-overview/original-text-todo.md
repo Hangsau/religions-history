@@ -4,15 +4,12 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**57** 部，橫跨 **14** 宗教
+- 待補原文核心：**54** 部，橫跨 **14** 宗教
 
-## 古希臘羅馬（12 部）
+## 古希臘羅馬（9 部）
 
-- [ ] `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）— 未譯，原文待補
-- [ ] `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（English (translation)）— 未譯，原文待補
 - [ ] `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）— 未譯，原文待補
 - [ ] `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）— 未譯，原文待補
-- [ ] `homeric-hymns-st` 荷馬諸頌 (33 篇)（English (translation)）— 未譯，原文待補
 - [ ] `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 - [ ] `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 - [ ] `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）— 未譯，原文待補
@@ -20,17 +17,6 @@
 - [ ] `plotinus-enneads` 普羅提諾九章集（English (translation)）— 未譯，原文待補
 - [ ] `sibylline-oracles` 西比拉神諭集（English (translation)）— 未譯，原文待補
 - [ ] `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）— 未譯，原文待補
-
-## 瑣羅亞斯德（8 部）
-
-- [ ] `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）— 未譯，原文待補
-- [ ] `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）— 未譯，原文待補
-- [ ] `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）— 未譯，原文待補
-- [ ] `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）— 未譯，原文待補
-- [ ] `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）— 未譯，原文待補
-- [ ] `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）— 未譯，原文待補
-- [ ] `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）— 未譯，原文待補
-- [ ] `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）— 未譯，原文待補
 
 ## 古埃及（8 部）
 
@@ -42,6 +28,17 @@
 - [ ] `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）— 未譯，原文待補
 - [ ] `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）— 未譯，原文待補
 - [ ] `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）— 未譯，原文待補
+
+## 瑣羅亞斯德（8 部）
+
+- [ ] `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）— 未譯，原文待補
+- [ ] `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）— 未譯，原文待補
+- [ ] `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）— 未譯，原文待補
+- [ ] `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）— 未譯，原文待補
+- [ ] `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）— 未譯，原文待補
+- [ ] `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）— 未譯，原文待補
+- [ ] `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）— 未譯，原文待補
+- [ ] `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）— 未譯，原文待補
 
 ## 諾斯底（5 部）
 
@@ -65,37 +62,37 @@
 - [ ] `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）— 未譯，原文待補
 - [ ] `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）— 未譯，原文待補
 
-## 兩河（3 部）
-
-- [ ] `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）— 未譯，原文待補
-- [ ] `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）— 未譯，原文待補
-- [ ] `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）— 未譯，原文待補
-
 ## 北歐（3 部）
 
 - [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 - [ ] `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）— 未譯，原文待補
 - [ ] `volsunga-saga` 沃爾松傳奇（English (translation)）— 未譯，原文待補
 
-## 錫克教（2 部）
+## 兩河（3 部）
 
-- [ ] `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）— 未譯，原文待補
-- [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）— 未譯，原文待補
+- [ ] `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）— 未譯，原文待補
+- [ ] `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）— 未譯，原文待補
 
 ## 非洲（2 部）
 
 - [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
 - [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
-## 耆那教（2 部）
-
-- [ ] `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）— 未譯，原文待補
-- [ ] `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）— 未譯，原文待補
-
 ## 斯拉夫（2 部）
 
 - [ ] `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）— 未譯，原文待補
 - [ ] `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）— 未譯，原文待補
+
+## 錫克教（2 部）
+
+- [ ] `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）— 未譯，原文待補
+- [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+
+## 耆那教（2 部）
+
+- [ ] `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）— 未譯，原文待補
+- [ ] `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）— 未譯，原文待補
 
 ## 神道（1 部）
 
@@ -104,4 +101,12 @@
 ## 巴哈伊（1 部）
 
 - [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
+
+---
+
+## 原文其實已在庫、只是 text_role 標錯（改標，不需下載）
+
+> `audit-core.py` 內容檢查：`original.txt` 實際含 ≥15% 非拉丁原生文字，但 `text_role` 未標 `original`。這些不是缺口，是標籤債，改 `text_role=original` 即可。
+
+- [ ] `homeric-hymns-st` 荷馬諸頌 (33 篇)（原生文字 44%）— 改標 text_role=original
 
