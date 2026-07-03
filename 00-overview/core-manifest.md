@@ -55,8 +55,8 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 206 |
-| translation | 196 |
+| original | 208 |
+| translation | 194 |
 | contested | 2 |
 | (未標) | 1 |
 
@@ -70,8 +70,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**10** 個 / 核心 **32** 部
-- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、兩河、凱爾特、非洲、斯拉夫、巴哈伊、錫克教
+- 唯一英譯本宗教：**9** 個 / 核心 **30** 部
+- 名單：古埃及、諾斯底、瑣羅亞斯德、美洲、兩河、非洲、錫克教、斯拉夫、巴哈伊
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -465,8 +465,8 @@
 
 ### 凱爾特（7 部）
 
-- `carmina-gadelica-1` Carmina Gadelica Vol 1（English (translation)）譯– 標✓
-- `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）譯– 標✓
+- `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯– 標✓
+- `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯– 標✓
 - `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
 - `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
 - `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
