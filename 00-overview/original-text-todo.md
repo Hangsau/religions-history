@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 補原文來源指引見 `HANDOFF.md` 的「Phase 2 原文層待辦」。
 
-- 待補原文核心：**39** 部，橫跨 **13** 宗教
+- 待補原文核心：**38** 部，橫跨 **12** 宗教
 
 ## 古埃及（8 部）
 
@@ -17,14 +17,6 @@
 - [ ] `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）— 未譯，原文待補
 - [ ] `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）— 未譯，原文待補
 
-## 諾斯底（5 部）
-
-- [ ] `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-- [ ] `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-
 ## 瑣羅亞斯德（5 部）
 
 - [ ] `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）— 未譯，原文待補
@@ -33,12 +25,26 @@
 - [ ] `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）— 未譯，原文待補
 - [ ] `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）— 未譯，原文待補
 
+## 諾斯底（5 部）
+
+- [ ] `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+
 ## 美洲（4 部）
 
 - [ ] `aztec-rva` 阿茲特克儀禮（English (translation)）— 未譯，原文待補
 - [ ] `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）— 未譯，原文待補
 - [ ] `inca-rites` 印加儀禮與法律（English (translation)）— 未譯，原文待補
 - [ ] `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）— 未譯，原文待補
+
+## 北歐（3 部）
+
+- [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）— 未譯，原文待補
+- [ ] `volsunga-saga` 沃爾松傳奇（English (translation)）— 未譯，原文待補
 
 ## 兩河（3 部）
 
@@ -52,25 +58,15 @@
 - [ ] `carmina-gadelica-2` Carmina Gadelica Vol 2（English (translation)）— 未譯，原文待補
 - [ ] `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）— 未譯，原文待補
 
-## 北歐（3 部）
-
-- [ ] `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
-- [ ] `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）— 未譯，原文待補
-- [ ] `volsunga-saga` 沃爾松傳奇（English (translation)）— 未譯，原文待補
-
-## 非洲（2 部）
-
-- [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
-- [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
-
 ## 錫克教（2 部）
 
 - [ ] `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）— 未譯，原文待補
 - [ ] `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 
-## 巴哈伊（1 部）
+## 非洲（2 部）
 
-- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
+- [ ] `ife-mythology` 伊費神話 (約魯巴)（English (translation)）— 未譯，原文待補
+- [ ] `yoruba-religion` 約魯巴宗教與神話（English (translation)）— 未譯，原文待補
 
 ## 斯拉夫（1 部）
 
@@ -80,7 +76,7 @@
 
 - [ ] `kojiki-chamberlain` 古事記（English (translation)）— 未譯，原文待補
 
-## 古希臘羅馬（1 部）
+## 巴哈伊（1 部）
 
-- [ ] `sibylline-oracles` 西比拉神諭集（English (translation)）— 未譯，原文待補
+- [ ] `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）— 未譯，原文待補
 

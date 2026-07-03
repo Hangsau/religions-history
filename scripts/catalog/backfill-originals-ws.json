@@ -200,6 +200,36 @@
       "expected_chapter_count": 2,
       "tier": "核心",
       "notes": "赫西俄德《神譜》＋《工作與時日》希臘原文；對應 sacred-texts Evelyn-White 英譯"
+    },
+    {
+      "slug": "sibylline-oracles-el",
+      "name_zh": "西比拉神諭集（希臘原文）",
+      "name_en": "Sibylline Oracles (Greek)",
+      "religion": "古希臘羅馬",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Χρησμοί Σιβυλλιακοί",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "sibylline-oracles",
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 14,
+      "tier": "核心",
+      "notes": "西比拉神諭 14 卷（Πρόλογος＋Βιβλίο Α–ΙΔ＋Αβέβαια）希臘原文；對應 sacred-texts SBE/Terry 英譯"
+    },
+    {
+      "slug": "poimandres-el",
+      "name_zh": "牧人者（赫爾墨斯文集卷一，希臘原文）",
+      "name_en": "Poimandres (Corpus Hermeticum I, Greek)",
+      "religion": "赫爾墨斯",
+      "language": "希臘",
+      "lang": "el",
+      "wikisource_title": "Ποιμάνδρης",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "tier": "核心",
+      "notes": "赫爾墨斯文集第一篇《牧人者》希臘原文（單篇）。獨立新收；el.wikisource 僅有此篇，非完整 Corpus Hermeticum，故不掛 thrice-greatest-hermes"
     }
   ]
 }
