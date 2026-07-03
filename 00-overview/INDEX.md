@@ -5,19 +5,18 @@
 
 ## 統計總覽
 
-- 總計: **4206** 部
+- 總計: **4207** 部
 - 已驗證: 2404
-- 原文 (vs 譯文): 3832 / 4206
+- 原文 (vs 譯文): 3833 / 4207
 - 總大小: ~517.5 MB
 
 ## 按宗教
 
 | 宗教 | 部數 |
 |------|------|
-| 佛教 | 2437 |
-| 猶太教 | 1389 |
+| 佛教 | 2476 |
+| 猶太教 | 1390 |
 | 基督教 | 169 |
-| 佛教-巴利 | 39 |
 | 印度教 | 33 |
 | 儒教 | 26 |
 | 古希臘羅馬 | 18 |
@@ -43,12 +42,12 @@
 | 傳統 | 部數 |
 |------|------|
 | 佛教 - 漢傳 | 2429 |
-| 猶太教 - Commentary | 1108 |
+| 猶太教 - Commentary | 1109 |
 | 基督教 | 142 |
 | 猶太教 - Halakhah | 88 |
 | 猶太教 - Mishnah | 64 |
 | 猶太教 | 57 |
-| 佛教-巴利 | 39 |
+| 佛教 - 巴利 | 47 |
 | 猶太教 - Midrash | 36 |
 | 印度教 | 33 |
 | 猶太教 - Talmud | 32 |
@@ -58,7 +57,6 @@
 | 道教 | 17 |
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 8 |
-| 佛教 - 巴利 | 8 |
 | 兩河 | 7 |
 | 伊斯蘭 | 7 |
 | 美洲 | 6 |
@@ -79,7 +77,7 @@
 | 來源 | 部數 |
 |------|------|
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
-| Sefaria | 1379 |
+| Sefaria | 1380 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | zh.wikisource.org | 103 |
 | sacred-texts.com | 98 |
@@ -107,6 +105,17 @@
 | `abhidharmakosa` | 阿毘達磨俱舍論 | 佛教 | 760375 |
 | `abhidharmasamuccaya` | 大乘阿毘達磨集論 | 佛教 | 147641 |
 | `amitabha-sutra` | 佛說阿彌陀經 | 佛教 | 7501 |
+| `an1-ones` | AN1 一法集 (~575 經) | 佛教 | 86823 |
+| `an10-tens` | AN10 十法集 | 佛教 | 514768 |
+| `an11-elevens` | AN11 十一法集 | 佛教 | 91390 |
+| `an2-twos` | AN2 二法集 | 佛教 | 93417 |
+| `an3-threes` | AN3 三法集 | 佛教 | 404942 |
+| `an4-fours` | AN4 四法集 | 佛教 | 525864 |
+| `an5-fives` | AN5 五法集 | 佛教 | 477558 |
+| `an6-sixes` | AN6 六法集 | 佛教 | 291441 |
+| `an7-sevens` | AN7 七法集 | 佛教 | 235165 |
+| `an8-eights` | AN8 八法集 | 佛教 | 321967 |
+| `an9-nines` | AN9 九法集 | 佛教 | 192321 |
 | `avatamsaka-sutra` | 大方廣佛華嚴經（八十華嚴） | 佛教 | 2495630 |
 | `awakening-of-faith` | 大乘起信論 | 佛教 | 39697 |
 | `cbeta-T01n0001` | 長阿含經 | 佛教 | 776734 |
@@ -2503,6 +2512,16 @@
 | `humane-king-sutra` | 仁王般若波羅蜜經 | 佛教 | 47153 |
 | `infinite-life-sutra` | 佛說無量壽經 | 佛教 | 66999 |
 | `itivuttaka` | 如是語經 | 佛教 | 126805 |
+| `kn-buddhavamsa` | 小部·佛種姓 | 佛教 | 114329 |
+| `kn-cariyapitaka` | 小部·所行藏 | 佛教 | 45298 |
+| `kn-culaniddesa` | 小部·小義釋 | 佛教 | 586713 |
+| `kn-jataka` | 小部·本生 (547 故事) | 佛教 | 900977 |
+| `kn-khuddakapatha` | 小部·小誦 | 佛教 | 11648 |
+| `kn-mahaniddesa` | 小部·大義釋 | 佛教 | 842070 |
+| `kn-milindapanha` | 小部·彌蘭王問經 | 佛教 | 785541 |
+| `kn-patisambhidamagga` | 小部·無礙解道 | 佛教 | 918271 |
+| `kn-petavatthu` | 小部·餓鬼事 | 佛教 | 107733 |
+| `kn-vimanavatthu` | 小部·天宮事 | 佛教 | 138272 |
 | `ksitigarbha-sutra` | 地藏菩薩本願經 | 佛教 | 64712 |
 | `lankavatara-sutra` | 楞伽阿跋多羅寶經 | 佛教 | 190797 |
 | `lotus-sutra` | 妙法蓮華經 | 佛教 | 353582 |
@@ -2526,6 +2545,24 @@
 | `shisonglu` | 十誦律 | 佛教 | 2446558 |
 | `shurangama-sutra` | 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經 | 佛教 | 240114 |
 | `sifenlu` | 四分律 | 佛教 | 2226037 |
+| `sn1-devata` | SN1 天人相應 (81 經) | 佛教 | 58662 |
+| `sn10-yakkha` | SN10 夜叉相應 | 佛教 | 15714 |
+| `sn11-sakka` | SN11 帝釋相應 | 佛教 | 41714 |
+| `sn12-nidana` | SN12 因緣相應 (93 經) | 佛教 | 231416 |
+| `sn2-devaputta` | SN2 天子相應 | 佛教 | 37830 |
+| `sn22-khandha` | SN22 蘊相應 (159 經) | 佛教 | 333472 |
+| `sn3-kosala` | SN3 拘薩羅相應 | 佛教 | 65080 |
+| `sn35-salayatana` | SN35 六入相應 (248 經) | 佛教 | 368173 |
+| `sn4-mara` | SN4 魔羅相應 | 佛教 | 41795 |
+| `sn45-magga` | SN45 道相應 (180 經) | 佛教 | 123483 |
+| `sn46-bojjhanga` | SN46 覺支相應 (184 經) | 佛教 | 129947 |
+| `sn47-satipatthana` | SN47 念處相應 (104 經) | 佛教 | 90728 |
+| `sn5-bhikkhuni` | SN5 比丘尼相應 | 佛教 | 13866 |
+| `sn56-sacca` | SN56 諦相應 (131 經) | 佛教 | 105732 |
+| `sn6-brahma` | SN6 梵天相應 | 佛教 | 39772 |
+| `sn7-brahmana` | SN7 婆羅門相應 | 佛教 | 42075 |
+| `sn8-vangisa` | SN8 婆耆舍相應 | 佛教 | 19957 |
+| `sn9-vana` | SN9 林相應 | 佛教 | 12947 |
 | `srimaladevi-sutra` | 勝鬘師子吼一乘大方便方廣經 | 佛教 | 31709 |
 | `sutta-nipata` | 經集 | 佛教 | 204122 |
 | `tathagatagarbha-mahaparinirvana` | 大般涅槃經（小本） | 佛教 | 85221 |
@@ -2540,45 +2577,6 @@
 | `vimsika` | 唯識二十論 | 佛教 | 14154 |
 | `wufenlu` | 五分律 | 佛教 | 1032278 |
 | `yogacarabhumi` | 瑜伽師地論 | 佛教 | 2896684 |
-| `an1-ones` | AN1 一法集 (~575 經) | 佛教-巴利 | 86823 |
-| `an10-tens` | AN10 十法集 | 佛教-巴利 | 514768 |
-| `an11-elevens` | AN11 十一法集 | 佛教-巴利 | 91390 |
-| `an2-twos` | AN2 二法集 | 佛教-巴利 | 93417 |
-| `an3-threes` | AN3 三法集 | 佛教-巴利 | 404942 |
-| `an4-fours` | AN4 四法集 | 佛教-巴利 | 525864 |
-| `an5-fives` | AN5 五法集 | 佛教-巴利 | 477558 |
-| `an6-sixes` | AN6 六法集 | 佛教-巴利 | 291441 |
-| `an7-sevens` | AN7 七法集 | 佛教-巴利 | 235165 |
-| `an8-eights` | AN8 八法集 | 佛教-巴利 | 321967 |
-| `an9-nines` | AN9 九法集 | 佛教-巴利 | 192321 |
-| `kn-buddhavamsa` | 小部·佛種姓 | 佛教-巴利 | 114329 |
-| `kn-cariyapitaka` | 小部·所行藏 | 佛教-巴利 | 45298 |
-| `kn-culaniddesa` | 小部·小義釋 | 佛教-巴利 | 586713 |
-| `kn-jataka` | 小部·本生 (547 故事) | 佛教-巴利 | 900977 |
-| `kn-khuddakapatha` | 小部·小誦 | 佛教-巴利 | 11648 |
-| `kn-mahaniddesa` | 小部·大義釋 | 佛教-巴利 | 842070 |
-| `kn-milindapanha` | 小部·彌蘭王問經 | 佛教-巴利 | 785541 |
-| `kn-patisambhidamagga` | 小部·無礙解道 | 佛教-巴利 | 918271 |
-| `kn-petavatthu` | 小部·餓鬼事 | 佛教-巴利 | 107733 |
-| `kn-vimanavatthu` | 小部·天宮事 | 佛教-巴利 | 138272 |
-| `sn1-devata` | SN1 天人相應 (81 經) | 佛教-巴利 | 58662 |
-| `sn10-yakkha` | SN10 夜叉相應 | 佛教-巴利 | 15714 |
-| `sn11-sakka` | SN11 帝釋相應 | 佛教-巴利 | 41714 |
-| `sn12-nidana` | SN12 因緣相應 (93 經) | 佛教-巴利 | 231416 |
-| `sn2-devaputta` | SN2 天子相應 | 佛教-巴利 | 37830 |
-| `sn22-khandha` | SN22 蘊相應 (159 經) | 佛教-巴利 | 333472 |
-| `sn3-kosala` | SN3 拘薩羅相應 | 佛教-巴利 | 65080 |
-| `sn35-salayatana` | SN35 六入相應 (248 經) | 佛教-巴利 | 368173 |
-| `sn4-mara` | SN4 魔羅相應 | 佛教-巴利 | 41795 |
-| `sn45-magga` | SN45 道相應 (180 經) | 佛教-巴利 | 123483 |
-| `sn46-bojjhanga` | SN46 覺支相應 (184 經) | 佛教-巴利 | 129947 |
-| `sn47-satipatthana` | SN47 念處相應 (104 經) | 佛教-巴利 | 90728 |
-| `sn5-bhikkhuni` | SN5 比丘尼相應 | 佛教-巴利 | 13866 |
-| `sn56-sacca` | SN56 諦相應 (131 經) | 佛教-巴利 | 105732 |
-| `sn6-brahma` | SN6 梵天相應 | 佛教-巴利 | 39772 |
-| `sn7-brahmana` | SN7 婆羅門相應 | 佛教-巴利 | 42075 |
-| `sn8-vangisa` | SN8 婆耆舍相應 | 佛教-巴利 | 19957 |
-| `sn9-vana` | SN9 林相應 | 佛教-巴利 | 12947 |
 | `analects` | 論語 | 儒教 | 65450 |
 | `bohutong` | 白虎通義 | 儒教 | 173964 |
 | `book-of-changes` | 周易 | 儒教 | 186766 |
@@ -3252,6 +3250,7 @@
 | `sefaria-german-commentary-on-mishnah-zevachim` | German Commentary on Mishnah Zevachim | 猶太教 | 3854 |
 | `sefaria-german-commentary-on-pirkei-avot` | German Commentary on Pirkei Avot | 猶太教 | 6308 |
 | `sefaria-gra-on-pirkei-avot` | Gra on Pirkei Avot | 猶太教 | 6007 |
+| `sefaria-hagahot-chavot-yair-on-beitzah` | Hagahot Chavot Yair on Beitzah | 猶太教 | 63 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kilayim` | Haggahot Ya'avetz on Mishnah Kilayim | 猶太教 | 134 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kinnim` | Haggahot Ya'avetz on Mishnah Kinnim | 猶太教 | 742 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-middot` | Haggahot Ya'avetz on Mishnah Middot | 猶太教 | 1318 |

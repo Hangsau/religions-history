@@ -204,7 +204,8 @@ def download_scripture(entry: dict) -> dict:
         "name_zh": entry["name_zh"],
         "name_en": entry.get("name_en", ""),
         "name_original": entry.get("name_original") or entry["name_zh"],
-        "religion": entry.get("religion", "佛教-巴利"),
+        "religion": entry.get("religion", "佛教"),
+        "tradition": entry.get("tradition", "巴利"),
         "language": entry.get("language", primary_lang),
         "version": entry.get("version", "SuttaCentral 校勘版"),
         "version_date": entry.get("version_date", "—"),
@@ -238,6 +239,7 @@ def load_catalog(religion: str) -> list[dict]:
     out = []
     for e in data["scriptures"]:
         e.setdefault("religion", data["religion"])
+        e.setdefault("tradition", data.get("tradition"))
         e.setdefault("language", data.get("language"))
         out.append(e)
     return out
@@ -249,6 +251,7 @@ def find_entry(slug: str) -> dict | None:
         for e in data["scriptures"]:
             if e["slug"] == slug:
                 e.setdefault("religion", data["religion"])
+                e.setdefault("tradition", data.get("tradition"))
                 e.setdefault("language", data.get("language"))
                 return e
     return None

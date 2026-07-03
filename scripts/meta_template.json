@@ -26,7 +26,7 @@
     "name_zh": {"type": "string"},
     "name_en": {"type": "string"},
     "name_original": {"type": "string", "description": "Title in original language"},
-    "religion": {"type": "string", "enum": ["佛教", "道教", "儒教", "印度教", "耆那教", "錫克教", "猶太教", "基督教", "伊斯蘭", "巴哈伊", "瑣羅亞斯德", "神道", "兩河", "古埃及", "古希臘羅馬", "北歐", "凱爾特", "斯拉夫", "赫爾墨斯", "諾斯底", "非洲", "瑪雅", "阿茲特克", "印加", "現代新興"]},
+    "religion": {"type": "string", "enum": ["佛教", "道教", "儒教", "印度教", "耆那教", "錫克教", "猶太教", "基督教", "伊斯蘭", "巴哈伊", "瑣羅亞斯德", "神道", "兩河", "古埃及", "古希臘羅馬", "北歐", "凱爾特", "斯拉夫", "赫爾墨斯", "諾斯底", "非洲", "美洲", "瑪雅", "阿茲特克", "印加", "現代新興"]},
     "tradition": {"type": ["string", "null"], "description": "佛教傳統: 巴利 / 漢傳 / 藏傳 / 梵文原典 / 其他; 基督教傳統: 天主教 / 東正教 / 新教 / 早期教父; 等"},
     "language": {"type": "string", "description": "e.g. 古典漢語, 梵文, 巴利, 古希臘, 希伯來, 古典阿拉伯, 阿維斯塔"},
     "is_original_language": {"type": "boolean", "description": "true=原文（此文本語言即成書語言）; false=譯文。粗分類，細分見 text_role。"},
