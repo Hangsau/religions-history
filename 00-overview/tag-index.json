@@ -1,8 +1,18 @@
 {
   "against-idolatry": [
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
       "religion": "猶太教"
     }
   ],
@@ -21,6 +31,28 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
+  "awe-fear": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "breath-control": [
@@ -57,6 +89,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "chaos-to-order": [
@@ -71,6 +108,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
     },
     {
       "slug": "sblgnt-2-john",
@@ -137,6 +179,11 @@
     }
   ],
   "divine-transcendence": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
     {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
@@ -205,7 +252,19 @@
       "religion": "道教"
     }
   ],
+  "fasting": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
   "forgiveness": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
@@ -236,6 +295,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     },
     {
       "slug": "sblgnt-2-thessalonians",
@@ -352,6 +416,11 @@
       "religion": "道教"
     },
     {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
@@ -359,8 +428,18 @@
   ],
   "messianism": [
     {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
       "religion": "猶太教"
     }
   ],
@@ -369,9 +448,19 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "monotheist-exclusive": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
     {
       "slug": "nahum",
       "name_zh": "那鴻書",
@@ -386,6 +475,11 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "multiple-souls": [
@@ -448,6 +542,11 @@
   ],
   "prayer": [
     {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
@@ -458,7 +557,19 @@
       "religion": "基督教"
     }
   ],
+  "priesthood": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "prophetic-critique": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
     {
       "slug": "nahum",
       "name_zh": "那鴻書",
@@ -481,6 +592,21 @@
     }
   ],
   "prophetic-revelation": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
     {
       "slug": "nahum",
       "name_zh": "那鴻書",
@@ -505,6 +631,11 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "reincarnation": [
@@ -539,6 +670,11 @@
     }
   ],
   "salvation-by-faith": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
@@ -577,6 +713,11 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     },
     {
       "slug": "taishang-ganying-pian",
@@ -620,7 +761,24 @@
       "religion": "儒教"
     }
   ],
+  "temple-centered": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "theodicy": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
     {
       "slug": "nahum",
       "name_zh": "那鴻書",
@@ -635,12 +793,32 @@
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "theophany": [
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
       "religion": "猶太教"
     }
   ],
@@ -675,6 +853,11 @@
   ],
   "ultimate-reality": [
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -690,6 +873,11 @@
       "religion": "道教"
     },
     {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
@@ -700,6 +888,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
     },
     {
       "slug": "huangting-neijing",

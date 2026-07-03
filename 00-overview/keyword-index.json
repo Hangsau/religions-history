@@ -29,6 +29,16 @@
   ],
   "YHWH": [
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -36,6 +46,11 @@
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
       "religion": "猶太教"
     }
   ],
@@ -53,11 +68,32 @@
       "religion": "基督教"
     }
   ],
+  "devatā": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "episkopos": [
     {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "gāthā": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "nibbāna": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "palingenesia": [
@@ -72,6 +108,13 @@
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "saṁvega": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "三尸神": [
@@ -205,6 +248,13 @@
       "religion": "基督教"
     }
   ],
+  "亞捫": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
   "亞腓亞": [
     {
       "slug": "sblgnt-philemon",
@@ -216,6 +266,13 @@
     {
       "slug": "nahum",
       "name_zh": "那鴻書",
+      "religion": "猶太教"
+    }
+  ],
+  "他施": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
       "religion": "猶太教"
     }
   ],
@@ -308,6 +365,11 @@
   ],
   "偶像": [
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -331,6 +393,13 @@
     {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    }
+  ],
+  "先知": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
       "religion": "猶太教"
     }
   ],
@@ -374,11 +443,32 @@
       "religion": "道教"
     }
   ],
+  "出埃及": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "出家": [
     {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    }
+  ],
+  "印戒": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
+  "受膏者": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
     }
   ],
   "可拉": [
@@ -416,6 +506,27 @@
       "religion": "道教"
     }
   ],
+  "哀求": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
+  "哈巴谷": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
+  "哈該": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "善": [
     {
       "slug": "sblgnt-3-john",
@@ -428,6 +539,13 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "喬答摩": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "四書": [
@@ -472,11 +590,25 @@
       "religion": "猶太教"
     }
   ],
+  "大利烏王": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "大學": [
     {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "大日子": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "大明咒": [
@@ -491,11 +623,25 @@
       "religion": "佛教"
     }
   ],
+  "大祭司": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "大道": [
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "大魚": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "天人合一": [
@@ -576,12 +722,27 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "尼尼微": [
     {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
       "religion": "猶太教"
     }
   ],
@@ -599,7 +760,26 @@
       "religion": "猶太教"
     }
   ],
+  "巴力": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
+  "巴比倫": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
   "巴蘭": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
@@ -611,6 +791,13 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    }
+  ],
+  "希伯來人": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "帖撒羅尼迦": [
@@ -662,6 +849,13 @@
       "religion": "佛教"
     }
   ],
+  "律法": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "心神": [
     {
       "slug": "huangting-neijing",
@@ -697,6 +891,13 @@
       "religion": "基督教"
     }
   ],
+  "悚懼": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "愛": [
     {
       "slug": "sblgnt-2-john",
@@ -711,6 +912,13 @@
       "religion": "佛教"
     }
   ],
+  "慈愛": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
   "慎獨": [
     {
       "slug": "great-learning",
@@ -723,6 +931,13 @@
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "所羅巴伯": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
     }
   ],
   "拯救者": [
@@ -779,6 +994,13 @@
       "religion": "基督教"
     }
   ],
+  "提幔": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
   "提摩太": [
     {
       "slug": "sblgnt-2-thessalonians",
@@ -789,6 +1011,13 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "摩押": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "摩西": [
@@ -852,6 +1081,13 @@
       "religion": "儒教"
     }
   ],
+  "暴力": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
   "曾子": [
     {
       "slug": "great-learning",
@@ -873,6 +1109,13 @@
       "religion": "道教"
     }
   ],
+  "林": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "格物致知": [
     {
       "slug": "great-learning",
@@ -887,11 +1130,25 @@
       "religion": "佛教"
     }
   ],
+  "榮耀": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "機": [
     {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "比丘": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "沉淪之子": [
@@ -939,6 +1196,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "清靜": [
@@ -967,6 +1229,13 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "無常": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ],
   "無所得": [
@@ -1077,6 +1346,13 @@
       "religion": "猶太教"
     }
   ],
+  "禁食": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
   "禍福無門": [
     {
       "slug": "taishang-ganying-pian",
@@ -1110,6 +1386,13 @@
       "religion": "道教"
     }
   ],
+  "米勒公": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
   "米迦勒": [
     {
       "slug": "sblgnt-jude",
@@ -1124,11 +1407,46 @@
       "religion": "道教"
     }
   ],
+  "約帕": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
+  "約拿": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
+  "約書亞": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
+  "約西亞": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
   "紫清": [
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "細拉": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
     }
   ],
   "絜矩之道": [
@@ -1145,11 +1463,25 @@
       "religion": "道教"
     }
   ],
+  "義人因信得生": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
   "老君": [
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "耶和華": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "耶穌基督": [
@@ -1174,6 +1506,11 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "聖人": [
@@ -1181,6 +1518,18 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "聖殿": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "聖靈": [
@@ -1296,6 +1645,13 @@
       "religion": "道教"
     }
   ],
+  "蓖麻": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    }
+  ],
   "蓮花": [
     {
       "slug": "fortytwo-chapters-sutra",
@@ -1322,6 +1678,13 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "西番雅": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "觀世音菩薩": [
@@ -1373,6 +1736,20 @@
       "religion": "基督教"
     }
   ],
+  "迦勒底": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
+  "迦葉瞿曇": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "迷惑人": [
     {
       "slug": "sblgnt-2-john",
@@ -1415,11 +1792,25 @@
       "religion": "佛教"
     }
   ],
+  "重建": [
+    {
+      "slug": "haggai",
+      "name_zh": "哈該書",
+      "religion": "猶太教"
+    }
+  ],
   "重生": [
     {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "錫安": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "錫安山": [
@@ -1493,11 +1884,32 @@
       "religion": "佛教"
     }
   ],
+  "阿那律": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
+  "阿難": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
+    }
+  ],
   "陰符經": [
     {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "陰間": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "陰陽": [
@@ -1521,6 +1933,13 @@
       "religion": "道教"
     }
   ],
+  "非利士": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
   "須陀洹": [
     {
       "slug": "fortytwo-chapters-sutra",
@@ -1535,11 +1954,25 @@
       "religion": "基督教"
     }
   ],
+  "餘民": [
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
   "馬可": [
     {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "麻衣": [
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "黃帝": [
@@ -1561,11 +1994,25 @@
       "religion": "道教"
     }
   ],
+  "默示": [
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    }
+  ],
   "齊家": [
     {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "龍軍": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教-巴利"
     }
   ]
 }
