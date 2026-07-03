@@ -2,15 +2,15 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**375** 部
-- 已翻譯：**51** / 375
-- 已標籤：**32** / 375
+- 核心總數：**377** 部
+- 已翻譯：**53** / 377
+- 已標籤：**33** / 377
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 10 | 8 |
+| 基督教 | 159 | 12 | 9 |
 | 猶太教 | 45 | 12 | 8 |
 | 佛教-巴利 | 31 | 3 | 3 |
 | 佛教 | 30 | 8 | 5 |
@@ -30,6 +30,7 @@
 | 錫克教 | 2 | 0 | 0 |
 | 非洲 | 2 | 0 | 0 |
 | 耆那教 | 2 | 0 | 0 |
+| 斯拉夫 | 2 | 0 | 0 |
 | 神道 | 1 | 0 | 0 |
 | 巴哈伊 | 1 | 0 | 0 |
 
@@ -40,7 +41,6 @@
 > schema enum 有此宗教但語料庫一部都沒有。神道需另寫 NDL 爬蟲。
 > 註：schema 把美洲細分為瑪雅/阿茲特克/印加、赫爾墨斯獨立，但語料庫用較粗的『美洲』『諾斯底』歸類，故此清單含分類折疊項，非全為真缺口。
 
-- **斯拉夫**
 - **赫爾墨斯**
 - **瑪雅**
 - **阿茲特克**
@@ -57,7 +57,7 @@
 | text_role | 核心部數 |
 |-----------|---------|
 | contested | 2 |
-| (未標) | 373 |
+| (未標) | 375 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -138,7 +138,7 @@
 - `sblgnt-1-corinthians` 哥林多前書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-1-john` 約翰一書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-1-peter` 彼得前書（希臘原文）（Koine Greek）譯– 標–
-- `sblgnt-1-thessalonians` 帖撒羅尼迦前書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-1-thessalonians` 帖撒羅尼迦前書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-timothy` 提摩太前書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-2-corinthians` 哥林多後書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-2-john` 約翰二書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -147,7 +147,7 @@
 - `sblgnt-2-timothy` 提摩太後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-3-john` 約翰三書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯– 標–
-- `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯✓ 標–
 - `sblgnt-ephesians` 以弗所書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-galatians` 加拉太書（希臘原文）（Koine Greek）譯– 標–
 - `sblgnt-hebrews` 希伯來書（希臘原文）（Koine Greek）譯– 標–
@@ -499,6 +499,11 @@
 
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標–
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標–
+
+### 斯拉夫（2 部）
+
+- `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標–
+- `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯– 標–
 
 ### 神道（1 部）
 

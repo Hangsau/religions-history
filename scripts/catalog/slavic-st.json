@@ -1,0 +1,15 @@
+{
+  "religion": "斯拉夫",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English (translation)",
+  "notes": "斯拉夫異教無成文經典；主要宗教來源為史詩與民俗-民族誌記錄（異教信仰與儀式殘存）。英譯本；原文（古東斯拉夫語 / 教會斯拉夫語）待專門 source.",
+  "scriptures": [
+    {"slug": "tale-of-igor-campaign", "st_book_path": "neu/tai", "name_zh": "伊戈爾遠征記", "name_en": "The Tale of the Armament of Igor", "name_original": "Слово о плъку Игоревѣ", "religion": "斯拉夫", "tier": "核心", "is_original_language": false, "notes": "12 世紀古東斯拉夫史詩，含斯拉夫異教神祇（Dazhbog / Veles / Stribog）。古東斯拉夫語原文待補."},
+    {"slug": "songs-of-russian-people", "st_book_path": "neu/srp", "name_zh": "俄羅斯人民之歌", "name_en": "The Songs of the Russian People", "version": "Ralston 1872", "religion": "斯拉夫", "tier": "核心", "is_original_language": false, "notes": "記錄斯拉夫異教信仰、神話與農事儀式殘存，斯拉夫宗教主要一手民族誌來源."},
+    {"slug": "slavonic-folk-tales-sixty", "st_book_path": "neu/sfs", "name_zh": "斯拉夫民間故事六十篇", "name_en": "Sixty Folk-Tales from Exclusively Slavonic Sources", "religion": "斯拉夫", "tier": "次要", "is_original_language": false},
+    {"slug": "heroic-ballads-servia", "st_book_path": "neu/hbs", "name_zh": "塞爾維亞英雄敘事詩", "name_en": "Heroic Ballads of Servia", "religion": "斯拉夫", "tier": "次要", "is_original_language": false},
+    {"slug": "folk-tales-from-russian", "st_book_path": "neu/ftr", "name_zh": "俄羅斯民間故事", "name_en": "Folk Tales From the Russian", "religion": "斯拉夫", "tier": "次要", "is_original_language": false},
+    {"slug": "key-of-gold-czech-tales", "st_book_path": "neu/kog", "name_zh": "金鑰匙：捷克民間故事", "name_en": "The Key of Gold: 23 Czech Folk Tales", "religion": "斯拉夫", "tier": "次要", "is_original_language": false}
+  ]
+}
