@@ -6,13 +6,13 @@
 
 - 可收待補原文核心：**2** 部，橫跨 **2** 宗教
 
-## 神道（1 部）
-
-- [ ] `nihongi-aston` 日本書紀 (英譯)（English (translation)）— 未譯，原文待補
-
 ## 瑪雅（1 部）
 
 - [ ] `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）— 未譯，原文待補
+
+## 神道（1 部）
+
+- [ ] `nihongi-aston` 日本書紀 (英譯)（English (translation)）— 未譯，原文待補
 
 ---
 

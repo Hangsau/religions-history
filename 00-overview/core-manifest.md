@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**408** 部
-- 已翻譯：**82** / 408
+- 已翻譯：**87** / 408
 - 已標籤：**378** / 408
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 19 | 159 |
+| 基督教 | 159 | 20 | 159 |
 | 佛教 | 61 | 20 | 61 |
-| 猶太教 | 45 | 18 | 45 |
-| 印度教 | 26 | 9 | 25 |
+| 猶太教 | 45 | 20 | 45 |
+| 印度教 | 26 | 11 | 25 |
 | 古希臘羅馬 | 22 | 0 | 12 |
 | 道教 | 14 | 9 | 14 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
@@ -72,7 +72,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**2** 個 / 核心 **2** 部
-- 名單：神道、瑪雅
+- 名單：瑪雅、神道
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -155,7 +155,7 @@
 - `sblgnt-1-peter` 彼得前書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-thessalonians` 帖撒羅尼迦前書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-timothy` 提摩太前書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-2-corinthians` 哥林多後書（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-2-corinthians` 哥林多後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-john` 約翰二書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-peter` 彼得後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-thessalonians` 帖撒羅尼迦後書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -316,7 +316,7 @@
 - `daniel` 但以理書（希伯來）譯– 標✓
 - `deuteronomy` 申命記（希伯來）譯– 標✓
 - `ecclesiastes` 傳道書（希伯來）譯✓ 標✓
-- `esther` 以斯帖記（希伯來）譯– 標✓
+- `esther` 以斯帖記（希伯來）譯✓ 標✓
 - `exodus` 出埃及記（希伯來）譯– 標✓
 - `ezekiel` 以西結書（希伯來）譯– 標✓
 - `ezra` 以斯拉記（希伯來）譯– 標✓
@@ -353,7 +353,7 @@
 - `samuel-2` 撒母耳記下（希伯來）譯– 標✓
 - `song-of-songs` 雅歌（希伯來）譯✓ 標✓
 - `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標✓
-- `zechariah` 撒迦利亞書（希伯來）譯– 標✓
+- `zechariah` 撒迦利亞書（希伯來）譯✓ 標✓
 - `zephaniah` 西番雅書（希伯來）譯✓ 標✓
 
 ### 印度教（26 部）
@@ -372,12 +372,12 @@
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯– 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
-- `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯– 標✓
+- `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯– 標✓
 - `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
 - `samaveda` 沙摩吠陀（Sanskrit）譯– 標✓
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
-- `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯– 標✓
+- `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
 - `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標✓
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯– 標✓
