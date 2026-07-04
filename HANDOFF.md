@@ -17,7 +17,9 @@
 - 啟動：雙擊專案根 `狀態看板.bat`（背景 `pythonw`，無主控台）；或 `PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py`。
 - 顯示：頂部總量（部/宗教/MB）＋ 對齊覆蓋率（各 meta 欄位回填 %）＋ M3 分類進度（tier×era+genre+tags 三齊全）＋ Pipeline A 收集動態（最新收錄/近 30 分/日誌尾）＋ 翻譯進度（translation_status==done）＋ classify 背景管線。
 - 資料 helper 沿用 `scripts/status.py`（`load_all` / `filled` / `ALIGN_FIELDS` / `log_ok_count` / `log_tail`）；GUI 只管畫面。綠條＝≥99.5% 完成、琥珀＝進行中。
-- **刊版兼任監督（2026-07-04）**：`ensure_supervisor()` 在開看板時＋每 30 秒刷新時檢查 `logs/supervisor.pid`（`_pid_alive` OpenProcess 判活），沒在跑就用 `pythonw + DETACHED_PROCESS + CREATE_NO_WINDOW` 脫離式拉起 supervisor。**關掉看板不會殺死管線**（不重演 07-04 停擺）。頂部紅字橫幅 `pipeline_health()` 仍是 human backstop（狀態檔 >20 分沒更新 / 有 `pipeline-alert.txt` → 紅字）。
+- **刊版兼任監督（2026-07-04）**：`ensure_supervisor()` 在開看板時＋每 30 秒刷新時檢查 `logs/supervisor.pid`（`_pid_alive` OpenProcess 判活），沒在跑就用 `pythonw + DETACHED_PROCESS + CREATE_NO_WINDOW` 脫離式拉起 supervisor。**關掉看板不會殺死管線**（不重演 07-04 停擺）。頂部紅字橫幅 `pipeline_health()` 仍是 human backstop。
+- **`pipeline_health` 活性訊號改用 `supervisor-run.log`（2026-07-04 修假警報）**：舊版看 `PIPELINE_STATUS.md` mtime >20 分就紅字「疑停擺」，但該檔每部經典才更新一次，大部（如 `sn7-brahmana` 17 chunk ≈ 30+ 分）跑到一半必被誤報；supervisor 心跳 `supervisor.log` 只在兩輪之間跳、長 run 全程不跳也不能用。改以 `run.log`（每 chunk ~100 秒寫一行）為真心跳，`min(status_age, run_age) > 1200s` 才判停擺。真停擺（含 07-04 那種零活動）run.log 也會靜止 → 仍會紅字；系統性 quota 耗盡由 `pipeline-alert.txt` 另捕（優先判）。
+- **刊版即時動作區（2026-07-04）**：`translation_activity()` 解析 `run.log` 顯示「正在翻哪部（含中文名）/ 動作（翻譯 vs 標籤）/ chunk X/Y / 模型（MiniMax 或 DeepSeek fallback 紅字）/ 本次速度 部/時 + ETA / 錯誤·待重試·最近完成」。
 
 ## 2026-07-04 事故：翻譯管線靜默停擺 + 修復
 

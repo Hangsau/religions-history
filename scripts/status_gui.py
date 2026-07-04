@@ -98,19 +98,22 @@ F_SMALL = (FONT, 9)
 
 
 def pipeline_health(now: float) -> dict:
-    """讀 PIPELINE_STATUS.md + supervisor 心跳 + 警報檔，判斷翻譯管線是否停擺。
+    """讀 PIPELINE_STATUS.md + supervisor-run.log + 警報檔，判斷翻譯管線是否真停擺。
 
     2026-07-04 事故：auto-pipeline 被 session 關閉靜默殺掉、無人察覺 5 小時。
-    本檢查讓「狀態檔久未更新 / supervisor 報警」在看板上直接紅字現形。
+    但活性必須以 **chunk 級 run.log** 為準——PIPELINE_STATUS.md 每部經典才更新一次，
+    大部經典（如 sn7-brahmana 17 chunk ≈ 30+ 分）跑到一半就會被誤判停擺（假警報）；
+    supervisor 心跳只在「兩輪之間」跳，長 run 全程不跳，也不能當活性訊號。
+    run.log 每個 chunk（~100 秒）就寫一行，才是真正的心跳。
     """
     root = status.LOGS.parent
     status_md = root / "00-overview" / "PIPELINE_STATUS.md"
     alert_f = status.LOGS / "pipeline-alert.txt"
-    hb_f = status.LOGS / "supervisor.log"
+    run_log = status.LOGS / "supervisor-run.log"
 
     if alert_f.exists():
         msg = alert_f.read_text(encoding="utf-8").strip().replace("\n", "　")
-        return {"color": BAD, "text": f"⚠ 管線警報：{msg}"}
+        return {"color": BAD, "text": f"⚠ 管線警報（supervisor 已報警並停手）：{msg}"}
     if not status_md.exists():
         return {"color": MUTED, "text": "翻譯管線：無狀態檔（未啟動過）"}
 
@@ -121,19 +124,26 @@ def pipeline_health(now: float) -> dict:
     current = cm.group(1).strip() if cm else "?"
     rm = re.search(r"失敗待重試：\*{0,2}(\d+)", txt)
     retry = int(rm.group(1)) if rm else 0
-    age = now - status_md.stat().st_mtime
-    hb_age = now - hb_f.stat().st_mtime if hb_f.exists() else None
     base = {"done": done, "total": total, "current": current, "retry": retry}
 
     if (total and done >= total) or current.startswith("(完成"):
         return {**base, "color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
-    if age > 1200:  # 未完成卻 >20 分沒更新 → 疑靜默停擺
-        note = f"，supervisor 心跳 {fmt_ago(hb_age)}" if hb_age is not None else "，無 supervisor 心跳"
+
+    # 活性 = 最新工作訊號的年齡（run.log 每 chunk 更新，遠比 status.md 靈敏）。
+    # 只有連 chunk 級都靜止才算真停擺。單次 M3 逾時上限 600 秒 + 部間 git，
+    # 正常最壞間隔 <約 12 分；門檻放 20 分，零假警報。
+    status_age = now - status_md.stat().st_mtime
+    run_age = (now - run_log.stat().st_mtime) if run_log.exists() else status_age
+    live_age = min(status_age, run_age)
+    STALL_SECS = 1200
+
+    if live_age > STALL_SECS:
         return {**base, "color": BAD,
                 "text": f"⚠ 翻譯管線疑停擺：停在 {done}/{total} @ {current}，"
-                        f"{fmt_ago(age)}未更新{note}"}
+                        f"chunk 級 {fmt_ago(live_age)}無動作"}
     return {**base, "color": DONE,
-            "text": f"翻譯管線運行中：{done}/{total} @ {current}（{fmt_ago(age)}更新）"}
+            "text": f"翻譯管線運行中：{done}/{total} @ {current}"
+                    f"（chunk {fmt_ago(run_age)}活動）"}
 
 
 def translation_activity(now: float) -> dict:
