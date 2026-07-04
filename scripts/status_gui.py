@@ -9,6 +9,7 @@
 或： PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py
 """
 
+import re
 import time
 import tkinter as tk
 from datetime import datetime, timezone, timedelta
@@ -34,6 +35,7 @@ FG    = "#d7dae0"
 MUTED = "#7c828c"
 DONE  = "#5b8a52"   # 綠：已完成
 PROG  = "#d9a441"   # 琥珀：進行中
+BAD   = "#c0504d"   # 紅：停擺 / 警報
 TRACK = "#2b3038"   # 進度條底槽
 HEAD  = "#c8956c"   # 標題暖色
 
@@ -43,6 +45,42 @@ F_BIG   = (FONT, 22, "bold")
 F_SEC   = (FONT, 11, "bold")
 F_ROW   = (FONT, 10)
 F_SMALL = (FONT, 9)
+
+
+def pipeline_health(now: float) -> dict:
+    """讀 PIPELINE_STATUS.md + supervisor 心跳 + 警報檔，判斷翻譯管線是否停擺。
+
+    2026-07-04 事故：auto-pipeline 被 session 關閉靜默殺掉、無人察覺 5 小時。
+    本檢查讓「狀態檔久未更新 / supervisor 報警」在看板上直接紅字現形。
+    """
+    root = status.LOGS.parent
+    status_md = root / "00-overview" / "PIPELINE_STATUS.md"
+    alert_f = status.LOGS / "pipeline-alert.txt"
+    hb_f = status.LOGS / "supervisor.log"
+
+    if alert_f.exists():
+        msg = alert_f.read_text(encoding="utf-8").strip().replace("\n", "　")
+        return {"color": BAD, "text": f"⚠ 管線警報：{msg}"}
+    if not status_md.exists():
+        return {"color": MUTED, "text": "翻譯管線：無狀態檔（未啟動過）"}
+
+    txt = status_md.read_text(encoding="utf-8")
+    m = re.search(r"進度：\*\*(\d+)\s*/\s*(\d+)", txt)
+    done, total = (int(m.group(1)), int(m.group(2))) if m else (0, 0)
+    cm = re.search(r"目前處理：`?([^`\n]+)`?", txt)
+    current = cm.group(1).strip() if cm else "?"
+    age = now - status_md.stat().st_mtime
+    hb_age = now - hb_f.stat().st_mtime if hb_f.exists() else None
+
+    if (total and done >= total) or current.startswith("(完成"):
+        return {"color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
+    if age > 1200:  # 未完成卻 >20 分沒更新 → 疑靜默停擺
+        note = f"，supervisor 心跳 {fmt_ago(hb_age)}" if hb_age is not None else "，無 supervisor 心跳"
+        return {"color": BAD,
+                "text": f"⚠ 翻譯管線疑停擺：停在 {done}/{total} @ {current}，"
+                        f"{fmt_ago(age)}未更新{note}"}
+    return {"color": DONE,
+            "text": f"翻譯管線運行中：{done}/{total} @ {current}（{fmt_ago(age)}更新）"}
 
 
 def collect() -> dict:
@@ -83,6 +121,8 @@ def collect() -> dict:
         d["dl_landed_30m"] = sum(1 for p in paths if now - p.stat().st_mtime < 1800)
     else:
         d["dl_newest"], d["dl_newest_ago"], d["dl_landed_30m"] = "—", "—", 0
+    d["pipe"] = pipeline_health(now)
+
     dl_logs = list(status.LOGS.glob("pipeline-a*.log"))
     if dl_logs:
         active = max(dl_logs, key=lambda p: p.stat().st_mtime)
@@ -131,6 +171,9 @@ class Board:
         self.big.pack(fill="x", padx=18)
         self.stamp = tk.Label(head, text="", bg=BG, fg=MUTED, font=F_SMALL, anchor="w")
         self.stamp.pack(fill="x", padx=18)
+        self.pipe = tk.Label(head, text="", bg=BG, fg=FG, font=F_SEC, anchor="w",
+                             wraplength=620, justify="left")
+        self.pipe.pack(fill="x", padx=18, pady=(6, 0))
 
         self._section(self.root, "對齊覆蓋率（欄位回填進度）")
         for label, key in [(l, k) for (k, l) in status.ALIGN_FIELDS]:
@@ -182,6 +225,7 @@ class Board:
         ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
         self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
         self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
+        self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
 
         for label, key, c, tot, pct in d["coverage"]:
             self._draw_bar("cov:" + key, c, tot, pct)

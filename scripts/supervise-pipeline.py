@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""
+supervise-pipeline.py — 讓 Pipeline B+C（翻譯+標籤）不再靜默停擺。
+
+背景問題（2026-07-04 事故）：
+  auto-pipeline.py 是一次性子進程，當初掛在互動 session 的背景 shell 底下；
+  session 一關，OS 就把整棵進程樹收掉，翻譯永久停擺且無人察覺——GitHub 看似
+  「有進展」其實只剩一支脫離式的收集爬蟲在爬週邊碎屑。
+
+本 supervisor 負責：
+  1. 反覆啟動 auto-pipeline，直到佇列跑完（stdout 出現 this_run=0）。
+  2. auto-pipeline 異常退出（被殺 / crash）時自動重啟。
+  3. 連續 MAX_QUICK_STRIKES 次「啟動後幾乎立刻退出」或連續 MAX_NOPROGRESS 輪
+     「一部都沒 processed」→ 判定系統性問題（多半 M3 配額耗盡 / claude -p 端點異常），
+     寫 logs/pipeline-alert.txt 並停止，不無限燒配額。
+  4. 每輪寫心跳到 logs/supervisor.log。
+
+正確啟動方式（脫離 session，撐得過關機視窗）：
+  powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py' -WindowStyle Hidden
+"""
+import os
+import re
+import subprocess
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+LOGS = ROOT / "logs"
+LOGS.mkdir(exist_ok=True)
+HEARTBEAT = LOGS / "supervisor.log"
+ALERT = LOGS / "pipeline-alert.txt"
+RUN_LOG = LOGS / "supervisor-run.log"
+
+TIER = sys.argv[1] if len(sys.argv) > 1 else "核心"
+TZ = timezone(timedelta(hours=8))
+
+MAX_QUICK_STRIKES = 3   # 連續幾次「啟動後幾乎立刻退出」即判系統性問題
+QUICK_SECONDS = 120     # 幾秒內退出算「立刻失敗」
+MAX_NOPROGRESS = 2      # 連續幾輪「一部都沒 processed」即判系統性問題
+BACKOFF_BASE = 30       # 重啟退避秒數（× strikes）
+
+
+def hb(msg: str) -> None:
+    line = f"{datetime.now(TZ).strftime('%Y-%m-%d %H:%M:%S')} {msg}"
+    print(line, flush=True)
+    with HEARTBEAT.open("a", encoding="utf-8") as f:
+        f.write(line + "\n")
+
+
+def alert(msg: str) -> None:
+    ALERT.write_text(
+        f"{datetime.now(TZ).strftime('%Y-%m-%d %H:%M:%S')} +0800\n{msg}\n",
+        encoding="utf-8")
+    hb(f"[ALERT] {msg}")
+
+
+def run_once() -> tuple[int, int, int, float]:
+    """跑一次 auto-pipeline，回 (returncode, this_run, processed, elapsed_seconds)。"""
+    cmd = [sys.executable, str(ROOT / "scripts" / "auto-pipeline.py"), "--tier", TIER]
+    env = {**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
+    this_run, processed = -1, -1
+    start = time.time()
+    with RUN_LOG.open("a", encoding="utf-8") as logf:
+        logf.write(f"\n===== supervisor run @ {datetime.now(TZ)} =====\n")
+        logf.flush()
+        proc = subprocess.Popen(
+            cmd, cwd=str(ROOT), env=env,
+            stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+            text=True, encoding="utf-8", errors="replace")
+        for line in proc.stdout:
+            logf.write(line)
+            logf.flush()
+            m = re.search(r"this_run=(\d+)", line)
+            if m:
+                this_run = int(m.group(1))
+            m = re.search(r"done: processed (\d+)/", line)
+            if m:
+                processed = int(m.group(1))
+        proc.wait()
+    return proc.returncode, this_run, processed, time.time() - start
+
+
+def main() -> None:
+    if ALERT.exists():
+        ALERT.unlink()  # 新 supervisor 上線，清掉舊警報
+    hb(f"[start] supervisor tier={TIER} pid={os.getpid()}")
+    quick_strikes = 0
+    noprogress = 0
+    while True:
+        rc, this_run, processed, elapsed = run_once()
+        hb(f"[run] rc={rc} this_run={this_run} processed={processed} elapsed={elapsed:.0f}s")
+
+        if this_run == 0:
+            hb("[done] 佇列已全部完成，supervisor 正常退出")
+            break
+
+        if processed == 0:
+            noprogress += 1
+            if noprogress >= MAX_NOPROGRESS:
+                alert(f"連續 {noprogress} 輪一部都沒完成（this_run={this_run}）；"
+                      f"多半 M3 配額耗盡或 claude -p 端點異常。已停止自動重啟，待人工處理。")
+                break
+        else:
+            noprogress = 0
+
+        if elapsed < QUICK_SECONDS and processed <= 0:
+            quick_strikes += 1
+            if quick_strikes >= MAX_QUICK_STRIKES:
+                alert(f"連續 {quick_strikes} 次啟動後 <{QUICK_SECONDS}s 即退出（rc={rc}）；"
+                      f"疑環境 / 端點問題。已停止自動重啟，待人工處理。")
+                break
+        else:
+            quick_strikes = 0
+
+        backoff = BACKOFF_BASE * max(1, quick_strikes)
+        hb(f"[restart] {backoff}s 後重啟（quick_strikes={quick_strikes} noprogress={noprogress}）")
+        time.sleep(backoff)
+
+    hb("[exit] supervisor 結束")
+
+
+if __name__ == "__main__":
+    main()
