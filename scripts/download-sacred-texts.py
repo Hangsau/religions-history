@@ -140,6 +140,67 @@ def extract_chapter_text(html: str) -> str:
     return "\n".join(lines)
 
 
+def _write_meta_and_files(entry: dict, out_dir: Path, original_text: str,
+                          source_urls: list[str], source_url: str,
+                          chapter_count: int) -> dict:
+    slug = entry["slug"]
+    original_bytes = original_text.encode("utf-8")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "original.txt").write_bytes(original_bytes)
+    (out_dir / "source-urls.txt").write_bytes(("\n".join(source_urls) + "\n").encode("utf-8"))
+    sha = hashlib.sha256(original_bytes).hexdigest()
+    (out_dir / "checksums.sha256").write_bytes(f"{sha}  original.txt\n".encode("utf-8"))
+    meta = {
+        "slug": slug,
+        "name_zh": entry["name_zh"],
+        "name_en": entry.get("name_en", ""),
+        "name_original": entry.get("name_original") or entry["name_zh"],
+        "religion": entry.get("religion", "—"),
+        "tradition": entry.get("tradition"),
+        "language": entry.get("language", "English"),
+        "version": entry.get("version", "sacred-texts.com edition"),
+        "version_date": entry.get("version_date", "—"),
+        "source_platform": "sacred-texts.com",
+        "source_url": source_url,
+        "downloaded_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "size_bytes": len(original_bytes),
+        "checksum_sha256": sha,
+        "chapter_count": chapter_count,
+        "expected_chapter_count": entry.get("expected_chapter_count"),
+        "license": "Public Domain (most sacred-texts pre-1928)",
+        "verified": False,
+        "tier": entry.get("tier"),
+        "text_role": entry.get("text_role"),
+        "is_original_language": entry.get("is_original_language", False),
+        "notes": entry.get("notes"),
+    }
+    (out_dir.parent / "meta.json").write_bytes(
+        (json.dumps(meta, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+    )
+    return meta
+
+
+def _download_single_page(entry: dict, page_path: str, out_dir: Path) -> dict:
+    """單頁全文（如 Popol Vuh nam/pvuheng.htm）：整頁當一章收。"""
+    slug = entry["slug"]
+    print(f"  [single-page] {page_path}")
+    try:
+        html = fetch_html(page_path)
+    except FileNotFoundError as e:
+        return {"slug": slug, "status": "not_found", "reason": str(e)}
+    except (RuntimeError, requests.RequestException) as e:
+        return {"slug": slug, "status": "error", "reason": str(e)}
+    text = extract_chapter_text(html)
+    if not text.strip():
+        return {"slug": slug, "status": "empty"}
+    title = entry.get("name_en") or slug
+    original_text = f"=== 1 | {title} ===\n{text}\n"
+    url = urljoin(ST_BASE, page_path)
+    meta = _write_meta_and_files(entry, out_dir, original_text, [url], url, 1)
+    print(f"[ok] {slug}: single page, {meta['size_bytes']} bytes")
+    return {"slug": slug, "status": "ok", "meta": meta}
+
+
 def download_scripture(entry: dict) -> dict:
     slug = entry["slug"]
     if entry.get("skip_reason"):
@@ -150,8 +211,9 @@ def download_scripture(entry: dict) -> dict:
         return {"slug": slug, "status": "deferred", "reason": entry["defer_reason"]}
 
     book_path = entry.get("st_book_path")
-    if not book_path:
-        return {"slug": slug, "status": "error", "reason": "no st_book_path"}
+    single_page = entry.get("st_single_page")  # 單頁全文（無 index.htm+章節目錄），如 Popol Vuh
+    if not book_path and not single_page:
+        return {"slug": slug, "status": "error", "reason": "no st_book_path / st_single_page"}
 
     meta_path = TRANSLATIONS_DIR / slug / "meta.json"
     out_dir = TRANSLATIONS_DIR / slug / "raw"
@@ -163,6 +225,9 @@ def download_scripture(entry: dict) -> dict:
                 return {"slug": slug, "status": "already_verified"}
         except (json.JSONDecodeError, OSError):
             pass
+
+    if single_page:
+        return _download_single_page(entry, single_page, out_dir)
 
     index_path = f"{book_path}/index.htm"
     print(f"  [index] {index_path}")

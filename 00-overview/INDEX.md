@@ -5,36 +5,41 @@
 
 ## 統計總覽
 
-- 總計: **4207** 部
-- 已驗證: 2404
-- 原文 (vs 譯文): 3833 / 4207
-- 總大小: ~517.5 MB
+- 總計: **4411** 部
+- 已驗證: 2436
+- 原文 (vs 譯文): 4040 / 4411
+- 總大小: ~537.0 MB
 
 ## 按宗教
 
 | 宗教 | 部數 |
 |------|------|
 | 佛教 | 2476 |
-| 猶太教 | 1390 |
+| 猶太教 | 1562 |
 | 基督教 | 169 |
 | 印度教 | 33 |
+| 古希臘羅馬 | 28 |
 | 儒教 | 26 |
-| 古希臘羅馬 | 18 |
 | 道教 | 17 |
 | 古埃及 | 14 |
-| 瑣羅亞斯德 | 8 |
+| 瑣羅亞斯德 | 11 |
+| 凱爾特 | 9 |
 | 兩河 | 7 |
+| 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
-| 美洲 | 6 |
-| 凱爾特 | 6 |
+| 北歐 | 7 |
+| 耆那教 | 7 |
 | 非洲 | 6 |
-| 斯拉夫 | 6 |
 | 諾斯底 | 5 |
-| 錫克教 | 3 |
-| 北歐 | 3 |
+| 瑪雅 | 4 |
+| 錫克教 | 4 |
+| 神道 | 4 |
 | 現代新興 | 2 |
-| 耆那教 | 2 |
-| 神道 | 2 |
+| 阿茲特克 | 1 |
+| 赫爾墨斯 | 1 |
+| 印加 | 1 |
+| 墨家 | 1 |
+| 美洲 | 1 |
 | 巴哈伊 | 1 |
 
 ## 按傳統 (宗教 - 傳統)
@@ -42,7 +47,7 @@
 | 傳統 | 部數 |
 |------|------|
 | 佛教 - 漢傳 | 2429 |
-| 猶太教 - Commentary | 1109 |
+| 猶太教 - Commentary | 1281 |
 | 基督教 | 142 |
 | 猶太教 - Halakhah | 88 |
 | 猶太教 - Mishnah | 64 |
@@ -51,24 +56,24 @@
 | 猶太教 - Midrash | 36 |
 | 印度教 | 33 |
 | 猶太教 - Talmud | 32 |
+| 古希臘羅馬 | 28 |
 | 基督教 - 新約-希臘原文 | 27 |
 | 儒教 | 26 |
-| 古希臘羅馬 | 18 |
 | 道教 | 17 |
 | 古埃及 | 14 |
-| 瑣羅亞斯德 | 8 |
+| 瑣羅亞斯德 | 11 |
+| 凱爾特 | 9 |
 | 兩河 | 7 |
+| 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
-| 美洲 | 6 |
-| 凱爾特 | 6 |
+| 北歐 | 7 |
+| 耆那教 | 7 |
 | 非洲 | 6 |
-| 斯拉夫 | 6 |
 | 諾斯底 | 5 |
-| 錫克教 | 3 |
-| 北歐 | 3 |
+| 瑪雅 | 4 |
+| 錫克教 | 4 |
+| 神道 | 4 |
 | 現代新興 | 2 |
-| 耆那教 | 2 |
-| 神道 | 2 |
 | 猶太教 - Guides | 2 |
 | 猶太教 - Tanakh | 2 |
 
@@ -77,18 +82,26 @@
 | 來源 | 部數 |
 |------|------|
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
-| Sefaria | 1380 |
+| Sefaria | 1552 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
-| zh.wikisource.org | 103 |
-| sacred-texts.com | 98 |
-| la.wikisource.org | 76 |
+| zh.wikisource.org | 104 |
+| sacred-texts.com | 99 |
+| la.wikisource.org | 78 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
 | SuttaCentral | 47 |
-| GRETIL | 32 |
+| GRETIL | 37 |
 | morphgnt/sblgnt (GitHub) | 27 |
-| en.wikisource.org | 8 |
-| ctext.org (api) | 6 |
+| en.wikisource.org | 9 |
+| el.wikisource.org | 9 |
+| ctext.org (api) | 7 |
+| avesta.org | 3 |
+| heimskringla.no | 3 |
+| cy.wikisource.org | 2 |
+| pa.wikisource.org | 1 |
 | Quran.com API | 1 |
+| is.wikisource.org | 1 |
+| celt.ucc.ie | 1 |
+| ru.wikisource.org | 1 |
 
 ## 全部經文清單 (slug, religion, size)
 
@@ -2614,11 +2627,19 @@
 | `carmina-gadelica-1` | Carmina Gadelica Vol 1 | 凱爾特 | 397459 |
 | `carmina-gadelica-2` | Carmina Gadelica Vol 2 | 凱爾特 | 575130 |
 | `cuchulain-muirthemne` | Cuchulain of Muirthemne (Ulster Cycle) | 凱爾特 | 660720 |
+| `mabinogion-cy-1` | 馬比諾吉昂 第一卷（威爾斯原文） | 凱爾特 | 120537 |
+| `mabinogion-cy-2` | 馬比諾吉昂 第二卷（威爾斯原文） | 凱爾特 | 125968 |
 | `mabinogion-st` | Mabinogion 馬比諾吉昂 (Welsh) | 凱爾特 | 962341 |
+| `tain-bo-cuailnge-ga` | 奪牛長征記（古愛爾蘭語原文，兩傳本） | 凱爾特 | 538214 |
 | `welsh-triads` | 威爾士三聯 | 凱爾特 | 30762 |
 | `heimskringla` | 赫姆斯克林格拉 | 北歐 | 2112066 |
+| `heimskringla-on` | 赫姆斯克林格拉（古諾斯語原文） | 北歐 | 1590952 |
 | `poetic-edda-bellows` | 詩體埃達 (Bellows 譯) | 北歐 | 361388 |
+| `poetic-edda-on` | 詩體埃達（古諾斯語原文） | 北歐 | 326060 |
+| `snorra-edda-is` | 散文埃達（古諾斯語原文） | 北歐 | 405792 |
 | `volsunga-saga` | 沃爾松傳奇 | 北歐 | 307070 |
+| `volsunga-saga-on` | 沃爾松傳奇（古諾斯語原文） | 北歐 | 151449 |
+| `inca-rites` | 印加儀禮與法律 | 印加 | 99192 |
 | `aitareya-upanishad` | 愛多列雅奧義書（含注） | 印度教 | 63565 |
 | `atharva-paripishtas` | 阿闥婆吠陀補遺 | 印度教 | 490698 |
 | `atharvaveda-saunaka` | 阿闥婆吠陀（Śaunaka） | 印度教 | 1028894 |
@@ -2668,20 +2689,30 @@
 | `wisdom-of-the-egyptians` | 埃及智慧書（含普塔霍特普訓誡） | 古埃及 | 362895 |
 | `aeschylus-works` | 埃斯庫羅斯戲劇 (含宗教面) | 古希臘羅馬 | 397412 |
 | `argonautica` | 阿爾戈尼卡 (羅得島阿波羅尼俄斯) | 古希臘羅馬 | 877223 |
+| `herodotus-histories` | 希羅多德《歷史》(英希對照) | 古希臘羅馬 | 3968567 |
+| `hesiod-el` | 赫西俄德：神譜＋工作與時日（希臘原文） | 古希臘羅馬 | 159489 |
 | `hesiod-works` | 赫西俄德 (神譜 + 工作與時日) | 古希臘羅馬 | 237518 |
 | `homer-greek` | 伊利亞德 + 奧德賽 (希臘原文) | 古希臘羅馬 | 2428563 |
 | `homer-iliad-pope` | 伊利亞德 (Pope/Bryant 英譯) | 古希臘羅馬 | 806662 |
 | `homer-odyssey-st` | 奧德賽 (Pope/Bryant 英譯) | 古希臘羅馬 | 610127 |
-| `homeric-hymns-st` | 荷馬諸頌 (33 篇) | 古希臘羅馬 | 3968567 |
+| `homeric-hymns-el` | 荷馬諸頌（希臘原文） | 古希臘羅馬 | 201358 |
 | `iliad-butler` | 伊利亞德（Butler 譯） | 古希臘羅馬 | 804097 |
 | `odyssey-butler` | 奧德賽（Butler 譯） | 古希臘羅馬 | 621600 |
+| `orphic-hymns-el` | 俄耳甫斯讚歌（希臘原文） | 古希臘羅馬 | 98026 |
 | `ovid-metamorphoses` | 變形記 (奧維德) | 古希臘羅馬 | 1283039 |
+| `ovid-metamorphoses-la` | 變形記（拉丁原文） | 古希臘羅馬 | 542687 |
+| `plato-phaedo-el` | 斐多篇（希臘原文） | 古希臘羅馬 | 255935 |
+| `plato-republic-el` | 理想國（希臘原文） | 古希臘羅馬 | 1038317 |
+| `plato-symposium-el` | 會飲篇（希臘原文） | 古希臘羅馬 | 205532 |
 | `plato-works` | 柏拉圖對話集 (sacred-texts 選) | 古希臘羅馬 | 2240877 |
 | `plotinus-enneads` | 普羅提諾九章集 | 古希臘羅馬 | 1805977 |
+| `plotinus-enneads-el` | 九章集（希臘原文） | 古希臘羅馬 | 2387707 |
 | `sappho-poetry` | 莎孚詩集 | 古希臘羅馬 | 70931 |
 | `sibylline-oracles` | 西比拉神諭集 | 古希臘羅馬 | 413437 |
+| `sibylline-oracles-el` | 西比拉神諭集（希臘原文） | 古希臘羅馬 | 393021 |
 | `sophocles-works` | 索福克里斯戲劇 | 古希臘羅馬 | 469866 |
 | `virgil-aeneid` | 伊尼德 (維吉爾) | 古希臘羅馬 | 1056717 |
+| `virgil-aeneid-la` | 伊尼德（拉丁原文） | 古希臘羅馬 | 479757 |
 | `virgil-eclogues` | 牧歌 (維吉爾) | 古希臘羅馬 | 84652 |
 | `virgil-georgics` | 農事詩 (維吉爾) | 古希臘羅馬 | 222315 |
 | `bible-1-chronicles` | 歷代志上 | 基督教 | 93249 |
@@ -2853,6 +2884,7 @@
 | `vulgate-wisdom` | 智慧篇（武加大） | 基督教 | 51329 |
 | `vulgate-zechariah` | 撒迦利亞書（武加大） | 基督教 | 28568 |
 | `vulgate-zephaniah` | 西番雅書（武加大） | 基督教 | 7308 |
+| `mozi` | 墨子 | 墨家 | 277979 |
 | `splendour-of-god` | 上帝的光輝 (巴哈歐拉著作節錄) | 巴哈伊 | 149561 |
 | `folk-tales-from-russian` | 俄羅斯民間故事 | 斯拉夫 | 253759 |
 | `heroic-ballads-servia` | 塞爾維亞英雄敘事詩 | 斯拉夫 | 253639 |
@@ -2860,6 +2892,7 @@
 | `slavonic-folk-tales-sixty` | 斯拉夫民間故事六十篇 | 斯拉夫 | 589273 |
 | `songs-of-russian-people` | 俄羅斯人民之歌 | 斯拉夫 | 657569 |
 | `tale-of-igor-campaign` | 伊戈爾遠征記 | 斯拉夫 | 212434 |
+| `tale-of-igor-ru` | 伊戈爾遠征記（古東斯拉夫原文） | 斯拉夫 | 33068 |
 | `amos` | 阿摩司書 | 猶太教 | 36104 |
 | `bereishit-rabbah` | 創世記拉巴 | 猶太教 | 2337295 |
 | `cabala-mathers` | 卡巴拉 (Mathers 譯) | 猶太教 | 143722 |
@@ -2934,6 +2967,7 @@
 | `sefaria-annotations-of-r-yeshaya-berlin-on-mishneh-torah-transmission-of-the-oral-law` | Annotations of R' Yeshaya Berlin on Mishneh Torah, Transmission of the Oral Law | 猶太教 | 656 |
 | `sefaria-annotations-of-r-zalman-of-vilna-on-mishneh-torah-repentance` | Annotations of R' Zalman of Vilna on Mishneh Torah, Repentance | 猶太教 | 2208 |
 | `sefaria-arakhin` | Arakhin | 猶太教 | 2844 |
+| `sefaria-arukh-laner-on-rosh-hashanah` | Arukh LaNer on Rosh Hashanah | 猶太教 | 4513 |
 | `sefaria-avodat-hamelekh-on-mishneh-torah-foreign-worship-and-customs-of-the-nations` | Avodat HaMelekh on Mishneh Torah, Foreign Worship and Customs of the Nations | 猶太教 | 103287 |
 | `sefaria-avodat-hamelekh-on-mishneh-torah-foundations-of-the-torah` | Avodat HaMelekh on Mishneh Torah, Foundations of the Torah | 猶太教 | 35190 |
 | `sefaria-avodat-hamelekh-on-mishneh-torah-human-dispositions` | Avodat HaMelekh on Mishneh Torah, Human Dispositions | 猶太教 | 17530 |
@@ -3016,6 +3050,23 @@
 | `sefaria-ben-aryeh-on-mishneh-torah-sanctification-of-the-new-month` | Ben Aryeh on Mishneh Torah, Sanctification of the New Month | 猶太教 | 219 |
 | `sefaria-ben-aryeh-on-mishneh-torah-sheqel-dues` | Ben Aryeh on Mishneh Torah, Sheqel Dues | 猶太教 | 143 |
 | `sefaria-ben-aryeh-on-mishneh-torah-shofar-sukkah-and-lulav` | Ben Aryeh on Mishneh Torah, Shofar, Sukkah and Lulav | 猶太教 | 142 |
+| `sefaria-ben-yehoyada-on-bava-metzia` | Ben Yehoyada on Bava Metzia | 猶太教 | 8508 |
+| `sefaria-ben-yehoyada-on-chagigah` | Ben Yehoyada on Chagigah | 猶太教 | 10984 |
+| `sefaria-ben-yehoyada-on-chullin` | Ben Yehoyada on Chullin | 猶太教 | 6230 |
+| `sefaria-ben-yehoyada-on-eduyot` | Ben Yehoyada on Eduyot | 猶太教 | 17803 |
+| `sefaria-ben-yehoyada-on-horayot` | Ben Yehoyada on Horayot | 猶太教 | 3414 |
+| `sefaria-ben-yehoyada-on-megillah` | Ben Yehoyada on Megillah | 猶太教 | 7023 |
+| `sefaria-ben-yehoyada-on-menachot` | Ben Yehoyada on Menachot | 猶太教 | 13577 |
+| `sefaria-ben-yehoyada-on-moed-katan` | Ben Yehoyada on Moed Katan | 猶太教 | 3496 |
+| `sefaria-ben-yehoyada-on-niddah` | Ben Yehoyada on Niddah | 猶太教 | 1602 |
+| `sefaria-ben-yehoyada-on-rosh-hashanah` | Ben Yehoyada on Rosh Hashanah | 猶太教 | 5144 |
+| `sefaria-ben-yehoyada-on-taanit` | Ben Yehoyada on Taanit | 猶太教 | 14011 |
+| `sefaria-ben-yehoyada-on-yoma` | Ben Yehoyada on Yoma | 猶太教 | 1935 |
+| `sefaria-benayahu-on-berakhot` | Benayahu on Berakhot | 猶太教 | 6517 |
+| `sefaria-benayahu-on-eruvin` | Benayahu on Eruvin | 猶太教 | 2077 |
+| `sefaria-benayahu-on-megillah` | Benayahu on Megillah | 猶太教 | 3856 |
+| `sefaria-benayahu-on-rosh-hashanah` | Benayahu on Rosh Hashanah | 猶太教 | 2428 |
+| `sefaria-benayahu-on-yoma` | Benayahu on Yoma | 猶太教 | 2037 |
 | `sefaria-berakhot` | Berakhot | 猶太教 | 5418 |
 | `sefaria-bereshit-rabbah` | Bereshit Rabbah | 猶太教 | 2338095 |
 | `sefaria-beur-haradal-on-pirkei-derabbi-eliezer` | Beur HaRadal on Pirkei DeRabbi Eliezer | 猶太教 | 2696983 |
@@ -3096,6 +3147,8 @@
 | `sefaria-darkhei-hatalmud` | Darkhei HaTalmud | 猶太教 | 88989 |
 | `sefaria-derekh-chayyim` | Derekh Chayyim | 猶太教 | 51119 |
 | `sefaria-devarim-rabbah` | Devarim Rabbah | 猶太教 | 523162 |
+| `sefaria-divrey-chamudot-on-berakhot` | Divrey Chamudot on Berakhot | 猶太教 | 1188991 |
+| `sefaria-divrey-chamudot-on-niddah` | Divrey Chamudot on Niddah | 猶太教 | 5406 |
 | `sefaria-eikhah-rabbah` | Eikhah Rabbah | 猶太教 | 226751 |
 | `sefaria-eliyahu-rabbah-on-mishnah-kelim` | Eliyahu Rabbah on Mishnah Kelim | 猶太教 | 21582 |
 | `sefaria-eliyahu-rabbah-on-mishnah-makhshirin` | Eliyahu Rabbah on Mishnah Makhshirin | 猶太教 | 2455 |
@@ -3250,7 +3303,18 @@
 | `sefaria-german-commentary-on-mishnah-zevachim` | German Commentary on Mishnah Zevachim | 猶太教 | 3854 |
 | `sefaria-german-commentary-on-pirkei-avot` | German Commentary on Pirkei Avot | 猶太教 | 6308 |
 | `sefaria-gra-on-pirkei-avot` | Gra on Pirkei Avot | 猶太教 | 6007 |
+| `sefaria-hagahot-chavot-yair-on-bava-batra` | Hagahot Chavot Yair on Bava Batra | 猶太教 | 95 |
 | `sefaria-hagahot-chavot-yair-on-beitzah` | Hagahot Chavot Yair on Beitzah | 猶太教 | 63 |
+| `sefaria-hagahot-chavot-yair-on-gittin` | Hagahot Chavot Yair on Gittin | 猶太教 | 62 |
+| `sefaria-hagahot-chavot-yair-on-sanhedrin` | Hagahot Chavot Yair on Sanhedrin | 猶太教 | 341 |
+| `sefaria-hagahot-habach-on-rif-bava-kamma` | Hagahot HaBach on Rif Bava Kamma | 猶太教 | 70 |
+| `sefaria-hagahot-habach-on-rif-beitzah` | Hagahot HaBach on Rif Beitzah | 猶太教 | 42 |
+| `sefaria-hagahot-habach-on-rif-berakhot` | Hagahot HaBach on Rif Berakhot | 猶太教 | 204 |
+| `sefaria-hagahot-habach-on-rif-sanhedrin` | Hagahot HaBach on Rif Sanhedrin | 猶太教 | 414 |
+| `sefaria-hagahot-habach-on-rif-shabbat` | Hagahot HaBach on Rif Shabbat | 猶太教 | 163 |
+| `sefaria-hagahot-habach-on-rif-sukkah` | Hagahot HaBach on Rif Sukkah | 猶太教 | 1535 |
+| `sefaria-hagahot-mealfas-yashan-on-bava-metzia` | Hagahot MeAlfas Yashan on Bava Metzia | 猶太教 | 121 |
+| `sefaria-hagahot-mealfas-yashan-on-berakhot` | Hagahot MeAlfas Yashan on Berakhot | 猶太教 | 394 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kilayim` | Haggahot Ya'avetz on Mishnah Kilayim | 猶太教 | 134 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kinnim` | Haggahot Ya'avetz on Mishnah Kinnim | 猶太教 | 742 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-middot` | Haggahot Ya'avetz on Mishnah Middot | 猶太教 | 1318 |
@@ -3386,7 +3450,25 @@
 | `sefaria-ikar-tosafot-yom-tov-on-mishnah-zevachim` | Ikar Tosafot Yom Tov on Mishnah Zevachim | 猶太教 | 24381 |
 | `sefaria-ikar-tosafot-yom-tov-on-pirkei-avot` | Ikar Tosafot Yom Tov on Pirkei Avot | 猶太教 | 16879 |
 | `sefaria-introdution-to-hamaor` | Introdution to HaMaor | 猶太教 | 21386 |
+| `sefaria-introdution-to-milchemet-hashem` | Introdution to Milchemet Hashem | 猶太教 | 17572 |
+| `sefaria-katuv-sham-on-berakhot` | Katuv Sham on Berakhot | 猶太教 | 1498 |
+| `sefaria-katuv-sham-on-moed-katan` | Katuv Sham on Moed Katan | 猶太教 | 1196 |
+| `sefaria-katuv-sham-on-pesachim` | Katuv Sham on Pesachim | 猶太教 | 718 |
+| `sefaria-katuv-sham-on-sukkah` | Katuv Sham on Sukkah | 猶太教 | 718 |
+| `sefaria-katuv-sham-on-taanit` | Katuv Sham on Taanit | 猶太教 | 1750 |
 | `sefaria-kohelet-rabbah` | Kohelet Rabbah | 猶太教 | 79281 |
+| `sefaria-korban-netanel-on-beitzah` | Korban Netanel on Beitzah | 猶太教 | 245941 |
+| `sefaria-korban-netanel-on-eruvin` | Korban Netanel on Eruvin | 猶太教 | 310028 |
+| `sefaria-korban-netanel-on-gittin` | Korban Netanel on Gittin | 猶太教 | 405879 |
+| `sefaria-korban-netanel-on-ketubot` | Korban Netanel on Ketubot | 猶太教 | 338556 |
+| `sefaria-korban-netanel-on-kiddushin` | Korban Netanel on Kiddushin | 猶太教 | 176074 |
+| `sefaria-korban-netanel-on-megillah` | Korban Netanel on Megillah | 猶太教 | 110964 |
+| `sefaria-korban-netanel-on-nedarim` | Korban Netanel on Nedarim | 猶太教 | 181571 |
+| `sefaria-korban-netanel-on-pesachim` | Korban Netanel on Pesachim | 猶太教 | 258878 |
+| `sefaria-korban-netanel-on-rosh-hashanah` | Korban Netanel on Rosh Hashanah | 猶太教 | 82202 |
+| `sefaria-korban-netanel-on-sukkah` | Korban Netanel on Sukkah | 猶太教 | 208304 |
+| `sefaria-korban-netanel-on-taanit` | Korban Netanel on Taanit | 猶太教 | 80866 |
+| `sefaria-korban-netanel-on-yevamot` | Korban Netanel on Yevamot | 猶太教 | 330946 |
 | `sefaria-lechem-shamayim-introduction-to-mishnah-commentary` | Lechem Shamayim, Introduction to Mishnah Commentary | 猶太教 | 67709 |
 | `sefaria-lechem-shamayim-on-mishnah-arakhin` | Lechem Shamayim on Mishnah Arakhin | 猶太教 | 9189 |
 | `sefaria-lechem-shamayim-on-mishnah-avodah-zarah` | Lechem Shamayim on Mishnah Avodah Zarah | 猶太教 | 456 |
@@ -3450,6 +3532,8 @@
 | `sefaria-lechem-shamayim-on-mishnah-zevachim` | Lechem Shamayim on Mishnah Zevachim | 猶太教 | 7295 |
 | `sefaria-lechem-shamayim-on-pirkei-avot` | Lechem Shamayim on Pirkei Avot | 猶太教 | 8802 |
 | `sefaria-legends-of-the-jews` | Legends of the Jews | 猶太教 | 72624 |
+| `sefaria-maadaney-yom-tov-on-berakhot` | Maadaney Yom Tov on Berakhot | 猶太教 | 765784 |
+| `sefaria-maadaney-yom-tov-on-niddah` | Maadaney Yom Tov on Niddah | 猶太教 | 367 |
 | `sefaria-magen-avot-on-avot` | Magen Avot on Avot | 猶太教 | 24504 |
 | `sefaria-maharzu-hakatzar-on-bereshit-rabbah` | Maharzu Hakatzar on Bereshit Rabbah | 猶太教 | 2984 |
 | `sefaria-marit-haayin-on-mishnah-middot` | Marit HaAyin on Mishnah Middot | 猶太教 | 1113 |
@@ -3761,9 +3845,15 @@
 | `sefaria-mishneh-torah-vows` | Mishneh Torah, Vows | 猶太教 | 165042 |
 | `sefaria-mishneh-torah-woman-suspected-of-infidelity` | Mishneh Torah, Woman Suspected of Infidelity | 猶太教 | 55138 |
 | `sefaria-moed-katan` | Moed Katan | 猶太教 | 2108 |
+| `sefaria-mordechai-on-bava-batra` | Mordechai on Bava Batra | 猶太教 | 128782 |
 | `sefaria-motar-kinnim` | Motar Kinnim | 猶太教 | 1116 |
 | `sefaria-nachalat-avot-on-avot` | Nachalat Avot on Avot | 猶太教 | 38694 |
 | `sefaria-niddah` | Niddah | 猶太教 | 4832 |
+| `sefaria-nimukei-yosef-on-bava-batra` | Nimukei Yosef on Bava Batra | 猶太教 | 8138 |
+| `sefaria-nimukei-yosef-on-bava-kamma` | Nimukei Yosef on Bava Kamma | 猶太教 | 2838 |
+| `sefaria-nimukei-yosef-on-bava-metzia` | Nimukei Yosef on Bava Metzia | 猶太教 | 1298 |
+| `sefaria-nimukei-yosef-on-sanhedrin` | Nimukei Yosef on Sanhedrin | 猶太教 | 2590 |
+| `sefaria-nimukei-yosef-on-yevamot` | Nimukei Yosef on Yevamot | 猶太教 | 4524 |
 | `sefaria-notes-and-corrections-on-midrash-lekach-tov-on-esther` | Notes and Corrections on Midrash Lekach Tov on Esther | 猶太教 | 9742 |
 | `sefaria-notes-by-rabbi-yehoshua-hartman-on-derekh-chayim` | Notes by Rabbi Yehoshua Hartman on Derekh Chayim | 猶太教 | 255658 |
 | `sefaria-par-echad-on-pirkei-derabbi-eliezer` | Par Echad on Pirkei DeRabbi Eliezer | 猶太教 | 134189 |
@@ -3796,12 +3886,69 @@
 | `sefaria-petach-einayim-on-mishnah-terumot` | Petach Einayim on Mishnah Terumot | 猶太教 | 2067 |
 | `sefaria-petach-einayim-on-mishnah-yadayim` | Petach Einayim on Mishnah Yadayim | 猶太教 | 1615 |
 | `sefaria-petach-einayim-on-mishnah-zavim` | Petach Einayim on Mishnah Zavim | 猶太教 | 2896 |
+| `sefaria-pilpula-charifta-on-avodah-zarah` | Pilpula Charifta on Avodah Zarah | 猶太教 | 134187 |
+| `sefaria-pilpula-charifta-on-bava-batra` | Pilpula Charifta on Bava Batra | 猶太教 | 183697 |
+| `sefaria-pilpula-charifta-on-bava-metzia` | Pilpula Charifta on Bava Metzia | 猶太教 | 284709 |
+| `sefaria-pilpula-charifta-on-makkot` | Pilpula Charifta on Makkot | 猶太教 | 12635 |
+| `sefaria-pilpula-charifta-on-sanhedrin` | Pilpula Charifta on Sanhedrin | 猶太教 | 46859 |
+| `sefaria-pilpula-charifta-on-shevuot` | Pilpula Charifta on Shevuot | 猶太教 | 57078 |
 | `sefaria-pirkei-avot` | Pirkei Avot | 猶太教 | 73184 |
 | `sefaria-pirkei-derabbi-eliezer` | Pirkei DeRabbi Eliezer | 猶太教 | 692190 |
 | `sefaria-pirkei-moshe-on-avot` | Pirkei Moshe on Avot | 猶太教 | 28938 |
+| `sefaria-piskei-tosafot-on-arakhin` | Piskei Tosafot on Arakhin | 猶太教 | 16146 |
+| `sefaria-piskei-tosafot-on-avodah-zarah` | Piskei Tosafot on Avodah Zarah | 猶太教 | 46273 |
+| `sefaria-piskei-tosafot-on-bava-batra` | Piskei Tosafot on Bava Batra | 猶太教 | 75984 |
+| `sefaria-piskei-tosafot-on-bava-kamma` | Piskei Tosafot on Bava Kamma | 猶太教 | 47915 |
+| `sefaria-piskei-tosafot-on-bava-metzia` | Piskei Tosafot on Bava Metzia | 猶太教 | 68413 |
+| `sefaria-piskei-tosafot-on-beitzah` | Piskei Tosafot on Beitzah | 猶太教 | 21143 |
+| `sefaria-piskei-tosafot-on-bekhorot` | Piskei Tosafot on Bekhorot | 猶太教 | 21631 |
+| `sefaria-piskei-tosafot-on-berakhot` | Piskei Tosafot on Berakhot | 猶太教 | 28537 |
+| `sefaria-piskei-tosafot-on-chagigah` | Piskei Tosafot on Chagigah | 猶太教 | 5988 |
+| `sefaria-piskei-tosafot-on-chullin` | Piskei Tosafot on Chullin | 猶太教 | 61904 |
+| `sefaria-piskei-tosafot-on-eruvin` | Piskei Tosafot on Eruvin | 猶太教 | 39415 |
+| `sefaria-piskei-tosafot-on-gittin` | Piskei Tosafot on Gittin | 猶太教 | 56025 |
+| `sefaria-piskei-tosafot-on-keritot` | Piskei Tosafot on Keritot | 猶太教 | 6711 |
+| `sefaria-piskei-tosafot-on-ketubot` | Piskei Tosafot on Ketubot | 猶太教 | 74046 |
+| `sefaria-piskei-tosafot-on-kiddushin` | Piskei Tosafot on Kiddushin | 猶太教 | 28422 |
+| `sefaria-piskei-tosafot-on-makkot` | Piskei Tosafot on Makkot | 猶太教 | 6550 |
+| `sefaria-piskei-tosafot-on-megillah` | Piskei Tosafot on Megillah | 猶太教 | 22972 |
+| `sefaria-piskei-tosafot-on-meilah` | Piskei Tosafot on Meilah | 猶太教 | 2898 |
+| `sefaria-piskei-tosafot-on-menachot` | Piskei Tosafot on Menachot | 猶太教 | 47566 |
+| `sefaria-piskei-tosafot-on-mishnah-kinnim` | Piskei Tosafot on Mishnah Kinnim | 猶太教 | 2734 |
+| `sefaria-piskei-tosafot-on-mishnah-middot` | Piskei Tosafot on Mishnah Middot | 猶太教 | 3736 |
+| `sefaria-piskei-tosafot-on-moed-katan` | Piskei Tosafot on Moed Katan | 猶太教 | 36678 |
+| `sefaria-piskei-tosafot-on-nedarim` | Piskei Tosafot on Nedarim | 猶太教 | 15869 |
+| `sefaria-piskei-tosafot-on-niddah` | Piskei Tosafot on Niddah | 猶太教 | 22098 |
+| `sefaria-piskei-tosafot-on-pesachim` | Piskei Tosafot on Pesachim | 猶太教 | 49717 |
+| `sefaria-piskei-tosafot-on-rosh-hashanah` | Piskei Tosafot on Rosh Hashanah | 猶太教 | 13735 |
+| `sefaria-piskei-tosafot-on-sanhedrin` | Piskei Tosafot on Sanhedrin | 猶太教 | 23935 |
+| `sefaria-piskei-tosafot-on-shabbat` | Piskei Tosafot on Shabbat | 猶太教 | 69076 |
+| `sefaria-piskei-tosafot-on-shevuot` | Piskei Tosafot on Shevuot | 猶太教 | 15424 |
+| `sefaria-piskei-tosafot-on-sotah` | Piskei Tosafot on Sotah | 猶太教 | 9424 |
+| `sefaria-piskei-tosafot-on-sukkah` | Piskei Tosafot on Sukkah | 猶太教 | 24992 |
+| `sefaria-piskei-tosafot-on-taanit` | Piskei Tosafot on Taanit | 猶太教 | 9399 |
+| `sefaria-piskei-tosafot-on-tamid` | Piskei Tosafot on Tamid | 猶太教 | 7693 |
+| `sefaria-piskei-tosafot-on-temurah` | Piskei Tosafot on Temurah | 猶太教 | 4380 |
+| `sefaria-piskei-tosafot-on-yevamot` | Piskei Tosafot on Yevamot | 猶太教 | 45293 |
+| `sefaria-piskei-tosafot-on-yoma` | Piskei Tosafot on Yoma | 猶太教 | 9268 |
+| `sefaria-piskei-tosafot-on-zevachim` | Piskei Tosafot on Zevachim | 猶太教 | 13927 |
 | `sefaria-r-shemaiah-on-mishnah-middot` | R' Shemaiah on Mishnah Middot | 猶太教 | 1733 |
 | `sefaria-ra-avad-on-mishnah-eduyot` | Ra'avad on Mishnah Eduyot | 猶太教 | 354 |
 | `sefaria-ra-avad-on-mishnah-kinnim` | Ra'avad on Mishnah Kinnim | 猶太教 | 16742 |
+| `sefaria-rabbeinu-chananel-on-chagigah` | Rabbeinu Chananel on Chagigah | 猶太教 | 2779 |
+| `sefaria-rabbeinu-chananel-on-eruvin` | Rabbeinu Chananel on Eruvin | 猶太教 | 3324 |
+| `sefaria-rabbeinu-chananel-on-megillah` | Rabbeinu Chananel on Megillah | 猶太教 | 2199 |
+| `sefaria-rabbeinu-chananel-on-moed-katan` | Rabbeinu Chananel on Moed Katan | 猶太教 | 1968 |
+| `sefaria-rabbeinu-chananel-on-rosh-hashanah` | Rabbeinu Chananel on Rosh Hashanah | 猶太教 | 4618 |
+| `sefaria-rabbeinu-chananel-on-taanit` | Rabbeinu Chananel on Taanit | 猶太教 | 946 |
+| `sefaria-rabbeinu-chananel-on-yoma` | Rabbeinu Chananel on Yoma | 猶太教 | 8279 |
+| `sefaria-rabbeinu-gershom-on-arakhin` | Rabbeinu Gershom on Arakhin | 猶太教 | 4048 |
+| `sefaria-rabbeinu-gershom-on-bekhorot` | Rabbeinu Gershom on Bekhorot | 猶太教 | 3839 |
+| `sefaria-rabbeinu-gershom-on-meilah` | Rabbeinu Gershom on Meilah | 猶太教 | 1019 |
+| `sefaria-rabbeinu-gershom-on-menachot` | Rabbeinu Gershom on Menachot | 猶太教 | 4535 |
+| `sefaria-rabbeinu-gershom-on-taanit` | Rabbeinu Gershom on Taanit | 猶太教 | 1106 |
+| `sefaria-rabbeinu-gershom-on-temurah` | Rabbeinu Gershom on Temurah | 猶太教 | 6676 |
+| `sefaria-rabbeinu-yonah-on-berakhot` | Rabbeinu Yonah on Berakhot | 猶太教 | 956 |
 | `sefaria-rabbeinu-yonah-on-pirkei-avot` | Rabbeinu Yonah on Pirkei Avot | 猶太教 | 27585 |
 | `sefaria-rambam-introduction-to-seder-kodashim` | Rambam Introduction to Seder Kodashim | 猶太教 | 66812 |
 | `sefaria-rambam-introduction-to-seder-tahorot` | Rambam Introduction to Seder Tahorot | 猶太教 | 130722 |
@@ -3869,6 +4016,12 @@
 | `sefaria-rambam-on-mishnah-zavim` | Rambam on Mishnah Zavim | 猶太教 | 6976 |
 | `sefaria-rambam-on-mishnah-zevachim` | Rambam on Mishnah Zevachim | 猶太教 | 29633 |
 | `sefaria-rambam-on-pirkei-avot` | Rambam on Pirkei Avot | 猶太教 | 6246 |
+| `sefaria-ran-on-avodah-zarah` | Ran on Avodah Zarah | 猶太教 | 7478 |
+| `sefaria-ran-on-beitzah` | Ran on Beitzah | 猶太教 | 5235 |
+| `sefaria-ran-on-gittin` | Ran on Gittin | 猶太教 | 5447 |
+| `sefaria-ran-on-pesachim` | Ran on Pesachim | 猶太教 | 7404 |
+| `sefaria-ran-on-shabbat` | Ran on Shabbat | 猶太教 | 3016 |
+| `sefaria-ran-on-sukkah` | Ran on Sukkah | 猶太教 | 5588 |
 | `sefaria-rash-mishantz-on-mishnah-bikkurim` | Rash MiShantz on Mishnah Bikkurim | 猶太教 | 6614 |
 | `sefaria-rash-mishantz-on-mishnah-challah` | Rash MiShantz on Mishnah Challah | 猶太教 | 15045 |
 | `sefaria-rash-mishantz-on-mishnah-demai` | Rash MiShantz on Mishnah Demai | 猶太教 | 32036 |
@@ -3952,6 +4105,8 @@
 | `sefaria-rashash-on-mishnah-zavim` | Rashash on Mishnah Zavim | 猶太教 | 5968 |
 | `sefaria-rashash-on-mishnah-zevachim` | Rashash on Mishnah Zevachim | 猶太教 | 11691 |
 | `sefaria-rashash-on-pirkei-avot` | Rashash on Pirkei Avot | 猶太教 | 1716 |
+| `sefaria-rashba-on-megillah` | Rashba on Megillah | 猶太教 | 1404 |
+| `sefaria-rashba-on-rosh-hashanah` | Rashba on Rosh Hashanah | 猶太教 | 11046 |
 | `sefaria-rashi-on-arakhin` | Rashi on Arakhin | 猶太教 | 332 |
 | `sefaria-rashi-on-avot` | Rashi on Avot | 猶太教 | 13178 |
 | `sefaria-rashi-on-bava-metzia` | Rashi on Bava Metzia | 猶太教 | 1095 |
@@ -3968,7 +4123,39 @@
 | `sefaria-rashi-on-taanit` | Rashi on Taanit | 猶太教 | 297 |
 | `sefaria-rashi-on-temurah` | Rashi on Temurah | 猶太教 | 1265 |
 | `sefaria-rashi-on-yoma` | Rashi on Yoma | 猶太教 | 278 |
+| `sefaria-rav-nissim-gaon-on-berakhot` | Rav Nissim Gaon on Berakhot | 猶太教 | 489 |
+| `sefaria-rav-nissim-gaon-on-eruvin` | Rav Nissim Gaon on Eruvin | 猶太教 | 1347 |
+| `sefaria-ri-migash-on-bava-batra` | Ri Migash on Bava Batra | 猶太教 | 2311 |
+| `sefaria-ritva-on-berakhot` | Ritva on Berakhot | 猶太教 | 2000 |
+| `sefaria-ritva-on-megillah` | Ritva on Megillah | 猶太教 | 5348 |
+| `sefaria-ritva-on-moed-katan` | Ritva on Moed Katan | 猶太教 | 936 |
+| `sefaria-ritva-on-rosh-hashanah` | Ritva on Rosh Hashanah | 猶太教 | 6427 |
 | `sefaria-rosh-hashanah` | Rosh Hashanah | 猶太教 | 4294 |
+| `sefaria-rosh-on-avodah-zarah` | Rosh on Avodah Zarah | 猶太教 | 20681 |
+| `sefaria-rosh-on-bava-batra` | Rosh on Bava Batra | 猶太教 | 34941 |
+| `sefaria-rosh-on-bava-kamma` | Rosh on Bava Kamma | 猶太教 | 48930 |
+| `sefaria-rosh-on-bava-metzia` | Rosh on Bava Metzia | 猶太教 | 37625 |
+| `sefaria-rosh-on-beitzah` | Rosh on Beitzah | 猶太教 | 16869 |
+| `sefaria-rosh-on-bekhorot` | Rosh on Bekhorot | 猶太教 | 25700 |
+| `sefaria-rosh-on-berakhot` | Rosh on Berakhot | 猶太教 | 28163 |
+| `sefaria-rosh-on-chullin` | Rosh on Chullin | 猶太教 | 26622 |
+| `sefaria-rosh-on-eruvin` | Rosh on Eruvin | 猶太教 | 28982 |
+| `sefaria-rosh-on-gittin` | Rosh on Gittin | 猶太教 | 13977 |
+| `sefaria-rosh-on-ketubot` | Rosh on Ketubot | 猶太教 | 44954 |
+| `sefaria-rosh-on-kiddushin` | Rosh on Kiddushin | 猶太教 | 10789 |
+| `sefaria-rosh-on-makkot` | Rosh on Makkot | 猶太教 | 6694 |
+| `sefaria-rosh-on-megillah` | Rosh on Megillah | 猶太教 | 22133 |
+| `sefaria-rosh-on-moed-katan` | Rosh on Moed Katan | 猶太教 | 16305 |
+| `sefaria-rosh-on-nedarim` | Rosh on Nedarim | 猶太教 | 52412 |
+| `sefaria-rosh-on-niddah` | Rosh on Niddah | 猶太教 | 4635 |
+| `sefaria-rosh-on-pesachim` | Rosh on Pesachim | 猶太教 | 16242 |
+| `sefaria-rosh-on-rosh-hashanah` | Rosh on Rosh Hashanah | 猶太教 | 8744 |
+| `sefaria-rosh-on-sanhedrin` | Rosh on Sanhedrin | 猶太教 | 11064 |
+| `sefaria-rosh-on-shabbat` | Rosh on Shabbat | 猶太教 | 82137 |
+| `sefaria-rosh-on-shevuot` | Rosh on Shevuot | 猶太教 | 12058 |
+| `sefaria-rosh-on-sukkah` | Rosh on Sukkah | 猶太教 | 20218 |
+| `sefaria-rosh-on-taanit` | Rosh on Taanit | 猶太教 | 106851 |
+| `sefaria-rosh-on-yevamot` | Rosh on Yevamot | 猶太教 | 62875 |
 | `sefaria-ruth-rabbah` | Ruth Rabbah | 猶太教 | 16511 |
 | `sefaria-ruth-rabbah-lerner` | Ruth Rabbah (Lerner) | 猶太教 | 23374 |
 | `sefaria-seder-olam-rabbah` | Seder Olam Rabbah | 猶太教 | 3944 |
@@ -3989,6 +4176,14 @@
 | `sefaria-sha-arei-torat-bavel-on-mishnah-zavim` | Sha'arei Torat Bavel on Mishnah Zavim | 猶太教 | 374 |
 | `sefaria-sha-arei-torat-bavel-on-pirkei-avot` | Sha'arei Torat Bavel on Pirkei Avot | 猶太教 | 1060 |
 | `sefaria-shemot-rabbah` | Shemot Rabbah | 猶太教 | 1517262 |
+| `sefaria-shiltei-hagiborim-on-avodah-zarah` | Shiltei HaGiborim on Avodah Zarah | 猶太教 | 10793 |
+| `sefaria-shiltei-hagiborim-on-bava-batra` | Shiltei HaGiborim on Bava Batra | 猶太教 | 1563 |
+| `sefaria-shiltei-hagiborim-on-beitzah` | Shiltei HaGiborim on Beitzah | 猶太教 | 1793 |
+| `sefaria-shiltei-hagiborim-on-berakhot` | Shiltei HaGiborim on Berakhot | 猶太教 | 1999 |
+| `sefaria-shiltei-hagiborim-on-gittin` | Shiltei HaGiborim on Gittin | 猶太教 | 448 |
+| `sefaria-shiltei-hagiborim-on-pesachim` | Shiltei HaGiborim on Pesachim | 猶太教 | 1441 |
+| `sefaria-shiltei-hagiborim-on-sukkah` | Shiltei HaGiborim on Sukkah | 猶太教 | 2351 |
+| `sefaria-shiltei-hagiborim-on-yevamot` | Shiltei HaGiborim on Yevamot | 猶太教 | 324 |
 | `sefaria-shir-hashirim-rabbah` | Shir HaShirim Rabbah | 猶太教 | 103146 |
 | `sefaria-sifrei-bamidbar` | Sifrei Bamidbar | 猶太教 | 531360 |
 | `sefaria-sifrei-devarim` | Sifrei Devarim | 猶太教 | 1233170 |
@@ -3997,6 +4192,14 @@
 | `sefaria-tanna-debei-eliyahu-rabbah` | Tanna DeBei Eliyahu Rabbah | 猶太教 | 572399 |
 | `sefaria-tanna-debei-eliyahu-zuta` | Tanna DeBei Eliyahu Zuta | 猶太教 | 15972 |
 | `sefaria-temurah` | Temurah | 猶太教 | 6272 |
+| `sefaria-tiferet-shmuel-on-gittin` | Tiferet Shmuel on Gittin | 猶太教 | 92221 |
+| `sefaria-tiferet-shmuel-on-kiddushin` | Tiferet Shmuel on Kiddushin | 猶太教 | 18765 |
+| `sefaria-tiferet-shmuel-on-nedarim` | Tiferet Shmuel on Nedarim | 猶太教 | 14554 |
+| `sefaria-tiferet-shmuel-on-pesachim` | Tiferet Shmuel on Pesachim | 猶太教 | 17982 |
+| `sefaria-tiferet-shmuel-on-shevuot` | Tiferet Shmuel on Shevuot | 猶太教 | 8442 |
+| `sefaria-tiferet-shmuel-on-sukkah` | Tiferet Shmuel on Sukkah | 猶太教 | 14546 |
+| `sefaria-tiferet-shmuel-on-yevamot` | Tiferet Shmuel on Yevamot | 猶太教 | 5632 |
+| `sefaria-tiferet-shmuel-on-yoma` | Tiferet Shmuel on Yoma | 猶太教 | 7418 |
 | `sefaria-tosafot-on-arakhin` | Tosafot on Arakhin | 猶太教 | 534 |
 | `sefaria-tosafot-on-bekhorot` | Tosafot on Bekhorot | 猶太教 | 5230 |
 | `sefaria-tosafot-on-eruvin` | Tosafot on Eruvin | 猶太教 | 805 |
@@ -4057,6 +4260,8 @@
 | `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-yoma` | Tosafot Rabbi Akiva Eiger on Mishnah Yoma | 猶太教 | 4678 |
 | `sefaria-tosafot-rabbi-akiva-eiger-on-mishnah-zevachim` | Tosafot Rabbi Akiva Eiger on Mishnah Zevachim | 猶太教 | 13935 |
 | `sefaria-tosafot-rabbi-akiva-eiger-on-pirkei-avot` | Tosafot Rabbi Akiva Eiger on Pirkei Avot | 猶太教 | 482 |
+| `sefaria-tosafot-rid-on-bava-metzia` | Tosafot Rid on Bava Metzia | 猶太教 | 2684 |
+| `sefaria-tosafot-rid-on-yoma` | Tosafot Rid on Yoma | 猶太教 | 2185 |
 | `sefaria-tosafot-yom-tov-introduction-to-the-mishnah` | Tosafot Yom Tov Introduction to the Mishnah | 猶太教 | 25655 |
 | `sefaria-tosafot-yom-tov-on-mishnah-arakhin` | Tosafot Yom Tov on Mishnah Arakhin | 猶太教 | 3085 |
 | `sefaria-tosafot-yom-tov-on-mishnah-avodah-zarah` | Tosafot Yom Tov on Mishnah Avodah Zarah | 猶太教 | 2446 |
@@ -4253,33 +4458,43 @@
 | `book-of-mormon-1830` | 摩門經（1830 初版） | 現代新興 | 1433171 |
 | `pearl-of-great-price` | 無價珍珠 | 現代新興 | 144843 |
 | `avesta-sbe04` | 阿維斯塔 SBE 04 (Vendidad) | 瑣羅亞斯德 | 606425 |
+| `avesta-sbe04-ae` | 驅魔書／維提吠達（阿維斯塔原文） | 瑣羅亞斯德 | 184404 |
 | `avesta-sbe23` | 阿維斯塔 SBE 23 (Yasht) | 瑣羅亞斯德 | 928571 |
+| `avesta-sbe23-ae` | 耶什特讚歌集（阿維斯塔原文） | 瑣羅亞斯德 | 302272 |
 | `avesta-sbe31` | 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah) | 瑣羅亞斯德 | 839463 |
+| `avesta-sbe31-ae` | 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文） | 瑣羅亞斯德 | 272543 |
 | `bundahishn` | Bundahishn + Bahman Yasht + Shayast la-Shayast | 瑣羅亞斯德 | 998702 |
 | `dadestan-i-denig` | Dadestan-i Denig (宗教裁判) | 瑣羅亞斯德 | 911738 |
 | `denkard-3-bahman-yasht` | Pahlavi Texts Part III | 瑣羅亞斯德 | 730626 |
 | `denkard-bk-5` | Pahlavi Texts Part V (Contents of the Nasks) | 瑣羅亞斯德 | 411471 |
 | `denkard-bk-7-8` | Dinkard Books 8-9 | 瑣羅亞斯德 | 957532 |
+| `chilam-balam` | 契倫·巴蘭之書 (Chumayel) | 瑪雅 | 499667 |
+| `maya-hieroglyphic-writing` | 瑪雅象形文字書 (節錄) | 瑪雅 | 191147 |
+| `popol-vuh` | 波波爾·烏 (基切馬雅創世史詩) | 瑪雅 | 74914 |
+| `yucatan-before-after-conquest` | 尤卡坦征服前後 (Landa) | 瑪雅 | 465727 |
 | `kogoshui` | 古語拾遺 | 神道 | 133215 |
 | `kojiki-chamberlain` | 古事記 | 神道 | 1088822 |
-| `aztec-rva` | 阿茲特克儀禮 | 美洲 | 100087 |
-| `chilam-balam` | 契倫·巴蘭之書 (Chumayel) | 美洲 | 499667 |
-| `inca-rites` | 印加儀禮與法律 | 美洲 | 99192 |
-| `maya-hieroglyphic-writing` | 瑪雅象形文字書 (節錄) | 美洲 | 191147 |
+| `kojiki-zh` | 古事記（上代日本語原文，漢文・萬葉假名） | 神道 | 191826 |
+| `nihongi-aston` | 日本書紀 (英譯) | 神道 | 1506123 |
 | `navajo-myths` | 納瓦霍神話 | 美洲 | 34123 |
-| `yucatan-before-after-conquest` | 尤卡坦征服前後 (Landa) | 美洲 | 465727 |
+| `jain-acaranga-pkt` | 阿闥羅門經（半摩揭陀原文） | 耆那教 | 85875 |
+| `jain-dasavaikalika-pkt` | 十誦律要（半摩揭陀原文） | 耆那教 | 83448 |
+| `jain-isibhasiyaim-pkt` | 仙人所說（半摩揭陀原文） | 耆那教 | 100294 |
 | `jain-sbe22` | 耆那經典 SBE 22 (Acaranga + Kalpa) | 耆那教 | 612472 |
 | `jain-sbe45` | 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga) | 耆那教 | 807340 |
+| `jain-sutrakrtanga-pkt` | 修多羅經（半摩揭陀原文） | 耆那教 | 87104 |
+| `jain-uttaradhyayana-pkt` | 後篇經（半摩揭陀原文） | 耆那教 | 233030 |
 | `fragments-of-faith-forgotten` | 被遺忘信仰的碎片 (Mead) | 諾斯底 | 1022163 |
 | `gnostics-and-their-remains` | 諾斯底與其遺存 (King) | 諾斯底 | 1070126 |
 | `thrice-greatest-hermes-1` | 三度偉大的赫爾墨斯 Vol 1 (Mead) | 諾斯底 | 865947 |
 | `thrice-greatest-hermes-2` | 三度偉大的赫爾墨斯 Vol 2 (Hermetica) | 諾斯底 | 574341 |
 | `thrice-greatest-hermes-3` | 三度偉大的赫爾墨斯 Vol 3 | 諾斯底 | 623940 |
+| `corpus-hermeticum-el` | 赫爾墨斯文集（希臘原文，八篇） | 赫爾墨斯 | 121716 |
 | `baopuzi` | 抱朴子（內外篇） | 道教 | 594705 |
 | `guanyin-zi` | 關尹子 | 道教 | 38741 |
 | `huainanzi` | 淮南子 | 道教 | 491733 |
 | `huangdi-neijing` | 黃帝內經 | 道教 | 565607 |
-| `huangting-neijing` | 黃庭內景經 | 道教 | 761 |
+| `huangting-neijing` | 黃庭內景經 | 道教 | 15251 |
 | `huangting-waijing` | 黃庭外景經 | 道教 | 9125 |
 | `liezi` | 列子 | 道教 | 114186 |
 | `qingjing-jing` | 太上老君說常清靜經 | 道教 | 2179 |
@@ -4292,9 +4507,11 @@
 | `yunji-qiqian` | 雲笈七籤 | 道教 | 2766008 |
 | `zhouyi-cantong-qi` | 周易參同契 | 道教 | 23610 |
 | `zhuangzi` | 莊子 | 道教 | 242136 |
+| `guru-granth-sahib-pa` | 古魯格蘭特薩希卜（旁遮普原文，古木基文字） | 錫克教 | 36721 |
 | `guru-granth-sahib-st` | 錫克教根本經 Shri Guru Granth Sahib | 錫克教 | 4590337 |
 | `religion-of-sikhs` | 錫克教宗教 (Field) | 錫克教 | 127103 |
 | `sikh-religion-macauliffe` | 錫克教（Macauliffe） | 錫克教 | 846118 |
+| `aztec-rva` | 阿茲特克儀禮 | 阿茲特克 | 100087 |
 | `dahomey-religion` | 達荷美宗教 | 非洲 | 346713 |
 | `fjort-religion` | Fjort 民族宗教 (西非) | 非洲 | 288235 |
 | `hausa-folklore` | 豪薩民俗 | 非洲 | 157393 |
