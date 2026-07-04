@@ -29,6 +29,21 @@
 - **黑框修復**：`translate.py` / `supervise-pipeline.py` 的 `claude -p` 子進程加 `CREATE_NO_WINDOW` creationflag —— 從無視窗父進程（pythonw）啟動 console 程式時不再彈出主控台黑框。
 - **新增宗教「墨家」**：既然收儒 / 道，墨家具鮮明宗教性（天志＝天為道德立法者、明鬼＝鬼神監督善惡、兼愛出於天意、尚同上同於天）理應獨立成宗教。原本收集按宗教分桶（`儒教`/`道教` catalog），墨家不對映任一桶故整個漏掉。已加：`meta_template.json` religion enum +「墨家」、`scripts/catalog/mohism.json`、`download-ctext.py` name_map。收《墨子》原文（ctext，277,979 bytes / 53 篇，含兼愛/天志/明鬼/非命），verify PASS，`tier=核心 language=古典漢語`，已入核心翻譯佇列。
 
+## 2026-07-04 WS1：全庫資料完整性稽核（免費本地）
+
+等 MiniMax 週一（2026-07-06）期間的免付費工作。翻譯管線仍 HALT（`logs/pipeline-HALT.flag` 存在）。
+
+- **新工具**：`scripts/audit-data-quality.py`（掃 9 類：空/截斷、U+FFFD、mojibake、checksum、重複 SHA、meta 缺欄、缺分隔、語言標籤不一致、外語字集占比）→ `00-overview/data-quality-report.md`。`scripts/fix_meta_labels.py`（只改 meta.json 的修復器）。
+- **已修（245 部，僅動 meta.json，raw/checksums 未動，checksum 稽核全綠）**：
+  - 語言標籤中→英標準名 60 部：希伯來→Hebrew 47、希臘→**Ancient Greek** 11（Homer/Plato/Herodotus 古典希臘，**非 Koine**；Koine 保留給 27 部 SBLGNT 新約）、拉丁→Latin 2。
+  - 回填 `text_role`/`is_original_language` 185 部：Sefaria 拉比註釋+古典漢語原典（huangting-neijing/mozi）175 部 → original；Vulgate 10 部 → translation。
+  - 稽核邏輯修正：羅馬轉寫 Sanskrit/Pali（IAST）不列字集檢查、譯本語言標籤子字串誤配排除 → 字集誤報 51→13。
+- **待人工複查（未自動改，遵 CLAUDE.md §3「不確定不自動標」）**：
+  - **13 部 CBETA 梵字/悉曇 dharani**（T18–T21 密教部 + T54n2133A 悉曇字記）：內容近純 Siddham（SMP 碼位），現標 `text_role=original`，疑應改 `transliteration`（P4 短路不譯）。非亂碼。
+  - **6 部 U+FFFD 編碼損壞**：avesta-sbe23-ae（Skjærvø 的 æ）、tain-bo-cuailnge-ga（Díad 的 í）2 部拉丁字可修；chunqiu-fanlu / yi-li / yunji-qiqian / zhuzi-yulei 4 部為遺失 CJK 字，需 wikisource 重抓（不宜手猜破壞 provenance）。
+  - **18 部空/截斷**：8 CBETA（多為 T55 目錄部碎片，疑真短）+ 10 Sefaria（稀疏註釋 stub）。Monday pipeline 恢復時 re-fetch 複查真短 vs 截斷。
+  - **48 組同 SHA 重複**：全為 CBETA slug（如 cbeta-T09n0262）↔ 語意 slug（如 lotus-sutra）同內容雙存。**設計問題非損壞**：雙存 = 2× 儲存 + P4/P5 雙重翻譯/標籤成本。待決定 canonical slug（刪除為破壞性操作，需用戶定奪）。
+
 **Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
 - 翻譯（純翻譯，不解釋）→ `01-translation.md`
 - 註釋（白話解釋 + 名相 + 學術爭議）→ `02-annotation.md`
