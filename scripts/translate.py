@@ -69,6 +69,13 @@ def load_tag_whitelist() -> set[str]:
 # NOTE: 古典中文 = 和合本 中譯本 (translation); 古典漢語 = 佛/道/儒 漢傳原典 (original). Real split in corpus.
 _TRANSLATION_LANG_HINTS = ("古典中文", "Latin")  # 和合本 + Vulgate — both are translations
 
+# Languages that are ALREADY Chinese → target language == source, so we preserve verbatim
+# and MUST NOT spend a (paid, reasoning) LLM call to echo the text back. 守則「漢傳原樣保留不耗 LLM」。
+_CHINESE_LANGS = (
+    "古典漢語", "上古漢語", "中古漢語",      # 佛/道/儒 漢傳原典 (original)
+    "古典中文", "現代漢語", "現代漢語譯本", "白話文", "中文",  # 和合本等既有中譯 (translation-preserve)
+)
+
 
 def _is_original_text(meta: dict) -> bool:
     """Best-effort original-vs-translation decision, degrading gracefully.
@@ -370,6 +377,27 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         out_path.write_text(body + "\n", encoding="utf-8", newline="\n")
         print(f"  [transliteration] {slug}: verbatim preserved → {out_name} ({len(body)} chars, no M3 call)")
         return True
+
+    # Chinese-source short-circuit: 原文本身即中文（漢傳原典 / 和合本等中譯）→ 目標語==來源語，
+    # 依守則「古典漢語原樣保留 / 中譯本不重譯」原樣寫出，不呼叫 LLM（省 reasoning token、避免 LLM 竄改原文）。
+    if task == "translate":
+        src_lang = (meta.get("source_language") or meta.get("language") or "").strip()
+        if src_lang in _CHINESE_LANGS:
+            role_label = "中譯本原樣保留" if src_lang in _TRANSLATION_LANG_HINTS else "漢語原文原樣保留"
+            body = (f"# {meta.get('name_zh', slug)} — 翻譯\n\n"
+                    f"> 原文：`raw/original.txt`\n"
+                    f"> 原文語言：{src_lang}\n"
+                    f"> 翻譯：原樣保留（本身已是中文，不呼叫 LLM）\n"
+                    f"> 說明：{role_label}\n"
+                    f"> 守則：見 `tools/m3-translator-role.md`\n"
+                    f"> 註釋見：`02-annotation.md`\n\n"
+                    f"---\n\n{original_text}")
+            if dry_run:
+                print(f"  [dry-run zh-verbatim] {slug}: would write verbatim ({len(body)} chars)")
+                return True
+            out_path.write_text(body + "\n", encoding="utf-8", newline="\n")
+            print(f"  [zh-verbatim] {slug}: {src_lang} 原樣保留 → {out_name} ({len(body)} chars, no LLM call)")
+            return True
 
     translation_text = None
     if task == "annotate":
