@@ -1,0 +1,23 @@
+{
+  "slug": "mozi",
+  "name_zh": "墨子",
+  "name_en": "Mozi",
+  "name_original": "墨子",
+  "religion": "墨家",
+  "language": "古典漢語",
+  "version": "通行本（現存 53 篇）",
+  "version_date": "戰國",
+  "source_platform": "ctext.org (api)",
+  "source_url": "https://api.ctext.org/gettext?urn=ctp:mozi",
+  "downloaded_at": "2026-07-04T05:21:13+00:00",
+  "size_bytes": 277979,
+  "checksum_sha256": "4064be3f5b92e513dfd86ceb0e7bbbe416780aab273671cce72960af6a9214c8",
+  "chapter_count": 53,
+  "expected_chapter_count": null,
+  "expected_size_min": null,
+  "expected_size_max": null,
+  "license": "CC BY-SA 4.0",
+  "verified": true,
+  "tier": "核心",
+  "notes": null
+}

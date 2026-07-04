@@ -1,0 +1,10 @@
+{
+  "religion": "墨家",
+  "source_platform": "ctext.org",
+  "license": "CC BY-SA 4.0",
+  "language": "古典漢語",
+  "notes": "墨家為先秦顯學，具鮮明宗教性：天志（天為道德立法者）、明鬼（鬼神監督善惡）、兼愛（愛人如己出於天意）、尚同（人道上同於天）。與儒、道並列為獨立宗教/思想傳統。《墨子》現存 53 篇（原 71 篇），含墨經（經上下、經說上下）。",
+  "scriptures": [
+    {"slug": "mozi", "ctext_slug": "mozi", "name_zh": "墨子", "name_en": "Mozi", "version": "通行本（現存 53 篇）", "version_date": "戰國", "tier": "核心", "expected_chapter_count": null, "multi_chapter": true, "text_role": "original", "is_original_language": true}
+  ]
+}
