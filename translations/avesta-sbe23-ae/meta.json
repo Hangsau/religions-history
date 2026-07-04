@@ -10,8 +10,8 @@
   "source_platform": "avesta.org",
   "source_url": "https://www.avesta.org/ka/yt1_bi.htm",
   "downloaded_at": "2026-07-03T20:37:37+00:00",
-  "size_bytes": 302272,
-  "checksum_sha256": "b327b1f4a3d4eb0fc0388ac6f9eb3e1de579c86a05956b7b369721637d507eed",
+  "size_bytes": 302271,
+  "checksum_sha256": "3e2fa05223eeef88dc81abc8a39e44ce07fa8475cadc7bee5dae73b2b880f569",
   "chapter_count": 22,
   "expected_chapter_count": 22,
   "license": "Public domain / academic use (avesta.org)",
@@ -20,5 +20,6 @@
   "notes": "21 篇 Yasht（yt1–4 短篇 bilingual，yt5–21 純阿維斯塔語轉寫）；對應 SBE23 英譯",
   "text_role": "original",
   "is_original_language": true,
-  "original_of": "avesta-sbe23"
+  "original_of": "avesta-sbe23",
+  "repairs": "修復抓取時損壞的 U+FFFD 置換字（Skj�rvø→Skjærvø）2026-07-05"
 }

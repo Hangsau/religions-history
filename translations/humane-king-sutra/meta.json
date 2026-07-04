@@ -22,5 +22,7 @@
   "notes": null,
   "tradition": "漢傳",
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "alias_of": "cbeta-T08n0245",
+  "dedup_note": "與 cbeta-T08n0245 同內容（同 SHA-256）雙存；此份為別名，管線跳過不重複翻譯/標籤。2026-07-05 scripts/dedup_mark_aliases.py"
 }

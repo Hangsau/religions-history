@@ -10,8 +10,8 @@
   "source_platform": "celt.ucc.ie",
   "source_url": "https://celt.ucc.ie/published/G301012.html",
   "downloaded_at": "2026-07-03T21:34:07+00:00",
-  "size_bytes": 538214,
-  "checksum_sha256": "96e6949466a493608ea9f82a5ff39d4cfbc4daa95f2b229faa859666cd569e1d",
+  "size_bytes": 538212,
+  "checksum_sha256": "f13ec8795145932be021c86ad1226cc254e8d45ee6b78a16034f9a55b20ff3d3",
   "chapter_count": 2,
   "expected_chapter_count": 2,
   "license": "Academic use (CELT / celt.ucc.ie, CC BY-NC or PD editions)",
@@ -20,5 +20,6 @@
   "notes": "厄爾斯特傳說群核心《奪牛長征記》古愛爾蘭語原文：G301012 = Recension I（O'Rahilly），G301035 = Book of Leinster 傳本。對應 sacred-texts Lady Gregory《Cuchulain of Muirthemne》英文改寫（cuchulain-muirthemne 為全 Ulster Cycle 綜述，此處收其核心 Táin 原文）",
   "text_role": "original",
   "is_original_language": true,
-  "original_of": "cuchulain-muirthemne"
+  "original_of": "cuchulain-muirthemne",
+  "repairs": "修復抓取時損壞的 U+FFFD 置換字（D�ad→Díad）2026-07-05"
 }

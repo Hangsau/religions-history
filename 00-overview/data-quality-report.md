@@ -1,6 +1,6 @@
 # 資料完整性稽核報告
 
-> 自動產生：`scripts/audit-data-quality.py`　2026-07-04 22:47 +0800
+> 自動產生：`scripts/audit-data-quality.py`　2026-07-05 06:22 +0800
 > 掃描 4411 部
 
 ## 摘要
@@ -8,7 +8,7 @@
 | 問題 | 數量 |
 |------|------|
 | 空 / 截斷 original.txt | 18 |
-| U+FFFD 編碼損壞 | 6 |
+| U+FFFD 編碼損壞 | 4 |
 | mojibake 疑似 | 0 |
 | checksum 不符 | 0 |
 | 重複內容(同 SHA) | 48 組 |
@@ -38,11 +38,9 @@
 - `sefaria-matnot-kehunah-on-ruth-rabbah` — 有效內容僅 9 字
 - `sefaria-rashi-on-chagigah` — 有效內容僅 26 字
 
-## U+FFFD 編碼損壞（6）
+## U+FFFD 編碼損壞（4）
 
-- `avesta-sbe23-ae` — 1 個置換字
 - `chunqiu-fanlu` — 1 個置換字
-- `tain-bo-cuailnge-ga` — 2 個置換字
 - `yi-li` — 2 個置換字
 - `yunji-qiqian` — 3 個置換字
 - `zhuzi-yulei` — 8 個置換字

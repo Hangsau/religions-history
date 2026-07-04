@@ -109,6 +109,8 @@ def load_slugs_by_tier(tier: str) -> list[str]:
             continue
         if meta.get("tier") != tier:
             continue
+        if meta.get("alias_of"):  # 同內容重複份，canonical 才跑，別名跳過
+            continue
         slug = meta_p.parent.name
         orig = meta_p.parent / "raw" / "original.txt"
         size = orig.stat().st_size if orig.exists() else 0
