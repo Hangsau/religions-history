@@ -85,6 +85,9 @@
 - **刊版自動抓取當前模型（2026-07-04 晚，commit 7bd73d2b）**：單一來源設計，換模型免手改。`translate.py` 常數 `PRIMARY_MODEL` / `FALLBACK_MODEL`；`call_m3` 成功時印 log marker `  [model] <name> (primary|fallback)`；譯文 header 用 `__TRANSLATION_MODEL__` placeholder 由 `PRIMARY_MODEL` 自動填。`status_gui.py` 的 `translation_activity()` 改用正則 `\[model\]\s+(\S+)\s+\((primary|fallback)\)` 從 log 抓 provider（拿掉 hardcode「MiniMax-M3」），`fallback_active` 時紅字「本次退備援」。**改 primary 只需動 translate.py 一個常數**，刊版與 header 自動跟上。
 - **relaunch 已執行（本次含新碼）**：舊 worker kill 後，supervisor（未改，pid 6812）30s backoff relaunch 新碼 worker（`auto-pipeline.py` pid 於本 session 重啟為載入 7bd73d2b 的 marker 碼），log 已確認印出 `[model] deepseek-v4-pro (primary)`；刊版 `status_gui.py` 亦重啟載入新正則。續跑走 `--skip-done`，已完成 slug 不重跑。
 - 分工原則未變：漢傳/和合本原樣保留不耗 LLM。若要「並行加速」（非只 fallback）需再加 profile pool 平行派工，待用戶決定。
+- **⏸ 當前狀態：翻譯人工暫停中（2026-07-04 晚 → 預計 2026-07-06 週一早 MiniMax 配額重置）**。deepseek-v4-pro 按 token 現金計費、又是 reasoning model，跑大量佇列太貴（實測換上後短時間燒近 ¥2）；用戶決定**等 MiniMax（月費、限界成本零）回來再翻外語**。暫停機制＝`logs/pipeline-HALT.flag`（commit 783cf127）：supervisor 啟動/迴圈間偵測到即不跑，`status_gui.ensure_supervisor` 偵測到即不復活，刊版頂部琥珀橫幅「人工暫停中」。**週一恢復步驟：① 刪 `logs/pipeline-HALT.flag` ② `translate.py` `PRIMARY_MODEL` 改回 MiniMax（並確認 token 有效）③ 開刊版或起 supervisor**。
+- **省錢短路：古典漢語/中譯本 verbatim 不呼叫 LLM（commit 9489cc9c）**：舊碼只短路 `transliteration`，古典漢語仍走付費 LLM 只為抄回中文（且 reasoning model 會竄改）。新增 `_CHINESE_LANGS` 短路，命中即原樣寫出、印 `[zh-verbatim] no LLM call`。全庫 2539 個中文語言 slug 從此翻譯零成本。
+- **完整性修復：24 部漢語經典重生成 verbatim（commit 19f91ab3）**：檢查發現先前已翻的 24 部古典漢語 slug 全是 LLM 產物，12 部內文遭竄改（法華經漏 5805 字、莊子漏 1 字、道德經/地藏經等異體字 回→迴）。已全數重生成為 verbatim，內文與 `raw/original.txt` 完全一致（複驗 24/24 pass）。
 
 **黑框全清（2026-07-04 補完）**：07-04「黑框修復」只補了 `translate.py` 的 `claude -p`；本次補齊 `auto-pipeline.py`（`run_git` + `rebuild_indexes` 起子腳本）、`classify-metadata.py`（git）、`status.py`（git log）四處遺漏 subprocess，全加 `CREATE_NO_WINDOW`。pythonw 背景管線 commit/push/建索引時不再彈主控台黑框。
 
