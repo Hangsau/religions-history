@@ -11722,6 +11722,11 @@
   ],
   "丹田": [
     {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -14072,13 +14077,6 @@
       "religion": "基督教"
     }
   ],
-  "僊人": [
-    {
-      "slug": "huangting-neijing",
-      "name_zh": "黃庭內景經",
-      "religion": "道教"
-    }
-  ],
   "儀式": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -14348,6 +14346,11 @@
     {
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
       "religion": "道教"
     },
     {
@@ -15781,18 +15784,18 @@
       "religion": "儒教"
     }
   ],
-  "呼吸": [
-    {
-      "slug": "huangting-neijing",
-      "name_zh": "黃庭內景經",
-      "religion": "道教"
-    }
-  ],
   "呼吸 prāṇa": [
     {
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
       "religion": "印度教"
+    }
+  ],
+  "呼吸元氣": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
     }
   ],
   "命令": [
@@ -17681,6 +17684,11 @@
   ],
   "太上": [
     {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
@@ -18094,6 +18102,11 @@
     }
   ],
   "存思": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
     {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
@@ -19846,13 +19859,6 @@
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
-    }
-  ],
-  "心神": [
-    {
-      "slug": "huangting-neijing",
-      "name_zh": "黃庭內景經",
-      "religion": "道教"
     }
   ],
   "心解脫": [
@@ -22904,6 +22910,13 @@
       "religion": "基督教"
     }
   ],
+  "東華": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    }
+  ],
   "東華帝君": [
     {
       "slug": "qingjing-jing",
@@ -23860,13 +23873,6 @@
       "religion": "基督教"
     }
   ],
-  "沐浴": [
-    {
-      "slug": "huangting-neijing",
-      "name_zh": "黃庭內景經",
-      "religion": "道教"
-    }
-  ],
   "沙得拉": [
     {
       "slug": "bible-daniel",
@@ -24154,6 +24160,13 @@
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
+    }
+  ],
+  "泥丸": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
     }
   ],
   "洗禮": [
@@ -25062,20 +25075,8 @@
   ],
   "玄": [
     {
-      "slug": "huangting-neijing",
-      "name_zh": "黃庭內景經",
-      "religion": "道教"
-    },
-    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
-      "religion": "道教"
-    }
-  ],
-  "玄元": [
-    {
-      "slug": "huangting-neijing",
-      "name_zh": "黃庭內景經",
       "religion": "道教"
     }
   ],
@@ -26652,6 +26653,13 @@
       "slug": "bible-2-samuel",
       "name_zh": "撒母耳記下",
       "religion": "基督教"
+    }
+  ],
+  "精氣": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
     }
   ],
   "精氣神": [
@@ -32021,6 +32029,13 @@
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
+    }
+  ],
+  "飛仙": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
     }
   ],
   "養民": [

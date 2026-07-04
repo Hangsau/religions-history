@@ -20,3 +20,414 @@
   [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifra%201?context=0
   [empty] Sifra: 
   [book] Sifrei Bamidbar
+  [polite-pause] 30s break after 100 requests
+  [ok] sefaria-sifrei-bamidbar: 161 chapters, 531360 bytes
+  [book] Sifrei Zuta
+  [polite-pause] 30s break after 200 requests
+  [ok] sefaria-sifrei-zuta: 7 chapters, 16156 bytes
+  [book] Sifrei Devarim
+  [polite-pause] 30s break after 300 requests
+  [polite-pause] 30s break after 400 requests
+  [polite-pause] 30s break after 500 requests
+  [ok] sefaria-sifrei-devarim: 357 chapters, 1233170 bytes
+  [book] Midrash Tannaim on Deuteronomy
+  [ok] sefaria-midrash-tannaim-on-deuteronomy: 20 chapters, 72231 bytes
+  [book] Chafetz Chaim on Sifra
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Chafetz%20Chaim%20on%20Sifra%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Chafetz%20Chaim%20on%20Sifra%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Chafetz%20Chaim%20on%20Sifra%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Chafetz%20Chaim%20on%20Sifra%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Chafetz%20Chaim%20on%20Sifra%201?context=0
+  [empty] Chafetz Chaim on Sifra: 
+  [book] Ra'avad on Sifra
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ra'avad%20on%20Sifra%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ra'avad%20on%20Sifra%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ra'avad%20on%20Sifra%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ra'avad%20on%20Sifra%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ra'avad%20on%20Sifra%201?context=0
+  [empty] Ra'avad on Sifra: 
+  [book] Bereshit Rabbah
+  [polite-pause] 30s break after 600 requests
+  [ok] sefaria-bereshit-rabbah: 100 chapters, 2338095 bytes
+  [book] Shemot Rabbah
+  [polite-pause] 30s break after 700 requests
+  [ok] sefaria-shemot-rabbah: 52 chapters, 1517262 bytes
+  [book] Vayikra Rabbah
+  [ok] sefaria-vayikra-rabbah: 37 chapters, 1133442 bytes
+  [book] Bamidbar Rabbah
+  [polite-pause] 30s break after 800 requests
+  [ok] sefaria-bamidbar-rabbah: 23 chapters, 2296504 bytes
+  [book] Devarim Rabbah
+  [ok] sefaria-devarim-rabbah: 11 chapters, 523162 bytes
+  [book] Shir HaShirim Rabbah
+  [ok] sefaria-shir-hashirim-rabbah: 8 chapters, 103146 bytes
+  [book] Ruth Rabbah
+  [ok] sefaria-ruth-rabbah: 1 chapters, 16511 bytes
+  [book] Esther Rabbah
+  [ok] sefaria-esther-rabbah: 1 chapters, 39261 bytes
+  [book] Kohelet Rabbah
+  [ok] sefaria-kohelet-rabbah: 11 chapters, 79281 bytes
+  [book] Eikhah Rabbah
+  [ok] sefaria-eikhah-rabbah: 1 chapters, 226751 bytes
+  [book] Ruth Rabbah (Lerner)
+  [ok] sefaria-ruth-rabbah-lerner: 8 chapters, 23374 bytes
+  [book] Rashi on Bereshit Rabbah
+  [polite-pause] 30s break after 900 requests
+  [ok] sefaria-rashi-on-bereshit-rabbah: 68 chapters, 57169 bytes
+  [book] Chidushei HaRadal on Bereshit Rabbah
+  [polite-pause] 30s break after 1000 requests
+  [ok] sefaria-chidushei-haradal-on-bereshit-rabbah: 76 chapters, 44854 bytes
+  [book] Chidushei HaRadal on Shemot Rabbah
+  [polite-pause] 30s break after 1100 requests
+  [ok] sefaria-chidushei-haradal-on-shemot-rabbah: 50 chapters, 42562 bytes
+  [book] Chiddushei HaRadal on Vayikra Rabbah
+  [ok] sefaria-chiddushei-haradal-on-vayikra-rabbah: 34 chapters, 32179 bytes
+  [book] Chiddushei HaRadal on Bamidbar Rabbah
+  [ok] sefaria-chiddushei-haradal-on-bamidbar-rabbah: 20 chapters, 16080 bytes
+  [book] Chiddushei HaRadal on Devarim Rabbah
+  [ok] sefaria-chiddushei-haradal-on-devarim-rabbah: 11 chapters, 9748 bytes
+  [book] Chiddushei HaRadal on Shir HaShirim Rabbah
+  [ok] sefaria-chiddushei-haradal-on-shir-hashirim-rabbah: 6 chapters, 1953 bytes
+  [book] Chiddushei HaRadal on Ruth Rabbah
+  [ok] sefaria-chiddushei-haradal-on-ruth-rabbah: 1 chapters, 1432 bytes
+  [book] Chiddushei HaRadal on Esther Rabbah
+  [ok] sefaria-chiddushei-haradal-on-esther-rabbah: 1 chapters, 4335 bytes
+  [book] Chiddushei HaRadal on Kohelet Rabbah
+  [polite-pause] 30s break after 1200 requests
+  [ok] sefaria-chiddushei-haradal-on-kohelet-rabbah: 10 chapters, 7413 bytes
+  [book] Chiddushei HaRadal on Eikhah Rabbah
+  [ok] sefaria-chiddushei-haradal-on-eikhah-rabbah: 1 chapters, 1226 bytes
+  [book] Etz Yosef on Bereishit Rabbah
+  [polite-pause] 30s break after 1300 requests
+  [ok] sefaria-etz-yosef-on-bereishit-rabbah: 100 chapters, 202919 bytes
+  [book] Etz Yosef on Shemot Rabbah
+  [ok] sefaria-etz-yosef-on-shemot-rabbah: 52 chapters, 185144 bytes
+  [book] Etz Yosef on Vayikra Rabbah
+  [ok] sefaria-etz-yosef-on-vayikra-rabbah: 37 chapters, 198298 bytes
+  [book] Etz Yosef on Bamidbar Rabbah
+  [polite-pause] 30s break after 1400 requests
+  [ok] sefaria-etz-yosef-on-bamidbar-rabbah: 23 chapters, 68300 bytes
+  [book] Etz Yosef on Devarim Rabbah
+  [ok] sefaria-etz-yosef-on-devarim-rabbah: 11 chapters, 26244 bytes
+  [book] Etz Yosef on Shir HaShirim Rabbah
+  [ok] sefaria-etz-yosef-on-shir-hashirim-rabbah: 8 chapters, 22102 bytes
+  [book] Etz Yosef on Ruth Rabbah
+  [ok] sefaria-etz-yosef-on-ruth-rabbah: 1 chapters, 1267 bytes
+  [book] Etz Yosef on Esther Rabbah
+  [ok] sefaria-etz-yosef-on-esther-rabbah: 1 chapters, 6383 bytes
+  [book] Etz Yosef on Kohelet Rabbah
+  [ok] sefaria-etz-yosef-on-kohelet-rabbah: 11 chapters, 26621 bytes
+  [book] Etz Yosef on Eichah Rabbah
+  [ok] sefaria-etz-yosef-on-eichah-rabbah: 1 chapters, 7479 bytes
+  [book] Maharzu Hakatzar on Bereshit Rabbah
+  [polite-pause] 30s break after 1500 requests
+  [ok] sefaria-maharzu-hakatzar-on-bereshit-rabbah: 1 chapters, 2984 bytes
+  [book] Matnot Kehunah on Bereshit Rabbah
+  [polite-pause] 30s break after 1600 requests
+  [ok] sefaria-matnot-kehunah-on-bereshit-rabbah: 90 chapters, 77328 bytes
+  [book] Matnot Kehunah on Shemot Rabbah
+  [polite-pause] 30s break after 1700 requests
+  [ok] sefaria-matnot-kehunah-on-shemot-rabbah: 48 chapters, 28132 bytes
+  [book] Matnot Kehunah on Vayikra Rabbah
+  [ok] sefaria-matnot-kehunah-on-vayikra-rabbah: 36 chapters, 44057 bytes
+  [book] Matnot Kehunah on Bamidbar Rabbah
+  [ok] sefaria-matnot-kehunah-on-bamidbar-rabbah: 21 chapters, 21245 bytes
+  [book] Matnot Kehunah on Devarim Rabbah
+  [ok] sefaria-matnot-kehunah-on-devarim-rabbah: 11 chapters, 6255 bytes
+  [book] Matnot Kehunah on Shir HaShirim Rabbah
+  [ok] sefaria-matnot-kehunah-on-shir-hashirim-rabbah: 8 chapters, 4119 bytes
+  [book] Matnot Kehunah on Ruth Rabbah
+  [ok] sefaria-matnot-kehunah-on-ruth-rabbah: 1 chapters, 41 bytes
+  [book] Matnot Kehunah on Esther Rabbah
+  [ok] sefaria-matnot-kehunah-on-esther-rabbah: 1 chapters, 857 bytes
+  [book] Matnot Kehunah on Kohelet Rabbah
+  [polite-pause] 30s break after 1800 requests
+  [ok] sefaria-matnot-kehunah-on-kohelet-rabbah: 11 chapters, 12984 bytes
+  [book] Matnot Kehunah on Eichah Rabbah
+  [ok] sefaria-matnot-kehunah-on-eichah-rabbah: 1 chapters, 1602 bytes
+  [book] Mishnat DeRabbi Eliezer on Bereshit Rabbah
+  [polite-pause] 30s break after 1900 requests
+  [ok] sefaria-mishnat-derabbi-eliezer-on-bereshit-rabbah: 7 chapters, 3140 bytes
+  [book] Mishnat DeRabbi Eliezer on Ruth Rabbah
+  [ok] sefaria-mishnat-derabbi-eliezer-on-ruth-rabbah: 1 chapters, 463 bytes
+  [book] Mishnat DeRabbi Eliezer on Esther Rabbah
+  [empty] Mishnat DeRabbi Eliezer on Esther Rabbah: 
+  [book] Mishnat DeRabbi Eliezer on Kohelet Rabbah
+  [ok] sefaria-mishnat-derabbi-eliezer-on-kohelet-rabbah: 1 chapters, 736 bytes
+  [book] Mishnat DeRabbi Eliezer on Eichah Rabbah
+  [ok] sefaria-mishnat-derabbi-eliezer-on-eichah-rabbah: 1 chapters, 338 bytes
+  [book] Perush Maharzu on Bereshit Rabbah
+  [polite-pause] 30s break after 2000 requests
+  [ok] sefaria-perush-maharzu-on-bereshit-rabbah: 100 chapters, 205674 bytes
+  [book] Perush Maharzu on Shemot Rabbah
+  [ok] sefaria-perush-maharzu-on-shemot-rabbah: 52 chapters, 149436 bytes
+  [book] Perush Maharzu on Vayikra Rabbah
+  [polite-pause] 30s break after 2100 requests
+  [ok] sefaria-perush-maharzu-on-vayikra-rabbah: 37 chapters, 113073 bytes
+  [book] Perush Maharzu on Bamidbar Rabbah
+  [ok] sefaria-perush-maharzu-on-bamidbar-rabbah: 23 chapters, 76971 bytes
+  [book] Perush Maharzu on Devarim Rabbah
+  [ok] sefaria-perush-maharzu-on-devarim-rabbah: 11 chapters, 23990 bytes
+  [book] Perush Maharzu on Shir HaShirim Rabbah
+  [ok] sefaria-perush-maharzu-on-shir-hashirim-rabbah: 8 chapters, 6157 bytes
+  [book] Perush Maharzu on Ruth Rabbah
+  [ok] sefaria-perush-maharzu-on-ruth-rabbah: 1 chapters, 2824 bytes
+  [book] Perush Maharzu on Esther Rabbah
+  [ok] sefaria-perush-maharzu-on-esther-rabbah: 1 chapters, 3033 bytes
+  [book] Perush Maharzu on Kohelet Rabbah
+  [ok] sefaria-perush-maharzu-on-kohelet-rabbah: 11 chapters, 14078 bytes
+  [book] Perush Maharzu on Eichah Rabbah
+  [ok] sefaria-perush-maharzu-on-eichah-rabbah: 1 chapters, 2646 bytes
+  [book] Yedei Moshe on Bereshit Rabbah
+  [polite-pause] 30s break after 2200 requests
+  [ok] sefaria-yedei-moshe-on-bereshit-rabbah: 51 chapters, 44270 bytes
+  [book] Yedei Moshe on Shemot Rabbah
+  [polite-pause] 30s break after 2300 requests
+  [ok] sefaria-yedei-moshe-on-shemot-rabbah: 36 chapters, 40771 bytes
+  [book] Yedei Moshe on Vayikra Rabbah
+  [ok] sefaria-yedei-moshe-on-vayikra-rabbah: 19 chapters, 4579 bytes
+  [book] Yedei Moshe on Bamidbar Rabbah
+  [ok] sefaria-yedei-moshe-on-bamidbar-rabbah: 10 chapters, 8588 bytes
+  [book] Yedei Moshe on Devarim Rabbah
+  [polite-pause] 30s break after 2400 requests
+  [ok] sefaria-yedei-moshe-on-devarim-rabbah: 8 chapters, 4639 bytes
+  [book] Yedei Moshe on Shir HaShirim Rabbah
+  [ok] sefaria-yedei-moshe-on-shir-hashirim-rabbah: 2 chapters, 2054 bytes
+  [book] Yedei Moshe on Kohelet Rabbah
+  [ok] sefaria-yedei-moshe-on-kohelet-rabbah: 2 chapters, 675 bytes
+  [book] Yefeh Anaf on Ruth Rabbah
+  [ok] sefaria-yefeh-anaf-on-ruth-rabbah: 1 chapters, 2112 bytes
+  [book] Yefeh Anaf on Esther Rabbah
+  [ok] sefaria-yefeh-anaf-on-esther-rabbah: 1 chapters, 1150 bytes
+  [book] Yefeh Anaf on Eichah Rabbah
+  [ok] sefaria-yefeh-anaf-on-eichah-rabbah: 1 chapters, 7198 bytes
+  [book] Yefeh Kol on Shir HaShirim Rabbah
+  [ok] sefaria-yefeh-kol-on-shir-hashirim-rabbah: 8 chapters, 14753 bytes
+  [book] Yefeh To'ar on Bereshit Rabbah
+  [polite-pause] 30s break after 2500 requests
+  [ok] sefaria-yefeh-to-ar-on-bereshit-rabbah: 96 chapters, 159628 bytes
+  [book] Yefeh To'ar on Shemot Rabbah
+  [ok] sefaria-yefeh-to-ar-on-shemot-rabbah: 52 chapters, 119143 bytes
+  [book] Yefeh To'ar on Vayikra Rabbah
+  [polite-pause] 30s break after 2600 requests
+  [ok] sefaria-yefeh-to-ar-on-vayikra-rabbah: 36 chapters, 50351 bytes
+  [book] Yefeh To'ar on Bamidbar Rabbah
+  [ok] sefaria-yefeh-to-ar-on-bamidbar-rabbah: 8 chapters, 8483 bytes
+  [book] Yefeh To'ar on Devarim Rabbah
+  [ok] sefaria-yefeh-to-ar-on-devarim-rabbah: 4 chapters, 3178 bytes
+  [book] Yefeh To'ar on Kohelet Rabbah
+  [ok] sefaria-yefeh-to-ar-on-kohelet-rabbah: 4 chapters, 4959 bytes
+  [book] Aggadat Bereshit
+  [polite-pause] 30s break after 2700 requests
+  [ok] sefaria-aggadat-bereshit: 84 chapters, 395952 bytes
+  [book] Bereshit Rabbati
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Bereshit%20Rabbati%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Bereshit%20Rabbati%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Bereshit%20Rabbati%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Bereshit%20Rabbati%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Bereshit%20Rabbati%201?context=0
+  [empty] Bereshit Rabbati: 
+  [book] Buber footnotes on Midrash Mishlei
+  [ok] sefaria-buber-footnotes-on-midrash-mishlei: 1 chapters, 390 bytes
+  [book] Par Echad on Pirkei DeRabbi Eliezer
+  [polite-pause] 30s break after 2800 requests
+  [ok] sefaria-par-echad-on-pirkei-derabbi-eliezer: 54 chapters, 134189 bytes
+  [book] Beur HaRadal on Pirkei DeRabbi Eliezer
+  [polite-pause] 30s break after 2900 requests
+  [ok] sefaria-beur-haradal-on-pirkei-derabbi-eliezer: 54 chapters, 2696983 bytes
+  [book] Ein Yaakov
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%201?context=0
+  [empty] Ein Yaakov: 
+  [book] Ein Yaakov (Glick Edition)
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%20(Glick%20Edition)%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%20(Glick%20Edition)%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%20(Glick%20Edition)%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%20(Glick%20Edition)%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Ein%20Yaakov%20(Glick%20Edition)%201?context=0
+  [empty] Ein Yaakov (Glick Edition): 
+  [book] Legends of the Jews
+  [ok] sefaria-legends-of-the-jews: 1 chapters, 72624 bytes
+  [book] Midrash Aggadah
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Aggadah%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Aggadah%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Aggadah%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Aggadah%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Aggadah%201?context=0
+  [empty] Midrash Aggadah: 
+  [book] Midrash Lekach Tov
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 5/5] sleep 160s: 500 Server Error: Internal Server Error for url: https://www.sefaria.org/api/texts/Midrash%20Lekach%20Tov%201?context=0
+  [empty] Midrash Lekach Tov: 
+  [book] Midrash Lekach Tov on Ecclesiastes
+  [ok] sefaria-midrash-lekach-tov-on-ecclesiastes: 1 chapters, 2323 bytes
+  [book] Midrash Lekach Tov on Esther
+  [ok] sefaria-midrash-lekach-tov-on-esther: 1 chapters, 3215 bytes
+  [book] Midrash Lekach Tov on Lamentations
+  [ok] sefaria-midrash-lekach-tov-on-lamentations: 1 chapters, 5942 bytes
+  [book] Midrash Lekach Tov on Ruth
+  [ok] sefaria-midrash-lekach-tov-on-ruth: 1 chapters, 4056 bytes
+  [book] Midrash Lekach Tov on Song of Songs
+  [ok] sefaria-midrash-lekach-tov-on-song-of-songs: 1 chapters, 4064 bytes
+  [book] Notes and Corrections on Midrash Lekach Tov on Esther
+  [ok] sefaria-notes-and-corrections-on-midrash-lekach-tov-on-esther: 1 chapters, 9742 bytes
+  [book] Beur HaRe'em on Midrash Lekach Tov
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Beur%20HaRe'em%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Beur%20HaRe'em%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Beur%20HaRe'em%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Beur%20HaRe'em%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Beur%20HaRe'em%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [empty] Beur HaRe'em on Midrash Lekach Tov: 
+  [book] Notes and Corrections on Midrash Lekach Tov
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Lekach%20Tov%201?context=0
+  [empty] Notes and Corrections on Midrash Lekach Tov: 
+  [book] Midrash Mishlei
+  [ok] sefaria-midrash-mishlei: 31 chapters, 232746 bytes
+  [book] Midrash Sekhel Tov
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Sekhel%20Tov%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Sekhel%20Tov%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Sekhel%20Tov%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Sekhel%20Tov%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Sekhel%20Tov%201?context=0
+  [empty] Midrash Sekhel Tov: 
+  [book] Midrash Shmuel
+  [ok] sefaria-midrash-shmuel: 32 chapters, 254428 bytes
+  [book] Midrash Tanchuma
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%201?context=0
+  [empty] Midrash Tanchuma: 
+  [book] Midrash Tanchuma Buber
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%20Buber%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%20Buber%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%20Buber%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%20Buber%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Midrash%20Tanchuma%20Buber%201?context=0
+  [empty] Midrash Tanchuma Buber: 
+  [book] Midrash Tehillim
+  [polite-pause] 30s break after 3000 requests
+  [polite-pause] 30s break after 3100 requests
+  [ok] sefaria-midrash-tehillim: 143 chapters, 1180117 bytes
+  [book] Midrash Yelamdenu, Selections from Yalkut Talmud Torah
+  [ok] sefaria-midrash-yelamdenu-selections-from-yalkut-talmud-torah: 1 chapters, 1029 bytes
+  [book] Mishnat Rabbi Eliezer
+  [ok] sefaria-mishnat-rabbi-eliezer: 20 chapters, 496242 bytes
+  [book] Notes and Corrections on Midrash Aggadah
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Aggadah%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Aggadah%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Aggadah%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Aggadah%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Notes%20and%20Corrections%20on%20Midrash%20Aggadah%201?context=0
+  [empty] Notes and Corrections on Midrash Aggadah: 
+  [book] Otzar Midrashim
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Otzar%20Midrashim%201?context=0
+  [req-error attempt 2/5] sleep 20s: 500 Server Error: Internal Server Error for url: https://www.sefaria.org/api/texts/Otzar%20Midrashim%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Otzar%20Midrashim%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Otzar%20Midrashim%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Otzar%20Midrashim%201?context=0
+  [empty] Otzar Midrashim: 
+  [book] Pesikta DeRav Kahana
+  [ok] sefaria-pesikta-derav-kahana: 28 chapters, 624185 bytes
+  [book] Pesikta Rabbati
+  [ok] sefaria-pesikta-rabbati: 1 chapters, 14529 bytes
+  [book] Pirkei DeRabbi Eliezer
+  [polite-pause] 30s break after 3200 requests
+  [ok] sefaria-pirkei-derabbi-eliezer: 54 chapters, 692190 bytes
+  [book] Seder Olam Rabbah
+  [ok] sefaria-seder-olam-rabbah: 1 chapters, 3944 bytes
+  [book] Meir Ayin on Seder Olam Rabbah
+  [empty] Meir Ayin on Seder Olam Rabbah: 
+  [book] Vilna Gaon on Seder Olam Rabbah
+  [empty] Vilna Gaon on Seder Olam Rabbah: 
+  [book] Yaakov Emden on Seder Olam Rabbah
+  [empty] Yaakov Emden on Seder Olam Rabbah: 
+  [book] Seder Olam Zutta
+  [ok] sefaria-seder-olam-zutta: 10 chapters, 26137 bytes
+  [book] Sefer HaYashar (midrash)
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sefer%20HaYashar%20(midrash)%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sefer%20HaYashar%20(midrash)%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sefer%20HaYashar%20(midrash)%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sefer%20HaYashar%20(midrash)%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sefer%20HaYashar%20(midrash)%201?context=0
+  [empty] Sefer HaYashar (midrash): 
+  [book] Sifrei Aggadah on Esther
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Aggadah%20on%20Esther%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Aggadah%20on%20Esther%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Aggadah%20on%20Esther%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Aggadah%20on%20Esther%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Aggadah%20on%20Esther%201?context=0
+  [empty] Sifrei Aggadah on Esther: 
+  [book] Tanna DeBei Eliyahu Rabbah
+  [ok] sefaria-tanna-debei-eliyahu-rabbah: 31 chapters, 572399 bytes
+  [book] Tanna DeBei Eliyahu Zuta
+  [ok] sefaria-tanna-debei-eliyahu-zuta: 1 chapters, 15972 bytes
+  [book] Yalkut Shimoni on Nach
+  [polite-pause] 30s break after 3300 requests
+  [polite-pause] 30s break after 3400 requests
+  [polite-pause] 30s break after 3500 requests
+  [polite-pause] 30s break after 3600 requests
+  [polite-pause] 30s break after 3700 requests
+  [polite-pause] 30s break after 3800 requests
+  [polite-pause] 30s break after 3900 requests
+  [polite-pause] 30s break after 4000 requests
+  [polite-pause] 30s break after 4100 requests
+  [polite-pause] 30s break after 4200 requests
+  [ok] sefaria-yalkut-shimoni-on-nach: 983 chapters, 4374502 bytes
+  [book] Yalkut Shimoni on Torah
+  [polite-pause] 30s break after 4300 requests
+  [polite-pause] 30s break after 4400 requests
+  [polite-pause] 30s break after 4500 requests
+  [polite-pause] 30s break after 4600 requests
+  [polite-pause] 30s break after 4700 requests
+  [polite-pause] 30s break after 4800 requests
+  [polite-pause] 30s break after 4900 requests
+  [polite-pause] 30s break after 5000 requests
+  [polite-pause] 30s break after 5100 requests
+  [polite-pause] 30s break after 5200 requests
+  [ok] sefaria-yalkut-shimoni-on-torah: 952 chapters, 14598083 bytes
+  [book] Learning to Read Midrash
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Learning%20to%20Read%20Midrash%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Learning%20to%20Read%20Midrash%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Learning%20to%20Read%20Midrash%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Learning%20to%20Read%20Midrash%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Learning%20to%20Read%20Midrash%201?context=0
+  [empty] Learning to Read Midrash: 
+  [book] Sifrei Zuta; Midrashah shel Lod
+  [req-error attempt 1/5] sleep 10s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Zuta;%20Midrashah%20shel%20Lod%201?context=0
+  [req-error attempt 2/5] sleep 20s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Zuta;%20Midrashah%20shel%20Lod%201?context=0
+  [req-error attempt 3/5] sleep 40s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Zuta;%20Midrashah%20shel%20Lod%201?context=0
+  [req-error attempt 4/5] sleep 80s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Zuta;%20Midrashah%20shel%20Lod%201?context=0
+  [req-error attempt 5/5] sleep 160s: 400 Client Error: Bad Request for url: https://www.sefaria.org/api/texts/Sifrei%20Zuta;%20Midrashah%20shel%20Lod%201?context=0
+  [empty] Sifrei Zuta; Midrashah shel Lod: 
+
+[summary] {"empty": 26, "ok": 103}
+=== Sefaria Halakhah ===
+[fetch] /api/index
+[books] 2169 discovered
+  [book] Mishneh Torah, Transmission of the Oral Law
+  [ok] sefaria-mishneh-torah-transmission-of-the-oral-law: 45 chapters, 54721 bytes
+  [book] Mishneh Torah, Positive Mitzvot
+  [polite-pause] 30s break after 100 requests
+=== Sefaria Kabbalah ===
+      0 [main] bash 1147205 dofork: child -1 - forked process 48180 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+/tmp/run_pipeline_a_new.sh: fork: retry: Resource temporarily unavailable
+1188350 [main] bash 1147205 dofork: child -1 - forked process 40036 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+/tmp/run_pipeline_a_new.sh: fork: retry: Resource temporarily unavailable
+3199301 [main] bash 1147205 dofork: child -1 - forked process 54528 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+/tmp/run_pipeline_a_new.sh: fork: retry: Resource temporarily unavailable
+7209932 [main] bash 1147205 dofork: child -1 - forked process 55788 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+/tmp/run_pipeline_a_new.sh: fork: retry: Resource temporarily unavailable
+15219135 [main] bash 1147205 dofork: child -1 - forked process 14940 died unexpectedly, retry 0, exit code 0xC000026B, errno 11
+/tmp/run_pipeline_a_new.sh: fork: Resource temporarily unavailable

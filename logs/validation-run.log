@@ -1,0 +1,38 @@
+tier=核心  queue=3  already_done=0  this_run=3  tasks=['translate', 'tag']
+[1/3] huangting-neijing
+  [start] huangting-neijing (translate)  (prompt 3492 chars)
+  [done] huangting-neijing (translate)  →  01-translation.md (448 chars)
+  [start] huangting-neijing (tag)  (prompt 3941 chars)
+  [done] huangting-neijing (tag)  →  7 tags, 12 keywords
+[2/3] obadiah
+  [start] obadiah (translate)  (prompt 5838 chars)
+  [done] obadiah (translate)  →  01-translation.md (1036 chars)
+  [start] obadiah (tag)  (prompt 4519 chars)
+  [done] obadiah (tag)  →  7 tags, 13 keywords
+[3/3] sblgnt-philemon
+  [start] sblgnt-philemon (translate)  (prompt 5370 chars)
+  [done] sblgnt-philemon (translate)  →  01-translation.md (1021 chars)
+  [start] sblgnt-philemon (tag)  (prompt 4525 chars)
+Exception in thread Thread-19 (_readerthread):
+Traceback (most recent call last):
+  File "C:\Users\hangs\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "C:\Users\hangs\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\hangs\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1599, in _readerthread
+    buffer.append(fh.read())
+                  ^^^^^^^^^
+UnicodeDecodeError: 'cp950' codec can't decode byte 0xe6 in position 30: illegal multibyte sequence
+  [done] sblgnt-philemon (tag)  →  6 tags, 15 keywords
+Traceback (most recent call last):
+  File "C:\claudehome\projects\religions-history\scripts\auto-pipeline.py", line 243, in <module>
+    main()
+  File "C:\claudehome\projects\religions-history\scripts\auto-pipeline.py", line 224, in main
+    commit_batch(batch_paths + idx_paths,
+  File "C:\claudehome\projects\religions-history\scripts\auto-pipeline.py", line 102, in commit_batch
+    code, out = run_git(["commit", "-m", message])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\claudehome\projects\religions-history\scripts\auto-pipeline.py", line 94, in run_git
+    return r.returncode, (r.stdout + r.stderr).strip()
+                          ~~~~~~~~~^~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'

@@ -29,15 +29,16 @@
 | 阿維斯塔 | avesta.org |
 | 蘇美 / 阿卡德 | ETCSL（Oxford）、CDLI |
 
-### Step 2：AI 翻譯
+### Step 2：AI 翻譯（經文式，非白話化）
 
-讀原文 → 用 LLM 翻成繁中白話。規則：
+**權威規則見 [`tools/m3-translator-role.md`](../tools/m3-translator-role.md)** — 派 m3 跑翻譯前每次把該檔角色段塞進 prompt 開頭。核心原則（別在此重述細節，以角色檔為準）：
 
-- **不編造**：原文模糊就標 `[歧義]`，不擅自補字
-- **保留關鍵術語原文**：如 *karma*（不譯「業」）、*dhikr*（不譯「念」）、*yoga*（不譯「瑜伽」）— 首次出現給繁中說明，後續直接用原文
-- **人名 / 地名 / 神名**：首次給原文 + 常用中譯
-- **語氣保留**：原文為詩體（吠陀、詩經、希臘悲劇）→ 譯文也用詩體節奏，不用純散文
-- **段落結構照原文**：不重新編章節
+- **古典漢語原文（道德經、論語、CBETA 漢譯等）→ 原樣保留**，只做簡→繁 + 訛字修正，**禁止白話化重寫**（「子曰」不改「孔子說」）
+- **外語原文 → 直譯繁中**，維持直譯不流暢化；名相保留原文 + 首次附一個常用漢譯（karma（業）、λόγος（道）、YHWH（耶和華）），後續只用原詞
+- **不編造**：原文模糊標 `[歧義: A / B]`，並列兩說不自己選
+- **詩體保詩體 / 偈頌保偈頌**：吠陀、詩篇、法句經行斷保留，不翻成散文
+- **結構標記 `=== N | label ===` 原樣保留**，段落結構照原文不重編
+- **翻譯 ≠ 解釋**：白話解釋、Sanskrit 對照、文化背景全歸 `02-annotation.md`
 
 ### Step 3：交叉比對
 
@@ -80,6 +81,32 @@
 
 **歧義註**：[如有]
 ```
+
+### Step 5：語義標籤（Pipeline C，翻譯後即做）
+
+翻譯完成後**同一部立刻抽標籤**，供跨經文搜尋與連結。**權威規則見 [`tools/m3-tagger-role.md`](../tools/m3-tagger-role.md)**：
+
+- `semantic_tags`：**受控詞彙**（closed set），只能填 [`00-overview/concepts.md`](../00-overview/concepts.md) 14 大類白名單內的英文 tag，挑真正切題的 3–8 個。白名單外的詞一律進 `keywords`。orchestrator 會用白名單過濾，違規 tag 自動丟棄。
+- `keywords`：**自由詞**（open set）5–15 個，神名 / 人名 / 地名 / 關鍵術語 / 核心主題，保留原文術語原樣（karma 不寫「業力」）。
+- 兩者回填 `meta.json` 的 `semantic_tags` / `keywords` 欄位（**不動 `raw/original.txt`**，SHA-256 是對原文算的，不會破 verify）。
+- 全批跑完 `scripts/build-tag-index.py` 生反向索引 `00-overview/{tag-index.json, keyword-index.json}`（tag/keyword → 共享它的經文清單 = 跨經文連結結構）。
+
+### Step 6：自動化協調（tier 佇列驅動）
+
+`scripts/auto-pipeline.py` 把 Step 2→5 串成可續跑管線：
+
+```bash
+# 小批驗證（3 部核心，不 push）
+PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心 --limit 3 --no-push
+
+# 全量自動跑核心（可隨睡眠中斷後重啟，--skip-done 是預設）
+PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心
+```
+
+- **tier 佇列**：`meta.json` 的 `tier`（核心 / 次要 / 總集）決定順序；先跑核心。
+- **續跑 / 容錯**：已翻+已標的 slug 自動跳過；失敗進 `logs/pipeline-failed.json` 不中斷整批。
+- **git 安全**：只 `git add` 本次觸碰的路徑（絕不 `-A`），與 Pipeline A 收集並行不互踩；每批 `pull --rebase` 後 push。
+- 進度寫 `00-overview/PIPELINE_STATUS.md`（自動生，勿手改）。
 
 ## 3. 檔案結構
 

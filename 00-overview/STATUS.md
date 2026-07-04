@@ -1,45 +1,50 @@
 # STATUS — religions-history 統一看板
 
-> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：2026-07-03 12:12:06 +0800
+> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：2026-07-03 23:07:02 +0800
 
-**4210 部 / 22 宗教 / 518 MB**
+**4301 部 / 22 宗教 / 521 MB**
 
 ## 對齊覆蓋率（欄位回填進度）
 
 | 欄位 | 已填 | 覆蓋率 | |
 |------|------|--------|---|
-| 文本角色 `text_role` | 4130/4210 |  98.1% | `████████████████████████` |
-| 原文/譯文 `is_original_language` | 4134/4210 |  98.2% | `████████████████████████` |
-| 成書時期 `era` | 62/4210 |   1.5% | `························` |
-| 文類 `genre` | 1391/4210 |  33.0% | `████████················` |
-| 語義標籤 `semantic_tags` | 62/4210 |   1.5% | `························` |
-| 關鍵詞 `keywords` | 62/4210 |   1.5% | `························` |
+| 文本角色 `text_role` | 4202/4301 |  97.7% | `███████████████████████·` |
+| 原文/譯文 `is_original_language` | 4290/4301 |  99.7% | `████████████████████████` |
+| 成書時期 `era` | 375/4301 |   8.7% | `██······················` |
+| 文類 `genre` | 1704/4301 |  39.6% | `██████████··············` |
+| 語義標籤 `semantic_tags` | 376/4301 |   8.7% | `██······················` |
+| 關鍵詞 `keywords` | 376/4301 |   8.7% | `██······················` |
 
 ## M3 分類進度（era+genre+tags 三者齊全）
 
 | tier | 完成 | 總數 | |
 |------|------|------|---|
-| 核心 | 62 | 377 | `████····················`   16% |
+| 核心 | 375 | 384 | `███████████████████████·`   98% |
 | 次要 | 0 | 116 | `························`    0% |
 | 總集 | 0 | 0 | `························`    0% |
 
 ## 翻譯進度
 
-- `translation_status == done`：**32 / 4210** 部已翻譯（`01-translation.md`）
+- `translation_status == done`：**53 / 4301** 部已翻譯（`01-translation.md`）
+
+## 收集 / 下載（Pipeline A）
+
+- 最新收錄：`sefaria-rabbeinu-gershom-on-temurah`（1 分前）· 近 30 分 **+13** 部
+- 下載日誌 `pipeline-a-talmud.log`：`  [polite-pause] 30s break after 56800 requests`
 
 ## 背景管線快照
 
-- **分類（classify-metadata）**：日誌已分類 60 部
-  - 最新：`  [ok] sn4-mara: era, genre, tags  era=axial-age genre=scripture-revealed`
-- **翻譯管線**：進度：**38 / 365** 已翻譯+標籤
-- **翻譯管線**：目前處理：`sblgnt-philippians`
+- **分類（classify-metadata）**：日誌已分類 374 部
+  - 最新：`[summary] done=374 skipped=2 failed=1`
+- **翻譯管線**：進度：**62 / 365** 已翻譯+標籤
+- **翻譯管線**：目前處理：`sn7-brahmana`
 
 ## 最近 git 提交
 
-- `ac8c95c5 align: M3 classify era/genre/tags (batch, +50)`
-- `dd957643 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
-- `4bd00164 align: M3 classify era/genre/tags (batch, +25)`
-- `b359a75f align: 新增 classify-metadata.py（M3 從原文分類 era/genre/tags 單呼叫）`
-- `21f1c661 docs: HANDOFF 記錄資料對齊 Layer 0-2 + 更新統計(4207/22)`
-- `b29f8ab2 align: 定義 era/genre 受控詞彙 + 0-token 回補 genre 高信心子集`
+- `82881d49 補收威爾斯原文：馬比諾吉昂兩卷（凱爾特）`
+- `3d03e91d 補收希臘原文：柏拉圖理想國/會飲/斐多 + 連結荷馬希臘原典`
+- `a049588d 補收拉丁原文：Ovid 變形記 + Virgil 伊尼德（sibling-original 管線）`
+- `8bb7c633 audit-core 改為內容檢查：讀 original.txt 實際文字判定待補原文，不再只信 metadata label`
+- `bfc36a21 摩門教核心改標 text_role=original：金頁片/亞伯拉罕書莎草紙原文皆不存在，英文即原典`
+- `3e89fb7e docs: HANDOFF 記錄 huangting 補抓 + 唯一英譯本核心政策`
 

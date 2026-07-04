@@ -1,0 +1,885 @@
+targets: 1 × tasks: ['translate', 'annotate']
+  [chunk] quran (translate): 114 chapters → 298 chunks
+    [chunk 1/298] quran (translate)  (360 chars)
+    [chunk 2/298] quran (translate)  (3000 chars)
+    [chunk 3/298] quran (translate)  (3000 chars)
+    [chunk 4/298] quran (translate)  (3000 chars)
+    [chunk 5/298] quran (translate)  (3000 chars)
+    [chunk 6/298] quran (translate)  (3000 chars)
+    [chunk 7/298] quran (translate)  (3000 chars)
+    [chunk 8/298] quran (translate)  (3000 chars)
+    [chunk 9/298] quran (translate)  (3000 chars)
+    [chunk 10/298] quran (translate)  (3000 chars)
+    [chunk 11/298] quran (translate)  (3000 chars)
+    [chunk 12/298] quran (translate)  (3000 chars)
+    [chunk 13/298] quran (translate)  (3000 chars)
+    [chunk 14/298] quran (translate)  (3000 chars)
+    [chunk 15/298] quran (translate)  (3000 chars)
+    [chunk 16/298] quran (translate)  (3000 chars)
+    [chunk 17/298] quran (translate)  (3000 chars)
+    [chunk 18/298] quran (translate)  (3000 chars)
+    [chunk 19/298] quran (translate)  (3000 chars)
+    [chunk 20/298] quran (translate)  (3000 chars)
+    [chunk 21/298] quran (translate)  (2455 chars)
+    [chunk 22/298] quran (translate)  (3000 chars)
+    [chunk 23/298] quran (translate)  (3000 chars)
+    [chunk 24/298] quran (translate)  (3000 chars)
+    [chunk 25/298] quran (translate)  (3000 chars)
+    [chunk 26/298] quran (translate)  (3000 chars)
+    [chunk 27/298] quran (translate)  (3000 chars)
+    [chunk 28/298] quran (translate)  (3000 chars)
+    [chunk 29/298] quran (translate)  (3000 chars)
+    [chunk 30/298] quran (translate)  (3000 chars)
+    [chunk 31/298] quran (translate)  (3000 chars)
+    [chunk 32/298] quran (translate)  (3000 chars)
+    [chunk 33/298] quran (translate)  (1050 chars)
+    [chunk 34/298] quran (translate)  (3000 chars)
+    [chunk 35/298] quran (translate)  (3000 chars)
+    [chunk 36/298] quran (translate)  (3000 chars)
+    [chunk 37/298] quran (translate)  (3000 chars)
+    [chunk 38/298] quran (translate)  (3000 chars)
+    [chunk 39/298] quran (translate)  (3000 chars)
+    [chunk 40/298] quran (translate)  (3000 chars)
+    [chunk 41/298] quran (translate)  (3000 chars)
+    [chunk 42/298] quran (translate)  (3000 chars)
+    [chunk 43/298] quran (translate)  (3000 chars)
+    [chunk 44/298] quran (translate)  (3000 chars)
+    [chunk 45/298] quran (translate)  (3000 chars)
+    [chunk 46/298] quran (translate)  (517 chars)
+    [chunk 47/298] quran (translate)  (3000 chars)
+    [chunk 48/298] quran (translate)  (3000 chars)
+  [error] m3 exit 1073807364: 
+    [warn] chunk 48 failed for quran (translate); marking placeholder + continuing
+    [chunk 49/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 49 failed for quran (translate); marking placeholder + continuing
+    [chunk 50/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 50 failed for quran (translate); marking placeholder + continuing
+    [chunk 51/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 51 failed for quran (translate); marking placeholder + continuing
+    [chunk 52/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 52 failed for quran (translate); marking placeholder + continuing
+    [chunk 53/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 53 failed for quran (translate); marking placeholder + continuing
+    [chunk 54/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 54 failed for quran (translate); marking placeholder + continuing
+    [chunk 55/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 55 failed for quran (translate); marking placeholder + continuing
+    [chunk 56/298] quran (translate)  (342 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 56 failed for quran (translate); marking placeholder + continuing
+    [chunk 57/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 57 failed for quran (translate); marking placeholder + continuing
+    [chunk 58/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 58 failed for quran (translate); marking placeholder + continuing
+    [chunk 59/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 59 failed for quran (translate); marking placeholder + continuing
+    [chunk 60/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 60 failed for quran (translate); marking placeholder + continuing
+    [chunk 61/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 61 failed for quran (translate); marking placeholder + continuing
+    [chunk 62/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 62 failed for quran (translate); marking placeholder + continuing
+    [chunk 63/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 63 failed for quran (translate); marking placeholder + continuing
+    [chunk 64/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 64 failed for quran (translate); marking placeholder + continuing
+    [chunk 65/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 65 failed for quran (translate); marking placeholder + continuing
+    [chunk 66/298] quran (translate)  (2401 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 66 failed for quran (translate); marking placeholder + continuing
+    [chunk 67/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 67 failed for quran (translate); marking placeholder + continuing
+    [chunk 68/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 68 failed for quran (translate); marking placeholder + continuing
+    [chunk 69/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 69 failed for quran (translate); marking placeholder + continuing
+    [chunk 70/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 70 failed for quran (translate); marking placeholder + continuing
+    [chunk 71/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 71 failed for quran (translate); marking placeholder + continuing
+    [chunk 72/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 72 failed for quran (translate); marking placeholder + continuing
+    [chunk 73/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 73 failed for quran (translate); marking placeholder + continuing
+    [chunk 74/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 74 failed for quran (translate); marking placeholder + continuing
+    [chunk 75/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 75 failed for quran (translate); marking placeholder + continuing
+    [chunk 76/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 76 failed for quran (translate); marking placeholder + continuing
+    [chunk 77/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 77 failed for quran (translate); marking placeholder + continuing
+    [chunk 78/298] quran (translate)  (42 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 78 failed for quran (translate); marking placeholder + continuing
+    [chunk 79/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 79 failed for quran (translate); marking placeholder + continuing
+    [chunk 80/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 80 failed for quran (translate); marking placeholder + continuing
+    [chunk 81/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 81 failed for quran (translate); marking placeholder + continuing
+    [chunk 82/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 82 failed for quran (translate); marking placeholder + continuing
+    [chunk 83/298] quran (translate)  (258 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 83 failed for quran (translate); marking placeholder + continuing
+    [chunk 84/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 84 failed for quran (translate); marking placeholder + continuing
+    [chunk 85/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 85 failed for quran (translate); marking placeholder + continuing
+    [chunk 86/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 86 failed for quran (translate); marking placeholder + continuing
+    [chunk 87/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 87 failed for quran (translate); marking placeholder + continuing
+    [chunk 88/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 88 failed for quran (translate); marking placeholder + continuing
+    [chunk 89/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 89 failed for quran (translate); marking placeholder + continuing
+    [chunk 90/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 90 failed for quran (translate); marking placeholder + continuing
+    [chunk 91/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 91 failed for quran (translate); marking placeholder + continuing
+    [chunk 92/298] quran (translate)  (905 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 92 failed for quran (translate); marking placeholder + continuing
+    [chunk 93/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 93 failed for quran (translate); marking placeholder + continuing
+    [chunk 94/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 94 failed for quran (translate); marking placeholder + continuing
+    [chunk 95/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 95 failed for quran (translate); marking placeholder + continuing
+    [chunk 96/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 96 failed for quran (translate); marking placeholder + continuing
+    [chunk 97/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 97 failed for quran (translate); marking placeholder + continuing
+    [chunk 98/298] quran (translate)  (2584 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 98 failed for quran (translate); marking placeholder + continuing
+    [chunk 99/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 99 failed for quran (translate); marking placeholder + continuing
+    [chunk 100/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 100 failed for quran (translate); marking placeholder + continuing
+    [chunk 101/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 101 failed for quran (translate); marking placeholder + continuing
+    [chunk 102/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 102 failed for quran (translate); marking placeholder + continuing
+    [chunk 103/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 103 failed for quran (translate); marking placeholder + continuing
+    [chunk 104/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 104 failed for quran (translate); marking placeholder + continuing
+    [chunk 105/298] quran (translate)  (326 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 105 failed for quran (translate); marking placeholder + continuing
+    [chunk 106/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 106 failed for quran (translate); marking placeholder + continuing
+    [chunk 107/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 107 failed for quran (translate); marking placeholder + continuing
+    [chunk 108/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 108 failed for quran (translate); marking placeholder + continuing
+    [chunk 109/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 109 failed for quran (translate); marking placeholder + continuing
+    [chunk 110/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 110 failed for quran (translate); marking placeholder + continuing
+    [chunk 111/298] quran (translate)  (2024 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 111 failed for quran (translate); marking placeholder + continuing
+    [chunk 112/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 112 failed for quran (translate); marking placeholder + continuing
+    [chunk 113/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 113 failed for quran (translate); marking placeholder + continuing
+    [chunk 114/298] quran (translate)  (2206 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 114 failed for quran (translate); marking placeholder + continuing
+    [chunk 115/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 115 failed for quran (translate); marking placeholder + continuing
+    [chunk 116/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 116 failed for quran (translate); marking placeholder + continuing
+    [chunk 117/298] quran (translate)  (2157 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 117 failed for quran (translate); marking placeholder + continuing
+    [chunk 118/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 118 failed for quran (translate); marking placeholder + continuing
+    [chunk 119/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 119 failed for quran (translate); marking placeholder + continuing
+    [chunk 120/298] quran (translate)  (1074 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 120 failed for quran (translate); marking placeholder + continuing
+    [chunk 121/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 121 failed for quran (translate); marking placeholder + continuing
+    [chunk 122/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 122 failed for quran (translate); marking placeholder + continuing
+    [chunk 123/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 123 failed for quran (translate); marking placeholder + continuing
+    [chunk 124/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 124 failed for quran (translate); marking placeholder + continuing
+    [chunk 125/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 125 failed for quran (translate); marking placeholder + continuing
+    [chunk 126/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 126 failed for quran (translate); marking placeholder + continuing
+    [chunk 127/298] quran (translate)  (209 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 127 failed for quran (translate); marking placeholder + continuing
+    [chunk 128/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 128 failed for quran (translate); marking placeholder + continuing
+    [chunk 129/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 129 failed for quran (translate); marking placeholder + continuing
+    [chunk 130/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 130 failed for quran (translate); marking placeholder + continuing
+    [chunk 131/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 131 failed for quran (translate); marking placeholder + continuing
+    [chunk 132/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 132 failed for quran (translate); marking placeholder + continuing
+    [chunk 133/298] quran (translate)  (417 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 133 failed for quran (translate); marking placeholder + continuing
+    [chunk 134/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 134 failed for quran (translate); marking placeholder + continuing
+    [chunk 135/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 135 failed for quran (translate); marking placeholder + continuing
+    [chunk 136/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 136 failed for quran (translate); marking placeholder + continuing
+    [chunk 137/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 137 failed for quran (translate); marking placeholder + continuing
+    [chunk 138/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 138 failed for quran (translate); marking placeholder + continuing
+    [chunk 139/298] quran (translate)  (238 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 139 failed for quran (translate); marking placeholder + continuing
+    [chunk 140/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 140 failed for quran (translate); marking placeholder + continuing
+    [chunk 141/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 141 failed for quran (translate); marking placeholder + continuing
+    [chunk 142/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 142 failed for quran (translate); marking placeholder + continuing
+    [chunk 143/298] quran (translate)  (521 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 143 failed for quran (translate); marking placeholder + continuing
+    [chunk 144/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 144 failed for quran (translate); marking placeholder + continuing
+    [chunk 145/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 145 failed for quran (translate); marking placeholder + continuing
+    [chunk 146/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 146 failed for quran (translate); marking placeholder + continuing
+    [chunk 147/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 147 failed for quran (translate); marking placeholder + continuing
+    [chunk 148/298] quran (translate)  (1143 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 148 failed for quran (translate); marking placeholder + continuing
+    [chunk 149/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 149 failed for quran (translate); marking placeholder + continuing
+    [chunk 150/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 150 failed for quran (translate); marking placeholder + continuing
+    [chunk 151/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 151 failed for quran (translate); marking placeholder + continuing
+    [chunk 152/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 152 failed for quran (translate); marking placeholder + continuing
+    [chunk 153/298] quran (translate)  (14 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 153 failed for quran (translate); marking placeholder + continuing
+    [chunk 154/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 154 failed for quran (translate); marking placeholder + continuing
+    [chunk 155/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 155 failed for quran (translate); marking placeholder + continuing
+    [chunk 156/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 156 failed for quran (translate); marking placeholder + continuing
+    [chunk 157/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 157 failed for quran (translate); marking placeholder + continuing
+    [chunk 158/298] quran (translate)  (247 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 158 failed for quran (translate); marking placeholder + continuing
+    [chunk 159/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 159 failed for quran (translate); marking placeholder + continuing
+    [chunk 160/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 160 failed for quran (translate); marking placeholder + continuing
+    [chunk 161/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 161 failed for quran (translate); marking placeholder + continuing
+    [chunk 162/298] quran (translate)  (1762 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 162 failed for quran (translate); marking placeholder + continuing
+    [chunk 163/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 163 failed for quran (translate); marking placeholder + continuing
+    [chunk 164/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 164 failed for quran (translate); marking placeholder + continuing
+    [chunk 165/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 165 failed for quran (translate); marking placeholder + continuing
+    [chunk 166/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 166 failed for quran (translate); marking placeholder + continuing
+    [chunk 167/298] quran (translate)  (1079 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 167 failed for quran (translate); marking placeholder + continuing
+    [chunk 168/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 168 failed for quran (translate); marking placeholder + continuing
+    [chunk 169/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 169 failed for quran (translate); marking placeholder + continuing
+    [chunk 170/298] quran (translate)  (2962 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 170 failed for quran (translate); marking placeholder + continuing
+    [chunk 171/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 171 failed for quran (translate); marking placeholder + continuing
+    [chunk 172/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 172 failed for quran (translate); marking placeholder + continuing
+    [chunk 173/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 173 failed for quran (translate); marking placeholder + continuing
+    [chunk 174/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 174 failed for quran (translate); marking placeholder + continuing
+    [chunk 175/298] quran (translate)  (2222 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 175 failed for quran (translate); marking placeholder + continuing
+    [chunk 176/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 176 failed for quran (translate); marking placeholder + continuing
+    [chunk 177/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 177 failed for quran (translate); marking placeholder + continuing
+    [chunk 178/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 178 failed for quran (translate); marking placeholder + continuing
+    [chunk 179/298] quran (translate)  (2292 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 179 failed for quran (translate); marking placeholder + continuing
+    [chunk 180/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 180 failed for quran (translate); marking placeholder + continuing
+    [chunk 181/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 181 failed for quran (translate); marking placeholder + continuing
+    [chunk 182/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 182 failed for quran (translate); marking placeholder + continuing
+    [chunk 183/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 183 failed for quran (translate); marking placeholder + continuing
+    [chunk 184/298] quran (translate)  (1747 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 184 failed for quran (translate); marking placeholder + continuing
+    [chunk 185/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 185 failed for quran (translate); marking placeholder + continuing
+    [chunk 186/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 186 failed for quran (translate); marking placeholder + continuing
+    [chunk 187/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 187 failed for quran (translate); marking placeholder + continuing
+    [chunk 188/298] quran (translate)  (942 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 188 failed for quran (translate); marking placeholder + continuing
+    [chunk 189/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 189 failed for quran (translate); marking placeholder + continuing
+    [chunk 190/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 190 failed for quran (translate); marking placeholder + continuing
+    [chunk 191/298] quran (translate)  (2124 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 191 failed for quran (translate); marking placeholder + continuing
+    [chunk 192/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 192 failed for quran (translate); marking placeholder + continuing
+    [chunk 193/298] quran (translate)  (2062 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 193 failed for quran (translate); marking placeholder + continuing
+    [chunk 194/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 194 failed for quran (translate); marking placeholder + continuing
+    [chunk 195/298] quran (translate)  (657 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 195 failed for quran (translate); marking placeholder + continuing
+    [chunk 196/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 196 failed for quran (translate); marking placeholder + continuing
+    [chunk 197/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 197 failed for quran (translate); marking placeholder + continuing
+    [chunk 198/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 198 failed for quran (translate); marking placeholder + continuing
+    [chunk 199/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 199 failed for quran (translate); marking placeholder + continuing
+    [chunk 200/298] quran (translate)  (986 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 200 failed for quran (translate); marking placeholder + continuing
+    [chunk 201/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 201 failed for quran (translate); marking placeholder + continuing
+    [chunk 202/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 202 failed for quran (translate); marking placeholder + continuing
+    [chunk 203/298] quran (translate)  (2330 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 203 failed for quran (translate); marking placeholder + continuing
+    [chunk 204/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 204 failed for quran (translate); marking placeholder + continuing
+    [chunk 205/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 205 failed for quran (translate); marking placeholder + continuing
+    [chunk 206/298] quran (translate)  (1440 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 206 failed for quran (translate); marking placeholder + continuing
+    [chunk 207/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 207 failed for quran (translate); marking placeholder + continuing
+    [chunk 208/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 208 failed for quran (translate); marking placeholder + continuing
+    [chunk 209/298] quran (translate)  (1345 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 209 failed for quran (translate); marking placeholder + continuing
+    [chunk 210/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 210 failed for quran (translate); marking placeholder + continuing
+    [chunk 211/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 211 failed for quran (translate); marking placeholder + continuing
+    [chunk 212/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 212 failed for quran (translate); marking placeholder + continuing
+    [chunk 213/298] quran (translate)  (1019 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 213 failed for quran (translate); marking placeholder + continuing
+    [chunk 214/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 214 failed for quran (translate); marking placeholder + continuing
+    [chunk 215/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 215 failed for quran (translate); marking placeholder + continuing
+    [chunk 216/298] quran (translate)  (1501 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 216 failed for quran (translate); marking placeholder + continuing
+    [chunk 217/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 217 failed for quran (translate); marking placeholder + continuing
+    [chunk 218/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 218 failed for quran (translate); marking placeholder + continuing
+    [chunk 219/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 219 failed for quran (translate); marking placeholder + continuing
+    [chunk 220/298] quran (translate)  (2332 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 220 failed for quran (translate); marking placeholder + continuing
+    [chunk 221/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 221 failed for quran (translate); marking placeholder + continuing
+    [chunk 222/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 222 failed for quran (translate); marking placeholder + continuing
+    [chunk 223/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 223 failed for quran (translate); marking placeholder + continuing
+    [chunk 224/298] quran (translate)  (2841 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 224 failed for quran (translate); marking placeholder + continuing
+    [chunk 225/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 225 failed for quran (translate); marking placeholder + continuing
+    [chunk 226/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 226 failed for quran (translate); marking placeholder + continuing
+    [chunk 227/298] quran (translate)  (1807 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 227 failed for quran (translate); marking placeholder + continuing
+    [chunk 228/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 228 failed for quran (translate); marking placeholder + continuing
+    [chunk 229/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 229 failed for quran (translate); marking placeholder + continuing
+    [chunk 230/298] quran (translate)  (2165 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 230 failed for quran (translate); marking placeholder + continuing
+    [chunk 231/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 231 failed for quran (translate); marking placeholder + continuing
+    [chunk 232/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 232 failed for quran (translate); marking placeholder + continuing
+    [chunk 233/298] quran (translate)  (2658 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 233 failed for quran (translate); marking placeholder + continuing
+    [chunk 234/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 234 failed for quran (translate); marking placeholder + continuing
+    [chunk 235/298] quran (translate)  (723 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 235 failed for quran (translate); marking placeholder + continuing
+    [chunk 236/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 236 failed for quran (translate); marking placeholder + continuing
+    [chunk 237/298] quran (translate)  (1872 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 237 failed for quran (translate); marking placeholder + continuing
+    [chunk 238/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 238 failed for quran (translate); marking placeholder + continuing
+    [chunk 239/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 239 failed for quran (translate); marking placeholder + continuing
+    [chunk 240/298] quran (translate)  (127 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 240 failed for quran (translate); marking placeholder + continuing
+    [chunk 241/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 241 failed for quran (translate); marking placeholder + continuing
+    [chunk 242/298] quran (translate)  (2622 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 242 failed for quran (translate); marking placeholder + continuing
+    [chunk 243/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 243 failed for quran (translate); marking placeholder + continuing
+    [chunk 244/298] quran (translate)  (2620 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 244 failed for quran (translate); marking placeholder + continuing
+    [chunk 245/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 245 failed for quran (translate); marking placeholder + continuing
+    [chunk 246/298] quran (translate)  (494 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 246 failed for quran (translate); marking placeholder + continuing
+    [chunk 247/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 247 failed for quran (translate); marking placeholder + continuing
+    [chunk 248/298] quran (translate)  (695 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 248 failed for quran (translate); marking placeholder + continuing
+    [chunk 249/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 249 failed for quran (translate); marking placeholder + continuing
+    [chunk 250/298] quran (translate)  (853 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 250 failed for quran (translate); marking placeholder + continuing
+    [chunk 251/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 251 failed for quran (translate); marking placeholder + continuing
+    [chunk 252/298] quran (translate)  (311 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 252 failed for quran (translate); marking placeholder + continuing
+    [chunk 253/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 253 failed for quran (translate); marking placeholder + continuing
+    [chunk 254/298] quran (translate)  (723 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 254 failed for quran (translate); marking placeholder + continuing
+    [chunk 255/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 255 failed for quran (translate); marking placeholder + continuing
+    [chunk 256/298] quran (translate)  (714 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 256 failed for quran (translate); marking placeholder + continuing
+    [chunk 257/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 257 failed for quran (translate); marking placeholder + continuing
+    [chunk 258/298] quran (translate)  (1287 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 258 failed for quran (translate); marking placeholder + continuing
+    [chunk 259/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 259 failed for quran (translate); marking placeholder + continuing
+    [chunk 260/298] quran (translate)  (1586 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 260 failed for quran (translate); marking placeholder + continuing
+    [chunk 261/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 261 failed for quran (translate); marking placeholder + continuing
+    [chunk 262/298] quran (translate)  (2733 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 262 failed for quran (translate); marking placeholder + continuing
+    [chunk 263/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 263 failed for quran (translate); marking placeholder + continuing
+    [chunk 264/298] quran (translate)  (1656 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 264 failed for quran (translate); marking placeholder + continuing
+    [chunk 265/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 265 failed for quran (translate); marking placeholder + continuing
+    [chunk 266/298] quran (translate)  (1448 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 266 failed for quran (translate); marking placeholder + continuing
+    [chunk 267/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 267 failed for quran (translate); marking placeholder + continuing
+    [chunk 268/298] quran (translate)  (498 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 268 failed for quran (translate); marking placeholder + continuing
+    [chunk 269/298] quran (translate)  (2201 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 269 failed for quran (translate); marking placeholder + continuing
+    [chunk 270/298] quran (translate)  (1746 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 270 failed for quran (translate); marking placeholder + continuing
+    [chunk 271/298] quran (translate)  (1853 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 271 failed for quran (translate); marking placeholder + continuing
+    [chunk 272/298] quran (translate)  (2521 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 272 failed for quran (translate); marking placeholder + continuing
+    [chunk 273/298] quran (translate)  (2796 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 273 failed for quran (translate); marking placeholder + continuing
+    [chunk 274/298] quran (translate)  (2503 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 274 failed for quran (translate); marking placeholder + continuing
+    [chunk 275/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 275 failed for quran (translate); marking placeholder + continuing
+    [chunk 276/298] quran (translate)  (199 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 276 failed for quran (translate); marking placeholder + continuing
+    [chunk 277/298] quran (translate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 277 failed for quran (translate); marking placeholder + continuing
+    [chunk 278/298] quran (translate)  (256 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 278 failed for quran (translate); marking placeholder + continuing
+    [chunk 279/298] quran (translate)  (2890 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 279 failed for quran (translate); marking placeholder + continuing
+    [chunk 280/298] quran (translate)  (2484 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 280 failed for quran (translate); marking placeholder + continuing
+    [chunk 281/298] quran (translate)  (2309 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 281 failed for quran (translate); marking placeholder + continuing
+    [chunk 282/298] quran (translate)  (2693 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 282 failed for quran (translate); marking placeholder + continuing
+    [chunk 283/298] quran (translate)  (2019 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 283 failed for quran (translate); marking placeholder + continuing
+    [chunk 284/298] quran (translate)  (2780 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 284 failed for quran (translate); marking placeholder + continuing
+    [chunk 285/298] quran (translate)  (1871 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 285 failed for quran (translate); marking placeholder + continuing
+    [chunk 286/298] quran (translate)  (2573 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 286 failed for quran (translate); marking placeholder + continuing
+    [chunk 287/298] quran (translate)  (2253 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 287 failed for quran (translate); marking placeholder + continuing
+    [chunk 288/298] quran (translate)  (2018 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 288 failed for quran (translate); marking placeholder + continuing
+    [chunk 289/298] quran (translate)  (2105 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 289 failed for quran (translate); marking placeholder + continuing
+    [chunk 290/298] quran (translate)  (2814 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 290 failed for quran (translate); marking placeholder + continuing
+    [chunk 291/298] quran (translate)  (2829 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 291 failed for quran (translate); marking placeholder + continuing
+    [chunk 292/298] quran (translate)  (2391 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 292 failed for quran (translate); marking placeholder + continuing
+    [chunk 293/298] quran (translate)  (2592 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 293 failed for quran (translate); marking placeholder + continuing
+    [chunk 294/298] quran (translate)  (2472 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 294 failed for quran (translate); marking placeholder + continuing
+    [chunk 295/298] quran (translate)  (2747 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 295 failed for quran (translate); marking placeholder + continuing
+    [chunk 296/298] quran (translate)  (2999 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 296 failed for quran (translate); marking placeholder + continuing
+    [chunk 297/298] quran (translate)  (2885 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 297 failed for quran (translate); marking placeholder + continuing
+    [chunk 298/298] quran (translate)  (876 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 298 failed for quran (translate); marking placeholder + continuing
+  [done] quran (translate)  →  01-translation.md (61516 chars, 298 chunks)
+  [chunk] quran (annotate): 53 chapters → 26 chunks
+    [chunk 1/26] quran (annotate)  (2554 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 1 failed for quran (annotate); marking placeholder + continuing
+    [chunk 2/26] quran (annotate)  (2144 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 2 failed for quran (annotate); marking placeholder + continuing
+    [chunk 3/26] quran (annotate)  (2332 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 3 failed for quran (annotate); marking placeholder + continuing
+    [chunk 4/26] quran (annotate)  (2333 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 4 failed for quran (annotate); marking placeholder + continuing
+    [chunk 5/26] quran (annotate)  (2255 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 5 failed for quran (annotate); marking placeholder + continuing
+    [chunk 6/26] quran (annotate)  (2889 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 6 failed for quran (annotate); marking placeholder + continuing
+    [chunk 7/26] quran (annotate)  (2837 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 7 failed for quran (annotate); marking placeholder + continuing
+    [chunk 8/26] quran (annotate)  (2346 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 8 failed for quran (annotate); marking placeholder + continuing
+    [chunk 9/26] quran (annotate)  (1963 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 9 failed for quran (annotate); marking placeholder + continuing
+    [chunk 10/26] quran (annotate)  (2387 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 10 failed for quran (annotate); marking placeholder + continuing
+    [chunk 11/26] quran (annotate)  (2670 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 11 failed for quran (annotate); marking placeholder + continuing
+    [chunk 12/26] quran (annotate)  (2579 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 12 failed for quran (annotate); marking placeholder + continuing
+    [chunk 13/26] quran (annotate)  (1876 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 13 failed for quran (annotate); marking placeholder + continuing
+    [chunk 14/26] quran (annotate)  (2470 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 14 failed for quran (annotate); marking placeholder + continuing
+    [chunk 15/26] quran (annotate)  (2689 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 15 failed for quran (annotate); marking placeholder + continuing
+    [chunk 16/26] quran (annotate)  (2110 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 16 failed for quran (annotate); marking placeholder + continuing
+    [chunk 17/26] quran (annotate)  (2104 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 17 failed for quran (annotate); marking placeholder + continuing
+    [chunk 18/26] quran (annotate)  (2329 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 18 failed for quran (annotate); marking placeholder + continuing
+    [chunk 19/26] quran (annotate)  (2090 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 19 failed for quran (annotate); marking placeholder + continuing
+    [chunk 20/26] quran (annotate)  (2332 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 20 failed for quran (annotate); marking placeholder + continuing
+    [chunk 21/26] quran (annotate)  (1265 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 21 failed for quran (annotate); marking placeholder + continuing
+    [chunk 22/26] quran (annotate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 22 failed for quran (annotate); marking placeholder + continuing
+    [chunk 23/26] quran (annotate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 23 failed for quran (annotate); marking placeholder + continuing
+    [chunk 24/26] quran (annotate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 24 failed for quran (annotate); marking placeholder + continuing
+    [chunk 25/26] quran (annotate)  (3000 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 25 failed for quran (annotate); marking placeholder + continuing
+    [chunk 26/26] quran (annotate)  (942 chars)
+  [error] m3 exit 3221226091: 
+    [warn] chunk 26 failed for quran (annotate); marking placeholder + continuing
+  [done] quran (annotate)  →  02-annotation.md (1185 chars, 26 chunks)
+
+done: 2/2

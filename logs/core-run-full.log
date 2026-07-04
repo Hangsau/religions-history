@@ -1,0 +1,531 @@
+tier=核心  queue=365  already_done=3  this_run=362  tasks=['translate', 'tag']
+[1/362] heart-sutra-kumarajiva
+  [start] heart-sutra-kumarajiva (tag)  (prompt 4071 chars)
+  [done] heart-sutra-kumarajiva (tag)  →  5 tags, 10 keywords
+[2/362] yinfu-jing
+  [start] yinfu-jing (translate)  (prompt 4449 chars)
+  [done] yinfu-jing (translate)  →  01-translation.md (877 chars)
+  [start] yinfu-jing (tag)  (prompt 4363 chars)
+  [done] yinfu-jing (tag)  →  7 tags, 14 keywords
+[3/362] qingjing-jing
+  [start] qingjing-jing (translate)  (prompt 4506 chars)
+  [done] qingjing-jing (translate)  →  01-translation.md (907 chars)
+  [start] qingjing-jing (tag)  (prompt 4400 chars)
+  [done] qingjing-jing (tag)  →  8 tags, 12 keywords
+[4/362] sblgnt-3-john
+  [start] sblgnt-3-john (translate)  (prompt 5277 chars)
+  [done] sblgnt-3-john (translate)  →  01-translation.md (722 chars)
+  [start] sblgnt-3-john (tag)  (prompt 4224 chars)
+  [done] sblgnt-3-john (tag)  →  5 tags, 10 keywords
+[5/362] sblgnt-2-john
+  [start] sblgnt-2-john (translate)  (prompt 5311 chars)
+  [done] sblgnt-2-john (translate)  →  01-translation.md (721 chars)
+  [start] sblgnt-2-john (tag)  (prompt 4223 chars)
+  [done] sblgnt-2-john (tag)  →  4 tags, 10 keywords
+  [git] committed 19 paths
+  [git] pushed
+[6/362] heart-sutra-xuanzang
+  [start] heart-sutra-xuanzang (tag)  (prompt 4952 chars)
+  [done] heart-sutra-xuanzang (tag)  →  7 tags, 13 keywords
+[7/362] taishang-ganying-pian
+  [start] taishang-ganying-pian (translate)  (prompt 5372 chars)
+  [done] taishang-ganying-pian (translate)  →  01-translation.md (1782 chars)
+  [start] taishang-ganying-pian (tag)  (prompt 5279 chars)
+  [done] taishang-ganying-pian (tag)  →  7 tags, 14 keywords
+[8/362] sblgnt-jude
+  [start] sblgnt-jude (translate)  (prompt 7060 chars)
+  [done] sblgnt-jude (translate)  →  01-translation.md (1292 chars)
+  [start] sblgnt-jude (tag)  (prompt 4791 chars)
+  [done] sblgnt-jude (tag)  →  8 tags, 12 keywords
+[9/362] great-learning
+  [start] great-learning (tag)  (prompt 5887 chars)
+  [done] great-learning (tag)  →  7 tags, 13 keywords
+[10/362] amitabha-sutra
+  [start] amitabha-sutra (translate)  (prompt 6279 chars)
+  [done] amitabha-sutra (translate)  →  01-translation.md (2688 chars)
+  [start] amitabha-sutra (tag)  (prompt 6179 chars)
+  [done] amitabha-sutra (tag)  →  7 tags, 12 keywords
+  [git] committed 19 paths
+  [git] pushed
+[11/362] huangting-waijing
+  [start] huangting-waijing (translate)  (prompt 6839 chars)
+  [done] huangting-waijing (translate)  →  01-translation.md (3241 chars)
+  [start] huangting-waijing (tag)  (prompt 6734 chars)
+  [done] huangting-waijing (tag)  →  7 tags, 14 keywords
+[12/362] sblgnt-titus
+  [start] sblgnt-titus (translate)  (prompt 8610 chars)
+  [done] sblgnt-titus (translate)  →  01-translation.md (2153 chars)
+  [start] sblgnt-titus (tag)  (prompt 5653 chars)
+  [done] sblgnt-titus (tag)  →  8 tags, 15 keywords
+[13/362] fortytwo-chapters-sutra
+  [start] fortytwo-chapters-sutra (translate)  (prompt 6981 chars)
+  [done] fortytwo-chapters-sutra (translate)  →  01-translation.md (3380 chars)
+  [start] fortytwo-chapters-sutra (tag)  (prompt 6879 chars)
+  [done] fortytwo-chapters-sutra (tag)  →  8 tags, 15 keywords
+[14/362] sblgnt-2-thessalonians
+  [start] sblgnt-2-thessalonians (translate)  (prompt 9123 chars)
+  [done] sblgnt-2-thessalonians (translate)  →  01-translation.md (2273 chars)
+  [start] sblgnt-2-thessalonians (tag)  (prompt 5787 chars)
+  [done] sblgnt-2-thessalonians (tag)  →  7 tags, 15 keywords
+[15/362] nahum
+  [start] nahum (translate)  (prompt 9167 chars)
+  [done] nahum (translate)  →  01-translation.md (1998 chars)
+  [start] nahum (tag)  (prompt 5477 chars)
+  [done] nahum (tag)  →  7 tags, 12 keywords
+  [git] committed 19 paths
+  [git] pushed
+[16/362] haggai
+  [start] haggai (translate)  (prompt 9300 chars)
+  [done] haggai (translate)  →  01-translation.md (1864 chars)
+  [start] haggai (tag)  (prompt 5344 chars)
+  [done] haggai (tag)  →  8 tags, 13 keywords
+[17/362] habakkuk
+  [start] habakkuk (translate)  (prompt 9964 chars)
+  [done] habakkuk (translate)  →  01-translation.md (2323 chars)
+  [start] habakkuk (tag)  (prompt 5806 chars)
+  [done] habakkuk (tag)  →  8 tags, 12 keywords
+[18/362] jonah
+  [start] jonah (translate)  (prompt 10170 chars)
+  [done] jonah (translate)  →  01-translation.md (2022 chars)
+  [start] jonah (tag)  (prompt 5501 chars)
+  [done] jonah (tag)  →  8 tags, 14 keywords
+[19/362] sn9-vana
+  [chunk] sn9-vana (translate): 14 chapters → 5 chunks
+    [chunk 1/5] sn9-vana (translate)  (2543 chars)
+    [chunk 2/5] sn9-vana (translate)  (2775 chars)
+    [chunk 3/5] sn9-vana (translate)  (2292 chars)
+    [chunk 4/5] sn9-vana (translate)  (2148 chars)
+    [chunk 5/5] sn9-vana (translate)  (1411 chars)
+  [done] sn9-vana (translate)  →  01-translation.md (4541 chars, 5 chunks)
+  [start] sn9-vana (tag)  (prompt 8030 chars)
+  [done] sn9-vana (tag)  →  6 tags, 14 keywords
+[20/362] zephaniah
+  [start] zephaniah (translate)  (prompt 10911 chars)
+  [done] zephaniah (translate)  →  01-translation.md (2706 chars)
+  [start] zephaniah (tag)  (prompt 6190 chars)
+  [done] zephaniah (tag)  →  7 tags, 14 keywords
+  [git] committed 19 paths
+  [git] pushed
+[21/362] doctrine-of-the-mean
+  [start] doctrine-of-the-mean (tag)  (prompt 8243 chars)
+  [done] doctrine-of-the-mean (tag)  →  7 tags, 12 keywords
+[22/362] sn5-bhikkhuni
+  [chunk] sn5-bhikkhuni (translate): 10 chapters → 5 chunks
+    [chunk 1/5] sn5-bhikkhuni (translate)  (2543 chars)
+    [chunk 2/5] sn5-bhikkhuni (translate)  (2483 chars)
+    [chunk 3/5] sn5-bhikkhuni (translate)  (2126 chars)
+    [chunk 4/5] sn5-bhikkhuni (translate)  (2957 chars)
+    [chunk 5/5] sn5-bhikkhuni (translate)  (1559 chars)
+  [done] sn5-bhikkhuni (translate)  →  01-translation.md (5296 chars, 5 chunks)
+  [start] sn5-bhikkhuni (tag)  (prompt 8792 chars)
+  [done] sn5-bhikkhuni (tag)  →  8 tags, 11 keywords
+[23/362] sblgnt-2-peter
+  [start] sblgnt-2-peter (translate)  (prompt 11528 chars)
+  [done] sblgnt-2-peter (translate)  →  01-translation.md (2830 chars)
+  [start] sblgnt-2-peter (tag)  (prompt 6333 chars)
+  [done] sblgnt-2-peter (tag)  →  8 tags, 15 keywords
+[24/362] malachi
+  [chunk] malachi (translate): 3 chapters → 4 chunks
+    [chunk 1/4] malachi (translate)  (2194 chars)
+    [chunk 2/4] malachi (translate)  (2533 chars)
+    [chunk 3/4] malachi (translate)  (3000 chars)
+    [chunk 4/4] malachi (translate)  (432 chars)
+  [done] malachi (translate)  →  01-translation.md (3183 chars, 4 chunks)
+  [start] malachi (tag)  (prompt 6665 chars)
+  [done] malachi (tag)  →  8 tags, 15 keywords
+[25/362] sn10-yakkha
+  [chunk] sn10-yakkha (translate): 12 chapters → 6 chunks
+    [chunk 1/6] sn10-yakkha (translate)  (2634 chars)
+    [chunk 2/6] sn10-yakkha (translate)  (2385 chars)
+    [chunk 3/6] sn10-yakkha (translate)  (1339 chars)
+    [chunk 4/6] sn10-yakkha (translate)  (2969 chars)
+    [chunk 5/6] sn10-yakkha (translate)  (1523 chars)
+    [chunk 6/6] sn10-yakkha (translate)  (2686 chars)
+  [done] sn10-yakkha (translate)  →  01-translation.md (5716 chars, 6 chunks)
+  [start] sn10-yakkha (tag)  (prompt 9210 chars)
+  [done] sn10-yakkha (tag)  →  7 tags, 12 keywords
+  [git] committed 19 paths
+  [git] pushed
+[26/362] sblgnt-2-timothy
+  [chunk] sblgnt-2-timothy (translate): 4 chapters → 4 chunks
+    [chunk 1/4] sblgnt-2-timothy (translate)  (2025 chars)
+    [chunk 2/4] sblgnt-2-timothy (translate)  (2512 chars)
+    [chunk 3/4] sblgnt-2-timothy (translate)  (1710 chars)
+    [chunk 4/4] sblgnt-2-timothy (translate)  (2235 chars)
+  [done] sblgnt-2-timothy (translate)  →  01-translation.md (2061 chars, 4 chunks)
+  [start] sblgnt-2-timothy (tag)  (prompt 5567 chars)
+  [done] sblgnt-2-timothy (tag)  →  7 tags, 14 keywords
+[27/362] joel
+  [chunk] joel (translate): 4 chapters → 5 chunks
+    [chunk 1/5] joel (translate)  (2185 chars)
+    [chunk 2/5] joel (translate)  (3000 chars)
+    [chunk 3/5] joel (translate)  (580 chars)
+    [chunk 4/5] joel (translate)  (666 chars)
+    [chunk 5/5] joel (translate)  (2648 chars)
+  [done] joel (translate)  →  01-translation.md (3332 chars, 5 chunks)
+  [start] joel (tag)  (prompt 6810 chars)
+  [done] joel (tag)  →  8 tags, 11 keywords
+[28/362] medicine-buddha-sutra
+  [start] medicine-buddha-sutra (translate)  (prompt 9881 chars)
+  [done] medicine-buddha-sutra (translate)  →  01-translation.md (6273 chars)
+  [start] medicine-buddha-sutra (tag)  (prompt 9777 chars)
+  [done] medicine-buddha-sutra (tag)  →  8 tags, 13 keywords
+[29/362] yoga-sutra
+  [chunk] yoga-sutra (translate): 1 chapters → 6 chunks
+    [chunk 1/6] yoga-sutra (translate)  (3000 chars)
+    [chunk 2/6] yoga-sutra (translate)  (3000 chars)
+    [chunk 3/6] yoga-sutra (translate)  (3000 chars)
+    [chunk 4/6] yoga-sutra (translate)  (3000 chars)
+  [error] m3 timeout after 600s
+    [warn] chunk 4 failed for yoga-sutra (translate); marking placeholder + continuing
+    [chunk 5/6] yoga-sutra (translate)  (3000 chars)
+    [chunk 6/6] yoga-sutra (translate)  (863 chars)
+  [done] yoga-sutra (translate)  →  01-translation.md (7424 chars, 6 chunks)
+  [start] yoga-sutra (tag)  (prompt 10913 chars)
+  [done] yoga-sutra (tag)  →  8 tags, 14 keywords
+[30/362] sblgnt-1-thessalonians
+  [chunk] sblgnt-1-thessalonians (translate): 5 chapters → 5 chunks
+    [chunk 1/5] sblgnt-1-thessalonians (translate)  (1322 chars)
+    [chunk 2/5] sblgnt-1-thessalonians (translate)  (2533 chars)
+    [chunk 3/5] sblgnt-1-thessalonians (translate)  (1562 chars)
+    [chunk 4/5] sblgnt-1-thessalonians (translate)  (2028 chars)
+    [chunk 5/5] sblgnt-1-thessalonians (translate)  (2213 chars)
+  [done] sblgnt-1-thessalonians (translate)  →  01-translation.md (3913 chars, 5 chunks)
+  [start] sblgnt-1-thessalonians (tag)  (prompt 7427 chars)
+  [done] sblgnt-1-thessalonians (tag)  →  8 tags, 15 keywords
+  [git] committed 19 paths
+  [git] pushed
+[31/362] sblgnt-colossians
+  [chunk] sblgnt-colossians (translate): 4 chapters → 5 chunks
+    [chunk 1/5] sblgnt-colossians (translate)  (3000 chars)
+    [chunk 2/5] sblgnt-colossians (translate)  (452 chars)
+    [chunk 3/5] sblgnt-colossians (translate)  (2529 chars)
+    [chunk 4/5] sblgnt-colossians (translate)  (2441 chars)
+    [chunk 5/5] sblgnt-colossians (translate)  (1863 chars)
+  [done] sblgnt-colossians (translate)  →  01-translation.md (4602 chars, 5 chunks)
+  [start] sblgnt-colossians (tag)  (prompt 8108 chars)
+  [done] sblgnt-colossians (tag)  →  8 tags, 15 keywords
+[32/362] diamond-sutra-kumarajiva
+  [start] diamond-sutra-kumarajiva (tag)  (prompt 10368 chars)
+  [done] diamond-sutra-kumarajiva (tag)  →  7 tags, 14 keywords
+[33/362] shvetashvatara-upanishad
+  [chunk] shvetashvatara-upanishad (translate): 1 chapters → 6 chunks
+    [chunk 1/6] shvetashvatara-upanishad (translate)  (3000 chars)
+    [chunk 2/6] shvetashvatara-upanishad (translate)  (3000 chars)
+    [chunk 3/6] shvetashvatara-upanishad (translate)  (3000 chars)
+    [chunk 4/6] shvetashvatara-upanishad (translate)  (3000 chars)
+    [chunk 5/6] shvetashvatara-upanishad (translate)  (3000 chars)
+    [chunk 6/6] shvetashvatara-upanishad (translate)  (1813 chars)
+  [done] shvetashvatara-upanishad (translate)  →  01-translation.md (6515 chars, 6 chunks)
+  [start] shvetashvatara-upanishad (tag)  (prompt 10020 chars)
+  [done] shvetashvatara-upanishad (tag)  →  8 tags, 15 keywords
+[34/362] sn8-vangisa
+  [chunk] sn8-vangisa (translate): 12 chapters → 7 chunks
+    [chunk 1/7] sn8-vangisa (translate)  (2810 chars)
+    [chunk 2/7] sn8-vangisa (translate)  (1849 chars)
+    [chunk 3/7] sn8-vangisa (translate)  (2904 chars)
+    [chunk 4/7] sn8-vangisa (translate)  (2574 chars)
+    [chunk 5/7] sn8-vangisa (translate)  (2242 chars)
+    [chunk 6/7] sn8-vangisa (translate)  (2610 chars)
+    [chunk 7/7] sn8-vangisa (translate)  (2039 chars)
+  [done] sn8-vangisa (translate)  →  01-translation.md (6775 chars, 7 chunks)
+  [start] sn8-vangisa (tag)  (prompt 10266 chars)
+  [done] sn8-vangisa (tag)  →  7 tags, 12 keywords
+[35/362] katha-upanishad
+  [chunk] katha-upanishad (tag): 4 chapters → 4 chunks
+    [chunk 1/4] katha-upanishad (tag)
+    [chunk 2/4] katha-upanishad (tag)
+    [chunk 3/4] katha-upanishad (tag)
+    [chunk 4/4] katha-upanishad (tag)
+  [done] katha-upanishad (tag)  →  16 tags, 15 keywords
+  [git] committed 19 paths
+  [git] pushed
+[36/362] sblgnt-philippians
+  [chunk] sblgnt-philippians (translate): 4 chapters → 5 chunks
+    [chunk 1/5] sblgnt-philippians (translate)  (3000 chars)
+    [chunk 2/5] sblgnt-philippians (translate)  (187 chars)
+    [chunk 3/5] sblgnt-philippians (translate)  (2850 chars)
+    [chunk 4/5] sblgnt-philippians (translate)  (2194 chars)
+    [chunk 5/5] sblgnt-philippians (translate)  (2278 chars)
+  [done] sblgnt-philippians (translate)  →  01-translation.md (4476 chars, 5 chunks)
+  [skip-done] sblgnt-philippians (tag)
+[37/362] tao-te-ching
+  [skip-done] tao-te-ching (tag)
+[38/362] sblgnt-1-timothy
+  [chunk] sblgnt-1-timothy (translate): 6 chapters → 5 chunks
+    [chunk 1/5] sblgnt-1-timothy (translate)  (2174 chars)
+    [chunk 2/5] sblgnt-1-timothy (translate)  (2827 chars)
+    [chunk 3/5] sblgnt-1-timothy (translate)  (1578 chars)
+    [chunk 4/5] sblgnt-1-timothy (translate)  (2333 chars)
+    [chunk 5/5] sblgnt-1-timothy (translate)  (2520 chars)
+  [done] sblgnt-1-timothy (translate)  →  01-translation.md (4611 chars, 5 chunks)
+  [skip-done] sblgnt-1-timothy (tag)
+[39/362] sblgnt-james
+  [chunk] sblgnt-james (translate): 5 chapters → 5 chunks
+    [chunk 1/5] sblgnt-james (translate)  (2804 chars)
+    [chunk 2/5] sblgnt-james (translate)  (2650 chars)
+    [chunk 3/5] sblgnt-james (translate)  (1940 chars)
+    [chunk 4/5] sblgnt-james (translate)  (1804 chars)
+    [chunk 5/5] sblgnt-james (translate)  (2302 chars)
+  [done] sblgnt-james (translate)  →  01-translation.md (4535 chars, 5 chunks)
+  [skip-done] sblgnt-james (tag)
+[40/362] sblgnt-1-peter
+  [chunk] sblgnt-1-peter (translate): 5 chapters → 5 chunks
+    [chunk 1/5] sblgnt-1-peter (translate)  (2817 chars)
+    [chunk 2/5] sblgnt-1-peter (translate)  (2756 chars)
+    [chunk 3/5] sblgnt-1-peter (translate)  (2564 chars)
+    [chunk 4/5] sblgnt-1-peter (translate)  (2015 chars)
+    [chunk 5/5] sblgnt-1-peter (translate)  (1490 chars)
+  [done] sblgnt-1-peter (translate)  →  01-translation.md (4850 chars, 5 chunks)
+  [skip-done] sblgnt-1-peter (tag)
+  [git] committed 19 paths
+  [git] pushed
+[41/362] ruth
+  [chunk] ruth (translate): 4 chapters → 7 chunks
+    [chunk 1/7] ruth (translate)  (3000 chars)
+    [chunk 2/7] ruth (translate)  (44 chars)
+    [chunk 3/7] ruth (translate)  (3000 chars)
+    [chunk 4/7] ruth (translate)  (571 chars)
+    [chunk 5/7] ruth (translate)  (2390 chars)
+    [chunk 6/7] ruth (translate)  (3000 chars)
+    [chunk 7/7] ruth (translate)  (37 chars)
+  [done] ruth (translate)  →  01-translation.md (4496 chars, 7 chunks)
+  [skip-done] ruth (tag)
+[42/362] zhouyi-cantong-qi
+  [chunk] zhouyi-cantong-qi (translate): 35 chapters → 3 chunks
+    [chunk 1/3] zhouyi-cantong-qi (translate)  (2913 chars)
+    [chunk 2/3] zhouyi-cantong-qi (translate)  (2981 chars)
+    [chunk 3/3] zhouyi-cantong-qi (translate)  (2404 chars)
+  [done] zhouyi-cantong-qi (translate)  →  01-translation.md (8454 chars, 3 chunks)
+  [skip-done] zhouyi-cantong-qi (tag)
+[43/362] song-of-songs
+  [chunk] song-of-songs (translate): 8 chapters → 7 chunks
+    [chunk 1/7] song-of-songs (translate)  (1542 chars)
+    [chunk 2/7] song-of-songs (translate)  (1778 chars)
+    [chunk 3/7] song-of-songs (translate)  (1415 chars)
+    [chunk 4/7] song-of-songs (translate)  (1806 chars)
+    [chunk 5/7] song-of-songs (translate)  (1808 chars)
+    [chunk 6/7] song-of-songs (translate)  (2673 chars)
+    [chunk 7/7] song-of-songs (translate)  (1656 chars)
+  [done] song-of-songs (translate)  →  01-translation.md (4918 chars, 7 chunks)
+  [skip-done] song-of-songs (tag)
+[44/362] sblgnt-1-john
+  [chunk] sblgnt-1-john (translate): 5 chapters → 6 chunks
+    [chunk 1/6] sblgnt-1-john (translate)  (1269 chars)
+    [chunk 2/6] sblgnt-1-john (translate)  (3000 chars)
+    [chunk 3/6] sblgnt-1-john (translate)  (416 chars)
+    [chunk 4/6] sblgnt-1-john (translate)  (2801 chars)
+    [chunk 5/6] sblgnt-1-john (translate)  (2575 chars)
+    [chunk 6/6] sblgnt-1-john (translate)  (2460 chars)
+  [done] sblgnt-1-john (translate)  →  01-translation.md (4705 chars, 6 chunks)
+  [skip-done] sblgnt-1-john (tag)
+[45/362] vaisheshika-sutra-kanada
+  [chunk] vaisheshika-sutra-kanada (translate): 1 chapters → 7 chunks
+    [chunk 1/7] vaisheshika-sutra-kanada (translate)  (3000 chars)
+    [chunk 2/7] vaisheshika-sutra-kanada (translate)  (3000 chars)
+    [chunk 3/7] vaisheshika-sutra-kanada (translate)  (3000 chars)
+    [chunk 4/7] vaisheshika-sutra-kanada (translate)  (3000 chars)
+    [chunk 5/7] vaisheshika-sutra-kanada (translate)  (3000 chars)
+    [chunk 6/7] vaisheshika-sutra-kanada (translate)  (3000 chars)
+    [chunk 7/7] vaisheshika-sutra-kanada (translate)  (2874 chars)
+  [done] vaisheshika-sutra-kanada (translate)  →  01-translation.md (15455 chars, 7 chunks)
+  [skip-done] vaisheshika-sutra-kanada (tag)
+  [git] committed 19 paths
+  [git] pushed
+[46/362] micah
+  [chunk] micah (translate): 7 chapters → 7 chunks
+    [chunk 1/7] micah (translate)  (2037 chars)
+    [chunk 2/7] micah (translate)  (1647 chars)
+    [chunk 3/7] micah (translate)  (1640 chars)
+    [chunk 4/7] micah (translate)  (2140 chars)
+    [chunk 5/7] micah (translate)  (1690 chars)
+    [chunk 6/7] micah (translate)  (1881 chars)
+    [chunk 7/7] micah (translate)  (2286 chars)
+  [done] micah (translate)  →  01-translation.md (4776 chars, 7 chunks)
+  [skip-done] micah (tag)
+[47/362] samkhya-karika-ishvarakrshna
+  [chunk] samkhya-karika-ishvarakrshna (translate): 1 chapters → 8 chunks
+    [chunk 1/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 2/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 3/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 4/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 5/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 6/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 7/8] samkhya-karika-ishvarakrshna (translate)  (3000 chars)
+    [chunk 8/8] samkhya-karika-ishvarakrshna (translate)  (2868 chars)
+  [done] samkhya-karika-ishvarakrshna (translate)  →  01-translation.md (12657 chars, 8 chunks)
+  [skip-done] samkhya-karika-ishvarakrshna (tag)
+[48/362] sblgnt-galatians
+  [chunk] sblgnt-galatians (translate): 6 chapters → 6 chunks
+    [chunk 1/6] sblgnt-galatians (translate)  (2378 chars)
+    [chunk 2/6] sblgnt-galatians (translate)  (2533 chars)
+    [chunk 3/6] sblgnt-galatians (translate)  (2917 chars)
+    [chunk 4/6] sblgnt-galatians (translate)  (2810 chars)
+    [chunk 5/6] sblgnt-galatians (translate)  (2196 chars)
+  [error] m3 timeout after 600s
+    [warn] chunk 5 failed for sblgnt-galatians (translate); marking placeholder + continuing
+    [chunk 6/6] sblgnt-galatians (translate)  (1760 chars)
+  [done] sblgnt-galatians (translate)  →  01-translation.md (5437 chars, 6 chunks)
+  [skip-done] sblgnt-galatians (tag)
+[49/362] isha-upanishad
+  [skip-done] isha-upanishad (tag)
+[50/362] brahma-sutra
+  [chunk] brahma-sutra (translate): 1 chapters → 9 chunks
+    [chunk 1/9] brahma-sutra (translate)  (3000 chars)
+    [chunk 2/9] brahma-sutra (translate)  (3000 chars)
+    [chunk 3/9] brahma-sutra (translate)  (3000 chars)
+    [chunk 4/9] brahma-sutra (translate)  (3000 chars)
+    [chunk 5/9] brahma-sutra (translate)  (3000 chars)
+    [chunk 6/9] brahma-sutra (translate)  (3000 chars)
+  [error] m3 timeout after 600s
+    [warn] chunk 6 failed for brahma-sutra (translate); marking placeholder + continuing
+    [chunk 7/9] brahma-sutra (translate)  (3000 chars)
+  [error] m3 timeout after 600s
+    [warn] chunk 7 failed for brahma-sutra (translate); marking placeholder + continuing
+    [chunk 8/9] brahma-sutra (translate)  (3000 chars)
+    [chunk 9/9] brahma-sutra (translate)  (1977 chars)
+  [done] brahma-sutra (translate)  →  01-translation.md (12630 chars, 9 chunks)
+  [skip-done] brahma-sutra (tag)
+  [git] committed 19 paths
+  [git] pushed
+[51/362] lamentations
+  [chunk] lamentations (translate): 5 chapters → 8 chunks
+    [chunk 1/8] lamentations (translate)  (3000 chars)
+    [chunk 2/8] lamentations (translate)  (691 chars)
+    [chunk 3/8] lamentations (translate)  (3000 chars)
+    [chunk 4/8] lamentations (translate)  (870 chars)
+  [error] m3 timeout after 600s
+    [warn] chunk 4 failed for lamentations (translate); marking placeholder + continuing
+    [chunk 5/8] lamentations (translate)  (3000 chars)
+    [chunk 6/8] lamentations (translate)  (1349 chars)
+    [chunk 7/8] lamentations (translate)  (2742 chars)
+    [chunk 8/8] lamentations (translate)  (1495 chars)
+  [done] lamentations (translate)  →  01-translation.md (5165 chars, 8 chunks)
+  [skip-done] lamentations (tag)
+[52/362] contemplation-sutra
+  [chunk] contemplation-sutra (translate): 1 chapters → 4 chunks
+    [chunk 1/4] contemplation-sutra (translate)  (3000 chars)
+    [chunk 2/4] contemplation-sutra (translate)  (3000 chars)
+    [chunk 3/4] contemplation-sutra (translate)  (3000 chars)
+    [chunk 4/4] contemplation-sutra (translate)  (986 chars)
+  [done] contemplation-sutra (translate)  →  01-translation.md (10516 chars, 4 chunks)
+  [skip-done] contemplation-sutra (tag)
+[53/362] sblgnt-ephesians
+  [chunk] sblgnt-ephesians (translate): 6 chapters → 7 chunks
+    [chunk 1/7] sblgnt-ephesians (translate)  (2572 chars)
+    [chunk 2/7] sblgnt-ephesians (translate)  (2358 chars)
+    [chunk 3/7] sblgnt-ephesians (translate)  (2111 chars)
+    [chunk 4/7] sblgnt-ephesians (translate)  (3000 chars)
+    [chunk 5/7] sblgnt-ephesians (translate)  (196 chars)
+    [chunk 6/7] sblgnt-ephesians (translate)  (2954 chars)
+    [chunk 7/7] sblgnt-ephesians (translate)  (2540 chars)
+  [done] sblgnt-ephesians (translate)  →  01-translation.md (5701 chars, 7 chunks)
+  [skip-done] sblgnt-ephesians (tag)
+[54/362] amos
+  [chunk] amos (translate): 9 chapters → 9 chunks
+    [chunk 1/9] amos (translate)  (2062 chars)
+    [chunk 2/9] amos (translate)  (2047 chars)
+    [chunk 3/9] amos (translate)  (1894 chars)
+    [chunk 4/9] amos (translate)  (2064 chars)
+    [chunk 5/9] amos (translate)  (2897 chars)
+    [chunk 6/9] amos (translate)  (1711 chars)
+    [chunk 7/9] amos (translate)  (2182 chars)
+    [chunk 8/9] amos (translate)  (1825 chars)
+    [chunk 9/9] amos (translate)  (2404 chars)
+  [done] amos (translate)  →  01-translation.md (6707 chars, 9 chunks)
+  [skip-done] amos (tag)
+[55/362] sn2-devaputta
+  [chunk] sn2-devaputta (translate): 30 chapters → 14 chunks
+    [chunk 1/14] sn2-devaputta (translate)  (2818 chars)
+    [chunk 2/14] sn2-devaputta (translate)  (1179 chars)
+    [chunk 3/14] sn2-devaputta (translate)  (2965 chars)
+    [chunk 4/14] sn2-devaputta (translate)  (2644 chars)
+    [chunk 5/14] sn2-devaputta (translate)  (2821 chars)
+    [chunk 6/14] sn2-devaputta (translate)  (2310 chars)
+    [chunk 7/14] sn2-devaputta (translate)  (1850 chars)
+    [chunk 8/14] sn2-devaputta (translate)  (3000 chars)
+    [chunk 9/14] sn2-devaputta (translate)  (549 chars)
+    [chunk 10/14] sn2-devaputta (translate)  (2254 chars)
+    [chunk 11/14] sn2-devaputta (translate)  (2857 chars)
+    [chunk 12/14] sn2-devaputta (translate)  (3000 chars)
+    [chunk 13/14] sn2-devaputta (translate)  (1891 chars)
+    [chunk 14/14] sn2-devaputta (translate)  (2380 chars)
+  [done] sn2-devaputta (translate)  →  01-translation.md (13202 chars, 14 chunks)
+  [skip-done] sn2-devaputta (tag)
+  [git] committed 19 paths
+  [git] pushed
+[56/362] awakening-of-faith
+  [chunk] awakening-of-faith (translate): 1 chapters → 5 chunks
+    [chunk 1/5] awakening-of-faith (translate)  (3000 chars)
+    [chunk 2/5] awakening-of-faith (translate)  (3000 chars)
+    [chunk 3/5] awakening-of-faith (translate)  (3000 chars)
+    [chunk 4/5] awakening-of-faith (translate)  (3000 chars)
+    [chunk 5/5] awakening-of-faith (translate)  (1291 chars)
+  [done] awakening-of-faith (translate)  →  01-translation.md (13622 chars, 5 chunks)
+  [skip-done] awakening-of-faith (tag)
+[57/362] sn6-brahma
+  [chunk] sn6-brahma (translate): 15 chapters → 16 chunks
+    [chunk 1/16] sn6-brahma (translate)  (3000 chars)
+    [chunk 2/16] sn6-brahma (translate)  (652 chars)
+    [chunk 3/16] sn6-brahma (translate)  (3000 chars)
+    [chunk 4/16] sn6-brahma (translate)  (101 chars)
+    [chunk 5/16] sn6-brahma (translate)  (2276 chars)
+    [chunk 6/16] sn6-brahma (translate)  (2624 chars)
+    [chunk 7/16] sn6-brahma (translate)  (3000 chars)
+    [chunk 8/16] sn6-brahma (translate)  (876 chars)
+    [chunk 9/16] sn6-brahma (translate)  (2960 chars)
+    [chunk 10/16] sn6-brahma (translate)  (1569 chars)
+    [chunk 11/16] sn6-brahma (translate)  (3000 chars)
+    [chunk 12/16] sn6-brahma (translate)  (1863 chars)
+    [chunk 13/16] sn6-brahma (translate)  (2357 chars)
+    [chunk 14/16] sn6-brahma (translate)  (3000 chars)
+    [chunk 15/16] sn6-brahma (translate)  (1524 chars)
+    [chunk 16/16] sn6-brahma (translate)  (2466 chars)
+  [done] sn6-brahma (translate)  →  01-translation.md (13391 chars, 16 chunks)
+  [skip-done] sn6-brahma (tag)
+[58/362] sn11-sakka
+  [chunk] sn11-sakka (translate): 25 chapters → 15 chunks
+    [chunk 1/15] sn11-sakka (translate)  (2076 chars)
+    [chunk 2/15] sn11-sakka (translate)  (1662 chars)
+    [chunk 3/15] sn11-sakka (translate)  (3000 chars)
+    [chunk 4/15] sn11-sakka (translate)  (444 chars)
+    [chunk 5/15] sn11-sakka (translate)  (2498 chars)
+    [chunk 6/15] sn11-sakka (translate)  (2914 chars)
+    [chunk 7/15] sn11-sakka (translate)  (2515 chars)
+    [chunk 8/15] sn11-sakka (translate)  (2878 chars)
+    [chunk 9/15] sn11-sakka (translate)  (2685 chars)
+    [chunk 10/15] sn11-sakka (translate)  (2201 chars)
+    [chunk 11/15] sn11-sakka (translate)  (2539 chars)
+    [chunk 12/15] sn11-sakka (translate)  (2596 chars)
+    [chunk 13/15] sn11-sakka (translate)  (2804 chars)
+    [chunk 14/15] sn11-sakka (translate)  (2490 chars)
+    [chunk 15/15] sn11-sakka (translate)  (2849 chars)
+  [done] sn11-sakka (translate)  →  01-translation.md (16671 chars, 15 chunks)
+  [skip-done] sn11-sakka (tag)
+[59/362] sn4-mara
+  [chunk] sn4-mara (translate): 25 chapters → 16 chunks
+    [chunk 1/16] sn4-mara (translate)  (2714 chars)
+    [chunk 2/16] sn4-mara (translate)  (2013 chars)
+    [chunk 3/16] sn4-mara (translate)  (2611 chars)
+    [chunk 4/16] sn4-mara (translate)  (2330 chars)
+    [chunk 5/16] sn4-mara (translate)  (2711 chars)
+    [chunk 6/16] sn4-mara (translate)  (1903 chars)
+    [chunk 7/16] sn4-mara (translate)  (2578 chars)
+    [chunk 8/16] sn4-mara (translate)  (2303 chars)
+    [chunk 9/16] sn4-mara (translate)  (1396 chars)
+    [chunk 10/16] sn4-mara (translate)  (2466 chars)
+    [chunk 11/16] sn4-mara (translate)  (2245 chars)
+    [chunk 12/16] sn4-mara (translate)  (3000 chars)
+    [chunk 13/16] sn4-mara (translate)  (503 chars)
+    [chunk 14/16] sn4-mara (translate)  (2080 chars)
+    [chunk 15/16] sn4-mara (translate)  (3000 chars)
+    [chunk 16/16] sn4-mara (translate)  (2036 chars)
+  [done] sn4-mara (translate)  →  01-translation.md (15993 chars, 16 chunks)
+  [skip-done] sn4-mara (tag)
+[60/362] sn7-brahmana
+  [chunk] sn7-brahmana (translate): 22 chapters → 17 chunks
+    [chunk 1/17] sn7-brahmana (translate)  (2507 chars)
+    [chunk 2/17] sn7-brahmana (translate)  (2578 chars)
+    [chunk 3/17] sn7-brahmana (translate)  (2520 chars)
+    [chunk 4/17] sn7-brahmana (translate)  (1663 chars)
+    [chunk 5/17] sn7-brahmana (translate)  (1402 chars)

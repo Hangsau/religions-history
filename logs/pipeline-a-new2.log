@@ -31,3 +31,742 @@
   [ok] sefaria-bereshit-rabbah: 100 chapters, 2338095 bytes
   [book] Shemot Rabbah
   [polite-pause] 30s break after 700 requests
+  [ok] sefaria-shemot-rabbah: 52 chapters, 1517262 bytes
+  [book] Vayikra Rabbah
+  [ok] sefaria-vayikra-rabbah: 37 chapters, 1133442 bytes
+  [book] Bamidbar Rabbah
+  [polite-pause] 30s break after 800 requests
+  [ok] sefaria-bamidbar-rabbah: 23 chapters, 2296504 bytes
+  [book] Devarim Rabbah
+  [ok] sefaria-devarim-rabbah: 11 chapters, 523162 bytes
+  [book] Shir HaShirim Rabbah
+  [ok] sefaria-shir-hashirim-rabbah: 8 chapters, 103146 bytes
+  [book] Ruth Rabbah
+  [ok] sefaria-ruth-rabbah: 1 chapters, 16511 bytes
+  [book] Esther Rabbah
+  [ok] sefaria-esther-rabbah: 1 chapters, 39261 bytes
+  [book] Kohelet Rabbah
+  [ok] sefaria-kohelet-rabbah: 11 chapters, 79281 bytes
+  [book] Eikhah Rabbah
+  [ok] sefaria-eikhah-rabbah: 1 chapters, 226751 bytes
+  [book] Ruth Rabbah (Lerner)
+  [ok] sefaria-ruth-rabbah-lerner: 8 chapters, 23374 bytes
+  [book] Rashi on Bereshit Rabbah
+  [polite-pause] 30s break after 900 requests
+  [ok] sefaria-rashi-on-bereshit-rabbah: 68 chapters, 57169 bytes
+  [book] Chidushei HaRadal on Bereshit Rabbah
+  [polite-pause] 30s break after 1000 requests
+  [ok] sefaria-chidushei-haradal-on-bereshit-rabbah: 76 chapters, 44854 bytes
+  [book] Chidushei HaRadal on Shemot Rabbah
+  [polite-pause] 30s break after 1100 requests
+  [ok] sefaria-chidushei-haradal-on-shemot-rabbah: 50 chapters, 42562 bytes
+  [book] Chiddushei HaRadal on Vayikra Rabbah
+  [ok] sefaria-chiddushei-haradal-on-vayikra-rabbah: 34 chapters, 32179 bytes
+  [book] Chiddushei HaRadal on Bamidbar Rabbah
+  [ok] sefaria-chiddushei-haradal-on-bamidbar-rabbah: 20 chapters, 16080 bytes
+  [book] Chiddushei HaRadal on Devarim Rabbah
+  [ok] sefaria-chiddushei-haradal-on-devarim-rabbah: 11 chapters, 9748 bytes
+  [book] Chiddushei HaRadal on Shir HaShirim Rabbah
+  [ok] sefaria-chiddushei-haradal-on-shir-hashirim-rabbah: 6 chapters, 1953 bytes
+  [book] Chiddushei HaRadal on Ruth Rabbah
+  [ok] sefaria-chiddushei-haradal-on-ruth-rabbah: 1 chapters, 1432 bytes
+  [book] Chiddushei HaRadal on Esther Rabbah
+  [ok] sefaria-chiddushei-haradal-on-esther-rabbah: 1 chapters, 4335 bytes
+  [book] Chiddushei HaRadal on Kohelet Rabbah
+  [polite-pause] 30s break after 1200 requests
+  [ok] sefaria-chiddushei-haradal-on-kohelet-rabbah: 10 chapters, 7413 bytes
+  [book] Chiddushei HaRadal on Eikhah Rabbah
+  [ok] sefaria-chiddushei-haradal-on-eikhah-rabbah: 1 chapters, 1226 bytes
+  [book] Etz Yosef on Bereishit Rabbah
+  [polite-pause] 30s break after 1300 requests
+  [ok] sefaria-etz-yosef-on-bereishit-rabbah: 100 chapters, 202919 bytes
+  [book] Etz Yosef on Shemot Rabbah
+  [ok] sefaria-etz-yosef-on-shemot-rabbah: 52 chapters, 185144 bytes
+  [book] Etz Yosef on Vayikra Rabbah
+  [ok] sefaria-etz-yosef-on-vayikra-rabbah: 37 chapters, 198298 bytes
+  [book] Etz Yosef on Bamidbar Rabbah
+  [polite-pause] 30s break after 1400 requests
+  [ok] sefaria-etz-yosef-on-bamidbar-rabbah: 23 chapters, 68300 bytes
+  [book] Etz Yosef on Devarim Rabbah
+  [ok] sefaria-etz-yosef-on-devarim-rabbah: 11 chapters, 26244 bytes
+  [book] Etz Yosef on Shir HaShirim Rabbah
+  [ok] sefaria-etz-yosef-on-shir-hashirim-rabbah: 8 chapters, 22102 bytes
+  [book] Etz Yosef on Ruth Rabbah
+  [ok] sefaria-etz-yosef-on-ruth-rabbah: 1 chapters, 1267 bytes
+  [book] Etz Yosef on Esther Rabbah
+  [ok] sefaria-etz-yosef-on-esther-rabbah: 1 chapters, 6383 bytes
+  [book] Etz Yosef on Kohelet Rabbah
+  [ok] sefaria-etz-yosef-on-kohelet-rabbah: 11 chapters, 26621 bytes
+  [book] Etz Yosef on Eichah Rabbah
+  [ok] sefaria-etz-yosef-on-eichah-rabbah: 1 chapters, 7479 bytes
+  [book] Maharzu Hakatzar on Bereshit Rabbah
+  [polite-pause] 30s break after 1500 requests
+  [ok] sefaria-maharzu-hakatzar-on-bereshit-rabbah: 1 chapters, 2984 bytes
+  [book] Matnot Kehunah on Bereshit Rabbah
+  [polite-pause] 30s break after 1600 requests
+  [ok] sefaria-matnot-kehunah-on-bereshit-rabbah: 90 chapters, 77328 bytes
+  [book] Matnot Kehunah on Shemot Rabbah
+  [polite-pause] 30s break after 1700 requests
+  [ok] sefaria-matnot-kehunah-on-shemot-rabbah: 48 chapters, 28132 bytes
+  [book] Matnot Kehunah on Vayikra Rabbah
+  [ok] sefaria-matnot-kehunah-on-vayikra-rabbah: 36 chapters, 44057 bytes
+  [book] Matnot Kehunah on Bamidbar Rabbah
+  [ok] sefaria-matnot-kehunah-on-bamidbar-rabbah: 21 chapters, 21245 bytes
+  [book] Matnot Kehunah on Devarim Rabbah
+  [ok] sefaria-matnot-kehunah-on-devarim-rabbah: 11 chapters, 6255 bytes
+  [book] Matnot Kehunah on Shir HaShirim Rabbah
+  [ok] sefaria-matnot-kehunah-on-shir-hashirim-rabbah: 8 chapters, 4119 bytes
+  [book] Matnot Kehunah on Ruth Rabbah
+  [ok] sefaria-matnot-kehunah-on-ruth-rabbah: 1 chapters, 41 bytes
+  [book] Matnot Kehunah on Esther Rabbah
+  [ok] sefaria-matnot-kehunah-on-esther-rabbah: 1 chapters, 857 bytes
+  [book] Matnot Kehunah on Kohelet Rabbah
+  [polite-pause] 30s break after 1800 requests
+  [ok] sefaria-matnot-kehunah-on-kohelet-rabbah: 11 chapters, 12984 bytes
+  [book] Matnot Kehunah on Eichah Rabbah
+  [ok] sefaria-matnot-kehunah-on-eichah-rabbah: 1 chapters, 1602 bytes
+  [book] Mishnat DeRabbi Eliezer on Bereshit Rabbah
+  [polite-pause] 30s break after 1900 requests
+  [ok] sefaria-mishnat-derabbi-eliezer-on-bereshit-rabbah: 7 chapters, 3140 bytes
+  [book] Mishnat DeRabbi Eliezer on Ruth Rabbah
+  [ok] sefaria-mishnat-derabbi-eliezer-on-ruth-rabbah: 1 chapters, 463 bytes
+  [book] Mishnat DeRabbi Eliezer on Esther Rabbah
+  [empty] Mishnat DeRabbi Eliezer on Esther Rabbah: 
+  [book] Mishnat DeRabbi Eliezer on Kohelet Rabbah
+  [ok] sefaria-mishnat-derabbi-eliezer-on-kohelet-rabbah: 1 chapters, 736 bytes
+  [book] Mishnat DeRabbi Eliezer on Eichah Rabbah
+  [ok] sefaria-mishnat-derabbi-eliezer-on-eichah-rabbah: 1 chapters, 338 bytes
+  [book] Perush Maharzu on Bereshit Rabbah
+  [polite-pause] 30s break after 2000 requests
+  [ok] sefaria-perush-maharzu-on-bereshit-rabbah: 100 chapters, 205674 bytes
+  [book] Perush Maharzu on Shemot Rabbah
+  [ok] sefaria-perush-maharzu-on-shemot-rabbah: 52 chapters, 149436 bytes
+  [book] Perush Maharzu on Vayikra Rabbah
+  [polite-pause] 30s break after 2100 requests
+  [ok] sefaria-perush-maharzu-on-vayikra-rabbah: 37 chapters, 113073 bytes
+  [book] Perush Maharzu on Bamidbar Rabbah
+  [ok] sefaria-perush-maharzu-on-bamidbar-rabbah: 23 chapters, 76971 bytes
+  [book] Perush Maharzu on Devarim Rabbah
+  [ok] sefaria-perush-maharzu-on-devarim-rabbah: 11 chapters, 23990 bytes
+  [book] Perush Maharzu on Shir HaShirim Rabbah
+  [ok] sefaria-perush-maharzu-on-shir-hashirim-rabbah: 8 chapters, 6157 bytes
+  [book] Perush Maharzu on Ruth Rabbah
+  [ok] sefaria-perush-maharzu-on-ruth-rabbah: 1 chapters, 2824 bytes
+  [book] Perush Maharzu on Esther Rabbah
+  [ok] sefaria-perush-maharzu-on-esther-rabbah: 1 chapters, 3033 bytes
+  [book] Perush Maharzu on Kohelet Rabbah
+  [ok] sefaria-perush-maharzu-on-kohelet-rabbah: 11 chapters, 14078 bytes
+  [book] Perush Maharzu on Eichah Rabbah
+  [ok] sefaria-perush-maharzu-on-eichah-rabbah: 1 chapters, 2646 bytes
+  [book] Yedei Moshe on Bereshit Rabbah
+  [polite-pause] 30s break after 2200 requests
+  [ok] sefaria-yedei-moshe-on-bereshit-rabbah: 51 chapters, 44270 bytes
+  [book] Yedei Moshe on Shemot Rabbah
+  [polite-pause] 30s break after 2300 requests
+  [ok] sefaria-yedei-moshe-on-shemot-rabbah: 36 chapters, 40771 bytes
+  [book] Yedei Moshe on Vayikra Rabbah
+  [ok] sefaria-yedei-moshe-on-vayikra-rabbah: 19 chapters, 4579 bytes
+  [book] Yedei Moshe on Bamidbar Rabbah
+  [ok] sefaria-yedei-moshe-on-bamidbar-rabbah: 10 chapters, 8588 bytes
+  [book] Yedei Moshe on Devarim Rabbah
+  [polite-pause] 30s break after 2400 requests
+  [ok] sefaria-yedei-moshe-on-devarim-rabbah: 8 chapters, 4639 bytes
+  [book] Yedei Moshe on Shir HaShirim Rabbah
+  [ok] sefaria-yedei-moshe-on-shir-hashirim-rabbah: 2 chapters, 2054 bytes
+  [book] Yedei Moshe on Kohelet Rabbah
+  [ok] sefaria-yedei-moshe-on-kohelet-rabbah: 2 chapters, 675 bytes
+  [book] Yefeh Anaf on Ruth Rabbah
+  [ok] sefaria-yefeh-anaf-on-ruth-rabbah: 1 chapters, 2112 bytes
+  [book] Yefeh Anaf on Esther Rabbah
+  [ok] sefaria-yefeh-anaf-on-esther-rabbah: 1 chapters, 1150 bytes
+  [book] Yefeh Anaf on Eichah Rabbah
+  [ok] sefaria-yefeh-anaf-on-eichah-rabbah: 1 chapters, 7198 bytes
+  [book] Yefeh Kol on Shir HaShirim Rabbah
+  [ok] sefaria-yefeh-kol-on-shir-hashirim-rabbah: 8 chapters, 14753 bytes
+  [book] Yefeh To'ar on Bereshit Rabbah
+  [polite-pause] 30s break after 2500 requests
+  [ok] sefaria-yefeh-to-ar-on-bereshit-rabbah: 96 chapters, 159628 bytes
+  [book] Yefeh To'ar on Shemot Rabbah
+  [ok] sefaria-yefeh-to-ar-on-shemot-rabbah: 52 chapters, 119143 bytes
+  [book] Yefeh To'ar on Vayikra Rabbah
+  [polite-pause] 30s break after 2600 requests
+  [ok] sefaria-yefeh-to-ar-on-vayikra-rabbah: 36 chapters, 50351 bytes
+  [book] Yefeh To'ar on Bamidbar Rabbah
+  [ok] sefaria-yefeh-to-ar-on-bamidbar-rabbah: 8 chapters, 8483 bytes
+  [book] Yefeh To'ar on Devarim Rabbah
+  [ok] sefaria-yefeh-to-ar-on-devarim-rabbah: 4 chapters, 3178 bytes
+  [book] Yefeh To'ar on Kohelet Rabbah
+  [ok] sefaria-yefeh-to-ar-on-kohelet-rabbah: 4 chapters, 4959 bytes
+  [book] Aggadat Bereshit
+  [polite-pause] 30s break after 2700 requests
+  [ok] sefaria-aggadat-bereshit: 84 chapters, 395952 bytes
+  [book] Bereshit Rabbati
+  [empty] Bereshit Rabbati: 
+  [book] Buber footnotes on Midrash Mishlei
+  [ok] sefaria-buber-footnotes-on-midrash-mishlei: 1 chapters, 390 bytes
+  [book] Par Echad on Pirkei DeRabbi Eliezer
+  [polite-pause] 30s break after 2800 requests
+  [ok] sefaria-par-echad-on-pirkei-derabbi-eliezer: 54 chapters, 134189 bytes
+  [book] Beur HaRadal on Pirkei DeRabbi Eliezer
+  [polite-pause] 30s break after 2900 requests
+  [ok] sefaria-beur-haradal-on-pirkei-derabbi-eliezer: 54 chapters, 2696983 bytes
+  [book] Ein Yaakov
+  [empty] Ein Yaakov: 
+  [book] Ein Yaakov (Glick Edition)
+  [empty] Ein Yaakov (Glick Edition): 
+  [book] Legends of the Jews
+  [ok] sefaria-legends-of-the-jews: 1 chapters, 72624 bytes
+  [book] Midrash Aggadah
+  [empty] Midrash Aggadah: 
+  [book] Midrash Lekach Tov
+  [empty] Midrash Lekach Tov: 
+  [book] Midrash Lekach Tov on Ecclesiastes
+  [ok] sefaria-midrash-lekach-tov-on-ecclesiastes: 1 chapters, 2323 bytes
+  [book] Midrash Lekach Tov on Esther
+  [ok] sefaria-midrash-lekach-tov-on-esther: 1 chapters, 3215 bytes
+  [book] Midrash Lekach Tov on Lamentations
+  [ok] sefaria-midrash-lekach-tov-on-lamentations: 1 chapters, 5942 bytes
+  [book] Midrash Lekach Tov on Ruth
+  [ok] sefaria-midrash-lekach-tov-on-ruth: 1 chapters, 4056 bytes
+  [book] Midrash Lekach Tov on Song of Songs
+  [ok] sefaria-midrash-lekach-tov-on-song-of-songs: 1 chapters, 4064 bytes
+  [book] Notes and Corrections on Midrash Lekach Tov on Esther
+  [ok] sefaria-notes-and-corrections-on-midrash-lekach-tov-on-esther: 1 chapters, 9742 bytes
+  [book] Beur HaRe'em on Midrash Lekach Tov
+  [empty] Beur HaRe'em on Midrash Lekach Tov: 
+  [book] Notes and Corrections on Midrash Lekach Tov
+  [empty] Notes and Corrections on Midrash Lekach Tov: 
+  [book] Midrash Mishlei
+  [ok] sefaria-midrash-mishlei: 31 chapters, 232746 bytes
+  [book] Midrash Sekhel Tov
+  [empty] Midrash Sekhel Tov: 
+  [book] Midrash Shmuel
+  [ok] sefaria-midrash-shmuel: 32 chapters, 254428 bytes
+  [book] Midrash Tanchuma
+  [empty] Midrash Tanchuma: 
+  [book] Midrash Tanchuma Buber
+  [empty] Midrash Tanchuma Buber: 
+  [book] Midrash Tehillim
+  [polite-pause] 30s break after 3000 requests
+  [polite-pause] 30s break after 3100 requests
+  [ok] sefaria-midrash-tehillim: 143 chapters, 1180117 bytes
+  [book] Midrash Yelamdenu, Selections from Yalkut Talmud Torah
+  [ok] sefaria-midrash-yelamdenu-selections-from-yalkut-talmud-torah: 1 chapters, 1029 bytes
+  [book] Mishnat Rabbi Eliezer
+  [ok] sefaria-mishnat-rabbi-eliezer: 20 chapters, 496242 bytes
+  [book] Notes and Corrections on Midrash Aggadah
+  [empty] Notes and Corrections on Midrash Aggadah: 
+  [book] Otzar Midrashim
+  [empty] Otzar Midrashim: 
+  [book] Pesikta DeRav Kahana
+  [ok] sefaria-pesikta-derav-kahana: 28 chapters, 624185 bytes
+  [book] Pesikta Rabbati
+  [ok] sefaria-pesikta-rabbati: 1 chapters, 14529 bytes
+  [book] Pirkei DeRabbi Eliezer
+  [polite-pause] 30s break after 3200 requests
+  [ok] sefaria-pirkei-derabbi-eliezer: 54 chapters, 692190 bytes
+  [book] Seder Olam Rabbah
+  [ok] sefaria-seder-olam-rabbah: 1 chapters, 3944 bytes
+  [book] Meir Ayin on Seder Olam Rabbah
+  [empty] Meir Ayin on Seder Olam Rabbah: 
+  [book] Vilna Gaon on Seder Olam Rabbah
+  [empty] Vilna Gaon on Seder Olam Rabbah: 
+  [book] Yaakov Emden on Seder Olam Rabbah
+  [empty] Yaakov Emden on Seder Olam Rabbah: 
+  [book] Seder Olam Zutta
+  [ok] sefaria-seder-olam-zutta: 10 chapters, 26137 bytes
+  [book] Sefer HaYashar (midrash)
+  [empty] Sefer HaYashar (midrash): 
+  [book] Sifrei Aggadah on Esther
+  [empty] Sifrei Aggadah on Esther: 
+  [book] Tanna DeBei Eliyahu Rabbah
+  [ok] sefaria-tanna-debei-eliyahu-rabbah: 31 chapters, 572399 bytes
+  [book] Tanna DeBei Eliyahu Zuta
+  [ok] sefaria-tanna-debei-eliyahu-zuta: 1 chapters, 15972 bytes
+  [book] Yalkut Shimoni on Nach
+  [polite-pause] 30s break after 3300 requests
+  [polite-pause] 30s break after 3400 requests
+  [polite-pause] 30s break after 3500 requests
+  [polite-pause] 30s break after 3600 requests
+  [polite-pause] 30s break after 3700 requests
+  [polite-pause] 30s break after 3800 requests
+  [polite-pause] 30s break after 3900 requests
+  [polite-pause] 30s break after 4000 requests
+  [polite-pause] 30s break after 4100 requests
+  [polite-pause] 30s break after 4200 requests
+  [ok] sefaria-yalkut-shimoni-on-nach: 983 chapters, 4374502 bytes
+  [book] Yalkut Shimoni on Torah
+  [polite-pause] 30s break after 4300 requests
+  [polite-pause] 30s break after 4400 requests
+  [polite-pause] 30s break after 4500 requests
+  [polite-pause] 30s break after 4600 requests
+  [polite-pause] 30s break after 4700 requests
+  [polite-pause] 30s break after 4800 requests
+  [polite-pause] 30s break after 4900 requests
+  [polite-pause] 30s break after 5000 requests
+  [polite-pause] 30s break after 5100 requests
+  [polite-pause] 30s break after 5200 requests
+  [ok] sefaria-yalkut-shimoni-on-torah: 952 chapters, 14598083 bytes
+  [book] Learning to Read Midrash
+  [empty] Learning to Read Midrash: 
+  [book] Sifrei Zuta; Midrashah shel Lod
+  [empty] Sifrei Zuta; Midrashah shel Lod: 
+
+[summary] {"empty": 26, "ok": 103}
+=== Sefaria Halakhah ===
+[fetch] /api/index
+[books] 2169 discovered
+  [book] Mishneh Torah, Transmission of the Oral Law
+  [ok] sefaria-mishneh-torah-transmission-of-the-oral-law: 45 chapters, 54721 bytes
+  [book] Mishneh Torah, Positive Mitzvot
+  [polite-pause] 30s break after 100 requests
+  [polite-pause] 30s break after 200 requests
+  [ok] sefaria-mishneh-torah-positive-mitzvot: 248 chapters, 60860 bytes
+  [book] Mishneh Torah, Negative Mitzvot
+  [polite-pause] 30s break after 300 requests
+  [polite-pause] 30s break after 400 requests
+  [polite-pause] 30s break after 500 requests
+  [polite-pause] 30s break after 600 requests
+  [ok] sefaria-mishneh-torah-negative-mitzvot: 370 chapters, 97330 bytes
+  [book] Mishneh Torah, Overview of Mishneh Torah Contents
+  [ok] sefaria-mishneh-torah-overview-of-mishneh-torah-contents: 14 chapters, 52606 bytes
+  [book] Mishneh Torah, Foundations of the Torah
+  [ok] sefaria-mishneh-torah-foundations-of-the-torah: 10 chapters, 118529 bytes
+  [book] Mishneh Torah, Human Dispositions
+  [ok] sefaria-mishneh-torah-human-dispositions: 7 chapters, 96542 bytes
+  [book] Mishneh Torah, Torah Study
+  [polite-pause] 30s break after 700 requests
+  [ok] sefaria-mishneh-torah-torah-study: 7 chapters, 77880 bytes
+  [book] Mishneh Torah, Foreign Worship and Customs of the Nations
+  [ok] sefaria-mishneh-torah-foreign-worship-and-customs-of-the-nations: 12 chapters, 159452 bytes
+  [book] Mishneh Torah, Repentance
+  [ok] sefaria-mishneh-torah-repentance: 10 chapters, 112241 bytes
+  [book] Mishneh Torah, Reading the Shema
+  [ok] sefaria-mishneh-torah-reading-the-shema: 4 chapters, 43490 bytes
+  [book] Mishneh Torah, Prayer and the Priestly Blessing
+  [ok] sefaria-mishneh-torah-prayer-and-the-priestly-blessing: 15 chapters, 209492 bytes
+  [book] Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll
+  [ok] sefaria-mishneh-torah-tefillin-mezuzah-and-the-torah-scroll: 10 chapters, 169628 bytes
+  [book] Mishneh Torah, Fringes
+  [ok] sefaria-mishneh-torah-fringes: 3 chapters, 31147 bytes
+  [book] Mishneh Torah, Blessings
+  [ok] sefaria-mishneh-torah-blessings: 11 chapters, 143550 bytes
+  [book] Mishneh Torah, Circumcision
+  [ok] sefaria-mishneh-torah-circumcision: 3 chapters, 30253 bytes
+  [book] Mishneh Torah, The Order of Prayer
+  [ok] sefaria-mishneh-torah-the-order-of-prayer: 5 chapters, 107939 bytes
+  [book] Mishneh Torah, Sabbath
+  [polite-pause] 30s break after 800 requests
+  [ok] sefaria-mishneh-torah-sabbath: 30 chapters, 548788 bytes
+  [book] Mishneh Torah, Eruvin
+  [ok] sefaria-mishneh-torah-eruvin: 8 chapters, 144419 bytes
+  [book] Mishneh Torah, Rest on the Tenth of Tishrei
+  [ok] sefaria-mishneh-torah-rest-on-the-tenth-of-tishrei: 3 chapters, 22965 bytes
+  [book] Mishneh Torah, Rest on a Holiday
+  [ok] sefaria-mishneh-torah-rest-on-a-holiday: 8 chapters, 141165 bytes
+  [book] Mishneh Torah, Leavened and Unleavened Bread
+  [ok] sefaria-mishneh-torah-leavened-and-unleavened-bread: 9 chapters, 107506 bytes
+  [book] Mishneh Torah, Shofar, Sukkah and Lulav
+  [ok] sefaria-mishneh-torah-shofar-sukkah-and-lulav: 8 chapters, 106065 bytes
+  [book] Mishneh Torah, Sheqel Dues
+  [ok] sefaria-mishneh-torah-sheqel-dues: 4 chapters, 41428 bytes
+  [book] Mishneh Torah, Sanctification of the New Month
+  [ok] sefaria-mishneh-torah-sanctification-of-the-new-month: 19 chapters, 241325 bytes
+  [book] Mishneh Torah, Fasts
+  [ok] sefaria-mishneh-torah-fasts: 5 chapters, 64393 bytes
+  [book] Mishneh Torah, Scroll of Esther and Hanukkah
+  [ok] sefaria-mishneh-torah-scroll-of-esther-and-hanukkah: 4 chapters, 48230 bytes
+  [book] Mishneh Torah, Marriage
+  [ok] sefaria-mishneh-torah-marriage: 25 chapters, 435756 bytes
+  [book] Mishneh Torah, Divorce
+  [polite-pause] 30s break after 900 requests
+  [ok] sefaria-mishneh-torah-divorce: 13 chapters, 256334 bytes
+  [book] Mishneh Torah, Levirate Marriage and Release
+  [ok] sefaria-mishneh-torah-levirate-marriage-and-release: 8 chapters, 150986 bytes
+  [book] Mishneh Torah, Virgin Maiden
+  [ok] sefaria-mishneh-torah-virgin-maiden: 3 chapters, 30850 bytes
+  [book] Mishneh Torah, Woman Suspected of Infidelity
+  [ok] sefaria-mishneh-torah-woman-suspected-of-infidelity: 4 chapters, 55138 bytes
+  [book] Mishneh Torah, Forbidden Intercourse
+  [ok] sefaria-mishneh-torah-forbidden-intercourse: 22 chapters, 366942 bytes
+  [book] Mishneh Torah, Forbidden Foods
+  [ok] sefaria-mishneh-torah-forbidden-foods: 17 chapters, 290984 bytes
+  [book] Mishneh Torah, Ritual Slaughter
+  [ok] sefaria-mishneh-torah-ritual-slaughter: 14 chapters, 170515 bytes
+  [book] Mishneh Torah, Oaths
+  [ok] sefaria-mishneh-torah-oaths: 12 chapters, 143856 bytes
+  [book] Mishneh Torah, Vows
+  [polite-pause] 30s break after 1000 requests
+  [ok] sefaria-mishneh-torah-vows: 13 chapters, 165042 bytes
+  [book] Mishneh Torah, Nazariteship
+  [ok] sefaria-mishneh-torah-nazariteship: 10 chapters, 130839 bytes
+  [book] Mishneh Torah, Appraisals and Devoted Property
+  [ok] sefaria-mishneh-torah-appraisals-and-devoted-property: 8 chapters, 113988 bytes
+  [book] Mishneh Torah, Diverse Species
+  [ok] sefaria-mishneh-torah-diverse-species: 10 chapters, 119998 bytes
+  [book] Mishneh Torah, Gifts to the Poor
+  [ok] sefaria-mishneh-torah-gifts-to-the-poor: 10 chapters, 130394 bytes
+  [book] Mishneh Torah, Heave Offerings
+  [ok] sefaria-mishneh-torah-heave-offerings: 15 chapters, 222222 bytes
+  [book] Mishneh Torah, Tithes
+  [ok] sefaria-mishneh-torah-tithes: 14 chapters, 147751 bytes
+  [book] Mishneh Torah, Second Tithes and Fourth Year's Fruit
+  [ok] sefaria-mishneh-torah-second-tithes-and-fourth-year-s-fruit: 11 chapters, 116478 bytes
+  [book] Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary
+  [ok] sefaria-mishneh-torah-first-fruits-and-other-gifts-to-priests-outside-the-sanctuary: 12 chapters, 139219 bytes
+  [book] Mishneh Torah, Sabbatical Year and the Jubilee
+  [polite-pause] 30s break after 1100 requests
+  [ok] sefaria-mishneh-torah-sabbatical-year-and-the-jubilee: 13 chapters, 151498 bytes
+  [book] Mishneh Torah, The Chosen Temple
+  [ok] sefaria-mishneh-torah-the-chosen-temple: 8 chapters, 96373 bytes
+  [book] Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein
+  [ok] sefaria-mishneh-torah-vessels-of-the-sanctuary-and-those-who-serve-therein: 10 chapters, 109947 bytes
+  [book] Mishneh Torah, Admission into the Sanctuary
+  [ok] sefaria-mishneh-torah-admission-into-the-sanctuary: 9 chapters, 100965 bytes
+  [book] Mishneh Torah, Things Forbidden on the Altar
+  [ok] sefaria-mishneh-torah-things-forbidden-on-the-altar: 7 chapters, 73656 bytes
+  [book] Mishneh Torah, Sacrificial Procedure
+  [ok] sefaria-mishneh-torah-sacrificial-procedure: 19 chapters, 215702 bytes
+  [book] Mishneh Torah, Daily Offerings and Additional Offerings
+  [ok] sefaria-mishneh-torah-daily-offerings-and-additional-offerings: 10 chapters, 118313 bytes
+  [book] Mishneh Torah, Sacrifices Rendered Unfit
+  [ok] sefaria-mishneh-torah-sacrifices-rendered-unfit: 19 chapters, 212167 bytes
+  [book] Mishneh Torah, Service on the Day of Atonement
+  [ok] sefaria-mishneh-torah-service-on-the-day-of-atonement: 5 chapters, 64063 bytes
+  [book] Mishneh Torah, Trespass
+  [polite-pause] 30s break after 1200 requests
+  [ok] sefaria-mishneh-torah-trespass: 8 chapters, 80864 bytes
+  [book] Mishneh Torah, Paschal Offering
+  [ok] sefaria-mishneh-torah-paschal-offering: 10 chapters, 102580 bytes
+  [book] Mishneh Torah, Festival Offering
+  [ok] sefaria-mishneh-torah-festival-offering: 3 chapters, 29264 bytes
+  [book] Mishneh Torah, Firstlings
+  [ok] sefaria-mishneh-torah-firstlings: 8 chapters, 85066 bytes
+  [book] Mishneh Torah, Offerings for Unintentional Transgressions
+  [ok] sefaria-mishneh-torah-offerings-for-unintentional-transgressions: 15 chapters, 154090 bytes
+  [book] Mishneh Torah, Offerings for Those with Incomplete Atonement
+  [ok] sefaria-mishneh-torah-offerings-for-those-with-incomplete-atonement: 5 chapters, 45331 bytes
+  [book] Mishneh Torah, Substitution
+  [ok] sefaria-mishneh-torah-substitution: 4 chapters, 36525 bytes
+  [book] Mishneh Torah, Defilement by a Corpse
+  [ok] sefaria-mishneh-torah-defilement-by-a-corpse: 25 chapters, 255406 bytes
+  [book] Mishneh Torah, Red Heifer
+  [ok] sefaria-mishneh-torah-red-heifer: 15 chapters, 146878 bytes
+  [book] Mishneh Torah, Defilement by Leprosy
+  [polite-pause] 30s break after 1300 requests
+  [ok] sefaria-mishneh-torah-defilement-by-leprosy: 16 chapters, 161943 bytes
+  [book] Mishneh Torah, Those Who Defile Bed or Seat
+  [ok] sefaria-mishneh-torah-those-who-defile-bed-or-seat: 13 chapters, 127887 bytes
+  [book] Mishneh Torah, Other Sources of Defilement
+  [ok] sefaria-mishneh-torah-other-sources-of-defilement: 20 chapters, 205169 bytes
+  [book] Mishneh Torah, Defilement of Foods
+  [ok] sefaria-mishneh-torah-defilement-of-foods: 16 chapters, 171244 bytes
+  [book] Mishneh Torah, Vessels
+  [ok] sefaria-mishneh-torah-vessels: 28 chapters, 275082 bytes
+  [book] Mishneh Torah, Immersion Pools
+  [ok] sefaria-mishneh-torah-immersion-pools: 11 chapters, 115593 bytes
+  [book] Mishneh Torah, Damages to Property
+  [polite-pause] 30s break after 1400 requests
+  [ok] sefaria-mishneh-torah-damages-to-property: 14 chapters, 152226 bytes
+  [book] Mishneh Torah, Theft
+  [ok] sefaria-mishneh-torah-theft: 9 chapters, 85650 bytes
+  [book] Mishneh Torah, Robbery and Lost Property
+  [ok] sefaria-mishneh-torah-robbery-and-lost-property: 18 chapters, 194176 bytes
+  [book] Mishneh Torah, One Who Injures a Person or Property
+  [ok] sefaria-mishneh-torah-one-who-injures-a-person-or-property: 8 chapters, 90575 bytes
+  [book] Mishneh Torah, Murderer and the Preservation of Life
+  [ok] sefaria-mishneh-torah-murderer-and-the-preservation-of-life: 13 chapters, 120074 bytes
+  [book] Mishneh Torah, Sales
+  [ok] sefaria-mishneh-torah-sales: 30 chapters, 281910 bytes
+  [book] Mishneh Torah, Ownerless Property and Gifts
+  [ok] sefaria-mishneh-torah-ownerless-property-and-gifts: 12 chapters, 130232 bytes
+  [book] Mishneh Torah, Neighbors
+  [polite-pause] 30s break after 1500 requests
+  [ok] sefaria-mishneh-torah-neighbors: 14 chapters, 135736 bytes
+  [book] Mishneh Torah, Agents and Partners
+  [ok] sefaria-mishneh-torah-agents-and-partners: 10 chapters, 103805 bytes
+  [book] Mishneh Torah, Slaves
+  [ok] sefaria-mishneh-torah-slaves: 9 chapters, 96492 bytes
+  [book] Mishneh Torah, Hiring
+  [ok] sefaria-mishneh-torah-hiring: 13 chapters, 135702 bytes
+  [book] Mishneh Torah, Borrowing and Deposit
+  [ok] sefaria-mishneh-torah-borrowing-and-deposit: 8 chapters, 75132 bytes
+  [book] Mishneh Torah, Creditor and Debtor
+  [ok] sefaria-mishneh-torah-creditor-and-debtor: 27 chapters, 297846 bytes
+  [book] Mishneh Torah, Plaintiff and Defendant
+  [ok] sefaria-mishneh-torah-plaintiff-and-defendant: 16 chapters, 185239 bytes
+  [book] Mishneh Torah, Inheritances
+  [polite-pause] 30s break after 1600 requests
+  [ok] sefaria-mishneh-torah-inheritances: 11 chapters, 96154 bytes
+  [book] Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction
+  [ok] sefaria-mishneh-torah-the-sanhedrin-and-the-penalties-within-their-jurisdiction: 26 chapters, 226484 bytes
+  [book] Mishneh Torah, Testimony
+  [ok] sefaria-mishneh-torah-testimony: 22 chapters, 159548 bytes
+  [book] Mishneh Torah, Rebels
+  [ok] sefaria-mishneh-torah-rebels: 7 chapters, 67567 bytes
+  [book] Mishneh Torah, Mourning
+  [ok] sefaria-mishneh-torah-mourning: 14 chapters, 119423 bytes
+  [book] Mishneh Torah, Kings and Wars
+  [ok] sefaria-mishneh-torah-kings-and-wars: 12 chapters, 115682 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Foundations of the Torah
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-foundations-of-the-torah: 1 chapters, 394 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Human Dispositions
+  [polite-pause] 30s break after 1700 requests
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-human-dispositions: 1 chapters, 134 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Torah Study
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Torah Study: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Foreign Worship and Customs of the Nations
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-foreign-worship-and-customs-of-the-nations: 1 chapters, 243 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Repentance
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-repentance: 1 chapters, 265 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Prayer and the Priestly Blessing
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Prayer and the Priestly Blessing: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-tefillin-mezuzah-and-the-torah-scroll: 1 chapters, 253 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Sabbath
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-sabbath: 1 chapters, 837 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Leavened and Unleavened Bread
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Leavened and Unleavened Bread: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Shofar, Sukkah and Lulav
+  [polite-pause] 30s break after 1800 requests
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Shofar, Sukkah and Lulav: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Sanctification of the New Month
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Sanctification of the New Month: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Marriage
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Marriage: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Woman Suspected of Infidelity
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Woman Suspected of Infidelity: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Forbidden Intercourse
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Forbidden Intercourse: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Admission into the Sanctuary
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Admission into the Sanctuary: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Service on the Day of Atonement
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Service on the Day of Atonement: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Damages to Property
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Damages to Property: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Murderer and the Preservation of Life
+  [polite-pause] 30s break after 1900 requests
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Murderer and the Preservation of Life: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Rebels
+  [empty] Annotations of Maharatz Chajes on Mishneh Torah, Rebels: 
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Mourning
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-mourning: 1 chapters, 555 bytes
+  [book] Annotations of Maharatz Chajes on Mishneh Torah, Kings and Wars
+  [ok] sefaria-annotations-of-maharatz-chajes-on-mishneh-torah-kings-and-wars: 1 chapters, 202 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Human Dispositions
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Human Dispositions: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Torah Study
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Torah Study: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Foreign Worship and Customs of the Nations
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-foreign-worship-and-customs-of-the-nations: 1 chapters, 248 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Reading the Shema
+  [polite-pause] 30s break after 2000 requests
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Reading the Shema: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Prayer and the Priestly Blessing
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Prayer and the Priestly Blessing: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Fringes
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Fringes: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sabbath
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-sabbath: 1 chapters, 388 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Leavened and Unleavened Bread
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Leavened and Unleavened Bread: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Shofar, Sukkah and Lulav
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Shofar, Sukkah and Lulav: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sheqel Dues
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-sheqel-dues: 1 chapters, 1246 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sanctification of the New Month
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Sanctification of the New Month: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Fasts
+  [polite-pause] 30s break after 2100 requests
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-fasts: 1 chapters, 820 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Scroll of Esther and Hanukkah
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Scroll of Esther and Hanukkah: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Marriage
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Marriage: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Virgin Maiden
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Virgin Maiden: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Woman Suspected of Infidelity
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-woman-suspected-of-infidelity: 1 chapters, 245 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Forbidden Intercourse
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Forbidden Intercourse: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Forbidden Foods
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Forbidden Foods: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Ritual Slaughter
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Ritual Slaughter: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Oaths
+  [polite-pause] 30s break after 2200 requests
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-oaths: 1 chapters, 388 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Vows
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Vows: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Nazariteship
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Nazariteship: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Appraisals and Devoted Property
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Appraisals and Devoted Property: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Diverse Species
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-diverse-species: 2 chapters, 899 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Gifts to the Poor
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Gifts to the Poor: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Heave Offerings
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Heave Offerings: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Second Tithes and Fourth Year's Fruit
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Second Tithes and Fourth Year's Fruit: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-first-fruits-and-other-gifts-to-priests-outside-the-sanctuary: 1 chapters, 153 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sabbatical Year and the Jubilee
+  [polite-pause] 30s break after 2300 requests
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Sabbatical Year and the Jubilee: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, The Chosen Temple
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, The Chosen Temple: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Admission into the Sanctuary
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Admission into the Sanctuary: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Things Forbidden on the Altar
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Things Forbidden on the Altar: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sacrificial Procedure
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Sacrificial Procedure: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Daily Offerings and Additional Offerings
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-daily-offerings-and-additional-offerings: 1 chapters, 176 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sacrifices Rendered Unfit
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Sacrifices Rendered Unfit: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Service on the Day of Atonement
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-service-on-the-day-of-atonement: 1 chapters, 331 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Trespass
+  [polite-pause] 30s break after 2400 requests
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Trespass: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Paschal Offering
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-paschal-offering: 3 chapters, 1721 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Festival Offering
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Festival Offering: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Firstlings
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Firstlings: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Offerings for Those with Incomplete Atonement
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Offerings for Those with Incomplete Atonement: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Substitution
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Substitution: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Red Heifer
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Red Heifer: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Defilement by Leprosy
+  [ok] sefaria-annotations-of-minchat-chinukh-on-mishneh-torah-defilement-by-leprosy: 2 chapters, 449 bytes
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Those Who Defile Bed or Seat
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Those Who Defile Bed or Seat: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Other Sources of Defilement
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Other Sources of Defilement: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Damages to Property
+  [polite-pause] 30s break after 2500 requests
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Damages to Property: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Murderer and the Preservation of Life
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Murderer and the Preservation of Life: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Sales
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Sales: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Slaves
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Slaves: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Testimony
+  [polite-pause] 30s break after 2600 requests
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Testimony: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Mourning
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Mourning: 
+  [book] Annotations of Minchat Chinukh on Mishneh Torah, Kings and Wars
+  [empty] Annotations of Minchat Chinukh on Mishneh Torah, Kings and Wars: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Transmission of the Oral Law
+  [ok] sefaria-annotations-of-r-yeshaya-berlin-on-mishneh-torah-transmission-of-the-oral-law: 1 chapters, 656 bytes
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Human Dispositions
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Human Dispositions: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Torah Study
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Torah Study: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Repentance
+  [polite-pause] 30s break after 2700 requests
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Repentance: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Prayer and the Priestly Blessing
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Prayer and the Priestly Blessing: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Sabbath
+  [ok] sefaria-annotations-of-r-yeshaya-berlin-on-mishneh-torah-sabbath: 2 chapters, 4056 bytes
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Rest on a Holiday
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Rest on a Holiday: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Shofar, Sukkah and Lulav
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Shofar, Sukkah and Lulav: 
+  [book] Annotations of R' Yeshaya Berlin on Mishneh Torah, Sanctification of the New Month
+  [empty] Annotations of R' Yeshaya Berlin on Mishneh Torah, Sanctification of the New Month: 
+  [book] Annotations of R' Zalman of Vilna on Mishneh Torah, Foreign Worship and Customs of the Nations
+  [empty] Annotations of R' Zalman of Vilna on Mishneh Torah, Foreign Worship and Customs of the Nations: 
+  [book] Annotations of R' Zalman of Vilna on Mishneh Torah, Repentance
+  [polite-pause] 30s break after 2800 requests
+  [ok] sefaria-annotations-of-r-zalman-of-vilna-on-mishneh-torah-repentance: 1 chapters, 2208 bytes
+  [book] Annotations of R' Zalman of Vilna on Mishneh Torah, Rest on a Holiday
+  [empty] Annotations of R' Zalman of Vilna on Mishneh Torah, Rest on a Holiday: 
+  [book] Annotations of R' Zalman of Vilna on Mishneh Torah, Divorce
+  [empty] Annotations of R' Zalman of Vilna on Mishneh Torah, Divorce: 
+  [book] Avodat HaMelekh on Mishneh Torah, Transmission of the Oral Law
+  [ok] sefaria-avodat-hamelekh-on-mishneh-torah-transmission-of-the-oral-law: 13 chapters, 22725 bytes
+  [book] Avodat HaMelekh on Mishneh Torah, Foundations of the Torah
+  [ok] sefaria-avodat-hamelekh-on-mishneh-torah-foundations-of-the-torah: 10 chapters, 35190 bytes
+  [book] Avodat HaMelekh on Mishneh Torah, Human Dispositions
+  [ok] sefaria-avodat-hamelekh-on-mishneh-torah-human-dispositions: 7 chapters, 17530 bytes
+  [book] Avodat HaMelekh on Mishneh Torah, Torah Study
+  [ok] sefaria-avodat-hamelekh-on-mishneh-torah-torah-study: 7 chapters, 30168 bytes
+  [book] Avodat HaMelekh on Mishneh Torah, Foreign Worship and Customs of the Nations
+  [polite-pause] 30s break after 2900 requests
+  [ok] sefaria-avodat-hamelekh-on-mishneh-torah-foreign-worship-and-customs-of-the-nations: 12 chapters, 103287 bytes
+  [book] Avodat HaMelekh on Mishneh Torah, Repentance
+  [ok] sefaria-avodat-hamelekh-on-mishneh-torah-repentance: 9 chapters, 28665 bytes
+  [book] Ben Aryeh on Mishneh Torah, Foundations of the Torah
+  [empty] Ben Aryeh on Mishneh Torah, Foundations of the Torah: 
+  [book] Ben Aryeh on Mishneh Torah, Human Dispositions
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-human-dispositions: 1 chapters, 184 bytes
+  [book] Ben Aryeh on Mishneh Torah, Torah Study
+  [empty] Ben Aryeh on Mishneh Torah, Torah Study: 
+  [book] Ben Aryeh on Mishneh Torah, Foreign Worship and Customs of the Nations
+  [empty] Ben Aryeh on Mishneh Torah, Foreign Worship and Customs of the Nations: 
+  [book] Ben Aryeh on Mishneh Torah, Repentance
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-repentance: 1 chapters, 565 bytes
+  [book] Ben Aryeh on Mishneh Torah, Reading the Shema
+  [empty] Ben Aryeh on Mishneh Torah, Reading the Shema: 
+  [book] Ben Aryeh on Mishneh Torah, Prayer and the Priestly Blessing
+  [empty] Ben Aryeh on Mishneh Torah, Prayer and the Priestly Blessing: 
+  [book] Ben Aryeh on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll
+  [empty] Ben Aryeh on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll: 
+  [book] Ben Aryeh on Mishneh Torah, Fringes
+  [empty] Ben Aryeh on Mishneh Torah, Fringes: 
+  [book] Ben Aryeh on Mishneh Torah, Blessings
+  [polite-pause] 30s break after 3000 requests
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-blessings: 1 chapters, 323 bytes
+  [book] Ben Aryeh on Mishneh Torah, Circumcision
+  [empty] Ben Aryeh on Mishneh Torah, Circumcision: 
+  [book] Ben Aryeh on Mishneh Torah, Sabbath
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-sabbath: 1 chapters, 174 bytes
+  [book] Ben Aryeh on Mishneh Torah, Eruvin
+  [empty] Ben Aryeh on Mishneh Torah, Eruvin: 
+  [book] Ben Aryeh on Mishneh Torah, Rest on a Holiday
+  [empty] Ben Aryeh on Mishneh Torah, Rest on a Holiday: 
+  [book] Ben Aryeh on Mishneh Torah, Leavened and Unleavened Bread
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-leavened-and-unleavened-bread: 1 chapters, 165 bytes
+  [book] Ben Aryeh on Mishneh Torah, Shofar, Sukkah and Lulav
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-shofar-sukkah-and-lulav: 1 chapters, 142 bytes
+  [book] Ben Aryeh on Mishneh Torah, Sheqel Dues
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-sheqel-dues: 1 chapters, 143 bytes
+  [book] Ben Aryeh on Mishneh Torah, Sanctification of the New Month
+  [ok] sefaria-ben-aryeh-on-mishneh-torah-sanctification-of-the-new-month: 1 chapters, 219 bytes
+  [book] Ben Aryeh on Mishneh Torah, Fasts
+  [polite-pause] 30s break after 3100 requests
+  [empty] Ben Aryeh on Mishneh Torah, Fasts: 
+  [book] Ben Aryeh on Mishneh Torah, Scroll of Esther and Hanukkah
+  [empty] Ben Aryeh on Mishneh Torah, Scroll of Esther and Hanukkah: 
+  [book] Ben Aryeh on Mishneh Torah, Marriage
+  [empty] Ben Aryeh on Mishneh Torah, Marriage: 
+  [book] Ben Aryeh on Mishneh Torah, Divorce
+  [empty] Ben Aryeh on Mishneh Torah, Divorce: 
+  [book] Ben Aryeh on Mishneh Torah, Levirate Marriage and Release
+  [empty] Ben Aryeh on Mishneh Torah, Levirate Marriage and Release: 
+  [book] Ben Aryeh on Mishneh Torah, Virgin Maiden
+  [empty] Ben Aryeh on Mishneh Torah, Virgin Maiden: 
+  [book] Ben Aryeh on Mishneh Torah, Woman Suspected of Infidelity
+  [empty] Ben Aryeh on Mishneh Torah, Woman Suspected of Infidelity: 
+  [book] Ben Aryeh on Mishneh Torah, Forbidden Intercourse
+  [empty] Ben Aryeh on Mishneh Torah, Forbidden Intercourse: 
+  [book] Ben Aryeh on Mishneh Torah, Forbidden Foods
