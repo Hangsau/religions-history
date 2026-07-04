@@ -223,4 +223,4 @@ SHA-256 of original.txt + commit hash for reproducibility.
 ## 維護者
 
 - Hang Sau（psyhangsau@gmail.com）
-- 協作：Claude（Anthropic, Sonnet / Opus）、MiniMax-M3（minimax.io）
+- 協作：Claude（Anthropic, Sonnet / Opus）、DeepSeek-V4（deepseek.com，翻譯主力；V4-Pro 主用、V4-Flash 備援）

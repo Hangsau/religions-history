@@ -19,7 +19,7 @@
 - 資料 helper 沿用 `scripts/status.py`（`load_all` / `filled` / `ALIGN_FIELDS` / `log_ok_count` / `log_tail`）；GUI 只管畫面。綠條＝≥99.5% 完成、琥珀＝進行中。
 - **刊版兼任監督（2026-07-04）**：`ensure_supervisor()` 在開看板時＋每 30 秒刷新時檢查 `logs/supervisor.pid`（`_pid_alive` OpenProcess 判活），沒在跑就用 `pythonw + DETACHED_PROCESS + CREATE_NO_WINDOW` 脫離式拉起 supervisor。**關掉看板不會殺死管線**（不重演 07-04 停擺）。頂部紅字橫幅 `pipeline_health()` 仍是 human backstop。
 - **`pipeline_health` 活性訊號改用 `supervisor-run.log`（2026-07-04 修假警報）**：舊版看 `PIPELINE_STATUS.md` mtime >20 分就紅字「疑停擺」，但該檔每部經典才更新一次，大部（如 `sn7-brahmana` 17 chunk ≈ 30+ 分）跑到一半必被誤報；supervisor 心跳 `supervisor.log` 只在兩輪之間跳、長 run 全程不跳也不能用。改以 `run.log`（每 chunk ~100 秒寫一行）為真心跳，`min(status_age, run_age) > 1200s` 才判停擺。真停擺（含 07-04 那種零活動）run.log 也會靜止 → 仍會紅字；系統性 quota 耗盡由 `pipeline-alert.txt` 另捕（優先判）。
-- **刊版即時動作區（2026-07-04）**：`translation_activity()` 解析 `run.log` 顯示「正在翻哪部（含中文名）/ 動作（翻譯 vs 標籤）/ chunk X/Y / 模型（MiniMax 或 DeepSeek fallback 紅字）/ 本次速度 部/時 + ETA / 錯誤·待重試·最近完成」。
+- **刊版即時動作區（2026-07-04）**：`translation_activity()` 解析 log 顯示「正在翻哪部（含中文名）/ 動作（翻譯 vs 標籤）/ chunk X/Y / 模型（從 `[model]` marker 自動抓，退備援時紅字「本次退備援」）/ 本次速度 部/時 + ETA / 錯誤·待重試·最近完成」。模型欄不再 hardcode，換 primary 自動跟上（見下 LLM fleet）。
 
 ## 2026-07-04 事故：翻譯管線靜默停擺 + 修復
 
@@ -81,7 +81,9 @@
 
 **LLM fleet：主力切 DeepSeek-V4-Pro（2026-07-04 晚，MiniMax 配額 99% 耗盡）**：`translate.py call_m3` 現主用 `deepseek-v4-pro`、失敗/逾時退 `deepseek-v4-flash`（皆 `api.deepseek.com/anthropic`，同 `~/.deepseek-token`；key 讀序 env `DEEPSEEK_API_KEY` → `~/.deepseek-token`，值源 `hermes-Hestia/hestia-credentials.env`）。**MiniMax-M3 已退出 chain**（月費配額 99%；且舊 fallback 用的 `deepseek-chat` 已在 DeepSeek API 下架，只剩 v4-flash/v4-pro）。待 MiniMax 5H 窗重置可考慮加回為跨家備援（不同 provider，非雙線同死）。
 - **兩 v4 model 皆 reasoning model**（回應含 thinking + text 兩塊）：`/anthropic/v1/messages` 直打時 `max_tokens` 需 ≥4000（thinking 會吃光低預算 → text 空）；但走 `translate.py` 的 `claude -p` CLI 路徑不受此限，已實測回傳正常譯文（「道可道非常道」→「能夠用言語說出來的道…」）、假標題陷阱（〈北冥非馬〉）正確拒答。
-- **relaunch 已執行**：舊 worker（跑 6.8h 的 MiniMax 主力）已 kill，supervisor（未改，pid 6812）30s backoff 後於 20:22 relaunch 新碼 worker，正翻 `sn1-devata`，deepseek-v4-pro 主力全程無 fallback warning。
+- **flash 只作 fallback，不升 primary（2026-07-04 晚實測）**：用 `build_prompt` 實測 flash，它守不住輸出格式——吐前置散文、捏造完成回報（「已更新 2149 行」）、缺 header、本文亂碼；且 `bypassPermissions` 下會 agentic 暴走（測試中一度覆寫 `dhammapada/01-translation.md`，已 `git restore` 復原）。pro 嚴格照格式 → **primary 維持 pro**。
+- **刊版自動抓取當前模型（2026-07-04 晚，commit 7bd73d2b）**：單一來源設計，換模型免手改。`translate.py` 常數 `PRIMARY_MODEL` / `FALLBACK_MODEL`；`call_m3` 成功時印 log marker `  [model] <name> (primary|fallback)`；譯文 header 用 `__TRANSLATION_MODEL__` placeholder 由 `PRIMARY_MODEL` 自動填。`status_gui.py` 的 `translation_activity()` 改用正則 `\[model\]\s+(\S+)\s+\((primary|fallback)\)` 從 log 抓 provider（拿掉 hardcode「MiniMax-M3」），`fallback_active` 時紅字「本次退備援」。**改 primary 只需動 translate.py 一個常數**，刊版與 header 自動跟上。
+- **relaunch 已執行（本次含新碼）**：舊 worker kill 後，supervisor（未改，pid 6812）30s backoff relaunch 新碼 worker（`auto-pipeline.py` pid 於本 session 重啟為載入 7bd73d2b 的 marker 碼），log 已確認印出 `[model] deepseek-v4-pro (primary)`；刊版 `status_gui.py` 亦重啟載入新正則。續跑走 `--skip-done`，已完成 slug 不重跑。
 - 分工原則未變：漢傳/和合本原樣保留不耗 LLM。若要「並行加速」（非只 fallback）需再加 profile pool 平行派工，待用戶決定。
 
 **黑框全清（2026-07-04 補完）**：07-04「黑框修復」只補了 `translate.py` 的 `claude -p`；本次補齊 `auto-pipeline.py`（`run_git` + `rebuild_indexes` 起子腳本）、`classify-metadata.py`（git）、`status.py`（git log）四處遺漏 subprocess，全加 `CREATE_NO_WINDOW`。pythonw 背景管線 commit/push/建索引時不再彈主控台黑框。
