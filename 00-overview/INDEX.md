@@ -6,9 +6,9 @@
 ## 統計總覽
 
 - 總計: **4411** 部
-- 已驗證: 2436
-- 原文 (vs 譯文): 4040 / 4411
-- 總大小: ~537.0 MB
+- 已驗證: 4411
+- 原文 (vs 譯文): 4042 / 4411
+- 總大小: ~537.4 MB
 
 ## 按宗教
 
@@ -47,11 +47,11 @@
 | 傳統 | 部數 |
 |------|------|
 | 佛教 - 漢傳 | 2429 |
-| 猶太教 - Commentary | 1281 |
+| 猶太教 - Commentary | 1271 |
 | 基督教 | 142 |
 | 猶太教 - Halakhah | 88 |
+| 猶太教 | 67 |
 | 猶太教 - Mishnah | 64 |
-| 猶太教 | 57 |
 | 佛教 - 巴利 | 47 |
 | 猶太教 - Midrash | 36 |
 | 印度教 | 33 |
@@ -2630,7 +2630,7 @@
 | `mabinogion-cy-1` | 馬比諾吉昂 第一卷（威爾斯原文） | 凱爾特 | 120537 |
 | `mabinogion-cy-2` | 馬比諾吉昂 第二卷（威爾斯原文） | 凱爾特 | 125968 |
 | `mabinogion-st` | Mabinogion 馬比諾吉昂 (Welsh) | 凱爾特 | 962341 |
-| `tain-bo-cuailnge-ga` | 奪牛長征記（古愛爾蘭語原文，兩傳本） | 凱爾特 | 538214 |
+| `tain-bo-cuailnge-ga` | 奪牛長征記（古愛爾蘭語原文，兩傳本） | 凱爾特 | 538212 |
 | `welsh-triads` | 威爾士三聯 | 凱爾特 | 30762 |
 | `heimskringla` | 赫姆斯克林格拉 | 北歐 | 2112066 |
 | `heimskringla-on` | 赫姆斯克林格拉（古諾斯語原文） | 北歐 | 1590952 |
@@ -3278,7 +3278,7 @@
 | `sefaria-german-commentary-on-mishnah-niddah` | German Commentary on Mishnah Niddah | 猶太教 | 4984 |
 | `sefaria-german-commentary-on-mishnah-oholot` | German Commentary on Mishnah Oholot | 猶太教 | 1706 |
 | `sefaria-german-commentary-on-mishnah-oktzin` | German Commentary on Mishnah Oktzin | 猶太教 | 2756 |
-| `sefaria-german-commentary-on-mishnah-orlah` | German Commentary on Mishnah Orlah | 猶太教 | 73 |
+| `sefaria-german-commentary-on-mishnah-orlah` | German Commentary on Mishnah Orlah | 猶太教 | 5471 |
 | `sefaria-german-commentary-on-mishnah-parah` | German Commentary on Mishnah Parah | 猶太教 | 3376 |
 | `sefaria-german-commentary-on-mishnah-peah` | German Commentary on Mishnah Peah | 猶太教 | 410 |
 | `sefaria-german-commentary-on-mishnah-pesachim` | German Commentary on Mishnah Pesachim | 猶太教 | 2868 |
@@ -3303,23 +3303,23 @@
 | `sefaria-german-commentary-on-mishnah-zevachim` | German Commentary on Mishnah Zevachim | 猶太教 | 3854 |
 | `sefaria-german-commentary-on-pirkei-avot` | German Commentary on Pirkei Avot | 猶太教 | 6308 |
 | `sefaria-gra-on-pirkei-avot` | Gra on Pirkei Avot | 猶太教 | 6007 |
-| `sefaria-hagahot-chavot-yair-on-bava-batra` | Hagahot Chavot Yair on Bava Batra | 猶太教 | 95 |
-| `sefaria-hagahot-chavot-yair-on-beitzah` | Hagahot Chavot Yair on Beitzah | 猶太教 | 63 |
-| `sefaria-hagahot-chavot-yair-on-gittin` | Hagahot Chavot Yair on Gittin | 猶太教 | 62 |
+| `sefaria-hagahot-chavot-yair-on-bava-batra` | Hagahot Chavot Yair on Bava Batra | 猶太教 | 44986 |
+| `sefaria-hagahot-chavot-yair-on-beitzah` | Hagahot Chavot Yair on Beitzah | 猶太教 | 4428 |
+| `sefaria-hagahot-chavot-yair-on-gittin` | Hagahot Chavot Yair on Gittin | 猶太教 | 10542 |
 | `sefaria-hagahot-chavot-yair-on-sanhedrin` | Hagahot Chavot Yair on Sanhedrin | 猶太教 | 341 |
-| `sefaria-hagahot-habach-on-rif-bava-kamma` | Hagahot HaBach on Rif Bava Kamma | 猶太教 | 70 |
-| `sefaria-hagahot-habach-on-rif-beitzah` | Hagahot HaBach on Rif Beitzah | 猶太教 | 42 |
+| `sefaria-hagahot-habach-on-rif-bava-kamma` | Hagahot HaBach on Rif Bava Kamma | 猶太教 | 31649 |
+| `sefaria-hagahot-habach-on-rif-beitzah` | Hagahot HaBach on Rif Beitzah | 猶太教 | 9280 |
 | `sefaria-hagahot-habach-on-rif-berakhot` | Hagahot HaBach on Rif Berakhot | 猶太教 | 204 |
 | `sefaria-hagahot-habach-on-rif-sanhedrin` | Hagahot HaBach on Rif Sanhedrin | 猶太教 | 414 |
 | `sefaria-hagahot-habach-on-rif-shabbat` | Hagahot HaBach on Rif Shabbat | 猶太教 | 163 |
 | `sefaria-hagahot-habach-on-rif-sukkah` | Hagahot HaBach on Rif Sukkah | 猶太教 | 1535 |
-| `sefaria-hagahot-mealfas-yashan-on-bava-metzia` | Hagahot MeAlfas Yashan on Bava Metzia | 猶太教 | 121 |
+| `sefaria-hagahot-mealfas-yashan-on-bava-metzia` | Hagahot MeAlfas Yashan on Bava Metzia | 猶太教 | 97836 |
 | `sefaria-hagahot-mealfas-yashan-on-berakhot` | Hagahot MeAlfas Yashan on Berakhot | 猶太教 | 394 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kilayim` | Haggahot Ya'avetz on Mishnah Kilayim | 猶太教 | 134 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-kinnim` | Haggahot Ya'avetz on Mishnah Kinnim | 猶太教 | 742 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-middot` | Haggahot Ya'avetz on Mishnah Middot | 猶太教 | 1318 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-peah` | Haggahot Ya'avetz on Mishnah Peah | 猶太教 | 885 |
-| `sefaria-haggahot-ya-avetz-on-mishnah-sheviit` | Haggahot Ya'avetz on Mishnah Sheviit | 猶太教 | 74 |
+| `sefaria-haggahot-ya-avetz-on-mishnah-sheviit` | Haggahot Ya'avetz on Mishnah Sheviit | 猶太教 | 2300 |
 | `sefaria-haggahot-ya-avetz-on-mishnah-terumot` | Haggahot Ya'avetz on Mishnah Terumot | 猶太教 | 724 |
 | `sefaria-hamaor-hagadol-on-sotah` | HaMaor HaGadol on Sotah | 猶太教 | 10932 |
 | `sefaria-hamaor-hakatan-on-chagigah` | HaMaor HaKatan on Chagigah | 猶太教 | 5991 |
@@ -3545,7 +3545,7 @@
 | `sefaria-matnot-kehunah-on-eichah-rabbah` | Matnot Kehunah on Eichah Rabbah | 猶太教 | 1602 |
 | `sefaria-matnot-kehunah-on-esther-rabbah` | Matnot Kehunah on Esther Rabbah | 猶太教 | 857 |
 | `sefaria-matnot-kehunah-on-kohelet-rabbah` | Matnot Kehunah on Kohelet Rabbah | 猶太教 | 12984 |
-| `sefaria-matnot-kehunah-on-ruth-rabbah` | Matnot Kehunah on Ruth Rabbah | 猶太教 | 41 |
+| `sefaria-matnot-kehunah-on-ruth-rabbah` | Matnot Kehunah on Ruth Rabbah | 猶太教 | 61444 |
 | `sefaria-matnot-kehunah-on-shemot-rabbah` | Matnot Kehunah on Shemot Rabbah | 猶太教 | 28132 |
 | `sefaria-matnot-kehunah-on-shir-hashirim-rabbah` | Matnot Kehunah on Shir HaShirim Rabbah | 猶太教 | 4119 |
 | `sefaria-matnot-kehunah-on-vayikra-rabbah` | Matnot Kehunah on Vayikra Rabbah | 猶太教 | 44057 |
@@ -4112,7 +4112,7 @@
 | `sefaria-rashi-on-bava-metzia` | Rashi on Bava Metzia | 猶太教 | 1095 |
 | `sefaria-rashi-on-berakhot` | Rashi on Berakhot | 猶太教 | 333 |
 | `sefaria-rashi-on-bereshit-rabbah` | Rashi on Bereshit Rabbah | 猶太教 | 57169 |
-| `sefaria-rashi-on-chagigah` | Rashi on Chagigah | 猶太教 | 79 |
+| `sefaria-rashi-on-chagigah` | Rashi on Chagigah | 猶太教 | 157475 |
 | `sefaria-rashi-on-chullin` | Rashi on Chullin | 猶太教 | 655 |
 | `sefaria-rashi-on-eruvin` | Rashi on Eruvin | 猶太教 | 915 |
 | `sefaria-rashi-on-megillah` | Rashi on Megillah | 猶太教 | 134 |
@@ -4460,7 +4460,7 @@
 | `avesta-sbe04` | 阿維斯塔 SBE 04 (Vendidad) | 瑣羅亞斯德 | 606425 |
 | `avesta-sbe04-ae` | 驅魔書／維提吠達（阿維斯塔原文） | 瑣羅亞斯德 | 184404 |
 | `avesta-sbe23` | 阿維斯塔 SBE 23 (Yasht) | 瑣羅亞斯德 | 928571 |
-| `avesta-sbe23-ae` | 耶什特讚歌集（阿維斯塔原文） | 瑣羅亞斯德 | 302272 |
+| `avesta-sbe23-ae` | 耶什特讚歌集（阿維斯塔原文） | 瑣羅亞斯德 | 302271 |
 | `avesta-sbe31` | 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah) | 瑣羅亞斯德 | 839463 |
 | `avesta-sbe31-ae` | 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文） | 瑣羅亞斯德 | 272543 |
 | `bundahishn` | Bundahishn + Bahman Yasht + Shayast la-Shayast | 瑣羅亞斯德 | 998702 |
