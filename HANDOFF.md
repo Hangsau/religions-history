@@ -74,9 +74,10 @@
 - **blocked-access（16）**：古埃及×8（Budge/Mercer 英譯，連續原文僅 TLA，實測檔內 0 連續音譯）、瑣羅Pahlavi×5（avesta.org 僅 West 英譯，轉寫僅 TITUS 受阻/Pakzad 版權）、兩河×3（阿卡德，ORACC 不含/eBL 登入牆/SEAL JS-SPA/ETCSL 蘇美語）。**若日後突破**：TLA 開放資料匯出、TITUS 結構化抓取、eBL 帳號 → 移除對應條目即回可收。
 - **no-single-original（9）**：諾斯底 Mead/King 學術著作×2＋TGH-1(導論)/TGH-3(Stobaeus 散篇)、錫克 Macauliffe 彙編（Gurbani 原文已另收）、斯拉夫 Ralston 民俗彙編、巴哈伊 Hammond 選集（原文散於各原著）、美洲 Landa(西文僅 2002 受版權 OCR)/Chumayel(馬雅轉寫無乾淨全文)。
 - **oral-no-script（3）**：非洲約魯巴 ife/yoruba（口傳無文字）、印加 inca-rites（quipu 無表音文字）。採錄英譯即最早可及形式，保留 text_role=translation（非 original，因確為英譯）。
-- **分類折疊（非缺口）**：瑪雅/阿茲特克/印加 收在 `美洲` 傘下、赫爾墨斯 收在 `諾斯底`／`赫爾墨斯` 傘下；獨立宗教瀏覽需另議 religion 重分類（影響 INDEX/tag-index，未做）。
+- **赫爾墨斯 分類折疊（非缺口）**：赫爾墨斯 收在 `諾斯底`／`赫爾墨斯` 傘下；獨立宗教瀏覽需另議。
+- **瑪雅/阿茲特克/印加 已拆為獨立宗教（2026-07-04 完成）**：原收在 `美洲` 傘下，已改 meta.json religion 欄 + catalog（`americas-st.json`）；北美部落神話（navajo/hopi/zuni…）仍歸 `美洲`。INDEX 重生後 27 宗教。
 
-**LLM fleet 擴充（討論中，2026-07-03）**：用戶考慮加便宜 worker 分攤 MiniMax-M3 流量。關鍵發現：`translate.py:206 call_m3` 靠 `claude -p` + `ANTHROPIC_BASE_URL/AUTH_TOKEN/MODEL` 打 MiniMax Anthropic-相容端點 → 任何有 Anthropic 端點的廠商（DeepSeek/智譜 GLM-4.6/Moonshot Kimi K2，皆中文母語且便宜）換三行 env 即 drop-in，加 profile pool 約十幾行。建議分工：英譯 fallback→便宜 worker；難古典原文→留強模型；漢傳/和合本 原樣保留不耗 LLM。待用戶決定 provider + 辦 key。
+**LLM fleet 擴充（2026-07-04 DeepSeek fallback 已實作）**：`translate.py call_m3` 主用 MiniMax-M3，撞流量/失敗/逾時自動退到 DeepSeek 付費 API（`api.deepseek.com/anthropic` + `deepseek-chat`）。key 讀序：env `DEEPSEEK_API_KEY` → `~/.deepseek-token`（已寫入，值來源 `hermes-Hestia/hestia-credentials.env`）。已實測 `claude -p` 打 DeepSeek Anthropic 端點可用。**注意**：running auto-pipeline 需 relaunch 才載入新 fallback 碼（supervisor 下一 cycle 自動生效）。分工原則未變：英譯 fallback→便宜 worker；難古典原文→留強模型；漢傳/和合本原樣保留不耗 LLM。若要「並行加速」（非只 fallback）需再加 profile pool 平行派工，待用戶決定。
 
 **資料對齊 Alignment（2026-07-03，用戶要求「把所有資料都對齊以利撈取」）**
 > MiniMax M3 同有 5H/7D 限制（約 Claude Pro 5×，非無限）。對齊按 token 成本分層：0-token 規則優先做滿，M3 只留給小輸出分類。

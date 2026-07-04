@@ -41,6 +41,7 @@ ROLE_ANNOTATOR = ROOT / "tools" / "m3-annotator-role.md"
 ROLE_TAGGER = ROOT / "tools" / "m3-tagger-role.md"
 CONCEPTS_PATH = ROOT / "00-overview" / "concepts.md"
 MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
+DEEPSEEK_TOKEN_PATH = Path.home() / ".deepseek-token"  # 付費 fallback：MiniMax 撞流量/失敗時改打 DeepSeek
 
 TASK_TO_OUTFILE = {
     "translate": "01-translation.md",
@@ -203,21 +204,25 @@ def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str
 """
 
 
-def call_m3(prompt: str, dry_run: bool = False) -> str | None:
-    sys.stdout.flush()  # ensure prior prints land before subprocess wait
-    """Invoke claude CLI with MiniMax-M3 env vars (equivalent to claude-m3 shell function)."""
-    if dry_run:
-        print(f"\n[DRY RUN] prompt length: {len(prompt)} chars\n{'='*60}")
-        print(prompt[:2000] + "\n...[truncated]...\n" + prompt[-500:])
-        return None
-    if not MINIMAX_TOKEN_PATH.exists():
-        print(f"  [error] MiniMax token not found at {MINIMAX_TOKEN_PATH}")
-        return None
+def _read_deepseek_token() -> str | None:
+    """DeepSeek 付費 key：先環境變數 DEEPSEEK_API_KEY，再 ~/.deepseek-token。"""
+    tok = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    if tok:
+        return tok
+    if DEEPSEEK_TOKEN_PATH.exists():
+        tok = DEEPSEEK_TOKEN_PATH.read_text(encoding="utf-8").strip()
+        if tok:
+            return tok
+    return None
+
+
+def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str | None, str | None]:
+    """跑一次 `claude -p`（Anthropic-相容端點）。回 (stdout, None) 或 (None, err_msg)。"""
     env = os.environ.copy()
-    env["ANTHROPIC_BASE_URL"] = "https://api.minimax.io/anthropic"
-    env["ANTHROPIC_AUTH_TOKEN"] = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
-    env["ANTHROPIC_MODEL"] = "MiniMax-M3"
-    env["ANTHROPIC_SMALL_FAST_MODEL"] = "MiniMax-M3"
+    env["ANTHROPIC_BASE_URL"] = base_url
+    env["ANTHROPIC_AUTH_TOKEN"] = token
+    env["ANTHROPIC_MODEL"] = model
+    env["ANTHROPIC_SMALL_FAST_MODEL"] = model
     try:
         result = subprocess.run(
             ["claude", "-p", "--permission-mode", "bypassPermissions"],
@@ -229,15 +234,43 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
             creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
         )
         if result.returncode != 0:
-            print(f"  [error] m3 exit {result.returncode}: {result.stderr.decode('utf-8', errors='replace')[:500]}")
-            return None
-        return result.stdout.decode("utf-8", errors="replace")
+            return None, f"exit {result.returncode}: {result.stderr.decode('utf-8', errors='replace')[:500]}"
+        return result.stdout.decode("utf-8", errors="replace"), None
     except subprocess.TimeoutExpired:
-        print("  [error] m3 timeout after 600s")
-        return None
+        return None, "timeout after 600s"
     except FileNotFoundError:
-        print("  [error] `claude` CLI not found in PATH")
+        return None, "`claude` CLI not found in PATH"
+
+
+def call_m3(prompt: str, dry_run: bool = False) -> str | None:
+    """主用 MiniMax-M3；撞流量/失敗/逾時就自動退到 DeepSeek 付費 API。"""
+    sys.stdout.flush()  # ensure prior prints land before subprocess wait
+    if dry_run:
+        print(f"\n[DRY RUN] prompt length: {len(prompt)} chars\n{'='*60}")
+        print(prompt[:2000] + "\n...[truncated]...\n" + prompt[-500:])
         return None
+
+    # Primary: MiniMax-M3（月費 Coding Plan，不吃 Anthropic 配額）
+    if MINIMAX_TOKEN_PATH.exists():
+        token = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
+        out, err = _run_claude(prompt, "https://api.minimax.io/anthropic", token, "MiniMax-M3")
+        if out is not None:
+            return out
+        print(f"  [warn] MiniMax-M3 失敗（{err}）→ 退到 DeepSeek 付費 API")
+    else:
+        print(f"  [warn] MiniMax token 不存在（{MINIMAX_TOKEN_PATH}）→ 退到 DeepSeek 付費 API")
+
+    # Fallback: DeepSeek（付費，按 token 計費）
+    ds_token = _read_deepseek_token()
+    if not ds_token:
+        print(f"  [error] DeepSeek token 也沒有（env DEEPSEEK_API_KEY 或 {DEEPSEEK_TOKEN_PATH}）；兩家都不可用")
+        return None
+    out, err = _run_claude(prompt, "https://api.deepseek.com/anthropic", ds_token, "deepseek-chat")
+    if out is not None:
+        print("  [ok] DeepSeek fallback 成功")
+        return out
+    print(f"  [error] DeepSeek fallback 也失敗（{err}）")
+    return None
 
 
 def split_chapters(original_text: str) -> list[str]:
