@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/朱子語類",
   "downloaded_at": "2026-06-29T23:31:12+00:00",
   "size_bytes": 5884169,
-  "checksum_sha256": "a0c31757f1da6af5697acec851576284b3af5dca86ee58094fe142466d653f79",
+  "checksum_sha256": "4d9dace813e91e913d104aa35102ff88f326d14bb8951f1acbf59c4692ac8957",
   "chapter_count": 140,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -22,5 +22,8 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
+  "repairs": [
+    "2026-07-05 修復 2 個 U+FFFD：？(U+FF1F)@72266、？(U+FF1F)@1577808 來源 zh.wikisource {{*|{{？}}}} 範本（未知學生記錄標記）"
+  ]
 }

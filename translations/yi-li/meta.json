@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/儀禮",
   "downloaded_at": "2026-06-29T23:21:47+00:00",
   "size_bytes": 209255,
-  "checksum_sha256": "b8eb1904564cd80e56cb4b9b77c26b8239129198aa68f274706c14a54a9d4ae3",
+  "checksum_sha256": "04338bde295734a4147d60d2698209042984169475d8f05c115c46727c3204d0",
   "chapter_count": 17,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -22,5 +22,8 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
+  "repairs": [
+    "2026-07-05 修復 1 個 U+FFFD：肂(U+8082)@9431 來源 ctext.org 士喪禮（zh.wikisource 同位置亦為 FFRD，ctext.org IHP-Sinica 版確認為肂）"
+  ]
 }
