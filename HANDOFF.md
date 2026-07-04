@@ -49,8 +49,12 @@ MiniMax 週一（2026-07-06）回來前的免付費工作。翻譯管線仍 HALT
 - **[完成] 修 Sefaria downloader 巢狀漏抓 + 重抓 10 部截斷**（commit 77366bac + 52187405）：`download-sefaria-full.py` `fetch_book_text` 改「整本抓一次 + 遞迴攤平」（`_chapterize`/`_flatten_strings`）。**根因**：舊版靠 `index.lengths` 逐章 iterate，註釋類經文 lengths 缺失（回 None）時被當 1 章，漏抓 99%（Matnot Kehunah 523 段只抓 1）。新增 `--titles` 針對性重抓旗標。10 部全還原（rashi-on-chagigah 55→89509 字等）。verify.py --all 全綠；順帶 1515 部標 verified。
 - **[判定] 8 部 CBETA「截斷」非 bug**：多為 parser 正確排除夾註（`<note place="inline">` 交錯註）後主文本本就短（如 T46n1943 主文「初運香華…」49 字，其餘皆夾註運想文）。**不改資料**（夾註是註解非正文，排除合理）。等 P4 到密教部再議是否併夾註。
 - **[判定] 13 部 CBETA 梵字/悉曇 dharani**：SMP 為 CBETA 缺字（gaiji）私用區碼位非亂碼；已被古典漢語 verbatim 短路保護不會亂翻。改標非急務。T54n2133A 是「中文解說悉曇」論著非咒語，不可標 transliteration。
-- **[進行] 4 部 CJK-FFFD**：chunqiu-fanlu / yi-li / yunji-qiqian / zhuzi-yulei（派 Sonnet 修）。
-- **[進行] WS2 收集**：Nag Hammadi 52 + 巴哈伊 + 古埃及（派 Sonnet 跑既有 catalog downloader）。
+- **[完成] 4 部 CJK-FFFD 復查（派 Sonnet，commit a1d46857）**：14 個 U+FFFD 逐一比對 zh.wikisource `?action=raw` + ctext。**復原 3**（yi-li「肂」U+8082；zhuzi-yulei 2× 全形問號＝wikisource `{{？}}` 未知記錄者標記）；**11 為真缺字**（wikisource 本身標 `{{?|外囗內巷}}`/`{{?|地地地}}`/`{{?|門耑}}` 等 Unicode 未編碼字形，或源檔亦 FFFD）——不臆造、保留缺字守 provenance。yi-li/zhuzi-yulei SHA 三方一致 verify PASS，`meta.repairs` 存註記。
+- **[完成] WS2 收集（派 Sonnet，commit 00d96c46）**：諾斯底 5 + 巴哈伊 1 + 古埃及 14 部（sacred-texts.com 19c 英譯本）先前 session 已全下載，本次 all-skip；重生 INDEX（已驗證 2436→**4411** 全庫、27 宗教、537.4 MB）。
+- **本輪全綠**：全庫 verify.py --all 0 FAIL，1515 部標 verified:true（commit 52187405）。
+
+### 週一（2026-07-06）MiniMax 回來後
+1. 刪 `logs/pipeline-HALT.flag`。2. 確認 `translate.py` PRIMARY_MODEL 指回 MiniMax。3. 開刊版 / 拉 supervisor 續跑核心翻譯佇列。4. Sefaria downloader 已修（整本抓+遞迴攤平），未來全庫爬蟲不再漏抓巢狀註釋。
 
 **Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
 - 翻譯（純翻譯，不解釋）→ `01-translation.md`
