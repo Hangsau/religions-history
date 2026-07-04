@@ -9,6 +9,7 @@
 或： PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py
 """
 
+import json
 import os
 import re
 import subprocess
@@ -74,6 +75,9 @@ def fmt_ago(sec: float) -> str:
         return f"{int(sec / 3600)} 時前"
     return f"{int(sec / 86400)} 天前"
 
+
+ACTION_ZH = {"translate": "經文翻譯", "tag": "語義標籤", "annotate": "白話註釋"}
+
 # ---- 配色：departure board / NOC 監控牆（深色面板 + 琥珀/綠燈號）----
 BG    = "#15181c"
 PANEL = "#1e2228"
@@ -115,18 +119,99 @@ def pipeline_health(now: float) -> dict:
     done, total = (int(m.group(1)), int(m.group(2))) if m else (0, 0)
     cm = re.search(r"目前處理：`?([^`\n]+)`?", txt)
     current = cm.group(1).strip() if cm else "?"
+    rm = re.search(r"失敗待重試：\*{0,2}(\d+)", txt)
+    retry = int(rm.group(1)) if rm else 0
     age = now - status_md.stat().st_mtime
     hb_age = now - hb_f.stat().st_mtime if hb_f.exists() else None
+    base = {"done": done, "total": total, "current": current, "retry": retry}
 
     if (total and done >= total) or current.startswith("(完成"):
-        return {"color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
+        return {**base, "color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
     if age > 1200:  # 未完成卻 >20 分沒更新 → 疑靜默停擺
         note = f"，supervisor 心跳 {fmt_ago(hb_age)}" if hb_age is not None else "，無 supervisor 心跳"
-        return {"color": BAD,
+        return {**base, "color": BAD,
                 "text": f"⚠ 翻譯管線疑停擺：停在 {done}/{total} @ {current}，"
                         f"{fmt_ago(age)}未更新{note}"}
-    return {"color": DONE,
+    return {**base, "color": DONE,
             "text": f"翻譯管線運行中：{done}/{total} @ {current}（{fmt_ago(age)}更新）"}
+
+
+def translation_activity(now: float) -> dict:
+    """解析 supervisor-run.log，回傳翻譯管線的即時動作：
+    正在翻哪部、做什麼（翻譯/標籤）、第幾 chunk、用哪家模型、本次速度。
+    看板據此顯示『現在正在做什麼』，直接回答『是不是沒在動』。
+    """
+    d = {"current": None, "name": None, "idx": None, "run_total": None,
+         "action": None, "chunk": None, "provider": "MiniMax-M3",
+         "fallbacks": 0, "errors": 0, "done_run": 0, "pace_hr": None,
+         "eta_h": None, "last_ago": None, "last_done": None}
+    run_log = status.LOGS / "supervisor-run.log"
+    if not run_log.exists():
+        return d
+    try:
+        lines = [l for l in run_log.read_text(encoding="utf-8", errors="replace").splitlines()
+                 if l.strip()]
+    except OSError:
+        return d
+    d["last_ago"] = fmt_ago(now - run_log.stat().st_mtime)
+
+    # 取最後一個 run 區塊（避開上一輪殘留）
+    start_idx, run_start = 0, None
+    for i, l in enumerate(lines):
+        if "supervisor run @" in l:
+            start_idx = i
+            tm = re.search(r"@ ([\d\-]{10} [\d:]{8}(?:\.\d+)?[+\-]\d{2}:\d{2})", l)
+            if tm:
+                try:
+                    run_start = datetime.fromisoformat(tm.group(1)).timestamp()
+                except ValueError:
+                    run_start = None
+    block = lines[start_idx:]
+
+    for l in reversed(block):
+        mm = re.match(r"\[(\d+)/(\d+)\]\s+(\S+)", l)
+        if mm:
+            d["idx"], d["run_total"], d["current"] = int(mm.group(1)), int(mm.group(2)), mm.group(3)
+            break
+    for l in reversed(block):
+        mm = re.search(r"\[chunk (\d+)/(\d+)\]\s+\S+\s+\((\w+)\)", l)
+        if mm:
+            d["chunk"], d["action"] = f"{mm.group(1)}/{mm.group(2)}", mm.group(3)
+            break
+    for l in reversed(block):
+        mm = re.search(r"\[done\]\s+(\S+)\s+\((\w+)\)", l)
+        if mm:
+            d["last_done"] = f"{mm.group(1)}（{ACTION_ZH.get(mm.group(2), mm.group(2))}）"
+            break
+
+    d["fallbacks"] = sum(1 for l in block if "DeepSeek fallback 成功" in l)
+    d["errors"] = sum(1 for l in block if "[error]" in l)
+    d["done_run"] = sum(1 for l in block if re.search(r"\[done\]\s+\S+\s+\(translate\)", l))
+
+    # 供應商：由最後一個 provider 訊號判斷現在打誰
+    for l in reversed(block):
+        if "DeepSeek fallback 成功" in l or "退到 DeepSeek" in l or "MiniMax-M3 失敗" in l:
+            d["provider"] = "DeepSeek（付費 fallback）"
+            break
+        if l.lstrip().startswith("[chunk") or l.lstrip().startswith("[done]"):
+            d["provider"] = "MiniMax-M3"
+            break
+
+    # 速度 + ETA：本次 run 已翻部數 / 已耗時
+    if run_start and d["done_run"] > 0:
+        elapsed_h = (now - run_start) / 3600
+        if elapsed_h > 0:
+            d["pace_hr"] = d["done_run"] / elapsed_h
+
+    # 當前 slug → 中文名
+    if d["current"]:
+        mp = status.TRANSLATIONS_DIR / d["current"] / "meta.json"
+        if mp.exists():
+            try:
+                d["name"] = json.loads(mp.read_text(encoding="utf-8")).get("name_zh")
+            except (OSError, json.JSONDecodeError):
+                pass
+    return d
 
 
 def collect() -> dict:
@@ -169,6 +254,14 @@ def collect() -> dict:
         d["dl_newest"], d["dl_newest_ago"], d["dl_landed_30m"] = "—", "—", 0
     d["pipe"] = pipeline_health(now)
 
+    # ---- 翻譯即時動作（Pipeline B/C）----
+    act = translation_activity(now)
+    total, done, pace = d["pipe"].get("total"), d["pipe"].get("done"), act["pace_hr"]
+    if total and done is not None and pace and done < total:
+        act["eta_h"] = (total - done) / pace
+    act["retry"] = d["pipe"].get("retry", 0)
+    d["act"] = act
+
     dl_logs = list(status.LOGS.glob("pipeline-a*.log"))
     if dl_logs:
         active = max(dl_logs, key=lambda p: p.stat().st_mtime)
@@ -185,8 +278,8 @@ class Board:
         self.root = root
         root.title("religions-history 狀態看板")
         root.configure(bg=BG)
-        root.geometry("660x800")
-        root.minsize(560, 640)
+        root.geometry("680x900")
+        root.minsize(560, 700)
 
         self.rows = {}   # key -> (canvas, count_label)
         self._build_static()
@@ -218,8 +311,19 @@ class Board:
         self.stamp = tk.Label(head, text="", bg=BG, fg=MUTED, font=F_SMALL, anchor="w")
         self.stamp.pack(fill="x", padx=18)
         self.pipe = tk.Label(head, text="", bg=BG, fg=FG, font=F_SEC, anchor="w",
-                             wraplength=620, justify="left")
+                             wraplength=640, justify="left")
         self.pipe.pack(fill="x", padx=18, pady=(6, 0))
+
+        self._section(self.root, "翻譯管線 · 現在正在做什麼")
+        self.act_now = tk.Label(self.root, text="—", bg=BG, fg=PROG, font=(FONT, 12, "bold"),
+                                anchor="w", wraplength=640, justify="left")
+        self.act_now.pack(fill="x", padx=18)
+        self.act_do = tk.Label(self.root, text="—", bg=BG, fg=FG, font=F_ROW,
+                               anchor="w", wraplength=640, justify="left")
+        self.act_do.pack(fill="x", padx=18, pady=(2, 0))
+        self.act_meta = tk.Label(self.root, text="—", bg=BG, fg=MUTED, font=F_SMALL,
+                                 anchor="w", wraplength=640, justify="left")
+        self.act_meta.pack(fill="x", padx=18, pady=(2, 0))
 
         self._section(self.root, "對齊覆蓋率（欄位回填進度）")
         for label, key in [(l, k) for (k, l) in status.ALIGN_FIELDS]:
@@ -266,6 +370,44 @@ class Board:
                        fill="#12151a" if fw > 30 else MUTED, font=F_SMALL)
         cnt.config(text=f"{count} / {total}")
 
+    def _draw_activity(self, a: dict):
+        """畫『現在正在翻什麼、做什麼』三行：正在處理 / 動作+模型 / 速度+ETA+異常。"""
+        if not a.get("current"):
+            self.act_now.config(text="目前無即時動作（批次間隔中，或管線未啟動）", fg=MUTED)
+            self.act_do.config(text="—")
+            last = f"最後動作 {a['last_ago']}" if a.get("last_ago") else ""
+            self.act_meta.config(text=last)
+            return
+
+        name = a["current"] + (f"　·　{a['name']}" if a.get("name") else "")
+        seq = f"（第 {a['idx']}/{a['run_total']} 部）" if a.get("idx") else ""
+        self.act_now.config(text=f"正在處理：{name} {seq}", fg=PROG)
+
+        act_zh = ACTION_ZH.get(a.get("action"), a.get("action") or "—")
+        chunk = f"　·　chunk {a['chunk']}" if a.get("chunk") else ""
+        # DeepSeek fallback 用紅字提醒（在燒付費 API）
+        prov = a.get("provider", "MiniMax-M3")
+        self.act_do.config(text=f"動作：{act_zh}{chunk}　·　模型：{prov}",
+                           fg=BAD if prov.startswith("DeepSeek") else FG)
+
+        pace = f"{a['pace_hr']:.1f} 部/時" if a.get("pace_hr") else "計算中"
+        eta = ""
+        if a.get("eta_h"):
+            h = a["eta_h"]
+            eta = f"　·　預估剩餘 {h:.1f} 時" if h >= 1 else f"　·　預估剩餘 {h*60:.0f} 分"
+        extra = []
+        if a.get("fallbacks"):
+            extra.append(f"本次退 DeepSeek {a['fallbacks']} 次")
+        if a.get("errors"):
+            extra.append(f"錯誤 {a['errors']}")
+        if a.get("retry"):
+            extra.append(f"待重試 {a['retry']} 部")
+        if a.get("last_done"):
+            extra.append(f"最近完成 {a['last_done']}")
+        last = f"最後動作 {a['last_ago']}" if a.get("last_ago") else ""
+        tail = ("　·　" + "　·　".join(extra)) if extra else ""
+        self.act_meta.config(text=f"速度 {pace}{eta}　·　{last}{tail}")
+
     def refresh(self):
         ensure_supervisor()  # 每次刷新順手確保管線活著（刊版兼監督）
         d = collect()
@@ -273,6 +415,7 @@ class Board:
         self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
         self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
         self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
+        self._draw_activity(d["act"])
 
         for label, key, c, tot, pct in d["coverage"]:
             self._draw_bar("cov:" + key, c, tot, pct)
