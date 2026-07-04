@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/尚書",
   "downloaded_at": "2026-06-29T23:18:56+00:00",
   "size_bytes": 152568,
-  "checksum_sha256": "a2c67d54cf9ad379a4213c7f71d66828b69f51f83b2b3e36dc5acda9a6ecb0a9",
+  "checksum_sha256": "236612e576665fa1a25b17562b035acb6f9cca0dc76c075ece2a7c81bef62c3e",
   "chapter_count": 81,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -47,5 +47,6 @@
     "殷周之際",
     "禘祀祖先"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/太平經",
   "downloaded_at": "2026-06-29T22:58:00+00:00",
   "size_bytes": 122455,
-  "checksum_sha256": "7c1221c9d36650bf08ed6647dc252862c834a77bdc619bc168828c252c9add6c",
+  "checksum_sha256": "c7621c2dc1a7495225c1d7d3068c3e0e47040104c9c404d26668f4fba0941fff",
   "chapter_count": 12,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -49,5 +49,6 @@
     "內修",
     "太平道"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

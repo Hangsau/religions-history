@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/周禮",
   "downloaded_at": "2026-06-29T23:21:58+00:00",
   "size_bytes": 185237,
-  "checksum_sha256": "b0bfdb06060384d060a53f12f344b5bd5005957cee821fd36fd36c0336996dd1",
+  "checksum_sha256": "02d698646b637ade5557aa6976fdb3fa5af78d150610c741fc15b429bbdc1c6a",
   "chapter_count": 6,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -21,5 +21,6 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/春秋左氏傳",
   "downloaded_at": "2026-06-29T23:20:39+00:00",
   "size_bytes": 931589,
-  "checksum_sha256": "ef842a803c52ff8cb3bd2fdeb81d54f3816a4bddf00c4344ceca34fbb827487d",
+  "checksum_sha256": "c4ae84d62f5b1a37c9a8e7bc0f59b72f84755bacb8ff1f7701d2e6e65b906290",
   "chapter_count": 16,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -45,5 +45,6 @@
     "夷狄",
     "霸政"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

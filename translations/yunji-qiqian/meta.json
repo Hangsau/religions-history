@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/雲笈七籤",
   "downloaded_at": "2026-06-29T23:09:36+00:00",
   "size_bytes": 2766008,
-  "checksum_sha256": "91af3da9feffbd269add5f7c6d0c01b2b44fea5460b9cc6ec5652247de391a2d",
+  "checksum_sha256": "9d6dd48a33ace8dec3dc1216cb00367d3945a847715eaa9bafaae5a90fc41d0a",
   "chapter_count": 126,
   "expected_chapter_count": 126,
   "expected_size_min": null,
@@ -21,5 +21,6 @@
   "tier": "次要",
   "notes": "Wikisource 含 122 卷 + 113上/下 + 序 = 126 sections",
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

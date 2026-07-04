@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/春秋公羊傳",
   "downloaded_at": "2026-06-29T23:20:58+00:00",
   "size_bytes": 171383,
-  "checksum_sha256": "b26cb7c6a76ce806f8c3f79c4fb7fe87ccd38b9aec5f88189947c3c9a4e5f28b",
+  "checksum_sha256": "b774d40da0947679b352e47a53e033c348bc363556f2fdefabfd93ab5d7636a1",
   "chapter_count": 12,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -21,5 +21,6 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

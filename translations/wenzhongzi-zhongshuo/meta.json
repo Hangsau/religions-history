@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/中說",
   "downloaded_at": "2026-06-29T23:26:55+00:00",
   "size_bytes": 111989,
-  "checksum_sha256": "41a8db71330081f913bb1288f6f8c687e9e57d77ac7cf8a0ce626c875ba6a1f5",
+  "checksum_sha256": "5fd6980bddef183440bdde12798f1c3bd2724fa0a03b5e2bbfd42c65a09b2038",
   "chapter_count": 17,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -21,5 +21,6 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

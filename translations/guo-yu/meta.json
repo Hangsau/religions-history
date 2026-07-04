@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/國語",
   "downloaded_at": "2026-06-29T23:22:37+00:00",
   "size_bytes": 654135,
-  "checksum_sha256": "e7ff7154a57c48edc4f85d4be2b07b84d2be791d86afda176b627685466b050e",
+  "checksum_sha256": "a803a39b28c7bd7717c9113d1e90134c1e5ceb71b31ddbce48bea4638b8a3961",
   "chapter_count": 22,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -21,5 +21,6 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

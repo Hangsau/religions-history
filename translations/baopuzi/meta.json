@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/抱朴子",
   "downloaded_at": "2026-06-29T23:06:24+00:00",
   "size_bytes": 594705,
-  "checksum_sha256": "1dce1d4221fcfc0ac600d30643a94e6e388051209e090c210bcbb8d0231978e1",
+  "checksum_sha256": "2711ffe69ed823c1883029b094a00b116af88d96627ec6c5df78f605d7a3d6e4",
   "chapter_count": 73,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -49,5 +49,6 @@
     "尸解",
     "金丹"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

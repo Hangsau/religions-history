@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/淮南子",
   "downloaded_at": "2026-06-29T23:00:00+00:00",
   "size_bytes": 491733,
-  "checksum_sha256": "6b279ab2bd905c50f1f733abb9cdc221df4dd83fedebfd95ced9f5f668b9f565",
+  "checksum_sha256": "61a585ddb0bebe72b51c30cb0a1934de2b31698dac0a0645b1bcc419153c6094",
   "chapter_count": 23,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -46,5 +46,6 @@
     "修身",
     "治術"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

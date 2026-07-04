@@ -11,7 +11,7 @@
   "source_url": "https://zh.wikisource.org/wiki/爾雅注",
   "downloaded_at": "2026-06-29T23:36:57+00:00",
   "size_bytes": 134094,
-  "checksum_sha256": "f1e8a22e35a7efb32019fa7b4e49aaf40f3e777abf181a7ec8985f02e00366ac",
+  "checksum_sha256": "83af8e1a8739694c7c57e5a42504ba931be7e6ea4aeb91c9317df56fe85bb810",
   "chapter_count": 5,
   "expected_chapter_count": null,
   "expected_size_min": null,
@@ -21,5 +21,6 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
 }

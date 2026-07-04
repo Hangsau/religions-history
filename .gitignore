@@ -22,3 +22,4 @@ logs/supervisor.log
 logs/supervisor-run.log
 logs/supervisor.pid
 logs/pipeline-alert.txt
+logs/pipeline-HALT.flag
