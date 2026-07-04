@@ -114,7 +114,8 @@ CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
 
 
 def load_role(task: str) -> str:
-    return TASK_TO_ROLE[task].read_text(encoding="utf-8")
+    # 角色檔 header 用 __TRANSLATION_MODEL__ placeholder；填成當前主力 model，避免寫死名稱。
+    return TASK_TO_ROLE[task].read_text(encoding="utf-8").replace("__TRANSLATION_MODEL__", PRIMARY_MODEL)
 
 
 def load_scripture(slug: str) -> tuple[str, dict] | None:
@@ -244,9 +245,15 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
 
 DEEPSEEK_ANTHROPIC_URL = "https://api.deepseek.com/anthropic"
 
+# ── 翻譯後端：改 model 只改這裡，call_m3 的 log marker、header 標示、刊版顯示全自動跟隨 ──
+PRIMARY_MODEL = "deepseek-v4-pro"    # 主力
+FALLBACK_MODEL = "deepseek-v4-flash"  # 失敗/逾時退備援（同 key，較快較便宜）
+# 每次成功都印此 marker 到 stdout→supervisor-run.log；刊版 translation_activity 解析它顯示現用 model。
+MODEL_MARKER = "  [model] {name} ({role})"
+
 
 def call_m3(prompt: str, dry_run: bool = False) -> str | None:
-    """主用 DeepSeek-V4-Pro（付費，按 token）；失敗/逾時退到 DeepSeek-V4-Flash。
+    """主用 PRIMARY_MODEL（DeepSeek 付費，按 token）；失敗/逾時退 FALLBACK_MODEL。
     兩者皆 reasoning model（回應含 thinking 塊，claude -p CLI 原生處理）。
     MiniMax-M3 月費配額 2026-07-04 near-exhausted，已退出 chain；待 5H 窗重置再議是否加回為跨家備援。
     函式名沿用 call_m3 以免動所有 caller。"""
@@ -261,18 +268,19 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
         print(f"  [error] DeepSeek token 沒有（env DEEPSEEK_API_KEY 或 {DEEPSEEK_TOKEN_PATH}）；無可用翻譯後端")
         return None
 
-    # Primary: DeepSeek-V4-Pro
-    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, "deepseek-v4-pro")
+    # Primary
+    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, PRIMARY_MODEL)
     if out is not None:
+        print(MODEL_MARKER.format(name=PRIMARY_MODEL, role="primary"))
         return out
-    print(f"  [warn] deepseek-v4-pro 失敗（{err}）→ 退到 deepseek-v4-flash")
+    print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）→ 退到 {FALLBACK_MODEL}")
 
-    # Fallback: DeepSeek-V4-Flash（同 key，較快較便宜）
-    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, "deepseek-v4-flash")
+    # Fallback
+    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, FALLBACK_MODEL)
     if out is not None:
-        print("  [ok] deepseek-v4-flash fallback 成功")
+        print(MODEL_MARKER.format(name=FALLBACK_MODEL, role="fallback"))
         return out
-    print(f"  [error] deepseek-v4-flash fallback 也失敗（{err}）")
+    print(f"  [error] {FALLBACK_MODEL} fallback 也失敗（{err}）")
     return None
 
 

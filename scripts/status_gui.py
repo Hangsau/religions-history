@@ -152,7 +152,7 @@ def translation_activity(now: float) -> dict:
     看板據此顯示『現在正在做什麼』，直接回答『是不是沒在動』。
     """
     d = {"current": None, "name": None, "idx": None, "run_total": None,
-         "action": None, "chunk": None, "provider": "MiniMax-M3",
+         "action": None, "chunk": None, "provider": "—", "fallback_active": False,
          "fallbacks": 0, "errors": 0, "done_run": 0, "pace_hr": None,
          "eta_h": None, "last_ago": None, "last_done": None}
     run_log = status.LOGS / "supervisor-run.log"
@@ -194,17 +194,17 @@ def translation_activity(now: float) -> dict:
             d["last_done"] = f"{mm.group(1)}（{ACTION_ZH.get(mm.group(2), mm.group(2))}）"
             break
 
-    d["fallbacks"] = sum(1 for l in block if "DeepSeek fallback 成功" in l)
+    d["fallbacks"] = sum(1 for l in block if re.search(r"\[model\]\s+\S+\s+\(fallback\)", l))
     d["errors"] = sum(1 for l in block if "[error]" in l)
     d["done_run"] = sum(1 for l in block if re.search(r"\[done\]\s+\S+\s+\(translate\)", l))
 
-    # 供應商：由最後一個 provider 訊號判斷現在打誰
+    # 供應商：解析 translate.py 印的 `[model] <name> (<role>)` marker（唯一真相源，不寫死 model 名）。
+    # 抓最後一個 marker → 顯示現用 model；role==fallback 時看板紅字提醒在燒備援。
     for l in reversed(block):
-        if "DeepSeek fallback 成功" in l or "退到 DeepSeek" in l or "MiniMax-M3 失敗" in l:
-            d["provider"] = "DeepSeek（付費 fallback）"
-            break
-        if l.lstrip().startswith("[chunk") or l.lstrip().startswith("[done]"):
-            d["provider"] = "MiniMax-M3"
+        mm = re.search(r"\[model\]\s+(\S+)\s+\((primary|fallback)\)", l)
+        if mm:
+            d["provider"] = mm.group(1)
+            d["fallback_active"] = (mm.group(2) == "fallback")
             break
 
     # 速度 + ETA：本次 run 已翻部數 / 已耗時
@@ -395,10 +395,10 @@ class Board:
 
         act_zh = ACTION_ZH.get(a.get("action"), a.get("action") or "—")
         chunk = f"　·　chunk {a['chunk']}" if a.get("chunk") else ""
-        # DeepSeek fallback 用紅字提醒（在燒付費 API）
-        prov = a.get("provider", "MiniMax-M3")
+        # 退到備援 model 時紅字提醒（主力失敗、正在燒 fallback）
+        prov = a.get("provider") or "—"
         self.act_do.config(text=f"動作：{act_zh}{chunk}　·　模型：{prov}",
-                           fg=BAD if prov.startswith("DeepSeek") else FG)
+                           fg=BAD if a.get("fallback_active") else FG)
 
         pace = f"{a['pace_hr']:.1f} 部/時" if a.get("pace_hr") else "計算中"
         eta = ""
@@ -407,7 +407,7 @@ class Board:
             eta = f"　·　預估剩餘 {h:.1f} 時" if h >= 1 else f"　·　預估剩餘 {h*60:.0f} 分"
         extra = []
         if a.get("fallbacks"):
-            extra.append(f"本次退 DeepSeek {a['fallbacks']} 次")
+            extra.append(f"本次退備援 {a['fallbacks']} 次")
         if a.get("errors"):
             extra.append(f"錯誤 {a['errors']}")
         if a.get("retry"):

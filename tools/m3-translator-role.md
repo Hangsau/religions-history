@@ -114,7 +114,7 @@ CBETA 漢譯佛經、道德經、論語、莊子、朱子語類、傳習錄、�
 
 > 原文：`raw/original.txt`
 > 原文語言：{{ source_language }}
-> 翻譯：MiniMax-M3，{{ date }}
+> 翻譯：__TRANSLATION_MODEL__，{{ date }}
 > 說明：{{ 古典漢語原樣保留 / 外語直譯 }}
 > 守則：見 `tools/m3-translator-role.md`
 > 註釋見：`02-annotation.md`
