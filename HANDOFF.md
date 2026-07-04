@@ -38,11 +38,13 @@
   - 語言標籤中→英標準名 60 部：希伯來→Hebrew 47、希臘→**Ancient Greek** 11（Homer/Plato/Herodotus 古典希臘，**非 Koine**；Koine 保留給 27 部 SBLGNT 新約）、拉丁→Latin 2。
   - 回填 `text_role`/`is_original_language` 185 部：Sefaria 拉比註釋+古典漢語原典（huangting-neijing/mozi）175 部 → original；Vulgate 10 部 → translation。
   - 稽核邏輯修正：羅馬轉寫 Sanskrit/Pali（IAST）不列字集檢查、譯本語言標籤子字串誤配排除 → 字集誤報 51→13。
-- **待人工複查（未自動改，遵 CLAUDE.md §3「不確定不自動標」）**：
-  - **13 部 CBETA 梵字/悉曇 dharani**（T18–T21 密教部 + T54n2133A 悉曇字記）：內容近純 Siddham（SMP 碼位），現標 `text_role=original`，疑應改 `transliteration`（P4 短路不譯）。非亂碼。
-  - **6 部 U+FFFD 編碼損壞**：avesta-sbe23-ae（Skjærvø 的 æ）、tain-bo-cuailnge-ga（Díad 的 í）2 部拉丁字可修；chunqiu-fanlu / yi-li / yunji-qiqian / zhuzi-yulei 4 部為遺失 CJK 字，需 wikisource 重抓（不宜手猜破壞 provenance）。
-  - **18 部空/截斷**：8 CBETA（多為 T55 目錄部碎片，疑真短）+ 10 Sefaria（稀疏註釋 stub）。Monday pipeline 恢復時 re-fetch 複查真短 vs 截斷。
-  - **48 組同 SHA 重複**：全為 CBETA slug（如 cbeta-T09n0262）↔ 語意 slug（如 lotus-sutra）同內容雙存。**設計問題非損壞**：雙存 = 2× 儲存 + P4/P5 雙重翻譯/標籤成本。待決定 canonical slug（刪除為破壞性操作，需用戶定奪）。
+- **已處理（2026-07-05 續）**：
+  - **48 組同 SHA 重複 → 去重（`scripts/dedup_mark_aliases.py`）**：每組保留 meta 較完整（已翻/已標/tier 核心優先）的一份為 canonical，另一份標 `alias_of` + `dedup_note`（不刪檔、可逆）。`translate.py load_slugs_by_tier` 讀到 `alias_of` 即跳過，**已驗證 48 部 alias 在三佇列洩漏 0**，省掉重複翻譯/標籤成本。方向為混合（canonical 不一定是語意 slug，取決哪份有標籤）。
+  - **2 部可救 U+FFFD 已修**：avesta-sbe23-ae（æ）、tain-bo-cuailnge-ga（í），重算 checksums + meta，verify PASS，`meta.repairs` 存審計註記。
+- **仍待處理（未自動改，遵 CLAUDE.md §3「不確定不自動標」；非 active bug）**：
+  - **13 部 CBETA 梵字/悉曇 dharani**（T18–T21 密教部 + T54n2133A 悉曇字記）：SMP 為 CBETA 缺字（gaiji）私用區碼位，非亂碼。現標 `text_role=original`；**已被「古典漢語 verbatim 短路」保護，不會被亂翻**，故改標非急務。且 T54n2133A 是「用中文解說悉曇」的論著（非咒語本身），不可一律標 transliteration。等 P4 跑到密教部 tier 再逐部人工確認。
+  - **4 部遺失 CJK 字 U+FFFD**：chunqiu-fanlu / yi-li / yunji-qiqian / zhuzi-yulei，需 wikisource 重抓（不宜手猜破壞 provenance）。低優先。
+  - **18 部空/截斷**：8 CBETA（多為 T55 目錄部碎片，疑真短）+ 10 Sefaria（稀疏註釋 stub）。週一 pipeline 恢復時 re-fetch 複查真短 vs 截斷。
 
 **Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
 - 翻譯（純翻譯，不解釋）→ `01-translation.md`
