@@ -163,7 +163,8 @@ def apply_classification(slug: str, obj: dict, tag_vocab: set[str]) -> list[str]
 
 def _git(args: list[str]) -> tuple[int, str]:
     r = subprocess.run(["git", *args], cwd=ROOT, capture_output=True,
-                       text=True, encoding="utf-8", errors="replace")
+                       text=True, encoding="utf-8", errors="replace",
+                       creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
     return r.returncode, (r.stdout or "") + (r.stderr or "")
 
 

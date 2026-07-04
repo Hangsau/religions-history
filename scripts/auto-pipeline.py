@@ -92,7 +92,8 @@ def write_status(tier: str, done: int, total: int, current: str, failed: dict) -
 
 def run_git(args: list[str]) -> tuple[int, str]:
     r = subprocess.run(["git", *args], cwd=ROOT, capture_output=True,
-                       text=True, encoding="utf-8", errors="replace")
+                       text=True, encoding="utf-8", errors="replace",
+                       creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
     return r.returncode, ((r.stdout or "") + (r.stderr or "")).strip()
 
 
@@ -131,7 +132,8 @@ def rebuild_indexes() -> list[Path]:
     for script in ("build-tag-index.py", "track-progress.py", "audit-core.py"):
         subprocess.run([sys.executable, str(ROOT / "scripts" / script)],
                        cwd=ROOT, capture_output=True, text=True,
-                       encoding="utf-8", errors="replace", env=child_env)
+                       encoding="utf-8", errors="replace", env=child_env,
+                       creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
     return [
         OVERVIEW_DIR / "tag-index.json",
         OVERVIEW_DIR / "keyword-index.json",

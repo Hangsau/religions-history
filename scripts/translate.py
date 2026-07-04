@@ -40,8 +40,8 @@ ROLE_TRANSLATOR = ROOT / "tools" / "m3-translator-role.md"
 ROLE_ANNOTATOR = ROOT / "tools" / "m3-annotator-role.md"
 ROLE_TAGGER = ROOT / "tools" / "m3-tagger-role.md"
 CONCEPTS_PATH = ROOT / "00-overview" / "concepts.md"
-MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
-DEEPSEEK_TOKEN_PATH = Path.home() / ".deepseek-token"  # 付費 fallback：MiniMax 撞流量/失敗時改打 DeepSeek
+MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，2026-07-04 配額 99% 耗盡，暫退出翻譯 chain
+DEEPSEEK_TOKEN_PATH = Path.home() / ".deepseek-token"  # 付費，現為主力：V4-Pro 主譯、V4-Flash 備援
 
 TASK_TO_OUTFILE = {
     "translate": "01-translation.md",
@@ -242,34 +242,37 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
         return None, "`claude` CLI not found in PATH"
 
 
+DEEPSEEK_ANTHROPIC_URL = "https://api.deepseek.com/anthropic"
+
+
 def call_m3(prompt: str, dry_run: bool = False) -> str | None:
-    """主用 MiniMax-M3；撞流量/失敗/逾時就自動退到 DeepSeek 付費 API。"""
+    """主用 DeepSeek-V4-Pro（付費，按 token）；失敗/逾時退到 DeepSeek-V4-Flash。
+    兩者皆 reasoning model（回應含 thinking 塊，claude -p CLI 原生處理）。
+    MiniMax-M3 月費配額 2026-07-04 near-exhausted，已退出 chain；待 5H 窗重置再議是否加回為跨家備援。
+    函式名沿用 call_m3 以免動所有 caller。"""
     sys.stdout.flush()  # ensure prior prints land before subprocess wait
     if dry_run:
         print(f"\n[DRY RUN] prompt length: {len(prompt)} chars\n{'='*60}")
         print(prompt[:2000] + "\n...[truncated]...\n" + prompt[-500:])
         return None
 
-    # Primary: MiniMax-M3（月費 Coding Plan，不吃 Anthropic 配額）
-    if MINIMAX_TOKEN_PATH.exists():
-        token = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
-        out, err = _run_claude(prompt, "https://api.minimax.io/anthropic", token, "MiniMax-M3")
-        if out is not None:
-            return out
-        print(f"  [warn] MiniMax-M3 失敗（{err}）→ 退到 DeepSeek 付費 API")
-    else:
-        print(f"  [warn] MiniMax token 不存在（{MINIMAX_TOKEN_PATH}）→ 退到 DeepSeek 付費 API")
-
-    # Fallback: DeepSeek（付費，按 token 計費）
     ds_token = _read_deepseek_token()
     if not ds_token:
-        print(f"  [error] DeepSeek token 也沒有（env DEEPSEEK_API_KEY 或 {DEEPSEEK_TOKEN_PATH}）；兩家都不可用")
+        print(f"  [error] DeepSeek token 沒有（env DEEPSEEK_API_KEY 或 {DEEPSEEK_TOKEN_PATH}）；無可用翻譯後端")
         return None
-    out, err = _run_claude(prompt, "https://api.deepseek.com/anthropic", ds_token, "deepseek-chat")
+
+    # Primary: DeepSeek-V4-Pro
+    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, "deepseek-v4-pro")
     if out is not None:
-        print("  [ok] DeepSeek fallback 成功")
         return out
-    print(f"  [error] DeepSeek fallback 也失敗（{err}）")
+    print(f"  [warn] deepseek-v4-pro 失敗（{err}）→ 退到 deepseek-v4-flash")
+
+    # Fallback: DeepSeek-V4-Flash（同 key，較快較便宜）
+    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, "deepseek-v4-flash")
+    if out is not None:
+        print("  [ok] deepseek-v4-flash fallback 成功")
+        return out
+    print(f"  [error] deepseek-v4-flash fallback 也失敗（{err}）")
     return None
 
 

@@ -53,7 +53,8 @@ def git_recent(n: int = 6) -> list[str]:
     try:
         r = subprocess.run(["git", "log", f"-{n}", "--oneline", "--no-decorate"],
                            cwd=ROOT, capture_output=True, text=True,
-                           encoding="utf-8", errors="replace")
+                           encoding="utf-8", errors="replace",
+                           creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
         return [l for l in r.stdout.splitlines() if l.strip()]
     except Exception:  # noqa: BLE001
         return []
