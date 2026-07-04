@@ -225,6 +225,8 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
             capture_output=True,
             timeout=600,
             env=env,
+            # Windows: 別讓 claude 這個主控台程式從背景進程彈出黑框視窗
+            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
         )
         if result.returncode != 0:
             print(f"  [error] m3 exit {result.returncode}: {result.stderr.decode('utf-8', errors='replace')[:500]}")

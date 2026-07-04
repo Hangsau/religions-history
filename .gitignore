@@ -16,3 +16,9 @@ Thumbs.db
 drafts/
 notes/private/
 scripts/__pycache__/
+
+# Pipeline / supervisor 執行期產物（心跳、PID、run log、警報），不入版控
+logs/supervisor.log
+logs/supervisor-run.log
+logs/supervisor.pid
+logs/pipeline-alert.txt

@@ -9,14 +9,60 @@
 或： PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py
 """
 
+import os
 import re
+import subprocess
+import sys
 import time
 import tkinter as tk
 from datetime import datetime, timezone, timedelta
+from pathlib import Path
 
 import status  # 同目錄；沿用其資料 helper
 
 REFRESH_MS = 30_000
+SCRIPTS = Path(__file__).resolve().parent
+PIDFILE = status.LOGS / "supervisor.pid"
+
+
+def _pid_alive(pid: int) -> bool:
+    """Windows：不依賴 psutil，用 OpenProcess + GetExitCodeProcess 判進程是否還在跑。"""
+    try:
+        import ctypes
+        k = ctypes.windll.kernel32
+        h = k.OpenProcess(0x1000, False, pid)  # PROCESS_QUERY_LIMITED_INFORMATION
+        if not h:
+            return False
+        code = ctypes.c_ulong()
+        k.GetExitCodeProcess(h, ctypes.byref(code))
+        k.CloseHandle(h)
+        return code.value == 259  # STILL_ACTIVE
+    except Exception:
+        return False
+
+
+def ensure_supervisor() -> None:
+    """刊版兼任監督：發現 supervisor 沒在跑就（無視窗、脫離本進程地）拉起來。
+
+    用戶要求「不要額外跳黑框、讓刊版去做監視」→ 這裡用 pythonw + DETACHED_PROCESS
+    + CREATE_NO_WINDOW 起 supervisor：關掉刊版不會連帶殺死管線（不重演 07-04 靜默停擺）。
+    """
+    try:
+        if PIDFILE.exists():
+            pid = int(PIDFILE.read_text(encoding="utf-8").strip() or 0)
+            if pid and _pid_alive(pid):
+                return  # 已有活著的 supervisor，別重複拉起（重複＝雙倍燒 M3 配額）
+        pyw = Path(sys.executable).with_name("pythonw.exe")
+        exe = str(pyw) if pyw.exists() else sys.executable
+        flags = 0x00000008 | 0x00000200 | getattr(subprocess, "CREATE_NO_WINDOW", 0)
+        subprocess.Popen(
+            [exe, str(SCRIPTS / "supervise-pipeline.py"), "核心"],
+            cwd=str(SCRIPTS.parent),
+            env={**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"},
+            creationflags=flags, close_fds=True,
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL)
+    except Exception:
+        pass  # 拉起失敗不擋看板；停擺仍會由紅色橫幅現形
 
 
 def fmt_ago(sec: float) -> str:
@@ -221,6 +267,7 @@ class Board:
         cnt.config(text=f"{count} / {total}")
 
     def refresh(self):
+        ensure_supervisor()  # 每次刷新順手確保管線活著（刊版兼監督）
         d = collect()
         ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
         self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
@@ -247,6 +294,7 @@ class Board:
 
 
 def main():
+    ensure_supervisor()  # 開看板即確保管線在跑
     root = tk.Tk()
     Board(root)
     root.mainloop()

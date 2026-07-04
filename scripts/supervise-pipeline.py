@@ -32,6 +32,7 @@ LOGS.mkdir(exist_ok=True)
 HEARTBEAT = LOGS / "supervisor.log"
 ALERT = LOGS / "pipeline-alert.txt"
 RUN_LOG = LOGS / "supervisor-run.log"
+PIDFILE = LOGS / "supervisor.pid"  # 刊版靠此判斷 supervisor 是否還活著（避免重複拉起）
 
 TIER = sys.argv[1] if len(sys.argv) > 1 else "核心"
 TZ = timezone(timedelta(hours=8))
@@ -68,7 +69,8 @@ def run_once() -> tuple[int, int, int, float]:
         proc = subprocess.Popen(
             cmd, cwd=str(ROOT), env=env,
             stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-            text=True, encoding="utf-8", errors="replace")
+            text=True, encoding="utf-8", errors="replace",
+            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
         for line in proc.stdout:
             logf.write(line)
             logf.flush()
@@ -85,6 +87,7 @@ def run_once() -> tuple[int, int, int, float]:
 def main() -> None:
     if ALERT.exists():
         ALERT.unlink()  # 新 supervisor 上線，清掉舊警報
+    PIDFILE.write_text(str(os.getpid()), encoding="utf-8")
     hb(f"[start] supervisor tier={TIER} pid={os.getpid()}")
     quick_strikes = 0
     noprogress = 0
@@ -122,4 +125,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:
+        try:
+            if PIDFILE.exists() and PIDFILE.read_text(encoding="utf-8").strip() == str(os.getpid()):
+                PIDFILE.unlink()  # 只清自己寫的那份，避免誤刪後繼者的
+        except OSError:
+            pass
