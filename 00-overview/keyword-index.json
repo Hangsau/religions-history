@@ -129,7 +129,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Acrostic": [
@@ -473,6 +473,13 @@
       "religion": "錫克教"
     }
   ],
+  "Amrit Vela": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Ancient Egypt": [
     {
       "slug": "burden-of-isis",
@@ -770,7 +777,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Aṅguttara Nikāya": [
@@ -859,7 +866,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Baha'u'llah": [
@@ -1160,7 +1167,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "British Museum Papyrus 10188": [
@@ -1331,28 +1338,28 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Chichén Itzá": [
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Chicomecoatl": [
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Chilam Balam": [
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Chinvat bridge": [
@@ -1406,14 +1413,14 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Chuqui-llantu": [
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Chāndogya Upaniṣad": [
@@ -1473,13 +1480,13 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Clio": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -1501,7 +1508,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Corinthus": [
@@ -1527,7 +1534,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Cosmogony 宇宙生成論": [
@@ -2086,7 +2093,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Four Elements 四元素": [
@@ -2261,6 +2268,20 @@
       "religion": "錫克教"
     }
   ],
+  "Gurprasad": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "Guru": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Guru Granth Sahib": [
     {
       "slug": "guru-granth-sahib-st",
@@ -2338,8 +2359,8 @@
   ],
   "Halicarnassus": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2394,8 +2415,8 @@
   ],
   "Hellenes": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2479,8 +2500,8 @@
   ],
   "Herodotus": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2519,8 +2540,8 @@
   ],
   "Histories": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2587,13 +2608,20 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Hukam": [
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    }
+  ],
+  "Hukm": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -2608,7 +2636,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Hymn": [
@@ -2684,6 +2712,13 @@
       "religion": "非洲"
     }
   ],
+  "Igor": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
   "Ihya Ulum al-Din": [
     {
       "slug": "mishkat-al-anwar",
@@ -2692,6 +2727,11 @@
     }
   ],
   "Ik Onkar": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
@@ -2723,7 +2763,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Indaka": [
@@ -2744,13 +2784,13 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Io": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2836,7 +2876,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Iudicium": [
@@ -2920,6 +2960,13 @@
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    }
+  ],
+  "Japu": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -3254,6 +3301,13 @@
       "religion": "耆那教"
     }
   ],
+  "Karta Purakh": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Kassapa": [
     {
       "slug": "sn2-devaputta",
@@ -3396,7 +3450,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Kurukshetra": [
@@ -3487,7 +3541,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Latin": [
@@ -3690,7 +3744,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Maeve": [
@@ -3868,14 +3922,14 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Mayapán": [
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Mazdayasnian": [
@@ -3969,7 +4023,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Micah": [
@@ -4067,7 +4121,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Mordecai": [
@@ -4184,7 +4238,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Nahum": [
@@ -4206,6 +4260,20 @@
       "slug": "sn22-khandha",
       "name_zh": "SN22 蘊相應 (159 經)",
       "religion": "佛教"
+    }
+  ],
+  "Nam": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "Nanak": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Nandanavagga": [
@@ -4338,6 +4406,13 @@
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Nirankar": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Nirgranthas": [
@@ -4924,8 +4999,8 @@
   ],
   "Phoenicia": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -5432,7 +5507,14 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
+    }
+  ],
+  "Sahaj dhian": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Sakharof": [
@@ -5540,6 +5622,13 @@
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    }
+  ],
+  "Sat Nam": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -5825,7 +5914,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Spend Nask": [
@@ -5935,7 +6024,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Suppiya": [
@@ -6301,7 +6390,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "Torah": [
@@ -6957,7 +7046,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "YHWH": [
@@ -7069,14 +7158,14 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "Yucay": [
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "Zand": [
@@ -7732,7 +7821,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "cetasovimutti 心解脫": [
@@ -7760,7 +7849,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "church order": [
@@ -7795,7 +7884,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "contemplation 默觀": [
@@ -7842,7 +7931,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "guide-for-the-perplexed-st",
@@ -8219,7 +8308,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "frashokereti renovation": [
@@ -8387,6 +8476,13 @@
       "slug": "an5-fives",
       "name_zh": "AN5 五法集",
       "religion": "佛教"
+    }
+  ],
+  "hukm": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "idolum": [
@@ -8560,7 +8656,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "kauthuma śākhā": [
@@ -8874,6 +8970,13 @@
       "religion": "佛教"
     }
   ],
+  "niraṅkār": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "novissimus-dierum": [
     {
       "slug": "vulgate-micah",
@@ -9138,7 +9241,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "presbyteros": [
@@ -9332,7 +9435,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     }
   ],
   "sacca": [
@@ -9538,7 +9641,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "shofar": [
@@ -9971,7 +10074,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "wisdom": [
@@ -10495,12 +10598,22 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     }
   ],
   "Велес": [
     {
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
+      "religion": "斯拉夫"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
     }
   ],
@@ -10511,10 +10624,59 @@
       "religion": "斯拉夫"
     }
   ],
+  "Див": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Игорь": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Каяла": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
   "Мстислав": [
     {
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Половец": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Святославичи": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Стрибог": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Тьмуторокань": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
     }
   ],
@@ -11091,6 +11253,13 @@
       "slug": "proverbs",
       "name_zh": "箴言",
       "religion": "猶太教"
+    }
+  ],
+  "ੴ": [
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Ṛishabha": [
@@ -12487,7 +12656,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "什一奉獻": [
@@ -13079,8 +13248,8 @@
   ],
   "伊俄": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -14034,7 +14203,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "偽經": [
@@ -14295,8 +14464,8 @@
   ],
   "克利奧": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -15337,7 +15506,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     }
   ],
   "印度哲學": [
@@ -15953,8 +16122,8 @@
   ],
   "哈利卡納蘇斯": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -16384,7 +16553,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "四時": [
@@ -16904,6 +17073,13 @@
       "slug": "bible-2-chronicles",
       "name_zh": "歷代志下",
       "religion": "基督教"
+    }
+  ],
+  "基輔": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     }
   ],
   "基輔羅斯": [
@@ -17781,6 +17957,13 @@
       "religion": "佛教"
     }
   ],
+  "奧列格": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
   "奧巴塔拉": [
     {
       "slug": "ife-mythology",
@@ -18512,7 +18695,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "尸解": [
@@ -19157,15 +19340,15 @@
   ],
   "希羅多德": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
   "希臘人": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -22407,6 +22590,13 @@
       "religion": "基督教"
     }
   ],
+  "普季夫利": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
   "普提夫利": [
     {
       "slug": "tale-of-igor-campaign",
@@ -22708,7 +22898,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "末世": [
@@ -22787,7 +22977,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "末世論": [
@@ -23550,8 +23740,8 @@
   ],
   "歷史": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -24064,7 +24254,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "波伊曼德雷斯": [
@@ -24076,8 +24266,8 @@
   ],
   "波希戰爭": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -28772,8 +28962,8 @@
   ],
   "腓尼基": [
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -29730,7 +29920,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "西番雅": [
@@ -30770,6 +30960,13 @@
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
       "religion": "印度教"
+    }
+  ],
+  "遠征記": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     }
   ],
   "選召": [
@@ -31998,6 +32195,13 @@
       "religion": "基督教"
     }
   ],
+  "頓河": [
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    }
+  ],
   "頻婆娑羅王": [
     {
       "slug": "contemplation-sutra",
@@ -32181,14 +32385,14 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "馬雅曆法": [
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "馬鳴": [

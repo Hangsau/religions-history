@@ -203,6 +203,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
       "religion": "基督教"
@@ -280,7 +285,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "zephaniah",
@@ -340,6 +345,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
@@ -347,7 +357,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "apocalypse": [
@@ -616,6 +626,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "vulgate-zephaniah",
       "name_zh": "西番雅書（武加大）",
       "religion": "基督教"
@@ -763,7 +778,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "burden-of-isis",
@@ -1629,6 +1644,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
@@ -1839,6 +1859,11 @@
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "nehemiah",
@@ -2119,6 +2144,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -2223,7 +2253,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "dirghagama",
@@ -2278,7 +2308,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "zhouyi-cantong-qi",
@@ -2353,6 +2383,11 @@
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "guru-granth-sahib-st",
@@ -2634,7 +2669,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "kings-1",
@@ -2917,6 +2952,11 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "guru-granth-sahib-st",
@@ -4094,7 +4134,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "burden-of-isis",
@@ -4239,6 +4279,11 @@
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "guru-granth-sahib-st",
@@ -4486,6 +4531,11 @@
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "infinite-life-sutra",
@@ -4894,6 +4944,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
@@ -4964,6 +5019,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "infinite-life-sutra",
@@ -5155,6 +5215,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
@@ -5245,6 +5310,11 @@
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "heart-sutra-kumarajiva",
@@ -5473,7 +5543,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "chronicles-1",
@@ -5501,8 +5571,8 @@
       "religion": "北歐"
     },
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     },
     {
@@ -5544,6 +5614,11 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     },
     {
       "slug": "valmiki-ramayana",
@@ -5606,6 +5681,11 @@
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     },
     {
       "slug": "vulgate-2-kings",
@@ -5815,6 +5895,11 @@
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "guru-granth-sahib-st",
@@ -6783,6 +6868,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
@@ -6916,6 +7006,11 @@
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     },
     {
       "slug": "talmud-rodkinson",
@@ -7085,6 +7180,11 @@
       "slug": "fragments-of-faith-forgotten",
       "name_zh": "被遺忘信仰的碎片 (Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "huangting-waijing",
@@ -7417,7 +7517,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "book-of-poetry",
@@ -7437,7 +7537,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "cuchulain-muirthemne",
@@ -7460,6 +7560,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -7475,11 +7580,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -7487,7 +7587,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "jain-sbe22",
@@ -7619,6 +7719,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
@@ -7634,6 +7739,11 @@
       "slug": "judges",
       "name_zh": "士師記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     }
   ],
   "pilgrimage": [
@@ -7641,6 +7751,11 @@
       "slug": "bible-joshua",
       "name_zh": "約書亞記",
       "religion": "基督教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "nehemiah",
@@ -7677,7 +7792,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "book-of-am-tuat",
@@ -7715,6 +7830,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -7732,11 +7852,6 @@
     {
       "slug": "homer-odyssey-st",
       "name_zh": "奧德賽 (Pope/Bryant 英譯)",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
       "religion": "古希臘羅馬"
     },
     {
@@ -7805,6 +7920,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
@@ -7827,7 +7947,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "prayer": [
@@ -7844,7 +7964,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "bible-1-kings",
@@ -7977,6 +8097,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -8094,6 +8219,11 @@
     {
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
+      "religion": "斯拉夫"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
     },
     {
@@ -8396,7 +8526,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "zechariah",
@@ -8554,6 +8684,11 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     },
     {
       "slug": "vulgate-1-kings",
@@ -8775,7 +8910,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "daniel",
@@ -8956,6 +9091,11 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     },
     {
       "slug": "thrice-greatest-hermes-1",
@@ -9276,7 +9416,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "baopuzi",
@@ -9356,7 +9496,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "chronicles-2",
@@ -9404,6 +9544,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -9421,7 +9566,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "kitab-al-khazari",
@@ -9581,7 +9726,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "sacred-language": [
@@ -9668,7 +9813,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "joshua",
@@ -9906,6 +10051,11 @@
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "habakkuk",
@@ -10651,6 +10801,11 @@
       "religion": "道教"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
       "religion": "基督教"
@@ -10755,7 +10910,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "sblgnt-acts",
@@ -10952,6 +11107,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "vulgate-1-peter",
       "name_zh": "彼得前書（武加大）",
       "religion": "基督教"
@@ -11018,7 +11178,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "fragments-of-faith-forgotten",
@@ -11215,7 +11375,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "zechariah",
@@ -11515,6 +11675,11 @@
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
     },
     {
       "slug": "vulgate-amos",
@@ -11821,7 +11986,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "isaiah",
@@ -11954,6 +12119,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
@@ -12078,7 +12248,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "bible-1-chronicles",
@@ -12103,7 +12273,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "cuchulain-muirthemne",
@@ -12128,7 +12298,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "joshua",
@@ -12171,6 +12341,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "volsunga-saga",
       "name_zh": "沃爾松傳奇",
       "religion": "北歐"
@@ -12208,7 +12383,7 @@
     {
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     }
   ],
   "truthfulness": [
@@ -12288,18 +12463,23 @@
       "religion": "佛教"
     },
     {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
     },
     {
-      "slug": "hesiod-works",
-      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
+      "slug": "herodotus-histories",
+      "name_zh": "希羅多德《歷史》(英希對照)",
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "homeric-hymns-st",
-      "name_zh": "荷馬諸頌 (33 篇)",
+      "slug": "hesiod-works",
+      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
     },
     {
@@ -12618,6 +12798,11 @@
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
+    },
+    {
+      "slug": "guru-granth-sahib-pa",
+      "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "guru-granth-sahib-st",
@@ -12951,7 +13136,7 @@
     {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
-      "religion": "美洲"
+      "religion": "阿茲特克"
     },
     {
       "slug": "carmina-gadelica-1",
@@ -13023,7 +13208,7 @@
     {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
-      "religion": "美洲"
+      "religion": "瑪雅"
     },
     {
       "slug": "contemplation-sutra",
@@ -13058,7 +13243,7 @@
     {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
-      "religion": "美洲"
+      "religion": "印加"
     },
     {
       "slug": "isaiah",
@@ -13108,6 +13293,11 @@
     {
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
+      "religion": "斯拉夫"
+    },
+    {
+      "slug": "tale-of-igor-ru",
+      "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
     },
     {

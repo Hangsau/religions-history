@@ -4,7 +4,15 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**0** 部，橫跨 **0** 宗教
+- 可收待補原文核心：**2** 部，橫跨 **2** 宗教
+
+## 神道（1 部）
+
+- [ ] `nihongi-aston` 日本書紀 (英譯)（English (translation)）— 未譯，原文待補
+
+## 瑪雅（1 部）
+
+- [ ] `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）— 未譯，原文待補
 
 ---
 
@@ -68,7 +76,7 @@
 
 ### 英/西譯為學術彙編或選集，無單一底本（9 部）
 
-- `chilam-balam` 契倫·巴蘭之書 (Chumayel)（美洲）
+- `chilam-balam` 契倫·巴蘭之書 (Chumayel)（瑪雅）
   - 理由：Roys 英譯 Chumayel（實測英文為主，僅散見馬雅曆法／神名詞）。尤卡坦馬雅語轉寫（Chumayel 手稿）無乾淨全文數位來源（Gordon 1913 為影印非文本）。
   - 已探來源：sacred-texts(Roys,英)；es/en.wikisource(無)
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（諾斯底）
@@ -92,7 +100,7 @@
 - `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（諾斯底）
   - 理由：Mead Vol 3 為 Excerpts/Fragments（Stobaeus 選錄＋殘篇）；希臘殘篇散於 Stobaeus Anthologium，無乾淨 1:1 底本可收。
   - 已探來源：sacred-texts(Mead,英選錄)；Stobaeus(散篇)
-- `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（美洲）
+- `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（瑪雅）
   - 理由：Gates 英譯 Landa《Relación de las cosas de Yucatán》（實測純英文）。西班牙文原文為公版但乾淨數位版僅存於 2002 現代校訂本（含受版權編輯 apparatus，OCR 無法乾淨切分）；archive.org 無乾淨 PD 西文版索引。
   - 已探來源：sacred-texts(Gates,英)；es.wikisource(無)；archive.org(僅2002受版權OCR/1898為他書)
 
@@ -101,7 +109,7 @@
 - `ife-mythology` 伊費神話 (約魯巴)（非洲）
   - 理由：約魯巴口傳傳統，前文字社會無音位書寫系統；英文採錄本即最早可及形式，無書面原文可收。
   - 已探來源：sacred-texts(英採錄)
-- `inca-rites` 印加儀禮與法律（美洲）
+- `inca-rites` 印加儀禮與法律（印加）
   - 理由：印加用結繩（quipu）記事，無表音文字；Markham 由西班牙編年史家（Molina/Salcamayhua）英譯整理，無單一書面原典。部分克丘亞語祈禱（Molina）存殘篇但非此彙編底本。
   - 已探來源：sacred-texts(Markham,英彙編)
 - `yoruba-religion` 約魯巴宗教與神話（非洲）

@@ -2,17 +2,17 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**405** 部
-- 已翻譯：**77** / 405
-- 已標籤：**376** / 405
+- 核心總數：**408** 部
+- 已翻譯：**82** / 408
+- 已標籤：**378** / 408
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 159 | 19 | 159 |
-| 佛教 | 61 | 18 | 61 |
-| 猶太教 | 45 | 17 | 45 |
+| 佛教 | 61 | 20 | 61 |
+| 猶太教 | 45 | 18 | 45 |
 | 印度教 | 26 | 9 | 25 |
 | 古希臘羅馬 | 22 | 0 | 12 |
 | 道教 | 14 | 9 | 14 |
@@ -23,15 +23,18 @@
 | 北歐 | 7 | 0 | 3 |
 | 耆那教 | 6 | 0 | 2 |
 | 諾斯底 | 5 | 0 | 5 |
-| 美洲 | 4 | 0 | 4 |
 | 伊斯蘭 | 4 | 1 | 4 |
+| 瑪雅 | 3 | 0 | 2 |
 | 兩河 | 3 | 0 | 3 |
-| 錫克教 | 3 | 0 | 2 |
-| 斯拉夫 | 3 | 0 | 2 |
+| 錫克教 | 3 | 1 | 3 |
+| 神道 | 3 | 0 | 1 |
+| 斯拉夫 | 3 | 1 | 3 |
 | 現代新興 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
-| 神道 | 2 | 0 | 1 |
+| 阿茲特克 | 1 | 0 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
+| 印加 | 1 | 0 | 1 |
+| 墨家 | 1 | 0 | 0 |
 | 巴哈伊 | 1 | 0 | 1 |
 
 ## 缺口分析
@@ -41,13 +44,11 @@
 > schema enum 有此宗教但語料庫一部都沒有。神道需另寫 NDL 爬蟲。
 > 註：schema 把美洲細分為瑪雅/阿茲特克/印加、赫爾墨斯獨立，但語料庫用較粗的『美洲』『諾斯底』歸類，故此清單含分類折疊項，非全為真缺口。
 
-- **瑪雅**
-- **阿茲特克**
-- **印加**
+- （無）
 
 ### B. 有經文但無核心標記（只需補標 tier，不需下載）
 
-- （無）
+- **美洲**
 
 ## text_role 分類覆蓋
 
@@ -56,9 +57,9 @@
 | text_role | 核心部數 |
 |-----------|---------|
 | original | 209 |
-| translation | 193 |
+| translation | 195 |
 | contested | 2 |
-| (未標) | 1 |
+| (未標) | 2 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -70,8 +71,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**0** 個 / 核心 **0** 部
-- 名單：（無）
+- 唯一英譯本宗教：**2** 個 / 核心 **2** 部
+- 名單：神道、瑪雅
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -281,7 +282,7 @@
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
 - `majjhima-nikaya` 中部經典（Pali）譯– 標✓
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
-- `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯– 標✓
+- `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
 - `samyuktagama` 雜阿含經（古典漢語）譯– 標✓
 - `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標✓
 - `sn1-devata` SN1 天人相應 (81 經)（Pali）譯– 標✓
@@ -299,7 +300,7 @@
 - `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯✓ 標✓
 - `sn56-sacca` SN56 諦相應 (131 經)（Pali）譯– 標✓
 - `sn6-brahma` SN6 梵天相應（Pali）譯✓ 標✓
-- `sn7-brahmana` SN7 婆羅門相應（Pali）譯– 標✓
+- `sn7-brahmana` SN7 婆羅門相應（Pali）譯✓ 標✓
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯✓ 標✓
 - `sn9-vana` SN9 林相應（Pali）譯✓ 標✓
 - `sutta-nipata` 經集（Pali）譯– 標✓
@@ -323,7 +324,7 @@
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯– 標✓
 - `habakkuk` 哈巴谷書（希伯來）譯✓ 標✓
 - `haggai` 哈該書（希伯來）譯✓ 標✓
-- `hosea` 何西阿書（希伯來）譯– 標✓
+- `hosea` 何西阿書（希伯來）譯✓ 標✓
 - `isaiah` 以賽亞書（希伯來）譯– 標✓
 - `jeremiah` 耶利米書（希伯來）譯– 標✓
 - `job` 約伯記（希伯來）譯✓ 標✓
@@ -500,19 +501,18 @@
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
 - `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
 
-### 美洲（4 部）
-
-- `aztec-rva` 阿茲特克儀禮（古典納瓦特爾語／英語對照）譯– 標✓
-- `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）譯– 標✓
-- `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
-- `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標✓
-
 ### 伊斯蘭（4 部）
 
 - `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯– 標✓
 - `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯– 標✓
 - `quran` 古蘭經（古典阿拉伯）譯✓ 標✓
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標✓
+
+### 瑪雅（3 部）
+
+- `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）譯– 標✓
+- `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）譯– 標–
+- `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標✓
 
 ### 兩河（3 部）
 
@@ -522,15 +522,21 @@
 
 ### 錫克教（3 部）
 
-- `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯– 標–
+- `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+
+### 神道（3 部）
+
+- `kojiki-chamberlain` 古事記（English (translation)）譯– 標✓
+- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯– 標–
+- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
 
 ### 斯拉夫（3 部）
 
 - `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標✓
 - `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯– 標✓
-- `tale-of-igor-ru` 伊戈爾遠征記（古東斯拉夫原文）（古東斯拉夫）譯– 標–
+- `tale-of-igor-ru` 伊戈爾遠征記（古東斯拉夫原文）（古東斯拉夫）譯✓ 標✓
 
 ### 現代新興（2 部）
 
@@ -542,14 +548,21 @@
 - `ife-mythology` 伊費神話 (約魯巴)（English (translation)）譯– 標✓
 - `yoruba-religion` 約魯巴宗教與神話（English (translation)）譯– 標✓
 
-### 神道（2 部）
+### 阿茲特克（1 部）
 
-- `kojiki-chamberlain` 古事記（English (translation)）譯– 標✓
-- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯– 標–
+- `aztec-rva` 阿茲特克儀禮（古典納瓦特爾語／英語對照）譯– 標✓
 
 ### 赫爾墨斯（1 部）
 
 - `corpus-hermeticum-el` 赫爾墨斯文集（希臘原文，八篇）（希臘）譯– 標–
+
+### 印加（1 部）
+
+- `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
+
+### 墨家（1 部）
+
+- `mozi` 墨子（古典漢語）譯– 標–
 
 ### 巴哈伊（1 部）
 
