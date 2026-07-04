@@ -31,6 +31,7 @@ LOGS = ROOT / "logs"
 LOGS.mkdir(exist_ok=True)
 HEARTBEAT = LOGS / "supervisor.log"
 ALERT = LOGS / "pipeline-alert.txt"
+HALT = LOGS / "pipeline-HALT.flag"   # 人工暫停開關：存在即不啟動翻譯（刊版亦不復活）；刪除即恢復
 RUN_LOG = LOGS / "supervisor-run.log"
 PIDFILE = LOGS / "supervisor.pid"  # 刊版靠此判斷 supervisor 是否還活著（避免重複拉起）
 
@@ -85,6 +86,9 @@ def run_once() -> tuple[int, int, int, float]:
 
 
 def main() -> None:
+    if HALT.exists():
+        hb(f"[halt] 偵測到 {HALT.name}，人工暫停中，不啟動翻譯。刪除該檔即恢復。")
+        return
     if ALERT.exists():
         ALERT.unlink()  # 新 supervisor 上線，清掉舊警報
     PIDFILE.write_text(str(os.getpid()), encoding="utf-8")
@@ -92,6 +96,9 @@ def main() -> None:
     quick_strikes = 0
     noprogress = 0
     while True:
+        if HALT.exists():
+            hb(f"[halt] 偵測到 {HALT.name}，暫停迴圈退出。刪除該檔並重啟即恢復。")
+            break
         rc, this_run, processed, elapsed = run_once()
         hb(f"[run] rc={rc} this_run={this_run} processed={processed} elapsed={elapsed:.0f}s")
 

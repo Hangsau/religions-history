@@ -24,6 +24,7 @@ import status  # 同目錄；沿用其資料 helper
 REFRESH_MS = 30_000
 SCRIPTS = Path(__file__).resolve().parent
 PIDFILE = status.LOGS / "supervisor.pid"
+HALT = status.LOGS / "pipeline-HALT.flag"  # 存在即人工暫停：刊版不復活 supervisor
 
 
 def _pid_alive(pid: int) -> bool:
@@ -49,6 +50,8 @@ def ensure_supervisor() -> None:
     + CREATE_NO_WINDOW 起 supervisor：關掉刊版不會連帶殺死管線（不重演 07-04 靜默停擺）。
     """
     try:
+        if HALT.exists():
+            return  # 人工暫停中（如等 MiniMax 配額重置），不復活管線
         if PIDFILE.exists():
             pid = int(PIDFILE.read_text(encoding="utf-8").strip() or 0)
             if pid and _pid_alive(pid):
@@ -111,6 +114,9 @@ def pipeline_health(now: float) -> dict:
     alert_f = status.LOGS / "pipeline-alert.txt"
     run_log = status.LOGS / "supervisor-run.log"
 
+    if HALT.exists():
+        msg = HALT.read_text(encoding="utf-8").strip().replace("\n", "　") or "人工暫停中"
+        return {"color": PROG, "text": f"⏸ 翻譯管線人工暫停中（刪除 pipeline-HALT.flag 即恢復）：{msg}"}
     if alert_f.exists():
         msg = alert_f.read_text(encoding="utf-8").strip().replace("\n", "　")
         return {"color": BAD, "text": f"⚠ 管線警報（supervisor 已報警並停手）：{msg}"}
