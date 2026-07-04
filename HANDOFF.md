@@ -17,6 +17,15 @@
 - 啟動：雙擊專案根 `狀態看板.bat`（背景 `pythonw`，無主控台）；或 `PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py`。
 - 顯示：頂部總量（部/宗教/MB）＋ 對齊覆蓋率（各 meta 欄位回填 %）＋ M3 分類進度（tier×era+genre+tags 三齊全）＋ Pipeline A 收集動態（最新收錄/近 30 分/日誌尾）＋ 翻譯進度（translation_status==done）＋ classify 背景管線。
 - 資料 helper 沿用 `scripts/status.py`（`load_all` / `filled` / `ALIGN_FIELDS` / `log_ok_count` / `log_tail`）；GUI 只管畫面。綠條＝≥99.5% 完成、琥珀＝進行中。
+- **刊版兼任監督（2026-07-04）**：`ensure_supervisor()` 在開看板時＋每 30 秒刷新時檢查 `logs/supervisor.pid`（`_pid_alive` OpenProcess 判活），沒在跑就用 `pythonw + DETACHED_PROCESS + CREATE_NO_WINDOW` 脫離式拉起 supervisor。**關掉看板不會殺死管線**（不重演 07-04 停擺）。頂部紅字橫幅 `pipeline_health()` 仍是 human backstop（狀態檔 >20 分沒更新 / 有 `pipeline-alert.txt` → 紅字）。
+
+## 2026-07-04 事故：翻譯管線靜默停擺 + 修復
+
+- **事故**：07-03 21:24 auto-pipeline（Pipeline B+C）跑到 60/362 時，因掛在互動 session 背景 shell 下、session 一關被 OS 連進程樹收掉，**永久停擺 5 小時無人察覺**。GitHub 看似有進展，實為一支脫離式 Sefaria 全庫爬蟲在爬週邊拉比注疏（335 部冷僻超注），製造「只是多下載幾部經文」的假象。
+- **止血**：停掉暴走爬蟲、落地積壓、啟動 supervisor，翻譯恢復（76/405 核心）。
+- **根因修復（`scripts/supervise-pipeline.py`，脫離 session 的 supervisor）**：反覆啟動 auto-pipeline 直到佇列跑完（`this_run=0`）；異常退出自動重啟；連續 3 次「啟動後 <120s 即退」或連續 2 輪「一部都沒 processed」→ 判系統性問題（多半 M3 配額耗盡 / `claude -p` 端點異常），寫 `logs/pipeline-alert.txt` 並停止，不無限燒配額；每輪寫心跳 `logs/supervisor.log`。啟動：`Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden`（或直接開刊版，見上）。
+- **黑框修復**：`translate.py` / `supervise-pipeline.py` 的 `claude -p` 子進程加 `CREATE_NO_WINDOW` creationflag —— 從無視窗父進程（pythonw）啟動 console 程式時不再彈出主控台黑框。
+- **新增宗教「墨家」**：既然收儒 / 道，墨家具鮮明宗教性（天志＝天為道德立法者、明鬼＝鬼神監督善惡、兼愛出於天意、尚同上同於天）理應獨立成宗教。原本收集按宗教分桶（`儒教`/`道教` catalog），墨家不對映任一桶故整個漏掉。已加：`meta_template.json` religion enum +「墨家」、`scripts/catalog/mohism.json`、`download-ctext.py` name_map。收《墨子》原文（ctext，277,979 bytes / 53 篇，含兼愛/天志/明鬼/非命），verify PASS，`tier=核心 language=古典漢語`，已入核心翻譯佇列。
 
 **Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
 - 翻譯（純翻譯，不解釋）→ `01-translation.md`
