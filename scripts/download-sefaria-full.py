@@ -118,51 +118,60 @@ def strip_html(s: str) -> str:
     return s
 
 
-def fetch_book_text(book_title: str) -> tuple[list[str], list[str], int]:
-    """Fetch entire book by figuring out chapter count from index, then iterating.
+def _flatten_strings(x) -> list[str]:
+    """遞迴攤平 Sefaria 巢狀文字陣列（註釋類經文 he/text 常為 list-of-lists，
+    舊版只取頂層 str 會漏掉整本內容）。只保留非空字串。"""
+    if isinstance(x, str):
+        return [x] if x.strip() else []
+    if isinstance(x, list):
+        out: list[str] = []
+        for i in x:
+            out.extend(_flatten_strings(i))
+        return out
+    return []
 
+
+def _chapterize(node) -> list[str]:
+    """把 Sefaria 巢狀文字結構切成「每個頂層元素 = 一章」的字串清單。
+    頂層是 str → 各自成章；頂層是 list（巢狀註釋）→ 遞迴攤平成一章字串。"""
+    out: list[str] = []
+    if isinstance(node, str):
+        s = strip_html(node)
+        return [s] if s.strip() else []
+    if isinstance(node, list):
+        for elem in node:
+            txt = "\n".join(strip_html(v) for v in _flatten_strings(elem))
+            if txt.strip():
+                out.append(txt)
+    return out
+
+
+def fetch_book_text(book_title: str) -> tuple[list[str], list[str], int]:
+    """整本抓一次（whole-book fetch）再按頂層結構切章。
+
+    比舊版「靠 index.lengths 逐章 iterate」穩健：許多註釋類經文 lengths 缺失
+    （回 None）會被舊版當成 1 章而漏抓 99% 內容（如 Matnot Kehunah 523 段只抓到 1）。
+    整本抓 + 遞迴攤平可完整還原。
     Returns (hebrew_chapters_list, english_chapters_list, count).
     """
-    # First get book index for chapter count
+    _polite_sleep_inline(SLEEP_BETWEEN_REQUESTS)
     try:
-        idx = api_get(f"index/{book_title.replace(' ', '%20')}")
-    except RuntimeError as e:
+        data = api_get(f"texts/{book_title.replace(' ', '%20')}",
+                       params={"context": 0, "pad": 0})
+    except RuntimeError:
         return ([], [], 0)
-    lengths = idx.get("lengths") or idx.get("schema", {}).get("lengths") or []
-    n_chap = lengths[0] if lengths else 1
-    if not isinstance(n_chap, int) or n_chap < 1:
-        n_chap = 1
-    # Cap pathological chapter counts
-    n_chap = min(n_chap, 1000)
-
-    he_chs: list[str] = []
-    en_chs: list[str] = []
-    for ch in range(1, n_chap + 1):
-        ref = f"{book_title} {ch}"
-        _polite_sleep_inline(SLEEP_BETWEEN_REQUESTS)
-        try:
-            data = api_get(f"texts/{ref.replace(' ', '%20')}", params={"context": 0})
-        except RuntimeError:
-            continue
-        he = data.get("he", [])
-        en = data.get("text", [])
-        he_text = "\n".join(strip_html(v) for v in he if isinstance(v, str))
-        en_text = "\n".join(strip_html(v) for v in en if isinstance(v, str))
-        if he_text or en_text:
-            if he_text:
-                he_chs.append(he_text)
-            if en_text:
-                en_chs.append(en_text)
+    he_chs = _chapterize(data.get("he", []))
+    en_chs = _chapterize(data.get("text", []))
     return he_chs, en_chs, len(he_chs) or len(en_chs)
 
 
-def download_book(book: dict) -> dict:
+def download_book(book: dict, force: bool = False) -> dict:
     title = book["title"]
     slug = f"sefaria-{slugify(title)}"
     meta_path = TRANSLATIONS_DIR / slug / "meta.json"
     out_dir = TRANSLATIONS_DIR / slug / "raw"
 
-    if meta_path.exists():
+    if meta_path.exists() and not force:
         try:
             existing = json.loads(meta_path.read_text(encoding="utf-8"))
             if existing.get("verified") and (out_dir / "original.txt").exists():
@@ -238,7 +247,25 @@ def main():
     p.add_argument("--category", help="top-level Sefaria category (Tanakh / Mishnah / Talmud / Midrash / etc)")
     p.add_argument("--all", action="store_true", help="ALL Sefaria books (huge, defer in production)")
     p.add_argument("--limit", type=int, help="cap N books for testing")
+    p.add_argument("--titles", nargs="+",
+                   help="只重抓指定書名（繞過 verified skip，用於修 truncated），"
+                        "如 --titles 'Rashi on Chagigah' 'Matnot Kehunah on Ruth Rabbah'")
     args = p.parse_args()
+
+    if args.titles:
+        summary = {}
+        for t in args.titles:
+            try:
+                r = download_book({"title": t, "primary_category": ""}, force=True)
+            except Exception as ex:
+                r = {"slug": t, "status": "exception", "reason": repr(ex)}
+            summary[r["status"]] = summary.get(r["status"], 0) + 1
+            if r["status"] == "ok":
+                print(f"  [ok] {r['slug']}: {r['chapters']} chapters, {r['size']} bytes")
+            else:
+                print(f"  [{r['status']}] {t}: {r.get('reason', '')}")
+        print(f"\n[summary] {json.dumps(summary, ensure_ascii=False)}")
+        return
 
     print("[fetch] /api/index")
     idx = get_index()
