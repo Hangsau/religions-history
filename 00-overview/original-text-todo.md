@@ -4,15 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**2** 部，橫跨 **2** 宗教
-
-## 瑪雅（1 部）
-
-- [ ] `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）— 未譯，原文待補
-
-## 神道（1 部）
-
-- [ ] `nihongi-aston` 日本書紀 (英譯)（English (translation)）— 未譯，原文待補
+- 可收待補原文核心：**0** 部，橫跨 **0** 宗教
 
 ---
 
@@ -21,9 +13,9 @@
 > 這些核心經過實際探查，確認目前無乾淨可收的原文來源。分三類，逐部附理由與已探來源。
 > 出現乾淨來源即收——移除 `original-source-status.json` 對應條目即回到可收待補。
 
-- 已查明無乾淨來源：**28** 部
+- 已查明無乾淨來源：**29** 部
 
-### 來源受牆／無乾淨匯出（原文存於已知數位語料庫但存取受阻）（16 部）
+### 來源受牆／無乾淨匯出（原文存於已知數位語料庫但存取受阻）（17 部）
 
 - `book-of-am-tuat` 阿姆杜阿特之書（幽冥界之書）（古埃及）
   - 理由：Budge 英譯；連續埃及原文／音譯僅存於 TLA（thesaurus-linguae-aegyptiae.de），無對應此彙編之逐篇文本匯出。本檔實測 0 連續音譯，僅散見英文中夾用神名。
@@ -70,6 +62,9 @@
 - `liturgy-funerary-offerings` 葬祭供養儀軌（古埃及）
   - 理由：Budge 英譯葬祭儀軌；TLA 無對應乾淨文本。
   - 已探來源：sacred-texts(Budge,英)；TLA
+- `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（瑪雅）
+  - 理由：基切馬雅語（K'iche'）原文。乾淨數位轉寫僅存於受版權現代校訂本（Christenson 2003、Sam Colop 1999/2008）。公版來源：Ximénez 手稿（Newberry／OSU library.osu.edu/projects/popolwuj 皆為手稿影像，且 OSU 對誠實 UA 回 HTTP 403 阻擋程式存取）；Brasseur de Bourbourg 1861（archive.org popolvuhlelivres00bras_0，語言標 myn+fre）為 K'iche'／法文對照＋大量法文腳註之 1.5MB 19c OCR，K'iche' 與法譯交錯無法乾淨切分（同 yucatan 情況）。es.wikisource「Popol Vuh」實測為 Asturias 西班牙轉譯（譯本之譯本，非原文）。英譯 popol-vuh(Goetz/Morley) 已收。
+  - 已探來源：es.wikisource(西譯Asturias)；en.wikisource(無)；OSU-popolwuj(403阻擋)；Newberry(手稿影像)；Brasseur1861(archive.org,K'iche'/法對照OCR無法切分)；Christenson/Colop(受版權)
 - `pyramid-texts-mercer` 金字塔銘文（古埃及）
   - 理由：Mercer 英譯金字塔銘文（536KB）；實測含散見音譯詞（smin、sḥ-n-t-r 等 649 附標字元）但非連續轉寫，僅為 apparatus。連續轉寫需 TLA／Sethe（受牆）。
   - 已探來源：sacred-texts(Mercer,英)；TLA(無乾淨匯出)

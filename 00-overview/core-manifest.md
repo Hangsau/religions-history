@@ -2,39 +2,39 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**408** 部
-- 已翻譯：**87** / 408
-- 已標籤：**378** / 408
+- 核心總數：**447** 部
+- 已翻譯：**182** / 447
+- 已標籤：**378** / 447
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 20 | 159 |
-| 佛教 | 61 | 20 | 61 |
+| 基督教 | 159 | 86 | 159 |
+| 佛教 | 61 | 37 | 61 |
 | 猶太教 | 45 | 20 | 45 |
-| 印度教 | 26 | 11 | 25 |
-| 古希臘羅馬 | 22 | 0 | 12 |
-| 道教 | 14 | 9 | 14 |
+| 印度教 | 40 | 12 | 25 |
+| 古希臘羅馬 | 38 | 0 | 12 |
+| 北歐 | 15 | 0 | 3 |
+| 道教 | 14 | 14 | 14 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
-| 儒教 | 9 | 4 | 9 |
+| 儒教 | 9 | 9 | 9 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
-| 北歐 | 7 | 0 | 3 |
 | 耆那教 | 6 | 0 | 2 |
 | 諾斯底 | 5 | 0 | 5 |
+| 神道 | 4 | 0 | 1 |
 | 伊斯蘭 | 4 | 1 | 4 |
 | 瑪雅 | 3 | 0 | 2 |
 | 兩河 | 3 | 0 | 3 |
 | 錫克教 | 3 | 1 | 3 |
-| 神道 | 3 | 0 | 1 |
 | 斯拉夫 | 3 | 1 | 3 |
 | 現代新興 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
 | 阿茲特克 | 1 | 0 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
 | 印加 | 1 | 0 | 1 |
-| 墨家 | 1 | 0 | 0 |
+| 墨家 | 1 | 1 | 0 |
 | 巴哈伊 | 1 | 0 | 1 |
 
 ## 缺口分析
@@ -56,10 +56,10 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 209 |
+| original | 236 |
 | translation | 195 |
 | contested | 2 |
-| (未標) | 2 |
+| (未標) | 14 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -71,8 +71,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**2** 個 / 核心 **2** 部
-- 名單：瑪雅、神道
+- 唯一英譯本宗教：**0** 個 / 核心 **0** 部
+- 名單：（無）
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -84,72 +84,72 @@
 
 ### 基督教（159 部）
 
-- `bible-1-chronicles` 歷代志上（古典中文）譯– 標✓
-- `bible-1-corinthians` 哥林多前書（古典中文）譯– 標✓
-- `bible-1-john` 約翰一書（古典中文）譯– 標✓
-- `bible-1-kings` 列王紀上（古典中文）譯– 標✓
-- `bible-1-peter` 彼得前書（古典中文）譯– 標✓
-- `bible-1-samuel` 撒母耳記上（古典中文）譯– 標✓
-- `bible-1-thessalonians` 帖撒羅尼迦前書（古典中文）譯– 標✓
-- `bible-1-timothy` 提摩太前書（古典中文）譯– 標✓
-- `bible-2-chronicles` 歷代志下（古典中文）譯– 標✓
-- `bible-2-corinthians` 哥林多後書（古典中文）譯– 標✓
-- `bible-2-john` 約翰二書（古典中文）譯– 標✓
-- `bible-2-kings` 列王紀下（古典中文）譯– 標✓
-- `bible-2-peter` 彼得後書（古典中文）譯– 標✓
-- `bible-2-samuel` 撒母耳記下（古典中文）譯– 標✓
-- `bible-2-thessalonians` 帖撒羅尼迦後書（古典中文）譯– 標✓
-- `bible-2-timothy` 提摩太後書（古典中文）譯– 標✓
-- `bible-3-john` 約翰三書（古典中文）譯– 標✓
-- `bible-acts` 使徒行傳（古典中文）譯– 標✓
-- `bible-amos` 阿摩司書（古典中文）譯– 標✓
-- `bible-colossians` 歌羅西書（古典中文）譯– 標✓
-- `bible-daniel` 但以理書（古典中文）譯– 標✓
-- `bible-deuteronomy` 申命記（古典中文）譯– 標✓
-- `bible-ecclesiastes` 傳道書（古典中文）譯– 標✓
-- `bible-ephesians` 以弗所書（古典中文）譯– 標✓
-- `bible-esther` 以斯帖記（古典中文）譯– 標✓
-- `bible-exodus` 出埃及記（古典中文）譯– 標✓
-- `bible-ezekiel` 以西結書（古典中文）譯– 標✓
-- `bible-ezra` 以斯拉記（古典中文）譯– 標✓
-- `bible-galatians` 加拉太書（古典中文）譯– 標✓
-- `bible-genesis` 創世記（古典中文）譯– 標✓
-- `bible-habakkuk` 哈巴谷書（古典中文）譯– 標✓
-- `bible-haggai` 哈該書（古典中文）譯– 標✓
-- `bible-hebrews` 希伯來書（古典中文）譯– 標✓
-- `bible-hosea` 何西阿書（古典中文）譯– 標✓
-- `bible-isaiah` 以賽亞書（古典中文）譯– 標✓
-- `bible-james` 雅各書（古典中文）譯– 標✓
-- `bible-jeremiah` 耶利米書（古典中文）譯– 標✓
-- `bible-job` 約伯記（古典中文）譯– 標✓
-- `bible-joel` 約珥書（古典中文）譯– 標✓
-- `bible-john` 約翰福音（古典中文）譯– 標✓
-- `bible-jonah` 約拿書（古典中文）譯– 標✓
-- `bible-joshua` 約書亞記（古典中文）譯– 標✓
-- `bible-jude` 猶大書（古典中文）譯– 標✓
-- `bible-judges` 士師記（古典中文）譯– 標✓
-- `bible-lamentations` 耶利米哀歌（古典中文）譯– 標✓
-- `bible-leviticus` 利未記（古典中文）譯– 標✓
-- `bible-luke` 路加福音（古典中文）譯– 標✓
-- `bible-malachi` 瑪拉基書（古典中文）譯– 標✓
-- `bible-mark` 馬可福音（古典中文）譯– 標✓
-- `bible-matthew` 馬太福音（古典中文）譯– 標✓
-- `bible-micah` 彌迦書（古典中文）譯– 標✓
-- `bible-nahum` 那鴻書（古典中文）譯– 標✓
-- `bible-nehemiah` 尼希米記（古典中文）譯– 標✓
-- `bible-numbers` 民數記（古典中文）譯– 標✓
-- `bible-obadiah` 俄巴底亞書（古典中文）譯– 標✓
-- `bible-philemon` 腓利門書（古典中文）譯– 標✓
-- `bible-philippians` 腓立比書（古典中文）譯– 標✓
-- `bible-proverbs` 箴言（古典中文）譯– 標✓
-- `bible-psalms` 詩篇（古典中文）譯– 標✓
-- `bible-revelation` 啟示錄（古典中文）譯– 標✓
-- `bible-romans` 羅馬書（古典中文）譯– 標✓
-- `bible-ruth` 路得記（古典中文）譯– 標✓
-- `bible-song-of-songs` 雅歌（古典中文）譯– 標✓
-- `bible-titus` 提多書（古典中文）譯– 標✓
-- `bible-zechariah` 撒迦利亞書（古典中文）譯– 標✓
-- `bible-zephaniah` 西番雅書（古典中文）譯– 標✓
+- `bible-1-chronicles` 歷代志上（古典中文）譯✓ 標✓
+- `bible-1-corinthians` 哥林多前書（古典中文）譯✓ 標✓
+- `bible-1-john` 約翰一書（古典中文）譯✓ 標✓
+- `bible-1-kings` 列王紀上（古典中文）譯✓ 標✓
+- `bible-1-peter` 彼得前書（古典中文）譯✓ 標✓
+- `bible-1-samuel` 撒母耳記上（古典中文）譯✓ 標✓
+- `bible-1-thessalonians` 帖撒羅尼迦前書（古典中文）譯✓ 標✓
+- `bible-1-timothy` 提摩太前書（古典中文）譯✓ 標✓
+- `bible-2-chronicles` 歷代志下（古典中文）譯✓ 標✓
+- `bible-2-corinthians` 哥林多後書（古典中文）譯✓ 標✓
+- `bible-2-john` 約翰二書（古典中文）譯✓ 標✓
+- `bible-2-kings` 列王紀下（古典中文）譯✓ 標✓
+- `bible-2-peter` 彼得後書（古典中文）譯✓ 標✓
+- `bible-2-samuel` 撒母耳記下（古典中文）譯✓ 標✓
+- `bible-2-thessalonians` 帖撒羅尼迦後書（古典中文）譯✓ 標✓
+- `bible-2-timothy` 提摩太後書（古典中文）譯✓ 標✓
+- `bible-3-john` 約翰三書（古典中文）譯✓ 標✓
+- `bible-acts` 使徒行傳（古典中文）譯✓ 標✓
+- `bible-amos` 阿摩司書（古典中文）譯✓ 標✓
+- `bible-colossians` 歌羅西書（古典中文）譯✓ 標✓
+- `bible-daniel` 但以理書（古典中文）譯✓ 標✓
+- `bible-deuteronomy` 申命記（古典中文）譯✓ 標✓
+- `bible-ecclesiastes` 傳道書（古典中文）譯✓ 標✓
+- `bible-ephesians` 以弗所書（古典中文）譯✓ 標✓
+- `bible-esther` 以斯帖記（古典中文）譯✓ 標✓
+- `bible-exodus` 出埃及記（古典中文）譯✓ 標✓
+- `bible-ezekiel` 以西結書（古典中文）譯✓ 標✓
+- `bible-ezra` 以斯拉記（古典中文）譯✓ 標✓
+- `bible-galatians` 加拉太書（古典中文）譯✓ 標✓
+- `bible-genesis` 創世記（古典中文）譯✓ 標✓
+- `bible-habakkuk` 哈巴谷書（古典中文）譯✓ 標✓
+- `bible-haggai` 哈該書（古典中文）譯✓ 標✓
+- `bible-hebrews` 希伯來書（古典中文）譯✓ 標✓
+- `bible-hosea` 何西阿書（古典中文）譯✓ 標✓
+- `bible-isaiah` 以賽亞書（古典中文）譯✓ 標✓
+- `bible-james` 雅各書（古典中文）譯✓ 標✓
+- `bible-jeremiah` 耶利米書（古典中文）譯✓ 標✓
+- `bible-job` 約伯記（古典中文）譯✓ 標✓
+- `bible-joel` 約珥書（古典中文）譯✓ 標✓
+- `bible-john` 約翰福音（古典中文）譯✓ 標✓
+- `bible-jonah` 約拿書（古典中文）譯✓ 標✓
+- `bible-joshua` 約書亞記（古典中文）譯✓ 標✓
+- `bible-jude` 猶大書（古典中文）譯✓ 標✓
+- `bible-judges` 士師記（古典中文）譯✓ 標✓
+- `bible-lamentations` 耶利米哀歌（古典中文）譯✓ 標✓
+- `bible-leviticus` 利未記（古典中文）譯✓ 標✓
+- `bible-luke` 路加福音（古典中文）譯✓ 標✓
+- `bible-malachi` 瑪拉基書（古典中文）譯✓ 標✓
+- `bible-mark` 馬可福音（古典中文）譯✓ 標✓
+- `bible-matthew` 馬太福音（古典中文）譯✓ 標✓
+- `bible-micah` 彌迦書（古典中文）譯✓ 標✓
+- `bible-nahum` 那鴻書（古典中文）譯✓ 標✓
+- `bible-nehemiah` 尼希米記（古典中文）譯✓ 標✓
+- `bible-numbers` 民數記（古典中文）譯✓ 標✓
+- `bible-obadiah` 俄巴底亞書（古典中文）譯✓ 標✓
+- `bible-philemon` 腓利門書（古典中文）譯✓ 標✓
+- `bible-philippians` 腓立比書（古典中文）譯✓ 標✓
+- `bible-proverbs` 箴言（古典中文）譯✓ 標✓
+- `bible-psalms` 詩篇（古典中文）譯✓ 標✓
+- `bible-revelation` 啟示錄（古典中文）譯✓ 標✓
+- `bible-romans` 羅馬書（古典中文）譯✓ 標✓
+- `bible-ruth` 路得記（古典中文）譯✓ 標✓
+- `bible-song-of-songs` 雅歌（古典中文）譯✓ 標✓
+- `bible-titus` 提多書（古典中文）譯✓ 標✓
+- `bible-zechariah` 撒迦利亞書（古典中文）譯✓ 標✓
+- `bible-zephaniah` 西番雅書（古典中文）譯✓ 標✓
 - `sblgnt-1-corinthians` 哥林多前書（希臘原文）（Koine Greek）譯– 標✓
 - `sblgnt-1-john` 約翰一書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-peter` 彼得前書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -246,7 +246,7 @@
 
 ### 佛教（61 部）
 
-- `abhidharmakosa` 阿毘達磨俱舍論（古典漢語）譯– 標✓
+- `abhidharmakosa` 阿毘達磨俱舍論（古典漢語）譯✓ 標✓
 - `amitabha-sutra` 佛說阿彌陀經（古典漢語）譯✓ 標✓
 - `an1-ones` AN1 一法集 (~575 經)（Pali）譯– 標✓
 - `an10-tens` AN10 十法集（Pali）譯– 標✓
@@ -259,33 +259,33 @@
 - `an7-sevens` AN7 七法集（Pali）譯– 標✓
 - `an8-eights` AN8 八法集（Pali）譯– 標✓
 - `an9-nines` AN9 九法集（Pali）譯– 標✓
-- `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯– 標✓
+- `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯✓ 標✓
 - `dhammapada` 法句經（Pali）譯✓ 標✓
-- `diamond-mulamadhyamaka` 中論（古典漢語）譯– 標✓
+- `diamond-mulamadhyamaka` 中論（古典漢語）譯✓ 標✓
 - `diamond-sutra-kumarajiva` 金剛般若波羅蜜經（古典漢語）譯✓ 標✓
 - `digha-nikaya` 長部經典（Pali）譯– 標✓
-- `dirghagama` 長阿含經（古典漢語）譯– 標✓
-- `ekottarikagama` 增一阿含經（古典漢語）譯– 標✓
+- `dirghagama` 長阿含經（古典漢語）譯✓ 標✓
+- `ekottarikagama` 增一阿含經（古典漢語）譯✓ 標✓
 - `fortytwo-chapters-sutra` 四十二章經（古典漢語）譯✓ 標✓
 - `heart-sutra-kumarajiva` 摩訶般若波羅蜜大明咒經（古典漢語）譯✓ 標✓
 - `heart-sutra-xuanzang` 般若波羅蜜多心經（古典漢語）譯✓ 標✓
-- `infinite-life-sutra` 佛說無量壽經（古典漢語）譯– 標✓
+- `infinite-life-sutra` 佛說無量壽經（古典漢語）譯✓ 標✓
 - `kn-jataka` 小部·本生 (547 故事)（Pali）譯– 標✓
 - `kn-milindapanha` 小部·彌蘭王問經（Pali）譯– 標✓
-- `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯– 標✓
+- `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯✓ 標✓
 - `lotus-sutra` 妙法蓮華經（古典漢語）譯✓ 標✓
-- `madhyamagama` 中阿含經（古典漢語）譯– 標✓
-- `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯– 標✓
-- `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標✓
-- `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
+- `madhyamagama` 中阿含經（古典漢語）譯✓ 標✓
+- `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
+- `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯✓ 標✓
+- `mahayanasamgraha` 攝大乘論（古典漢語）譯✓ 標✓
 - `majjhima-nikaya` 中部經典（Pali）譯– 標✓
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
-- `samyuktagama` 雜阿含經（古典漢語）譯– 標✓
-- `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標✓
-- `sn1-devata` SN1 天人相應 (81 經)（Pali）譯– 標✓
+- `samyuktagama` 雜阿含經（古典漢語）譯✓ 標✓
+- `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯✓ 標✓
+- `sn1-devata` SN1 天人相應 (81 經)（Pali）譯✓ 標✓
 - `sn10-yakkha` SN10 夜叉相應（Pali）譯✓ 標✓
 - `sn11-sakka` SN11 帝釋相應（Pali）譯✓ 標✓
 - `sn12-nidana` SN12 因緣相應 (93 經)（Pali）譯– 標✓
@@ -304,73 +304,85 @@
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯✓ 標✓
 - `sn9-vana` SN9 林相應（Pali）譯✓ 標✓
 - `sutta-nipata` 經集（Pali）譯– 標✓
-- `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯– 標✓
-- `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯– 標✓
-- `yogacarabhumi` 瑜伽師地論（古典漢語）譯– 標✓
+- `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯✓ 標✓
+- `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯✓ 標✓
+- `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
 
 ### 猶太教（45 部）
 
-- `amos` 阿摩司書（希伯來）譯✓ 標✓
-- `chronicles-1` 歷代志上（希伯來）譯– 標✓
-- `chronicles-2` 歷代志下（希伯來）譯– 標✓
-- `daniel` 但以理書（希伯來）譯– 標✓
-- `deuteronomy` 申命記（希伯來）譯– 標✓
-- `ecclesiastes` 傳道書（希伯來）譯✓ 標✓
-- `esther` 以斯帖記（希伯來）譯✓ 標✓
-- `exodus` 出埃及記（希伯來）譯– 標✓
-- `ezekiel` 以西結書（希伯來）譯– 標✓
-- `ezra` 以斯拉記（希伯來）譯– 標✓
-- `genesis` 創世記（希伯來）譯✓ 標✓
+- `amos` 阿摩司書（Hebrew）譯✓ 標✓
+- `chronicles-1` 歷代志上（Hebrew）譯– 標✓
+- `chronicles-2` 歷代志下（Hebrew）譯– 標✓
+- `daniel` 但以理書（Hebrew）譯– 標✓
+- `deuteronomy` 申命記（Hebrew）譯– 標✓
+- `ecclesiastes` 傳道書（Hebrew）譯✓ 標✓
+- `esther` 以斯帖記（Hebrew）譯✓ 標✓
+- `exodus` 出埃及記（Hebrew）譯– 標✓
+- `ezekiel` 以西結書（Hebrew）譯– 標✓
+- `ezra` 以斯拉記（Hebrew）譯– 標✓
+- `genesis` 創世記（Hebrew）譯✓ 標✓
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯– 標✓
-- `habakkuk` 哈巴谷書（希伯來）譯✓ 標✓
-- `haggai` 哈該書（希伯來）譯✓ 標✓
-- `hosea` 何西阿書（希伯來）譯✓ 標✓
-- `isaiah` 以賽亞書（希伯來）譯– 標✓
-- `jeremiah` 耶利米書（希伯來）譯– 標✓
-- `job` 約伯記（希伯來）譯✓ 標✓
-- `joel` 約珥書（希伯來）譯✓ 標✓
-- `jonah` 約拿書（希伯來）譯✓ 標✓
+- `habakkuk` 哈巴谷書（Hebrew）譯✓ 標✓
+- `haggai` 哈該書（Hebrew）譯✓ 標✓
+- `hosea` 何西阿書（Hebrew）譯✓ 標✓
+- `isaiah` 以賽亞書（Hebrew）譯– 標✓
+- `jeremiah` 耶利米書（Hebrew）譯– 標✓
+- `job` 約伯記（Hebrew）譯✓ 標✓
+- `joel` 約珥書（Hebrew）譯✓ 標✓
+- `jonah` 約拿書（Hebrew）譯✓ 標✓
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標✓
-- `joshua` 約書亞記（希伯來）譯– 標✓
-- `judges` 士師記（希伯來）譯– 標✓
+- `joshua` 約書亞記（Hebrew）譯– 標✓
+- `judges` 士師記（Hebrew）譯– 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標✓
-- `kings-1` 列王紀上（希伯來）譯– 標✓
-- `kings-2` 列王紀下（希伯來）譯– 標✓
+- `kings-1` 列王紀上（Hebrew）譯– 標✓
+- `kings-2` 列王紀下（Hebrew）譯– 標✓
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標✓
-- `lamentations` 耶利米哀歌（希伯來）譯✓ 標✓
+- `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
 - `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標✓
-- `leviticus` 利未記（希伯來）譯– 標✓
-- `malachi` 瑪拉基書（希伯來）譯✓ 標✓
-- `micah` 彌迦書（希伯來）譯✓ 標✓
-- `nahum` 那鴻書（希伯來）譯✓ 標✓
-- `nehemiah` 尼希米記（希伯來）譯– 標✓
-- `numbers` 民數記（希伯來）譯– 標✓
-- `obadiah` 俄巴底亞書（希伯來）譯✓ 標✓
-- `proverbs` 箴言（希伯來）譯✓ 標✓
-- `psalms` 詩篇（希伯來）譯– 標✓
-- `ruth` 路得記（希伯來）譯✓ 標✓
-- `samuel-1` 撒母耳記上（希伯來）譯– 標✓
-- `samuel-2` 撒母耳記下（希伯來）譯– 標✓
-- `song-of-songs` 雅歌（希伯來）譯✓ 標✓
+- `leviticus` 利未記（Hebrew）譯– 標✓
+- `malachi` 瑪拉基書（Hebrew）譯✓ 標✓
+- `micah` 彌迦書（Hebrew）譯✓ 標✓
+- `nahum` 那鴻書（Hebrew）譯✓ 標✓
+- `nehemiah` 尼希米記（Hebrew）譯– 標✓
+- `numbers` 民數記（Hebrew）譯– 標✓
+- `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
+- `proverbs` 箴言（Hebrew）譯✓ 標✓
+- `psalms` 詩篇（Hebrew）譯– 標✓
+- `ruth` 路得記（Hebrew）譯✓ 標✓
+- `samuel-1` 撒母耳記上（Hebrew）譯– 標✓
+- `samuel-2` 撒母耳記下（Hebrew）譯– 標✓
+- `song-of-songs` 雅歌（Hebrew）譯✓ 標✓
 - `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標✓
-- `zechariah` 撒迦利亞書（希伯來）譯✓ 標✓
-- `zephaniah` 西番雅書（希伯來）譯✓ 標✓
+- `zechariah` 撒迦利亞書（Hebrew）譯✓ 標✓
+- `zephaniah` 西番雅書（Hebrew）譯✓ 標✓
 
-### 印度教（26 部）
+### 印度教（40 部）
 
-- `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯– 標✓
+- `agni-purana` 火神往世書（Sanskrit）譯– 標–
+- `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯✓ 標✓
+- `ashtavakra-gita` 八曲之歌（Sanskrit）譯– 標–
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標–
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標✓
+- `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
+- `brahmanda-purana` 梵卵往世書（Sanskrit）譯– 標–
 - `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯✓ 標✓
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標✓
+- `devi-gita` 女神之歌（Sanskrit）譯– 標–
+- `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
+- `harivamsha` 訶利世系（Sanskrit）譯– 標–
 - `isha-upanishad` 伊舍奧義書（Sanskrit）譯✓ 標✓
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯✓ 標✓
+- `kurma-purana` 龜往世書（Sanskrit）譯– 標–
+- `linga-purana` 林伽往世書（Sanskrit）譯– 標–
+- `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
 - `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯– 標✓
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯– 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
+- `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
+- `matsya-purana` 魚往世書（Sanskrit）譯– 標–
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯– 標✓
@@ -379,50 +391,86 @@
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
 - `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標✓
+- `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯– 標✓
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
+- `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
-### 古希臘羅馬（22 部）
+### 古希臘羅馬（38 部）
 
-- `herodotus-histories` 希羅多德《歷史》(英希對照)（希臘）譯– 標✓
-- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（希臘）譯– 標–
+- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
+- `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯– 標–
+- `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯– 標–
+- `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯– 標–
+- `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯– 標–
+- `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標✓
+- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯– 標–
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
-- `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（希臘）譯– 標✓
+- `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標✓
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
-- `homeric-hymns-el` 荷馬諸頌（希臘原文）（希臘）譯– 標–
+- `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯– 標–
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（希臘）譯– 標–
+- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯– 標–
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
-- `ovid-metamorphoses-la` 變形記（拉丁原文）（拉丁）譯– 標–
-- `plato-phaedo-el` 斐多篇（希臘原文）（希臘）譯– 標–
-- `plato-republic-el` 理想國（希臘原文）（希臘）譯– 標–
-- `plato-symposium-el` 會飲篇（希臘原文）（希臘）譯– 標–
+- `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
+- `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
+- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
-- `plotinus-enneads-el` 九章集（希臘原文）（希臘）譯– 標–
+- `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯– 標–
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
-- `sibylline-oracles-el` 西比拉神諭集（希臘原文）（希臘）譯– 標–
+- `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯– 標–
+- `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯– 標–
+- `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯– 標–
 - `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
-- `virgil-aeneid-la` 伊尼德（拉丁原文）（拉丁）譯– 標–
+- `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯– 標–
+- `xenophon-memorabilia-el` 回憶蘇格拉底（希臘原文）（Ancient Greek）譯– 標–
+
+### 北歐（15 部）
+
+- `egils-saga-on` 埃吉爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯– 標–
+- `hrafnkels-saga-on` 赫拉夫恩克爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `laxdaela-saga-on` 拉克斯達拉薩迦（古諾斯語）譯– 標–
+- `njals-saga-on` 尼雅爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯– 標✓
+- `poetic-edda-on` 詩體埃達（古諾斯語原文）（古諾斯語）譯– 標–
+- `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯– 標–
+- `snorra-edda-on` 散文埃達／斯諾里埃達（古諾斯語原文）（古諾斯語）譯– 標–
+- `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標✓
+- `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯– 標–
 
 ### 道教（14 部）
 
-- `baopuzi` 抱朴子（內外篇）（古典漢語）譯– 標✓
-- `huainanzi` 淮南子（古典漢語）譯– 標✓
-- `huangdi-neijing` 黃帝內經（古典漢語）譯– 標✓
+- `baopuzi` 抱朴子（內外篇）（古典漢語）譯✓ 標✓
+- `huainanzi` 淮南子（古典漢語）譯✓ 標✓
+- `huangdi-neijing` 黃帝內經（古典漢語）譯✓ 標✓
 - `huangting-neijing` 黃庭內景經（古典漢語）譯✓ 標✓
 - `huangting-waijing` 黃庭外景經（古典漢語）譯✓ 標✓
 - `liezi` 列子（古典漢語）譯✓ 標✓
 - `qingjing-jing` 太上老君說常清靜經（古典漢語）譯✓ 標✓
-- `taiping-jing` 太平經（古典漢語）譯– 標✓
+- `taiping-jing` 太平經（古典漢語）譯✓ 標✓
 - `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
 - `tao-te-ching` 道德經（古典漢語）譯✓ 標✓
-- `wenzi` 文子（古典漢語）譯– 標✓
+- `wenzi` 文子（古典漢語）譯✓ 標✓
 - `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
 - `zhuangzi` 莊子（古典漢語）譯✓ 標✓
@@ -444,14 +492,14 @@
 ### 儒教（9 部）
 
 - `analects` 論語（古典漢語）譯✓ 標✓
-- `book-of-changes` 周易（古典漢語）譯– 標✓
-- `book-of-poetry` 詩經（古典漢語）譯– 標✓
-- `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯– 標✓
+- `book-of-changes` 周易（古典漢語）譯✓ 標✓
+- `book-of-poetry` 詩經（古典漢語）譯✓ 標✓
+- `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯✓ 標✓
 - `doctrine-of-the-mean` 中庸（古典漢語）譯✓ 標✓
 - `great-learning` 大學（古典漢語）譯✓ 標✓
-- `liji` 禮記（古典漢語）譯– 標✓
+- `liji` 禮記（古典漢語）譯✓ 標✓
 - `mengzi` 孟子（古典漢語）譯✓ 標✓
-- `shang-shu` 尚書（古典漢語）譯– 標✓
+- `shang-shu` 尚書（古典漢語）譯✓ 標✓
 
 ### 古埃及（8 部）
 
@@ -474,16 +522,6 @@
 - `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
 - `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
 
-### 北歐（7 部）
-
-- `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯– 標–
-- `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯– 標✓
-- `poetic-edda-on` 詩體埃達（古諾斯語原文）（古諾斯語）譯– 標–
-- `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯– 標–
-- `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標✓
-- `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯– 標–
-
 ### 耆那教（6 部）
 
 - `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
@@ -500,6 +538,13 @@
 - `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
 - `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
+
+### 神道（4 部）
+
+- `kojiki-chamberlain` 古事記（English (translation)）譯– 標✓
+- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯– 標–
+- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯– 標–
+- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
 
 ### 伊斯蘭（4 部）
 
@@ -526,12 +571,6 @@
 - `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 
-### 神道（3 部）
-
-- `kojiki-chamberlain` 古事記（English (translation)）譯– 標✓
-- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯– 標–
-- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
-
 ### 斯拉夫（3 部）
 
 - `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標✓
@@ -554,7 +593,7 @@
 
 ### 赫爾墨斯（1 部）
 
-- `corpus-hermeticum-el` 赫爾墨斯文集（希臘原文，八篇）（希臘）譯– 標–
+- `corpus-hermeticum-el` 赫爾墨斯文集（希臘原文，八篇）（Ancient Greek）譯– 標–
 
 ### 印加（1 部）
 
@@ -562,7 +601,7 @@
 
 ### 墨家（1 部）
 
-- `mozi` 墨子（古典漢語）譯– 標–
+- `mozi` 墨子（古典漢語）譯✓ 標–
 
 ### 巴哈伊（1 部）
 
