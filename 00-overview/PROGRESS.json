@@ -27,7 +27,7 @@
     "pct_core": 100,
     "pct_v3_listed": 100,
     "pct_full": 19.05,
-    "with_translation": 20,
+    "with_translation": 37,
     "with_semantic_tags": 0,
     "total_bytes": 330436159,
     "by_tradition": {
@@ -50,7 +50,7 @@
     "pct_core": 100,
     "pct_v3_listed": 74.3,
     "pct_full": 0.52,
-    "with_translation": 4,
+    "with_translation": 9,
     "with_semantic_tags": 0,
     "total_bytes": 11957287,
     "by_tradition": {
@@ -91,7 +91,7 @@
     "pct_full": 1.8,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 3545641,
+    "total_bytes": 3545639,
     "by_tradition": {
       "—": 9
     },
@@ -104,26 +104,27 @@
     "original_count": 5
   },
   "北歐": {
-    "done": 7,
+    "done": 26,
     "target_core": 2,
     "target_v3_listed": 30,
     "target_full_canon": 300,
     "pct_core": 100,
-    "pct_v3_listed": 23.3,
-    "pct_full": 2.33,
+    "pct_v3_listed": 86.7,
+    "pct_full": 8.67,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 5254777,
+    "total_bytes": 11533938,
     "by_tradition": {
-      "—": 7
+      "—": 26
     },
     "by_source": {
-      "heimskringla.no": 3,
+      "heimskringla.no": 15,
+      "sagadb.org": 5,
+      "is.wikisource.org": 3,
       "sacred-texts.com": 2,
-      "en.wikisource.org": 1,
-      "is.wikisource.org": 1
+      "en.wikisource.org": 1
     },
-    "original_count": 4
+    "original_count": 23
   },
   "印加": {
     "done": 1,
@@ -145,21 +146,21 @@
     "original_count": 0
   },
   "印度教": {
-    "done": 33,
+    "done": 54,
     "target_core": 25,
     "target_v3_listed": 250,
     "target_full_canon": 3000,
     "pct_core": 100,
-    "pct_v3_listed": 13.2,
-    "pct_full": 1.1,
-    "with_translation": 11,
+    "pct_v3_listed": 21.6,
+    "pct_full": 1.8,
+    "with_translation": 12,
     "with_semantic_tags": 0,
-    "total_bytes": 17626897,
+    "total_bytes": 51456000,
     "by_tradition": {
-      "—": 33
+      "—": 54
     },
     "by_source": {
-      "GRETIL": 32,
+      "GRETIL": 53,
       "en.wikisource.org": 1
     },
     "original_count": 32
@@ -184,26 +185,26 @@
     "original_count": 0
   },
   "古希臘羅馬": {
-    "done": 28,
+    "done": 47,
     "target_core": 10,
     "target_v3_listed": 100,
     "target_full_canon": 500,
     "pct_core": 100,
-    "pct_v3_listed": 28.0,
-    "pct_full": 5.6,
+    "pct_v3_listed": 47.0,
+    "pct_full": 9.4,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 24161409,
+    "total_bytes": 30620010,
     "by_tradition": {
-      "—": 28
+      "—": 47
     },
     "by_source": {
+      "el.wikisource.org": 27,
       "sacred-texts.com": 16,
-      "el.wikisource.org": 8,
       "en.wikisource.org": 2,
       "la.wikisource.org": 2
     },
-    "original_count": 13
+    "original_count": 32
   },
   "基督教": {
     "done": 169,
@@ -213,7 +214,7 @@
     "pct_core": 100,
     "pct_v3_listed": 67.6,
     "pct_full": 5.63,
-    "with_translation": 20,
+    "with_translation": 86,
     "with_semantic_tags": 0,
     "total_bytes": 20220132,
     "by_tradition": {
@@ -235,7 +236,7 @@
     "pct_core": null,
     "pct_v3_listed": null,
     "pct_full": null,
-    "with_translation": 0,
+    "with_translation": 1,
     "with_semantic_tags": 0,
     "total_bytes": 277979,
     "by_tradition": {
@@ -244,7 +245,7 @@
     "by_source": {
       "ctext.org (api)": 1
     },
-    "original_count": 0
+    "original_count": 1
   },
   "巴哈伊": {
     "done": 1,
@@ -295,12 +296,12 @@
     "pct_full": 156.2,
     "with_translation": 20,
     "with_semantic_tags": 0,
-    "total_bytes": 104719100,
+    "total_bytes": 105143791,
     "by_tradition": {
-      "Commentary": 1281,
+      "Commentary": 1271,
       "Halakhah": 88,
+      "—": 67,
       "Mishnah": 64,
-      "—": 57,
       "Midrash": 36,
       "Talmud": 32,
       "Guides": 2,
@@ -341,7 +342,7 @@
     "pct_full": 5.5,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 7143747,
+    "total_bytes": 7143746,
     "by_tradition": {
       "—": 11
     },
@@ -476,7 +477,7 @@
     "pct_core": 100,
     "pct_v3_listed": 42.5,
     "pct_full": 0.28,
-    "with_translation": 9,
+    "with_translation": 14,
     "with_semantic_tags": 0,
     "total_bytes": 5269534,
     "by_tradition": {
@@ -486,7 +487,7 @@
       "zh.wikisource.org": 13,
       "ctext.org (api)": 4
     },
-    "original_count": 16
+    "original_count": 17
   },
   "錫克教": {
     "done": 4,

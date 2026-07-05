@@ -67,6 +67,54 @@
       "is_original_language": true,
       "tier": "次要",
       "notes": "仙人法語集，Ardhamāgadhī 原文；補收"
+    },
+    {
+      "slug": "jain-dhurtakhyana-pkt",
+      "gretil_path": "2_prakrt/hadhut_u.htm",
+      "name_zh": "騙徒故事（俗語原文）",
+      "name_en": "Dhūrtākhyāna (Dhuttakkhāṇa, Prakrit)",
+      "name_original": "धुत्तक्खाण",
+      "language": "俗語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "訶利跋陀羅（Haribhadra Sūri）著俗語諷喻敘事，以五騙徒鬥智諷婆羅門神話荒誕；Prakrit 原文"
+    },
+    {
+      "slug": "jain-paumacariu-apa",
+      "gretil_path": "2_prakrt/spaucaru.htm",
+      "name_zh": "波摩行傳（阿波布郎舍原文）",
+      "name_en": "Paümacariu (Padmacarita, Apabhraṃśa)",
+      "name_original": "पउमचरिउ",
+      "language": "阿波布郎舍語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "斯瓦揚布（Svayambhū）著耆那教版《羅摩衍那》，阿波布郎舍語敘事詩；Jain Rāmāyaṇa 傳統"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "gretil_path": "corpustei/transformations/html/sa_samantabhadra-AptamImAMsA.htm",
+      "name_zh": "可信者審思（梵文原文）",
+      "name_en": "Āptamīmāṃsā (Devāgamastotra, Sanskrit)",
+      "name_original": "आप्तमीमांसा",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "薩曼多跋陀羅（Samantabhadra）著空衣派（Digambara）根本論典，以多面觀（syādvāda / anekāntavāda）立耆那知識論；梵文原文"
+    },
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "gretil_path": "corpustei/transformations/html/sa_haribhadrasUri-zAstravArttAsamuccaya.htm",
+      "name_zh": "諸論義集（梵文原文）",
+      "name_en": "Śāstravārttāsamuccaya (Sanskrit)",
+      "name_original": "शास्त्रवार्त्तासमुच्चय",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "訶利跋陀羅（Haribhadra Sūri）著，綜評各派學說並申耆那立場的梵文論義集"
     }
   ]
 }

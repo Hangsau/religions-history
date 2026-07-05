@@ -137,6 +137,12 @@ def extract_sanskrit_text(html: str) -> str:
 
     diacritics = set("āīūṛṝḷḹṅñṭḍṇśṣṃḥĀĪŪṚṜḶḸṄÑṬḌṆŚṢṀḤ")
 
+    # GRETIL citation marker, e.g. "// HaDh_1.1 //", "{Pc_1,1.1}", "// SAm_1 //".
+    # When present, everything before the first marker line is header/legend
+    # (title, licence, transliteration key, kāṇḍa note) and must be dropped.
+    marker_re = re.compile(r"(//\s*[A-Za-zĀ-ῃ]+[A-Za-z]*_\d)|(\{[A-Za-z]+[A-Za-z0-9]*_\d)")
+    has_markers = any(marker_re.search(ln) for ln in lines)
+
     def is_body(s: str) -> bool:
         # Real Sanskrit content: diacritic-dense, a verse reference, or a danda.
         if sum(ch in diacritics for ch in s) >= 2:
@@ -160,7 +166,12 @@ def extract_sanskrit_text(html: str) -> str:
             continue
         # Skip all header/boilerplate until the first real Sanskrit body line.
         if not started:
-            if not is_body(s):
+            # Prefer the citation marker when the file uses them (drops the
+            # GRETIL legend/note block that the diacritic heuristic lets slip).
+            if has_markers:
+                if not marker_re.search(s):
+                    continue
+            elif not is_body(s):
                 continue
             started = True
         cleaned.append(s)
