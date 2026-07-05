@@ -272,7 +272,7 @@ def download_scripture(entry: dict) -> dict:
 
 def load_catalog(religion: str) -> list[dict]:
     name_map = {"印度教梵文": "hinduism-gretil.json", "印度教": "hinduism-gretil.json",
-                "耆那教": "jainism-gretil.json"}
+                "耆那教": "jainism-gretil.json", "佛教": "buddhism-gretil.json"}
     if religion not in name_map:
         sys.exit(f"unknown religion: {religion}")
     path = CATALOG_DIR / name_map[religion]
