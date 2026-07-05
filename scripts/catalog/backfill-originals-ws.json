@@ -884,6 +884,62 @@
       "version": "Wikisource 拉丁通行本",
       "tier": "次要",
       "notes": "塞內卡斯多噶神義論，論善人何以受苦"
+    },
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "name_en": "Kogo Shūi (kanbun original)",
+      "religion": "神道",
+      "language": "漢文",
+      "lang": "zh",
+      "wikisource_title": "古語拾遺",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "kogoshui",
+      "version": "Wikisource 漢文原文",
+      "tier": "次要",
+      "notes": "齋部廣成 807 年撰，補記《記》《紀》未載之齋部氏神道傳承，神道古傳要籍；漢文原文"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "name_en": "Sendai Kuji Hongi (kanbun original, 10 vols)",
+      "religion": "神道",
+      "language": "漢文",
+      "lang": "zh",
+      "wikisource_title": "先代舊事本紀",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 漢文原文",
+      "expected_chapter_count": 11,
+      "tier": "次要",
+      "notes": "平安初期成書之神道史書，含〈天神本紀〉〈天孫本紀〉〈國造本紀〉等物部氏傳承，中世神道所重；漢文全十卷"
+    },
+    {
+      "slug": "engishiki-jingi-zh",
+      "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "name_en": "Engishiki: Jingi section (kanbun, vols 1-10)",
+      "religion": "神道",
+      "language": "漢文",
+      "lang": "zh",
+      "wikisource_titles": [
+        "延喜式/卷第一",
+        "延喜式/卷第二",
+        "延喜式/卷第三",
+        "延喜式/卷第四",
+        "延喜式/卷第五",
+        "延喜式/卷第六",
+        "延喜式/卷第七",
+        "延喜式/卷第八",
+        "延喜式/卷第九",
+        "延喜式/卷第十"
+      ],
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 漢文原文",
+      "expected_chapter_count": 10,
+      "tier": "核心",
+      "notes": "《延喜式》927 年撰前十卷神祇官式，含四時祭·大嘗祭儀軌與卷八〈祝詞〉（norito 二十七篇）·卷九十〈神名帳〉，神道國家祭祀根本法典；漢文原文"
     }
   ]
 }
