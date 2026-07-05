@@ -45,24 +45,24 @@
     "original_count": 2506
   },
   "儒教": {
-    "done": 26,
+    "done": 38,
     "target_core": 9,
     "target_v3_listed": 35,
     "target_full_canon": 5000,
     "pct_core": 100,
-    "pct_v3_listed": 74.3,
-    "pct_full": 0.52,
+    "pct_v3_listed": 100,
+    "pct_full": 0.76,
     "with_translation": 9,
     "with_semantic_tags": 0,
-    "total_bytes": 11957287,
+    "total_bytes": 17874118,
     "by_tradition": {
-      "—": 26
+      "—": 38
     },
     "by_source": {
-      "zh.wikisource.org": 24,
+      "zh.wikisource.org": 36,
       "ctext.org (api)": 2
     },
-    "original_count": 26
+    "original_count": 38
   },
   "兩河": {
     "done": 7,
@@ -187,48 +187,48 @@
     "original_count": 0
   },
   "古希臘羅馬": {
-    "done": 47,
+    "done": 59,
     "target_core": 10,
     "target_v3_listed": 100,
     "target_full_canon": 500,
     "pct_core": 100,
-    "pct_v3_listed": 47.0,
-    "pct_full": 9.4,
+    "pct_v3_listed": 59.0,
+    "pct_full": 11.8,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 30620010,
+    "total_bytes": 34301063,
     "by_tradition": {
-      "—": 47
+      "—": 59
     },
     "by_source": {
-      "el.wikisource.org": 27,
+      "el.wikisource.org": 31,
       "sacred-texts.com": 16,
-      "en.wikisource.org": 2,
-      "la.wikisource.org": 2
+      "la.wikisource.org": 10,
+      "en.wikisource.org": 2
     },
-    "original_count": 32
+    "original_count": 44
   },
   "基督教": {
-    "done": 169,
+    "done": 174,
     "target_core": 66,
     "target_v3_listed": 250,
     "target_full_canon": 3000,
     "pct_core": 100,
-    "pct_v3_listed": 67.6,
-    "pct_full": 5.63,
+    "pct_v3_listed": 69.6,
+    "pct_full": 5.8,
     "with_translation": 86,
     "with_semantic_tags": 0,
-    "total_bytes": 20220132,
+    "total_bytes": 23341322,
     "by_tradition": {
-      "—": 142,
+      "—": 147,
       "新約-希臘原文": 27
     },
     "by_source": {
-      "la.wikisource.org": 76,
+      "la.wikisource.org": 81,
       "zh.wikisource.org": 66,
       "morphgnt/sblgnt (GitHub)": 27
     },
-    "original_count": 27
+    "original_count": 32
   },
   "墨家": {
     "done": 1,
@@ -472,24 +472,24 @@
     "original_count": 1
   },
   "道教": {
-    "done": 17,
+    "done": 27,
     "target_core": 15,
     "target_v3_listed": 40,
     "target_full_canon": 6000,
     "pct_core": 100,
-    "pct_v3_listed": 42.5,
-    "pct_full": 0.28,
+    "pct_v3_listed": 67.5,
+    "pct_full": 0.45,
     "with_translation": 14,
     "with_semantic_tags": 0,
-    "total_bytes": 5269534,
+    "total_bytes": 6719465,
     "by_tradition": {
-      "—": 17
+      "—": 27
     },
     "by_source": {
-      "zh.wikisource.org": 13,
+      "zh.wikisource.org": 23,
       "ctext.org (api)": 4
     },
-    "original_count": 17
+    "original_count": 27
   },
   "錫克教": {
     "done": 4,

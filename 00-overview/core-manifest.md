@@ -2,23 +2,23 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**475** 部
-- 已翻譯：**182** / 475
-- 已標籤：**378** / 475
+- 核心總數：**487** 部
+- 已翻譯：**182** / 487
+- 已標籤：**378** / 487
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 159 | 86 | 159 |
+| 基督教 | 161 | 86 | 159 |
 | 佛教 | 74 | 37 | 61 |
 | 印度教 | 54 | 12 | 25 |
 | 猶太教 | 45 | 20 | 45 |
-| 古希臘羅馬 | 38 | 0 | 12 |
+| 古希臘羅馬 | 43 | 0 | 12 |
+| 道教 | 18 | 14 | 14 |
 | 北歐 | 15 | 0 | 3 |
-| 道教 | 14 | 14 | 14 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
-| 儒教 | 9 | 9 | 9 |
+| 儒教 | 10 | 9 | 9 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
 | 耆那教 | 7 | 0 | 2 |
@@ -56,7 +56,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 264 |
+| original | 276 |
 | translation | 195 |
 | contested | 2 |
 | (未標) | 14 |
@@ -82,8 +82,10 @@
 
 ## 各宗教核心明細
 
-### 基督教（159 部）
+### 基督教（161 部）
 
+- `augustine-confessiones-la` 懺悔錄（拉丁原文）（拉丁）譯– 標–
+- `augustine-de-civitate-dei-la` 上帝之城（拉丁原文）（拉丁）譯– 標–
 - `bible-1-chronicles` 歷代志上（古典中文）譯✓ 標✓
 - `bible-1-corinthians` 哥林多前書（古典中文）譯✓ 標✓
 - `bible-1-john` 約翰一書（古典中文）譯✓ 標✓
@@ -426,11 +428,14 @@
 - `zechariah` 撒迦利亞書（Hebrew）譯✓ 標✓
 - `zephaniah` 西番雅書（Hebrew）譯✓ 標✓
 
-### 古希臘羅馬（38 部）
+### 古希臘羅馬（43 部）
 
+- `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
+- `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯– 標–
 - `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
+- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
 - `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯– 標–
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯– 標–
 - `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯– 標–
@@ -443,9 +448,11 @@
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
 - `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯– 標–
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯– 標–
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯– 標–
+- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
@@ -467,6 +474,27 @@
 - `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯– 標–
 - `xenophon-memorabilia-el` 回憶蘇格拉底（希臘原文）（Ancient Greek）譯– 標–
 
+### 道教（18 部）
+
+- `baopuzi` 抱朴子（內外篇）（古典漢語）譯✓ 標✓
+- `duren-jing` 靈寶無量度人上品妙經（古典漢語）譯– 標–
+- `huainanzi` 淮南子（古典漢語）譯✓ 標✓
+- `huangdi-neijing` 黃帝內經（古典漢語）譯✓ 標✓
+- `huangting-neijing` 黃庭內景經（古典漢語）譯✓ 標✓
+- `huangting-waijing` 黃庭外景經（古典漢語）譯✓ 標✓
+- `liezi` 列子（古典漢語）譯✓ 標✓
+- `qingjing-jing` 太上老君說常清靜經（古典漢語）譯✓ 標✓
+- `taiping-jing` 太平經（古典漢語）譯✓ 標✓
+- `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
+- `taiyi-jinhua-zongzhi` 太乙金華宗旨（古典漢語）譯– 標–
+- `tao-te-ching` 道德經（古典漢語）譯✓ 標✓
+- `wenzi` 文子（古典漢語）譯✓ 標✓
+- `wuzhen-pian` 悟真篇（古典漢語）譯– 標–
+- `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
+- `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
+- `zhuangzi` 莊子（古典漢語）譯✓ 標✓
+- `zuowang-lun` 坐忘論（古典漢語）譯– 標–
+
 ### 北歐（15 部）
 
 - `egils-saga-on` 埃吉爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
@@ -485,23 +513,6 @@
 - `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標✓
 - `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯– 標–
 
-### 道教（14 部）
-
-- `baopuzi` 抱朴子（內外篇）（古典漢語）譯✓ 標✓
-- `huainanzi` 淮南子（古典漢語）譯✓ 標✓
-- `huangdi-neijing` 黃帝內經（古典漢語）譯✓ 標✓
-- `huangting-neijing` 黃庭內景經（古典漢語）譯✓ 標✓
-- `huangting-waijing` 黃庭外景經（古典漢語）譯✓ 標✓
-- `liezi` 列子（古典漢語）譯✓ 標✓
-- `qingjing-jing` 太上老君說常清靜經（古典漢語）譯✓ 標✓
-- `taiping-jing` 太平經（古典漢語）譯✓ 標✓
-- `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
-- `tao-te-ching` 道德經（古典漢語）譯✓ 標✓
-- `wenzi` 文子（古典漢語）譯✓ 標✓
-- `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
-- `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
-- `zhuangzi` 莊子（古典漢語）譯✓ 標✓
-
 ### 瑣羅亞斯德（11 部）
 
 - `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯– 標✓
@@ -516,7 +527,7 @@
 - `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯– 標✓
 - `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標✓
 
-### 儒教（9 部）
+### 儒教（10 部）
 
 - `analects` 論語（古典漢語）譯✓ 標✓
 - `book-of-changes` 周易（古典漢語）譯✓ 標✓
@@ -527,6 +538,7 @@
 - `liji` 禮記（古典漢語）譯✓ 標✓
 - `mengzi` 孟子（古典漢語）譯✓ 標✓
 - `shang-shu` 尚書（古典漢語）譯✓ 標✓
+- `taiji-tushuo` 太極圖說（古典漢語）譯– 標–
 
 ### 古埃及（8 部）
 

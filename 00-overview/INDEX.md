@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4564** 部
-- 已驗證: 4564
-- 原文 (vs 譯文): 4174 / 4564
-- 總大小: ~609.6 MB
+- 總計: **4581** 部
+- 已驗證: 4581
+- 原文 (vs 譯文): 4191 / 4581
+- 總大小: ~616.0 MB
 
 ## 按宗教
 
@@ -16,9 +16,9 @@
 |------|------|
 | 佛教 | 2506 |
 | 猶太教 | 1562 |
-| 基督教 | 169 |
+| 基督教 | 174 |
 | 印度教 | 91 |
-| 古希臘羅馬 | 47 |
+| 古希臘羅馬 | 59 |
 | 儒教 | 38 |
 | 道教 | 27 |
 | 北歐 | 26 |
@@ -48,12 +48,12 @@
 |------|------|
 | 佛教 - 漢傳 | 2429 |
 | 猶太教 - Commentary | 1271 |
-| 基督教 | 142 |
+| 基督教 | 147 |
 | 印度教 | 91 |
 | 猶太教 - Halakhah | 88 |
 | 猶太教 | 67 |
 | 猶太教 - Mishnah | 64 |
-| 古希臘羅馬 | 47 |
+| 古希臘羅馬 | 59 |
 | 佛教 - 巴利 | 47 |
 | 儒教 | 38 |
 | 猶太教 - Midrash | 36 |
@@ -88,10 +88,10 @@
 | zh.wikisource.org | 127 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | sacred-texts.com | 99 |
-| la.wikisource.org | 78 |
+| la.wikisource.org | 91 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
 | SuttaCentral | 47 |
-| el.wikisource.org | 28 |
+| el.wikisource.org | 32 |
 | morphgnt/sblgnt (GitHub) | 27 |
 | heimskringla.no | 15 |
 | en.wikisource.org | 9 |
@@ -2809,11 +2809,18 @@
 | `rosetta-stone` | 羅塞塔石碑 | 古埃及 | 121072 |
 | `wisdom-of-the-egyptians` | 埃及智慧書（含普塔霍特普訓誡） | 古埃及 | 362895 |
 | `aeschylus-works` | 埃斯庫羅斯戲劇 (含宗教面) | 古希臘羅馬 | 397412 |
+| `apollodorus-bibliotheca-el` | 書庫·神話全書（希臘原文） | 古希臘羅馬 | 715918 |
+| `apuleius-metamorphoses-la` | 金驢記（拉丁原文） | 古希臘羅馬 | 459183 |
 | `argonautica` | 阿爾戈尼卡 (羅得島阿波羅尼俄斯) | 古希臘羅馬 | 877223 |
+| `aristophanes-clouds-el` | 雲（希臘原文） | 古希臘羅馬 | 129254 |
+| `aristophanes-frogs-el` | 蛙（希臘原文） | 古希臘羅馬 | 71400 |
 | `aristotle-de-anima-el` | 論靈魂（希臘原文） | 古希臘羅馬 | 231936 |
 | `aristotle-nicomachean-ethics-el` | 尼各馬可倫理學（希臘原文） | 古希臘羅馬 | 650346 |
 | `aristotle-politics-el` | 政治學（希臘原文） | 古希臘羅馬 | 774033 |
 | `aristotle-rhetoric-el` | 修辭學（希臘原文） | 古希臘羅馬 | 514110 |
+| `cicero-de-divinatione-la` | 論占卜（拉丁原文） | 古希臘羅馬 | 192828 |
+| `cicero-de-natura-deorum-la` | 論神性（拉丁原文） | 古希臘羅馬 | 239093 |
+| `cicero-de-officiis-la` | 論義務（拉丁原文） | 古希臘羅馬 | 235628 |
 | `epictetus-discourses-el` | 愛比克泰德談話錄（希臘原文） | 古希臘羅馬 | 912576 |
 | `epictetus-enchiridion-el` | 愛比克泰德手冊（希臘原文） | 古希臘羅馬 | 59867 |
 | `epicurus-letter-menoeceus-el` | 致美諾寇的信（希臘原文） | 古希臘羅馬 | 15897 |
@@ -2827,11 +2834,14 @@
 | `homer-odyssey-st` | 奧德賽 (Pope/Bryant 英譯) | 古希臘羅馬 | 610127 |
 | `homeric-hymns-el` | 荷馬諸頌（希臘原文） | 古希臘羅馬 | 201358 |
 | `iliad-butler` | 伊利亞德（Butler 譯） | 古希臘羅馬 | 804097 |
+| `lucretius-de-rerum-natura-la` | 物性論（拉丁原文） | 古希臘羅馬 | 327397 |
 | `marcus-aurelius-meditations-el` | 沉思錄（希臘原文） | 古希臘羅馬 | 354572 |
 | `odyssey-butler` | 奧德賽（Butler 譯） | 古希臘羅馬 | 621600 |
 | `orphic-hymns-el` | 俄耳甫斯讚歌（希臘原文） | 古希臘羅馬 | 98026 |
+| `ovid-fasti-la` | 歲時記（拉丁原文） | 古希臘羅馬 | 207014 |
 | `ovid-metamorphoses` | 變形記 (奧維德) | 古希臘羅馬 | 1283039 |
 | `ovid-metamorphoses-la` | 變形記（拉丁原文） | 古希臘羅馬 | 542687 |
+| `pindar-pythian-el` | 皮托競技凱歌（希臘原文） | 古希臘羅馬 | 98584 |
 | `plato-laws-el` | 法律篇（希臘原文） | 古希臘羅馬 | 1274090 |
 | `plato-meno-el` | 美諾篇（希臘原文） | 古希臘羅馬 | 119587 |
 | `plato-phaedo-el` | 斐多篇（希臘原文） | 古希臘羅馬 | 255935 |
@@ -2844,6 +2854,8 @@
 | `plotinus-enneads` | 普羅提諾九章集 | 古希臘羅馬 | 1805977 |
 | `plotinus-enneads-el` | 九章集（希臘原文） | 古希臘羅馬 | 2387707 |
 | `sappho-poetry` | 莎孚詩集 | 古希臘羅馬 | 70931 |
+| `seneca-de-providentia-la` | 論天意（拉丁原文） | 古希臘羅馬 | 27680 |
+| `seneca-epistulae-la` | 道德書簡（拉丁原文） | 古希臘羅馬 | 977074 |
 | `sibylline-oracles` | 西比拉神諭集 | 古希臘羅馬 | 413437 |
 | `sibylline-oracles-el` | 西比拉神諭集（希臘原文） | 古希臘羅馬 | 393021 |
 | `sophocles-antigone-el` | 安提戈涅（希臘原文） | 古希臘羅馬 | 68901 |
@@ -2855,6 +2867,9 @@
 | `virgil-eclogues` | 牧歌 (維吉爾) | 古希臘羅馬 | 84652 |
 | `virgil-georgics` | 農事詩 (維吉爾) | 古希臘羅馬 | 222315 |
 | `xenophon-memorabilia-el` | 回憶蘇格拉底（希臘原文） | 古希臘羅馬 | 431463 |
+| `ambrose-de-officiis-la` | 論教職者的義務（拉丁原文） | 基督教 | 331789 |
+| `augustine-confessiones-la` | 懺悔錄（拉丁原文） | 基督教 | 516387 |
+| `augustine-de-civitate-dei-la` | 上帝之城（拉丁原文） | 基督教 | 1939526 |
 | `bible-1-chronicles` | 歷代志上 | 基督教 | 93249 |
 | `bible-1-corinthians` | 哥林多前書 | 基督教 | 44008 |
 | `bible-1-john` | 約翰一書 | 基督教 | 11630 |
@@ -2921,6 +2936,7 @@
 | `bible-titus` | 提多書 | 基督教 | 4781 |
 | `bible-zechariah` | 撒迦利亞書 | 基督教 | 25262 |
 | `bible-zephaniah` | 西番雅書 | 基督教 | 6814 |
+| `kempis-imitatio-christi-la` | 效法基督（拉丁原文） | 基督教 | 272778 |
 | `sblgnt-1-corinthians` | 哥林多前書（希臘原文） | 基督教 | 82623 |
 | `sblgnt-1-john` | 約翰一書（希臘原文） | 基督教 | 24262 |
 | `sblgnt-1-peter` | 彼得前書（希臘原文） | 基督教 | 22292 |
@@ -2948,6 +2964,7 @@
 | `sblgnt-revelation` | 啟示錄（希臘原文） | 基督教 | 114834 |
 | `sblgnt-romans` | 羅馬書（希臘原文） | 基督教 | 85978 |
 | `sblgnt-titus` | 提多書（希臘原文） | 基督教 | 9128 |
+| `tertullian-de-praescriptione-la` | 斥異端的抗辯（拉丁原文） | 基督教 | 60710 |
 | `vulgate-1-chronicles` | 歷代志上（武加大） | 基督教 | 97842 |
 | `vulgate-1-corinthians` | 哥林多前書（武加大） | 基督教 | 43807 |
 | `vulgate-1-john` | 約翰一書（武加大） | 基督教 | 11715 |
