@@ -637,6 +637,36 @@
       "expected_chapter_count": 1,
       "tier": "核心",
       "notes": "歐里庇得斯《美狄亞》希臘原文（單頁）。激情與復仇，對照 VI 情緒與內在生活。獨立新收"
+    },
+    {
+      "slug": "njals-saga-on",
+      "name_zh": "尼雅爾薩迦（古諾斯語原文）",
+      "name_en": "Brennu-Njáls saga (Old Norse)",
+      "religion": "北歐",
+      "language": "古諾斯語",
+      "lang": "is",
+      "wikisource_title": "Brennu-Njáls saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "is.wikisource 古諾斯語校訂本",
+      "expected_chapter_count": 159,
+      "tier": "核心",
+      "notes": "《尼雅爾薩迦》(焚燒尼雅爾)古諾斯語原文，冰島最長最著名家族薩迦，法律與血仇的宏篇。is.wikisource 逐章子頁自動探索。heimskringla.no 未收古諾斯語全文，改由 is.wikisource 補。"
+    },
+    {
+      "slug": "bandamanna-saga-on",
+      "name_zh": "同盟者薩迦（古諾斯語原文）",
+      "name_en": "Bandamanna saga (Old Norse)",
+      "religion": "北歐",
+      "language": "古諾斯語",
+      "lang": "is",
+      "wikisource_title": "Bandamanna saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "is.wikisource 古諾斯語校訂本",
+      "expected_chapter_count": 12,
+      "tier": "次要",
+      "notes": "《同盟者薩迦》古諾斯語原文，諷刺八酋長結盟訟事的短家族薩迦。is.wikisource 逐章子頁。"
     }
   ]
 }
