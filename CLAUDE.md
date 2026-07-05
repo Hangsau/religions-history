@@ -159,6 +159,8 @@ PYTHONIOENCODING=utf-8 python scripts/auto-pipeline.py --tier 核心 --limit 3 -
 
 - 跨宗教比較：信仰 / 行為 / 心流 / 神聖體驗 / 靈性心理學
 - 寫到 `11-psychology/`
+- **方法＝由下而上，不從理論預設分類**：先造「人實際會問的問題」語料，讓分類自己浮現。組織軸＝**人從生到死的問題**（非宗教、非心理學流派），經文＝歷代對這些問題的回答，心理學＝解讀透鏡（非第三種答案）。**已收斂在 13 個大領域**（見 `11-psychology/question-themes.md`，已用極端人格 100 題壓力測試、零新增大類）。
+- 心理學領域受控詞彙未來寫 `00-overview/concepts-psychology.md`，**與比較宗教學 `concepts.md` 14 類並存**（後者給學者精確標，前者給一般人入口）；標經文允許多標籤。現況與待辦見 `11-psychology/README.md`。
 
 ### P7 網站
 
