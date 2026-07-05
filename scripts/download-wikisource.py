@@ -354,6 +354,7 @@ def load_catalog(religion: str) -> list[dict]:
         "儒教": "confucianism-ws.json",
         "基督教": "christianity-ws.json",
         "基督教-拉丁": "christianity-vulgate.json",
+        "基督教-教父": "christianity-patristics-ws.json",
         "神道": "shinto-ws.json",
         "世界古典": "world-classics-en-ws.json",
         "原文補收": "backfill-originals-ws.json",

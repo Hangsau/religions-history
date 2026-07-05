@@ -1,0 +1,82 @@
+{
+  "religion": "基督教",
+  "source_platform": "la.wikisource.org",
+  "license": "Public domain (拉丁教父原文)",
+  "language": "拉丁",
+  "notes": "拉丁教父 / 中世紀神學原文（Vulgata Clementina 聖經另收於 christianity-vulgate.json）。逐部 la.wikisource 原文，補足基督教正典外的神學傳統。",
+  "scriptures": [
+    {
+      "slug": "augustine-confessiones-la",
+      "wikisource_title": "Confessiones",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "name_en": "Confessions (Augustine, Latin)",
+      "religion": "基督教",
+      "language": "拉丁",
+      "lang": "la",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 拉丁原文",
+      "expected_chapter_count": 13,
+      "tier": "核心",
+      "notes": "奧古斯丁自傳體懺悔錄，13 卷，西方靈修與宗教心理學奠基文本"
+    },
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "wikisource_title": "De civitate Dei",
+      "name_zh": "上帝之城（拉丁原文）",
+      "name_en": "The City of God (Augustine, Latin)",
+      "religion": "基督教",
+      "language": "拉丁",
+      "lang": "la",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 拉丁原文",
+      "expected_chapter_count": 23,
+      "tier": "核心",
+      "notes": "奧古斯丁《上帝之城》，22 卷，基督教歷史神學與政治神學總綱"
+    },
+    {
+      "slug": "ambrose-de-officiis-la",
+      "wikisource_title": "De officiis ministrorum",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "name_en": "On the Duties of the Clergy (Ambrose, Latin)",
+      "religion": "基督教",
+      "language": "拉丁",
+      "lang": "la",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 拉丁原文",
+      "tier": "次要",
+      "notes": "安波羅修仿西塞羅《論義務》所著基督教倫理綱領"
+    },
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "wikisource_title": "De praescriptione haereticorum",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "name_en": "Prescription Against Heretics (Tertullian, Latin)",
+      "religion": "基督教",
+      "language": "拉丁",
+      "lang": "la",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 拉丁原文",
+      "tier": "次要",
+      "notes": "特土良以法律程序論證異端無權引用聖經，早期護教與正統界定文本"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "wikisource_title": "De imitatione Christi",
+      "name_zh": "效法基督（拉丁原文）",
+      "name_en": "The Imitation of Christ (Thomas à Kempis, Latin)",
+      "religion": "基督教",
+      "language": "拉丁",
+      "lang": "la",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 拉丁原文",
+      "expected_chapter_count": 4,
+      "tier": "次要",
+      "notes": "肯培多默《效法基督》，4 卷，晚期中世紀虔敬運動最廣傳靈修經典"
+    }
+  ]
+}
