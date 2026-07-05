@@ -20,27 +20,29 @@
     "original_count": 1
   },
   "佛教": {
-    "done": 2476,
+    "done": 2506,
     "target_core": 60,
     "target_v3_listed": 460,
     "target_full_canon": 13000,
     "pct_core": 100,
     "pct_v3_listed": 100,
-    "pct_full": 19.05,
+    "pct_full": 19.28,
     "with_translation": 37,
     "with_semantic_tags": 0,
-    "total_bytes": 330436159,
+    "total_bytes": 340624890,
     "by_tradition": {
       "漢傳": 2429,
-      "巴利": 47
+      "巴利": 47,
+      "—": 30
     },
     "by_source": {
       "CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka)": 2264,
       "CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō)": 117,
       "CBETA (TEI P5 XML, GitHub)": 48,
-      "SuttaCentral": 47
+      "SuttaCentral": 47,
+      "GRETIL": 30
     },
-    "original_count": 2476
+    "original_count": 2506
   },
   "儒教": {
     "done": 26,
@@ -146,24 +148,24 @@
     "original_count": 0
   },
   "印度教": {
-    "done": 54,
+    "done": 91,
     "target_core": 25,
     "target_v3_listed": 250,
     "target_full_canon": 3000,
     "pct_core": 100,
-    "pct_v3_listed": 21.6,
-    "pct_full": 1.8,
+    "pct_v3_listed": 36.4,
+    "pct_full": 3.03,
     "with_translation": 12,
     "with_semantic_tags": 0,
-    "total_bytes": 51456000,
+    "total_bytes": 60646296,
     "by_tradition": {
-      "—": 54
+      "—": 91
     },
     "by_source": {
-      "GRETIL": 53,
+      "GRETIL": 90,
       "en.wikisource.org": 1
     },
-    "original_count": 32
+    "original_count": 69
   },
   "古埃及": {
     "done": 14,
@@ -372,25 +374,25 @@
     "original_count": 0
   },
   "神道": {
-    "done": 4,
+    "done": 5,
     "target_core": 5,
     "target_v3_listed": 20,
     "target_full_canon": 200,
-    "pct_core": 80.0,
-    "pct_v3_listed": 20.0,
-    "pct_full": 2.0,
+    "pct_core": 100,
+    "pct_v3_listed": 25.0,
+    "pct_full": 2.5,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 2919986,
+    "total_bytes": 3577943,
     "by_tradition": {
-      "—": 4
+      "—": 5
     },
     "by_source": {
       "sacred-texts.com": 2,
-      "zh.wikisource.org": 1,
+      "zh.wikisource.org": 2,
       "en.wikisource.org": 1
     },
-    "original_count": 1
+    "original_count": 2
   },
   "美洲": {
     "done": 1,
@@ -412,24 +414,24 @@
     "original_count": 0
   },
   "耆那教": {
-    "done": 7,
+    "done": 11,
     "target_core": 5,
     "target_v3_listed": 60,
     "target_full_canon": 150,
     "pct_core": 100,
-    "pct_v3_listed": 11.7,
-    "pct_full": 4.67,
+    "pct_v3_listed": 18.3,
+    "pct_full": 7.33,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 2009563,
+    "total_bytes": 3684513,
     "by_tradition": {
-      "—": 7
+      "—": 11
     },
     "by_source": {
-      "GRETIL": 5,
+      "GRETIL": 9,
       "sacred-texts.com": 2
     },
-    "original_count": 5
+    "original_count": 9
   },
   "諾斯底": {
     "done": 5,

@@ -5,30 +5,30 @@
 
 ## 統計總覽
 
-- 總計: **4471** 部
-- 已驗證: 4471
-- 原文 (vs 譯文): 4081 / 4471
-- 總大小: ~582.5 MB
+- 總計: **4542** 部
+- 已驗證: 4542
+- 原文 (vs 譯文): 4152 / 4542
+- 總大小: ~602.5 MB
 
 ## 按宗教
 
 | 宗教 | 部數 |
 |------|------|
-| 佛教 | 2476 |
+| 佛教 | 2506 |
 | 猶太教 | 1562 |
 | 基督教 | 169 |
-| 印度教 | 54 |
+| 印度教 | 91 |
 | 古希臘羅馬 | 47 |
 | 儒教 | 26 |
 | 北歐 | 26 |
 | 道教 | 17 |
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 11 |
+| 耆那教 | 11 |
 | 凱爾特 | 9 |
 | 兩河 | 7 |
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
-| 耆那教 | 7 |
 | 非洲 | 6 |
 | 諾斯底 | 5 |
 | 神道 | 5 |
@@ -49,25 +49,26 @@
 | 佛教 - 漢傳 | 2429 |
 | 猶太教 - Commentary | 1271 |
 | 基督教 | 142 |
+| 印度教 | 91 |
 | 猶太教 - Halakhah | 88 |
 | 猶太教 | 67 |
 | 猶太教 - Mishnah | 64 |
-| 印度教 | 54 |
 | 古希臘羅馬 | 47 |
 | 佛教 - 巴利 | 47 |
 | 猶太教 - Midrash | 36 |
 | 猶太教 - Talmud | 32 |
+| 佛教 | 30 |
 | 基督教 - 新約-希臘原文 | 27 |
 | 儒教 | 26 |
 | 北歐 | 26 |
 | 道教 | 17 |
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 11 |
+| 耆那教 | 11 |
 | 凱爾特 | 9 |
 | 兩河 | 7 |
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
-| 耆那教 | 7 |
 | 非洲 | 6 |
 | 諾斯底 | 5 |
 | 神道 | 5 |
@@ -83,11 +84,11 @@
 |------|------|
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
 | Sefaria | 1552 |
+| GRETIL | 129 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | zh.wikisource.org | 105 |
 | sacred-texts.com | 99 |
 | la.wikisource.org | 78 |
-| GRETIL | 58 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
 | SuttaCentral | 47 |
 | el.wikisource.org | 28 |
@@ -132,6 +133,36 @@
 | `an9-nines` | AN9 九法集 | 佛教 | 192321 |
 | `avatamsaka-sutra` | 大方廣佛華嚴經（八十華嚴） | 佛教 | 2495630 |
 | `awakening-of-faith` | 大乘起信論 | 佛教 | 39697 |
+| `bud-abhidharmakosha-sa` | 阿毗達磨俱舍論本頌（梵文） | 佛教 | 79769 |
+| `bud-abhidharmasamuccaya-sa` | 大乘阿毗達磨集論（梵文） | 佛教 | 227876 |
+| `bud-astasahasrika-prajnaparamita-sa` | 八千頌般若波羅蜜多（梵文） | 佛教 | 851674 |
+| `bud-bodhicaryavatara-sa` | 入菩薩行論（梵文） | 佛教 | 115045 |
+| `bud-bodhisattvabhumi-sa` | 菩薩地（梵文） | 佛教 | 615886 |
+| `bud-buddhacarita-sa` | 佛所行讚（梵文） | 佛教 | 334999 |
+| `bud-dashabhumika-sa` | 十地經（梵文） | 佛教 | 271028 |
+| `bud-divyavadana-sa` | 天譬喻（梵文） | 佛教 | 1596952 |
+| `bud-jatakamala-sa` | 本生鬘（梵文） | 佛教 | 424928 |
+| `bud-lalitavistara-sa` | 方廣大莊嚴經（梵文） | 佛教 | 697611 |
+| `bud-lankavatara-sa` | 楞伽經（梵文） | 佛教 | 416772 |
+| `bud-madhyantavibhaga-sa` | 辯中邊論頌（梵文） | 佛教 | 14260 |
+| `bud-mahavastu-sa` | 大事（梵文） | 佛教 | 1938613 |
+| `bud-mulamadhyamakakarika-sa` | 中論本頌（梵文） | 佛教 | 56338 |
+| `bud-prajnaparamita-hrdaya-sa` | 般若波羅蜜多心經（梵文） | 佛教 | 1728 |
+| `bud-ratnagotravibhaga-sa` | 寶性論（梵文） | 佛教 | 157052 |
+| `bud-ratnavali-sa` | 寶行王正論（梵文） | 佛教 | 28748 |
+| `bud-saddharmapundarika-sa` | 妙法蓮華經（梵文） | 佛教 | 600633 |
+| `bud-samadhiraja-sa` | 月燈三昧經（梵文） | 佛教 | 497339 |
+| `bud-saundarananda-sa` | 孫陀羅難陀詩（梵文） | 佛教 | 166544 |
+| `bud-shikshasamuccaya-sa` | 大乘集菩薩學論（梵文） | 佛教 | 599528 |
+| `bud-shunyatasaptati-sa` | 七十空性論（梵文） | 佛教 | 9002 |
+| `bud-suhrllekha-sa` | 勸誡王頌（梵文） | 佛教 | 18547 |
+| `bud-suvarnaprabhasa-sa` | 金光明經（梵文） | 佛教 | 198969 |
+| `bud-trimshika-sa` | 唯識三十頌（梵文） | 佛教 | 3852 |
+| `bud-udanavarga-sa` | 優陀那品（梵文） | 佛教 | 146453 |
+| `bud-vajracchedika-prajnaparamita-sa` | 金剛般若波羅蜜多（梵文） | 佛教 | 42208 |
+| `bud-vigrahavyavartani-sa` | 迴諍論（梵文） | 佛教 | 50816 |
+| `bud-vimshatika-sa` | 唯識二十論（梵文） | 佛教 | 17947 |
+| `bud-yuktisastika-sa` | 六十如理論（梵文） | 佛教 | 7614 |
 | `cbeta-T01n0001` | 長阿含經 | 佛教 | 776734 |
 | `cbeta-T01n0002` | 七佛經 | 佛教 | 23617 |
 | `cbeta-T01n0003` | 毘婆尸佛經 | 佛教 | 26305 |
@@ -2660,13 +2691,20 @@
 | `volsunga-saga` | 沃爾松傳奇 | 北歐 | 307070 |
 | `volsunga-saga-on` | 沃爾松傳奇（古諾斯語原文） | 北歐 | 151449 |
 | `inca-rites` | 印加儀禮與法律 | 印加 | 99192 |
+| `abhinavagupta-tantraloka` | 坦特羅光輝 | 印度教 | 763573 |
+| `abhinavagupta-tantrasara` | 坦特羅精要 | 印度教 | 129161 |
 | `agni-purana` | 火神往世書 | 印度教 | 1947390 |
 | `aitareya-upanishad` | 愛多列雅奧義書（含注） | 印度教 | 63565 |
+| `apastamba-dharmasutra` | 阿波斯檀跋法經 | 印度教 | 110901 |
+| `ardhanarishvara-stotra` | 半女自在天讚 | 印度教 | 4942 |
 | `ashtavakra-gita` | 八曲之歌 | 印度教 | 71028 |
 | `atharva-paripishtas` | 阿闥婆吠陀補遺 | 印度教 | 490698 |
+| `atharvaveda-paippalada` | 阿闥婆吠陀（派拍拉達傳本） | 印度教 | 1106915 |
 | `atharvaveda-saunaka` | 阿闥婆吠陀（Śaunaka） | 印度教 | 1028894 |
+| `baudhayana-dharmasutra` | 包達耶那法經 | 印度教 | 166792 |
 | `bhagavad-gita` | 薄伽梵歌 | 印度教 | 86543 |
 | `bhagavata-purana` | 薄伽梵往世書 | 印度教 | 2228400 |
+| `bhaktirasamrtasindhu` | 巴克提甘露味海 | 印度教 | 378786 |
 | `brahma-purana` | 梵天往世書 | 印度教 | 1813611 |
 | `brahma-samhita` | 梵讚集 | 印度教 | 88407 |
 | `brahma-sutra` | 梵經 | 印度教 | 29117 |
@@ -2675,44 +2713,74 @@
 | `brihadaranyaka-upanishad` | 大林間奧義書 | 印度教 | 152216 |
 | `chandogya-upanishad` | 唱讚奧義書（含注） | 印度教 | 594772 |
 | `devi-gita` | 女神之歌 | 印度教 | 74257 |
+| `garbha-upanishad` | 胎藏奧義書 | 印度教 | 4841 |
 | `garuda-purana` | 金翅鳥往世書 | 印度教 | 1782698 |
+| `gautama-dharmasutra` | 喬達摩法經 | 印度教 | 90056 |
+| `gheranda-samhita` | 格蘭達本集 | 印度教 | 98689 |
+| `gita-govinda` | 牧童歌 | 印度教 | 51275 |
 | `gopatha-brahmana` | 牛道梵書 | 印度教 | 370295 |
 | `harivamsha` | 訶利世系 | 印度教 | 1188798 |
+| `hatha-yoga-pradipika` | 哈達瑜伽明燈 | 印度教 | 55280 |
 | `isha-upanishad` | 伊舍奧義書 | 印度教 | 27927 |
+| `kaivalya-upanishad` | 獨存奧義書 | 印度教 | 4569 |
 | `katha-upanishad` | 迦塔奧義書 | 印度教 | 20003 |
 | `kaushitaki-brahmana` | 歌詩多基梵書 | 印度教 | 472320 |
+| `kubjikamata-tantra` | 俱毗迦教坦特羅 | 印度教 | 394579 |
 | `kurma-purana` | 龜往世書 | 印度教 | 810484 |
 | `linga-purana` | 林伽往世書 | 印度教 | 884925 |
+| `madhva-anuvyakhyana` | 隨釋 | 印度教 | 248742 |
+| `madhva-mbh-tatparyanirnaya` | 摩訶婆羅多要旨抉擇 | 印度教 | 810687 |
 | `mahabharata` | 摩訶婆羅多 | 印度教 | 15700968 |
 | `mahabharata-ganguli` | 摩訶婆羅多（Ganguli 英譯） | 印度教 | 3505882 |
 | `maitrayani-samhita` | 梅特拉雅尼本集（黑耶柔吠陀） | 印度教 | 1072510 |
+| `malinivijayottara-tantra` | 摩利尼勝上坦特羅 | 印度教 | 160917 |
 | `mandukya-karika` | 蛙氏奧義頌（Gauḍapāda） | 印度教 | 30151 |
 | `mandukya-upanishad` | 蛙氏奧義書 | 印度教 | 182854 |
 | `manu-smrti` | 摩奴法典 | 印度教 | 420015 |
 | `markandeya-purana` | 摩根德耶往世書 | 印度教 | 614977 |
 | `matsya-purana` | 魚往世書 | 印度教 | 1139062 |
 | `mimamsa-sutra-jaimini` | 彌曼差經（闍彌尼） | 印度教 | 169154 |
+| `mrgendra-agama` | 獸主阿含 | 印度教 | 139743 |
 | `nadabindu-upanishad` | 聲點奧義書 | 印度教 | 4068 |
 | `narada-purana` | 那羅陀往世書 | 印度教 | 2113114 |
+| `narada-smrti` | 那羅陀法論 | 印度教 | 234174 |
 | `narasimha-purana` | 人獅往世書 | 印度教 | 470708 |
 | `nyaya-sutra-gautama` | 正理經（喬達摩） | 印度教 | 51181 |
 | `pancavimsha-brahmana` | 二十五梵書 | 印度教 | 438210 |
+| `parashara-smrti` | 廣博仙法論（行儀・贖罪） | 印度教 | 156814 |
+| `paushkara-samhita` | 蓮花本集（27–43） | 印度教 | 477285 |
 | `prashna-upanishad` | 問難奧義書 | 印度教 | 82456 |
+| `ramanuja-gitabhashya` | 薄伽梵歌釋（羅摩奴闍） | 印度教 | 935614 |
+| `ramanuja-vedarthasamgraha` | 吠陀義綱要 | 印度教 | 297722 |
 | `ramayana-southern` | 羅摩衍那（南方校本） | 印度教 | 434183 |
 | `rigveda` | 梨俱吠陀 | 印度教 | 1630555 |
 | `samaveda` | 沙摩吠陀 | 印度教 | 252874 |
 | `samkhya-karika-ishvarakrshna` | 數論頌（自在黑） | 印度教 | 26630 |
 | `samkhya-sutra-kapila` | 數論經（迦毗羅） | 印度教 | 56467 |
+| `satvata-tantra` | 薩埵婆多坦特羅 | 印度教 | 95813 |
+| `saundarya-lahari` | 美之波濤 | 印度教 | 47600 |
 | `shankhayana-aranyaka` | 僧佉衍那森林書 | 印度教 | 103437 |
 | `shatapatha-brahmana-1` | 百道梵書 | 印度教 | 1895020 |
+| `shiva-mahimna-stava` | 濕婆威德讚 | 印度教 | 19742 |
+| `shiva-puja-stava` | 濕婆供養讚 | 印度教 | 10184 |
 | `shiva-purana` | 濕婆往世書 | 印度教 | 891207 |
+| `shiva-upanishad` | 濕婆奧義書 | 印度教 | 153203 |
 | `shivasankalpa-upanishad` | 濕婆意願奧義書 | 印度教 | 5569 |
 | `shvetashvatara-upanishad` | 白騾奧義書 | 印度教 | 19837 |
+| `stotraratna-yamuna` | 讚寶 | 印度教 | 22805 |
+| `svacchanda-tantra` | 自在坦特羅 | 印度教 | 460225 |
 | `taittiriya-upanishad` | 鷓鴣氏奧義書（含商羯羅注） | 印度教 | 158239 |
+| `utpaladeva-shivastotravali` | 濕婆讚頌鬘 | 印度教 | 63336 |
 | `vaisheshika-sutra-kanada` | 勝論經（迦那陀） | 印度教 | 24334 |
 | `valmiki-ramayana` | 羅摩衍那（Valmiki, critical） | 印度教 | 2387863 |
 | `vamana-purana` | 侏儒往世書 | 印度教 | 638498 |
+| `vasistha-dharmasutra` | 婆私吒法經 | 印度教 | 111118 |
+| `vedanta-upadeshasahasri` | 千則教誨 | 印度教 | 140250 |
+| `vedanta-vivekacudamani` | 明辨寶鬘（分別智頂珠） | 印度教 | 87359 |
 | `vishnu-purana` | 毗濕奴往世書 | 印度教 | 820866 |
+| `vishnu-smrti` | 毗濕奴法論 | 印度教 | 371671 |
+| `vishvaksena-samhita` | 毗濕伐犀那本集 | 印度教 | 518363 |
+| `yajnavalkya-smrti` | 祭皮衣仙法論 | 印度教 | 266570 |
 | `yoga-sutra` | 瑜伽經 | 印度教 | 18293 |
 | `book-of-am-tuat` | 阿姆杜阿特之書（幽冥界之書） | 古埃及 | 144976 |
 | `book-of-gates` | 門之書 | 古埃及 | 192849 |
@@ -4539,8 +4607,12 @@
 | `nihongi-aston` | 日本書紀 (英譯) | 神道 | 1506123 |
 | `navajo-myths` | 納瓦霍神話 | 美洲 | 34123 |
 | `jain-acaranga-pkt` | 阿闥羅門經（半摩揭陀原文） | 耆那教 | 85875 |
+| `jain-aptamimamsa-sa` | 可信者審思（梵文原文） | 耆那教 | 14418 |
 | `jain-dasavaikalika-pkt` | 十誦律要（半摩揭陀原文） | 耆那教 | 83448 |
+| `jain-dhurtakhyana-pkt` | 騙徒故事（俗語原文） | 耆那教 | 69472 |
 | `jain-isibhasiyaim-pkt` | 仙人所說（半摩揭陀原文） | 耆那教 | 100294 |
+| `jain-paumacariu-apa` | 波摩行傳（阿波布郎舍原文） | 耆那教 | 1502447 |
+| `jain-sastravarttasamuccaya-sa` | 諸論義集（梵文原文） | 耆那教 | 88613 |
 | `jain-sbe22` | 耆那經典 SBE 22 (Acaranga + Kalpa) | 耆那教 | 612472 |
 | `jain-sbe45` | 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga) | 耆那教 | 807340 |
 | `jain-sutrakrtanga-pkt` | 修多羅經（半摩揭陀原文） | 耆那教 | 87104 |

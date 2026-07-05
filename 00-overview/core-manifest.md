@@ -2,18 +2,18 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**447** 部
-- 已翻譯：**182** / 447
-- 已標籤：**378** / 447
+- 核心總數：**475** 部
+- 已翻譯：**182** / 475
+- 已標籤：**378** / 475
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 159 | 86 | 159 |
-| 佛教 | 61 | 37 | 61 |
+| 佛教 | 74 | 37 | 61 |
+| 印度教 | 54 | 12 | 25 |
 | 猶太教 | 45 | 20 | 45 |
-| 印度教 | 40 | 12 | 25 |
 | 古希臘羅馬 | 38 | 0 | 12 |
 | 北歐 | 15 | 0 | 3 |
 | 道教 | 14 | 14 | 14 |
@@ -21,7 +21,7 @@
 | 儒教 | 9 | 9 | 9 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
-| 耆那教 | 6 | 0 | 2 |
+| 耆那教 | 7 | 0 | 2 |
 | 諾斯底 | 5 | 0 | 5 |
 | 神道 | 4 | 0 | 1 |
 | 伊斯蘭 | 4 | 1 | 4 |
@@ -56,7 +56,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 236 |
+| original | 264 |
 | translation | 195 |
 | contested | 2 |
 | (未標) | 14 |
@@ -244,7 +244,7 @@
 - `vulgate-zechariah` 撒迦利亞書（武加大）（Latin）譯– 標✓
 - `vulgate-zephaniah` 西番雅書（武加大）（Latin）譯– 標✓
 
-### 佛教（61 部）
+### 佛教（74 部）
 
 - `abhidharmakosa` 阿毘達磨俱舍論（古典漢語）譯✓ 標✓
 - `amitabha-sutra` 佛說阿彌陀經（古典漢語）譯✓ 標✓
@@ -261,6 +261,19 @@
 - `an9-nines` AN9 九法集（Pali）譯– 標✓
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
+- `bud-abhidharmakosha-sa` 阿毗達磨俱舍論本頌（梵文）（梵語）譯– 標–
+- `bud-astasahasrika-prajnaparamita-sa` 八千頌般若波羅蜜多（梵文）（梵語）譯– 標–
+- `bud-bodhicaryavatara-sa` 入菩薩行論（梵文）（梵語）譯– 標–
+- `bud-buddhacarita-sa` 佛所行讚（梵文）（梵語）譯– 標–
+- `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯– 標–
+- `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯– 標–
+- `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯– 標–
+- `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯– 標–
+- `bud-ratnagotravibhaga-sa` 寶性論（梵文）（梵語）譯– 標–
+- `bud-saddharmapundarika-sa` 妙法蓮華經（梵文）（梵語）譯– 標–
+- `bud-trimshika-sa` 唯識三十頌（梵文）（梵語）譯– 標–
+- `bud-udanavarga-sa` 優陀那品（梵文）（梵語）譯– 標–
+- `bud-vajracchedika-prajnaparamita-sa` 金剛般若波羅蜜多（梵文）（梵語）譯– 標–
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯✓ 標✓
 - `dhammapada` 法句經（Pali）譯✓ 標✓
 - `diamond-mulamadhyamaka` 中論（古典漢語）譯✓ 標✓
@@ -307,6 +320,63 @@
 - `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯✓ 標✓
 - `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯✓ 標✓
 - `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
+
+### 印度教（54 部）
+
+- `abhinavagupta-tantraloka` 坦特羅光輝（梵語）譯– 標–
+- `agni-purana` 火神往世書（Sanskrit）譯– 標–
+- `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯✓ 標✓
+- `apastamba-dharmasutra` 阿波斯檀跋法經（梵語）譯– 標–
+- `ashtavakra-gita` 八曲之歌（Sanskrit）譯– 標–
+- `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯– 標–
+- `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標✓
+- `baudhayana-dharmasutra` 包達耶那法經（梵語）譯– 標–
+- `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標–
+- `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標✓
+- `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
+- `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
+- `brahmanda-purana` 梵卵往世書（Sanskrit）譯– 標–
+- `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯✓ 標✓
+- `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標✓
+- `devi-gita` 女神之歌（Sanskrit）譯– 標–
+- `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
+- `gautama-dharmasutra` 喬達摩法經（梵語）譯– 標–
+- `gheranda-samhita` 格蘭達本集（梵語）譯– 標–
+- `gita-govinda` 牧童歌（梵語）譯– 標–
+- `harivamsha` 訶利世系（Sanskrit）譯– 標–
+- `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯– 標–
+- `isha-upanishad` 伊舍奧義書（Sanskrit）譯✓ 標✓
+- `katha-upanishad` 迦塔奧義書（Sanskrit）譯✓ 標✓
+- `kurma-purana` 龜往世書（Sanskrit）譯– 標–
+- `linga-purana` 林伽往世書（Sanskrit）譯– 標–
+- `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
+- `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯– 標✓
+- `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯– 標✓
+- `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
+- `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
+- `matsya-purana` 魚往世書（Sanskrit）譯– 標–
+- `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
+- `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
+- `prashna-upanishad` 問難奧義書（Sanskrit）譯– 標✓
+- `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯– 標–
+- `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯– 標–
+- `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
+- `samaveda` 沙摩吠陀（Sanskrit）譯– 標✓
+- `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
+- `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
+- `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標✓
+- `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
+- `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
+- `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯– 標✓
+- `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
+- `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
+- `vasistha-dharmasutra` 婆私吒法經（梵語）譯– 標–
+- `vedanta-upadeshasahasri` 千則教誨（梵語）譯– 標–
+- `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯– 標–
+- `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
+- `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯– 標–
+- `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
 ### 猶太教（45 部）
 
@@ -355,49 +425,6 @@
 - `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標✓
 - `zechariah` 撒迦利亞書（Hebrew）譯✓ 標✓
 - `zephaniah` 西番雅書（Hebrew）譯✓ 標✓
-
-### 印度教（40 部）
-
-- `agni-purana` 火神往世書（Sanskrit）譯– 標–
-- `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯✓ 標✓
-- `ashtavakra-gita` 八曲之歌（Sanskrit）譯– 標–
-- `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標✓
-- `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標–
-- `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標✓
-- `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
-- `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
-- `brahmanda-purana` 梵卵往世書（Sanskrit）譯– 標–
-- `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯✓ 標✓
-- `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標✓
-- `devi-gita` 女神之歌（Sanskrit）譯– 標–
-- `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
-- `harivamsha` 訶利世系（Sanskrit）譯– 標–
-- `isha-upanishad` 伊舍奧義書（Sanskrit）譯✓ 標✓
-- `katha-upanishad` 迦塔奧義書（Sanskrit）譯✓ 標✓
-- `kurma-purana` 龜往世書（Sanskrit）譯– 標–
-- `linga-purana` 林伽往世書（Sanskrit）譯– 標–
-- `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
-- `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯– 標✓
-- `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯– 標✓
-- `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
-- `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
-- `matsya-purana` 魚往世書（Sanskrit）譯– 標–
-- `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
-- `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
-- `prashna-upanishad` 問難奧義書（Sanskrit）譯– 標✓
-- `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
-- `samaveda` 沙摩吠陀（Sanskrit）譯– 標✓
-- `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
-- `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
-- `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標✓
-- `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
-- `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
-- `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯– 標✓
-- `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
-- `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
-- `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
-- `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
 ### 古希臘羅馬（38 部）
 
@@ -522,9 +549,10 @@
 - `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
 - `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
 
-### 耆那教（6 部）
+### 耆那教（7 部）
 
 - `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-aptamimamsa-sa` 可信者審思（梵文原文）（梵語）譯– 標–
 - `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
