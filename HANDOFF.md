@@ -22,7 +22,17 @@
 - **神道**：補《日本書紀》漢文原文全 30 卷（zh.wikisource，`nihon-shoki-zh`，`original_of=nihongi-aston`；同 kojiki-zh 慣例——kanbun 原文本體在 zh.wikisource 非 ja）。
 - **瑪雅 Popol Vuh**：實查後記入 blocked-access（es.wikisource 為 Asturias 西班牙轉譯＝譯本之譯本；OSU popolwuj 對誠實 UA 回 403；Brasseur 1861 為 K'iche'-法對照＋大量腳註 1.5MB 19c OCR 無法乾淨切分；Christenson/Colop 受版權）。英譯 popol-vuh 已收。
 
-**下一步（v3 次優先擴充，開放式）**：核心已封頂，剩 v3-level 大量缺口（伊斯蘭 193 / 印度教 196 / 兩河 53 / 耆那教 53 / 古埃及 46 …）。最可行批次＝有現成乾淨來源 + downloader：耆那教（GRETIL Prakrit/Sanskrit）、印度教（GRETIL 續）、道教（ctext/道藏）。非核心，逐批 commit。
+### 續 sweep（2026-07-06 深夜，接力批次，皆已 push；total 4581 / 核心 487）
+
+- **佛教梵文原文**：新建 `buddhism-gretil.json` + downloader name_map「佛教」，收 30 部 Indian Buddhist Sanskrit（般若/法華/楞伽/中觀/瑜伽行/入菩薩行等）——漢傳/巴利外的第三傳統原文。
+- **印度教 GRETIL 續**：+37 部（54→91）——吠檀多諸阿闍梨、達磨經、諸 smṛti、瑜伽、bhakti、喀什米爾濕婆派、pāñcarātra、āgama、Atharvaveda Paippalāda。
+- **耆那教 GRETIL**：+4 部（Prakrit/Sanskrit 論義集）。
+- **道教**：+10 部（`daoism-ws.json` 18→28）——內丹（悟真篇/太乙金華宗旨/金丹四百字）、靈寶度人科儀（度人經 61 卷/玉皇本行集經/北斗延生經）、唐道論（坐忘論/天隱子）、勸善（文昌陰騭文）、道家子書（亢倉子）。
+- **儒教**：+12 部（`confucianism-ws.json` 26→38，超 v3 目標 35）——宋明理學（太極圖說/通書/正蒙/二程遺書）、心學（象山語錄）、漢代儒學（大戴禮記/韓詩外傳/賈誼新書/陸賈新語/劉向說苑）、明清學術（黃宗羲明儒學案/顧炎武日知錄）。
+- **古希臘羅馬**：+12 部（`backfill-originals-ws.json`，47→59）——希臘（偽阿波羅多洛斯書庫/品達皮托凱歌/阿里斯托芬蛙·雲）、拉丁（西塞羅論神性·論占卜·論義務/盧克萊修物性論/阿普列尤斯金驢記·伊西斯祕儀/奧維德歲時記/塞內卡道德書簡·論天意）。
+- **基督教教父**：新建 `christianity-patristics-ws.json` + name_map「基督教-教父」，收 5 部拉丁教父（奧古斯丁懺悔錄·上帝之城/安波羅修論教職者的義務/特土良斥異端的抗辯/肯培多默效法基督）——Vulgate 聖經外的神學傳統。Summa Theologiae 因 la.wikisource 為 `/部/Quaestio` 深層巢狀（需專用遞迴 handler）暫略。
+
+**下一步（v3 次優先擴充，開放式）**：剩 v3-level 缺口（伊斯蘭 193 / 印度教 續 / 兩河 53 / 古埃及 46 / 神道 15 / 錫克教 6 …）。最可行批次＝有現成乾淨來源 + downloader：印度教（GRETIL 續）、神道（ja/zh.wikisource）、錫克教。非核心，逐批 commit。
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
