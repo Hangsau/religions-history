@@ -1,23 +1,23 @@
 # 資料完整性稽核報告
 
-> 自動產生：`scripts/audit-data-quality.py`　2026-07-05 06:22 +0800
+> 自動產生：`scripts/audit-data-quality.py`　2026-07-05 18:40 +0800
 > 掃描 4411 部
 
 ## 摘要
 
 | 問題 | 數量 |
 |------|------|
-| 空 / 截斷 original.txt | 18 |
+| 空 / 截斷 original.txt | 8 |
 | U+FFFD 編碼損壞 | 4 |
 | mojibake 疑似 | 0 |
 | checksum 不符 | 0 |
 | 重複內容(同 SHA) | 48 組 |
-| meta 缺關鍵欄 | 0 |
+| meta 缺關鍵欄 | 10 |
 | 缺章節分隔符 | 0 |
 | 語言標籤不一致 | 0 |
 | 外語字集占比過低 | 13 |
 
-## 空 / 截斷 original.txt（18）
+## 空 / 截斷 original.txt（8）
 
 - `cbeta-T46n1943` — 有效內容僅 31 字
 - `cbeta-T55n2168A` — 有效內容僅 48 字
@@ -27,23 +27,13 @@
 - `cbeta-T55n2181` — 有效內容僅 19 字
 - `cbeta-X05n0230` — 有效內容僅 14 字
 - `cbeta-X10n0265` — 有效內容僅 32 字
-- `sefaria-german-commentary-on-mishnah-orlah` — 有效內容僅 42 字
-- `sefaria-hagahot-chavot-yair-on-bava-batra` — 有效內容僅 36 字
-- `sefaria-hagahot-chavot-yair-on-beitzah` — 有效內容僅 20 字
-- `sefaria-hagahot-chavot-yair-on-gittin` — 有效內容僅 20 字
-- `sefaria-hagahot-habach-on-rif-bava-kamma` — 有效內容僅 24 字
-- `sefaria-hagahot-habach-on-rif-beitzah` — 有效內容僅 10 字
-- `sefaria-hagahot-mealfas-yashan-on-bava-metzia` — 有效內容僅 46 字
-- `sefaria-haggahot-ya-avetz-on-mishnah-sheviit` — 有效內容僅 25 字
-- `sefaria-matnot-kehunah-on-ruth-rabbah` — 有效內容僅 9 字
-- `sefaria-rashi-on-chagigah` — 有效內容僅 26 字
 
 ## U+FFFD 編碼損壞（4）
 
 - `chunqiu-fanlu` — 1 個置換字
-- `yi-li` — 2 個置換字
+- `yi-li` — 1 個置換字
 - `yunji-qiqian` — 3 個置換字
-- `zhuzi-yulei` — 8 個置換字
+- `zhuzi-yulei` — 6 個置換字
 
 ## mojibake 疑似（0）
 
@@ -73,9 +63,18 @@ _無_
 
 _無_
 
-## meta 缺關鍵欄（0）
+## meta 缺關鍵欄（10）
 
-_無_
+- `sefaria-german-commentary-on-mishnah-orlah` — 缺 text_role
+- `sefaria-hagahot-chavot-yair-on-bava-batra` — 缺 text_role
+- `sefaria-hagahot-chavot-yair-on-beitzah` — 缺 text_role
+- `sefaria-hagahot-chavot-yair-on-gittin` — 缺 text_role
+- `sefaria-hagahot-habach-on-rif-bava-kamma` — 缺 text_role
+- `sefaria-hagahot-habach-on-rif-beitzah` — 缺 text_role
+- `sefaria-hagahot-mealfas-yashan-on-bava-metzia` — 缺 text_role
+- `sefaria-haggahot-ya-avetz-on-mishnah-sheviit` — 缺 text_role
+- `sefaria-matnot-kehunah-on-ruth-rabbah` — 缺 text_role
+- `sefaria-rashi-on-chagigah` — 缺 text_role
 
 ## 重複內容（同 SHA-256，48 組）
 
