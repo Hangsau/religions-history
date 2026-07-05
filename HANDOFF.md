@@ -7,7 +7,22 @@
 
 **4415 部 / 27 宗教 / 539.3 MB / 已 AI 譯註 23 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
-> **原文補收（2026-07-03）：可收待補歸零。** 所有有乾淨來源的核心原文皆已收；剩 28 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
+> **原文補收（2026-07-06 再確認）：核心可收待補歸零。** `audit-core.py` 實測 0 部可收待補；所有有乾淨來源的核心原文皆已收；剩 **29** 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
+
+## 2026-07-06 夜間自主收集 sweep（補齊各宗教核心缺口）
+
+站主授權「缺口都要補起來…只有找遍找不到，沒有不找的」自主過夜收集。本輪成果：
+
+- **古希臘羅馬**：+15 部希臘原文（Task #1，已 push）。
+- **印度教 GRETIL**：+21 部梵文（Mahabharata 18 parva + 諸 Purana + Gita 類）；改良 `download-gretil.py` extractor（corpustei `<h2>Text</h2>` 邊界 + 舊式 diacritic-density is_body 雙路徑）。修 2 條 GRETIL 死連結：linga-purana 改單一 part-1、vishnudharmottara-purana 全 404 記入 blocked-access。
+- **北歐（Task #2 完成，v3 100%）**：
+  - heimskringla.no +散文埃達 + 12 薩迦（含重組 thidreks 28 / sturlunga 12 / karlamagnus 11 子頁）。
+  - is.wikisource +Njála(159) + Bandamanna(12)（`download-wikisource.py --lang is` 自動子頁發現）。
+  - **新增 `download-sagadb.py` + `norse-sagadb.json`**：sagadb.org 古諾斯語 .is，收 heimskringla/is.wikisource 缺的家族薩迦 5 部——Laxdæla(89) / Vatnsdæla(47) / Kormáks(27) / Víga-Glúms(28) / Fóstbræðra(34)。extractor 把「N. kafli」h2 轉為 `=== N | kafli ===` 分隔以過 verify。
+- **神道**：補《日本書紀》漢文原文全 30 卷（zh.wikisource，`nihon-shoki-zh`，`original_of=nihongi-aston`；同 kojiki-zh 慣例——kanbun 原文本體在 zh.wikisource 非 ja）。
+- **瑪雅 Popol Vuh**：實查後記入 blocked-access（es.wikisource 為 Asturias 西班牙轉譯＝譯本之譯本；OSU popolwuj 對誠實 UA 回 403；Brasseur 1861 為 K'iche'-法對照＋大量腳註 1.5MB 19c OCR 無法乾淨切分；Christenson/Colop 受版權）。英譯 popol-vuh 已收。
+
+**下一步（v3 次優先擴充，開放式）**：核心已封頂，剩 v3-level 大量缺口（伊斯蘭 193 / 印度教 196 / 兩河 53 / 耆那教 53 / 古埃及 46 …）。最可行批次＝有現成乾淨來源 + downloader：耆那教（GRETIL Prakrit/Sanskrit）、印度教（GRETIL 續）、道教（ctext/道藏）。非核心，逐批 commit。
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。
