@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4581** 部
-- 已驗證: 4581
-- 原文 (vs 譯文): 4191 / 4581
-- 總大小: ~616.0 MB
+- 總計: **4603** 部
+- 已驗證: 4603
+- 原文 (vs 譯文): 4213 / 4603
+- 總大小: ~619.2 MB
 
 ## 按宗教
 
@@ -17,7 +17,7 @@
 | 佛教 | 2506 |
 | 猶太教 | 1562 |
 | 基督教 | 174 |
-| 印度教 | 91 |
+| 印度教 | 105 |
 | 古希臘羅馬 | 59 |
 | 儒教 | 38 |
 | 道教 | 27 |
@@ -25,15 +25,15 @@
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 11 |
 | 耆那教 | 11 |
+| 錫克教 | 9 |
 | 凱爾特 | 9 |
+| 神道 | 8 |
 | 兩河 | 7 |
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
 | 非洲 | 6 |
 | 諾斯底 | 5 |
-| 神道 | 5 |
 | 瑪雅 | 4 |
-| 錫克教 | 4 |
 | 現代新興 | 2 |
 | 阿茲特克 | 1 |
 | 赫爾墨斯 | 1 |
@@ -49,7 +49,7 @@
 | 佛教 - 漢傳 | 2429 |
 | 猶太教 - Commentary | 1271 |
 | 基督教 | 147 |
-| 印度教 | 91 |
+| 印度教 | 105 |
 | 猶太教 - Halakhah | 88 |
 | 猶太教 | 67 |
 | 猶太教 - Mishnah | 64 |
@@ -65,15 +65,15 @@
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 11 |
 | 耆那教 | 11 |
+| 錫克教 | 9 |
 | 凱爾特 | 9 |
+| 神道 | 8 |
 | 兩河 | 7 |
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
 | 非洲 | 6 |
 | 諾斯底 | 5 |
-| 神道 | 5 |
 | 瑪雅 | 4 |
-| 錫克教 | 4 |
 | 現代新興 | 2 |
 | 猶太教 - Guides | 2 |
 | 猶太教 - Tanakh | 2 |
@@ -84,8 +84,8 @@
 |------|------|
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
 | Sefaria | 1552 |
-| GRETIL | 129 |
-| zh.wikisource.org | 127 |
+| GRETIL | 143 |
+| zh.wikisource.org | 130 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | sacred-texts.com | 99 |
 | la.wikisource.org | 91 |
@@ -96,11 +96,11 @@
 | heimskringla.no | 15 |
 | en.wikisource.org | 9 |
 | ctext.org (api) | 7 |
+| pa.wikisource.org | 6 |
 | sagadb.org | 5 |
 | avesta.org | 3 |
 | is.wikisource.org | 3 |
 | cy.wikisource.org | 2 |
-| pa.wikisource.org | 1 |
 | Quran.com API | 1 |
 | celt.ucc.ie | 1 |
 | ru.wikisource.org | 1 |
@@ -2703,13 +2703,17 @@
 | `volsunga-saga` | 沃爾松傳奇 | 北歐 | 307070 |
 | `volsunga-saga-on` | 沃爾松傳奇（古諾斯語原文） | 北歐 | 151449 |
 | `inca-rites` | 印加儀禮與法律 | 印加 | 99192 |
+| `abhinavagupta-kramastotra` | 阿毗那婆笈多次第讚 | 印度教 | 6950 |
 | `abhinavagupta-tantraloka` | 坦特羅光輝 | 印度教 | 763573 |
 | `abhinavagupta-tantrasara` | 坦特羅精要 | 印度教 | 129161 |
 | `agni-purana` | 火神往世書 | 印度教 | 1947390 |
 | `aitareya-upanishad` | 愛多列雅奧義書（含注） | 印度教 | 63565 |
+| `angirasa-smrti` | 恩吉羅娑法論 | 印度教 | 171714 |
 | `apastamba-dharmasutra` | 阿波斯檀跋法經 | 印度教 | 110901 |
+| `apastamba-shulbasutra` | 阿波斯檀波繩法經 | 印度教 | 442552 |
 | `ardhanarishvara-stotra` | 半女自在天讚 | 印度教 | 4942 |
 | `ashtavakra-gita` | 八曲之歌 | 印度教 | 71028 |
+| `ashvalayana-grhyasutra` | 阿溼縛羅衍那家庭經 | 印度教 | 71438 |
 | `atharva-paripishtas` | 阿闥婆吠陀補遺 | 印度教 | 490698 |
 | `atharvaveda-paippalada` | 阿闥婆吠陀（派拍拉達傳本） | 印度教 | 1106915 |
 | `atharvaveda-saunaka` | 阿闥婆吠陀（Śaunaka） | 印度教 | 1028894 |
@@ -2722,6 +2726,8 @@
 | `brahma-sutra` | 梵經 | 印度教 | 29117 |
 | `brahmabindu-upanishad` | 梵點奧義書 | 印度教 | 4307 |
 | `brahmanda-purana` | 梵卵往世書 | 印度教 | 1866163 |
+| `brhaspati-smrti-vyavahara` | 祭主法論·訴訟篇 | 印度教 | 323684 |
+| `brhat-samhita` | 大集（伐羅訶密希羅） | 印度教 | 498260 |
 | `brihadaranyaka-upanishad` | 大林間奧義書 | 印度教 | 152216 |
 | `chandogya-upanishad` | 唱讚奧義書（含注） | 印度教 | 594772 |
 | `devi-gita` | 女神之歌 | 印度教 | 74257 |
@@ -2736,7 +2742,9 @@
 | `isha-upanishad` | 伊舍奧義書 | 印度教 | 27927 |
 | `kaivalya-upanishad` | 獨存奧義書 | 印度教 | 4569 |
 | `katha-upanishad` | 迦塔奧義書 | 印度教 | 20003 |
+| `katyayana-smrti` | 迦旃延那法論 | 印度教 | 250701 |
 | `kaushitaki-brahmana` | 歌詩多基梵書 | 印度教 | 472320 |
+| `kirana-tantra` | 光線怛特羅 | 印度教 | 183105 |
 | `kubjikamata-tantra` | 俱毗迦教坦特羅 | 印度教 | 394579 |
 | `kurma-purana` | 龜往世書 | 印度教 | 810484 |
 | `linga-purana` | 林伽往世書 | 印度教 | 884925 |
@@ -2750,6 +2758,7 @@
 | `mandukya-upanishad` | 蛙氏奧義書 | 印度教 | 182854 |
 | `manu-smrti` | 摩奴法典 | 印度教 | 420015 |
 | `markandeya-purana` | 摩根德耶往世書 | 印度教 | 614977 |
+| `matrkabheda-tantra` | 母字辨怛特羅 | 印度教 | 71722 |
 | `matsya-purana` | 魚往世書 | 印度教 | 1139062 |
 | `mimamsa-sutra-jaimini` | 彌曼差經（闍彌尼） | 印度教 | 169154 |
 | `mrgendra-agama` | 獸主阿含 | 印度教 | 139743 |
@@ -2772,6 +2781,7 @@
 | `satvata-tantra` | 薩埵婆多坦特羅 | 印度教 | 95813 |
 | `saundarya-lahari` | 美之波濤 | 印度教 | 47600 |
 | `shankhayana-aranyaka` | 僧佉衍那森林書 | 印度教 | 103437 |
+| `shankhayana-grhyasutra` | 商佉衍那家庭經 | 印度教 | 89955 |
 | `shatapatha-brahmana-1` | 百道梵書 | 印度教 | 1895020 |
 | `shiva-mahimna-stava` | 濕婆威德讚 | 印度教 | 19742 |
 | `shiva-puja-stava` | 濕婆供養讚 | 印度教 | 10184 |
@@ -2782,7 +2792,9 @@
 | `stotraratna-yamuna` | 讚寶 | 印度教 | 22805 |
 | `svacchanda-tantra` | 自在坦特羅 | 印度教 | 460225 |
 | `taittiriya-upanishad` | 鷓鴣氏奧義書（含商羯羅注） | 印度教 | 158239 |
+| `todala-tantra` | 托陀羅怛特羅 | 印度教 | 49850 |
 | `utpaladeva-shivastotravali` | 濕婆讚頌鬘 | 印度教 | 63336 |
+| `vaikhanasa-dharmasutra` | 韋卡納薩法經 | 印度教 | 55668 |
 | `vaisheshika-sutra-kanada` | 勝論經（迦那陀） | 印度教 | 24334 |
 | `valmiki-ramayana` | 羅摩衍那（Valmiki, critical） | 印度教 | 2387863 |
 | `vamana-purana` | 侏儒往世書 | 印度教 | 638498 |
@@ -2793,6 +2805,8 @@
 | `vishnu-smrti` | 毗濕奴法論 | 印度教 | 371671 |
 | `vishvaksena-samhita` | 毗濕伐犀那本集 | 印度教 | 518363 |
 | `yajnavalkya-smrti` | 祭皮衣仙法論 | 印度教 | 266570 |
+| `yama-smrti` | 閻摩法論 | 印度教 | 19254 |
+| `yamuna-gitartha-samgraha` | 雅牟那薄伽梵歌要義 | 印度教 | 7791 |
 | `yoga-sutra` | 瑜伽經 | 印度教 | 18293 |
 | `book-of-am-tuat` | 阿姆杜阿特之書（幽冥界之書） | 古埃及 | 144976 |
 | `book-of-gates` | 門之書 | 古埃及 | 192849 |
@@ -4629,11 +4643,14 @@
 | `maya-hieroglyphic-writing` | 瑪雅象形文字書 (節錄) | 瑪雅 | 191147 |
 | `popol-vuh` | 波波爾·烏 (基切馬雅創世史詩) | 瑪雅 | 74914 |
 | `yucatan-before-after-conquest` | 尤卡坦征服前後 (Landa) | 瑪雅 | 465727 |
+| `engishiki-jingi-zh` | 延喜式·神祇式（漢文原文，卷一至十） | 神道 | 385315 |
+| `kogo-shui-zh` | 古語拾遺（漢文原文） | 神道 | 19988 |
 | `kogoshui` | 古語拾遺 | 神道 | 133215 |
 | `kojiki-chamberlain` | 古事記 | 神道 | 1088822 |
 | `kojiki-zh` | 古事記（上代日本語原文，漢文・萬葉假名） | 神道 | 191826 |
 | `nihon-shoki-zh` | 日本書紀（漢文原文，全三十卷） | 神道 | 657957 |
 | `nihongi-aston` | 日本書紀 (英譯) | 神道 | 1506123 |
+| `sendai-kuji-hongi-zh` | 先代舊事本紀（漢文原文，全十卷） | 神道 | 245350 |
 | `navajo-myths` | 納瓦霍神話 | 美洲 | 34123 |
 | `jain-acaranga-pkt` | 阿闥羅門經（半摩揭陀原文） | 耆那教 | 85875 |
 | `jain-aptamimamsa-sa` | 可信者審思（梵文原文） | 耆那教 | 14418 |
@@ -4679,10 +4696,15 @@
 | `zhouyi-cantong-qi` | 周易參同契 | 道教 | 23610 |
 | `zhuangzi` | 莊子 | 道教 | 242136 |
 | `zuowang-lun` | 坐忘論 | 道教 | 19261 |
+| `anand-sahib-pa` | 喜樂之歌（旁遮普原文，古木基文字） | 錫克教 | 40436 |
+| `chandi-di-var-pa` | 旃荼女神頌（旁遮普原文，古木基文字） | 錫克教 | 43803 |
 | `guru-granth-sahib-pa` | 古魯格蘭特薩希卜（旁遮普原文，古木基文字） | 錫克教 | 36721 |
 | `guru-granth-sahib-st` | 錫克教根本經 Shri Guru Granth Sahib | 錫克教 | 4590337 |
+| `japji-sahib-pa` | 晨禱（旁遮普原文，古木基文字） | 錫克教 | 63708 |
 | `religion-of-sikhs` | 錫克教宗教 (Field) | 錫克教 | 127103 |
 | `sikh-religion-macauliffe` | 錫克教（Macauliffe） | 錫克教 | 846118 |
+| `sukhmani-sahib-pa` | 安寧明珠（旁遮普原文，古木基文字） | 錫克教 | 237303 |
+| `var-bhai-gurdas-1-pa` | 婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字） | 錫克教 | 39752 |
 | `aztec-rva` | 阿茲特克儀禮 | 阿茲特克 | 100087 |
 | `dahomey-religion` | 達荷美宗教 | 非洲 | 346713 |
 | `fjort-religion` | Fjort 民族宗教 (西非) | 非洲 | 288235 |

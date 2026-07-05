@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**487** 部
-- 已翻譯：**182** / 487
-- 已標籤：**378** / 487
+- 核心總數：**489** 部
+- 已翻譯：**182** / 489
+- 已標籤：**378** / 489
 
 ## 各宗教核心進度
 
@@ -22,12 +22,12 @@
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
 | 耆那教 | 7 | 0 | 2 |
+| 神道 | 5 | 0 | 1 |
 | 諾斯底 | 5 | 0 | 5 |
-| 神道 | 4 | 0 | 1 |
+| 錫克教 | 4 | 1 | 3 |
 | 伊斯蘭 | 4 | 1 | 4 |
 | 瑪雅 | 3 | 0 | 2 |
 | 兩河 | 3 | 0 | 3 |
-| 錫克教 | 3 | 1 | 3 |
 | 斯拉夫 | 3 | 1 | 3 |
 | 現代新興 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
@@ -56,7 +56,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 276 |
+| original | 278 |
 | translation | 195 |
 | contested | 2 |
 | (未標) | 14 |
@@ -571,6 +571,14 @@
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 
+### 神道（5 部）
+
+- `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯– 標–
+- `kojiki-chamberlain` 古事記（English (translation)）譯– 標✓
+- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯– 標–
+- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯– 標–
+- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
+
 ### 諾斯底（5 部）
 
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
@@ -579,12 +587,12 @@
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
 - `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
 
-### 神道（4 部）
+### 錫克教（4 部）
 
-- `kojiki-chamberlain` 古事記（English (translation)）譯– 標✓
-- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯– 標–
-- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯– 標–
-- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
+- `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
+- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
+- `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯– 標–
+- `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 
 ### 伊斯蘭（4 部）
 
@@ -604,12 +612,6 @@
 - `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯– 標✓
 - `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯– 標✓
 - `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯– 標✓
-
-### 錫克教（3 部）
-
-- `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
-- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
-- `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 
 ### 斯拉夫（3 部）
 
