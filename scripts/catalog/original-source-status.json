@@ -34,6 +34,8 @@
 
     "ife-mythology": {"status": "oral-no-script", "reason": "約魯巴口傳傳統，前文字社會無音位書寫系統；英文採錄本即最早可及形式，無書面原文可收。", "probed": ["sacred-texts(英採錄)"]},
     "yoruba-religion": {"status": "oral-no-script", "reason": "約魯巴宗教口傳，無文字原典；英文本為採錄／整理。", "probed": ["sacred-texts(英採錄)"]},
-    "inca-rites": {"status": "oral-no-script", "reason": "印加用結繩（quipu）記事，無表音文字；Markham 由西班牙編年史家（Molina/Salcamayhua）英譯整理，無單一書面原典。部分克丘亞語祈禱（Molina）存殘篇但非此彙編底本。", "probed": ["sacred-texts(Markham,英彙編)"]}
+    "inca-rites": {"status": "oral-no-script", "reason": "印加用結繩（quipu）記事，無表音文字；Markham 由西班牙編年史家（Molina/Salcamayhua）英譯整理，無單一書面原典。部分克丘亞語祈禱（Molina）存殘篇但非此彙編底本。", "probed": ["sacred-texts(Markham,英彙編)"]},
+
+    "vishnudharmottara-purana": {"status": "blocked-access", "reason": "《毗濕奴法上往世書》梵文原文；GRETIL 索引列 sa_viSNudharmottarapurANa3.htm 與 sa_viSNudharmottarapurANa-2.htm 兩檔皆為死連結(實測 HTTP 404)，另試 1/2/3/khaNDa 變體亦全 404。GRETIL 以外無其他乾淨 IAST 全文匯出。日後 GRETIL 修復連結即可收。", "probed": ["gretil(索引列2檔皆404)", "gretil(1/2/3/khaNDa變體皆404)"]}
   }
 }

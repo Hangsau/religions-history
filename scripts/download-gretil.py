@@ -90,16 +90,42 @@ def fetch_html(path_or_url: str) -> str:
 
 
 def extract_sanskrit_text(html: str) -> str:
-    """Extract Sanskrit text from GRETIL HTML, skipping the header notice."""
+    """Extract Sanskrit text from GRETIL HTML, skipping the header notice.
+
+    Two GRETIL HTML layouts are handled:
+    - corpustei (modern): a clean ``<h2>Text</h2>`` marks the body; everything
+      before it (Header / Source / Licence / Notes / Revisions) is dropped.
+    - legacy 1_sanskr (``% comment`` header + GRETIL reference notice + a
+      diacritic legend table): the legend is skipped until real verse text.
+    """
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup.find_all(["script", "style", "head"]):
         tag.decompose()
+
+    # corpustei layout: keep only what follows the "Text" heading.
+    text_heading = None
+    for h in soup.find_all("h2"):
+        if h.get_text(strip=True).lower() == "text":
+            text_heading = h
+            break
+    if text_heading is not None:
+        parts = [
+            str(node) for node in text_heading.find_all_next(string=True)
+        ]
+        body = "\n".join(parts)
+        lines = [ln.strip() for ln in body.split("\n") if ln.strip()]
+        # Drop a leading standalone "Text" label if it survived.
+        while lines and lines[0].lower() == "text":
+            lines.pop(0)
+        return "\n".join(lines)
+
     text = soup.get_text("\n", strip=True)
     lines = text.split("\n")
 
     # Skip GRETIL boilerplate
     drop_prefixes = [
         "THIS GRETIL TEXT FILE IS FOR REFERENCE",
+        "TEXT FILE IS FOR REFERENCE",
         "COPYRIGHT AND TERMS OF USAGE",
         "Text converted to Unicode",
         "(This file is to be used",
@@ -107,30 +133,34 @@ def extract_sanskrit_text(html: str) -> str:
         "description:",
         "multibyte sequence:",
     ]
+    drop_exact = {"THIS", "GRETIL"}
+
+    diacritics = set("āīūṛṝḷḹṅñṭḍṇśṣṃḥĀĪŪṚṜḶḸṄÑṬḌṆŚṢṀḤ")
+
+    def is_body(s: str) -> bool:
+        # Real Sanskrit content: diacritic-dense, a verse reference, or a danda.
+        if sum(ch in diacritics for ch in s) >= 2:
+            return True
+        if re.match(r"^\d+[,.]\d", s):
+            return True
+        if ("//" in s or "|" in s) and "http" not in s.lower():
+            return True
+        return False
 
     cleaned: list[str] = []
-    skip_until_blank = False
     started = False
     for line in lines:
         s = line.strip()
         if not s:
-            skip_until_blank = False
+            continue
+        # GRETIL "% ..." comment header lines and the split reference notice.
+        if s.startswith("%") or s in drop_exact:
             continue
         if any(s.startswith(p) for p in drop_prefixes):
-            skip_until_blank = True
             continue
-        if skip_until_blank:
-            # Skip until we get clearly text content
-            if re.search(r"^\d|[āīūṛ]", s):
-                skip_until_blank = False
-            else:
-                continue
-        # Drop lines that are just metadata (URLs, attribution, etc) before main text
+        # Skip all header/boilerplate until the first real Sanskrit body line.
         if not started:
-            if re.search(r"https?://|\.htm|\bedited by|\bDetlef\b", s, re.IGNORECASE):
-                continue
-            if re.match(r"^[A-Z][a-zA-Zāīūṛ ]{0,30}$", s) and "ā" not in s:
-                # Likely text title only, skip
+            if not is_body(s):
                 continue
             started = True
         cleaned.append(s)
