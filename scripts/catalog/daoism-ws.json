@@ -5,19 +5,259 @@
   "language": "古典漢語",
   "notes": "道教 Wikisource catalog. 與 daoism.json (ctext) 互補：ctext 已抓的 (tao-te-ching / zhuangzi / liezi / yinfu-jing) 透過 skip-if-verified 自動跳過。本檔涵蓋宗教性道經 (不在 ctext) + ctext 限額卡住的剩餘部分。",
   "scriptures": [
-    {"slug": "zhouyi-cantong-qi", "wikisource_title": "周易參同契", "name_zh": "周易參同契", "name_en": "Cantong Qi", "version": "Wikisource 通行本", "version_date": "東漢", "tier": "核心"},
-    {"slug": "huangting-neijing", "wikisource_title": "太上黃庭內景玉經", "name_zh": "黃庭內景經", "name_en": "Huangting Inner Vision Jing", "version": "Wikisource 通行本", "version_date": "魏晉", "tier": "核心", "notes": "正文分 36 章於 太上黃庭內景玉經/<章> 子頁面; 舊 wikisource_title=黃庭內景經 只是章目錄頁(761B)"},
-    {"slug": "huangting-waijing", "wikisource_title": "黃庭外景經", "name_zh": "黃庭外景經", "name_en": "Huangting Outer Vision Jing", "version": "Wikisource 通行本", "version_date": "魏晉", "tier": "核心"},
-    {"slug": "taishang-ganying-pian", "wikisource_title": "太上感應篇", "name_zh": "太上感應篇", "name_en": "Taishang Ganying Pian", "version": "Wikisource 通行本", "version_date": "宋", "tier": "核心"},
-    {"slug": "qingjing-jing", "wikisource_title": "清靜經", "name_zh": "太上老君說常清靜經", "name_en": "Qingjing Jing", "version": "Wikisource 通行本", "version_date": "唐", "tier": "核心"},
-    {"slug": "wenshi-zhenjing", "skip_reason": "文始真經 為 關尹子 別名, Wikisource 同頁; 不重複收"},
-    {"slug": "guanyin-zi", "wikisource_title": "關尹子", "name_zh": "關尹子", "name_en": "Guanyinzi", "version": "Wikisource 通行本", "version_date": "唐宋", "tier": "次要"},
-    {"slug": "taiping-jing", "wikisource_title": "太平經", "name_zh": "太平經", "name_en": "Taiping Jing", "version": "Wikisource 通行殘本", "version_date": "東漢", "tier": "核心"},
-    {"slug": "baopuzi", "wikisource_title": "抱朴子", "name_zh": "抱朴子（內外篇）", "name_en": "Baopuzi (Inner + Outer Chapters)", "version": "Wikisource 葛洪本", "version_date": "4 世紀", "tier": "核心"},
-    {"slug": "shenxian-zhuan", "wikisource_title": "神仙傳", "name_zh": "神仙傳", "name_en": "Biographies of Divine Transcendents", "version": "Wikisource 葛洪本", "version_date": "4 世紀", "tier": "次要"},
-    {"slug": "wenzi", "wikisource_title": "文子", "name_zh": "文子", "name_en": "Wenzi", "version": "Wikisource 通行本", "version_date": "戰國—西漢", "tier": "核心"},
-    {"slug": "huangdi-neijing", "wikisource_title": "黃帝內經", "name_zh": "黃帝內經", "name_en": "Huangdi Neijing", "version": "Wikisource 通行本", "version_date": "戰國—漢", "tier": "核心"},
-    {"slug": "huainanzi", "wikisource_title": "淮南子", "name_zh": "淮南子", "name_en": "Huainanzi", "version": "Wikisource 通行本", "version_date": "西漢", "tier": "核心"},
-    {"slug": "yunji-qiqian", "wikisource_title": "雲笈七籤", "name_zh": "雲笈七籤", "name_en": "Yunji Qiqian", "version": "Wikisource 張君房本", "version_date": "宋", "tier": "次要", "expected_chapter_count": 126, "notes": "Wikisource 含 122 卷 + 113上/下 + 序 = 126 sections"}
+    {
+      "slug": "zhouyi-cantong-qi",
+      "wikisource_title": "周易參同契",
+      "name_zh": "周易參同契",
+      "name_en": "Cantong Qi",
+      "version": "Wikisource 通行本",
+      "version_date": "東漢",
+      "tier": "核心"
+    },
+    {
+      "slug": "huangting-neijing",
+      "wikisource_title": "太上黃庭內景玉經",
+      "name_zh": "黃庭內景經",
+      "name_en": "Huangting Inner Vision Jing",
+      "version": "Wikisource 通行本",
+      "version_date": "魏晉",
+      "tier": "核心",
+      "notes": "正文分 36 章於 太上黃庭內景玉經/<章> 子頁面; 舊 wikisource_title=黃庭內景經 只是章目錄頁(761B)"
+    },
+    {
+      "slug": "huangting-waijing",
+      "wikisource_title": "黃庭外景經",
+      "name_zh": "黃庭外景經",
+      "name_en": "Huangting Outer Vision Jing",
+      "version": "Wikisource 通行本",
+      "version_date": "魏晉",
+      "tier": "核心"
+    },
+    {
+      "slug": "taishang-ganying-pian",
+      "wikisource_title": "太上感應篇",
+      "name_zh": "太上感應篇",
+      "name_en": "Taishang Ganying Pian",
+      "version": "Wikisource 通行本",
+      "version_date": "宋",
+      "tier": "核心"
+    },
+    {
+      "slug": "qingjing-jing",
+      "wikisource_title": "清靜經",
+      "name_zh": "太上老君說常清靜經",
+      "name_en": "Qingjing Jing",
+      "version": "Wikisource 通行本",
+      "version_date": "唐",
+      "tier": "核心"
+    },
+    {
+      "slug": "wenshi-zhenjing",
+      "skip_reason": "文始真經 為 關尹子 別名, Wikisource 同頁; 不重複收"
+    },
+    {
+      "slug": "guanyin-zi",
+      "wikisource_title": "關尹子",
+      "name_zh": "關尹子",
+      "name_en": "Guanyinzi",
+      "version": "Wikisource 通行本",
+      "version_date": "唐宋",
+      "tier": "次要"
+    },
+    {
+      "slug": "taiping-jing",
+      "wikisource_title": "太平經",
+      "name_zh": "太平經",
+      "name_en": "Taiping Jing",
+      "version": "Wikisource 通行殘本",
+      "version_date": "東漢",
+      "tier": "核心"
+    },
+    {
+      "slug": "baopuzi",
+      "wikisource_title": "抱朴子",
+      "name_zh": "抱朴子（內外篇）",
+      "name_en": "Baopuzi (Inner + Outer Chapters)",
+      "version": "Wikisource 葛洪本",
+      "version_date": "4 世紀",
+      "tier": "核心"
+    },
+    {
+      "slug": "shenxian-zhuan",
+      "wikisource_title": "神仙傳",
+      "name_zh": "神仙傳",
+      "name_en": "Biographies of Divine Transcendents",
+      "version": "Wikisource 葛洪本",
+      "version_date": "4 世紀",
+      "tier": "次要"
+    },
+    {
+      "slug": "wenzi",
+      "wikisource_title": "文子",
+      "name_zh": "文子",
+      "name_en": "Wenzi",
+      "version": "Wikisource 通行本",
+      "version_date": "戰國—西漢",
+      "tier": "核心"
+    },
+    {
+      "slug": "huangdi-neijing",
+      "wikisource_title": "黃帝內經",
+      "name_zh": "黃帝內經",
+      "name_en": "Huangdi Neijing",
+      "version": "Wikisource 通行本",
+      "version_date": "戰國—漢",
+      "tier": "核心"
+    },
+    {
+      "slug": "huainanzi",
+      "wikisource_title": "淮南子",
+      "name_zh": "淮南子",
+      "name_en": "Huainanzi",
+      "version": "Wikisource 通行本",
+      "version_date": "西漢",
+      "tier": "核心"
+    },
+    {
+      "slug": "yunji-qiqian",
+      "wikisource_title": "雲笈七籤",
+      "name_zh": "雲笈七籤",
+      "name_en": "Yunji Qiqian",
+      "version": "Wikisource 張君房本",
+      "version_date": "宋",
+      "tier": "次要",
+      "expected_chapter_count": 126,
+      "notes": "Wikisource 含 122 卷 + 113上/下 + 序 = 126 sections"
+    },
+    {
+      "slug": "wuzhen-pian",
+      "wikisource_title": "悟真篇",
+      "name_zh": "悟真篇",
+      "name_en": "Wuzhen pian",
+      "version": "Wikisource 通行本",
+      "version_date": "北宋・張伯端",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "內丹學（金丹）根本經典，鍾呂丹道南宗祖經"
+    },
+    {
+      "slug": "duren-jing",
+      "wikisource_title": "靈寶無量度人上品妙經",
+      "name_zh": "靈寶無量度人上品妙經",
+      "name_en": "Lingbao Duren jing",
+      "version": "Wikisource 通行本",
+      "version_date": "靈寶派",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "靈寶派度人根本經，《道藏》首經"
+    },
+    {
+      "slug": "yuhuang-benxing-jing",
+      "wikisource_title": "高上玉皇本行集經",
+      "name_zh": "高上玉皇本行集經",
+      "name_en": "Yuhuang benxing jing",
+      "version": "Wikisource 通行本",
+      "version_date": "—",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "玉皇上帝本行與威神，玉皇信仰核心經"
+    },
+    {
+      "slug": "beidou-yansheng-jing",
+      "wikisource_title": "太上玄靈北斗本命延生真經",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "name_en": "Beidou yansheng jing",
+      "version": "Wikisource 通行本",
+      "version_date": "—",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "北斗本命延生醮儀根本經"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "wikisource_title": "太乙金華宗旨",
+      "name_zh": "太乙金華宗旨",
+      "name_en": "Taiyi jinhua zongzhi",
+      "version": "Wikisource 通行本",
+      "version_date": "清・全真龍門",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "內丹回光返照法要，衛禮賢譯《金花的秘密》底本"
+    },
+    {
+      "slug": "zuowang-lun",
+      "wikisource_title": "坐忘論",
+      "name_zh": "坐忘論",
+      "name_en": "Zuowang lun",
+      "version": "Wikisource 通行本",
+      "version_date": "唐・司馬承禎",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "唐代道教心性修養論，坐忘七階"
+    },
+    {
+      "slug": "wenchang-yinzhiwen",
+      "wikisource_title": "文昌帝君陰騭文",
+      "name_zh": "文昌帝君陰騭文",
+      "name_en": "Wenchang Yinzhiwen",
+      "version": "Wikisource 通行本",
+      "version_date": "—",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "文昌帝君勸善書，與《感應篇》並稱善書雙璧"
+    },
+    {
+      "slug": "tianyinzi",
+      "wikisource_title": "天隱子",
+      "name_zh": "天隱子",
+      "name_en": "Tianyinzi",
+      "version": "Wikisource 通行本",
+      "version_date": "唐・司馬承禎",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "漸門修真八階養生論"
+    },
+    {
+      "slug": "jindan-sibaizi",
+      "wikisource_title": "金丹四百字",
+      "name_zh": "金丹四百字",
+      "name_en": "Jindan sibaizi",
+      "version": "Wikisource 通行本",
+      "version_date": "張伯端",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "南宗內丹口訣四百字"
+    },
+    {
+      "slug": "kangcangzi",
+      "wikisource_title": "亢倉子",
+      "name_zh": "亢倉子",
+      "name_en": "Kangcangzi (Dongling zhenjing)",
+      "version": "Wikisource 通行本",
+      "version_date": "唐",
+      "language": "古典漢語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "道教四子真經之一（洞靈真經）"
+    }
   ]
 }
