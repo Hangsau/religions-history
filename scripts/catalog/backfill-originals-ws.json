@@ -273,6 +273,82 @@
       "expected_chapter_count": 3,
       "tier": "核心",
       "notes": "《古事記》712 年太安萬侶編，上代日本語漢文＋萬葉假名混寫原文（zh.wikisource 上／中／下三卷，上卷已含序）；對應 sacred-texts Chamberlain 英譯 kojiki-chamberlain。日文 ja.wikisource 僅版本頁，原文本體置於 zh.wikisource"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "name_en": "Meditations (Marcus Aurelius, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "Ancient Greek",
+      "lang": "el",
+      "wikisource_title": "Τα εις εαυτόν",
+      "wikisource_titles": [
+        "Τα εις εαυτόν/1", "Τα εις εαυτόν/2", "Τα εις εαυτόν/3",
+        "Τα εις εαυτόν/4", "Τα εις εαυτόν/5", "Τα εις εαυτόν/6",
+        "Τα εις εαυτόν/7", "Τα εις εαυτόν/8", "Τα εις εαυτόν/9",
+        "Τα εις εαυτόν/10", "Τα εις εαυτόν/11", "Τα εις εαυτόν/12"
+      ],
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 12,
+      "tier": "核心",
+      "notes": "馬可·奧理略《沉思錄》12 卷希臘原文（el.wikisource 分卷 /1–/12）。斯多噶派核心，心理學讀經對照 XIII 安頓／X 死亡／VI 情緒。獨立新收，庫內無對應英譯 slug"
+    },
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "name_en": "Enchiridion (Epictetus, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "Ancient Greek",
+      "lang": "el",
+      "wikisource_title": "Εγχειρίδιον",
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 1,
+      "tier": "核心",
+      "notes": "愛比克泰德《手冊》(Enchiridion) 希臘原文（el.wikisource 單頁）。斯多噶派最精煉手冊，心理學讀經對照 XI 自由·命運（控制二分法）／XIII 安命。獨立新收"
+    },
+    {
+      "slug": "aristotle-nicomachean-ethics-el",
+      "name_zh": "尼各馬可倫理學（希臘原文）",
+      "name_en": "Nicomachean Ethics (Aristotle, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "Ancient Greek",
+      "lang": "el",
+      "wikisource_title": "Ηθικά Νικομάχεια",
+      "wikisource_titles": [
+        "Ηθικά Νικομάχεια/1", "Ηθικά Νικομάχεια/2", "Ηθικά Νικομάχεια/3",
+        "Ηθικά Νικομάχεια/4", "Ηθικά Νικομάχεια/5", "Ηθικά Νικομάχεια/6",
+        "Ηθικά Νικομάχεια/7", "Ηθικά Νικομάχεια/8", "Ηθικά Νικομάχεια/9",
+        "Ηθικά Νικομάχεια/10"
+      ],
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 10,
+      "tier": "核心",
+      "notes": "亞里斯多德《尼各馬可倫理學》10 卷希臘原文（el.wikisource 分卷 /1–/10）。德性倫理原典，心理學讀經對照 VII 品格／VIII 召喚（eudaimonia）。獨立新收"
+    },
+    {
+      "slug": "epictetus-discourses-el",
+      "name_zh": "愛比克泰德談話錄（希臘原文）",
+      "name_en": "Discourses (Epictetus, Greek)",
+      "religion": "古希臘羅馬",
+      "language": "Ancient Greek",
+      "lang": "el",
+      "wikisource_title": "Διατριβαί",
+      "wikisource_titles": [
+        "Διατριβαί/Βιβλίον 1", "Διατριβαί/Βιβλίον 2",
+        "Διατριβαί/Βιβλίον 3", "Διατριβαί/Βιβλίον 4"
+      ],
+      "text_role": "original",
+      "is_original_language": true,
+      "version": "Wikisource 希臘通行本",
+      "expected_chapter_count": 4,
+      "tier": "次要",
+      "notes": "愛比克泰德《談話錄》(Arrian 記錄) 4 卷希臘原文（el.wikisource /Βιβλίον 1–4）。斯多噶派實踐對話，心理學讀經對照 XI 自由·命運／VI 情緒。獨立新收"
     }
   ]
 }

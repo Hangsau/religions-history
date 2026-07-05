@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4411** 部
-- 已驗證: 4411
-- 原文 (vs 譯文): 4042 / 4411
-- 總大小: ~537.4 MB
+- 總計: **4415** 部
+- 已驗證: 4415
+- 原文 (vs 譯文): 4046 / 4415
+- 總大小: ~539.3 MB
 
 ## 按宗教
 
@@ -18,7 +18,7 @@
 | 猶太教 | 1562 |
 | 基督教 | 169 |
 | 印度教 | 33 |
-| 古希臘羅馬 | 28 |
+| 古希臘羅馬 | 32 |
 | 儒教 | 26 |
 | 道教 | 17 |
 | 古埃及 | 14 |
@@ -55,8 +55,8 @@
 | 佛教 - 巴利 | 47 |
 | 猶太教 - Midrash | 36 |
 | 印度教 | 33 |
+| 古希臘羅馬 | 32 |
 | 猶太教 - Talmud | 32 |
-| 古希臘羅馬 | 28 |
 | 基督教 - 新約-希臘原文 | 27 |
 | 儒教 | 26 |
 | 道教 | 17 |
@@ -91,8 +91,8 @@
 | SuttaCentral | 47 |
 | GRETIL | 37 |
 | morphgnt/sblgnt (GitHub) | 27 |
+| el.wikisource.org | 13 |
 | en.wikisource.org | 9 |
-| el.wikisource.org | 9 |
 | ctext.org (api) | 7 |
 | avesta.org | 3 |
 | heimskringla.no | 3 |
@@ -2689,6 +2689,9 @@
 | `wisdom-of-the-egyptians` | 埃及智慧書（含普塔霍特普訓誡） | 古埃及 | 362895 |
 | `aeschylus-works` | 埃斯庫羅斯戲劇 (含宗教面) | 古希臘羅馬 | 397412 |
 | `argonautica` | 阿爾戈尼卡 (羅得島阿波羅尼俄斯) | 古希臘羅馬 | 877223 |
+| `aristotle-nicomachean-ethics-el` | 尼各馬可倫理學（希臘原文） | 古希臘羅馬 | 650346 |
+| `epictetus-discourses-el` | 愛比克泰德談話錄（希臘原文） | 古希臘羅馬 | 912576 |
+| `epictetus-enchiridion-el` | 愛比克泰德手冊（希臘原文） | 古希臘羅馬 | 59867 |
 | `herodotus-histories` | 希羅多德《歷史》(英希對照) | 古希臘羅馬 | 3968567 |
 | `hesiod-el` | 赫西俄德：神譜＋工作與時日（希臘原文） | 古希臘羅馬 | 159489 |
 | `hesiod-works` | 赫西俄德 (神譜 + 工作與時日) | 古希臘羅馬 | 237518 |
@@ -2697,6 +2700,7 @@
 | `homer-odyssey-st` | 奧德賽 (Pope/Bryant 英譯) | 古希臘羅馬 | 610127 |
 | `homeric-hymns-el` | 荷馬諸頌（希臘原文） | 古希臘羅馬 | 201358 |
 | `iliad-butler` | 伊利亞德（Butler 譯） | 古希臘羅馬 | 804097 |
+| `marcus-aurelius-meditations-el` | 沉思錄（希臘原文） | 古希臘羅馬 | 354572 |
 | `odyssey-butler` | 奧德賽（Butler 譯） | 古希臘羅馬 | 621600 |
 | `orphic-hymns-el` | 俄耳甫斯讚歌（希臘原文） | 古希臘羅馬 | 98026 |
 | `ovid-metamorphoses` | 變形記 (奧維德) | 古希臘羅馬 | 1283039 |

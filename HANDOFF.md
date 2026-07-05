@@ -3,9 +3,9 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態（2026-07-03 重生統計）
+## 當前狀態（2026-07-05 重生統計）
 
-**4207 部 / 22 宗教 / ~517 MB / 已 AI 譯註 23 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
+**4415 部 / 27 宗教 / 539.3 MB / 已 AI 譯註 23 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
 > **原文補收（2026-07-03）：可收待補歸零。** 所有有乾淨來源的核心原文皆已收；剩 28 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
 
@@ -72,6 +72,15 @@ MiniMax 週一（2026-07-06）回來前的免付費工作。翻譯管線仍 HALT
 2. **[等 MiniMax]** 用 `reference-analects.md`（20 部黃金種子）當人工先驗，交 LLM 給經文標 `psych_tags`，**允許多標籤**（一部經常跨多域）。
 3. `reference-analects.md` 經典指向從「整部」細化到「章節/段落」。
 4. P4 翻譯**優先翻對照表那 20 部原文問答經典**（多為古典漢語/Sanskrit/Pali/Hebrew/Ancient Greek），讓讀經層先有中譯底。
+
+## 2026-07-05 WS4：收集（Pipeline A，免付費，不吃 LLM）
+
+釐清一個框架錯誤：**HALT flag 只 gate 翻譯/標籤（Pipeline B+C），收集（Pipeline A）從未被 gate**。收集閒置的真正原因＝2026-07-03「核心可收待補歸零」＋ 07-04 暴走爬蟲後對無人看管遞迴爬蟲的謹慎，**與 LLM 無關**。
+
+- **查明：儒教／道教具名經典已收完**。`confucianism-ws.json`（26/26）＋`daoism-ws.json`（13/13，+ctext 共 17 部）全綠。PROGRESS「待抓 9 儒/23 道」是 v3 用**總集級**估的（道藏 5305 卷、四庫經部、皇清經解那條大尾巴），無現成乾淨來源、非按播放鍵可補——**心理學對照層要的漢語問答經典早已在庫**。
+- **[完成] 新收 4 部希臘原文（斯多噶／德性倫理，`backfill-originals-ws.json` 加 entry → download-wikisource el）**：`marcus-aurelius-meditations-el`（沉思錄 12 卷 354KB）、`epictetus-enchiridion-el`（手冊 60KB）、`aristotle-nicomachean-ethics-el`（尼各馬可倫理學 10 卷 650KB）、`epictetus-discourses-el`（談話錄 4 卷 913KB）。**古希臘羅馬原有 28 部但斯多噶派整組缺席**，這 4 部直接補強心理學讀經層（XI 自由·命運／XIII 安頓／VII 品格）。4 部 verify PASS，希臘文乾淨。
+- **收集方法備忘（下次要補 v3 缺口時）**：多數 v3 缺口要先把書目對到來源 URL、擴 catalog（我的活、非 m3）；el.wikisource 原文用 `backfill-originals-ws.json` 加 entry（`lang:el` + `wikisource_title` 用**解析後無變音符**標題，多卷用 `wikisource_titles` 明列子頁）；跑 `download-wikisource.py --slug <slug>`；限定單一 catalog、勿放遞迴全庫爬（07-04 教訓）。
+- **重生 INDEX**：全庫 4411 → **4415** 部 / **539.3 MB** / 27 宗教。
 
 **Pipeline B（翻譯 + 註釋）啟動 2026-07-01**
 - 翻譯（純翻譯，不解釋）→ `01-translation.md`

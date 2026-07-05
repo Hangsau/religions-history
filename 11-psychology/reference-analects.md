@@ -82,6 +82,7 @@
 |------|------|-----------|-------------|
 | `bhagavad-gita` | 薄伽梵歌 | 印度教 / Sanskrit | 命定的責任 vs. 行動的自由——克里希那答阿周那的躊躇 |
 | `chuanxi-lu` | 傳習錄 | 儒教 / 古典漢語 | 「知行合一」「人能否真的改變」——變化氣質之問 |
+| `epictetus-discourses-el` | 愛比克泰德談話錄 | 古希臘羅馬 / Ancient Greek | Arrian 記錄門生問愛比克泰德，答「什麼在我掌控之內、什麼不在」——控制二分法的問答 |
 
 ### XII. 信仰·神聖·超越
 | slug | 經名 | 宗教／語言 | 對應的「問」 |
@@ -121,3 +122,5 @@
 ## 四、庫內其他問答／對話體候選（本次未納入主表，備查）
 
 `chandogya-upanishad`（含注）、`aitareya/isha/mandukya/mundaka/taittiriya-upanishad`（奧義書多為師徒問答）、`plato-works`（柏拉圖對話集英譯選，可與希臘原文三篇互補）、`majjhima/digha-nikaya` 尚有大量單經未逐一拆題。外部（庫外、非經文，屬現代治療對話，僅作方法論參考不入庫）：Yalom《診療椅上的謊言》、Rogers、Frankl《活出意義來》。
+
+**2026-07-05 新收斯多噶／德性倫理原文（希臘）**：`marcus-aurelius-meditations-el`（沉思錄，札記體非問答，強對應 XIII 安頓／X 死亡／VI 情緒）、`epictetus-enchiridion-el`（手冊，格言體，強對應 XI 自由·命運「控制二分法」／XIII 安命）、`aristotle-nicomachean-ethics-el`（尼各馬可倫理學，論述體，強對應 VII 品格／VIII 召喚 eudaimonia）。前三部非嚴格問答體故不入主表，但為心理學讀經層的核心西方素材；`epictetus-discourses-el`（談話錄）為問答體，已入 XI 主表。
