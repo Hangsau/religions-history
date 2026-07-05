@@ -1,0 +1,67 @@
+{
+  "religion": "北歐",
+  "language": "古諾斯語",
+  "_note": "sagadb.org（Icelandic Saga Database, ed. Sveinbjörn Þórðarson）Old Norse 原文（.is）。收 heimskringla.no / is.wikisource 缺乾淨古諾斯語全文的 Íslendingasögur。download-sagadb.py 讀本檔。",
+  "scriptures": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "name_en": "Laxdæla saga",
+      "name_original": "Laxdæla saga",
+      "sagadb_slug": "laxdaela_saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "expected_chapter_count": 89,
+      "tier": "核心",
+      "notes": "冰島家族薩迦核心之一；heimskringla.no 與 is.wikisource 皆無乾淨全文，取自 sagadb.org。"
+    },
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "name_en": "Vatnsdæla saga",
+      "name_original": "Vatnsdæla saga",
+      "sagadb_slug": "vatnsdaela_saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "expected_chapter_count": 47,
+      "tier": "次要",
+      "notes": "Íslendingasögur；sagadb.org 古諾斯語原文。"
+    },
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "name_en": "Kormáks saga",
+      "name_original": "Kormáks saga",
+      "sagadb_slug": "kormaks_saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "expected_chapter_count": 27,
+      "tier": "次要",
+      "notes": "詩人薩迦（skáld saga）；sagadb.org 古諾斯語原文。"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "name_en": "Víga-Glúms saga",
+      "name_original": "Víga-Glúms saga",
+      "sagadb_slug": "viga-glums_saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "expected_chapter_count": 28,
+      "tier": "次要",
+      "notes": "Íslendingasögur；sagadb.org 古諾斯語原文。"
+    },
+    {
+      "slug": "fostbraedra-saga-on",
+      "name_zh": "結義兄弟薩迦",
+      "name_en": "Fóstbræðra saga",
+      "name_original": "Fóstbræðra saga",
+      "sagadb_slug": "fostbraedra_saga",
+      "text_role": "original",
+      "is_original_language": true,
+      "expected_chapter_count": 34,
+      "tier": "次要",
+      "notes": "Íslendingasögur；sagadb.org 古諾斯語原文。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "laxdaela-saga-on",
+  "name_zh": "拉克斯達拉薩迦",
+  "name_en": "Laxdæla saga",
+  "name_original": "Laxdæla saga",
+  "religion": "北歐",
+  "language": "古諾斯語",
+  "version": "sagadb.org (Icelandic Saga Database)",
+  "version_date": "—",
+  "source_platform": "sagadb.org",
+  "source_url": "https://www.sagadb.org/laxdaela_saga.is",
+  "downloaded_at": "2026-07-05T16:20:55+00:00",
+  "size_bytes": 381304,
+  "checksum_sha256": "c3c0dfedddbe2dc0139f8c0c8000bc9fe5fe856b535057e4f78a1789c03e6f8f",
+  "chapter_count": 89,
+  "expected_chapter_count": 89,
+  "license": "Public domain / academic use (sagadb.org)",
+  "verified": true,
+  "tier": "核心",
+  "notes": "冰島家族薩迦核心之一；heimskringla.no 與 is.wikisource 皆無乾淨全文，取自 sagadb.org。",
+  "text_role": "original",
+  "is_original_language": true
+}
