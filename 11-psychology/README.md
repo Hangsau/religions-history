@@ -25,12 +25,12 @@
 
 I. 存在與意義　II. 自我與認同　III. 愛與親密　IV. 家庭與傳承　V. 群體·社會·公義　VI. 情緒與內在生活　VII. 善惡·良心·品格　VIII. 工作·成就·召喚　IX. 苦難·疾病·身體　X. 無常·老·死·失去　XI. 自由·命運·改變　XII. 信仰·神聖·超越　XIII. 安頓·修復·平安
 
-## 待辦（等 MiniMax 配額回來後）
+## 待辦
 
-- [ ] 把 13 領域正式寫成 `00-overview/concepts-psychology.md` 受控詞彙（與既有比較宗教學用的 `concepts.md` 14 類並存，兩層不衝突：後者給學者、前者給一般人入口）。
-- [ ] 用本領域當人工先驗，交 LLM 給經文標「屬哪幾個心理學領域」（允許多標籤）。
-- [ ] `reference-analects.md` 的經典指向從「整部」細化到「章節／段落」。
-- [ ] P4 翻譯優先翻對照表那 20 部原文問答經典，讓讀經層先有中譯底。
+- [x] 把 13 領域正式寫成 [`00-overview/concepts-psychology.md`](../00-overview/concepts-psychology.md) 受控詞彙（2026-07-05，免付費）。與比較宗教學 `concepts.md` 14 類**正交並存**（後者＝教義內容軸，前者＝人的問題軸）；標籤存新欄位 `psych_tags`（不併進 `semantic_tags`）。
+- [ ]（等 MiniMax）用本領域當人工先驗，交 LLM 給經文標 `psych_tags`（允許多標籤）。標籤前先在 `meta_template.json` 加 `psych_tags` 欄。
+- [ ]（等 MiniMax）`reference-analects.md` 的經典指向從「整部」細化到「章節／段落」。
+- [ ]（等 MiniMax）P4 翻譯優先翻對照表那 20 部原文問答經典，讓讀經層先有中譯底。
 
 ## 原規劃主題（併入上述方法後保留備查）
 

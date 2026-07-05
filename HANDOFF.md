@@ -67,9 +67,9 @@ MiniMax 週一（2026-07-06）回來前的免付費工作。翻譯管線仍 HALT
 - **13 領域**：I 存在與意義 · II 自我與認同 · III 愛與親密 · IV 家庭與傳承 · V 群體·社會·公義 · VI 情緒與內在生活 · VII 善惡·良心·品格 · VIII 工作·成就·召喚 · IX 苦難·疾病·身體 · X 無常·老·死·失去 · XI 自由·命運·改變 · XII 信仰·神聖·超越 · XIII 安頓·修復·平安。
 - **本輪不做網站**（用戶明確指示）。README.md（`11-psychology/`）已由「延後/預留」改為「已啟動」並列出三檔與收斂結論。
 
-### 心理學讀經層待辦（等 MiniMax 回來後）
-1. 13 領域正式寫成 `00-overview/concepts-psychology.md` 受控詞彙——**與既有比較宗教學 `concepts.md` 14 類並存**（兩層不衝突：14 類給學者精確標、13 領域給一般人入口）。
-2. 用 `reference-analects.md` 當人工先驗，交 LLM 給經文標「屬哪幾個心理學領域」，**允許多標籤**（一部經常跨多域，與現行 `semantic_tags` 多標設計一致）。
+### 心理學讀經層進度／待辦
+1. **[完成 2026-07-05，免付費]** 13 領域正式寫成 `00-overview/concepts-psychology.md` 受控詞彙（46 細群 + 3 跨界支流，每細群一個 kebab 標籤）——**與比較宗教學 `concepts.md` 14 類正交並存**（後者＝教義內容軸，前者＝人的問題軸，一部經兩軸都可標）。**設計決定：新增 `meta.json` 欄位 `psych_tags: []`，不併進 `semantic_tags`**（避免兩軸混淆）。→ 週一啟動標籤前需在 `meta_template.json` 加 `psych_tags` 欄、`m3-tagger-role.md` 補人問軸標法。
+2. **[等 MiniMax]** 用 `reference-analects.md`（20 部黃金種子）當人工先驗，交 LLM 給經文標 `psych_tags`，**允許多標籤**（一部經常跨多域）。
 3. `reference-analects.md` 經典指向從「整部」細化到「章節/段落」。
 4. P4 翻譯**優先翻對照表那 20 部原文問答經典**（多為古典漢語/Sanskrit/Pali/Hebrew/Ancient Greek），讓讀經層先有中譯底。
 
