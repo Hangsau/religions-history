@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4542** 部
-- 已驗證: 4542
-- 原文 (vs 譯文): 4152 / 4542
-- 總大小: ~602.5 MB
+- 總計: **4564** 部
+- 已驗證: 4564
+- 原文 (vs 譯文): 4174 / 4564
+- 總大小: ~609.6 MB
 
 ## 按宗教
 
@@ -19,9 +19,9 @@
 | 基督教 | 169 |
 | 印度教 | 91 |
 | 古希臘羅馬 | 47 |
-| 儒教 | 26 |
+| 儒教 | 38 |
+| 道教 | 27 |
 | 北歐 | 26 |
-| 道教 | 17 |
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 11 |
 | 耆那教 | 11 |
@@ -55,13 +55,13 @@
 | 猶太教 - Mishnah | 64 |
 | 古希臘羅馬 | 47 |
 | 佛教 - 巴利 | 47 |
+| 儒教 | 38 |
 | 猶太教 - Midrash | 36 |
 | 猶太教 - Talmud | 32 |
 | 佛教 | 30 |
+| 道教 | 27 |
 | 基督教 - 新約-希臘原文 | 27 |
-| 儒教 | 26 |
 | 北歐 | 26 |
-| 道教 | 17 |
 | 古埃及 | 14 |
 | 瑣羅亞斯德 | 11 |
 | 耆那教 | 11 |
@@ -85,8 +85,8 @@
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
 | Sefaria | 1552 |
 | GRETIL | 129 |
+| zh.wikisource.org | 127 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
-| zh.wikisource.org | 105 |
 | sacred-texts.com | 99 |
 | la.wikisource.org | 78 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
@@ -2629,24 +2629,36 @@
 | `chuanxi-lu` | 傳習錄 | 儒教 | 243278 |
 | `chun-qiu-zuo-zhuan` | 春秋左傳 | 儒教 | 931589 |
 | `chunqiu-fanlu` | 春秋繁露 | 儒教 | 214158 |
+| `da-dai-liji` | 大戴禮記 | 儒教 | 183590 |
 | `doctrine-of-the-mean` | 中庸 | 儒教 | 13685 |
 | `er-ya` | 爾雅注 | 儒教 | 134094 |
+| `ercheng-yishu` | 二程遺書 | 儒教 | 565225 |
 | `gongyang-zhuan` | 春秋公羊傳 | 儒教 | 171383 |
 | `great-learning` | 大學 | 儒教 | 6664 |
 | `guliang-zhuan` | 春秋穀梁傳 | 儒教 | 157727 |
 | `guo-yu` | 國語 | 儒教 | 654135 |
+| `hanshi-waizhuan` | 韓詩外傳 | 儒教 | 194638 |
+| `jiayi-xinshu` | 新書 | 儒教 | 145232 |
 | `jin-si-lu` | 近思錄 | 儒教 | 177338 |
 | `kongzi-jiayu` | 孔子家語 | 儒教 | 277861 |
 | `liji` | 禮記 | 儒教 | 398476 |
+| `lujia-xinyu` | 新語 | 儒教 | 81009 |
 | `lunheng` | 論衡 | 儒教 | 782517 |
 | `mengzi` | 孟子 | 儒教 | 135591 |
+| `mingru-xuean` | 明儒學案 | 儒教 | 2854232 |
+| `rizhilu` | 日知錄 | 儒教 | 1370079 |
 | `shang-shu` | 尚書 | 儒教 | 152568 |
+| `shuoyuan` | 說苑 | 儒教 | 402383 |
+| `taiji-tushuo` | 太極圖說 | 儒教 | 1182 |
 | `wenzhongzi-zhongshuo` | 中說（文中子） | 儒教 | 111989 |
+| `xiangshan-yulu` | 象山語錄 | 儒教 | 24245 |
 | `xiao-jing` | 孝經（今文） | 儒教 | 6861 |
 | `xunzi` | 荀子 | 儒教 | 418563 |
 | `yangzi-fayan` | 揚子法言 | 儒教 | 61507 |
 | `yi-li` | 儀禮 | 儒教 | 209255 |
+| `zhengmeng` | 正蒙 | 儒教 | 84810 |
 | `zhou-li` | 周禮 | 儒教 | 185237 |
+| `zhoudunyi-tongshu` | 通書 | 儒教 | 10206 |
 | `zhuzi-yulei` | 朱子語類 | 儒教 | 5884169 |
 | `babylonian-legends-creation` | 巴比倫創世傳說 | 兩河 | 106550 |
 | `chaldean-account-deluge` | 迦勒底洪水記 | 兩河 | 41694 |
@@ -4624,22 +4636,32 @@
 | `thrice-greatest-hermes-3` | 三度偉大的赫爾墨斯 Vol 3 | 諾斯底 | 623940 |
 | `corpus-hermeticum-el` | 赫爾墨斯文集（希臘原文，八篇） | 赫爾墨斯 | 121716 |
 | `baopuzi` | 抱朴子（內外篇） | 道教 | 594705 |
+| `beidou-yansheng-jing` | 太上玄靈北斗本命延生真經 | 道教 | 9207 |
+| `duren-jing` | 靈寶無量度人上品妙經 | 道教 | 1278353 |
 | `guanyin-zi` | 關尹子 | 道教 | 38741 |
 | `huainanzi` | 淮南子 | 道教 | 491733 |
 | `huangdi-neijing` | 黃帝內經 | 道教 | 565607 |
 | `huangting-neijing` | 黃庭內景經 | 道教 | 15251 |
 | `huangting-waijing` | 黃庭外景經 | 道教 | 9125 |
+| `jindan-sibaizi` | 金丹四百字 | 道教 | 6471 |
+| `kangcangzi` | 亢倉子 | 道教 | 34680 |
 | `liezi` | 列子 | 道教 | 114186 |
 | `qingjing-jing` | 太上老君說常清靜經 | 道教 | 2179 |
 | `shenxian-zhuan` | 神仙傳 | 道教 | 112803 |
 | `taiping-jing` | 太平經 | 道教 | 122455 |
 | `taishang-ganying-pian` | 太上感應篇 | 道教 | 4773 |
+| `taiyi-jinhua-zongzhi` | 太乙金華宗旨 | 道教 | 30527 |
 | `tao-te-ching` | 道德經 | 道教 | 20773 |
+| `tianyinzi` | 天隱子 | 道教 | 4979 |
+| `wenchang-yinzhiwen` | 文昌帝君陰騭文 | 道教 | 2318 |
 | `wenzi` | 文子 | 道教 | 143683 |
+| `wuzhen-pian` | 悟真篇 | 道教 | 21032 |
 | `yinfu-jing` | 黃帝陰符經 | 道教 | 1766 |
+| `yuhuang-benxing-jing` | 高上玉皇本行集經 | 道教 | 43103 |
 | `yunji-qiqian` | 雲笈七籤 | 道教 | 2766008 |
 | `zhouyi-cantong-qi` | 周易參同契 | 道教 | 23610 |
 | `zhuangzi` | 莊子 | 道教 | 242136 |
+| `zuowang-lun` | 坐忘論 | 道教 | 19261 |
 | `guru-granth-sahib-pa` | 古魯格蘭特薩希卜（旁遮普原文，古木基文字） | 錫克教 | 36721 |
 | `guru-granth-sahib-st` | 錫克教根本經 Shri Guru Granth Sahib | 錫克教 | 4590337 |
 | `religion-of-sikhs` | 錫克教宗教 (Field) | 錫克教 | 127103 |

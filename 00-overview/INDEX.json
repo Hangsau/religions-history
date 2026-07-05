@@ -1,18 +1,18 @@
 {
   "summary": {
-    "total_count": 4542,
-    "verified_count": 4542,
-    "original_language_count": 4152,
-    "total_size_mb": 602.5,
+    "total_count": 4564,
+    "verified_count": 4564,
+    "original_language_count": 4174,
+    "total_size_mb": 609.6,
     "by_religion": {
       "佛教": 2506,
       "猶太教": 1562,
       "基督教": 169,
       "印度教": 91,
       "古希臘羅馬": 47,
-      "儒教": 26,
+      "儒教": 38,
+      "道教": 27,
       "北歐": 26,
-      "道教": 17,
       "古埃及": 14,
       "瑣羅亞斯德": 11,
       "耆那教": 11,
@@ -43,13 +43,13 @@
       "猶太教 - Mishnah": 64,
       "古希臘羅馬": 47,
       "佛教 - 巴利": 47,
+      "儒教": 38,
       "猶太教 - Midrash": 36,
       "猶太教 - Talmud": 32,
       "佛教": 30,
+      "道教": 27,
       "基督教 - 新約-希臘原文": 27,
-      "儒教": 26,
       "北歐": 26,
-      "道教": 17,
       "古埃及": 14,
       "瑣羅亞斯德": 11,
       "耆那教": 11,
@@ -73,7 +73,7 @@
       "巴哈伊": 1
     },
     "by_language": {
-      "古典漢語": 2473,
+      "古典漢語": 2495,
       "Hebrew": 1425,
       "English": 127,
       "Latin": 78,
@@ -110,8 +110,8 @@
       "CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka)": 2264,
       "Sefaria": 1552,
       "GRETIL": 129,
+      "zh.wikisource.org": 127,
       "CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō)": 117,
-      "zh.wikisource.org": 105,
       "sacred-texts.com": 99,
       "la.wikisource.org": 78,
       "CBETA (TEI P5 XML, GitHub)": 48,
@@ -865,6 +865,22 @@
       "tier": "核心",
       "is_original_language": true,
       "size_bytes": 166792,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "name_en": "Beidou yansheng jing",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "—",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 9207,
       "chapter_count": 1,
       "verified": true
     },
@@ -41045,6 +41061,22 @@
       "verified": true
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "name_en": "Elder Dai's Record of Rites",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 戴德本",
+      "version_date": "漢",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 183590,
+      "chapter_count": 40,
+      "verified": true
+    },
+    {
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "name_en": "SBE 18 Pahlavi Texts Part II",
@@ -41285,6 +41317,22 @@
       "verified": true
     },
     {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "name_en": "Lingbao Duren jing",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "靈寶派",
+      "source_platform": "zh.wikisource.org",
+      "tier": "核心",
+      "is_original_language": true,
+      "size_bytes": 1278353,
+      "chapter_count": 61,
+      "verified": true
+    },
+    {
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "name_en": "Ecclesiastes",
@@ -41506,6 +41554,22 @@
       "is_original_language": true,
       "size_bytes": 134094,
       "chapter_count": 5,
+      "verified": true
+    },
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "name_en": "Surviving Works of the Two Chengs",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 二程本",
+      "version_date": "宋",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 565225,
+      "chapter_count": 25,
       "verified": true
     },
     {
@@ -42050,6 +42114,22 @@
       "is_original_language": true,
       "size_bytes": 10515,
       "chapter_count": 2,
+      "verified": true
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "name_en": "Han's Illustrations of the Didactic Application of the Book of Songs",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 韓嬰本",
+      "version_date": "漢",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 194638,
+      "chapter_count": 10,
       "verified": true
     },
     {
@@ -42773,6 +42853,22 @@
       "verified": true
     },
     {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "name_en": "New Writings",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 賈誼本",
+      "version_date": "漢",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 145232,
+      "chapter_count": 11,
+      "verified": true
+    },
+    {
       "slug": "jin-si-lu",
       "name_zh": "近思錄",
       "name_en": "Reflections on Things at Hand",
@@ -42786,6 +42882,22 @@
       "is_original_language": true,
       "size_bytes": 177338,
       "chapter_count": 18,
+      "verified": true
+    },
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "name_en": "Jindan sibaizi",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "張伯端",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 6471,
+      "chapter_count": 1,
       "verified": true
     },
     {
@@ -42914,6 +43026,22 @@
       "is_original_language": true,
       "size_bytes": 4569,
       "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "kangcangzi",
+      "name_zh": "亢倉子",
+      "name_en": "Kangcangzi (Dongling zhenjing)",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "唐",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 34680,
+      "chapter_count": 9,
       "verified": true
     },
     {
@@ -43509,6 +43637,22 @@
       "verified": true
     },
     {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "name_en": "New Discourses",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 陸賈本",
+      "version_date": "漢",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 81009,
+      "chapter_count": 15,
+      "verified": true
+    },
+    {
       "slug": "lunheng",
       "name_zh": "論衡",
       "name_en": "Discourses Weighed",
@@ -44002,6 +44146,22 @@
       "is_original_language": true,
       "size_bytes": 169154,
       "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "name_en": "Case Studies of Ming Confucians",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 黃宗羲本",
+      "version_date": "明清",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 2854232,
+      "chapter_count": 78,
       "verified": true
     },
     {
@@ -44962,6 +45122,22 @@
       "is_original_language": true,
       "size_bytes": 1630555,
       "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "rizhilu",
+      "name_zh": "日知錄",
+      "name_en": "Record of Daily Knowledge",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 顧炎武本",
+      "version_date": "清",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 1370079,
+      "chapter_count": 33,
       "verified": true
     },
     {
@@ -69893,6 +70069,22 @@
       "verified": true
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "name_en": "Garden of Persuasions",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 劉向本",
+      "version_date": "漢",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 402383,
+      "chapter_count": 20,
+      "verified": true
+    },
+    {
       "slug": "shurangama-sutra",
       "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "name_en": "Shurangama Sutra",
@@ -70533,6 +70725,22 @@
       "verified": true
     },
     {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "name_en": "Explanation of the Diagram of the Supreme Ultimate",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 周敦頤本",
+      "version_date": "宋",
+      "source_platform": "zh.wikisource.org",
+      "tier": "核心",
+      "is_original_language": true,
+      "size_bytes": 1182,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
       "slug": "tain-bo-cuailnge-ga",
       "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
       "name_en": "Táin Bó Cúailnge (Old Irish, Recension I + Book of Leinster)",
@@ -70593,6 +70801,22 @@
       "tier": "核心",
       "is_original_language": true,
       "size_bytes": 158239,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "name_en": "Taiyi jinhua zongzhi",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "清・全真龍門",
+      "source_platform": "zh.wikisource.org",
+      "tier": "核心",
+      "is_original_language": true,
+      "size_bytes": 30527,
       "chapter_count": 1,
       "verified": true
     },
@@ -70818,6 +71042,22 @@
       "is_original_language": false,
       "size_bytes": 623940,
       "chapter_count": 50,
+      "verified": true
+    },
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "name_en": "Tianyinzi",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "唐・司馬承禎",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 4979,
+      "chapter_count": 1,
       "verified": true
     },
     {
@@ -72453,6 +72693,22 @@
       "verified": true
     },
     {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "name_en": "Wenchang Yinzhiwen",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "—",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 2318,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
       "name_en": "Sayings of Master Wenzhong",
@@ -72517,6 +72773,22 @@
       "verified": true
     },
     {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
+      "name_en": "Wuzhen pian",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "北宋・張伯端",
+      "source_platform": "zh.wikisource.org",
+      "tier": "核心",
+      "is_original_language": true,
+      "size_bytes": 21032,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "name_en": "Memorabilia (Xenophon, Greek)",
@@ -72530,6 +72802,22 @@
       "is_original_language": true,
       "size_bytes": 431463,
       "chapter_count": 4,
+      "verified": true
+    },
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "name_en": "Recorded Sayings of Lu Xiangshan",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 陸九淵本",
+      "version_date": "宋",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 24245,
+      "chapter_count": 1,
       "verified": true
     },
     {
@@ -72693,6 +72981,22 @@
       "verified": true
     },
     {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "name_en": "Yuhuang benxing jing",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "—",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 43103,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
       "slug": "yunji-qiqian",
       "name_zh": "雲笈七籤",
       "name_en": "Yunji Qiqian",
@@ -72741,6 +73045,22 @@
       "verified": true
     },
     {
+      "slug": "zhengmeng",
+      "name_zh": "正蒙",
+      "name_en": "Correcting Youthful Ignorance",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 張載本",
+      "version_date": "宋",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 84810,
+      "chapter_count": 19,
+      "verified": true
+    },
+    {
       "slug": "zhou-li",
       "name_zh": "周禮",
       "name_en": "Rites of Zhou",
@@ -72754,6 +73074,22 @@
       "is_original_language": true,
       "size_bytes": 185237,
       "chapter_count": 6,
+      "verified": true
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "name_en": "Penetrating the Book of Changes",
+      "religion": "儒教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 周敦頤本",
+      "version_date": "宋",
+      "source_platform": "zh.wikisource.org",
+      "tier": "次要",
+      "is_original_language": true,
+      "size_bytes": 10206,
+      "chapter_count": 1,
       "verified": true
     },
     {
@@ -72802,6 +73138,22 @@
       "is_original_language": true,
       "size_bytes": 5884169,
       "chapter_count": 140,
+      "verified": true
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
+      "name_en": "Zuowang lun",
+      "religion": "道教",
+      "tradition": null,
+      "language": "古典漢語",
+      "version": "Wikisource 通行本",
+      "version_date": "唐・司馬承禎",
+      "source_platform": "zh.wikisource.org",
+      "tier": "核心",
+      "is_original_language": true,
+      "size_bytes": 19261,
+      "chapter_count": 1,
       "verified": true
     }
   ]
