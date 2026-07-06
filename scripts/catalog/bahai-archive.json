@@ -1,0 +1,11 @@
+{
+  "religion": "巴哈伊",
+  "source_platform": "archive.org",
+  "license": "Public Domain (pre-1928 US publications)",
+  "language": "English (early translation)",
+  "notes": "巴哈伊早期英譯本 (1906-1911 初版) via archive.org 掃描全文 OCR. 現代 Haifa (Shoghi Effendi) 譯本受 BIC compilation-copyright 主張; 此處只收 pre-1928 公版初版 (Ali Kuli Khan / Barney 等早期譯). 為掃描 OCR, 未做章節拆分, 品質見各 meta.notes.",
+  "scriptures": [
+    {"slug": "some-answered-questions", "ia_identifier": "someansweredques00abduiala", "name_zh": "已答之問（Abdu'l-Bahá）", "name_en": "Some Answered Questions", "name_original": "مفاوضات", "religion": "巴哈伊", "version": "Laura Clifford Barney tr., 1908 (1st ed.)", "version_date": "1908 AD", "tier": "核心", "is_original_language": false, "text_role": "translation"},
+    {"slug": "seven-valleys-four-valleys", "ia_identifier": "sevenvalleysreve00bah", "name_zh": "七谷與四谷（巴哈歐拉）", "name_en": "The Seven Valleys", "name_original": "هفت وادى", "religion": "巴哈伊", "version": "Ali Kuli Khan tr., 1906", "version_date": "1906 AD", "tier": "核心", "is_original_language": false, "text_role": "translation"}
+  ]
+}
