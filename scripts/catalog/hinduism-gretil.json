@@ -1149,6 +1149,78 @@
       "is_original_language": true,
       "tier": "次要",
       "notes": "喀什米爾濕婆派宗師阿毗那婆笈多（Abhinavagupta）所著次第（Krama）派女神讚歌"
+    },
+    {
+      "slug": "samkhya-karika",
+      "gretil_path": "corpustei/transformations/html/sa_IzvarakRSNa-sAMkhyakArikA.htm",
+      "name_zh": "數論頌",
+      "name_en": "Sāṃkhyakārikā (Īśvarakṛṣṇa)",
+      "name_original": "सांख्यकारिका",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "六派哲學之數論（Sāṃkhya）根本頌，自在黑（Īśvarakṛṣṇa）著；二元論 puruṣa/prakṛti 體系奠基文本"
+    },
+    {
+      "slug": "samkhya-sutra",
+      "gretil_path": "corpustei/transformations/html/sa_kapila-sAMkhyasUtra.htm",
+      "name_zh": "數論經",
+      "name_en": "Sāṃkhyasūtra (Kapila)",
+      "name_original": "सांख्यसूत्र",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "託名迦毗羅（Kapila）之數論經，晚出但為數論派系統經典"
+    },
+    {
+      "slug": "nyaya-sutra",
+      "gretil_path": "corpustei/transformations/html/sa_gautama-nyAyasUtra.htm",
+      "name_zh": "正理經",
+      "name_en": "Nyāyasūtra (Gautama Akṣapāda)",
+      "name_original": "न्यायसूत्र",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "六派哲學之正理（Nyāya）根本經，喬達摩（Akṣapāda Gautama）著；印度知識論與邏輯學（量論）奠基文本"
+    },
+    {
+      "slug": "vaisheshika-sutra",
+      "gretil_path": "corpustei/transformations/html/sa_kaNAda-vaizeSikasUtra.htm",
+      "name_zh": "勝論經",
+      "name_en": "Vaiśeṣikasūtra (Kaṇāda)",
+      "name_original": "वैशेषिकसूत्र",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "六派哲學之勝論（Vaiśeṣika）根本經，迦那陀（Kaṇāda）著；範疇論與原子論（paramāṇu）自然哲學奠基"
+    },
+    {
+      "slug": "mimamsa-sutra",
+      "gretil_path": "corpustei/transformations/html/sa_jaimini-mImAMsAsUtra.htm",
+      "name_zh": "彌曼差經",
+      "name_en": "Mīmāṃsāsūtra (Jaimini)",
+      "name_original": "मीमांसासूत्र",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "核心",
+      "notes": "六派哲學之前彌曼差（Pūrva-Mīmāṃsā）根本經，闍彌尼（Jaimini）著；吠陀祭儀詮釋與 dharma 解經學奠基"
+    },
+    {
+      "slug": "tarka-samgraha",
+      "gretil_path": "corpustei/transformations/html/sa_annaMbhatta-tarkasaMgraha.htm",
+      "name_zh": "思擇集",
+      "name_en": "Tarkasaṃgraha (Annaṃbhaṭṭa)",
+      "name_original": "तर्कसंग्रह",
+      "language": "梵語",
+      "text_role": "original",
+      "is_original_language": true,
+      "tier": "次要",
+      "notes": "新正理（Navya-Nyāya）入門標準教本，安南跋陀（Annaṃbhaṭṭa）著；統合正理-勝論範疇"
     }
   ]
 }
