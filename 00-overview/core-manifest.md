@@ -2,26 +2,26 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**489** 部
-- 已翻譯：**182** / 489
-- 已標籤：**378** / 489
+- 核心總數：**496** 部
+- 已翻譯：**187** / 496
+- 已標籤：**383** / 496
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 86 | 159 |
-| 佛教 | 74 | 37 | 61 |
-| 印度教 | 54 | 12 | 25 |
+| 佛教 | 74 | 39 | 63 |
+| 印度教 | 58 | 12 | 25 |
+| 古希臘羅馬 | 46 | 1 | 13 |
 | 猶太教 | 45 | 20 | 45 |
-| 古希臘羅馬 | 43 | 0 | 12 |
 | 道教 | 18 | 14 | 14 |
 | 北歐 | 15 | 0 | 3 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
-| 儒教 | 10 | 9 | 9 |
+| 儒教 | 10 | 10 | 10 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
-| 耆那教 | 7 | 0 | 2 |
+| 耆那教 | 7 | 1 | 3 |
 | 神道 | 5 | 0 | 1 |
 | 諾斯底 | 5 | 0 | 5 |
 | 錫克教 | 4 | 1 | 3 |
@@ -56,7 +56,7 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 278 |
+| original | 285 |
 | translation | 195 |
 | contested | 2 |
 | (未標) | 14 |
@@ -270,10 +270,10 @@
 - `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯– 標–
 - `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯– 標–
 - `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯– 標–
-- `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯– 標–
+- `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯✓ 標✓
 - `bud-ratnagotravibhaga-sa` 寶性論（梵文）（梵語）譯– 標–
 - `bud-saddharmapundarika-sa` 妙法蓮華經（梵文）（梵語）譯– 標–
-- `bud-trimshika-sa` 唯識三十頌（梵文）（梵語）譯– 標–
+- `bud-trimshika-sa` 唯識三十頌（梵文）（梵語）譯✓ 標✓
 - `bud-udanavarga-sa` 優陀那品（梵文）（梵語）譯– 標–
 - `bud-vajracchedika-prajnaparamita-sa` 金剛般若波羅蜜多（梵文）（梵語）譯– 標–
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯✓ 標✓
@@ -323,7 +323,7 @@
 - `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯✓ 標✓
 - `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
 
-### 印度教（54 部）
+### 印度教（58 部）
 
 - `abhinavagupta-tantraloka` 坦特羅光輝（梵語）譯– 標–
 - `agni-purana` 火神往世書（Sanskrit）譯– 標–
@@ -358,19 +358,23 @@
 - `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
 - `matsya-purana` 魚往世書（Sanskrit）譯– 標–
+- `mimamsa-sutra` 彌曼差經（梵語）譯– 標–
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
+- `nyaya-sutra` 正理經（梵語）譯– 標–
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯– 標✓
 - `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯– 標–
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯– 標–
 - `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
 - `samaveda` 沙摩吠陀（Sanskrit）譯– 標✓
+- `samkhya-karika` 數論頌（梵語）譯– 標–
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
 - `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標✓
 - `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯– 標✓
+- `vaisheshika-sutra` 勝論經（梵語）譯– 標–
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯– 標–
@@ -379,6 +383,55 @@
 - `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
 - `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯– 標–
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
+
+### 古希臘羅馬（46 部）
+
+- `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
+- `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯– 標–
+- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
+- `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
+- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
+- `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯– 標–
+- `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓
+- `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯– 標–
+- `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯– 標–
+- `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標✓
+- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯– 標–
+- `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
+- `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標✓
+- `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
+- `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
+- `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯– 標–
+- `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯– 標–
+- `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
+- `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯– 標–
+- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
+- `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
+- `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
+- `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯– 標–
+- `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯– 標–
+- `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
+- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
+- `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
+- `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯– 標–
+- `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
+- `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯– 標–
+- `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯– 標–
+- `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯– 標–
+- `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
+- `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯– 標–
+- `xenophon-memorabilia-el` 回憶蘇格拉底（希臘原文）（Ancient Greek）譯– 標–
 
 ### 猶太教（45 部）
 
@@ -427,52 +480,6 @@
 - `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標✓
 - `zechariah` 撒迦利亞書（Hebrew）譯✓ 標✓
 - `zephaniah` 西番雅書（Hebrew）譯✓ 標✓
-
-### 古希臘羅馬（43 部）
-
-- `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
-- `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯– 標–
-- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯– 標–
-- `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
-- `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
-- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
-- `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯– 標–
-- `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯– 標–
-- `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯– 標–
-- `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯– 標–
-- `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標✓
-- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯– 標–
-- `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
-- `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標✓
-- `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
-- `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
-- `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯– 標–
-- `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯– 標–
-- `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
-- `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯– 標–
-- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
-- `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
-- `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
-- `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
-- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
-- `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
-- `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯– 標–
-- `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
-- `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯– 標–
-- `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯– 標–
-- `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯– 標–
-- `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
-- `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯– 標–
-- `xenophon-memorabilia-el` 回憶蘇格拉底（希臘原文）（Ancient Greek）譯– 標–
 
 ### 道教（18 部）
 
@@ -538,7 +545,7 @@
 - `liji` 禮記（古典漢語）譯✓ 標✓
 - `mengzi` 孟子（古典漢語）譯✓ 標✓
 - `shang-shu` 尚書（古典漢語）譯✓ 標✓
-- `taiji-tushuo` 太極圖說（古典漢語）譯– 標–
+- `taiji-tushuo` 太極圖說（古典漢語）譯✓ 標✓
 
 ### 古埃及（8 部）
 
@@ -564,7 +571,7 @@
 ### 耆那教（7 部）
 
 - `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
-- `jain-aptamimamsa-sa` 可信者審思（梵文原文）（梵語）譯– 標–
+- `jain-aptamimamsa-sa` 可信者審思（梵文原文）（梵語）譯✓ 標✓
 - `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓

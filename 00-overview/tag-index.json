@@ -128,6 +128,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ezekiel",
       "name_zh": "以西結書",
       "religion": "猶太教"
@@ -606,6 +611,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -976,6 +986,11 @@
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
+    },
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     },
     {
       "slug": "vulgate-genesis",
@@ -1487,6 +1502,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
@@ -1505,6 +1525,11 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "katha-upanishad",
@@ -2291,6 +2316,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    },
+    {
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
@@ -2929,6 +2959,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -3435,6 +3470,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -3460,6 +3500,16 @@
       "slug": "bible-ecclesiastes",
       "name_zh": "傳道書",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "diamond-mulamadhyamaka",
@@ -3564,6 +3614,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
@@ -3582,6 +3642,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "katha-upanishad",
@@ -3816,6 +3881,16 @@
     }
   ],
   "extinction-of-self": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
@@ -4675,6 +4750,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    },
+    {
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
       "religion": "道教"
@@ -5036,6 +5116,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
@@ -5282,6 +5367,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
@@ -5300,6 +5395,11 @@
       "slug": "digha-nikaya",
       "name_zh": "長部經典",
       "religion": "佛教"
+    },
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "fragments-of-faith-forgotten",
@@ -5330,6 +5430,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "jain-sbe22",
@@ -5870,6 +5975,11 @@
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "chandogya-upanishad",
@@ -7133,6 +7243,13 @@
       "religion": "猶太教"
     }
   ],
+  "multiple-canons": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "multiple-souls": [
     {
       "slug": "book-of-am-tuat",
@@ -7155,6 +7272,11 @@
       "religion": "道教"
     },
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "kabbalah-unveiled",
       "name_zh": "卡巴拉揭示 (Mathers)",
       "religion": "猶太教"
@@ -7175,6 +7297,11 @@
       "slug": "bible-song-of-songs",
       "name_zh": "雅歌",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "fragments-of-faith-forgotten",
@@ -7252,6 +7379,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -7319,6 +7451,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
@@ -7357,6 +7499,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "katha-upanishad",
@@ -7412,6 +7559,11 @@
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     },
     {
       "slug": "taiping-jing",
@@ -9816,6 +9968,11 @@
       "religion": "印加"
     },
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "joshua",
       "name_zh": "約書亞記",
       "religion": "猶太教"
@@ -10412,6 +10569,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -10968,6 +11130,11 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "legends-of-the-jews",
@@ -12443,6 +12610,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "denkard-3-bahman-yasht",
       "name_zh": "Pahlavi Texts Part III",
       "religion": "瑣羅亞斯德"
@@ -12456,6 +12628,11 @@
       "slug": "digha-nikaya",
       "name_zh": "長部經典",
       "religion": "佛教"
+    },
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "fortytwo-chapters-sutra",
@@ -12486,6 +12663,11 @@
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "jain-sbe22",
@@ -12770,6 +12952,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
@@ -12838,6 +13025,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "job",
@@ -13023,6 +13215,11 @@
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     },
     {
       "slug": "taiping-jing",

@@ -5545,6 +5545,13 @@
       "religion": "基督教"
     }
   ],
+  "Samantabhadra": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "Samaria": [
     {
       "slug": "vulgate-2-kings",
@@ -7338,6 +7345,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
       "religion": "印度教"
@@ -8332,6 +8344,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "gate gate pāragate": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "gleaning": [
     {
       "slug": "vulgate-ruth",
@@ -8428,6 +8447,13 @@
     {
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "heimarmenē": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -9207,6 +9233,13 @@
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
       "religion": "印度教"
+    }
+  ],
+  "prajñāpāramitā": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
     }
   ],
   "prakṛti": [
@@ -10203,6 +10236,13 @@
       "religion": "佛教"
     }
   ],
+  "Āptamīmāṃsā": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "Ātman": [
     {
       "slug": "isha-upanishad",
@@ -10443,6 +10483,13 @@
       "religion": "基督教"
     }
   ],
+  "Μενοικεύς": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Παῦλος": [
     {
       "slug": "sblgnt-1-corinthians",
@@ -10481,6 +10528,13 @@
       "slug": "sblgnt-mark",
       "name_zh": "馬可福音（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "αὐτάρκεια": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "βάπτισμα": [
@@ -10528,6 +10582,27 @@
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "εὐδαιμονία": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "θάνατος": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "θεός": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "κένωσιs": [
@@ -10591,6 +10666,20 @@
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "τύχη": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "φρόνησις": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Боян": [
@@ -11269,6 +11358,13 @@
       "religion": "耆那教"
     }
   ],
+  "ἀταραξία": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἁμαρτία": [
     {
       "slug": "sblgnt-mark",
@@ -11281,6 +11377,13 @@
       "slug": "sblgnt-revelation",
       "name_zh": "啟示錄（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "Ἄιδης": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "ἔλεος κρίσεως 慈悲勝審判": [
@@ -11302,6 +11405,20 @@
       "slug": "sblgnt-mark",
       "name_zh": "馬可福音（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "Ἐπίκουρος": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἡδονή": [
+    {
+      "slug": "epicurus-letter-menoeceus-el",
+      "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Ἰάκωβος": [
@@ -11509,10 +11626,24 @@
       "religion": "佛教"
     }
   ],
+  "三世諸佛": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "三十七道品": [
     {
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
+      "religion": "佛教"
+    }
+  ],
+  "三十頌": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
     }
   ],
@@ -11652,6 +11783,11 @@
     }
   ],
   "三自性": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
@@ -11815,6 +11951,11 @@
   ],
   "世親": [
     {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -11868,6 +12009,13 @@
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
+    }
+  ],
+  "中正": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     }
   ],
   "中道": [
@@ -11981,6 +12129,13 @@
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
+    }
+  ],
+  "主靜": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     }
   ],
   "乃縵": [
@@ -12181,6 +12336,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -12201,6 +12361,11 @@
       "slug": "huangdi-neijing",
       "name_zh": "黃帝內經",
       "religion": "道教"
+    },
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     },
     {
       "slug": "zhouyi-cantong-qi",
@@ -12695,11 +12860,25 @@
       "religion": "儒教"
     }
   ],
+  "仁義": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    }
+  ],
   "仇敵": [
     {
       "slug": "bible-lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "基督教"
+    }
+  ],
+  "他世": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "他施": [
@@ -13631,6 +13810,13 @@
       "religion": "佛教"
     }
   ],
+  "依他起": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "俄備得": [
     {
       "slug": "bible-ruth",
@@ -14137,6 +14323,13 @@
       "religion": "基督教"
     }
   ],
+  "偏執": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "偶像": [
     {
       "slug": "bible-deuteronomy",
@@ -14568,6 +14761,13 @@
       "religion": "基督教"
     }
   ],
+  "全知者": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "八不": [
     {
       "slug": "diamond-mulamadhyamaka",
@@ -14611,6 +14811,11 @@
     }
   ],
   "八識": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
@@ -15202,6 +15407,13 @@
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
+    }
+  ],
+  "北宋": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     }
   ],
   "北本涅槃經": [
@@ -15925,6 +16137,13 @@
       "religion": "儒教"
     }
   ],
+  "周敦頤": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    }
+  ],
   "周易參同契": [
     {
       "slug": "zhouyi-cantong-qi",
@@ -16251,6 +16470,11 @@
     }
   ],
   "唯識": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
@@ -16766,6 +16990,13 @@
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
+    }
+  ],
+  "圓成實": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
     }
   ],
   "圓滿": [
@@ -17398,6 +17629,13 @@
       "religion": "基督教"
     }
   ],
+  "大神咒": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "大祭司": [
     {
       "slug": "bible-haggai",
@@ -17915,6 +18153,18 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
+    },
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    }
+  ],
+  "太極圖": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     }
   ],
   "太陽神夜間之旅": [
@@ -18419,6 +18669,13 @@
       "slug": "vulgate-galatians",
       "name_zh": "加拉太書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "宗祖": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "宙斯": [
@@ -20044,6 +20301,13 @@
       "religion": "佛教"
     }
   ],
+  "心經": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "心解脫": [
     {
       "slug": "samyuktagama",
@@ -20180,6 +20444,13 @@
       "slug": "vulgate-zephaniah",
       "name_zh": "西番雅書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "性命": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     }
   ],
   "性善論": [
@@ -21977,6 +22248,13 @@
       "religion": "基督教"
     }
   ],
+  "教典": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "教化": [
     {
       "slug": "mengzi",
@@ -23044,6 +23322,13 @@
       "religion": "基督教"
     }
   ],
+  "末那": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "本地分": [
     {
       "slug": "yogacarabhumi",
@@ -23297,6 +23582,11 @@
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "kn-milindapanha",
@@ -24257,6 +24547,13 @@
       "religion": "瑪雅"
     }
   ],
+  "法身": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "波伊曼德雷斯": [
     {
       "slug": "thrice-greatest-hermes-3",
@@ -24449,6 +24746,11 @@
     {
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
     },
     {
@@ -24775,6 +25077,13 @@
       "religion": "佛教"
     }
   ],
+  "無性": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "無我": [
     {
       "slug": "an9-nines",
@@ -24809,6 +25118,11 @@
   ],
   "無所得": [
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
@@ -24826,6 +25140,13 @@
       "slug": "sn45-magga",
       "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
+    }
+  ],
+  "無極": [
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     }
   ],
   "無漏": [
@@ -25818,9 +26139,21 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    }
+  ],
+  "真實": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "真實性": [
@@ -26635,6 +26968,11 @@
   ],
   "種子": [
     {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
       "religion": "佛教"
@@ -26660,6 +26998,11 @@
     }
   ],
   "空": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
@@ -27561,6 +27904,13 @@
       "religion": "道教"
     }
   ],
+  "耆那教": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "耆闍崛山": [
     {
       "slug": "contemplation-sutra",
@@ -28430,6 +28780,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -29141,6 +29496,11 @@
   ],
   "舍利子": [
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -29261,6 +29621,11 @@
     }
   ],
   "般若波羅蜜多": [
+    {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
@@ -30062,6 +30427,11 @@
   ],
   "觀自在菩薩": [
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -30623,6 +30993,13 @@
       "religion": "佛教"
     }
   ],
+  "轉依": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "辟支佛": [
     {
       "slug": "sn12-nidana",
@@ -30852,6 +31229,13 @@
       "religion": "佛教"
     }
   ],
+  "遍計所執": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "過去生": [
     {
       "slug": "kn-jataka",
@@ -30941,6 +31325,13 @@
       "religion": "道教"
     }
   ],
+  "道理": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "道相應 Magga Saṁyutta": [
     {
       "slug": "sn45-magga",
@@ -30967,6 +31358,13 @@
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
+    }
+  ],
+  "遮遣": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "選召": [
@@ -31127,6 +31525,13 @@
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "量": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "量論": [
@@ -31681,6 +32086,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-prajnaparamita-hrdaya-sa",
+      "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -31730,6 +32140,11 @@
     }
   ],
   "阿賴耶識": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
@@ -31863,6 +32278,11 @@
       "slug": "liezi",
       "name_zh": "列子",
       "religion": "道教"
+    },
+    {
+      "slug": "taiji-tushuo",
+      "name_zh": "太極圖說",
+      "religion": "儒教"
     },
     {
       "slug": "yinfu-jing",
@@ -32207,6 +32627,13 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    }
+  ],
+  "顛倒": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "顯現": [
