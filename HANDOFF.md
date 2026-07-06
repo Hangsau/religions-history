@@ -3,6 +3,12 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-07：Pipeline B+C mid-iteration（ezra 翻譯）+ plan-check 文件 commit
+
+- **m3 chunk 16/18 ezra（希伯來文）翻譯完成**：本 session 為 Pipeline B+C 的 chunk 內容產生器，輸出 `translations/ezra/01-translation.md` 第 16 段（9:9–9:15 末段）。`supervisor-run.log` 顯示 chunk 1–15 已完成（前次 session 累積）、chunk 16 為本 session 交付、chunk 17–18 待續。PIPELINE_STATUS.md 仍記 `目前處理：ezra`，由 supervisor 收尾 commit（**勿手動 commit 該狀態檔，會搶 supervisor 下一批 commit**）。
+- **plan-check 實作清單正式入庫**（commit 77a92c6c）：`.implementation_site-v1-psych-tags.md`（2026-07-06 plan-check 產出，含 8 步路線圖 + 派工欄 + 驗收清單）。接手 site v1 + psych_tags 軸開發前必讀。
+- **未動**：`00-overview/PIPELINE_STATUS.md` / `00-overview/PROGRESS.json` 為 mid-iteration 自動狀態檔，下一批 supervisor commit 一併處理。
+
 ## 當前狀態（2026-07-06 深夜續，用戶授權自主收集/整理後）
 
 **4683 部 / 27 宗教 / 643.9 MB / 已 AI 譯註 201 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
