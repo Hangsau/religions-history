@@ -60,6 +60,8 @@ _TRANSLIT_HINTS = ("咒", "陀羅尼", "真言", "神咒", "dharani", "dhāraṇ
 def _suspect_transliteration(meta: dict) -> bool:
     if meta.get("text_role"):  # already classified → not a pending suspect
         return False
+    if meta.get("composition_note"):  # already manually reviewed, rationale recorded
+        return False
     hay = " ".join(str(meta.get(k, "")) for k in ("name_zh", "name_en", "name_original", "slug")).lower()
     return any(h.lower() in hay for h in _TRANSLIT_HINTS)
 

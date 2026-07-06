@@ -4,7 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**7** 部，橫跨 **4** 宗教
+- 可收待補原文核心：**6** 部，橫跨 **4** 宗教
 
 ## 巴哈伊（3 部）
 
@@ -12,18 +12,17 @@
 - [ ] `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）— 未譯，原文待補
 - [ ] `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）— 未譯，原文待補
 
-## 印加（2 部）
+## 美洲（1 部）
 
-- [ ] `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）— 未譯，原文待補
-- [ ] `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）— 未譯，原文待補
+- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
 
 ## 諾斯底（1 部）
 
 - [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 
-## 美洲（1 部）
+## 印加（1 部）
 
-- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
+- [ ] `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）— 未譯，原文待補
 
 ---
 
@@ -32,9 +31,9 @@
 > 這些核心經過實際探查，確認目前無乾淨可收的原文來源。分三類，逐部附理由與已探來源。
 > 出現乾淨來源即收——移除 `original-source-status.json` 對應條目即回到可收待補。
 
-- 已查明無乾淨來源：**39** 部
+- 已查明無乾淨來源：**40** 部
 
-### 來源受牆／無乾淨匯出（原文存於已知數位語料庫但存取受阻）（17 部）
+### 來源受牆／無乾淨匯出（原文存於已知數位語料庫但存取受阻）（18 部）
 
 - `book-of-am-tuat` 阿姆杜阿特之書（幽冥界之書）（古埃及）
   - 理由：Budge 英譯；連續埃及原文／音譯僅存於 TLA（thesaurus-linguae-aegyptiae.de），無對應此彙編之逐篇文本匯出。本檔實測 0 連續音譯，僅散見英文中夾用神名。
@@ -81,6 +80,9 @@
 - `liturgy-funerary-offerings` 葬祭供養儀軌（古埃及）
   - 理由：Budge 英譯葬祭儀軌；TLA 無對應乾淨文本。
   - 已探來源：sacred-texts(Budge,英)；TLA
+- `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（印加）
+  - 理由：已收之英譯（Markham 1873 Hakluyt Society，含 Molina《印加寓言與儀式紀事》+ Salcamayhua《古物紀事》）西班牙語原文查證：Molina 手稿唯一可見版本為 2010 Iberoamericana/Vervuert 出版之學術校訂本（Paloma Jiménez 編、Paloma Cuenca Muñoz 古文字轉錄），archive.org 條目 relacion-de-las-fabulas-y-ritos-de-los-incas（2020 上傳，licenseurl 空白、無 publisher 欄，內容比對即該 2010 版）屬現行版權校訂本，非乾淨公版掃描，不可收。Salcamayhua 西語原文情況類似，未見公版。
+  - 已探來源：archive.org(relacion-de-las-fabulas-y-ritos-de-los-incas=2010版權校訂本,非PD)；sacred-texts(僅英譯rly)
 - `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（瑪雅）
   - 理由：基切馬雅語（K'iche'）原文。乾淨數位轉寫僅存於受版權現代校訂本（Christenson 2003、Sam Colop 1999/2008）。公版來源：Ximénez 手稿（Newberry／OSU library.osu.edu/projects/popolwuj 皆為手稿影像，且 OSU 對誠實 UA 回 HTTP 403 阻擋程式存取）；Brasseur de Bourbourg 1861（archive.org popolvuhlelivres00bras_0，語言標 myn+fre）為 K'iche'／法文對照＋大量法文腳註之 1.5MB 19c OCR，K'iche' 與法譯交錯無法乾淨切分（同 yucatan 情況）。es.wikisource「Popol Vuh」實測為 Asturias 西班牙轉譯（譯本之譯本，非原文）。英譯 popol-vuh(Goetz/Morley) 已收。
   - 已探來源：es.wikisource(西譯Asturias)；en.wikisource(無)；OSU-popolwuj(403阻擋)；Newberry(手稿影像)；Brasseur1861(archive.org,K'iche'/法對照OCR無法切分)；Christenson/Colop(受版權)
