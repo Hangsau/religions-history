@@ -1,0 +1,23 @@
+{
+  "slug": "doctrine-and-covenants",
+  "name_zh": "教義和聖約 (LDS)",
+  "name_en": "Doctrine and Covenants",
+  "name_original": "教義和聖約 (LDS)",
+  "religion": "現代新興",
+  "tradition": null,
+  "language": "English",
+  "version": "sacred-texts (LDS 1921 ed.)",
+  "version_date": "—",
+  "source_platform": "sacred-texts.com",
+  "source_url": "https://www.sacred-texts.com/mor/dc/index.htm",
+  "downloaded_at": "2026-07-06T04:43:50+00:00",
+  "size_bytes": 665503,
+  "checksum_sha256": "2857d384a1ae71f246d8c9ad8e2edb2f80c4ed3f833940d13e773b1127914197",
+  "chapter_count": 139,
+  "expected_chapter_count": null,
+  "license": "Public Domain (most sacred-texts pre-1928)",
+  "verified": true,
+  "tier": "核心",
+  "is_original_language": true,
+  "notes": "摩門教（LDS）標準經典之一，Joseph Smith 等所受啟示與教令彙編。與 raw/original.txt 併收各 Section。此為公版；現行版另含後期增補。"
+}

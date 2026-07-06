@@ -327,6 +327,7 @@ CATALOG_MAP = {
     "猶太教-輔助": "judaism-st.json",
     "錫克教-輔助": "sikh-st.json",
     "伊斯蘭-輔助": "islam-st.json",
+    "現代新興": "modern-st.json",
 }
 
 

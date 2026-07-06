@@ -1,0 +1,10 @@
+{
+  "religion": "現代新興",
+  "source_platform": "sacred-texts.com",
+  "license": "Public Domain",
+  "language": "English",
+  "notes": "現代新興宗教公版經典 via sacred-texts. 摩門教 / 基督科學會等 19-20 世紀新啟示文獻。多數現代教團正典仍在版權內（NWT / Divine Principle 等），此處只收公版部分。",
+  "scriptures": [
+    {"slug": "doctrine-and-covenants", "st_book_path": "mor/dc", "name_zh": "教義和聖約 (LDS)", "name_en": "Doctrine and Covenants", "religion": "現代新興", "version": "sacred-texts (LDS 1921 ed.)", "tier": "核心", "is_original_language": true, "notes": "摩門教（LDS）標準經典之一，Joseph Smith 等所受啟示與教令彙編。與 raw/original.txt 併收各 Section。此為公版；現行版另含後期增補。"}
+  ]
+}
