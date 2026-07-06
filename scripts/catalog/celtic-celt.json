@@ -17,6 +17,33 @@
       "tier": "核心",
       "celt_ids": ["G301012", "G301035"],
       "notes": "厄爾斯特傳說群核心《奪牛長征記》古愛爾蘭語原文：G301012 = Recension I（O'Rahilly），G301035 = Book of Leinster 傳本。對應 sacred-texts Lady Gregory《Cuchulain of Muirthemne》英文改寫（cuchulain-muirthemne 為全 Ulster Cycle 綜述，此處收其核心 Táin 原文）"
+    },
+    {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "name_en": "Cath Maige Tuired: The Second Battle of Mag Tuired (Old Irish)",
+      "name_original": "Cath Maige Tuired",
+      "text_role": "original",
+      "is_original_language": true,
+      "original_of": "cath-maige-tuired-en",
+      "expected_chapter_count": 1,
+      "tier": "核心",
+      "celt_ids": ["G300010"],
+      "notes": "神話傳說群（Mythological Cycle）核心：Tuatha Dé Danann（達南神族）與 Fomorians（弗摩爾族）諸神之戰，愛爾蘭創世/主權神話核心文本。ed. Elizabeth A. Gray。"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
+      "name_en": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+      "name_original": "Cath Maige Tuired",
+      "text_role": "translation",
+      "is_original_language": false,
+      "translation_of": "cath-maige-tuired-ga",
+      "expected_chapter_count": 1,
+      "tier": "核心",
+      "celt_ids": ["T300010"],
+      "language": "English",
+      "notes": "Elizabeth A. Gray 英譯本，對照 cath-maige-tuired-ga 古愛爾蘭語原文。"
     }
   ]
 }

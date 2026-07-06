@@ -1,9 +1,9 @@
 {
   "summary": {
-    "total_count": 4681,
-    "verified_count": 4681,
-    "original_language_count": 4246,
-    "total_size_mb": 643.8,
+    "total_count": 4683,
+    "verified_count": 4683,
+    "original_language_count": 4247,
+    "total_size_mb": 643.9,
     "by_religion": {
       "佛教": 2506,
       "猶太教": 1562,
@@ -17,8 +17,8 @@
       "古埃及": 14,
       "耆那教": 13,
       "瑣羅亞斯德": 11,
+      "凱爾特": 11,
       "錫克教": 9,
-      "凱爾特": 9,
       "神道": 8,
       "印加": 7,
       "兩河": 7,
@@ -54,8 +54,8 @@
       "古埃及": 14,
       "耆那教": 13,
       "瑣羅亞斯德": 11,
+      "凱爾特": 11,
       "錫克教": 9,
-      "凱爾特": 9,
       "神道": 8,
       "印加": 7,
       "兩河": 7,
@@ -75,7 +75,7 @@
     "by_language": {
       "古典漢語": 2505,
       "Hebrew": 1425,
-      "English": 135,
+      "English": 136,
       "English (translation)": 100,
       "梵語": 91,
       "Latin": 78,
@@ -97,6 +97,7 @@
       "阿維斯塔語": 3,
       "English (原典)": 2,
       "蘇格蘭蓋爾語／英語對照": 2,
+      "古愛爾蘭語": 2,
       "English (translation, parts romanized Punjabi)": 2,
       "English (Jacobi 19c translation)": 2,
       "威爾斯": 2,
@@ -105,7 +106,6 @@
       "阿波布郎舍語": 1,
       "上代日本語": 1,
       "古典阿拉伯": 1,
-      "古愛爾蘭語": 1,
       "古東斯拉夫": 1
     },
     "by_source_platform": {
@@ -128,9 +128,9 @@
       "sagadb.org": 5,
       "avesta.org": 3,
       "is.wikisource.org": 3,
+      "celt.ucc.ie": 3,
       "cy.wikisource.org": 2,
       "Quran.com API": 1,
-      "celt.ucc.ie": 1,
       "ru.wikisource.org": 1
     }
   },
@@ -3093,6 +3093,38 @@
       "is_original_language": true,
       "size_bytes": 575130,
       "chapter_count": 126,
+      "verified": true
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
+      "name_en": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+      "religion": "凱爾特",
+      "tradition": null,
+      "language": "English",
+      "version": "CELT (celt.ucc.ie)",
+      "version_date": "—",
+      "source_platform": "celt.ucc.ie",
+      "tier": "核心",
+      "is_original_language": false,
+      "size_bytes": 51577,
+      "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "name_en": "Cath Maige Tuired: The Second Battle of Mag Tuired (Old Irish)",
+      "religion": "凱爾特",
+      "tradition": null,
+      "language": "古愛爾蘭語",
+      "version": "CELT (celt.ucc.ie)",
+      "version_date": "—",
+      "source_platform": "celt.ucc.ie",
+      "tier": "核心",
+      "is_original_language": true,
+      "size_bytes": 54674,
+      "chapter_count": 1,
       "verified": true
     },
     {

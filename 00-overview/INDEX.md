@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4681** 部
-- 已驗證: 4681
-- 原文 (vs 譯文): 4246 / 4681
-- 總大小: ~643.8 MB
+- 總計: **4683** 部
+- 已驗證: 4683
+- 原文 (vs 譯文): 4247 / 4683
+- 總大小: ~643.9 MB
 
 ## 按宗教
 
@@ -26,8 +26,8 @@
 | 古埃及 | 14 |
 | 耆那教 | 13 |
 | 瑣羅亞斯德 | 11 |
+| 凱爾特 | 11 |
 | 錫克教 | 9 |
-| 凱爾特 | 9 |
 | 神道 | 8 |
 | 印加 | 7 |
 | 兩河 | 7 |
@@ -66,8 +66,8 @@
 | 古埃及 | 14 |
 | 耆那教 | 13 |
 | 瑣羅亞斯德 | 11 |
+| 凱爾特 | 11 |
 | 錫克教 | 9 |
-| 凱爾特 | 9 |
 | 神道 | 8 |
 | 印加 | 7 |
 | 兩河 | 7 |
@@ -104,9 +104,9 @@
 | sagadb.org | 5 |
 | avesta.org | 3 |
 | is.wikisource.org | 3 |
+| celt.ucc.ie | 3 |
 | cy.wikisource.org | 2 |
 | Quran.com API | 1 |
-| celt.ucc.ie | 1 |
 | ru.wikisource.org | 1 |
 
 ## 全部經文清單 (slug, religion, size)
@@ -2674,6 +2674,8 @@
 | `book-of-kells` | 凱爾斯之書 | 凱爾特 | 134510 |
 | `carmina-gadelica-1` | Carmina Gadelica Vol 1 | 凱爾特 | 397459 |
 | `carmina-gadelica-2` | Carmina Gadelica Vol 2 | 凱爾特 | 575130 |
+| `cath-maige-tuired-en` | 第二次莫伊圖拉之戰（英譯） | 凱爾特 | 51577 |
+| `cath-maige-tuired-ga` | 第二次莫伊圖拉之戰（古愛爾蘭語原文） | 凱爾特 | 54674 |
 | `cuchulain-muirthemne` | Cuchulain of Muirthemne (Ulster Cycle) | 凱爾特 | 660720 |
 | `mabinogion-cy-1` | 馬比諾吉昂 第一卷（威爾斯原文） | 凱爾特 | 120537 |
 | `mabinogion-cy-2` | 馬比諾吉昂 第二卷（威爾斯原文） | 凱爾特 | 125968 |
