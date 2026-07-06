@@ -40,8 +40,8 @@ ROLE_TRANSLATOR = ROOT / "tools" / "m3-translator-role.md"
 ROLE_ANNOTATOR = ROOT / "tools" / "m3-annotator-role.md"
 ROLE_TAGGER = ROOT / "tools" / "m3-tagger-role.md"
 CONCEPTS_PATH = ROOT / "00-overview" / "concepts.md"
-MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，2026-07-04 配額 99% 耗盡，暫退出翻譯 chain
-DEEPSEEK_TOKEN_PATH = Path.home() / ".deepseek-token"  # 付費，現為主力：V4-Pro 主譯、V4-Flash 備援
+MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，主力：2026-07-06 配額重置回歸
+DEEPSEEK_TOKEN_PATH = Path.home() / ".deepseek-token"  # 付費，備援：V4-Flash（MiniMax 撞流量才用）
 
 TASK_TO_OUTFILE = {
     "translate": "01-translation.md",
@@ -252,19 +252,34 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
         return None, "`claude` CLI not found in PATH"
 
 
+MINIMAX_ANTHROPIC_URL = "https://api.minimax.io/anthropic"
 DEEPSEEK_ANTHROPIC_URL = "https://api.deepseek.com/anthropic"
 
 # ── 翻譯後端：改 model 只改這裡，call_m3 的 log marker、header 標示、刊版顯示全自動跟隨 ──
-PRIMARY_MODEL = "deepseek-v4-pro"    # 主力
-FALLBACK_MODEL = "deepseek-v4-flash"  # 失敗/逾時退備援（同 key，較快較便宜）
+PRIMARY_MODEL = "MiniMax-M3"          # 主力：月費 Coding Plan，零邊際成本、不吃 Anthropic 配額
+FALLBACK_MODEL = "deepseek-v4-flash"  # 備援：DeepSeek 付費（MiniMax 撞流量/失敗才用，較快較便宜）
 # 每次成功都印此 marker 到 stdout→supervisor-run.log；刊版 translation_activity 解析它顯示現用 model。
 MODEL_MARKER = "  [model] {name} ({role})"
 
 
+def _resolve_backend(model: str) -> tuple[str, str] | None:
+    """依 model 名解析 (base_url, token)。MiniMax 走月費端點，其餘走 DeepSeek 付費端點。
+    Token 缺失回 None。"""
+    if model.lower().startswith("minimax"):
+        if MINIMAX_TOKEN_PATH.exists():
+            tok = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
+            if tok:
+                return MINIMAX_ANTHROPIC_URL, tok
+        return None
+    tok = _read_deepseek_token()
+    if tok:
+        return DEEPSEEK_ANTHROPIC_URL, tok
+    return None
+
+
 def call_m3(prompt: str, dry_run: bool = False) -> str | None:
-    """主用 PRIMARY_MODEL（DeepSeek 付費，按 token）；失敗/逾時退 FALLBACK_MODEL。
+    """主用 PRIMARY_MODEL（MiniMax-M3 月費，零邊際成本）；失敗/逾時退 FALLBACK_MODEL（DeepSeek 付費）。
     兩者皆 reasoning model（回應含 thinking 塊，claude -p CLI 原生處理）。
-    MiniMax-M3 月費配額 2026-07-04 near-exhausted，已退出 chain；待 5H 窗重置再議是否加回為跨家備援。
     函式名沿用 call_m3 以免動所有 caller。"""
     sys.stdout.flush()  # ensure prior prints land before subprocess wait
     if dry_run:
@@ -272,24 +287,19 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
         print(prompt[:2000] + "\n...[truncated]...\n" + prompt[-500:])
         return None
 
-    ds_token = _read_deepseek_token()
-    if not ds_token:
-        print(f"  [error] DeepSeek token 沒有（env DEEPSEEK_API_KEY 或 {DEEPSEEK_TOKEN_PATH}）；無可用翻譯後端")
-        return None
+    for model, role in ((PRIMARY_MODEL, "primary"), (FALLBACK_MODEL, "fallback")):
+        backend = _resolve_backend(model)
+        if backend is None:
+            print(f"  [warn] {model}（{role}）無可用 token，跳過")
+            continue
+        base_url, token = backend
+        out, err = _run_claude(prompt, base_url, token, model)
+        if out is not None:
+            print(MODEL_MARKER.format(name=model, role=role))
+            return out
+        print(f"  [warn] {model}（{role}）失敗（{err}）")
 
-    # Primary
-    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, PRIMARY_MODEL)
-    if out is not None:
-        print(MODEL_MARKER.format(name=PRIMARY_MODEL, role="primary"))
-        return out
-    print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）→ 退到 {FALLBACK_MODEL}")
-
-    # Fallback
-    out, err = _run_claude(prompt, DEEPSEEK_ANTHROPIC_URL, ds_token, FALLBACK_MODEL)
-    if out is not None:
-        print(MODEL_MARKER.format(name=FALLBACK_MODEL, role="fallback"))
-        return out
-    print(f"  [error] {FALLBACK_MODEL} fallback 也失敗（{err}）")
+    print("  [error] primary + fallback 兩家翻譯後端都失敗")
     return None
 
 
