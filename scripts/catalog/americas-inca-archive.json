@@ -1,0 +1,13 @@
+{
+  "religion": "印加",
+  "source_platform": "archive.org",
+  "license": "Public Domain (pre-1928 US publications)",
+  "language": "English",
+  "notes": "印加西語編年史（Sarmiento / Garcilaso / Cieza de León）19c Hakluyt Society 英譯，pre-1928 公版掃描。偏歷史編年，宗教/神話成分次之（創世神話、太陽神信仰、儀典已另收於核心）；本批列次要，補史料脈絡。為掃描 OCR，未做章節拆分，品質見各 meta.notes。",
+  "scriptures": [
+    {"slug": "sarmiento-history-of-the-incas", "ia_identifier": "historyofincas00sarm", "name_zh": "印卡史（薩緬托）", "name_en": "History of the Incas", "religion": "印加", "version": "Pedro Sarmiento de Gamboa, tr. Clements R. Markham, Hakluyt Society 2nd ser. no.22, 1907", "version_date": "1572 AD (manuscript); 1907 tr.", "tier": "次要", "is_original_language": false, "text_role": "translation", "notes": "薩緬托奉秘魯總督 Toledo 之命所修官方印加史，含印加創世神話、太陽神 Inti 信仰、王朝宗教敘事；西班牙文原稿存哥廷根大學圖書館。"},
+    {"slug": "garcilaso-royal-commentaries-part1", "ia_identifier": "firstpartofroyal01vega", "name_zh": "印加王室述評（第一部）", "name_en": "First Part of the Royal Commentaries of the Yncas", "religion": "印加", "version": "Garcilaso de la Vega (El Inca), tr. Clements R. Markham, Hakluyt Society 1st ser., 1869", "version_date": "1609 AD (1st Lisbon ed.); 1869 tr.", "tier": "次要", "is_original_language": false, "text_role": "translation", "notes": "印加王族後裔（西班牙征服者與印加公主之子）親撰，含大量宗教/神話/儀典第一手記述；譯自 1609 里斯本初版，校 1723 版。"},
+    {"slug": "cieza-de-leon-travels", "ia_identifier": "travelsofpedrode33ciez", "name_zh": "西薩·德萊昂遊記（秘魯編年史第一部）", "name_en": "The Travels of Pedro de Cieza de León, A.D. 1532-50", "religion": "印加", "version": "Pedro de Cieza de León, tr. Clements R. Markham, Hakluyt Society no.33, 1864", "version_date": "1553 AD (Seville 1st ed.); 1864 tr.", "tier": "次要", "is_original_language": false, "text_role": "translation", "notes": "現存最早秘魯編年史第一部，含地方宗教習俗、神廟、祭儀第一手觀察記錄。"},
+    {"slug": "cieza-de-leon-second-part", "ia_identifier": "partofchronicleperu00ciez", "name_zh": "西薩·德萊昂秘魯編年史（第二部）", "name_en": "The Second Part of the Chronicle of Peru", "religion": "印加", "version": "Pedro de Cieza de León, tr. Clements R. Markham, Hakluyt Society no.68, 1883", "version_date": "1553 AD (manuscript); 1883 tr.", "tier": "次要", "is_original_language": false, "text_role": "translation", "notes": "秘魯編年史第二部，1880 馬德里始印手稿；詳述印加宗教制度、太陽神廟、王室祭儀。"}
+  ]
+}

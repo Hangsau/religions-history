@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4677** 部
-- 已驗證: 4677
-- 原文 (vs 譯文): 4246 / 4677
-- 總大小: ~640.3 MB
+- 總計: **4681** 部
+- 已驗證: 4681
+- 原文 (vs 譯文): 4246 / 4681
+- 總大小: ~643.8 MB
 
 ## 按宗教
 
@@ -29,6 +29,7 @@
 | 錫克教 | 9 |
 | 凱爾特 | 9 |
 | 神道 | 8 |
+| 印加 | 7 |
 | 兩河 | 7 |
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
@@ -37,7 +38,6 @@
 | 現代新興 | 5 |
 | 瑪雅 | 4 |
 | 巴哈伊 | 4 |
-| 印加 | 3 |
 | 阿茲特克 | 1 |
 | 赫爾墨斯 | 1 |
 | 墨家 | 1 |
@@ -69,6 +69,7 @@
 | 錫克教 | 9 |
 | 凱爾特 | 9 |
 | 神道 | 8 |
+| 印加 | 7 |
 | 兩河 | 7 |
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
@@ -77,7 +78,6 @@
 | 現代新興 | 5 |
 | 瑪雅 | 4 |
 | 巴哈伊 | 4 |
-| 印加 | 3 |
 | 猶太教 - Guides | 2 |
 | 猶太教 - Tanakh | 2 |
 
@@ -99,11 +99,11 @@
 | heimskringla.no | 15 |
 | en.wikisource.org | 11 |
 | ctext.org (api) | 7 |
+| archive.org | 7 |
 | pa.wikisource.org | 6 |
 | sagadb.org | 5 |
 | avesta.org | 3 |
 | is.wikisource.org | 3 |
-| archive.org | 3 |
 | cy.wikisource.org | 2 |
 | Quran.com API | 1 |
 | celt.ucc.ie | 1 |
@@ -2707,8 +2707,12 @@
 | `volsunga-saga` | 沃爾松傳奇 | 北歐 | 307070 |
 | `volsunga-saga-on` | 沃爾松傳奇（古諾斯語原文） | 北歐 | 151449 |
 | `apu-ollantay` | 阿普·奧揚泰 (克丘亞語戲劇) | 印加 | 102781 |
+| `cieza-de-leon-second-part` | 西薩·德萊昂秘魯編年史（第二部） | 印加 | 623078 |
+| `cieza-de-leon-travels` | 西薩·德萊昂遊記（秘魯編年史第一部） | 印加 | 1259861 |
+| `garcilaso-royal-commentaries-part1` | 印加王室述評（第一部） | 印加 | 815492 |
 | `inca-rites` | 印加儀禮與法律 | 印加 | 99192 |
 | `narratives-rites-laws-yncas` | 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯) | 印加 | 330259 |
+| `sarmiento-history-of-the-incas` | 印卡史（薩緬托） | 印加 | 985850 |
 | `abhinavagupta-kramastotra` | 阿毗那婆笈多次第讚 | 印度教 | 6950 |
 | `abhinavagupta-tantraloka` | 坦特羅光輝 | 印度教 | 763573 |
 | `abhinavagupta-tantrasara` | 坦特羅精要 | 印度教 | 129161 |
