@@ -819,6 +819,13 @@
       "religion": "佛教"
     }
   ],
+  "Aṣṭāvakra": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    }
+  ],
   "Ba": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -1077,6 +1084,13 @@
       "religion": "現代新興"
     }
   ],
+  "Brahma": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Brahmadatta": [
     {
       "slug": "digha-nikaya",
@@ -1099,6 +1113,11 @@
     }
   ],
   "Brahman": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
@@ -2312,6 +2331,11 @@
   ],
   "Gurmukhi": [
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
       "religion": "錫克教"
@@ -2328,6 +2352,11 @@
     {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -2691,6 +2720,11 @@
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Hukm": [
@@ -2810,6 +2844,11 @@
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -3015,6 +3054,13 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
+    }
+  ],
+  "Janaka": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     }
   ],
   "Jannah": [
@@ -4232,6 +4278,11 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Montejo": [
@@ -4342,6 +4393,11 @@
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Naciketas": [
@@ -4390,6 +4446,11 @@
     {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -5627,6 +5688,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Sach": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Sad Dar": [
     {
       "slug": "denkard-3-bahman-yasht",
@@ -5912,6 +5980,13 @@
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Shiva": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Sian": [
@@ -7547,6 +7622,13 @@
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "ahaṃkāra": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     }
   ],
   "ahimsa": [
@@ -9809,6 +9891,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
@@ -10594,6 +10681,11 @@
     {
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
       "religion": "印度教"
     },
     {
@@ -11719,10 +11811,36 @@
       "religion": "猶太教"
     }
   ],
+  "ਨਾਨਕ": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਨਿਰੰਕਾਰ": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਸਚੁ ਸਾਹਿਬੁ": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ੴ": [
     {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -12116,6 +12234,13 @@
       "slug": "shurangama-sutra",
       "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "religion": "佛教"
+    }
+  ],
+  "三摩地": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     }
   ],
   "三教": [
@@ -13897,6 +14022,13 @@
       "religion": "斯拉夫"
     }
   ],
+  "伊斯墨涅": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "伊施波設": [
     {
       "slug": "bible-2-samuel",
@@ -14681,6 +14813,13 @@
       "religion": "基督教"
     }
   ],
+  "信念": [
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "信望愛": [
     {
       "slug": "vulgate-1-thessalonians",
@@ -15157,6 +15296,13 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "克瑞翁": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -16286,6 +16432,13 @@
       "religion": "基督教"
     }
   ],
+  "厄忒俄克勒斯": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "厄瑪奴爾": [
     {
       "slug": "vulgate-matthew",
@@ -16756,6 +16909,11 @@
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "命門": [
@@ -16914,6 +17072,13 @@
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "哈得斯": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "哈拿": [
@@ -17680,6 +17845,13 @@
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
+    }
+  ],
+  "城邦": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "執事": [
@@ -19271,6 +19443,20 @@
       "religion": "猶太教"
     }
   ],
+  "安提戈涅": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "安葬": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "宗徒": [
     {
       "slug": "vulgate-2-timothy",
@@ -19304,6 +19490,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -19744,6 +19935,13 @@
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
+    }
+  ],
+  "巴克斯": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "巴利": [
@@ -21008,6 +21206,13 @@
       "religion": "佛教"
     }
   ],
+  "忒拜": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "忠恕": [
     {
       "slug": "analects",
@@ -21604,6 +21809,13 @@
     {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "我慢": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
       "religion": "印度教"
     }
   ],
@@ -23680,6 +23892,13 @@
       "religion": "佛教"
     }
   ],
+  "智識": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    }
+  ],
   "暴力": [
     {
       "slug": "habakkuk",
@@ -24114,6 +24333,11 @@
     {
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
       "religion": "印度教"
     },
     {
@@ -25235,6 +25459,20 @@
       "religion": "諾斯底"
     }
   ],
+  "波呂涅克斯": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "波呂涅刻斯": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "波希戰爭": [
     {
       "slug": "herodotus-histories",
@@ -25822,6 +26060,11 @@
     }
   ],
   "無明": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
@@ -27193,6 +27436,13 @@
       "slug": "vulgate-acts",
       "name_zh": "使徒行傳（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "神律": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "神性": [
@@ -31164,6 +31414,13 @@
       "religion": "基督教"
     }
   ],
+  "見證者": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    }
+  ],
   "覺悟": [
     {
       "slug": "sn4-mara",
@@ -31237,6 +31494,13 @@
       "religion": "佛教"
     }
   ],
+  "觀者": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    }
+  ],
   "觀自在菩薩": [
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
@@ -31278,6 +31542,11 @@
       "slug": "an4-fours",
       "name_zh": "AN4 四法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "brahma-sutra",
@@ -32224,6 +32493,13 @@
       "religion": "耆那教"
     }
   ],
+  "遮那迦": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    }
+  ],
   "選召": [
     {
       "slug": "bible-jeremiah",
@@ -32878,6 +33154,13 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    }
+  ],
+  "阿瑞斯": [
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "阿維斯塔": [

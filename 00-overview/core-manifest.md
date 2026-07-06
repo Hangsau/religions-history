@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**201** / 518
-- 已標籤：**395** / 518
+- 已翻譯：**202** / 518
+- 已標籤：**396** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 87 | 159 |
 | 佛教 | 74 | 42 | 65 |
-| 印度教 | 58 | 14 | 27 |
+| 印度教 | 58 | 15 | 28 |
 | 古希臘羅馬 | 46 | 4 | 16 |
 | 猶太教 | 45 | 20 | 45 |
 | 道教 | 18 | 17 | 17 |
@@ -330,7 +330,7 @@
 - `agni-purana` 火神往世書（Sanskrit）譯– 標–
 - `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯✓ 標✓
 - `apastamba-dharmasutra` 阿波斯檀跋法經（梵語）譯– 標–
-- `ashtavakra-gita` 八曲之歌（Sanskrit）譯– 標–
+- `ashtavakra-gita` 八曲之歌（Sanskrit）譯✓ 標✓
 - `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯– 標–
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標✓
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯– 標–

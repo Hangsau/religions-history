@@ -41,6 +41,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
       "religion": "古希臘羅馬"
@@ -370,6 +375,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -567,6 +577,11 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "katha-upanishad",
@@ -906,6 +921,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "lotus-sutra",
       "name_zh": "妙法蓮華經",
       "religion": "佛教"
@@ -1041,6 +1061,11 @@
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "taiji-tushuo",
@@ -1403,6 +1428,11 @@
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "talmud-rodkinson",
@@ -2346,6 +2376,11 @@
   ],
   "cyclic-cosmos": [
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
@@ -2455,6 +2490,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
@@ -2548,6 +2588,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "joshua",
@@ -2872,6 +2917,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
@@ -2912,6 +2962,11 @@
       "slug": "amos",
       "name_zh": "阿摩司書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "avatamsaka-sutra",
@@ -3124,6 +3179,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "job",
       "name_zh": "約伯記",
       "religion": "猶太教"
@@ -3247,6 +3307,11 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "splendour-of-god",
@@ -3553,6 +3618,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-amos",
       "name_zh": "阿摩司書（武加大）",
       "religion": "基督教"
@@ -3625,6 +3695,11 @@
       "slug": "abhidharmakosa",
       "name_zh": "阿毘達磨俱舍論",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "bible-ecclesiastes",
@@ -3752,6 +3827,11 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "avatamsaka-sutra",
@@ -4051,6 +4131,11 @@
     }
   ],
   "extinction-of-self": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
@@ -4455,6 +4540,11 @@
       "slug": "ovid-metamorphoses",
       "name_zh": "變形記 (奧維德)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "golden-rule": [
@@ -4578,6 +4668,11 @@
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     },
     {
@@ -5167,6 +5262,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
       "religion": "基督教"
@@ -5261,6 +5361,11 @@
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     },
     {
@@ -5369,6 +5474,11 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "kn-jataka",
@@ -5560,6 +5670,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -5605,6 +5720,11 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "brahma-sutra",
@@ -6016,6 +6136,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -6240,6 +6365,11 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "avatamsaka-sutra",
@@ -7619,6 +7749,11 @@
   ],
   "mystical-union": [
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
       "religion": "道教"
@@ -7657,6 +7792,11 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "kabbalah-unveiled",
@@ -7773,6 +7913,11 @@
     {
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
       "religion": "印度教"
     },
     {
@@ -8315,6 +8460,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
@@ -8485,6 +8635,11 @@
       "slug": "songs-of-russian-people",
       "name_zh": "俄羅斯人民之歌",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "tale-of-igor-ru",
@@ -8694,6 +8849,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
@@ -8792,6 +8952,11 @@
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "splendour-of-god",
@@ -9675,6 +9840,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
@@ -10304,6 +10474,11 @@
       "slug": "songs-of-russian-people",
       "name_zh": "俄羅斯人民之歌",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "taiping-jing",
@@ -10977,6 +11152,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
@@ -11032,6 +11212,11 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "awakening-of-faith",
@@ -11493,6 +11678,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
@@ -11622,6 +11812,11 @@
     {
       "slug": "sibylline-oracles",
       "name_zh": "西比拉神諭集",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -11903,6 +12098,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "sibylline-oracles",
       "name_zh": "西比拉神諭集",
       "religion": "古希臘羅馬"
@@ -12162,6 +12362,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
@@ -12412,6 +12617,11 @@
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "tale-of-igor-ru",
@@ -12861,6 +13071,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -13280,6 +13495,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -13395,6 +13615,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
       "religion": "印度教"
@@ -13490,6 +13715,11 @@
       "slug": "an8-eights",
       "name_zh": "AN8 八法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "avatamsaka-sutra",
@@ -13655,6 +13885,11 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "job",
@@ -13840,6 +14075,11 @@
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "splendour-of-god",
