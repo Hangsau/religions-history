@@ -3,11 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態（2026-07-06 重生統計）
+## 當前狀態（2026-07-06 深夜續，用戶授權自主收集/整理後）
 
-**4677 部 / 27 宗教 / 640.3 MB / 已 AI 譯註 200 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
+**4683 部 / 27 宗教 / 643.9 MB / 已 AI 譯註 201 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
-> **原文補收（2026-07-06 再確認）：核心可收待補歸零。** `audit-core.py` 實測 0 部可收待補；所有有乾淨來源的核心原文皆已收；剩 **29** 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
+> **原文補收：可收待補 7 部（39 部已查明無乾淨來源）。** 見下方「2026-07-06 深夜：印加/凱爾特補收 + 核心稽核修正」。
+
+## 2026-07-06 深夜：印加/凱爾特補收 + 核心稽核修正（用戶「有譯文的先下載標注、其他自行安排」授權下自主執行，3 commit 皆已 push）
+
+- **印加西語編年史 archive.org 收 4 部**（commit f3004997，新建 `americas-inca-archive.json` + 沿用 `download-archive.py`）：Sarmiento《印卡史》(Markham 1907 Hakluyt Society) / Garcilaso《印加王室述評第一部》(Markham 1869) / Cieza de León 秘魯編年史第一、二部 (Markham 1864/1883)。皆 pre-1928 公版英譯掃描，`tier=次要`、`text_role=translation`（西語原稿未公版，僅收其 19c 英譯）。填補 HANDOFF 先前留下的「_inca-spanish-chronicles archive.org 候選」缺口。
+- **凱爾特 CELT 補 2 部核心**（commit 6bd9d8a9，`celtic-celt.json` 新增 `cath-maige-tuired-ga`/`-en`）：第二次莫伊圖拉之戰（神話傳說群 Tuatha Dé Danann vs Fomorians 創世/主權神話核心）古愛爾蘭語原文（G300010）+ Elizabeth A. Gray 英譯對照（T300010）。內容已 spot-check 確認語言正確（古愛爾蘭語 vs 英文非誤植）。
+- **核心稽核修正 9 部**（commit ac3ee46a）：稽核發現同日稍早「美洲加州/平原民族誌 +12 部」批次（peyote-cult / sun-dance-ceremonies / chinigchinich / iroquois-book-of-rites / iroquois-cosmology / origin-myth-of-acoma 等）進了核心卻未同步分類，被 `audit-core.py` 誤標「可收待補」17 部。逐部查證後補 `original-source-status.json` 9 條理由（7 部 `oral-no-script` 接觸前無書寫系統、2 部 `no-single-original` 跨部落學術彙編），可收待補 17→7。
+- **剩餘 7 部開放線索**（`00-overview/original-text-todo.md`，非死路，留待下輪查證）：
+  - 巴哈伊 3 部（`kitab-i-iqan-ighan` / `seven-valleys-four-valleys` / `some-answered-questions`）——波斯/阿拉伯語原文理論上存在，待查公版來源。
+  - `apu-ollantay`（印加克丘亞語古典戲劇）——本輪查過兩個 archive.org 候選（H807659 西/法學術版、Gutenberg `apuollantay09068gut`），皆非乾淨克丘亞語原文獨立文本（後者雖標題提「Justiniani text」實為 Markham 英譯全文+註腳），未達標準暫不收，需再找他源。
+  - `narratives-rites-laws-yncas`（印加西語編年史，Molina/Salcamayhua 合輯）——與本輪剛收的 Inca archive.org 批次同類型，是下一個最低成本延伸目標。
+  - `pistis-sophia`（諾斯底，科普特文）——大概率同其他諾斯底文本落 blocked-access，本輪未確認。
+  - `cherokee-sacred-formulas`——切羅基有 Sequoyah 音節文字（真正的書寫系統），**不可**歸入 oral-no-script；`audit-core.py` 自身標「疑似音譯待確認 text_role」，需下輪判定 `text_role`（很可能是 `original` 而非誤判的口傳無文字）。
+- **未動**：並行 Pipeline B+C supervisor 同時段自行提交 `sophocles-antigone-el` 翻譯進度（獨立 commit，未與本輪 3 commit 混插）。
+
+**下一步建議**：① `narratives-rites-laws-yncas` 印加西語編年史（同 `download-archive.py` 路線，最低成本）；② 7 部開放線索逐一查證；③ HANDOFF 先前列的「最可行批次」（美洲 nam/ 續、凱爾特 CELT 續、印度教 GRETIL 續、神道 wikisource 續）仍可繼續；④ 大宗未動 backlog（CBETA T18-55 ~1300 部、塔木德全本、教父 ANF/NPNF ~38 卷、巴利律藏/本生經 ~1000 部、道藏 ~500 部、大正大般若 600 卷、藏文甘珠爾/丹珠爾 ~5000 部）規模龐大，需與用戶確認是否列入排程。
 
 ## 2026-07-06 夜間自主收集 sweep（補齊各宗教核心缺口）
 
