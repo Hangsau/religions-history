@@ -24,6 +24,13 @@
 
 **下一步建議**：① `narratives-rites-laws-yncas` 印加西語編年史（同 `download-archive.py` 路線，最低成本）；② 7 部開放線索逐一查證；③ HANDOFF 先前列的「最可行批次」（美洲 nam/ 續、凱爾特 CELT 續、印度教 GRETIL 續、神道 wikisource 續）仍可繼續；④ 大宗未動 backlog（CBETA T18-55 ~1300 部、塔木德全本、教父 ANF/NPNF ~38 卷、巴利律藏/本生經 ~1000 部、道藏 ~500 部、大正大般若 600 卷、藏文甘珠爾/丹珠爾 ~5000 部）規模龐大，需與用戶確認是否列入排程。
 
+### 接續（同日，commit 0ad0f7f5，可收待補 7→6）
+
+- **`narratives-rites-laws-yncas` 查證完畢，非可收**：Molina 西語原稿唯一可見版本是 archive.org `relacion-de-las-fabulas-y-ritos-de-los-incas`（2020 上傳），比對後確認是 2010 Iberoamericana/Vervuert 版權校訂本（非公版掃描），不可收，記入 blocked-access。`_inca-spanish-chronicles` 條目同步更新：英譯 4 部已收，西語原文仍缺口。
+- **`cherokee-sacred-formulas` text_role 人工核查完畢**：書名含「咒」被 audit-core 名稱啟發式誤判疑似音譯。實查內文（ch.29-55 羅馬化切羅基語咒文+英譯交錯單檔，ch.1-28 為 Mooney 英語民族誌論述）：非 dharani 式純音譯（有實質語義）、切羅基有 Sequoyah 音節文字非無文字傳統，故不屬 oral-no-script；但雙語交錯單檔難乾淨切分成獨立原文/譯文檔，text_role 故意留 null，理由存 `composition_note`。`audit-core.py` 同步加規則：`composition_note` 存在即視為已人工複核，不再重複浮現於待確認清單。
+- **剩 6 部開放線索**（3 巴哈伊波斯/阿拉伯原文、`apu-ollantay` 克丘亞語、`pistis-sophia` 科普特文）需要更深入的語種/館藏研究，非本輪 archive.org 快速路線可解，留待下輪。
+- **本輪暫緩自主收集**：核心缺口已實質歸零（6 部皆非「有源未收」而是「查無乾淨源」待更深研究），繼續盲目 sweep 效益遞減；下次接手建議先決定方向——續查 6 部開放線索 / 轉 v3 次要層擴充 / 轉 Pipeline B+C 翻譯續跑 / 啟動大宗 backlog（需用戶拍板規模）。
+
 ## 2026-07-06 夜間自主收集 sweep（補齊各宗教核心缺口）
 
 站主授權「缺口都要補起來…只有找遍找不到，沒有不找的」自主過夜收集。本輪成果：
