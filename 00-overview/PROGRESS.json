@@ -27,7 +27,7 @@
     "pct_core": 100,
     "pct_v3_listed": 100,
     "pct_full": 19.28,
-    "with_translation": 40,
+    "with_translation": 41,
     "with_semantic_tags": 0,
     "total_bytes": 340624890,
     "by_tradition": {
@@ -113,7 +113,7 @@
     "pct_core": 100,
     "pct_v3_listed": 86.7,
     "pct_full": 8.67,
-    "with_translation": 0,
+    "with_translation": 1,
     "with_semantic_tags": 0,
     "total_bytes": 11533938,
     "by_tradition": {
@@ -155,7 +155,7 @@
     "pct_core": 100,
     "pct_v3_listed": 44.4,
     "pct_full": 3.7,
-    "with_translation": 13,
+    "with_translation": 14,
     "with_semantic_tags": 0,
     "total_bytes": 63240768,
     "by_tradition": {
@@ -194,7 +194,7 @@
     "pct_core": 100,
     "pct_v3_listed": 72.0,
     "pct_full": 14.4,
-    "with_translation": 1,
+    "with_translation": 3,
     "with_semantic_tags": 0,
     "total_bytes": 36655645,
     "by_tradition": {
@@ -399,21 +399,21 @@
     "original_count": 5
   },
   "美洲": {
-    "done": 8,
+    "done": 21,
     "target_core": 3,
     "target_v3_listed": 50,
     "target_full_canon": 500,
     "pct_core": 100,
-    "pct_v3_listed": 16.0,
-    "pct_full": 1.6,
+    "pct_v3_listed": 42.0,
+    "pct_full": 4.2,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 4176693,
+    "total_bytes": 10121102,
     "by_tradition": {
-      "—": 8
+      "—": 21
     },
     "by_source": {
-      "sacred-texts.com": 8
+      "sacred-texts.com": 21
     },
     "original_count": 0
   },
