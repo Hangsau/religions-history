@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**497** 部
-- 已翻譯：**192** / 497
-- 已標籤：**388** / 497
+- 核心總數：**504** 部
+- 已翻譯：**192** / 504
+- 已標籤：**388** / 504
 
 ## 各宗教核心進度
 
@@ -22,21 +22,21 @@
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
 | 耆那教 | 7 | 1 | 3 |
+| 諾斯底 | 6 | 0 | 5 |
+| 現代新興 | 5 | 0 | 2 |
 | 神道 | 5 | 0 | 1 |
-| 諾斯底 | 5 | 0 | 5 |
 | 錫克教 | 4 | 1 | 3 |
+| 巴哈伊 | 4 | 0 | 1 |
 | 伊斯蘭 | 4 | 1 | 4 |
 | 瑪雅 | 3 | 0 | 2 |
 | 兩河 | 3 | 0 | 3 |
 | 斯拉夫 | 3 | 1 | 3 |
-| 現代新興 | 2 | 0 | 2 |
 | 非洲 | 2 | 0 | 2 |
 | 阿茲特克 | 1 | 0 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
 | 印加 | 1 | 0 | 1 |
 | 美洲 | 1 | 0 | 0 |
 | 墨家 | 1 | 1 | 0 |
-| 巴哈伊 | 1 | 0 | 1 |
 
 ## 缺口分析
 
@@ -57,10 +57,10 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 285 |
-| translation | 195 |
+| original | 286 |
+| translation | 197 |
 | contested | 2 |
-| (未標) | 15 |
+| (未標) | 19 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -72,8 +72,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**1** 個 / 核心 **1** 部
-- 名單：美洲
+- 唯一英譯本宗教：**3** 個 / 核心 **5** 部
+- 名單：巴哈伊、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -579,6 +579,23 @@
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 
+### 諾斯底（6 部）
+
+- `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
+- `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
+- `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
+- `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
+- `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
+- `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
+
+### 現代新興（5 部）
+
+- `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標✓
+- `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯– 標–
+- `pearl-of-great-price` 無價珍珠（English (原典)）譯– 標✓
+- `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯– 標–
+
 ### 神道（5 部）
 
 - `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯– 標–
@@ -587,20 +604,19 @@
 - `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯– 標–
 - `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
 
-### 諾斯底（5 部）
-
-- `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
-- `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
-- `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
-- `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
-- `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
-
 ### 錫克教（4 部）
 
 - `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
 - `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯– 標–
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
+
+### 巴哈伊（4 部）
+
+- `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）譯– 標–
+- `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）譯– 標–
+- `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯– 標✓
 
 ### 伊斯蘭（4 部）
 
@@ -627,11 +643,6 @@
 - `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯– 標✓
 - `tale-of-igor-ru` 伊戈爾遠征記（古東斯拉夫原文）（古東斯拉夫）譯✓ 標✓
 
-### 現代新興（2 部）
-
-- `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標✓
-- `pearl-of-great-price` 無價珍珠（English (原典)）譯– 標✓
-
 ### 非洲（2 部）
 
 - `ife-mythology` 伊費神話 (約魯巴)（English (translation)）譯– 標✓
@@ -656,8 +667,4 @@
 ### 墨家（1 部）
 
 - `mozi` 墨子（古典漢語）譯✓ 標–
-
-### 巴哈伊（1 部）
-
-- `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯– 標✓
 

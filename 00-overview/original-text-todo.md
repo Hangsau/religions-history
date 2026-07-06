@@ -4,7 +4,17 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**1** 部，橫跨 **1** 宗教
+- 可收待補原文核心：**5** 部，橫跨 **3** 宗教
+
+## 巴哈伊（3 部）
+
+- [ ] `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）— 未譯，原文待補
+- [ ] `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）— 未譯，原文待補
+
+## 諾斯底（1 部）
+
+- [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 
 ## 美洲（1 部）
 

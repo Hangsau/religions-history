@@ -81,6 +81,20 @@ MiniMax 週一（2026-07-06）回來前的免付費工作。翻譯管線仍 HALT
 ### 週一（2026-07-06）MiniMax 回來後
 1. 刪 `logs/pipeline-HALT.flag`。2. 確認 `translate.py` PRIMARY_MODEL 指回 MiniMax。3. 開刊版 / 拉 supervisor 續跑核心翻譯佇列。4. Sefaria downloader 已修（整本抓+遞迴攤平），未來全庫爬蟲不再漏抓巢狀註釋。
 
+## 2026-07-06 Pipeline B+C 續批次（+4 檔）+ LLM fleet 切回 MiniMax-M3
+
+**翻譯後端切回主力（commit 17d339cf）**：MiniMax 月費配額 2026-07-06 重置，`translate.py` PRIMARY_MODEL 從 deepseek-v4-pro 切回 MiniMax-M3，結束上週因 MiniMax 99% 耗盡被迫改用按量計費 reasoning 模型的暫時措施。`fallback_model` 維持 deepseek-v4-flash 作跨家備援（不同 provider，避免雙線同死）。
+
+**續批次 +4 檔**（`auto-pipeline.py` 自動跑，gita-govinda 仍在佇列中）：
+- `bud-vajracchedika-prajnaparamita-sa`（金剛經梵文原典，鳩摩羅什漢譯對照）— semantic_tags 14 個（emptiness / non-dual / chanting / ultimate-reality / 涅槃 / śūnyatā 等）
+- `taiyi-jinhua-zongzhi`（太乙金華宗旨，衛禮賢《金花的秘密》中譯底本）— semantic_tags 13 個（迴光返照、multiple-souls、mystical-union、玄關等）
+- `wuzhen-pian`（悟真篇，張伯端內丹南宗祖經）— semantic_tags 6 個（meditation / non-dual / self-effort / syncretic / 性命、鉛汞）
+- `zuowang-lun`（坐忘論，唐司馬承禎心性修養七階）— semantic_tags 7 個（emptiness / mystical-union / 形神 / 歸根 / 上清）
+
+**核心進度（2026-07-06 11:59 audit-core）**：核心 496 / 已譯 191 / 已標籤 387。佇列 PIPELINE_STATUS 報 189/492（含 core 之外的 tier=核心 標記）。失敗待重試 0 部。Gita-govinda（牧童歌，梵文詩劇 Jayadeva）正處理中——梵文偈頌直譯 + 規則 5 詩體保詩體。`verify.py --all` 全綠。
+
+**操作觀察**：4 部中 3 部（taiyi / wuzhen / zuowang）走古典漢語 verbatim 短路（無 LLM 呼叫、零成本），僅 vajracchedika-sa 梵文 + gita-govinda 梵文用 MiniMax 計費。回切 MiniMax 主力是這次決策主因——vajracchedika-sa 378 行 + gita-govinda 估 200 行，總計 <600 行梵文新譯，月費 5H 窗吃得下。
+
 ## 2026-07-05 WS3：心理學讀經層——由下而上分類（P6 前置，免付費）
 
 翻譯管線仍 HALT 期間的規劃型工作。核心意圖見 memory `project_religions_history_psych_lens.md`：本專案終點不只原文庫，而是**用心理學透鏡讀經 + 跨宗教比較**。本輪把這條線推到「分類已收斂、對照真實經典」的雛型。

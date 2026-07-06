@@ -18,6 +18,19 @@
     {"slug": "zuni-myths", "st_book_path": "nam/zuni/zft", "name_zh": "祖尼民間故事 (Cushing)", "name_en": "Zuni Folk Tales (Cushing)", "religion": "美洲", "tier": "次要", "is_original_language": false},
     {"slug": "inuit-myths", "st_book_path": "nam/inu/tte", "name_zh": "愛斯基摩傳說故事 (Rink)", "name_en": "Tales and Traditions of the Eskimo (Rink)", "religion": "美洲", "tier": "次要", "is_original_language": false},
     {"slug": "plains-myths", "st_book_path": "nam/pla/blt", "name_zh": "黑腳族營帳傳說 (Grinnell)", "name_en": "Blackfeet Lodge Tales (Grinnell)", "religion": "美洲", "tier": "次要", "is_original_language": false},
-    {"slug": "northwest-coast-myths", "st_book_path": "nam/nw/tmt", "name_zh": "特林吉特神話與文本 (Swanton)", "name_en": "Tlingit Myths and Texts (Swanton)", "religion": "美洲", "tier": "次要", "is_original_language": false}
+    {"slug": "northwest-coast-myths", "st_book_path": "nam/nw/tmt", "name_zh": "特林吉特神話與文本 (Swanton)", "name_en": "Tlingit Myths and Texts (Swanton)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "cherokee-sacred-formulas", "st_book_path": "nam/cher/sfoc", "name_zh": "切羅基神聖咒文 (Mooney)", "name_en": "Sacred Formulas of the Cherokee (Mooney)", "religion": "美洲", "tier": "核心", "is_original_language": false, "notes": "切羅基巫醫祭儀咒文彙編，含切羅基語咒文與英譯對照，宗教儀式核心文本。"},
+    {"slug": "code-of-handsome-lake", "st_book_path": "nam/iro/parker", "name_zh": "英俊湖法典 (塞內卡先知啟示)", "name_en": "The Code of Handsome Lake, the Seneca Prophet (Parker)", "religion": "美洲", "tier": "核心", "is_original_language": false, "notes": "塞內卡先知 Handsome Lake (Ganeodiyo) 19 世紀初宗教復興啟示，Longhouse Religion 教義根本文本。"},
+    {"slug": "iroquois-book-of-rites", "st_book_path": "nam/iro/ibr", "name_zh": "易洛魁儀禮之書 (Hale)", "name_en": "The Iroquois Book of Rites (Hale)", "religion": "美洲", "tier": "核心", "is_original_language": false, "notes": "易洛魁聯盟哀悼會 (Condolence Council) 儀式頌詞，含莫霍克／奧農達加語與英譯。"},
+    {"slug": "seneca-indian-myths", "st_book_path": "nam/iro/sim", "name_zh": "塞內卡神話 (Curtin)", "name_en": "Seneca Indian Myths (Curtin)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "origin-myth-of-acoma", "st_book_path": "nam/sw/oma", "name_zh": "阿科馬創世神話", "name_en": "Origin Myth of Acoma", "religion": "美洲", "tier": "核心", "is_original_language": false, "notes": "阿科馬普韋布洛創世神話，Iatiku 女神造世界之敘事。"},
+    {"slug": "pima-nights", "st_book_path": "nam/sw/ain", "name_zh": "皮馬印第安夜話 (創世神話集)", "name_en": "Aw-aw-tam Indian Nights (Pima myths)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "yaqui-myths", "st_book_path": "nam/sw/yml", "name_zh": "雅基神話與傳說", "name_en": "Yaqui Myths and Legends", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "pueblo-folk-stories", "st_book_path": "nam/sw/pifs", "name_zh": "普韋布洛民間故事 (Lummis)", "name_en": "Pueblo Indian Folk-Stories (Lummis)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "miwok-dawn-of-world", "st_book_path": "nam/ca/dow", "name_zh": "世界之曙 (米沃克神話)", "name_en": "The Dawn of the World (Miwok myths)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "creation-myths-primitive-america", "st_book_path": "nam/ca/cma", "name_zh": "原始美洲創世神話 (Curtin)", "name_en": "Creation Myths of Primitive America (Curtin)", "religion": "美洲", "tier": "核心", "is_original_language": false, "notes": "加州部落 (Wintu/Yana 等) 創世神話彙編，Curtin 1898。"},
+    {"slug": "kwakiutl-tales", "st_book_path": "nam/nw/kt", "name_zh": "夸夸嘉夸族傳說 (Boas)", "name_en": "Kwakiutl Tales (Boas)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "blackfoot-old-north-trail", "st_book_path": "nam/pla/ont", "name_zh": "古老北方之路 (黑腳族信仰生活)", "name_en": "The Old North Trail (McClintock)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "southeastern-myths-tales", "st_book_path": "nam/se/mtsi", "name_zh": "東南部印第安神話與故事 (Swanton)", "name_en": "Myths and Tales of the Southeastern Indians (Swanton)", "religion": "美洲", "tier": "次要", "is_original_language": false}
   ]
 }

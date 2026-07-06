@@ -27,7 +27,7 @@
     "pct_core": 100,
     "pct_v3_listed": 100,
     "pct_full": 19.28,
-    "with_translation": 39,
+    "with_translation": 40,
     "with_semantic_tags": 0,
     "total_bytes": 340624890,
     "by_tradition": {
@@ -155,7 +155,7 @@
     "pct_core": 100,
     "pct_v3_listed": 44.4,
     "pct_full": 3.7,
-    "with_translation": 12,
+    "with_translation": 13,
     "with_semantic_tags": 0,
     "total_bytes": 63240768,
     "by_tradition": {
@@ -250,20 +250,22 @@
     "original_count": 1
   },
   "巴哈伊": {
-    "done": 1,
+    "done": 4,
     "target_core": 5,
     "target_v3_listed": 25,
     "target_full_canon": 1200,
-    "pct_core": 20.0,
-    "pct_v3_listed": 4.0,
-    "pct_full": 0.08,
+    "pct_core": 80.0,
+    "pct_v3_listed": 16.0,
+    "pct_full": 0.33,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 149561,
+    "total_bytes": 1030078,
     "by_tradition": {
-      "—": 1
+      "—": 4
     },
     "by_source": {
+      "archive.org": 2,
+      "en.wikisource.org": 1,
       "sacred-texts.com": 1
     },
     "original_count": 0
@@ -316,23 +318,25 @@
     "original_count": 1425
   },
   "現代新興": {
-    "done": 2,
+    "done": 5,
     "target_core": 5,
     "target_v3_listed": 100,
     "target_full_canon": 1000,
-    "pct_core": 40.0,
-    "pct_v3_listed": 2.0,
-    "pct_full": 0.2,
+    "pct_core": 100,
+    "pct_v3_listed": 5.0,
+    "pct_full": 0.5,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 1578014,
+    "total_bytes": 4305411,
     "by_tradition": {
-      "—": 2
+      "—": 5
     },
     "by_source": {
-      "en.wikisource.org": 2
+      "en.wikisource.org": 3,
+      "sacred-texts.com": 1,
+      "archive.org": 1
     },
-    "original_count": 2
+    "original_count": 4
   },
   "瑣羅亞斯德": {
     "done": 11,
@@ -395,21 +399,21 @@
     "original_count": 5
   },
   "美洲": {
-    "done": 1,
+    "done": 8,
     "target_core": 3,
     "target_v3_listed": 50,
     "target_full_canon": 500,
-    "pct_core": 33.3,
-    "pct_v3_listed": 2.0,
-    "pct_full": 0.2,
+    "pct_core": 100,
+    "pct_v3_listed": 16.0,
+    "pct_full": 1.6,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 34123,
+    "total_bytes": 4176693,
     "by_tradition": {
-      "—": 1
+      "—": 8
     },
     "by_source": {
-      "sacred-texts.com": 1
+      "sacred-texts.com": 8
     },
     "original_count": 0
   },
@@ -434,21 +438,21 @@
     "original_count": 11
   },
   "諾斯底": {
-    "done": 5,
+    "done": 6,
     "target_core": 9,
     "target_v3_listed": 60,
     "target_full_canon": 200,
-    "pct_core": 55.6,
-    "pct_v3_listed": 8.3,
-    "pct_full": 2.5,
+    "pct_core": 66.7,
+    "pct_v3_listed": 10.0,
+    "pct_full": 3.0,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 4156517,
+    "total_bytes": 4806771,
     "by_tradition": {
-      "—": 5
+      "—": 6
     },
     "by_source": {
-      "sacred-texts.com": 5
+      "sacred-texts.com": 6
     },
     "original_count": 0
   },
@@ -479,7 +483,7 @@
     "pct_core": 100,
     "pct_v3_listed": 92.5,
     "pct_full": 0.62,
-    "with_translation": 14,
+    "with_translation": 17,
     "with_semantic_tags": 0,
     "total_bytes": 7235508,
     "by_tradition": {

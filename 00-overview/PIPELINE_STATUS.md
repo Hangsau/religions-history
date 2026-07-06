@@ -2,10 +2,10 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-07-06 12:26:23 +0800
+- 更新時間：2026-07-06 17:49:43 +0800
 - 佇列 tier：**核心**
-- 進度：**190 / 492** 已翻譯+標籤
-- 目前處理：`gita-govinda`
+- 進度：**194 / 492** 已翻譯+標籤
+- 目前處理：`epictetus-enchiridion-el`
 - 失敗待重試：0 部
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`keywords` 回填 `meta.json`
