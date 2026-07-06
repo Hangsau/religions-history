@@ -2,9 +2,9 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**516** 部
-- 已翻譯：**200** / 516
-- 已標籤：**394** / 516
+- 核心總數：**518** 部
+- 已翻譯：**201** / 518
+- 已標籤：**395** / 518
 
 ## 各宗教核心進度
 
@@ -13,15 +13,15 @@
 | 基督教 | 161 | 87 | 159 |
 | 佛教 | 74 | 42 | 65 |
 | 印度教 | 58 | 14 | 27 |
-| 古希臘羅馬 | 46 | 3 | 15 |
+| 古希臘羅馬 | 46 | 4 | 16 |
 | 猶太教 | 45 | 20 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 1 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
+| 凱爾特 | 9 | 0 | 4 |
 | 古埃及 | 8 | 0 | 8 |
-| 凱爾特 | 7 | 0 | 4 |
 | 耆那教 | 7 | 1 | 3 |
 | 諾斯底 | 6 | 0 | 5 |
 | 現代新興 | 5 | 0 | 2 |
@@ -57,8 +57,8 @@
 
 | text_role | 核心部數 |
 |-----------|---------|
-| original | 286 |
-| translation | 197 |
+| original | 287 |
+| translation | 198 |
 | contested | 2 |
 | (未標) | 31 |
 
@@ -72,8 +72,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**4** 個 / 核心 **17** 部
-- 名單：美洲、巴哈伊、印加、諾斯底
+- 唯一英譯本宗教：**4** 個 / 核心 **7** 部
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -428,7 +428,7 @@
 - `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯– 標–
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
 - `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯– 標–
-- `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯– 標–
+- `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯– 標–
 - `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
 - `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯– 標–
@@ -562,6 +562,18 @@
 - `shang-shu` 尚書（古典漢語）譯✓ 標✓
 - `taiji-tushuo` 太極圖說（古典漢語）譯✓ 標✓
 
+### 凱爾特（9 部）
+
+- `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯– 標✓
+- `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯– 標✓
+- `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯– 標–
+- `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯– 標–
+- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
+- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
+- `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
+
 ### 古埃及（8 部）
 
 - `book-of-am-tuat` 阿姆杜阿特之書（幽冥界之書）（English (Budge translation)）譯– 標✓
@@ -572,16 +584,6 @@
 - `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯– 標✓
 - `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯– 標✓
 - `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標✓
-
-### 凱爾特（7 部）
-
-- `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯– 標✓
-- `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯– 標✓
-- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
-- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
-- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
-- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
-- `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
 
 ### 耆那教（7 部）
 

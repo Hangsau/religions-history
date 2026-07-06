@@ -4,21 +4,7 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**17** 部，橫跨 **4** 宗教
-
-## 美洲（11 部）
-
-- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
-- [ ] `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）— 未譯，原文待補
-- [ ] `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）— 未譯，原文待補
-- [ ] `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）— 未譯，原文待補
-- [ ] `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）— 未譯，原文待補
-- [ ] `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）— 未譯，原文待補
-- [ ] `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）— 未譯，原文待補
-- [ ] `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）— 未譯，原文待補
-- [ ] `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）— 未譯，原文待補
-- [ ] `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）— 未譯，原文待補
-- [ ] `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）— 未譯，原文待補
+- 可收待補原文核心：**7** 部，橫跨 **4** 宗教
 
 ## 巴哈伊（3 部）
 
@@ -35,6 +21,10 @@
 
 - [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 
+## 美洲（1 部）
+
+- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
+
 ---
 
 ## 已查明無乾淨原文來源（附探查記錄，非未查的待辦）
@@ -42,7 +32,7 @@
 > 這些核心經過實際探查，確認目前無乾淨可收的原文來源。分三類，逐部附理由與已探來源。
 > 出現乾淨來源即收——移除 `original-source-status.json` 對應條目即回到可收待補。
 
-- 已查明無乾淨來源：**29** 部
+- 已查明無乾淨來源：**39** 部
 
 ### 來源受牆／無乾淨匯出（原文存於已知數位語料庫但存取受阻）（17 部）
 
@@ -98,17 +88,26 @@
   - 理由：Mercer 英譯金字塔銘文（536KB）；實測含散見音譯詞（smin、sḥ-n-t-r 等 649 附標字元）但非連續轉寫，僅為 apparatus。連續轉寫需 TLA／Sethe（受牆）。
   - 已探來源：sacred-texts(Mercer,英)；TLA(無乾淨匯出)
 
-### 英/西譯為學術彙編或選集，無單一底本（9 部）
+### 英/西譯為學術彙編或選集，無單一底本（12 部）
 
 - `chilam-balam` 契倫·巴蘭之書 (Chumayel)（瑪雅）
   - 理由：Roys 英譯 Chumayel（實測英文為主，僅散見馬雅曆法／神名詞）。尤卡坦馬雅語轉寫（Chumayel 手稿）無乾淨全文數位來源（Gordon 1913 為影印非文本）。
   - 已探來源：sacred-texts(Roys,英)；es/en.wikisource(無)
+- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（美洲）
+  - 理由：Curtin 19c 跨部落創世神話選集（多語言口傳採錄彙編），非單一底本、非單一語言，無對應原文可收。
+  - 已探來源：sacred-texts(Curtin,英彙編)
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（諾斯底）
   - 理由：Mead 19c 學術散文著作（諾斯底研究概論），非單一底本經文；無對應原文可收。
   - 已探來源：sacred-texts(Mead,英著作)
 - `gnostics-and-their-remains` 諾斯底與其遺存 (King)（諾斯底）
   - 理由：C.W. King 19c 學術著作（諾斯底遺存考），非經文底本。
   - 已探來源：sacred-texts(King,英著作)
+- `religion-indians-california` 加州印第安人的宗教 (Kroeber)（美洲）
+  - 理由：Kroeber 學術民族誌著作（加州原住民宗教研究），非經文底本，無原文可收。
+  - 已探來源：sacred-texts(Kroeber,英著作)
+- `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（美洲）
+  - 理由：DuBois 學術民族誌著作（路易塞紐宗教研究），非經文底本，無原文可收。
+  - 已探來源：sacred-texts(DuBois,英著作)
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（錫克教）
   - 理由：Macauliffe 六卷《The Sikh Religion》為學術彙編（史傳＋選譯），非單一底本；Gurbani 原文已另收於 guru-granth-sahib-pa（古木基旁遮普原文）。
   - 已探來源：sacred-texts(Macauliffe,英彙編)
@@ -128,14 +127,35 @@
   - 理由：Gates 英譯 Landa《Relación de las cosas de Yucatán》（實測純英文）。西班牙文原文為公版但乾淨數位版僅存於 2002 現代校訂本（含受版權編輯 apparatus，OCR 無法乾淨切分）；archive.org 無乾淨 PD 西文版索引。
   - 已探來源：sacred-texts(Gates,英)；es.wikisource(無)；archive.org(僅2002受版權OCR/1898為他書)
 
-### 口傳傳統，無文字書寫系統（採錄本即最早可及形式）（3 部）
+### 口傳傳統，無文字書寫系統（採錄本即最早可及形式）（10 部）
 
+- `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（美洲）
+  - 理由：路易塞紐（Luiseño/Juaneño）加州原住民宗教，接觸前無書寫系統；Boscana 原文本身以西班牙文寫成（傳教士記錄，非印第安語原文翻譯），無母語書面原典可收。
+  - 已探來源：sacred-texts(Boscana,英譯自西班牙文記錄)
+- `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（美洲）
+  - 理由：塞內卡（易洛魁）先知漢森湖（Handsome Lake）Gaiwiio 教誨，口傳承襲，塞內卡語無原生書寫系統；Parker 英文整理即最早可及書面形式。
+  - 已探來源：sacred-texts(Parker,英採錄)
 - `ife-mythology` 伊費神話 (約魯巴)（非洲）
   - 理由：約魯巴口傳傳統，前文字社會無音位書寫系統；英文採錄本即最早可及形式，無書面原文可收。
   - 已探來源：sacred-texts(英採錄)
 - `inca-rites` 印加儀禮與法律（印加）
   - 理由：印加用結繩（quipu）記事，無表音文字；Markham 由西班牙編年史家（Molina/Salcamayhua）英譯整理，無單一書面原典。部分克丘亞語祈禱（Molina）存殘篇但非此彙編底本。
   - 已探來源：sacred-texts(Markham,英彙編)
+- `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（美洲）
+  - 理由：易洛魁「悼念會議」(Condolence Council) 儀禮，口傳承襲的儀式文本；Hale 英文整理即最早書面形式（含部分易洛魁語詞彙音譯，但無完整原生書寫文本）。
+  - 已探來源：sacred-texts(Hale,英整理)
+- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（美洲）
+  - 理由：易洛魁宇宙觀神話，口傳無文字；Hewitt 學術英文記錄即最早可及形式。
+  - 已探來源：sacred-texts(Hewitt,英採錄)
+- `origin-myth-of-acoma` 阿科馬創世神話（美洲）
+  - 理由：阿科馬普韋布洛（Acoma Pueblo）創世神話，口傳無文字；Stirling 英文採錄即最早書面形式。
+  - 已探來源：sacred-texts(Stirling,英採錄)
+- `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（美洲）
+  - 理由：佩約特教（Native American Church）儀式源於平原/西南部原住民口傳，無原生書寫系統；La Barre/相關英文記錄即最早可及形式。
+  - 已探來源：sacred-texts(英採錄)
+- `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（美洲）
+  - 理由：奧格拉拉蘇族（Oglala Sioux）太陽舞儀式，拉科塔語傳統上無書寫系統；Walker 英文記錄即最早可及形式。
+  - 已探來源：sacred-texts(Walker,英採錄)
 - `yoruba-religion` 約魯巴宗教與神話（非洲）
   - 理由：約魯巴宗教口傳，無文字原典；英文本為採錄／整理。
   - 已探來源：sacred-texts(英採錄)

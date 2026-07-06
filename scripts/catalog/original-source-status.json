@@ -40,6 +40,17 @@
 
     "vishnudharmottara-purana": {"status": "blocked-access", "reason": "《毗濕奴法上往世書》梵文原文；GRETIL 索引列 sa_viSNudharmottarapurANa3.htm 與 sa_viSNudharmottarapurANa-2.htm 兩檔皆為死連結(實測 HTTP 404)，另試 1/2/3/khaNDa 變體亦全 404。GRETIL 以外無其他乾淨 IAST 全文匯出。日後 GRETIL 修復連結即可收。", "probed": ["gretil(索引列2檔皆404)", "gretil(1/2/3/khaNDa變體皆404)"]},
 
+    "chinigchinich": {"status": "oral-no-script", "reason": "路易塞紐（Luiseño/Juaneño）加州原住民宗教，接觸前無書寫系統；Boscana 原文本身以西班牙文寫成（傳教士記錄，非印第安語原文翻譯），無母語書面原典可收。", "probed": ["sacred-texts(Boscana,英譯自西班牙文記錄)"]},
+    "code-of-handsome-lake": {"status": "oral-no-script", "reason": "塞內卡（易洛魁）先知漢森湖（Handsome Lake）Gaiwiio 教誨，口傳承襲，塞內卡語無原生書寫系統；Parker 英文整理即最早可及書面形式。", "probed": ["sacred-texts(Parker,英採錄)"]},
+    "origin-myth-of-acoma": {"status": "oral-no-script", "reason": "阿科馬普韋布洛（Acoma Pueblo）創世神話，口傳無文字；Stirling 英文採錄即最早書面形式。", "probed": ["sacred-texts(Stirling,英採錄)"]},
+    "peyote-cult": {"status": "oral-no-script", "reason": "佩約特教（Native American Church）儀式源於平原/西南部原住民口傳，無原生書寫系統；La Barre/相關英文記錄即最早可及形式。", "probed": ["sacred-texts(英採錄)"]},
+    "sun-dance-ceremonies": {"status": "oral-no-script", "reason": "奧格拉拉蘇族（Oglala Sioux）太陽舞儀式，拉科塔語傳統上無書寫系統；Walker 英文記錄即最早可及形式。", "probed": ["sacred-texts(Walker,英採錄)"]},
+    "iroquois-book-of-rites": {"status": "oral-no-script", "reason": "易洛魁「悼念會議」(Condolence Council) 儀禮，口傳承襲的儀式文本；Hale 英文整理即最早書面形式（含部分易洛魁語詞彙音譯，但無完整原生書寫文本）。", "probed": ["sacred-texts(Hale,英整理)"]},
+    "iroquois-cosmology": {"status": "oral-no-script", "reason": "易洛魁宇宙觀神話，口傳無文字；Hewitt 學術英文記錄即最早可及形式。", "probed": ["sacred-texts(Hewitt,英採錄)"]},
+    "creation-myths-primitive-america": {"status": "no-single-original", "reason": "Curtin 19c 跨部落創世神話選集（多語言口傳採錄彙編），非單一底本、非單一語言，無對應原文可收。", "probed": ["sacred-texts(Curtin,英彙編)"]},
+    "religion-indians-california": {"status": "no-single-original", "reason": "Kroeber 學術民族誌著作（加州原住民宗教研究），非經文底本，無原文可收。", "probed": ["sacred-texts(Kroeber,英著作)"]},
+    "religion-luiseno-indians": {"status": "no-single-original", "reason": "DuBois 學術民族誌著作（路易塞紐宗教研究），非經文底本，無原文可收。", "probed": ["sacred-texts(DuBois,英著作)"]},
+
     "_mesoamerican-codices": {"status": "no-single-original", "reason": "v3 美洲清單尾端的中美抄本群（Dresden/Madrid/Paris/Grolier/Borgia/Borbonicus/Mendoza/Florentine/Telleriano-Remensis/Vaticanus A/B/Magliabechiano/Aubin/Cospi/Fejérváry-Mayer/Laud/Tudela/Boturini/Xolotl 等 codex）本質為圖像式手抄本（象形／圖繪），無可抽取之連續文本；學術摹本／釋讀版（如 Anderson-Dibble 的 Florentine Codex 英譯 1950-82、Bierhorst 的 Cantares Mexicanos）皆受版權。sacred-texts nam/ 已收完所有乾淨書路徑（aztec/rva、maya/cbc+ybac+mhw、inca 全部、sa 全部、北美各部落）。此非 slug 條目，僅記錄 v3 尾端不可收之類別，避免下個 agent 重探 sacred-texts。", "probed": ["sacred-texts(nam/已收完乾淨書路徑)", "codices=圖像手抄本(無連續文本)", "現代釋讀版(受版權)"]},
     "_inca-spanish-chronicles": {"status": "blocked-access", "reason": "v3 印加皇室敘事（Sarmiento《Historia de los Incas》、Cieza de León《Crónica del Perú》、Garcilaso《Royal Commentaries》2 vols、Cobo、Pachacuti Salcamayhua）——Salcamayhua 已隨 narratives-rites-laws-yncas 收入。其餘為西班牙編年史，但 19c Hakluyt Society 英譯（Markham 譯 Sarmiento 1907、Cieza 1864/1883、Garcilaso 1869-71）多為 pre-1928 公版，存於 archive.org，可用 download-archive.py 收（識別碼待查）。屬歷史編年偏多、宗教成分次之；列為候選下批 archive.org 目標，非死路。此非 slug 條目。", "probed": ["archive.org(Hakluyt/Markham英譯多為PD,識別碼待查)", "sacred-texts(僅收rly/Molina部分)"]}
   }
