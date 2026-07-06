@@ -710,6 +710,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -791,6 +796,11 @@
       "religion": "阿茲特克"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "burden-of-isis",
       "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
       "religion": "古埃及"
@@ -824,6 +834,11 @@
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-st",
@@ -1644,6 +1659,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -2415,6 +2435,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -2528,6 +2553,11 @@
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
     },
     {
       "slug": "tao-te-ching",
@@ -3512,6 +3542,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
@@ -3557,6 +3592,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
       "religion": "佛教"
@@ -3569,6 +3609,11 @@
     {
       "slug": "zhuangzi",
       "name_zh": "莊子",
+      "religion": "道教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
       "religion": "道教"
     }
   ],
@@ -3621,6 +3666,11 @@
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -3759,6 +3809,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
@@ -3892,6 +3947,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -3915,6 +3975,11 @@
       "slug": "sn35-salayatana",
       "name_zh": "SN35 六入相應 (248 經)",
       "religion": "佛教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
+      "religion": "道教"
     }
   ],
   "fasting": [
@@ -3970,6 +4035,11 @@
     }
   ],
   "feminine-divine": [
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
     {
       "slug": "vulgate-song-of-songs",
       "name_zh": "雅歌（武加大）",
@@ -4227,6 +4297,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "homer-odyssey-st",
       "name_zh": "奧德賽 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -4354,6 +4429,11 @@
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -5243,6 +5323,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
@@ -5298,6 +5383,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -5374,6 +5464,11 @@
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -5552,6 +5647,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -5575,6 +5675,11 @@
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
       "religion": "佛教"
+    },
+    {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
+      "religion": "道教"
     },
     {
       "slug": "yoga-sutra",
@@ -6007,6 +6112,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -6207,6 +6317,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -6219,6 +6334,11 @@
     {
       "slug": "wenzi",
       "name_zh": "文子",
+      "religion": "道教"
+    },
+    {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
       "religion": "道教"
     },
     {
@@ -6239,6 +6359,11 @@
     {
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
+      "religion": "道教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
       "religion": "道教"
     }
   ],
@@ -6663,6 +6788,11 @@
     {
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -7285,6 +7415,11 @@
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
     }
   ],
   "mystical-union": [
@@ -7307,6 +7442,11 @@
       "slug": "fragments-of-faith-forgotten",
       "name_zh": "被遺忘信仰的碎片 (Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -7384,6 +7524,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -7416,6 +7561,11 @@
     {
       "slug": "zhuangzi",
       "name_zh": "莊子",
+      "religion": "道教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
       "religion": "道教"
     }
   ],
@@ -7458,6 +7608,11 @@
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -7576,6 +7731,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -7596,6 +7756,11 @@
       "religion": "道教"
     },
     {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
+      "religion": "道教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
@@ -7603,6 +7768,11 @@
     {
       "slug": "zhuangzi",
       "name_zh": "莊子",
+      "religion": "道教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
       "religion": "道教"
     }
   ],
@@ -7866,6 +8036,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
@@ -7980,6 +8155,11 @@
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "herodotus-histories",
@@ -8247,6 +8427,11 @@
       "slug": "chronicles-2",
       "name_zh": "歷代志下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -9479,6 +9664,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "denkard-bk-7-8",
       "name_zh": "Dinkard Books 8-9",
       "religion": "瑣羅亞斯德"
@@ -9626,6 +9816,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
@@ -9694,6 +9889,11 @@
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -9951,6 +10151,11 @@
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "gnostics-and-their-remains",
@@ -10719,6 +10924,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -10731,6 +10941,11 @@
     {
       "slug": "wenzi",
       "name_zh": "文子",
+      "religion": "道教"
+    },
+    {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
       "religion": "道教"
     },
     {
@@ -10751,6 +10966,11 @@
     {
       "slug": "zhuangzi",
       "name_zh": "莊子",
+      "religion": "道教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
       "religion": "道教"
     }
   ],
@@ -11209,6 +11429,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "josephus-works",
       "name_zh": "約瑟夫斯著作",
       "religion": "猶太教"
@@ -11353,6 +11578,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
@@ -11363,6 +11593,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -11371,6 +11606,11 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
+      "religion": "道教"
     }
   ],
   "temple-centered": [
@@ -12116,6 +12356,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -12615,6 +12860,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "denkard-3-bahman-yasht",
       "name_zh": "Pahlavi Texts Part III",
       "religion": "瑣羅亞斯德"
@@ -12957,6 +13207,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
@@ -12985,6 +13240,11 @@
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -13232,6 +13492,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -13282,6 +13547,11 @@
       "religion": "道教"
     },
     {
+      "slug": "wuzhen-pian",
+      "name_zh": "悟真篇",
+      "religion": "道教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
@@ -13294,6 +13564,11 @@
     {
       "slug": "zhuangzi",
       "name_zh": "莊子",
+      "religion": "道教"
+    },
+    {
+      "slug": "zuowang-lun",
+      "name_zh": "坐忘論",
       "religion": "道教"
     }
   ],
@@ -13428,6 +13703,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -13486,6 +13766,11 @@
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
     },
     {
       "slug": "tale-of-igor-campaign",

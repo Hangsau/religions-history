@@ -4,7 +4,11 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**0** 部，橫跨 **0** 宗教
+- 可收待補原文核心：**1** 部，橫跨 **1** 宗教
+
+## 美洲（1 部）
+
+- [ ] `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）— 未譯，原文待補
 
 ---
 
