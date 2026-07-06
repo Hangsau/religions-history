@@ -5,7 +5,7 @@
 
 ## 當前狀態（2026-07-06 重生統計）
 
-**4661 部 / 27 宗教 / 636.2 MB / 已 AI 譯註 199 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
+**4677 部 / 27 宗教 / 640.3 MB / 已 AI 譯註 200 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
 > **原文補收（2026-07-06 再確認）：核心可收待補歸零。** `audit-core.py` 實測 0 部可收待補；所有有乾淨來源的核心原文皆已收；剩 **29** 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
 
@@ -42,6 +42,25 @@
 - **注意**：並行的 Pipeline B+C supervisor 會 `git add -A` 定期 commit，本輪 13 部美洲檔被它掃進 commit `f7a1e227`（「+13 美洲原文」，標註正確，無遺失）；主 session 手動 commit 時若遇「nothing staged」先 `git log -- <path>` 確認是否已被 pipeline 收走，勿重複。
 
 **核心收集結論（2026-07-06）**：`audit-core.py` 真內容缺口（section A）＝無、待補標記（section B）＝無。504 核心中凡有乾淨公版來源者全收；受牆／版權者（諾斯底 Nag Hammadi Robinson 譯、瑣羅亞斯德 Pahlavi、兩河阿卡德、埃及 TLA、NWT／原理講論等）逐部文件化於 `original-source-status.json`。**核心 sweep 告一段落。**
+
+### 美洲 v3 續（2026-07-06，sacred-texts nam/ 印加 + 圭亞那補 4 部）
+- **印加**：apú-Ollantay（克丘亞語古典戲劇，Markham 英譯，核心）+ 印加儀禮與法律紀事（Molina/Salcamayhua 合輯，Markham 1873 Hakluyt Society 公版英譯，核心；原 inca-rites 從核心降次要改名「印加神話選 (Skinner)」拆分清場）。
+- **圭亞那**：An Inquiry into the Animism and Folk-Lore of the Guiana Indians（Roth，次要）+ Legends and Myths of the Aboriginal Indians of British Guiana（Brett，次要）。
+- 印加 v3 缺口至此：剩 Ricardo/Murúa 等西語一手史料未入（待用戶拍板是否下載西語版）。
+- INDEX 統計：`generate-index.py` → 4677 / 640.3 MB / 27 宗教。
+
+### 美洲 v3 批次二 + 收尾（2026-07-06，total 4677 / 已 push）
+- **美洲加州/平原民族誌 +12 部**（commit 991c3b26）：peyote-cult（佩約特教 nam/pla/pey，核心）、sun-dance-ceremonies（太陽舞 nam/pla/sdo，核心）、jicarilla-apache-texts、religion-indians-california（ca/ric，核心）、chinigchinich（ca/bosc，加州傳教區宗教，核心）、religion-luiseno-indians（ca/roli，核心）、mythology-mission-indians、miwok-myths、maidu-texts、algonquin-legends、chinook-texts、cherokee-ball-play。
+- **sacred-texts nam/ 乾淨書路徑至此收完**：americas-st.json 共 43 部全數落地＋verify PASS（瑪雅/阿茲特克/印加/加州/平原/西南/東南/西北/易洛魁/切羅基/因紐特/圭亞那全覆蓋）。
+- **v3 美洲尾端不可收類別已文件化**（`original-source-status.json`）：`_mesoamerican-codices`（Dresden/Madrid/Borgia/Florentine 等圖像手抄本無連續文本＋現代釋讀版受版權）、`_inca-spanish-chronicles`（Sarmiento/Cieza/Garcilaso 等西語編年史；19c Hakluyt/Markham 英譯多為 PD 存 archive.org，列為候選下批 archive.org 目標，識別碼待查）。
+
+**下一步建議**：① 若續 archive.org 路線 → 查 Sarmiento《Historia de los Incas》(Markham 1907)、Garcilaso《Royal Commentaries》(Markham 1869-71) 等 Hakluyt Society 公版識別碼，用 `download-archive.py` 收（偏歷史編年、宗教次之，可與用戶確認優先序）。② 或轉其他宗教 v3 尾端缺口（見 `PROGRESS.md` per-religion 待抓欄）。③ 或轉 Pipeline B/C（翻譯/標籤）——收集端核心已歸零。
+
+### P4 直譯 + P5 標籤（2026-07-06 晚，2 部 batch）
+- **sblgnt-hebrews**（希伯來書，希臘 NT，P4→P5 一次過）。計入翻譯佇列 198/492。
+- **sn3-kosala**（Kosala 國，巴利相應部 SN3，P4→P5 一次過）。198→199。
+- 兩部 meta.json 已加 `translation_status: "done"`。
+- 後續：PIPELINE_STATUS 顯示佇列下一部 = `sophocles-antigone-el`（Antigone 希臘原文首次進翻譯佇列；orchestrator 分段蒐集 m3 output，1/12 段已交付，後續 11 段接續）。
 
 **下一步（v3 次優先擴充，開放式）**：剩 v3-level 缺口（伊斯蘭 193 / 印度教 續 / 兩河 53 / 古埃及 46 / 美洲 續 29 / 神道 15 / 凱爾特·耆那 CELT/jai 續 …）。最可行批次＝有現成乾淨來源 + downloader：美洲（nam/ 尚有數十部）、凱爾特（CELT）、印度教（GRETIL 續）、神道（ja/zh.wikisource）。非核心，逐批 commit。archive.org downloader 已就緒，可補其他宗教 pre-1928 公版掃描。
 

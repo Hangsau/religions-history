@@ -1,6 +1,6 @@
 {
   "_note": "已查明「無乾淨可收原文來源」的核心。audit-core.py 讀此檔，把列於此的 slug 從『可收待補』移到『已查明來源狀態』分區，附精確理由與已探來源，避免下個 agent 重踩同樣死路。status 三類：blocked-access（原文存於已知數位語料庫但存取受牆／無法乾淨抽取）、no-single-original（英/西譯本為學術彙編或選集，無單一底本）、oral-no-script（該傳統無文字書寫系統，文本本質即口傳採錄的譯本）。列此不等於放棄——若日後出現乾淨來源即收，移除對應條目即可。",
-  "last_probed": "2026-07-03",
+  "last_probed": "2026-07-06",
   "statuses": {
     "hidden-words": {"status": "blocked-access", "reason": "隱言經（Kalimát-i-Maknúnih）。權威英譯 Shoghi Effendi 1932 版受 BIC compilation-copyright；sacred-texts bhi/bahaullah/hw.txt 亦帶 BIC 版權聲明。archive.org 僅 1954 版（copyrighted）與 librivox 音檔，無 pre-1928 乾淨公版英譯掃描。其餘核心巴哈伊已收（篤信經 ws、已答之問 1908、七谷 1906）。日後出現 pre-1928 公版譯本掃描即補。", "probed": ["wikisource(無)", "sacred-texts(BIC-copyright)", "archive.org(僅1954版copyrighted/librivox音檔)"]},
     "book-of-am-tuat": {"status": "blocked-access", "reason": "Budge 英譯；連續埃及原文／音譯僅存於 TLA（thesaurus-linguae-aegyptiae.de），無對應此彙編之逐篇文本匯出。本檔實測 0 連續音譯，僅散見英文中夾用神名。", "probed": ["sacred-texts(Budge,英)", "TLA(無乾淨逐篇匯出)"]},
@@ -38,6 +38,9 @@
     "yoruba-religion": {"status": "oral-no-script", "reason": "約魯巴宗教口傳，無文字原典；英文本為採錄／整理。", "probed": ["sacred-texts(英採錄)"]},
     "inca-rites": {"status": "oral-no-script", "reason": "印加用結繩（quipu）記事，無表音文字；Markham 由西班牙編年史家（Molina/Salcamayhua）英譯整理，無單一書面原典。部分克丘亞語祈禱（Molina）存殘篇但非此彙編底本。", "probed": ["sacred-texts(Markham,英彙編)"]},
 
-    "vishnudharmottara-purana": {"status": "blocked-access", "reason": "《毗濕奴法上往世書》梵文原文；GRETIL 索引列 sa_viSNudharmottarapurANa3.htm 與 sa_viSNudharmottarapurANa-2.htm 兩檔皆為死連結(實測 HTTP 404)，另試 1/2/3/khaNDa 變體亦全 404。GRETIL 以外無其他乾淨 IAST 全文匯出。日後 GRETIL 修復連結即可收。", "probed": ["gretil(索引列2檔皆404)", "gretil(1/2/3/khaNDa變體皆404)"]}
+    "vishnudharmottara-purana": {"status": "blocked-access", "reason": "《毗濕奴法上往世書》梵文原文；GRETIL 索引列 sa_viSNudharmottarapurANa3.htm 與 sa_viSNudharmottarapurANa-2.htm 兩檔皆為死連結(實測 HTTP 404)，另試 1/2/3/khaNDa 變體亦全 404。GRETIL 以外無其他乾淨 IAST 全文匯出。日後 GRETIL 修復連結即可收。", "probed": ["gretil(索引列2檔皆404)", "gretil(1/2/3/khaNDa變體皆404)"]},
+
+    "_mesoamerican-codices": {"status": "no-single-original", "reason": "v3 美洲清單尾端的中美抄本群（Dresden/Madrid/Paris/Grolier/Borgia/Borbonicus/Mendoza/Florentine/Telleriano-Remensis/Vaticanus A/B/Magliabechiano/Aubin/Cospi/Fejérváry-Mayer/Laud/Tudela/Boturini/Xolotl 等 codex）本質為圖像式手抄本（象形／圖繪），無可抽取之連續文本；學術摹本／釋讀版（如 Anderson-Dibble 的 Florentine Codex 英譯 1950-82、Bierhorst 的 Cantares Mexicanos）皆受版權。sacred-texts nam/ 已收完所有乾淨書路徑（aztec/rva、maya/cbc+ybac+mhw、inca 全部、sa 全部、北美各部落）。此非 slug 條目，僅記錄 v3 尾端不可收之類別，避免下個 agent 重探 sacred-texts。", "probed": ["sacred-texts(nam/已收完乾淨書路徑)", "codices=圖像手抄本(無連續文本)", "現代釋讀版(受版權)"]},
+    "_inca-spanish-chronicles": {"status": "blocked-access", "reason": "v3 印加皇室敘事（Sarmiento《Historia de los Incas》、Cieza de León《Crónica del Perú》、Garcilaso《Royal Commentaries》2 vols、Cobo、Pachacuti Salcamayhua）——Salcamayhua 已隨 narratives-rites-laws-yncas 收入。其餘為西班牙編年史，但 19c Hakluyt Society 英譯（Markham 譯 Sarmiento 1907、Cieza 1864/1883、Garcilaso 1869-71）多為 pre-1928 公版，存於 archive.org，可用 download-archive.py 收（識別碼待查）。屬歷史編年偏多、宗教成分次之；列為候選下批 archive.org 目標，非死路。此非 slug 條目。", "probed": ["archive.org(Hakluyt/Markham英譯多為PD,識別碼待查)", "sacred-texts(僅收rly/Molina部分)"]}
   }
 }

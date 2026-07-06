@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4673** 部
-- 已驗證: 4673
-- 原文 (vs 譯文): 4246 / 4673
-- 總大小: ~638.8 MB
+- 總計: **4677** 部
+- 已驗證: 4677
+- 原文 (vs 譯文): 4246 / 4677
+- 總大小: ~640.3 MB
 
 ## 按宗教
 
@@ -21,7 +21,7 @@
 | 古希臘羅馬 | 72 |
 | 儒教 | 38 |
 | 道教 | 37 |
-| 美洲 | 33 |
+| 美洲 | 35 |
 | 北歐 | 26 |
 | 古埃及 | 14 |
 | 耆那教 | 13 |
@@ -37,9 +37,9 @@
 | 現代新興 | 5 |
 | 瑪雅 | 4 |
 | 巴哈伊 | 4 |
+| 印加 | 3 |
 | 阿茲特克 | 1 |
 | 赫爾墨斯 | 1 |
-| 印加 | 1 |
 | 墨家 | 1 |
 
 ## 按傳統 (宗教 - 傳統)
@@ -58,7 +58,7 @@
 | 儒教 | 38 |
 | 道教 | 37 |
 | 猶太教 - Midrash | 36 |
-| 美洲 | 33 |
+| 美洲 | 35 |
 | 猶太教 - Talmud | 32 |
 | 佛教 | 30 |
 | 基督教 - 新約-希臘原文 | 27 |
@@ -77,6 +77,7 @@
 | 現代新興 | 5 |
 | 瑪雅 | 4 |
 | 巴哈伊 | 4 |
+| 印加 | 3 |
 | 猶太教 - Guides | 2 |
 | 猶太教 - Tanakh | 2 |
 
@@ -88,7 +89,7 @@
 | Sefaria | 1552 |
 | GRETIL | 151 |
 | zh.wikisource.org | 140 |
-| sacred-texts.com | 133 |
+| sacred-texts.com | 137 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | la.wikisource.org | 96 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
@@ -2705,7 +2706,9 @@
 | `viga-glums-saga-on` | 維加-格盧姆薩迦 | 北歐 | 116861 |
 | `volsunga-saga` | 沃爾松傳奇 | 北歐 | 307070 |
 | `volsunga-saga-on` | 沃爾松傳奇（古諾斯語原文） | 北歐 | 151449 |
+| `apu-ollantay` | 阿普·奧揚泰 (克丘亞語戲劇) | 印加 | 102781 |
 | `inca-rites` | 印加儀禮與法律 | 印加 | 99192 |
+| `narratives-rites-laws-yncas` | 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯) | 印加 | 330259 |
 | `abhinavagupta-kramastotra` | 阿毗那婆笈多次第讚 | 印度教 | 6950 |
 | `abhinavagupta-tantraloka` | 坦特羅光輝 | 印度教 | 763573 |
 | `abhinavagupta-tantrasara` | 坦特羅精要 | 印度教 | 129161 |
@@ -4681,6 +4684,7 @@
 | `sendai-kuji-hongi-zh` | 先代舊事本紀（漢文原文，全十卷） | 神道 | 245350 |
 | `algonquin-legends` | 新英格蘭阿爾岡昆傳說 (Leland) | 美洲 | 582664 |
 | `blackfoot-old-north-trail` | 古老北方之路 (黑腳族信仰生活) | 美洲 | 783729 |
+| `british-guiana-legends` | 英屬圭亞那原住民傳說與神話 (Brett) | 美洲 | 193692 |
 | `cherokee-ball-play` | 切羅基球賽 (儀式競技, Mooney) | 美洲 | 65440 |
 | `cherokee-myths` | 切羅基神話 (Mooney) | 美洲 | 548593 |
 | `cherokee-sacred-formulas` | 切羅基神聖咒文 (Mooney) | 美洲 | 272877 |
@@ -4688,6 +4692,7 @@
 | `chinook-texts` | 奇努克文本 (Boas) | 美洲 | 279886 |
 | `code-of-handsome-lake` | 英俊湖法典 (塞內卡先知啟示) | 美洲 | 296588 |
 | `creation-myths-primitive-america` | 原始美洲創世神話 (Curtin) | 美洲 | 728512 |
+| `guiana-animism-folklore` | 圭亞那泛靈信仰與民俗探究 (Roth) | 美洲 | 929491 |
 | `hopi-myths` | 霍皮傳說 (Voth) | 美洲 | 304323 |
 | `inuit-myths` | 愛斯基摩傳說故事 (Rink) | 美洲 | 875276 |
 | `iroquois-book-of-rites` | 易洛魁儀禮之書 (Hale) | 美洲 | 372951 |

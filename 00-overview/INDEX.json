@@ -1,9 +1,9 @@
 {
   "summary": {
-    "total_count": 4673,
-    "verified_count": 4673,
+    "total_count": 4677,
+    "verified_count": 4677,
     "original_language_count": 4246,
-    "total_size_mb": 638.8,
+    "total_size_mb": 640.3,
     "by_religion": {
       "佛教": 2506,
       "猶太教": 1562,
@@ -12,7 +12,7 @@
       "古希臘羅馬": 72,
       "儒教": 38,
       "道教": 37,
-      "美洲": 33,
+      "美洲": 35,
       "北歐": 26,
       "古埃及": 14,
       "耆那教": 13,
@@ -28,9 +28,9 @@
       "現代新興": 5,
       "瑪雅": 4,
       "巴哈伊": 4,
+      "印加": 3,
       "阿茲特克": 1,
       "赫爾墨斯": 1,
-      "印加": 1,
       "墨家": 1
     },
     "by_tradition": {
@@ -46,7 +46,7 @@
       "儒教": 38,
       "道教": 37,
       "猶太教 - Midrash": 36,
-      "美洲": 33,
+      "美洲": 35,
       "猶太教 - Talmud": 32,
       "佛教": 30,
       "基督教 - 新約-希臘原文": 27,
@@ -65,18 +65,18 @@
       "現代新興": 5,
       "瑪雅": 4,
       "巴哈伊": 4,
+      "印加": 3,
       "猶太教 - Guides": 2,
       "猶太教 - Tanakh": 2,
       "阿茲特克": 1,
       "赫爾墨斯": 1,
-      "印加": 1,
       "墨家": 1
     },
     "by_language": {
       "古典漢語": 2505,
       "Hebrew": 1425,
       "English": 131,
-      "English (translation)": 96,
+      "English (translation)": 100,
       "梵語": 91,
       "Latin": 78,
       "古典中文": 66,
@@ -113,7 +113,7 @@
       "Sefaria": 1552,
       "GRETIL": 151,
       "zh.wikisource.org": 140,
-      "sacred-texts.com": 133,
+      "sacred-texts.com": 137,
       "CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō)": 117,
       "la.wikisource.org": 96,
       "CBETA (TEI P5 XML, GitHub)": 48,
@@ -613,6 +613,22 @@
       "is_original_language": true,
       "size_bytes": 715918,
       "chapter_count": 6,
+      "verified": true
+    },
+    {
+      "slug": "apu-ollantay",
+      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
+      "name_en": "Apu Ollantay (Quechua drama)",
+      "religion": "印加",
+      "tradition": null,
+      "language": "English (translation)",
+      "version": "sacred-texts.com edition",
+      "version_date": "—",
+      "source_platform": "sacred-texts.com",
+      "tier": "核心",
+      "is_original_language": false,
+      "size_bytes": 102781,
+      "chapter_count": 20,
       "verified": true
     },
     {
@@ -2501,6 +2517,22 @@
       "is_original_language": true,
       "size_bytes": 152216,
       "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "british-guiana-legends",
+      "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
+      "name_en": "Legends and Myths of the Aboriginal Indians of British Guiana",
+      "religion": "美洲",
+      "tradition": null,
+      "language": "English (translation)",
+      "version": "sacred-texts.com edition",
+      "version_date": "—",
+      "source_platform": "sacred-texts.com",
+      "tier": "次要",
+      "is_original_language": false,
+      "size_bytes": 193692,
+      "chapter_count": 13,
       "verified": true
     },
     {
@@ -42536,6 +42568,22 @@
       "verified": true
     },
     {
+      "slug": "guiana-animism-folklore",
+      "name_zh": "圭亞那泛靈信仰與民俗探究 (Roth)",
+      "name_en": "An Inquiry into the Animism and Folk-Lore of the Guiana Indians",
+      "religion": "美洲",
+      "tradition": null,
+      "language": "English (translation)",
+      "version": "sacred-texts.com edition",
+      "version_date": "—",
+      "source_platform": "sacred-texts.com",
+      "tier": "次要",
+      "is_original_language": false,
+      "size_bytes": 929491,
+      "chapter_count": 30,
+      "verified": true
+    },
+    {
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "name_en": "Guide for the Perplexed",
@@ -45301,6 +45349,22 @@
       "is_original_language": null,
       "size_bytes": 470708,
       "chapter_count": 1,
+      "verified": true
+    },
+    {
+      "slug": "narratives-rites-laws-yncas",
+      "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
+      "name_en": "Narratives of the Rites and Laws of the Yncas",
+      "religion": "印加",
+      "tradition": null,
+      "language": "English (translation)",
+      "version": "sacred-texts.com edition",
+      "version_date": "—",
+      "source_platform": "sacred-texts.com",
+      "tier": "核心",
+      "is_original_language": false,
+      "size_bytes": 330259,
+      "chapter_count": 8,
       "verified": true
     },
     {
