@@ -11,13 +11,13 @@
     {"slug": "popol-vuh", "st_single_page": "nam/pvuheng.htm", "name_zh": "波波爾·烏 (基切馬雅創世史詩)", "name_en": "The Popol Vuh (Spence 1908)", "name_original": "Popol Vuh", "religion": "瑪雅", "tier": "核心", "text_role": "translation", "is_original_language": false, "version": "Lewis Spence 英譯／釋", "version_date": "1908", "notes": "基切馬雅創世神話與英雄雙生子傳說。K'iche' 原文為殖民期 Ximénez 轉錄手稿；此為 Spence 1908 公版英譯（原文待補）。"},
     {"slug": "aztec-rva", "st_book_path": "nam/aztec/rva", "name_zh": "阿茲特克聖歌 (Rig Veda Americanus)", "name_en": "Rig Veda Americanus (Aztec sacred hymns)", "religion": "阿茲特克", "tier": "核心", "text_role": "original", "is_original_language": true, "notes": "Brinton 編 20 首納瓦特爾語聖歌，納瓦特爾／英語對照。"},
     {"slug": "inca-rites", "st_book_path": "nam/inca", "name_zh": "印加儀禮與法律", "name_en": "Rites and Laws of the Yncas", "religion": "印加", "tier": "核心", "text_role": "translation", "is_original_language": false},
-    {"slug": "iroquois-cosmology", "st_book_path": "nam/iro", "name_zh": "易洛魁神話與宇宙觀", "name_en": "Iroquois Cosmology and Mythology", "religion": "美洲", "tier": "核心", "is_original_language": false},
-    {"slug": "cherokee-myths", "st_book_path": "nam/cher", "name_zh": "切羅基神話", "name_en": "Cherokee Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "iroquois-cosmology", "st_book_path": "nam/iro/irc", "name_zh": "易洛魁宇宙觀 (Hewitt)", "name_en": "Iroquoian Cosmology (Hewitt)", "religion": "美洲", "tier": "核心", "is_original_language": false},
+    {"slug": "cherokee-myths", "st_book_path": "nam/cher/motc", "name_zh": "切羅基神話 (Mooney)", "name_en": "Myths of the Cherokee (Mooney)", "religion": "美洲", "tier": "次要", "is_original_language": false},
     {"slug": "navajo-myths", "st_book_path": "nam/nav", "name_zh": "納瓦霍神話", "name_en": "Navajo Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
-    {"slug": "hopi-myths", "st_book_path": "nam/hopi", "name_zh": "霍皮神話", "name_en": "Hopi Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
-    {"slug": "zuni-myths", "st_book_path": "nam/zuni", "name_zh": "祖尼神話", "name_en": "Zuni Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
-    {"slug": "inuit-myths", "st_book_path": "nam/inu", "name_zh": "因紐特神話", "name_en": "Inuit Myths", "religion": "美洲", "tier": "次要", "is_original_language": false},
-    {"slug": "plains-myths", "st_book_path": "nam/pla", "name_zh": "北美平原原住民神話", "name_en": "Plains Mythology", "religion": "美洲", "tier": "次要", "is_original_language": false},
-    {"slug": "northwest-coast-myths", "st_book_path": "nam/nw", "name_zh": "西北海岸原住民神話", "name_en": "Northwest Coast Mythology", "religion": "美洲", "tier": "次要", "is_original_language": false}
+    {"slug": "hopi-myths", "st_book_path": "nam/hopi/toah", "name_zh": "霍皮傳說 (Voth)", "name_en": "The Traditions of the Hopi (Voth)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "zuni-myths", "st_book_path": "nam/zuni/zft", "name_zh": "祖尼民間故事 (Cushing)", "name_en": "Zuni Folk Tales (Cushing)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "inuit-myths", "st_book_path": "nam/inu/tte", "name_zh": "愛斯基摩傳說故事 (Rink)", "name_en": "Tales and Traditions of the Eskimo (Rink)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "plains-myths", "st_book_path": "nam/pla/blt", "name_zh": "黑腳族營帳傳說 (Grinnell)", "name_en": "Blackfeet Lodge Tales (Grinnell)", "religion": "美洲", "tier": "次要", "is_original_language": false},
+    {"slug": "northwest-coast-myths", "st_book_path": "nam/nw/tmt", "name_zh": "特林吉特神話與文本 (Swanton)", "name_en": "Tlingit Myths and Texts (Swanton)", "religion": "美洲", "tier": "次要", "is_original_language": false}
   ]
 }
