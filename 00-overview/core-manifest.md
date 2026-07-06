@@ -2,40 +2,40 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**509** 部
-- 已翻譯：**197** / 509
-- 已標籤：**393** / 509
+- 核心總數：**516** 部
+- 已翻譯：**200** / 516
+- 已標籤：**394** / 516
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 86 | 159 |
-| 佛教 | 74 | 41 | 65 |
+| 基督教 | 161 | 87 | 159 |
+| 佛教 | 74 | 42 | 65 |
 | 印度教 | 58 | 14 | 27 |
 | 古希臘羅馬 | 46 | 3 | 15 |
 | 猶太教 | 45 | 20 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 1 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
+| 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
 | 耆那教 | 7 | 1 | 3 |
-| 美洲 | 6 | 0 | 0 |
 | 諾斯底 | 6 | 0 | 5 |
 | 現代新興 | 5 | 0 | 2 |
 | 神道 | 5 | 0 | 1 |
-| 錫克教 | 4 | 1 | 3 |
+| 錫克教 | 4 | 2 | 4 |
 | 巴哈伊 | 4 | 0 | 1 |
 | 伊斯蘭 | 4 | 1 | 4 |
+| 印加 | 3 | 0 | 1 |
 | 瑪雅 | 3 | 0 | 2 |
 | 兩河 | 3 | 0 | 3 |
 | 斯拉夫 | 3 | 1 | 3 |
 | 非洲 | 2 | 0 | 2 |
 | 阿茲特克 | 1 | 0 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
-| 印加 | 1 | 0 | 1 |
 | 墨家 | 1 | 1 | 0 |
 
 ## 缺口分析
@@ -60,7 +60,7 @@
 | original | 286 |
 | translation | 197 |
 | contested | 2 |
-| (未標) | 24 |
+| (未標) | 31 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
@@ -72,8 +72,8 @@
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**3** 個 / 核心 **10** 部
-- 名單：美洲、巴哈伊、諾斯底
+- 唯一英譯本宗教：**4** 個 / 核心 **17** 部
+- 名單：美洲、巴哈伊、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -168,7 +168,7 @@
 - `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-ephesians` 以弗所書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-galatians` 加拉太書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-hebrews` 希伯來書（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-hebrews` 希伯來書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-james` 雅各書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -307,7 +307,7 @@
 - `sn12-nidana` SN12 因緣相應 (93 經)（Pali）譯– 標✓
 - `sn2-devaputta` SN2 天子相應（Pali）譯✓ 標✓
 - `sn22-khandha` SN22 蘊相應 (159 經)（Pali）譯– 標✓
-- `sn3-kosala` SN3 拘薩羅相應（Pali）譯– 標✓
+- `sn3-kosala` SN3 拘薩羅相應（Pali）譯✓ 標✓
 - `sn35-salayatana` SN35 六入相應 (248 經)（Pali）譯– 標✓
 - `sn4-mara` SN4 魔羅相應（Pali）譯✓ 標✓
 - `sn45-magga` SN45 道相應 (180 經)（Pali）譯– 標✓
@@ -535,6 +535,20 @@
 - `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯– 標✓
 - `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標✓
 
+### 美洲（11 部）
+
+- `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯– 標–
+- `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）譯– 標–
+- `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯– 標–
+- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
+- `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯– 標–
+- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
+- `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
+- `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯– 標–
+- `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯– 標–
+- `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）譯– 標–
+- `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）譯– 標–
+
 ### 儒教（10 部）
 
 - `analects` 論語（古典漢語）譯✓ 標✓
@@ -579,15 +593,6 @@
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 
-### 美洲（6 部）
-
-- `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯– 標–
-- `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯– 標–
-- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
-- `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯– 標–
-- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
-- `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
-
 ### 諾斯底（6 部）
 
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標✓
@@ -617,7 +622,7 @@
 
 - `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標✓
-- `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯– 標–
+- `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 
 ### 巴哈伊（4 部）
@@ -633,6 +638,12 @@
 - `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯– 標✓
 - `quran` 古蘭經（古典阿拉伯）譯✓ 標✓
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標✓
+
+### 印加（3 部）
+
+- `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）譯– 標–
+- `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
+- `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）譯– 標–
 
 ### 瑪雅（3 部）
 
@@ -664,10 +675,6 @@
 ### 赫爾墨斯（1 部）
 
 - `corpus-hermeticum-el` 赫爾墨斯文集（希臘原文，八篇）（Ancient Greek）譯– 標–
-
-### 印加（1 部）
-
-- `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
 
 ### 墨家（1 部）
 

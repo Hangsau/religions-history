@@ -4,22 +4,32 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**10** 部，橫跨 **3** 宗教
+- 可收待補原文核心：**17** 部，橫跨 **4** 宗教
 
-## 美洲（6 部）
+## 美洲（11 部）
 
 - [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
+- [ ] `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）— 未譯，原文待補
 - [ ] `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）— 未譯，原文待補
 - [ ] `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）— 未譯，原文待補
 - [ ] `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）— 未譯，原文待補
 - [ ] `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）— 未譯，原文待補
 - [ ] `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）— 未譯，原文待補
+- [ ] `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）— 未譯，原文待補
+- [ ] `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）— 未譯，原文待補
+- [ ] `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）— 未譯，原文待補
+- [ ] `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）— 未譯，原文待補
 
 ## 巴哈伊（3 部）
 
 - [ ] `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
 - [ ] `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）— 未譯，原文待補
 - [ ] `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）— 未譯，原文待補
+
+## 印加（2 部）
+
+- [ ] `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）— 未譯，原文待補
+- [ ] `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）— 未譯，原文待補
 
 ## 諾斯底（1 部）
 
