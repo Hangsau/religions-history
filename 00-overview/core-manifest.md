@@ -3,19 +3,19 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**496** 部
-- 已翻譯：**187** / 496
-- 已標籤：**383** / 496
+- 已翻譯：**191** / 496
+- 已標籤：**387** / 496
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 86 | 159 |
-| 佛教 | 74 | 39 | 63 |
+| 佛教 | 74 | 40 | 64 |
 | 印度教 | 58 | 12 | 25 |
 | 古希臘羅馬 | 46 | 1 | 13 |
 | 猶太教 | 45 | 20 | 45 |
-| 道教 | 18 | 14 | 14 |
+| 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 0 | 3 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 儒教 | 10 | 10 | 10 |
@@ -275,7 +275,7 @@
 - `bud-saddharmapundarika-sa` 妙法蓮華經（梵文）（梵語）譯– 標–
 - `bud-trimshika-sa` 唯識三十頌（梵文）（梵語）譯✓ 標✓
 - `bud-udanavarga-sa` 優陀那品（梵文）（梵語）譯– 標–
-- `bud-vajracchedika-prajnaparamita-sa` 金剛般若波羅蜜多（梵文）（梵語）譯– 標–
+- `bud-vajracchedika-prajnaparamita-sa` 金剛般若波羅蜜多（梵文）（梵語）譯✓ 標✓
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯✓ 標✓
 - `dhammapada` 法句經（Pali）譯✓ 標✓
 - `diamond-mulamadhyamaka` 中論（古典漢語）譯✓ 標✓
@@ -493,14 +493,14 @@
 - `qingjing-jing` 太上老君說常清靜經（古典漢語）譯✓ 標✓
 - `taiping-jing` 太平經（古典漢語）譯✓ 標✓
 - `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
-- `taiyi-jinhua-zongzhi` 太乙金華宗旨（古典漢語）譯– 標–
+- `taiyi-jinhua-zongzhi` 太乙金華宗旨（古典漢語）譯✓ 標✓
 - `tao-te-ching` 道德經（古典漢語）譯✓ 標✓
 - `wenzi` 文子（古典漢語）譯✓ 標✓
-- `wuzhen-pian` 悟真篇（古典漢語）譯– 標–
+- `wuzhen-pian` 悟真篇（古典漢語）譯✓ 標✓
 - `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
 - `zhuangzi` 莊子（古典漢語）譯✓ 標✓
-- `zuowang-lun` 坐忘論（古典漢語）譯– 標–
+- `zuowang-lun` 坐忘論（古典漢語）譯✓ 標✓
 
 ### 北歐（15 部）
 

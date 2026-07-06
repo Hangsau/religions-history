@@ -27,7 +27,7 @@
     "pct_core": 100,
     "pct_v3_listed": 100,
     "pct_full": 19.28,
-    "with_translation": 37,
+    "with_translation": 39,
     "with_semantic_tags": 0,
     "total_bytes": 340624890,
     "by_tradition": {
@@ -52,7 +52,7 @@
     "pct_core": 100,
     "pct_v3_listed": 100,
     "pct_full": 0.76,
-    "with_translation": 9,
+    "with_translation": 10,
     "with_semantic_tags": 0,
     "total_bytes": 17874118,
     "by_tradition": {
@@ -148,24 +148,24 @@
     "original_count": 0
   },
   "印度教": {
-    "done": 105,
+    "done": 111,
     "target_core": 25,
     "target_v3_listed": 250,
     "target_full_canon": 3000,
     "pct_core": 100,
-    "pct_v3_listed": 42.0,
-    "pct_full": 3.5,
+    "pct_v3_listed": 44.4,
+    "pct_full": 3.7,
     "with_translation": 12,
     "with_semantic_tags": 0,
-    "total_bytes": 62888940,
+    "total_bytes": 63240768,
     "by_tradition": {
-      "—": 105
+      "—": 111
     },
     "by_source": {
-      "GRETIL": 104,
+      "GRETIL": 110,
       "en.wikisource.org": 1
     },
-    "original_count": 83
+    "original_count": 89
   },
   "古埃及": {
     "done": 14,
@@ -187,26 +187,26 @@
     "original_count": 0
   },
   "古希臘羅馬": {
-    "done": 59,
+    "done": 72,
     "target_core": 10,
     "target_v3_listed": 100,
     "target_full_canon": 500,
     "pct_core": 100,
-    "pct_v3_listed": 59.0,
-    "pct_full": 11.8,
-    "with_translation": 0,
+    "pct_v3_listed": 72.0,
+    "pct_full": 14.4,
+    "with_translation": 1,
     "with_semantic_tags": 0,
-    "total_bytes": 34301063,
+    "total_bytes": 36655645,
     "by_tradition": {
-      "—": 59
+      "—": 72
     },
     "by_source": {
-      "el.wikisource.org": 31,
+      "el.wikisource.org": 39,
       "sacred-texts.com": 16,
-      "la.wikisource.org": 10,
+      "la.wikisource.org": 15,
       "en.wikisource.org": 2
     },
-    "original_count": 44
+    "original_count": 57
   },
   "基督教": {
     "done": 174,
@@ -414,24 +414,24 @@
     "original_count": 0
   },
   "耆那教": {
-    "done": 11,
+    "done": 13,
     "target_core": 5,
     "target_v3_listed": 60,
     "target_full_canon": 150,
     "pct_core": 100,
-    "pct_v3_listed": 18.3,
-    "pct_full": 7.33,
-    "with_translation": 0,
+    "pct_v3_listed": 21.7,
+    "pct_full": 8.67,
+    "with_translation": 1,
     "with_semantic_tags": 0,
-    "total_bytes": 3684513,
+    "total_bytes": 3973191,
     "by_tradition": {
-      "—": 11
+      "—": 13
     },
     "by_source": {
-      "GRETIL": 9,
+      "GRETIL": 11,
       "sacred-texts.com": 2
     },
-    "original_count": 9
+    "original_count": 11
   },
   "諾斯底": {
     "done": 5,
@@ -472,24 +472,24 @@
     "original_count": 1
   },
   "道教": {
-    "done": 27,
+    "done": 37,
     "target_core": 15,
     "target_v3_listed": 40,
     "target_full_canon": 6000,
     "pct_core": 100,
-    "pct_v3_listed": 67.5,
-    "pct_full": 0.45,
+    "pct_v3_listed": 92.5,
+    "pct_full": 0.62,
     "with_translation": 14,
     "with_semantic_tags": 0,
-    "total_bytes": 6719465,
+    "total_bytes": 7235508,
     "by_tradition": {
-      "—": 27
+      "—": 37
     },
     "by_source": {
-      "zh.wikisource.org": 23,
+      "zh.wikisource.org": 33,
       "ctext.org (api)": 4
     },
-    "original_count": 27
+    "original_count": 37
   },
   "錫克教": {
     "done": 9,
