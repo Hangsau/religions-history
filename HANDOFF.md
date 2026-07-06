@@ -3,9 +3,9 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態（2026-07-05 重生統計）
+## 當前狀態（2026-07-06 重生統計）
 
-**4415 部 / 27 宗教 / 539.3 MB / 已 AI 譯註 23 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
+**4661 部 / 27 宗教 / 636.2 MB / 已 AI 譯註 199 部**（原文/譯文粗分見 INDEX；對齊後 text_role 更準）
 
 > **原文補收（2026-07-06 再確認）：核心可收待補歸零。** `audit-core.py` 實測 0 部可收待補；所有有乾淨來源的核心原文皆已收；剩 **29** 部經實際探查確認無乾淨來源，逐部附理由＋已探來源於 `original-source-status.json`（見下方「原文補收進度」段）。
 
@@ -32,7 +32,18 @@
 - **古希臘羅馬**：+12 部（`backfill-originals-ws.json`，47→59）——希臘（偽阿波羅多洛斯書庫/品達皮托凱歌/阿里斯托芬蛙·雲）、拉丁（西塞羅論神性·論占卜·論義務/盧克萊修物性論/阿普列尤斯金驢記·伊西斯祕儀/奧維德歲時記/塞內卡道德書簡·論天意）。
 - **基督教教父**：新建 `christianity-patristics-ws.json` + name_map「基督教-教父」，收 5 部拉丁教父（奧古斯丁懺悔錄·上帝之城/安波羅修論教職者的義務/特土良斥異端的抗辯/肯培多默效法基督）——Vulgate 聖經外的神學傳統。Summa Theologiae 因 la.wikisource 為 `/部/Quaestio` 深層巢狀（需專用遞迴 handler）暫略。
 
-**下一步（v3 次優先擴充，開放式）**：剩 v3-level 缺口（伊斯蘭 193 / 印度教 續 / 兩河 53 / 古埃及 46 / 神道 15 / 錫克教 6 …）。最可行批次＝有現成乾淨來源 + downloader：印度教（GRETIL 續）、神道（ja/zh.wikisource）、錫克教。非核心，逐批 commit。
+### 續 sweep（2026-07-06，archive.org downloader + 美洲 v3；total 4661 / 核心 504，皆已 push）
+
+- **新增 `download-archive.py` + `bahai-archive.json` / `modern-archive.json`**：抓 archive.org pre-1928 掃描全文（`<id>_djvu.txt` OCR，輕度清理不做章節拆分，provenance 記 meta.notes）。用於「現代 Haifa 譯本受版權、但 pre-1928 初版已入公版」的巴哈伊／現代新興文獻——繞開 sacred-texts bhi/ 的 BIC compilation-copyright。
+- **巴哈伊核心收齊**：Kitáb-i-Íqán（篤信經，wikisource Book of Ighan）+ 已答之問（Some Answered Questions, Barney 1908）+ 七谷（Seven Valleys, Ali Kuli Khan 1906）。隱言經（Hidden Words）無 pre-1928 乾淨公版掃描（archive.org 僅 1954 copyrighted / librivox 音檔），記入 `original-source-status.json` blocked-access。
+- **現代新興**：教義和聖約（LDS, sacred-texts mor/dc）+ 科學與健康（基督科學會 1906, wikisource）+ Russell 聖經研究第一卷（1914 公版, archive.org）。NWT / Divine Principle / Dianetics / Raël 現行正典仍在版權內，不收。
+- **諾斯底**：Pistis Sophia（信仰智慧, Mead 1921, sacred-texts chr/ps）。
+- **美洲 v3 16%→42%（8→21 部）**：sacred-texts nam/ 補 13 部——儀式/先知啟示核心（切羅基神聖咒文 sfoc、英俊湖法典 iro/parker＝塞內卡先知 Longhouse Religion 根本經、易洛魁儀禮之書 iro/ibr、阿科馬創世神話 sw/oma、原始美洲創世神話 ca/cma）+ 塞內卡/皮馬/雅基/普韋布洛/米沃克/夸夸嘉夸/黑腳/東南部神話集。
+- **注意**：並行的 Pipeline B+C supervisor 會 `git add -A` 定期 commit，本輪 13 部美洲檔被它掃進 commit `f7a1e227`（「+13 美洲原文」，標註正確，無遺失）；主 session 手動 commit 時若遇「nothing staged」先 `git log -- <path>` 確認是否已被 pipeline 收走，勿重複。
+
+**核心收集結論（2026-07-06）**：`audit-core.py` 真內容缺口（section A）＝無、待補標記（section B）＝無。504 核心中凡有乾淨公版來源者全收；受牆／版權者（諾斯底 Nag Hammadi Robinson 譯、瑣羅亞斯德 Pahlavi、兩河阿卡德、埃及 TLA、NWT／原理講論等）逐部文件化於 `original-source-status.json`。**核心 sweep 告一段落。**
+
+**下一步（v3 次優先擴充，開放式）**：剩 v3-level 缺口（伊斯蘭 193 / 印度教 續 / 兩河 53 / 古埃及 46 / 美洲 續 29 / 神道 15 / 凱爾特·耆那 CELT/jai 續 …）。最可行批次＝有現成乾淨來源 + downloader：美洲（nam/ 尚有數十部）、凱爾特（CELT）、印度教（GRETIL 續）、神道（ja/zh.wikisource）。非核心，逐批 commit。archive.org downloader 已就緒，可補其他宗教 pre-1928 公版掃描。
 
 詳見即時 [`00-overview/INDEX.md`](./00-overview/INDEX.md) 自動產生統計。
 進度追蹤見 [`00-overview/PROGRESS.md`](./00-overview/PROGRESS.md)（`scripts/track-progress.py` 自動產生）。

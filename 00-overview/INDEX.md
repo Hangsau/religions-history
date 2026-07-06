@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4603** 部
-- 已驗證: 4603
-- 原文 (vs 譯文): 4213 / 4603
-- 總大小: ~619.2 MB
+- 總計: **4661** 部
+- 已驗證: 4661
+- 原文 (vs 譯文): 4246 / 4661
+- 總大小: ~636.2 MB
 
 ## 按宗教
 
@@ -17,14 +17,15 @@
 | 佛教 | 2506 |
 | 猶太教 | 1562 |
 | 基督教 | 174 |
-| 印度教 | 105 |
-| 古希臘羅馬 | 59 |
+| 印度教 | 111 |
+| 古希臘羅馬 | 72 |
 | 儒教 | 38 |
-| 道教 | 27 |
+| 道教 | 37 |
 | 北歐 | 26 |
+| 美洲 | 21 |
 | 古埃及 | 14 |
+| 耆那教 | 13 |
 | 瑣羅亞斯德 | 11 |
-| 耆那教 | 11 |
 | 錫克教 | 9 |
 | 凱爾特 | 9 |
 | 神道 | 8 |
@@ -32,15 +33,14 @@
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
 | 非洲 | 6 |
-| 諾斯底 | 5 |
+| 諾斯底 | 6 |
+| 現代新興 | 5 |
 | 瑪雅 | 4 |
-| 現代新興 | 2 |
+| 巴哈伊 | 4 |
 | 阿茲特克 | 1 |
 | 赫爾墨斯 | 1 |
 | 印加 | 1 |
 | 墨家 | 1 |
-| 美洲 | 1 |
-| 巴哈伊 | 1 |
 
 ## 按傳統 (宗教 - 傳統)
 
@@ -49,22 +49,23 @@
 | 佛教 - 漢傳 | 2429 |
 | 猶太教 - Commentary | 1271 |
 | 基督教 | 147 |
-| 印度教 | 105 |
+| 印度教 | 111 |
 | 猶太教 - Halakhah | 88 |
+| 古希臘羅馬 | 72 |
 | 猶太教 | 67 |
 | 猶太教 - Mishnah | 64 |
-| 古希臘羅馬 | 59 |
 | 佛教 - 巴利 | 47 |
 | 儒教 | 38 |
+| 道教 | 37 |
 | 猶太教 - Midrash | 36 |
 | 猶太教 - Talmud | 32 |
 | 佛教 | 30 |
-| 道教 | 27 |
 | 基督教 - 新約-希臘原文 | 27 |
 | 北歐 | 26 |
+| 美洲 | 21 |
 | 古埃及 | 14 |
+| 耆那教 | 13 |
 | 瑣羅亞斯德 | 11 |
-| 耆那教 | 11 |
 | 錫克教 | 9 |
 | 凱爾特 | 9 |
 | 神道 | 8 |
@@ -72,9 +73,10 @@
 | 斯拉夫 | 7 |
 | 伊斯蘭 | 7 |
 | 非洲 | 6 |
-| 諾斯底 | 5 |
+| 諾斯底 | 6 |
+| 現代新興 | 5 |
 | 瑪雅 | 4 |
-| 現代新興 | 2 |
+| 巴哈伊 | 4 |
 | 猶太教 - Guides | 2 |
 | 猶太教 - Tanakh | 2 |
 
@@ -84,22 +86,23 @@
 |------|------|
 | CBETA TEI P5 XML (GitHub): 大正新脩大藏經 (Taishō Tripiṭaka) | 2264 |
 | Sefaria | 1552 |
-| GRETIL | 143 |
-| zh.wikisource.org | 130 |
+| GRETIL | 151 |
+| zh.wikisource.org | 140 |
+| sacred-texts.com | 121 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
-| sacred-texts.com | 99 |
-| la.wikisource.org | 91 |
+| la.wikisource.org | 96 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
 | SuttaCentral | 47 |
-| el.wikisource.org | 32 |
+| el.wikisource.org | 40 |
 | morphgnt/sblgnt (GitHub) | 27 |
 | heimskringla.no | 15 |
-| en.wikisource.org | 9 |
+| en.wikisource.org | 11 |
 | ctext.org (api) | 7 |
 | pa.wikisource.org | 6 |
 | sagadb.org | 5 |
 | avesta.org | 3 |
 | is.wikisource.org | 3 |
+| archive.org | 3 |
 | cy.wikisource.org | 2 |
 | Quran.com API | 1 |
 | celt.ucc.ie | 1 |
@@ -2760,12 +2763,14 @@
 | `markandeya-purana` | 摩根德耶往世書 | 印度教 | 614977 |
 | `matrkabheda-tantra` | 母字辨怛特羅 | 印度教 | 71722 |
 | `matsya-purana` | 魚往世書 | 印度教 | 1139062 |
+| `mimamsa-sutra` | 彌曼差經 | 印度教 | 167674 |
 | `mimamsa-sutra-jaimini` | 彌曼差經（闍彌尼） | 印度教 | 169154 |
 | `mrgendra-agama` | 獸主阿含 | 印度教 | 139743 |
 | `nadabindu-upanishad` | 聲點奧義書 | 印度教 | 4068 |
 | `narada-purana` | 那羅陀往世書 | 印度教 | 2113114 |
 | `narada-smrti` | 那羅陀法論 | 印度教 | 234174 |
 | `narasimha-purana` | 人獅往世書 | 印度教 | 470708 |
+| `nyaya-sutra` | 正理經 | 印度教 | 49717 |
 | `nyaya-sutra-gautama` | 正理經（喬達摩） | 印度教 | 51181 |
 | `pancavimsha-brahmana` | 二十五梵書 | 印度教 | 438210 |
 | `parashara-smrti` | 廣博仙法論（行儀・贖罪） | 印度教 | 156814 |
@@ -2776,7 +2781,9 @@
 | `ramayana-southern` | 羅摩衍那（南方校本） | 印度教 | 434183 |
 | `rigveda` | 梨俱吠陀 | 印度教 | 1630555 |
 | `samaveda` | 沙摩吠陀 | 印度教 | 252874 |
+| `samkhya-karika` | 數論頌 | 印度教 | 22582 |
 | `samkhya-karika-ishvarakrshna` | 數論頌（自在黑） | 印度教 | 26630 |
+| `samkhya-sutra` | 數論經 | 印度教 | 54810 |
 | `samkhya-sutra-kapila` | 數論經（迦毗羅） | 印度教 | 56467 |
 | `satvata-tantra` | 薩埵婆多坦特羅 | 印度教 | 95813 |
 | `saundarya-lahari` | 美之波濤 | 印度教 | 47600 |
@@ -2792,9 +2799,11 @@
 | `stotraratna-yamuna` | 讚寶 | 印度教 | 22805 |
 | `svacchanda-tantra` | 自在坦特羅 | 印度教 | 460225 |
 | `taittiriya-upanishad` | 鷓鴣氏奧義書（含商羯羅注） | 印度教 | 158239 |
+| `tarka-samgraha` | 思擇集 | 印度教 | 33954 |
 | `todala-tantra` | 托陀羅怛特羅 | 印度教 | 49850 |
 | `utpaladeva-shivastotravali` | 濕婆讚頌鬘 | 印度教 | 63336 |
 | `vaikhanasa-dharmasutra` | 韋卡納薩法經 | 印度教 | 55668 |
+| `vaisheshika-sutra` | 勝論經 | 印度教 | 23091 |
 | `vaisheshika-sutra-kanada` | 勝論經（迦那陀） | 印度教 | 24334 |
 | `valmiki-ramayana` | 羅摩衍那（Valmiki, critical） | 印度教 | 2387863 |
 | `vamana-purana` | 侏儒往世書 | 印度教 | 638498 |
@@ -2826,19 +2835,24 @@
 | `apollodorus-bibliotheca-el` | 書庫·神話全書（希臘原文） | 古希臘羅馬 | 715918 |
 | `apuleius-metamorphoses-la` | 金驢記（拉丁原文） | 古希臘羅馬 | 459183 |
 | `argonautica` | 阿爾戈尼卡 (羅得島阿波羅尼俄斯) | 古希臘羅馬 | 877223 |
+| `aristophanes-birds-el` | 鳥（希臘原文） | 古希臘羅馬 | 143474 |
 | `aristophanes-clouds-el` | 雲（希臘原文） | 古希臘羅馬 | 129254 |
 | `aristophanes-frogs-el` | 蛙（希臘原文） | 古希臘羅馬 | 71400 |
 | `aristotle-de-anima-el` | 論靈魂（希臘原文） | 古希臘羅馬 | 231936 |
+| `aristotle-metaphysics-el` | 形上學（希臘原文） | 古希臘羅馬 | 872706 |
 | `aristotle-nicomachean-ethics-el` | 尼各馬可倫理學（希臘原文） | 古希臘羅馬 | 650346 |
 | `aristotle-politics-el` | 政治學（希臘原文） | 古希臘羅馬 | 774033 |
 | `aristotle-rhetoric-el` | 修辭學（希臘原文） | 古希臘羅馬 | 514110 |
 | `cicero-de-divinatione-la` | 論占卜（拉丁原文） | 古希臘羅馬 | 192828 |
+| `cicero-de-legibus-la` | 論法律（拉丁原文） | 古希臘羅馬 | 127342 |
 | `cicero-de-natura-deorum-la` | 論神性（拉丁原文） | 古希臘羅馬 | 239093 |
 | `cicero-de-officiis-la` | 論義務（拉丁原文） | 古希臘羅馬 | 235628 |
+| `cicero-tusculanae-la` | 圖斯庫盧姆論辯（拉丁原文） | 古希臘羅馬 | 288044 |
 | `epictetus-discourses-el` | 愛比克泰德談話錄（希臘原文） | 古希臘羅馬 | 912576 |
 | `epictetus-enchiridion-el` | 愛比克泰德手冊（希臘原文） | 古希臘羅馬 | 59867 |
 | `epicurus-letter-menoeceus-el` | 致美諾寇的信（希臘原文） | 古希臘羅馬 | 15897 |
 | `euripides-bacchae-el` | 酒神的女信徒（希臘原文） | 古希臘羅馬 | 97274 |
+| `euripides-hippolytus-el` | 希波呂托斯（希臘原文） | 古希臘羅馬 | 98152 |
 | `euripides-medea-el` | 美狄亞（希臘原文） | 古希臘羅馬 | 98309 |
 | `herodotus-histories` | 希羅多德《歷史》(英希對照) | 古希臘羅馬 | 3968567 |
 | `hesiod-el` | 赫西俄德：神譜＋工作與時日（希臘原文） | 古希臘羅馬 | 159489 |
@@ -2855,7 +2869,12 @@
 | `ovid-fasti-la` | 歲時記（拉丁原文） | 古希臘羅馬 | 207014 |
 | `ovid-metamorphoses` | 變形記 (奧維德) | 古希臘羅馬 | 1283039 |
 | `ovid-metamorphoses-la` | 變形記（拉丁原文） | 古希臘羅馬 | 542687 |
+| `pindar-olympian-el` | 奧林匹亞頌歌（希臘原文） | 古希臘羅馬 | 42610 |
 | `pindar-pythian-el` | 皮托競技凱歌（希臘原文） | 古希臘羅馬 | 98584 |
+| `plato-apology-el` | 蘇格拉底的申辯（希臘原文） | 古希臘羅馬 | 103652 |
+| `plato-crito-el` | 克里同篇（希臘原文） | 古希臘羅馬 | 48845 |
+| `plato-euthyphro-el` | 歐緒弗洛篇（希臘原文） | 古希臘羅馬 | 59363 |
+| `plato-gorgias-el` | 高爾吉亞篇（希臘原文） | 古希臘羅馬 | 322981 |
 | `plato-laws-el` | 法律篇（希臘原文） | 古希臘羅馬 | 1274090 |
 | `plato-meno-el` | 美諾篇（希臘原文） | 古希臘羅馬 | 119587 |
 | `plato-phaedo-el` | 斐多篇（希臘原文） | 古希臘羅馬 | 255935 |
@@ -2868,7 +2887,10 @@
 | `plotinus-enneads` | 普羅提諾九章集 | 古希臘羅馬 | 1805977 |
 | `plotinus-enneads-el` | 九章集（希臘原文） | 古希臘羅馬 | 2387707 |
 | `sappho-poetry` | 莎孚詩集 | 古希臘羅馬 | 70931 |
+| `seneca-de-brevitate-vitae-la` | 論生命之短暫（拉丁原文） | 古希臘羅馬 | 42988 |
+| `seneca-de-ira-la` | 論憤怒（拉丁原文） | 古希臘羅馬 | 154953 |
 | `seneca-de-providentia-la` | 論天意（拉丁原文） | 古希臘羅馬 | 27680 |
+| `seneca-de-vita-beata-la` | 論幸福生活（拉丁原文） | 古希臘羅馬 | 49472 |
 | `seneca-epistulae-la` | 道德書簡（拉丁原文） | 古希臘羅馬 | 977074 |
 | `sibylline-oracles` | 西比拉神諭集 | 古希臘羅馬 | 413437 |
 | `sibylline-oracles-el` | 西比拉神諭集（希臘原文） | 古希臘羅馬 | 393021 |
@@ -3056,6 +3078,9 @@
 | `vulgate-zechariah` | 撒迦利亞書（武加大） | 基督教 | 28568 |
 | `vulgate-zephaniah` | 西番雅書（武加大） | 基督教 | 7308 |
 | `mozi` | 墨子 | 墨家 | 277979 |
+| `kitab-i-iqan-ighan` | 篤信經（確信之書，Kitáb-i-Íqán） | 巴哈伊 | 269190 |
+| `seven-valleys-four-valleys` | 七谷與四谷（巴哈歐拉） | 巴哈伊 | 63277 |
+| `some-answered-questions` | 已答之問（Abdu'l-Bahá） | 巴哈伊 | 548050 |
 | `splendour-of-god` | 上帝的光輝 (巴哈歐拉著作節錄) | 巴哈伊 | 149561 |
 | `folk-tales-from-russian` | 俄羅斯民間故事 | 斯拉夫 | 253759 |
 | `heroic-ballads-servia` | 塞爾維亞英雄敘事詩 | 斯拉夫 | 253639 |
@@ -4627,7 +4652,10 @@
 | `zechariah` | 撒迦利亞書 | 猶太教 | 55846 |
 | `zephaniah` | 西番雅書 | 猶太教 | 13531 |
 | `book-of-mormon-1830` | 摩門經（1830 初版） | 現代新興 | 1433171 |
+| `doctrine-and-covenants` | 教義和聖約 (LDS) | 現代新興 | 665503 |
 | `pearl-of-great-price` | 無價珍珠 | 現代新興 | 144843 |
+| `science-and-health-1906` | 科學與健康暨解經之鑰（1906） | 現代新興 | 1136691 |
+| `studies-in-the-scriptures-1` | 聖經研究 第一卷：諸世代的神聖計畫（Russell） | 現代新興 | 925203 |
 | `avesta-sbe04` | 阿維斯塔 SBE 04 (Vendidad) | 瑣羅亞斯德 | 606425 |
 | `avesta-sbe04-ae` | 驅魔書／維提吠達（阿維斯塔原文） | 瑣羅亞斯德 | 184404 |
 | `avesta-sbe23` | 阿維斯塔 SBE 23 (Yasht) | 瑣羅亞斯德 | 928571 |
@@ -4651,12 +4679,34 @@
 | `nihon-shoki-zh` | 日本書紀（漢文原文，全三十卷） | 神道 | 657957 |
 | `nihongi-aston` | 日本書紀 (英譯) | 神道 | 1506123 |
 | `sendai-kuji-hongi-zh` | 先代舊事本紀（漢文原文，全十卷） | 神道 | 245350 |
+| `blackfoot-old-north-trail` | 古老北方之路 (黑腳族信仰生活) | 美洲 | 783729 |
+| `cherokee-myths` | 切羅基神話 (Mooney) | 美洲 | 548593 |
+| `cherokee-sacred-formulas` | 切羅基神聖咒文 (Mooney) | 美洲 | 272877 |
+| `code-of-handsome-lake` | 英俊湖法典 (塞內卡先知啟示) | 美洲 | 296588 |
+| `creation-myths-primitive-america` | 原始美洲創世神話 (Curtin) | 美洲 | 728512 |
+| `hopi-myths` | 霍皮傳說 (Voth) | 美洲 | 304323 |
+| `inuit-myths` | 愛斯基摩傳說故事 (Rink) | 美洲 | 875276 |
+| `iroquois-book-of-rites` | 易洛魁儀禮之書 (Hale) | 美洲 | 372951 |
+| `iroquois-cosmology` | 易洛魁宇宙觀 (Hewitt) | 美洲 | 198406 |
+| `kwakiutl-tales` | 夸夸嘉夸族傳說 (Boas) | 美洲 | 465638 |
+| `miwok-dawn-of-world` | 世界之曙 (米沃克神話) | 美洲 | 201479 |
 | `navajo-myths` | 納瓦霍神話 | 美洲 | 34123 |
+| `northwest-coast-myths` | 特林吉特神話與文本 (Swanton) | 美洲 | 976408 |
+| `origin-myth-of-acoma` | 阿科馬創世神話 | 美洲 | 369691 |
+| `pima-nights` | 皮馬印第安夜話 (創世神話集) | 美洲 | 301790 |
+| `plains-myths` | 黑腳族營帳傳說 (Grinnell) | 美洲 | 560118 |
+| `pueblo-folk-stories` | 普韋布洛民間故事 (Lummis) | 美洲 | 299666 |
+| `seneca-indian-myths` | 塞內卡神話 (Curtin) | 美洲 | 877077 |
+| `southeastern-myths-tales` | 東南部印第安神話與故事 (Swanton) | 美洲 | 749741 |
+| `yaqui-myths` | 雅基神話與傳說 | 美洲 | 224670 |
+| `zuni-myths` | 祖尼民間故事 (Cushing) | 美洲 | 679446 |
 | `jain-acaranga-pkt` | 阿闥羅門經（半摩揭陀原文） | 耆那教 | 85875 |
 | `jain-aptamimamsa-sa` | 可信者審思（梵文原文） | 耆那教 | 14418 |
 | `jain-dasavaikalika-pkt` | 十誦律要（半摩揭陀原文） | 耆那教 | 83448 |
 | `jain-dhurtakhyana-pkt` | 騙徒故事（俗語原文） | 耆那教 | 69472 |
 | `jain-isibhasiyaim-pkt` | 仙人所說（半摩揭陀原文） | 耆那教 | 100294 |
+| `jain-nyayapravesa-vrtti-sa` | 因明入正理論疏（梵文原文） | 耆那教 | 64739 |
+| `jain-nyayavatara-sa` | 入正理論（梵文原文，含註） | 耆那教 | 223939 |
 | `jain-paumacariu-apa` | 波摩行傳（阿波布郎舍原文） | 耆那教 | 1502447 |
 | `jain-sastravarttasamuccaya-sa` | 諸論義集（梵文原文） | 耆那教 | 88613 |
 | `jain-sbe22` | 耆那經典 SBE 22 (Acaranga + Kalpa) | 耆那教 | 612472 |
@@ -4665,34 +4715,45 @@
 | `jain-uttaradhyayana-pkt` | 後篇經（半摩揭陀原文） | 耆那教 | 233030 |
 | `fragments-of-faith-forgotten` | 被遺忘信仰的碎片 (Mead) | 諾斯底 | 1022163 |
 | `gnostics-and-their-remains` | 諾斯底與其遺存 (King) | 諾斯底 | 1070126 |
+| `pistis-sophia` | 信仰智慧 (Pistis Sophia, Mead) | 諾斯底 | 650254 |
 | `thrice-greatest-hermes-1` | 三度偉大的赫爾墨斯 Vol 1 (Mead) | 諾斯底 | 865947 |
 | `thrice-greatest-hermes-2` | 三度偉大的赫爾墨斯 Vol 2 (Hermetica) | 諾斯底 | 574341 |
 | `thrice-greatest-hermes-3` | 三度偉大的赫爾墨斯 Vol 3 | 諾斯底 | 623940 |
 | `corpus-hermeticum-el` | 赫爾墨斯文集（希臘原文，八篇） | 赫爾墨斯 | 121716 |
 | `baopuzi` | 抱朴子（內外篇） | 道教 | 594705 |
 | `beidou-yansheng-jing` | 太上玄靈北斗本命延生真經 | 道教 | 9207 |
+| `dingguan-jing` | 洞玄靈寶定觀經 | 道教 | 2198 |
 | `duren-jing` | 靈寶無量度人上品妙經 | 道教 | 1278353 |
 | `guanyin-zi` | 關尹子 | 道教 | 38741 |
 | `huainanzi` | 淮南子 | 道教 | 491733 |
 | `huangdi-neijing` | 黃帝內經 | 道教 | 565607 |
 | `huangting-neijing` | 黃庭內景經 | 道教 | 15251 |
 | `huangting-waijing` | 黃庭外景經 | 道教 | 9125 |
+| `huashu` | 化書 | 道教 | 50365 |
 | `jindan-sibaizi` | 金丹四百字 | 道教 | 6471 |
 | `kangcangzi` | 亢倉子 | 道教 | 34680 |
+| `laozi-heshanggong` | 老子河上公章句 | 道教 | 81529 |
+| `laozi-xianger-zhu` | 老子想爾注 | 道教 | 38513 |
 | `liezi` | 列子 | 道教 | 114186 |
+| `lingbao-bifa` | 靈寶畢法 | 道教 | 53279 |
+| `neiguan-jing` | 太上老君內觀經 | 道教 | 6828 |
 | `qingjing-jing` | 太上老君說常清靜經 | 道教 | 2179 |
 | `shenxian-zhuan` | 神仙傳 | 道教 | 112803 |
 | `taiping-jing` | 太平經 | 道教 | 122455 |
 | `taishang-ganying-pian` | 太上感應篇 | 道教 | 4773 |
 | `taiyi-jinhua-zongzhi` | 太乙金華宗旨 | 道教 | 30527 |
 | `tao-te-ching` | 道德經 | 道教 | 20773 |
+| `tianxian-zhengli` | 天仙正理直論 | 道教 | 130952 |
 | `tianyinzi` | 天隱子 | 道教 | 4979 |
 | `wenchang-yinzhiwen` | 文昌帝君陰騭文 | 道教 | 2318 |
 | `wenzi` | 文子 | 道教 | 143683 |
+| `wunengzi` | 無能子 | 道教 | 33862 |
 | `wuzhen-pian` | 悟真篇 | 道教 | 21032 |
+| `xuangang-lun` | 玄綱論 | 道教 | 27852 |
 | `yinfu-jing` | 黃帝陰符經 | 道教 | 1766 |
 | `yuhuang-benxing-jing` | 高上玉皇本行集經 | 道教 | 43103 |
 | `yunji-qiqian` | 雲笈七籤 | 道教 | 2766008 |
+| `zhonglu-chuandao-ji` | 鍾呂傳道集 | 道教 | 90665 |
 | `zhouyi-cantong-qi` | 周易參同契 | 道教 | 23610 |
 | `zhuangzi` | 莊子 | 道教 | 242136 |
 | `zuowang-lun` | 坐忘論 | 道教 | 19261 |
