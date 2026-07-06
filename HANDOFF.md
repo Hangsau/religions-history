@@ -95,6 +95,16 @@ MiniMax 週一（2026-07-06）回來前的免付費工作。翻譯管線仍 HALT
 
 **操作觀察**：4 部中 3 部（taiyi / wuzhen / zuowang）走古典漢語 verbatim 短路（無 LLM 呼叫、零成本），僅 vajracchedika-sa 梵文 + gita-govinda 梵文用 MiniMax 計費。回切 MiniMax 主力是這次決策主因——vajracchedika-sa 378 行 + gita-govinda 估 200 行，總計 <600 行梵文新譯，月費 5H 窗吃得下。
 
+## 2026-07-06 Pipeline B+C 續：japji-sahib-pa 譯+標籤（+1 錫克教核心，commit 96f414a7）
+
+先前 batch 遺留 commit：Japji Sahib（旁遮普古木基原文，pa.wikisource，CC BY-SA）P4 直譯繁中 + P5 標籤回填。
+
+- 38 段 pauri + 序 Mool Mantar + 結語，554 行直譯繁中，名相保留（Ik Onkar / Naam / Hukam / Nānak / Sach / ਨਿਰੰਕਾਰ 等）。
+- semantic_tags 14：asceticism / chanting / divine-immanence / divine-transcendence / grace-from-god / inclusive-monotheism / karma-rebirth / liberation-by-devotion / mystical-union / pilgrimage / prayer / syncretic / truthfulness / ultimate-reality。
+- keywords 15：神名與古木基原文詞並列。
+- PROGRESS.json 錫克教 with_translation 0→1；PIPELINE_STATUS 195/492→196/492，current=sblgnt-hebrews。
+- `verify.py --all` 全綠。
+
 ## 2026-07-05 WS3：心理學讀經層——由下而上分類（P6 前置，免付費）
 
 翻譯管線仍 HALT 期間的規劃型工作。核心意圖見 memory `project_religions_history_psych_lens.md`：本專案終點不只原文庫，而是**用心理學透鏡讀經 + 跨宗教比較**。本輪把這條線推到「分類已收斂、對照真實經典」的雛型。
