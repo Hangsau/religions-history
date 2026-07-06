@@ -780,6 +780,13 @@
       "religion": "阿茲特克"
     }
   ],
+  "Aðalból": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Aṅguttara Nikāya": [
     {
       "slug": "an3-threes",
@@ -1902,6 +1909,13 @@
       "religion": "猶太教"
     }
   ],
+  "Einarr": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Elcesae": [
     {
       "slug": "vulgate-nahum",
@@ -2103,6 +2117,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Frey": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Freyfaxi": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Funeral Rite": [
     {
       "slug": "burden-of-isis",
@@ -2247,11 +2275,32 @@
       "religion": "基督教"
     }
   ],
+  "Gorakṣa": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "Greek hexameter": [
     {
       "slug": "sibylline-oracles",
       "name_zh": "西比拉神諭集",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Grjótteigsseli": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Grjótárgil": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Guide for the Perplexed": [
@@ -2607,6 +2656,27 @@
       "slug": "vulgate-hosea",
       "name_zh": "何西阿書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Hrafnkell": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Hrafnkels saga": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Hrafnkelsdal": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Huitzilopochtli": [
@@ -3255,6 +3325,13 @@
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
+    }
+  ],
+  "Jökulsá": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Jātaka": [
@@ -3937,6 +4014,13 @@
       "religion": "猶太教"
     }
   ],
+  "Matsyendra": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "Maulana": [
     {
       "slug": "masnavi-rumi-st",
@@ -4071,6 +4155,13 @@
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
+    }
+  ],
+  "Miklagarðr": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Milinda": [
@@ -4530,10 +4621,24 @@
       "religion": "印度教"
     }
   ],
+  "Nóregr": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Nāgasena": [
     {
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
+      "religion": "佛教"
+    }
+  ],
+  "Nāgārjuna": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     }
   ],
@@ -6109,6 +6214,13 @@
       "religion": "佛教"
     }
   ],
+  "Svātmārāma": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "Synagogue": [
     {
       "slug": "legends-of-the-jews",
@@ -7444,6 +7556,13 @@
       "religion": "耆那教"
     }
   ],
+  "ahiṃsā": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "al-Baqarah": [
     {
       "slug": "quran-pickthall",
@@ -7673,6 +7792,13 @@
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "bhadrāsana": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     }
   ],
   "bhagavā": [
@@ -8431,6 +8557,13 @@
       "religion": "印度教"
     }
   ],
+  "goði": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "grace": [
     {
       "slug": "vulgate-titus",
@@ -8492,6 +8625,13 @@
     {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "haṭha-yoga": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
     }
   ],
@@ -8880,6 +9020,13 @@
       "religion": "古埃及"
     }
   ],
+  "mahāsiddha": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "mandatum": [
     {
       "slug": "vulgate-1-john",
@@ -9069,6 +9216,13 @@
       "religion": "錫克教"
     }
   ],
+  "niyama": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "novissimus-dierum": [
     {
       "slug": "vulgate-micah",
@@ -9123,6 +9277,13 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    }
+  ],
+  "padmāsana": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     }
   ],
   "padārtha": [
@@ -9336,6 +9497,13 @@
       "religion": "印度教"
     }
   ],
+  "pratītyasamutpāda": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "praṇava": [
     {
       "slug": "yoga-sutra",
@@ -9544,6 +9712,13 @@
       "religion": "阿茲特克"
     }
   ],
+  "rāja-yoga": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "rāsa": [
     {
       "slug": "gita-govinda",
@@ -9632,6 +9807,11 @@
       "slug": "an7-sevens",
       "name_zh": "AN7 七法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     },
     {
       "slug": "sn56-sacca",
@@ -9762,6 +9942,13 @@
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
+    }
+  ],
+  "siṃhāsana": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     }
   ],
   "solar barque": [
@@ -10232,6 +10419,13 @@
       "religion": "佛教"
     }
   ],
+  "yama": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "yathābhūtañāṇadassana": [
     {
       "slug": "an11-elevens",
@@ -10316,6 +10510,13 @@
       "religion": "耆那教"
     }
   ],
+  "Ādinātha": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
   "Ānanda": [
     {
       "slug": "an11-elevens",
@@ -10379,6 +10580,13 @@
     {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    }
+  ],
+  "āsana": [
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
     }
   ],
@@ -10523,6 +10731,11 @@
   ],
   "śūnyatā": [
     {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -10577,6 +10790,13 @@
       "religion": "基督教"
     }
   ],
+  "Λύκειον": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Μαριάμ": [
     {
       "slug": "sblgnt-luke",
@@ -10624,6 +10844,13 @@
       "religion": "基督教"
     }
   ],
+  "Στωικός": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Χριστός": [
     {
       "slug": "sblgnt-mark",
@@ -10659,7 +10886,19 @@
       "religion": "基督教"
     }
   ],
+  "γραφή": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "δαιμόνιον": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sblgnt-mark",
       "name_zh": "馬可福音（希臘原文）",
@@ -10671,6 +10910,13 @@
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "δόγμα": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "εὐαγγέλιον": [
@@ -10689,6 +10935,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "εὐσέβεια": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -10711,6 +10964,13 @@
       "slug": "sblgnt-philippians",
       "name_zh": "腓立比書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "καρτερία": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "λέπρα": [
@@ -10762,6 +11022,13 @@
       "religion": "基督教"
     }
   ],
+  "προαίρεσις": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "σοφία 智慧": [
     {
       "slug": "sblgnt-james",
@@ -10773,6 +11040,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "φαντασία": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -11459,7 +11733,26 @@
       "religion": "耆那教"
     }
   ],
+  "ἀνεξικακία": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἀπάθεια": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἀταραξία": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
@@ -11484,6 +11777,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἐγκράτεια": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -11512,6 +11812,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Ἐπίκτητος": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -12138,7 +12445,26 @@
       "religion": "儒教"
     }
   ],
+  "中觀": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "中論": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "中道": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
@@ -12453,6 +12779,11 @@
     {
       "slug": "abhidharmakosa",
       "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     },
     {
@@ -14400,6 +14731,13 @@
       "religion": "儒教"
     }
   ],
+  "修養": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "俱舍論": [
     {
       "slug": "abhidharmakosa",
@@ -14815,6 +15153,13 @@
       "religion": "猶太教"
     }
   ],
+  "克洛諾斯": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "克萊孟版": [
     {
       "slug": "vulgate-1-timothy",
@@ -14827,6 +15172,13 @@
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "兒子起訴父親": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "兜率天": [
@@ -14985,6 +15337,13 @@
       "religion": "基督教"
     }
   ],
+  "公民大會": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "公義": [
     {
       "slug": "bible-amos",
@@ -15037,6 +15396,11 @@
     }
   ],
   "六入": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "sn35-salayatana",
       "name_zh": "SN35 六入相應 (248 經)",
@@ -16387,6 +16751,13 @@
       "religion": "猶太教"
     }
   ],
+  "命運": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "命門": [
     {
       "slug": "huangting-waijing",
@@ -17600,6 +17971,13 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    }
+  ],
+  "墨勒托斯": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "士師時期": [
@@ -18921,6 +19299,11 @@
     {
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -22844,6 +23227,13 @@
       "religion": "儒教"
     }
   ],
+  "斯多葛": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "斯拉夫民俗學": [
     {
       "slug": "songs-of-russian-people",
@@ -23849,6 +24239,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -24000,6 +24395,13 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    }
+  ],
+  "歐緒弗洛": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "正定": [
@@ -25491,6 +25893,13 @@
       "religion": "佛教"
     }
   ],
+  "無自性": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "無著": [
     {
       "slug": "mahayanasamgraha",
@@ -25624,6 +26033,13 @@
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
+    }
+  ],
+  "牧羊人": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "牧者": [
@@ -25970,6 +26386,13 @@
       "slug": "bible-esther",
       "name_zh": "以斯帖記",
       "religion": "基督教"
+    }
+  ],
+  "王廊": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "王政": [
@@ -27333,6 +27756,11 @@
   ],
   "空性": [
     {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
@@ -28036,6 +28464,11 @@
     }
   ],
   "緣起": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
@@ -29903,6 +30336,11 @@
   ],
   "般若": [
     {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
@@ -30390,6 +30828,18 @@
       "religion": "印度教"
     }
   ],
+  "蘇格拉底": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "蘇特拉": [
     {
       "slug": "brahma-sutra",
@@ -30509,6 +30959,13 @@
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "表象": [
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "被擄": [
@@ -30828,6 +31285,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
@@ -30965,6 +31427,13 @@
       "religion": "印度教"
     }
   ],
+  "誓約": [
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "誓願": [
     {
       "slug": "infinite-life-sutra",
@@ -31055,6 +31524,13 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    }
+  ],
+  "謀殺": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "謙卑": [
@@ -32729,6 +33205,13 @@
       "religion": "基督教"
     }
   ],
+  "雅典": [
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "雅典娜": [
     {
       "slug": "homer-odyssey-st",
@@ -33025,6 +33508,11 @@
       "slug": "bible-nahum",
       "name_zh": "那鴻書",
       "religion": "基督教"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-2-peter",
@@ -33582,6 +34070,11 @@
     }
   ],
   "龍樹": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",

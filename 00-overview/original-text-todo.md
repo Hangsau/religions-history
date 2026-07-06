@@ -4,7 +4,16 @@
 > 政策：先英→中翻譯（過渡），原文取得後重譯。這是 Pipeline A 的補抓待辦，非阻塞。
 > 已查明「無乾淨原文來源」的部另列文末分區（來源狀態表 `scripts/catalog/original-source-status.json`）。
 
-- 可收待補原文核心：**5** 部，橫跨 **3** 宗教
+- 可收待補原文核心：**10** 部，橫跨 **3** 宗教
+
+## 美洲（6 部）
+
+- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
+- [ ] `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）— 未譯，原文待補
+- [ ] `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）— 未譯，原文待補
+- [ ] `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）— 未譯，原文待補
+- [ ] `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）— 未譯，原文待補
+- [ ] `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）— 未譯，原文待補
 
 ## 巴哈伊（3 部）
 
@@ -15,10 +24,6 @@
 ## 諾斯底（1 部）
 
 - [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
-
-## 美洲（1 部）
-
-- [ ] `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）— 未譯，原文待補
 
 ---
 

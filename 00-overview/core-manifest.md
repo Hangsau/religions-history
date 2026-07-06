@@ -2,26 +2,27 @@
 
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
-- 核心總數：**504** 部
-- 已翻譯：**192** / 504
-- 已標籤：**388** / 504
+- 核心總數：**509** 部
+- 已翻譯：**197** / 509
+- 已標籤：**393** / 509
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 86 | 159 |
-| 佛教 | 74 | 40 | 64 |
-| 印度教 | 58 | 13 | 26 |
-| 古希臘羅馬 | 46 | 1 | 13 |
+| 佛教 | 74 | 41 | 65 |
+| 印度教 | 58 | 14 | 27 |
+| 古希臘羅馬 | 46 | 3 | 15 |
 | 猶太教 | 45 | 20 | 45 |
 | 道教 | 18 | 17 | 17 |
-| 北歐 | 15 | 0 | 3 |
+| 北歐 | 15 | 1 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 儒教 | 10 | 10 | 10 |
 | 古埃及 | 8 | 0 | 8 |
 | 凱爾特 | 7 | 0 | 4 |
 | 耆那教 | 7 | 1 | 3 |
+| 美洲 | 6 | 0 | 0 |
 | 諾斯底 | 6 | 0 | 5 |
 | 現代新興 | 5 | 0 | 2 |
 | 神道 | 5 | 0 | 1 |
@@ -35,7 +36,6 @@
 | 阿茲特克 | 1 | 0 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
 | 印加 | 1 | 0 | 1 |
-| 美洲 | 1 | 0 | 0 |
 | 墨家 | 1 | 1 | 0 |
 
 ## 缺口分析
@@ -60,20 +60,20 @@
 | original | 286 |
 | translation | 197 |
 | contested | 2 |
-| (未標) | 19 |
+| (未標) | 24 |
 
 ### 疑似音譯 / 咒語，待人工確認 text_role
 
 > 標題含 咒 / 陀羅尼 / 真言 / mantra 等且尚未標 text_role。音譯文本禁意譯，需人工確認後標 `text_role: transliteration`，翻譯管線才會原樣保留。
 
-- （無）
+- `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（美洲）
 
 ## 唯一英譯本核心（政策已定，非待決缺口）
 
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
-- 唯一英譯本宗教：**3** 個 / 核心 **5** 部
-- 名單：巴哈伊、諾斯底、美洲
+- 唯一英譯本宗教：**3** 個 / 核心 **10** 部
+- 名單：美洲、巴哈伊、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -270,7 +270,7 @@
 - `bud-buddhacarita-sa` 佛所行讚（梵文）（梵語）譯– 標–
 - `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯– 標–
 - `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯– 標–
-- `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯– 標–
+- `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯✓ 標✓
 - `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯✓ 標✓
 - `bud-ratnagotravibhaga-sa` 寶性論（梵文）（梵語）譯– 標–
 - `bud-saddharmapundarika-sa` 妙法蓮華經（梵文）（梵語）譯– 標–
@@ -347,7 +347,7 @@
 - `gheranda-samhita` 格蘭達本集（梵語）譯– 標–
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
 - `harivamsha` 訶利世系（Sanskrit）譯– 標–
-- `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯– 標–
+- `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯✓ 標✓
 - `isha-upanishad` 伊舍奧義書（Sanskrit）譯✓ 標✓
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯✓ 標✓
 - `kurma-purana` 龜往世書（Sanskrit）譯– 標–
@@ -394,7 +394,7 @@
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
 - `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
-- `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯– 標–
+- `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯✓ 標✓
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯– 標–
 - `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯– 標–
@@ -414,7 +414,7 @@
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯– 標–
-- `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯– 標–
+- `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
@@ -511,7 +511,7 @@
 - `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯– 標–
-- `hrafnkels-saga-on` 赫拉夫恩克爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `hrafnkels-saga-on` 赫拉夫恩克爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `laxdaela-saga-on` 拉克斯達拉薩迦（古諾斯語）譯– 標–
 - `njals-saga-on` 尼雅爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯– 標✓
@@ -578,6 +578,15 @@
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+
+### 美洲（6 部）
+
+- `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯– 標–
+- `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯– 標–
+- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
+- `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯– 標–
+- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
+- `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
 
 ### 諾斯底（6 部）
 
@@ -659,10 +668,6 @@
 ### 印加（1 部）
 
 - `inca-rites` 印加儀禮與法律（English (translation)）譯– 標✓
-
-### 美洲（1 部）
-
-- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
 
 ### 墨家（1 部）
 
