@@ -216,7 +216,7 @@
     "pct_core": 100,
     "pct_v3_listed": 69.6,
     "pct_full": 5.8,
-    "with_translation": 86,
+    "with_translation": 87,
     "with_semantic_tags": 0,
     "total_bytes": 23341322,
     "by_tradition": {
@@ -399,21 +399,21 @@
     "original_count": 5
   },
   "美洲": {
-    "done": 21,
+    "done": 33,
     "target_core": 3,
     "target_v3_listed": 50,
     "target_full_canon": 500,
     "pct_core": 100,
-    "pct_v3_listed": 42.0,
-    "pct_full": 4.2,
+    "pct_v3_listed": 66.0,
+    "pct_full": 6.6,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 10121102,
+    "total_bytes": 12770835,
     "by_tradition": {
-      "—": 21
+      "—": 33
     },
     "by_source": {
-      "sacred-texts.com": 21
+      "sacred-texts.com": 33
     },
     "original_count": 0
   },
@@ -503,7 +503,7 @@
     "pct_core": 100,
     "pct_v3_listed": 90.0,
     "pct_full": 30.0,
-    "with_translation": 1,
+    "with_translation": 2,
     "with_semantic_tags": 0,
     "total_bytes": 6025281,
     "by_tradition": {

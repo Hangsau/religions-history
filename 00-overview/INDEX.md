@@ -5,10 +5,10 @@
 
 ## 統計總覽
 
-- 總計: **4661** 部
-- 已驗證: 4661
-- 原文 (vs 譯文): 4246 / 4661
-- 總大小: ~636.2 MB
+- 總計: **4673** 部
+- 已驗證: 4673
+- 原文 (vs 譯文): 4246 / 4673
+- 總大小: ~638.8 MB
 
 ## 按宗教
 
@@ -21,8 +21,8 @@
 | 古希臘羅馬 | 72 |
 | 儒教 | 38 |
 | 道教 | 37 |
+| 美洲 | 33 |
 | 北歐 | 26 |
-| 美洲 | 21 |
 | 古埃及 | 14 |
 | 耆那教 | 13 |
 | 瑣羅亞斯德 | 11 |
@@ -58,11 +58,11 @@
 | 儒教 | 38 |
 | 道教 | 37 |
 | 猶太教 - Midrash | 36 |
+| 美洲 | 33 |
 | 猶太教 - Talmud | 32 |
 | 佛教 | 30 |
 | 基督教 - 新約-希臘原文 | 27 |
 | 北歐 | 26 |
-| 美洲 | 21 |
 | 古埃及 | 14 |
 | 耆那教 | 13 |
 | 瑣羅亞斯德 | 11 |
@@ -88,7 +88,7 @@
 | Sefaria | 1552 |
 | GRETIL | 151 |
 | zh.wikisource.org | 140 |
-| sacred-texts.com | 121 |
+| sacred-texts.com | 133 |
 | CBETA TEI P5 XML (GitHub): 卍新纂大日本續藏經 (Manji Zokuzōkyō) | 117 |
 | la.wikisource.org | 96 |
 | CBETA (TEI P5 XML, GitHub) | 48 |
@@ -4679,25 +4679,37 @@
 | `nihon-shoki-zh` | 日本書紀（漢文原文，全三十卷） | 神道 | 657957 |
 | `nihongi-aston` | 日本書紀 (英譯) | 神道 | 1506123 |
 | `sendai-kuji-hongi-zh` | 先代舊事本紀（漢文原文，全十卷） | 神道 | 245350 |
+| `algonquin-legends` | 新英格蘭阿爾岡昆傳說 (Leland) | 美洲 | 582664 |
 | `blackfoot-old-north-trail` | 古老北方之路 (黑腳族信仰生活) | 美洲 | 783729 |
+| `cherokee-ball-play` | 切羅基球賽 (儀式競技, Mooney) | 美洲 | 65440 |
 | `cherokee-myths` | 切羅基神話 (Mooney) | 美洲 | 548593 |
 | `cherokee-sacred-formulas` | 切羅基神聖咒文 (Mooney) | 美洲 | 272877 |
+| `chinigchinich` | 欽尼赤尼赤 (路易塞紐宗教) | 美洲 | 148844 |
+| `chinook-texts` | 奇努克文本 (Boas) | 美洲 | 279886 |
 | `code-of-handsome-lake` | 英俊湖法典 (塞內卡先知啟示) | 美洲 | 296588 |
 | `creation-myths-primitive-america` | 原始美洲創世神話 (Curtin) | 美洲 | 728512 |
 | `hopi-myths` | 霍皮傳說 (Voth) | 美洲 | 304323 |
 | `inuit-myths` | 愛斯基摩傳說故事 (Rink) | 美洲 | 875276 |
 | `iroquois-book-of-rites` | 易洛魁儀禮之書 (Hale) | 美洲 | 372951 |
 | `iroquois-cosmology` | 易洛魁宇宙觀 (Hewitt) | 美洲 | 198406 |
+| `jicarilla-apache-texts` | 希卡里亞阿帕契文本 (Goddard) | 美洲 | 210587 |
 | `kwakiutl-tales` | 夸夸嘉夸族傳說 (Boas) | 美洲 | 465638 |
+| `maidu-texts` | 邁杜文本 (Dixon) | 美洲 | 204714 |
 | `miwok-dawn-of-world` | 世界之曙 (米沃克神話) | 美洲 | 201479 |
+| `miwok-myths` | 米沃克神話 (Barrett) | 美洲 | 136214 |
+| `mythology-mission-indians` | 傳教區印第安人的神話 (DuBois) | 美洲 | 81371 |
 | `navajo-myths` | 納瓦霍神話 | 美洲 | 34123 |
 | `northwest-coast-myths` | 特林吉特神話與文本 (Swanton) | 美洲 | 976408 |
 | `origin-myth-of-acoma` | 阿科馬創世神話 | 美洲 | 369691 |
+| `peyote-cult` | 佩約特儀式 (烏羽玉聖餐宗教) | 美洲 | 110275 |
 | `pima-nights` | 皮馬印第安夜話 (創世神話集) | 美洲 | 301790 |
 | `plains-myths` | 黑腳族營帳傳說 (Grinnell) | 美洲 | 560118 |
 | `pueblo-folk-stories` | 普韋布洛民間故事 (Lummis) | 美洲 | 299666 |
+| `religion-indians-california` | 加州印第安人的宗教 (Kroeber) | 美洲 | 85803 |
+| `religion-luiseno-indians` | 路易塞紐印第安人的宗教 (DuBois) | 美洲 | 248058 |
 | `seneca-indian-myths` | 塞內卡神話 (Curtin) | 美洲 | 877077 |
 | `southeastern-myths-tales` | 東南部印第安神話與故事 (Swanton) | 美洲 | 749741 |
+| `sun-dance-ceremonies` | 太陽舞與其他儀式 (Oglala Sioux) | 美洲 | 495877 |
 | `yaqui-myths` | 雅基神話與傳說 | 美洲 | 224670 |
 | `zuni-myths` | 祖尼民間故事 (Cushing) | 美洲 | 679446 |
 | `jain-acaranga-pkt` | 阿闥羅門經（半摩揭陀原文） | 耆那教 | 85875 |
