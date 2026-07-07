@@ -84,26 +84,26 @@
     "original_count": 0
   },
   "凱爾特": {
-    "done": 9,
+    "done": 11,
     "target_core": 4,
     "target_v3_listed": 40,
     "target_full_canon": 500,
     "pct_core": 100,
-    "pct_v3_listed": 22.5,
-    "pct_full": 1.8,
+    "pct_v3_listed": 27.5,
+    "pct_full": 2.2,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 3545639,
+    "total_bytes": 3651890,
     "by_tradition": {
-      "—": 9
+      "—": 11
     },
     "by_source": {
       "sacred-texts.com": 5,
+      "celt.ucc.ie": 3,
       "cy.wikisource.org": 2,
-      "celt.ucc.ie": 1,
       "en.wikisource.org": 1
     },
-    "original_count": 5
+    "original_count": 6
   },
   "北歐": {
     "done": 26,
@@ -129,7 +129,7 @@
     "original_count": 23
   },
   "印加": {
-    "done": 3,
+    "done": 7,
     "target_core": 0,
     "target_v3_listed": 0,
     "target_full_canon": 0,
@@ -138,11 +138,12 @@
     "pct_full": null,
     "with_translation": 0,
     "with_semantic_tags": 0,
-    "total_bytes": 532232,
+    "total_bytes": 4216513,
     "by_tradition": {
-      "—": 3
+      "—": 7
     },
     "by_source": {
+      "archive.org": 4,
       "sacred-texts.com": 3
     },
     "original_count": 0
@@ -155,7 +156,7 @@
     "pct_core": 100,
     "pct_v3_listed": 44.4,
     "pct_full": 3.7,
-    "with_translation": 14,
+    "with_translation": 15,
     "with_semantic_tags": 0,
     "total_bytes": 63240768,
     "by_tradition": {
@@ -194,7 +195,7 @@
     "pct_core": 100,
     "pct_v3_listed": 72.0,
     "pct_full": 14.4,
-    "with_translation": 3,
+    "with_translation": 4,
     "with_semantic_tags": 0,
     "total_bytes": 36655645,
     "by_tradition": {
