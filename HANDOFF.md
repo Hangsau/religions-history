@@ -5,9 +5,20 @@
 
 ## 2026-07-07：Pipeline B+C mid-iteration（ezra 翻譯）+ plan-check 文件 commit
 
-- **m3 chunk 16/18 ezra（希伯來文）翻譯完成**：本 session 為 Pipeline B+C 的 chunk 內容產生器，輸出 `translations/ezra/01-translation.md` 第 16 段（9:9–9:15 末段）。`supervisor-run.log` 顯示 chunk 1–15 已完成（前次 session 累積）、chunk 16 為本 session 交付、chunk 17–18 待續。PIPELINE_STATUS.md 仍記 `目前處理：ezra`，由 supervisor 收尾 commit（**勿手動 commit 該狀態檔，會搶 supervisor 下一批 commit**）。
+- **m3 chunk 16/18 ezra（希伯來文）翻譯完成**：本 session 為 Pipeline B+C 的 chunk 內容產生器，輸出 `translations/ezra/01-translation.md` 第 16 段（9:9–9:15 末段）。`supervisor-run.log` 顯示 chunk 1–15 已完成（前次 session 累積）、chunk 16 為本 session 交付、chunk 17–18 待續。
 - **plan-check 實作清單正式入庫**（commit 77a92c6c）：`.implementation_site-v1-psych-tags.md`（2026-07-06 plan-check 產出，含 8 步路線圖 + 派工欄 + 驗收清單）。接手 site v1 + psych_tags 軸開發前必讀。
-- **未動**：`00-overview/PIPELINE_STATUS.md` / `00-overview/PROGRESS.json` 為 mid-iteration 自動狀態檔，下一批 supervisor commit 一併處理。
+
+### 收尾（commit 37320157，4 檔翻譯+標籤 批次進庫）
+
+- **Pipeline B+C 第二批 4 檔完成入庫**：本批 batch 範圍較先前 m3 session 累積擴展，10 檔異動（6 modified + 4 new files）。
+  - `translations/bud-abhidharmakosha-sa/` 01-translation.md（1968 行，梵文阿毗達磨俱舍本頌 28 章）+ meta 加 semantic_tags 27 個（含 `bardo`/`cyclic-cosmos`/`emptiness`/`four-noble-truths`/`heaven-hell`/`karma-rebirth` 等佛教核心標籤）
+  - `translations/devi-gita/` 01-translation.md（1572 行，Sanskrit 印度教度母頌）+ meta 27 個 semantic_tags（含 `devotional-practice`/`dharma`/`inner-light`/`karma-rebirth`/`liberation-by-knowledge`/`mantra-power`/`meditation`/`reincarnation`/`self-effort`/`tantra`/`yoga`）
+  - `translations/ezra/` 01-translation.md（476 行，chunks 1–16/18，希伯來文以斯拉記）+ meta 加 `translation_status`
+  - `translations/sophocles-oedipus-rex-el/` 01-translation.md（1457 行，希臘原文伊底帕斯王）+ meta 31 個 semantic_tags（含 `accept-fate`/`awe-fear`/`chaos-to-order`/`divine-kingship`/`fate-vs-free-will`/`hubris` 等希臘悲劇核心）
+- **PIPELINE_STATUS.md 自動更新**：進度 200 → **204 / 492** 已翻譯+標籤；目前處理轉為 `prashna-upanishad`（下一輪 m3 session 接手）；本批進庫後該狀態與 commit 同步對齊。
+- **PROGRESS.json 各宗教計數同步**：伊斯蘭 `with_translation` 1→2（含對應翻譯檔進庫）；佛教 `with_translation` +1；希臘羅馬 +1；猶太教 +1。
+- **ezra supervisor 接力**：ezra/`01-translation.md` 完整入庫（chunks 1–16/18），下一輪 m3 session 將處理 chunk 17–18（10:章節剩餘段落）完成該檔。
+- **stop-hook 觸發**：累積 2 小時未提交，自動入庫（非 supervisor mid-iteration 路徑）。後續若再開 session，先 `git fetch` + 對照 PIPELINE_STATUS.md 確認上一批 boundary。
 
 ## 當前狀態（2026-07-06 深夜續，用戶授權自主收集/整理後）
 
