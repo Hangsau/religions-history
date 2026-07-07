@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**202** / 518
-- 已標籤：**396** / 518
+- 已翻譯：**207** / 518
+- 已標籤：**399** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 87 | 159 |
-| 佛教 | 74 | 42 | 65 |
-| 印度教 | 58 | 15 | 28 |
-| 古希臘羅馬 | 46 | 4 | 16 |
-| 猶太教 | 45 | 20 | 45 |
+| 佛教 | 74 | 43 | 66 |
+| 印度教 | 58 | 17 | 29 |
+| 古希臘羅馬 | 46 | 5 | 17 |
+| 猶太教 | 45 | 21 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 1 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -264,7 +264,7 @@
 - `an9-nines` AN9 九法集（Pali）譯– 標✓
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
-- `bud-abhidharmakosha-sa` 阿毗達磨俱舍論本頌（梵文）（梵語）譯– 標–
+- `bud-abhidharmakosha-sa` 阿毗達磨俱舍論本頌（梵文）（梵語）譯✓ 標✓
 - `bud-astasahasrika-prajnaparamita-sa` 八千頌般若波羅蜜多（梵文）（梵語）譯– 標–
 - `bud-bodhicaryavatara-sa` 入菩薩行論（梵文）（梵語）譯– 標–
 - `bud-buddhacarita-sa` 佛所行讚（梵文）（梵語）譯– 標–
@@ -341,7 +341,7 @@
 - `brahmanda-purana` 梵卵往世書（Sanskrit）譯– 標–
 - `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯✓ 標✓
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標✓
-- `devi-gita` 女神之歌（Sanskrit）譯– 標–
+- `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
 - `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
 - `gautama-dharmasutra` 喬達摩法經（梵語）譯– 標–
 - `gheranda-samhita` 格蘭達本集（梵語）譯– 標–
@@ -363,7 +363,7 @@
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
 - `nyaya-sutra` 正理經（梵語）譯– 標–
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
-- `prashna-upanishad` 問難奧義書（Sanskrit）譯– 標✓
+- `prashna-upanishad` 問難奧義書（Sanskrit）譯✓ 標✓
 - `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯– 標–
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯– 標–
 - `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
@@ -429,7 +429,7 @@
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標✓
 - `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯– 標–
 - `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯✓ 標✓
-- `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯– 標–
+- `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯✓ 標✓
 - `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標✓
 - `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯– 標–
 - `xenophon-memorabilia-el` 回憶蘇格拉底（希臘原文）（Ancient Greek）譯– 標–
@@ -445,7 +445,7 @@
 - `esther` 以斯帖記（Hebrew）譯✓ 標✓
 - `exodus` 出埃及記（Hebrew）譯– 標✓
 - `ezekiel` 以西結書（Hebrew）譯– 標✓
-- `ezra` 以斯拉記（Hebrew）譯– 標✓
+- `ezra` 以斯拉記（Hebrew）譯✓ 標✓
 - `genesis` 創世記（Hebrew）譯✓ 標✓
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯– 標✓
 - `habakkuk` 哈巴谷書（Hebrew）譯✓ 標✓

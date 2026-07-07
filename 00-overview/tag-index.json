@@ -46,6 +46,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
       "religion": "古希臘羅馬"
@@ -437,6 +442,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
@@ -552,6 +562,11 @@
       "slug": "an2-twos",
       "name_zh": "AN2 二法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "digha-nikaya",
@@ -681,6 +696,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -692,6 +712,11 @@
     }
   ],
   "bardo": [
+    {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
@@ -715,8 +740,18 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
       "religion": "印度教"
     },
     {
@@ -790,6 +825,11 @@
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "mahabharata-ganguli",
@@ -874,6 +914,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "dirghagama",
@@ -1008,6 +1053,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
@@ -1065,6 +1115,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1225,6 +1280,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
@@ -1248,6 +1308,11 @@
       "slug": "deuteronomy",
       "name_zh": "申命記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "digha-nikaya",
@@ -1435,6 +1500,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
@@ -1597,6 +1667,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -1744,6 +1819,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -1757,6 +1837,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "diamond-sutra-kumarajiva",
@@ -1887,6 +1972,11 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "vimalakirti-sutra",
@@ -2401,6 +2491,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -2543,6 +2638,11 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "doctrine-of-the-mean",
@@ -2919,6 +3019,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -3314,6 +3419,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
@@ -3645,6 +3755,11 @@
   ],
   "emanation": [
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
@@ -3705,6 +3820,11 @@
       "slug": "bible-ecclesiastes",
       "name_zh": "傳道書",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-mulamadhyamakakarika-sa",
@@ -3844,6 +3964,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -3862,6 +3987,11 @@
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "dhammapada",
@@ -4246,6 +4376,11 @@
   ],
   "feminine-divine": [
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -4400,6 +4535,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -4510,6 +4650,11 @@
       "slug": "carmina-gadelica-1",
       "name_zh": "Carmina Gadelica Vol 1",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "egyptian-book-of-dead",
@@ -4654,6 +4799,11 @@
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "gita-govinda",
@@ -4893,6 +5043,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "burden-of-isis",
       "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
       "religion": "古埃及"
@@ -5043,6 +5198,11 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "hatha-yoga-pradipika",
@@ -5411,9 +5571,19 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "dhammapada",
@@ -5593,6 +5763,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -5653,6 +5828,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "gita-govinda",
@@ -5737,6 +5917,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -5759,6 +5944,11 @@
     {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
       "religion": "印度教"
     },
     {
@@ -5999,9 +6189,19 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "hatha-yoga-pradipika",
@@ -6051,6 +6251,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -6074,6 +6279,11 @@
       "slug": "deuteronomy",
       "name_zh": "申命記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "hatha-yoga-pradipika",
@@ -6402,6 +6612,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
@@ -6415,6 +6630,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "dhammapada",
@@ -7116,6 +7336,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -7712,6 +7937,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
@@ -7764,9 +7994,19 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "fragments-of-faith-forgotten",
@@ -7971,6 +8211,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
@@ -8139,6 +8384,16 @@
     }
   ],
   "non-violence": [
+    {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "dhammapada",
       "name_zh": "法句經",
@@ -8455,6 +8710,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -8642,6 +8902,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -8819,6 +9084,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -8956,6 +9226,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -9236,6 +9511,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-1-chronicles",
       "name_zh": "歷代志上（武加大）",
       "religion": "基督教"
@@ -9441,6 +9721,11 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "tale-of-igor-ru",
@@ -9680,6 +9965,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "exodus",
       "name_zh": "出埃及記",
       "religion": "猶太教"
@@ -9842,6 +10132,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -10052,6 +10347,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -10107,6 +10407,11 @@
       "slug": "deuteronomy",
       "name_zh": "申命記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "isha-upanishad",
@@ -10246,6 +10551,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -10299,6 +10609,11 @@
       "slug": "denkard-bk-7-8",
       "name_zh": "Dinkard Books 8-9",
       "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "doctrine-of-the-mean",
@@ -10478,6 +10793,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -11157,6 +11477,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
@@ -11229,9 +11554,19 @@
       "religion": "道教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "dhammapada",
@@ -11820,6 +12155,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
@@ -11850,6 +12190,11 @@
       "slug": "bible-proverbs",
       "name_zh": "箴言",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "great-learning",
@@ -11927,6 +12272,11 @@
       "slug": "bible-psalms",
       "name_zh": "詩篇",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "dhammapada",
@@ -12009,6 +12359,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -12081,6 +12436,11 @@
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "fragments-of-faith-forgotten",
@@ -12190,6 +12550,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
@@ -12233,6 +12598,11 @@
       "slug": "psalms",
       "name_zh": "詩篇",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "talmud-rodkinson",
@@ -12364,6 +12734,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -12624,6 +12999,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -12871,6 +13251,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
@@ -13073,6 +13458,11 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -13620,6 +14010,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
       "religion": "印度教"
@@ -13787,6 +14182,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -13804,6 +14204,11 @@
     {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
       "religion": "印度教"
     },
     {
@@ -14082,6 +14487,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
@@ -14288,6 +14698,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "bud-abhidharmakosha-sa",
+      "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -14301,6 +14716,11 @@
       "slug": "daniel",
       "name_zh": "但以理書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "exodus",
