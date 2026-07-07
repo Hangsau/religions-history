@@ -3,16 +3,16 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**211** / 518
-- 已標籤：**402** / 518
+- 已翻譯：**214** / 518
+- 已標籤：**404** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 89 | 159 |
-| 佛教 | 74 | 43 | 66 |
-| 印度教 | 58 | 17 | 30 |
+| 佛教 | 74 | 44 | 66 |
+| 印度教 | 58 | 18 | 31 |
 | 古希臘羅馬 | 46 | 5 | 17 |
 | 猶太教 | 45 | 21 | 45 |
 | 道教 | 18 | 17 | 17 |
@@ -22,7 +22,7 @@
 | 儒教 | 10 | 10 | 10 |
 | 凱爾特 | 9 | 0 | 4 |
 | 古埃及 | 8 | 0 | 8 |
-| 耆那教 | 7 | 3 | 5 |
+| 耆那教 | 7 | 4 | 6 |
 | 諾斯底 | 6 | 0 | 5 |
 | 現代新興 | 5 | 0 | 2 |
 | 神道 | 5 | 0 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -251,7 +251,7 @@
 
 - `abhidharmakosa` 阿毘達磨俱舍論（古典漢語）譯✓ 標✓
 - `amitabha-sutra` 佛說阿彌陀經（古典漢語）譯✓ 標✓
-- `an1-ones` AN1 一法集 (~575 經)（Pali）譯– 標✓
+- `an1-ones` AN1 一法集 (~575 經)（Pali）譯✓ 標✓
 - `an10-tens` AN10 十法集（Pali）譯– 標✓
 - `an11-elevens` AN11 十一法集（Pali）譯– 標✓
 - `an2-twos` AN2 二法集（Pali）譯– 標✓
@@ -380,7 +380,7 @@
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯– 標–
 - `vedanta-upadeshasahasri` 千則教誨（梵語）譯– 標–
-- `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯– 標–
+- `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
 - `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
 - `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯– 標–
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
@@ -592,7 +592,7 @@
 - `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
-- `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 
 ### 諾斯底（6 部）
