@@ -3,16 +3,16 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**207** / 518
-- 已標籤：**399** / 518
+- 已翻譯：**211** / 518
+- 已標籤：**402** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 87 | 159 |
+| 基督教 | 161 | 89 | 159 |
 | 佛教 | 74 | 43 | 66 |
-| 印度教 | 58 | 17 | 29 |
+| 印度教 | 58 | 17 | 30 |
 | 古希臘羅馬 | 46 | 5 | 17 |
 | 猶太教 | 45 | 21 | 45 |
 | 道教 | 18 | 17 | 17 |
@@ -22,7 +22,7 @@
 | 儒教 | 10 | 10 | 10 |
 | 凱爾特 | 9 | 0 | 4 |
 | 古埃及 | 8 | 0 | 8 |
-| 耆那教 | 7 | 1 | 3 |
+| 耆那教 | 7 | 3 | 5 |
 | 諾斯底 | 6 | 0 | 5 |
 | 現代新興 | 5 | 0 | 2 |
 | 神道 | 5 | 0 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -153,7 +153,7 @@
 - `bible-titus` 提多書（古典中文）譯✓ 標✓
 - `bible-zechariah` 撒迦利亞書（古典中文）譯✓ 標✓
 - `bible-zephaniah` 西番雅書（古典中文）譯✓ 標✓
-- `sblgnt-1-corinthians` 哥林多前書（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-1-corinthians` 哥林多前書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-john` 約翰一書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-peter` 彼得前書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-thessalonians` 帖撒羅尼迦前書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -178,7 +178,7 @@
 - `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-revelation` 啟示錄（希臘原文）（Koine Greek）譯– 標✓
-- `sblgnt-romans` 羅馬書（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-romans` 羅馬書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-titus` 提多書（希臘原文）（Koine Greek）譯✓ 標✓
 - `vulgate-1-chronicles` 歷代志上（武加大）（Latin）譯– 標✓
 - `vulgate-1-corinthians` 哥林多前書（武加大）（Latin）譯– 標✓
@@ -334,7 +334,7 @@
 - `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯– 標–
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標✓
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯– 標–
-- `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標–
+- `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標✓
 - `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
@@ -587,9 +587,9 @@
 
 ### 耆那教（7 部）
 
-- `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-aptamimamsa-sa` 可信者審思（梵文原文）（梵語）譯✓ 標✓
-- `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–

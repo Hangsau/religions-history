@@ -605,6 +605,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Arhat": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "Aristotelianism": [
     {
       "slug": "guide-for-the-perplexed-st",
@@ -620,6 +627,11 @@
     }
   ],
   "Arjuna": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
@@ -1018,6 +1030,11 @@
     }
   ],
   "Bhagavad Gita": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
@@ -1709,6 +1726,13 @@
       "slug": "avesta-sbe04",
       "name_zh": "阿維斯塔 SBE 04 (Vendidad)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Dasaveyāliya": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "David": [
@@ -3642,6 +3666,11 @@
   ],
   "Krishna": [
     {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
@@ -3669,6 +3698,11 @@
     }
   ],
   "Kurukshetra": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
@@ -4017,6 +4051,11 @@
     }
   ],
   "Mahāvīra": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
     {
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
@@ -7772,6 +7811,11 @@
   ],
   "ahimsa": [
     {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
@@ -7824,6 +7868,13 @@
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "anagāra": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "anatta": [
@@ -8034,6 +8085,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "bhagavān": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "bhakti": [
@@ -8249,6 +8307,13 @@
       "religion": "佛教"
     }
   ],
+  "chajjīva": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "charm": [
     {
       "slug": "carmina-gadelica-2",
@@ -8455,6 +8520,11 @@
     }
   ],
   "dharma": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
@@ -8917,6 +8987,13 @@
       "religion": "古埃及"
     }
   ],
+  "himsā": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "hirī": [
     {
       "slug": "an5-fives",
@@ -9067,6 +9144,13 @@
       "religion": "印度教"
     }
   ],
+  "kamma": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "kappa": [
     {
       "slug": "kn-milindapanha",
@@ -9075,6 +9159,11 @@
     }
   ],
   "karma": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
     {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
@@ -9363,6 +9452,13 @@
       "religion": "基督教"
     }
   ],
+  "muṇī": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "mystic verity": [
     {
       "slug": "mishkat-al-anwar",
@@ -9559,6 +9655,13 @@
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
+    }
+  ],
+  "parinnā": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "parousia": [
@@ -9850,6 +9953,13 @@
       "religion": "佛教"
     }
   ],
+  "puḍhavi-kamma": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "pāmojja": [
     {
       "slug": "an11-elevens",
@@ -9869,6 +9979,13 @@
       "slug": "an8-eights",
       "name_zh": "AN8 八法集",
       "religion": "佛教"
+    }
+  ],
+  "pāṇā": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "pīti": [
@@ -10147,6 +10264,11 @@
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "kn-jataka",
@@ -10704,6 +10826,11 @@
   ],
   "yoga": [
     {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -10983,6 +11110,11 @@
     }
   ],
   "śramaṇa": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
     {
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
@@ -12362,6 +12494,13 @@
       "religion": "佛教"
     }
   ],
+  "三大戒": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "三學": [
     {
       "slug": "sn6-brahma",
@@ -12606,6 +12745,13 @@
       "slug": "judges",
       "name_zh": "士師記",
       "religion": "猶太教"
+    }
+  ],
+  "不害": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "不放逸": [
@@ -15076,6 +15222,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "俱盧之野": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
   "俱舍論": [
     {
       "slug": "abhidharmakosa",
@@ -15512,6 +15665,13 @@
       "religion": "基督教"
     }
   ],
+  "克里希那": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
   "克里特": [
     {
       "slug": "sblgnt-titus",
@@ -15787,6 +15947,13 @@
       "religion": "印度教"
     }
   ],
+  "六生學處": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "六通": [
     {
       "slug": "an6-sixes",
@@ -15899,6 +16066,13 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    }
+  ],
+  "出家者": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "出離": [
@@ -16544,6 +16718,13 @@
       "slug": "vulgate-exodus",
       "name_zh": "出埃及記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "十誦": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "升天": [
@@ -17958,6 +18139,13 @@
       "religion": "道教"
     }
   ],
+  "地業": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "地水火風": [
     {
       "slug": "majjhima-nikaya",
@@ -18792,6 +18980,13 @@
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
+    }
+  ],
+  "大雄": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "大雅": [
@@ -22037,6 +22232,13 @@
       "religion": "佛教"
     }
   ],
+  "戰陣": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
   "戲論": [
     {
       "slug": "diamond-mulamadhyamaka",
@@ -22442,6 +22644,13 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    }
+  ],
+  "持國": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
     }
   ],
   "持守律法": [
@@ -23852,6 +24061,13 @@
       "religion": "猶太教"
     }
   ],
+  "族滅": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
   "族譜": [
     {
       "slug": "vulgate-1-chronicles",
@@ -24679,6 +24895,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -25498,6 +25719,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "sn56-sacca",
@@ -26498,6 +26724,11 @@
     }
   ],
   "牟尼": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
     {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
@@ -28200,6 +28431,13 @@
     {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
+      "religion": "印度教"
+    }
+  ],
+  "種姓混雜": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
       "religion": "印度教"
     }
   ],
@@ -30831,6 +31069,13 @@
       "religion": "佛教"
     }
   ],
+  "般度": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
   "般若": [
     {
       "slug": "bud-mulamadhyamakakarika-sa",
@@ -31297,6 +31542,13 @@
       "religion": "佛教"
     }
   ],
+  "薄伽梵": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "薰習": [
     {
       "slug": "yogacarabhumi",
@@ -31441,6 +31693,13 @@
       "religion": "基督教"
     }
   ],
+  "蜜蜂": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "蝗災": [
     {
       "slug": "vulgate-joel",
@@ -31491,6 +31750,13 @@
       "slug": "bible-zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "基督教"
+    }
+  ],
+  "裸形大仙": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "西乃曠野": [
@@ -32611,6 +32877,13 @@
       "religion": "基督教"
     }
   ],
+  "遍知": [
+    {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "遍知pariññā": [
     {
       "slug": "majjhima-nikaya",
@@ -33305,6 +33578,13 @@
       "religion": "佛教"
     }
   ],
+  "阿周那": [
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
   "阿基里斯": [
     {
       "slug": "homer-greek",
@@ -33526,6 +33806,13 @@
       "slug": "sutta-nipata",
       "name_zh": "經集",
       "religion": "佛教"
+    }
+  ],
+  "阿羅訶": [
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "阿耆尼": [
