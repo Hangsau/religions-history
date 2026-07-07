@@ -3,16 +3,16 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**214** / 518
-- 已標籤：**404** / 518
+- 已翻譯：**216** / 518
+- 已標籤：**405** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 89 | 159 |
-| 佛教 | 74 | 44 | 66 |
-| 印度教 | 58 | 18 | 31 |
+| 佛教 | 74 | 45 | 66 |
+| 印度教 | 58 | 19 | 32 |
 | 古希臘羅馬 | 46 | 5 | 17 |
 | 猶太教 | 45 | 21 | 45 |
 | 道教 | 18 | 17 | 17 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -312,7 +312,7 @@
 - `sn4-mara` SN4 魔羅相應（Pali）譯✓ 標✓
 - `sn45-magga` SN45 道相應 (180 經)（Pali）譯– 標✓
 - `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯– 標✓
-- `sn47-satipatthana` SN47 念處相應 (104 經)（Pali）譯– 標✓
+- `sn47-satipatthana` SN47 念處相應 (104 經)（Pali）譯✓ 標✓
 - `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯✓ 標✓
 - `sn56-sacca` SN56 諦相應 (131 經)（Pali）譯– 標✓
 - `sn6-brahma` SN6 梵天相應（Pali）譯✓ 標✓
@@ -343,7 +343,7 @@
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標✓
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
 - `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
-- `gautama-dharmasutra` 喬達摩法經（梵語）譯– 標–
+- `gautama-dharmasutra` 喬達摩法經（梵語）譯✓ 標✓
 - `gheranda-samhita` 格蘭達本集（梵語）譯– 標–
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
 - `harivamsha` 訶利世系（Sanskrit）譯– 標–

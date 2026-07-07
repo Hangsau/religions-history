@@ -6502,6 +6502,13 @@
       "religion": "佛教"
     }
   ],
+  "Sāvitrī": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "Sāṅkhya": [
     {
       "slug": "samkhya-karika-ishvarakrshna",
@@ -8237,6 +8244,13 @@
       "slug": "an8-eights",
       "name_zh": "AN8 八法集",
       "religion": "佛教"
+    }
+  ],
+  "brahmacarya": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     }
   ],
   "brahmavidyā": [
@@ -10574,6 +10588,13 @@
       "religion": "印度教"
     }
   ],
+  "upanayana": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "upaniṣad": [
     {
       "slug": "taittiriya-upanishad",
@@ -10942,6 +10963,13 @@
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
+    }
+  ],
+  "ācārya": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     }
   ],
   "āgneyaṃ kāṇḍam": [
@@ -12573,6 +12601,11 @@
   ],
   "三明": [
     {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
@@ -13138,6 +13171,13 @@
       "religion": "佛教"
     }
   ],
+  "五大": [
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "五戒": [
     {
       "slug": "mahaparinirvana-sutra-northern",
@@ -13260,6 +13300,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "samyuktagama",
       "name_zh": "雜阿含經",
       "religion": "佛教"
@@ -13306,6 +13351,13 @@
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
       "religion": "佛教"
+    }
+  ],
+  "五風": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "亞伯": [
@@ -15693,6 +15745,13 @@
       "religion": "佛教"
     }
   ],
+  "入法禮": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "內七篇": [
     {
       "slug": "zhuangzi",
@@ -15732,6 +15791,13 @@
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
+    }
+  ],
+  "內感官": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "內景": [
@@ -16277,6 +16343,20 @@
       "religion": "印度教"
     }
   ],
+  "剎帝利": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
+  "剎那": [
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "割禮": [
     {
       "slug": "bible-galatians",
@@ -16739,6 +16819,13 @@
       "religion": "基督教"
     }
   ],
+  "半摩揭陀俗語": [
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "卜筮": [
     {
       "slug": "book-of-changes",
@@ -17103,6 +17190,13 @@
       "religion": "基督教"
     }
   ],
+  "吉祥草": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "吐納": [
     {
       "slug": "baopuzi",
@@ -17148,6 +17242,13 @@
       "religion": "印度教"
     }
   ],
+  "吠舍": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "吠陀": [
     {
       "slug": "aitareya-upanishad",
@@ -17162,6 +17263,11 @@
     {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
       "religion": "印度教"
     },
     {
@@ -17192,6 +17298,11 @@
     {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
     }
   ],
@@ -18071,6 +18182,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
@@ -18630,6 +18746,13 @@
       "religion": "基督教"
     }
   ],
+  "夢境": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    }
+  ],
   "夢境解釋": [
     {
       "slug": "vulgate-daniel",
@@ -18986,6 +19109,11 @@
     {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
     }
   ],
@@ -19587,6 +19715,11 @@
     {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
       "religion": "印度教"
     },
     {
@@ -22204,6 +22337,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "我慢": [
@@ -22230,6 +22368,13 @@
       "slug": "mahaparinirvana-sutra-northern",
       "name_zh": "大般涅槃經（北本）",
       "religion": "佛教"
+    }
+  ],
+  "戒行": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     }
   ],
   "戰陣": [
@@ -23166,6 +23311,13 @@
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
+    }
+  ],
+  "摩訶毘羅": [
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "摩訶般若波羅蜜": [
@@ -24314,6 +24466,13 @@
       "religion": "印度教"
     }
   ],
+  "智身": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    }
+  ],
   "暴力": [
     {
       "slug": "habakkuk",
@@ -24784,6 +24943,11 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "梵 Brahman": [
@@ -24852,6 +25016,13 @@
       "religion": "佛教"
     }
   ],
+  "梵行者": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "梵語": [
     {
       "slug": "bud-abhidharmakosha-sa",
@@ -24902,6 +25073,11 @@
     {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
     },
     {
@@ -25726,6 +25902,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "sn56-sacca",
       "name_zh": "SN56 諦相應 (131 經)",
       "religion": "佛教"
@@ -25790,6 +25971,16 @@
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "sn8-vangisa",
@@ -26193,6 +26384,11 @@
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "涅槃nibbāna": [
@@ -26252,6 +26448,20 @@
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
+    }
+  ],
+  "深睡": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    }
+  ],
+  "清淨": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     }
   ],
   "清淨覺地": [
@@ -26528,6 +26738,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "無明 avijjā": [
@@ -28567,6 +28782,13 @@
       "religion": "猶太教"
     }
   ],
+  "第四境": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    }
+  ],
   "箴言": [
     {
       "slug": "bible-proverbs",
@@ -29163,6 +29385,13 @@
       "religion": "猶太教"
     }
   ],
+  "細身": [
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    }
+  ],
   "絜矩之道": [
     {
       "slug": "great-learning",
@@ -29393,6 +29622,11 @@
     {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
     }
   ],
@@ -30299,6 +30533,13 @@
       "religion": "基督教"
     }
   ],
+  "聖帶": [
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
   "聖殿": [
     {
       "slug": "bible-1-kings",
@@ -30887,6 +31128,11 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "自我 Ātman": [
@@ -31201,6 +31447,11 @@
     }
   ],
   "苦": [
+    {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
     {
       "slug": "samyuktagama",
       "name_zh": "雜阿含經",
@@ -32086,6 +32337,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
@@ -32108,6 +32364,11 @@
     {
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
     }
   ],
@@ -32636,9 +32897,19 @@
   ],
   "輪迴": [
     {
+      "slug": "jain-sutrakrtanga-pkt",
+      "name_zh": "修多羅經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
     }
   ],
   "轉依": [
