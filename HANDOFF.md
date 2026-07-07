@@ -3,6 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-08：Pipeline B+C 3 檔批次進庫（an1-ones / jain-sutrakrtanga-pkt / vedanta-vivekacudamani）
+
+- **commit 55c516b9**：stop-hook 觸發時工作樹累積 3 檔 m3 Pipeline B+C 翻譯+標籤成品（屬前次 session 自動管線產出、本 session 接手進庫），立即 commit + push。
+  - `translations/an1-ones/01-translation.md`（巴利文 AN1 一法集 ~575 經，2189 行）+ meta 補 `translation_status="done"`
+  - `translations/jain-sutrakrtanga-pkt/01-translation.md`（半摩揭陀俗語 修多羅經，1982 行）+ meta 補 23 個 semantic_tags（含 `asceticism`/`celibate-tradition`/`compassion`/`enlightenment`/`evil-as-deception`/`extinction-of-self`/`fasting`/`heaven-hell`/`humility`/`karma-rebirth`/`liberation-by-knowledge`/`liberation-by-works`/`meditation`/`monastic`/`multiple-souls`/`non-violence`/`reincarnation`/`revealed-text`/`self-effort`/`sexual-ethics`/`suffering-as-purifying`/`truthfulness`/`ultimate-reality`）+ 15 個 keywords（摩訶毘羅、大雄、耆那教、業、輪迴、剎那、五大、沙門、三明、苦、解脫、半摩揭陀俗語、法、因緣、五蘊）
+  - `translations/vedanta-vivekacudamani/01-translation.md`（梵語 明辨寶鬘/分別智頂珠，2689 行）+ meta 補 18 個 semantic_tags（含 `asceticism`/`cyclic-cosmos`/`divine-immanence`/`enlightenment`/`extinction-of-self`/`karma-rebirth`/`liberation-by-knowledge`/`lineage-importance`/`meditation`/`mystical-union`/`non-dual`/`other-power`/`revealed-text`/`self-effort`/`study`/`suffering-as-purifying`/`truthfulness`/`ultimate-reality`）
+- **狀態同步**：`PIPELINE_STATUS.md` 210→**213 / 492** 已翻譯+標籤；`PROGRESS.json` 各宗教 `with_translation` 計數 +1～+2；`core-manifest.md` 核心 518 / 已譯 214 / 已標籤 404（audit-core 與 PIPELINE_STATUS 數字 213 vs 214 差 1，因 auto-pipeline 即時更新較 audit-core 批處理慢一拍，正常）。`original-text-todo.md` 仍 6 部可收待補。
+- **本 session 額外交付**：`gautama-dharmasutra`（印度教 喬達摩法經 GRETIL standard edition，梵語）翻譯第 26/27 段（sūtra 27.11–18 月齋結尾 + sūtra 28.1–28 繼承法全章）以內容產生器角色輸出至 stdout，由 supervisor 接力寫入檔案，未入此次 commit（待下次 supervisor 進度 commit）。
+
+### 接續狀態
+
+- 下一批 m3 Pipeline B+C 應處理 `gautama-dharmasutra` 剩餘段（27 段中本 session 交付第 26 段），銜接 supervisor-run.log。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，續查 6 部開放線索 / 轉 v3 次要層 / 翻譯續跑 / 啟動大宗 backlog 待用戶拍板）。
+
 ## 2026-07-07：Pipeline B+C mid-iteration（ezra 翻譯）+ plan-check 文件 commit
 
 - **m3 chunk 16/18 ezra（希伯來文）翻譯完成**：本 session 為 Pipeline B+C 的 chunk 內容產生器，輸出 `translations/ezra/01-translation.md` 第 16 段（9:9–9:15 末段）。`supervisor-run.log` 顯示 chunk 1–15 已完成（前次 session 累積）、chunk 16 為本 session 交付、chunk 17–18 待續。
