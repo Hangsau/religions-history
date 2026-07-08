@@ -2,10 +2,10 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-07-09 00:43:45 +0800
+- 更新時間：2026-07-09 02:52:16 +0800
 - 佇列 tier：**核心**
-- 進度：**227 / 492** 已翻譯+標籤
-- 目前處理：`daniel`
+- 進度：**229 / 492** 已翻譯+標籤
+- 目前處理：`bud-bodhicaryavatara-sa`
 - 失敗待重試：0 部
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`keywords` 回填 `meta.json`
