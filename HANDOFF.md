@@ -18,6 +18,19 @@
 - Pipeline B+C 已 227 / 492，本批 2 部 Dharma-sūtra（印度教 + 耆那教 v3 收尾） + 1 部希伯來正書（daniel 但以理書 12 章 26/26 段 mid-iteration）。
 - Pipeline A 仍暫緩自主收集（核心缺口實質歸零，續查 6 部開放線索 / 轉 v3 次要層 / 翻譯續跑 / 啟動大宗 backlog 待用戶拍板）。
 
+## 2026-07-09 04:00（凌晨）：Pipeline B+C 2 檔進庫（daniel / sblgnt-revelation）+ bud-bodhicaryavatara-sa mid-iteration
+
+- **commit e24e5807**：stop-hook 觸發，工作樹累積 2 部 Pipeline B+C 翻譯+標籤成品，立即 commit。
+  - `translations/daniel/01-translation.md`（829 行，希伯來文 Sefaria 校勘版但以理書 12 章，含尼布甲尼撒攻城/沙得拉米煞亞伯尼歌火窯/但以理解夢/獸印/末時米迦勒起來/死人復活/智慧人發光如星/一載二載半/1335 日有福/你且安歇享福）+ meta 加 `translation_status="done"`（先前 tag_status 已 done，本批補翻譯章節）
+  - `translations/sblgnt-revelation/01-translation.md`（799 行，希臘文 SBLGNT 校勘版啟示錄 22 章，七教會/七印/七號/七碗/巴比倫大淫婦/末世戰爭/千禧年/最後審判/新天新地/羔羊婚宴/生命樹/主必快來/願主恩惠同在）+ meta 加 `translation_status="done"`
+- **狀態同步**：`PIPELINE_STATUS.md` 227→**229 / 492** 已翻譯+標籤；`目前處理` 轉為 `bud-bodhicaryavatara-sa`（寂天菩薩《入菩薩行論》梵文 GRETIL 版，33 段 queued 下一輪 m3 翻譯）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`bud-bodhicaryavatara-sa`（GRETIL standard edition 梵文入菩薩行論）第 18/33 段（Bca_7.52–Bca_8.4，含精進波羅蜜後段之「我必征服一切」「我慢之敵」「蛇在膝上即速起立」「應深自痛責思惟」等喻 + 靜慮波羅蜜開篇「先應尋求止」4 偈）已以內容產生器角色翻譯輸出至 stdout。`bud-bodhicaryavatara-sa/01-translation.md` 此時尚未成檔，supervisor 接力完整 33 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 229 / 492，本批 2 部核心（希伯來正書 + 希臘新約末卷） + 1 部梵文大乘論典（bud-bodhicaryavatara-sa《入菩薩行論》33 段 mid-iteration）。
+- Pipeline A 仍暫緩自主收集。
+
 ## 2026-07-08 17:08（傍晚）：Pipeline B+C 2 檔進庫（aztec-rva / nehemiah）
 
 - **commit 955b61c8**：stop-hook 2 小時觸發，工作樹累積 2 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push。
