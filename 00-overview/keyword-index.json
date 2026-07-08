@@ -2391,6 +2391,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Gheraṇḍa": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
   "Gilgamesh": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -2647,6 +2654,13 @@
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
+      "religion": "印度教"
+    }
+  ],
+  "Haṭha-yoga": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
       "religion": "印度教"
     }
   ],
@@ -8444,6 +8458,13 @@
       "religion": "佛教"
     }
   ],
+  "caṇḍakāpāli": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
   "cenote": [
     {
       "slug": "chilam-balam",
@@ -8630,6 +8651,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "deva-deha": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
   "devaputta": [
     {
       "slug": "sn11-sakka",
@@ -8720,6 +8748,20 @@
     {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
+      "religion": "印度教"
+    }
+  ],
+  "dhauti": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
+  "dhyāna": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
       "religion": "印度教"
     }
   ],
@@ -8978,6 +9020,20 @@
       "religion": "佛教"
     }
   ],
+  "ghaṭastha-yoga": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
+  "gheraṇḍa": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
   "gleaning": [
     {
       "slug": "vulgate-ruth",
@@ -9078,6 +9134,11 @@
     }
   ],
   "haṭha-yoga": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    },
     {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
@@ -9320,6 +9381,11 @@
     {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
       "religion": "印度教"
     },
     {
@@ -10097,6 +10163,13 @@
       "religion": "印度教"
     }
   ],
+  "prāṇāyāma": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
+    }
+  ],
   "pseudepigraphical": [
     {
       "slug": "sibylline-oracles",
@@ -10357,6 +10430,11 @@
     {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
       "religion": "印度教"
     },
     {
@@ -10638,6 +10716,13 @@
     {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    }
+  ],
+  "tattva-jñāna": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
       "religion": "印度教"
     }
   ],
@@ -11019,6 +11104,13 @@
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
+      "religion": "印度教"
+    }
+  ],
+  "yoga-siddhi": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
       "religion": "印度教"
     }
   ],
@@ -12356,6 +12448,13 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
+    }
+  ],
+  "ṣaṭkarma": [
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
     }
   ],
   "ἀνεξικακία": [
@@ -16274,6 +16373,13 @@
       "religion": "佛教"
     }
   ],
+  "凱瑞丰": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "出埃及": [
     {
       "slug": "bible-exodus",
@@ -17865,6 +17971,11 @@
     }
   ],
   "哲學": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
@@ -20232,6 +20343,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -21142,6 +21258,13 @@
       "religion": "基督教"
     }
   ],
+  "希庇亞斯": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "希律": [
     {
       "slug": "bible-luke",
@@ -21835,6 +21958,13 @@
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
+    }
+  ],
+  "德爾菲": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "德米特里": [
@@ -24552,6 +24682,13 @@
       "religion": "基督教"
     }
   ],
+  "普羅狄科斯": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "普羅米修斯": [
     {
       "slug": "hesiod-works",
@@ -24686,6 +24823,11 @@
       "slug": "an3-threes",
       "name_zh": "AN3 三法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "智識": [
@@ -25083,6 +25225,13 @@
       "religion": "佛教"
     }
   ],
+  "柏拉圖": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "柔弱": [
     {
       "slug": "wenzi",
@@ -25130,6 +25279,13 @@
       "slug": "vulgate-numbers",
       "name_zh": "民數記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "梅雷托斯": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "梵": [
@@ -32097,6 +32253,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -33212,6 +33373,13 @@
       "religion": "印度教"
     }
   ],
+  "辯護": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "農業": [
     {
       "slug": "book-of-poetry",
@@ -34156,6 +34324,13 @@
       "religion": "基督教"
     }
   ],
+  "阿尼圖斯": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "阿尼西母": [
     {
       "slug": "bible-philemon",
@@ -34489,6 +34664,13 @@
       "religion": "佛教"
     }
   ],
+  "阿里斯托芬": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "阿闍世王": [
     {
       "slug": "contemplation-sutra",
@@ -34629,6 +34811,11 @@
     }
   ],
   "雅典": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
@@ -35194,6 +35381,13 @@
       "slug": "carmina-gadelica-1",
       "name_zh": "Carmina Gadelica Vol 1",
       "religion": "凱爾特"
+    }
+  ],
+  "高爾吉亞": [
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "魂魄": [

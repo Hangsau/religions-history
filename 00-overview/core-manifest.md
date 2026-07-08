@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**221** / 518
-- 已標籤：**408** / 518
+- 已翻譯：**226** / 518
+- 已標籤：**410** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 89 | 159 |
-| 佛教 | 74 | 47 | 66 |
-| 印度教 | 58 | 19 | 32 |
-| 古希臘羅馬 | 46 | 8 | 20 |
-| 猶太教 | 45 | 21 | 45 |
+| 佛教 | 74 | 48 | 66 |
+| 印度教 | 58 | 20 | 33 |
+| 古希臘羅馬 | 46 | 9 | 21 |
+| 猶太教 | 45 | 22 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 1 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
@@ -34,7 +34,7 @@
 | 兩河 | 3 | 0 | 3 |
 | 斯拉夫 | 3 | 1 | 3 |
 | 非洲 | 2 | 0 | 2 |
-| 阿茲特克 | 1 | 0 | 1 |
+| 阿茲特克 | 1 | 1 | 1 |
 | 赫爾墨斯 | 1 | 0 | 0 |
 | 墨家 | 1 | 1 | 0 |
 
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -314,7 +314,7 @@
 - `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯– 標✓
 - `sn47-satipatthana` SN47 念處相應 (104 經)（Pali）譯✓ 標✓
 - `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯✓ 標✓
-- `sn56-sacca` SN56 諦相應 (131 經)（Pali）譯– 標✓
+- `sn56-sacca` SN56 諦相應 (131 經)（Pali）譯✓ 標✓
 - `sn6-brahma` SN6 梵天相應（Pali）譯✓ 標✓
 - `sn7-brahmana` SN7 婆羅門相應（Pali）譯✓ 標✓
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯✓ 標✓
@@ -344,7 +344,7 @@
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
 - `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
 - `gautama-dharmasutra` 喬達摩法經（梵語）譯✓ 標✓
-- `gheranda-samhita` 格蘭達本集（梵語）譯– 標–
+- `gheranda-samhita` 格蘭達本集（梵語）譯✓ 標✓
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
 - `harivamsha` 訶利世系（Sanskrit）譯– 標–
 - `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯✓ 標✓
@@ -413,7 +413,7 @@
 - `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
-- `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯– 標–
+- `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯– 標–
@@ -469,7 +469,7 @@
 - `malachi` 瑪拉基書（Hebrew）譯✓ 標✓
 - `micah` 彌迦書（Hebrew）譯✓ 標✓
 - `nahum` 那鴻書（Hebrew）譯✓ 標✓
-- `nehemiah` 尼希米記（Hebrew）譯– 標✓
+- `nehemiah` 尼希米記（Hebrew）譯✓ 標✓
 - `numbers` 民數記（Hebrew）譯– 標✓
 - `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
 - `proverbs` 箴言（Hebrew）譯✓ 標✓
@@ -672,7 +672,7 @@
 
 ### 阿茲特克（1 部）
 
-- `aztec-rva` 阿茲特克儀禮（古典納瓦特爾語／英語對照）譯– 標✓
+- `aztec-rva` 阿茲特克儀禮（古典納瓦特爾語／英語對照）譯✓ 標✓
 
 ### 赫爾墨斯（1 部）
 
