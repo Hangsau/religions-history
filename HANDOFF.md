@@ -3,6 +3,21 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-09 00:43（深夜）：Pipeline B+C 2 檔進庫（apastamba-dharmasutra / vasistha-dharmasutra）
+
+- **本批 2 部核心 Dharma-sūtra**（印度教 4 大法經之二 + 耆那教 v3 標的）完成 P4 翻譯 + P5 標籤，stop-hook 觸發收尾。
+  - `translations/apastamba-dharmasutra/01-translation.md`（80912 bytes，阿帕斯檀巴法經 āpastambīya-dharmasūtra，GRETIL standard edition 梵文，含入法禮/梵行期/婚姻法/飲食戒/懺悔法/遺產法全 28 praśna 經文）+ meta 27 個 semantic_tags（含 `caste-system`/`ancestor-worship`/`celibate-tradition`/`ritual-practice`/`dharma`/`婆羅門`/`剎帝利`/`Sāvitrī`/`Pāvamānī` 等）+ 15 個 keywords
+  - `translations/vasistha-dharmasutra/01-translation.md`（91588 bytes，瓦西什塔法經 vāsiṣṭha-dharmasūtra，GRETIL 梵文，原 4 大 Dharma-sūtra 之一，雅利安之地法/婚姻八式/五種大罪/遺產分割等核心律條）+ meta 31 個 semantic_tags（含 `multiple-canons`/`revealed-text`/`forgiveness`/`economic-justice`/`breath-control` 等）+ 15 個 keywords
+  - 兩部 meta 加 `translation_status="done"` + `tag_status="done"`
+- **狀態同步**：`PIPELINE_STATUS.md` 225→**227 / 492** 已翻譯+標籤；`目前處理` 轉為 `daniel`（希伯來文但以理書，queued 下一輪 m3 翻譯）。`PROGRESS.json` 印度教 `with_translation` 47→48、耆那教 0→1、其他 +1。
+- **verify.py 兩部 PASS**（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`daniel`（希�來文 Sefaria 校勘版但以理書）第 26/26 段（Daniel 12 末段，米迦勒起來/末時死人復活/智慧人發光如星/一載二載半/1335 日有福/你且安歇享福）已以內容產生器角色翻譯輸出至 stdout。`daniel/01-translation.md` 此時尚未成檔，supervisor 接力完整 26 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 227 / 492，本批 2 部 Dharma-sūtra（印度教 + 耆那教 v3 收尾） + 1 部希伯來正書（daniel 但以理書 12 章 26/26 段 mid-iteration）。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，續查 6 部開放線索 / 轉 v3 次要層 / 翻譯續跑 / 啟動大宗 backlog 待用戶拍板）。
+
 ## 2026-07-08 17:08（傍晚）：Pipeline B+C 2 檔進庫（aztec-rva / nehemiah）
 
 - **commit 955b61c8**：stop-hook 2 小時觸發，工作樹累積 2 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push。
