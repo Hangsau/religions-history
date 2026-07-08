@@ -3,6 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-08 17:08（傍晚）：Pipeline B+C 2 檔進庫（aztec-rva / nehemiah）
+
+- **commit 955b61c8**：stop-hook 2 小時觸發，工作樹累積 2 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push。
+  - `translations/aztec-rva/01-translation.md`（1778 行，Brinton《Rig Veda Americanus》1890 納瓦特爾語聖歌 24 章，逐首《I. Vitzilopochtli icuic》/《IX. Hymn to the God of Fishing》等原樣 Nawatl 原文 + 拉丁化 + 中譯 tri-block 直譯並陳）+ meta 加 `translation_status="done"`
+  - `translations/nehemiah/01-translation.md`（693 行，希伯來文 Sefaria 校勘版尼希米記 13 章，事件含波斯王 20 年 / 耶路撒冷城牆重建 52 天 / 以斯拉宣讀律法 / 利未人條例 / 潔淨外邦通婚 / 聖殿供應等）+ meta 加 `translation_status="done"`
+- **狀態同步**：`PIPELINE_STATUS.md` 221→**223 / 492** 已翻譯+標籤；`目前處理` 轉為 `plato-apology-el`。`PIPELINE_STATUS.md` 自動生，勿手改。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`plato-apology-el`（希臘文蘇格拉底的申辯）第 13 / 18 段已以內容產生器角色翻譯輸出至 stdout。`plato-apology-el/01-translation.md` 此時尚未成檔，supervisor 仍在其餘 5 段接力中（依 SOP「一份完整 18 段 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 223 / 492，本批 2 部核心（阿茲特克 + 猶太教）+ 1 部希臘正書（plato 屬古希臘羅馬宗教）mid-iteration。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，續查 6 部開放線索 / 轉 v3 次要層 / 翻譯續跑 / 啟動大宗 backlog 待用戶拍板）。
+
 ## 2026-07-08（下午續）：Pipeline B+C 1 檔進庫（gheranda-samhita 哈達瑜伽三大經）
 
 - **commit e1d53cc4**：stop-hook 觸發，工作中已累積 1 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push。
