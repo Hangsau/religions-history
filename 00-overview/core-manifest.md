@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**216** / 518
-- 已標籤：**405** / 518
+- 已翻譯：**221** / 518
+- 已標籤：**408** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 89 | 159 |
-| 佛教 | 74 | 45 | 66 |
+| 佛教 | 74 | 47 | 66 |
 | 印度教 | 58 | 19 | 32 |
-| 古希臘羅馬 | 46 | 5 | 17 |
+| 古希臘羅馬 | 46 | 8 | 20 |
 | 猶太教 | 45 | 21 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 1 | 4 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -253,8 +253,8 @@
 - `amitabha-sutra` 佛說阿彌陀經（古典漢語）譯✓ 標✓
 - `an1-ones` AN1 一法集 (~575 經)（Pali）譯✓ 標✓
 - `an10-tens` AN10 十法集（Pali）譯– 標✓
-- `an11-elevens` AN11 十一法集（Pali）譯– 標✓
-- `an2-twos` AN2 二法集（Pali）譯– 標✓
+- `an11-elevens` AN11 十一法集（Pali）譯✓ 標✓
+- `an2-twos` AN2 二法集（Pali）譯✓ 標✓
 - `an3-threes` AN3 三法集（Pali）譯– 標✓
 - `an4-fours` AN4 四法集（Pali）譯– 標✓
 - `an5-fives` AN5 五法集（Pali）譯– 標✓
@@ -396,8 +396,8 @@
 - `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
 - `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯✓ 標✓
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓
-- `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯– 標–
-- `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯– 標–
+- `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯✓ 標✓
+- `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯✓ 標✓
 - `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標✓
 - `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯– 標–
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
@@ -409,7 +409,7 @@
 - `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯– 標–
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
-- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯– 標–
+- `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–

@@ -167,6 +167,13 @@
       "religion": "錫克教"
     }
   ],
+  "Adonis": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Advaita": [
     {
       "slug": "mandukya-upanishad",
@@ -600,8 +607,20 @@
   ],
   "Ares": [
     {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Argo": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -917,6 +936,20 @@
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
       "religion": "瑪雅"
+    }
+  ],
+  "Bacchae": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Bacchos": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Baha'u'llah": [
@@ -1564,6 +1597,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Colchis": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Columba": [
     {
       "slug": "carmina-gadelica-1",
@@ -1583,6 +1623,13 @@
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
       "religion": "印加"
+    }
+  ],
+  "Corinth": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Corinthus": [
@@ -1633,6 +1680,11 @@
     }
   ],
   "Creon": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
@@ -1794,6 +1846,11 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Demiurge": [
@@ -1898,6 +1955,13 @@
       "slug": "denkard-bk-7-8",
       "name_zh": "Dinkard Books 8-9",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Dionysus": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Dominus": [
@@ -2137,6 +2201,13 @@
       "religion": "巴哈伊"
     }
   ],
+  "Eros": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Esther": [
     {
       "slug": "vulgate-esther",
@@ -2149,6 +2220,13 @@
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
+    }
+  ],
+  "Euripides": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Ezechiel": [
@@ -2619,6 +2697,11 @@
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Hera 赫拉": [
@@ -2845,11 +2928,25 @@
       "religion": "古埃及"
     }
   ],
+  "Hypnos": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Iamblichus": [
     {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "Iason": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Iblis": [
@@ -3664,6 +3761,13 @@
       "religion": "佛教"
     }
   ],
+  "Kouretes": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Krishna": [
     {
       "slug": "bhagavad-gita",
@@ -4233,6 +4337,13 @@
       "slug": "quran-pickthall",
       "name_zh": "古蘭經 (Pickthall 英譯)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Medea": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Meghiya": [
@@ -5007,6 +5118,13 @@
       "religion": "基督教"
     }
   ],
+  "Orphic": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ortha nan Gaidheal": [
     {
       "slug": "carmina-gadelica-1",
@@ -5280,6 +5398,13 @@
       "slug": "mabinogion-st",
       "name_zh": "Mabinogion 馬比諾吉昂 (Welsh)",
       "religion": "凱爾特"
+    }
+  ],
+  "Persephone": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Perses": [
@@ -6082,6 +6207,13 @@
       "religion": "古埃及"
     }
   ],
+  "Semele": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Set": [
     {
       "slug": "book-of-gates",
@@ -6605,6 +6737,13 @@
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Tartaros": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Tattvasamāsa": [
@@ -7654,6 +7793,11 @@
     }
   ],
   "Zeus": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
@@ -9337,6 +9481,13 @@
       "religion": "印度教"
     }
   ],
+  "maenad": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "magical names": [
     {
       "slug": "book-of-gates",
@@ -9471,6 +9622,13 @@
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "mystai": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "mystic verity": [
@@ -10523,6 +10681,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "thyrsus": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "trial": [
@@ -14466,6 +14631,13 @@
       "religion": "神道"
     }
   ],
+  "伊阿宋": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "伐樓拿": [
     {
       "slug": "rigveda",
@@ -14835,6 +15007,13 @@
       "slug": "songs-of-russian-people",
       "name_zh": "俄羅斯人民之歌",
       "religion": "斯拉夫"
+    }
+  ],
+  "俄耳甫斯": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "俄陀聶": [
@@ -15705,6 +15884,11 @@
   ],
   "克瑞翁": [
     {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
@@ -15743,6 +15927,13 @@
       "slug": "dirghagama",
       "name_zh": "長阿含經",
       "religion": "佛教"
+    }
+  ],
+  "入密者": [
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "入法禮": [
@@ -16836,6 +17027,13 @@
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
+    }
+  ],
+  "卡德摩斯": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "卡爾卡斯": [
@@ -18386,6 +18584,13 @@
       "religion": "基督教"
     }
   ],
+  "基塞龍山": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "基督": [
     {
       "slug": "bible-1-corinthians",
@@ -18617,6 +18822,13 @@
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
+    }
+  ],
+  "塞墨勒": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "增一阿含": [
@@ -20005,6 +20217,11 @@
   ],
   "宙斯": [
     {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -21339,6 +21556,13 @@
       "religion": "道教"
     }
   ],
+  "彭透斯": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "影像": [
     {
       "slug": "vulgate-colossians",
@@ -21734,6 +21958,11 @@
     }
   ],
   "忒拜": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
@@ -26248,6 +26477,11 @@
   ],
   "流亡": [
     {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
@@ -27004,6 +27238,13 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    }
+  ],
+  "狄俄尼索斯": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "猶大": [
@@ -28635,6 +28876,20 @@
       "religion": "基督教"
     }
   ],
+  "科林斯": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "科爾基斯": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "秘義誦訓": [
     {
       "slug": "thrice-greatest-hermes-2",
@@ -29530,6 +29785,13 @@
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "美狄亞": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "羔羊": [
@@ -32486,6 +32748,11 @@
   ],
   "誓約": [
     {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -32661,6 +32928,11 @@
   ],
   "讚歌": [
     {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
@@ -32786,6 +33058,13 @@
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
+    }
+  ],
+  "赫拉": [
+    {
+      "slug": "euripides-bacchae-el",
+      "name_zh": "酒神的女信徒（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "赫拉克利特": [
@@ -33557,6 +33836,13 @@
       "religion": "基督教"
     }
   ],
+  "金羊毛": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "金胎": [
     {
       "slug": "manu-smrti",
@@ -33981,6 +34267,13 @@
     {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "阿爾戈船": [
+    {
+      "slug": "euripides-medea-el",
+      "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
