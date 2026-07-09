@@ -3,6 +3,17 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-09 上午：Pipeline B+C 3 檔批次進庫（corpus-hermeticum-el / mabinogion-cy-1 / plato-meno-el）+ corpus-hermeticum-el 標籤事故處置
+
+- **commit 5a7a32dc**：3 檔核心經典翻譯+標籤入庫。
+  - `translations/corpus-hermeticum-el/01-translation.md`（24956 chars / 775 行，赫爾墨斯文集希臘原文八篇 Ποιμάνδρης / Προς Ασκληπιόν λόγος καθολικός / Λόγος ιερός / Ο κρατήρ η μονάς / Κλεις / Προς Τατ υιόν / Προς Ασκ勒庇俄斯 / Κηρύγματα）+ meta 7 semantic_tags（`liberation-by-knowledge`/`mystical-union`/`human-as-microcosm`/`emanation`/`vision-experience`/`prophetic-revelation`/`evil-as-deception`，gnosis救贖+Poimandres異象+人為小宇宙+Logos流出）+ 15 keywords（Poimandres / νοῦς / λόγος / γνῶσις / φῶς / ψυχή / πνεῦμα / φύσις / Monas / 七重天 + 中譯對應）+ `translation_status="done"` + `tag_status="done"`。
+  - `translations/mabinogion-cy-1/01-translation.md`（威爾斯原文 Mabinogion 第一卷 Pwyll/Branwen/Manawyddan/Math 四支 + 導論）+ meta 34 semantic_tags + 15 keywords + `tag_status="done"`。
+  - `translations/plato-meno-el/01-translation.md`（柏拉圖美諾篇希臘原文，德性可教否＋回憶說）+ meta 20 semantic_tags + 15 keywords + `tag_status="done"`。
+- **狀態同步**：tag-index.json 413→416 / keyword-index.json 3584→3629；`PIPELINE_STATUS.md` 仍 232/492 待 supervisor 下 cycle 重寫（auto-pipeline 自動生檔，禁手改）。實際完成 235/492。
+- **verify.py --all 3 檔 PASS**（push 前必跑，CLAUDE.md §6）。
+- **corpus-hermeticum-el 標籤事故處置**：supervisor 派 m3 抽 tag chunk 4/11 時送入的文本是 raw/original.txt 的校勘附錄（apparatus criticus：拉丁校勘縮寫 `sic B`/`Patr.`/`Turn.` 等 + 行內 note 編號），非 01-translation.md 翻譯正文。m3 正確拒絕輸出 JSON 並回報狀況，主控接手以譯文為標的依 m3-tagger 規則手動抽出 tags 後入庫。**後續**：tag chunking 邏輯應確認拿的是 01-translation.md 譯文還是 raw 原文——若 raw 原文含有 apparatus criticus 區段，需從翻譯管線切割排除（已完成；`01-translation.md` header 已標 `apparatus criticus 已刻意排除`）。
+- **m3 release**：本批處理完 claud-m3 chunk 內容產生器已標準 exit。下輪 m3 session 接手時，`supervisor-run.log` 顯示目前處理轉為下一個 queued slug（corpus-hermeticum-el 已從佇列移除）。
+
 ## 2026-07-09 00:43（深夜）：Pipeline B+C 2 檔進庫（apastamba-dharmasutra / vasistha-dharmasutra）
 
 - **本批 2 部核心 Dharma-sūtra**（印度教 4 大法經之二 + 耆那教 v3 標的）完成 P4 翻譯 + P5 標籤，stop-hook 觸發收尾。
