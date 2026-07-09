@@ -3,20 +3,20 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**236** / 518
-- 已標籤：**417** / 518
+- 已翻譯：**241** / 518
+- 已標籤：**419** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 90 | 159 |
-| 佛教 | 74 | 50 | 67 |
-| 印度教 | 58 | 22 | 35 |
+| 基督教 | 161 | 91 | 159 |
+| 佛教 | 74 | 51 | 67 |
+| 印度教 | 58 | 23 | 36 |
 | 古希臘羅馬 | 46 | 10 | 22 |
 | 猶太教 | 45 | 23 | 45 |
 | 道教 | 18 | 17 | 17 |
-| 北歐 | 15 | 1 | 4 |
+| 北歐 | 15 | 2 | 5 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
@@ -24,7 +24,7 @@
 | 古埃及 | 8 | 0 | 8 |
 | 耆那教 | 7 | 4 | 6 |
 | 諾斯底 | 6 | 0 | 5 |
-| 現代新興 | 5 | 0 | 2 |
+| 現代新興 | 5 | 1 | 2 |
 | 神道 | 5 | 0 | 1 |
 | 錫克教 | 4 | 2 | 4 |
 | 巴哈伊 | 4 | 0 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -173,7 +173,7 @@
 - `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯– 標✓
-- `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -311,7 +311,7 @@
 - `sn35-salayatana` SN35 六入相應 (248 經)（Pali）譯– 標✓
 - `sn4-mara` SN4 魔羅相應（Pali）譯✓ 標✓
 - `sn45-magga` SN45 道相應 (180 經)（Pali）譯✓ 標✓
-- `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯– 標✓
+- `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯✓ 標✓
 - `sn47-satipatthana` SN47 念處相應 (104 經)（Pali）譯✓ 標✓
 - `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯✓ 標✓
 - `sn56-sacca` SN56 諦相應 (131 經)（Pali）譯✓ 標✓
@@ -379,7 +379,7 @@
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯✓ 標✓
-- `vedanta-upadeshasahasri` 千則教誨（梵語）譯– 標–
+- `vedanta-upadeshasahasri` 千則教誨（梵語）譯✓ 標✓
 - `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
 - `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
 - `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯– 標–
@@ -507,7 +507,7 @@
 
 - `egils-saga-on` 埃吉爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯– 標–
-- `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯– 標–
@@ -608,7 +608,7 @@
 
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標✓
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯– 標–
-- `pearl-of-great-price` 無價珍珠（English (原典)）譯– 標✓
+- `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
 - `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯– 標–
 
