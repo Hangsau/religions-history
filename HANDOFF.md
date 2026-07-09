@@ -196,6 +196,7 @@
 **桌面刊版（狀態看板）= `scripts/status_gui.py`**
 - 常駐 Tkinter GUI，視窗標題「religions-history 刊版」，每 30 秒自掃全庫刷新。**是進度監控牆，不是經文閱讀器。**
 - 啟動：雙擊專案根 `狀態看板.bat`（背景 `pythonw`，無主控台）；或 `PYTHONIOENCODING=utf-8 pythonw scripts/status_gui.py`。
+- **可嵌入重構（2026-07-10）**：`Board(container)` 接受 Tk 或任意 Frame；title/geometry/minsize 移到 `main()`（standalone 路徑行為不變）。日常入口改為本機 **桌面看板 hub**（`C:\claudehome\tools\deskboard\桌面看板.bat` → `hub.py`，不在本 repo）：分頁①＝本刊版、分頁②＝swim-coach-schedule 課表編輯器；hub 開啟同樣先 `ensure_supervisor()`。舊 `狀態看板.bat` 保留可單開刊版，未刪。
 - 顯示：頂部總量（部/宗教/MB）＋ 對齊覆蓋率（各 meta 欄位回填 %）＋ M3 分類進度（tier×era+genre+tags 三齊全）＋ Pipeline A 收集動態（最新收錄/近 30 分/日誌尾）＋ 翻譯進度（translation_status==done）＋ classify 背景管線。
 - 資料 helper 沿用 `scripts/status.py`（`load_all` / `filled` / `ALIGN_FIELDS` / `log_ok_count` / `log_tail`）；GUI 只管畫面。綠條＝≥99.5% 完成、琥珀＝進行中。
 - **刊版兼任監督（2026-07-04）**：`ensure_supervisor()` 在開看板時＋每 30 秒刷新時檢查 `logs/supervisor.pid`（`_pid_alive` OpenProcess 判活），沒在跑就用 `pythonw + DETACHED_PROCESS + CREATE_NO_WINDOW` 脫離式拉起 supervisor。**關掉看板不會殺死管線**（不重演 07-04 停擺）。頂部紅字橫幅 `pipeline_health()` 仍是 human backstop。

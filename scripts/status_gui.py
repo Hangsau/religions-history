@@ -290,12 +290,14 @@ def collect() -> dict:
 
 
 class Board:
-    def __init__(self, root: tk.Tk):
-        self.root = root
-        root.title("religions-history 狀態看板")
-        root.configure(bg=BG)
-        root.geometry("680x900")
-        root.minsize(560, 700)
+    """可掛在 tk.Tk（standalone）或任意 Frame（嵌入其他 host 的分頁）上。
+
+    視窗層級屬性（title / geometry / minsize）由呼叫端負責；本類只畫內容 + 自刷。
+    """
+
+    def __init__(self, container):
+        self.root = container
+        container.configure(bg=BG)
 
         self.rows = {}   # key -> (canvas, count_label)
         self._build_static()
@@ -455,6 +457,9 @@ class Board:
 def main():
     ensure_supervisor()  # 開看板即確保管線在跑
     root = tk.Tk()
+    root.title("religions-history 狀態看板")
+    root.geometry("680x900")
+    root.minsize(560, 700)
     Board(root)
     root.mainloop()
 
