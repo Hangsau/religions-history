@@ -3,6 +3,17 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-10 01:23（清晨）：Pipeline B+C 4 檔進庫（gisla-saga-on / sblgnt-mark / sn46-bojjhanga / vedanta-upadeshasahasri）+ pearl-of-great-price mid-iteration
+
+- **commit 39ecaa7e**：stop-hook 觸發，工作中已累積 4 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push。
+  - `translations/gisla-saga-on/01-translation.md`（1631 行，古諾斯語原文，冰島氏族 saga：吉斯拉與其外甥之復仇、庭外和解、庭內公斷等北歐傳統主題）+ meta 34 semantic_tags（含 `saga-era-violence`/`blood-feud`/`legal-system`/`honor`/`outlawry`/`family-conflict`/`shame-culture`）+ 15 keywords + `translation_status="done"` + `tag_status="done"`
+  - `translations/sblgnt-mark/01-translation.md`（1038 行，希臘文 SBLGNT 校勘版馬可福音 16 章，含施洗約翰／耶穌受洗／受試探／呼召門徒／趕鬼／治好癱子／五餅二魚／海面行走／變相山／拉撒路／最後晚餐／客西馬尼園／十字架／復活／主升天／大使命）+ meta 7 semantic_tags + 13 keywords + `translation_status="done"` + `tag_status="done"`
+  - `translations/sn46-bojjhanga/01-translation.md`（2134 行，巴利 SN46 覺支相應 184 經，七覺支與四聖諦之修習，含念覺支於苦、擇法覺支於集、精進覺支於滅、喜覺支於道之內觀等 184 經全段）+ meta 6 semantic_tags + 15 keywords + `translation_status="done"` + `tag_status="done"`
+  - `translations/vedanta-upadeshasahasri/01-translation.md`（3236 行，梵語 商羯羅《千則教誨》Upadeśasāhasrī，GRETIL 校勘版，不二論吠檀多傳統）+ meta 28 semantic_tags（含 `non-dual`/`ultimate-reality`/`mystical-union`/`liberation-by-knowledge`/`vedanta`/`brahman`/`ātman`/`śaṅkara` 等）+ 15 keywords + `translation_status="done"` + `tag_status="done"`
+- **狀態同步**：`PIPELINE_STATUS.md` 235→**239 / 492** 已翻譯+標籤；`目前處理` 轉為 `pearl-of-great-price`（LDS《無價珍珠》Joseph Smith-History 第一部約 1:43-54 範圍，Wikisource 1902 校勘版）。`PIPELINE_STATUS.md` 自動生，勿手改。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`pearl-of-great-price`（English Wikisource 1902 校勘版《無價珍珠》JS-History 1:43-54）第 21/50 段（摩羅尼第三次升天後親訪：約瑟體力耗盡倒地→聽聲音呼名→使者重述異象誡命→回稟父親「出於神」→前往藏金頁之山丘（紐約州安大略郡曼徹斯特村附近）→撬開石頭看見金頁、烏陵土明、胸牌俱在石箱內→使者禁止取出並告知四年後才到時機）已以內容產生器角色翻譯輸出至 stdout。`pearl-of-great-price/01-translation.md` 此時尚未成檔，supervisor 接力完整 50 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
 ## 2026-07-09 上午：Pipeline B+C 3 檔批次進庫（corpus-hermeticum-el / mabinogion-cy-1 / plato-meno-el）+ corpus-hermeticum-el 標籤事故處置
 
 - **commit 5a7a32dc**：3 檔核心經典翻譯+標籤入庫。
