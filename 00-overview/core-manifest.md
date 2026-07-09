@@ -3,24 +3,24 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**231** / 518
-- 已標籤：**413** / 518
+- 已翻譯：**236** / 518
+- 已標籤：**417** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 90 | 159 |
-| 佛教 | 74 | 49 | 67 |
+| 佛教 | 74 | 50 | 67 |
 | 印度教 | 58 | 22 | 35 |
-| 古希臘羅馬 | 46 | 9 | 21 |
+| 古希臘羅馬 | 46 | 10 | 22 |
 | 猶太教 | 45 | 23 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 1 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
-| 凱爾特 | 9 | 0 | 4 |
+| 凱爾特 | 9 | 2 | 6 |
 | 古埃及 | 8 | 0 | 8 |
 | 耆那教 | 7 | 4 | 6 |
 | 諾斯底 | 6 | 0 | 5 |
@@ -35,7 +35,7 @@
 | 斯拉夫 | 3 | 1 | 3 |
 | 非洲 | 2 | 0 | 2 |
 | 阿茲特克 | 1 | 1 | 1 |
-| 赫爾墨斯 | 1 | 0 | 0 |
+| 赫爾墨斯 | 1 | 1 | 1 |
 | 墨家 | 1 | 1 | 0 |
 
 ## 缺口分析
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -310,7 +310,7 @@
 - `sn3-kosala` SN3 拘薩羅相應（Pali）譯✓ 標✓
 - `sn35-salayatana` SN35 六入相應 (248 經)（Pali）譯– 標✓
 - `sn4-mara` SN4 魔羅相應（Pali）譯✓ 標✓
-- `sn45-magga` SN45 道相應 (180 經)（Pali）譯– 標✓
+- `sn45-magga` SN45 道相應 (180 經)（Pali）譯✓ 標✓
 - `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯– 標✓
 - `sn47-satipatthana` SN47 念處相應 (104 經)（Pali）譯✓ 標✓
 - `sn5-bhikkhuni` SN5 比丘尼相應（Pali）譯✓ 標✓
@@ -416,7 +416,7 @@
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯– 標–
@@ -569,8 +569,8 @@
 - `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯– 標–
 - `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯– 標–
 - `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
-- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯– 標–
-- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯– 標–
+- `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯✓ 標✓
+- `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標✓
 - `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
 
@@ -676,7 +676,7 @@
 
 ### 赫爾墨斯（1 部）
 
-- `corpus-hermeticum-el` 赫爾墨斯文集（希臘原文，八篇）（Ancient Greek）譯– 標–
+- `corpus-hermeticum-el` 赫爾墨斯文集（希臘原文，八篇）（Ancient Greek）譯✓ 標✓
 
 ### 墨家（1 部）
 
