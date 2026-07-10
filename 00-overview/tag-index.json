@@ -36,6 +36,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -89,6 +94,11 @@
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "against-idolatry": [
@@ -161,6 +171,11 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "chronicles-1",
@@ -465,6 +480,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
@@ -659,6 +679,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -841,6 +871,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
@@ -912,6 +947,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -1015,6 +1055,11 @@
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "code-of-hammurabi-st",
@@ -1138,6 +1183,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -1378,6 +1428,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -1456,6 +1511,11 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-genesis",
@@ -1625,6 +1685,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
@@ -1708,6 +1778,11 @@
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hrafnkels-saga-on",
@@ -2067,8 +2142,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -2256,6 +2341,16 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -2452,6 +2547,11 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-mark",
@@ -2879,6 +2979,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -3006,6 +3111,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -3024,6 +3134,11 @@
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "huangdi-neijing",
@@ -3200,6 +3315,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -3253,6 +3373,11 @@
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hrafnkels-saga-on",
@@ -3420,6 +3545,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
       "religion": "基督教"
@@ -3562,6 +3692,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -3684,6 +3819,11 @@
     {
       "slug": "volsunga-saga",
       "name_zh": "沃爾松傳奇",
+      "religion": "北歐"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
     },
     {
@@ -3864,6 +4004,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chronicles-2",
       "name_zh": "歷代志下",
       "religion": "猶太教"
@@ -3942,6 +4087,11 @@
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hesiod-works",
@@ -4383,6 +4533,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -4448,6 +4603,11 @@
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "corpus-hermeticum-el",
@@ -4547,8 +4707,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -4704,8 +4874,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -4936,6 +5116,11 @@
       "religion": "赫爾墨斯"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "majjhima-nikaya",
       "name_zh": "中部經典",
       "religion": "佛教"
@@ -4971,6 +5156,11 @@
       "slug": "bible-job",
       "name_zh": "約伯記",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "great-learning",
@@ -5070,6 +5260,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
       "religion": "基督教"
@@ -5107,8 +5302,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -5281,6 +5486,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -5294,6 +5504,11 @@
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-song-of-songs",
@@ -5485,6 +5700,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
@@ -5610,6 +5835,11 @@
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "homer-odyssey-st",
@@ -6033,6 +6263,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "burden-of-isis",
       "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
       "religion": "古埃及"
@@ -6066,6 +6306,11 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "infinite-life-sutra",
@@ -6151,6 +6396,11 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-1-peter",
@@ -6330,6 +6580,11 @@
       "slug": "bible-zephaniah",
       "name_zh": "西番雅書",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "ecclesiastes",
@@ -6656,6 +6911,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
       "religion": "印度教"
@@ -6955,6 +7220,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -7082,8 +7352,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -7481,6 +7761,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -7543,6 +7828,11 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -7643,6 +7933,11 @@
     {
       "slug": "volsunga-saga",
       "name_zh": "沃爾松傳奇",
+      "religion": "北歐"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
     },
     {
@@ -7755,6 +8050,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
@@ -7798,6 +8098,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-esther",
@@ -7949,6 +8254,16 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -8716,6 +9031,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -9410,6 +9735,11 @@
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "mystical-union": [
@@ -9439,8 +9769,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -9609,6 +9949,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-colossians",
       "name_zh": "歌羅西書（武加大）",
       "religion": "基督教"
@@ -9691,8 +10036,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -9930,6 +10285,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
       "religion": "印度教"
@@ -10092,6 +10452,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -10237,6 +10602,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
@@ -10278,6 +10648,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -10371,6 +10746,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "pilgrimage": [
@@ -10504,6 +10884,11 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -10644,6 +11029,11 @@
     {
       "slug": "volsunga-saga",
       "name_zh": "沃爾松傳奇",
+      "religion": "北歐"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
     },
     {
@@ -10842,6 +11232,11 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "homer-greek",
@@ -12010,6 +12405,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
       "religion": "基督教"
@@ -12204,6 +12604,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -12274,6 +12679,11 @@
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
@@ -12478,6 +12888,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -12601,6 +13016,11 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "homer-iliad-pope",
@@ -12798,6 +13218,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-2-chronicles",
       "name_zh": "歷代志下（武加大）",
       "religion": "基督教"
@@ -12935,6 +13360,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -13053,6 +13483,11 @@
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-2-chronicles",
@@ -13205,6 +13640,11 @@
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "esther",
@@ -13529,6 +13969,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
@@ -13618,6 +14063,16 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -13923,6 +14378,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -13946,6 +14406,11 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "jain-dasavaikalika-pkt",
@@ -13991,6 +14456,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-1-thessalonians",
@@ -14115,6 +14585,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
@@ -14133,6 +14608,11 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hosea",
@@ -14208,6 +14688,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-1-john",
@@ -14370,6 +14855,11 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-mark",
@@ -14671,6 +15161,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-1-peter",
       "name_zh": "彼得前書（武加大）",
       "religion": "基督教"
@@ -14768,6 +15263,11 @@
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "japji-sahib-pa",
@@ -15261,6 +15761,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -15673,6 +16178,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -15873,6 +16383,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-2-chronicles",
       "name_zh": "歷代志下（武加大）",
       "religion": "基督教"
@@ -16030,6 +16545,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -16112,6 +16632,11 @@
     {
       "slug": "volsunga-saga",
       "name_zh": "沃爾松傳奇",
+      "religion": "北歐"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
     },
     {
@@ -16227,6 +16752,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
@@ -16294,6 +16829,11 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -16517,6 +17057,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
       "religion": "基督教"
@@ -16694,8 +17239,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-udanavarga-sa",
+      "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
     },
     {
@@ -16782,6 +17337,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "huainanzi",
@@ -17089,6 +17649,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
       "religion": "基督教"
@@ -17270,6 +17835,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -17413,6 +17983,11 @@
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "vulgate-daniel",
