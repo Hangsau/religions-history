@@ -3,6 +3,22 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-10 16:10（下午）：Pipeline B+C 4 檔進庫（bud-ratnagotravibhaga-sa / bud-udanavarga-sa / taittiriya-upanishad / volsunga-saga-on）+ hesiod-el mid-iteration
+
+- **commit 0fc41c40**：stop-hook 觸發，工作樹累積 4 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push（10 檔異動：4 new + 6 modified）。
+  - `translations/bud-ratnagotravibhaga-sa/01-translation.md`（2888 行，梵文 如來藏根本論《究竟一乘寶性論》Ratnagotravibhāga，Ugra-datta-paramārtha 梵本，GRETIL 校勘版，4 章完整譯文含如來藏三義／自性清淨／客塵煩惱／法身常住等核心教義）+ meta 30 semantic_tags（含 `non-dual`/`ultimate-reality`/`emptiness`/`divine-immanence`/`divine-transcendence`/`buddha-nature`/`tathāgatagarbha`/`mystical-union`/`liberation-by-knowledge`/`lineage-importance` 等如來藏學核心）+ 15 keywords + `translation_status="done"` + `tag_status="done"`
+  - `translations/bud-udanavarga-sa/01-translation.md`（4188 行，梵文 法句優陀那 Uḍānavarga 38 段偈頌，含無常品第一／不放逸品第二／等多品，逐偈梵文＋直譯繁中）+ meta 27 semantic_tags（含 `chanting`/`enlightenment`/`meditation`/`ultimate-reality`/`karma-rebirth`/`asceticism`/`non-violence`/`monastic` 等佛教詩偈核心）+ 15 keywords + `translation_status="done"` + `tag_status="done"`
+  - `translations/taittiriya-upanishad/01-translation.md`（2693 行，梵文 鷓鴣氏奧義書含商羯羅注 Taittirīya Upaniṣad，GRETIL 校勘版，含 śikṣāvallī／ānandavallī／bhrguvallī 三篇，GRETIL 電子文本標頭已刻意排除）+ meta 補 `translation_status="done"`（`tag_status` 早已 done，前批已抽 semantic_tags + keywords，本批補翻譯章節）
+  - `translations/volsunga-saga-on/01-translation.md`（1058 行，古諾斯語 沃爾松傳奇 Völsunga saga，heimskringla.no HTML，含 Sigurd 屠龍 Fafnir／Brynhild 悲劇／Gudrun 復仇／Atli 焚金等北歐傳奇核心）+ meta 29 semantic_tags（含 `saga-era-violence`/`blood-feud`/`fate-vs-free-will`/`heroes`/`mythological-ancestry`/`dragons`/`treasure`/`feast-and-comitatus` 等北歐傳奇核心）+ 15 keywords + `translation_status="done"` + `tag_status="done"`
+- **狀態同步**：`PIPELINE_STATUS.md` 240→**244 / 492** 已翻譯+標籤；`目前處理` 轉為 `hesiod-el`（赫西俄德《神譜＋工作與時日》希臘原文，queued 下一輪 m3 翻譯）。`PROGRESS.json` 各宗教 `with_translation` +1：佛教 50→51、印度教 1→2、古希臘羅馬 22→23、北歐 90→91、其他 +1。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`hesiod-el`（希臘原文 Hesiod Theogony + Works and Days）已以內容產生器角色翻譯第 1/28 段（Θεογονία 開篇，含 Heliconian Muses 呼喚、Muses 對 Hesiod 演說授予月桂枝與神聖歌聲、Muses 歌唱奧林帕斯諸神系譜、Muses 在 Pieria 與 Mnemosyne 結合誕生等開篇序詩）至 stdout。`hesiod-el/01-translation.md` 此時尚未成檔，supervisor 接力完整 28 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 244 / 492，本批 4 部核心（梵文大乘如來藏論 + 梵文偈頌 + 印度教奧義書 + 古諾斯語北歐傳奇）+ 1 部希臘原文（hesiod-el 28 段 mid-iteration）。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零）。
+
 ## 2026-07-10 01:23（清晨）：Pipeline B+C 4 檔進庫（gisla-saga-on / sblgnt-mark / sn46-bojjhanga / vedanta-upadeshasahasri）+ pearl-of-great-price mid-iteration
 
 - **commit 39ecaa7e**：stop-hook 觸發，工作中已累積 4 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push。
