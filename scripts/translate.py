@@ -261,6 +261,11 @@ FALLBACK_MODEL = "deepseek-v4-flash"  # 備援：DeepSeek 付費（MiniMax 撞�
 # 每次成功都印此 marker 到 stdout→supervisor-run.log；刊版 translation_activity 解析它顯示現用 model。
 MODEL_MARKER = "  [model] {name} ({role})"
 
+# 記錄本次 translate_one 實際成功呼叫過的 model（primary / fallback 都算）；
+# translate_one 入口清空、call_m3 成功時 add，orchestrator 讀取回填 meta.json translation_models，
+# 讓「哪些檔被 fallback 翻過」可稽核（header 標示仍是 PRIMARY_MODEL，此欄才是權威來源）。
+LAST_MODELS_USED: set[str] = set()
+
 
 def _resolve_backend(model: str) -> tuple[str, str] | None:
     """依 model 名解析 (base_url, token)。MiniMax 走月費端點，其餘走 DeepSeek 付費端點。
@@ -296,6 +301,7 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
         out, err = _run_claude(prompt, base_url, token, model)
         if out is not None:
             print(MODEL_MARKER.format(name=model, role=role))
+            LAST_MODELS_USED.add(model)
             return out
         print(f"  [warn] {model}（{role}）失敗（{err}）")
 
@@ -364,6 +370,7 @@ def strip_output_wrappers(output: str) -> str:
 
 
 def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_run: bool = False) -> bool:
+    LAST_MODELS_USED.clear()  # 本檔用過哪些 model，供 orchestrator 翻完後回填 meta（純 verbatim 路徑則為空）
     out_name = TASK_TO_OUTFILE[task]
     out_path = TRANSLATIONS_DIR / slug / out_name
     if skip_done and out_path.exists() and out_path.stat().st_size > 100:

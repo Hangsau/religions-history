@@ -3,6 +3,15 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-11：事故處置 — MiniMax-M3 額度耗盡致 fallback 洪水汙染 + 加守衛防復發
+
+- **根因**：MiniMax-M3 月費 Token Plan 額度用盡（curl 實測回 `429 rate_limit_error (2056) Token Plan usage limit reached`；token 有效，純配額）。自 `mimamsa-sutra-jaimini` 第 38 chunk 起 primary 每次 `exit 1`，`translate.py` fallback 靜默把整條佇列倒給付費 `deepseek-v4-flash`（停擺期間 111 chunk）。
+- **為何沒被發現**：supervisor watchdog 只看「有無 processed 進度」；deepseek 有產出＝被當健康，故無告警。且譯檔 header 一律標 PRIMARY_MODEL，光看檔案分不出 fallback。
+- **檢測結果**：`joshua`/`judges` 100% deepseek 且**壞掉**（把翻譯任務當聊天回、role prompt 被 echo 進譯檔、結構亂）；`mimamsa-sutra-jaimini` M3 頭段好但 deepseek 尾段格式接縫；`baudhayana-dharmasutra` 47/48 為 M3、僅 1 deepseek chunk 且乾淨。**已 commit 舊檔全數乾淨**（全庫掃洩漏簽章僅上述 2 檔中招，git 歷史未汙染）。
+- **處置**：① 建 `logs/pipeline-HALT.flag` + 停掉當前 deepseek run（wrapper clean exit）。② 丟棄 joshua/judges/mimamsa 的 `01-translation.md` + 還原其 meta `translation_status` + 還原自動生 PIPELINE_STATUS/PROGRESS；**保留 baudhayana**（verify PASS）。③ 這 3 檔待 M3 額度重置、刪 HALT flag 後由 skip-done 自動用 M3 重翻。
+- **防復發（程式）**：`supervise-pipeline.py` 加守衛——單輪 primary 零成功且 fallback 連用 ≥8 次即中止該 run＋告警＋自動寫 HALT flag（用 role token 判斷不寫死 model 名）。`translate.py`＋`auto-pipeline.py` 新增：翻完把實際用過的 model 集合回填 meta `translation_models`（混檔記為 `MiniMax-M3+deepseek-v4-flash`，供稽核）。
+- **恢復條件**：確認 MiniMax-M3 額度回來（重跑 curl 測 `api.minimax.io/anthropic/v1/messages` 得 200）後，刪 `logs/pipeline-HALT.flag` 並重啟 supervisor 即續跑。
+
 ## 2026-07-10 16:10（下午）：Pipeline B+C 4 檔進庫（bud-ratnagotravibhaga-sa / bud-udanavarga-sa / taittiriya-upanishad / volsunga-saga-on）+ hesiod-el mid-iteration
 
 - **commit 0fc41c40**：stop-hook 觸發，工作樹累積 4 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push（10 檔異動：4 new + 6 modified）。

@@ -159,6 +159,9 @@ def process_slug(slug: str, tasks: list[str], whitelist: set, dry_run: bool) -> 
                 return False, touched
             if not dry_run:
                 set_meta_status(slug, "translation_status", "done")
+                if translate.LAST_MODELS_USED:
+                    set_meta_status(slug, "translation_models",
+                                    "+".join(sorted(translate.LAST_MODELS_USED)))
         touched.append(tr_path)
         touched.append(slug_dir / "meta.json")
 
