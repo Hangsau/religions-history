@@ -10,7 +10,10 @@
 - **檢測結果**：`joshua`/`judges` 100% deepseek 且**壞掉**（把翻譯任務當聊天回、role prompt 被 echo 進譯檔、結構亂）；`mimamsa-sutra-jaimini` M3 頭段好但 deepseek 尾段格式接縫；`baudhayana-dharmasutra` 47/48 為 M3、僅 1 deepseek chunk 且乾淨。**已 commit 舊檔全數乾淨**（全庫掃洩漏簽章僅上述 2 檔中招，git 歷史未汙染）。
 - **處置**：① 建 `logs/pipeline-HALT.flag` + 停掉當前 deepseek run（wrapper clean exit）。② 丟棄 joshua/judges/mimamsa 的 `01-translation.md` + 還原其 meta `translation_status` + 還原自動生 PIPELINE_STATUS/PROGRESS；**保留 baudhayana**（verify PASS）。③ 這 3 檔待 M3 額度重置、刪 HALT flag 後由 skip-done 自動用 M3 重翻。
 - **防復發（程式）**：`supervise-pipeline.py` 加守衛——單輪 primary 零成功且 fallback 連用 ≥8 次即中止該 run＋告警＋自動寫 HALT flag（用 role token 判斷不寫死 model 名）。`translate.py`＋`auto-pipeline.py` 新增：翻完把實際用過的 model 集合回填 meta `translation_models`（混檔記為 `MiniMax-M3+deepseek-v4-flash`，供稽核）。
-- **恢復條件**：確認 MiniMax-M3 額度回來（重跑 curl 測 `api.minimax.io/anthropic/v1/messages` 得 200）後，刪 `logs/pipeline-HALT.flag` 並重啟 supervisor 即續跑。
+- **自動恢復 watcher（已常駐）**：`scripts/quota-watch-resume.py` 每 30 分鐘探測 MiniMax 端點，一探到 200（額度回來）即自動刪 `logs/pipeline-HALT.flag` + 啟動 supervisor + 自退，全程不通知。MiniMax 撞的是 **7D 週流量**，2026-07-13（週一）才回。log 見 `logs/quota-watch.log`。
+  - **注意**：watcher 是 detached 背景行程，**重開機不會自動復活**。若週一前重開機，手動重跑：`pythonw scripts/quota-watch-resume.py --interval 1800 --tier 核心`（於 repo 根）。
+  - **手動恢復替代路徑**：確認額度回來（curl 測 `api.minimax.io/anthropic/v1/messages` 得 200）後，刪 `logs/pipeline-HALT.flag` 並重啟 supervisor 亦可。
+  - MiniMax Anthropic 相容端點**不回 ratelimit header**，查不到實際 5H/7D 用量數字（只能官網 console 看），故 watcher 只用二元 200/429 訊號。
 
 ## 2026-07-10 16:10（下午）：Pipeline B+C 4 檔進庫（bud-ratnagotravibhaga-sa / bud-udanavarga-sa / taittiriya-upanishad / volsunga-saga-on）+ hesiod-el mid-iteration
 
