@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**246** / 518
-- 已標籤：**423** / 518
+- 已翻譯：**252** / 518
+- 已標籤：**429** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 91 | 159 |
 | 佛教 | 74 | 53 | 69 |
-| 印度教 | 58 | 24 | 36 |
+| 印度教 | 58 | 29 | 41 |
 | 古希臘羅馬 | 46 | 11 | 23 |
 | 猶太教 | 45 | 23 | 45 |
 | 道教 | 18 | 17 | 17 |
@@ -20,7 +20,7 @@
 | 瑣羅亞斯德 | 11 | 0 | 8 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
-| 凱爾特 | 9 | 2 | 6 |
+| 凱爾特 | 9 | 3 | 7 |
 | 古埃及 | 8 | 0 | 8 |
 | 耆那教 | 7 | 4 | 6 |
 | 諾斯底 | 6 | 0 | 5 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -333,7 +333,7 @@
 - `ashtavakra-gita` 八曲之歌（Sanskrit）譯✓ 標✓
 - `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯– 標–
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標✓
-- `baudhayana-dharmasutra` 包達耶那法經（梵語）譯– 標–
+- `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標✓
 - `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
@@ -359,23 +359,23 @@
 - `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
 - `matsya-purana` 魚往世書（Sanskrit）譯– 標–
-- `mimamsa-sutra` 彌曼差經（梵語）譯– 標–
+- `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標✓
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
-- `nyaya-sutra` 正理經（梵語）譯– 標–
+- `nyaya-sutra` 正理經（梵語）譯✓ 標✓
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯✓ 標✓
 - `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯– 標–
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯– 標–
 - `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
 - `samaveda` 沙摩吠陀（Sanskrit）譯– 標✓
-- `samkhya-karika` 數論頌（梵語）譯– 標–
+- `samkhya-karika` 數論頌（梵語）譯✓ 標✓
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
 - `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標✓
 - `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標✓
-- `vaisheshika-sutra` 勝論經（梵語）譯– 標–
+- `vaisheshika-sutra` 勝論經（梵語）譯✓ 標✓
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標✓
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯✓ 標✓
@@ -567,7 +567,7 @@
 - `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯– 標✓
 - `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯– 標✓
 - `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯– 標–
-- `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯– 標–
+- `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯✓ 標✓
 - `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標✓
 - `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯✓ 標✓
