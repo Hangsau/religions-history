@@ -3,6 +3,29 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-14 凌晨（續②）：avesta-sbe04-ae 翻譯入庫（56 段 55 完成 + 1 缺口需補）+ chunk 54 失敗記錄
+
+- **commit 8bfe6759**：stop-hook 觸發收尾，commit + push `avesta-sbe04-ae` Pipeline B 翻譯（**449 段 / 4359 行 / 87133 chars**，阿維斯塔語 avesta.org Geldner 1896 transliteration 驅魔書 Vidēvdād 22 fargard 全文 + 補充片段）。`translation_status="done"` + `translation_models="MiniMax-M3"`（純 M3）。
+- **前次 stop-hook 誤判**：「supervisor 接力完整 56 段才入庫（mid-iteration 1/56）」之判斷錯 — supervisor 實際上在 02:46 後已接力 53 段 + 補 chunk 55/56（中間 chunk 54 失敗後 retry 也失敗），`01-translation.md` 確實成檔完成（87132 chars），是 supervisor 整個 process 被 kill 沒 commit，不是 mid-iteration。
+- **chunk 54 失敗**（不可忽略，須下輪修補）：`logs/supervisor-run.log` 記 MiniMax-M3 timeout 600s + deepseek-v4-flash fallback exit 1 雙失敗。檔案中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` HTML 註解標記（檔內 pos 84381），缺譯範圍 = Fargard 20 §6-§12 + Fargard 21 全文 7 節（≈ 1800 字源文 = source pos ~158500-161500）。`verify.py --all` PASS 是因它只驗檔案存在與 SHA，不查內容。`translation_status="done"` 標頭在 chunk 54 修補前屬過早，待下輪 M3 retry + commit 再改回。
+- **P5 標籤未啟動**：`avesta-sbe04-ae` 的 semantic_tags / keywords 完全未回填 meta.json。supervisor 開 chunk 1/35 後被 kill（輸出至 stdout，無 orchestrator 接收 = 沒落地）。本輪 stop-hook 內接手完成 chunk 1/35 之標籤內容（dualistic-cosmos / creator-deity / divine-kingship / prophetic-revelation / prayer / chaos-to-order / theophany + 12 keywords），同樣未寫入任何檔。
+- **狀態同步**：`PIPELINE_STATUS.md` 仍 255 / 518（**未即時更新**），本批翻譯入庫未觸發 PIPELINE 重生（auto-pipeline 未跑完 batch 結尾）。`PROGRESS.json` 瑣羅亞斯德 `with_translation` 0→**1** 需下輪重生成。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6；含 avesta-sbe04-ae 入庫後）。
+
+### 接續狀態
+
+- Pipeline B+C 仍 255 / 518（PIPELINE_STATUS 未更新），本批 1 部梵文奧義書 mandukya-upanishad + 1 部阿維斯塔語維提吠達入庫（**avesta-sbe04-ae 含 chunk 54 缺口 + P5 未跑**）。
+- 印度六派 zd v3 核心清空狀態不變：Nyāya/Sāṃkhya/Vaiśeṣika/Mīmāṃsā 四經入庫 + Yoga/Vedānta 既有執行緒 + 蛙氏奧義書（mandukya-upanishad）首入庫。
+- 瑣羅亞斯德 v3 核心新增：avesta-sbe04-ae 維提吠達 SBE04 阿維斯塔原文（**含 chunk 54 缺口待補**）。avesta-sbe04 英文翻譯 0 缺口；avesta-sbe23 / avesta-sbe31 入庫未動。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零）。
+
+### 下次接手優先
+
+1. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）。M3 retry 一次，失敗再走 deepseek fallback 雙線；完成後 commit 把 `<!-- CHUNK 54/56 FAILED — retry needed -->` 註解刪除。
+2. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 `semantic_tags` / `keywords`，本輪 chunk 1/35 已預生成標籤內容可重用）。
+3. **重生成 PIPELINE_STATUS.md + PROGRESS.json**（應得 256 / 518，瑣羅亞斯德 +1）。
+4. **dispatch supervisor** 處理 256+ 佇列下一批。
+
 ## 2026-07-14 凌晨（續）：mandukya-upanishad M3 翻譯+標籤 進庫（53 段 chunking 完成）+ avesta-sbe04-ae mid-iteration
 
 - **本批 1 部梵文奧義書 Pipeline B+C 完整 chunking 入庫**（stop-hook 收尾）：
