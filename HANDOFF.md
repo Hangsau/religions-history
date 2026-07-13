@@ -3,6 +3,21 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-14 凌晨（續）：mandukya-upanishad M3 翻譯+標籤 進庫（53 段 chunking 完成）+ avesta-sbe04-ae mid-iteration
+
+- **本批 1 部梵文奧義書 Pipeline B+C 完整 chunking 入庫**（stop-hook 收尾）：
+  - `translations/mandukya-upanishad/01-translation.md`（**2975 行 / 69049 chars**，梵文 蛙氏奧義書 Māṇḍūkya Upaniṣad，GRETIL standard edition 含商羯羅注（Gauḍapādīya-āgama-śāstra-vivaraṇa），53 段 chunking 全部完成——四品全：1. Āgama-prakaraṇa 傳承章 / 2. Vaitathya-prakaraṇa 虛妄品 / 3. Advaita-prakaraṇa 不二品 / 4. Alāta-śānti-prakaraṇa 薪火寂止品，每品終偈 + 商羯羅逐頌釋論 + 開篇敬禮禮讚，結尾「唵！寂靜！寂靜！寂靜！」）+ meta 加 `translation_status="done"` + `translation_models="MiniMax-M3"`（純 M3；前批事故處置後 M3 重跑未撞額度，乾淨檔）。
+- **事故關聯**：承接上一 entry 凌晨 queued 之 53 段 mid-iteration（8/53），本輪 supervisor 接力 9-53 段全完成入庫。對應 §事故處置 `joshua`/`judges`/`mimamsa-sutra-jaimini` 已全清空；`mandukya-upanishad` 雖未在事故污染名單（事故前未啟翻譯），但走完完整 pipeline 仍屬事故後第一批純 M3 翻譯。
+- **狀態同步**：`PIPELINE_STATUS.md` 254→**255 / 518** 已翻譯+標籤；`目前處理` 轉為 `avesta-sbe04-ae`（阿維斯塔語 驅魔書／維提吠達 SBE04，avesta.org Geldner 1896 transliteration，56 段 queued 下一輪 m3 翻譯）。`PROGRESS.json` 印度教 `with_translation` +1。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6；含 mandukya-upanishad 與 avesta-sbe04-ae chunk 1 寫入後）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`avesta-sbe04-ae`（阿維斯塔語 avesta.org Geldner 1896 transliteration 驅魔書第一品 Fargard 1）已以內容產生器角色翻譯第 **1/56 段**（15 詩節全：Ahura Mazda 對 Spitama Zarathustra 述 16 件創造與 Angra Mainyu 之反創造——雅利安疆域 v.1-2 / 冬霜 v.3 / 牛 v.4 / 聖者 Môuru v.5 / 弓手 Bâxdhî Srîrâ v.6 / 青年 v.7 / Harôyû 水 v.8 / Vaêkereti 山火 v.9 / Urvâ 多產植物 v.10 / Xneñta 看門狗 v.11 / Harahvaitî 河 v.12 / hvarenah 穀 v.13 / ýâtava 巫師 v.14 / Rakhâ 三千年樹 v.15）至 stdout。`avesta-sbe04-ae/01-translation.md` 此時尚未成檔，supervisor 接力完整 56 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度（已見 chunk 1/56 開跑）。
+
+### 接續狀態
+
+- Pipeline B+C 已 255 / 518，本批 1 部梵文奧義書 mandukya-upanishad 入庫 + 1 部阿維斯塔語維提吠達 mid-iteration（avesta-sbe04-ae 56 段 1/56）。
+- 印度六派 zd v3 核心清空狀態不變：Nyāya/Sāṃkhya/Vaiśeṣika/Mīmāṃsā 四經入庫 + Yoga/Vedānta 既有執行緒 + 蛙氏奧義書（mandukya-upanishad）首入庫。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零）。
+
 ## 2026-07-14 凌晨：事故後 M3 重翻 3 檔進庫（joshua / judges / mimamsa-sutra-jaimini）+ mandukya-upanishad queued 下一輪
 
 - **commit dc2f2780**：stop-hook 觸發收尾，commit + push 2026-07-13 深夜（檔案 mtime 23:25）累積之 3 部 Pipeline B 翻譯重出 + Pipeline C meta 補欄。
