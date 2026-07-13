@@ -20,5 +20,7 @@
   "notes": "22 fargard 全文（單頁 anchor 分章），Geldner 阿維斯塔語轉寫；對應 SBE04 英譯",
   "text_role": "original",
   "is_original_language": true,
-  "original_of": "avesta-sbe04"
+  "original_of": "avesta-sbe04",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3"
 }
