@@ -3,6 +3,24 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-14 凌晨：事故後 M3 重翻 3 檔進庫（joshua / judges / mimamsa-sutra-jaimini）+ mandukya-upanishad queued 下一輪
+
+- **commit dc2f2780**：stop-hook 觸發收尾，commit + push 2026-07-13 深夜（檔案 mtime 23:25）累積之 3 部 Pipeline B 翻譯重出 + Pipeline C meta 補欄。
+  - `translations/joshua/01-translation.md`（1155 行，希伯來文 Sefaria 校勘版 約書亞記，含征服迦南／土地分配／士師時代前夕／呂便／迦得／瑪拿西半支派東岸地業／逃城／約書亞遺命等 24 章）+ meta `translation_status="done"` + `translation_models="MiniMax-M3"`（純 M3）
+  - `translations/judges/01-translation.md`（1182 行，希伯來文 Sefaria 校勘版 士師記，含猶大西緬攻取／波金／俄陀聶／以笏／底波拉／基甸／亞比米勒／耶弗他／參孫／路得／米迦偶像／便雅憫劫掠等 21 章）+ meta `translation_status="done"` + `translation_models="MiniMax-M3"`（純 M3）
+  - `translations/mimamsa-sutra-jaimini/01-translation.md`（5758 行，梵文 彌曼差經 Mīmāṃsā Sūtra，Jaimini 著，GRETIL 校勘版 12 章完整——吠陀祭祀之解釋學派，前彌曼差／聲常住論／無我有論／涅槃非究竟／天啟無上／法 dharma／義務／祭祀果報等核心）+ meta `translation_status="done"` + `translation_models="MiniMax-M3+deepseek-v4-flash"`（M3 重翻起步 + 額度再撞 fallback 接縫，已稽核）
+- **事故關聯**：對應 2026-07-11 §事故處置 — 7D 週流量 MiniMax 額度回歸後，HALT flag 由 watcher 自動刪除，supervisor skip-done 用 M3 重翻完成這 3 檔清空舊污染。`mimamsa-sutra-jaimini` 因重啟後又遇 M3 額度短暫回落，仍為 M3+deepseek 混檔；標頭 `translation_models` 欄已留稽核線索。
+- **狀態同步**：`PIPELINE_STATUS.md` 251→**254 / 518** 已翻譯+標籤；`目前處理` 轉為 `mandukya-upanishad`（梵文 蛙氏奧義書，GRETIL 校勘版，queued 下一輪 m3 翻譯）。`PROGRESS.json` 猶太教 / 印度教 `with_translation` 各 +1。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`mandukya-upanishad`（梵文 GRETIL standard edition 蛙氏奧義書，53 段 chunking）已以內容產生器角色翻譯第 **8/53 段**（第四品頌 7 釋論 + 第四品頌——Uṣāṇa 自性論 / 第四品 pāda 為何以遮遣指示 turīya / śūnya 非空 / udakādhārā 喻 / 自我非量境非種性非作用非德故非名言所能指示 / 兔角無義關涉 / 「tat tvam asi」等六大 mahāvākya 引證 / 種子萌芽喻引出第四品頌「nāntaḥprajñaṃ... sa ātmā sa vijñeyaḥ」全文 / MandUpC_7 第四之異於三有自我 / 繩蛇揀別喻之餘量勿覓論）至 stdout。`mandukya-upanishad/01-translation.md` 此時尚未成檔，supervisor 接力完整 53 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 254 / 518，本批 3 部事故後 M3 重翻（希伯來正書 2 + 梵文彌曼差經）+ 1 部梵文奧義書 mid-iteration（mandukya-upanishad 53 段 8/53）。
+- 事故清空全部完成：joshua / judges / mimamsa-sutra-jaimini 三檔已用 M3 重翻入庫，事故條目對應的 pending 項目清空。
+- 印度六派 zd v3 核心清空狀態不變：Nyāya/Sāṃkhya/Vaiśeṣika/Mīmāṃsā 四經入庫 + Yoga/Vedānta 既有執行緒。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零）。
+
 ## 2026-07-11：事故處置 — MiniMax-M3 額度耗盡致 fallback 洪水汙染 + 加守衛防復發
 
 - **根因**：MiniMax-M3 月費 Token Plan 額度用盡（curl 實測回 `429 rate_limit_error (2056) Token Plan usage limit reached`；token 有效，純配額）。自 `mimamsa-sutra-jaimini` 第 38 chunk 起 primary 每次 `exit 1`，`translate.py` fallback 靜默把整條佇列倒給付費 `deepseek-v4-flash`（停擺期間 111 chunk）。
