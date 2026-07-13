@@ -19,5 +19,42 @@
   "tier": "核心",
   "notes": "六派哲學之數論（Sāṃkhya）根本頌，自在黑（Īśvarakṛṣṇa）著；二元論 puruṣa/prakṛti 體系奠基文本",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "semantic_tags": [
+    "commentarial-layer",
+    "dualistic-cosmos",
+    "emanation",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "multiple-souls",
+    "reincarnation",
+    "sacred-language",
+    "self-effort",
+    "study",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "數論頌",
+    "puruṣa",
+    "prakṛti",
+    "sattva",
+    "rajas",
+    "tamas",
+    "tri-guṇa",
+    "mahat",
+    "ahaṃkāra",
+    "kaivalya",
+    "pramāṇa",
+    "二十五諦",
+    "Kapila",
+    "自性",
+    "三德"
+  ],
+  "tag_status": "done"
 }
