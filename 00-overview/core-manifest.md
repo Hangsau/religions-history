@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**252** / 518
-- 已標籤：**429** / 518
+- 已翻譯：**257** / 518
+- 已標籤：**430** / 518
 
 ## 各宗教核心進度
 
@@ -12,12 +12,12 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 91 | 159 |
 | 佛教 | 74 | 53 | 69 |
-| 印度教 | 58 | 29 | 41 |
+| 印度教 | 58 | 31 | 41 |
 | 古希臘羅馬 | 46 | 11 | 23 |
-| 猶太教 | 45 | 23 | 45 |
+| 猶太教 | 45 | 25 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 3 | 6 |
-| 瑣羅亞斯德 | 11 | 0 | 8 |
+| 瑣羅亞斯德 | 11 | 1 | 9 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
 | 凱爾特 | 9 | 3 | 7 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -355,12 +355,12 @@
 - `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
 - `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯– 標✓
-- `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯– 標✓
+- `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯– 標✓
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
 - `matsya-purana` 魚往世書（Sanskrit）譯– 標–
 - `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標✓
-- `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標✓
+- `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯✓ 標✓
 - `nyaya-sutra` 正理經（梵語）譯✓ 標✓
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯✓ 標✓
@@ -457,8 +457,8 @@
 - `joel` 約珥書（Hebrew）譯✓ 標✓
 - `jonah` 約拿書（Hebrew）譯✓ 標✓
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標✓
-- `joshua` 約書亞記（Hebrew）譯– 標✓
-- `judges` 士師記（Hebrew）譯– 標✓
+- `joshua` 約書亞記（Hebrew）譯✓ 標✓
+- `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標✓
 - `kings-1` 列王紀上（Hebrew）譯– 標✓
 - `kings-2` 列王紀下（Hebrew）譯– 標✓
@@ -524,7 +524,7 @@
 ### 瑣羅亞斯德（11 部）
 
 - `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯– 標✓
-- `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標✓
 - `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯– 標✓
