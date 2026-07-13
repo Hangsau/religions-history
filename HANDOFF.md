@@ -15,6 +15,22 @@
   - **手動恢復替代路徑**：確認額度回來（curl 測 `api.minimax.io/anthropic/v1/messages` 得 200）後，刪 `logs/pipeline-HALT.flag` 並重啟 supervisor 亦可。
   - MiniMax Anthropic 相容端點**不回 ratelimit header**，查不到實際 5H/7D 用量數字（只能官網 console 看），故 watcher 只用二元 200/429 訊號。
 
+## 2026-07-13：Pipeline B+C 3 檔進庫（nyaya-sutra / samkhya-karika / vaisheshika-sutra）+ cath-maige-tuired-ga mid-iteration
+
+- **commit fee6617f**：stop-hook 觸發，工作樹累積 3 部印度六派哲學根本經 Pipeline B+C 翻譯+標籤成品，立即 commit + push（7 檔異動：3 new + 4 modified）。
+  - `translations/nyaya-sutra/01-translation.md`（**1741 行**，梵文 正理經 Nyāya Sūtra，Aksapāda Gautama 著；GRETIL 校勘版 5 卷全：卷一 16 句義總論（知識之四量：現量/比量/聖教量/譬喻量；16 句義即所量/能量/疑/動機/例證/宗義/論式/詮明/決定/論辯/紛議/墮負/詭辯/似因/似宗/倒難）+ 卷二 疑/動機/宗義/壞墮/倒難 等論辯結構 + 卷三壞義 / 卷四 現量詳釋 / 卷五 似現量破斥 + 五支作法／墮負九例／解脫究竟利）+ meta 17 semantic_tags（含 `commandments-law`/`commentarial-layer`/`liberation-by-knowledge`/`study`/`truthfulness`/`self-effort` 等量論核心）+ 15 keywords（正理經/十六句義/現量/比量/聖教量/解脫/究竟利 等） + `translation_status="done"` + `tag_status="done"` + `translation_models="MiniMax-M3+deepseek-v4-flash"`（首波 M3+fallback 混檔，詳 §事故處置）。
+  - `translations/samkhya-karika/01-translation.md`（**663 行**，梵文 數論頌 Sāṃkhyakārikā，Īśvarakṛṣṇa 自在黑著；GRETIL 校勘版 72 頌完整 6 章——知識苦因求解脫／廿五諦自性三德／puruṣa prakṛti 二元／從自性漸生大/我慢/五大/五唯五知/根/境/意／神我證悟獨存離繫 kaivalya 等核心）+ meta 15 semantic_tags（含 `dualistic-cosmos`/`multiple-souls`/`sacred-language`/`liberation-by-knowledge`/`extinction-of-self`/`commentarial-layer` 等二元論核心） + 15 keywords（數論頌/puruṣa/prakṛti/sattva/rajas/tamas/三德/廿五諦/Kapila/自性 等）+ `translation_status="done"` + `tag_status="done"` + `translation_models="MiniMax-M3"`（純 M3）。
+  - `translations/vaisheshika-sutra/01-translation.md`（**836 行**，梵文 勝論經 Vaiśeṣika Sūtra，Ulūka Kaṇāda 著；GRETIL 校勘版 10 章完整——可知之四法：所量／量／疑／目的／所量為實體 dravya／德 guṇa／業 karma／同 sāmānya／異 viśeṣa／和合／離合／六句義／勝論原子論與範疇／六種實體等核心）+ meta 16 semantic_tags（含 `dualistic-cosmos`/`commentarial-layer`/`ritual-practice`/`revealed-text`/`multiple-souls`/`liberation-by-knowledge` 等範疇論核心）+ 15 keywords（勝論/dravya/guṇa/karma/ātman/Kaṇāda/ākāśa/sparśa 等）+ `translation_status="done"` + `tag_status="done"` + `translation_models="MiniMax-M3"`（純 M3）。
+- **狀態同步**：`PIPELINE_STATUS.md` 245→**249 / 518** 已翻譯+標籤；`目前處理` 轉為 `cath-maige-tuired-ga`（古愛爾蘭語 第二次莫伊圖拉之戰 Cath Maige Tuired，CELT 校勘版 18 段 queued 下一輪 m3 翻譯）。`PROGRESS.json` 印度教 `with_translation` +3（v3 核心六派全部歸檔 + 自在黑 / Kaṇāda 兩獨立作者），印度六派 zd 全收。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`cath-maige-tuired-ga`（古愛爾蘭語 CELT 校勘版 第二次莫伊圖拉之戰）第 **18/18 段**（末日之兆ái cinn blíchda 預言——婦女無羞恥男子無勇武／劫掠無君王／海無出產樹木無果／土地蒼白繞空堡／無信之戰繁多／兩側互起口角／背信之會無數／子登父床父登子床／兄弟各佔兄弟之婦（cliamain，姊妹夫）／禍時降生子葬父女主事——原 CELT line 832-841 即文末殘缺）已以內容產生器角色翻譯輸出至 stdout。`cath-maige-tuired-ga/01-translation.md` 此時尚未成檔，supervisor 接力完整 18 段才入庫（依 SOP「一份完整 chunking 才入庫」），若切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 249 / 518，本批 3 部印度六派核心經（正理／數論／勝論） + 1 部古愛爾蘭語 第二次莫伊圖拉之戰（cath-maige-tuired-ga 18 段 mid-iteration）。
+- 印度六派 zd v3 核心清空：Nyāya/Sāṃkhya/Vaiśeṣika 三經入庫 + 既有 Mīmāṃsā/Yoga/Vedānta 仍執行緒中之 nimamsa-sutra-jaimini 補譯（事故處置後 M3 重跑）。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零）。
+
 ## 2026-07-10 16:10（下午）：Pipeline B+C 4 檔進庫（bud-ratnagotravibhaga-sa / bud-udanavarga-sa / taittiriya-upanishad / volsunga-saga-on）+ hesiod-el mid-iteration
 
 - **commit 0fc41c40**：stop-hook 觸發，工作樹累積 4 部 Pipeline B+C 翻譯+標籤成品，立即 commit + push（10 檔異動：4 new + 6 modified）。
