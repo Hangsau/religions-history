@@ -2,10 +2,10 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-07-13 16:32:03 +0800
+- 更新時間：2026-07-13 23:25:02 +0800
 - 佇列 tier：**核心**
-- 進度：**251 / 518** 已翻譯+標籤
-- 目前處理：`mimamsa-sutra`
+- 進度：**254 / 518** 已翻譯+標籤
+- 目前處理：`mandukya-upanishad`
 - 失敗待重試：0 部
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`keywords` 回填 `meta.json`
