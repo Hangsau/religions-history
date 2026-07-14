@@ -3,6 +3,31 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-14 下午（續）：samuel-2 完整入庫 + plato-phaedrus-el 新進 Pipeline B+C（stop-hook 收尾）
+
+- **commit ea6a16e8**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（5 檔異動：2 new + 3 modified），verify.py --all 全綠後 push。
+  - `translations/samuel-2/01-translation.md`（1343 行 / 38 段，希伯來文 Sefaria 校勘版 撒母耳記下 撒下 1 大衛哀歌起至撒下 24 末段蘇三拿雅戰亞瑪力人 + 末段示每咒詛大衛 + 押沙龍叛亂 + 大衛數點民數 + 聖殿地基購置 + 神責罰三選一 + 鵺鴕壇獻祭終章 supervisor 接力完整版）。原文 24 章分章 = 24 個 `=== N | label ===` marker，譯文 38 marker 因分詩體 / 戰記 / 清單細段。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`，`tag_status="done"` 沿用先前 38 semantic_tags（unclean-yhwh / lamentation-psalm / david-covenant / messianic / anointed-one / oracle / judgement / politics / war-genocide / violence-war 等核心）+ 15 keywords（耶和華 / 大衛 / 掃羅 / 約拿單 / 押沙龍 / 耶路撒冷 / 示每 / 摩押 / 以東 / 亞捫 / 非利士 / 基列 / 耶布斯 / 亞瑪力 / 掃羅之死等）。
+  - `translations/plato-phaedrus-el/01-translation.md`（755 行 / 24 段，柏拉圖《斐德羅》希臘原文 完整篇，愛與靈魂馬車喻 + III 愛與親密 + 心理學分析 + 修辭學 + 靈魂不死 / 輪迴 / 回憶說 + 靈魂構造三人一馬二馬三馬論 + 神聖瘋狂四型論 + 寫作 vs 口語哲學 + 北歐神話 Boreas Oreithyia 開篇 + Ilissus 河邊對話 + 斐德羅蘇格拉底呂西阿斯三人 + 靈魂本質議論 等核心哲學論題）。meta 加 `translation_status="done"` + `translation_models="MiniMax-M3"` + 29 semantic_tags（含 `enlightenment`/`liberation-by-knowledge`/`reincarnation`/`multiple-souls`/`mystical-union`/`divine-immanence`/`divine-transcendence`/`human-as-microcosm`/`polytheist`/`forgiveness`/`compassion`/`humility`/`asceticism`/`ultimate-reality`/`prophetic-revelation`/`prayer`/`ritual-practice`/`spirit-possession`/`theophany`/`vision-experience`/`awe-fear`/`chanting`/`self-effort`/`study`/`truthfulness`/`commentarial-layer`/`cyclic-cosmos`/`sexual-ethics`/`goddess-tradition`） + 15 keywords（Φαῖδρος / 蘇格拉底 / Lysias / Boreas / Oreithyia / Ilissus / Nymphs / Achelous / Delphi / Typhon / ἐραστής / eros / 認識自己 / 懸鈴木 / 斐德羅）+ `tag_status="done"`。
+- **前次 stop-hook 漏列修正**：「samuel-2 開跑 2/46 段、中段後由 supervisor 接力剩 44 段」之判斷屬過早 ── supervisor 早在 fddc8731 後就接力完成 38 段，`samuel-2/01-translation.md` 確實成檔完成；但本批我尚未 commit，停 2H+ 未 push 屬 iteration 中間態，今次 stop-hook 才發現補進。
+- **狀態同步**：`PIPELINE_STATUS.md` 258 → **260 / 518**（samuel-2 + plato-phaedrus-el 各 +1）自動生（2026-07-14 17:55:33 +0800），目前處理佇列 `homeric-hymns-el` 翻譯中。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6）。
+
+### 接續狀態
+
+- Pipeline B+C 仍 **260 / 518**，本批 2 部核心（希臘哲學 柏拉圖《斐德羅》新進 + 希伯來正書 撒母耳記下完整 38 段 supervisor 接力版入庫）。
+- 佇列 tail：homeric-hymns-el 翻譯進行中（40 段 chunking，每段由 m3 內容產生器接力）；合 259 與 260 之後 = 261+。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體 + 一部入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **homeric-hymns-el** 接力翻譯（40 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地）。
+2. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+3. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+4. **dispatch supervisor** 處理 260+ 佇列下一批。
+
 ## 2026-07-14 下午：an9-nines + kojiki-zh 翻譯+標籤 進庫（stop-hook 收尾）+ samuel-2 開跑 1/46 段
 
 - **commit fddc8731**：stop-hook 觸發收尾，本批 Pipeline B+C 翻譯+標籤完成入庫，verify PASS 後立即 commit + push（6 檔異動：2 new + 4 modified）。
