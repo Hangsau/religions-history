@@ -3,6 +3,31 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-14 下午：an9-nines + kojiki-zh 翻譯+標籤 進庫（stop-hook 收尾）+ samuel-2 開跑 1/46 段
+
+- **commit fddc8731**：stop-hook 觸發收尾，本批 Pipeline B+C 翻譯+標籤完成入庫，verify PASS 後立即 commit + push（6 檔異動：2 new + 4 modified）。
+  - `translations/an9-nines/01-translation.md`（145673 bytes，巴利 AN9 九法集 Aṅguttara Nikāya 九法相應，SuttaCentral 校勘版 82 章全，含四大教法 / 九種善 / 九種惡 / 教誡不放逸等核心九法經）+ meta 7 semantic_tags（含 `enlightenment`/`four-noble-truths`/`liberation-by-knowledge`/`meditation`/`monastic`/`self-effort`/`chanting`）+ 15 keywords（增支部/巴利/九法集/覺支/善知識/持戒/念處/不淨觀/慈心/涅槃/無常/無我/Sambodhisutta 等） + `translation_status="done"` + `tag_status="done"` + `translation_models="MiniMax-M3"`（純 M3）
+  - `translations/kojiki-zh/01-translation.md`（189453 bytes，上代日本語 漢文・萬葉假名 古事記 Kojiki 712 AD 太安萬侶編，Wikisource 三卷本上中下 + 序，含天之御中主神國生神皇極天皇御間城入彥五十瓊毛天皇 等神代史 + 天地初發 / 伊耶那岐命伊耶那美命國生 / 大八島 / 火神軻遇突智 / 天照大御神 / 月讀命 / 須佐之男命 / 尾張氏 / 神武天皇東征 / 日本武尊 等核心神話帝王系譜至長谷部若雀天皇）+ meta 39 semantic_tags（含 `creator-deity`/`creation-ex-nihilo`/`divine-kingship`/`mandate-of-heaven`/`goddess-tradition`/`feminine-divine`/`ancestor-worship`/`polytheist`/`syncretic`/`theocracy`/`chaos-to-order`/`commandments-law`/`lineage-importance`/`marriage-sacred`/`spirit-possession`/`prophetic-revelation`/`revealed-text`/`ritual-practice`/`sacred-language`/`secular-state`/`sexual-ethics`/`truthfulness`/`vision-experience`/`tribal-traditional`/`multiple-souls`/`priesthood`/`temple-centered`/`theophany`/`other-power`/`awe-fear`/`chanting`/`compassion`/`commentarial-layer`/`cyclic-cosmos`/`divine-immanence`/`evil-as-deception`/`oral-tradition`/`patriarchal`/`sin-as-disobedience`）+ 15 keywords（古事記/上代日本語/漢文/萬葉假名/神道/安萬侶/稗田阿禮/天之御中主神/伊耶那岐命/伊耶那美命/高天原/天沼矛/淤能碁呂島/神世七代/別天神）+ `translation_status="done"` + `tag_status="done"` + `translation_models="MiniMax-M3"`（純 M3）。
+- **狀態同步**：`PIPELINE_STATUS.md` 255→**258 / 518** 已翻譯+標籤；`PROGRESS.json` 佛教 / 神道 `with_translation` 各 +1。
+- **verify.py**：an9-nines + kojiki-zh 兩部 PASS（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`samuel-2`（希伯來文 Sefaria 校勘版 撒母耳記下）以內容產生器角色翻譯輸出至 stdout — 第 **2/46 段**（2 Sam 1:24-27 大衛哀歌末段：以色列女子哀哭掃羅披朱紅戴金飾 / 勇士陣中跌倒約拿單高處被戮 / 我兄約拿單愁苦甘甜愛奇妙超過婦女之愛 / 勇士跌倒兵器滅亡）。`samuel-2/01-translation.md` 此時尚未成檔，supervisor 接力剩餘 44 段（依 SOP「一份完整 46 段 chunking 才入庫」），切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+- **samuel-2 進入佇列**：本批 mid-iteration 開跑中；屬核心清單猶太教 撒母耳記下篇（與 joshua / judges / samuel-1 / daniel / nehemiah / ezra / sblgnt 等同批，希伯來文 Sefaria 校勘版）。46 段 chunking，2/46 完成。
+
+### 接續狀態
+
+- Pipeline B+C 仍 258 / 518，本批 2 部核心（巴利 增支部九集 + 神道 古事記）+ 1 部希伯來正書 mid-iteration（samuel-2 撒母耳記下 46 段 2/46）。
+- 佛教 zd 增支部收尾：an1（已）+ an9（剛 commit）；八集 an8 為下一個 zd 待收。
+- 神道 v3 核心 1/3 完成（kojiki 本體剛 commit），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 印度六派 / 瑣羅亞斯德（avesta-sbe04-ae chunk 54 缺口）/ 希臘哲學 / 北歐 etc. 不變。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **接力 samuel-2 剩餘 44 段**（已 2/46：1-2 大衛哀歌完成；3 起應進 Saul's death news 末尾／Abner／David made king of Judah／Ish-bosheth 與 Abner／war of Judah-Israel／David's reign in Hebron／siege of Jebus／Bathsheba 等撒下 2-24）。
+2. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 前批標 `<!-- CHUNK 54/56 FAILED — retry needed -->` 待刪除註解。
+3. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 `semantic_tags` / `keywords`，凌晨已預生成 chunk 1/35 標籤內容可重用）。
+4. **dispatch supervisor** 處理 258+ 佇列下一批。
+
 ## 2026-07-14 凌晨（續②）：avesta-sbe04-ae 翻譯入庫（56 段 55 完成 + 1 缺口需補）+ chunk 54 失敗記錄
 
 - **commit 8bfe6759**：stop-hook 觸發收尾，commit + push `avesta-sbe04-ae` Pipeline B 翻譯（**449 段 / 4359 行 / 87133 chars**，阿維斯塔語 avesta.org Geldner 1896 transliteration 驅魔書 Vidēvdād 22 fargard 全文 + 補充片段）。`translation_status="done"` + `translation_models="MiniMax-M3"`（純 M3）。
