@@ -118,6 +118,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Achelous": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Achilles": [
     {
       "slug": "iliad-butler",
@@ -1217,6 +1224,13 @@
       "religion": "現代新興"
     }
   ],
+  "Boreas": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Brahma": [
     {
       "slug": "japji-sahib-pa",
@@ -1960,6 +1974,11 @@
     }
   ],
   "Delphi": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
@@ -3297,6 +3316,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ilissus": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "In-principio": [
     {
       "slug": "vulgate-john",
@@ -4391,6 +4417,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Lysias": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ma'at": [
     {
       "slug": "egyptian-book-of-dead",
@@ -5276,6 +5309,13 @@
       "religion": "古埃及"
     }
   ],
+  "Nymphs": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Nyâyis": [
     {
       "slug": "avesta-sbe23",
@@ -5466,6 +5506,13 @@
       "slug": "vulgate-psalms",
       "name_zh": "詩篇（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Oreithyia": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Orisha": [
@@ -7533,6 +7580,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Typhon": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Tyre": [
     {
       "slug": "vulgate-ezekiel",
@@ -8578,6 +8632,13 @@
       "religion": "基督教"
     }
   ],
+  "ambrosia": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "anagāra": [
     {
       "slug": "jain-acaranga-pkt",
@@ -9541,6 +9602,13 @@
       "religion": "基督教"
     }
   ],
+  "eros": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "eternal life": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -10194,6 +10262,13 @@
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "kykeon": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "kāmacchanda 欲貪": [
@@ -12650,6 +12725,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Φαῖδρος": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Χριστός": [
     {
       "slug": "sblgnt-mark",
@@ -13675,6 +13757,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἐραστής": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἔλεος κρίσεως 慈悲勝審判": [
     {
       "slug": "sblgnt-james",
@@ -14164,6 +14253,13 @@
       "slug": "vulgate-isaiah",
       "name_zh": "以賽亞書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "上代日本語": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "上善若水": [
@@ -15909,6 +16005,20 @@
       "slug": "genesis",
       "name_zh": "創世記",
       "religion": "猶太教"
+    }
+  ],
+  "伊耶那岐命": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    }
+  ],
+  "伊耶那美命": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "伊西斯": [
@@ -17827,6 +17937,13 @@
       "religion": "基督教"
     }
   ],
+  "別天神": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    }
+  ],
   "利巴嫩": [
     {
       "slug": "bible-song-of-songs",
@@ -18522,6 +18639,27 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "厄琉息斯": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "厄琉息斯祕儀": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "厄瑞玻斯": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "厄瑪奴爾": [
     {
       "slug": "vulgate-matthew",
@@ -18711,6 +18849,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     }
   ],
@@ -19223,6 +19366,11 @@
     }
   ],
   "哈得斯": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
@@ -20343,6 +20491,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "墨塔涅拉": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "墮負": [
     {
       "slug": "nyaya-sutra",
@@ -20883,6 +21038,13 @@
       "religion": "基督教"
     }
   ],
+  "天之御中主神": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    }
+  ],
   "天人合一": [
     {
       "slug": "yinfu-jing",
@@ -21055,6 +21217,13 @@
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "天沼矛": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "天照大神": [
@@ -21727,6 +21896,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "安萬侶": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    }
+  ],
   "安葬": [
     {
       "slug": "sophocles-antigone-el",
@@ -21762,6 +21938,11 @@
     {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -23324,6 +23505,13 @@
       "religion": "道教"
     }
   ],
+  "得墨忒耳": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "御風": [
     {
       "slug": "liezi",
@@ -23441,6 +23629,13 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "德摩福翁": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -24159,6 +24354,13 @@
       "slug": "vulgate-deuteronomy",
       "name_zh": "申命記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "懸鈴木": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "懺悔": [
@@ -25888,6 +26090,13 @@
       "religion": "儒教"
     }
   ],
+  "斐德羅": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "斯多葛": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -25914,6 +26123,13 @@
       "slug": "songs-of-russian-people",
       "name_zh": "俄羅斯人民之歌",
       "religion": "斯拉夫"
+    }
+  ],
+  "斯提克斯": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "斯陀含": [
@@ -27844,6 +28060,13 @@
       "religion": "基督教"
     }
   ],
+  "永生不老": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "永遠的生命": [
     {
       "slug": "sblgnt-1-john",
@@ -28434,6 +28657,13 @@
       "religion": "佛教"
     }
   ],
+  "淤能碁呂島": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    }
+  ],
   "淨土": [
     {
       "slug": "infinite-life-sutra",
@@ -28578,6 +28808,13 @@
       "slug": "madhyamagama",
       "name_zh": "中阿含經",
       "religion": "佛教"
+    }
+  ],
+  "漢文": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "漢明帝": [
@@ -29422,6 +29659,13 @@
       "religion": "佛教"
     }
   ],
+  "珀耳塞福涅": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "現量": [
     {
       "slug": "nyaya-sutra",
@@ -30103,6 +30347,13 @@
       "religion": "基督教"
     }
   ],
+  "石榴子": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "示羅": [
     {
       "slug": "bible-1-samuel",
@@ -30204,6 +30455,13 @@
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
       "religion": "基督教"
+    }
+  ],
+  "神世七代": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "神人": [
@@ -30396,6 +30654,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     }
   ],
@@ -30778,6 +31041,13 @@
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
+    }
+  ],
+  "稗田阿禮": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "種姓": [
@@ -33891,6 +34161,13 @@
       "religion": "道教"
     }
   ],
+  "萬葉假名": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    }
+  ],
   "萬軍之YHWH": [
     {
       "slug": "nahum",
@@ -34084,6 +34361,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -34748,6 +35030,13 @@
       "religion": "基督教"
     }
   ],
+  "認識自己": [
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "誓戒": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -35117,6 +35406,13 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    }
+  ],
+  "赫耳墨斯": [
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "路加": [
@@ -37293,6 +37589,13 @@
       "slug": "carmina-gadelica-1",
       "name_zh": "Carmina Gadelica Vol 1",
       "religion": "凱爾特"
+    }
+  ],
+  "高天原": [
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     }
   ],
   "高爾吉亞": [

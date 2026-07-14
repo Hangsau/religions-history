@@ -46,6 +46,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -59,6 +64,11 @@
       "slug": "job",
       "name_zh": "約伯記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -455,6 +465,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -804,6 +819,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plotinus-enneads",
       "name_zh": "普羅提諾九章集",
       "religion": "古希臘羅馬"
@@ -926,9 +946,19 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -939,6 +969,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sn10-yakkha",
@@ -1361,6 +1396,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
@@ -1379,6 +1419,11 @@
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "lotus-sutra",
@@ -1423,6 +1468,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1543,6 +1593,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -1550,6 +1605,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -1933,6 +1993,11 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "leviticus",
@@ -2322,6 +2387,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
@@ -2369,6 +2439,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -2614,6 +2689,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -2662,6 +2742,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "ruth",
@@ -3047,6 +3132,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
@@ -3152,6 +3242,11 @@
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "legends-of-the-gods-egypt",
@@ -3311,6 +3406,11 @@
       "religion": "道教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
@@ -3323,6 +3423,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -3565,6 +3670,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -3603,6 +3713,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "liezi",
@@ -3662,6 +3777,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -3907,6 +4027,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -3929,6 +4054,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -4299,6 +4429,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -4376,6 +4511,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -5249,6 +5389,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
@@ -5483,6 +5628,11 @@
       "slug": "jain-sutrakrtanga-pkt",
       "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -5751,6 +5901,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -5871,6 +6031,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "psalms",
@@ -6127,6 +6292,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
@@ -6149,6 +6324,11 @@
     {
       "slug": "ovid-metamorphoses",
       "name_zh": "變形記 (奧維德)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -6598,6 +6778,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
@@ -6768,6 +6953,11 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "taiji-tushuo",
@@ -6954,6 +7144,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -7842,6 +8037,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plotinus-enneads",
       "name_zh": "普羅提諾九章集",
       "religion": "古希臘羅馬"
@@ -8191,6 +8391,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -8204,6 +8409,11 @@
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "legends-of-the-jews",
@@ -8333,6 +8543,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -8423,6 +8638,11 @@
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -10070,6 +10290,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -10142,9 +10367,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "samkhya-karika",
@@ -10312,6 +10547,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plotinus-enneads",
@@ -10912,6 +11152,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -10944,6 +11189,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -11131,6 +11381,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -11188,6 +11443,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -11233,6 +11493,11 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "japji-sahib-pa",
@@ -11377,6 +11642,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -11389,6 +11659,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -11439,6 +11714,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -11724,6 +12004,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
       "religion": "古希臘羅馬"
@@ -11781,6 +12066,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -12091,6 +12381,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -12109,6 +12404,11 @@
       "slug": "kings-1",
       "name_zh": "列王紀上",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "leviticus",
@@ -12730,6 +13030,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
@@ -12768,6 +13073,11 @@
       "slug": "kings-2",
       "name_zh": "列王紀下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -12822,6 +13132,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -13179,6 +13494,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -13264,6 +13584,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "legends-of-the-jews",
@@ -13598,6 +13923,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -13635,6 +13965,11 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -13710,6 +14045,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -13960,6 +14300,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
       "religion": "印加"
@@ -13978,6 +14323,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "leviticus",
@@ -14549,6 +14899,11 @@
       "religion": "道教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -14821,6 +15176,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
@@ -15063,6 +15423,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -15071,6 +15436,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-1-thessalonians",
@@ -15285,6 +15655,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -15472,6 +15847,11 @@
       "religion": "印加"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -15479,6 +15859,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -15606,6 +15991,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -15975,6 +16365,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -16092,6 +16487,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
@@ -16105,6 +16505,11 @@
       "slug": "kings-1",
       "name_zh": "列王紀上",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "leviticus",
@@ -16267,6 +16672,11 @@
       "slug": "judges",
       "name_zh": "士師記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "leviticus",
@@ -16928,6 +17338,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
@@ -16961,6 +17376,11 @@
       "slug": "kings-2",
       "name_zh": "列王紀下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "legends-of-the-gods-egypt",
@@ -17021,6 +17441,11 @@
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-works",
@@ -17320,6 +17745,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -17587,6 +18017,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -17652,6 +18087,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
@@ -17699,6 +18139,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -18259,6 +18704,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plotinus-enneads",
       "name_zh": "普羅提諾九章集",
       "religion": "古希臘羅馬"
@@ -18690,6 +19140,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "homeric-hymns-el",
+      "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
@@ -18710,6 +19165,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -18728,6 +19188,11 @@
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
+    },
+    {
+      "slug": "plato-phaedrus-el",
+      "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "samuel-1",
