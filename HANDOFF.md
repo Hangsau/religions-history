@@ -3,6 +3,29 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-15 凌晨：chronicles-1 翻譯+標籤 進庫（stop-hook 收尾）+ sutta-nipata mid-iteration
+
+- **commit e11d5cca**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（4 檔異動：1 new + 3 modified），verify.py --all 全綠後 push。
+  - `translations/chronicles-1/01-translation.md`（歷代志上 1 Chronicles，希伯來文 Sefaria 校勘版，自亞當族譜／塞特／以挪士／該南／瑪勒列／雅列／以諾／瑪土撒拉／拉麥／挪亞／閃含雅弗起，含雅弗歌篾瑪各瑪代雅完土巴米設提臘等雅弗子孫／含古實埃及弗迦南／含西巴哈腓拉撒弗他／雅完以利沙他施基提路德人等族譜 + 大衛王朝譜系 Saul 死後大衛作猶大王 + 耶路撒冷征服 + 祭司利未班次 + 聖殿歌唱者 + 戶籍大軍 + 所羅門宮殿建材籌備 + 大衛最後囑咐所羅門 + 亞比雅列民眾分業等）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"` + `tag_status="done"`（沿用既有 semantic_tags + keywords）。
+  - 狀態同步：`PIPELINE_STATUS.md` 261→**262 / 518** 已翻譯+標籤；`PROGRESS.json` 猶太教 `with_translation` 11→**13**（+2，含前批殘帳）。目前處理 `sutta-nipata`（巴利 經集 Sutta Nipāta Pali Sujato/Mahāsaṅgīti edition，78 段 chunking 30/78 已譯至 stdout，supervisor 接力中）。
+  - verify.py --all 全綠（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`sutta-nipata`（巴利 Sutta Nipāta 3.2 Padhānasutta 精進偈）已以內容產生器角色翻譯第 **30/78 段**（sn.28 Padhānasutta 全文：那莫其於尼連禪河畔勸退佛陀、列出十種魔軍 / 欲、不喜、飢渴、貪、惛眠、怖、猶豫、驕、利譽敬虛名 / 自讚毀他 / 持草去我命何惜 / 陣亡勝於戰敗 / 沙門婆羅門不見埋伏 / 我往迎戰勿令退 / 我以智慧破彼如石擊熟果 / 七年隨佛不見瑕隙 / 烏鴉啄肥石無味而棄 / 箏出聲、夜叉隱沒 / Padhānasuttaṁ dutiyaṁ）至 stdout。`sutta-nipata/01-translation.md` 此時尚未成檔，supervisor 接力剩餘 48 段才入庫（依 SOP「一份完整 chunking 才入庫」），切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 262 / 518，本批 1 部希伯來正書（chronicles-1 歷代志上）入庫 + 1 部巴利經集 mid-iteration（sutta-nipata 78 段 30/78）。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收（an1/an9 已入庫）；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體已入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **sutta-nipata** 接力翻譯（78 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 30/78）。
+2. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+3. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+4. **dispatch supervisor** 處理 262+ 佇列下一批。
+
 ## 2026-07-14 下午（續）：samuel-2 完整入庫 + plato-phaedrus-el 新進 Pipeline B+C（stop-hook 收尾）
 
 - **commit ea6a16e8**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（5 檔異動：2 new + 3 modified），verify.py --all 全綠後 push。
