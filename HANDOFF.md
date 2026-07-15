@@ -3,6 +3,30 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-15 上午：leviticus + sutta-nipata 完整入庫 + plato-symposium-el mid-iteration（stop-hook 收尾）
+
+- **commit e7d40792**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（5 檔異動：2 new + 3 modified），verify.py --all 全綠後 push。
+  - `translations/leviticus/01-translation.md`（利未記 Leviticus，希伯來文 Sefaria 校勘版，40 段 chunking，祭司獻祭條例 / 潔淨律 / 節期 / 聖所 / 贖罪日 / 許願 / 安息年與禧年等經文式翻譯）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / semantic_tags / keywords）。
+  - `translations/sutta-nipata/01-translation.md`（巴利 Sutta Nipāta Sujato/Mahāsaṅgīti edition，82 段 chunking 完整入庫，承接上次 mid-iteration 30/78，supervisor 接力 31-82 全完成；含 sn.28 Padhānasutta 精進偈全文 + 蛇經 / 犀牛經 / 寶經 / 大集法句 / 八頌經等五品經集體裁）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`。
+  - 狀態同步：`PIPELINE_STATUS.md` 262→**264 / 518** 已翻譯+標籤；目前處理 `plato-symposium-el`（希臘原文 Plato Symposium 會飲篇，36 段 chunking 19/36，supervisor 接力中）。
+  - verify.py --all 全綠（push 前必跑，CLAUDE.md §6）。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`plato-symposium-el`（希臘原文 Plato Συμπόσιον / 會飲篇）以內容產生器角色翻譯第 **19/36 段**（199a-200b 蘇格拉底詰問阿伽通：舌頭應許心智沒有 → 父／母／兄弟類比引入「愛是某物之愛」→ 「欲求者欲求他所缺乏的」→ 既為大而欲為大者不可能）。`plato-symposium-el/01-translation.md` 此時尚未成檔，supervisor 接力剩餘 17 段（20-36）才入庫（依 SOP「一份完整 chunking 才入庫」），切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+
+### 接續狀態
+
+- Pipeline B+C 已 264 / 518，本批 2 部核心（希伯來正書 利未記 + 巴利 經集）+ 1 部希臘原文 mid-iteration（plato-symposium-el 會飲篇 36 段 19/36）。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收（an1/an9 已入庫）；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體已入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **plato-symposium-el** 接力翻譯（36 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 19/36）。
+2. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+3. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+4. **dispatch supervisor** 處理 264+ 佇列下一批。
+
 ## 2026-07-15 凌晨：chronicles-1 翻譯+標籤 進庫（stop-hook 收尾）+ sutta-nipata mid-iteration
 
 - **commit e11d5cca**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（4 檔異動：1 new + 3 modified），verify.py --all 全綠後 push。
