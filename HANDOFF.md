@@ -3,6 +3,32 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-16 凌晨：4 部核心 翻譯+標籤 進庫（stop-hook 收尾）+ sn12-nidana mid-iteration
+
+- **commit 27e3ec8e**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（11 檔異動：4 new + 7 modified），verify.py --all 全綠後 push。
+  - `translations/kings-2/01-translation.md`（1473 行 / 53 章，希伯來文 Sefaria 校勘版 列王紀下 2 Kings，自亞哈謝末段 / 耶戶革命 / 以利沙行誼 / 約蘭 / 耶路撒冷淪陷 / 巴比倫擄去 / 巴比倫王以未米羅達恩待約雅斤等核心經文式翻譯）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / semantic_tags / keywords）。
+  - `translations/ovid-fasti-la/01-translation.md`（4777 行 / 56 章，拉丁文 Ovid Fasti 節日誌，奧維德羅馬宗教曆詩，逐月節慶與神話源起；含 Janus / Chaos / 天庭之門 / 神祇系譜 / 羅馬祭儀 / Tarpeian 等核心）。meta 補完整翻譯+標籤：`translation_status="done"` + `translation_models="MiniMax-M3"` + 35 semantic_tags（含 `accept-fate`/`ancestor-worship`/`chaos-to-order`/`goddess-tradition`/`polytheist`/`priesthood`/`theophany`/`ritual-practice` 等羅馬多神教核心）+ 15 keywords（雅努斯/Janus/Chaos/混沌/朱庇特/刻瑞斯/赫卡忒/Tarpeian 等）+ `tag_status="done"`。
+  - `translations/plato-protagoras-el/01-translation.md`（1336 行 / 33 章，希臘原文 柏拉圖《普羅塔哥拉》Protagoras，德性一體與可教之辯，含希波克拉底拜師 / 阿伽松 / 卡利亞斯 / 阿布德拉 / 束脩 / 蘇格拉底詰問智者之德等核心）。meta 補完整翻譯+標籤：`translation_status="done"` + `translation_models="MiniMax-M3"` + 22 semantic_tags（含 `enlightenment`/`liberation-by-knowledge`/`essentially-good`/`humility`/`self-effort`/`study`/`truthfulness`/`ultimate-reality` 等希臘哲學核心）+ 15 keywords（蘇格拉底/普羅塔哥拉/希波克拉底/智者/雅典/阿基比亞德/σοφιστής/ψυχή/μάθημα 等）+ `tag_status="done"`。
+  - `translations/plato-symposium-el/01-translation.md`（857 行 / 30 marker 對應 36 章節，希臘原文 柏拉圖《會飲篇》Symposium，承接上次 mid-iteration 19/36，supervisor 接力 20-36 全部完成；含阿波羅多洛斯轉述 / 阿里斯托德穆斯 / 法勒隆 / 斐德羅 / 包薩尼亞 / 厄律克西馬庫斯 / 阿里斯托芬 / 阿伽通 / 蘇格拉底 / 第俄提瑪 六篇愛頌 + Alcibiades 入場頌 + 喜劇悲劇同一人 + 呂刻翁結局）。meta 補完整翻譯+標籤：`translation_status="done"` + `translation_models="MiniMax-M3"` + 34 semantic_tags（含 `asceticism`/`divine-immanence`/`dualistic-cosmos`/`mystical-union`/`sexual-ethics`/`spirit-possession`/`polytheist`/`goddess-tradition`/`prayer`/`ultimate-reality` 等希臘愛哲學核心）+ 15 keywords（阿波羅多洛斯/蘇格拉底/阿伽通/συμπόσιον/συνουσία/ἐρωτικοὶ λόγοι/阿里斯托芬/阿里斯托德穆斯/格勞孔/法勒隆/厄洛斯/阿芙蘿黛蒂/烏拉尼亞 等）+ `tag_status="done"`。
+  - 狀態同步：`PIPELINE_STATUS.md` 264→**268 / 518** 已翻譯+標籤；目前處理 `sn12-nidana`（巴利 SN12 因緣相應 93 經，88 段 chunking 81/88，supervisor 接力中）。
+  - `00-overview/INDEX.json` + `INDEX.md` regenerate 全庫 4683 / 643.9 MB / 27 religions。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6；含 4 部新翻譯入庫後）。
+
+### 接續狀態
+
+- Pipeline B+C 已 268 / 518，本批 4 部核心（希伯來正書 列王紀下 + 拉丁文 奧維德節日誌 + 希臘哲學 柏拉圖《普羅泰戈拉》+ 希臘哲學 柏拉圖《會飲篇》完整接力入庫）+ 1 部巴利因緣相應 mid-iteration（sn12-nidana 88 段 81/88）。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收（an1/an9 已入庫）；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體已入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **sn12-nidana** 接力翻譯（88 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 81/88）。
+2. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+3. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+4. **dispatch supervisor** 處理 268+ 佇列下一批。
+
 ## 2026-07-15 上午：leviticus + sutta-nipata 完整入庫 + plato-symposium-el mid-iteration（stop-hook 收尾）
 
 - **commit e7d40792**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（5 檔異動：2 new + 3 modified），verify.py --all 全綠後 push。
