@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**269** / 518
-- 已標籤：**436** / 518
+- 已翻譯：**271** / 518
+- 已標籤：**437** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 91 | 159 |
-| 佛教 | 74 | 55 | 69 |
+| 佛教 | 74 | 56 | 69 |
 | 印度教 | 58 | 31 | 41 |
-| 古希臘羅馬 | 46 | 16 | 28 |
+| 古希臘羅馬 | 46 | 17 | 29 |
 | 猶太教 | 45 | 29 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 3 | 6 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -304,7 +304,7 @@
 - `sn1-devata` SN1 天人相應 (81 經)（Pali）譯✓ 標✓
 - `sn10-yakkha` SN10 夜叉相應（Pali）譯✓ 標✓
 - `sn11-sakka` SN11 帝釋相應（Pali）譯✓ 標✓
-- `sn12-nidana` SN12 因緣相應 (93 經)（Pali）譯– 標✓
+- `sn12-nidana` SN12 因緣相應 (93 經)（Pali）譯✓ 標✓
 - `sn2-devaputta` SN2 天子相應（Pali）譯✓ 標✓
 - `sn22-khandha` SN22 蘊相應 (159 經)（Pali）譯– 標✓
 - `sn3-kosala` SN3 拘薩羅相應（Pali）譯✓ 標✓
@@ -389,7 +389,7 @@
 
 - `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
 - `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯– 標–
-- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–

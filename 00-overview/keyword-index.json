@@ -1559,6 +1559,13 @@
       "religion": "神道"
     }
   ],
+  "Chaos": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Chaos 卡厄斯": [
     {
       "slug": "ovid-metamorphoses",
@@ -1719,6 +1726,13 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Clusius": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -3198,6 +3212,13 @@
       "religion": "諾斯底"
     }
   ],
+  "Ianus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Iason": [
     {
       "slug": "euripides-medea-el",
@@ -3546,6 +3567,13 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Janus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Japji": [
@@ -5752,6 +5780,13 @@
       "religion": "猶太教"
     }
   ],
+  "Patulcius": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Paul": [
     {
       "slug": "sblgnt-romans",
@@ -7263,6 +7298,13 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    }
+  ],
+  "Tarpeian": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Tarshis": [
@@ -12814,6 +12856,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "εἶδος": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "εὐαγγέλιον": [
     {
       "slug": "sblgnt-mark",
@@ -12875,6 +12924,20 @@
       "religion": "基督教"
     }
   ],
+  "λόγος": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "μάθημα": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "μῆνιν": [
     {
       "slug": "homer-greek",
@@ -12883,6 +12946,11 @@
     }
   ],
   "νοῦς": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
@@ -12901,6 +12969,20 @@
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "οὐσία": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "πάθη": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "πίστις": [
@@ -12945,6 +13027,27 @@
       "religion": "基督教"
     }
   ],
+  "σοφιστής": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "συμπόσιον": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "συνουσία": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "σχῆμα": [
     {
       "slug": "plato-meno-el",
@@ -12984,6 +13087,18 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ψυχή": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -13757,10 +13872,24 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἐντελέχεια": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἐραστής": [
     {
       "slug": "plato-phaedrus-el",
       "name_zh": "斐德羅篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἐρωτικοὶ λόγοι": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -13849,6 +13978,13 @@
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "ὕλη": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "一乘": [
@@ -15310,6 +15446,13 @@
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
+    }
+  ],
+  "亞里士多德": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "亡國": [
@@ -18026,6 +18169,13 @@
       "religion": "基督教"
     }
   ],
+  "刻瑞斯": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "刻耳柏洛斯": [
     {
       "slug": "hesiod-el",
@@ -18557,6 +18707,13 @@
       "religion": "儒教"
     }
   ],
+  "卡利亞斯": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "卡德摩斯": [
     {
       "slug": "euripides-bacchae-el",
@@ -18636,6 +18793,13 @@
     {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "厄洛斯": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -18966,6 +19130,13 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    }
+  ],
+  "同伴": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "吐納": [
@@ -19475,6 +19646,11 @@
     {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -21205,6 +21381,13 @@
       "religion": "道教"
     }
   ],
+  "天庭之門": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "天心": [
     {
       "slug": "taiyi-jinhua-zongzhi",
@@ -22060,6 +22243,13 @@
       "religion": "佛教"
     }
   ],
+  "實體": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "審判": [
     {
       "slug": "bible-1-peter",
@@ -22904,6 +23094,13 @@
       "religion": "基督教"
     }
   ],
+  "希波克拉底": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "希羅多德": [
     {
       "slug": "herodotus-histories",
@@ -23316,6 +23513,13 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
+    }
+  ],
+  "形式": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "形神": [
@@ -24092,6 +24296,13 @@
       "slug": "sblgnt-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "悲劇得獎": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "情味": [
@@ -25956,6 +26167,13 @@
       "religion": "基督教"
     }
   ],
+  "教育": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "教訓": [
     {
       "slug": "vulgate-proverbs",
@@ -26386,6 +26604,13 @@
       "religion": "儒教"
     }
   ],
+  "時辰女神": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "晉": [
     {
       "slug": "chun-qiu-zuo-zhuan",
@@ -26426,6 +26651,13 @@
       "slug": "bible-esther",
       "name_zh": "以斯帖記",
       "religion": "基督教"
+    }
+  ],
+  "普羅塔哥拉": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "普羅狄科斯": [
@@ -26522,6 +26754,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "proverbs",
       "name_zh": "箴言",
       "religion": "猶太教"
@@ -26590,6 +26827,11 @@
     {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -26939,6 +27181,13 @@
       "religion": "佛教"
     }
   ],
+  "朱庇特": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "朱熹": [
     {
       "slug": "doctrine-of-the-mean",
@@ -26965,6 +27214,13 @@
       "slug": "liezi",
       "name_zh": "列子",
       "religion": "道教"
+    }
+  ],
+  "束脩": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "東方博士": [
@@ -27026,6 +27282,13 @@
       "slug": "majjhima-nikaya",
       "name_zh": "中部經典",
       "religion": "佛教"
+    }
+  ],
+  "格勞孔": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "格物致知": [
@@ -28249,6 +28512,13 @@
       "religion": "基督教"
     }
   ],
+  "法勒隆": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "法句經": [
     {
       "slug": "dhammapada",
@@ -28723,6 +28993,13 @@
       "religion": "印度教"
     }
   ],
+  "混沌": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "清淨": [
     {
       "slug": "gautama-dharmasutra",
@@ -28890,6 +29167,13 @@
       "slug": "bible-daniel",
       "name_zh": "但以理書",
       "religion": "基督教"
+    }
+  ],
+  "烏拉尼亞": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "烏拉諾斯": [
@@ -29671,6 +29955,13 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    }
+  ],
+  "理智": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "琰魔王": [
@@ -30810,6 +31101,13 @@
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
+    }
+  ],
+  "祭餅": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "禁食": [
@@ -34367,6 +34665,16 @@
       "slug": "plato-phaedrus-el",
       "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "蘇特拉": [
@@ -35134,6 +35442,13 @@
       "religion": "佛教"
     }
   ],
+  "論靈魂": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "諸侯": [
     {
       "slug": "chun-qiu-zuo-zhuan",
@@ -35318,6 +35633,13 @@
       "religion": "儒教"
     }
   ],
+  "質料": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "贖愆祭": [
     {
       "slug": "bible-leviticus",
@@ -35361,6 +35683,13 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    }
+  ],
+  "赫卡忒": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "赫密士": [
@@ -35537,6 +35866,13 @@
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    }
+  ],
+  "辯論": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "辯護": [
@@ -36433,6 +36769,13 @@
       "religion": "印度教"
     }
   ],
+  "阿伽松": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "阿伽門農": [
     {
       "slug": "homer-greek",
@@ -36476,6 +36819,13 @@
       "religion": "印度教"
     }
   ],
+  "阿基比亞德": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "阿基里斯": [
     {
       "slug": "homer-greek",
@@ -36512,6 +36862,13 @@
       "slug": "vulgate-philemon",
       "name_zh": "腓利門書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "阿布德拉": [
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "阿彌陀佛": [
@@ -36608,6 +36965,13 @@
     {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "阿波羅多洛斯": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -36797,6 +37161,11 @@
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "阿蘭若法菩提場": [
@@ -36842,6 +37211,13 @@
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    }
+  ],
+  "阿里斯托德穆斯": [
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "阿里斯托芬": [
@@ -37007,6 +37383,11 @@
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "雅典娜": [
@@ -37026,6 +37407,13 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    }
+  ],
+  "雅努斯": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "雅各": [
@@ -37097,6 +37485,13 @@
       "slug": "bible-song-of-songs",
       "name_zh": "雅歌",
       "religion": "基督教"
+    }
+  ],
+  "雙面": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "雙魂": [
@@ -37186,6 +37581,13 @@
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
+    }
+  ],
+  "靈魂": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "青目": [

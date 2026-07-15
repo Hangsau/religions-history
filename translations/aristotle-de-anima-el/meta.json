@@ -21,5 +21,41 @@
   "tier": "核心",
   "notes": "亞里斯多德《論靈魂》3 卷希臘原文。靈魂與心智，對照 II 自我與認同／VI 情緒。獨立新收",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "semantic_tags": [
+    "breath-control",
+    "chaos-to-order",
+    "commentarial-layer",
+    "divine-immanence",
+    "divine-transcendence",
+    "human-as-microcosm",
+    "multiple-souls",
+    "non-dual",
+    "self-effort",
+    "study",
+    "tabula-rasa",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "ψυχή",
+    "οὐσία",
+    "ἐντελέχεια",
+    "νοῦς",
+    "λόγος",
+    "εἶδος",
+    "ὕλη",
+    "πάθη",
+    "靈魂",
+    "實體",
+    "形式",
+    "質料",
+    "理智",
+    "亞里士多德",
+    "論靈魂"
+  ],
+  "tag_status": "done"
 }
