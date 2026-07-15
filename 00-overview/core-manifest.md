@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**262** / 518
-- 已標籤：**433** / 518
+- 已翻譯：**269** / 518
+- 已標籤：**436** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 91 | 159 |
-| 佛教 | 74 | 54 | 69 |
+| 佛教 | 74 | 55 | 69 |
 | 印度教 | 58 | 31 | 41 |
-| 古希臘羅馬 | 46 | 13 | 25 |
-| 猶太教 | 45 | 26 | 45 |
+| 古希臘羅馬 | 46 | 16 | 28 |
+| 猶太教 | 45 | 29 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 3 | 6 |
 | 瑣羅亞斯德 | 11 | 1 | 9 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -319,7 +319,7 @@
 - `sn7-brahmana` SN7 婆羅門相應（Pali）譯✓ 標✓
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯✓ 標✓
 - `sn9-vana` SN9 林相應（Pali）譯✓ 標✓
-- `sutta-nipata` 經集（Pali）譯– 標✓
+- `sutta-nipata` 經集（Pali）譯✓ 標✓
 - `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯✓ 標✓
 - `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯✓ 標✓
 - `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
@@ -410,7 +410,7 @@
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
-- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
+- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯✓ 標✓
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
@@ -419,9 +419,9 @@
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯✓ 標✓
-- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
-- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
@@ -437,7 +437,7 @@
 ### 猶太教（45 部）
 
 - `amos` 阿摩司書（Hebrew）譯✓ 標✓
-- `chronicles-1` 歷代志上（Hebrew）譯– 標✓
+- `chronicles-1` 歷代志上（Hebrew）譯✓ 標✓
 - `chronicles-2` 歷代志下（Hebrew）譯– 標✓
 - `daniel` 但以理書（Hebrew）譯✓ 標✓
 - `deuteronomy` 申命記（Hebrew）譯– 標✓
@@ -461,11 +461,11 @@
 - `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標✓
 - `kings-1` 列王紀上（Hebrew）譯– 標✓
-- `kings-2` 列王紀下（Hebrew）譯– 標✓
+- `kings-2` 列王紀下（Hebrew）譯✓ 標✓
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標✓
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
 - `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標✓
-- `leviticus` 利未記（Hebrew）譯– 標✓
+- `leviticus` 利未記（Hebrew）譯✓ 標✓
 - `malachi` 瑪拉基書（Hebrew）譯✓ 標✓
 - `micah` 彌迦書（Hebrew）譯✓ 標✓
 - `nahum` 那鴻書（Hebrew）譯✓ 標✓
