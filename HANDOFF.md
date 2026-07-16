@@ -3,6 +3,32 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-17 凌晨：cicero-de-natura-deorum-la + sblgnt-luke 翻譯+標籤 進庫 (276→278, stop-hook 收尾)
+
+- **commit f269d21a**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（5 檔異動：2 new + 3 modified），verify.py --all 全綠後 push。
+  - `translations/cicero-de-natura-deorum-la/01-translation.md`（1657 行 / 81 段，拉丁原文 Cicero《論神性》De Natura Deorum I-III 三卷完整翻譯；含三大神學派（斯多噶/伊比鳩魯/學園）辯難全文：物理宇宙論證 / Balbus 神學大全 / Velleius 伊比鳩魯派攻擊 / Cotta 學園派神學批判 / 占卜 vs 自然神學 / 結論等核心）。meta 補完整翻譯+標籤：`translation_status="done"` + `translation_models="MiniMax-M3"` + 36 semantic_tags（含 `accept-fate`/`against-idolatry`/`ancestor-worship`/`polytheist`/`priesthood`/`theodicy`/`truthfulness`/`creator-deity`/`divine-transcendence`/`divine-immanence`/`prayer`/`ritual-practice`/`temple-centered`/`prophetic-revelation` 等羅馬神學哲學核心）+ 15 keywords（Carneades/哲學/philosophia/理性/ratio/doctrina/神性/虔敬/祭儀/誓約/廟宇/占卜/畢達哥拉斯/蘇格拉底/學園派）+ `tag_status="done"`。
+  - `translations/sblgnt-luke/01-translation.md`（1976 行，路加福音 24 章，希臘原文 SBLGNT 校勘版 從序言 / 撒迦利亞預言 / 馬利亞報喜 / 耶穌誕生 / 施洗約翰 / 耶穌受洗 / 曠野試探 / 加利利宣教 / 十二使徒 / 登山寶訓 / 病人醫治 / 浪子回頭 / 撒該 / 最後晚餐 / 客西馬尼園 / 彼得不認主 / 十字架 / 復活 / 升天 / 五旬節預備 完整翻譯）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"`）。
+  - `00-overview/PIPELINE_STATUS.md` 同步：276 → **278 / 518** 已翻譯+標籤；目前處理切換至 `chronicles-2`（希伯來文 歷代志下，60 段 chunking，本次 m3 內容產生器已完成第 45/60 段至 stdout，supervisor 接力中）。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6；含 2 部新翻譯入庫後）。
+
+### 接續狀態
+
+- Pipeline B+C 已 278 / 518，本批 2 部核心新翻譯入庫（希臘羅馬 Cicero De Natura Deorum + 希臘新約 路加福音）。
+- chronicles-2 mid-iteration 接力中（60 段 chunking 45/60，supervisor 接力剩餘 15 段）。
+- sn12-nidana mid-iteration 仍 81/88、an7-sevens 接力仍 0/89、cicero-de-natura-deorum-la 已收尾入庫（總部三件 mid-iteration 並行的 cicero 已完成 → 剩兩件 mid-iteration）。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收（an1/an9 已入庫）；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體已入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **chronicles-2** 接力翻譯（希伯來文 60 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 45/60，剩 15 段）。
+2. **sn12-nidana** 接力翻譯（88 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 81/88，剩 7 段）。
+3. **an7-sevens** 接力翻譯（89 段 chunking，已於 meta.json 預 tag_status=done book-level）。
+4. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+5. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+
 ## 2026-07-17 凌晨：hesiod-works 翻譯入庫 + an7-sevens 切換cicero 預備（stop-hook 收尾）
 
 - **commit 6a66af51**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（4 檔異動：1 new + 3 modified），verify.py --all 全綠後 push。
