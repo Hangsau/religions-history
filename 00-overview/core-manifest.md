@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**271** / 518
-- 已標籤：**437** / 518
+- 已翻譯：**276** / 518
+- 已標籤：**438** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 91 | 159 |
-| 佛教 | 74 | 56 | 69 |
+| 基督教 | 161 | 92 | 159 |
+| 佛教 | 74 | 57 | 69 |
 | 印度教 | 58 | 31 | 41 |
 | 古希臘羅馬 | 46 | 17 | 29 |
-| 猶太教 | 45 | 29 | 45 |
+| 猶太教 | 45 | 31 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 3 | 6 |
 | 瑣羅亞斯德 | 11 | 1 | 9 |
@@ -22,7 +22,7 @@
 | 儒教 | 10 | 10 | 10 |
 | 凱爾特 | 9 | 3 | 7 |
 | 古埃及 | 8 | 0 | 8 |
-| 耆那教 | 7 | 4 | 6 |
+| 耆那教 | 7 | 5 | 7 |
 | 諾斯底 | 6 | 0 | 5 |
 | 現代新興 | 5 | 1 | 2 |
 | 神道 | 5 | 1 | 2 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -164,7 +164,7 @@
 - `sblgnt-2-thessalonians` 帖撒羅尼迦後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-timothy` 提摩太後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-3-john` 約翰三書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-ephesians` 以弗所書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-galatians` 加拉太書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -259,7 +259,7 @@
 - `an4-fours` AN4 四法集（Pali）譯– 標✓
 - `an5-fives` AN5 五法集（Pali）譯– 標✓
 - `an6-sixes` AN6 六法集（Pali）譯– 標✓
-- `an7-sevens` AN7 七法集（Pali）譯– 標✓
+- `an7-sevens` AN7 七法集（Pali）譯✓ 標✓
 - `an8-eights` AN8 八法集（Pali）譯– 標✓
 - `an9-nines` AN9 九法集（Pali）譯✓ 標✓
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
@@ -460,7 +460,7 @@
 - `joshua` 約書亞記（Hebrew）譯✓ 標✓
 - `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標✓
-- `kings-1` 列王紀上（Hebrew）譯– 標✓
+- `kings-1` 列王紀上（Hebrew）譯✓ 標✓
 - `kings-2` 列王紀下（Hebrew）譯✓ 標✓
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標✓
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
@@ -475,7 +475,7 @@
 - `proverbs` 箴言（Hebrew）譯✓ 標✓
 - `psalms` 詩篇（Hebrew）譯– 標✓
 - `ruth` 路得記（Hebrew）譯✓ 標✓
-- `samuel-1` 撒母耳記上（Hebrew）譯– 標✓
+- `samuel-1` 撒母耳記上（Hebrew）譯✓ 標✓
 - `samuel-2` 撒母耳記下（Hebrew）譯✓ 標✓
 - `song-of-songs` 雅歌（Hebrew）譯✓ 標✓
 - `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標✓
@@ -593,7 +593,7 @@
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標✓
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
-- `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 
 ### 諾斯底（6 部）
 
