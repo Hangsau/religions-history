@@ -3,6 +3,31 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-16 上午：3 部核心 翻譯 進庫（stop-hook 收尾）
+
+- **commit 16da9366**：stop-hook 觸發收尾，Pipeline B+C 翻譯完成入庫（7 檔異動：2 new + 5 modified），verify.py --all 全綠後 push。
+  - `translations/jain-uttaradhyayana-pkt/01-translation.md`（6185 行 / 38 段，Ardhamāgadhī 半摩揭陀俗語原文，耆那教《優陀耶延後篇經》 Uttarādhyayana Sūtra 經文式翻譯；含忍辱／沙門性／乞食觀／業果深細分別／四種至上因素／輪迴四生／cāuraṃgijjaṃ 四吉祥章偈 6–20／asaṃkhayaṃ 無數章偈 1–12 等核心）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `text_role="original"` / `original_of="jain-sbe45"`）。
+  - `translations/kings-1/01-translation.md`（1567 行 / 47 章，希伯來文 Sefaria 校勘版 列王紀上 1 Kings，自所羅門王位鞏固／亞多尼雅叛變／拔示巴／拿單先知／所羅門求智慧／示巴女王／王國分裂／耶羅波安／巴力先知／以利亞迦密山對決／亞哈／拿伯葡萄園／耶洗別／米該雅先知／亞哈謝／以利沙蒙召 等核心經文式翻譯）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / semantic_tags / keywords）。
+  - `translations/aristotle-de-anima-el/01-translation.md`（既有翻譯品質 fixup：971 行異動，外語直譯 → 外語直譯繁中）。希臘原文 亞里斯多德《論靈魂》 De Anima，前次翻譯句式偏古典漢語化，本次重譯為更貼近繁中語感同時保留 ψυχή／νοῦς／οὐσία／ἐντελέχεια 等希臘哲學術語原文括註。
+  - 狀態同步：`PIPELINE_STATUS.md` 268→**270 / 518** 已翻譯+標籤（jain-uttaradhyayana-pkt + kings-1 新增 translation_done）。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6；含 2 部新翻譯入庫 + 1 部 fixup 後）。
+
+### 接續狀態
+
+- Pipeline B+C 已 270 / 518，本批 2 部核心新翻譯入庫（耆那教 Uttarādhyayana Sūtra + 希伯來正書 列王紀上）+ 1 部希臘哲學既有翻譯品質 fixup（亞里斯多德《論靈魂》）。
+- sn12-nidana mid-iteration 仍 81/88，下個 session 接力收尾。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收（an1/an9 已入庫）；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體已入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **sn12-nidana** 接力翻譯（88 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 81/88，剩 7 段）。
+2. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+3. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+4. **dispatch supervisor** 處理 270+ 佇列下一批。
+
 ## 2026-07-16 凌晨：4 部核心 翻譯+標籤 進庫（stop-hook 收尾）+ sn12-nidana mid-iteration
 
 - **commit 27e3ec8e**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（11 檔異動：4 new + 7 modified），verify.py --all 全綠後 push。
