@@ -3,6 +3,19 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-16 上午：P5 標籤 收尾 + Pipeline 切換 an7-sevens（stop-hook 收尾）
+
+- **commit 98613ec6**：stop-hook 觸發收尾，jain-uttaradhyayana-pkt P5 標籤完成 + 進度切換下一部。
+  - `translations/jain-uttaradhyayana-pkt/meta.json` 補完整 layer-2 標籤：35 semantic_tags（含 `non-violence`/`asceticism`/`celibate-tradition`/`karma-rebirth`/`cyclic-cosmos`/`meditation`/`fasting`/`commandments-law`/`self-effort`/`truthfulness`/`compassion`/`forgiveness`/`suffering-as-purifying`/`multiple-souls`/`extinction-of-self`/`lineage-importance`/`marriage-sacred`/`ritual-practice`/`sacred-language`/`study`/`liberation-by-works`/`liberation-by-knowledge`/`monastic`/`lay-practitioner`/`reincarnation`/`heaven-hell`/`divine-immanence`/`divine-kingship`/`divine-immanence`/`evil-as-deception`/`four-noble-truths`/`enlightenment`/`dietary-restrictions`/`caste-system`/`breath-control`）+ 15 keywords（Mahāvīra/yakkha/sāmāyika/比丘/地獄/阿修羅/業/五戒/持戒/迦毘羅/沙門/輪迴/殺生/閻摩/那彌）+ `tag_status="done"`。翻譯既於 commit 16da9366 入庫，本次完成 P5 收尾。
+  - `00-overview/PIPELINE_STATUS.md` 同步：271 / 518 → **272 / 518**，目前處理切換至 `an7-sevens`（巴利 AN7 七法集，89 段 chunking 預備）。
+- **verify.py --all 全綠**（push 前必跑）。
+
+### 接續狀態
+
+- Pipeline B+C 已 272 / 518，jain-uttaradhyayana-pkt P5 完整收尾（翻譯+標籤雙 done）。
+- 下一部入庫：`an7-sevens`（Pali AN7 增支部第七集，89 段，已於 meta.json 預 tag_status=done 但為 book-level 標籤；本次起 supervisor 接力逐段 chunking 翻譯）。
+- sn12-nidana mid-iteration 仍 81/88（待 supervisor 收尾 7 段）。
+
 ## 2026-07-16 上午：3 部核心 翻譯 進庫（stop-hook 收尾）
 
 - **commit 16da9366**：stop-hook 觸發收尾，Pipeline B+C 翻譯完成入庫（7 檔異動：2 new + 5 modified），verify.py --all 全綠後 push。
