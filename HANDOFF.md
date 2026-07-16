@@ -3,6 +3,32 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-07-17 凌晨：hesiod-works 翻譯入庫 + an7-sevens 切換cicero 預備（stop-hook 收尾）
+
+- **commit 6a66af51**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（4 檔異動：1 new + 3 modified），verify.py --all 全綠後 push。
+  - `translations/hesiod-works/01-translation.md`（2053 行 / 60+ 段，英語 Evelyn-White 1914 譯本《赫西俄德作品集》含 Theogony 神譜 + Works and Days 工作與時日 全譯；神祇族譜 / Titanomachy / Prometheus 盜火 / Pandora 由來 / 五族紀事 / 鷹與夜鶯寓言 / 正義與暴力辯 / 諸王勸誡 / Theogony 結尾 / 編者按 + Hesiod 校勘版本）。meta 補 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / 6 semantic_tags / 15 keywords）。
+  - `00-overview/PIPELINE_STATUS.md` 同步：275 → **276 / 518** 已翻譯+標籤；目前處理切換至 `cicero-de-natura-deorum-la`（拉丁文 Cicero De Natura Deorum《論神性》81 段 chunking，本次 m3 内容產生器已完成第 31/81 段至 stdout，supervisor 接力中）。
+  - `00-overview/PROGRESS.json` 同步：希臘羅馬 `with_translation` 91→**92**、印度教 29→**31**、猶太教 4→**5**；其餘宗教同昨日。
+- **本 session 額外交付（m3 chunk 內容產生器）**：`cicero-de-natura-deorum-la`（拉丁 Cicero De Natura Deorum I 19-23）已以內容產生器角色翻譯第 **31/81 段**（Zeno 之連環論證：世界運用 ratio／世界是 sapientem / beatus / aeternus / deum／世界有 sensus ／世界是 animans composque rationis ／橄欖笛／梧桐弦比喻／熱力 與生命滋生）至 stdout。`cicero-de-natura-deorum-la/01-translation.md` 此時尚未成檔，supervisor 接力剩餘 50 段才入庫（依 SOP「一份完整 chunking 才入庫」），切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
+- **verify.py --all 全綠**（push 前必跑，CLAUDE.md §6；含 1 部新翻譯入庫後）。
+
+### 接續狀態
+
+- Pipeline B+C 已 276 / 518，本批 1 部核心（希臘羅馬 Hesiod 作品集 完整翻譯）+ 1 部拉丁哲學 mid-iteration（cicero-de-natura-deorum-la 81 段 31/81，supervisor 接力中）。
+- sn12-nidana mid-iteration 仍 81/88、an7-sevens 接力仍 0/89、cicero-de-natura-deorum-la 接力 31/81（總部三件 mid-iteration 並行，supervisor 排程關注）。
+- 佛教 zd 增支部 an8 八集為下一個 zd 待收（an1/an9 已入庫）；mandukya-upanishad 蛙氏奧義書入庫狀態不變。
+- 神道 v3 核心仍 1/3 進度（kojiki 本體已入庫），norito（祝詞）/ kenmu（宣命記）為 v3 候補。
+- 瑣羅亞斯德 v3 仍缺 avesta-sbe04-ae chunk 54（pos 158500-161500，Fargard 20 §6-§12 + Fargard 21 §1-§7）翻譯補件 + P5 標籤回填 35 段。
+- Pipeline A 仍暫緩自主收集（核心缺口實質歸零，啟動大宗 backlog 待用戶拍板）。
+
+### 下次接手優先
+
+1. **cicero-de-natura-deorum-la** 接力翻譯（拉丁原文 81 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 31/81）。
+2. **sn12-nidana** 接力翻譯（88 段 chunking，內容產生器輸出至 supervisor，supervisor 接力至 01-translation.md 落地；已 81/88）。
+3. **an7-sevens** 接力翻譯（89 段 chunking，已於 meta.json 預 tag_status=done book-level）。
+4. **補 avesta-sbe04-ae chunk 54 翻譯**（Fargard 20 §6-§12 + Fargard 21 §1-§7，源文 pos ~158500-161500）— 檔中以 `<!-- CHUNK 54/56 FAILED — retry needed -->` 標記，M3 retry + fallback 雙線。
+5. **跑 avesta-sbe04-ae P5 標籤 35 段**（meta.json 補 semantic_tags / keywords，chunk 1/35 已預生成標籤內容可重用）。
+
 ## 2026-07-16 上午：P5 標籤 收尾 + Pipeline 切換 an7-sevens（stop-hook 收尾）
 
 - **commit 98613ec6**：stop-hook 觸發收尾，jain-uttaradhyayana-pkt P5 標籤完成 + 進度切換下一部。
