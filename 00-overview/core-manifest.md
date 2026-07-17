@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**276** / 518
-- 已標籤：**438** / 518
+- 已翻譯：**281** / 518
+- 已標籤：**439** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 92 | 159 |
+| 基督教 | 161 | 93 | 159 |
 | 佛教 | 74 | 57 | 69 |
-| 印度教 | 58 | 31 | 41 |
-| 古希臘羅馬 | 46 | 17 | 29 |
-| 猶太教 | 45 | 31 | 45 |
+| 印度教 | 58 | 32 | 41 |
+| 古希臘羅馬 | 46 | 19 | 30 |
+| 猶太教 | 45 | 32 | 45 |
 | 道教 | 18 | 17 | 17 |
 | 北歐 | 15 | 3 | 6 |
 | 瑣羅亞斯德 | 11 | 1 | 9 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -172,7 +172,7 @@
 - `sblgnt-james` 雅各書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -367,7 +367,7 @@
 - `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯– 標–
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯– 標–
 - `rigveda` 梨俱吠陀（Sanskrit）譯– 標✓
-- `samaveda` 沙摩吠陀（Sanskrit）譯– 標✓
+- `samaveda` 沙摩吠陀（Sanskrit）譯✓ 標✓
 - `samkhya-karika` 數論頌（梵語）譯✓ 標✓
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
@@ -393,14 +393,14 @@
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
-- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
+- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯✓ 標✓
 - `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯✓ 標✓
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯✓ 標✓
 - `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標✓
 - `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標✓
-- `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯– 標✓
+- `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標✓
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標✓
@@ -438,7 +438,7 @@
 
 - `amos` 阿摩司書（Hebrew）譯✓ 標✓
 - `chronicles-1` 歷代志上（Hebrew）譯✓ 標✓
-- `chronicles-2` 歷代志下（Hebrew）譯– 標✓
+- `chronicles-2` 歷代志下（Hebrew）譯✓ 標✓
 - `daniel` 但以理書（Hebrew）譯✓ 標✓
 - `deuteronomy` 申命記（Hebrew）譯– 標✓
 - `ecclesiastes` 傳道書（Hebrew）譯✓ 標✓
