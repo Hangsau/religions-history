@@ -228,7 +228,9 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
             ["claude", "-p", "--permission-mode", "bypassPermissions"],
             input=prompt.encode("utf-8"),
             capture_output=True,
-            timeout=600,
+            # Normal M3 chunks complete in roughly a minute or two.  Do not leave
+            # the persistent state as "running" for ten minutes on a stuck quota request.
+            timeout=180,
             env=env,
             # Windows: 別讓 claude 這個主控台程式從背景進程彈出黑框視窗
             creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
@@ -237,7 +239,7 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
             return None, f"exit {result.returncode}: {result.stderr.decode('utf-8', errors='replace')[:500]}"
         return result.stdout.decode("utf-8", errors="replace"), None
     except subprocess.TimeoutExpired:
-        return None, "timeout after 600s"
+        return None, "timeout after 180s"
     except FileNotFoundError:
         return None, "`claude` CLI not found in PATH"
 
@@ -273,7 +275,8 @@ def set_current_work(slug: str, task: str, chunk: int | None = None,
                      chunks_total: int | None = None) -> None:
     CURRENT_WORK.update(slug=slug, task=task, chunk=chunk, chunks_total=chunks_total)
     _write_runtime_state(status="running", slug=slug, task=task, chunk=chunk,
-                         chunks_total=chunks_total, last_error=None, next_retry_at=None)
+                         chunks_total=chunks_total, last_error=None, next_retry_at=None,
+                         request_started_at=datetime.now(TZ).isoformat())
 
 
 def is_waiting_quota() -> bool:
@@ -323,7 +326,7 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
             LAST_MODELS_USED.add(PRIMARY_MODEL)
             return out
         detail = (err or "").lower()
-        if any(x in detail for x in ("429", "quota", "rate limit", "rate_limit", "traffic", "too many requests")):
+        if any(x in detail for x in ("429", "quota", "rate limit", "rate_limit", "traffic", "too many requests", "timeout")):
             _wait_for_quota(err or "M3 quota/rate-limit signal")
             return None
         if (err or "").strip() in ("exit 1:", "exit 1: "):
