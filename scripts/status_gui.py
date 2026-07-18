@@ -25,6 +25,7 @@ REFRESH_MS = 30_000
 SCRIPTS = Path(__file__).resolve().parent
 PIDFILE = status.LOGS / "supervisor.pid"
 HALT = status.LOGS / "pipeline-HALT.flag"  # 存在即人工暫停：刊版不復活 supervisor
+RUNTIME = status.LOGS / "pipeline-runtime.json"
 
 
 def _pid_alive(pid: int) -> bool:
@@ -52,6 +53,11 @@ def ensure_supervisor() -> None:
     try:
         if HALT.exists():
             return  # 人工暫停中（如等 MiniMax 配額重置），不復活管線
+        try:
+            if json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") == "waiting_quota":
+                return  # quota watcher 會在 M3 回來後自行接手，勿重複啟動 supervisor
+        except (OSError, json.JSONDecodeError):
+            pass
         if PIDFILE.exists():
             pid = int(PIDFILE.read_text(encoding="utf-8").strip() or 0)
             if pid and _pid_alive(pid):
@@ -113,6 +119,25 @@ def pipeline_health(now: float) -> dict:
     status_md = root / "00-overview" / "PIPELINE_STATUS.md"
     alert_f = status.LOGS / "pipeline-alert.txt"
     run_log = status.LOGS / "supervisor-run.log"
+
+    try:
+        runtime = json.loads(RUNTIME.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        runtime = {}
+    if runtime.get("status") == "waiting_quota":
+        retry_at = runtime.get("next_retry_at")
+        try:
+            remaining = max(0, int(datetime.fromisoformat(retry_at).timestamp() - now))
+            countdown = f"{remaining // 60} 分 {remaining % 60} 秒"
+        except (TypeError, ValueError):
+            countdown = "時間未定"
+        chunk = runtime.get("chunk")
+        chunks_total = runtime.get("chunks_total")
+        chunk_text = f" chunk {chunk}/{chunks_total}" if chunk and chunks_total else ""
+        return {"color": PROG,
+                "text": f"⏳ M3 流量／額度等待：{runtime.get('slug', '?')}"
+                        f"（{runtime.get('task', '?')}{chunk_text}）；{countdown} 後重試；"
+                        f"最後錯誤：{runtime.get('last_error', '?')}"}
 
     if HALT.exists():
         msg = HALT.read_text(encoding="utf-8").strip().replace("\n", "　") or "人工暫停中"

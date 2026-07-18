@@ -2,13 +2,13 @@
 """MiniMax-M3 額度自動恢復 watcher。
 
 背景常駐：週期性用最小請求探測 MiniMax primary 端點。
-- 429（額度耗盡）→ 睡 INTERVAL 後再探。
-- 200（額度回來）→ 刪 logs/pipeline-HALT.flag + 啟動 supervise-pipeline.py（detached）+ 記錄 + 自身退出。
+- 429（額度耗盡）→ 依 5 → 10 → 20 → 30 分鐘退避後再探。
+- 200（額度回來）→ 將 runtime state 切回 running、啟動 supervise-pipeline.py（detached）+ 記錄 + 自身退出。
 
 只做二元偵測（MiniMax Anthropic 相容端點不回 ratelimit header，查不到實際 5H/7D 用量）。
 不發任何通知。若 HALT flag 已被人工刪除（有人先手動恢復），視為已處理，直接退出不重複啟動。
 
-用法：pythonw scripts/quota-watch-resume.py [--interval 秒] [--tier 核心] [--max-days 天]
+用法：pythonw scripts/quota-watch-resume.py [--tier 核心] [--max-days 天]
 """
 from __future__ import annotations
 
@@ -23,15 +23,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT / "logs"
-HALT = LOGS / "pipeline-HALT.flag"
+HALT = LOGS / "pipeline-HALT.flag"  # 僅人工暫停；自動配額等待不使用此檔
+RUNTIME = LOGS / "pipeline-runtime.json"
 WATCH_LOG = LOGS / "quota-watch.log"
 MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
 MINIMAX_URL = "https://api.minimax.io/anthropic/v1/messages"
 PRIMARY_MODEL = "MiniMax-M3"
 TZ = timezone(timedelta(hours=8))
 
-DEFAULT_INTERVAL = 1200   # 20 分鐘探一次（429 免費、200 只花 ~16 token）
 DEFAULT_MAX_DAYS = 10     # 安全上限：超過就自動退出，避免殭屍常駐
+BACKOFF_SECONDS = (300, 600, 1200, 1800)
 
 
 def log(msg: str) -> None:
@@ -40,6 +41,19 @@ def log(msg: str) -> None:
     LOGS.mkdir(exist_ok=True)
     with WATCH_LOG.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
+
+
+def load_state() -> dict:
+    try:
+        return json.loads(RUNTIME.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_state(state: dict) -> None:
+    state["updated_at"] = datetime.now(TZ).isoformat()
+    RUNTIME.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n",
+                       encoding="utf-8", newline="\n")
 
 
 def probe_ok() -> tuple[bool, str]:
@@ -67,11 +81,10 @@ def probe_ok() -> tuple[bool, str]:
 
 
 def resume(tier: str) -> None:
-    if HALT.exists():
-        HALT.unlink()
-        log(f"[resume] 已刪除 {HALT.name}")
-    else:
-        log(f"[resume] {HALT.name} 已不存在（人工先恢復？），仍續啟 supervisor")
+    state = load_state()
+    state.update(status="running", resumed_at=datetime.now(TZ).isoformat(),
+                 last_error=None, next_retry_at=None)
+    save_state(state)
     proc = subprocess.Popen(
         [sys.executable, str(ROOT / "scripts" / "supervise-pipeline.py"), tier],
         cwd=str(ROOT),
@@ -85,31 +98,45 @@ def resume(tier: str) -> None:
 def main() -> None:
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("--interval", type=int, default=DEFAULT_INTERVAL)
     ap.add_argument("--tier", default="核心")
     ap.add_argument("--max-days", type=float, default=DEFAULT_MAX_DAYS)
     args = ap.parse_args()
 
     deadline = datetime.now(TZ) + timedelta(days=args.max_days)
-    log(f"[start] quota-watch 啟動 interval={args.interval}s tier={args.tier} "
+    log(f"[start] quota-watch 啟動 backoff=5/10/20/30m tier={args.tier} "
         f"deadline={deadline.strftime('%Y-%m-%d %H:%M')}")
 
-    if not HALT.exists():
-        log("[exit] 啟動時 HALT flag 就不存在（管線未暫停），無事可做，退出")
+    if load_state().get("status") != "waiting_quota":
+        log("[exit] runtime state 並非 waiting_quota，無事可做，退出")
         return
 
     while True:
+        if HALT.exists():
+            log("[exit] 偵測人工 HALT，停止自動恢復")
+            return
         if datetime.now(TZ) > deadline:
             log("[exit] 超過 max-days 安全上限仍未恢復，退出（請人工檢查 MiniMax 額度）")
             return
+        state = load_state()
+        if state.get("status") != "waiting_quota":
+            log("[exit] 等待狀態已由其他程序解除")
+            return
+        attempt = int(state.get("retry_attempt", 0))
+        delay = BACKOFF_SECONDS[min(attempt, len(BACKOFF_SECONDS) - 1)]
+        next_retry = datetime.now(TZ) + timedelta(seconds=delay)
+        state.update(retry_attempt=attempt + 1, next_retry_at=next_retry.isoformat())
+        save_state(state)
         ok, detail = probe_ok()
         if ok:
             log(f"[detected] MiniMax 額度已恢復（{detail}），自動恢復管線")
             resume(args.tier)
             log("[exit] 恢復完成，watcher 退出")
             return
-        log(f"[wait] 仍耗盡（{detail}），{args.interval}s 後再探")
-        time.sleep(args.interval)
+        state = load_state()
+        state["last_error"] = detail
+        save_state(state)
+        log(f"[wait] 仍耗盡（{detail}），{delay // 60} 分鐘後再探")
+        time.sleep(delay)
 
 
 if __name__ == "__main__":

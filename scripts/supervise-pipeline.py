@@ -19,6 +19,7 @@ supervise-pipeline.py — 讓 Pipeline B+C（翻譯+標籤）不再靜默停擺�
   powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py' -WindowStyle Hidden
 """
 import os
+import json
 import re
 import subprocess
 import sys
@@ -32,6 +33,7 @@ LOGS.mkdir(exist_ok=True)
 HEARTBEAT = LOGS / "supervisor.log"
 ALERT = LOGS / "pipeline-alert.txt"
 HALT = LOGS / "pipeline-HALT.flag"   # 人工暫停開關：存在即不啟動翻譯（刊版亦不復活）；刪除即恢復
+RUNTIME = LOGS / "pipeline-runtime.json"
 RUN_LOG = LOGS / "supervisor-run.log"
 PIDFILE = LOGS / "supervisor.pid"  # 刊版靠此判斷 supervisor 是否還活著（避免重複拉起）
 
@@ -42,7 +44,6 @@ MAX_QUICK_STRIKES = 3   # 連續幾次「啟動後幾乎立刻退出」即判系
 QUICK_SECONDS = 120     # 幾秒內退出算「立刻失敗」
 MAX_NOPROGRESS = 2      # 連續幾輪「一部都沒 processed」即判系統性問題
 BACKOFF_BASE = 30       # 重啟退避秒數（× strikes）
-MAX_FALLBACK_FLOOD = 8  # 單輪內 primary 零成功、fallback 已用這麼多次即判 primary 全掛（配額耗盡），中止洪水
 
 
 def hb(msg: str) -> None:
@@ -59,18 +60,11 @@ def alert(msg: str) -> None:
     hb(f"[ALERT] {msg}")
 
 
-def run_once() -> tuple[int, int, int, float, bool]:
-    """跑一次 auto-pipeline，回 (returncode, this_run, processed, elapsed_seconds, primary_down)。
-
-    primary_down：偵測到 primary 翻譯後端零成功但 fallback 已被連用 MAX_FALLBACK_FLOOD 次
-    （典型 = MiniMax 月費額度耗盡 429），代表整條佇列正被無聲倒給 fallback。此時中止本輪
-    subprocess 阻止繼續洪水，交 main() 告警 + 自動 HALT。用 role token 判斷不寫死 model 名。
-    """
+def run_once() -> tuple[int, int, int, float]:
+    """跑一次 auto-pipeline，回 (returncode, this_run, processed, elapsed_seconds)。"""
     cmd = [sys.executable, str(ROOT / "scripts" / "auto-pipeline.py"), "--tier", TIER]
     env = {**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
     this_run, processed = -1, -1
-    primary_ok = fallback_used = 0
-    primary_down = False
     start = time.time()
     with RUN_LOG.open("a", encoding="utf-8") as logf:
         logf.write(f"\n===== supervisor run @ {datetime.now(TZ)} =====\n")
@@ -89,19 +83,23 @@ def run_once() -> tuple[int, int, int, float, bool]:
             m = re.search(r"done: processed (\d+)/", line)
             if m:
                 processed = int(m.group(1))
-            if "[model]" in line and "(primary)" in line:
-                primary_ok += 1
-            elif "[model]" in line and "(fallback)" in line:
-                fallback_used += 1
-            if primary_ok == 0 and fallback_used >= MAX_FALLBACK_FLOOD:
-                primary_down = True
-                logf.write(f"[supervisor] primary 零成功 + fallback 已用 {fallback_used} 次，"
-                           f"判定 primary 全掛，中止本輪阻止 fallback 洪水\n")
-                logf.flush()
-                proc.terminate()
-                break
         proc.wait()
-    return proc.returncode, this_run, processed, time.time() - start, primary_down
+    return proc.returncode, this_run, processed, time.time() - start
+
+
+def waiting_quota() -> bool:
+    try:
+        return json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") == "waiting_quota"
+    except (OSError, json.JSONDecodeError):
+        return False
+
+
+def start_quota_watcher() -> None:
+    proc = subprocess.Popen(
+        [sys.executable, str(ROOT / "scripts" / "quota-watch-resume.py"), "--tier", TIER],
+        cwd=str(ROOT), creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0)
+        | getattr(subprocess, "DETACHED_PROCESS", 0), close_fds=True)
+    hb(f"[waiting_quota] 已啟動 quota watcher pid={proc.pid}，等待 M3 恢復")
 
 
 def main() -> None:
@@ -118,17 +116,11 @@ def main() -> None:
         if HALT.exists():
             hb(f"[halt] 偵測到 {HALT.name}，暫停迴圈退出。刪除該檔並重啟即恢復。")
             break
-        rc, this_run, processed, elapsed, primary_down = run_once()
+        rc, this_run, processed, elapsed = run_once()
         hb(f"[run] rc={rc} this_run={this_run} processed={processed} elapsed={elapsed:.0f}s")
 
-        if primary_down:
-            HALT.write_text(
-                f"{datetime.now(TZ).strftime('%Y-%m-%d %H:%M:%S')} 自動 HALT："
-                f"primary 翻譯後端全掛（零成功、fallback 洪水），多半配額耗盡。"
-                f"確認 primary 恢復後刪除本檔即續跑。\n",
-                encoding="utf-8")
-            alert("primary 翻譯後端全掛（零成功 + fallback 連續洪水），已中止並自動 HALT，"
-                  "待 primary（如 MiniMax 月費額度）恢復後刪除 pipeline-HALT.flag 續跑。")
+        if waiting_quota():
+            start_quota_watcher()
             break
 
         if this_run == 0:

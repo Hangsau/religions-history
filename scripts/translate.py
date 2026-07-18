@@ -32,6 +32,7 @@ import json
 import os
 import subprocess
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -40,8 +41,9 @@ ROLE_TRANSLATOR = ROOT / "tools" / "m3-translator-role.md"
 ROLE_ANNOTATOR = ROOT / "tools" / "m3-annotator-role.md"
 ROLE_TAGGER = ROOT / "tools" / "m3-tagger-role.md"
 CONCEPTS_PATH = ROOT / "00-overview" / "concepts.md"
-MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，主力：2026-07-06 配額重置回歸
-DEEPSEEK_TOKEN_PATH = Path.home() / ".deepseek-token"  # 付費，備援：V4-Flash（MiniMax 撞流量才用）
+MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，唯一翻譯後端
+RUNTIME_STATE_PATH = ROOT / "logs" / "pipeline-runtime.json"
+TZ = timezone(timedelta(hours=8))
 
 TASK_TO_OUTFILE = {
     "translate": "01-translation.md",
@@ -214,18 +216,6 @@ def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str
 """
 
 
-def _read_deepseek_token() -> str | None:
-    """DeepSeek 付費 key：先環境變數 DEEPSEEK_API_KEY，再 ~/.deepseek-token。"""
-    tok = os.environ.get("DEEPSEEK_API_KEY", "").strip()
-    if tok:
-        return tok
-    if DEEPSEEK_TOKEN_PATH.exists():
-        tok = DEEPSEEK_TOKEN_PATH.read_text(encoding="utf-8").strip()
-        if tok:
-            return tok
-    return None
-
-
 def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str | None, str | None]:
     """跑一次 `claude -p`（Anthropic-相容端點）。回 (stdout, None) 或 (None, err_msg)。"""
     env = os.environ.copy()
@@ -253,11 +243,9 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
 
 
 MINIMAX_ANTHROPIC_URL = "https://api.minimax.io/anthropic"
-DEEPSEEK_ANTHROPIC_URL = "https://api.deepseek.com/anthropic"
 
 # ── 翻譯後端：改 model 只改這裡，call_m3 的 log marker、header 標示、刊版顯示全自動跟隨 ──
 PRIMARY_MODEL = "MiniMax-M3"          # 主力：月費 Coding Plan，零邊際成本、不吃 Anthropic 配額
-FALLBACK_MODEL = "deepseek-v4-flash"  # 備援：DeepSeek 付費（MiniMax 撞流量/失敗才用，較快較便宜）
 # 每次成功都印此 marker 到 stdout→supervisor-run.log；刊版 translation_activity 解析它顯示現用 model。
 MODEL_MARKER = "  [model] {name} ({role})"
 
@@ -265,47 +253,88 @@ MODEL_MARKER = "  [model] {name} ({role})"
 # translate_one 入口清空、call_m3 成功時 add，orchestrator 讀取回填 meta.json translation_models，
 # 讓「哪些檔被 fallback 翻過」可稽核（header 標示仍是 PRIMARY_MODEL，此欄才是權威來源）。
 LAST_MODELS_USED: set[str] = set()
+CURRENT_WORK: dict[str, object] = {"slug": None, "task": None, "chunk": None, "chunks_total": None}
+
+
+def _write_runtime_state(**changes: object) -> None:
+    """Persist pipeline state independently of the GUI/supervisor process."""
+    RUNTIME_STATE_PATH.parent.mkdir(exist_ok=True)
+    try:
+        state = json.loads(RUNTIME_STATE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        state = {}
+    state.update(changes)
+    state["updated_at"] = datetime.now(TZ).isoformat()
+    RUNTIME_STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n",
+                                  encoding="utf-8", newline="\n")
+
+
+def set_current_work(slug: str, task: str, chunk: int | None = None,
+                     chunks_total: int | None = None) -> None:
+    CURRENT_WORK.update(slug=slug, task=task, chunk=chunk, chunks_total=chunks_total)
+    _write_runtime_state(status="running", slug=slug, task=task, chunk=chunk,
+                         chunks_total=chunks_total, last_error=None, next_retry_at=None)
+
+
+def is_waiting_quota() -> bool:
+    try:
+        return json.loads(RUNTIME_STATE_PATH.read_text(encoding="utf-8")).get("status") == "waiting_quota"
+    except (OSError, json.JSONDecodeError):
+        return False
+
+
+def _wait_for_quota(error: str) -> None:
+    now = datetime.now(TZ)
+    _write_runtime_state(status="waiting_quota", detected_at=now.isoformat(),
+                         next_retry_at=(now + timedelta(minutes=5)).isoformat(),
+                         retry_attempt=0, last_error=error, **CURRENT_WORK)
+    print("  [quota] M3 流量／額度限制；已保留目前 chunk，停止後續工作並等待自動恢復")
 
 
 def _resolve_backend(model: str) -> tuple[str, str] | None:
-    """依 model 名解析 (base_url, token)。MiniMax 走月費端點，其餘走 DeepSeek 付費端點。
-    Token 缺失回 None。"""
+    """解析唯一允許的 MiniMax-M3 後端；token 缺失回 None。"""
     if model.lower().startswith("minimax"):
         if MINIMAX_TOKEN_PATH.exists():
             tok = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
             if tok:
                 return MINIMAX_ANTHROPIC_URL, tok
         return None
-    tok = _read_deepseek_token()
-    if tok:
-        return DEEPSEEK_ANTHROPIC_URL, tok
     return None
 
 
 def call_m3(prompt: str, dry_run: bool = False) -> str | None:
-    """主用 PRIMARY_MODEL（MiniMax-M3 月費，零邊際成本）；失敗/逾時退 FALLBACK_MODEL（DeepSeek 付費）。
-    兩者皆 reasoning model（回應含 thinking 塊，claude -p CLI 原生處理）。
-    函式名沿用 call_m3 以免動所有 caller。"""
+    """只呼叫 MiniMax-M3；配額訊號或連續無詳情 exit 1 立即停管線。"""
     sys.stdout.flush()  # ensure prior prints land before subprocess wait
     if dry_run:
         print(f"\n[DRY RUN] prompt length: {len(prompt)} chars\n{'='*60}")
         print(prompt[:2000] + "\n...[truncated]...\n" + prompt[-500:])
         return None
 
-    for model, role in ((PRIMARY_MODEL, "primary"), (FALLBACK_MODEL, "fallback")):
-        backend = _resolve_backend(model)
-        if backend is None:
-            print(f"  [warn] {model}（{role}）無可用 token，跳過")
-            continue
-        base_url, token = backend
-        out, err = _run_claude(prompt, base_url, token, model)
+    backend = _resolve_backend(PRIMARY_MODEL)
+    if backend is None:
+        _wait_for_quota("MiniMax-M3 token unavailable")
+        return None
+    base_url, token = backend
+    blank_exit_ones = 0
+    for attempt in range(1, 4):
+        out, err = _run_claude(prompt, base_url, token, PRIMARY_MODEL)
         if out is not None:
-            print(MODEL_MARKER.format(name=model, role=role))
-            LAST_MODELS_USED.add(model)
+            print(MODEL_MARKER.format(name=PRIMARY_MODEL, role="primary"))
+            LAST_MODELS_USED.add(PRIMARY_MODEL)
             return out
-        print(f"  [warn] {model}（{role}）失敗（{err}）")
-
-    print("  [error] primary + fallback 兩家翻譯後端都失敗")
+        detail = (err or "").lower()
+        if any(x in detail for x in ("429", "quota", "rate limit", "rate_limit", "traffic", "too many requests")):
+            _wait_for_quota(err or "M3 quota/rate-limit signal")
+            return None
+        if (err or "").strip() in ("exit 1:", "exit 1: "):
+            blank_exit_ones += 1
+            print(f"  [warn] {PRIMARY_MODEL} 無詳情 exit 1（{blank_exit_ones}/3）")
+            if blank_exit_ones >= 3:
+                _wait_for_quota("MiniMax-M3 repeated detail-free exit 1")
+                return None
+            continue
+        print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）")
+        return None
     return None
 
 
@@ -436,6 +465,7 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     if len(chunkable_text) <= MAX_CHARS_PER_CALL:
         prompt = build_prompt(task, role, slug, meta, chunkable_text, translation_text)
         print(f"  [start] {slug} ({task})  (prompt {len(prompt)} chars)")
+        set_current_work(slug, task)
         output = call_m3(prompt, dry_run=dry_run)
         if output is None or dry_run:
             return dry_run
@@ -460,11 +490,11 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
             # Annotation: chunk_text is the translation chunk; original is not actively passed in chunked mode
             prompt = build_prompt(task, role, slug, meta, "(原文略，見原文檔)", chunk_text + chunk_meta_note)
         print(f"    [chunk {i}/{len(groups)}] {slug} ({task})  ({len(chunk_text)} chars)")
+        set_current_work(slug, task, i, len(groups))
         output = call_m3(prompt, dry_run=dry_run)
         if output is None:
-            print(f"    [warn] chunk {i} failed for {slug} ({task}); marking placeholder + continuing")
-            parts.append(f"\n<!-- CHUNK {i}/{len(groups)} FAILED — retry needed -->\n")
-            continue
+            print(f"    [warn] chunk {i} failed for {slug} ({task}); keeping prior file unchanged")
+            return False
         if dry_run:
             continue
         output = strip_output_wrappers(output)
@@ -589,6 +619,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], skip_done: bool = False, 
     if len(text) <= MAX_CHARS_PER_CALL:
         prompt = build_tag_prompt(role, slug, meta, text, whitelist)
         print(f"  [start] {slug} (tag)  (prompt {len(prompt)} chars)")
+        set_current_work(slug, "tag")
         output = call_m3(prompt, dry_run=dry_run)
         if output is None or dry_run:
             return dry_run
@@ -607,8 +638,11 @@ def tag_one(slug: str, role: str, whitelist: set[str], skip_done: bool = False, 
             note = f"**本經分 {len(groups)} 段，這是第 {i}/{len(groups)} 段，只針對本段抽標籤。**"
             prompt = build_tag_prompt(role, slug, meta, chunk_text, whitelist, note)
             print(f"    [chunk {i}/{len(groups)}] {slug} (tag)")
+            set_current_work(slug, "tag", i, len(groups))
             output = call_m3(prompt, dry_run=dry_run)
             if output is None:
+                if is_waiting_quota():
+                    return False
                 continue
             obj = parse_tag_json(output)
             if obj:

@@ -40,6 +40,7 @@ TRANSLATIONS_DIR = ROOT / "translations"
 OVERVIEW_DIR = ROOT / "00-overview"
 FAILED_PATH = ROOT / "logs" / "pipeline-failed.json"
 STATUS_PATH = OVERVIEW_DIR / "PIPELINE_STATUS.md"
+RUNTIME_PATH = ROOT / "logs" / "pipeline-runtime.json"
 
 
 # ---------- status / failed bookkeeping ----------
@@ -70,8 +71,34 @@ def set_meta_status(slug: str, key: str, value: str) -> None:
                           encoding="utf-8", newline="\n")
 
 
+def has_complete_translation(path: Path) -> bool:
+    """A historical failed-chunk placeholder is never a publishable translation."""
+    if not path.exists() or path.stat().st_size <= 100:
+        return False
+    try:
+        return "<!-- CHUNK " not in path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return False
+
+
 def write_status(tier: str, done: int, total: int, current: str, failed: dict) -> None:
     now = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
+    try:
+        runtime = json.loads(RUNTIME_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        runtime = {}
+    runtime_lines = ""
+    if runtime.get("status") == "waiting_quota":
+        chunk = runtime.get("chunk")
+        total_chunks = runtime.get("chunks_total")
+        chunk_text = f" chunk {chunk}/{total_chunks}" if chunk and total_chunks else ""
+        runtime_lines = (f"- M3 執行狀態：**waiting_quota** — `{runtime.get('slug', current)}`"
+                         f" ({runtime.get('task', '?')}{chunk_text})\n"
+                         f"- 限制偵測：{runtime.get('detected_at', '?')}；下次重試：{runtime.get('next_retry_at', '?')}\n"
+                         f"- 最後錯誤：`{runtime.get('last_error', '?')}`\n")
+    elif runtime.get("status") == "running":
+        runtime_lines = (f"- M3 執行狀態：**running** — `{runtime.get('slug', current)}`"
+                         f" ({runtime.get('task', '?')})\n")
     STATUS_PATH.write_text(
         f"""# Pipeline B+C 自動執行狀態
 
@@ -82,6 +109,7 @@ def write_status(tier: str, done: int, total: int, current: str, failed: dict) -
 - 進度：**{done} / {total}** 已翻譯+標籤
 - 目前處理：`{current}`
 - 失敗待重試：{len(failed)} 部{' — ' + ', '.join(list(failed)[:10]) if failed else ''}
+{runtime_lines}
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`keywords` 回填 `meta.json`
 → 每批重生 `tag-index.json`/`keyword-index.json` → commit + push。
@@ -153,7 +181,7 @@ def process_slug(slug: str, tasks: list[str], whitelist: set, dry_run: bool) -> 
 
     if "translate" in tasks:
         tr_path = slug_dir / "01-translation.md"
-        if not (tr_path.exists() and tr_path.stat().st_size > 100):
+        if not has_complete_translation(tr_path):
             ok = translate.translate_one(slug, "translate", tr_role, skip_done=True, dry_run=dry_run)
             if not ok:
                 return False, touched
@@ -200,7 +228,7 @@ def main():
         if not meta_p.exists():
             continue
         meta = json.loads(meta_p.read_text(encoding="utf-8"))
-        tr_done = (TRANSLATIONS_DIR / slug / "01-translation.md").exists()
+        tr_done = has_complete_translation(TRANSLATIONS_DIR / slug / "01-translation.md")
         tag_done = meta.get("tag_status") == "done" and meta.get("semantic_tags")
         need_tr = "translate" in tasks and not tr_done
         need_tag = "tag" in tasks and not tag_done
@@ -228,6 +256,11 @@ def main():
             failed.pop(slug, None)
             batch_paths.extend(touched)
         else:
+            if translate.is_waiting_quota():
+                # 額度等待不是經文失敗：保留 slug/chunk，勿寫 failed、勿繼續下一部。
+                write_status(args.tier, already + processed, total, slug, failed)
+                print("[waiting_quota] M3 額度等待中；停止本輪，等待 watcher 自動從此 chunk 重跑")
+                break
             failed[slug] = {"at": datetime.now(timezone.utc).isoformat(), "tier": args.tier}
             if not args.dry_run:
                 save_failed(failed)
