@@ -134,10 +134,16 @@ def pipeline_health(now: float) -> dict:
         chunk = runtime.get("chunk")
         chunks_total = runtime.get("chunks_total")
         chunk_text = f" chunk {chunk}/{chunks_total}" if chunk and chunks_total else ""
+        quota = runtime.get("quota") if isinstance(runtime.get("quota"), dict) else {}
+        quota_text = ""
+        if quota:
+            quota_text = (f"；MiniMax 額度：5h {quota.get('interval_remaining_percent', '?')}%"
+                          f"／週 {quota.get('weekly_remaining_percent', '?')}%"
+                          f"（週重置 {quota.get('weekly_resets_at', '?')}）")
         return {"color": PROG,
                 "text": f"⏳ M3 流量／額度等待：{runtime.get('slug', '?')}"
                         f"（{runtime.get('task', '?')}{chunk_text}）；{countdown} 後重試；"
-                        f"最後錯誤：{runtime.get('last_error', '?')}"}
+                        f"最後錯誤：{runtime.get('last_error', '?')}{quota_text}"}
 
     if HALT.exists():
         msg = HALT.read_text(encoding="utf-8").strip().replace("\n", "　") or "人工暫停中"

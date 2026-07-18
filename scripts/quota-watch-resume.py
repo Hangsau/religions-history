@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """MiniMax-M3 額度自動恢復 watcher。
 
-背景常駐：週期性用最小請求探測 MiniMax primary 端點。
-- 429（額度耗盡）→ 依 5 → 10 → 20 → 30 分鐘退避後再探。
-- 200（額度回來）→ 將 runtime state 切回 running、啟動 supervise-pipeline.py（detached）+ 記錄 + 自身退出。
+背景常駐：週期性查 MiniMax Token Plan 的 remains API（不呼叫 LLM）。
+- 額度為零 → 依 5 → 10 → 20 → 30 分鐘退避後再查。
+- 額度回來 → 將 runtime state 切回 running、啟動 supervise-pipeline.py（detached）+ 記錄 + 自身退出。
 
 只做二元偵測（MiniMax Anthropic 相容端點不回 ratelimit header，查不到實際 5H/7D 用量）。
 不發任何通知。若 HALT flag 已被人工刪除（有人先手動恢復），視為已處理，直接退出不重複啟動。
@@ -27,8 +27,7 @@ HALT = LOGS / "pipeline-HALT.flag"  # 僅人工暫停；自動配額等待不使
 RUNTIME = LOGS / "pipeline-runtime.json"
 WATCH_LOG = LOGS / "quota-watch.log"
 MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
-MINIMAX_URL = "https://api.minimax.io/anthropic/v1/messages"
-PRIMARY_MODEL = "MiniMax-M3"
+QUOTA_URL = "https://www.minimax.io/v1/token_plan/remains"
 TZ = timezone(timedelta(hours=8))
 
 DEFAULT_MAX_DAYS = 10     # 安全上限：超過就自動退出，避免殭屍常駐
@@ -56,28 +55,46 @@ def save_state(state: dict) -> None:
                        encoding="utf-8", newline="\n")
 
 
-def probe_ok() -> tuple[bool, str]:
-    """回 (額度是否可用, 說明)。200=可用；429=耗盡；其他/網路錯=暫視為不可用續等。"""
+def _iso_from_millis(value: object) -> str | None:
+    if not isinstance(value, (int, float)):
+        return None
+    return datetime.fromtimestamp(value / 1000, TZ).isoformat()
+
+
+def probe_quota() -> tuple[bool, str, dict]:
+    """讀官方 remains API，不產生 LLM 請求；回 (可恢復, 說明, 可刊版 quota 摘要)。"""
     if not MINIMAX_TOKEN_PATH.exists():
-        return False, "no token file"
+        return False, "no token file", {}
     token = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
-    body = json.dumps({
-        "model": PRIMARY_MODEL,
-        "max_tokens": 16,
-        "messages": [{"role": "user", "content": "ping"}],
-    }).encode("utf-8")
-    req = urllib.request.Request(MINIMAX_URL, data=body, method="POST", headers={
-        "x-api-key": token,
-        "anthropic-version": "2023-06-01",
+    req = urllib.request.Request(QUOTA_URL, method="GET", headers={
+        "Authorization": f"Bearer {token}",
         "content-type": "application/json",
     })
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
-            return resp.status == 200, f"HTTP {resp.status}"
+            payload = json.loads(resp.read().decode("utf-8"))
+        models = payload.get("model_remains", [])
+        general = next((item for item in models if item.get("model_name") == "general"), None)
+        if not isinstance(general, dict):
+            return False, "quota response missing general model", {"raw_status": payload.get("base_resp")}
+        interval = general.get("current_interval_remaining_percent")
+        weekly = general.get("current_weekly_remaining_percent")
+        summary = {
+            "model": "general",
+            "interval_remaining_percent": interval,
+            "weekly_remaining_percent": weekly,
+            "interval_resets_at": _iso_from_millis(general.get("end_time")),
+            "weekly_resets_at": _iso_from_millis(general.get("weekly_end_time")),
+            "interval_status": general.get("current_interval_status"),
+            "weekly_status": general.get("current_weekly_status"),
+        }
+        usable = isinstance(interval, (int, float)) and interval > 0 and isinstance(weekly, (int, float)) and weekly > 0
+        detail = f"5h={interval}% weekly={weekly}%"
+        return usable, detail, summary
     except urllib.error.HTTPError as e:
-        return False, f"HTTP {e.code}"  # 429 = 仍耗盡
+        return False, f"HTTP {e.code}", {}
     except Exception as e:  # noqa: BLE001 網路波動等，續等
-        return False, f"err {type(e).__name__}: {e}"
+        return False, f"err {type(e).__name__}: {e}", {}
 
 
 def resume(tier: str) -> None:
@@ -126,7 +143,10 @@ def main() -> None:
         next_retry = datetime.now(TZ) + timedelta(seconds=delay)
         state.update(retry_attempt=attempt + 1, next_retry_at=next_retry.isoformat())
         save_state(state)
-        ok, detail = probe_ok()
+        ok, detail, quota = probe_quota()
+        state = load_state()
+        state["quota"] = quota
+        save_state(state)
         if ok:
             log(f"[detected] MiniMax 額度已恢復（{detail}），自動恢復管線")
             resume(args.tier)
