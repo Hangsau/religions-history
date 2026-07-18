@@ -3,7 +3,7 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**281** / 518
+- 已翻譯：**288** / 518
 - 已標籤：**439** / 518
 
 ## 各宗教核心進度
@@ -12,12 +12,12 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 93 | 159 |
 | 佛教 | 74 | 57 | 69 |
-| 印度教 | 58 | 32 | 41 |
-| 古希臘羅馬 | 46 | 19 | 30 |
-| 猶太教 | 45 | 32 | 45 |
+| 印度教 | 58 | 33 | 41 |
+| 古希臘羅馬 | 46 | 21 | 30 |
+| 猶太教 | 45 | 34 | 45 |
 | 道教 | 18 | 17 | 17 |
-| 北歐 | 15 | 3 | 6 |
-| 瑣羅亞斯德 | 11 | 1 | 9 |
+| 北歐 | 15 | 4 | 6 |
+| 瑣羅亞斯德 | 11 | 2 | 9 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 10 | 10 |
 | 凱爾特 | 9 | 3 | 7 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -382,7 +382,7 @@
 - `vedanta-upadeshasahasri` 千則教誨（梵語）譯✓ 標✓
 - `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
 - `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
-- `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯– 標–
+- `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯✓ 標–
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
 ### 古希臘羅馬（46 部）
@@ -417,12 +417,12 @@
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯✓ 標✓
-- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯✓ 標–
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
 - `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
-- `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯✓ 標–
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標✓
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標✓
 - `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯– 標–
@@ -440,7 +440,7 @@
 - `chronicles-1` 歷代志上（Hebrew）譯✓ 標✓
 - `chronicles-2` 歷代志下（Hebrew）譯✓ 標✓
 - `daniel` 但以理書（Hebrew）譯✓ 標✓
-- `deuteronomy` 申命記（Hebrew）譯– 標✓
+- `deuteronomy` 申命記（Hebrew）譯✓ 標✓
 - `ecclesiastes` 傳道書（Hebrew）譯✓ 標✓
 - `esther` 以斯帖記（Hebrew）譯✓ 標✓
 - `exodus` 出埃及記（Hebrew）譯– 標✓
@@ -470,7 +470,7 @@
 - `micah` 彌迦書（Hebrew）譯✓ 標✓
 - `nahum` 那鴻書（Hebrew）譯✓ 標✓
 - `nehemiah` 尼希米記（Hebrew）譯✓ 標✓
-- `numbers` 民數記（Hebrew）譯– 標✓
+- `numbers` 民數記（Hebrew）譯✓ 標✓
 - `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
 - `proverbs` 箴言（Hebrew）譯✓ 標✓
 - `psalms` 詩篇（Hebrew）譯– 標✓
@@ -506,7 +506,7 @@
 ### 北歐（15 部）
 
 - `egils-saga-on` 埃吉爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
-- `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯✓ 標–
 - `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標✓
@@ -528,7 +528,7 @@
 - `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標✓
 - `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯– 標✓
-- `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯✓ 標–
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標✓
 - `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標✓
 - `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯– 標✓
