@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 當前狀態快照（2026-07-20 22:47 +08:00）
+
+- **人工 HALT 生效中**：`logs/pipeline-HALT.flag` 存在；worker 與 supervisor 已在安全邊界退出，未強制中止任何 M3 請求。
+- **priority/retry/reconciliation 已實作並完成品質修正**：P0 manifest 45 部通過稽核；failed-state 已實際遷移到 schema v2；普通失敗採 5/15/30 分鐘重試後 blocked，quota waiting 獨立；長文翻譯 checkpoint 與 runtime/meta 寫入皆原子化。
+- **並行與狀態門檻已補齊**：所有 generation 入口共用單例鎖；PID lock 以完整 owner 原子發布；tag 任一 chunk 失敗不再誤標完成；索引、CLI、桌面看板與 core audit 均要求各軸 status=done。
+- **reconciliation 結果**：18 部含 FAILED marker 卻曾標 done 的 metadata 已降為 `translation_status=needs-review`，雙 tag status 降為 `none`，不刪譯文與既有 tag array；重跑 dry-run 為 0。
+- **failed queue**：v2 現有 27 筆，等於 26 份含 FAILED marker 的翻譯 + `mozi` 尚缺雙軸標籤；已清除 `sblgnt-galatians`、`yoga-sutra`、`heart-sutra-kumarajiva` 三筆真正完成的 stale failure。
+- **驗收**：39 項 unit tests PASS；Python compile PASS；P0 manifest 45/45 PASS；`git diff --check` 僅既有 `.gitignore` CRLF→LF 警告。全庫 verifier 唯一失敗類型為上述 26 份 `translation contains failed chunk placeholder`。
+- **已分組提交**：`ce6f2775`（管線基礎設施與 39 項測試）及 `7289507d`（18 筆 reconciliation metadata 與狀態門檻索引）；7 份先前 pipeline 產出、仍含 FAILED 的翻譯檔與其 `PROGRESS.json` 保持未提交。
+
+### 下次建議
+
+1. 推送本輪 explicit-path commits；若 push 失敗，保留本地 commits 並停止後續 push。
+2. W20 最後才移除 HALT、啟動單一 supervisor，先觀察一筆 due P0/retry 取得 generation lock 並從 checkpoint 續跑。
+3. 讓 M3 管線修復 26 份 FAILED 翻譯與 `mozi` 標籤；每小批重生索引並逐 slug verify，直到 `verify.py --all` 全綠。
+
+### 長線方向
+
+- Pipeline correctness 與歷史 FAILED 資料清完後，再接 `.implementation_pipeline-checkpoint-psych-tags.md` Step 8-9；網站 v1 計畫仍不在本輪範圍。
+
 ## 2026-07-17 凌晨：cicero-de-natura-deorum-la + sblgnt-luke 翻譯+標籤 進庫 (276→278, stop-hook 收尾)
 
 - **commit f269d21a**：stop-hook 觸發收尾，Pipeline B+C 翻譯+標籤完成入庫（5 檔異動：2 new + 3 modified），verify.py --all 全綠後 push。

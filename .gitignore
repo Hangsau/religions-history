@@ -15,7 +15,7 @@ Thumbs.db
 # 私人草稿
 drafts/
 notes/private/
-scripts/__pycache__/
+__pycache__/
 
 # Pipeline / supervisor 執行期產物（心跳、PID、run log、警報），不入版控
 logs/supervisor.log

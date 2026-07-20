@@ -3,7 +3,7 @@
 > 跨時空、跨文化、跨宗教的**世界宗教經文原文資料庫** —
 > 從史前到現代，盡量收齊全本，建立可分析、可比對、可搜尋的研究基礎。
 
-當前狀態：**4174 部經文 / ~509 MB / 20 宗教傳統 / 原文 3609 + 譯文 565**，其中 23 部已完成 AI 翻譯 + 註釋。全部 git 版本控制 + SHA-256 校驗。
+當前狀態：**4683 部經文 / ~644 MB / 27 宗教傳統**。其中 `translation_status=done` 146 部、語義標籤完成 421 部、心理讀經標籤完成 145 部，三軸皆完成 125 部；全部以 git 版本控制並做 SHA-256 校驗。
 
 詳細索引見 [`00-overview/INDEX.md`](./00-overview/INDEX.md)（自動產生）。
 
@@ -124,6 +124,7 @@ religions-history/
 ### Phase 進行中
 
 - **P3 D-E** 補核心缺口：神道、兩河、古埃及、現代新興、巴哈伊、Nag Hammadi 全 52 篇
+- **P4-P5** MiniMax-M3-only 翻譯 + 雙軸標籤並行：`00-overview/translation-priority.json` 定義 P0/P1/P2；長文以 chunk checkpoint 續跑；一般失敗按 5/15/30 分鐘重試後轉 blocked，quota waiting 不消耗一般重試次數
 
 ### Phase 後續
 
@@ -223,4 +224,4 @@ SHA-256 of original.txt + commit hash for reproducibility.
 ## 維護者
 
 - Hang Sau（psyhangsau@gmail.com）
-- 協作：Claude（Anthropic, Sonnet / Opus）、DeepSeek-V4（deepseek.com，翻譯主力；V4-Pro 主用、V4-Flash 備援）
+- 協作：Claude（Anthropic, Sonnet / Opus）、MiniMax-M3（翻譯與標籤管線）
