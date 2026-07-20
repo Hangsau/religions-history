@@ -272,6 +272,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-bodhicaryavatara-sa",
+      "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
@@ -444,6 +449,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-bodhicaryavatara-sa",
+      "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -467,6 +477,11 @@
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "mabinogion-cy-1",
+      "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
+      "religion": "凱爾特"
     },
     {
       "slug": "sblgnt-1-corinthians",
@@ -621,6 +636,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-meno-el",
+      "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
       "religion": "印度教"
@@ -723,6 +743,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-bodhicaryavatara-sa",
+      "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -818,6 +843,11 @@
       "religion": "道教"
     },
     {
+      "slug": "mabinogion-cy-1",
+      "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -836,6 +866,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-meno-el",
+      "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "prashna-upanishad",
@@ -1003,6 +1038,13 @@
       "religion": "道教"
     }
   ],
+  "childhood-wounds": [
+    {
+      "slug": "mabinogion-cy-1",
+      "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
+      "religion": "凱爾特"
+    }
+  ],
   "communication-being-understood": [
     {
       "slug": "an11-elevens",
@@ -1050,6 +1092,11 @@
       "religion": "道教"
     },
     {
+      "slug": "mabinogion-cy-1",
+      "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -1057,6 +1104,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-meno-el",
+      "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1122,6 +1174,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-bodhicaryavatara-sa",
+      "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
@@ -1172,6 +1229,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "mabinogion-cy-1",
+      "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
@@ -1194,6 +1256,11 @@
     {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-meno-el",
+      "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1316,6 +1383,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-bodhicaryavatara-sa",
+      "name_zh": "入菩薩行論（梵文）",
       "religion": "佛教"
     },
     {
@@ -1506,6 +1578,11 @@
     {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-meno-el",
+      "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
