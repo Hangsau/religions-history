@@ -1,12 +1,34 @@
 {
+  "aging-time": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
   "body-mind": [
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     }
   ],
   "change-transformation": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
@@ -37,6 +59,11 @@
   ],
   "death": [
     {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
@@ -64,10 +91,32 @@
       "religion": "道教"
     }
   ],
+  "evil-cruelty-empathy": [
+    {
+      "slug": "obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "faith-doubt": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
     {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -81,6 +130,16 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "freewill-fate-choice": [
@@ -109,6 +168,11 @@
   ],
   "guilt-atonement": [
     {
+      "slug": "sblgnt-jude",
+      "name_zh": "猶大書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
@@ -121,6 +185,11 @@
   ],
   "honesty-hypocrisy": [
     {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
@@ -128,12 +197,29 @@
   ],
   "hope-reason-to-live": [
     {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
     }
   ],
+  "illness-body": [
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
+    }
+  ],
   "ingroup-outgroup-prejudice": [
+    {
+      "slug": "obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
@@ -143,6 +229,13 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "justice-power": [
+    {
+      "slug": "obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "猶太教"
     }
   ],
   "love-sex-intimacy": [
@@ -158,6 +251,11 @@
     }
   ],
   "meaning-of-suffering": [
+    {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
@@ -176,6 +274,11 @@
   ],
   "responsibility-leadership": [
     {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
@@ -183,9 +286,19 @@
   ],
   "stillness-rest": [
     {
+      "slug": "amitabha-sutra",
+      "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "huangting-waijing",
+      "name_zh": "黃庭外景經",
+      "religion": "道教"
     },
     {
       "slug": "qingjing-jing",
@@ -244,6 +357,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "great-learning",
+      "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -256,6 +374,13 @@
     {
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
+      "religion": "儒教"
+    }
+  ],
+  "work-money": [
+    {
+      "slug": "great-learning",
+      "name_zh": "大學",
       "religion": "儒教"
     }
   ]
