@@ -49,5 +49,13 @@
   ],
   "tag_status": "done",
   "translation_status": "done",
-  "translation_models": "MiniMax-M3"
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }

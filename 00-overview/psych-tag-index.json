@@ -33,12 +33,27 @@
   ],
   "beauty-wonder-transcendent-moment": [
     {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
     }
   ],
   "body-mind": [
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
@@ -73,6 +88,11 @@
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
     },
     {
       "slug": "vaisheshika-sutra",
@@ -141,6 +161,11 @@
   ],
   "change-transformation": [
     {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -186,6 +211,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
@@ -204,6 +234,11 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
     },
     {
       "slug": "tao-te-ching",
@@ -307,8 +342,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
     },
     {
@@ -387,6 +432,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -409,6 +459,11 @@
     {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
+      "religion": "道教"
+    },
+    {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
       "religion": "道教"
     },
     {
@@ -515,6 +570,11 @@
   ],
   "existence-why-born": [
     {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
@@ -547,6 +607,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -569,6 +634,11 @@
     {
       "slug": "jonah",
       "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
       "religion": "猶太教"
     },
     {
@@ -646,6 +716,11 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "contemplation-sutra",
+      "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
     },
     {
@@ -809,6 +884,11 @@
   ],
   "guilt-atonement": [
     {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -898,6 +978,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
@@ -935,6 +1020,11 @@
     {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1071,6 +1161,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "taiyi-jinhua-zongzhi",
+      "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -1089,6 +1184,11 @@
     }
   ],
   "loss-grief": [
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
+      "religion": "猶太教"
+    },
     {
       "slug": "ruth",
       "name_zh": "路得記",
@@ -1139,6 +1239,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
@@ -1149,6 +1254,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
     },
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
@@ -1183,6 +1293,11 @@
     {
       "slug": "joel",
       "name_zh": "約珥書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "lamentations",
+      "name_zh": "耶利米哀歌",
       "religion": "猶太教"
     },
     {
@@ -1302,6 +1417,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
     },
     {
       "slug": "diamond-sutra-kumarajiva",
@@ -1435,6 +1555,11 @@
     {
       "slug": "sblgnt-colossians",
       "name_zh": "歌羅西書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-ephesians",
+      "name_zh": "以弗所書（希臘原文）",
       "religion": "基督教"
     },
     {
