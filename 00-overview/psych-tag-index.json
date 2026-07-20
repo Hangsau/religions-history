@@ -100,6 +100,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -145,6 +150,11 @@
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "gita-govinda",
@@ -291,8 +301,18 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
       "religion": "猶太教"
     },
     {
@@ -386,6 +406,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "dhammapada",
@@ -618,6 +643,11 @@
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "courage": [
@@ -635,6 +665,11 @@
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "devi-gita",
+      "name_zh": "女神之歌",
+      "religion": "印度教"
     },
     {
       "slug": "epictetus-enchiridion-el",
@@ -722,6 +757,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -742,6 +782,11 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "brahma-sutra",
@@ -979,6 +1024,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
@@ -1046,6 +1101,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
@@ -1057,6 +1117,11 @@
     }
   ],
   "emotions-passions": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
@@ -1138,6 +1203,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
@@ -1176,6 +1246,11 @@
     }
   ],
   "existence-why-born": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
@@ -1257,6 +1332,11 @@
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -1426,6 +1506,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
@@ -1566,6 +1651,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-oedipus-rex-el",
+      "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
@@ -1592,6 +1687,11 @@
     }
   ],
   "freewill-fate-choice": [
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
@@ -1623,6 +1723,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
@@ -1651,6 +1756,11 @@
     }
   ],
   "giving-generosity": [
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
@@ -1701,6 +1811,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
@@ -1739,6 +1854,11 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sophocles-antigone-el",
+      "name_zh": "安提戈涅（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "taishang-ganying-pian",
@@ -1788,6 +1908,11 @@
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
+    },
+    {
+      "slug": "ezra",
+      "name_zh": "以斯拉記",
+      "religion": "猶太教"
     },
     {
       "slug": "habakkuk",
