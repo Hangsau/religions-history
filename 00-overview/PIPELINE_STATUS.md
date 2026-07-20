@@ -2,12 +2,12 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-07-20 16:36:52 +0800
+- 更新時間：2026-07-20 17:01:11 +0800
 - 佇列 tier：**核心**
-- 進度：**96 / 518** 已翻譯+標籤
-- 目前處理：`japji-sahib-pa`
+- 進度：**101 / 518** 已翻譯+標籤
+- 目前處理：`infinite-life-sutra`
 - 失敗待重試：30 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, avesta-sbe31-ae, mozi, plato-timaeus-el, quran, numbers, deuteronomy, plato-phaedrus-el
-- M3 執行狀態：**running** — `japji-sahib-pa` (tag)
+- M3 執行狀態：**running** — `infinite-life-sutra` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
