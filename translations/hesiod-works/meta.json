@@ -51,5 +51,13 @@
   "tag_status": "done",
   "composition_note": "希臘原文+英譯對照（Evelyn-White），約30%希臘原文，原典已在庫",
   "translation_status": "done",
-  "translation_models": "MiniMax-M3"
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death",
+    "evil-cruelty-empathy"
+  ],
+  "psych_tag_status": "done"
 }

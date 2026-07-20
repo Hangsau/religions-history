@@ -4,17 +4,17 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**146** / 518
-- 已標籤：**150** / 518
+- 已標籤：**155** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 24 | 23 |
-| 佛教 | 74 | 33 | 38 |
+| 基督教 | 161 | 24 | 24 |
+| 佛教 | 74 | 33 | 39 |
 | 印度教 | 58 | 25 | 25 |
-| 古希臘羅馬 | 46 | 15 | 10 |
-| 猶太教 | 45 | 23 | 22 |
+| 古希臘羅馬 | 46 | 15 | 11 |
+| 猶太教 | 45 | 23 | 23 |
 | 道教 | 18 | 8 | 12 |
 | 北歐 | 15 | 3 | 2 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
@@ -25,7 +25,7 @@
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 0 | 0 |
 | 現代新興 | 5 | 1 | 0 |
-| 神道 | 5 | 1 | 0 |
+| 神道 | 5 | 1 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 0 | 0 |
 | 伊斯蘭 | 4 | 0 | 0 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -174,7 +174,7 @@
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯✓ 標–
 - `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標–
-- `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯– 標✓
 - `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-revelation` 啟示錄（希臘原文）（Koine Greek）譯✓ 標✓
@@ -291,7 +291,7 @@
 - `kn-jataka` 小部·本生 (547 故事)（Pali）譯– 標–
 - `kn-milindapanha` 小部·彌蘭王問經（Pali）譯– 標–
 - `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯✓ 標✓
-- `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標–
+- `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標✓
 - `madhyamagama` 中阿含經（古典漢語）譯– 標–
 - `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯– 標–
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標–
@@ -400,7 +400,7 @@
 - `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯✓ 標✓
 - `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標–
 - `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標–
-- `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標–
+- `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標–
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標–
@@ -446,7 +446,7 @@
 - `exodus` 出埃及記（Hebrew）譯– 標–
 - `ezekiel` 以西結書（Hebrew）譯– 標–
 - `ezra` 以斯拉記（Hebrew）譯✓ 標✓
-- `genesis` 創世記（Hebrew）譯– 標–
+- `genesis` 創世記（Hebrew）譯– 標✓
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯– 標–
 - `habakkuk` 哈巴谷書（Hebrew）譯✓ 標✓
 - `haggai` 哈該書（Hebrew）譯✓ 標✓
@@ -616,7 +616,7 @@
 
 - `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯– 標–
 - `kojiki-chamberlain` 古事記（English (translation)）譯– 標–
-- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯✓ 標–
+- `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯✓ 標✓
 - `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯– 標–
 - `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
 
