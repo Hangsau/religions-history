@@ -22,7 +22,7 @@
   "notes": "柏拉圖《斐德羅》希臘原文（單頁）。愛與靈魂馬車喻，對照 III 愛與親密。獨立新收",
   "text_role": "original",
   "is_original_language": true,
-  "translation_status": "done",
+  "translation_status": "needs-review",
   "translation_models": "MiniMax-M3",
   "semantic_tags": [
     "asceticism",
@@ -72,5 +72,5 @@
     "懸鈴木",
     "斐德羅"
   ],
-  "tag_status": "done"
+  "tag_status": "none"
 }

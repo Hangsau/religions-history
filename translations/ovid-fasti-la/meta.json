@@ -22,7 +22,7 @@
   "notes": "奧維德羅馬宗教曆詩，逐月節慶與神話源起",
   "text_role": "original",
   "is_original_language": true,
-  "translation_status": "done",
+  "translation_status": "needs-review",
   "translation_models": "MiniMax-M3",
   "semantic_tags": [
     "accept-fate",
@@ -78,5 +78,5 @@
     "天庭之門",
     "Ianus"
   ],
-  "tag_status": "done"
+  "tag_status": "none"
 }
