@@ -123,6 +123,11 @@
       "religion": "道教"
     },
     {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -292,6 +297,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
       "religion": "佛教"
@@ -365,6 +375,11 @@
       "slug": "liezi",
       "name_zh": "列子",
       "religion": "道教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
     },
     {
       "slug": "nyaya-sutra",
@@ -529,6 +544,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
       "slug": "sblgnt-1-corinthians",
       "name_zh": "哥林多前書（希臘原文）",
       "religion": "基督教"
@@ -588,6 +608,11 @@
     {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
       "religion": "印度教"
     },
     {
@@ -666,6 +691,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mozi",
+      "name_zh": "墨子",
+      "religion": "墨家"
+    },
+    {
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
@@ -718,6 +753,11 @@
     {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -795,6 +835,11 @@
     {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
       "religion": "印度教"
     },
     {
@@ -928,6 +973,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mozi",
+      "name_zh": "墨子",
+      "religion": "墨家"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -990,6 +1045,11 @@
     {
       "slug": "sblgnt-ephesians",
       "name_zh": "以弗所書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1202,6 +1262,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "mozi",
+      "name_zh": "墨子",
+      "religion": "墨家"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -1284,6 +1349,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
       "religion": "佛教"
@@ -1349,6 +1419,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "mozi",
+      "name_zh": "墨子",
+      "religion": "墨家"
+    },
+    {
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
@@ -1391,6 +1466,11 @@
     {
       "slug": "sblgnt-hebrews",
       "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1498,6 +1578,11 @@
     {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brihadaranyaka-upanishad",
+      "name_zh": "大林間奧義書",
       "religion": "印度教"
     },
     {
@@ -1646,6 +1731,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
@@ -1679,6 +1769,11 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
+    },
+    {
+      "slug": "mozi",
+      "name_zh": "墨子",
+      "religion": "墨家"
     },
     {
       "slug": "nahum",
@@ -1773,6 +1868,11 @@
     {
       "slug": "sblgnt-hebrews",
       "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -2281,6 +2381,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
@@ -2388,6 +2493,11 @@
     {
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-john",
+      "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -2521,6 +2631,11 @@
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
     },
     {
       "slug": "joel",
@@ -2798,6 +2913,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -2858,6 +2978,11 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
     },
     {
       "slug": "sblgnt-3-john",

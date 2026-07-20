@@ -4,22 +4,22 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**146** / 518
-- 已標籤：**145** / 518
+- 已標籤：**150** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 24 | 22 |
+| 基督教 | 161 | 24 | 23 |
 | 佛教 | 74 | 33 | 38 |
-| 印度教 | 58 | 25 | 24 |
+| 印度教 | 58 | 25 | 25 |
 | 古希臘羅馬 | 46 | 15 | 10 |
-| 猶太教 | 45 | 23 | 21 |
+| 猶太教 | 45 | 23 | 22 |
 | 道教 | 18 | 8 | 12 |
 | 北歐 | 15 | 3 | 2 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
 | 美洲 | 11 | 0 | 0 |
-| 儒教 | 10 | 1 | 4 |
+| 儒教 | 10 | 1 | 5 |
 | 凱爾特 | 9 | 3 | 3 |
 | 古埃及 | 8 | 0 | 0 |
 | 耆那教 | 7 | 4 | 4 |
@@ -36,7 +36,7 @@
 | 非洲 | 2 | 0 | 0 |
 | 阿茲特克 | 1 | 1 | 1 |
 | 赫爾墨斯 | 1 | 1 | 1 |
-| 墨家 | 1 | 0 | 0 |
+| 墨家 | 1 | 0 | 1 |
 
 ## 缺口分析
 
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -170,7 +170,7 @@
 - `sblgnt-galatians` 加拉太書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-hebrews` 希伯來書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-james` 雅各書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯– 標✓
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯✓ 標–
 - `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標–
@@ -339,7 +339,7 @@
 - `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
 - `brahmanda-purana` 梵卵往世書（Sanskrit）譯– 標–
-- `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標–
+- `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標✓
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標–
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
 - `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
@@ -453,7 +453,7 @@
 - `hosea` 何西阿書（Hebrew）譯✓ 標✓
 - `isaiah` 以賽亞書（Hebrew）譯– 標–
 - `jeremiah` 耶利米書（Hebrew）譯– 標–
-- `job` 約伯記（Hebrew）譯– 標–
+- `job` 約伯記（Hebrew）譯– 標✓
 - `joel` 約珥書（Hebrew）譯✓ 標✓
 - `jonah` 約拿書（Hebrew）譯✓ 標✓
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標–
@@ -558,7 +558,7 @@
 - `doctrine-of-the-mean` 中庸（古典漢語）譯– 標✓
 - `great-learning` 大學（古典漢語）譯– 標✓
 - `liji` 禮記（古典漢語）譯– 標–
-- `mengzi` 孟子（古典漢語）譯– 標–
+- `mengzi` 孟子（古典漢語）譯– 標✓
 - `shang-shu` 尚書（古典漢語）譯– 標–
 - `taiji-tushuo` 太極圖說（古典漢語）譯✓ 標✓
 
@@ -680,5 +680,5 @@
 
 ### 墨家（1 部）
 
-- `mozi` 墨子（古典漢語）譯– 標–
+- `mozi` 墨子（古典漢語）譯– 標✓
 
