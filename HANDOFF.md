@@ -11,13 +11,12 @@
 - **reconciliation 結果**：18 部含 FAILED marker 卻曾標 done 的 metadata 已降為 `translation_status=needs-review`，雙 tag status 降為 `none`，不刪譯文與既有 tag array；重跑 dry-run 為 0。
 - **failed queue**：v2 現有 27 筆，等於 26 份含 FAILED marker 的翻譯 + `mozi` 尚缺雙軸標籤；已清除 `sblgnt-galatians`、`yoga-sutra`、`heart-sutra-kumarajiva` 三筆真正完成的 stale failure。
 - **驗收**：39 項 unit tests PASS；Python compile PASS；P0 manifest 45/45 PASS；`git diff --check` 僅既有 `.gitignore` CRLF→LF 警告。全庫 verifier 唯一失敗類型為上述 26 份 `translation contains failed chunk placeholder`。
-- **已分組提交**：`ce6f2775`（管線基礎設施與 39 項測試）及 `7289507d`（18 筆 reconciliation metadata 與狀態門檻索引）；7 份先前 pipeline 產出、仍含 FAILED 的翻譯檔與其 `PROGRESS.json` 保持未提交。
+- **已分組提交並推送**：`ce6f2775`（管線基礎設施與 39 項測試）、`7289507d`（18 筆 reconciliation metadata 與狀態門檻索引）、`7b75f587`（文件與 rollout 狀態）已推送至 `origin/main`；7 份先前 pipeline 產出、仍含 FAILED 的翻譯檔與其 `PROGRESS.json` 保持未提交。
 
 ### 下次建議
 
-1. 推送本輪 explicit-path commits；若 push 失敗，保留本地 commits 並停止後續 push。
-2. W20 最後才移除 HALT、啟動單一 supervisor，先觀察一筆 due P0/retry 取得 generation lock 並從 checkpoint 續跑。
-3. 讓 M3 管線修復 26 份 FAILED 翻譯與 `mozi` 標籤；每小批重生索引並逐 slug verify，直到 `verify.py --all` 全綠。
+1. W20 最後才移除 HALT、啟動單一 supervisor，先觀察一筆 due P0/retry 取得 generation lock 並從 checkpoint 續跑。
+2. 讓 M3 管線修復 26 份 FAILED 翻譯與 `mozi` 標籤；每小批重生索引並逐 slug verify，直到 `verify.py --all` 全綠。
 
 ### 長線方向
 
