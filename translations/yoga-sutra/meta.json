@@ -49,5 +49,14 @@
   "is_original_language": true,
   "text_role": "original",
   "era": "classical-antiquity",
-  "genre": "philosophy-doctrine"
+  "genre": "philosophy-doctrine",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "dreams-unconscious",
+    "emotions-passions",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done"
 }
