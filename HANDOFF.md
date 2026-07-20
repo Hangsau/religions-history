@@ -3,9 +3,9 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態快照（2026-07-20 22:47 +08:00）
+## 當前狀態快照（2026-07-20 22:59 +08:00）
 
-- **人工 HALT 生效中**：`logs/pipeline-HALT.flag` 存在；worker 與 supervisor 已在安全邊界退出，未強制中止任何 M3 請求。
+- **rollout 已恢復**：`logs/pipeline-HALT.flag` 已移除；單一 supervisor PID 47416 啟動 worker PID 3384，`auto-pipeline.lock` owner 為 3384；retry queue 的 `sutta-nipata` 已進入 `translate` running 狀態。
 - **priority/retry/reconciliation 已實作並完成品質修正**：P0 manifest 45 部通過稽核；failed-state 已實際遷移到 schema v2；普通失敗採 5/15/30 分鐘重試後 blocked，quota waiting 獨立；長文翻譯 checkpoint 與 runtime/meta 寫入皆原子化。
 - **並行與狀態門檻已補齊**：所有 generation 入口共用單例鎖；PID lock 以完整 owner 原子發布；tag 任一 chunk 失敗不再誤標完成；索引、CLI、桌面看板與 core audit 均要求各軸 status=done。
 - **reconciliation 結果**：18 部含 FAILED marker 卻曾標 done 的 metadata 已降為 `translation_status=needs-review`，雙 tag status 降為 `none`，不刪譯文與既有 tag array；重跑 dry-run 為 0。
@@ -15,8 +15,7 @@
 
 ### 下次建議
 
-1. W20 最後才移除 HALT、啟動單一 supervisor，先觀察一筆 due P0/retry 取得 generation lock 並從 checkpoint 續跑。
-2. 讓 M3 管線修復 26 份 FAILED 翻譯與 `mozi` 標籤；每小批重生索引並逐 slug verify，直到 `verify.py --all` 全綠。
+1. 讓 M3 管線修復 26 份 FAILED 翻譯與 `mozi` 標籤；每小批重生索引並逐 slug verify，直到 `verify.py --all` 全綠。
 
 ### 長線方向
 
