@@ -113,6 +113,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -140,6 +145,11 @@
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vasistha-dharmasutra",
+      "name_zh": "婆私吒法經",
       "religion": "印度教"
     },
     {
@@ -237,6 +247,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
@@ -312,6 +327,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
@@ -382,6 +402,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vasistha-dharmasutra",
+      "name_zh": "婆私吒法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
@@ -412,6 +437,11 @@
       "slug": "an2-twos",
       "name_zh": "AN2 二法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
     },
     {
       "slug": "epictetus-enchiridion-el",
@@ -457,6 +487,11 @@
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
+    },
+    {
+      "slug": "vasistha-dharmasutra",
+      "name_zh": "婆私吒法經",
+      "religion": "印度教"
     }
   ],
   "calling-vocation": [
@@ -479,6 +514,11 @@
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
+    },
+    {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
     },
     {
       "slug": "aztec-rva",
@@ -626,6 +666,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "vasistha-dharmasutra",
+      "name_zh": "婆私吒法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
@@ -768,6 +813,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -833,6 +883,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
@@ -895,6 +950,11 @@
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vasistha-dharmasutra",
+      "name_zh": "婆私吒法經",
       "religion": "印度教"
     },
     {
@@ -985,6 +1045,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -1060,6 +1125,11 @@
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
     },
     {
       "slug": "devi-gita",
@@ -1139,6 +1209,11 @@
     {
       "slug": "sblgnt-hebrews",
       "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1224,6 +1299,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
@@ -1262,6 +1342,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
     },
     {
       "slug": "dhammapada",
@@ -1379,6 +1464,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "liezi",
+      "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -1471,6 +1561,11 @@
     {
       "slug": "sblgnt-hebrews",
       "name_zh": "希伯來書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1735,6 +1830,11 @@
   ],
   "evil-cruelty-empathy": [
     {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1760,6 +1860,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
       "religion": "佛教"
@@ -1776,6 +1881,11 @@
     }
   ],
   "existence-why-born": [
+    {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
     {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
@@ -1872,6 +1982,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
     },
     {
       "slug": "diamond-sutra-kumarajiva",
@@ -2034,6 +2149,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-revelation",
+      "name_zh": "啟示錄（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
@@ -2094,6 +2214,11 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "daniel",
+      "name_zh": "但以理書",
+      "religion": "猶太教"
     },
     {
       "slug": "epictetus-enchiridion-el",
