@@ -6,6 +6,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    },
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
@@ -43,9 +53,19 @@
   ],
   "beauty-wonder-transcendent-moment": [
     {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -73,6 +93,16 @@
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     },
     {
       "slug": "huangting-neijing",
@@ -108,6 +138,11 @@
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sn4-mara",
@@ -169,6 +204,11 @@
   ],
   "calling-vocation": [
     {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
@@ -186,6 +226,11 @@
     {
       "slug": "sblgnt-1-timothy",
       "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -236,9 +281,19 @@
       "religion": "儒教"
     },
     {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "huangting-waijing",
@@ -274,6 +329,11 @@
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-peter",
@@ -368,6 +428,11 @@
   ],
   "communication-being-understood": [
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -400,9 +465,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "perfect-enlightenment-sutra",
@@ -487,6 +562,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -502,14 +582,29 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     },
     {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "huangting-neijing",
@@ -584,6 +679,11 @@
     {
       "slug": "sblgnt-1-timothy",
       "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -701,9 +801,19 @@
   ],
   "emotions-passions": [
     {
+      "slug": "cath-maige-tuired-ga",
+      "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "jonah",
@@ -877,6 +987,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
@@ -919,6 +1034,11 @@
     {
       "slug": "sblgnt-1-timothy",
       "name_zh": "提摩太前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -1022,6 +1142,11 @@
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     },
     {
       "slug": "heart-sutra-kumarajiva",
