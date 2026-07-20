@@ -1,4 +1,11 @@
 {
+  "body-mind": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "change-transformation": [
     {
       "slug": "qingjing-jing",
@@ -18,6 +25,11 @@
   ],
   "communication-being-understood": [
     {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
@@ -35,6 +47,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
@@ -47,11 +64,30 @@
       "religion": "道教"
     }
   ],
+  "faith-doubt": [
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "fear-uncertainty": [
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    }
+  ],
+  "freewill-fate-choice": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
     }
   ],
   "giving-generosity": [
@@ -59,6 +95,28 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philemon",
+      "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "guilt-atonement": [
+    {
+      "slug": "sblgnt-philemon",
+      "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
     }
   ],
   "honesty-hypocrisy": [
@@ -68,10 +126,34 @@
       "religion": "基督教"
     }
   ],
+  "hope-reason-to-live": [
+    {
+      "slug": "taishang-ganying-pian",
+      "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
   "ingroup-outgroup-prejudice": [
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
+  "love-sex-intimacy": [
+    {
+      "slug": "sblgnt-2-john",
+      "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-philemon",
+      "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
     }
   ],
@@ -82,12 +164,29 @@
       "religion": "佛教"
     },
     {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
     }
   ],
+  "responsibility-leadership": [
+    {
+      "slug": "sblgnt-philemon",
+      "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "stillness-rest": [
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    },
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
@@ -99,10 +198,27 @@
       "religion": "儒教"
     }
   ],
+  "trust-vulnerability": [
+    {
+      "slug": "sblgnt-philemon",
+      "name_zh": "腓利門書（希臘原文）",
+      "religion": "基督教"
+    }
+  ],
   "who-am-i": [
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
     },
     {
@@ -122,6 +238,16 @@
     }
   ],
   "wisdom-learning-curiosity": [
+    {
+      "slug": "bud-trimshika-sa",
+      "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "heart-sutra-xuanzang",
+      "name_zh": "般若波羅蜜多心經",
+      "religion": "佛教"
+    },
     {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
