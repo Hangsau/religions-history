@@ -50,5 +50,13 @@
     "太平道"
   ],
   "tag_status": "done",
-  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
+  "psych_tags": [
+    "aging-time",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done"
 }
