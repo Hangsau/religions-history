@@ -50,8 +50,10 @@
     "tier": {"type": "string", "enum": ["核心", "次要", "總集"], "description": "Per per-religion-scriptures.md"},
     "semantic_tags": {"type": "array", "items": {"type": "string"}, "description": "Pipeline C: controlled-vocabulary tags from 00-overview/concepts.md (closed set). Whitelist-filtered."},
     "keywords": {"type": "array", "items": {"type": "string"}, "description": "Pipeline C: free-form salient search terms (proper nouns, key concepts, themes). Open set."},
+    "psych_tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true, "maxItems": 5, "description": "Independent human-question tags from 00-overview/concepts-psychology.md (closed set)."},
     "translation_status": {"type": "string", "enum": ["none", "done", "needs-review"], "description": "Pipeline B: 01-translation.md state. none=未譯, done=已譯, needs-review=品質待人工複核"},
     "tag_status": {"type": "string", "enum": ["none", "done"], "description": "Pipeline C: semantic_tags/keywords 是否已填"},
+    "psych_tag_status": {"type": "string", "enum": ["none", "done"], "description": "Pipeline C: psych_tags 是否已填；與 tag_status 獨立"},
     "notes": {"type": ["string", "null"]}
   }
 }

@@ -26,6 +26,7 @@ ALIGN_FIELDS = [
     ("era", "成書時期"),
     ("genre", "文類"),
     ("semantic_tags", "語義標籤"),
+    ("psych_tags", "心理讀經標籤"),
     ("keywords", "關鍵詞"),
 ]
 
@@ -47,6 +48,27 @@ def load_all() -> list[dict]:
 
 def filled(v) -> bool:
     return v not in (None, "", [], {})
+
+
+def semantic_complete(meta: dict) -> bool:
+    return meta.get("tag_status") == "done" and filled(meta.get("semantic_tags"))
+
+
+def psych_complete(meta: dict) -> bool:
+    return meta.get("psych_tag_status") == "done" and filled(meta.get("psych_tags"))
+
+
+def field_complete(meta: dict, key: str) -> bool:
+    if key in {"semantic_tags", "keywords"}:
+        return semantic_complete(meta) and filled(meta.get(key))
+    if key == "psych_tags":
+        return psych_complete(meta)
+    return filled(meta.get(key))
+
+
+def classification_complete(meta: dict) -> bool:
+    return (filled(meta.get("era")) and filled(meta.get("genre"))
+            and semantic_complete(meta) and psych_complete(meta))
 
 
 def git_recent(n: int = 6) -> list[str]:
@@ -102,13 +124,13 @@ def build() -> str:
     L.append("| 欄位 | 已填 | 覆蓋率 | |")
     L.append("|------|------|--------|---|")
     for key, label in ALIGN_FIELDS:
-        c = sum(1 for m in metas if filled(m.get(key)))
+        c = sum(1 for m in metas if field_complete(m, key))
         pct = 100 * c / n if n else 0
         L.append(f"| {label} `{key}` | {c}/{n} | {pct:5.1f}% | `{bar(pct)}` |")
     L.append("")
 
-    # ---- 分類進度 by tier（era+genre+tags 三者齊全）----
-    L.append("## M3 分類進度（era+genre+tags 三者齊全）")
+    # ---- 分類進度 by tier（兩條標籤軸皆齊全）----
+    L.append("## M3 分類進度（era+genre+semantic+psych 齊全）")
     L.append("")
     tiers = ["核心", "次要", "總集"]
     tier_tot = Counter(m.get("tier") for m in metas)
@@ -116,8 +138,7 @@ def build() -> str:
     L.append("|------|------|------|---|")
     for t in tiers:
         tot = tier_tot.get(t, 0)
-        done = sum(1 for m in metas if m.get("tier") == t
-                   and filled(m.get("era")) and filled(m.get("genre")) and filled(m.get("semantic_tags")))
+        done = sum(1 for m in metas if m.get("tier") == t and classification_complete(m))
         pct = 100 * done / tot if tot else 0
         L.append(f"| {t} | {done} | {tot} | `{bar(pct)}` {pct:4.0f}% |")
     L.append("")
@@ -154,7 +175,9 @@ def build() -> str:
     ps = ROOT / "00-overview" / "PIPELINE_STATUS.md"
     if ps.exists():
         for line in ps.read_text(encoding="utf-8").splitlines():
-            if line.startswith("- 進度") or line.startswith("- 目前處理"):
+            if (line.startswith("- 進度") or line.startswith("- 目前處理")
+                    or line.startswith("- P0 尚未") or line.startswith("- 一般失敗")
+                    or line.startswith("- 已阻塞")):
                 L.append(f"- **翻譯管線**：{line.lstrip('- ')}")
     L.append("")
 

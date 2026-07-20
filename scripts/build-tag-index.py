@@ -22,9 +22,10 @@ TRANSLATIONS_DIR = ROOT / "translations"
 OVERVIEW_DIR = ROOT / "00-overview"
 
 
-def build() -> tuple[dict, dict, int]:
+def build() -> tuple[dict, dict, dict, int]:
     tag_index: dict[str, list] = defaultdict(list)
     kw_index: dict[str, list] = defaultdict(list)
+    psych_index: dict[str, list] = defaultdict(list)
     tagged = 0
 
     for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
@@ -32,9 +33,11 @@ def build() -> tuple[dict, dict, int]:
             meta = json.loads(meta_p.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
             continue
-        sem = meta.get("semantic_tags") or []
-        kw = meta.get("keywords") or []
-        if not sem and not kw:
+        sem = (meta.get("semantic_tags") or []) if meta.get("tag_status") == "done" else []
+        kw = (meta.get("keywords") or []) if meta.get("tag_status") == "done" else []
+        psych = ((meta.get("psych_tags") or [])
+                 if meta.get("psych_tag_status") == "done" else [])
+        if not sem and not kw and not psych:
             continue
         tagged += 1
         entry = {
@@ -46,21 +49,27 @@ def build() -> tuple[dict, dict, int]:
             tag_index[t].append(entry)
         for k in kw:
             kw_index[k].append(entry)
+        for t in psych:
+            psych_index[t].append(entry)
 
     # sort keys; sort entries by slug for stable diffs
     tag_out = {t: sorted(v, key=lambda e: e["slug"]) for t, v in sorted(tag_index.items())}
     kw_out = {k: sorted(v, key=lambda e: e["slug"]) for k, v in sorted(kw_index.items())}
-    return tag_out, kw_out, tagged
+    psych_out = {t: sorted(v, key=lambda e: e["slug"]) for t, v in sorted(psych_index.items())}
+    return tag_out, kw_out, psych_out, tagged
 
 
 def main():
-    tag_out, kw_out, tagged = build()
+    tag_out, kw_out, psych_out, tagged = build()
     OVERVIEW_DIR.mkdir(exist_ok=True)
     (OVERVIEW_DIR / "tag-index.json").write_text(
         json.dumps(tag_out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     (OVERVIEW_DIR / "keyword-index.json").write_text(
         json.dumps(kw_out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    (OVERVIEW_DIR / "psych-tag-index.json").write_text(
+        json.dumps(psych_out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote tag-index.json ({len(tag_out)} tags) + keyword-index.json ({len(kw_out)} keywords)")
+    print(f"  psych-tag-index.json ({len(psych_out)} tags)")
     print(f"  from {tagged} tagged scriptures")
     if tagged == 0:
         print("  (no scriptures tagged yet — run: python scripts/translate.py --core --task tag)")

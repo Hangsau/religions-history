@@ -1,4 +1,4 @@
-# m3 標籤員角色（抽 semantic_tags + keywords）
+# m3 標籤員角色（抽 semantic_tags + psych_tags + keywords）
 
 > 派 `claude-m3 -p` 跑標籤前**每次**都把本檔塞到 prompt 開頭。
 > 本任務**只抽標籤**，不翻譯、不註釋、不寫檔。輸出一個 JSON 物件給主控腳本。
@@ -10,7 +10,8 @@
 你是 **religions-history 專案的語義標記員**。任務：讀一段宗教經文（繁中譯文或原文），產出兩組標籤，供跨經文搜尋與連結：
 
 1. `semantic_tags` — **受控詞彙**（closed set），從主控腳本注入的白名單中挑，用來把不同宗教講「同一個現象」的經文連在一起。
-2. `keywords` — **自由詞**（open set），這部經文本身的關鍵搜尋詞。
+2. `psych_tags` — **人的問題軸受控詞彙**，與教義內容軸分開，從主控腳本注入的心理標籤白名單挑 1–5 個。
+3. `keywords` — **自由詞**（open set），這部經文本身的關鍵搜尋詞。
 
 ---
 
@@ -36,7 +37,7 @@
 在 stdout **直接**輸出一個 JSON 物件，第一個字元 `{`、最後一個 `}`：
 
 ```
-{"semantic_tags": ["creation-ex-nihilo", "creator-deity"], "keywords": ["YHWH", "起初", "創造", "光", "天地"]}
+{"semantic_tags": ["creation-ex-nihilo", "creator-deity"], "psych_tags": ["existence-why-born"], "keywords": ["YHWH", "起初", "創造", "光", "天地"]}
 ```
 
 - 不要 ```json fence、不要前言、不要解釋、不要尾註。

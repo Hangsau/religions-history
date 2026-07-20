@@ -9,11 +9,11 @@
 >
 > **方法來源**：不是理論預設，而是由下而上——先造 500 題「人實際會問的問題」（`11-psychology/human-questions-corpus.md`），讓分類自己浮現、收斂成 13 領域（`11-psychology/question-themes.md`，已用極端人格 100 題壓力測試、零新增大類）。真實問答經典對照見 `11-psychology/reference-analects.md`。
 >
-> **存哪個欄位**：新增 `meta.json` 欄位 `psych_tags: []`（**不併進 `semantic_tags`**，避免兩軸混淆）。允許多標籤；可標到「細群層」（如 `death`）也可只標「領域層」（如 `X-impermanence`）。維護紀律同 `concepts.md`：新增詞先討論，勿膨脹。
+> **存哪個欄位**：新增 `meta.json` 欄位 `psych_tags: []`（**不併進 `semantic_tags`**，避免兩軸混淆）。目前只使用下列表格正式定義的 48 個細群／跨界支流標籤；領域層代碼尚未定義，不可自行創造。維護紀律同 `concepts.md`：新增詞先討論，勿膨脹。
 
 ---
 
-## 13 領域（← 46 細群）＋ 3 跨界支流
+## 13 領域（← 45 細群）＋ 3 跨界支流
 
 ### I. 存在與意義（Existence & Meaning）
 
@@ -138,7 +138,7 @@
 ## 使用方式
 
 1. 標經文者讀 `01-translation.md`（＋ `02-annotation.md` 若有），問：**「一個帶著人生困惑的人，會因為哪個問題而翻到這部經？」**
-2. 從上表選**最相關 1–5 個** `psych_tags`，填回 `meta.json`。可細群層（`death`）或領域層（`X-impermanence`）。
+2. 從上表選**最相關 1–5 個** `psych_tags`，填回 `meta.json`；只用表格第一欄正式定義的標籤。
 3. **允許多標籤且鼓勵跨領域**——問答體經典常一部橫跨數域（論語、薄伽梵歌、傳習錄）。
 4. 兩軸分開存：教義內容標 `semantic_tags`（見 `concepts.md`），人的問題標 `psych_tags`（本表）。**不混欄**。
 5. 反向索引未來由 `scripts/build-tag-index.py` 擴充產生 `psych-tag-index.json`（每領域 → 有哪些經文回應）。

@@ -6,26 +6,31 @@
 - 額度回來 → 將 runtime state 切回 running、啟動 supervise-pipeline.py（detached）+ 記錄 + 自身退出。
 
 只做二元偵測（MiniMax Anthropic 相容端點不回 ratelimit header，查不到實際 5H/7D 用量）。
-不發任何通知。若 HALT flag 已被人工刪除（有人先手動恢復），視為已處理，直接退出不重複啟動。
+不發任何通知。HALT flag 存在時停止自動恢復。
 
 用法：pythonw scripts/quota-watch-resume.py [--tier 核心] [--max-days 天]
 """
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from pipeline_lock import create_pid_lock
+
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT / "logs"
 HALT = LOGS / "pipeline-HALT.flag"  # 僅人工暫停；自動配額等待不使用此檔
 RUNTIME = LOGS / "pipeline-runtime.json"
 WATCH_LOG = LOGS / "quota-watch.log"
+PIDFILE = LOGS / "quota-watch.pid"
 MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
 QUOTA_URL = "https://www.minimax.io/v1/token_plan/remains"
 TZ = timezone(timedelta(hours=8))
@@ -51,8 +56,20 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     state["updated_at"] = datetime.now(TZ).isoformat()
-    RUNTIME.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n",
-                       encoding="utf-8", newline="\n")
+    RUNTIME.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp_name = tempfile.mkstemp(prefix=RUNTIME.name + ".", suffix=".tmp", dir=RUNTIME.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as handle:
+            json.dump(state, handle, ensure_ascii=False, indent=2)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temp_name, RUNTIME)
+    finally:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
 
 
 def _iso_from_millis(value: object) -> str | None:
@@ -138,6 +155,17 @@ def main() -> None:
         if state.get("status") != "waiting_quota":
             log("[exit] 等待狀態已由其他程序解除")
             return
+        retry_text = state.get("next_retry_at")
+        if retry_text:
+            try:
+                retry_at = datetime.fromisoformat(retry_text)
+                while datetime.now(TZ) < retry_at:
+                    if HALT.exists():
+                        log("[exit] 偵測人工 HALT，停止自動恢復")
+                        return
+                    time.sleep(min(30, max(1, (retry_at - datetime.now(TZ)).total_seconds())))
+            except (TypeError, ValueError):
+                pass
         attempt = int(state.get("retry_attempt", 0))
         delay = BACKOFF_SECONDS[min(attempt, len(BACKOFF_SECONDS) - 1)]
         next_retry = datetime.now(TZ) + timedelta(seconds=delay)
@@ -159,5 +187,29 @@ def main() -> None:
         time.sleep(delay)
 
 
+def acquire_pidfile() -> bool:
+    """Allow only one quota watcher, while recovering a stale PID file."""
+    for _ in range(2):
+        if create_pid_lock(PIDFILE):
+            return True
+        try:
+            pid = int(PIDFILE.read_text(encoding="utf-8").strip())
+            os.kill(pid, 0)
+            log(f"[locked] quota watcher 已在執行 pid={pid}，本程序退出")
+            return False
+        except (OSError, ValueError):
+            PIDFILE.unlink(missing_ok=True)
+    return False
+
+
 if __name__ == "__main__":
-    main()
+    if not acquire_pidfile():
+        sys.exit(0)
+    try:
+        main()
+    finally:
+        try:
+            if PIDFILE.exists() and PIDFILE.read_text(encoding="utf-8").strip() == str(os.getpid()):
+                PIDFILE.unlink()
+        except OSError:
+            pass

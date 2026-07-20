@@ -31,6 +31,7 @@ import sys
 from pathlib import Path
 
 import translate  # reuse call_m3, load_tag_whitelist, parse_tag_json, load_slugs_by_tier
+from pipeline_lock import acquire_run_lock, release_run_lock
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
@@ -53,7 +54,9 @@ def needs_classify(meta: dict) -> bool:
         return True
     if not meta.get("genre"):
         return True
-    if not meta.get("semantic_tags"):
+    if meta.get("tag_status") != "done" or not meta.get("semantic_tags"):
+        return True
+    if meta.get("psych_tag_status") != "done" or not meta.get("psych_tags"):
         return True
     # Latin is_original ambiguity: resolve here rather than leaving for human.
     if (meta.get("language") or "").strip() == "Latin" and meta.get("is_original_language") is None:
@@ -61,12 +64,13 @@ def needs_classify(meta: dict) -> bool:
     return False
 
 
-def build_prompt(meta: dict, head: str, tag_vocab: set[str]) -> str:
+def build_prompt(meta: dict, head: str, tag_vocab: set[str], psych_vocab: set[str]) -> str:
     lang = meta.get("language") or ""
     ask_iol = lang.strip() == "Latin" and meta.get("is_original_language") is None
     era_list = " ".join(sorted(ERA_VOCAB))
     genre_list = " ".join(sorted(GENRE_VOCAB))
     vocab = " ".join(sorted(tag_vocab))
+    psych = " ".join(sorted(psych_vocab))
     iol_line = (
         '\n- `is_original_language`：此文本語言為 Latin。若為 Vulgate 等「從希伯來/希臘譯成拉丁」的譯本填 false；'
         '若為直接以拉丁文寫成的原典（教父著作、羅馬宗教文本等）填 true。無法判斷則省略此欄。'
@@ -98,14 +102,18 @@ genre（主導文類，單值）：{genre_list}
 
 semantic_tags（跨宗教概念白名單，挑真正切題 3–8 個，表外詞禁止）：
 {vocab}
+
+psych_tags（人生問題軸白名單，獨立挑真正切題 1–5 個）：
+{psych}
 {iol_line}
 
 ## 輸出格式（**只輸出一個 JSON 物件，不要前言、不要 markdown fence**）
 
-{{"era": "axial-age", "genre": "scripture-revealed", "semantic_tags": ["tag-a", "tag-b"], "keywords": ["神名", "地名", "核心主題"]{iol_field}}}
+{{"era": "axial-age", "genre": "scripture-revealed", "semantic_tags": ["tag-a", "tag-b"], "psych_tags": ["death"], "keywords": ["神名", "地名", "核心主題"]{iol_field}}}
 
 - era / genre：各填一個封閉詞彙值；真無法判斷填 null。
 - semantic_tags：只能填上方白名單英文 tag。
+- psych_tags：只能填人生問題軸白名單，且不得混入 semantic_tags。
 - keywords：5–15 個自由詞（神名/地名/術語/主題），繁中或原文皆可，供搜尋。
 第一個字元必須是 {{。"""
 
@@ -121,7 +129,8 @@ def read_head(slug: str) -> str | None:
     return text[:MAX_HEAD_CHARS]
 
 
-def apply_classification(slug: str, obj: dict, tag_vocab: set[str]) -> list[str]:
+def apply_classification(slug: str, obj: dict, tag_vocab: set[str],
+                         psych_vocab: set[str]) -> list[str]:
     """Write only missing whitelisted fields; re-read fresh for concurrency safety."""
     meta_p = TRANSLATIONS_DIR / slug / "meta.json"
     try:
@@ -141,12 +150,19 @@ def apply_classification(slug: str, obj: dict, tag_vocab: set[str]) -> list[str]
         changed.append("genre")
 
     tags = [t for t in (obj.get("semantic_tags") or []) if isinstance(t, str) and t in tag_vocab]
-    if not meta.get("semantic_tags") and tags:
+    if (meta.get("tag_status") != "done" or not meta.get("semantic_tags")) and tags:
         meta["semantic_tags"] = sorted(set(tags))
         kw = [k for k in (obj.get("keywords") or []) if isinstance(k, str) and k.strip()][:15]
         meta["keywords"] = kw
         meta["tag_status"] = "done"
         changed.append("tags")
+
+    psych_tags = [t for t in (obj.get("psych_tags") or [])
+                  if isinstance(t, str) and t in psych_vocab]
+    if (meta.get("psych_tag_status") != "done" or not meta.get("psych_tags")) and psych_tags:
+        meta["psych_tags"] = sorted(set(psych_tags))[:5]
+        meta["psych_tag_status"] = "done"
+        changed.append("psych_tags")
 
     if (meta.get("language") or "").strip() == "Latin" and meta.get("is_original_language") is None:
         iol = obj.get("is_original_language")
@@ -156,8 +172,8 @@ def apply_classification(slug: str, obj: dict, tag_vocab: set[str]) -> list[str]
             changed.append("is_original")
 
     if changed:
-        meta_p.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
-                          encoding="utf-8", newline="\n")
+        translate._atomic_write_text(
+            meta_p, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
     return changed
 
 
@@ -179,8 +195,9 @@ def git_commit_push(paths: list[Path], n_done: int, push: bool) -> None:
     if code != 0:  # e.g. index.lock held by auto-pipeline this instant
         print("  [git] add skipped (lock?), meta on disk, will retry next batch")
         return
-    code, out = _git(["commit", "-q", "-m",
-                      f"align: M3 classify era/genre/tags (batch, +{n_done})"])
+    code, out = _git(["commit", "--only", "-q", "-m",
+                      f"align: M3 classify era/genre/tags (batch, +{n_done})",
+                      "--", *rels])
     if code != 0:
         if "nothing to commit" not in out:
             print(f"  [git] commit failed: {out[:160]}")
@@ -211,8 +228,9 @@ def main():
     args = ap.parse_args()
 
     tag_vocab = translate.load_tag_whitelist()
-    if not tag_vocab:
-        sys.exit("[error] empty tag whitelist (concepts.md not found?)")
+    psych_vocab = translate.load_psych_tag_whitelist()
+    if not tag_vocab or not psych_vocab:
+        sys.exit("[error] empty controlled vocabulary")
 
     if args.tier:
         slugs = translate.load_slugs_by_tier(args.tier)
@@ -241,7 +259,7 @@ def main():
             print(f"  [skip-nohead] {slug}")
             failed += 1
             continue
-        prompt = build_prompt(meta, head, tag_vocab)
+        prompt = build_prompt(meta, head, tag_vocab, psych_vocab)
         if args.dry_run:
             print(f"\n[DRY] {slug} (prompt {len(prompt)} chars)")
             print(prompt[:1200] + "\n...[truncated]...")
@@ -256,7 +274,7 @@ def main():
             print(f"  [fail-parse] {slug}")
             failed += 1
             continue
-        changed = apply_classification(slug, obj, tag_vocab)
+        changed = apply_classification(slug, obj, tag_vocab, psych_vocab)
         if changed:
             done += 1
             batch_paths.append(meta_p)
@@ -273,4 +291,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if not acquire_run_lock():
+        sys.exit(0)
+    try:
+        main()
+    finally:
+        release_run_lock()

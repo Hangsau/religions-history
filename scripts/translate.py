@@ -28,12 +28,19 @@ Notes:
 """
 
 import argparse
+import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
+import time
+import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from pipeline_lock import acquire_run_lock, release_run_lock
+import pipeline_priority
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
@@ -41,9 +48,15 @@ ROLE_TRANSLATOR = ROOT / "tools" / "m3-translator-role.md"
 ROLE_ANNOTATOR = ROOT / "tools" / "m3-annotator-role.md"
 ROLE_TAGGER = ROOT / "tools" / "m3-tagger-role.md"
 CONCEPTS_PATH = ROOT / "00-overview" / "concepts.md"
+PSYCH_CONCEPTS_PATH = ROOT / "00-overview" / "concepts-psychology.md"
 MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，唯一翻譯後端
 RUNTIME_STATE_PATH = ROOT / "logs" / "pipeline-runtime.json"
+CHECKPOINT_ROOT = ROOT / "logs" / "pipeline-checkpoints"
+METRICS_PATH = ROOT / "logs" / "pipeline-metrics.jsonl"
 TZ = timezone(timedelta(hours=8))
+CHECKPOINT_SCHEMA_VERSION = 1
+CHUNKING_VERSION = 1
+M3_TIMEOUT_SECONDS = int(os.environ.get("RELIGIONS_M3_TIMEOUT_SECONDS", "360"))
 
 TASK_TO_OUTFILE = {
     "translate": "01-translation.md",
@@ -56,6 +69,195 @@ TASK_TO_ROLE = {
 }
 
 
+def has_complete_translation(path: Path) -> bool:
+    """Return whether a translation file is safe to skip and use for tagging."""
+    if not path.exists() or path.stat().st_size <= 100:
+        return False
+    try:
+        return "<!-- CHUNK " not in path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return False
+
+
+def _sha256_text(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
+def _atomic_write_text(path: Path, value: str) -> None:
+    """Atomically replace a UTF-8 text file; tolerate brief Windows file locks."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_name(f".{path.name}.{os.getpid()}.{uuid.uuid4().hex}.tmp")
+    try:
+        with temp.open("w", encoding="utf-8", newline="\n") as f:
+            f.write(value)
+            f.flush()
+            os.fsync(f.fileno())
+        for attempt in range(3):
+            try:
+                os.replace(temp, path)
+                return
+            except PermissionError:
+                if attempt == 2:
+                    raise
+                time.sleep(0.1 * (attempt + 1))
+    finally:
+        temp.unlink(missing_ok=True)
+
+
+def _archive_stale_checkpoint(active: Path) -> None:
+    if not active.exists():
+        return
+    stamp = datetime.now(TZ).strftime("%Y%m%d-%H%M%S")
+    target = active.parent / f"stale-{stamp}-{uuid.uuid4().hex[:8]}"
+    active.rename(target)
+
+
+def _checkpoint_manifest(slug: str, task: str, source_text: str, role: str,
+                         chunk_texts: list[str]) -> dict:
+    now = datetime.now(TZ).isoformat()
+    return {
+        "schema_version": CHECKPOINT_SCHEMA_VERSION,
+        "chunking_version": CHUNKING_VERSION,
+        "slug": slug,
+        "task": task,
+        "model": PRIMARY_MODEL,
+        "source_sha256": _sha256_text(source_text),
+        "role_sha256": _sha256_text(role),
+        "max_chunk_chars": MAX_CHARS_PER_CALL - 5000,
+        "chunks_total": len(chunk_texts),
+        "chunks": [
+            {
+                "index": i,
+                "input_sha256": _sha256_text(chunk_text),
+                "status": "pending",
+                "output_file": f"chunk-{i:04d}.md",
+                "output_sha256": None,
+                "completed_at": None,
+            }
+            for i, chunk_text in enumerate(chunk_texts, 1)
+        ],
+        "created_at": now,
+        "updated_at": now,
+    }
+
+
+def _manifest_identity(manifest: dict) -> tuple:
+    return (
+        manifest.get("schema_version"), manifest.get("chunking_version"),
+        manifest.get("slug"), manifest.get("task"), manifest.get("model"),
+        manifest.get("source_sha256"), manifest.get("role_sha256"),
+        manifest.get("max_chunk_chars"), manifest.get("chunks_total"),
+        tuple((c.get("index"), c.get("input_sha256")) for c in manifest.get("chunks", [])),
+    )
+
+
+def _prepare_checkpoint(slug: str, task: str, source_text: str, role: str,
+                        chunk_texts: list[str]) -> tuple[Path, dict, dict[int, str]]:
+    active = CHECKPOINT_ROOT / slug / task / "active"
+    expected = _checkpoint_manifest(slug, task, source_text, role, chunk_texts)
+    manifest_path = active / "manifest.json"
+    manifest = None
+    if manifest_path.exists():
+        try:
+            candidate = json.loads(manifest_path.read_text(encoding="utf-8"))
+            if _manifest_identity(candidate) == _manifest_identity(expected):
+                manifest = candidate
+            else:
+                _archive_stale_checkpoint(active)
+        except (OSError, json.JSONDecodeError):
+            _archive_stale_checkpoint(active)
+    if manifest is None:
+        manifest = expected
+        _atomic_write_text(manifest_path, json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+
+    completed: dict[int, str] = {}
+    changed = False
+    for chunk in manifest["chunks"]:
+        if chunk.get("status") != "done" or not chunk.get("output_sha256"):
+            continue
+        part_path = active / chunk["output_file"]
+        try:
+            output = part_path.read_text(encoding="utf-8")
+        except OSError:
+            output = ""
+        if output.strip() and _sha256_text(output) == chunk["output_sha256"]:
+            completed[chunk["index"]] = output.rstrip("\n")
+        else:
+            chunk.update(status="pending", output_sha256=None, completed_at=None)
+            changed = True
+    if changed:
+        manifest["updated_at"] = datetime.now(TZ).isoformat()
+        _atomic_write_text(manifest_path, json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+    return active, manifest, completed
+
+
+def _save_checkpoint_part(active: Path, manifest: dict, index: int, output: str) -> None:
+    chunk = manifest["chunks"][index - 1]
+    value = output.rstrip() + "\n"
+    _atomic_write_text(active / chunk["output_file"], value)
+    chunk.update(status="done", output_sha256=_sha256_text(value),
+                 completed_at=datetime.now(TZ).isoformat())
+    manifest["updated_at"] = datetime.now(TZ).isoformat()
+    _atomic_write_text(active / "manifest.json",
+                       json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+
+
+def _append_metric(event: dict) -> None:
+    try:
+        METRICS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        line = json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n"
+        with METRICS_PATH.open("a", encoding="utf-8", newline="\n") as f:
+            f.write(line)
+    except OSError:
+        pass  # Metrics must never make content generation fail.
+
+
+def _record_completion(slug: str, task: str, output_chars: int,
+                       chunks_total: int = 1, used_m3: bool = True) -> None:
+    """Record a book-level completion without storing generated content."""
+    _append_metric({
+        "event": "book_completed",
+        "timestamp": datetime.now(TZ).isoformat(),
+        "slug": slug,
+        "task": task,
+        "model": PRIMARY_MODEL if used_m3 else None,
+        "output_chars": output_chars,
+        "chunks_total": chunks_total,
+        "used_m3": used_m3,
+    })
+
+
+def _call_m3_measured(prompt: str, slug: str, task: str, input_chars: int,
+                      chunk: int | None = None, chunks_total: int | None = None,
+                      resumed: bool = False, dry_run: bool = False) -> str | None:
+    started = time.monotonic()
+    output = call_m3(prompt, dry_run=dry_run)
+    if not dry_run:
+        runtime = {}
+        try:
+            runtime = json.loads(RUNTIME_STATE_PATH.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            pass
+        last_error = str(runtime.get("last_error") or "").lower()
+        if output is not None:
+            outcome = "success"
+        elif "timeout" in last_error:
+            outcome = "timeout"
+        elif runtime.get("status") == "waiting_quota":
+            outcome = "quota"
+        else:
+            outcome = "error"
+        _append_metric({
+            "event": "attempt", "timestamp": datetime.now(TZ).isoformat(),
+            "slug": slug, "task": task,
+            "chunk_index": chunk, "chunks_total": chunks_total, "model": PRIMARY_MODEL,
+            "input_chars": input_chars, "prompt_chars": len(prompt),
+            "elapsed_ms": round((time.monotonic() - started) * 1000), "outcome": outcome,
+            "output_chars": len(output or ""), "resumed": resumed,
+        })
+    return output
+
+
 def load_tag_whitelist() -> set[str]:
     """Parse the controlled-vocabulary tags (backtick code-spans) from concepts.md."""
     if not CONCEPTS_PATH.exists():
@@ -64,6 +266,15 @@ def load_tag_whitelist() -> set[str]:
     text = CONCEPTS_PATH.read_text(encoding="utf-8")
     # tags look like `ultimate-reality` — lowercase words joined by hyphens
     return set(_re.findall(r"`([a-z][a-z0-9-]+)`", text))
+
+
+def load_psych_tag_whitelist() -> set[str]:
+    """Parse only tag-table rows, excluding prose examples and filenames."""
+    if not PSYCH_CONCEPTS_PATH.exists():
+        return set()
+    import re as _re
+    text = PSYCH_CONCEPTS_PATH.read_text(encoding="utf-8")
+    return set(_re.findall(r"^\|\s*`([a-z][a-z0-9-]+)`\s*\|", text, _re.MULTILINE))
 
 
 # Language buckets for the fallback heuristic when is_original_language / text_role are unset.
@@ -98,12 +309,13 @@ def _is_original_text(meta: dict) -> bool:
     return True  # 古典漢語 / 希伯來 / Greek / Sanskrit / Pali / 未知 → original-priority (verbatim-safe)
 
 
-def load_slugs_by_tier(tier: str) -> list[str]:
-    """Return slugs whose meta.json tier == given value, ordered original-first then short-first.
+def load_slugs_by_tier(tier: str, use_priority: bool = True) -> list[str]:
+    """Return tier slugs ordered priority, original/translation, size, then slug.
 
     Transliteration short-circuits cheaply (verbatim), so we don't special-case its order.
     """
-    rows = []  # (not_original, size_bytes, slug)
+    priorities = pipeline_priority.priority_map() if use_priority else {}
+    rows = []  # (priority, not_original, size_bytes, slug)
     for meta_p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
         try:
             meta = json.loads(meta_p.read_text(encoding="utf-8"))
@@ -116,9 +328,11 @@ def load_slugs_by_tier(tier: str) -> list[str]:
         slug = meta_p.parent.name
         orig = meta_p.parent / "raw" / "original.txt"
         size = orig.stat().st_size if orig.exists() else 0
-        rows.append((0 if _is_original_text(meta) else 1, size, slug))
-    rows.sort(key=lambda r: (r[0], r[1], r[2]))
-    return [slug for _, _, slug in rows]
+        priority = pipeline_priority.priority_for(slug, tier, priorities) if use_priority else "P1"
+        rows.append((pipeline_priority.RANK[priority], 0 if _is_original_text(meta) else 1,
+                     size, slug))
+    rows.sort(key=lambda r: (r[0], r[1], r[2], r[3]))
+    return [slug for _, _, _, slug in rows]
 
 MAX_CHARS_PER_CALL = 8000  # m3 input safety; longer → chunk by chapter (larger sizes risk m3 timeouts)
 CHUNK_HEADER_RE = "=== "  # chapter boundary marker in original.txt
@@ -223,23 +437,42 @@ def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str
     env["ANTHROPIC_AUTH_TOKEN"] = token
     env["ANTHROPIC_MODEL"] = model
     env["ANTHROPIC_SMALL_FAST_MODEL"] = model
+    proc = None
     try:
-        result = subprocess.run(
+        creationflags = getattr(subprocess, "CREATE_NO_WINDOW", 0)
+        if os.name == "nt":
+            creationflags |= getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0)
+        proc = subprocess.Popen(
             ["claude", "-p", "--permission-mode", "bypassPermissions"],
-            input=prompt.encode("utf-8"),
-            capture_output=True,
-            # Normal M3 chunks complete in roughly a minute or two.  Do not leave
-            # the persistent state as "running" for ten minutes on a stuck quota request.
-            timeout=180,
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            # M3 reasoning latency varies with traffic. Keep a finite unattended
+            # bound, but allow slower valid responses instead of treating 180s as quota.
             env=env,
             # Windows: 別讓 claude 這個主控台程式從背景進程彈出黑框視窗
-            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+            creationflags=creationflags,
         )
-        if result.returncode != 0:
-            return None, f"exit {result.returncode}: {result.stderr.decode('utf-8', errors='replace')[:500]}"
-        return result.stdout.decode("utf-8", errors="replace"), None
+        stdout, stderr = proc.communicate(prompt.encode("utf-8"), timeout=M3_TIMEOUT_SECONDS)
+        if proc.returncode != 0:
+            return None, f"exit {proc.returncode}: {stderr.decode('utf-8', errors='replace')[:500]}"
+        return stdout.decode("utf-8", errors="replace"), None
     except subprocess.TimeoutExpired:
-        return None, "timeout after 180s"
+        if proc is not None:
+            if os.name == "nt":
+                subprocess.run(
+                    ["taskkill", "/PID", str(proc.pid), "/T", "/F"],
+                    capture_output=True,
+                    creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+                    timeout=15,
+                )
+            else:
+                proc.kill()
+            try:
+                proc.communicate(timeout=5)
+            except subprocess.TimeoutExpired:
+                proc.kill()
+        return None, f"timeout after {M3_TIMEOUT_SECONDS}s"
     except FileNotFoundError:
         return None, "`claude` CLI not found in PATH"
 
@@ -260,15 +493,13 @@ CURRENT_WORK: dict[str, object] = {"slug": None, "task": None, "chunk": None, "c
 
 def _write_runtime_state(**changes: object) -> None:
     """Persist pipeline state independently of the GUI/supervisor process."""
-    RUNTIME_STATE_PATH.parent.mkdir(exist_ok=True)
     try:
         state = json.loads(RUNTIME_STATE_PATH.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         state = {}
     state.update(changes)
     state["updated_at"] = datetime.now(TZ).isoformat()
-    RUNTIME_STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n",
-                                  encoding="utf-8", newline="\n")
+    _atomic_write_text(RUNTIME_STATE_PATH, json.dumps(state, ensure_ascii=False, indent=2) + "\n")
 
 
 def set_current_work(slug: str, task: str, chunk: int | None = None,
@@ -294,6 +525,10 @@ def _wait_for_quota(error: str) -> None:
     print("  [quota] M3 流量／額度限制；已保留目前 chunk，停止後續工作並等待自動恢復")
 
 
+def _record_generation_error(error: str) -> None:
+    _write_runtime_state(status="error", next_retry_at=None, last_error=error, **CURRENT_WORK)
+
+
 def _resolve_backend(model: str) -> tuple[str, str] | None:
     """解析唯一允許的 MiniMax-M3 後端；token 缺失回 None。"""
     if model.lower().startswith("minimax"):
@@ -315,7 +550,9 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
 
     backend = _resolve_backend(PRIMARY_MODEL)
     if backend is None:
-        _wait_for_quota("MiniMax-M3 token unavailable")
+        error = "MiniMax-M3 token unavailable"
+        _record_generation_error(error)
+        print(f"  [error] {error}")
         return None
     base_url, token = backend
     blank_exit_ones = 0
@@ -326,7 +563,11 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
             LAST_MODELS_USED.add(PRIMARY_MODEL)
             return out
         detail = (err or "").lower()
-        if any(x in detail for x in ("429", "quota", "rate limit", "rate_limit", "traffic", "too many requests", "timeout")):
+        if "timeout" in detail:
+            _record_generation_error(err or "M3 request timed out")
+            print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）")
+            return None
+        if any(x in detail for x in ("429", "quota", "rate limit", "rate_limit", "traffic", "too many requests")):
             _wait_for_quota(err or "M3 quota/rate-limit signal")
             return None
         if (err or "").strip() in ("exit 1:", "exit 1: "):
@@ -336,6 +577,7 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
                 _wait_for_quota("MiniMax-M3 repeated detail-free exit 1")
                 return None
             continue
+        _record_generation_error(err or f"{PRIMARY_MODEL} generation failed")
         print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）")
         return None
     return None
@@ -405,7 +647,8 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     LAST_MODELS_USED.clear()  # 本檔用過哪些 model，供 orchestrator 翻完後回填 meta（純 verbatim 路徑則為空）
     out_name = TASK_TO_OUTFILE[task]
     out_path = TRANSLATIONS_DIR / slug / out_name
-    if skip_done and out_path.exists() and out_path.stat().st_size > 100:
+    if skip_done and (task != "translate" or has_complete_translation(out_path)) \
+            and out_path.exists() and out_path.stat().st_size > 100:
         print(f"  [skip-done] {slug} ({task})")
         return True
 
@@ -425,7 +668,8 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         if dry_run:
             print(f"  [dry-run transliteration] {slug}: would write verbatim ({len(body)} chars)")
             return True
-        out_path.write_text(body + "\n", encoding="utf-8", newline="\n")
+        _atomic_write_text(out_path, body + "\n")
+        _record_completion(slug, task, len(body), used_m3=False)
         print(f"  [transliteration] {slug}: verbatim preserved → {out_name} ({len(body)} chars, no M3 call)")
         return True
 
@@ -446,7 +690,8 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
             if dry_run:
                 print(f"  [dry-run zh-verbatim] {slug}: would write verbatim ({len(body)} chars)")
                 return True
-            out_path.write_text(body + "\n", encoding="utf-8", newline="\n")
+            _atomic_write_text(out_path, body + "\n")
+            _record_completion(slug, task, len(body), used_m3=False)
             print(f"  [zh-verbatim] {slug}: {src_lang} 原樣保留 → {out_name} ({len(body)} chars, no LLM call)")
             return True
 
@@ -468,12 +713,14 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     if len(chunkable_text) <= MAX_CHARS_PER_CALL:
         prompt = build_prompt(task, role, slug, meta, chunkable_text, translation_text)
         print(f"  [start] {slug} ({task})  (prompt {len(prompt)} chars)")
-        set_current_work(slug, task)
-        output = call_m3(prompt, dry_run=dry_run)
+        if not dry_run:
+            set_current_work(slug, task)
+        output = _call_m3_measured(prompt, slug, task, len(chunkable_text), dry_run=dry_run)
         if output is None or dry_run:
             return dry_run
         output = strip_output_wrappers(output)
-        out_path.write_text(output + "\n", encoding="utf-8", newline="\n")
+        _atomic_write_text(out_path, output + "\n")
+        _record_completion(slug, task, len(output))
         print(f"  [done] {slug} ({task})  →  {out_name} ({len(output)} chars)")
         return True
 
@@ -482,9 +729,17 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)  # reserve room for role+prompt
     print(f"  [chunk] {slug} ({task}): {len(chapters)} chapters → {len(groups)} chunks")
 
-    parts: list[str] = []
+    chunk_texts = ["\n".join(group) for group in groups]
+    if dry_run:
+        active, manifest, completed = Path(), {}, {}
+    else:
+        active, manifest, completed = _prepare_checkpoint(slug, task, chunkable_text, role, chunk_texts)
+    parts: dict[int, str] = dict(completed)
     for i, group in enumerate(groups, 1):
         chunk_text = "\n".join(group)
+        if i in parts:
+            print(f"    [resume {i}/{len(groups)}] {slug} ({task})  checkpoint hit")
+            continue
         chunk_meta_note = f"\n\n**注意：本經分 {len(groups)} 段處理，這是第 {i}/{len(groups)} 段。請只處理本段內容，標題列只在第 1 段需要，後續段直接從 `=== N | label ===` 開始即可。**"
         # For annotate, pass chunk as the "translation" to annotate (since we're chunking the translation now)
         if task == "translate":
@@ -493,9 +748,13 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
             # Annotation: chunk_text is the translation chunk; original is not actively passed in chunked mode
             prompt = build_prompt(task, role, slug, meta, "(原文略，見原文檔)", chunk_text + chunk_meta_note)
         print(f"    [chunk {i}/{len(groups)}] {slug} ({task})  ({len(chunk_text)} chars)")
-        set_current_work(slug, task, i, len(groups))
-        output = call_m3(prompt, dry_run=dry_run)
+        if not dry_run:
+            set_current_work(slug, task, i, len(groups))
+        output = _call_m3_measured(prompt, slug, task, len(chunk_text), i, len(groups),
+                                   resumed=bool(completed), dry_run=dry_run)
         if output is None:
+            if dry_run:
+                continue
             print(f"    [warn] chunk {i} failed for {slug} ({task}); keeping prior file unchanged")
             return False
         if dry_run:
@@ -508,19 +767,29 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
                 if line.startswith(CHUNK_HEADER_RE):
                     output = "\n".join(lines[j:])
                     break
-        parts.append(output)
+        if not output.strip() or "<!-- CHUNK " in output or (i == 1 and not output.startswith("#")):
+            print(f"    [error] chunk {i} invalid for {slug} ({task}); checkpoint unchanged")
+            return False
+        _save_checkpoint_part(active, manifest, i, output)
+        parts[i] = output
 
     if dry_run:
         return True
-    final = "\n\n".join(parts)
-    out_path.write_text(final + "\n", encoding="utf-8", newline="\n")
+    if len(parts) != len(groups):
+        return False
+    final = "\n\n".join(parts[i] for i in range(1, len(groups) + 1))
+    _atomic_write_text(out_path, final + "\n")
+    shutil.rmtree(active, ignore_errors=True)
+    _record_completion(slug, task, len(final), len(groups))
     print(f"  [done] {slug} ({task})  →  {out_name} ({len(final)} chars, {len(groups)} chunks)")
     return True
 
 
-def build_tag_prompt(role: str, slug: str, meta: dict, text: str, whitelist: set[str], chunk_note: str = "") -> str:
+def build_tag_prompt(role: str, slug: str, meta: dict, text: str, whitelist: set[str],
+                     psych_whitelist: set[str], chunk_note: str = "") -> str:
     source_language = meta.get("source_language") or meta.get("language", "?")
     vocab = " ".join(sorted(whitelist))
+    psych_vocab = " ".join(sorted(psych_whitelist))
     return f"""{role}
 
 ---
@@ -536,6 +805,10 @@ def build_tag_prompt(role: str, slug: str, meta: dict, text: str, whitelist: set
 
 {vocab}
 
+## psych_tags 人生問題軸白名單（獨立於 semantic_tags，選 1–5 個）
+
+{psych_vocab}
+
 {chunk_note}
 
 ---
@@ -550,9 +823,10 @@ def build_tag_prompt(role: str, slug: str, meta: dict, text: str, whitelist: set
 
 你只是 JSON 產生器。**唯一動作**：在 stdout 直接輸出一個 JSON 物件，格式：
 
-{{"semantic_tags": ["tag-a", "tag-b"], "keywords": ["關鍵詞1", "神名", "地名", "主題詞"]}}
+{{"semantic_tags": ["tag-a", "tag-b"], "psych_tags": ["death", "faith-doubt"], "keywords": ["關鍵詞1", "神名", "地名", "主題詞"]}}
 
 - `semantic_tags`：**只能**填上方白名單內的英文 tag，挑真正切題的 3–8 個，表外詞禁止放這。
+- `psych_tags`：只能填人生問題軸白名單，挑真正切題的 1–5 個；不要混入 semantic_tags。
 - `keywords`：5–15 個自由詞（神名 / 地名 / 關鍵術語 / 核心主題），繁中或原文皆可，供搜尋用。
 - 不要 markdown fence、不要前言、不要解釋。第一個字元是 `{{`，最後一個是 `}}`。
 """
@@ -574,32 +848,39 @@ def parse_tag_json(output: str) -> dict | None:
     return obj
 
 
-def merge_meta_tags(slug: str, semantic_tags: list[str], keywords: list[str]) -> None:
+def merge_meta_tags(slug: str, semantic_tags: list[str], psych_tags: list[str],
+                    keywords: list[str]) -> None:
     """Merge tags into meta.json, preserving all existing fields + verify.py's format."""
     meta_p = TRANSLATIONS_DIR / slug / "meta.json"
     meta = json.loads(meta_p.read_text(encoding="utf-8"))
     meta["semantic_tags"] = semantic_tags
     meta["keywords"] = keywords
     meta["tag_status"] = "done"
-    meta_p.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
-                      encoding="utf-8", newline="\n")
+    meta["psych_tags"] = psych_tags
+    meta["psych_tag_status"] = "done"
+    _atomic_write_text(meta_p, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
 
 
-def tag_one(slug: str, role: str, whitelist: set[str], skip_done: bool = False, dry_run: bool = False) -> bool:
+def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str],
+            skip_done: bool = False, dry_run: bool = False) -> bool:
     slug_dir = TRANSLATIONS_DIR / slug
     meta_p = slug_dir / "meta.json"
     if not meta_p.exists():
         print(f"  [skip] {slug} (tag): no meta.json")
         return False
     meta = json.loads(meta_p.read_text(encoding="utf-8"))
-    if skip_done and meta.get("tag_status") == "done" and meta.get("semantic_tags"):
+    tr_path = slug_dir / "01-translation.md"
+    if tr_path.exists() and not has_complete_translation(tr_path):
+        print(f"  [error] {slug} (tag): translation is incomplete")
+        return False
+    if skip_done and meta.get("tag_status") == "done" and meta.get("semantic_tags") \
+            and meta.get("psych_tag_status") == "done" and meta.get("psych_tags"):
         print(f"  [skip-done] {slug} (tag)")
         return True
 
     # Prefer the Chinese translation (compact) as tagging source; fall back to original
-    tr_path = slug_dir / "01-translation.md"
     orig_path = slug_dir / "raw" / "original.txt"
-    if tr_path.exists() and tr_path.stat().st_size > 100:
+    if has_complete_translation(tr_path):
         text = tr_path.read_text(encoding="utf-8")
     elif orig_path.exists():
         text = orig_path.read_text(encoding="utf-8")
@@ -607,23 +888,31 @@ def tag_one(slug: str, role: str, whitelist: set[str], skip_done: bool = False, 
         print(f"  [skip] {slug} (tag): no translation or original")
         return False
 
-    sem: set[str] = set()
-    kw: list[str] = []
+    preserve_semantic = meta.get("tag_status") == "done" and bool(meta.get("semantic_tags"))
+    sem: set[str] = set(meta.get("semantic_tags") or []) if preserve_semantic else set()
+    psych: set[str] = set()
+    kw: list[str] = list(meta.get("keywords") or []) if preserve_semantic else []
 
     def ingest(obj: dict) -> None:
-        for t in obj.get("semantic_tags", []) or []:
-            if isinstance(t, str) and t in whitelist:
-                sem.add(t)
-        for k in obj.get("keywords", []) or []:
-            if isinstance(k, str) and k.strip() and k not in kw:
-                kw.append(k.strip())
+        if not preserve_semantic:
+            for t in obj.get("semantic_tags", []) or []:
+                if isinstance(t, str) and t in whitelist:
+                    sem.add(t)
+        for t in obj.get("psych_tags", []) or []:
+            if isinstance(t, str) and t in psych_whitelist:
+                psych.add(t)
+        if not preserve_semantic:
+            for k in obj.get("keywords", []) or []:
+                if isinstance(k, str) and k.strip() and k not in kw:
+                    kw.append(k.strip())
 
     # Chunk if large; union tags across chunks
     if len(text) <= MAX_CHARS_PER_CALL:
-        prompt = build_tag_prompt(role, slug, meta, text, whitelist)
+        prompt = build_tag_prompt(role, slug, meta, text, whitelist, psych_whitelist)
         print(f"  [start] {slug} (tag)  (prompt {len(prompt)} chars)")
-        set_current_work(slug, "tag")
-        output = call_m3(prompt, dry_run=dry_run)
+        if not dry_run:
+            set_current_work(slug, "tag")
+        output = _call_m3_measured(prompt, slug, "tag", len(text), dry_run=dry_run)
         if output is None or dry_run:
             return dry_run
         obj = parse_tag_json(output)
@@ -635,36 +924,42 @@ def tag_one(slug: str, role: str, whitelist: set[str], skip_done: bool = False, 
         chapters = split_chapters(text)
         groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)
         print(f"  [chunk] {slug} (tag): {len(chapters)} chapters → {len(groups)} chunks")
-        got_any = False
         for i, group in enumerate(groups, 1):
             chunk_text = "\n".join(group)
             note = f"**本經分 {len(groups)} 段，這是第 {i}/{len(groups)} 段，只針對本段抽標籤。**"
-            prompt = build_tag_prompt(role, slug, meta, chunk_text, whitelist, note)
+            prompt = build_tag_prompt(role, slug, meta, chunk_text, whitelist, psych_whitelist, note)
             print(f"    [chunk {i}/{len(groups)}] {slug} (tag)")
-            set_current_work(slug, "tag", i, len(groups))
-            output = call_m3(prompt, dry_run=dry_run)
+            if not dry_run:
+                set_current_work(slug, "tag", i, len(groups))
+            output = _call_m3_measured(prompt, slug, "tag", len(chunk_text), i, len(groups),
+                                       dry_run=dry_run)
             if output is None:
-                if is_waiting_quota():
-                    return False
-                continue
+                if dry_run:
+                    continue
+                return False
             obj = parse_tag_json(output)
-            if obj:
-                ingest(obj)
-                got_any = True
-        if not got_any and not dry_run:
-            print(f"  [error] {slug} (tag): all chunks failed")
-            return False
+            if obj is None:
+                print(f"    [error] chunk {i} returned unparseable JSON for {slug} (tag)")
+                return False
+            ingest(obj)
 
     if dry_run:
         return True
     semantic_tags = sorted(sem)
+    psych_tags = sorted(psych)[:5]
     keywords = kw[:15]
-    merge_meta_tags(slug, semantic_tags, keywords)
-    print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} tags, {len(keywords)} keywords")
+    if not semantic_tags or not psych_tags:
+        print(f"  [error] {slug} (tag): empty controlled tag axis; metadata unchanged")
+        return False
+    merge_meta_tags(slug, semantic_tags, psych_tags, keywords)
+    print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} semantic, "
+          f"{len(psych_tags)} psych, {len(keywords)} keywords")
     return True
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug", help="single slug to process")
     ap.add_argument("--core", action="store_true", help="process all tier=核心 slugs (from meta.json)")
@@ -691,6 +986,7 @@ def main():
     print(f"targets: {len(targets)} × tasks: {tasks}")
 
     whitelist = load_tag_whitelist() if "tag" in tasks else set()
+    psych_whitelist = load_psych_tag_whitelist() if "tag" in tasks else set()
     total_ok = 0
     total = len(targets) * len(tasks)
     for task in tasks:
@@ -699,7 +995,7 @@ def main():
         role = load_role(task)
         for slug in targets:
             if task == "tag":
-                ok = tag_one(slug, role, whitelist, args.skip_done, args.dry_run)
+                ok = tag_one(slug, role, whitelist, psych_whitelist, args.skip_done, args.dry_run)
             else:
                 ok = translate_one(slug, task, role, args.skip_done, args.dry_run)
             if ok:
@@ -708,4 +1004,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if not acquire_run_lock():
+        sys.exit(0)
+    try:
+        main()
+    finally:
+        release_run_lock()

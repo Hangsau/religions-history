@@ -24,3 +24,10 @@ logs/supervisor.pid
 logs/pipeline-alert.txt
 logs/pipeline-HALT.flag
 logs/quota-watch.log
+logs/quota-watch.pid
+logs/auto-pipeline.lock
+logs/pipeline-metrics.jsonl
+logs/pipeline-checkpoints/
+logs/pipeline-runtime.json
+logs/pipeline-failed.json
+logs/pipeline-failed.lock

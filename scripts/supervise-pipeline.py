@@ -27,6 +27,8 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from pipeline_lock import create_pid_lock
+
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT / "logs"
 LOGS.mkdir(exist_ok=True)
@@ -60,11 +62,11 @@ def alert(msg: str) -> None:
     hb(f"[ALERT] {msg}")
 
 
-def run_once() -> tuple[int, int, int, float]:
-    """跑一次 auto-pipeline，回 (returncode, this_run, processed, elapsed_seconds)。"""
+def run_once() -> tuple[int, int, int, float, int | None, int]:
+    """Run once; return rc, queue count, processed, elapsed, retry wait, blocked count."""
     cmd = [sys.executable, str(ROOT / "scripts" / "auto-pipeline.py"), "--tier", TIER]
     env = {**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
-    this_run, processed = -1, -1
+    this_run, processed, retry_wait, blocked_only = -1, -1, None, 0
     start = time.time()
     with RUN_LOG.open("a", encoding="utf-8") as logf:
         logf.write(f"\n===== supervisor run @ {datetime.now(TZ)} =====\n")
@@ -83,8 +85,14 @@ def run_once() -> tuple[int, int, int, float]:
             m = re.search(r"done: processed (\d+)/", line)
             if m:
                 processed = int(m.group(1))
+            m = re.search(r"\[retry-wait\] next ordinary retry in (\d+)s", line)
+            if m:
+                retry_wait = int(m.group(1))
+            m = re.search(r"\[blocked-only\] (\d+) blocked items", line)
+            if m:
+                blocked_only = int(m.group(1))
         proc.wait()
-    return proc.returncode, this_run, processed, time.time() - start
+    return proc.returncode, this_run, processed, time.time() - start, retry_wait, blocked_only
 
 
 def waiting_quota() -> bool:
@@ -108,7 +116,6 @@ def main() -> None:
         return
     if ALERT.exists():
         ALERT.unlink()  # 新 supervisor 上線，清掉舊警報
-    PIDFILE.write_text(str(os.getpid()), encoding="utf-8")
     hb(f"[start] supervisor tier={TIER} pid={os.getpid()}")
     quick_strikes = 0
     noprogress = 0
@@ -116,11 +123,25 @@ def main() -> None:
         if HALT.exists():
             hb(f"[halt] 偵測到 {HALT.name}，暫停迴圈退出。刪除該檔並重啟即恢復。")
             break
-        rc, this_run, processed, elapsed = run_once()
+        rc, this_run, processed, elapsed, retry_wait, blocked_only = run_once()
         hb(f"[run] rc={rc} this_run={this_run} processed={processed} elapsed={elapsed:.0f}s")
+
+        if HALT.exists():
+            hb("[halt] worker 已在安全邊界退出，supervisor 不再啟動新一輪")
+            break
 
         if waiting_quota():
             start_quota_watcher()
+            break
+
+        if this_run == 0 and retry_wait is not None:
+            delay = max(5, min(retry_wait, 1800))
+            hb(f"[retry-wait] 目前只有未到期的一般失敗；{delay}s 後重建佇列")
+            time.sleep(delay)
+            continue
+
+        if this_run == 0 and blocked_only:
+            hb(f"[blocked] {blocked_only} 部需人工修復後 --unblock；supervisor 正常退出")
             break
 
         if this_run == 0:
@@ -152,7 +173,24 @@ def main() -> None:
     hb("[exit] supervisor 結束")
 
 
+def acquire_pidfile() -> bool:
+    """Allow only one supervisor, while recovering a stale PID file."""
+    for _ in range(2):
+        if create_pid_lock(PIDFILE):
+            return True
+        try:
+            pid = int(PIDFILE.read_text(encoding="utf-8").strip())
+            os.kill(pid, 0)
+            hb(f"[locked] supervisor 已在執行 pid={pid}，本程序退出")
+            return False
+        except (OSError, ValueError):
+            PIDFILE.unlink(missing_ok=True)
+    return False
+
+
 if __name__ == "__main__":
+    if not acquire_pidfile():
+        sys.exit(0)
     try:
         main()
     finally:

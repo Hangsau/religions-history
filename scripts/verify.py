@@ -27,9 +27,13 @@ import re
 import sys
 from pathlib import Path
 
+import pipeline_failures
+import pipeline_priority
+
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
 CHAPTER_SEP_RE = re.compile(r"^=== \d+ \|", re.MULTILINE)
+PSYCH_CONCEPTS_PATH = ROOT / "00-overview" / "concepts-psychology.md"
 
 REQUIRED_META_FIELDS = [
     "slug", "name_zh", "name_en", "name_original", "religion", "language",
@@ -45,6 +49,7 @@ def verify_one(slug: str) -> tuple[bool, list[str]]:
     base = TRANSLATIONS_DIR / slug
     meta_path = base / "meta.json"
     original_path = base / "raw" / "original.txt"
+    translation_path = base / "01-translation.md"
 
     if not meta_path.exists():
         return False, [f"meta.json missing: {meta_path}"]
@@ -84,6 +89,35 @@ def verify_one(slug: str) -> tuple[bool, list[str]]:
     if e_max is not None and actual_size > e_max:
         reasons.append(f"size {actual_size} above expected max {e_max}")
 
+    translation_complete = False
+    if translation_path.exists():
+        translation_text = translation_path.read_text(encoding="utf-8", errors="replace")
+        translation_complete = (
+            translation_path.stat().st_size > 100
+            and "<!-- CHUNK " not in translation_text
+        )
+        if "<!-- CHUNK " in translation_text:
+            reasons.append("translation contains failed chunk placeholder")
+
+    if meta.get("translation_status") == "done" and not translation_complete:
+        reasons.append("translation_status=done but translation is missing or incomplete")
+    if meta.get("tag_status") == "done" and not meta.get("semantic_tags"):
+        reasons.append("tag_status=done but semantic_tags is empty")
+    psych_vocab = set(re.findall(
+        r"^\|\s*`([a-z][a-z0-9-]+)`\s*\|",
+        PSYCH_CONCEPTS_PATH.read_text(encoding="utf-8"), re.MULTILINE,
+    )) if PSYCH_CONCEPTS_PATH.exists() else set()
+    psych_tags = meta.get("psych_tags") or []
+    invalid_psych = sorted(set(psych_tags) - psych_vocab)
+    if invalid_psych:
+        reasons.append(f"psych_tags outside whitelist: {', '.join(invalid_psych)}")
+    if meta.get("psych_tag_status") == "done" and not psych_tags:
+        reasons.append("psych_tag_status=done but psych_tags is empty")
+    if len(psych_tags) != len(set(psych_tags)):
+        reasons.append("psych_tags contains duplicates")
+    if len(psych_tags) > 5:
+        reasons.append("psych_tags contains more than 5 tags")
+
     passed = not reasons
     if passed and not meta.get("verified"):
         meta["verified"] = True
@@ -109,6 +143,26 @@ def main():
         sys.exit(2)
 
     any_fail = False
+    if args.all:
+        priority_errors = pipeline_priority.audit()
+        if priority_errors:
+            any_fail = True
+            for error in priority_errors:
+                print(f"FAIL  translation-priority: {error}")
+        else:
+            print("PASS  translation-priority")
+        try:
+            failed_state, _ = pipeline_failures.load()
+            invalid = [slug for slug, entry in failed_state["failures"].items()
+                       if entry.get("status") not in ("retryable", "blocked")]
+            if invalid:
+                any_fail = True
+                print(f"FAIL  pipeline-failed schema: invalid status for {', '.join(invalid)}")
+            else:
+                print("PASS  pipeline-failed schema")
+        except ValueError as exc:
+            any_fail = True
+            print(f"FAIL  pipeline-failed schema: {exc}")
     for s in slugs:
         ok, reasons = verify_one(s)
         if ok:

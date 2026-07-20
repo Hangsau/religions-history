@@ -22,6 +22,8 @@ from pathlib import Path
 import status  # 同目錄；沿用其資料 helper
 
 REFRESH_MS = 30_000
+RUNTIME_STALE_SECS = 20 * 60
+FAILED_CHUNK_RE = re.compile(r"CHUNK \d+/\d+ FAILED")
 SCRIPTS = Path(__file__).resolve().parent
 PIDFILE = status.LOGS / "supervisor.pid"
 HALT = status.LOGS / "pipeline-HALT.flag"  # 存在即人工暫停：刊版不復活 supervisor
@@ -85,6 +87,60 @@ def fmt_ago(sec: float) -> str:
     return f"{int(sec / 86400)} 天前"
 
 
+def load_runtime(now: float | None = None) -> dict:
+    """Load runtime state defensively and annotate whether it is still fresh."""
+    try:
+        runtime = json.loads(RUNTIME.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError, TypeError):
+        return {}
+    if not isinstance(runtime, dict):
+        return {}
+    stamp = runtime.get("updated_at") or runtime.get("request_started_at")
+    try:
+        age = (now if now is not None else time.time()) - datetime.fromisoformat(stamp).timestamp()
+    except (TypeError, ValueError):
+        runtime["_fresh"] = False
+        return runtime
+    runtime["_age"] = max(0, age)
+    runtime["_fresh"] = age <= RUNTIME_STALE_SECS
+    if runtime.get("status") == "waiting_quota":
+        try:
+            # A legitimate 30-minute backoff is intentionally quiet; it stays live
+            # through its announced retry time instead of being mislabeled stale.
+            runtime["_fresh"] = datetime.fromisoformat(runtime["next_retry_at"]).timestamp() >= (
+                now if now is not None else time.time())
+        except (KeyError, TypeError, ValueError):
+            pass
+    return runtime
+
+
+def publication_blockers(root: Path | None = None) -> list[str]:
+    """Return translation slugs whose publishable file still has a failed chunk."""
+    translations = root or status.TRANSLATIONS_DIR
+    blocked = []
+    for path in translations.glob("*/01-translation.md"):
+        try:
+            if FAILED_CHUNK_RE.search(path.read_text(encoding="utf-8", errors="replace")):
+                blocked.append(path.parent.name)
+        except OSError:
+            continue
+    return sorted(blocked)
+
+
+def completion_counts(metas: list[dict]) -> dict:
+    """Keep the four board completion axes explicit and independently testable."""
+    return {
+        "tr_done": sum(1 for m in metas if m.get("translation_status") == "done"),
+        "semantic_done": sum(1 for m in metas if status.semantic_complete(m)),
+        "psych_done": sum(1 for m in metas if status.psych_complete(m)),
+        "fully_done": sum(
+            1 for m in metas
+            if m.get("translation_status") == "done"
+            and status.semantic_complete(m)
+            and status.psych_complete(m)),
+    }
+
+
 ACTION_ZH = {"translate": "經文翻譯", "tag": "語義標籤", "annotate": "白話註釋"}
 
 # ---- 配色：departure board / NOC 監控牆（深色面板 + 琥珀/綠燈號）----
@@ -102,11 +158,11 @@ FONT   = "Microsoft JhengHei"  # CJK 安全、無 italic 偽斜
 F_TITLE = (FONT, 17, "bold")
 F_BIG   = (FONT, 22, "bold")
 F_SEC   = (FONT, 11, "bold")
-F_ROW   = (FONT, 10)
-F_SMALL = (FONT, 9)
+F_ROW   = (FONT, 12)
+F_SMALL = (FONT, 11)
 
 
-def pipeline_health(now: float) -> dict:
+def pipeline_health(now: float, runtime: dict | None = None) -> dict:
     """讀 PIPELINE_STATUS.md + supervisor-run.log + 警報檔，判斷翻譯管線是否真停擺。
 
     2026-07-04 事故：auto-pipeline 被 session 關閉靜默殺掉、無人察覺 5 小時。
@@ -120,11 +176,8 @@ def pipeline_health(now: float) -> dict:
     alert_f = status.LOGS / "pipeline-alert.txt"
     run_log = status.LOGS / "supervisor-run.log"
 
-    try:
-        runtime = json.loads(RUNTIME.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        runtime = {}
-    if runtime.get("status") == "waiting_quota":
+    runtime = runtime if runtime is not None else load_runtime(now)
+    if runtime.get("status") == "waiting_quota" and runtime.get("_fresh", True):
         retry_at = runtime.get("next_retry_at")
         try:
             remaining = max(0, int(datetime.fromisoformat(retry_at).timestamp() - now))
@@ -161,7 +214,14 @@ def pipeline_health(now: float) -> dict:
     current = cm.group(1).strip() if cm else "?"
     rm = re.search(r"失敗待重試：\*{0,2}(\d+)", txt)
     retry = int(rm.group(1)) if rm else 0
-    base = {"done": done, "total": total, "current": current, "retry": retry}
+    bm = re.search(r"已阻塞待人工處理：(\d+)", txt)
+    blocked = int(bm.group(1)) if bm else 0
+    pm = re.search(r"P0 尚未完整翻譯：(\d+)", txt)
+    p0_pending = int(pm.group(1)) if pm else 0
+    if runtime.get("status") == "running" and runtime.get("_fresh"):
+        current = runtime.get("slug") or current
+    base = {"done": done, "total": total, "current": current, "retry": retry,
+            "blocked": blocked, "p0_pending": p0_pending}
 
     if (total and done >= total) or current.startswith("(完成"):
         return {**base, "color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
@@ -178,12 +238,20 @@ def pipeline_health(now: float) -> dict:
         return {**base, "color": BAD,
                 "text": f"⚠ 翻譯管線疑停擺：停在 {done}/{total} @ {current}，"
                         f"chunk 級 {fmt_ago(live_age)}無動作"}
+    live_detail = ""
+    if runtime.get("status") == "running" and runtime.get("_fresh"):
+        chunk = runtime.get("chunk")
+        chunks_total = runtime.get("chunks_total")
+        chunk_text = f" chunk {chunk}/{chunks_total}" if chunk and chunks_total else ""
+        live_detail = f" · {ACTION_ZH.get(runtime.get('task'), runtime.get('task') or '?')}{chunk_text}"
+    elif runtime and not runtime.get("_fresh"):
+        live_detail = " · runtime 已逾期，顯示持久狀態"
     return {**base, "color": DONE,
-            "text": f"翻譯管線運行中：{done}/{total} @ {current}"
+            "text": f"翻譯管線運行中：{done}/{total} @ {current}{live_detail}"
                     f"（chunk {fmt_ago(run_age)}活動）"}
 
 
-def translation_activity(now: float) -> dict:
+def translation_activity(now: float, runtime: dict | None = None) -> dict:
     """解析 supervisor-run.log，回傳翻譯管線的即時動作：
     正在翻哪部、做什麼（翻譯/標籤）、第幾 chunk、用哪家模型、本次速度。
     看板據此顯示『現在正在做什麼』，直接回答『是不是沒在動』。
@@ -193,14 +261,14 @@ def translation_activity(now: float) -> dict:
          "fallbacks": 0, "errors": 0, "done_run": 0, "pace_hr": None,
          "eta_h": None, "last_ago": None, "last_done": None}
     run_log = status.LOGS / "supervisor-run.log"
-    if not run_log.exists():
-        return d
-    try:
-        lines = [l for l in run_log.read_text(encoding="utf-8", errors="replace").splitlines()
-                 if l.strip()]
-    except OSError:
-        return d
-    d["last_ago"] = fmt_ago(now - run_log.stat().st_mtime)
+    lines = []
+    if run_log.exists():
+        try:
+            lines = [l for l in run_log.read_text(encoding="utf-8", errors="replace").splitlines()
+                     if l.strip()]
+            d["last_ago"] = fmt_ago(now - run_log.stat().st_mtime)
+        except OSError:
+            lines = []
 
     # 取最後一個 run 區塊（避開上一輪殘留）
     start_idx, run_start = 0, None
@@ -258,6 +326,17 @@ def translation_activity(now: float) -> dict:
                 d["name"] = json.loads(mp.read_text(encoding="utf-8")).get("name_zh")
             except (OSError, json.JSONDecodeError):
                 pass
+    if runtime and runtime.get("status") == "running" and runtime.get("_fresh"):
+        d["current"] = runtime.get("slug") or d["current"]
+        d["action"] = runtime.get("task") or d["action"]
+        if runtime.get("chunk") and runtime.get("chunks_total"):
+            d["chunk"] = f"{runtime['chunk']}/{runtime['chunks_total']}"
+        mp = status.TRANSLATIONS_DIR / d["current"] / "meta.json" if d["current"] else None
+        if mp and mp.exists():
+            try:
+                d["name"] = json.loads(mp.read_text(encoding="utf-8")).get("name_zh")
+            except (OSError, json.JSONDecodeError):
+                pass
     return d
 
 
@@ -271,7 +350,7 @@ def collect() -> dict:
 
     d["coverage"] = []
     for key, label in status.ALIGN_FIELDS:
-        c = sum(1 for m in metas if status.filled(m.get(key)))
+        c = sum(1 for m in metas if status.field_complete(m, key))
         d["coverage"].append((label, key, c, len(metas), 100 * c / n))
 
     tiers = []
@@ -279,13 +358,12 @@ def collect() -> dict:
     tot = Counter(m.get("tier") for m in metas)
     for t in ["核心", "次要", "總集"]:
         tt = tot.get(t, 0)
-        done = sum(1 for m in metas if m.get("tier") == t
-                   and status.filled(m.get("era")) and status.filled(m.get("genre"))
-                   and status.filled(m.get("semantic_tags")))
+        done = sum(1 for m in metas if m.get("tier") == t and status.classification_complete(m))
         tiers.append((t, done, tt, 100 * done / tt if tt else 0))
     d["tiers"] = tiers
 
-    d["tr_done"] = sum(1 for m in metas if m.get("translation_status") == "done")
+    d.update(completion_counts(metas))
+    d["publish_blockers"] = publication_blockers()
     d["classify_ok"] = status.log_ok_count("classify-core.log")
     d["classify_last"] = status.log_tail("classify-core.log")
 
@@ -299,14 +377,17 @@ def collect() -> dict:
         d["dl_landed_30m"] = sum(1 for p in paths if now - p.stat().st_mtime < 1800)
     else:
         d["dl_newest"], d["dl_newest_ago"], d["dl_landed_30m"] = "—", "—", 0
-    d["pipe"] = pipeline_health(now)
+    runtime = load_runtime(now)
+    d["pipe"] = pipeline_health(now, runtime)
 
     # ---- 翻譯即時動作（Pipeline B/C）----
-    act = translation_activity(now)
+    act = translation_activity(now, runtime)
     total, done, pace = d["pipe"].get("total"), d["pipe"].get("done"), act["pace_hr"]
     if total and done is not None and pace and done < total:
         act["eta_h"] = (total - done) / pace
     act["retry"] = d["pipe"].get("retry", 0)
+    act["blocked"] = d["pipe"].get("blocked", 0)
+    act["p0_pending"] = d["pipe"].get("p0_pending", 0)
     d["act"] = act
 
     dl_logs = list(status.LOGS.glob("pipeline-a*.log"))
@@ -331,6 +412,7 @@ class Board:
         container.configure(bg=BG)
 
         self.rows = {}   # key -> (canvas, count_label)
+        self._refresh_job = None
         self._build_static()
         self.refresh()
 
@@ -351,7 +433,28 @@ class Board:
         self.rows[key] = (cv, cnt)
 
     def _build_static(self):
-        head = tk.Frame(self.root, bg=BG)
+        foot = tk.Frame(self.root, bg=BG)
+        foot.pack(side="bottom", fill="x", pady=8)
+        tk.Button(foot, text="立即重新整理", command=self.refresh,
+                  bg=PANEL, fg=FG, font=F_SMALL, relief="flat",
+                  activebackground=TRACK, activeforeground=FG,
+                  padx=12, pady=4).pack()
+
+        scroll = tk.Frame(self.root, bg=BG)
+        scroll.pack(fill="both", expand=True)
+        self.scroll_canvas = tk.Canvas(scroll, bg=BG, highlightthickness=0)
+        scrollbar = tk.Scrollbar(scroll, orient="vertical", command=self.scroll_canvas.yview)
+        scrollbar.pack(side="right", fill="y")
+        self.scroll_canvas.pack(side="left", fill="both", expand=True)
+        self.scroll_canvas.configure(yscrollcommand=scrollbar.set)
+        self.body = tk.Frame(self.scroll_canvas, bg=BG)
+        self._body_window = self.scroll_canvas.create_window((0, 0), window=self.body, anchor="nw")
+        self.body.bind("<Configure>", lambda _e: self.scroll_canvas.configure(
+            scrollregion=self.scroll_canvas.bbox("all")))
+        self.scroll_canvas.bind("<Configure>", self._resize_body)
+        self.scroll_canvas.bind_all("<MouseWheel>", self._on_mousewheel)
+
+        head = tk.Frame(self.body, bg=BG)
         head.pack(fill="x", pady=(14, 0))
         tk.Label(head, text="religions-history 刊版", bg=BG, fg=HEAD,
                  font=F_TITLE, anchor="w").pack(fill="x", padx=18)
@@ -363,49 +466,52 @@ class Board:
                              wraplength=640, justify="left")
         self.pipe.pack(fill="x", padx=18, pady=(6, 0))
 
-        self._section(self.root, "翻譯管線 · 現在正在做什麼")
-        self.act_now = tk.Label(self.root, text="—", bg=BG, fg=PROG, font=(FONT, 12, "bold"),
+        self._section(self.body, "翻譯管線 · 現在正在做什麼")
+        self.act_now = tk.Label(self.body, text="—", bg=BG, fg=PROG, font=(FONT, 14, "bold"),
                                 anchor="w", wraplength=640, justify="left")
         self.act_now.pack(fill="x", padx=18)
-        self.act_do = tk.Label(self.root, text="—", bg=BG, fg=FG, font=F_ROW,
+        self.act_do = tk.Label(self.body, text="—", bg=BG, fg=FG, font=F_ROW,
                                anchor="w", wraplength=640, justify="left")
         self.act_do.pack(fill="x", padx=18, pady=(2, 0))
-        self.act_meta = tk.Label(self.root, text="—", bg=BG, fg=MUTED, font=F_SMALL,
+        self.act_meta = tk.Label(self.body, text="—", bg=BG, fg=MUTED, font=F_SMALL,
                                  anchor="w", wraplength=640, justify="left")
         self.act_meta.pack(fill="x", padx=18, pady=(2, 0))
 
-        self._section(self.root, "對齊覆蓋率（欄位回填進度）")
+        self._section(self.body, "對齊覆蓋率（欄位回填進度）")
         for label, key in [(l, k) for (k, l) in status.ALIGN_FIELDS]:
-            self._bar_row(self.root, "cov:" + key, label)
+            self._bar_row(self.body, "cov:" + key, label)
 
-        self._section(self.root, "M3 分類進度（era + genre + tags 三者齊全）")
+        self._section(self.body, "M3 分類進度（era + genre + semantic + psych 齊全）")
         for t in ["核心", "次要", "總集"]:
-            self._bar_row(self.root, "tier:" + t, "tier " + t)
+            self._bar_row(self.body, "tier:" + t, "tier " + t)
 
-        self._section(self.root, "收集 / 下載（Pipeline A）")
-        self.dl_label = tk.Label(self.root, text="—", bg=BG, fg=FG, font=F_ROW,
+        self._section(self.body, "收集 / 下載（Pipeline A）")
+        self.dl_label = tk.Label(self.body, text="—", bg=BG, fg=FG, font=F_ROW,
                                  anchor="w", justify="left")
         self.dl_label.pack(fill="x", padx=18)
-        self.dl_log = tk.Label(self.root, text="—", bg=BG, fg=MUTED, font=F_SMALL,
+        self.dl_log = tk.Label(self.body, text="—", bg=BG, fg=MUTED, font=F_SMALL,
                                anchor="w", wraplength=600, justify="left")
         self.dl_log.pack(fill="x", padx=18)
 
-        self._section(self.root, "翻譯進度")
-        self.tr_label = tk.Label(self.root, text="—", bg=BG, fg=FG,
-                                 font=F_ROW, anchor="w")
+        self._section(self.body, "內容完成與發布門檻")
+        self.tr_label = tk.Label(self.body, text="—", bg=BG, fg=FG,
+                                 font=F_ROW, anchor="w", justify="left")
         self.tr_label.pack(fill="x", padx=18)
 
-        self._section(self.root, "背景分類管線（classify）")
-        self.cls_label = tk.Label(self.root, text="—", bg=BG, fg=FG, font=F_SMALL,
+        self._section(self.body, "背景分類管線（classify）")
+        self.cls_label = tk.Label(self.body, text="—", bg=BG, fg=FG, font=F_SMALL,
                                   anchor="w", wraplength=600, justify="left")
         self.cls_label.pack(fill="x", padx=18)
 
-        foot = tk.Frame(self.root, bg=BG)
-        foot.pack(side="bottom", fill="x", pady=10)
-        tk.Button(foot, text="立即重新整理", command=self.refresh,
-                  bg=PANEL, fg=FG, font=F_SMALL, relief="flat",
-                  activebackground=TRACK, activeforeground=FG,
-                  padx=12, pady=4).pack()
+    def _resize_body(self, event):
+        self.scroll_canvas.itemconfigure(self._body_window, width=event.width)
+        wrap = max(280, event.width - 40)
+        for label in (self.pipe, self.act_now, self.act_do, self.act_meta,
+                      self.dl_log, self.tr_label, self.cls_label):
+            label.config(wraplength=wrap)
+
+    def _on_mousewheel(self, event):
+        self.scroll_canvas.yview_scroll(int(-event.delta / 120), "units")
 
     def _draw_bar(self, key, count, total, pct):
         cv, cnt = self.rows[key]
@@ -451,38 +557,67 @@ class Board:
             extra.append(f"錯誤 {a['errors']}")
         if a.get("retry"):
             extra.append(f"待重試 {a['retry']} 部")
+        if a.get("blocked"):
+            extra.append(f"blocked {a['blocked']} 部")
+        if a.get("p0_pending"):
+            extra.append(f"P0 未完成 {a['p0_pending']} 部")
         if a.get("last_done"):
             extra.append(f"最近完成 {a['last_done']}")
         last = f"最後動作 {a['last_ago']}" if a.get("last_ago") else ""
         tail = ("　·　" + "　·　".join(extra)) if extra else ""
         self.act_meta.config(text=f"速度 {pace}{eta}　·　{last}{tail}")
 
+    def _schedule_refresh(self):
+        if self._refresh_job is not None:
+            try:
+                self.root.after_cancel(self._refresh_job)
+            except (tk.TclError, ValueError):
+                pass
+        self._refresh_job = self.root.after(REFRESH_MS, self.refresh)
+
     def refresh(self):
-        ensure_supervisor()  # 每次刷新順手確保管線活著（刊版兼監督）
-        d = collect()
-        ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
-        self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
-        self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
-        self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
-        self._draw_activity(d["act"])
+        if self._refresh_job is not None:
+            try:
+                self.root.after_cancel(self._refresh_job)
+            except (tk.TclError, ValueError):
+                pass
+            self._refresh_job = None
+        try:
+            ensure_supervisor()  # 每次刷新順手確保管線活著（刊版兼監督）
+            d = collect()
+            ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
+            self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
+            self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
+            self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
+            self._draw_activity(d["act"])
 
-        for label, key, c, tot, pct in d["coverage"]:
-            self._draw_bar("cov:" + key, c, tot, pct)
-        for t, done, tot, pct in d["tiers"]:
-            self._draw_bar("tier:" + t, done, tot, pct)
+            for label, key, c, tot, pct in d["coverage"]:
+                self._draw_bar("cov:" + key, c, tot, pct)
+            for t, done, tot, pct in d["tiers"]:
+                self._draw_bar("tier:" + t, done, tot, pct)
 
-        self.dl_label.config(
-            text=f"最新收錄：{d['dl_newest']}（{d['dl_newest_ago']}）"
-                 f"　·　近 30 分 +{d['dl_landed_30m']} 部")
-        self.dl_log.config(
-            text=f"下載日誌 {d['dl_log_name']}（{d['dl_log_ago']}）：{d['dl_log_tail']}")
+            self.dl_label.config(
+                text=f"最新收錄：{d['dl_newest']}（{d['dl_newest_ago']}）"
+                     f"　·　近 30 分 +{d['dl_landed_30m']} 部")
+            self.dl_log.config(
+                text=f"下載日誌 {d['dl_log_name']}（{d['dl_log_ago']}）：{d['dl_log_tail']}")
 
-        self.tr_label.config(
-            text=f"translation_status == done：{d['tr_done']} / {d['n']} 部已翻譯")
-        self.cls_label.config(
-            text=f"日誌已分類 {d['classify_ok']} 部\n最新：{d['classify_last']}")
-
-        self.root.after(REFRESH_MS, self.refresh)
+            blockers = d["publish_blockers"]
+            blocker_text = (f"發布阻塞：{len(blockers)} 份翻譯仍含 FAILED chunk"
+                            + (f"（{', '.join(blockers[:5])}{'…' if len(blockers) > 5 else ''}）"
+                               if blockers else "；完整翻譯門檻通過"))
+            self.tr_label.config(
+                text=f"已翻譯 {d['tr_done']} / {d['n']}　·　semantic tags {d['semantic_done']} / {d['n']}\n"
+                     f"psych tags {d['psych_done']} / {d['n']}　·　三軸全完成 {d['fully_done']} / {d['n']}\n"
+                     f"{blocker_text}",
+                fg=BAD if blockers else DONE)
+            self.cls_label.config(
+                text=f"日誌已分類 {d['classify_ok']} 部\n最新：{d['classify_last']}")
+        except Exception as exc:
+            self.pipe.config(text=f"⚠ 刊版刷新失敗：{type(exc).__name__}: {exc}", fg=BAD)
+            self.stamp.config(text="本次資料未更新；30 秒後自動重試")
+        finally:
+            self._schedule_refresh()
 
 
 def main():

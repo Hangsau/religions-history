@@ -17,6 +17,8 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+from translate import has_complete_translation
+
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
 OVERVIEW_DIR = ROOT / "00-overview"
@@ -128,8 +130,12 @@ def main():
         if _suspect_transliteration(meta):
             translit_suspects.append({"slug": slug, "name_zh": meta.get("name_zh", ""),
                                       "religion": rel})
-        tr_done = (TRANSLATIONS_DIR / slug / "01-translation.md").exists()
-        tag_done = bool(meta.get("tag_status") == "done" and meta.get("semantic_tags"))
+        translation_path = TRANSLATIONS_DIR / slug / "01-translation.md"
+        tr_done = (meta.get("translation_status") == "done"
+                   and has_complete_translation(translation_path))
+        tag_done = bool(
+            meta.get("tag_status") == "done" and meta.get("semantic_tags")
+            and meta.get("psych_tag_status") == "done" and meta.get("psych_tags"))
         native_ratio = _native_script_ratio(slug)
         by_religion[rel].append({
             "slug": slug,
