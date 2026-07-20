@@ -23,6 +23,11 @@
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
     }
   ],
   "change-transformation": [
@@ -42,6 +47,11 @@
       "religion": "道教"
     },
     {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
@@ -52,6 +62,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
@@ -60,6 +75,11 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "communication-being-understood": [
@@ -93,6 +113,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -120,9 +145,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教"
     }
   ],
   "evil-cruelty-empathy": [
@@ -149,6 +184,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "jonah",
+      "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
@@ -169,6 +214,11 @@
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
     },
     {
       "slug": "haggai",
@@ -199,6 +249,11 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "freewill-fate-choice": [
@@ -240,6 +295,11 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "honesty-hypocrisy": [
@@ -266,6 +326,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
@@ -289,6 +354,11 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
     }
   ],
   "illness-body": [
@@ -317,6 +387,11 @@
   ],
   "justice-power": [
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -325,6 +400,18 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "zephaniah",
+      "name_zh": "西番雅書",
+      "religion": "猶太教"
+    }
+  ],
+  "loneliness-belonging": [
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教"
     }
   ],
   "love-sex-intimacy": [
@@ -356,6 +443,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "habakkuk",
+      "name_zh": "哈巴谷書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
@@ -383,7 +475,19 @@
       "religion": "基督教"
     }
   ],
+  "perfectionism-self-criticism": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    }
+  ],
   "responsibility-leadership": [
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    },
     {
       "slug": "great-learning",
       "name_zh": "大學",
@@ -412,6 +516,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -430,6 +539,11 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教"
     },
     {
       "slug": "taiji-tushuo",
@@ -454,6 +568,11 @@
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
     },
     {
       "slug": "heart-sutra-xuanzang",
@@ -483,6 +602,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "doctrine-of-the-mean",
+      "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
@@ -496,6 +620,11 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "sn9-vana",
+      "name_zh": "SN9 林相應",
+      "religion": "佛教"
     },
     {
       "slug": "taiji-tushuo",
