@@ -213,6 +213,11 @@
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
     }
   ],
   "body-mind": [
@@ -382,6 +387,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -541,6 +551,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -549,6 +569,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-euthyphro-el",
@@ -598,6 +623,11 @@
     {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
       "religion": "佛教"
     }
   ],
@@ -738,6 +768,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -818,6 +853,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
@@ -861,6 +901,11 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
     },
     {
       "slug": "wuzhen-pian",
@@ -1057,6 +1102,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1065,6 +1115,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-euthyphro-el",
@@ -1117,6 +1172,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
@@ -1140,6 +1200,11 @@
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
+    },
+    {
+      "slug": "vimalakirti-sutra",
+      "name_zh": "維摩詰所說經",
+      "religion": "佛教"
     }
   ],
   "death": [
@@ -1314,6 +1379,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
@@ -1342,6 +1412,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "prashna-upanishad",
@@ -1431,6 +1506,11 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
       "religion": "佛教"
     },
     {
@@ -1670,6 +1750,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
@@ -1677,6 +1762,11 @@
     {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
       "religion": "佛教"
     },
     {
@@ -1722,6 +1812,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -1740,6 +1835,11 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sn56-sacca",
+      "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
     },
     {
       "slug": "vedanta-vivekacudamani",
@@ -1834,14 +1934,29 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
       "religion": "猶太教"
     },
     {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    },
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-euthyphro-el",
@@ -2061,6 +2176,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
@@ -2229,6 +2349,11 @@
     {
       "slug": "ezra",
       "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
       "religion": "猶太教"
     },
     {
