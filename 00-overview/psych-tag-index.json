@@ -1,6 +1,11 @@
 {
   "aging-time": [
     {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -11,6 +16,11 @@
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
     },
     {
       "slug": "huangting-waijing",
@@ -57,6 +67,11 @@
       "religion": "道教"
     },
     {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
@@ -84,6 +99,11 @@
   ],
   "communication-being-understood": [
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
@@ -99,6 +119,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
     }
   ],
   "death": [
@@ -113,6 +138,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
@@ -121,6 +151,16 @@
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
     },
     {
       "slug": "taiji-tushuo",
@@ -189,13 +229,28 @@
       "religion": "猶太教"
     },
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
     },
     {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
     },
     {
@@ -251,6 +306,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
@@ -258,9 +318,21 @@
   ],
   "freewill-fate-choice": [
     {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "gender-body": [
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
     }
   ],
   "giving-generosity": [
@@ -281,6 +353,11 @@
     }
   ],
   "guilt-atonement": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
     {
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
@@ -307,6 +384,11 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "sblgnt-3-john",
@@ -341,6 +423,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
@@ -362,6 +449,11 @@
     }
   ],
   "illness-body": [
+    {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
     {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
@@ -392,6 +484,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -405,6 +502,18 @@
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
+    }
+  ],
+  "living-with-unknown": [
+    {
+      "slug": "jain-aptamimamsa-sa",
+      "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "sblgnt-2-peter",
+      "name_zh": "彼得後書（希臘原文）",
+      "religion": "基督教"
     }
   ],
   "loneliness-belonging": [
@@ -424,6 +533,13 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "marriage-family": [
+    {
+      "slug": "malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "猶太教"
     }
   ],
   "meaning-of-suffering": [
@@ -531,6 +647,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "huangting-neijing",
+      "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -583,6 +704,11 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "sn5-bhikkhuni",
+      "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
     },
     {
       "slug": "taiji-tushuo",
