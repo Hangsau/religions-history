@@ -90,6 +90,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "nyaya-sutra",
+      "name_zh": "正理經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -169,6 +179,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sblgnt-1-timothy",
       "name_zh": "提摩太前書（希臘原文）",
       "religion": "基督教"
@@ -221,6 +236,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -234,6 +254,16 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
     },
     {
       "slug": "qingjing-jing",
@@ -343,6 +373,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
@@ -367,6 +402,11 @@
     {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
     },
     {
@@ -452,6 +492,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
@@ -460,6 +505,11 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
     },
     {
       "slug": "huangting-neijing",
@@ -495,6 +545,21 @@
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "nyaya-sutra",
+      "name_zh": "正理經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
     },
     {
       "slug": "samkhya-karika",
@@ -619,6 +684,11 @@
   ],
   "dreams-unconscious": [
     {
+      "slug": "nyaya-sutra-gautama",
+      "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
@@ -639,6 +709,16 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "nyaya-sutra",
+      "name_zh": "正理經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "perfect-enlightenment-sutra",
+      "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
     },
     {
       "slug": "qingjing-jing",
@@ -792,6 +872,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
@@ -815,6 +900,11 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "nyaya-sutra",
+      "name_zh": "正理經",
+      "religion": "印度教"
     },
     {
       "slug": "sblgnt-1-john",
@@ -1031,6 +1121,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "nyaya-sutra",
+      "name_zh": "正理經",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-galatians",
       "name_zh": "加拉太書（希臘原文）",
       "religion": "基督教"
@@ -1082,6 +1177,11 @@
   ],
   "gratitude-contentment": [
     {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1096,6 +1196,11 @@
     {
       "slug": "amos",
       "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
       "religion": "猶太教"
     },
     {
@@ -1275,6 +1380,11 @@
   ],
   "illness-body": [
     {
+      "slug": "hosea",
+      "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
@@ -1379,6 +1489,11 @@
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
     },
     {
       "slug": "jain-aptamimamsa-sa",
@@ -1506,6 +1621,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -1594,6 +1714,13 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "nihilism-void": [
+    {
+      "slug": "ecclesiastes",
+      "name_zh": "傳道書",
+      "religion": "猶太教"
     }
   ],
   "patience-waiting": [
