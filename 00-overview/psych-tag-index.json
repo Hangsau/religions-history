@@ -26,6 +26,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
@@ -95,6 +100,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
@@ -137,6 +147,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
@@ -167,6 +182,16 @@
       "slug": "sblgnt-philippians",
       "name_zh": "腓立比書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
     }
   ],
   "change-transformation": [
@@ -239,6 +264,16 @@
       "slug": "sblgnt-titus",
       "name_zh": "提多書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
     },
     {
       "slug": "sn8-vangisa",
@@ -316,6 +351,11 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
     }
   ],
   "courage": [
@@ -345,13 +385,28 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
       "religion": "佛教"
     },
     {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
     },
     {
@@ -384,6 +439,11 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -487,13 +547,28 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn11-sakka",
+      "name_zh": "SN11 帝釋相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
       "religion": "佛教"
     },
     {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
       "religion": "佛教"
     },
     {
@@ -581,6 +656,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
@@ -621,6 +706,16 @@
       "slug": "sblgnt-jude",
       "name_zh": "猶大書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "sn4-mara",
+      "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn7-brahmana",
+      "name_zh": "SN7 婆羅門相應",
+      "religion": "佛教"
     }
   ],
   "existence-why-born": [
@@ -669,6 +764,11 @@
     {
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -774,6 +874,11 @@
     {
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
       "religion": "佛教"
     },
     {
@@ -886,6 +991,11 @@
     {
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
       "religion": "佛教"
     },
     {
@@ -1266,6 +1376,11 @@
   ],
   "living-with-unknown": [
     {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -1383,6 +1498,11 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
     },
     {
@@ -1542,6 +1662,11 @@
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-vajracchedika-prajnaparamita-sa",
+      "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "diamond-sutra-kumarajiva",
