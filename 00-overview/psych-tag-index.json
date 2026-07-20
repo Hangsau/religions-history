@@ -1,12 +1,22 @@
 {
   "addiction-self-destruction": [
     {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
     }
   ],
   "aging-time": [
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
@@ -96,6 +106,11 @@
     }
   ],
   "body-mind": [
+    {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
     {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
@@ -204,6 +219,11 @@
   ],
   "boundaries-self-worth": [
     {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -225,6 +245,11 @@
     }
   ],
   "calling-vocation": [
+    {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
     {
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
@@ -249,6 +274,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-1-timothy",
@@ -283,6 +313,11 @@
   ],
   "change-transformation": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "amos",
       "name_zh": "阿摩司書",
       "religion": "猶太教"
@@ -300,6 +335,11 @@
     {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
       "religion": "佛教"
     },
     {
@@ -475,6 +515,11 @@
   ],
   "communication-being-understood": [
     {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -488,6 +533,11 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-2-john",
@@ -517,6 +567,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -535,6 +590,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-1-peter",
@@ -599,6 +659,11 @@
   ],
   "death": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
@@ -634,9 +699,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "dhammapada",
+      "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -682,6 +757,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "joel",
@@ -861,6 +941,11 @@
   ],
   "dreams-unconscious": [
     {
+      "slug": "aitareya-upanishad",
+      "name_zh": "愛多列雅奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -886,6 +971,11 @@
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "fortytwo-chapters-sutra",
@@ -1012,6 +1102,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -1099,6 +1194,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
@@ -1117,6 +1217,11 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "samkhya-sutra-kapila",
@@ -1236,6 +1341,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1276,6 +1386,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
@@ -1299,6 +1414,11 @@
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-1-john",
@@ -1366,6 +1486,11 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "nyaya-sutra",
