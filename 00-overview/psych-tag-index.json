@@ -34,9 +34,19 @@
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
     }
   ],
   "aging-time": [
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
     {
       "slug": "analects",
       "name_zh": "論語",
@@ -105,6 +115,11 @@
     {
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
       "religion": "佛教"
     },
     {
@@ -187,6 +202,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
@@ -209,6 +229,11 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
       "religion": "印度教"
     },
     {
@@ -292,6 +317,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
@@ -312,6 +342,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -329,6 +364,11 @@
   ],
   "boundaries-self-worth": [
     {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -337,6 +377,11 @@
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     },
     {
       "slug": "isha-upanishad",
@@ -376,6 +421,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
@@ -409,6 +464,11 @@
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     },
     {
       "slug": "haggai",
@@ -481,6 +541,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
@@ -500,6 +565,16 @@
     {
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
       "religion": "佛教"
     },
     {
@@ -546,6 +621,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     },
     {
       "slug": "great-learning",
@@ -668,6 +748,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn47-satipatthana",
+      "name_zh": "SN47 念處相應 (104 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
@@ -708,6 +793,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -745,6 +835,16 @@
   ],
   "communication-being-understood": [
     {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an2-twos",
+      "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
@@ -753,6 +853,11 @@
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gautama-dharmasutra",
+      "name_zh": "喬達摩法經",
+      "religion": "印度教"
     },
     {
       "slug": "gita-govinda",
@@ -809,6 +914,11 @@
     {
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an11-elevens",
+      "name_zh": "AN11 十一法集",
       "religion": "佛教"
     },
     {
@@ -1259,6 +1369,11 @@
       "religion": "道教"
     },
     {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -1418,6 +1533,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
+      "religion": "印度教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -1504,6 +1624,11 @@
     {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vedanta-vivekacudamani",
+      "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
     }
   ],
