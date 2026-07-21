@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
 """MiniMax-M3 額度自動恢復 watcher。
 
-背景常駐：週期性查 MiniMax Token Plan 的 remains API（不呼叫 LLM）。
-- 額度為零 → 依 5 → 10 → 20 → 30 分鐘退避後再查。
-- 額度回來 → 將 runtime state 切回 running、啟動 supervise-pipeline.py（detached）+ 記錄 + 自身退出。
-
-只做二元偵測（MiniMax Anthropic 相容端點不回 ratelimit header，查不到實際 5H/7D 用量）。
-不發任何通知。HALT flag 存在時停止自動恢復。
-
-用法：pythonw scripts/quota-watch-resume.py [--tier 核心] [--max-days 天]
+額度耗盡時依官方 5H/7D reset time 單次等待；官方時間不可用時才採
+5/10/20/30 分鐘 fallback。HALT flag 存在時停止自動恢復。
 """
 from __future__ import annotations
 
 import json
+import math
 import os
 import subprocess
 import sys
@@ -35,8 +30,10 @@ MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"
 QUOTA_URL = "https://www.minimax.io/v1/token_plan/remains"
 TZ = timezone(timedelta(hours=8))
 
-DEFAULT_MAX_DAYS = 10     # 安全上限：超過就自動退出，避免殭屍常駐
+DEFAULT_MAX_DAYS = 10
 BACKOFF_SECONDS = (300, 600, 1200, 1800)
+RESET_BUFFER_SECONDS = 15
+WAIT_SLICE_SECONDS = 30
 
 
 def log(msg: str) -> None:
@@ -72,52 +69,114 @@ def save_state(state: dict) -> None:
             pass
 
 
-def _iso_from_millis(value: object) -> str | None:
-    if not isinstance(value, (int, float)):
+def _percentage(value: object) -> float | None:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
         return None
-    return datetime.fromtimestamp(value / 1000, TZ).isoformat()
+    number = float(value)
+    return number if math.isfinite(number) and 0 <= number <= 100 else None
 
 
-def probe_quota() -> tuple[bool, str, dict]:
-    """讀官方 remains API，不產生 LLM 請求；回 (可恢復, 說明, 可刊版 quota 摘要)。"""
+def _datetime_from_millis(value: object) -> datetime | None:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    number = float(value)
+    if not math.isfinite(number) or number <= 0:
+        return None
+    try:
+        return datetime.fromtimestamp(number / 1000, TZ)
+    except (OSError, OverflowError, ValueError):
+        return None
+
+
+def probe_quota(now: datetime | None = None) -> tuple[str, str, dict, datetime | None]:
+    """Return usable, official_reset, or fallback with an optional retry time."""
+    now = now or datetime.now(TZ)
     if not MINIMAX_TOKEN_PATH.exists():
-        return False, "no token file", {}
+        return "fallback", "no token file", {}, None
     token = MINIMAX_TOKEN_PATH.read_text(encoding="utf-8").strip()
     req = urllib.request.Request(QUOTA_URL, method="GET", headers={
         "Authorization": f"Bearer {token}",
         "content-type": "application/json",
     })
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(req, timeout=30) as resp:
             payload = json.loads(resp.read().decode("utf-8"))
         models = payload.get("model_remains", [])
         general = next((item for item in models if item.get("model_name") == "general"), None)
         if not isinstance(general, dict):
-            return False, "quota response missing general model", {"raw_status": payload.get("base_resp")}
-        interval = general.get("current_interval_remaining_percent")
-        weekly = general.get("current_weekly_remaining_percent")
+            return "fallback", "quota response missing general model", {"raw_status": payload.get("base_resp")}, None
+        interval = _percentage(general.get("current_interval_remaining_percent"))
+        weekly = _percentage(general.get("current_weekly_remaining_percent"))
+        interval_reset = _datetime_from_millis(general.get("end_time"))
+        weekly_reset = _datetime_from_millis(general.get("weekly_end_time"))
         summary = {
             "model": "general",
             "interval_remaining_percent": interval,
             "weekly_remaining_percent": weekly,
-            "interval_resets_at": _iso_from_millis(general.get("end_time")),
-            "weekly_resets_at": _iso_from_millis(general.get("weekly_end_time")),
+            "interval_resets_at": interval_reset.isoformat() if interval_reset else None,
+            "weekly_resets_at": weekly_reset.isoformat() if weekly_reset else None,
             "interval_status": general.get("current_interval_status"),
             "weekly_status": general.get("current_weekly_status"),
         }
-        usable = isinstance(interval, (int, float)) and interval > 0 and isinstance(weekly, (int, float)) and weekly > 0
-        detail = f"5h={interval}% weekly={weekly}%"
-        return usable, detail, summary
-    except urllib.error.HTTPError as e:
-        return False, f"HTTP {e.code}", {}
-    except Exception as e:  # noqa: BLE001 網路波動等，續等
-        return False, f"err {type(e).__name__}: {e}", {}
+        if interval is None or weekly is None:
+            return "fallback", "quota response has invalid percentages", summary, None
+        exhausted_resets = []
+        if interval <= 0:
+            if interval_reset is None or interval_reset <= now:
+                return "fallback", "5h quota reset time missing or expired", summary, None
+            exhausted_resets.append(interval_reset)
+        if weekly <= 0:
+            if weekly_reset is None or weekly_reset <= now:
+                return "fallback", "weekly quota reset time missing or expired", summary, None
+            exhausted_resets.append(weekly_reset)
+        detail = f"5h={interval:g}% weekly={weekly:g}%"
+        if not exhausted_resets:
+            return "usable", detail, summary, None
+        retry_at = max(exhausted_resets) + timedelta(seconds=RESET_BUFFER_SECONDS)
+        return "official_reset", detail, summary, retry_at
+    except urllib.error.HTTPError as exc:
+        return "fallback", f"HTTP {exc.code}", {}, None
+    except Exception as exc:  # network and provider response failures use fallback
+        return "fallback", f"err {type(exc).__name__}: {exc}", {}, None
 
 
-def resume(tier: str) -> None:
+def _retry_at(state: dict) -> datetime | None:
+    value = state.get("next_retry_at")
+    if not isinstance(value, str):
+        return None
+    try:
+        parsed = datetime.fromisoformat(value)
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=TZ)
+    return parsed.astimezone(TZ)
+
+
+def _wait_until(target: datetime, mode: str, deadline: datetime) -> str:
+    while datetime.now(TZ) < target:
+        if HALT.exists():
+            return "halt"
+        if datetime.now(TZ) > deadline:
+            return "deadline"
+        state = load_state()
+        if state.get("status") != "waiting_quota":
+            return "state_changed"
+        if state.get("quota_wait_mode") != mode or _retry_at(state) != target:
+            return "target_changed"
+        remaining = (target - datetime.now(TZ)).total_seconds()
+        time.sleep(min(WAIT_SLICE_SECONDS, max(1, remaining)))
+    return "due"
+
+
+def resume(tier: str) -> bool:
+    if HALT.exists():
+        return False
     state = load_state()
+    if state.get("status") != "waiting_quota":
+        return False
     state.update(status="running", resumed_at=datetime.now(TZ).isoformat(),
-                 last_error=None, next_retry_at=None)
+                 last_error=None, next_retry_at=None, quota_wait_mode=None)
     save_state(state)
     proc = subprocess.Popen(
         [sys.executable, str(ROOT / "scripts" / "supervise-pipeline.py"), tier],
@@ -127,17 +186,23 @@ def resume(tier: str) -> None:
         close_fds=True,
     )
     log(f"[resume] 已啟動 supervise-pipeline.py tier={tier} pid={proc.pid}")
+    return True
+
+
+def _fallback_attempt(state: dict) -> int:
+    value = state.get("retry_attempt", 0)
+    return value if isinstance(value, int) and not isinstance(value, bool) and value >= 0 else 0
 
 
 def main() -> None:
     import argparse
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--tier", default="核心")
-    ap.add_argument("--max-days", type=float, default=DEFAULT_MAX_DAYS)
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--tier", default="核心")
+    parser.add_argument("--max-days", type=float, default=DEFAULT_MAX_DAYS)
+    args = parser.parse_args()
 
     deadline = datetime.now(TZ) + timedelta(days=args.max_days)
-    log(f"[start] quota-watch 啟動 backoff=5/10/20/30m tier={args.tier} "
+    log(f"[start] quota-watch 啟動 official-reset + fallback=5/10/20/30m tier={args.tier} "
         f"deadline={deadline.strftime('%Y-%m-%d %H:%M')}")
 
     if load_state().get("status") != "waiting_quota":
@@ -155,36 +220,51 @@ def main() -> None:
         if state.get("status") != "waiting_quota":
             log("[exit] 等待狀態已由其他程序解除")
             return
-        retry_text = state.get("next_retry_at")
-        if retry_text:
-            try:
-                retry_at = datetime.fromisoformat(retry_text)
-                while datetime.now(TZ) < retry_at:
-                    if HALT.exists():
-                        log("[exit] 偵測人工 HALT，停止自動恢復")
-                        return
-                    time.sleep(min(30, max(1, (retry_at - datetime.now(TZ)).total_seconds())))
-            except (TypeError, ValueError):
-                pass
-        attempt = int(state.get("retry_attempt", 0))
-        delay = BACKOFF_SECONDS[min(attempt, len(BACKOFF_SECONDS) - 1)]
-        next_retry = datetime.now(TZ) + timedelta(seconds=delay)
-        state.update(retry_attempt=attempt + 1, next_retry_at=next_retry.isoformat())
-        save_state(state)
-        ok, detail, quota = probe_quota()
-        state = load_state()
-        state["quota"] = quota
-        save_state(state)
-        if ok:
-            log(f"[detected] MiniMax 額度已恢復（{detail}），自動恢復管線")
-            resume(args.tier)
-            log("[exit] 恢復完成，watcher 退出")
+        mode = state.get("quota_wait_mode")
+        target = _retry_at(state)
+        if mode in {"official_reset", "fallback"} and target is not None and target > datetime.now(TZ):
+            wait_result = _wait_until(target, mode, deadline)
+            if wait_result == "halt":
+                log("[exit] 偵測人工 HALT，停止自動恢復")
+                return
+            if wait_result == "deadline":
+                log("[exit] 超過 max-days 安全上限仍未恢復，退出（請人工檢查 MiniMax 額度）")
+                return
+            if wait_result != "due":
+                continue
+
+        outcome, detail, quota, retry_at = probe_quota()
+        if HALT.exists():
+            log("[exit] probe 完成時偵測人工 HALT，不改狀態")
             return
         state = load_state()
-        state["last_error"] = detail
+        if state.get("status") != "waiting_quota":
+            log("[exit] probe 完成前等待狀態已由其他程序解除")
+            return
+        if quota:
+            state["quota"] = quota
+        if outcome == "usable":
+            save_state(state)
+            log(f"[detected] MiniMax 額度已恢復（{detail}），自動恢復管線")
+            if resume(args.tier):
+                log("[exit] 恢復完成，watcher 退出")
+            else:
+                log("[exit] 恢復前狀態改變，未啟動 supervisor")
+            return
+        if outcome == "official_reset" and retry_at is not None:
+            state.update(quota_wait_mode="official_reset", next_retry_at=retry_at.isoformat(),
+                         retry_attempt=0, last_error=detail)
+            save_state(state)
+            log(f"[wait] 額度耗盡（{detail}），依官方 reset 單次等待至 {retry_at.isoformat()}")
+            continue
+
+        attempt = _fallback_attempt(state) if mode == "fallback" else 0
+        delay = BACKOFF_SECONDS[min(attempt, len(BACKOFF_SECONDS) - 1)]
+        next_retry = datetime.now(TZ) + timedelta(seconds=delay)
+        state.update(quota_wait_mode="fallback", retry_attempt=attempt + 1,
+                     next_retry_at=next_retry.isoformat(), last_error=detail)
         save_state(state)
-        log(f"[wait] 仍耗盡（{detail}），{delay // 60} 分鐘後再探")
-        time.sleep(delay)
+        log(f"[wait] 官方 reset 不可用（{detail}），fallback {delay // 60} 分鐘後單次再探")
 
 
 def acquire_pidfile() -> bool:

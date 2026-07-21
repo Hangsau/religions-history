@@ -520,9 +520,9 @@ def is_waiting_quota() -> bool:
 def _wait_for_quota(error: str) -> None:
     now = datetime.now(TZ)
     _write_runtime_state(status="waiting_quota", detected_at=now.isoformat(),
-                         next_retry_at=(now + timedelta(minutes=5)).isoformat(),
+                         next_retry_at=None, quota_wait_mode=None,
                          retry_attempt=0, last_error=error, **CURRENT_WORK)
-    print("  [quota] M3 流量／額度限制；已保留目前 chunk，停止後續工作並等待自動恢復")
+    print("  [quota] M3 流量／額度限制；已保留目前 chunk，停止後續工作並等待官方 reset 自動恢復")
 
 
 def _record_generation_error(error: str) -> None:

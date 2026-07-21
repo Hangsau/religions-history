@@ -166,6 +166,9 @@ class TranslateCheckpointTests(unittest.TestCase):
             self.assertIsNone(translate.call_m3("prompt"))
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
         self.assertEqual(state["status"], "waiting_quota")
+        self.assertIsNone(state["next_retry_at"])
+        self.assertIsNone(state["quota_wait_mode"])
+        self.assertEqual(state["retry_attempt"], 0)
 
     def test_complete_translation_rejects_failed_marker(self):
         path = self.root / "translation.md"
