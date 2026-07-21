@@ -2,11 +2,6 @@
 <!-- CHUNK 1/46 FAILED — retry needed -->
 
 
-Working tree clean. **兩次 commit + push 完成**：
-
-- **fddc8731** — Pipeline B+C: an9-nines（巴利 AN9 九法集 82 章）+ kojiki-zh（上代日本語古事記 3 卷）翻譯+標籤入庫（verify PASS, M3 純翻譯）
-- **5db9077c** — HANDOFF 更新：PIPELINE_STATUS 255→258/518；記錄 samuel-2 撒母耳記下 2/46 段 mid-iteration（由 supervisor 接力剩餘 44 段）
-
 工作樹清乾淨，可正常結束。
 
 === 2 | 2 ===

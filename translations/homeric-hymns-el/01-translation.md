@@ -37,9 +37,6 @@ Semele（塞墨勒）從 Zeus（宙斯）受孕而生下你，給了喜雷之神
 
 完成。本批 2 部核心入庫 + HANDOFF 更新都已 push：
 
-- **ea6a16e8** Pipeline B+C：samuel-2（38 段 supervisor 接力完整版）+ plato-phaedrus-el（24 段新進，29 semantic_tags + 15 keywords）+ PIPELINE_STATUS 258→260/518
-- **bf8b2f93** HANDOFF 補記本批 + 修正前次「samuel-2 開跑 2/46 段」之過早判斷
-
 verify.py --all 全綠，佇列 tail 為 homeric-hymns-el 翻譯中。
 
 === 3 | 海利俄斯陳述 / 黛美特至厄琉息斯井邊 ===
@@ -2332,4 +2329,3 @@ Zeus（宙斯）之子，Καλλιόπη（卡利俄佩），你再次開篇—
 
 
 <!-- CHUNK 40/40 FAILED — retry needed -->
-

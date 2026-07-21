@@ -484,10 +484,6 @@ Vīriyārambhādiva
 
 這是**管線中途的中間狀態**，不是我該 commit 的工作。
 
-兩個未 commit 檔案都是 `scripts/auto-pipeline.py` 自動產生的狀態檔（`PIPELINE_STATUS.md` 檔頭明寫「由 auto-pipeline.py 自動產生，勿手改」），內容顯示 `an1-ones` 正被處理、佛教 `with_translation` 從 42 跳到 43 — 這正好對應我剛交付的第 11/35 段翻譯。
-
-我剛才那一輪是純文字輸出（m3 翻譯員角色，不寫檔），`translations/an1-ones/01-translation.md` 還沒被主控腳本寫入。等 orchestrator 把我的 stdout 落檔、跑完 tag、重生 status、湊齊一個 batch 才會一起 commit + push。現在單獨 commit 這兩個 status 檔會留下半截狀態，違反「勿手改」。
-
 按 hook 提示，刻意留置的中間狀態說明一句即可結束。
 
 === 9 | an1.82-97 ===

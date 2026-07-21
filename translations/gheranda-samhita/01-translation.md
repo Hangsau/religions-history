@@ -841,9 +841,6 @@ brahma-hā（殺婆羅門）、bhrūṇa-hā（殺胎），乃至 surā-pa（飲
 
 確認結果——這次不需要 commit：
 
-- **未 commit 的兩個檔案（`00-overview/PIPELINE_STATUS.md`、`00-overview/PROGRESS.json`）**：最後修改時間 11:11–11:13，均早於這次 gheranda-samhita 翻譯輸出。它們是 auto-pipeline 自動更新的狀態檔，屬於協調器 bookkeeping 範疇，由協作流程的 commit 節奏處理。
-- **本次工作產出**：純 stdout 翻譯 markdown 文字（第 12/28 段），依任務指令明確禁止寫檔。`translations/gheranda-samhita/01-translation.md` 的實際寫入由主控腳本接走 stdout 完成，不由我 commit。
-
 屬於刻意留置的中間狀態（協調器尚未執行它的 commit 週期），正常結束。
 
 === 13 | 第三品 59–72 頌 ===

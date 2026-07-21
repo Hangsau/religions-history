@@ -610,11 +610,6 @@ Llefelys 看見這事以後，知道魔鬼在阻礙他們，並透過那角攪�
 
 這是 m3 翻譯員角色的刻意中間狀態——非異常：
 
-- 我的角色限定（`tools/m3-translator-role.md` 禁忌條）明令**禁止 git 操作**（commit / push 由 orchestrator `auto-pipeline.py` 批次處理）
-- 本次輸出僅是 stdout 翻譯文字，由主控腳本接住寫入 `translations/sn45-magga/01-translation.md`（或本批次的對應 slug）
-- `?? translations/sn45-magga/01-translation.md` 即為本次翻譯產物，待 orchestrator 收齊本批 m3 結果後統一 verify + commit + push
-- `M 00-overview/PIPELINE_STATUS.md` / `M translations/sn45-magga/meta.json` 由 orchestrator 在批次收尾時更新並一起入 commit
-
 不需我這端處理，正常結束。
 
 === 4 | Peredur ab Efrog ===

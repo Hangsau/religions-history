@@ -2,18 +2,6 @@
 
 **狀態**：工作樹乾淨（兩個 commit 皆 push 成功）。
 
-**commit `0fc41c40` Pipeline B+C 4 檔批次（+10 檔）**
-- bud-ratnagotravibhaga-sa（梵文《寶性論》）2888 行 + 30 tags
-- bud-udanavarga-sa（梵文《法句優陀那》38 段）4188 行 + 27 tags
-- taittiriya-upanishad（梵文《鷓鴣氏奧義書》）2693 行 + `translation_status=done`
-- volsunga-saga-on（古諾斯語《沃爾松傳奇》）1058 行 + 29 tags
-- 同步 PIPELINE_STATUS 240→244/492、`PROGRESS.json` 各宗教 with_translation +1
-- verify.py --all 全綠
-
-**commit `b4b66269` HANDOFF 更新**
-- 新增「2026-07-10 16:10（下午）」段記錄本批次
-- 註明本 session 額外交付：hesiod-el 第 1/28 段《Θεογονία》開篇已以 m3 chunk 內容產生器角色翻譯至 stdout，由 supervisor 接力剩餘 27 段
-
 **下一棒**：supervisor 接手 hesiod-el 28 段 chunking，依 SOP 一份完整 28 段才入庫；切換 session 接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
 
 === 2 | 宙斯為王與宇宙起源 ===

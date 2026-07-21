@@ -289,22 +289,12 @@ bhagavā 去後不久，Nandaka 對 bhikkhū 說：
 
 確認：an9-nines 的 raw/ 和 meta.json 都已就位，但**沒有** 01-translation.md（我的 stdout 輸出會由 orchestrator 寫入，本 session 不寫檔）。
 
-未提交的 4 個檔案全部是 **kojiki-zh（古事記）翻譯**的成果：
-- `translations/kojiki-zh/01-translation.md`（untracked）
-- `translations/kojiki-zh/meta.json`（modified）
-- `00-overview/PIPELINE_STATUS.md`（modified）
-- `00-overview/PROGRESS.json`（modified）
-
 這些是 session 開始時已存在於 working tree 的變更（initial gitStatus 已顯示），**不屬於我這個 session 的 AN9 工作**。我這個 session 的角色被嚴格限定為「翻譯內容產生器」，指令明列禁止 git 操作：
 
 > ❌ git 操作
 > ❌ 使用 Write tool / Edit tool / Bash tool 寫檔
 
 因此我**不會**把別人的工作當作自己的 commit——這違反「驗證誠實性」與「失敗/損失事件協議」。
-
-**處理建議**（由用戶決定）：
-1. 若這 4 個檔案是另一個 session / orchestrator 留下的待 commit 成果，請用戶或 kojiki-zh 那條 pipeline 自己 commit + push（commit message 應該描述 kojiki 翻譯完成，不該由 AN9 session 冒充）
-2. 若確認這些變更要丟棄：`git restore` 即可
 
 我這個 session 的 AN9 第 8/72 段翻譯已完整輸出到上一則回應的 stdout，待 orchestrator 寫入 `translations/an9-nines/01-translation.md`。
 

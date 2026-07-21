@@ -55,8 +55,6 @@
 
 我是 m3 翻譯器，這輪只產出 sblgnt-mark 段 3/33 的譯文文字（無檔案寫入、無 git 操作）。
 
-`git status` 看到的未提交變更（PIPELINE_STATUS.md / PROGRESS.json / 三份 meta.json + 既有 3 份 01-translation.md）是先前 session 與本次任務**之前**就留下的狀態，不屬於本輪 m3 翻譯輸出。主控 orchestrator 會接續處理 commit + push + HANDOFF 更新，本 m3 session 正常結束。
-
 === 4 | 2:24-28 | 安息日的主 ===
 
 [2:24 末] 在安息日做那不可做的事。

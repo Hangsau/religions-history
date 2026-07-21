@@ -409,15 +409,6 @@ YHWH（耶和華）激動了亞述王普勒的心，與亞述王提革拉毘列�
 他們將 חֶבְרוֹן（Hebron）在 יְהוּדָה（Judah）地賜給他們，以及四周的郊野；
 城的田地和村莊，他們賜給了 כָלֵב（Caleb）。
 
-這 2 個檔案是 auto-pipeline 中間狀態，不是我剛才翻譯的產物：
-
-- `PIPELINE_STATUS.md` / `PROGRESS.json` 由 `scripts/auto-pipeline.py` 自動產生（檔頭明寫「勿手改」）
-- 差異顯示 `currently_processing` 從 `homeric-hymns-el` 切到 `chronicles-1`，翻譯計數 +1~+2 — 即正在跑 chronicles-1 批次
-- `translations/chronicles-1/` 尚無 `01-translation.md`（只有 meta.json + raw/），代表批次未完成
-- 目前有 3 個 pythonw.exe 在跑，pipeline 還在 active
-
-按先前 commits（`Pipeline B+C: ...批次 (+N 檔)`）的慣例，auto-pipeline 會在 batch 收齊後統一 commit，目前是刻意的中間狀態，不需我這邊處理。正常結束。
-
 === 12 | 12 ===
 
 這些是到大衛那裡、到洗革拉的人，當時他還因基施的兒子掃羅的緣故受困；他們是勇士，助戰的軍人。

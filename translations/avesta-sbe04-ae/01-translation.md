@@ -1,9 +1,5 @@
 Iteration 完成：working tree 乾淨，遠端已同步。
 
-**Commit 摘要**
-- `71a8a2b7` Pipeline B+C: mandukya-upanishad M3 翻譯+標籤 進庫（3 檔：01-translation.md 2975 行 + meta + PIPELINE_STATUS.md 254→255/518）
-- `53ed8886` HANDOFF：2026-07-14 凌晨（續）mandukya-upanishad 入庫 + avesta-sbe04-ae mid-iteration
-
 **判定**：這批不是刻意留置的中間狀態 — `mandukya-upanishad` 53 段 chunking 完整、`translation_status="done"`、`verify.py --all` 全綠，純 M3 翻譯（事故後 quota 穩定）。`avesta-sbe04-ae` 仍在 supervisor mid-iteration（chunk 1/56 開跑），不在本批 commit 範圍內，由 supervisor 接力完成 56 段後自行入庫。
 
 === 1 | Fargard 1（續：第三至第六敬拜，第七段結語）===

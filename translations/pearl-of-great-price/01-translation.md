@@ -465,15 +465,6 @@ II.
 
 46 到這個時候，這些事在我心中所留下的印象如此深刻，以至於睡意已從我的眼中退去，我躺在那裡，對於我所見所聽的事驚愕不已。但是，當我再次看見同一位使者來到我的床邊，並且聽見他向我重述先前那些相同的事情時，我是何等驚訝啊；他又加上一個警告，告訴我撒但會試圖引誘我（因為我父親的家境貧困），要我取得那些金頁以圖發財。他禁止我這樣做，說我取得那些金頁除了榮耀神之外，不可以有別的目的，也不可以受任何其他動機的影響，只可以是為了建立他的國度；否則……
 
-Iteration 收尾完成 — 工作樹已清空，所有改動入庫並推送。
-
-**實際處理（你說的「留置狀態」是 Pipeline B+C 跑完一輪 4 檔翻譯+標籤但未 commit 的中間狀態）：**
-
-1. `verify.py --all` → 全綠（push 前必跑，CLAUDE.md §6）
-2. **commit 39ecaa7e** — 4 檔翻譯入庫：`gisla-saga-on`（古諾斯語 1631 行，34 tags）/ `sblgnt-mark`（希臘文馬可福音 1038 行，7 tags）/ `sn46-bojjhanga`（巴利 SN46 覺支相應 184 經 2134 行，6 tags）/ `vedanta-upadeshasahasri`（梵語商羯羅《千則教誨》3236 行，28 tags）；PIPELINE_STATUS 235→**239/492**
-3. **commit ae399044** — HANDOFF.md 新增 2026-07-10 清晨 entry，含本批摘要 + pearl-of-great-price mid-iteration 提示
-4. 推送至 GitHub：`f838b61c → 39ecaa7e → ae399044`
-
 **Pearl-of-great-price 第 21/50 段翻譯**（我上次作為 m3 內容產生器的輸出）已記錄於 HANDOFF 提示中——`translations/pearl-of-great-price/01-translation.md` 此時尚未成檔是 SOP 規範（一份完整 50 段 chunking 才入庫），supervisor 接力剩餘 29 段。下次接手請對照 `logs/supervisor-run.log` 看當前 chunk 進度。
 
 據此，我依照所受的吩咐，每年歲末前往該處；每次我發現同一位使者都在那裡，在我們每次會面中，我從他領受教導與指示，得知主將要做的事，以及在末後的日子祂的國度要如何、以何種方式被治理。

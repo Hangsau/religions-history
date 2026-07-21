@@ -250,12 +250,6 @@
 
 收尾完成。
 
-**已處理**：
-- Commit `96f414a7`：Pipeline B+C 批次 — japji-sahib-pa 譯+標籤 (+1 錫克教核心) + auto-pipeline 重生的 PIPELINE_STATUS / PROGRESS.json
-- Commit `95e75e58`：HANDOFF.md 補一節記錄這個 batch
-- 兩個 commit 都推到 main (`6ab4bdfc..95e75e58`)
-- `verify.py --all` 全綠
-
 **本次 session 的 m3 章節任務**（sblgnt-hebrews 第 9 章希臘文直譯繁中）已 stdout 輸出完整 markdown，依專案設計由 orchestrator 抓 stdout 寫入 `translations/sblgnt-hebrews/01-translation.md`，本身不會出現在 working tree。
 
 Working tree 現已乾淨。

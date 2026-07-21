@@ -69,14 +69,6 @@
 
 若你希望進步，就忍受在他人眼中被視為愚鈍無知，不要讓人覺得你懂得什麼：…
 
-已 commit + push (f7a1e227)。內容：
-
-- **Pipeline B+C 譯+標（4 部）**：龍樹中論、哈達瑜伽之光、赫拉夫恩克爾薩迦、柏拉圖歐緒弗洛篇 — 全 verify PASS，semantic_tags 已回填 meta
-- **Pipeline A 收集（13 部美洲 sacred-texts 英譯）**：含 5 部核心（切羅基咒文 / 英俊湖法典 / 易洛魁儀禮 / 阿科馬創世 / 加州部落創世）+ 8 部次要
-- **auto-regenerated docs**：PIPELINE_STATUS 190→194/492，core-manifest 核心 497→504
-
-HANDOFF 已含此批次紀錄（2026-07-06 Pipeline B+C 續批次段），無需再更新。pipeline 此刻正處理 `epictetus-enchiridion-el` 第 3/11 段（已交付翻譯文字），iteration 收尾乾淨。
-
 === 4 | 論死亡、哲學、榮辱、友朋與邦國 ===
 
 死亡與流放，以及一切看似可怕之事，每日置於你眼前，尤其以死亡為最——如此你將永不思及卑微之事，亦永不會過度渴望任何事物。

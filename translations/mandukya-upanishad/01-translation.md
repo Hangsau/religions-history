@@ -424,11 +424,6 @@ vibhūti 意為展開，即 Īśvara（自在主）的創造；這是思惟創�
 
 收尾完成。
 
-- **commit dc2f2780** — Pipeline B+C：事故後 M3 重翻 joshua / judges / mimamsa-sutra-jaimini 入庫（3 new translation + 3 meta `translation_status` + `translation_models` 補欄 + PIPELINE_STATUS / PROGRESS 同步）
-- **commit b49200de** — HANDOFF：2026-07-14 凌晨 stop-hook 收尾，事故清單移除 + 標註 `mandukya-upanishad` queued 下一輪
-- verify.py --all 全綠，working tree clean，兩筆都已 push 至 `main`
-- Pipeline 計數 251 → **254 / 518**，事故 §2026-07-11 三檔 pending 全部清空
-
 === 9 | 第七節釋末、MandUpK 1.10 及釋 ===
 
 ……若 pramāṇa（量）在了知壺時，除了排除他者之外還另有所作，那麼也就等於說：切割者除了使被切諸部分的連結分離之外，還會對其中某一部分另有所作。

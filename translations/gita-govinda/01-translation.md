@@ -1255,8 +1255,6 @@ GG_10.2
 
 
 
-這是批次翻譯管線的中間狀態——我處理的是第 13/16 段（第十一章前半部），原文在 GG_11.19 處截斷。協調器（`auto-pipeline.py`）會在整批完成後統一 commit + push。目前刻意留置，不單獨 commit。
-
 — 11.31 —
 atikramya apāṅgam śravaṇa-patha-paryanta-gamana-prayāsena iva
 眼波越眼角，似欲行至耳際之途，費力而往

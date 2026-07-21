@@ -369,8 +369,6 @@ Dutiyasūriyūpamasutta
 
 ---
 
-**Stop hook 觀察**：本任務為 m3 內容產生器輸出（未觸碰檔案系統、未做 git），3 段譯文已 stdout 交給主控腳本寫入 `translations/sn46-bojjhanga/01-translation.md` 第 11–13 段。religions-history repo 的未 commit 改動應由主控 orchestrator session 處理（m3 角色禁 git 操作），屬於刻意留置的中間狀態，請主 session 收尾時依 iteration 完成流程 commit + push + 更新 HANDOFF。
-
 === 14 | sn46.14 ===
 
 相應部 46.14

@@ -679,8 +679,6 @@ dhyānantare vita
 
 觸 (sparśa)、思 (cetana)、識 (vijñāna) 三食，皆有漏 (sāsrava)。
 
-git status 顯示未提交的改動是 `devi-gita` / `ezra` / `sophocles-oedipus-rex-el` 三組的 `01-translation.md` + `meta.json` + `PIPELINE_STATUS.md` / `PROGRESS.json`——這是先前 m3 session 的工作中間狀態（按 HANDOFF 最近的 commit `fc072158` 應是 m3 ezra chunk 16/18 等進度），不在我這次 bud-abhidharmakosha-sa segment 7 翻譯任務的範圍。
-
 至於我剛剛產出的 segment 7 翻譯（純 markdown 輸出），按任務指令不寫檔，由主控腳本抓 stdout 寫入——但 git status 裡沒有 `translations/bud-abhidharmakosha-sa/01-translation.md`，表示主控腳本這次沒寫入成功。**請確認 bud-abhidharmakosha-sa segment 7 是否需要重新派工補寫檔**；若需要，我會調整為可寫檔模式重跑。其餘三組檔案的 commit 由你決定是否一起處理。
 
 === 68 | ===

@@ -353,14 +353,6 @@ XVIII
 
 收尾完成：
 
-- **e7d40792** Pipeline B+C: leviticus + sutta-nipata 翻譯+標籤 進庫（5 檔 / +8298 行，已 push）
-  - `translations/leviticus/01-translation.md`（40 段，希伯來文 Sefaria 校勘版）
-  - `translations/sutta-nipata/01-translation.md`（82 段，承接上次 mid-iteration 30/78 → 完整入庫）
-  - PIPELINE_STATUS 262 → **264 / 518**
-  - verify.py --all 全綠
-- **9869fecd** HANDOFF 更新（已 push）
-- 下一個 mid-iteration：`plato-symposium-el` 19/36（第 19 段 = 本 session 翻的 199a-200b 蘇格拉底詰問阿伽通），supervisor 接力剩 17 段中，工作樹乾淨。
-
 === 20 | XXII — 蘇格拉底詰問阿伽松：Ἔρω斯 缺乏美與善；引入狄奧提瑪 ===
 
 為了不使我們受騙，我要說明：阿伽松啊——請注意——這些人必然在當下擁有他們所擁有的東西，無論願意與否；誰會欲求這樣的事呢？

@@ -250,11 +250,7 @@
 7:29  弟兄們，我說這話：時候縮短了。從今以後，有妻子的要像沒有妻子的。
 7:30  哭泣的要像不哭泣的，歡喜的要像不歡喜的，購買的要像並未持有的。
 
-兩個未 commit 檔都是 pipeline auto-generated 的狀態檔（`PIPELINE_STATUS.md` + `PROGRESS.json`），由 `scripts/auto-pipeline.py` 在 chunk 完成時自動更新 — **不是本次翻譯產物**。
-
 本次任務（1 Cor 7:31b–40 chunk 9/22）按 `tools/m3-translator-role.md` 規範只回 stdout，不寫檔、不動 git。譯文輸出已在上則訊息。
-
-兩個狀態檔的 commit 由 `auto-pipeline.py` 流程收尾時統一處理（HANDOFF 已記錄此批次），非 m3 worker 職責。中間狀態刻意留置，無需我額外動作。
 
 === 8 | chapter 8 ===
 

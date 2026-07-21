@@ -100,10 +100,6 @@ Govinda（牧牛尊），至上喜樂、真實上師——我頂禮　〔1〕
 
 由我執（ahaṃkāra）至身之諸束縛，皆由無明（ajñāna）假立——　〔27 未完，續下段〕
 
-我的 m3 任務是純粹的內容產生器，只負責把翻譯輸出到 stdout（已完成 vedanta-vivekacudamani 第 2/25 段）。檔案寫入與批次 commit 由主控 orchestrator（auto-pipeline.py）負責。
-
-目前 working tree 裡的未提交變動（an1-ones、jain-sutrakrtanga-pkt 的翻譯+標籤）是 Pipeline B+C 上一輪 batch 的中間狀態，PIPELINE_STATUS.md 顯示進度已從 210 → 212、目前正在處理 vedanta-vivekacudamani。這批次的最終 commit 由 orchestrator 在收集完一批後統一入庫（近期 commit 模式為「Pipeline B+C: 核心 翻譯+標籤 批次 (+N 檔)」）。我這次 session 不介入 orchestrator 的批次 commit 邏輯，以免打斷 pipeline 流程。
-
 刻意留置的中間狀態，不動 git。正常結束。
 
 === 51 | 第五十一頌 ===

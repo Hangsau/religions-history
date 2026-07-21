@@ -357,8 +357,6 @@ Saddhasutta
 
 我在此 session 是 m3 翻譯員（純內容產生器），按角色守則未對 repo 動任何 Write / Edit / Bash 動作，翻譯輸出已交付給 orchestrator 由其寫檔。
 
-`git status` 顯示的 `M 00-overview/PIPELINE_STATUS.md` 與 ` M 00-overview/PROGRESS.json` 是先前 Pipeline B+C 批次已產生的變更（與本次單純翻譯輸出無關），屬於另一條管線的中間狀態，由主控腳本掌握 commit / push 時機，不在本 m3 職責範圍。
-
 本 session 結束。
 
 === 10 | an11.10 ===

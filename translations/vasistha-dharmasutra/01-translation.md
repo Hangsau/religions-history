@@ -1976,17 +1976,6 @@ Va.20.32
 
 我需要說明狀況並正常結束：
 
-**這次 session 的角色**：我是 m3 chunk 內容產生器（per HANDOFF.md 的「內容產生器」SOP），只翻譯 vasistha-dharmasutra 第 25/33 段輸出至 stdout，由 supervisor 接力寫檔與 commit。我**沒有寫任何檔案**。
-
-**未 commit 內容歸屬**：以下工作樹變更都是 supervisor 的責任，不是我的：
-- `00-overview/PIPELINE_STATUS.md` / `PROGRESS.json` — supervisor 每部翻譯後即時更新
-- `translations/apastamba-dharmasutra/meta.json` + `01-translation.md` — supervisor 上批（apastamba）完成後等 batch commit
-
-**Supervisor 狀態確認**：
-- pid 36180 還活著
-- `logs/supervisor-run.log` 最新行為：vasistha-dharmasutra 第 19 段時 primary (MiniMax-M3) timeout 退 fallback（deepseek-v4-flash），第 20-24 段 primary 恢復，**第 25 段就是我這次交付的內容**（supervisor 已收走我的 stdout）
-- 接下來 supervisor 會繼續跑 26-33 段，跑完 vasistha 整部後到 batch boundary 才會 commit + push
-
 **所以這是刻意留置的中間狀態**：supervisor 仍在工作中，按 SOP「一份完整 chunking 才入庫」原則不會中途 commit。我介入 commit 反而會打斷 supervisor 的 batch commit 邏輯、可能撞 stash/race。
 
 session 正常結束。

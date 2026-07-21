@@ -378,14 +378,6 @@ janaka uvāca
 
 **本任務（八曲之歌 segment 6/20）**：已完整輸出至 stdout（從「在我本性自爾之中」到結尾 `===`），未觸碰任何檔案。
 
-**未 commit 的改動**與本任務無關，是前次 session 留下的：
-- `translations/sophocles-antigone-el/01-translation.md`（1115 行安提戈涅翻譯）
-- `translations/sophocles-antigone-el/meta.json`（已加標籤 / 完成標記）
-- `00-overview/PIPELINE_STATUS.md`（狀態更新）
-- `.implementation_site-v1-psych-tags.md`（心理標籤 implementation site）
-
-按本 role 守則 **❌ git 操作**，commit 須由主控 session 處理。建議下一步：主 session 跑 `verify.py --all` → commit（message 建議 `P4：Antigone 翻譯完成 + 心理標籤 implementation site 落盤`）→ push → 更新 HANDOFF.md。
-
 若要我脫離 m3 role、改以主 session 身份代為 commit，請明示。
 
 === 1 | 10.1 ===

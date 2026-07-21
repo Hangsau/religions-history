@@ -532,10 +532,6 @@ Balbus 道：「我會順你的意，並盡可能簡短地陳述；確實，伊�
 
 iteration 完成，工作樹乾淨。
 
-**這輪收尾（stop-hook 觸發）：**
-- `6a66af51` — Pipeline B+C：hesiod-works 翻譯+標籤進庫（2053 行 / 60+ 段，Evelyn-White 1914 英譯本神譜 + 工作與時日，含 Zeno 連環論證以外的希臘哲學輔譯）
-- `c7fab742` — HANDOFF 更新：276 / 518 進度，cicero-de-natura-deorum-la mid-iteration 接力 31/81
-
 **iteration_flow 五步摘要：**
 1. collector → 跳過（無新 tier 入列）
 2. deal → hesiod-works `translation_status=done` + meta 回填

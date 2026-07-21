@@ -1466,14 +1466,6 @@ Indra 啊，何種陶醉最飲 Soma，最具威力，彰顯，
 
 確認狀態：
 
-| 檔案 | 狀態 | 原因 |
-|------|------|------|
-| `00-overview/PIPELINE_STATUS.md` | M | orchestrator 管理的 progress 計數器，非獨立可 commit 單元 |
-| `translations/chronicles-2/meta.json` | M | chronicles-2 mid-iteration 45/60 段 |
-| `translations/chronicles-2/01-translation.md` | untracked | 同上，HANDOFF 明載 「supervisor 接力剩餘 15 段」，未到 60/60 不入庫 |
-
-依 `HANDOFF.md` §接續狀態 + 既有 SOP「一份完整 chunking 才入庫」，這是**刻意留置的中間狀態**，非遺漏。本次 m3 內容產生器任務（samaveda segment 17/74）的輸出也已交付至 stdout，等 supervisor 接力；併行的 chronicles-2 / sn12-nidana / an7-sevens 三件 mid-iteration 仍是原排程。
-
 不 commit、不 push、不動 HANDOFF，正常結束。
 
 === 18 | Pañcama Prapāṭhakaḥ, Dvitīyo 'rdhaḥ ===
@@ -5385,13 +5377,6 @@ priyamedha 族人前來頌唱。
 
 **Hook 已觸發，但「psychology-schools」是 stale 路徑** — 此 repo 無此檔案/目錄。實際未 commit 的是 `translations/chronicles-2/`（`meta.json` M + `01-translation.md` ??, 101KB, 2026-07-17 06:43 寫入）。
 
-**判定：刻意留置的中間狀態，不 commit。**理由：
-1. 最新 commit `8a402ba6` 訊息明寫「chronicles-2 mid-iteration 接力」→ 這是刻意接力點，不是收尾點
-2. `translations/samaveda/01-translation.md` **未寫入** → 我前輪 m3 翻譯員角色的 stdout 輸出未觸發 orchestrator 寫檔，是孤立的翻譯演練，無檔案變更
-3. `00-overview/PIPELINE_STATUS.md` 改動應是 PIPELINE 自動狀態更新，下次 batch commit 一併處理
-
-**下次自然收尾點**：chronicles-2 翻譯完成 → orchestrator 跑 P5 標籤 → `git add translations/chronicles-2 + 00-overview/PIPELINE_STATUS.md` → commit + push + 更新 HANDOFF。
-
 正常結束，不動作。
 
 === 55 | 第五十五段 ===
@@ -5985,10 +5970,6 @@ Agni 給予虔信者寶物與善勇，給予奉獻之人
 【1544】保佑我等，喔 Agni 以其一，保佑以其二；以頌歌三種保佑，力量之主，喔 Vasu，以四種保佑。
 
 【1545】保佑免於一切 rakṣas、免於敵意者，於我等之競賽中前來保佑；我等緊靠於你，最接近者，為求神恩而願靠近以獲繁榮。
-
-psychology-schools 已處置：
-- **Batch 7**（morita-therapy + multicultural-feminist-therapy + music-therapy）commit + push 完成 → reviewed `33/48`
-- HANDOFF.md 同步推進度（10/48 → 33/48）；STATUS.md 由 gen-status.py 自動生（引擎已停故會滯後，以 meta.json 為準）
 
 Samaveda 第 61 段翻譯已交付 stdout（26 條 mantra，含 Pavamana 主題之 Agni/Vāyu 讚頌）→ 等主控腳本接住寫入 `translations/samaveda/01-translation.md`。
 

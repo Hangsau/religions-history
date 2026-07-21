@@ -799,10 +799,6 @@ Dagda 取之而去，蓋得之於冬季牝牛之[歧義: 食／粥]於其途中�
 
 iteration 完成流程已走完：
 
-**Pipeline B+C 3 部批次進庫（印度六派核心）**
-- `commit fee6617f` — nyaya-sutra（1741 行／正理經）/ samkhya-karika（663 行／數論頌）/ vaisheshika-sutra（836 行／勝論經），含翻譯 + 17/15/16 semantic_tags + 15 keywords + Layer 2 tag backfill，狀態 245→249/518
-- **commit `43f1b1f6`** — HANDOFF.md 更新（`2026-07-13` 條目）
-
 `verify.py --all` 全綠（push 前），working tree clean。
 
 本 session 額外產生：`cath-maige-tuired-ga` 第 18/18 段（末日之兆預言）已 stdout 至 supervisor，1 文件尚未成檔（依 SOP 完整 18 段才入庫），接手請查 `logs/supervisor-run.log`。

@@ -4202,12 +4202,6 @@ Aṭṭhamaṁ.
 
 收尾完成。
 
-**commit 27e3ec8e + 28c31f19**（兩階段 commit + push）：
-- 4 部核心翻譯+標籤進庫：列王紀下（希伯來）/ 奧維德節日誌（拉丁）/ 柏拉圖普羅泰戈拉 + 會飲（希臘）
-- PIPELINE_STATUS 264→**268 / 518**
-- HANDOFF.md 新增 2026-07-16 條目 + INDEX.json/INDEX.md regenerate
-- verify.py --all 全綠
-
 sn12-nidana（巴利因緣相應，88 段 81/88）supervisor 仍在接力，下次接手照舊。
 
 === 70 | sn12.70 ===

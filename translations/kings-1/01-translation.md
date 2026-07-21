@@ -672,18 +672,7 @@ YHWH 對他說：「你向我所禱告的、你所懇求的，我已聽見了。
 
 但 repo 已有 3 檔未 commit 的改動（與本輪無關，看起來是前一批次的尾巴）：
 
-```
-M 00-overview/PIPELINE_STATUS.md                    |   4 +-
-M 00-overview/PROGRESS.json                         |   6 +-
-M translations/aristotle-de-anima-el/01-translation.md | 971 +++++++++-----------
-3 files changed, 458 insertions(+), 523 deletions(-)
-```
-
 `aristotle-de-anima-el` 改動 971 行（內插/刪除比約 1:1，看起來是 mid-iteration 重寫或校正），加上進度追蹤檔同步更新。
-
-要不要處理：
-- **(a)** commit + push 並收尾 HANDOFF（適合「這批已寫完、可以入庫」）
-- **(b)** 標刻意留置、不動（適合「下次 session 從中段接著做」）
 
 請說一下你怎麼決定。
 

@@ -273,8 +273,6 @@ Ap1.1.3.26a：於拒絕之女子前，當 samāhita（攝心專注）……（�
 
 於阿闍梨疏忽（pramāda）之時，預先察覺……
 
-兩筆未 commit 是 `auto-pipeline.py` 運作中的狀態檔（`PIPELINE_STATUS.md` 顯示「目前處理：`apastamba-dharmasutra`」、`PROGRESS.json` 各 tradition `with_translation` +1），屬於 pipeline 中間狀態——orchestrator 會在批次完成時一併把 01-translation.md 和這兩個狀態檔 commit 進去，現在手動 commit 會被下一個 cycle tick 覆蓋掉。屬刻意留置，無需處理，正常結束。
-
 === 5 | 第一書第二章 第六、七節 侍師律 ===
 
 不應繫鞋帶於首、執兵在手而坐。

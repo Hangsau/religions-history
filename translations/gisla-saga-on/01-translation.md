@@ -1166,14 +1166,6 @@ Hávarðr 曰：「林中有（人）至，今夜此類來者已眾。」
 
 這些 uncommitted 變動**不是本任務造成的**。本次 m3 翻譯任務按角色規範是「純 stdout 輸出」（禁止 Write/Edit/Bash 寫檔），所以 `translations/gisla-saga-on/01-translation.md` 沒有被建立——內容只出現在上一輪的對話回應裡，等主控 orchestrator 收集。
 
-當前 `git status` 與 session 開始時完全一致：
-- `M 00-overview/PIPELINE_STATUS.md`、`M 00-overview/PROGRESS.json` ← Pipeline B+C 進度追蹤
-- `M translations/sn46-bojjhanga/meta.json` + `?? translations/sn46-bojjhanga/01-translation.md` ← 早一輪的 sn46-bojjhanga 翻譯入庫
-
-這些都是 session 開始前已存在的 pipeline 排程工作（最近 commit 紀錄是 `f838b61c Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)` 那一批留下來的後續檔案），**不屬於本 m3 翻譯任務的範圍**，不應由這次對話 commit。
-
-需要我針對那些既有 pending 變動做事（commit + push + 更新 HANDOFF）嗎？那是另一個任務（pipeline 收尾），可以另開一個 session 或你明確指示後處理。
-
 === 32 | Auðr 令 Eyjólfr 蒙羞 ===
 
 「收下這個作為你的報酬，並帶走所有的禍害。你別指望我會把我的丈夫交到你這惡人的手裡。收下這份，連同滿滿的羞辱和惡名。可憐的人啊，你要記住，在你活著的時候，是一個女人打了你。但你還是不會得到你想要的。」

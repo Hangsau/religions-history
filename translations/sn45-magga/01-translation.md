@@ -1253,18 +1253,9 @@ bhikkhave，譬如 mahī（摩醯河）河，東向、東傾、東坡；bhikkhav
 
 Pañcamaṁ.（第五。）
 
-收尾完成。Stop-hook 觸發時偵測到 2 個 carryover 變更（commit 86c943c0 當時僅入 HANDOFF.md，working tree 同期產出的檔案未入庫），已於本 session 補 commit + push：
-
-**commit `b91848e5`：catch-up 補 commit**
-- `00-overview/PIPELINE_STATUS.md`（auto-pipeline 10:31:46 重寫 233/492、目前處理 `sn45-magga`）
-- `translations/corpus-hermeticum-el/meta.json`（標籤事故處置後 tags 4→24 + keywords 重整）
-- `HANDOFF.md`（補述 catch-up 流程 + 本 session m3 chunk 額外交付）
-
 **verify.py --slug corpus-hermeticum-el：PASS**
 
 **sn45-magga 進度**：本 session m3 chunk 內容產生器翻譯已完成第 23/46 段（`sn45.96` 第六 傾向東方經 + `sn45.97` 第一 傾向大海經，verbatim 三喻對句「傾向 / 趣向 / 傾注於」），輸出至 stdout。依 SOP「一份完整 46 段 chunking 才入庫」，`sn45-magga/01-translation.md` 待 supervisor 接力剩餘 23 段聚合後才入庫，下次接手對照 `logs/supervisor-run.log` chunk 進度。
-
-Push：`86c943c0 → b91848e5 main`，working tree 現已乾淨。
 
 === 66 | sn45.98-102 ===
 

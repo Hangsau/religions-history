@@ -1543,11 +1543,6 @@ saguṇā（有相）、karuṇāpūrṇā（悲滿）、taruṇī（年少）�
 
 我是 m3 翻譯員角色（內容產生器），按 prompt 規定「絕對禁止 Write/Edit/Bash」，無法自己 commit。
 
-當前狀態：
-- **任務**：devi-gita chunk 21/22 翻譯輸出到 stdout，**進行中被 cut**
-- **未完成原因**：output token limit 中斷，譯文停在 `Dg_10.40` 末尾 `teṣām anu...`
-- **那些 uncommitted 改動**（PIPELINE_STATUS.md / PROGRESS.json / ezra/01-translation.md / ezra/meta.json）看起來是更早流程的產物，**不屬於本次 m3 devi-gita 工作**
-
 建議下一步：
 1. 主控 agent（或新一輪 m3 呼叫）重跑 devi-gita chunk 21/22 — 我這次只輸出到 `Dg_10.40` 末尾就 cut，需要重發把剩下 verse 補完
 2. 那批 ezra/PROGRESS 等 uncommitted 檔案由主控負責 commit（不是我這次任務範圍）

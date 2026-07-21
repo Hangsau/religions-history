@@ -1,11 +1,5 @@
 未提交改動是刻意留置的中間狀態，依 SOP 處理：
 
-- `sutta-nipata/01-translation.md`（untracked）+ `meta.json` 標籤 = **mid-iteration 30/78**，HANDOFF 明載「一份完整 chunking 才入庫」，supervisor 接力剩 48 段才 commit
-- `00-overview/PIPELINE_STATUS.md` = 自動生文件，待 supervisor 完成 sutta-nipata 全 78 段後重生
-- 我這次產出的利未記第 1/48 段 markdown **未寫入磁碟**（守則禁止 Write/Edit/Bash 寫檔，內容產生器只回 stdout 給主控腳本），`translations/leviticus/01-translation.md` 仍不存在；待主控腳本接力才落地
-
-屬刻意留置，下次 supervisor / m3 cycle 自然會接走，不需此刻 commit + push。
-
 === 2 | 2 ===
 
 若有人獻素祭（mincha, מִנְחָה）給 YHWH（耶和華），他的供物要用細麵，澆上油，再放上乳香。
@@ -850,15 +844,9 @@ YHWH 對摩西和亞倫說：
    - **缺 snp1.1（Uragasutta 蛇經，開篇）**，從 `=== 2 | snp1.2 ===` 起頭
    - 章節標號 `=== 4 ===` 出現兩種 label（`犀角經` vs `snp1.4`）+ 缺 snp1.5
 
-2. `meta.json` 已標 `translation_status="done"` 但檔案實際未完成（`PIPELINE_STATUS.md` 同步到 263/518，是錯的）
-
 3. 對照 `raw/original.txt`，sn 開頭 suttas 確實有 78 段（含 epilogue），翻譯檔只到第 82 marker 但缺 1.1 / 1.5 / 部分中段
 
 這是 supervisor pipeline 在迭代中的部分輸出，**不是可入庫的完成狀態**。如果現在 commit 會污染 git 歷史（壞檔案 + 假完成狀態），且 `verify.py --all` 應該會抓不到章節計數錯誤。
-
-**不做的事**：
-- 不 commit + push（會留爛檔）
-- 不自己修（這是 supervisor 協調問題，跨 session 才能復原 — 涉及 raw 對齊 + 章節回填）
 
 **Leviticus 16 翻譯**已按 m3 守則純輸出於上輪 stdout（未寫檔），等 orchestrator 派工時再處理。
 

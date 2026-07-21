@@ -25,13 +25,6 @@ Sigi 漸老於年歲。其有多敵，至終其所最信者反之，即其妻之
 
 確認狀況後向用戶說明：
 
-**這是 `auto-pipeline.py` 主動 pipeline 的合法中間狀態，不需 commit。**
-
-- 上一個 cycle 在 ~05:55 完成 `bud-udanavarga-sa` P4+P5（`01-translation.md` 4188 行 + 27 個 semantic_tags + 15 個 keywords 已落地）
-- PIPELINE_STATUS 隨後推進到 `volsunga-saga-on`（即我剛才的 m3 任務），進度 240→241
-- 我的 m3 翻譯輸出已產出（在 chat 內），正等待 pipeline orchestrator 抓 stdout 寫入 `translations/volsunga-saga-on/01-translation.md`、跑 P5 標籤、回填 `meta.json`，再一次性 commit
-- 若現在 commit，會切斷 atomic iteration（udanavarga 完成 + volsunga-saga-on in-flight → 狀態不一致：status 寫 `volsunga-saga-on` 但檔案不在 disk）
-
 不 commit，正常結束。
 
 === 4 | 第五章 ===

@@ -1365,8 +1365,6 @@ Uv 16.16
 
 如良馬以鞭所觸，奮迅不息，戰勝所乘；具戒德者亦復如是，攝心、決定於法、制諸根、具忍力，捨此彼岸。
 
-這是 orchestrator `auto-pipeline.py` 批次中途的狀態檔增量（`PIPELINE_STATUS.md` 標 `勿手改`），對應本次任務 `bud-udanavarga-sa` segment 17/43 的進行中。翻譯內容已從 stdout 輸出交回 orchestrator（按 m3 角色規範未自己寫檔），等批次完成會一併 commit（最近一筆 ae399044 即 `pearl-of-great-price mid-iteration` 同模式）。屬刻意留置的中間狀態，正常結束。
-
 === Uv_20.2 ===
 
 智者由於現觀 satya（真諦）而捨棄者，安樂。

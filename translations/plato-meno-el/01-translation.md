@@ -873,17 +873,6 @@
 
 這是刻意留置的中間狀態，按規則不 commit / 不 push。說明一下：
 
-**現況**：
-- `00-overview/PIPELINE_STATUS.md` 與 `00-overview/PROGRESS.json` 都是 `scripts/auto-pipeline.py` 自動維護的進度追蹤檔
-- 兩處 diff 都是 m3 翻譯 task 跑完後 pipeline script 自動寫入的追蹤資料（時間戳 4 秒前、目前處理項指向 `plato-meno-el`）
-- 依 project `CLAUDE.md` 工作紀律：「每完成一個小批（5-30 部）即 commit + push」→ **單檔翻譯進度不單獨 commit**，會累積到下一批一起進庫
-- HANDOFF.md 最近一次更新 04:03，pipeline 批次節奏是 04:00 / 00:43 / 等時段收 → 當前屬於批次間的正常 in-flight state
-
-**值得注意的疑點**（建議主 session follow up）：
-- `translations/plato-meno-el/` 底下**只有 `meta.json` 與 `raw/`**，**沒有 `01-translation.md`**
-- 但 `PROGRESS.json` 顯示 `with_translation` 從 48 增到 49（其他 tier 也 +1~+2），暗示這份翻譯在某處已被計數
-- 我這輪是純 stdout m3 翻譯輸出（per task 規定禁寫檔），檔案應由 `auto-pipeline.py` 從 captured stdout 寫入。若 pipeline 計數已 +1 但 `01-translation.md` 缺席，可能是 capture→write 之間卡住了，或寫到別處（temp / staging）。
-
 **結束**：本次 m3 翻譯內容已輸出完整 markdown，正常結束；批次進庫交給 pipeline 下一個 commit tick 處理。
 
 若要我主動驗證 `plato-meno-el/01-translation.md` 是否真的缺漏、或協助補寫，請給「去查 / 補檔」明確指令。

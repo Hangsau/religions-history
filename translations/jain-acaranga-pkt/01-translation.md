@@ -1473,10 +1473,6 @@ tasanti pāṇā（蠕動之眾生）四方各向（disāsu）逃避（padiso）
 ```scheme
 [^ch]: 此為 Acāṅga 第二冊（第四經 vṛtti）之起首，稱「漏盡見誦」（Pāsagassa-daṃsaṇaṃ）。
 
-目前有未 commit 的變更（2 個新翻譯檔 + meta.json + pipeline 狀態更新），這是上一次 Pipeline B+C 批次完成後留置的中間狀態——`jain-dasavaikalika-pkt` 和 `sblgnt-1-corinthians` 的翻譯與標籤結果已產出但尚未入庫。
-
-若要結束工作，請問：要我 **commit + push + 更新 HANDOFF** 把這批入庫，還是暫時留置等下一批一起處理？
-
 === 3 | 第三章 ===
 
 3.1. 應當將此人帶至此世之外！

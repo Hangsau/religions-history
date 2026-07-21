@@ -1618,10 +1618,6 @@ Brahman 為 pratyakṣa（現量）……
 
 我剛剛是 m3 翻譯子任務（vedanta-upadeshasahasri 第 17/41 段），只輸出 markdown 到 stdout，沒寫檔、沒碰 git。
 
-stop hook 列的那些 uncommitted changes（gisla-saga-on / sn46-bojjhanga / PIPELINE_STATUS.md / PROGRESS.json）是更早主 session 的工作，不是我這次任務的範圍。
-
-按 `tools/m3-translator-role.md` 規定，m3 不做任何 git 操作 → 由主 session 接手 commit + push + 更新 HANDOFF。
-
 === 1 | SamUpad_I,17 末（v.88）===
 
 …智慧充滿（jñānasaṃkula）。

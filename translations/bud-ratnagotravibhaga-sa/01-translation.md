@@ -93,8 +93,6 @@ trīṇi padāni veditavyāni / tata ūrdhvamavaśiṣṭāni catvāri bodhisatt
 bhagavān sarvadharmasamatābhisaṃbuddhaḥ supravartitadharmacakro 'nantaśiṣyagaṇasuvinīta
 iti / ebhistribhirmūl
 
-session 期間我未寫入任何檔案（m3 任務嚴格規定只 stdout 輸出，本回應的 Ratnagotravibhāga §2 譯文只存在於對話中）。未提交的 4 個 modified + 2 個 untracked 與 session 開始時完全一致，是先前 Pipeline B+C 批次（bud-udanavarga-sa / volsunga-saga-on）留下的中間狀態，按 hook 規範說明一句並正常結束——不替你代 commit。
-
 === 3 | 七金剛句與佛菩提八德 ===
 
 此後，以空、無相、無願之說，開示如來之道眼；如來不以僅此而放懈精進。此後，以不退轉法輪之說、以三輪清淨之說，令彼種性、因緣種種之眾生安住於如來之境；安住已，證得如來法性，名為「無上應供」。

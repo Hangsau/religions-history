@@ -2777,11 +2777,6 @@ na（非）vākya-śeṣatvāt（由屬句末）。〔Jaim_8,1.8〕
 
 **這是 m3 prompt，應走 Bash background，不該在主 session 跑**
 
-- 當前 PIPELINE_STATUS 顯示「**目前處理：`mimamsa-sutra`**」（chapter 1，49 段中的第 27 段）
-- meta.json 確認：`text_role=original` + `language=梵語` → m3 會按「外語直譯繁中」處理
-- `claude-m3` 可用（是 `claude` CLI 包裝）
-- 專案守則明確要求 background m3（避免主 session 配額消耗）
-
 **建議處理方式**
 
 ```bash
@@ -2794,8 +2789,6 @@ EOF
 ```
 
 要我直接用 Bash background 派給 `claude-m3` 跑嗎？還是你有別的安排（例如手動分段、把這段合併進主 pipeline 腳本）？
-
-> 註：若你貼這個 prompt 是因為 auto-pipeline 卡住、想手動救火，建議先看 `00-overview/PIPELINE_STATUS.md` + `scripts/auto-pipeline.py --status` 確認目前佇列狀態再決定。
 
 === 1 | Jaim_9,1.42 ===
 

@@ -797,13 +797,6 @@
 
 當前狀態清楚：
 
-- **pending 工作檔（4 部）**：an11-elevens、an2-twos、euripides-bacchae-el、orphic-hymns-el — 這些是已完成的翻譯+標籤，屬上一批 auto-pipeline 產出，尚未 commit
-- **目前 session 任務**：euripides-medea-el 僅處理到第 10/17 段，**尚未完成**
-
-這屬於**刻意留置的中間狀態**——Medea 翻譯進行中，不適合現在 commit（會把半成品送進 repo）。pending 的那 4 部可以獨立 commit + push，但它們與 Medea 翻譯是同一批 pipeline 工作的一環，一併提交比較乾淨。
-
-等 Medea 翻譯全部跑完後，我會一起 commit + push，然後更新 HANDOFF。
-
 === 11 | 歌隊勸阻與和解之計 ===
 
 歌隊：

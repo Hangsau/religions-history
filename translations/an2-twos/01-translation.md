@@ -754,10 +754,6 @@ Bālavaggo（愚者品）第三。
 
 我這輪的角色是 m3 翻譯員（per `tools/m3-translator-role.md`），任務規定明確禁止使用任何寫檔 / git / bash 工具——輸出 markdown 文字到 stdout 即可，由主控腳本抓 stdout 寫入檔案。所以我**沒有也無法**在這輪觸碰 working tree。
 
-git status 列出的 `M 00-overview/PIPELINE_STATUS.md`、`M 00-overview/PROGRESS.json`、`M translations/an11-elevens/meta.json`、`?? translations/an11-elevens/01-translation.md` 是**先前批次**的未 commit 變更（從本次對話開始時的 snapshot 就存在），不是本輪 m3 任務產物。
-
-本輪狀態：純內容產出已交付（AN2.42-45 僧眾品前半繁中譯文），未做任何 git 操作。是否要 commit + push 那批先前未提交的變更，請你決定——這超出 m3 翻譯員職責，需切回主控角色處理。
-
 === 45 | 聖眾 ===
 
 …這些 bhikkhū（比丘）如實了知「這是苦」、如實了知「這是苦集」、如實了知「這是苦滅」、如實了知「這是趣向苦滅之道」。

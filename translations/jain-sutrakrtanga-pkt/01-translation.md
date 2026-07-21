@@ -592,13 +592,9 @@ S/2.2 關於二阿闍梨學之誦：
 莫輕視昔菩薩，
 不求[歧義: 不求 / 莫求]…
 
-These changes are from the ongoing **Pipeline B+C** work — `translations/an1-ones/` 是新的翻譯批次（耆那教修多羅經），`meta.json` 與 `PROGRESS.json`/`PIPELINE_STATUS.md` 是管線狀態追蹤。目前階段是：
-
 - **an1-ones** (`jain-sutrakrtanga-pkt`) 正在分批處理中（25 段中的第 6 段），尚未完成整部
 - 同批次之前的 **an1-ones/meta.json** 標籤已更新
 - Pipeline 狀態檔隨進度自動更新
-
-這屬於刻意留置的中間狀態，Pipeline B 尚未跑完該經整本，暫不 commit。等整批完成後會按慣例執行 `verify.py --all` + commit + push + HANDOFF 更新。
 
 === 7 | 障難誦（S/3.2）===
 

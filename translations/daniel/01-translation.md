@@ -820,10 +820,3 @@ YHWH 啊，羞愧歸我們的臉面、我們的君王、我們的首領、和我
 東方和北方的消息必使他驚惶，他必盛怒而出，要毀滅多人，斬盡殺絕。
 
 他必在海與榮耀的聖山之間，支搭他的宮殿帳篷；然而他必到盡頭，無人援助他。
-
-完成。Commit `411bb4d0` 推上 GitHub（`e7b3ab9a..411bb4d0`）。
-
-- 2 部核心 Dharma-sūtra 入庫（apastamba 27 tags / vasistha 31 tags）
-- PIPELINE_STATUS 225→**227 / 492**；PROGRESS 印度教 +1、耆那 +1、其他 +1
-- HANDOFF.md 加「2026-07-09 00:43」段，標註 daniel mid-iteration 狀態
-- 本次 daniel 翻譯（Daniel 12 末段，米迦勒起來 / 末時復活 / 一載二載半 / 1335 日有福 / 你且安歇享福）以內容產生器角色交付 stdout，supervisor 接力完整 26 段才入庫

@@ -2214,15 +2214,6 @@ Teyrnion 抽出寶劍，自肘處將那臂斬下，以致臂之一段連同馬�
 
 我作為 m3 翻譯內容產生器，**沒有寫入任何檔案**（role prompt 明確禁止 Write/Edit/Bash），威爾斯文翻譯只輸出到 stdout。
 
-當前 uncommitted 改動**都不是本次任務產物**：
-- `00-overview/PIPELINE_STATUS.md` / `PROGRESS.json` / `plato-meno-el/meta.json` / `plato-meno-el/01-translation.md` — 全部是 session 開始時就已存在的待 commit 狀態（來自先前 pipeline B+C 批次）
-- 沒有 `translations/mabinogion-cy-1/01-translation.md` 改動（我沒寫檔）
-
-**建議主控 session 處理**：
-1. 將這段威爾斯文翻譯（上一則回應的 markdown 內容）交給 orchestrator 寫入 `translations/mabinogion-cy-1/01-translation.md`
-2. 與既有 plato-meno-el / 狀態檔改動一起 commit + push
-3. 更新 HANDOFF 與 PIPELINE_STATUS
-
 如要讓 m3 直接落盤，下次 role prompt 應改為允許 Write tool（目前禁止 = 預期由 orchestrator 接手寫檔）。
 
 === 40 | 尾聲 ===

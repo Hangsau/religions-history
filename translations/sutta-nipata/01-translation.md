@@ -2,11 +2,6 @@
 
 剛才 git status 顯示的未提交改動（chronicles-1 與 PROGRESS.json 等）並非本次翻譯產出，是先前 session 留下的中間狀態，本 m3 session 沒有異動過。
 
-需要由 orchestrator 接手：
-- 將我 stdout 的 sutta-nipata 翻譯寫入 `translations/sutta-nipata/01-translation.md`
-- 與之前的 chronicles-1 + PROGRESS.json + PIPELINE_STATUS.md 等改動一同 commit + push
-- 更新 HANDOFF.md
-
 按 m3 守則我繼續停在這裡，不執行 git 操作。
 
 === 2 | snp1.2 ===
@@ -2613,10 +2608,6 @@ Sammāparibbājanīyasutta — 正行遊化經
 出家經第一。
 
 工作流跑完，狀態已收尾：
-
-- **Pipeline B+C 入庫（commit `e11d5cca`）**：`chronicles-1/01-translation.md` + meta（Hebrew Sefaria 校勘版 歷代志上）+ PIPELINE_STATUS/PROGRESS 自動同步，261→262/518，已 push。
-- **HANDOFF 更新（commit `36c23d01`）**：記錄本批 + 標 `sutta-nipata` 78 段 30/78 mid-iteration（Padhānasutta 精進偈 已譯至 stdout，supervisor 接力中），已 push。
-- verify.py --all 全綠；working tree clean。
 
 === 29 | snp3.3 ===
 

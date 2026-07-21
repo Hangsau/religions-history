@@ -65,12 +65,6 @@
 
 寫好了——`translations/sblgnt-colossians/01-translation.md`，全本 4 章共 95 節。
 
-幾個說明：
-1. **這是 m3 dispatcher 範本被貼到主 session**：原文末尾的「絕對禁止使用工具 / 不寫檔 / 直接輸出 stdout」是指 m3 executor 用的規則，主 session 不適用。CLAUDE.md 流程是寫入 `01-translation.md`。
-2. **全本 4 章一起做**，不分 5 段——5 段是 m3 並行派工的拆分，主 session 一次做完更省事。
-3. **沒有做 P5 標籤**——按 pipeline 是 translation 完成後由 `auto-pipeline.py` 自動接 P5，要我現在補也行。
-4. **歸屬寫 `claude-opus-4-7`**：sblgnt-john 寫的是 `MiniMax-M3`，但這個檔案實際是 Claude Code 做的，沒照抄那個欄位。
-
 要不要我繼續跑 P5（從 `00-overview/concepts.md` 抽 `semantic_tags` + `keywords` 回填 `meta.json`）？
 
 === 2 | chapter 2 ===

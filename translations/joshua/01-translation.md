@@ -191,13 +191,7 @@ YHWH 對約書亞說：
 
 本次 session 的實際工作是把約書亞記 5:1-15 翻成繁中輸出到 chat（依角色規定不寫檔、不 commit）。
 
-現有 6 個未提交項目都是**先前 pipeline B+C 批次的中間狀態**（judges / mimamsa-sutra-jaimini 的 `01-translation.md` + `meta.json`，加上 `00-overview/{PIPELINE_STATUS.md, PROGRESS.json}` 對應更新），不是我這次 session 產出的。
-
 **有一個值得注意的問題**：`translations/judges/01-translation.md` 開頭夾了一段 pipeline meta-message（「本次僅依指示輸出翻譯內容，未操作 repository…刻意不介入 commit…」），看起來像是 sub-agent 的 status 回應被當成檔頭誤寫入，需要修復才能正確 commit。
-
-依規則「不代替 agent 完成任務」+「中途接手補 commit」屬高風險動作，本次 session 不主動代為處理。建議兩條路：
-- **A.** 下一輪由負責 pipeline 的人接手，修 judges 檔頭 → verify → commit + push → 更新 HANDOFF
-- **B.** 我此輪幫忙修復 judges 開頭那段 meta-message、跑 `verify.py --all` 確認綠燈、commit + push、更新 HANDOFF（需你明確說「動手」才執行）
 
 我先停在這裡等你決定。
 
@@ -1149,7 +1143,6 @@ YHWH 已從你們面前驅逐強大有力的民族；至於你們，直到今日
 YHWH 你們的神向你們所說的一切美好應許怎樣臨到你們，YHWH 也必照樣使一切災禍臨到你們，直到他把你們從 YHWH 你們的神所賜給你們的這片美地上除滅。
 
 如果你們違背 YHWH 你們的神與你們所立、並吩咐你們遵守的約，去事奉別的神，向它們下拜，YHWH 的怒氣就必向你們燃燒，你們也必迅速從他所賜給你們的美地上滅亡。
-
 
 
 

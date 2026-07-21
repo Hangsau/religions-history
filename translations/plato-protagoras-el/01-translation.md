@@ -750,8 +750,6 @@ Simonides Fr. 37.1.1
 
 我這次任務是純文字輸出（m3 翻譯員角色），stdout 已交付給上層 orchestrator 寫檔，未使用任何 Write/Edit tool。未 commit 的檔案是先前 pipeline 留下的：
 
-- `PIPELINE_STATUS.md` / `ovid-fasti-la/{meta.json,01-translation.md}` / `plato-symposium-el/{meta.json,01-translation.md}` — 對應最近一筆 commit `9869fecd HANDOFF：plato-symposium-el mid-iteration`，明確標為 mid-iteration，commit 與檔案寫入由 orchestrator 後續 cycle 接手，不在本次 m3 工作的權限內。
-
 我這次交付的是 `plato-protagoras-el` 的第 21/36 段譯文（stdout），由 orchestrator 抓走寫檔 → 接 P5 標籤 → 後續 commit。正常結束。
 
 === 22 | 340e–342a ===

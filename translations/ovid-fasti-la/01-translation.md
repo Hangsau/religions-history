@@ -179,16 +179,7 @@ Faliscan 法利斯卡的青草 在自家田野上 把牠們餵養。
 
 **1. 既有未提交的 3 個變動 → 是刻意留置的中間狀態（不需要 commit）**
 
-- `00-overview/PIPELINE_STATUS.md`、`translations/plato-symposium-el/meta.json`、`translations/plato-symposium-el/01-translation.md`
-- 來源是上次 commit `9869fecd HANDOFF：2026-07-15 上午 leviticus + sutta-nipata 完整入庫 + plato-symposium-el mid-iteration` —— 訊息本身就明寫 "mid-iteration"
-- HANDOFF.md 也記錄了：plato-symposium-el 36 段 19/36 已由 m3 chunk 內容產生器輸出至 supervisor，supervisor 接力中，按 SOP 一份完整 chunking 才入庫
-- 收尾協議：每次主 session 落地才 commit，supervisor 接力中的 mid-state 不動
-
 **2. 本 session 我做的 ovid-fasti-la 第 3/73 段 → 文字留在 chat、未入檔（值得關注）**
-
-- supervisor-run.log 顯示 auto-pipeline 正派 ovid-fasti-la 73 chunks
-- 但本 conversation 沒有 subprocess 把我的 stdout 接到檔案 —— 我只把翻譯文字印在對話視窗裡，`translations/ovid-fasti-la/01-translation.md` 仍未生成
-- 這段文字（=== 3 | 問歲首禮俗 === 全文）目前在對話記錄中，要讓 supervisor 接收有兩條路：
 
 | 選項 | 動作 |
 |------|------|

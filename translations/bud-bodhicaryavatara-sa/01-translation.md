@@ -1759,20 +1759,6 @@ Bca_7.23
 [Bca_7.51]
 餘人作下劣業，何故我亦容此？若由慢不作此，寧可令我之慢壞。
 
-Iteration 收尾完成。
-
-**Pipeline B+C 批次進庫（2 檔）**
-- `translations/daniel/01-translation.md`（829 行，希伯來文但以理書 12 章）
-- `translations/sblgnt-revelation/01-translation.md`（799 行，希臘文啟示錄 22 章）
-- `PIPELINE_STATUS.md` 227→**229 / 492**
-- **commit**: `e24e5807`
-
-**HANDOFF 更新**
-- 2026-07-09 04:00 段：批次進庫紀錄 + bud-bodhicaryavatara-sa chunk 18/33 mid-iteration 標註
-- **commit**: `d89e5e91`
-
-**Push**: `411bb4d0..d89e5e91` → origin/main 已同步
-
 **本次 m3 worker 交付（stdout 給 supervisor）**
 - `bud-bodhicaryavatara-sa` 第 18/33 段（Bca_7.52–8.4，精進波羅蜜後段 + 靜慮波羅蜜開篇）已以內容產生器角色翻譯輸出至 stdout，supervisor 接力完整 33 段才入庫。
 

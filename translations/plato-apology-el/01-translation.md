@@ -259,11 +259,6 @@
 
 已收齊 + push，HANDOFF 更新。
 
-**commit 955b61c8**（batch）+ **c06dbce6**（HANDOFF）：
-- `aztec-rva`（1778 行，納瓦特爾語聖歌）+ `nehemiah`（693 行，希伯來文尼希米記）
-- `verify.py --all` 全綠
-- PIPELINE_STATUS 221 → 223 / 492
-
 **刻意留置中段**：`plato-apology-el` 第 13/18 段翻譯剛交付 stdout，supervisor 在湊齊 18 段後才入庫（依 SOP）。接手時對照 `logs/supervisor-run.log` 看當前 chunk 進度即可，HANDOFF 入口段也標明。
 
 === 14 | 35d-37b 反刑提議 ===

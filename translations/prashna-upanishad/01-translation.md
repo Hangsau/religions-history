@@ -159,9 +159,6 @@ saṃvatsara（年）即是 Prajāpati（生主）。
 
 完成。兩條 commit 已 push：
 
-- **37320157** Pipeline B+C 4 檔翻譯+標籤批次（梵文阿毗達磨俱舍本頌、印度教度母頌、希伯來以斯拉記、希臘伊底帕斯王；PIPELINE_STATUS 200→204/492，目前處理切換至 `prashna-upanishad`）
-- **ac1d4186** HANDOFF 收尾記錄（標註本次是 stop-hook 觸發入庫、非 supervisor mid-iteration 路徑，提醒下次 session 先對齊 batch boundary）
-
 Working tree 乾淨。
 
 === 1 | 第一問 第十三節（續）===

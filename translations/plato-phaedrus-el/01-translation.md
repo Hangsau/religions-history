@@ -218,22 +218,11 @@ Adrasteia（阿德拉斯忒亞）之律如下：凡 ψυχή 曾隨神同行、�
 
 確認：目前 `religions-history` 的未 commit 改動是前次 session stop-hook 收尾時**刻意留置的中間狀態**，不是這次 session 漏 commit。
 
-**現況對照最新 HANDOFF（commit 5db9077c）：**
-
-- `translations/samuel-2/01-translation.md`（2/46 段，只到大衛哀歌；前次已明寫「由 supervisor 接力剩餘 44 段」依 SOP「一份完整 chunking 才入庫」不 commit）
-- `translations/samuel-2/meta.json` 多了 `translation_status="done"` 標頭 — 此為過早寫入（前批 auto-pipeline 結尾 / supervisor 啟動時跑的，並非實際完成）— **不應 commit，否則記錄與內容不符**
-- `00-overview/PIPELINE_STATUS.md` 自動重生，顯示 258→**259** / 518、`目前處理 = plato-phaedrus-el` — 此為 auto-pipeline 進度指標，但 samuel-2 並未真正完成翻譯
-
 **這次 session 自己的貢獻**：`plato-phaedrus-el` 第 **15/34 段**（蘇格拉底論第四種迷狂）以內容產生器角色翻譯輸出至 stdout（按 prompt 規範不寫檔）。`translations/plato-phaedrus-el/` 內無新檔，無檔可 commit。
 
 **判定**：依前次 stop-hook 的 SOP（mid-iteration 不 commit），此為刻意留置狀態。我**不 commit**，避免：
 1. 違反「完整 chunking 才入庫」
 2. 將尚未完成的 `translation_status="done"` 標頭入庫誤導後續讀者
-
-**建議下輪接手動作（已在 HANDOFF 記錄）：**
-1. 接力 samuel-2 剩餘 44 段（從 Saul's death news 末尾／Abner／David made king of Judah 起，至撒下 24）
-2. 重生成 `meta.json` 把過早寫入的 `translation_status="done"` 拿掉，於 44 段全部翻完 + verify pass 後再一次性 commit
-3. `PIPELINE_STATUS.md` 259 這個進度是 auto-pipeline 的即時估計，非實際 commit 數 — 留 auto-pipeline 自行下次重生時校正
 
 如要把這次 plato-phaedrus-el 第 15 段輸出寫入 `translations/plato-phaedrus-el/01-translation.md`，請明示，我才動手（前述 prompt 規範是只輸出文字到 stdout）。
 
