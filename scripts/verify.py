@@ -29,6 +29,7 @@ from pathlib import Path
 
 import pipeline_failures
 import pipeline_priority
+from contamination import find_contamination
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
@@ -125,11 +126,48 @@ def verify_one(slug: str) -> tuple[bool, list[str]]:
     return passed, reasons
 
 
+def scan_contamination() -> int:
+    """Scan all 01-translation.md files for pipeline session-tail contamination.
+
+    Returns the count of contaminated files; prints each hit with slug, line number,
+    and matched pattern name.  Exits 1 if any contamination found, 0 if clean.
+    """
+    contaminated: list[tuple[str, list]] = []
+    for tr_path in sorted(TRANSLATIONS_DIR.glob("*/01-translation.md")):
+        slug = tr_path.parent.name
+        try:
+            text = tr_path.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            continue
+        matches = find_contamination(text)
+        if matches:
+            contaminated.append((slug, matches))
+
+    for slug, matches in contaminated:
+        for m in matches:
+            print(f"CONTAMINATED  {slug}  line {m.line_no}  [{m.pattern_name}]")
+            print(f"              {m.line.strip()[:120]}")
+
+    total = len(contaminated)
+    if total:
+        print(f"\nTotal contaminated files: {total}")
+        sys.exit(1)
+    else:
+        print(f"No contamination found in {sum(1 for _ in TRANSLATIONS_DIR.glob('*/01-translation.md'))} files")
+        sys.exit(0)
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--slug")
     p.add_argument("--all", action="store_true")
+    p.add_argument("--contamination", action="store_true",
+                   help="scan all 01-translation.md for M3 session-tail contamination (independent of --all)")
     args = p.parse_args()
+
+    if args.contamination:
+        scan_contamination()
+        return  # scan_contamination() calls sys.exit(); this line is unreachable
 
     if args.slug:
         slugs = [args.slug]

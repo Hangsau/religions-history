@@ -41,6 +41,7 @@ from pathlib import Path
 
 from pipeline_lock import acquire_run_lock, release_run_lock
 import pipeline_priority
+from contamination import find_contamination
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATIONS_DIR = ROOT / "translations"
@@ -719,6 +720,11 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         if output is None or dry_run:
             return dry_run
         output = strip_output_wrappers(output)
+        contamination = find_contamination(output)
+        if contamination:
+            pat = contamination[0].pattern_name
+            print(f"  [error] {slug} ({task}): contaminated output (single-call), pattern='{pat}'; treating as failed")
+            return False
         _atomic_write_text(out_path, output + "\n")
         _record_completion(slug, task, len(output))
         print(f"  [done] {slug} ({task})  →  {out_name} ({len(output)} chars)")
@@ -769,6 +775,11 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
                     break
         if not output.strip() or "<!-- CHUNK " in output or (i == 1 and not output.startswith("#")):
             print(f"    [error] chunk {i} invalid for {slug} ({task}); checkpoint unchanged")
+            return False
+        contamination = find_contamination(output)
+        if contamination:
+            pat = contamination[0].pattern_name
+            print(f"    [error] chunk {i} contaminated for {slug} ({task}): pattern='{pat}'; checkpoint unchanged")
             return False
         _save_checkpoint_part(active, manifest, i, output)
         parts[i] = output
