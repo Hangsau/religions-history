@@ -3,7 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態快照（2026-07-20 22:59 +08:00）
+## 當前狀態快照（2026-07-21 15:45 +08:00）
+
+- **總規劃書已立**：`.implementation_roadmap-core518-site-v1.md`（fable-5 plan-check 產出，11 步）— Phase 0 管線恢復 → Phase 1 FAILED 修復＋核心 518 全量 → Phase 2 psych_tags 黃金樣本＋跨專案 join 驗收 → Phase 3 吞吐量判定 → Phase 4 網站 v1（承接 `.implementation_site-v1-psych-tags.md`）→ Phase 5 大宗收集另行 plan-check。舊清單狀態：status-board 9/9 完、priority-retry 24/25（W25 rollout＝本次已做）、checkpoint-psych-tags Step 8–9 由新清單承接。
+- **rollout 已恢復（Phase 0 完成）**：06:37 的 `pipeline-HALT.flag`（manual maintenance）已歸因並移除；`supervise-pipeline.py 核心` detached 重啟（supervisor PID 31344 / worker 31860）；`sutta-nipata` checkpoint resume 命中（resume 1/78 → chunk 2/78），checkpoint 生產實證有效。
+- **恢復程序（session 開始必查）**：讀 `00-overview/PIPELINE_STATUS.md` 更新時間 + `logs/supervisor.pid` 是否存活；死了就 `powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden`（先確認無 `pipeline-HALT.flag` / `pipeline-alert.txt`）。supervisor 內建配額耗盡偵測（連續快退 → alert + 停，不燒配額）。
+- **7 份 untracked FAILED 翻譯檔處置決定**：維持 untracked（avesta-sbe31-ae / deuteronomy / eyrbyggja-saga-on / numbers / plato-phaedo-el / plato-timaeus-el / yajnavalkya-smrti），checkpoint 重跑成功後原子覆寫，不 commit 殘次品。
+- **主 session 模型規則**：claude-fable-5 只規劃與派工不動手（全域 CLAUDE.md #10）；實作派 claude-m3 / minimax-m2.7 / Agent(sonnet/haiku)。
+
+### 下次建議
+
+1. 查管線進度（`PIPELINE_STATUS.md`）；含 psych_tags 部數 ≥20 後執行新清單 Step 5（黃金樣本閘門，派 Sonnet）。
+2. 依新清單順序走 Step 6（join 驗證發包）→ Step 7（吞吐量判定）。
+
+## 2026-07-20 22:59 快照（rollout 首次恢復）
 
 - **rollout 已恢復**：`logs/pipeline-HALT.flag` 已移除；單一 supervisor PID 47416 啟動 worker PID 3384，`auto-pipeline.lock` owner 為 3384；retry queue 的 `sutta-nipata` 已進入 `translate` running 狀態。
 - **priority/retry/reconciliation 已實作並完成品質修正**：P0 manifest 45 部通過稽核；failed-state 已實際遷移到 schema v2；普通失敗採 5/15/30 分鐘重試後 blocked，quota waiting 獨立；長文翻譯 checkpoint 與 runtime/meta 寫入皆原子化。
