@@ -3,7 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態快照（2026-07-21 15:45 +08:00）
+## 當前狀態快照（2026-07-21 17:4x +08:00，配額牆收尾）
+
+- **配額牆**：Claude 訂閱窗耗盡；用戶另開 $10 credits **保留不動用**（緊急備援）。Claude 派工全部暫停；**claude-m3 管線零 Anthropic 成本，持續自跑不受影響**。
+- **本日完成（全部已 commit + push）**：
+  - `dcb84a37` — psych_tags 黃金樣本閘門 **FAIL 11.0%**（三系統性偏差：模板標籤 / 字面比對 / 讚頌誤讀個人提問）+ `tools/m3-tagger-role.md` 補四條硬規則（5b）+ 稽核紀錄 `logs/psych-golden-audit.md`。
+  - `bdca9445` — chunk 污染防護 guard（5c）：`scripts/contamination.py` + `translate.py` 兩路徑落盤前攔截 + `verify.py --contamination`；guard 下次 worker 重啟生效。
+  - `6d264d0c` — 59 檔 M3 session 尾語污染清理（5d）：363 行切除，硬 pattern 掃描歸 0；`scripts/clean-contamination.py` 可重用。
+- **流量回來後的接力順序**（詳見 `.implementation_roadmap-core518-site-v1.md` 待執行區，spec 全部 inline 自足）：
+  1. **5d2** 殘餘軟污染補刀：4 檔已知殘塊（bud-bodhicaryavatara-sa / an7-sevens / sn45-magga ~line1256 / samaveda）+ contamination.py 追加技術詞 pattern。
+  2. **5f** 假 done 查證（**待查線索未驗證**）：35 部 meta `translation_status=done` 但章節序號有缺口——heuristic 可能誤判（sutta 編號本非連續）。清單：vedanta-vivekacudamani vedanta-upadeshasahasri bud-bodhicaryavatara-sa an2-twos bud-abhidharmakosha-sa pearl-of-great-price jain-acaranga-pkt an7-sevens bud-ratnagotravibhaga-sa bud-udanavarga-sa cath-maige-tuired-ga chronicles-2 corpus-hermeticum-el daniel epictetus-enchiridion-el euripides-medea-el gheranda-samhita gisla-saga-on hesiod-el hesiod-works joshua kings-1 mabinogion-cy-2 plato-apology-el plato-meno-el plato-protagoras-el plato-symposium-el prashna-upanishad sblgnt-1-corinthians sblgnt-hebrews sblgnt-mark sn45-magga sn46-bojjhanga vasistha-dharmasutra volsunga-saga-on。
+  3. **5e** psych_tags 重測閘門（≤10% 才擴批）→ **Step 6** join 驗證 → Step 7–11。
+- **session 開始必查（不變）**：`PIPELINE_STATUS.md` 更新時間 + `logs/supervisor.pid` 存活；死了重啟指令見下段 07-21 15:45 快照。
+
+## 2026-07-21 15:45 快照（rollout 恢復 + 規劃立案）
 
 - **總規劃書已立**：`.implementation_roadmap-core518-site-v1.md`（fable-5 plan-check 產出，11 步）— Phase 0 管線恢復 → Phase 1 FAILED 修復＋核心 518 全量 → Phase 2 psych_tags 黃金樣本＋跨專案 join 驗收 → Phase 3 吞吐量判定 → Phase 4 網站 v1（承接 `.implementation_site-v1-psych-tags.md`）→ Phase 5 大宗收集另行 plan-check。舊清單狀態：status-board 9/9 完、priority-retry 24/25（W25 rollout＝本次已做）、checkpoint-psych-tags Step 8–9 由新清單承接。
 - **rollout 已恢復（Phase 0 完成）**：06:37 的 `pipeline-HALT.flag`（manual maintenance）已歸因並移除；`supervise-pipeline.py 核心` detached 重啟（supervisor PID 31344 / worker 31860）；`sutta-nipata` checkpoint resume 命中（resume 1/78 → chunk 2/78），checkpoint 生產實證有效。
