@@ -6,6 +6,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
@@ -36,6 +41,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -60,6 +70,11 @@
     {
       "slug": "an2-twos",
       "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -166,6 +181,11 @@
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
     },
     {
       "slug": "sn1-devata",
@@ -337,9 +357,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aztec-rva",
@@ -485,6 +515,11 @@
       "slug": "sblgnt-2-corinthians",
       "name_zh": "哥林多後書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
     },
     {
       "slug": "sn4-mara",
@@ -681,6 +716,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
@@ -806,6 +846,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -876,6 +921,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -934,6 +984,11 @@
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
     },
     {
       "slug": "sn11-sakka",
@@ -1005,6 +1060,11 @@
     {
       "slug": "an2-twos",
       "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -1178,6 +1238,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -1235,6 +1300,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1321,6 +1391,11 @@
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
+    },
+    {
+      "slug": "shurangama-sutra",
+      "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
+      "religion": "佛教"
     },
     {
       "slug": "sn1-devata",
@@ -1567,6 +1642,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "proverbs",
       "name_zh": "箴言",
       "religion": "猶太教"
@@ -1739,6 +1819,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -1781,6 +1866,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1934,6 +2024,11 @@
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "ashtavakra-gita",
@@ -2149,6 +2244,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
+      "religion": "猶太教"
     },
     {
       "slug": "ksitigarbha-sutra",
@@ -2490,6 +2590,11 @@
   ],
   "emotions-passions": [
     {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
@@ -2548,6 +2653,11 @@
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
+    },
+    {
+      "slug": "plato-protagoras-el",
+      "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "proverbs",
@@ -2639,6 +2749,11 @@
     {
       "slug": "judges",
       "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-1",
+      "name_zh": "列王紀上",
       "religion": "猶太教"
     },
     {
@@ -3043,6 +3158,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
@@ -3259,6 +3379,11 @@
     }
   ],
   "freewill-fate-choice": [
+    {
+      "slug": "aristotle-de-anima-el",
+      "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",

@@ -4,17 +4,17 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**148** / 518
-- 已標籤：**170** / 518
+- 已標籤：**175** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 26 |
-| 佛教 | 74 | 33 | 41 |
+| 佛教 | 74 | 33 | 43 |
 | 印度教 | 58 | 25 | 27 |
-| 古希臘羅馬 | 46 | 15 | 13 |
-| 猶太教 | 45 | 23 | 24 |
+| 古希臘羅馬 | 46 | 15 | 15 |
+| 猶太教 | 45 | 23 | 25 |
 | 道教 | 18 | 8 | 13 |
 | 北歐 | 15 | 3 | 3 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -259,7 +259,7 @@
 - `an4-fours` AN4 四法集（Pali）譯– 標–
 - `an5-fives` AN5 五法集（Pali）譯– 標–
 - `an6-sixes` AN6 六法集（Pali）譯– 標–
-- `an7-sevens` AN7 七法集（Pali）譯✓ 標–
+- `an7-sevens` AN7 七法集（Pali）譯✓ 標✓
 - `an8-eights` AN8 八法集（Pali）譯– 標–
 - `an9-nines` AN9 九法集（Pali）譯– 標–
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯– 標–
@@ -300,7 +300,7 @@
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
 - `samyuktagama` 雜阿含經（古典漢語）譯– 標–
-- `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標–
+- `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標✓
 - `sn1-devata` SN1 天人相應 (81 經)（Pali）譯– 標✓
 - `sn10-yakkha` SN10 夜叉相應（Pali）譯✓ 標✓
 - `sn11-sakka` SN11 帝釋相應（Pali）譯✓ 標✓
@@ -389,7 +389,7 @@
 
 - `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
 - `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯– 標–
-- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標–
+- `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
@@ -419,7 +419,7 @@
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯– 標–
-- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標–
+- `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
 - `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
@@ -460,7 +460,7 @@
 - `joshua` 約書亞記（Hebrew）譯✓ 標–
 - `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標–
-- `kings-1` 列王紀上（Hebrew）譯✓ 標–
+- `kings-1` 列王紀上（Hebrew）譯✓ 標✓
 - `kings-2` 列王紀下（Hebrew）譯– 標–
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標–
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
