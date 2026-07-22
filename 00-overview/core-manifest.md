@@ -3,19 +3,19 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**146** / 518
-- 已標籤：**155** / 518
+- 已翻譯：**148** / 518
+- 已標籤：**160** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 24 | 24 |
+| 基督教 | 161 | 25 | 26 |
 | 佛教 | 74 | 33 | 39 |
 | 印度教 | 58 | 25 | 25 |
 | 古希臘羅馬 | 46 | 15 | 11 |
 | 猶太教 | 45 | 23 | 23 |
-| 道教 | 18 | 8 | 12 |
+| 道教 | 18 | 8 | 13 |
 | 北歐 | 15 | 3 | 2 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
 | 美洲 | 11 | 0 | 0 |
@@ -24,7 +24,7 @@
 | 古埃及 | 8 | 0 | 0 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 0 | 0 |
-| 現代新興 | 5 | 1 | 0 |
+| 現代新興 | 5 | 1 | 1 |
 | 神道 | 5 | 1 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 0 | 0 |
@@ -33,7 +33,7 @@
 | 瑪雅 | 3 | 0 | 0 |
 | 兩河 | 3 | 0 | 0 |
 | 斯拉夫 | 3 | 1 | 1 |
-| 非洲 | 2 | 0 | 0 |
+| 非洲 | 2 | 1 | 1 |
 | 阿茲特克 | 1 | 1 | 1 |
 | 赫爾墨斯 | 1 | 1 | 1 |
 | 墨家 | 1 | 0 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -164,7 +164,7 @@
 - `sblgnt-2-thessalonians` 帖撒羅尼迦後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-2-timothy` 提摩太後書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-3-john` 約翰三書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯– 標–
+- `sblgnt-acts` 使徒行傳（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-colossians` 歌羅西書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-ephesians` 以弗所書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-galatians` 加拉太書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -173,7 +173,7 @@
 - `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯– 標✓
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯✓ 標–
-- `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標–
+- `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯– 標✓
 - `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -496,7 +496,7 @@
 - `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
 - `taiyi-jinhua-zongzhi` 太乙金華宗旨（古典漢語）譯✓ 標✓
 - `tao-te-ching` 道德經（古典漢語）譯– 標✓
-- `wenzi` 文子（古典漢語）譯– 標–
+- `wenzi` 文子（古典漢語）譯– 標✓
 - `wuzhen-pian` 悟真篇（古典漢語）譯✓ 標✓
 - `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
@@ -608,7 +608,7 @@
 
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標–
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯– 標–
-- `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標–
+- `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
 - `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯– 標–
 
@@ -667,7 +667,7 @@
 
 ### 非洲（2 部）
 
-- `ife-mythology` 伊費神話 (約魯巴)（English (translation)）譯– 標–
+- `ife-mythology` 伊費神話 (約魯巴)（English (translation)）譯✓ 標✓
 - `yoruba-religion` 約魯巴宗教與神話（English (translation)）譯– 標–
 
 ### 阿茲特克（1 部）
