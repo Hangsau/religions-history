@@ -4,22 +4,22 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**148** / 518
-- 已標籤：**160** / 518
+- 已標籤：**165** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 26 |
-| 佛教 | 74 | 33 | 39 |
-| 印度教 | 58 | 25 | 25 |
-| 古希臘羅馬 | 46 | 15 | 11 |
+| 佛教 | 74 | 33 | 40 |
+| 印度教 | 58 | 25 | 26 |
+| 古希臘羅馬 | 46 | 15 | 12 |
 | 猶太教 | 45 | 23 | 23 |
 | 道教 | 18 | 8 | 13 |
-| 北歐 | 15 | 3 | 2 |
+| 北歐 | 15 | 3 | 3 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
 | 美洲 | 11 | 0 | 0 |
-| 儒教 | 10 | 1 | 5 |
+| 儒教 | 10 | 1 | 6 |
 | 凱爾特 | 9 | 3 | 3 |
 | 古埃及 | 8 | 0 | 0 |
 | 耆那教 | 7 | 4 | 4 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -272,7 +272,7 @@
 - `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯– 標–
 - `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯✓ 標✓
 - `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯✓ 標✓
-- `bud-ratnagotravibhaga-sa` 寶性論（梵文）（梵語）譯✓ 標–
+- `bud-ratnagotravibhaga-sa` 寶性論（梵文）（梵語）譯✓ 標✓
 - `bud-saddharmapundarika-sa` 妙法蓮華經（梵文）（梵語）譯– 標–
 - `bud-trimshika-sa` 唯識三十頌（梵文）（梵語）譯✓ 標✓
 - `bud-udanavarga-sa` 優陀那品（梵文）（梵語）譯✓ 標–
@@ -374,7 +374,7 @@
 - `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標–
 - `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
-- `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標–
+- `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標✓
 - `vaisheshika-sutra` 勝論經（梵語）譯✓ 標✓
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
 - `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標–
@@ -399,7 +399,7 @@
 - `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯✓ 標✓
 - `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標–
-- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標–
+- `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標✓
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標–
@@ -519,7 +519,7 @@
 - `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯– 標–
 - `snorra-edda-on` 散文埃達／斯諾里埃達（古諾斯語原文）（古諾斯語）譯– 標–
 - `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標–
-- `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯✓ 標–
+- `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯✓ 標✓
 
 ### 瑣羅亞斯德（11 部）
 
@@ -559,7 +559,7 @@
 - `great-learning` 大學（古典漢語）譯– 標✓
 - `liji` 禮記（古典漢語）譯– 標–
 - `mengzi` 孟子（古典漢語）譯– 標✓
-- `shang-shu` 尚書（古典漢語）譯– 標–
+- `shang-shu` 尚書（古典漢語）譯– 標✓
 - `taiji-tushuo` 太極圖說（古典漢語）譯✓ 標✓
 
 ### 凱爾特（9 部）

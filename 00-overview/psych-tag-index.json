@@ -31,6 +31,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -44,6 +49,11 @@
       "slug": "sn47-satipatthana",
       "name_zh": "SN47 念處相應 (104 經)",
       "religion": "佛教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "aging-time": [
@@ -60,6 +70,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -91,6 +106,11 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hrafnkels-saga-on",
@@ -273,6 +293,11 @@
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
+    },
+    {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
     },
     {
       "slug": "taiyi-jinhua-zongzhi",
@@ -482,6 +507,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
@@ -661,6 +691,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
@@ -704,6 +739,11 @@
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hesiod-works",
@@ -851,6 +891,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
@@ -871,6 +916,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
@@ -879,6 +929,11 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "wenzi",
@@ -948,6 +1003,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -1006,6 +1066,11 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hesiod-works",
@@ -1193,6 +1258,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -1248,6 +1318,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
@@ -1276,6 +1351,11 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "wenzi",
@@ -1447,6 +1527,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
@@ -1547,6 +1632,11 @@
       "slug": "gisla-saga-on",
       "name_zh": "吉斯利薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hesiod-works",
@@ -1659,6 +1749,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "shang-shu",
+      "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -1729,6 +1824,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -1788,6 +1888,11 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -1874,6 +1979,11 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "hesiod-works",
@@ -2176,6 +2286,11 @@
       "religion": "道教"
     },
     {
+      "slug": "taittiriya-upanishad",
+      "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    },
+    {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
@@ -2194,6 +2309,11 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    },
+    {
+      "slug": "volsunga-saga-on",
+      "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "wenzi",
@@ -2486,6 +2606,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
