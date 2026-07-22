@@ -16,6 +16,16 @@
   3. **5e** psych_tags 重測閘門（≤10% 才擴批）→ **Step 6** join 驗證 → Step 7–11。
 - **session 開始必查（不變）**：`PIPELINE_STATUS.md` 更新時間 + `logs/supervisor.pid` 存活；死了重啟指令見下段 07-21 15:45 快照。
 
+## 2026-07-22 16:00 快照（psych_tags 補 2 檔，stop-hook 收尾）
+
+- **commit 0f45dc0f**：stop-hook 觸發收尾，Pipeline C psych_tags 補 2 檔批次（4 檔異動：2 modified + 2 auto-regen），commit + push。
+  - `translations/baudhayana-dharmasutra/meta.json`：補 `psych_tags`（5 個）+ `psych_tag_status="done"`（沿用既有 `tag_status="done"` / 33 semantic_tags / 15 keywords）。
+  - `translations/judges/meta.json`：補 `psych_tags`（5 個）+ `psych_tag_status="done"`（沿用既有 `tag_status="done"` / 21 semantic_tags / 14 keywords）。
+  - 狀態同步：`PIPELINE_STATUS.md` 165 → **167 / 518** 已翻譯+標籤（自動生，2026-07-22 15:59:25 +0800）；`PROGRESS.json` 猶太教 `with_translation` 0→**1**；目前處理轉 `judges`（tag）。
+- **7 份 untracked FAILED 翻譯檔維持 untracked**（HANDOFF §2026-07-21 17:4x 設計決策未變）：avesta-sbe31-ae / deuteronomy / eyrbyggja-saga-on / numbers / plato-phaedo-el / plato-timaeus-el / yajnavalkya-smrti；checkpoint 重跑成功後原子覆寫。
+- **本次 session 額外交付（m3 chunk 內容產生器）**：joshua 約書亞記 1-2 章（10 段 chunking，本批第 1/10 段）已輸出 psych_tags JSON 至 stdout（見本對話上文）。後續 9 段由 supervisor 接力至 01-translation.md 落地。
+- **流量回來後的接力順序**不變（依 07-21 17:4x 快照）：5d2 殘餘軟污染 → 5f 假 done 查證 → 5e psych_tags 重測閘門（**含本批 2 檔已補**）。
+
 ## 2026-07-21 15:45 快照（rollout 恢復 + 規劃立案）
 
 - **總規劃書已立**：`.implementation_roadmap-core518-site-v1.md`（fable-5 plan-check 產出，11 步）— Phase 0 管線恢復 → Phase 1 FAILED 修復＋核心 518 全量 → Phase 2 psych_tags 黃金樣本＋跨專案 join 驗收 → Phase 3 吞吐量判定 → Phase 4 網站 v1（承接 `.implementation_site-v1-psych-tags.md`）→ Phase 5 大宗收集另行 plan-check。舊清單狀態：status-board 9/9 完、priority-retry 24/25（W25 rollout＝本次已做）、checkpoint-psych-tags Step 8–9 由新清單承接。
