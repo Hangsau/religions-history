@@ -83,6 +83,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
+    {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
@@ -282,6 +287,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -574,6 +584,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
       "religion": "佛教"
@@ -676,9 +696,19 @@
       "religion": "阿茲特克"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
     },
     {
       "slug": "brihadaranyaka-upanishad",
@@ -771,6 +801,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -838,6 +873,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -978,9 +1018,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
     },
     {
       "slug": "brihadaranyaka-upanishad",
@@ -1025,6 +1075,11 @@
     {
       "slug": "dhammapada",
       "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
       "religion": "佛教"
     },
     {
@@ -1180,6 +1235,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1437,6 +1497,11 @@
       "religion": "阿茲特克"
     },
     {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
@@ -1579,6 +1644,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "book-of-changes",
+      "name_zh": "周易",
+      "religion": "儒教"
+    },
+    {
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
       "religion": "印度教"
@@ -1664,6 +1734,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -1706,6 +1781,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1861,6 +1941,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
@@ -1923,6 +2008,11 @@
     {
       "slug": "dhammapada",
       "name_zh": "法句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
       "religion": "佛教"
     },
     {
@@ -2051,6 +2141,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -2118,6 +2213,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -2400,6 +2500,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
+      "religion": "佛教"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -2532,6 +2637,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "judges",
+      "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -2599,6 +2709,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
@@ -2611,6 +2726,11 @@
     {
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "diamond-mulamadhyamaka",
+      "name_zh": "中論",
       "religion": "佛教"
     },
     {
@@ -2753,6 +2873,11 @@
     {
       "slug": "jonah",
       "name_zh": "約拿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "judges",
+      "name_zh": "士師記",
       "religion": "猶太教"
     },
     {

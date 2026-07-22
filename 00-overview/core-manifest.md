@@ -4,22 +4,22 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**148** / 518
-- 已標籤：**165** / 518
+- 已標籤：**170** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 26 |
-| 佛教 | 74 | 33 | 40 |
-| 印度教 | 58 | 25 | 26 |
-| 古希臘羅馬 | 46 | 15 | 12 |
-| 猶太教 | 45 | 23 | 23 |
+| 佛教 | 74 | 33 | 41 |
+| 印度教 | 58 | 25 | 27 |
+| 古希臘羅馬 | 46 | 15 | 13 |
+| 猶太教 | 45 | 23 | 24 |
 | 道教 | 18 | 8 | 13 |
 | 北歐 | 15 | 3 | 3 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
 | 美洲 | 11 | 0 | 0 |
-| 儒教 | 10 | 1 | 6 |
+| 儒教 | 10 | 1 | 7 |
 | 凱爾特 | 9 | 3 | 3 |
 | 古埃及 | 8 | 0 | 0 |
 | 耆那教 | 7 | 4 | 4 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -279,7 +279,7 @@
 - `bud-vajracchedika-prajnaparamita-sa` 金剛般若波羅蜜多（梵文）（梵語）譯✓ 標✓
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯✓ 標✓
 - `dhammapada` 法句經（Pali）譯– 標✓
-- `diamond-mulamadhyamaka` 中論（古典漢語）譯– 標–
+- `diamond-mulamadhyamaka` 中論（古典漢語）譯– 標✓
 - `diamond-sutra-kumarajiva` 金剛般若波羅蜜經（古典漢語）譯– 標✓
 - `digha-nikaya` 長部經典（Pali）譯– 標–
 - `dirghagama` 長阿含經（古典漢語）譯– 標–
@@ -333,7 +333,7 @@
 - `ashtavakra-gita` 八曲之歌（Sanskrit）譯✓ 標✓
 - `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯– 標–
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標–
-- `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標–
+- `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯– 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標–
 - `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
@@ -421,7 +421,7 @@
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標–
 - `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
-- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標–
+- `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標–
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標–
@@ -458,7 +458,7 @@
 - `jonah` 約拿書（Hebrew）譯✓ 標✓
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標–
 - `joshua` 約書亞記（Hebrew）譯✓ 標–
-- `judges` 士師記（Hebrew）譯✓ 標–
+- `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標–
 - `kings-1` 列王紀上（Hebrew）譯✓ 標–
 - `kings-2` 列王紀下（Hebrew）譯– 標–
@@ -552,7 +552,7 @@
 ### 儒教（10 部）
 
 - `analects` 論語（古典漢語）譯– 標✓
-- `book-of-changes` 周易（古典漢語）譯– 標–
+- `book-of-changes` 周易（古典漢語）譯– 標✓
 - `book-of-poetry` 詩經（古典漢語）譯– 標–
 - `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯– 標–
 - `doctrine-of-the-mean` 中庸（古典漢語）譯– 標✓
