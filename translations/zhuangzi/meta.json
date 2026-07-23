@@ -48,5 +48,15 @@
     "齊物",
     "物化"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done"
 }
