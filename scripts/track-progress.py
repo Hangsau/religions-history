@@ -148,6 +148,15 @@ TARGETS = {
 }
 
 
+def _translation_file_complete(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size <= 100:
+        return False
+    try:
+        return "<!-- CHUNK " not in path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return False
+
+
 def load_current_state() -> dict:
     """Read all meta.json, group by religion."""
     by_religion: dict[str, list[dict]] = defaultdict(list)
@@ -165,6 +174,9 @@ def load_current_state() -> dict:
             "source": m.get("source_platform"),
             "is_original": m.get("is_original_language"),
             "size_bytes": m.get("size_bytes", 0),
+            "translation_status": m.get("translation_status"),
+            "semantic_tags": m.get("semantic_tags"),
+            "tag_status": m.get("tag_status"),
         })
     return dict(by_religion)
 
@@ -183,8 +195,13 @@ def compute_progress(by_religion: dict) -> dict:
             "pct_core": round(min(100, done / target["core"] * 100), 1) if target.get("core") else None,
             "pct_v3_listed": round(min(100, done / target["v3_listed"] * 100), 1) if target.get("v3_listed") else None,
             "pct_full": round(done / target["full_canon"] * 100, 2) if target.get("full_canon") else None,
-            "with_translation": sum(1 for s in scripts if (TRANSLATIONS_DIR / (s["slug"] or "") / "01-translation.md").exists()),
-            "with_semantic_tags": sum(1 for s in scripts if s.get("tradition") and "semantic_tags" in str(s)),  # placeholder
+            "with_translation": sum(
+                1 for s in scripts
+                if s.get("translation_status") == "done"
+                and _translation_file_complete(TRANSLATIONS_DIR / (s["slug"] or "") / "01-translation.md")
+            ),
+            "with_semantic_tags": sum(
+                1 for s in scripts if s.get("tag_status") == "done" and bool(s.get("semantic_tags"))),
             "total_bytes": sum(s["size_bytes"] for s in scripts),
             "by_tradition": dict(Counter((s["tradition"] or "—") for s in scripts).most_common()),
             "by_source": dict(Counter((s["source"] or "—") for s in scripts).most_common()),

@@ -41,6 +41,7 @@ from pathlib import Path
 
 from pipeline_lock import acquire_run_lock, release_run_lock
 import pipeline_priority
+import minimax_quota
 from contamination import find_contamination
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -58,6 +59,9 @@ TZ = timezone(timedelta(hours=8))
 CHECKPOINT_SCHEMA_VERSION = 1
 CHUNKING_VERSION = 1
 M3_TIMEOUT_SECONDS = int(os.environ.get("RELIGIONS_M3_TIMEOUT_SECONDS", "360"))
+QUOTA_PREFLIGHT_TTL_SECONDS = int(os.environ.get("RELIGIONS_QUOTA_PREFLIGHT_TTL_SECONDS", "60"))
+QUOTA_INTERVAL_RESERVE_PERCENT = float(os.environ.get("RELIGIONS_QUOTA_INTERVAL_RESERVE", "10"))
+QUOTA_WEEKLY_RESERVE_PERCENT = float(os.environ.get("RELIGIONS_QUOTA_WEEKLY_RESERVE", "10"))
 
 TASK_TO_OUTFILE = {
     "translate": "01-translation.md",
@@ -246,6 +250,8 @@ def _call_m3_measured(prompt: str, slug: str, task: str, input_chars: int,
             outcome = "timeout"
         elif runtime.get("status") == "waiting_quota":
             outcome = "quota"
+        elif runtime.get("status") == "waiting_provider":
+            outcome = "provider_wait"
         else:
             outcome = "error"
         _append_metric({
@@ -490,6 +496,9 @@ MODEL_MARKER = "  [model] {name} ({role})"
 # 讓「哪些檔被 fallback 翻過」可稽核（header 標示仍是 PRIMARY_MODEL，此欄才是權威來源）。
 LAST_MODELS_USED: set[str] = set()
 CURRENT_WORK: dict[str, object] = {"slug": None, "task": None, "chunk": None, "chunks_total": None}
+LAST_FAILURE: dict[str, str | None] = {"code": None, "scope": None, "message": None}
+_QUOTA_CACHE: dict[str, object] = {"checked_monotonic": 0.0, "result": None}
+PROVIDER_BACKOFF_SECONDS = (300, 600, 1200, 1800)
 
 
 def _write_runtime_state(**changes: object) -> None:
@@ -505,9 +514,12 @@ def _write_runtime_state(**changes: object) -> None:
 
 def set_current_work(slug: str, task: str, chunk: int | None = None,
                      chunks_total: int | None = None) -> None:
+    LAST_FAILURE.update(code=None, scope=None, message=None)
     CURRENT_WORK.update(slug=slug, task=task, chunk=chunk, chunks_total=chunks_total)
     _write_runtime_state(status="running", slug=slug, task=task, chunk=chunk,
                          chunks_total=chunks_total, last_error=None, next_retry_at=None,
+                         failure_code=None, failure_scope=None, handoff=None,
+                         pause_reason=None,
                          request_started_at=datetime.now(TZ).isoformat())
 
 
@@ -518,16 +530,94 @@ def is_waiting_quota() -> bool:
         return False
 
 
-def _wait_for_quota(error: str) -> None:
+def is_waiting_generation() -> bool:
+    try:
+        return json.loads(RUNTIME_STATE_PATH.read_text(encoding="utf-8")).get("status") in {
+            "waiting_quota", "waiting_provider"}
+    except (OSError, json.JSONDecodeError):
+        return False
+
+
+def _set_failure(code: str, scope: str, message: str) -> None:
+    LAST_FAILURE.update(code=code, scope=scope, message=str(message))
+
+
+def _handoff(reason: str, next_retry_at: str | None) -> dict:
+    return {
+        "resume_command": "python scripts/supervise-pipeline.py 核心",
+        "resume_from_checkpoint": True,
+        "reason": reason,
+        "next_retry_at": next_retry_at,
+        **CURRENT_WORK,
+    }
+
+
+def _wait_for_quota(error: str, next_retry_at: datetime | None = None,
+                    quota: dict | None = None, code: str = "quota_limited") -> None:
     now = datetime.now(TZ)
+    retry_text = next_retry_at.isoformat() if next_retry_at else None
+    _set_failure(code, "provider", error)
     _write_runtime_state(status="waiting_quota", detected_at=now.isoformat(),
-                         next_retry_at=None, quota_wait_mode=None,
-                         retry_attempt=0, last_error=error, **CURRENT_WORK)
+                         next_retry_at=retry_text,
+                         quota_wait_mode="official_reset" if retry_text else None,
+                         wait_mode="official_reset" if retry_text else None,
+                         retry_attempt=0, last_error=error, failure_code=code,
+                         failure_scope="provider", quota=quota,
+                         handoff=_handoff(code, retry_text), **CURRENT_WORK)
     print("  [quota] M3 流量／額度限制；已保留目前 chunk，停止後續工作並等待官方 reset 自動恢復")
 
 
-def _record_generation_error(error: str) -> None:
-    _write_runtime_state(status="error", next_retry_at=None, last_error=error, **CURRENT_WORK)
+def _wait_for_provider(error: str, code: str = "provider_timeout") -> None:
+    now = datetime.now(TZ)
+    try:
+        old = json.loads(RUNTIME_STATE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        old = {}
+    prior = old.get("retry_attempt", 0)
+    prior = prior if isinstance(prior, int) and not isinstance(prior, bool) and prior >= 0 else 0
+    attempt = prior + 1
+    delay = PROVIDER_BACKOFF_SECONDS[min(prior, len(PROVIDER_BACKOFF_SECONDS) - 1)]
+    retry_at = now + timedelta(seconds=delay)
+    _set_failure(code, "provider", error)
+    _write_runtime_state(status="waiting_provider", detected_at=now.isoformat(),
+                         next_retry_at=retry_at.isoformat(), wait_mode="provider_backoff",
+                         quota_wait_mode="provider_backoff", retry_attempt=attempt,
+                         last_error=error, failure_code=code, failure_scope="provider",
+                         handoff=_handoff(code, retry_at.isoformat()), **CURRENT_WORK)
+    print(f"  [provider-wait] M3 暫時無回應；已保留 chunk，{delay // 60} 分鐘後由 watcher 接手")
+
+
+def _record_generation_error(error: str, code: str = "generation_error",
+                             scope: str = "scripture") -> None:
+    _set_failure(code, scope, error)
+    _write_runtime_state(status="error", next_retry_at=None, last_error=error,
+                         failure_code=code, failure_scope=scope,
+                         handoff=_handoff(code, None), **CURRENT_WORK)
+
+
+def _quota_preflight() -> bool:
+    """Return False only when the account has reached the configured reserve."""
+    now_mono = time.monotonic()
+    result = _QUOTA_CACHE.get("result")
+    if result is None or now_mono - float(_QUOTA_CACHE.get("checked_monotonic") or 0) >= QUOTA_PREFLIGHT_TTL_SECONDS:
+        result = minimax_quota.probe_quota(
+            MINIMAX_TOKEN_PATH, "https://www.minimax.io/v1/token_plan/remains", TZ,
+            timeout=10, interval_reserve=QUOTA_INTERVAL_RESERVE_PERCENT,
+            weekly_reserve=QUOTA_WEEKLY_RESERVE_PERCENT)
+        _QUOTA_CACHE.update(checked_monotonic=now_mono, result=result)
+    outcome, detail, quota, retry_at = result
+    if quota:
+        _write_runtime_state(quota=quota, quota_probe_error=None)
+    elif outcome == "fallback":
+        _write_runtime_state(quota_probe_error=detail)
+    if outcome == "official_reset":
+        _wait_for_quota(f"proactive quota reserve: {detail}", retry_at, quota,
+                        code="quota_reserve")
+        return False
+    if outcome == "fallback":
+        _wait_for_provider(f"quota preflight unavailable: {detail}", "quota_probe_unavailable")
+        return False
+    return True
 
 
 def _resolve_backend(model: str) -> tuple[str, str] | None:
@@ -556,20 +646,29 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
         print(f"  [error] {error}")
         return None
     base_url, token = backend
+    if not _quota_preflight():
+        return None
     blank_exit_ones = 0
     for attempt in range(1, 4):
         out, err = _run_claude(prompt, base_url, token, PRIMARY_MODEL)
         if out is not None:
             print(MODEL_MARKER.format(name=PRIMARY_MODEL, role="primary"))
             LAST_MODELS_USED.add(PRIMARY_MODEL)
+            _write_runtime_state(status="running", retry_attempt=0, last_error=None,
+                                 failure_code=None, failure_scope=None, handoff=None,
+                                 next_retry_at=None, wait_mode=None, quota_wait_mode=None)
             return out
         detail = (err or "").lower()
         if "timeout" in detail:
-            _record_generation_error(err or "M3 request timed out")
+            _wait_for_provider(err or "M3 request timed out", "provider_timeout")
             print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）")
             return None
         if any(x in detail for x in ("429", "quota", "rate limit", "rate_limit", "traffic", "too many requests")):
             _wait_for_quota(err or "M3 quota/rate-limit signal")
+            return None
+        if any(x in detail for x in ("http 500", "http 502", "http 503", "http 504",
+                                     "connection", "temporarily unavailable", "overloaded")):
+            _wait_for_provider(err or "M3 provider unavailable", "provider_unavailable")
             return None
         if (err or "").strip() in ("exit 1:", "exit 1: "):
             blank_exit_ones += 1
@@ -774,11 +873,13 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
                     output = "\n".join(lines[j:])
                     break
         if not output.strip() or "<!-- CHUNK " in output or (i == 1 and not output.startswith("#")):
+            _set_failure("invalid_output", "scripture", f"chunk {i} failed output validation")
             print(f"    [error] chunk {i} invalid for {slug} ({task}); checkpoint unchanged")
             return False
         contamination = find_contamination(output)
         if contamination:
             pat = contamination[0].pattern_name
+            _set_failure("contaminated_output", "scripture", f"chunk {i}: {pat}")
             print(f"    [error] chunk {i} contaminated for {slug} ({task}): pattern='{pat}'; checkpoint unchanged")
             return False
         _save_checkpoint_part(active, manifest, i, output)
@@ -903,6 +1004,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
     sem: set[str] = set(meta.get("semantic_tags") or []) if preserve_semantic else set()
     psych: set[str] = set()
     kw: list[str] = list(meta.get("keywords") or []) if preserve_semantic else []
+    tag_chunks_total = 1
 
     def ingest(obj: dict) -> None:
         if not preserve_semantic:
@@ -928,12 +1030,14 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
             return dry_run
         obj = parse_tag_json(output)
         if obj is None:
+            _set_failure("invalid_tag_json", "scripture", "tag response was not parseable JSON")
             print(f"  [error] {slug} (tag): unparseable JSON")
             return False
         ingest(obj)
     else:
         chapters = split_chapters(text)
         groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)
+        tag_chunks_total = len(groups)
         print(f"  [chunk] {slug} (tag): {len(chapters)} chapters → {len(groups)} chunks")
         for i, group in enumerate(groups, 1):
             chunk_text = "\n".join(group)
@@ -950,6 +1054,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
                 return False
             obj = parse_tag_json(output)
             if obj is None:
+                _set_failure("invalid_tag_json", "scripture", f"tag chunk {i} was not parseable JSON")
                 print(f"    [error] chunk {i} returned unparseable JSON for {slug} (tag)")
                 return False
             ingest(obj)
@@ -960,9 +1065,11 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
     psych_tags = sorted(psych)[:5]
     keywords = kw[:15]
     if not semantic_tags or not psych_tags:
+        _set_failure("empty_tag_axis", "scripture", "semantic or psych controlled tag axis was empty")
         print(f"  [error] {slug} (tag): empty controlled tag axis; metadata unchanged")
         return False
     merge_meta_tags(slug, semantic_tags, psych_tags, keywords)
+    _record_completion(slug, "tag", 0, tag_chunks_total)
     print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} semantic, "
           f"{len(psych_tags)} psych, {len(keywords)} keywords")
     return True

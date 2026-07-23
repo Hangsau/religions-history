@@ -76,6 +76,12 @@ class QuotaProbeTests(unittest.TestCase):
         self.assertEqual(outcome, "official_reset")
         self.assertEqual(retry_at, self.interval_reset + timedelta(seconds=15))
 
+    def test_interval_reserve_stops_before_zero(self):
+        outcome, _, summary, retry_at = self.probe(self.payload(interval=4))
+        self.assertEqual(outcome, "official_reset")
+        self.assertEqual(summary["interval_remaining_percent"], 4)
+        self.assertEqual(retry_at, self.interval_reset + timedelta(seconds=15))
+
     def test_weekly_exhaustion_uses_weekly_reset_plus_buffer(self):
         outcome, _, _, retry_at = self.probe(self.payload(weekly=0))
         self.assertEqual(outcome, "official_reset")
@@ -176,6 +182,20 @@ class WatchStateTests(unittest.TestCase):
              mock.patch.object(quota_watch.subprocess, "Popen") as popen:
             self.assertFalse(quota_watch.resume("核心"))
         popen.assert_not_called()
+
+    def test_provider_wait_can_resume_from_same_handoff(self):
+        state = {"status": "waiting_provider", "slug": "book", "chunk": 3,
+                 "handoff": {"resume_from_checkpoint": True}}
+        with mock.patch.object(quota_watch, "HALT", mock.Mock(**{"exists.return_value": False})), \
+                mock.patch.object(quota_watch, "load_state", return_value=dict(state)), \
+                mock.patch.object(quota_watch, "save_state") as save, \
+                mock.patch.object(quota_watch.subprocess, "Popen", return_value=mock.Mock(pid=9)), \
+                mock.patch.object(quota_watch, "log"):
+            self.assertTrue(quota_watch.resume("核心"))
+        updated = save.call_args.args[0]
+        self.assertEqual(updated["status"], "running")
+        self.assertEqual(updated["slug"], "book")
+        self.assertEqual(updated["chunk"], 3)
 
     def test_fallback_attempt_rejects_bool_and_negative(self):
         self.assertEqual(quota_watch._fallback_attempt({"retry_attempt": True}), 0)

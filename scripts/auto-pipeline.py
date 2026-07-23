@@ -66,11 +66,11 @@ def write_status(tier: str, done: int, total: int, current: str, failure_state: 
     except (OSError, json.JSONDecodeError):
         runtime = {}
     runtime_lines = ""
-    if runtime.get("status") == "waiting_quota":
+    if runtime.get("status") in {"waiting_quota", "waiting_provider"}:
         chunk = runtime.get("chunk")
         total_chunks = runtime.get("chunks_total")
         chunk_text = f" chunk {chunk}/{total_chunks}" if chunk and total_chunks else ""
-        runtime_lines = (f"- M3 執行狀態：**waiting_quota** — `{runtime.get('slug', current)}`"
+        runtime_lines = (f"- M3 執行狀態：**{runtime.get('status')}** — `{runtime.get('slug', current)}`"
                          f" ({runtime.get('task', '?')}{chunk_text})\n"
                          f"- 限制偵測：{runtime.get('detected_at', '?')}；下次重試：{runtime.get('next_retry_at', '?')}\n"
                          f"- 最後錯誤：`{runtime.get('last_error', '?')}`\n")
@@ -183,10 +183,13 @@ def process_slug(slug: str, tasks: list[str], whitelist: set, psych_whitelist: s
                 if not translate.has_complete_translation(tr_path):
                     print(f"  [error] {slug} (translate): output failed completeness check")
                     return False, touched
-                set_meta_status(slug, "translation_status", "done")
-                if translate.LAST_MODELS_USED:
-                    set_meta_status(slug, "translation_models",
-                                    "+".join(sorted(translate.LAST_MODELS_USED)))
+        if translate.has_complete_translation(tr_path) and not dry_run:
+            # Reconcile complete legacy/untracked files too; this closes the gap
+            # where reports saw a file but metadata still said pending.
+            set_meta_status(slug, "translation_status", "done")
+            if translate.LAST_MODELS_USED:
+                set_meta_status(slug, "translation_models",
+                                "+".join(sorted(translate.LAST_MODELS_USED)))
         touched.append(tr_path)
         touched.append(slug_dir / "meta.json")
 
@@ -286,17 +289,32 @@ def main():
 
     total = len(queue)
     already = count_completed(queue, tasks)
-    if args.limit:
-        pending = pending[:args.limit]
-    print(f"tier={args.tier}  queue={total}  already_done={already}  this_run={len(pending)}  tasks={tasks}")
+    initial_runnable = min(len(pending), args.limit) if args.limit else len(pending)
+    print(f"tier={args.tier}  queue={total}  already_done={already}  this_run={initial_runnable}  tasks={tasks}")
 
     batch_paths: list[Path] = []
     processed = 0
-    for i, slug in enumerate(pending, 1):
+    attempted = 0
+    dry_seen: set[str] = set()
+    while True:
+        # Re-read failures after every slug. A retry that becomes due during a long
+        # run is therefore inserted before lower-priority new work instead of waiting
+        # for a many-hour fixed queue snapshot to finish.
+        failure_state, _ = pipeline_failures.load()
+        failures = failure_state["failures"]
+        pending = build_pending(queue, tasks, failures, args.tier,
+                                datetime.now(timezone.utc), TRANSLATIONS_DIR, priority_map)
+        if args.dry_run:
+            pending = [candidate for candidate in pending if candidate not in dry_seen]
+        if not pending or (args.limit and attempted >= args.limit):
+            break
         if HALT_PATH.exists():
             print(f"[halt] {HALT_PATH.name} detected between slugs; stopping safely")
             break
-        print(f"[{i}/{len(pending)}] {slug}")
+        slug = pending[0]
+        attempted += 1
+        dry_seen.add(slug)
+        print(f"[{attempted}/{initial_runnable or len(pending)}] {slug}")
         write_status(args.tier, already + processed, total, slug, failure_state)
         try:
             ok, touched = process_slug(slug, tasks, whitelist, psych_whitelist, args.dry_run)
@@ -311,15 +329,18 @@ def main():
                     pipeline_failures.clear_failure(slug)
             batch_paths.extend(touched)
         else:
-            if translate.is_waiting_quota():
-                # 額度等待不是經文失敗：保留 slug/chunk，勿寫 failed、勿繼續下一部。
+            if translate.is_waiting_generation():
+                # Provider/quota waits are global, not scripture failures. Preserve
+                # the exact slug/chunk and let the watcher resume from checkpoint.
                 write_status(args.tier, already + processed, total, slug, failure_state)
-                print("[waiting_quota] M3 額度等待中；停止本輪，等待 watcher 自動從此 chunk 重跑")
+                print("[waiting_generation] M3 等待中；停止本輪，等待 watcher 從此 chunk 接手")
                 break
             if not args.dry_run:
+                failure = dict(translate.LAST_FAILURE)
                 entry = pipeline_failures.record_failure(
-                    slug, args.tier, "pipeline", "processing_failed",
-                    "translation/tagging returned unsuccessful status")
+                    slug, args.tier, str(translate.CURRENT_WORK.get("task") or "pipeline"),
+                    str(failure.get("code") or "processing_failed"),
+                    str(failure.get("message") or "translation/tagging returned unsuccessful status"))
                 failures[slug] = entry
                 print(f"  [retry] {slug}: {entry['status']} attempts={entry['attempts']} "
                       f"next={entry.get('next_retry_at')}")
@@ -340,14 +361,18 @@ def main():
                      f"Pipeline B+C: {args.tier} 翻譯+標籤 收尾 (processed {processed})",
                      push=not args.no_push)
 
+    failure_state, _ = pipeline_failures.load()
+    failures = failure_state["failures"]
     retry_delay = pipeline_failures.next_retry_delay(failure_state, args.tier)
     blocked_count = sum(1 for entry in failures.values()
                         if entry.get("tier") == args.tier and entry.get("status") == "blocked")
-    print(f"\ndone: processed {processed}/{len(pending)}  retryable "
+    print(f"\ndone: processed {processed}/{attempted}  retryable "
           f"{sum(1 for e in failures.values() if e.get('status') == 'retryable')}  blocked {blocked_count}")
     if retry_delay is not None and retry_delay > 0:
         print(f"[retry-wait] next ordinary retry in {int(retry_delay)}s")
-    if not pending and blocked_count:
+    remaining = build_pending(queue, tasks, failures, args.tier,
+                              datetime.now(timezone.utc), TRANSLATIONS_DIR, priority_map)
+    if not remaining and blocked_count:
         print(f"[blocked-only] {blocked_count} blocked items require --unblock after repair")
 
 

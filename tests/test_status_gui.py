@@ -79,7 +79,9 @@ class StatusBoardDataTests(unittest.TestCase):
             self.assertEqual(status_gui.publication_blockers(root), ["bad"])
 
     def test_completion_axes_stay_independent_for_partial_metadata(self):
-        counts = status_gui.completion_counts([
+        with mock.patch.object(status_gui.status, "translation_complete",
+                               side_effect=lambda m: m.get("translation_status") == "done"):
+            counts = status_gui.completion_counts([
             {"translation_status": "done", "semantic_tags": ["a"], "psych_tags": ["b"],
              "tag_status": "done", "psych_tag_status": "done"},
             {"translation_status": "done", "semantic_tags": ["a"], "psych_tags": [],
@@ -88,7 +90,7 @@ class StatusBoardDataTests(unittest.TestCase):
              "tag_status": "none", "psych_tag_status": "done"},
             {"semantic_tags": ["stale"], "psych_tags": ["stale"],
              "tag_status": "none", "psych_tag_status": "none"},
-        ])
+            ])
         self.assertEqual(counts, {
             "tr_done": 2, "semantic_done": 2, "psych_done": 2, "fully_done": 1,
         })
@@ -99,7 +101,25 @@ class StatusBoardDataTests(unittest.TestCase):
              "tag_status": "done", "psych_tag_status": "done"}
             for _ in range(5000)
         ]
-        self.assertEqual(status_gui.completion_counts(metas)["fully_done"], 5000)
+        with mock.patch.object(status_gui.status, "translation_complete", return_value=True):
+            self.assertEqual(status_gui.completion_counts(metas)["fully_done"], 5000)
+
+    def test_operations_summary_separates_due_deferred_and_error_reasons(self):
+        with tempfile.TemporaryDirectory() as td, \
+                mock.patch.object(status_gui.status, "LOGS", Path(td)):
+            now = time.time()
+            (Path(td) / "pipeline-failed.json").write_text(json.dumps({
+                "failures": {
+                    "due": {"status": "retryable", "attempts": 1,
+                            "next_retry_at": "2020-01-01T00:00:00+00:00", "error_code": "invalid_output"},
+                    "later": {"status": "retryable", "attempts": 2,
+                              "next_retry_at": "2099-01-01T00:00:00+00:00", "error_code": "invalid_output"},
+                    "blocked": {"status": "blocked", "attempts": 4, "error_code": "bad_source"},
+                }
+            }), encoding="utf-8")
+            result = status_gui.operations_summary(now)
+        self.assertEqual((result["due"], result["deferred"], result["blocked"]), (1, 1, 1))
+        self.assertEqual(result["reasons"][0], ("invalid_output", 2))
 
     def test_runtime_reader_tolerates_concurrent_partial_writes(self):
         with tempfile.TemporaryDirectory() as td:

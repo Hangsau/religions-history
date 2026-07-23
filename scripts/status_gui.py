@@ -16,6 +16,7 @@ import subprocess
 import sys
 import time
 import tkinter as tk
+from collections import Counter
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -28,6 +29,8 @@ SCRIPTS = Path(__file__).resolve().parent
 PIDFILE = status.LOGS / "supervisor.pid"
 HALT = status.LOGS / "pipeline-HALT.flag"  # 存在即人工暫停：刊版不復活 supervisor
 RUNTIME = status.LOGS / "pipeline-runtime.json"
+WATCHER = SCRIPTS / "quota-watch-resume.py"
+WATCH_PIDFILE = status.LOGS / "quota-watch.pid"
 
 
 def _pid_alive(pid: int) -> bool:
@@ -56,8 +59,10 @@ def ensure_supervisor() -> None:
         if HALT.exists():
             return  # 人工暫停中（如等 MiniMax 配額重置），不復活管線
         try:
-            if json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") == "waiting_quota":
-                return  # quota watcher 會在 M3 回來後自行接手，勿重複啟動 supervisor
+            if json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") in {
+                    "waiting_quota", "waiting_provider"}:
+                ensure_wait_watcher()
+                return  # watcher 會在 M3 回來後自行接手，勿重複啟動 supervisor
         except (OSError, json.JSONDecodeError):
             pass
         if PIDFILE.exists():
@@ -75,6 +80,55 @@ def ensure_supervisor() -> None:
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL)
     except Exception:
         pass  # 拉起失敗不擋看板；停擺仍會由紅色橫幅現形
+
+
+def ensure_wait_watcher() -> None:
+    try:
+        if WATCH_PIDFILE.exists():
+            pid = int(WATCH_PIDFILE.read_text(encoding="utf-8").strip() or 0)
+            if pid and _pid_alive(pid):
+                return
+        pyw = Path(sys.executable).with_name("pythonw.exe")
+        exe = str(pyw) if pyw.exists() else sys.executable
+        subprocess.Popen(
+            [exe, str(WATCHER), "--tier", "核心"], cwd=str(SCRIPTS.parent),
+            creationflags=0x00000008 | 0x00000200 | getattr(subprocess, "CREATE_NO_WINDOW", 0),
+            close_fds=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+            stdin=subprocess.DEVNULL)
+    except Exception:
+        pass
+
+
+def pause_pipeline() -> str:
+    HALT.parent.mkdir(parents=True, exist_ok=True)
+    HALT.write_text(
+        f"desktop board pause {datetime.now(timezone(timedelta(hours=8))).isoformat()}\n",
+        encoding="utf-8")
+    return "已要求安全暫停；目前請求完成後不再領下一部"
+
+
+def resume_pipeline() -> str:
+    HALT.unlink(missing_ok=True)
+    runtime = load_runtime()
+    if runtime.get("status") in {"waiting_quota", "waiting_provider"}:
+        ensure_wait_watcher()
+        return "已解除暫停；等待器會依 next_retry_at 從 checkpoint 接手"
+    ensure_supervisor()
+    return "已解除暫停並啟動 supervisor"
+
+
+def export_diagnostics() -> Path:
+    out = status.LOGS / "pipeline-diagnostic.json"
+    payload = {
+        "generated_at": datetime.now(timezone(timedelta(hours=8))).isoformat(),
+        "halted": HALT.exists(),
+        "runtime": load_runtime(),
+        "operations": operations_summary(),
+        "supervisor_pid": PIDFILE.read_text(encoding="utf-8").strip() if PIDFILE.exists() else None,
+    }
+    out.write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=list) + "\n",
+                   encoding="utf-8", newline="\n")
+    return out
 
 
 def fmt_ago(sec: float) -> str:
@@ -103,7 +157,7 @@ def load_runtime(now: float | None = None) -> dict:
         return runtime
     runtime["_age"] = max(0, age)
     runtime["_fresh"] = age <= RUNTIME_STALE_SECS
-    if runtime.get("status") == "waiting_quota":
+    if runtime.get("status") in {"waiting_quota", "waiting_provider"}:
         try:
             # A legitimate 30-minute backoff is intentionally quiet; it stays live
             # through its announced retry time instead of being mislabeled stale.
@@ -130,14 +184,74 @@ def publication_blockers(root: Path | None = None) -> list[str]:
 def completion_counts(metas: list[dict]) -> dict:
     """Keep the four board completion axes explicit and independently testable."""
     return {
-        "tr_done": sum(1 for m in metas if m.get("translation_status") == "done"),
+        "tr_done": sum(1 for m in metas if status.translation_complete(m)),
         "semantic_done": sum(1 for m in metas if status.semantic_complete(m)),
         "psych_done": sum(1 for m in metas if status.psych_complete(m)),
         "fully_done": sum(
             1 for m in metas
-            if m.get("translation_status") == "done"
+            if status.translation_complete(m)
             and status.semantic_complete(m)
             and status.psych_complete(m)),
+    }
+
+
+def operations_summary(now: float | None = None) -> dict:
+    """Bounded operational view: retry queue plus 1h/6h/24h throughput."""
+    current = now if now is not None else time.time()
+    failed_path = status.LOGS / "pipeline-failed.json"
+    failures = {}
+    try:
+        payload = json.loads(failed_path.read_text(encoding="utf-8"))
+        failures = payload.get("failures", {}) if isinstance(payload, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        pass
+    due = deferred = blocked = 0
+    reasons = Counter()
+    attempts = Counter()
+    for entry in failures.values():
+        if not isinstance(entry, dict):
+            continue
+        reasons[str(entry.get("error_code") or "unknown")] += 1
+        attempts[int(entry.get("attempts") or 0)] += 1
+        if entry.get("status") == "blocked":
+            blocked += 1
+        elif entry.get("status") == "retryable":
+            try:
+                is_due = datetime.fromisoformat(entry["next_retry_at"]).timestamp() <= current
+            except (KeyError, TypeError, ValueError):
+                is_due = True
+            if is_due:
+                due += 1
+            else:
+                deferred += 1
+
+    windows = {hours: {"attempts": 0, "completed": 0, "outcomes": Counter()}
+               for hours in (1, 6, 24)}
+    metrics = status.LOGS / "pipeline-metrics.jsonl"
+    try:
+        # The file is append-only and currently small; cap parsed lines so board
+        # refresh time stays bounded as the project grows.
+        lines = metrics.read_text(encoding="utf-8", errors="replace").splitlines()[-50000:]
+    except OSError:
+        lines = []
+    for line in lines:
+        try:
+            event = json.loads(line)
+            age_h = (current - datetime.fromisoformat(event["timestamp"]).timestamp()) / 3600
+        except (json.JSONDecodeError, KeyError, TypeError, ValueError):
+            continue
+        for hours, summary in windows.items():
+            if 0 <= age_h <= hours:
+                if event.get("event", "attempt") == "attempt":
+                    summary["attempts"] += 1
+                    summary["outcomes"][str(event.get("outcome") or "unknown")] += 1
+                elif event.get("event") == "book_completed":
+                    summary["completed"] += 1
+    return {
+        "due": due, "deferred": deferred, "blocked": blocked,
+        "reasons": reasons.most_common(4), "attempts": dict(sorted(attempts.items())),
+        "windows": {hours: {**summary, "outcomes": dict(summary["outcomes"])}
+                    for hours, summary in windows.items()},
     }
 
 
@@ -177,7 +291,7 @@ def pipeline_health(now: float, runtime: dict | None = None) -> dict:
     run_log = status.LOGS / "supervisor-run.log"
 
     runtime = runtime if runtime is not None else load_runtime(now)
-    if runtime.get("status") == "waiting_quota" and runtime.get("_fresh", True):
+    if runtime.get("status") in {"waiting_quota", "waiting_provider"} and runtime.get("_fresh", True):
         retry_at = runtime.get("next_retry_at")
         try:
             remaining = max(0, int(datetime.fromisoformat(retry_at).timestamp() - now))
@@ -193,14 +307,20 @@ def pipeline_health(now: float, runtime: dict | None = None) -> dict:
             quota_text = (f"；MiniMax 額度：5h {quota.get('interval_remaining_percent', '?')}%"
                           f"／週 {quota.get('weekly_remaining_percent', '?')}%"
                           f"（週重置 {quota.get('weekly_resets_at', '?')}）")
+        reason = "流量／額度保留" if runtime.get("status") == "waiting_quota" else "供應商暫時無回應"
         return {"color": PROG,
-                "text": f"⏳ M3 流量／額度等待：{runtime.get('slug', '?')}"
+                "text": f"⏳ M3 {reason}：{runtime.get('slug', '?')}"
                         f"（{runtime.get('task', '?')}{chunk_text}）；{countdown} 後重試；"
                         f"最後錯誤：{runtime.get('last_error', '?')}{quota_text}"}
 
     if HALT.exists():
         msg = HALT.read_text(encoding="utf-8").strip().replace("\n", "　") or "人工暫停中"
-        return {"color": PROG, "text": f"⏸ 翻譯管線人工暫停中（刪除 pipeline-HALT.flag 即恢復）：{msg}"}
+        handoff = runtime.get("handoff") if isinstance(runtime.get("handoff"), dict) else {}
+        chunk = handoff.get("last_chunk") or runtime.get("chunk")
+        total = handoff.get("chunks_total") or runtime.get("chunks_total")
+        checkpoint = f" chunk {chunk}/{total}" if chunk and total else ""
+        slug = handoff.get("last_slug") or runtime.get("slug") or "?"
+        return {"color": PROG, "text": f"⏸ 翻譯管線人工暫停：{msg}；接手點 {slug}{checkpoint}"}
     if alert_f.exists():
         msg = alert_f.read_text(encoding="utf-8").strip().replace("\n", "　")
         return {"color": BAD, "text": f"⚠ 管線警報（supervisor 已報警並停手）：{msg}"}
@@ -389,6 +509,7 @@ def collect() -> dict:
     act["blocked"] = d["pipe"].get("blocked", 0)
     act["p0_pending"] = d["pipe"].get("p0_pending", 0)
     d["act"] = act
+    d["ops"] = operations_summary(now)
 
     dl_logs = list(status.LOGS.glob("pipeline-a*.log"))
     if dl_logs:
@@ -437,8 +558,18 @@ class Board:
         foot.pack(side="bottom", fill="x", pady=8)
         tk.Button(foot, text="立即重新整理", command=self.refresh,
                   bg=PANEL, fg=FG, font=F_SMALL, relief="flat",
-                  activebackground=TRACK, activeforeground=FG,
-                  padx=12, pady=4).pack()
+                  activebackground=TRACK, activeforeground=FG, padx=12, pady=4).pack(side="left", padx=4)
+        tk.Button(foot, text="安全暫停", command=self._pause,
+                  bg=PANEL, fg=PROG, font=F_SMALL, relief="flat",
+                  activebackground=TRACK, activeforeground=FG, padx=12, pady=4).pack(side="left", padx=4)
+        tk.Button(foot, text="恢復接手", command=self._resume,
+                  bg=PANEL, fg=DONE, font=F_SMALL, relief="flat",
+                  activebackground=TRACK, activeforeground=FG, padx=12, pady=4).pack(side="left", padx=4)
+        tk.Button(foot, text="匯出診斷", command=self._export,
+                  bg=PANEL, fg=FG, font=F_SMALL, relief="flat",
+                  activebackground=TRACK, activeforeground=FG, padx=12, pady=4).pack(side="left", padx=4)
+        self.control_status = tk.Label(foot, text="", bg=BG, fg=MUTED, font=F_SMALL)
+        self.control_status.pack(side="left", padx=6)
 
         scroll = tk.Frame(self.root, bg=BG)
         scroll.pack(fill="both", expand=True)
@@ -477,6 +608,10 @@ class Board:
                                  anchor="w", wraplength=640, justify="left")
         self.act_meta.pack(fill="x", padx=18, pady=(2, 0))
 
+        self.ops_label = tk.Label(self.body, text="—", bg=BG, fg=FG, font=F_SMALL,
+                                  anchor="w", wraplength=640, justify="left")
+        self.ops_label.pack(fill="x", padx=18, pady=(6, 0))
+
         self._section(self.body, "對齊覆蓋率（欄位回填進度）")
         for label, key in [(l, k) for (k, l) in status.ALIGN_FIELDS]:
             self._bar_row(self.body, "cov:" + key, label)
@@ -507,11 +642,22 @@ class Board:
         self.scroll_canvas.itemconfigure(self._body_window, width=event.width)
         wrap = max(280, event.width - 40)
         for label in (self.pipe, self.act_now, self.act_do, self.act_meta,
-                      self.dl_log, self.tr_label, self.cls_label):
+                      self.ops_label, self.dl_log, self.tr_label, self.cls_label):
             label.config(wraplength=wrap)
 
     def _on_mousewheel(self, event):
         self.scroll_canvas.yview_scroll(int(-event.delta / 120), "units")
+
+    def _pause(self):
+        self.control_status.config(text=pause_pipeline())
+        self.refresh()
+
+    def _resume(self):
+        self.control_status.config(text=resume_pipeline())
+        self.refresh()
+
+    def _export(self):
+        self.control_status.config(text=f"已匯出 {export_diagnostics().name}")
 
     def _draw_bar(self, key, count, total, pct):
         cv, cnt = self.rows[key]
@@ -590,6 +736,15 @@ class Board:
             self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
             self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
             self._draw_activity(d["act"])
+            ops = d["ops"]
+            window_text = "　".join(
+                f"{h}h：完成 {ops['windows'][h]['completed']}／請求 {ops['windows'][h]['attempts']}"
+                for h in (1, 6, 24))
+            reason_text = "、".join(f"{code} {count}" for code, count in ops["reasons"]) or "無"
+            self.ops_label.config(
+                text=f"佇列：到期 {ops['due']} · 延後 {ops['deferred']} · blocked {ops['blocked']}\n"
+                     f"{window_text}\n失敗原因：{reason_text} · 嘗試分布 {ops['attempts']}",
+                fg=BAD if ops["blocked"] else FG)
 
             for label, key, c, tot, pct in d["coverage"]:
                 self._draw_bar("cov:" + key, c, tot, pct)

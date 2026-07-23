@@ -11,13 +11,15 @@
 
 **P3 收集 + P4 翻譯 + P5 標籤 並行（不分先後）**
 
-- 4174 部已收（原文 3609 + 譯文 565，GitHub 版本控制）；23 部已 AI 譯註
+- 4683 部已收（27 宗教，約 644 MB）；148 部有完整翻譯，143 部翻譯＋雙標籤軸齊全
 - Pipeline A：繼續收集（補核心缺口 + CBETA T18+ + Sefaria 深挖 + 教父全集 + 道藏 + 藏文等）
 - Pipeline B：AI 翻譯（從核心經典開始）
 - Pipeline C：語義標籤 + 跨宗教概念表
 - 三條 pipeline 並行，互不等候
 
 防遺漏：`scripts/track-progress.py` 對照 v3 inventory 自動算「該抓但沒抓」per 宗教，失敗進重試隊列。
+
+運維入口見 `MAP.md`：生成前保留 MiniMax 5h/週額度各 10%，全域 quota/provider 等待只寫 `pipeline-runtime.json`，不可灌入 `pipeline-failed.json`；HALT、checkpoint、watcher 與桌面刊版共同保證後續可接手。
 
 ## 工作守則
 

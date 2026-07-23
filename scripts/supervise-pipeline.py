@@ -23,6 +23,7 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -39,7 +40,18 @@ RUNTIME = LOGS / "pipeline-runtime.json"
 RUN_LOG = LOGS / "supervisor-run.log"
 PIDFILE = LOGS / "supervisor.pid"  # 刊版靠此判斷 supervisor 是否還活著（避免重複拉起）
 
-TIER = sys.argv[1] if len(sys.argv) > 1 else "核心"
+def _tier_arg() -> str:
+    raw = sys.argv[1] if len(sys.argv) > 1 else "核心"
+    if raw in {"核心", "次要", "總集"}:
+        return raw
+    try:
+        repaired = raw.encode("latin1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        repaired = raw
+    return repaired if repaired in {"核心", "次要", "總集"} else "核心"
+
+
+TIER = _tier_arg()
 TZ = timezone(timedelta(hours=8))
 
 MAX_QUICK_STRIKES = 3   # 連續幾次「啟動後幾乎立刻退出」即判系統性問題
@@ -60,6 +72,41 @@ def alert(msg: str) -> None:
         f"{datetime.now(TZ).strftime('%Y-%m-%d %H:%M:%S')} +0800\n{msg}\n",
         encoding="utf-8")
     hb(f"[ALERT] {msg}")
+
+
+def persist_pause(reason: str) -> None:
+    """Leave a durable handoff record after the worker has reached a safe boundary."""
+    try:
+        state = json.loads(RUNTIME.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        state = {}
+    state.update(
+        status="paused", pause_reason=reason, next_retry_at=None,
+        updated_at=datetime.now(TZ).isoformat(),
+        handoff={
+            "resume_command": f"python scripts/supervise-pipeline.py {TIER}",
+            "resume_from_checkpoint": True,
+            "reason": reason,
+            "last_slug": state.get("slug"),
+            "last_task": state.get("task"),
+            "last_chunk": state.get("chunk"),
+            "chunks_total": state.get("chunks_total"),
+        },
+    )
+    RUNTIME.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp_name = tempfile.mkstemp(prefix=RUNTIME.name + ".", suffix=".tmp", dir=RUNTIME.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as handle:
+            json.dump(state, handle, ensure_ascii=False, indent=2)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temp_name, RUNTIME)
+    finally:
+        try:
+            os.unlink(temp_name)
+        except FileNotFoundError:
+            pass
 
 
 def run_once() -> tuple[int, int, int, float, int | None, int]:
@@ -95,9 +142,10 @@ def run_once() -> tuple[int, int, int, float, int | None, int]:
     return proc.returncode, this_run, processed, time.time() - start, retry_wait, blocked_only
 
 
-def waiting_quota() -> bool:
+def waiting_generation() -> bool:
     try:
-        return json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") == "waiting_quota"
+        return json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") in {
+            "waiting_quota", "waiting_provider"}
     except (OSError, json.JSONDecodeError):
         return False
 
@@ -107,16 +155,21 @@ def start_quota_watcher() -> None:
         [sys.executable, str(ROOT / "scripts" / "quota-watch-resume.py"), "--tier", TIER],
         cwd=str(ROOT), creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0)
         | getattr(subprocess, "DETACHED_PROCESS", 0), close_fds=True)
-    hb(f"[waiting_quota] 已啟動 quota watcher pid={proc.pid}，等待 M3 恢復")
+    hb(f"[waiting_generation] 已啟動 quota/provider watcher pid={proc.pid}，等待 M3 恢復")
 
 
 def main() -> None:
     if HALT.exists():
+        persist_pause("manual_halt")
         hb(f"[halt] 偵測到 {HALT.name}，人工暫停中，不啟動翻譯。刪除該檔即恢復。")
         return
     if ALERT.exists():
         ALERT.unlink()  # 新 supervisor 上線，清掉舊警報
     hb(f"[start] supervisor tier={TIER} pid={os.getpid()}")
+    if waiting_generation():
+        start_quota_watcher()
+        hb("[exit] 已有持久 generation wait；不重送工作，由 watcher 接手")
+        return
     quick_strikes = 0
     noprogress = 0
     while True:
@@ -127,10 +180,11 @@ def main() -> None:
         hb(f"[run] rc={rc} this_run={this_run} processed={processed} elapsed={elapsed:.0f}s")
 
         if HALT.exists():
+            persist_pause("manual_halt")
             hb("[halt] worker 已在安全邊界退出，supervisor 不再啟動新一輪")
             break
 
-        if waiting_quota():
+        if waiting_generation():
             start_quota_watcher()
             break
 

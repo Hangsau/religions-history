@@ -1,6 +1,6 @@
 # STATUS — religions-history 統一看板
 
-> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：2026-07-20 22:47:08 +0800
+> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：2026-07-23 09:20:21 +0800
 
 **4683 部 / 27 宗教 / 644 MB**
 
@@ -12,40 +12,43 @@
 | 原文/譯文 `is_original_language` | 4660/4683 |  99.5% | `████████████████████████` |
 | 成書時期 `era` | 375/4683 |   8.0% | `██······················` |
 | 文類 `genre` | 1699/4683 |  36.3% | `█████████···············` |
-| 語義標籤 `semantic_tags` | 421/4683 |   9.0% | `██······················` |
-| 心理讀經標籤 `psych_tags` | 145/4683 |   3.1% | `█·······················` |
-| 關鍵詞 `keywords` | 421/4683 |   9.0% | `██······················` |
+| 語義標籤 `semantic_tags` | 423/4683 |   9.0% | `██······················` |
+| 心理讀經標籤 `psych_tags` | 179/4683 |   3.8% | `█·······················` |
+| 關鍵詞 `keywords` | 423/4683 |   9.0% | `██······················` |
 
 ## M3 分類進度（era+genre+semantic+psych 齊全）
 
 | tier | 完成 | 總數 | |
 |------|------|------|---|
-| 核心 | 98 | 518 | `█████···················`   19% |
+| 核心 | 123 | 518 | `██████··················`   24% |
 | 次要 | 0 | 279 | `························`    0% |
 | 總集 | 0 | 0 | `························`    0% |
 
 ## 翻譯進度
 
-- `translation_status == done`：**146 / 4683** 部已翻譯（`01-translation.md`）
+- metadata done 且完整檔案通過：**148 / 4683** 部已翻譯（`01-translation.md`）
 
 ## 收集 / 下載（Pipeline A）
 
-- 最新收錄：`sutta-nipata`（36 分前）· 近 30 分 **+0** 部
+- 最新收錄：`huainanzi`（14 分前）· 近 30 分 **+1** 部
 - 下載日誌 `pipeline-a-talmud.log`：`  [book] Benayahu on Moed Katan`
 
 ## 背景管線快照
 
 - **分類（classify-metadata）**：日誌已分類 374 部
   - 最新：`[summary] done=374 skipped=2 failed=1`
-- **翻譯管線**：進度：**145 / 518** 已翻譯+標籤
-- **翻譯管線**：目前處理：`(完成)`
+- **翻譯管線**：進度：**179 / 518** 已翻譯+標籤
+- **翻譯管線**：目前處理：`sutta-nipata`
+- **翻譯管線**：P0 尚未完整翻譯：19 部
+- **翻譯管線**：一般失敗待重試：74 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, avesta-sbe31-ae, plato-timaeus-el, quran, numbers, deuteronomy, plato-phaedrus-el, samaveda
+- **翻譯管線**：已阻塞待人工處理：0 部
 
 ## 最近 git 提交
 
-- `04315357 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 7)`
-- `3adbef45 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
-- `d6c5d002 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 28)`
-- `830179f3 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
-- `47fe41db Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
-- `631ee2e9 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
+- `9146703f Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 24)`
+- `7e7bc357 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
+- `54d8e2b6 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
+- `61f4a09d HANDOFF: 2026-07-22 16:00 psych_tags 補 2 檔快照 (commit 0f45dc0f)`
+- `0f45dc0f Pipeline B+C: psych_tags 補 2 檔 (baudhayana-dharmasutra, judges)`
+- `db06ee15 Pipeline B+C: 核心 翻譯+標籤 批次 (+10 檔)`
 

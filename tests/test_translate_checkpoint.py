@@ -149,19 +149,24 @@ class TranslateCheckpointTests(unittest.TestCase):
         self.assertNotIn("tag_status", meta)
         self.assertNotIn("psych_tag_status", meta)
 
-    def test_token_and_timeout_are_ordinary_errors_but_429_waits(self):
+    def test_token_is_local_error_but_timeout_and_429_leave_handoff(self):
         with mock.patch.object(translate, "_resolve_backend", return_value=None):
             self.assertIsNone(translate.call_m3("prompt"))
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
         self.assertEqual(state["status"], "error")
 
         with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
+                mock.patch.object(translate, "_quota_preflight", return_value=True), \
                 mock.patch.object(translate, "_run_claude", return_value=(None, "timeout after 360s")):
             self.assertIsNone(translate.call_m3("prompt"))
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
-        self.assertEqual(state["status"], "error")
+        self.assertEqual(state["status"], "waiting_provider")
+        self.assertEqual(state["failure_code"], "provider_timeout")
+        self.assertTrue(state["handoff"]["resume_from_checkpoint"])
+        self.assertIsNotNone(state["next_retry_at"])
 
         with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
+                mock.patch.object(translate, "_quota_preflight", return_value=True), \
                 mock.patch.object(translate, "_run_claude", return_value=(None, "HTTP 429 rate limit")):
             self.assertIsNone(translate.call_m3("prompt"))
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
@@ -169,6 +174,29 @@ class TranslateCheckpointTests(unittest.TestCase):
         self.assertIsNone(state["next_retry_at"])
         self.assertIsNone(state["quota_wait_mode"])
         self.assertEqual(state["retry_attempt"], 0)
+
+    def test_quota_preflight_stops_at_reserve_without_generation(self):
+        retry_at = translate.datetime.now(translate.TZ) + translate.timedelta(hours=1)
+        quota = {"interval_remaining_percent": 4, "weekly_remaining_percent": 50}
+        translate._QUOTA_CACHE.update(checked_monotonic=0.0, result=None)
+        with mock.patch.object(translate.minimax_quota, "probe_quota",
+                               return_value=("official_reset", "reserve", quota, retry_at)), \
+                mock.patch.object(translate, "_run_claude") as run:
+            self.assertFalse(translate._quota_preflight())
+        run.assert_not_called()
+        state = json.loads(self.runtime.read_text(encoding="utf-8"))
+        self.assertEqual(state["status"], "waiting_quota")
+        self.assertEqual(state["failure_code"], "quota_reserve")
+        self.assertEqual(state["next_retry_at"], retry_at.isoformat())
+
+    def test_quota_probe_outage_fails_closed_with_provider_handoff(self):
+        translate._QUOTA_CACHE.update(checked_monotonic=0.0, result=None)
+        with mock.patch.object(translate.minimax_quota, "probe_quota",
+                               return_value=("fallback", "HTTP 503", {}, None)):
+            self.assertFalse(translate._quota_preflight())
+        state = json.loads(self.runtime.read_text(encoding="utf-8"))
+        self.assertEqual(state["status"], "waiting_provider")
+        self.assertEqual(state["failure_code"], "quota_probe_unavailable")
 
     def test_complete_translation_rejects_failed_marker(self):
         path = self.root / "translation.md"

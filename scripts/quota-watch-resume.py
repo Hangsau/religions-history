@@ -34,6 +34,9 @@ DEFAULT_MAX_DAYS = 10
 BACKOFF_SECONDS = (300, 600, 1200, 1800)
 RESET_BUFFER_SECONDS = 15
 WAIT_SLICE_SECONDS = 30
+INTERVAL_RESERVE_PERCENT = float(os.environ.get("RELIGIONS_QUOTA_INTERVAL_RESERVE", "10"))
+WEEKLY_RESERVE_PERCENT = float(os.environ.get("RELIGIONS_QUOTA_WEEKLY_RESERVE", "10"))
+WAITING_STATUSES = {"waiting_quota", "waiting_provider"}
 
 
 def log(msg: str) -> None:
@@ -121,15 +124,16 @@ def probe_quota(now: datetime | None = None) -> tuple[str, str, dict, datetime |
         if interval is None or weekly is None:
             return "fallback", "quota response has invalid percentages", summary, None
         exhausted_resets = []
-        if interval <= 0:
+        if interval <= INTERVAL_RESERVE_PERCENT:
             if interval_reset is None or interval_reset <= now:
                 return "fallback", "5h quota reset time missing or expired", summary, None
             exhausted_resets.append(interval_reset)
-        if weekly <= 0:
+        if weekly <= WEEKLY_RESERVE_PERCENT:
             if weekly_reset is None or weekly_reset <= now:
                 return "fallback", "weekly quota reset time missing or expired", summary, None
             exhausted_resets.append(weekly_reset)
-        detail = f"5h={interval:g}% weekly={weekly:g}%"
+        detail = (f"5h={interval:g}% (reserve {INTERVAL_RESERVE_PERCENT:g}%) "
+                  f"weekly={weekly:g}% (reserve {WEEKLY_RESERVE_PERCENT:g}%)")
         if not exhausted_resets:
             return "usable", detail, summary, None
         retry_at = max(exhausted_resets) + timedelta(seconds=RESET_BUFFER_SECONDS)
@@ -160,9 +164,10 @@ def _wait_until(target: datetime, mode: str, deadline: datetime) -> str:
         if datetime.now(TZ) > deadline:
             return "deadline"
         state = load_state()
-        if state.get("status") != "waiting_quota":
+        if state.get("status") not in WAITING_STATUSES:
             return "state_changed"
-        if state.get("quota_wait_mode") != mode or _retry_at(state) != target:
+        state_mode = state.get("wait_mode") or state.get("quota_wait_mode")
+        if state_mode != mode or _retry_at(state) != target:
             return "target_changed"
         remaining = (target - datetime.now(TZ)).total_seconds()
         time.sleep(min(WAIT_SLICE_SECONDS, max(1, remaining)))
@@ -173,10 +178,11 @@ def resume(tier: str) -> bool:
     if HALT.exists():
         return False
     state = load_state()
-    if state.get("status") != "waiting_quota":
+    if state.get("status") not in WAITING_STATUSES:
         return False
     state.update(status="running", resumed_at=datetime.now(TZ).isoformat(),
-                 last_error=None, next_retry_at=None, quota_wait_mode=None)
+                 last_error=None, next_retry_at=None, quota_wait_mode=None,
+                 wait_mode=None, resumed_by="quota-watch-resume.py")
     save_state(state)
     proc = subprocess.Popen(
         [sys.executable, str(ROOT / "scripts" / "supervise-pipeline.py"), tier],
@@ -205,8 +211,8 @@ def main() -> None:
     log(f"[start] quota-watch 啟動 official-reset + fallback=5/10/20/30m tier={args.tier} "
         f"deadline={deadline.strftime('%Y-%m-%d %H:%M')}")
 
-    if load_state().get("status") != "waiting_quota":
-        log("[exit] runtime state 並非 waiting_quota，無事可做，退出")
+    if load_state().get("status") not in WAITING_STATUSES:
+        log("[exit] runtime state 並非 generation wait，無事可做，退出")
         return
 
     while True:
@@ -217,10 +223,11 @@ def main() -> None:
             log("[exit] 超過 max-days 安全上限仍未恢復，退出（請人工檢查 MiniMax 額度）")
             return
         state = load_state()
-        if state.get("status") != "waiting_quota":
+        if state.get("status") not in WAITING_STATUSES:
             log("[exit] 等待狀態已由其他程序解除")
             return
-        mode = state.get("quota_wait_mode")
+        waiting_status = state.get("status")
+        mode = state.get("wait_mode") or state.get("quota_wait_mode")
         target = _retry_at(state)
         if mode in {"official_reset", "fallback"} and target is not None and target > datetime.now(TZ):
             wait_result = _wait_until(target, mode, deadline)
@@ -238,7 +245,7 @@ def main() -> None:
             log("[exit] probe 完成時偵測人工 HALT，不改狀態")
             return
         state = load_state()
-        if state.get("status") != "waiting_quota":
+        if state.get("status") not in WAITING_STATUSES:
             log("[exit] probe 完成前等待狀態已由其他程序解除")
             return
         if quota:
@@ -252,8 +259,13 @@ def main() -> None:
                 log("[exit] 恢復前狀態改變，未啟動 supervisor")
             return
         if outcome == "official_reset" and retry_at is not None:
-            state.update(quota_wait_mode="official_reset", next_retry_at=retry_at.isoformat(),
-                         retry_attempt=0, last_error=detail)
+            state.update(status="waiting_quota", quota_wait_mode="official_reset",
+                         wait_mode="official_reset", next_retry_at=retry_at.isoformat(),
+                         retry_attempt=0, last_error=detail, failure_code="quota_reserve",
+                         failure_scope="provider")
+            if isinstance(state.get("handoff"), dict):
+                state["handoff"].update(reason="quota_reserve",
+                                        next_retry_at=retry_at.isoformat())
             save_state(state)
             log(f"[wait] 額度耗盡（{detail}），依官方 reset 單次等待至 {retry_at.isoformat()}")
             continue
@@ -261,8 +273,12 @@ def main() -> None:
         attempt = _fallback_attempt(state) if mode == "fallback" else 0
         delay = BACKOFF_SECONDS[min(attempt, len(BACKOFF_SECONDS) - 1)]
         next_retry = datetime.now(TZ) + timedelta(seconds=delay)
-        state.update(quota_wait_mode="fallback", retry_attempt=attempt + 1,
-                     next_retry_at=next_retry.isoformat(), last_error=detail)
+        next_status = "waiting_provider" if waiting_status == "waiting_provider" else "waiting_quota"
+        state.update(status=next_status, quota_wait_mode="fallback", wait_mode="fallback",
+                     retry_attempt=attempt + 1, next_retry_at=next_retry.isoformat(),
+                     last_error=detail)
+        if isinstance(state.get("handoff"), dict):
+            state["handoff"]["next_retry_at"] = next_retry.isoformat()
         save_state(state)
         log(f"[wait] 官方 reset 不可用（{detail}），fallback {delay // 60} 分鐘後單次再探")
 

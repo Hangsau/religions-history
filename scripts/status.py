@@ -58,6 +58,21 @@ def psych_complete(meta: dict) -> bool:
     return meta.get("psych_tag_status") == "done" and filled(meta.get("psych_tags"))
 
 
+def translation_file_complete(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size <= 100:
+        return False
+    try:
+        return "<!-- CHUNK " not in path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return False
+
+
+def translation_complete(meta: dict, translations_dir: Path = TRANSLATIONS_DIR) -> bool:
+    slug = meta.get("slug")
+    return (isinstance(slug, str) and meta.get("translation_status") == "done"
+            and translation_file_complete(translations_dir / slug / "01-translation.md"))
+
+
 def field_complete(meta: dict, key: str) -> bool:
     if key in {"semantic_tags", "keywords"}:
         return semantic_complete(meta) and filled(meta.get(key))
@@ -144,10 +159,10 @@ def build() -> str:
     L.append("")
 
     # ---- 翻譯進度 ----
-    tr_done = sum(1 for m in metas if m.get("translation_status") == "done")
+    tr_done = sum(1 for m in metas if translation_complete(m))
     L.append("## 翻譯進度")
     L.append("")
-    L.append(f"- `translation_status == done`：**{tr_done} / {n}** 部已翻譯（`01-translation.md`）")
+    L.append(f"- metadata done 且完整檔案通過：**{tr_done} / {n}** 部已翻譯（`01-translation.md`）")
     L.append("")
 
     # ---- 收集 / 下載（Pipeline A）----
