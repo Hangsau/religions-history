@@ -7,7 +7,7 @@
 
 詳細索引見 [`00-overview/INDEX.md`](./00-overview/INDEX.md)（自動產生）。
 
-桌面刊版會顯示 1h/6h/24h 吞吐、到期待重試／延後／blocked、錯誤原因、checkpoint 接手點與發布阻塞，並提供安全暫停、恢復接手與診斷匯出。MiniMax 每次生成前會檢查額度，預設保留 5 小時窗與週窗各 10%；配額或供應商故障不會計入單篇失敗。
+桌面刊版會顯示 1h/6h/24h 吞吐、到期待重試／延後／blocked、錯誤原因、checkpoint 接手點與發布阻塞，並提供安全暫停、恢復接手與診斷匯出。MiniMax 每次生成前會檢查額度，預設保留 5 小時窗 5%、週窗 2%；配額或供應商故障不會計入單篇失敗。
 
 選用的 Windows 排程可由 `scripts/install-pipeline-task.ps1` 安裝（登入時＋每 5 分鐘 watchdog）；腳本已提供但不會自行註冊。
 

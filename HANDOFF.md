@@ -7,7 +7,7 @@
 
 - **配額保留等待中**：舊 worker 先完整完成 `huainanzi` tag 69/69 並安全退出；受控 rollout 已解除 HALT，`sutta-nipata` checkpoint 命中 1–3/78，在 chunk 4 送模型前被週額度保留線攔下。runtime 為 `waiting_quota`，watcher 等到 2026-07-27 08:00:15 +08:00 後接手。
 - **真實進度口徑**：4683 部、完整翻譯 148、semantic 423、psych 179、三軸全完成 143；核心 B+C `PIPELINE_STATUS.md` 179/518。`track-progress.py` 已不再把「檔案存在」誤算為完成。
-- **限流保護**：每次 MiniMax 生成前以官方 quota endpoint 預檢，預設保留 5h 與週窗各 10%。2026-07-23 09:14 實測為 5h 81%、週 10%（週一 08:00 reset），所以正式恢復會先等待，不消耗最後保留量。
+- **限流保護**：每次 MiniMax 生成前以官方 quota endpoint 預檢；經容量成本校正後，預設保留 5h 5%、週窗 2%。2026-07-23 週額度仍有 10%，門檻調整後立即由 `sutta-nipata` checkpoint 接續。
 - **可接手等待**：429／quota → `waiting_quota`；timeout／5xx／connection → `waiting_provider`。兩者都寫入 slug/task/chunk、`next_retry_at`、failure code、handoff，watcher 從 checkpoint 恢復，且不增加單篇 attempts。
 - **重試排程**：`auto-pipeline.py` 每部完成後重讀 failed state 並重建 queue；到期 retry 會插回 P0/P1 新工作之前，不再等固定數百部 snapshot 跑完。
 - **刊版**：新增 1h/6h/24h 完成與請求數、due/deferred/blocked、錯誤原因／attempt 分布，以及安全暫停、恢復接手、診斷匯出。

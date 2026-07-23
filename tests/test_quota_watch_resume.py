@@ -87,6 +87,10 @@ class QuotaProbeTests(unittest.TestCase):
         self.assertEqual(outcome, "official_reset")
         self.assertEqual(retry_at, self.weekly_reset + timedelta(seconds=15))
 
+    def test_weekly_reserve_is_two_percent(self):
+        self.assertEqual(self.probe(self.payload(weekly=2))[0], "official_reset")
+        self.assertEqual(self.probe(self.payload(weekly=3))[0], "usable")
+
     def test_dual_exhaustion_uses_later_reset(self):
         outcome, _, _, retry_at = self.probe(self.payload(interval=0, weekly=0))
         self.assertEqual(outcome, "official_reset")

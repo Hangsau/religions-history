@@ -6,7 +6,7 @@
 → `translate.py` → MiniMax Anthropic-compatible endpoint.
 
 - `scripts/translate.py`: chunk checkpoints, quota preflight, provider calls, metrics and runtime handoff.
-- `scripts/minimax_quota.py`: read-only quota probe and configurable 10% reserve policy.
+- `scripts/minimax_quota.py`: read-only quota probe and configurable 5h 5% / weekly 2% reserve policy.
 - `scripts/auto-pipeline.py`: priority queue, continuously rebuilt retry scheduling, scoped commits.
 - `scripts/pipeline_failures.py`: ordinary scripture failures only; 5/15/30-minute retry then blocked.
 - `scripts/quota-watch-resume.py`: quota/provider wait and checkpoint resume.

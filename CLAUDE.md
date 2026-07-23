@@ -19,7 +19,7 @@
 
 防遺漏：`scripts/track-progress.py` 對照 v3 inventory 自動算「該抓但沒抓」per 宗教，失敗進重試隊列。
 
-運維入口見 `MAP.md`：生成前保留 MiniMax 5h/週額度各 10%，全域 quota/provider 等待只寫 `pipeline-runtime.json`，不可灌入 `pipeline-failed.json`；HALT、checkpoint、watcher 與桌面刊版共同保證後續可接手。
+運維入口見 `MAP.md`：生成前保留 MiniMax 5h 額度 5%、週額度 2%，全域 quota/provider 等待只寫 `pipeline-runtime.json`，不可灌入 `pipeline-failed.json`；HALT、checkpoint、watcher 與桌面刊版共同保證後續可接手。
 
 ## 工作守則
 

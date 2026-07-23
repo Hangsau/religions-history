@@ -33,7 +33,7 @@ def _datetime_from_millis(value: object, tz: timezone) -> datetime | None:
 
 def probe_quota(token_path: Path, quota_url: str, tz: timezone,
                 now: datetime | None = None, timeout: float = 30,
-                interval_reserve: float = 10, weekly_reserve: float = 10
+                interval_reserve: float = 5, weekly_reserve: float = 2
                 ) -> tuple[str, str, dict, datetime | None]:
     """Return usable, official_reset, or fallback with an optional retry time.
 
