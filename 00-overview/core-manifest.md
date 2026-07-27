@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**149** / 518
-- 已標籤：**180** / 518
+- 已翻譯：**152** / 518
+- 已標籤：**181** / 518
 
 ## 各宗教核心進度
 
@@ -14,9 +14,9 @@
 | 佛教 | 74 | 33 | 44 |
 | 印度教 | 58 | 25 | 27 |
 | 古希臘羅馬 | 46 | 15 | 15 |
-| 猶太教 | 45 | 23 | 25 |
+| 猶太教 | 45 | 25 | 25 |
 | 道教 | 18 | 9 | 15 |
-| 北歐 | 15 | 3 | 3 |
+| 北歐 | 15 | 4 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
 | 美洲 | 11 | 0 | 0 |
 | 儒教 | 10 | 1 | 8 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -443,7 +443,7 @@
 - `deuteronomy` 申命記（Hebrew）譯– 標–
 - `ecclesiastes` 傳道書（Hebrew）譯– 標✓
 - `esther` 以斯帖記（Hebrew）譯✓ 標✓
-- `exodus` 出埃及記（Hebrew）譯– 標–
+- `exodus` 出埃及記（Hebrew）譯✓ 標–
 - `ezekiel` 以西結書（Hebrew）譯– 標–
 - `ezra` 以斯拉記（Hebrew）譯✓ 標✓
 - `genesis` 創世記（Hebrew）譯– 標✓
@@ -473,7 +473,7 @@
 - `numbers` 民數記（Hebrew）譯– 標–
 - `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
 - `proverbs` 箴言（Hebrew）譯– 標✓
-- `psalms` 詩篇（Hebrew）譯– 標–
+- `psalms` 詩篇（Hebrew）譯✓ 標–
 - `ruth` 路得記（Hebrew）譯✓ 標✓
 - `samuel-1` 撒母耳記上（Hebrew）譯– 標–
 - `samuel-2` 撒母耳記下（Hebrew）譯– 標–
@@ -515,7 +515,7 @@
 - `laxdaela-saga-on` 拉克斯達拉薩迦（古諾斯語）譯– 標–
 - `njals-saga-on` 尼雅爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯– 標–
-- `poetic-edda-on` 詩體埃達（古諾斯語原文）（古諾斯語）譯– 標–
+- `poetic-edda-on` 詩體埃達（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯– 標–
 - `snorra-edda-on` 散文埃達／斯諾里埃達（古諾斯語原文）（古諾斯語）譯– 標–
 - `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標–
