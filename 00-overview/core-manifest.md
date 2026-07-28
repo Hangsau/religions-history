@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**155** / 518
-- 已標籤：**184** / 518
+- 已翻譯：**157** / 518
+- 已標籤：**185** / 518
 
 ## 各宗教核心進度
 
@@ -18,7 +18,7 @@
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 4 | 4 |
 | 瑣羅亞斯德 | 11 | 0 | 0 |
-| 美洲 | 11 | 0 | 0 |
+| 美洲 | 11 | 1 | 1 |
 | 儒教 | 10 | 1 | 8 |
 | 凱爾特 | 9 | 3 | 3 |
 | 古埃及 | 8 | 0 | 0 |
@@ -31,7 +31,7 @@
 | 伊斯蘭 | 4 | 0 | 0 |
 | 印加 | 3 | 1 | 1 |
 | 瑪雅 | 3 | 1 | 1 |
-| 兩河 | 3 | 1 | 1 |
+| 兩河 | 3 | 2 | 1 |
 | 斯拉夫 | 3 | 1 | 1 |
 | 非洲 | 2 | 1 | 1 |
 | 阿茲特克 | 1 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -539,7 +539,7 @@
 
 - `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯– 標–
 - `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）譯– 標–
-- `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯– 標–
+- `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯✓ 標✓
 - `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
 - `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯– 標–
 - `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
@@ -656,7 +656,7 @@
 ### 兩河（3 部）
 
 - `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯– 標–
-- `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯– 標–
+- `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯✓ 標–
 - `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯✓ 標✓
 
 ### 斯拉夫（3 部）
