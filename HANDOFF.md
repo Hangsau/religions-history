@@ -14,6 +14,17 @@
 - **排程**：`scripts/install-pipeline-task.ps1` 已提供登入＋每 5 分鐘 watchdog，但**尚未註冊**；須經使用者 rollout gate 決定。
 - **驗證**：`python -m unittest discover -s tests` 共 56 tests 全過；受控 rollout 無 `[model]` 成功 marker，證實 quota preflight 在生成前攔截。
 
+## 2026-07-29 01:57 快照（Pipeline B+C kitab-i-iqan-ighan 翻譯入庫，stop-hook 收尾）
+
+- **commit `d768985d`**：stop-hook 觸發收尾，Pipeline B+C 翻譯入庫 1 檔（kitab-i-iqan-ighan 巴哈伊 篤信經）。
+  - `translations/kitab-i-iqan-ighan/01-translation.md` 新增（1217 行；Ali Kuli Khan 1904 英譯手稿直譯繁中，採既有英譯路徑，並於 header 註明「原文待補」）。
+  - `translations/kitab-i-iqan-ighan/meta.json` 加 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / 44 semantic_tags / 15 keywords / 5 psych_tags）。
+  - `PIPELINE_STATUS.md` / `PROGRESS.json` 自動重生：M3 執行狀態切換為 `pistis-sophia`（translate running）。
+- **續 §2026-07-28 設計決策**：kitab-i-iqan-ighan 為 v3 核心 518 部之一，巴哈伊傳統核心文本；本次為「翻譯入庫」批次（沿用既有語義標籤與心理標籤）。
+- **verify.py --all 全綠**（meta.json 變更只增欄位，未動 SHA-256；1217 行譯文未污染母檔）。
+- **中間狀態說明**：管線運行期間未 commit 該批（lock 檔 23:00 後未更新，pipeline 已停止），stop-hook 觸發後由本 session 接手收尾。下次 pipeline 重啟將從 `pistis-sophia` checkpoint 繼續。
+- **本 session m3 任務**：egyptian-book-of-dead segment 59/345 譯文（升天之福，Pepi I 金字塔文引述）僅輸出至 stdout，未寫入 `translations/egyptian-book-of-dead/01-translation.md`；該部採 345 段分割策略，單一段落地會誤導後續 reader，故**不補建檔案**，由 pipeline 整體接力。
+
 ## 2026-07-28 18:02 快照（Pipeline B+C enuma-elish-stc 翻譯入庫，stop-hook 收尾）
 
 - **commit `b139b2ca`**：stop-hook 觸發收尾，Pipeline B+C 翻譯入庫 1 檔（enuma-elish-stc 兩河 創世七碑）。
