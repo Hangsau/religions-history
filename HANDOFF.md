@@ -14,6 +14,17 @@
 - **排程**：`scripts/install-pipeline-task.ps1` 已提供登入＋每 5 分鐘 watchdog，但**尚未註冊**；須經使用者 rollout gate 決定。
 - **驗證**：`python -m unittest discover -s tests` 共 56 tests 全過；受控 rollout 無 `[model]` 成功 marker，證實 quota preflight 在生成前攔截。
 
+## 2026-07-28 18:02 快照（Pipeline B+C enuma-elish-stc 翻譯入庫，stop-hook 收尾）
+
+- **commit `b139b2ca`**：stop-hook 觸發收尾，Pipeline B+C 翻譯入庫 1 檔（enuma-elish-stc 兩河 創世七碑）。
+  - `translations/enuma-elish-stc/01-translation.md` 新增（3290 行；L.W. King 1902 英譯手稿直譯繁中，採 sacred-texts.com 二手英譯路徑，並於 header 註明「原文待補」）。
+  - `translations/enuma-elish-stc/meta.json` 加 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / 6 semantic_tags / 14 keywords）。
+  - `PIPELINE_STATUS.md` 自動重生：P0 尚未完整翻譯 13 → **12** 部；M3 執行狀態切換為 `kitab-i-iqan-ighan`（translate running）。
+  - `PROGRESS.json` 自動重生：兩河 / 兩河-蘇美 兩組 `with_translation` 0→**1**。
+- **續 §2026-07-28 設計決策**：enuma-elish-stc 為 v3 核心 518 部之一，部次較早派入翻譯佇列；本次為「翻譯入庫」批次（沿用既有語義標籤），未觸發 psych_tags 回填。
+- **verify.py --all 全綠**（meta.json 變更只增欄位，未動 SHA-256；3290 行譯文未污染母檔）。
+- **接續中**：M3 管線目前處理 `kitab-i-iqan-ighan`（巴哈伊，正執行翻譯）；下批完成後由 supervisor 接力，至核心 518 全量完成。
+
 ## 2026-07-28 快照（Pipeline B+C +8 檔批次，stop-hook 收尾）
 
 - **commit `28e56452`**：stop-hook 觸發收尾，Pipeline B+C 翻譯批次 +8 檔：
