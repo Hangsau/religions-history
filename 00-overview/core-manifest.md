@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**152** / 518
-- 已標籤：**181** / 518
+- 已翻譯：**153** / 518
+- 已標籤：**182** / 518
 
 ## 各宗教核心進度
 
@@ -30,7 +30,7 @@
 | 巴哈伊 | 4 | 0 | 0 |
 | 伊斯蘭 | 4 | 0 | 0 |
 | 印加 | 3 | 0 | 0 |
-| 瑪雅 | 3 | 0 | 0 |
+| 瑪雅 | 3 | 1 | 1 |
 | 兩河 | 3 | 0 | 0 |
 | 斯拉夫 | 3 | 1 | 1 |
 | 非洲 | 2 | 1 | 1 |
@@ -650,7 +650,7 @@
 ### 瑪雅（3 部）
 
 - `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）譯– 標–
-- `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）譯– 標–
+- `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）譯✓ 標✓
 - `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標–
 
 ### 兩河（3 部）
