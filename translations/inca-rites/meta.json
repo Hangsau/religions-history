@@ -48,5 +48,15 @@
     "white llamas",
     "Clements Markham"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "aging-time",
+    "change-transformation",
+    "death",
+    "evil-cruelty-empathy",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done"
 }

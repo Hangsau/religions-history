@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**153** / 518
-- 已標籤：**182** / 518
+- 已翻譯：**155** / 518
+- 已標籤：**184** / 518
 
 ## 各宗教核心進度
 
@@ -29,9 +29,9 @@
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 0 | 0 |
 | 伊斯蘭 | 4 | 0 | 0 |
-| 印加 | 3 | 0 | 0 |
+| 印加 | 3 | 1 | 1 |
 | 瑪雅 | 3 | 1 | 1 |
-| 兩河 | 3 | 0 | 0 |
+| 兩河 | 3 | 1 | 1 |
 | 斯拉夫 | 3 | 1 | 1 |
 | 非洲 | 2 | 1 | 1 |
 | 阿茲特克 | 1 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -644,7 +644,7 @@
 ### 印加（3 部）
 
 - `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）譯– 標–
-- `inca-rites` 印加儀禮與法律（English (translation)）譯– 標–
+- `inca-rites` 印加儀禮與法律（English (translation)）譯✓ 標✓
 - `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）譯– 標–
 
 ### 瑪雅（3 部）
@@ -657,7 +657,7 @@
 
 - `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯– 標–
 - `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯– 標–
-- `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯– 標–
+- `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯✓ 標✓
 
 ### 斯拉夫（3 部）
 
