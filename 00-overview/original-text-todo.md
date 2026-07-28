@@ -8,21 +8,21 @@
 
 ## 巴哈伊（3 部）
 
-- [ ] `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）— 未譯，原文待補
+- [ ] `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）— 已英→中✓，原文待補
 - [ ] `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）— 未譯，原文待補
 - [ ] `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）— 未譯，原文待補
 
-## 諾斯底（1 部）
+## 印加（1 部）
 
-- [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
+- [ ] `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）— 未譯，原文待補
 
 ## 美洲（1 部）
 
 - [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
 
-## 印加（1 部）
+## 諾斯底（1 部）
 
-- [ ] `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）— 未譯，原文待補
+- [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 未譯，原文待補
 
 ---
 

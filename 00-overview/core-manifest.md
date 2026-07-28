@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**157** / 518
-- 已標籤：**185** / 518
+- 已翻譯：**158** / 518
+- 已標籤：**186** / 518
 
 ## 各宗教核心進度
 
@@ -27,7 +27,7 @@
 | 現代新興 | 5 | 1 | 1 |
 | 神道 | 5 | 1 | 1 |
 | 錫克教 | 4 | 2 | 2 |
-| 巴哈伊 | 4 | 0 | 0 |
+| 巴哈伊 | 4 | 1 | 1 |
 | 伊斯蘭 | 4 | 0 | 0 |
 | 印加 | 3 | 1 | 1 |
 | 瑪雅 | 3 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -629,7 +629,7 @@
 
 ### 巴哈伊（4 部）
 
-- `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）譯– 標–
 - `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）譯– 標–
 - `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯– 標–

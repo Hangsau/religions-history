@@ -1015,6 +1015,13 @@
       "religion": "印度教"
     }
   ],
+  "Bayan": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    }
+  ],
   "Beelzebub": [
     {
       "slug": "vulgate-2-kings",
@@ -4589,6 +4596,13 @@
       "religion": "諾斯底"
     }
   ],
+  "Manifestations": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    }
+  ],
   "Manopubbaṅgamā": [
     {
       "slug": "dhammapada",
@@ -6291,6 +6305,13 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "Rizwan": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "Rodkinson": [
@@ -8806,6 +8827,13 @@
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
+    }
+  ],
+  "bada": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "bahussuto 多聞": [
@@ -14829,6 +14857,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -17017,6 +17050,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
@@ -18650,6 +18688,11 @@
     }
   ],
   "古蘭經": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    },
     {
       "slug": "quran",
       "name_zh": "古蘭經",
@@ -21600,6 +21643,13 @@
       "slug": "vulgate-galatians",
       "name_zh": "加拉太書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "宗教学者": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "宗祖": [
@@ -24938,6 +24988,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -25102,6 +25157,13 @@
       "slug": "vulgate-1-kings",
       "name_zh": "列王紀上 (武加大稱 列王紀三)",
       "religion": "基督教"
+    }
+  ],
+  "撒立哈": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "撒迦利亞": [
@@ -27899,6 +27961,11 @@
       "slug": "exodus",
       "name_zh": "出埃及記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "法老 Pharaoh": [
@@ -29914,6 +29981,13 @@
       "slug": "bible-3-john",
       "name_zh": "約翰三書",
       "religion": "基督教"
+    }
+  ],
+  "確信": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "示羅": [
@@ -32941,6 +33015,13 @@
       "religion": "基督教"
     }
   ],
+  "胡德": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
+    }
+  ],
   "能動理智": [
     {
       "slug": "kitab-al-khazari",
@@ -34615,6 +34696,13 @@
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
+    }
+  ],
+  "諾亞": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "諾夫哥羅德": [
@@ -36871,6 +36959,13 @@
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "顯聖者": [
+    {
+      "slug": "kitab-i-iqan-ighan",
+      "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
+      "religion": "巴哈伊"
     }
   ],
   "風天": [
