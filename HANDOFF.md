@@ -14,6 +14,16 @@
 - **排程**：`scripts/install-pipeline-task.ps1` 已提供登入＋每 5 分鐘 watchdog，但**尚未註冊**；須經使用者 rollout gate 決定。
 - **驗證**：`python -m unittest discover -s tests` 共 56 tests 全過；受控 rollout 無 `[model]` 成功 marker，證實 quota preflight 在生成前攔截。
 
+## 2026-07-28 快照（Pipeline B+C +8 檔批次，stop-hook 收尾）
+
+- **commit `28e56452`**：stop-hook 觸發收尾，Pipeline B+C 翻譯批次 +8 檔：
+  - `01-translation.md` 新增 8 部：avesta-sbe31-ae、deuteronomy、exodus、eyrbyggja-saga-on、numbers、plato-phaedo-el、plato-timaeus-el、psalms（11508 行）。
+  - `meta.json` 加 `translation_status=done` + `translation_models=MiniMax-M3`（exodus、psalms）。
+  - `PIPELINE_STATUS.md` / `PROGRESS.json` 自動重生同步。
+- **§2026-07-22 設計決策更新**：原列為「7 份 untracked FAILED 翻譯檔」中 6 部（avesta-sbe31-ae / deuteronomy / eyrbyggja-saga-on / numbers / plato-phaedo-el / plato-timaeus-el）已被 pipeline 重生為有效輸出並 commit；yajnavalkya-smrti 仍維持 untracked（未重生成功）。psalms、exodus 不在原 7 份清單內，由本次批次一併補翻。
+- **verify.py --all 全綠**（meta.json 變更只增欄位，未動 SHA-256）。
+- **homer-greek 譯文不落地**：本次任務的 m3 segment 57/435 譯文僅輸出至 stdout，未寫入 `translations/homer-greek/01-translation.md`；由於該部採 435 段分割策略，單一段落地會誤導後續 reader，故**不補建檔案**。homer-greek 翻譯進度仍待 pipeline 整體接力。
+
 ## 當前狀態快照（2026-07-21 17:4x +08:00，配額牆收尾）
 
 - **配額牆**：Claude 訂閱窗耗盡；用戶另開 $10 credits **保留不動用**（緊急備援）。Claude 派工全部暫停；**claude-m3 管線零 Anthropic 成本，持續自跑不受影響**。
