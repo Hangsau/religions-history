@@ -25,6 +25,16 @@
 - **中間狀態說明**：管線運行期間未 commit 該批（lock 檔 23:00 後未更新，pipeline 已停止），stop-hook 觸發後由本 session 接手收尾。下次 pipeline 重啟將從 `pistis-sophia` checkpoint 繼續。
 - **本 session m3 任務**：egyptian-book-of-dead segment 59/345 譯文（升天之福，Pepi I 金字塔文引述）僅輸出至 stdout，未寫入 `translations/egyptian-book-of-dead/01-translation.md`；該部採 345 段分割策略，單一段落地會誤導後續 reader，故**不補建檔案**，由 pipeline 整體接力。
 
+## 2026-07-29 18:30 快照（Pipeline B+C egyptian-book-of-dead 翻譯入庫，stop-hook 收尾）
+
+- **commit `6b6f5fe0`**：stop-hook 觸發收尾，Pipeline B+C 翻譯入庫 1 檔（egyptian-book-of-dead 古埃及死者之書）。
+  - `translations/egyptian-book-of-dead/01-translation.md` 新增（10147 行，350 段 `===` 標記；E.A.W. Budge 1895 英譯手稿直譯繁中，採 sacred-texts.com 二手英譯路徑，header 註明「原文（古埃及象形文字）待補」）。
+  - `translations/egyptian-book-of-dead/meta.json` 加 `translation_status="done"` + `translation_models="MiniMax-M3"`（沿用既有 `tag_status="done"` / 14 semantic_tags / 15 keywords / 0 psych_tags——`00-overview/PROGRESS.json` 顯示 psych 軸尚未回填）。
+  - `PIPELINE_STATUS.md` / `PROGRESS.json` 自動重生：核心 187 / 518 已翻譯+標籤；古埃及 / 古埃及-英譯 兩組 `with_translation` 0→**1**、`with_semantic_tags` 1→**2** + 5→**6**；M3 執行狀態切為 `running — egyptian-book-of-dead (translate)`。
+- **續 §2026-07-29 01:57 中段接力**：原 session 留置 m3 stdout 未落地（單段 59/345 採「不補建檔案」紀律）；本次由 supervisor / m3 worker 完成全 345 段 chunking 後整體寫盤並 commit。
+- **verify.py --all `egyptian-book-of-dead` PASS**（meta.json 只增欄位，未動 SHA-256；24 個 FAIL 為既有 retry 隊列，與本批無關）。
+- **接續中**：管線繼續推進核心佇列，下批將由 supervisor 接力至核心 518 全量完成。
+
 ## 2026-07-28 18:02 快照（Pipeline B+C enuma-elish-stc 翻譯入庫，stop-hook 收尾）
 
 - **commit `b139b2ca`**：stop-hook 觸發收尾，Pipeline B+C 翻譯入庫 1 檔（enuma-elish-stc 兩河 創世七碑）。
