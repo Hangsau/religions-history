@@ -4,7 +4,7 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**160** / 518
-- 已標籤：**188** / 518
+- 已標籤：**189** / 518
 
 ## 各宗教核心進度
 
@@ -21,7 +21,7 @@
 | 美洲 | 11 | 1 | 1 |
 | 儒教 | 10 | 1 | 8 |
 | 凱爾特 | 9 | 3 | 3 |
-| 古埃及 | 8 | 1 | 0 |
+| 古埃及 | 8 | 1 | 1 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
 | 現代新興 | 5 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -579,7 +579,7 @@
 - `book-of-am-tuat` 阿姆杜阿特之書（幽冥界之書）（English (Budge translation)）譯– 標–
 - `book-of-gates` 門之書（English (Budge translation)）譯– 標–
 - `burden-of-isis` 伊西斯的悲歌（奧西里斯讚歌）（English (Budge translation)）譯– 標–
-- `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯✓ 標–
+- `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯✓ 標✓
 - `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯– 標–
 - `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯– 標–
 - `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯– 標–
