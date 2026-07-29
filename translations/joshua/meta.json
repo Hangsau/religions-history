@@ -52,5 +52,13 @@
   ],
   "tag_status": "done",
   "translation_status": "done",
-  "translation_models": "MiniMax-M3"
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "courage",
+    "death",
+    "evil-cruelty-empathy"
+  ],
+  "psych_tag_status": "done"
 }

@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-07-29 23:31:27 +0800
+- 更新時間：2026-07-30 00:25:04 +0800
 - 佇列 tier：**核心**
-- 進度：**190 / 518** 已翻譯+標籤
+- 進度：**191 / 518** 已翻譯+標籤
 - 目前處理：`(本輪完成)`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：51 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, deuteronomy, plato-phaedrus-el, samaveda, ovid-fasti-la, homeric-hymns-el
+- 一般失敗待重試：50 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, deuteronomy, plato-phaedrus-el, samaveda, ovid-fasti-la, homeric-hymns-el
 - 已阻塞待人工處理：12 部 — avesta-sbe31-ae, quran, jain-uttaradhyayana-pkt, sutta-nipata, exodus, psalms, tain-bo-cuailnge-ga, plato-republic-el, book-of-mormon-1830, homer-greek
-- M3 執行狀態：**waiting_provider** — `mimamsa-sutra-jaimini` (translate chunk 26/50)
-- 限制偵測：2026-07-29T23:29:33.821149+08:00；下次重試：2026-07-29T23:34:33.821149+08:00
+- M3 執行狀態：**waiting_provider** — `mandukya-upanishad` (translate chunk 8/53)
+- 限制偵測：2026-07-30T00:23:13.305787+08:00；下次重試：2026-07-30T00:28:13.305787+08:00
 - 最後錯誤：`timeout after 360s`
 
 
