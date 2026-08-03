@@ -2,14 +2,16 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-03 23:58:53 +0800
+- 更新時間：2026-08-04 01:17:34 +0800
 - 佇列 tier：**核心**
-- 進度：**194 / 518** 已翻譯+標籤
+- 進度：**195 / 518** 已翻譯+標籤
 - 目前處理：`(本輪完成)`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：45 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, deuteronomy, plato-phaedrus-el, samaveda, ovid-fasti-la, homeric-hymns-el
+- 一般失敗待重試：44 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, deuteronomy, samaveda, ovid-fasti-la, homeric-hymns-el, chronicles-1
 - 已阻塞待人工處理：14 部 — avesta-sbe31-ae, quran, jain-uttaradhyayana-pkt, sutta-nipata, an9-nines, mimamsa-sutra-jaimini, exodus, psalms, tain-bo-cuailnge-ga, plato-republic-el
-- M3 執行狀態：**running** — `plato-phaedrus-el` (translate)
+- M3 執行狀態：**waiting_provider** — `homeric-hymns-el` (translate chunk 7/40)
+- 限制偵測：2026-08-04T01:15:48.268635+08:00；下次重試：2026-08-04T01:20:48.268635+08:00
+- 最後錯誤：`timeout after 360s`
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
