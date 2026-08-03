@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**165** / 518
-- 已標籤：**196** / 518
+- 已翻譯：**166** / 518
+- 已標籤：**197** / 518
 
 ## 各宗教核心進度
 
@@ -13,7 +13,7 @@
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 33 | 45 |
 | 印度教 | 58 | 26 | 29 |
-| 古希臘羅馬 | 46 | 16 | 16 |
+| 古希臘羅馬 | 46 | 17 | 17 |
 | 猶太教 | 45 | 26 | 27 |
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 4 | 4 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -404,7 +404,7 @@
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標–
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標–
-- `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯– 標–
+- `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯– 標–
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯– 標–
