@@ -3,7 +3,13 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 當前狀態快照（2026-07-23 09:15 +08:00，運維／接手保護）
+## 2026-08-03 19:49 快照（Pipeline B+C an9-nines 進度收尾，stop-hook）
+
+- `an9-nines` 的既有提交 `fddc8731` 已含翻譯＋標籤計數更新；本次內容產生器輸出第 39/72 段至 stdout，未直接修改 `translations/an9-nines/01-translation.md`。
+- `00-overview/PIPELINE_STATUS.md`／`PROGRESS.json` 自動同步：核心進度 **193 / 518**；佛教 `with_translation` 25→26、`with_semantic_tags` 38→39。
+- 驗證阻塞：`PYTHONIOENCODING=utf-8 python scripts/verify.py --slug an9-nines` FAIL，`translations/an9-nines/01-translation.md:2176` 有 `CHUNK 54/72 FAILED — retry needed`；全庫另外還有既有 `sn12-nidana`、`sutta-nipata` failed chunk placeholder。
+- 本次未改動 `raw/original.txt` 或 `meta.json`；因 `verify.py --all` 未全綠，先建立本地保護性提交但暫不 push，待 chunk 54 retry 後再收尾。
+
 
 - **配額保留等待中**：舊 worker 先完整完成 `huainanzi` tag 69/69 並安全退出；受控 rollout 已解除 HALT，`sutta-nipata` checkpoint 命中 1–3/78，在 chunk 4 送模型前被週額度保留線攔下。runtime 為 `waiting_quota`，watcher 等到 2026-07-27 08:00:15 +08:00 後接手。
 - **真實進度口徑**：4683 部、完整翻譯 148、semantic 423、psych 179、三軸全完成 143；核心 B+C `PIPELINE_STATUS.md` 179/518。`track-progress.py` 已不再把「檔案存在」誤算為完成。
