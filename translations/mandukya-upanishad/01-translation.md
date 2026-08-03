@@ -2,8 +2,8 @@
 
 > 原文：`raw/original.txt`
 > 原文語言：Sanskrit
-> 翻譯：MiniMax-M3，2026-07-13
-> 說明：外語直譯繁中
+> 翻譯：MiniMax-M3，2026-07-22
+> 說明：外語直譯
 > 守則：見 `tools/m3-translator-role.md`
 > 註釋見：`02-annotation.md`
 
@@ -11,2960 +11,3684 @@
 
 === 1 | sa_mANDUkyopaniSad-comm ===
 
-敬禮彼實在梵。
+蛙氏奧義書，附《蛙氏根本咒釋》、《蛙氏奧義書頌》與《阿笈摩論釋》
+
+標題
+
+本檔案是由 `sa_mANDUkyopaniSad-comm.xml` 轉換而成的 HTML，附有簡略標題。若需更完整的標題，請參閱來源檔案。
+
+資料輸入：
+
+Sansknet 計畫成員
+
+貢獻：
+
+Sansknet 計畫成員
+
+本版本日期：
+
+2020-07-31
+
+來源：
+
+。
+
+出版者：
+
+Göttingen 印度語電子文本登錄處（GRETIL），哥廷根大學南亞研究所
+
+授權：
+
+此電子文本是本著未侵犯任何版權的善意提供給 GRETIL 的。
+
+若有人希望主張此檔案的版權，請聯絡 GRETIL 管理處：gretil(at)sub(dot)uni-goettingen(dot)de。
+
+在釐清相關主張期間，檔案將立即被移除。
+
+依據創用 CC 姓名標示—非商業性—相同方式分享 4.0 國際授權條款發布。
+
+詮釋標記：
+
+以醒目方式標示的文字
+
+註記：
+
+本檔案是由 GRETIL 梵文語料庫透過大量轉換，從 `agsas_1u.htm` 建立而成。由於來源的異質性，標題標記可能不夠完善。為求透明，以下 `note` 元素記錄了舊版檔案的標題：
+
+阿笈摩論
+
+1）阿笈摩章，包含《蛙氏奧義書》
+
+內容包括：
+
+1）《蛙氏奧義書》（即《蛙氏奧義書》）
+
+2）《蛙氏根本咒釋》（被歸於商羯羅、針對《蛙氏奧義書》的註釋）
+
+3）高達波陀所作《蛙氏奧義書頌》
+
+（亦稱《高達波陀頌》、《蛙氏頌》或《阿笈摩論》）
+
+4）《阿笈摩論釋》（被歸於商羯羅的註釋）
+
+注意：「阿笈摩論」一詞適用於整個編纂本。
+
+由 Sansknet 計畫成員輸入
+
+（原為：www.sansknet.org）
+
+本 GRETIL 版本是由自訂的天城體編碼轉換而成。因此，詞語邊界通常沒有以空格標示。
+
+目前無法將這些情況及其他不規則處標準化。
+
+此外，Sansknet 版本採用某種半停頓格式，只有部分套用了連聲規則。
+
+本 GRETIL 版本則全面套用連聲規則，但部分情況可能在轉換程序中遺漏。
+
+根本文本已依據 V.P. Limaye 與 R.D. Vadekar 編校的版本《十八部主要奧義書》第一卷（浦那，1958）校核。
+
+高達波陀頌的文本已依據 A.V. Kathavate 編校的版本（浦那，1890，《阿難達室羅摩梵文叢書》第十冊）校核。
+
+註釋文本未經校對！
+
+參照系統（增補）：
+
+MandUp_ = 《蛙氏奧義書》
+
+MandUpC_ = 《蛙氏根本咒釋》（即商羯羅對《蛙氏奧義書》的註釋）
+
+MandUpK_ = 高達波陀的《蛙氏奧義書頌》
+
+MandUpKC_ = 《阿笈摩論釋》（即商羯羅對《蛙氏奧義書頌》的註釋）
+
+修訂：
+
+2020-07-31：透過大量轉換 GRETIL 梵文語料庫進行 TEI 編碼
+
+正文
+
+唵
+
+向真實的 Brahman（梵）致敬
 
 蛙氏奧義書
 
+（蛙氏奧義書）
+
 寂靜誦
 
-唵！
+唵，願我們以耳聽聞吉祥之事，眾神啊；願我們以眼觀看吉祥之事，祭祀者啊。
 
-願吾人以耳聞吉祥，以目見吉祥，
-諸天神啊，堪受祭祀者！
-願吾人以堅固之肢、健全之體，
-頌讚而度神所安置之壽。
+願我們以堅定的肢體與讚頌者的身軀，度過那由神所賜、我們應有的壽命。
 
-唵 寂靜！寂靜！
+//
 
-=== 2 | Āgama-prakaraṇa — 開篇祈請與釋義 ===
+唵，寂靜！寂靜！寂靜！
 
-tiḥ !! śāntiḥ !!!
+=== 2 | 開篇祈請與卷一前言 ===
 
-〔吉祥句〕
+tiḥ。Śāntiḥ。
 
-svasti naḥ indraḥ vṛddha-śravāḥ — 願大名聞之 Indra（因陀羅）賜我吉祥
-svasti naḥ pūṣā viśva-vedāḥ — 願遍知者 Pūṣan（普善）賜我吉祥
-svasti naḥ tārkṣyaḥ ariṣṭa-nemiḥ — 願輪無損之 Tārkṣya（持鵬鳥者）賜我吉祥
-svasti naḥ bṛhaspatiḥ dadhātu — 願 Bṛhaspati（辯才天）賜我吉祥
+願長壽榮耀之Indra（因陀羅）永保我等，
+願Pūṣan（普善）、普知者永保我等，
+願星宿、無害輪輻者永保我等，
+願Bṛhaspati（唄訶斯巴底）永保我等。
 
-oṃ śāntiḥ !! śāntiḥ !! śāntiḥ!!!
+Oṃ，寂靜！寂靜！寂靜！
 
-Āgama-prakaraṇa — 傳承章
+―― Āgamaprakaraṇa 祈頌 ――
 
-INVOCATION
+以prajñā（般若）慧焰伸展遍照，
+盈滿不動與動諸世間，
+已享最勝諸受用，
+復由慧焰覺起欲生諸樂。
 
-prajñānāṃśu-pratānaiḥ — 以智慧光線之延伸
-sthiracara-nikara-vyāpibhir vyāpya lokān — 遍滿含住著群與行走群之一切世間
-bhuktvā bhogān sthaviṣṭhān — 享已粗顯諸欲
-punaḥ api dhiṣaṇodbhāsitān kāma-janyān — 復享由祭火所照亮、由貪所生者
-pītvā sarvān viśeṣān — 飲盡一切差別
-svapiti — 彼即入眠
-madhurabhuṅ māyayā bhojayan — 以 māyā（幻）作甘露之食
-māyā-saṃkhyā turīyaṃ paramamṛtam ajam brahma yat — māyā 所數之 turīya（第四者），至上、不死、無生之 Brahman（梵），彼
-tan naḥ asmi — 彼即是我，「我即是彼」
+飲盡一切勝妙已，
+以māyā（幻）為食而安眠；
+māyā所數之turiya（第四），
+至高無生、不滅之brahman（梵），
+我即是彼。
 
-yo viśvātmā — 彼為遍一切之 Self
-vidhi-javiṣayān prāśya bhogān sthaviṣṭhān — 已食祭祀境界之粗顯諸欲
-paścāt cānyān svamati-vibhavān jyotiṣā svena sūkṣmān — 其後亦以其自光明之微細者，攝受心量所變現之其餘諸欲
-sarvān etān punaḥ api śanaiḥ svātmani sthāpayitvā — 復漸次將此一切安立於 Self 中
-hitvā sarvān viśeṣān vigata-guṇagaṇaḥ — 捨離一切差別、超越一切屬性之彼
-pātu asau naḥ turīyaḥ — 願彼 turīya 護佑我等
+彼為宇宙之ātman（我），
+先以心意諸境之最勝受用為食，
+復以自慧、自光明攝諸妙細微事。
 
-START MandUp 1
+彼徐徐安立一切於自身中，
+棄捨一切差別，
+離諸功德之聚，
+願彼turiya（第四）護我等。
 
-om iti etat akṣaram idam sarvam — 此音節 om 為不滅，全此即彼
-tasya upavyākhyānaṃ — 即對其之釋義
-vedānta-artha-sāra-saṃgraha-bhūtam idam prakaraṇa-catṛṣṭayam — 本四章之作為 Vedānta（吠檀多）義旨精要之薈萃
-om iti etat akṣaram iti ādi ārabhyate — 自「om 即此不滅音節」等為始
+―― MandUp 1 注釋起首 ――
 
-ata eva na pṛthak sambandha-abhidhāya-prayojanāni vaktavyāni — 故關聯、所詮、所用無須別說
-yāni eva tu vedānte sambandha-abhidhāya-prayojanāni tāni eva iha bhavitum arhanti — 然吠檀多中所有之關聯、所詮、所用，此處亦應如之
-tathā api prakaraṇa-vyācikhyāsunā saṃkṣepataḥ vaktavyāni — 然為解說章義，仍須略說
+Oṃ，此無朽音即是此一切。
 
-tatra prayojanavat sādhana-abhivyañjakatvena abhidhāya-sambaddham śāstraṃ — 其教法與所詮相連，由其能顯「所用即方便」故
-pāramparyeṇa viśiṣṭa-saṃbandha-abhidhāya-prayojanavat bhavati — 於傳承中，自有獨特之關聯、所詮、所用
+為釋此義，攝Vedānta（吠檀多）奧義之精要，本論分四品，由「Oṃ此無朽音」等起首。
 
-kiṃ punaḥ tat prayojanam iti ucyate — 此所用復為何？曰：
-roga-ārtasya eva roga-nivṛttau svasthatā — 病苦者之健康在於病之止息
-tathā duḥkhātmakasya ātmano dvaita-prapañca-upaśame svasthatā — 如是，苦為自性之 Self，其健康在於 dvaita-prapañca（二相之開展）之止息
-advaita-bhāvaḥ prayojanam — 非二之狀態即為其用
+是故不別說相屬、能詮、所為。
+吠檀多中所立之相屬、能詮、所為，於此即是。
 
-dvaita-prapañcasya avidyā-kṛtatvāt — 二相之開展由 avidyā（無明）所作故
-vidyayā tat upaśamaḥ syāt — 由 vidyā（明）可令其止息
-iti brahma-vidyā-prakāśanāya asya ārambhaḥ kriyate — 故此作始，為顯 Brahma-vidyā（梵之智）
+雖隨順解說之意趣，應略為宣說：
+所為與能詮、修道之標識相繫之教說，
+由展轉傳承，成就特殊之相屬、能詮、所為。
 
-"yatra hi dvaitam iva bhavati"（bṛ.u 2 / 4 / 14） —「若處有二相之似」
-"yatra vānyad iva syāt tatra anyo 'nyat paśyet anyo 'nyad vijānīyāt"（bṛ.u 4 / 3 / 31） —「若處見有異，則此見彼、彼知此」
-"yatra vāsya sarvam ātmaivābhūt tat kena kaṃ paśyet kena kaṃ vijānīyāt"（bṛ.u 2 / 4 / 14） —「若一切皆成 Self，則以何見何、以何知何」
-iti ādi śrutibhyaḥ asya arthasya siddhiḥ — 此等聲量成就此義
+何者為所為？
+答曰：猶病苦者離病而得安，如是由苦為性之ātman，滅dvaita（二相）之展延而得安。
+advaita（不二）之體性即所為。
 
-tatra tāvat oṃkāra-nirṇayāya prathamaṃ prakaraṇam — 其初，為決定 om 之義，第一章
-āgama-pradhānām ātma-tattva-pratipatti upāya-bhūtam — 以 āgama（傳承）為主，為證得 Self 真如之方便
+二相之展延由avidyā（無明）所造，由vidyā（明）滅之故，滅此即是。
+故此本論之作興，為明brahmavidyā（梵智）。
 
-yasya dvaita-prapañcasya upaśame advaita-pratipattiḥ — 二相之開展止息時，非二之證得生起
-rajjvām iva sarpādi-vikalpa upaśame rajju-tattva-pratipattiḥ — 如繩中蛇等之妄想止息時，繩之真如得以證知
-tasya dvaitasya hetuto vaitathya-pratipādanāya dvitīyaṃ prakaraṇam — 自其因而示二相之虛妄，為第二章
+「若處作二相之見」（Bṛhadāraṇyaka，廣森林奧義書，2/4/14），
+「若處他相之見，他見他知」（Bṛhadāraṇyaka，4/3/31），
+「若處一切唯是ātman，他以何見、以何知」（Bṛhadāraṇyaka，2/4/14）
+等，經典已證成此義。
 
-tathā advaitasya api vaitathya-prasaṅga-prāptau — 如是，若非二之義亦遭妄難之過
-yuktitaḥ tathātvadarśanāya tṛtīyaṃ prakaraṇam — 以理成立其如實，為第三章
+於中，為抉擇Oṃ之故，第一品以證成ātman真體為方便而居首要；
+若此二相之展延得以止息，則不二之證得，
+猶如繩上之蛇分別等止息，而證得繩之真體，
+故第二品明由因緣破斥二相之虛妄；
+若由如是而不二亦墮虛妄之過者，則以理證成其真實，
+故第三品明不二之真實；
+第四品遮破宗與彼宗相反之非法諸說，
+由其互相無違而以彼為真實之建立破斥之。
 
-advaitasya tathātvaprāti-pakṣa-bhūtāni yāni vādāntarāṇi avaidikāni — 反對非二如實之非吠陀異論
-teṣām anyonya-virodhitvāt — 以其互相矛盾故
-tathārthatvena tadupapattibhīr eva nirākaraṇāya caturthaṃ prakaraṇam — 由其自相不可成立之理以破斥之，為第四章
+「Oṃ，此」（Katha，羯陀奧義書，1/2/15），
+「此為所緣」（Katha，1/2/17），
+「此即satyakāma（真欲）者」（Praśna，問奧義書，5/2），
+「Oṃ，以繫於ātman」（Maitri，蜜俱奧義書，6/3），
+「Oṃ即是brahman」（Taittiriya，泰迪黎耶奧義書，1/8/1），
+「Oṃ之音即此一切」（Chāndogya，歌詠奧義書，2/23/3）
+等，由經典成立Oṃ之抉擇乃證ātman真體之方便。
 
-kathaṃ punaḥ oṃkāra-nirṇaya ātma-tattva-pratipatti upāyatvaṃ pratipadyata iti ucyate — om 之決定如何為證得 Self 真如之方便？曰：
+如繩等為蛇分別等之所依，
+不二之ātman為paramārtha（至上真實），
+彼為prāṇa（息）分別等之所依，
+如是，一切語言之展延，
+為prāṇa等ātman分別之境者，
+即是Oṃ之音。
 
-"om ity etat"（ka.u 1 / 2 / 15） —「om，即此」
-"etad ālambanam"（ka.u 1 / 2 / 17） —「此為依止」
-"etad vai satya-kāma"（pra.u 5 / 2） —「此即真欲者」
-"om ity ātmānaṃ yuñjīta"（maitryu 6 / 3） —「應以 om 繫於 Self」
-"om iti brahma"（tai.u 1 / 8 / 1） —「om 即是 Brahman」
-"omkāra eva idam sarvam"（chā.u 2 / 23 / 3） —「全此唯是 om」
-iti ādi śrutibhyaḥ — 此等聲量
+而Oṃ之音即是ātman之自相，
+以Oṃ之音為ātman自性之故。
 
-rajjur ādīḥ iva sarpādi-vikalpasya āspadaḥ advaya ātmā paramārthaḥ san — 非二之 Self 為至上真實，如繩等為蛇等妄想之所依
-prāṇādi-vikalpasya āspadaḥ — 為氣息等妄想之所依
-yathā tathā sarvaḥ api vāk-prapañcaḥ prāṇādi-ātma-vikalpa-viṣayaḥ oṃkāra eva — 如是，一切語言之開展、氣息等及 Self 之妄相所緣，唯是 om
+Oṃ之變異聲所詮之一切prāṇa等ātman之分別，
+若離Oṃ之音之詮則無。
 
-sa ca ātma-svarūpam eva tad-abhidhāyakatvāt — 且彼 om 即是 Self 自性，因其能詮表彼故
-omkāra-vikāra-śabda-abhidheyaḥ ca sarvaḥ prāṇādiḥ ātma-vikalpaḥ abhidhāna-vyatirekeṇa na asti — om 之變化語所詮之一切氣息等 Self 之妄相，除名言外別無實體
+「vāk（語）之起為vikāra（變異）、為nāmadheya（名稱）」（Chāndogya，6/1/4），
+「彼以vāk為tanti（經線），以nāman（名）為dāman（織線），織此一切」，
+「此一切皆nāman」…
 
-"vācārambhaṇaṃ vikāro nāmadheyam"（chā.u 6 / 1 / 4） —「以語為始乃變相與名稱」
-"tad asya idam vācā tantyā nāmabhir dāmabhiḥ sarvaṃ sitam" —「彼之一切，以語為經、以名稱為緯，悉皆織成」
-"sarvaṃ hīdam nāmāni" —「全此唯是名稱」
+=== 1 | 第一頌 ===
 
+oṃ（唵），這 akṣara（不滅音節），即此一切；
+對它的釋義：過去、現在、未來這一切，皆唯 oṃkāra（唵之音）。
+凡超越三時者，亦唯 oṃkāra。
 
+【釋】
 
-=== 4 | 第二足 Taijasa ===
+「oṃ，此 akṣara，即此一切」：凡可指稱之義（artha），既不離其名（abhidhāna），而名又不離 oṃkāra，故此一切唯 oṃkāra。
+至高之 brahma（梵），既為指稱與所稱所攝，唯依方便（upāya）而得證知，故亦唯 oṃkāra。
+此 akṣara「oṃ」，具至極（parā）與次極（apara）兩種 brahma 相，稱「upavyākhyāna（釋義）」者：以之為證入 brahma 的方便，最鄰近 brahma，故於此詳明宣說。
+「過去、現在、未來」，乃可為三時所限定者，此亦即前所說之 oṃkāra，非有別法。
+凡超越三時、可由因得證、不為時限、未開展等者，亦唯 oṃkāra。
 
-偈頌
-自起、內慧、七肢、十九口、享細妙者 Taijasa（光明），為第二足。
+=== 2 | 第二頌 ===
 
-釋論
-夢為 Taijasa 之位，是夢之處。
+sarvaṃ hy etad brahma, ayam ātmā brahma, so 'yam ātmā catuṣpāt
+此一切確是 brahma；此 ātman（自我）即 brahma；此 ātman 為四足（catuṣpāt）。
 
-醒位之智慧有多種工具，僅於心之微動中顯現為外在對象；如是，於心中安立如是之習氣。
+【釋】
 
-其心如是習氣所染，如繪染之布，不待外在工具，由無明、貪、業所推動，如清醒般顯現。
+「此一切皆為 brahma」：前所說之一切，唯 oṃkāra，即此是 brahma。
+然此 brahma，前從 parokṣa（隈證/間接）之方面說，今以 pratyakṣa（現量/直接）之方面特別宣說：「此 ātman 即 brahma」。
+「ayam」者，從 pratyagātman（內我）之觀點，戲劇性地宣說此分為四足之 ātman。
+此「ayam ātman」，其體性為 oṃkāra 所指稱，確立為至極（parā）與次極（apara）兩端；其為四足，猶如 kārṣāpaṇa（銅錢），非若牛之一。
+三者 viśva 等，以前前遍盡之方式，證得 turīya（第四），故「pāda」之語為 karaṇa-sādhana（能作之因）。
+turīya 能 pad（住立），故「pāda」之語為 karma-sādhana（所作之果）。
 
-又說：「去此世一切分之量」（bṛ.u.4/3/9）。
+=== 3 | 第三頌 ===
 
-又：「於心中，彼異神獨一」（pra.u.4/2）先說，「此神於夢中經驗偉大」（pra.u.4/5）為阿闥婆所說。
+jāgaritasthānaḥ bahiḥprajñaḥ saptāṅgaḥ eka-navimśati-mukhaḥ sthūla-bhuk vaiśvānaraḥ prathamaḥ pādaḥ
+覺位所住（jāgarita-sthāna）、境外所識（bahiḥprajña）、七支（saptāṅga）、十九口（ekonaviṃśati-mukha）、食麤者（sthūla-bhuk）——即 Vaiśvānara（遍照者），為初足。
 
-就諸根而言，其處於內；夢中之心為習氣相狀之智慧，是極內知。
+【釋】
 
-於無對象之智慧中，以純顯現自性為能知者故，是 Taijasa。
+「jāgarita-sthāna」：以覺位為其所在，故名。
+「bahiḥprajña」：於自體以外之境上有 prajñā（識），故為境外所識；其 prajñā 顯於境外之境上。
+「saptāṅga」：《Chāndogya Upaniṣad》（5/18/2）云：「此 Vaiśvānara ātman 之頭為 sutejāḥ（火光），眼為 viśva-rūpa（種種相），prāṇa 為 pṛthag-vartman（多道），ātman 為 saṃdoha（合會），vastī 為 bahula（豐饒），pṛthivī 為 rayi（資財），pādau 為 pṛthivī（地）。」此為 agnihotra（火祭）之施設，故 āhavanīya（火）為其「mukha（口）」，如是為 saptāṅga。
+「ekonaviṃśati-mukha」：五知根（buddhi-indriya）、五作根（karma-indriya）、五風（vāyu）——又 manas（意）、buddhi（慧）、ahaṃkāra（我慢）、citta（心）——是為 mukha（口），乃攝受之門。
+如此所具之 vaiśvānara，依前說諸門，享用 śabda（聲）等 sthūla（麤）境，故為 sthūla-bhuk（食麤者）。
+vaiśvānara 之義：於一切（viśva）中以多方（anekadhā）引導人（narāṇām）
 
-以對象為性故，智慧為粗者、以食故。
+=== 4 | 第三頌釋文 ===
 
-於此唯以習氣為食之智慧為食故，是離染之受用。
+或者，因為他既是 viśva（遍在）又是 nara（人），所以他是 viśvānara（遍入者）。viśvānara 就是 vaiśvānara。
 
-其餘同前。
+由於與全身我（sarvapiṇḍātman）不二，他是第一足。
 
-第二足為 Taijasa。
+由於這是先前之故，由於後足之得故，他是最初者。
 
-=== 5 | 第三足 Prājña ===
+如何這 pratyag-ātman（內在自我）是 brahma（梵）？在此內在自我的四足分中，以自然之方式，dyuloka（天界）等是頭部等支分。
 
-偈頌
-「於彼睡眠中，不欲任何欲，不見任何夢」，是為深眠。
+這沒有過失。
 
-深眠位獨一凝結，prajñā（般若）密集，純由喜樂所成，喜為食，心為口，Prājña（智慧），為第三足。
+因為這 ātman（我）是要說明一切現象——包括 ādhidaivika（天界的）、具有四足分的。
 
-釋論
-睡眠以見與不見之作用、以不覺真實為相，故以「於彼睡眠中」等限定，為識別深眠。
+若如此，在一切現象止息時，不二成立。
 
-又或：三種狀態中，睡眠以不覺真實為相而不別，故就前二者分別深眠。
+一 ātman 住於一切眾生，一切眾生在 ātman 中。
 
-彼於何處、何時睡眠，不見任何夢，不欲任何欲：
+「凡是見到一切眾生者」（伊莎奧義書 6）等經典之義所歸納，可如是。
 
-於深眠中，非如前二者，夢見或欲之以別相執取為性者……
+否則，pratyag-ātman 只被限定於自身之內，如 sāṃkhya（數論）等所見。
 
-=== 5 | 蛙氏奧義書注疏（續） ===
+若如此，由於經典所作「不二」之特殊義，因 sāṃkhya 等觀點無別故將不成立。
 
-……不知任何事物。
+一切奧義書都被期望主張一切-我-不二。
 
-此即其 suṣupta（熟睡）之處，因此稱為「以熟睡為處」。
+因此，恰當的是：關於這個 adhyātmika（內在的）piṇḍa-ātman（個體我），以天、空等作為支分，與 ādhidaivika 的 virāṭ-ātman（宇宙我）為一，據此說 saptāṅga（七支）之義。
 
-在兩種狀態中分別開來的心，因振動而生起二元；它並未捨棄那種形態，只是陷入無分辨，如同白晝被夜暗吞沒，連同顯現世界合而為一，故稱「合一」。
+亦由「你的頭將會滅去」（Chāndogya U. 5.12.2）等跡象可見。
 
-因此，夢與清醒時心之振動所成的種種認知，在此彷彿凝聚為一；此狀態以無分辨為其形態，故稱為 prajñānaghana（識團）。
+與 virāṭ 為一，是為 hiraṇyagarbha-avyākṛta-ātman（金胎未顯我）的方便標幟之義。
 
-正如夜間，一切因夜暗而無從區分，彷彿成為一團；同樣，它純然就是識團。
+於 Madhu Brāhmaṇa 中亦說：「凡是在此大地中由光明構成的不死者、人者，凡是此內在者」（Bṛhadāraṇyaka U. 2.5.1）等。
 
-「純然」一詞意指：在認知之外，並不存在另一種類。
+於 suṣupta（深眠）avyākṛta（未顯）中，因其無相故，彼一性成立。
 
-由於心不再以認知者與所認知者的形態振動，因而沒有由勞作所生的痛苦；所以它充滿喜樂、近於喜樂，卻不就是喜樂本身。
+若如此，此將成立：sarva-dvaita（一切二元）止息故不二。//3//
 
-如同世間處於無勞狀態的人被稱為安樂、享受喜樂者；此人所經驗的狀態正是全然無勞，故稱為「享受喜樂者」。經典說：「這是他的最高喜樂。」（《廣林奧義書》4.3.32）
+=== 5 | 第四章 ===
 
-由於它成為通往夢等覺知狀態之心的門，故稱為「以心為門」。
+自發起的、內知者、七支、十九面、享受清淨受用而有光輝者，是第二足。//4//
 
-或者，覺知為相的心就是它的門戶；它由此進入夢等狀態，故稱為「以心為門」。
+=== 6 | 第四章釋文 ===
 
-因為它能知過去與未來，能知一切對象，故稱為 Prājña（慧知者）。
+夢是醒覺時 taijasa（有光者）之所住。
 
-即使處於熟睡，它仍依先前已曾如此的關係而稱為 Prājña。
+醒覺之 prajñā（意識），以多種工具為緣，顯現於外在對象，只是心的微動，便在心中置入如是的 saṃskāra（習氣）。
 
-或者，唯有純粹認知是它獨有的形態，所以稱為 Prājña；另外兩者則還具有特殊分別的認知。
+此心被如是習氣所染，如畫布一般，不依賴外在工具，由 avidyā（無明）、kāma（欲）、karma（業）所推動，如醒覺般顯現。
 
-此 Prājña 即是第三 pāda（分位）。
+如是亦說：「由此世界的全部母親而生起」（Bṛhadāraṇyaka U. 4.3.9）。
 
-=== 6 | 蛙氏奧義書 ===
+如是「外在諸天會集於心」（Praśna U. 4.2），以此起「此天於夢中經驗其偉大」（Praśna U. 4.5），出於 Atharvaṇa（阿闥婆）。
 
-此是一切之主，
-此是一切知者，
-此是內在支配者，
-此是一切的根源；
-它實為一切有情的生起與消融。
+由於依於 indriya（感官）而為內在之故，心的 vāsanā（習氣）形式之 prajñā 於夢中為之；因此是 antaḥprajña（內知者）。
 
-=== 6 | 蛙氏奧義書注疏 ===
+當 prajñā 對象空無，純為光明自性時，作為「能緣」而起，這就是 taijasa。
 
-這一位安住於自身本性，乃是一切之主，支配連同神祇層面在內的一切差別種類。它並非不同於此 Prājña 的另一類存在，不像某些人所認為的那樣。
+以 viśva 是帶對象的，且 prajñā 是粗顯之故，故那是 bhuj（所食）。
 
-經典說：「親愛的，心確實繫於 prāṇa（生命氣息）。」（《歌者奧義書》6.8.2）
+但此處，純粹 vāsanā 形式之 prajñā 是受用者，這就是 pravivikta-bhoga（清淨受用）。
 
-正是這一位，在一切差別狀態中成為一切的知者，因此它是一切知者。
+與前述相同。
 
-正是這一位進入一切有情之內，成為它們的內在支配者。
+第二足是 taijasa。//4//
 
-因此，如前所述，具有種種差別的世界由它而生；它就是一切的根源。
+=== 7 | 第五章 ===
 
-既然如此，它就是生起，也是消融；一切有情的生起與消融，確實唯是這一位。
+於其處睡眠者，無任何欲想，無任何夢見，那是 suṣupta（深眠）。
 
-=== K 1.1 | 喬荼波陀頌 ===
+在 suṣupta 狀態中，ekībhūta（合而為一）、prajñānaghana（意識凝實）、由 ānanda（喜）所成、享受喜者、cetomukha（心的出口）、prājña（智者），是第三足。//5//
 
-關於以上所述之義，有以下諸頌：
+=== 8 | 第五章釋文（始） ===
 
-外向而知的遍在者，實為 Viśva（遍在者）；
-內向而知者則為 Taijasa（光明者）；
-認知凝聚為一者即 Prājña；
-同一者被記為三重。
+由於見與不見之作用，而且睡眠與無真實覺知之相相同之故，為攝持 suṣupta，「於其處睡眠者」等是差別之義。
 
-=== K 1.1 | 喬荼波陀頌注疏 ===
+或者，於三種狀態皆是無真實覺知之相的睡眠，與前二者無別，故以 suṣupta 區分。
 
-「外向而知」如下。
+於其處、其時睡眠者，無任何夢見，無任何欲想。
 
-由於它依次處於三種狀態，又藉由「那就是我」的記憶彼此連結，因此可知：有一個不同於三種狀態的同一者；其純淨與不相繫屬也由此成立。此即本頌之意。
+於深眠中，不像前二者，有夢見或欲想的另一攝持之相
 
-這也由經典中大魚等譬喻而得知。
+=== 5 | 第五頌註疏（續） ===
 
-=== K 1.2 | 喬荼波陀頌 ===
+……也不存在。
 
-此頌旨在顯示：Viśva 等三者，即在清醒狀態中也都能被經驗。
+這就是他的 suṣupta（熟睡）狀態，故稱「以熟睡為其狀態者」。
 
-Viśva 以右眼為門；
-Taijasa 則在心內；
-Prājña 位於心中的虛空；
-同一者以三重形態安住於身中。
+心被分別為兩種狀態，因振動而生起二元；此時雖未捨棄其形態，卻陷入無分辨之中。如同白晝被夜間的黑暗吞沒，心與展開的現象世界合為一體，故說「一體化」。
 
-=== K 1.2 | 喬荼波陀頌注疏 ===
+因此，夢與清醒之中那些心的振動與認知，在此彷彿凝聚成一體。此狀態以無分辨為其本質，故稱 prajñānaghana（識聚）。
 
-右眼本身就是其門戶；在其中，主要被經驗到的是觀看粗顯事物的 Viśva。經典說：「這位在右眼中的人，確實名為 Indha（光耀者）。」
+如同夜間一切在夜暗中無法分辨，彷彿凝成一體；同樣，此處唯有 prajñānaghana。
 
-Indha 具有光耀之性，即是 Vaiśvānara（普遍者）。
+「唯」字表示：除認知之外，並無另一種類的事物存在。
 
-住於太陽之中的 Vairāja（遍照者）自我，與眼中的觀看者，乃是同一者。
+由於心不再辛勞地振動成認知主體與認知對象的形態，也沒有由此而來的痛苦，所以此狀態是 ānandamaya（喜樂所成），以喜樂為主，卻不就是喜樂本身。
 
-然而，這一位不是 Hiraṇyagarbha（黃金胎）嗎？右眼中的 kṣetrajña（知田者）、雙眼的支配者與觀看者，以及身體之主，豈不另是一位嗎？
+如世間安住而無勞苦的人，被稱為幸福者、享受喜樂者；這個狀態確實以全然無勞苦為其本質，並由他所經驗，故稱 ānandabhuk（享受喜樂者）。經文說：「這就是他的最高喜樂。」【《廣林奧義書》4.3.32】
 
-不是，因為我們不承認它們本身具有差別。
+由於它成為通往心識的門，使心識醒入夢等狀態，故稱 cetomukha（以心為門者）。
 
-經典說：「唯一的神隱藏於一切有情之中。」（《白騾奧義書》6.11）
+或者，具有覺知特徵的心識，就是他進入夢等狀態所經之門與入口，因此稱 cetomukha。
 
-「婆羅多啊，亦當知我是一切田中的知田者。」（《薄伽梵歌》13.2）
+由於他能知過去與未來，並能知一切對象，故稱 prājña（遍知者）。
 
-「它在諸有情中不可分，卻彷彿分別而住。」（《薄伽梵歌》13.16）
+即使處於 suṣupta，他仍因先前已有的活動而被稱為 prājña。
 
-=== 6 | 第二節續 ===
+或者，純粹的覺知是他所獨有的本質，因此稱為 prājña；另外兩者則具有分殊的認知。
 
-由聖教所示：「於一切感官之中，雖無差別，然由右眼獨特顯示覺知之巧妙，故於其處特別指明為 viśva（毘舍）」。
+這位 prājña，就是第三足。॥5॥
 
-閉眼之人憶念右眼所見之色，如夢中所憶念者，亦即由 vāsanā（習氣）之色相而顯現以觀之。
+=== 6 | 第六頌 ===
 
-夢中所觀亦同此理。
+他是 Sarveśvara（萬有之主），他是 Sarvajña（一切知者），他是 Antaryāmin（內在統御者）；他是一切的根源，因為眾生確實由他生起，也歸於他消逝。॥6॥
 
-故夢中心識之 Taijasa（火相）亦為 viśva。
+=== 6.1 | 第六頌註疏 ===
 
-又，當 smaraṇa（憶念）活動於 ākāśa（空）與 hṛd（心）止息之時，prajña（般若）成為 ekībhūta（合為一）之 ghana prajña（般若凝實），由心之活動不復存故。
+這位安住於自身本性的，就是 Sarveśvara；他統御包括諸神層面在內的一切差別形態。他並非如世間其他統治者一般，是與所統御者分屬不同種類的存在。
 
-心之波動即 darśana（觀照）與 smaraṇa（憶念）；若其不存，則於心中不別於 prāṇa（生命氣息）、ātman（自我）而安住。
+經文說：「親愛的，心確實繫於生命氣息。」【《歌者奧義書》6.8.2】
 
-《Chā.4.3.3》：「prāṇa 收攝一切」之聖教所示。
+正是他在一切差別狀態中知曉一切，因此他是 Sarvajña。
 
-Taijasa 即 hiraṇyagarbha（金胎），由其依心而住故：
+他就是 Antaryāmin；他進入一切眾生之內，也正是他統御一切眾生。
 
-《Bṛ.4.4.6》：「心為 liṅga（標幟）」，
+因此，如前所述，具有種種差別的世界由他出生；所以他是一切的根源。
 
-《Bṛ.5.3.1》：「此 puruṣa 由心所成」等聖教所示。
+眾生由他生起，也歸於他消逝；這兩者確實都在他之中。
 
-[詰難：]
+=== 1.1 | Gauḍapāda 頌 ===
 
-若然，prāṇa 於熟睡之中是否 vyākṛta（已顯現）？
+關於上述義理，有以下偈頌：
 
-若然，感官將為與其同質者。如何保持 avyākṛtatā（未顯現之性）？
+Viśva（遍在者）向外而知，遍滿一切；
+Taijasa（光明者）則向內而知；
+prājña 的認知凝聚成一體。
+同一者被憶持為三種形態。॥1.1॥
 
-此非過失，由 avyākṛta 者無時空之特殊差別故。
+=== 1.1.1 | Gauḍapāda 頌註疏 ===
 
-雖由 prāṇābhimāna（執生命氣息為我）故，prāṇa 為 vyākṛta；然其對 piṇḍa（個體）所 paricchinna（局限）之 viśeṣa（特殊）abhimāna（計執）斷滅之時，復歸為 prāṇa，故熟睡之中，對 paricchinnābhimānavat（執有限為我者）而言，prāṇa 為 avyākṛta。
+「向外而知」：
 
-如 prāṇalaya（生命氣息歸寂）時，paricchinnābhimānināṃ（執有限為我者）之 prāṇa 為 avyākṛta；如是 prāṇābhimāninaḥ（執生命氣息為我者）於 aviśeṣāpatti（無別證得）之時亦為 avyākṛta。
+由於他依次處於三種狀態，又藉著「那就是我」的記憶將三者連結起來，所以可以確立：在三種狀態之外，存在著同一性、純淨性與不受牽連性。
 
-samānā prasava bījātmakatva（共同之生起種子本性）——此即彼 adhyakṣa（統治者，唯一）之 avyākṛta avastha（未顯現之境界）。
+經文以大魚往返兩岸的譬喻說明此義。॥1॥
 
-paricchinnābhimānināṃ（執有限為我者）之 adhyakṣa 與彼同一，如前所說之 viśeṣaṇa（特相）：ekībhūta（合為一）、prajñānaghana（般若凝實）等，皆得成立。
+=== 1.2 | Gauḍapāda 頌 ===
 
-以其為前已說之因故。
+此頌是為了顯示：Viśva 等三者，都能在清醒狀態中被經驗。
 
-[再詰難：]
+Viśva 位於右眼之門；
+Taijasa 則在心的內部；
+prājña 位於心中的空間。
+三者以三種方式安住於身體之中。॥1.2॥
 
-avyākṛta 者何以有「prāṇa」之名？
+=== 1.2.1 | Gauḍapāda 頌註疏 ===
 
-《Chā.u6.8.2》：「心繫於 prāṇa」之聖教所示。
+右眼本身就是門。Viśva 作為粗顯事物的觀看者，主要在那裡被經驗。經文說：「這位位於右眼中的人，確實名為 Indha（燃光者）。」
 
-然彼中《Chā.u6.2.1》：「唯有 sat（存在）」之 prakṛta（根本所談）之 satbrahma 方為「prāṇa」一詞所詮者。
+Indha 具有光明的性質，也就是 Vaiśvānara（遍在之火）。
 
-由「bījātmakatva（種子本性）」之 abhyupagama（立論），sat 之「prāṇa」vyapadeśa（稱呼）非為過失。
+位於太陽之中的 Vairāja（廣大者之子）自我，與眼中的觀看者，是同一者。
 
-雖彼 brahma 以「prāṇa」稱之，然若不捨 jīvaprasava bījātmakatva（個我生起之種子本性），則 sat 之「prāṇa」vyapadeśa 與「sat」vyapadeśa 並存。
+或許有人問：Hiraṇyagarbha（金胎）是知田者，也是右眼的統御者；而觀看者、身體的主人，難道不是另一個存在嗎？
 
-若所說之 brahma 為 nirbīja（無種子）之 rūpa（形相），則《Bṛ.u4.4.22、4.5.15》：「neti neti（非此非此）」，《Tai.u2.9》：「yato vāco nivartante（言從何處迴轉）」，《Ke.u1.3》：「anyadeva tadviditād athāviditāt（所知者異於所不知者）」等皆將被講說，如《Gītā.13.12》：「na sattannāsaducyate（既非被稱為存，亦非被稱為非存）」之 smṛti 所示。
+不是，因為我們不承認他們在自身本性上有所差別。
 
-若唯有 nirbījatā（無種子）為 sat，則 līna（潛隱）者於熟睡、pralaya（世界歸寂）中 punarutthāna（再生）將無合理性（aupapatti）。
+經文說：「唯一的神隱藏於一切眾生之中。」【《白騾奧義書》6.11】
 
-對 mukta（已解脫）者，由 bījābhāva（無種子）之無別，亦有 punarutpatti（再生）之 prasaṅga（過患）。
+「婆羅多之子啊，你也應當知道：我就是一切田中的知田者。」【《薄伽梵歌》13.2】
 
-若 jñānadāha（智之焚燒）之 bījābhāve，則亦有 jñāna（智）anarthakatva（無用）之 prasaṅga。
+「他在眾生之中不可分割，卻彷彿分割而安住。」【《薄伽梵歌》13】
 
-故彼 sat 之「prāṇa」vyapadeśa，與一切聖教中對其之「kāraṇatva（作者性）」vyapadeśa，必由「bījatva（種子性）」之 abhyupagama 而立。
+=== 6 | 第三覆結文與第四覆前三頌（kārikā 1.3-1.5）===
 
-因此：
+6) 憶念（smṛti）所立：
 
-《Mu.u2.1.2》：「akṣarāt parataḥ paraḥ（不死者之上更上者）」，
+「於一切根（karaṇa）中，雖見無別，然於右眼（dakṣiṇa-akṣa）卻見妙用殊勝，故於其中特別宣說 viśva（廣大我）：
 
-《Mu.u2.1.2》：「sabāhyābhyāntaro hy ajaḥ（無內無外之不生者）」，
+『右眼中色已見，閉目後憶持此色，於心中念想，如於夢中所見。彼之熏習（vāsanā）之相亦如是顯現。』
 
-《Tai.u2.9》：「yato vāco nivartante（言從何處迴轉）」，
+『夢中亦然於此。』
 
-《Bṛ.u4.4.12》：「neti neti（非此非此）」等
+因此夢中念想者，亦屬 viśva——以屬於 taijasa（夢境我）故。
 
-——皆為 bījavatva（種子性）apanayana（斷除）後之 vyapadeśa。
+ākāśa（空）與心中，憶念之業止息時，prājña（深眠我）成一，智成凝然——以心之業不生故。
 
-[結頌：]
+眼見、憶念皆心之動故；其不生時，心中即與 prāṇa（生命息）、ātman（我）無別安住。
 
-tāṃ bījāvasthāṃ（彼種子之境界）——prājñaśabdasya（般若之名）vācyasya（所詮）turīyatvena（第四性之）——
+『prāṇa 實繫縛此諸一切。』（《歌者奧義書》4.3.3）如是經說。
 
-non-dehādi（彼非由身等）saṃbandha（繫屬所生）jāgradādi（醒位等）rahitāṃ（離）pāramārthikīm（究竟真實之性），將另為分別說明。
+taijasa 為 hiraṇyagarbha（金胎），以心依止故：
 
-bījāvasthā（種子之境界）亦非全無所覺，由 utthitasya（已醒起者）之 pratyayadarśanāt（覺照現前故），於 dehe（身中）anubhūyate eva（實被經驗）。
+『心為相（liṅga）。』（《廣林奧義書》4.4.6）
 
-故言 tridhā dehe vyavasthita（三者安住於身中）。//2//
+『此人以心為體。』（《廣林奧義書》5.3.1）等經所言。
 
-=== MandUpK_1.3 ===
+若問：深眠時 prāṇa 已分別（vyākṛta），則其同類之根成。如何為不分別（avyākṛta）？
 
-viśva 恆享 sthūla（粗顯之物），
+非過——不分別者無方所、時分之別故。
 
-Taijasa 享 pravivikta（細顯之物），
+雖以 prāṇa 為慢（abhimāna）時，prāṇa 為分別；然限於身量（piṇḍa-paricchinna）之慢息滅時，prāṇa 之慢生起——故深眠中 prāṇa 為不分別，限於身量之慢者亦爾。
 
-Prajña 享 ānanda（喜樂），
+如 prāṇa 攝持時，限於身量之慢者其 prāṇa 為不分別；如是以 prāṇa 為慢者，若入無別亦為不分別——種（bīja）同現起故，彼主（adhyakṣa）唯一不分別之狀態。
 
-當知三種 bhoga（享用）。// MandUpK_1.3 //
+限於身量之慢者之諸主，與彼為一——如前所說之相（viśeṣaṇa），『成凝然之智』之成立。
 
-=== MandUpK_1.4 ===
+又以所說因故。
 
-sthūla 使 viśva 飽滿，
+何以不分別之 prāṇa 稱『prāṇa 名』？
 
-pravivikta 使 Taijasa 飽滿，
+『prāṇa 實繫 somya（可愛者）之心。』（《歌者奧義書》6.8.2）如是經說。
 
-ānanda 使 Prajña 飽滿，
+若問：《歌者奧義書》6.2.1『sadeva somya 之初』所言本然之 sat-brahman 為 prāṇa 名所指？
 
-當知三種 tṛpti（飽滿）。// MandUpK_1.4 //
+非過——以「種為性」之許與故（bījātmakatvābhyupagamāt）。
 
-=== MandUpKC_1.3-4 ===
+雖然此 brahman（梵）以 prāṇa 名指，然彼中 jīva（個我）之種性亦不棄，故 sat 之 prāṇa 名、sat 名之指陳，二者俱立。
 
-兩頌已說其義故 //3-4//
+若 nirbīja（無種）之相為所表之 brahman，則：
 
-=== MandUpK_1.5 ===
+『非如此，非如此。』（《廣林奧義書》4.4.22；4.4.24；4.5.15）
 
-triṣu dhāmasu（三境界之中），yad bhojyaṃ（所食者），
+『言辭從彼而還。』（《泰帝利耶奧義書》2.9）
 
-bhoktā ca yaḥ prakīrtitaḥ（食者亦已說明），
+『所知者之外，別所未知者。』（《羯陀奧義書》1.3）
 
-vadetad ubhayaṃ（請說此二者）；
+當說：『彼不為 sat，不為 asat 所說。』（《薄伽梵歌》13.12）如是憶念所立。
 
-yaḥ tu sa bhuñjānaḥ（彼若是食者），na lipyate（不染著）。// MandUpK_1.5 //
+若無種性，則彼已隱沒者——深眠、劫壞（pralaya）——之再起，不應道理。
 
-=== MandUpKC_1.5 ===
+又解脫者之再起，無別於無種之失。
 
-三…
+又於智火（jñāna-dāha）無種故，智成無用之失。
 
-=== 1.7 | 第七頌 ===
+故以彼具種性之許與，sat 之 prāṇa 名、一切經中 kāraṇa（作者）名之指陳，方得成立。
 
-有些思惟創造者認為，創造是 vibhūti（展現）與生發；
-另一些人則設想，創造如夢，具有 māyā（幻力）的形態。
+又因此故：
 
-vibhūti 意為展開，即 Īśvara（自在主）的創造；這是思惟創造者的主張，而非思惟最高真實者重視創造之意。
+『akṣara（不壞者）之更上更上者。』（《麥縒奧義書》2.1.2）
 
-經文說：「Indra（因陀羅）藉諸 māyā 顯現眾多形態。」
+『無外無內之不生者。』（《麥縒奧義書》2.1.2）
 
-有人看見魔術師把繩索拋向空中，帶著武器攀繩而上，越出視野，在戰鬥中被斬成碎片而墜落，隨後又重新站起；但看見這一切的人，不會重視探究那些魔術造作是否真實。
+『言辭從彼而還。』（《泰帝利耶奧義書》2.9）
 
-同樣，熟睡、夢境等狀態的展開，猶如魔術師展開繩索；處於其中的 prājña（明知者）、taijasa（光明者）等，則如攀上繩索的幻現魔術師。
+『非如此，非如此。』（《廣林奧義書》4.4.22）等等，以去其種性而立名。
 
-真正的魔術師不同於繩索及攀繩者；他站在地面上，受 māyā 遮蔽而不可見。同樣，名為 turīya（第四）的最高真實，亦如此安住。
+彼之種性之狀，『prājña 名』所指、亦即 turīya（第四境）者，遠離依身之醒覺等，乃究竟真實（pāramārthikī），別處當說。
 
-因此，求解脫的聖者只重視思惟此最高真實，而不重視毫無用處的創造問題。故此處說，這些設想只屬於思惟創造者：創造具有夢的形態，也具有 māyā 的形態。
+種性之狀亦非不覺——已起者之念可見故，於身中覺知之故，如是於身中三種安住之說。 // 2 //
 
-=== 1.8 | 第八頌 ===
+【第四覆前三頌】
 
-有人確信，創造只是主宰的意願；
-思惟時間者則認為，眾有從 kāla（時間）生起。
+viśva 為粗顯（sthūla）之受用者，恆常如是；
+taijasa 為微細（pravivikta）之受用者；
+prājña 為至樂（ānanda）之受用者，亦然——
+應知受用之三分別。
 
-由於主宰的意向必然成真，瓶等受造之物只是其意念，並非意念之外另有一物。
+粗顯者使 viśva 得滿足（tṛpti）；
+微細者則使 taijasa 得滿足；
+至樂亦然使 prājña 得滿足——
+應知滿足之三分別。
 
-另有人認為，創造唯獨由時間而起。
+// 3-4 義已說畢 //
 
-=== 1.9 | 第九頌 ===
+於三重境中，所受用者（bhojya），
+與能受用者（bhoktā），皆已宣說。
+能宣說此二者者，
+雖處受用之中，不為所染。
 
-有人說，創造是為了受用；
-另一些人說，創造是為了遊戲。
-這正是神的自性；
-對於一切願望皆已滿足者，還能有何欲求？
+【1.5 註解起】於三……（未完，待下段）
 
-另一些人認為，創造是為了受用，或是為了遊戲。
+=== 5 | 第五頌 ===
 
-收尾完成。
+知此二者雖以所食、能食而多分差別，食而不染——以所食唯一故，能食亦即是所食；非其對境者因此或減或增——如火不因焚自對境（如木等），亦復如是。
 
-=== 9 | 第七節釋末、MandUpK 1.10 及釋 ===
+「bhoktā（能食）不染」之理：以所食唯一故，能食亦即是所食；若能食亦為所食，則能食不為能食之對境。若為對境，則對境應有能食之增減。然 agni（火）不因焚燒其對境（木等）而或減或增——能食亦非其所食之對境，故不染。
 
-……若 pramāṇa（量）在了知壺時，除了排除他者之外還另有所作，那麼也就等於說：切割者除了使被切諸部分的連結分離之外，還會對其中某一部分另有所作。
+=== 6 | 第六頌 ===
 
-然而，當量為分辨壺與黑暗而活動時，其結果終止於排除不欲取的黑暗；正如切割者為分離被切諸部分的連結而活動時，其結果終止於使那些部分一分為二。同樣，隨之必然生起的壺之認知，並不是該量的結果。
+一切有的出生，決定為「有」（sat）——此為定論。
+一切由 prāṇa（氣）所生；心之分由 puruṣa（人/神我）各別。
 
-如同此例，否定性的認知之量，為分辨被疊置於 ātman（我）之上的內知性等而活動；除了排除不欲取的內知性等之外，不能成立它對 turīya（第四）另有作用。
+「有」者，現前存在之物。其以自身由 avidyā（無明）所造之 nāma-rūpa（名色）māyā（幻）之自性，即一切 viśva、taijasa、prājña 差別之物的出生。
 
-因為在內知性等消失的同時，認知者身分等差別也同時消失。因此後文將說：「一旦被知，二元便不存在。」（Māṇḍūkya Kārikā 1.18）
+又將說：「絕嗣者之子，非真實亦非由 māyā 而生。」（vandhyāputro na tattvena māyayā vāpi jāyate）若「無」（asat）者有生，則 brahman（梵）——不可施設、不可執持者——亦應墮「無」之過失。
 
-因為認知在二元消失的那一刻以外，不會再存續另一剎那。若它繼續存續，就會導致無窮後退，二元也將無法消失。
+繩蛇等事例可見：由 avidyā 所造之 māyā bīja（種）所生之蛇，繩等以自身為有。繩蛇、鹿渴等無所依（nirāspada），從未被任何人覺知。如繩之先於蛇生起，繩以自身為蛇而存在；如是諸有一切，於生起之前，以 prāṇa bīja 為自身而存在。
 
-因此可以確立：被疊置於我之上的內知性等禍患，正與否定性認知之量的作用同時消失。
+是故 āgama（聖教）亦言：「brahmaivedam 此即梵」（mu.u 2.2.11）、「ātmaivedam agra āsīt 此我初即有」（bṛ.u 1.4.1）。
 
-「非內知」是否定 taijasa（光明者）；「非外知」是否定 viśva（遍知者）；「非二者兼知」是否定醒與夢之間的狀態；「非知識之凝聚體」是否定熟睡狀態，因為熟睡的形式是不分辨的種子狀態；「非知」是否定同時認知一切對象的認知者身分；「非無知」則是否定無意識。
+「sarvaṃ janayati prāṇaḥ（一切由 prāṇa 所生）」——此中，prāṇa 為 bīja（種），如 urṇanābhi（蜘蛛）吐絲、如 agni 之 viṣphuliṅga（小火花）。「ceto 'ṃśūn puruṣaḥ pṛthak（心之分由 puruṣa 各別）」——cetas（心）之分如 jalārka（水中日）、如 agni 與 viṣphuliṅga，具同一相狀而有區別，於 deva、tiryag（畜生）等 deha（身）之別中可分別；此等 cetas 之分，由 puruṣa 各別觀之，以其不同於 viṣaya（對境）故。prāṇa 以 bīja 為自性而生一切有——「yathā urṇanābhiḥ 如蜘蛛」（mu.u 1.1.7）、「yathā agneḥ kṣudrā viṣphuliṅgāḥ 如 agni 之小火花」（bṛ.u 2.1.20）——聖教如是說。
 
-現在或許會問：內知性等似乎存在於我之中，怎能由否定它們而知其並不真實，如同由否定繩上的蛇等而知其不實？
+=== 7 | 第七頌 ===
 
-回答如下：雖然知的本性並無差別，但內知性等彼此偏離，猶如在繩等之上分別想像出的蛇、水流等差別；知的本性則在一切處從不偏離，因此唯有知的本性是真實的。
+vibhūti（展延/威能）與 prasava（出生）——sṛṣṭi-cintaka（思惟創造者）作此計度。
+sṛṣṭi 如 svapna（夢）之形、如 māyā（幻）之形——別有派如此分別。
 
-若說：「它在熟睡中有所偏離。」並非如此，因為熟睡仍被經驗。《廣森林奧義書》說：「認知者的認知，實無消失。」（Bṛhadāraṇyaka Upaniṣad 4.3.30）
+vibhūti 為 īśvara（自在天）之 vistāra（展開），sṛṣṭi-cintaka 作此計度；然 paramārtha-cintaka（思惟真實者）對 sṛṣṭi 不著意（ādara），此其意也。
 
-正因如此，它是不可見的。因為不可見，所以不可作為經驗活動的對象；它不能被行動器官把握；它無特徵、無標誌，意即不能由推論得知。正因如此，它不可思議；正因如此，它不能由言語表述。
+聖教云：「indro māyābhiḥ pururūpa īyate indra 以 māyā 現多形」（bṛ.u 2.5.19）。
 
-「以唯一之我的認知為核心」：在醒等各種狀態中，「這同一者就是我」這項從不偏離的認知，應循此追溯。
+非 māyā 之人，於 ākāśa（虛空）投擲一 sūtra（線），攀此而上，以 cakṣus（眼）所不及之外，以 yuddha（戰）身首斷落而墮，又見其起——於此 māyā 等實性之思惟中，不生敬信。如是此 māyā 之 sūtra 展開之喻，與 suṣupta-svapna（熟睡夢）之開展同；其登上 māyā 之喻，與 prājña-taijasa 等同。
 
-或者說，在證得 turīya 時，以「唯一之我」為內容的認知，就是其核心與量。因此經文說：「唯應將它作為我而觀想。」（Bṛhadāraṇyaka Upaniṣad 1.4.7）
+由 sūtra 與登上 mūla（根本）二者所成之別，māyā 之 paramārtha（真實）——此即 bhūmiṣṭha（住地者），為 māyā 所覆而不可見，恆住如 tathā——此即 turīya（第四）之 paramārtha-tattva（真實）。
 
-內知性等各種狀態所依者的屬性，已被否定。「現象展開的止息」，是說醒等狀態之屬性不存在。
+由此故，於 mumukṣu（求解脫者）之 ārya（聖者）思惟中，此等實有敬信；於 sṛṣṭi 思惟則無用——是故僅 sṛṣṭi-cintaka 作此分別，故說「svapna-māyā-sarūpa」。
 
-正因如此，它寂靜、不變、吉祥；因為它是不二的，不具有差別的分別想像。
+svapna-sarūpa（夢之形）者、māyā-sarūpa（幻之形）者——如是。
 
-人們認為它是「第四」turīya，因為它的形式不同於顯現出的前三足。
+=== 8 | 第八頌 ===
 
-「它就是我；它應被認知。」正如繩不同於顯現出的蛇、地上裂縫、棍棒等，依「你就是那」等句義所說的我，也同樣不同於一切顯現。經文以「不可見的見者」（Bṛhadāraṇyaka Upaniṣad 3.7.23）及「見者之見，實無消失」（Bṛhadāraṇyaka Upaniṣad 4.3.23）等語宣說它。
+純由 icchā（意願）——主（prabhu）之 sṛṣṭi——決定於 sṛṣṭi 如此者有之；
+由 kāla（時）諸有出生——kāla-cintaka（思惟時者）如此計度。
 
-它應依其本來先存的理路而被認知；一旦被知，二元便不存在。//7//
+icchā-mātram（純意願）者，主為 satya-saṃkalpa（真實思願）故，sṛṣṭi 為 ghaṭa（瓶）等之 saṃkalpa-mātram（純思願），非思願以外別有之物。
 
-此處有如下偈頌：
-
-一切苦止息之主宰，
-自在而不壞；
-於一切存在中不二，
-神聖的 turīya，遍在者，如是為人所知。// MandUpK_1.10 //
-
-turīya 之我，是 prājña（慧者）、taijasa 與 viśva 所表徵的一切痛苦止息之主宰。
-
-「主宰」以「自在者」解說。其意是：對於痛苦的止息，它具有支配之力，因為對它的認知正是痛苦止息的原因。
-
-「不壞」，是說它不離自身本性，亦即從不偏離。
-
-這是為什麼？
-
-因為在一切存在中，它是不二的；一切存在如繩上之蛇般虛妄，唯有它……
-
-
-
-=== 15 | 第十五頌（續） ===
-
-由於二者（醒位 viśva 與夢位 taijasa）之同等性，二者之自我歸為同一 (ekarāśitvam)。
-
-另由（夢位）以妄想 (anyathāgrahaṇa) 執取為主故，「由三德所成之無明即為睡眠」——於其中生起顛倒，是名夢。
-
-至於第三位（深睡眠位 prājña），唯有「住於真實」「以無知為相」之睡眠 (nidrā) 而已，（其間）無有顛倒。
-
-故於此（醒、夢）兩處——即因果之所在 (kāryakāraṇasthānayoḥ)——由以顛倒為相之因、以不顛倒為相之果所成之束縛 (bandha) 形中，由於證得「彼即真實 (paramārthatattva)」之智，當（束縛）已盡，得證第四句 (turīyaṃ padam)。
-
-即：證見「此具二相之束縛，於第四位 (turīye) 中已無」之義。//15//
-
-=== 16 | 第十六頌 ===
-
-由無始之幻 (anādimāyayā) 所睡之有情 (jīvaḥ)，當其覺醒時，
-覺悟無生 (ajaṃ)、無眠 (anidram)、無夢 (asvapnaṃ) 之不二 (advaitaṃ)。//16//
-
-云何此具輪迴相之有情（jīva）？即以「具二相之無知為體之自我」——以顛倒 (anyathāgrahaṇa) 為相、由無始時來流轉之、以幻 (māyā) 為相之睡眠所覆——「此是我父、此是我子、此是我孫、此是田宅、此是牲畜、我為此等之主、我為安樂、我為苦惱、我被此所損、我由此而增」——如是種種之夢想，於醒位與夢位兩處皆見，是名為睡。
-
-然後，由通達吠檀多 (Vedānta) 究竟真實之極慈悲之古魯 (guru)，教授云：「汝非如此之因與果之體相，汝即是真實 (tattvaṃ asīti)」——如此覺悟之時，即如是覺悟：
-
-云何覺悟？於此（覺悟之我）中，無外亦無內之生等諸變易 (janmādi-bhāva-vikāra) 可得故——離一切外內諸變易之無生 (ajaṃ) 之義。
-
-由於作為生等之因、所謂「無明黑暗之種子」 (avidyātamo-bījaṃ) 於此（覺悟之我）中不可得故——是故無眠 (anidram)。
-
-彼第四位 (turīyam) 既是無眠，是故亦無夢 (asvapnaṃ)，以為顛倒 (anyathāgrahaṇa) 之緣故。
-
-由於既無眠又無夢，是故當覺悟「無生 (ajaṃ)、不二 (advaitaṃ) 之第四位 (turīyam) 即是我 (ātmānam)」——即是。//16//
-
-=== 17 | 第十七頌 ===
-
-若於戲論 (prapañca) 寂滅已而覺，於戲論未寂滅時，云何得證不二？答曰：
-戲論 (prapañca) 若為實有，則當可滅，無有疑；
-此二元 (dvaitaṃ) 畢竟唯是幻 (māyāmātram)，於真實 (paramārthataḥ) 中則不二 (advaitaṃ)。//17//
-
-若此戲論為實有 (satyam avaṃ syāt prapañco yadi vidyeta)，如繩上由誤計所妄計之蛇 (rajjvāṃ sarpa iva kalpitatvāt)——非為實有。
-
-若（戲論）為實有 (vidyamānaḥ) 而可滅 (nivarteta)，則無有疑 (na saṃśayaḥ)；
-
-繩上由迷惑心 (bhrānti-buddhyā) 所妄計之蛇，若為實有，則由揀擇智 (vivekataḥ) 已得寂滅 (nivṛttaḥ)。
-
-若無迷惑者 (māyāvinā)，幻 (māyā) 不現前；若（幻）為實有 (vidyamānā)，則於見真實者 (darśināṃ) 之眼中——痴障滅已——已寂滅 (nivṛttā)；
-
-如是此名為戲論 (prapañca) 之二元 (dvaitaṃ)，畢竟唯是幻 (māyāmātram)，如繩之於由幻所現之蛇。真實中 (paramārthataḥ) 則不二 (advaitaṃ)。
-
-故無有一絲毫之戲論為生起或已寂滅之戲論可得。此即密意 (abhiprāyaḥ)。//17//
-
-=== 18 | 第十八頌 ===
-
-或問：施教者 (śāstā)、教法 (śāstraṃ)、弟子 (śiṣya) 之差別計執 (vikalpaḥ) 云何而寂滅？答：
-此差別計執 (vikalpaḥ)，若由誰妄計 (kalpitaḥ)，則可寂滅 (vinivarteta)；
-由教示之故乃立此說，於證知時，二元 (dvaitaṃ) 不存。//18//
-
-此差別計執 (vikalpaḥ)，若由誰妄計 (kalpitaḥ syāt)，則可寂滅 (vinivarteta)。
-
-如是此戲論 (prapañca)，如幻繩上之蛇 (māyā-rajju-sarpa-vat)；如是此「弟子等差別之計執」 (śiṣyādi-bheda-vikalpaḥ) 亦然——於覺悟之前，由教示為緣，已由見真實者所破。
-
-未覺悟前，由教示故乃立此說 (ayaṃ vādaḥ)：「此是弟子、此是施教者、此是教法」。
-
-於證智之果得究竟時 (upadeśa-kārye tu jñāne nirvṛtte)，證知究竟真實 (paramārtha-tattva) 之時，二元 (dvaitaṃ) 不存。//18//
-
-=== 8 | 第八章（起） ===
-
-Omkāra（唵字）為所詮之自性、以四足之自我 (ātman) 為主，已如前所說者：
-
-「此 Omkāra，以自我為主而不可壞者 (ātmādhyakṣaram)」。
-
-以分量 (mātrā) 而言為足（pāda）；足即分量；分量亦即足：阿 (akāraḥ)、優 (ukāraḥ)、摩 (makāraḥ)。//8//
+另有派主張由 kāla 而有 sṛṣṭi。
 
 === 9 | 第九頌 ===
 
-覺位之普遍者（Vaiśvānara），阿音（akāra）也，第一聲（prathamā mātrā），以遍攝之故，或以為初始之故。
-凡知此者，得一切所欲，且為初始者。
+為 bhoga（受用）故 sṛṣṭi——別派如此；為 krīḍā（遊戲）——另一派亦然。
+此乃 deva 之 svabhāva（自性）——願已滿者（āpta-kāma）何所貪？
+
+bhoga-artha（為受用）、krīḍā-artha（為遊戲）——別派如此計度 sṛṣṭi。
+於此二派之
+
+=== 7 | 第七節 ===
+
+依次應當說明第四足，因此經文以「非內知」等語宣說。
+
+由於其中全無一切語詞得以運作的根據，它不能由語詞表示；正是藉由各別的否定，經文意欲指示第四者。
+
+那麼，它豈不只是空無？
+
+不。因為虛妄分別若無所依，便不可能成立。銀、蛇、人、海市蜃樓等分別，不能被設想為離開貝殼、繩索、樹樁、荒地等而以無物為所依。
+
+若是如此，第四者既是一切生命氣息等分別的所依，便應當能由語詞表示，而不應藉否定使人知曉；正如瓶等是水等的容器。
+
+不。因為生命氣息等分別並非實有，正如貝殼等處的銀等並非實有。
+
+存在與不存在之間並無關係，因為唯有作為語詞運作之因的那一部分才是實物。
+
+我也不像牛等，能以自身形態成為其他認識方式的對象，因為我不受任何附加條件限定。
+
+它也不像牛等具有類屬，因為它是無二的，其中沒有共相與殊相。
+
+它也不像烹飪者等具有活動，因為它不生變化。
+
+它也不像青色等具有性質，因為它沒有任何性質。
+
+因此，它不應由名稱加以指示。
+
+那麼，它豈不像兔角等一樣毫無意義？
+
+不。因為當第四者被了知為我時，便能止息對非我的渴求，正如了知貝殼之後，對銀的渴求便會止息。
+
+當第四者被了知為我時，無明、渴求等過失便不可能存在。
+
+也沒有任何理由使第四者不能被了知為我，因為所有奧義書皆以此為宗旨而告終：
+
+「汝即彼。」（《闡陀伽奧義書》6.8.16）
+
+「此我即Brahman（梵）。」（《廣林奧義書》2.5.19）
+
+「彼為真實，彼即是我。」（《闡陀伽奧義書》6.8.16）
+
+「那直接而非間接的梵。」（《廣林奧義書》3.4.1）
+
+「那不生者確實遍於內外。」（《蒙達迦奧義書》2.1.2）
+
+「這一切唯是我。」（《闡陀伽奧義書》7.25.2）
+
+前已說明，此我具有究竟與非究竟兩種形態，並有四足。由無明造作的非究竟形態，猶如繩上之蛇等；其三足的特徵已經說明，它們處於如種子與萌芽的地位。
+
+現在則藉由否定前述猶如蛇等的三種狀態，說明猶如繩索本身、無種子性的究竟自性，因此經文說「非內知」等：
+
+既非內知，亦非外知；  
+非兩向之知，非知之聚；  
+非知，亦非不知。
+
+不可見，不涉世用，不可執取，無相，不可思議，不可言詮；  
+以唯一自我之確知為精髓，萬象止息，寂靜，吉祥，無二。  
+人們認為這是第四者。
+
+那就是我；那應當被了知。॥ 7 ॥
+
+## 第七節註疏
+
+難道不是，既已立下「我有四足」之說，並敘述了三足，第四足與內知等有所不同便已成立，因此「非內知」等否定毫無意義？
+
+不。正如唯有否定對蛇等的分別，才能認識繩索的自性，此處意欲說明的，正是具有三種狀態的那個我本身即為第四者，猶如「汝即彼」之教示。
+
+如果第四者是另一個不同於三種狀態之我的存在，那麼，由於沒有任何通往其認識的途徑，經典的教示便會毫無意義，或者將落入空無。
+
+正如繩索被分別為蛇等，在三種狀態之中，也只有同一個我被分別為內知等。當此理成立時，就在否定內知等的認識成為有效知識的同一時刻，以我中一切無義萬象之止息為特徵的結果，便已完全成就。因此，在證得第四者時，不必另求其他認識方式或其他修行手段。
+
+這正如分辨繩索與蛇的同一時刻，繩上的蛇已經止息，繩索也已被認得。
+
+然而，至於那些黑暗的消除——
+
+=== 9 | 第九段 ===
+
+在不依靠瓶子的取得之外，量便發生作用；同樣地，有人可能會說，除了切斷瓶子各部分之間的關聯之外，量也會在其他任一部分上發生作用。
+
+然而，當量開始作用於辨別瓶子與黑暗時，它便以停止所欲停止的黑暗為結果而終止；正如切割器開始作用於辨別可切割物各部分的關聯，並以使那些部分分裂為結果而終止一樣。因此，瓶子的認知是與此不可分離的伴隨結果，並不是量的果。
+
+同樣地，對於在自我上被妄加的內在知覺等事物進行辨別而開始作用的否定性認知之量，除了停止所欲停止的內在知覺等事物之外，不可能還在第四者上有其他作用。因為就在內在知覺等事物停止的同一時刻，認知者身分等差別也停止了。
+
+而且經文將說：「在已知之處，二元性不存在。」（《蛙氏奧義書頌》1.18）因為除了二元性停止的那一刻之外，認知不會停留在另一個時刻。若它還停留於另一個時刻，便會導致無限後退，因此二元性也就不會停止。
+
+所以，已確立的是：與否定性認知之量的作用同時，自我上被妄加的內在知覺等非實在事物也停止。
+
+「不是內在知覺」是否定光明者；「不是外在知覺」是否定遍知者；「不是兩方面的知覺」是否定清醒與夢境之間的中間狀態；「不是知覺聚集」是否定熟睡狀態，因為熟睡具有種子狀態而尚未辨別；「不是知覺」是否定同時作為一切對象之知覺者；「也不是無知覺」是否定意識本身。
+
+那麼，既然內在知覺等被認為是在自我中可知的事物，為何能由否定它們而了解它們並非實在，如同在繩子上否定蛇等一樣？對此回答如下：即使知者的本性沒有差別，也由於彼此互相變異，如同在繩子上出現蛇、花環等想像出的差別；但知者的本性在一切情況下都不變，因此它是真實的。
+
+若有人說，知者在熟睡時也發生變異，那麼回答是：並非如此，因為熟睡本身也是被經驗到的。經文說：「因為知者的知覺不會消失。」（《廣森林奧義書》4.3.30）
+
+也正因如此，它是不可見的。由於不可見，所以是不可交往的；是不可由行動器官把握的；是無特徵、無象徵的——這就是說，它不能由推論得知。
+
+也正因如此，它是不可思議的；也正因如此，它不能由語言指稱。
+
+「以單一自我認知為本質」：在清醒等狀態中，有一個不變的認知，即「這一個自我是唯一的」，應當依循這個認知而知。
+
+或者，也可以說，第四者的取得以單一自我認知為本質；那個第四者便是以單一自我認知為本質者。經文說：「應當只禮敬自我。」（《廣森林奧義書》1.4.7）
+
+前面已否定了內在知覺等狀態的性質。「世界寂滅」是說清醒等狀態的性質不存在。
+
+也正因如此，它是寂靜的、不可變的、吉祥的；因為它是沒有差別想像的非二元者。
+
+人們認為它是第四者、turīya，因為它不同於被認知的三個足分所呈現的形態。
+
+那便是自我，那便是應被認知者。正如繩子不同於被認知為蛇、土堆、洞穴、棍杖等一樣；「你就是那個」等語句所表達的意義，即是這個自我。這個自我由「不可見的見者」（《廣森林奧義書》3.7.23）以及「因為見者的見不會消失」（《廣森林奧義書》4.3.23）等經文所說明。
+
+「那便是應被認知者」：這是依循過去已發生之事的表達方式，意思是：在已知之後，二元性便不存在。//7//
+
+在此，有以下偈頌：
+
+一切痛苦止息之時，  
+祂是主宰，是不衰敗的主；  
+祂是諸有之非二元者，  
+諸天神認為祂是第四者，是遍在者。
+
+在 prājña、taijasa、viśva 的特徵以及一切痛苦止息之時，第四者自我是主宰。
+
+「主宰」一詞的解釋是「有能力者」。
+
+其意義是：祂有能力使痛苦止息，因為痛苦的止息以祂的認知為因。
+
+「不衰敗」是說：祂不離開自己的本性，換言之，祂不發生變異。
+
+這是為什麼呢？
+
+因為祂是諸有的非二元者；由於一切有如繩蛇一般是虛妄的，所以祂是諸有的非二元者。
+
+=== 10 | MandUpK 1.10–1.15 ===
+
+此神因照耀而得名；turīya（第四者）是第四者，被記為遍在者。
+
+為確定 turīya 的真實本性，現闡明 viśva（普遍者）等者的共同與差別性質。
+
+viśva 與 taijasa（光明者）被認為受果與因束縛；  
+prājña（有智者）則受因束縛；  
+這兩種束縛在 turīya 中並不成立。 //1.11//
+
+所造者是被造作之物，因此具有果的性質；造成者能夠造成，因此具有種子的性質。由於不把握真實，以及把握為非其本然，viśva 與 taijasa 這兩者，便以種子與果這兩種狀態而被說成受束縛、被總攝。prājña 則只受種子的性質束縛。對 prājña 而言，僅僅不覺知真實本身就是種子，也是其成為 prājña 的原因。因此，種子與果這兩種狀態——由於不把握真實以及把握為非其本然——在 turīya 中不成立、不存在、不能發生；這就是說。
+
+既然如此，為何說 prājña 受因束縛，而 turīya 不受因束縛？也就是說，為何不把握真實與把握為非其本然這兩種束縛，在 turīya 中不成立？因為：
+
+prājña 不覺知任何事物：既不覺知自我，也不覺知他者；既不覺知真實，也不覺知非真實。turīya 則永遠是遍見者。 //1.12//
+
+prājña 不覺知任何外在的二元性；這種二元性有別於自我，並且由無明之種所生；viśva 與 taijasa 也是如此。因此，他因不把握真實而被黑暗束縛；這黑暗是把握為非其本然的種子。
+
+因為 turīya 永遠是遍見者。由於除 turīya 外沒有其他存在，它始終、確實始終看見一切，而一切也都是它所見，所以稱為遍見者。因此，那裡沒有以不把握真實為特徵的種子。由此所生的錯誤把握也同樣不存在。因為在太陽這個永遠以光明為本性的事物中，不可能有與此相反的不顯現或錯誤顯現。
+
+正如《廣林奧義書》所說：「觀看者的觀看絕不會消失。」（4.3.23）
+
+或者，在醒與夢中，處於一切眾生之中的、顯現為一切事物之見者，正是 turīya，因此永遠是遍見者。正如《廣林奧義書》所說：「除了這位見者之外，沒有別的見者。」（3.8.11）以及其他經文。
+
+prājña 與 turīya 二者對二元性的未把握相同。prājña 與種子睡眠相連，而種子睡眠在 turīya 中不存在。 //1.13//
+
+這一頌是為了排除另一個可能原因的疑慮。既然二者對二元性的未把握相同，為何只有 prājña 受因束縛，而 turīya 不受？這一疑慮由此排除：因為不覺知真實，就是種子睡眠所伴隨的睡眠；同一不覺知又是生起特殊覺知的種子。prājña 與這種種子睡眠相連。turīya 的本性永遠是見，所以具有不覺知真實特徵的睡眠在 turīya 中不存在；因此，它不受因束縛，這就是說。
+
+前兩者與夢和睡眠相連；prājña 則與無夢睡眠相連。在 turīya 中，梵知者確定地既不見睡眠，也不見夢。 //1.14//
+
+夢是把握為非其本然，如同把繩看成蛇。睡眠則被稱為黑暗，以不覺知真實為其特徵。viśva 與 taijasa 連結於這兩者——夢與睡眠；因此被說成受果與因束縛。prājña 則只與沒有夢的單純睡眠相連；所以被說成受因束縛。梵知者在 turīya 中確定地看不見二者，因為二者彼此相反，如同太陽中的黑暗。因此，turīya 被說成不受果與因束縛。
+
+何時才算在 turīya 中確定？現在說明：
+
+對於把握為非其本然者，便有夢；對於不知真實者，便有睡眠。當這兩者的顛倒認知消滅時，便達到 turīya 之境。 //1.15//
+
+在醒與夢二者中，把真實把握為非其本然，如同把繩看成蛇，便是夢。不知真實，便是睡眠；在三種狀態中都是同樣如此。夢與睡眠……
+
+=== 11 | 第十一段 ===
+
+由於 Viśva 與 Taijasa 相等，故為同一聚合；又由於錯誤把握居於主要地位，睡眠成為次要者，其中的顛倒便是夢。在第三個處所，唯有以不知該處真實為特徵的睡眠是顛倒。因此，當那兩個作果與作因的處所中，以錯誤把握與不把握為特徵、具有作果作因之束縛形態的顛倒，因覺知究竟真實而消滅時，便獲得第四位。那時，他在 Turīya（第四）中看不見具有二者特徵、呈束縛形態者，便於 Turīya 中確定下來；意思就是如此。
+
+當 jīva（有情）因無始 māyā（幻）而沉睡者醒悟時，
+那時他覺知無生、無眠、無夢、非二元者。
+
+這個輪迴中的 jīva（有情），以具二者特徵、以不覺知真實為形態的種子自體，以及以無始以來運行、以 māyā（幻）為特徵的夢，沉睡著；他在兩個處所都看見這類夢：
+
+「這是我的父親，這是兒子，這是孫子；田地、牲畜，我是它們的主人；我是快樂的、痛苦的；我被這個耗損了，又被那個增長了。」
+
+當一位通達吠檀多義理真實、極其慈悲的 guru（上師）使他覺醒，讓他覺知：「你不是如此以因與果為自性的，而是你即那真實」，就在那時他如此醒悟。
+
+如何？「在這裡，外在或內在都沒有出生等存在狀態的變化；因此它是無生的，離開外內一切存在狀態的變化。」意思就是如此。
+
+因為在它裡面不存在作為出生等之因的無明黑暗種子，也不存在睡眠，所以是無眠的。
+
+因為那個 Turīya（第四）是無眠的，正因此它是無夢的；夢是錯誤把握的原因。
+
+又因它無眠、無夢，所以那時便覺知自體，即 Turīya（第四），是無生、非二元的。
+
+若是藉由 prapañca（世界顯現）的止息而醒悟，那麼在 prapañca 未止息時，怎麼能說是非二元？對此答覆：
+
+若世界顯現確實存在，
+它就會止息，毫無疑問；
+這個二元性只是 māyā（幻），
+在究竟實相上是非二元。
+
+確實如此：若世界顯現存在，它就會止息，毫無疑問；它是如繩上之蛇般被假想的，然而它並不存在。
+
+若它是存在的，就會止息，毫無疑問。
+
+由錯誤知覺在繩上假想的蛇，並不是先作為存在者而後因辨別止息的。
+
+同樣，幻術師施展的幻術，也不是在觀看者眼睛的障蔽消失時，作為存在者而止息的。
+
+同樣，這個名為世界顯現的二元性只是 māyā（幻）；如同繩上之蛇的幻術一般，在究竟實相上是非二元的。
+
+因此，意旨是：沒有任何世界顯現曾經生起，也沒有任何世界顯現曾經止息。
+
+可是，「教師、教典、弟子」這種分別如何止息？對此答覆：
+
+若分別是由某人假想的，
+它便會止息；
+這種說法出於教導；
+在真實被知之後，二元性不存在。
+
+若分別是由某人假想的，它便會止息。
+
+正如這個世界顯現如幻術所現的繩蛇，這個弟子等差別的分別也是在覺醒之前、以教導為因；所以這種說法是由教導而來，即「弟子、教師、教典」。
+
+然而，在教導所產生的知識完成、究竟真實被知之後，二元性不存在。
+
+那個以所指為主要、已被解釋為具有四足之自體的 Oṃkāra（唵），就是這個以音節為限的自體，即 Oṃkāra（唵）。
+
+就音量而言，四足是音量，音量也是四足：A、U、M。
+
+這個自體是在以音節為限、以稱說為主要的情況下被描述的，稱為「依音節」。
+
+那麼，這個音節是什麼？答案是：Oṃkāra（唵）。
+
+這個 Oṃkāra（唵）按四足分開，依音量而運行，所以稱為「依音量」。
+
+=== 8 | 第八頌 ===
+
+m
+
+如何？屬於 ātman（自我）的那些 pāda（部分），即是 oṃkāra（唵）的 mātrā（音節）；彼等是什麼？[答：] akāra（a 音）、ukāra（u 音）、makāra（m 音）等。 //8//
+
+=== 9 | 第九頌 ===
+
+[頌文]
+
+tatra viśeṣa-niyamaḥ kriyate —
+
+jāgaritasthānaḥ vaiśvānaraḥ akāraḥ prathamā mātrā，āpteḥ ādi-mattvāt vā。
+
+āpnoti ha vai sarvān kāmān ādiḥ ca bhavati ya evaṃ veda。 //9//
+
+[釋論]
+
+jāgaritasthānaḥ vaiśvānaraḥ yaḥ saḥ — oṃkārasya akāraḥ prathamā mātrā。
+
+kena sāmānyena iti āha — āpteḥ āptiḥ，vyāpti-kāreṇa sarvā vāg vyāptā。
+
+「akāro vai sarvā vāk」（aitareya-āraṇyake 2.3.6）iti śruteḥ。
+
+tathā vaiśvānaraḥ jagat — 「tasya ha vai tasya ātmano vaiśvānarasya mūrdha eva sutejaḥ」（chāndogya-upaniṣad 5.18.2）ity-ādi śruteḥ。
+
+abhidhāna-abhidheya-yoḥ ekatvaṃ ca avocāma。
+
+ādeḥ vidyate ity-ādi-mat athaiva ādi-mat akāra-ākhya-m akṣaraṃ tathā eva vaiśvānaraḥ；tasmāt vā sāmānyāt akāra-tvaṃ vaiśvānarasya。
+
+tat ekatva-vidaḥ phalam āha — āpnoti ha vai sarvān kāmān，ādiḥ prathamaḥ ca bhavati mahatām ya evaṃ veda；yad uktam ekatvaṃ veda ity arthaḥ。 //9//
 
 === 10 | 第十頌 ===
 
-夢位之光明者（Taijasa），優音（ukāra）也，第二聲（dvitīyā mātrā），以超勝之故，或以兼具之故。
-凡知此者，智慧之延續得超勝，
-且得平等，
-於其族中，無不知梵者。
+[頌文]
+
+svapnasthānaḥ taijasaḥ ukāraḥ dvitīyā mātrā，utkarṣāt ubhaya-tvāt vā。
+
+utkarṣati ha vai jñāna-saṃtatiṃ。
+
+samānaḥ ca bhavati。
+
+na asya abrahmavit kule bhavati ya evaṃ veda。 //10//
+
+[釋論]
+
+svapnasthānaḥ taijasaḥ yaḥ saḥ — oṃkārasya ukāraḥ dvitīyā mātrā。
+
+kena sāmānyena iti āha — utkarṣāt：akārāt utkṛṣṭa iva hi ukāraḥ；tathā viśvāt utkṛṣṭa taijasaḥ。ubhaya-tvāt vā — akāra-akārayoḥ madhyasya ukāraḥ；tathā vaiśvāna-prajñayoḥ madhye taijasaḥ；ataḥ ubhaya-bhakti-tva-sāmānyāt。
+
+vidvat-phalam ucyate — utkarṣati ha vai jñāna-saṃtatiṃ，vijñāna-saṃtatiṃ vardhayati ity arthaḥ。
+
+samānaḥ tulyaḥ ca — mitrapakṣasya iva，śatru-pakṣāṇām api apadveṣyaḥ bhavati。
+
+abrahmavidasya kule na bhavati ya evaṃ veda。 //10//
 
 === 11 | 第十一頌 ===
 
-熟眠位之慧者（Prajña），摩音（makāra）也，第三聲（tṛtīyā mātrā），以度量之故，或以非度量之故。
-凡知此者，度量此一切，且為非度量者。
+[頌文]
 
-=== K 1.19 | 伽達帕卡哩伽第一章第十九頌 ===
+suṣupta-sthānaḥ prājñaḥ makāraḥ tṛtīyā mātrā，miteḥ apīteḥ vā。
 
-此中有偈：
+minoti ha vai idaṃ sarvaṃ，apītiḥ ca bhavati ya evaṃ veda。 //11//
 
-欲說明宇宙之自性，初始之共通性為超勝；
-於音節之證得，遍攝之共通性亦然。
+[釋論]
 
+suṣupta-sthānaḥ prājñaḥ yaḥ saḥ — oṃkārasya makāraḥ tṛtīyā mātrā。
 
-<!-- CHUNK 13/53 FAILED — retry needed -->
+kena sāmānyena iti āha — atra idaṃ sāmānyaṃ：mitiḥ amitiḥ，mānaṃ mīyate iva，viśva-taijasau prājñena pralaya-utpattyoḥ。
 
+praveśa-nirgamābhyāṃ — prasthe netā yathā āsaḥ；tathā ukāra-samāptau，punar prayoge ca praviśya nirgacchataḥ iva akāra oṃkārau makāre。
 
-=== 1.26 | 第 26 頌 ===
+apīteḥ vā — apītiḥ api aya ekī-bhāvaḥ。
+
+oṃkāra uccāraṇe hi antya-akṣara ekī-bhūtaḥ ava ākāra oṃkārau；tathā viśva-taijasau suṣupta-kāle prājñe。
+
+ataḥ vā sāmānyāt ekatvaṃ prājña-akārayoḥ。
+
+vidvat-phalam āha — minoti ha veda idaṃ sarvaṃ jagat yāthātmyaṃ jānāti ity arthaḥ。
+
+apītiḥ ca jagat kāraṇa-ātmā bhavati ity arthaḥ。
+
+atra-antara-phala-vacanaṃ pradhāna-sādhana-stuti-artham。 //11//
+
+=== Kh 1.19 | 附頌 1.19 ===
+
+[頌文]
+
+viśvasya ātma-vivakṣāyām ādi-sāmānyaṃ utkṛṣṭam /
+
+mātrā-saṃpratipattau syāt āpti-sāmānyaṃ eva ca // Kh.1.19 //
+
+[釋論]
+
+viśvasya akāra-mātratvaṃ yadā vivakṣyate — tadā āditva-sāmānyaṃ ukta-nyāyena utkaṭam udbhṛtaṃ dṛśyate ity arthaḥ。
+
+ātma-vivakṣāyām ity asya vyākhyānaṃ mātrā-saṃpratipattāv iti — viśvasya akāra-mātratvaṃ yadā saṃpratipadyate ity arthaḥ。
+
+āpti-sāmānyaṃ eva ca — utka
+
+=== 1 | Kārikā 1.20 ===
+
+Taijasa（光明者）之ātma-vijñāna（自知），其優越性明顯可見；在mātrā（音節／量）之證得中，將有此種雙重之性。
+
+bhāṣya：Taijasa之ātma-vijñāna，為說明其優越性之故，明顯可見——sphuṭa即清楚之意。雙重性亦明顯如此。其餘如前所述。
+
+=== 2 | Kārikā 1.21 ===
+
+Prājña（智慧者）於makāra之性中，其超出manas之他者而優越；在mātrā之證得中，唯有laya（融入）與sāmānya（共通性）而已。
+
+bhāṣya：Prājña於makāra之性中，與mṛti之laya相關而優越——sāmānya即此意。
+
+=== 3 | Kārikā 1.22 ===
+
+於三dhāma（住處）中，凡tulya之sāmānya能確定知者，彼為一切bhūta所pūjya（敬重），亦為所vandya（禮拜）之mahāmuni（大牟尼）。
+
+bhāṣya：如前所述之三住處中，凡tulya之sāmānya能知者，彼確定如是：於brahmavit觀中，彼為所敬重、所禮拜者。
+
+=== 4 | Kārikā 1.23 ===
+
+依前所說之sāmānya，將ātma-pāda與mātrā合一，成就所述之oṃkāra，如是dhāyayati者：
+
+A-kāra引導viśva（遍入者），U-kāra亦引導taijasa，M-kāra又引導prājña；於nāmātre（無量），gati（去處）無從知曉。
+
+bhāṣya：A-kāra引導viśva，使其抵達。以a-kāra為ālambana之oṃkāra，智者成為vaiśvānara（遍入者／宇宙人），此即其義。如是，u-kāra亦對待taijasa；m-kāra又對待prājña。又，nayate一詞沿用自前句śabda；當m-kāra滅盡，bīja-bhāva（種子之性）亦消，故於amātra之oṃkāra中，gati無從知曉於任何處。
+
+=== 5 | Kārikā 1.24 ===
+
+依前所述，此等śloka為：
+
+應依pāda（位）知oṃkāra，pāda即mātrā，毫無疑問。依pāda知oṃkāra後，不應思惟任何。
+
+bhāṣya：依前所說之sāmānya，pāda即mātrā，mātrā即pāda，故oṃkāra應依pāda而vidyāt，此即其義。如是，oṃkāra證知後，dṛṣṭārtha或adṛṣṭārtha之任何prayojana，既已kṛtārtha（成就），不應cintayet，此即其義。
+
+=== 6 | Kārikā 1.25 ===
+
+依前所述，此等śloka為：
+
+yuñjīta（繫念）於praṇava（唵／原聲）之心；praṇava為nirbhaya（無畏）之brahma（梵）。nitya-yukta（常相應）於praṇava者，bhaya（畏）於任何處皆不可得。
+
+bhāṣya：Yuñjīta即samādadhyāt（安置禪定）。如前所述，於paramārtha-rūpa之praṇava中，yuñjīta其cetas（心）。由於praṇavo為nirbhaya之brahma……（bhāṣya此處原文未完）
+
+=== 7 | Mandukya Mantra 12 ===
+
+Amātra（無量）為caturtha（第四位），avyavahārya（離言詮），prapañcopaśama（戲論寂滅），śiva（吉祥），advaita（不二）。如是，oṃkāra即ātman（自我）本身。Saṃviśati以ātman入ātman者，凡如此veda（知）者。
+
+bhāṣya：Amātra者，無mātrā者為amātra。Oṃkāra為caturtha（turīya，第四位），即ātma kevala（純粹自我）。由於abhidhāna-abhidheya-rūpayoḥ avāṅ-manasa-gocaratva kṣīṇatvāt（能詮所詮之相之語意心智境界已滅），故avyavahārya。Prapañca之upaśama（寂滅），śiva，advaita——samvṛtta正是如此。
+
+如前所述，由vijñānavat（具智者）所運用之oṃkāra，為tri-mātra（三量），tri-pāda（三位），即ātman本身。Saṃviśati以ātman（svenaiva）入。凡如此veda者，入於其sva（自身），即pāramārthika（勝義）之ātman。
+
+Paramārtha-darśī（勝義見者），brahmavit（知梵者），已焚燒bīja-bhāva（種子之性）之tṛtīya（第三位），入於ātman。由於turīya之abījatvāt（無種子性），故na punaḥ jāyate（不再受生）。正如rajju-sarpa（繩蛇）之viveke（分辨），praviṣṭa之sarpa（蛇），不會因buddhisaṃskāta（概念薰習）再pūrvavat（如前）——同樣，vivekin（具分辨者）亦不會utthāsyati（再起）。
+
+Madhyama-madhya（中中）之sādhaka-bhāva（修習者之性），san-mārga-gāmin（行正道者）之saṃnyāsin（遊行者），mātrā-pāda之kḷpta-sāmānya-vid（施設共通性者），如理所upāsyamāna之oṃkāra，為brahma-pratipatti之ālambana。如經所云「āśramās trividhāḥ（住處有三種）」等。
+
+=== 1.26 | 第二十六頌 ===
 
 praṇavo hy aparaṃ brahma praṇavaś ca paraḥ smṛtaḥ /
 apūrvo 'nantaro 'bāhyo 'naparaḥ praṇavo 'vyayaḥ //
 
-om（唵）確實是較低的 Brahman，om 也被認為是最高的。
-無先的、無內的、無外的、無後的，om（唵）是無變易的。
+praṇava（唵）確實是 apara（較低）之 Brahman（梵），praṇava 亦被視為 para（最高）；
+apūrva（無前）、anantara（無內）、abāhya（無外）、anapara（無後）之 praṇava 為 avyaya（無衰）。
 
-註：本頌出自蛙氏奧義書釋論（Kārikā）所引述的 Taittirīya 經典。「較低的」與「最高的」之區別詳見註釋。
+【釋】
+para（最高）與 apara（較低）之梵皆為 praṇava。於究竟實相中，四 mātrā（音段）止息時，唯有最高之 ātman（我）即是 Brahman；其前無因，故為「無前」。其內部無異類，故為「無內」。外無他物，故為「無外」。其後無果，故為「無後」。既無外亦無內之不生者，如鹽塊般，意即智慧凝實（prajñānaghana）。
 
----
-
-=== 1.27 | 第 27 頌 ===
+=== 1.27 | 第二十七頌 ===
 
 sarvasya praṇavo hy ādir madhyam antas tathaiva ca /
 evaṃ hi praṇavaṃ jñātvā vyaśnute tad anantaram //
 
-一切之始、中、終，皆為 om（唵）。
-如此知 om（唵）者，立即證得彼（ātman）。
+praṇava 確實是一切之初始、中段與結尾；
+如是知 praṇava 者，便立即證得彼。
 
----
+【釋】
+一切之初始、中段、結尾——生起、安住、壞滅，皆然。對於生起之虛空等種種顯現，猶如 māyā（幻術）、hasti（戲法）、繩上之蛇（rajju-sarpa）、mṛga-tṛṣṇikā（陽焰）、夢境等之種種幻相；如是知 praṇava 為 ātman——其位猶如幻相等者——便於剎那間證得彼 ātman 之狀態，此其義。
 
-=== 1.28 | 第 28 頌 ===
+=== 1.28 | 第二十八頌 ===
 
 praṇavaṃ hīśvaraṃ vidyāt sarvasya hṛdi saṃsthitam /
 sarvavyāpinam oṃkāraṃ matvā dhīro na śocati //
 
-應知 om（唵）是 īśvara（自在主），安住於一切之心。
-了知 om（唵）為遍一切者，智者不悲。
+當知 praṇava 為 īśvara（自在天），安住於一切之心；
+智者思惟 oṃkāra（唵字）遍於一切，便不哀慼。
 
----
+【釋】
+於一切眾生心中——以心為記憶之所依——當知安住之 īśvara 為 praṇava；以 oṃkāra 為遍滿一切、如虛空般之無流轉 ātman；智者、慧者作此思惟，便不哀慼，由其不陷於哀慼之因故。又「知 ātman 者度越哀慼」等經文可證。
 
-=== 1.29 | 第 29 頌 ===
+=== 1.29 | 第二十九頌 ===
 
 amātro 'nantamātraś ca dvaitasyopaśamaḥ śivaḥ /
 oṃkāro vidito yena sa munir netāro janaḥ //
 
-無「量」者、無盡之「量」者、二元止息之吉祥者（śiva），
-了知 om（唵）如是者為 muni（牟尼），其餘非是。
+oṃkāra 為 amātra（不可測量）、anantamātra（無量可測）、dvaitasya（二元之）upaśamaḥ（止息）、śivaḥ（吉祥）；
+了知 oṃkāra 如是者為 muni（牟尼），餘人則非。
 
----
+【釋】
+第四位（turīya）oṃkāra 為 amātra（不可測量）。「由此被量」故 mātrā 為限量之義；其 mātrā 無盡，故為 anantamātra（無量可測）。意即：此者不能以此量度盡。由令一切二元止息故，即是 śiva。如前所釋，了知 oṃkāra 者，由思惟究竟真實之義故，即是 muni；意即：即便博學經論者，亦非餘人。
 
-=== 2.1 | 第 1 頌（虛妄品）===
+=== Vaitathyaprakaraṇa | 虛妄品 ===
+
+=== 2.1 | 第一頌 ===
 
 vaitathyaṃ sarvabhāvānāṃ svapna āhur manīṣiṇaḥ /
 antaḥsthānāt tu bhāvānāṃ saṃvṛtatvena hetunā //
 
-智者說：夢中所見一切事物皆虛妄，
-因事物住於內，以其封閉為因故。
+智者說：一切存在猶如夢境，皆是 vaitathya（虛妄）；
+然以諸法安住於內、以被覆藏為因故。
+
+【釋】
+「vitathasya bhāvaḥ」即 vaitathya，意即「不實」。何者之不實？夢中所覺知之一切外在與內在存在、事物，善巧量之智者說。以諸法「安住於內」——其住處於身體內部——為虛妄之因。於彼中——而非身體之外——山、大象等存在被覺知，故彼等應為虛妄。然於身內亦覺知壺等，恐此因不決定性，故為除此慮言「以被覆藏為因」，意即：由於安住於內、被覆藏之處。於被覆藏之體內脈道中，山、大象等之生起實不可能；於體內實無山故。
+
+=== 15 | 第二章・第七節 ===
+
+因為夢中所見事物的實用性也被否定了。
+
+因此，夢中所見的飲食等事物所呈現的實用性，在夢中便與清醒時相反。事實上，在清醒狀態中，吃了食物、喝了飲料之後，饑渴等便會止息；[而在夢中，這種情形並不成立。]
+
+=== 16 | 蛙氏奧義書 2.8 ===
+
+有人說：「由於夢與清醒的差別相等，所以清醒狀態中的差別並不存在。」這說法不對。
+
+為什麼？
+
+因為例證並不成立。
+
+怎麼說？
+
+清醒時所見的這些差別，並不會在夢中被看見。
+
+那麼夢中看見的是什麼？
+
+他在夢中看見前所未有的事物：認為自己騎在一頭四牙的大象上，並且認為自己具有八隻手臂。
+
+他在夢中也看見其他類似的前所未有之事。
+
+那就不能把它與另一個不存在的事物相提並論；它確實存在。
+
+因此，這個例證並不成立。
+
+所以，說清醒狀態如夢一般不存在，是不恰當的。
+
+不，並不是如此。你所認為夢中看見的前所未有之物，並不是自行成立的。
+
+那麼是什麼？
+
+前所未有的事物，其實是居所者的性質；正如天界居住者的情形。
+
+這個人前往那裡，如同在此處受過良好訓練的人一般，看見那些事物。
+
+前所未有的事物，其實是居所者的性質；它確實是居住者、也就是觀看者以及具有夢中居所者的性質。
+
+正如天界居住者 Indra 等人具有千眼等特徵，同樣地，夢之觀看者也有這種前所未有的性質。
+
+這種性質並不是觀看者自身成立的，就像觀看者的本性那樣。
+
+這個居住者、夢之觀看者前往夢中的居所，看見那些具有這類形式的、由自身心識分別所構想的前所未有之物。
+
+正如在此世間，一個受過良好訓練的人前往另一個地方，沿著通往異地的道路，看見那裡的各種事物；情形也是如此。
+
+因此，正如繩蛇、陽焰等居住者之性質並不存在，同樣地，夢中所見那些前所未有之物，正因為只是居住者的性質，所以也不存在。由此，夢中例證並非不成立。
 
 ---
 
-=== 2.2 | 第 2 頌 ===
+=== 17 | 蛙氏奧義書 2.9 ===
 
-svapnadṛśyānāṃ bhāvānāmantaḥ saṃvṛtasthānamityetad asiddham, yasmāt prācyeṣu supta udakṣu svapnān paśyann iva dṛśyata ityetad āśaṅkyāha
+關於夢中所見之物可能是前所未有的疑慮已被排除。現在，他闡明清醒狀態中的差別與夢相似，說道：
 
-有人質疑：夢中所見事物住於內封閉處之說不成，因為東方之人據說於熟睡中見夢如見（醒時事物）。為回此疑，（頌 2.2 起答：）
+即使在夢的活動中，內在由心識所構想的，是不存在的；
 
-adīrghatvāc ca kālasya gatvā deśān na paśyati /
-pratibuddhaś ca vai saṃskārān na gṛhṇāti viśeṣataḥ //
+外在由心識所攝取的，被看見為存在的；這兩者都不真實。
 
-因時間不長，雖至諸方而不見；
-及至醒覺，不執取諸行相之差別。
+在夢的活動中，即在夢的居所中，內在由心識所構想的、由心願與意念所構成的，是不存在的，因為它在構想之後立即便不可見。
+
+然而在同一個夢中，外在由心識所攝取的、透過眼等感官之門被認知的陶器等物，則是存在的。
+
+即使已確定「這才是真實」，仍然看見存在與不存在的區分。
+
+可是，對於這兩者——無論是內在或外在、由心識所構想的——都看見它們是不真實的。
 
 ---
 
-**本章說明**：1.26–1.29 為蛙氏奧義書釋論首品（āgama-prakaraṇa，正量品）末四頌，主旨為 om（唵）之究竟義；2.1 起進入虛妄品（vaitathya-prakaraṇa），以夢喻破斥外在事物的實在性。完整註釋、術語對照、與其他 Upaniṣad 的交叉比對見 `02-annotation.md`。
+=== 18 | 蛙氏奧義書 2.10 ===
 
-=== 2.2 | MandUpK ===
+即使在清醒的活動中，內在由心識所構想的，是不存在的；
 
-在那個地方並不存在。
+外在由心識所攝取的，被看見為存在的；恰當地說，這兩者都不真實。
 
-=== 2.2 | MandUpKC ===
+存在與不存在兩者的不真實是恰當的，因為它們同樣都是由內在與外在的心識所構想的。這一點已經解釋過了，其他方面也是如此。
 
-見夢者並不是離開身體、前往外界的另一處而看見夢境。
+---
 
-因為人一入睡，便似乎在距離身體所在之處百由旬、須一個月才能抵達的地方看見夢境。然而，並沒有足夠長的時間前往該地並返回。因此，由於時間短促，見夢者並未前往別處。
+=== 19 | 蛙氏奧義書 2.11 ===
 
-此外，每一位見夢者醒來之後，都不在他看見夢境的地方。如果他在夢中前往別處，就應當在看見夢境的地方醒來；但事實並非如此。
+提問者說：
 
-人在夜間入睡，卻看見如同白晝中的事物，並與許多人相遇；他所遇見的人理應能抓住他。然而，他並未被抓住。若曾被抓住，那些人便會說：「我們今日曾在那裡見到你。」但事實並非如此。因此，人在夢中並未前往別處。
+如果兩種居所中的差別都同樣不真實，
 
-=== 2.3 | MandUpK ===
+那麼是誰認知這些差別？
 
-由此亦可知，夢中所見諸事皆為虛妄，因為：
+又究竟是誰構想了它們？
 
-經中依循推理，宣說車乘等並不存在；
-由此確立其虛妄，
-知者說，這已在夢中顯明。
+如果夢與清醒兩種居所中的差別都不真實，那麼，是誰認知這些由內在與外在心識所構想的差別？
 
-=== 2.3 | MandUpKC ===
+又究竟是誰構想了它們？
 
-經中的確依循推理，宣說夢中所見的車乘等並不存在；如 śruti（天啟聖典）所說：「彼處無車。」（《廣林奧義書》4.3.10）
+這意思是問：記憶與認知以什麼為依據？否則，便會主張無我論。
 
-由於夢中諸事位於身體內部、受其封閉等理由，其虛妄得以確立。Brahman（梵）的知者說，以闡明夢中自明性為宗旨的 śruti，重述此事而使其顯明。
+---
 
-=== 2.4 | MandUpK ===
+=== 20 | 蛙氏奧義書 2.12 ===
 
-因此，醒時的諸差別亦被認定為虛妄；
-彼處如何，夢中亦然，
-二者唯因夢境位於內部、受所封閉而有所差別。
+神聖的 Ātman（自我）以自身作為自我，憑藉自身的幻力構想自身。
 
-=== 2.4 | MandUpKC ===
+正是祂認知這些差別；這是吠檀多的定論。
 
-「醒時所見諸事皆為虛妄」，這是命題。
+神聖的 Ātman（自我）憑藉自身的幻力，在自身之中構想出即將說明的差別形態，就像在繩子等物上自行構想蛇等物一樣；祂自己也正是如此認知那些差別。
 
-「因其可被看見」，這是理由。
+這就是吠檀多的定論：並不存在另一個作為認知與記憶依據的事物，也不存在無我論。
 
-「如同夢中所見諸事」，這是例證。
+=== 12 | MandUpK 2.12（續） ===
 
-夢中所見諸事如何是虛妄，醒時所見亦然；因為兩者同樣可被看見。這是理由的套用。
+其意旨是：知與憶便如剎那滅論者所說，僅止於當下。
 
-因此，醒時所見亦為虛妄。這是結論。
+=== 13 | MandUpK 2.13 ===
 
-夢中所見諸事位於內部並受所封閉，這一點使它們有別於醒時所見；但兩者在可被看見與不真實這兩方面並無差別。
+現在說明：祂以何種方式構想。
 
-=== 2.5 | MandUpK ===
+祂使安住於內心的其他諸存在變化，
+並在心向外時構想固定的諸存在；
+主宰就是這樣構想。
 
-有慧者說，夢境與醒境本為同一；
-因為諸差別具有同等性，
-這正是眾所周知的理由。
+「使之變化」，就是使其他世間存在成為多樣。聲等對象及其他諸存在，以潛勢的形式安住於內心，尚未分化；祂使它們成為多樣。心向外時，祂構想地等有定形者；心向內時，祂構想願想等於構想之時尚無定形者。如此構想的主宰，就是 Īśvara（自在主）、Ātman（自性）；這就是句義。
 
-=== 2.5 | MandUpKC ===
+=== 14 | MandUpK 2.14 ===
 
-諸差別同樣具有 grāhya（所取）與 grāhaka（能取）的關係；明辨者依此眾所周知的理由，宣說夢境與醒境為一。這只是先前證明所確立的結果。
+有人懷疑：一切都如夢境，是心所構想的。然而，外在諸物與心所構想、以願想等為特徵的事物有所不同：後者只由心限定，外在諸物則彼此限定。
 
-=== 2.6 | MandUpK ===
+這項疑問並不成立。
 
-再者，醒時所見的諸差別亦為虛妄，因為它們在起始與終結時皆不存在：
+內在諸物只存在於心的時段，
+外在諸物則存在於雙重時段；
+它們全都是構想，
+差別並非由其他原因造成。
 
-凡在起始與終結時不存在者，
-在當下亦同樣不存在；
-它們雖與虛妄之物相似，
-卻被看作彷彿並非虛妄。
+內在諸物只由心限定；除了心的時段外，沒有其他時間限定它們，因此稱為「心的時段」。其意是：它們只在構想之時被知覺。
 
-=== 2.6 | MandUpKC ===
+「雙重時段」是差別事物的時段；它們彼此限定。例如：「他坐著擠牛奶。」他坐多久，就擠牛奶多久；他擠牛奶多久，就坐多久。「此者有如此之長，彼者有如彼之長。」外在諸差別事物如此互為被限定者與限定者，因此具有雙重時段。
 
-世間可以確定：海市蜃樓等事物既在起始與終結時不存在，在中間也不存在。醒時所見的這些差別同樣如此。
+內在諸物具有心的時段，外在諸物具有雙重時段；它們全都是構想。外在諸物具有雙重時段的差別，除其構想性之外，並無其他原因。夢的譬喻在這裡仍然成立。
 
-它們在起始與終結時皆不存在，又與海市蜃樓等虛妄之物相似，因此本來就是虛妄。然而，愚昧而不知 Ātman（自我）的人，仍將它們看作彷彿並非虛妄。
+=== 15 | MandUpK 2.15 ===
 
-=== 2.7 | MandUpK ===
+內在諸物確實不明顯，
+外在諸物則確實清楚；
+它們全都是構想，
+差別只在感官不同。
 
-有人說：「你所說『醒時所見亦如夢中所見般不實』並不合理。因為醒時所見的食物、飲料、車乘等，能消除飢餓與口渴，也能實現往來等作用，可見它們具有效用；夢中所見則沒有這些作用。因此，說醒時所見如夢中所見般不實，只是心中的妄想。」
+內在諸存在僅由心中的潛勢顯現，因而不明顯；外在諸存在則在眼等感官中清楚顯現。這項差別並非由諸事物實有而造成，因為在夢中也能見到同樣情況。
 
-並非如此。
+那麼，差別由何造成？只由感官的不同造成。
 
-為什麼？因為：
+因此可以確定：醒時諸存在也如夢中諸存在，都是構想。
 
-它們的實用性在夢中受到否定；
-因此，正因它們有始有終，
-它們確實被認定為虛假。
+=== 16 | MandUpK 2.16 ===
 
-=== 2.7 | MandUpKC ===
+現在說明：外在與內在諸存在被構想為彼此之因與彼此之果，其根本是什麼。
 
-食物、飲料等所顯現的實用性，在夢中受到否定。因為在醒時吃過、喝過
+祂先構想 jīva（個體我），
+然後構想種種不同的存在：
+外在者與內在者；
+知如何，憶亦如何。
 
-瓶等為真實。
-如是雖決定為真實，亦已觀見真與假之別。
-內心、外心二者所施設者，皆被觀見為虛妄。
+純淨的 Ātman 本無「我行動，苦樂屬於我」這類特徵，祂卻先在其上構想具有因果形態、以此為特徵的 jīva，正如在繩索上構想出蛇。
 
-【第十頌（2.10）】
+然後，為了這個 jīva，祂依行動、行動者與結果的差別，構想 prāṇa（生命氣息）等種種外在與內在的存在。
 
-醒覺之運行中，內心所施設者亦為無實。
-外心所攝取者為真實；此二者之虛妄應理。
+現在說明：這項構想的原因是什麼。
 
-【第十頌（2.10）註釋】
+那個本身由構想而成、主導一切構想的 jīva，其知如何，便成為具有何種知者；其憶也與那種知相應，因此說「知如何，憶亦如何」。
 
-真與假之虛妄是合理的，以內心與外心施設之無差別故，如前所釋。
+由對所構想之因的認知，產生對果的認知；由此產生對因與果的記憶；再由記憶產生對它們的認知，並產生對相關行動、行動者及其結果之差別的認知。由這些認知又產生記憶，由記憶又再次產生那些認知。祂就這樣以彼此為因、彼此為果的方式，多方構想外在與內在諸存在。
 
-【第十一頌（2.11）】
+=== 17 | MandUpK 2.17 ===
 
-問者說：
-若夢、醒二處之差別皆虛妄，
-則誰了知此等差別？誰為彼等之施設者？
+前面已說，對 jīva 的構想是一切構想的根本。現在以譬喻說明：對 jīva 的構想又以什麼為因。
 
-【第十一頌（2.11）註釋】
+如繩索在黑暗中未被確定，
+便被構想為蛇、水流等存在；
+同樣，Ātman 也被作種種構想。
 
-若夢、醒二處之差別為虛妄，誰了知此等內心、外心所施設之差別？
-誰為彼等之施設者？
-其意是：記憶與智識以何為所緣？若然，則不取無我（nir-ātman）論。
+譬如世間的一條繩索，尚未依其本相被確定，尚未斷定「正是如此」，在昏暗之中……
 
-【第十二頌（2.12）】
+=== 18 | 蛙氏奧義書 ===
 
-ātman（我）、deva（神），以自身、以自之 māyā（幻），施設自我。
-正是他[我]了知差別；此乃 vedānta（吠檀多）之決定論。
+為何會被分別想像為蛇、水流、棍杖等多種形態？這是由於先前未確定其本質。因為若先前已確定繩子的本質，就不會有蛇等種種想像，正如在自己的手指等處一樣。這就是譬喻。
 
-【第十二頌（2.12）註釋】
+同樣，由於不能確定自性為遠離因、果等輪迴法的、清淨的、唯是識、具有不二性質的自身存在，於是自我被自身想像為具有生命、氣息等無窮多種存在差別。這就是一切奧義書的定論。
 
-deva（神）即自我本身，以自之 māyā（幻），於自我之中施設後當解說之差別相，如於繩上施設蛇等。
-彼自亦了知彼等差別，如是——此乃 vedānta（吠檀多）之決定論。
-無有其他智、憶之依止，亦無[斷]…
+在繩子被確定時，想像便消退：
 
-=== 13 | 第二品第十三頌 ===
+> 在繩子確定之時，想像便止息；  
+> 「唯是繩子」，並且是不二。  
+> 同樣，對自我的確定也是如此。
 
-【頌】
-以某種作意（saṅkalpa）而施設，故說為施設；
-施設種種差別之物，安住於內心之未顯者，
-及決定者於心外者，如是 prabhu（主）施設之。
+當確定「唯是繩子」時，一切想像便止息；如同那樣，透過宣說「不是這個，不是這個」，排除一切輪迴法的經典所生的智慧之日光，確定自我為「這一切確實就是自我」、「無前、無後、無內、無外」、「無生而有內外」、「不老、不死、不朽、無畏」、「唯一而不二」。
 
-【釋】
-「vikaroti」＝種種造作，「aparān」＝世間之物、所緣（聲等）及其餘，安住於內心之中、以 vāsanā（習氣）之相、現為 avyakṛta（未顯）者；及決定者（地等）與不決定者，皆於施設之時，於心外安住、於內心 manoratha（心想）等之相；如是施設，prabhu 即 īśvara（自在天）、ātman（自我）之義。
+=== 19 | 蛙氏奧義書 ===
 
-=== 14 | 第二品第十四頌 ===
+如果確定自我唯一存在，那麼，為何又被這些以氣息等無窮存在、以輪迴為特徵的事物所想像？聽著：
 
-【頌】
-「一切皆如夢，乃 citta（心）之施設」——此疑生焉：
-以心所施設之心想等相，由心所 pariccheda（區別）；
-而外物則由相互區別故。
+> 它被氣息等無窮存在所想像；  
+> 這是那位神聖者的幻象，  
+> 眾生自身便由它而迷惑。
 
-此疑非理：
-心之時分住於內者、相互之時分於外者，
-凡此皆是施設；其差別者，無別之因。
+這是那個自我、那位神聖者的幻象。
 
-【釋】
-「cittakālā」即住於內者，乃心所區別；除心之時分外，無別之區別者為彼等之時分——施設之時即顯故。
-「dvayakālā」即相互區別之時分。如人坐而擠乳，坐時即擠乳，擠乳時即坐；「如是」、「如彼」，此乃外物之相互區別、即相互區別與被區別之性。
-凡此內心之時分與心外之雙時，皆施設；施設之外無別之因令外物之雙時有別。此處亦以 svapna（夢）為喻。
+正如施幻術者所施的幻象，把極為清澈的天空變得彷彿布滿開花且帶有葉片的樹木；同樣，這位神聖者的幻象，使這個自身彷彿被迷惑一般而迷惑。正如《薄伽梵歌》所說：「我的幻象難以超越。」
 
-=== 15 | 第二品第十五頌 ===
+=== 20–28 | 蛙氏奧義書 ===
 
-【頌】
-住於內者未顯，住於外者 sphuṭa（分明），
-凡此皆是施設；其差別者，唯由 indriya（根）之中間。
+知曉氣息的人說是氣息；知曉元素的人說是元素；知曉 गुण的人說是 गुण；知曉原理的人說是原理。
 
-【釋】
-內心未顯者，乃僅以心之習氣顯現之諸物；外之分明者，乃由眼等根之中間。
-此差別非由實體而成——夢中亦如是見故。
-然則何耶？唯由根之中間所成。
-故覺位之諸有亦如夢位之諸有，皆施設也——此義成。
+知曉足的人說是足；知曉對象的人說是對象；知曉世界的人說是世界；知曉神祇的人說是神祇。
 
-=== 16 | 第二品第十六頌 ===
+知曉吠陀的人說是吠陀；知曉祭祀的人說是祭祀；知曉享受者的人說是享受者；知曉被享受者的人說是被享受者。
 
-【頌】
-jīva（個我）施設於先，語、種種差別之物，
-外者與內者；如其 avidyā（無明），如其 smṛti（念）。
+知曉微細者的人說是微細；知曉粗大者的人說是粗大；知曉有形者的人說是有形；知曉無形者的人說是無形。
 
-【釋】
-jīva 乃「我作、我之苦樂」如是相之因與果之自我，此非如是相之純粹自我者，乃於純粹自我之中施設如繩上之蛇。
-爾後，彼對象故，以 kriyā（作）、kāraka（作者）、phala（果）之差別，施設種種 prāṇa（息）等之物，外者與內者。
-此施設之中，誰為因耶？曰：彼自施設之 jīva，立為一切施設之因，即「yathāvidya」——「此識為何種」之 vidyā（識）即何種，故如其 avidyā 而 smṛti 亦如其，是為「tathāsmṛti」。
-故由施設因之識，生果之識；由是因與果之念；由是彼之識、其對象之 kriyā、kāraka、phala 差別之識；由是彼等之念；由是念復生彼之識。如是，外者與內者，以互為因、互為果之相，施設為種種。
+知曉時間的人說是時間；知曉方向的人說是方向；知曉論辯的人說是論辯；知曉諸世界的人說是諸世界。
 
-=== 17 | 第二品第十七頌 ===
+知曉心的人說是心；知曉智力的人說是智力；知曉心識的人說是心識；知曉法與非法的人說是法與非法。
 
-【頌】
-不決定之繩，於闇中施設為種種之物，
-如蛇之連續等；ātman（自我）亦如是施設。
+有些人說是二十五者，另一些人說是二十六者；有人說是三十一者，另一些人說是無限者。
 
-【釋】
-如世間之繩，自相不決定、未安立，如是而已……
+知曉世界的人說是諸世界；知曉修行階段的人說是修行階段；具性別特徵者說是女性、男性與中性；另一些人說是較高者與較低者。
 
-=== 18 | 蛙氏奧義書頌 2.17 釋論 ===
+知曉創造的人說是創造；知曉融解的人說是融解；知曉存續的人說是存續；然而在此，一切時候都是一切。
 
-「是否為蛇、水流、棍棒」如是種種分別所成，若先前未確定自性，是其因。若先前已以自性確定繩，則不會有蛇等虛妄分別生起，如自己手與指等之例。此即此譬喻。
+氣息是有識者，是種子自性；其餘是它的作用差別，直到終止為止。其他一切世俗的、由一切眾生所想像的差別，如同繩子上的蛇等一樣，都是由於無明、由於不能確定自我本質的原因，而被想像在無此等差別的自我之中。這就是將意義概括起來的內容。
 
-同理，由於因與果等輪迴法與義相異故，以自性清淨唯識之不二相未確定故，由我與命等無量有之差別而虛妄分別自我，此即一切奧義書之結論。
+由於逐一解釋氣息等偈頌的詞義用途微小，而且詞義本已確定，因此沒有加以說明。
 
-=== 19 | 蛙氏奧義書頌 2.18 ===
+=== 29 | 蛙氏奧義書 ===
 
-如繩已確定，虛妄分別便止息；
-「只是繩」即是不二，自我決定亦如是。
+何必多說？
 
-=== 20 | 蛙氏奧義書頌 2.18 釋論 ===
-
-確定「只是繩」時，一切分別止息。「只是繩」即是不二，如是。如「非如此非如此」（廣林奧義 4.4.22）所說，此是離一切輪迴法之教示經教所生智慧日光所作之自我決定。
-
-「此自我即是這一切」（唱贊奧義 7.25.2），「無前無後無內無外」（廣林奧義 2.5.19），「無內外者即無生者」（髮頂奧義 2.1.2），「不老、不死、不朽、無畏」（廣林奧義 4.4.25），「唯一不二」。
-
-=== 21 | 蛙氏奧義書頌 2.19 ===
-
-若已決定「自我唯一」，為何由命等無量輪迴相之存在者所分別？如是說：聽。
-
-由此等無量命等之存在者所分別；
-此是彼天之幻，由其自迷惑。
-
-=== 22 | 蛙氏奧義書頌 2.19 釋論 ===
-
-此是彼自我即天之幻。如幻術師所造之幻術，令極清淨之虛空宛如遍滿開花帶葉之樹，如是此亦是天之幻，由此此亦自迷惑宛如被迷惑。
-
-「我的幻術難度越」（薄伽梵歌 7.14）如是說。
-
-=== 23 | 蛙氏奧義書頌 2.20 ===
-
-知命者說為「命」，知元素者說為「元素」；
-知德者說為「德」，知真實者說為「真實」。
-
-=== 24 | 蛙氏奧義書頌 2.21 ===
-
-知位階者說為「位階」，知對境者說為「對境」；
-知世界者說為「世界」，知天者說為「天」。
-
-=== 25 | 蛙氏奧義書頌 2.22 ===
-
-知吠陀者說為「吠陀」，知祭祀者說為「祭祀」；
-知享受者說為「享受者」，知所享者說為「所享」。
-
-=== 26 | 蛙氏奧義書頌 2.23 ===
-
-知微細者說為「微細」，知粗顯者說為「粗顯」；
-知有形者說為「有形」，知無形者說為「無形」。
-
-=== 27 | 蛙氏奧義書頌 2.24 ===
-
-知時間者說為「時間」，知方位者說為「方位」；
-知言說者說為「言說」，知世間者說為「世間」。
-
-=== 28 | 蛙氏奧義書頌 2.25 ===
-
-知心者說為「心」，知慧者說為「慧」；
-知質多者說為「質多」，知法與非法者說為「法與非法」。
-
-=== 29 | 蛙氏奧義書頌 2.26 ===
-
-有些人說為「二十五」，另有些人說為「二十六」，
-有些人說為「三十一」，另有些人說為「無量」。
-
-=== 30 | 蛙氏奧義書頌 2.27 ===
-
-知世界者說為「諸世界」，知住期者說為「住期」；
-知性相者說為「女、男、半陰陽」，另有些人說為「至極」。
-
-=== 31 | 蛙氏奧義書頌 2.28 ===
-
-知生起者說為「生起」，知壞滅者說為「壞滅」；
-知住持者說為「住持」，此處一切常時皆然。
-
-=== 32 | 蛙氏奧義書頌 2.20-2.28 釋論 ===
-
-命是有慧之種子我；其果之差別等為他者至於住立之終。餘一切世俗、為一切眾生所分別之差別，如繩上蛇等。此等空於自我之自性決定故由無明所分別。是故攝為一頌：
-
-「於命等偈逐句釋義無實義故，已成立義故，不作努力。」
-
-=== 33 | 蛙氏奧義書頌 2.29 ===
-
-誰顯示某存在者予某人，彼人唯見彼存在者；
-成為彼即護助彼，彼執取即證得彼。
-
-=== 34 | 蛙氏奧義書頌 2.29 釋論 ===
-
-於命等無量已說或未說，顯示其他存在者之義，若某人師或其他人得此即此真實者，彼彼存在者……
-
-=== 29 | 第二章第二十九頌釋文（續） ===
-
-他將其視為與自身合一，認為「這是我」或「這是我的」。
-
-而那一被顯示的觀念，護持著見者；它與見者合一，守護著他。它以自身從四方封閉他。於是，他對它產生執取，也就是對它的固執。他認定「唯有這才是真實」；這一執取遂掌握了執取者，取得與他自身同一的狀態。此即其義。
+> 他所顯示給某人的是何種存在，  
+> 那人便看見那種存在；  
+> 他成為那種存在並守護它，  
+> 對那種存在的執著便接近他。
 
 === 30 | 第二章第三十頌 ===
 
-此一 ātman（自我），藉著這些與它不異的諸狀態，
-卻被標示為彼此分離。
-誰如實知見此理，
-誰便能毫無疑惑地作出分別。
+藉此與我非異之種種相，被計為種種之顯現；
+真實如是知此者，應如是宣說，彼無疑惑。
 
-這些 prāṇa（生命氣息）等，與 ātman 並非分離；它們是不異於它的狀態，如同在繩上想像出的蛇等形象。然而，愚者卻認定並確信這一 ātman 與它們彼此分離。此即其義。
+【釋】
 
-但對有辨別力者而言，正如蛇等只是想像於繩上，prāṇa 等也不在 ātman 之外另有存在。此處所指，正如天啟經典所說：「這一切，就是此 ātman。」（《廣林奧義書》2.4.6、4.5.7）
-
-同樣，誰依據 śruti（天啟經典）與推理，如實知道一切被想像於 ātman 之上的事物，如繩上的蛇一般，離開 ātman 便不存在；又知道 ātman 獨一而無分別，他便能毫無疑惑地分辨吠陀的義理：「此句具有這一至高旨趣，彼句則具有另一至高旨趣。」也就是說，他能如此作出分別。
-
-不知內在 ātman 者，確實不可能如實理解吠陀。正如《摩奴法典》所言：
-
-「不知內在 ātman 者，
-無人能享受行為之果。」（6.82）
+藉 prāṇa（息）等與 ātman（我）非異之種種相，
+此 ātman（我）如繩被妄計為蛇等之差別，
+被愚者確定為有種種差別。
+然對揀擇者而言，
+蛇等之計度乃虛妄、非離繩別有，
+prāṇa（息）等亦非離 ātman（我）別有——
+此乃要旨。
+「此一切即是此 ātman（我）」（br̥.u.2.4.6, 4.5.7）等聖教故。
+真實依聖教與正理而如是知者，
+不疑於吠陀之意，應當分別而說。
 
 === 31 | 第二章第三十一頌 ===
 
-以上依推理所說的二元不實，也可由 Vedānta（吠檀多）的權威得知。故說：
+如夢中、如 māyā（幻）中，所見之相，
+如 Gandharva（乾闥婆）之城，所見之相，
+此一切世間亦如是見，
+於 vedānta（吠檀多）中，由智者所見。
 
-如夢境與 māyā（幻力）中所見，
-如 Gandharva（乾闥婆）之城；
-智者在吠檀多中所見的
-這一宇宙，也是如此。
+【釋】
 
-夢境與 māyā，二者皆以不存在之物為本質，皆非真實；然而，無辨別力者卻認為它們彷彿具有真實事物的本質。
-
-又如乾闥婆之城，彷彿充滿陳列的貨物、商店、房舍、宮殿、男女、居民及城邑中的種種活動；它正在顯現之時，看來彷彿存在，卻又忽然歸於不存在。正如所見的夢境與 māyā 都是不實的形態，這整個二元宇宙也同樣被見為不實。
-
-這是在哪裡被見為不實？答曰：在吠檀多之中。
-
-「此處毫無任何多樣性。」（《羯陀奧義書》2.1.11；《廣林奧義書》4.4.19）
-
-「Indra（因陀羅）藉諸 māyā……」（《廣林奧義書》2.5.19）
-
-「起初，唯有 ātman 是這一切。」（《廣林奧義書》1.4.17）
-
-「起初，唯有 Brahman（梵）是這一切。」（《廣林奧義書》1.4.10）
-
-「恐懼確實由第二者而生。」（《廣林奧義書》1.4.2）
-
-「然而，並不存在它的第二者。」（《廣林奧義書》4.3.23）
-
-「在那裡，對他而言，一切皆已成為 ātman。」（《廣林奧義書》4.5.15）
-
-依據這些經文，善於辨別、精於洞見實相的智者，便如此理解。此即其義。
-
-正如 Vyāsa（毗耶娑）傳承所言：
-
-「所見如黑暗與深坑，
-又如雨中的水泡；
-它趨近毀滅，匱乏安樂，
-毀滅之後，歸於不存在。」
+夢與 māyā（幻）由無揀擇者見，
+被計為「無實之物似有實物之相」。
+如商人之店鋪貨架、屋舍、婦女、擁擠諸事似有，
+Gandharva（乾闥婆）之城乃可見而忽然歸於無。
+又夢中與 māyā（幻）中所見皆是無實之相，
+此 dvaita（二邊）之全體亦被見為無實。
+何處見？於 vedānta（吠檀多）中——
+「此中無有種種差別」（ka.u.2.1.11 等），
+「Indra 以 māyā（幻）」（br̥.u.2.5.19），
+「此初唯是 ātman」（br̥.u.1.4.17），
+「此初唯是 Brahman（梵）」（br̥.u.1.4.10），
+「由第二而生怖畏」（br̥.u.1.4.2），
+「其實無有第二」（br̥.u.4.3.23），
+「彼處一切即 ātman」（br̥.u.4.5.15），
+於此等處，由聰睿之智者所顯示。
+依 Vyāsa（廣博仙人）之憶持：
+「如黑暗、如天空、如氣泡所見之相，
+趨於滅盡，依於少樂，
+滅盡之上更無有。」
 
 === 32 | 第二章第三十二頌 ===
 
-此頌旨在總結本章的義理。
+此頌為攝歸此段之旨。
+當 dvaita（二邊）虛妄不實，ātman（我）究竟乃唯一，
+則此一切世俗之 vyavahāra（行事）與聖教之 vyavahāra（行事），
+皆為無明之所緣，而得究竟成立——
 
-當二元是不實的，而從究竟義而言，唯有獨一的 ātman 存在時，便可確立：世間與吠陀中的一切活動，都只屬於無明的領域。
+無有壞滅，無有生起，
+無有束縛，無有修行者，
+無有求解脫，無有解脫者——
+此乃究竟真理。
+
+【釋】
+
+壞滅即壞滅之事，壞滅乃寂滅；
+生起乃出生。
+束縛者乃流轉之我。
+修行者乃求涅槃者。
+求解脫乃欲解脫者。
+解脫者乃離束縛者。
+由生起與寂滅之不實有，
+束縛等不實有——此乃究竟真理。
+何以生起與寂滅不實有？以 dvaita（二邊）之不實有故。
+「凡見有二邊之處」（br̥.u.2.4.14），
+「凡不見種種之處」（ka.u.2.1.10, 11），
+「此一切即是 ātman」（chā.u.7.25.2），
+「此一切即是 Brahman」（nr̥siṃhottara.7），
+「唯一不二」（chā.u.6.2.1），
+「此一切即是此 ātman」（br̥.u.2.4.6, 4.5.7），
+此等種種聖教故。
+
+=== 20 | 二元之無實（繩蛇喻） ===
+
+二元（dvaita）之無實（asattva）已得成立（siddha）。蓋從「有」（sat）可有生起或壞滅，從「無」（asat）則無，如兔角（śaśaviṣāṇa）。不二（advaita）亦不生起、不壞滅。若言不二亦具生滅相，則自相矛盾（vipratiṣiddha）。然二元之世間施用（saṃvyavahāra），乃於自我（ātman）上如繩上蛇，以氣息（prāṇa）等相施設（kalpita），如是已說。
+
+非唯心之分別（manovikalpanā）——如繩上蛇等——於繩上有壞滅或生起；亦非於心中有繩上蛇之生起或壞滅，二者亦非。如是，二元之無實，從心之無別可知。非唯決定心中，於熟睡（suṣupta）中亦不執取二元。故知二元唯是心之分別。
+
+是故已說：「二元之無實故，斷（nirodha）等亦無，此乃究竟義（paramārtha）。」
+
+若如是，二元既無，於不二亦無相違，則教法（śāstra）有何作為？又若成立不二為實有（vastu），因無現量（pramāṇa），則墮空見（śūnyavāda）之過；又二元之無實故。
+
+答曰：「不也。繩蛇等分別無所依（nirāspada），不可立故。」——此已為汝之破斥而預答。
+
+「汝何以得活？」如是問。答：「繩亦為蛇分別之依（āspada），彼（繩）亦是施設。」——如是譬喻亦不可立。
+
+曰：「不也。分別滅時，不施設者（avikalpita）由不施設性故，自有（sattva）生。」若言「如繩上蛇之無實」？曰：「不也。完全不施設故，於不施設之繩分（rajjvaṃśa），如前已知無蛇。」能分別者之先於分別而生，已成立故，從彼得無實。
+
+然自性（svarūpa）中若無作用，教法如何能遣除二元之智？此無過（doṣa）。如繩上蛇等，二元乃於自我上由無明（avidyā）所加（adhyasta）。如何？
+
+「我快樂、我苦惱、我癡、我生、我死、我老、我有身、我見、我顯了（vyakta）、我隱密（avyakta）、我作者、我受果者、我相屬、我相離、我損、我長、此我所有」——如是等一切，皆於自我上所加。
+
+自我隨順此等，無處違越故。如蛇、杖等分位中之繩。如是，所別（viśeṣya）之自相智（svarūpapratyaya）已成立故，教法無所當作。無作作者之教法，若作隨順則無效。
+
+由無明所加之樂等別相障故，於自性中不安住；若於自性中安住則為最勝（śreyas）。故能遣除樂等之教法，以「非也、非也」（neti neti）、「非粗等」（asthūlādi）之句，於自我上作無樂等之智。
+
+如自我之自性，樂等於樂等分位中亦無隨轉（anuvṛtti）之法。若有隨轉，則非所加之樂等相之別相；如熱相別之火中而有冷。是故於自我中，樂等別相乃是施設，實無別（nirviśeṣa）。故此樂等之教法，為遣除自我之樂等別相而施設，已成立。
+
+「由能遣故（nivartakatvāt）已成立」——知經者之經（sūtra）。//32//
+
+— 起 MandUpK 2.33 —
+
+為前偈之義而說其因：
+
+由諸無實之有、由不二而施設；
+諸有亦唯由不二施設，是故不二性為吉祥。// MandUpK_2.33 //
+
+如於繩上，由無實之杖等差別（dhārādi），由不二之繩體（rajjudravya）實有，而施設「此蛇、此杖、此棒」等——如是，由無數之氣息等無實非有者，於究竟義中，於不動之心中，無任何「有」可由任何人顯示；自我亦無動轉；唯有動轉者所覺知之諸有，於究竟義中非實有，不可施設。是故由無實之氣息等非有之有，與究竟實有之不二自我——如繩為蛇等分別之依——此自我乃施設，彼雖自有常一之自性（sadaikasvabhāva）。
+
+彼等氣息等之有，亦由不二之實有自我施設。實無施設無所依而可覺知者故；是故一切施設之依
+
+=== 21 | 第二章第三十三至三十八頌 ===
+
+由於它自身是不二的，且不偏離自身，即使在想像的狀態中，不二性也是吉祥的。
+
+想像本身是不吉祥的，
+
+因為它們如同繩與蛇等，能造成恐怖等等。
+
+由於不二性能帶來無畏，它本身就是吉祥的。 //33//
+
+何以不二性是吉祥的？因為那裡看見由不同事物構成的多樣性，以及一物與另一物之間的分別，那裡便會有不吉祥。
+
+這個世界並不是以自身的本性而成為多樣，也不以自身的任何方式成為多樣。
+
+沒有任何事物既與另一物分離，也不與另一物分離；通曉真理者如此知曉。 //34//
+
+在這個不二、具有最高真實性的自性之中，這個由生命氣息等構成的輪迴世界，若以自性的最高真實本質加以考察，便不會成為由其他各種事物構成的多樣性。
+
+正如以繩子的本性和光明加以考察時，被想像出的蛇並不是多樣的事物，同樣地，
+
+這個世界也不以自身作為生命氣息等而存在，
+
+因為它始終只是如同繩上之蛇一般被想像出來。
+
+同樣地，各個生命氣息等事物彼此並不分離，如同馬與水牛確實彼此分離那樣。
+
+因此，通曉最高真實原理的婆羅門如此知曉：彼此之間或與其他事物之間，沒有任何事物既分離又不分離。
+
+因此，其意旨是：由於不存在造成不吉祥的原因，不二性本身就是吉祥。 //34//
+
+現在讚歎這種正確的見地：
+
+遠離貪愛、恐懼與瞋怒的牟尼，通達吠陀者，
+
+看見這個自性是無分別的、止息現象界的、不二的。 //35//
+
+那些永遠遠離貪愛、恐懼、憎恨、瞋怒等一切過失的人，那些喜於思惟、具有辨別力、通達吠陀、洞見吠陀真義的智者，專心於吠檀多真義者，已經看見並證得無分別、空無一切分別的自性。
+
+它是止息現象界者；現象界是二元差別的擴展，而其中沒有這種擴展，便稱為止息現象界的自性，因此它是不二的。
+
+其意旨是：只有沒有過失、專心於吠檀多真義的智者與出家者，才可能看見最高自性；其他人則不可能，尤其是那些心為貪愛等所污染、見解偏袒自身立場的論辯者等等。 //35//
+
+因為不二性具有止息一切不幸的本質，是吉祥而無畏的，
+
+所以如此知曉它之後，應當使記憶專注於不二之中。
+
+達到不二之後，應當如同木偶一般在世間行動。 //36//
+
+正因如此，如此知曉它之後，應當使記憶專注於不二。
+
+其意義是：應當為了證悟不二而修習記憶。
+
+證悟那不二者，知曉「我是最高 Brahman（梵）」，直接而無間接地知曉超越飢餓等事、無生的自性，並超越一切世間行為之後，應當如同木偶一般在世間行動。
+
+其意旨是：不宣揚自身，不說「我就是如此」。 //36//
+
+以何種行持在世間行動？對此說道：
+
+不受讚頌，不行禮拜，也不作 svadhā 供奉，
+
+以動與不動為居所的遊方者，應當隨遇而安。 //37//
+
+其意旨是：捨棄一切外在欲求，成為已接受最高 Paramahaṃsa 遊方生活者，免除讚頌、禮拜等一切行為。
+
+因為 Śruti 如此說：「確實，知曉這個自性之後……」等等；Smṛti 也如此說：「其心智專注於那個，其自性即是那個，安住於那個，以那個為最高歸依。」等等。
+
+身體每一瞬間都在變化，因此是動的；自性真理則是不動的。
+
+有時為了飲食等世間行為的緣故，他忘失如虛空般不動的本性、自性真理、自性的居所、依止與自性安住，想著「我是身體」；那時，身體便是他的居所。因此這位智者便稱為「以動與不動為居所者」。
+
+但他不再依止外在對象。
+
+他也應當隨遇而安；其意義是：身體僅維持於偶然得到的腰布、遮身之物與一口食物。 //37//
+
+看見內在的真理，又看見外在的真理，
+
+成為真理本身，便在那裡得到安樂，不偏離真理。 //38//
+
+=== 22 | 不二論 ===
+
+外在的地大等元素，以及內在的身體等特徵，都如繩蛇、夢、幻術等一般；因為《奧義書》說：「它是不實的；變化只是言語所造成的，僅僅是名稱。」（《歌者奧義書》6.1.4）等等。
+
+ātman（自我）既在外又在內，是無生的、無前的、無內的、無外的，是完整的，如虛空一般遍在一切處；是微細的、不動的、無 गुण的、無部分的、無作用的。因為《奧義書》說：「那就是真實，那就是自我，你就是那個。」（《歌者奧義書》6.8.16）
+
+如此看見真實，成為真實，以真實為樂，而不以外在事物為樂。有些人已將心認作自我，認為自我隨著心的動搖而動搖；有時又把已離開真實、已成為身體等元素的自我，認作「我已經偏離了自我的真實」。當心入於等持時，有時又把已成為真實、清明的自我認作「我現在已成為真實」。這樣的人並不是自我的知者。
+
+因為自我只有一種本性，也不可能從自己的本性中偏離。其意旨是：他應當始終不偏離「我就是 Brahman（梵）」；由於真實地看見自我之真實，他便始終是不偏離者。這是《念誦經》所說的：「智者對狗與食狗者，具有平等的眼光。」（《薄伽梵歌》12.18）以及「在一切眾生中看見平等」。（《薄伽梵歌》13.17）等等。//
+
+不二論
+
+前面僅以宣示「唵的判定」而說明：世界現象的止息、吉祥、不二，就是自我；又說，已知曉它時，二元性並不存在。
+
+至於二元性的不存在，則已藉由不實論篇，以夢、幻術、乾闥婆城等譬喻，以及「可被看見」和「具有終結」等理由，再加上推理，予以說明。
+
+那麼，不二性究竟只應依靠經典來領會，還是也能依靠推理來領會？對此回答：也可以依靠推理來認識。如何如此？現在開始不二論篇。前一篇已確立：由所崇拜者、崇拜者、崇拜等差別所形成的一切，都是虛妄；只有不二的自我是究竟實在。因此：
+
+依止崇拜而成的法，存在於已出生的 Brahman 中；  
+在出生之前，一切都是無生的，  
+因此他被記作可憐者。//
+
+依止崇拜而成的法，是指以崇拜作為自我解脫之方法而修習崇拜者所持有的想法：「我是崇拜者，Brahman 是我所崇拜的對象。」
+
+他如此修習崇拜之後，現在存在於已出生的 Brahman 中，並且想著：「在身體敗壞之後，我將升入 Brahman。」又想著：「在出生之前，這一切以及我都是無生的。」
+
+「我在出生之前具有何種本性，如今便出生並存在於已出生的 Brahman 中；藉由崇拜，我將再次獲得那同一者。」如此便是依止崇拜而成的法。由於這種人只憑微小的 Brahman 知識，永遠見到無生 Brahman 的人便因此稱他為可憐、貧乏、微小者；這就是其意旨。
+
+《奧義書》說：「那不能由言語顯現，卻使言語得以顯現的，才是 Brahman；你應當知道那個，而不是人們在此所崇拜的對象。」（《祕義奧義書》1.4）等等。//
+
+不能由無明而領會既在外又在內的無生 ātman，便把自己當作可憐者，想著：「我已經出生，我存在於已出生的 Brahman 中；既然依止崇拜，我將領會 Brahman。」如此領會的人，便成為可憐者。因為：
+
+因此，我將說明不卑下之境：  
+它是無生，已達平等；  
+正如任何事物都不會出生，  
+雖然它在一切處似乎正在出生。//
+
+因此，我將說明不卑下、不具可憐性的無生 Brahman。
+
+那正是可憐性的依止處；因為《奧義書》說：「在那裡，一個人看見另一個、聽見另一個、認識另一個，那就是有限的、必死的、不實的。」（《歌者奧義書》7.24.1）等等。
+
+與此相反的，是在外又在內、無生且不具可憐性的 Brahman，稱為 Bhūman（廣大）。由於證得它，便能止息一切由無明所造成的可憐性；我將說明這種不卑下之境，這就是其意旨。
+
+它是無生的，也就是它不存在出生；它已達到平等，已達到完全的同等。
+
+為什麼？因為它沒有部分之間的不平等。
+
+凡是具有部分的事物，若趨向於部分之間的不平等，便被稱為出生。
+
+但這個對象由於無部分性
+
+=== 3.3 | MandUpK 3.3 ===
+
+自我實如虛空，由眾生命顯現，
+如虛空由眾甕中虛空顯現；
+又由諸聚合如甕等顯現，
+此乃關於生起的譬喻。
+
+=== 3.3 | MandUpKC 3.3 ===
+
+最高自我之所以如虛空，是因為它微細、無部分、遍在；經中說它如虛空，由眾生命、眾知田者顯現，如同由眾甕中虛空顯現。那如甕中虛空者，正是與虛空相同的最高自我。
+
+或者，如虛空由甕中虛空顯現為已生，最高自我也同樣由眾生命自我顯現為已生。
+
+奧義書中所聞「眾生命自我由最高自我而生」，如同甕中虛空由大虛空而生，並非究竟真實。此為其意旨。
+
+如甕等聚合由那虛空生起，同樣，地等元素的聚合，以及身內以作用與器官為特徵的聚合，皆由如虛空的最高自我而生；然而它們其實如繩上之蛇，只是分別所構想。
+
+因此經文說：「又由諸聚合如甕等顯現。」
+
+當經典為使遲鈍之心領會，而說自我及生命等有所生起時，若暫且承認此種生起，則前述「如所說的虛空」等，便是關於生起的譬喻。
+
+=== 3.4 | MandUpK 3.4 ===
+
+如甕等物消融之時，
+甕中虛空等皆融入虛空；
+同樣，眾生命在此
+融入自我之中。
+
+=== 3.4 | MandUpKC 3.4 ===
+
+如同甕等生起時，甕中虛空等也生起；又如甕等消融時，甕中虛空等也消融。同樣，身體等聚合生起時，生命便生起；當它們消融時，眾生命便在此自我中消融，而非由自身生起或消融。此為其義。
+
+=== 3.5 | MandUpK 3.5 ===
+
+若一切身體中的自我為一，而此唯一自我具有生、死、樂等，一切自我便都會與之相連，行為及其果報也將彼此混雜。對如此主張的二元論者，現作此說：
+
+如一甕中虛空
+與塵埃、煙等相合，
+並非一切甕中虛空都與之相合；
+眾生命與樂等相合，也是如此。
+
+=== 3.5 | MandUpKC 3.5 ===
+
+如一甕中虛空與塵埃、煙等相合，並非所有甕中虛空都與那些塵埃、煙等相合；同樣，眾生命各自與樂等相合。
+
+問：「然而，自我不是只有一個嗎？」
+
+答：「確實如此。難道你沒有聽過，自我如虛空，在一切聚合之中皆為同一嗎？」
+
+問：「若自我只有一個，那麼它豈不是在一切地方都同時快樂而又痛苦？」
+
+此種質疑不可能由 Sāṃkhya（數論派）提出。因為數論派並不主張自我具有樂、苦等；他們承認樂、苦等依存於理智。
+
+對於本性即為純粹覺知的自我，也沒有任何證據足以構想它具有差別。
+
+若說：「自我若無差別，原質為他者而存在便無法成立。」
+
+並非如此，因為原質所造之目的並不內屬於自我。
+
+假如由原質造成的束縛、解脫或其他目的，分別內屬於不同的 puruṣa（精神），那麼便可合理地構想精神有多個，因為自我若為一，原質為他者而存在就無法成立。
+
+然而數論派並不承認束縛、解脫或其他目的內屬於精神。他們所承認的眾自我，皆無差別而只是純粹意識。
+
+因此，原質為他者而存在，只須依於精神的存在便已成立，並非依於精神之間的差別。
+
+所以，原質為他者而存在，不能作為構想精神有多個的理由。數論派也沒有其他證據足以構想精神有多個。
+
+原質僅以他者的存在為緣，便自行受縛，又自行解脫。
+
+而他者的本性，只是純粹覺知的存在；它是原質活動的原因，並不以任何……[原文中斷]
+
+=== 3.5 | 注釋 ===
+
+認為 ātman（我）因此具有差別，純粹只是出於愚昧；這既是對眾多 puruṣa（人我）的虛構，也是對吠陀義理的捨棄。
+
+至於 Vaiśeṣika（勝論派）等人所說，欲求等性質以 samavāya（和合）內屬於 ātman，這也不能成立。因為作為記憶之因的 saṃskāra（潛勢），不能內屬於沒有空間部位的 ātman。若記憶由 ātman 與心意的結合而生，便無法說明記憶為何有所限定；否則，更會導致一切記憶同時生起。
+
+彼此異類、又無觸等性質的眾多 ātman，與心意等發生關係，也不合理。實體之外，並不存在與之各自分離的形色等性質，也不存在各自分離的作用、共相、殊相或 samavāya；這些都不能像其他學派所主張的那樣成立。
+
+如果欲求等性質確實與作為實體的 ātman 完全不同，那麼它們與該實體之間的關係便無法成立。
+
+若說：「兩個不能分離成立之物，其關係以 samavāya 為特徵，因此並無矛盾。」並非如此。永恆的 ātman 在無常的欲求等性質之前便已成立，因此不能說兩者不可分離地成立。若欲求等性質確實與 ātman 不可分離地成立，那麼它們便會像內屬於 ātman 的廣大性一樣，也成為永恆之物。這並非所欲，因為如此一來，ātman 便永遠不能解脫。
+
+此外，如果 samavāya 與實體不同，就必須另說一種關係，使它與實體相連，正如必須說明實體與性質之間的關係一樣。
+
+若說：「samavāya 本身就是永恆的關係，不必再說其他關係。」那麼，凡由 samavāya 相連的事物，都會成為永遠相連，因而無法成立它們彼此有別。反之，若實體等彼此完全分離，那麼它們之間的所有格關係便無法成立，正如有觸的實體與無觸的實體之間無法建立這種關係。
+
+如果 ātman 具有欲求等會生起又消失的性質，便會導致 ātman 也是無常的。它將如身體、果實等一樣具有部分，也會像身體等一樣發生變化；這兩種過失都無法避免。
+
+然而，正如虛空因 avidyā（無明）的增益，而顯得具有塵埃、煙霧、污穢等缺陷；同樣，ātman 也因無明所增益的知性等 upādhi（限制條件），而顯得具有苦、樂等缺陷。在這種情況下，束縛、解脫等經驗層面的施設並不矛盾。因為各家都承認由無明造成的經驗活動，而不承認它們具有究竟真實性。
+
+因此，論理學家對眾多 ātman 的虛構，全然是徒勞的。//5//
+
+=== 3.6 | 頌 ===
+
+形相、作用與名稱，
+在各處確實各有差別；
+然而虛空本無分別，
+對諸 jīva（個我）也應作如是判定。//3.6//
+
+=== 3.6 | 注釋 ===
+
+正如此處只有一個虛空，瓶中虛空、壺中虛空、室內虛空等，卻顯出狹小、廣大等不同形相；取水、盛水、供人安臥等作用也各不相同；而「瓶中虛空」、「壺中虛空」等名稱，也由這些形相與作用而顯得各異。
+
+「在各處」的意思，是在各種經驗活動所涉及的境域中。所有這些由形相等差別所造成、關於虛空的經驗活動，都不具有究竟真實性。就究竟真實而言，虛空並無差別。
+
+離開由外在 upādhi 所形成的媒介，也不存在真正由虛空本身之差別而產生的經驗活動。正如此理，諸 jīva 因身體等 upādhi 的差別而顯得各異，如同瓶中虛空；有智慧者經由考察，便確定其中的眾多 ātman 實無差別。這就是「判定」的意思。//6//
+
+=== 3.7 | 頌 ===
+
+瓶中虛空不是虛空的變化，
+也不是虛空的一部分；
+同樣，jīva 永遠不是 ātman 的變化，
+也不是 ātman 的一部分。//3.7//
+
+=== 3.7 | 注釋 ===
+
+就究竟真實的虛空而言，瓶中虛空並不是它的變化，不像金所變成的飾物，也不像水所變成的泡沫、水泡、冰等；瓶中虛空也不是它的一部分，不像樹木的枝條等。
+
+因此，瓶中虛空既不是虛空的變化，也不是虛空的一部分。同樣，jīva 如同瓶中虛空，而究竟真實的至上 ātman 如同廣大虛空；jīva 永遠、在任何時候，都不是至上 ātman 的變化，也不是它的一部分，正如上述譬喻所示。
+
+因此，由眾多 ātman 的差別所造成的經驗活動，只是虛妄。//7//
+
+=== 3.8 | 頌前釋 ===
+
+因為，正如依於瓶中虛空等差別之見，而有形相、作用等……
+
+=== 25 | 3.8–3.13 ===
+
+……世俗運作，以及由身體、限制與個體自我的差別所造成的出生、死亡等世俗運作。因此，煩惱、業與業果等污垢，只是由那些差別所造成的，並非就最高真實而言屬於自我。為了以譬喻說明這個意義，他說：
+
+如天空在孩童眼中  
+因污垢而顯得污濁，  
+同樣，對無知者而言，  
+自我也因污垢而顯得污濁。
+
+世間孩童，即沒有辨別力的人，看見天空、空間因濃厚的塵土、煙霧等污垢而污濁，便把天空當作帶有污垢；對於不能辨別內在自我的無知者而言，那位至高者、那位內在的知者，也同樣因內在的煩惱、業與業果等污垢而顯得污濁；對於具有自我辨別力的人，則並非如此。
+
+其意義是：正如沙漠之地不會真的成為帶有水沫與波浪之水，只是口渴的生物把水投射其上；同樣，自我也不會真的因無知者投射其上的煩惱等污垢而變得污濁。〔8〕
+
+他再次闡發已說過的意義：
+
+在死亡之中，在出生之中，  
+在往來與行止之中，  
+在一切身體之中的安住，  
+〔自我〕都與空間無異。
+
+應當理解：正如壺中空間的出生、毀滅、往來與安住，自我的出生、死亡等，也都與一切身體中的空間無異。〔9〕
+
+一切聚合體都如夢一般，  
+由自我的幻力所投射；  
+無論有高下，或完全相等，  
+都沒有任何成立的理由。
+
+那些如壺等處所一般的身體等聚合體，如夢中所見的身體等，也如幻力所變現的身體等，都是由自我的幻力所投射；它們並非就最高真實而言存在。自我的幻力即無明，這些聚合體是由它所呈現的。
+
+如果說它們具有高下，即相對於身體等而有較高或較低；或者說一切都完全相等，無論哪一種情況，它們都沒有可以成立、可以證明其實有的理由。因此，它們只是由無明所造成，並非就最高真實而言存在。〔10〕
+
+為了顯示那沒有出生等變化的不二自我真理，以聖言量為證，於是引出以下語句：
+
+在《泰帝利耶奧義書》中，  
+已說明了味等諸層鞘；  
+它們的自我是至高的個體自我，  
+如同空間已被顯示一般。
+
+所謂味等，是指食物精華所成、生命氣所成等，如同一層層鞘一般的諸層鞘；由於後一層相對於前一層處於外部，所以《泰帝利耶奧義書》各篇已清楚說明了它們。
+
+這些層鞘的自我，就是使五層鞘都具有自性的那個最內在者；由於它是眾者得以存活的原因，所以它是個體自我。
+
+他問：那是誰呢？那就是先前所說的至高自我，即「真實、知識、無限的 Brahman（梵）」。
+
+因為味等被稱為層鞘的聚合體，如同夢與幻一般，依照空間等的次第，由自我的幻力所投射；這一點已經說過。
+
+那個自我，已由我們以如同空間的方式，藉由「自我是如空間一般」等偈頌而予以顯示。
+
+其意旨是：它並不是如論理學家所設想的自我那樣，只能由人的知性作為認識的證據而獲得。〔11〕
+
+在每一對的蜂蜜知識中，  
+至高的 Brahman（梵）被顯示；  
+正如空間在大地與腹中，  
+同樣被顯示出來。
+
+此外，無論從天界方面還是從身體方面，那個存在於大地等之中的光明所成、甘露所成的個體、知者，都是至高的自我；Brahman（梵）就是一切。由於每一對之中二者的非二性已被顯明，至高的 Brahman（梵）也因此被揭示。
+
+他問：在哪裡呢？所謂蜂蜜知識，是名為 Brahman（梵）知識的蜂蜜甘露；在其中認識甘露性，因為它是喜悅的原因，所以稱為蜂蜜知識。其意義是：在《蜂蜜梵書》中。
+
+他問：像什麼呢？正如世間藉由推論而顯示出大地之中與腹中同一個空間，同樣如此。〔12〕
+
+個體自我與自我之不異性，以無差別而宣示...
+
+=== MandUpK_3.13 偈頌 ===
+
+凡所斥之多性（nānātva），彼實如是合宜（samañjasa）。
+
+=== MandUpK_3.13 註釋 ===
+
+無論由推理（yukti）抑由經教（śruti），皆已決判：命我（jīva）與至上我（paramātman）無別不二（anyatvam abhedena），經教（śāstra）由 Vyāsa 等所讚揚讚歎。
+
+凡為一切有情（prāṇi）所共有、本性如是、為惡論師（kutārkika）所施設而為經教所驅逐之多性見（nānātvadarśana），是被斥責的；如「此實無第二（dvītīya）」（bṛ.u.4/3/23）、「由第二故，畏（bhaya）實生起」（bṛ.u.1/4/2）、「於內作空（udaraṃ antaraṃ），由是彼有畏」（tai.u.2/7/1）、「凡此一切，此即是我（ātmā）」（bṛ.u.2/4/6, 4/5/7）、「於此不見異（nāna）者，彼由死得死」（ka.u.2/1/10）等句，及諸梵智行者（brahmavid）之他語。
+
+凡此亦實如是合宜（samañjasa）正直之覺了（ṛjvavabodha），是合道理（nyāyya）之義。
+
+至於論師（tārkika）所施設之惡見（kudṛṣṭi），彼等非正直（anṛjva），考核之（nirūpyamāṇā）不能成辦其事。此即其旨。
+
+=== MandUpK_3.14 偈頌 ===
+
+個我（jīvātman）與我之差別（pṛthaktva），於生起前（prāgutpatti）所宣說者；
+以未來式（bhaviṣyadvṛtti）故為轉義（gauṇa），本義（mukhya）實不相應。
+
+=== MandUpK_3.14 註釋 ===
+
+然則：經教亦說個我與至上我之差別，彼於生起前所宣說者——「生起」（utpatti）之義，於奧義書（upaniṣad）語句以前，業品（karmakāṇḍa）中已多次宣說，由欲區分故，「此欲此欲」（idaṅkāmo 'daḥkāma）之類；又有「彼撐持大地與天」（ṛ.saṃ.10/12/1）等咒語章句（mantra）。
+
+於彼處，業品與智品（jñānakāṇḍa）語句相違之時，如何決定智品語句之義為一性（ekatva）之合宜（sāmāñjasya）？
+
+此中答：「由彼諸有從生起」（tai.u.3/1）、「如從火之小火花（visphuliṅga）」（bṛ.u.2/1/10）、「由彼我生空（ākāśa）」（tai.u.2/1/2）、「彼觀察（īkṣata）」（chā.u.6/2/3）、「彼生火（tejas）」（chā.u.6/2/3）等生起之義奧義書語句；於生起前之業品所宣說之差別，彼非究竟真實（paramārtha）。
+
+然則何耶？為轉義（gauṇa），如大空與瓶空差別之例。
+
+如「彼煮飯」之例，由未來式故者，亦如是。
+
+蓋差別之語句，於任何時皆不可為本義之差別（mukhyabhedārtha）。由我差別之語句，隨順於本性無明所見之有情差別之故。
+
+如是，奧義書中由生起、壞滅等語句，欲證成個我與至上我之為一性，如「tat tvam asi」（你是那個）（chā.u.6/8-16）、「彼是異，此我是異，彼不知」（bṛ.u.1/4/10）等語。
+
+由此，於奧義書中，一性為經教所欲證成，差別之見隨順世間之說，僅依未來一轉（bhāvinīmekavṛtti），故為轉義。此即其旨。
+
+復次，「彼觀察」（chā.u.6/2/3）、「彼生火」（chā.u.6/2/3）等生起之前，「唯一無二（ekam evādvitīya）」（chā.u.6/2/2）之一性已宣說。
+
+彼即「tat satyam sa ātmā, tat tvam asi」（彼是真、是我、你是那個）（chā.u.6/8-16）之一性，未來一轉所當證。對彼未來一轉所觀，於某處某語句所可得知之個我之差別者，彼為轉義，如「彼煮飯」之例亦如是。
+
+=== MandUpK_3.15 註釋（首段）===
+
+然則：若生起前一切皆唯一無二（ekam evādvitīya），如是者，生起之後，所生之一切與命我等為差別，勿作是說；由生起之經教（utpatiśruti）為別義故。
+
+先已捨離此過失，亦由如夢之我（ātman）幻術（māyā）所放出之集會（saṃghāta），如瓶空生起差別等例，於命我之生起差別亦然。
+
+由此生起差別等經教故，於此奧義書中牽引入「重生之經教」（punarutpatiśruti），為欲證成別義而施設：
+
+=== MandUpK_3.15 偈頌 ===
+
+由泥（mṛt）、金（loha）、火花（visphuliṅga）等所教之異說創造（sṛṣṭi），
+彼為降臨（avatāra）之方便（upāya），差別（bheda）絕無（kathañcana）。
+
+=== 15 | 創生教說的目的 ===
+
+藉由泥土、火花等譬喻所宣說、以各種不同方式闡明的創生，以及所有這些創生的方式，都是使我們生起「個體自我與最高自我是同一」之知見的方便。
+
+正如在關於氣息的對話中，所編造的言語等諸感官被魔障罪惡刺穿等故事，是為了使人領會氣息的特殊性而設的方便。
+
+若說：那也是不能成立的。
+
+回答：不。因為在各個學派的傳承中，聽聞到的關於氣息等的對話，方式各不相同。
+
+如果這個對話確實具有最高真實性，而且所有對話都是同一形式，那麼它就應當在所有學派中以同一形式被聽聞；不應當以彼此矛盾的多種形式被聽聞。
+
+但實際上確實聽聞到多種形式。因此，這些關於對話的經文並不具有那樣的目的。
+
+同樣地，關於起源的語句也應當如此理解。
+
+若說：由於假想創生彼此不同，關於對話的經文以及關於起源的經文，在每一次創生中都各不相同？
+
+回答：不。因為除了前面所說的使人進入那種知見的目的之外，這樣做沒有任何作用。
+
+實在不能設想這些關於對話與起源的經文還有其他目的。
+
+若說：是為了認識它們的真實情況，作為禪思之用？
+
+回答：不。因為那樣便不得不接受爭鬥的產生與毀滅。
+
+因此，關於起源等的經文，只應理解為為了使人進入「自我是同一」的知見，不應合理地設想它們還有其他目的。
+
+所以，由起源等所造成的差別，無論如何都不存在。
+
+---
+
+=== 16 | 儀式與禪修的目的 ===
+
+若最高自我是唯一的最高真實，具有永恆、清淨、覺知、解脫的本性，正如諸經所說：「唯是一而無第二」等，那麼，根據「自我確實應當被看見」以及「那個自我沒有罪惡」以及「他應當作此決意」以及「應當以自我為自身而禪修」等經文，為何還要教導對某種不存在的其他事物作禪修？又為何還要有火供等行為？
+
+請聽其中的原因：
+
+> 各有三種階位，
+> 見解下、中、上。
+> 此禪修之教導，
+> 出於慈悲為彼。  
+
+禪修之所以被教導，是為了具有低等與中等見解的人；行為也是為了具有低等與中等見解的人，以及其他階位的人。至於那些已確定「自我是唯一且無第二」之上等見解者，吠陀則出於慈悲而教導正道，使他們能夠如何獲得這一最高的同一性知見。
+
+正如諸經所說：
+
+「那個不能由心思量，卻藉以說心被思量者；你應當知道，那才是 Brahman（梵），不是這個人們所禪修的對象。」
+
+「你就是那個。」
+
+「這一切都是自我本身。」
+
+等等。
+
+---
+
+=== 17 | 不二知見是真實知見 ===
+
+由於不二自我的知見已藉由經典與推理加以確定，所以不二自我的知見是真實知見；由於其他知見在它之外，所以是虛妄知見。
+
+而且，二元論者的知見之所以是虛妄知見，是因為它成為貪愛、憎惡等過失的根據。
+
+如何如此？
+
+> 二元論者於各自
+> 宗義確立之處，
+> 彼此互相矛盾；
+> 此說與彼不相違。  
+
+二元論者依循 Kapila、Kaṇāda、Buddha、Arhat 等人的見解，在各自宗義的確立處，以及各自宗義建立的規則中，作出確定。
+
+他們在各自的教義中執著：「真實情況確實如此，絕不是其他樣子。」由於看見與自身相反的立場，便憎恨那個立場；如此，他們帶著貪愛與憎惡，僅僅因為各自宗義的見解，就彼此互相矛盾。
+
+然而，我們這一主張，即吠陀所說的「一切皆非他者」以及「自我是同一」的知見，並不與那些彼此矛盾的主張相矛盾，正如自己的手、腳等彼此並不相矛盾一樣。
+
+這就是說：不成為貪愛、憎惡等過失所依據的自我同一知見，才是真實知見。
+
+---
+
+=== 18 | 二元論是不二的差別 ===
+
+現在說明：以什麼理由說它不與那些主張相矛盾。
+
+> 不二即最高真實，
+> 二元即說其差別；
+> 對他們二元有二義，
+> 因此此說不相違。  
+
+不二是最高真實，因為不二就是沒有多樣性；那個不二的差別，就是它的作用，也就是它的結果。
+
+=== 28 | 第三章 ===
+
+「那個光明創造了自身」（《歌者奧義書》6 / 2 / 3），這是經文所說的，也是合乎道理的。
+
+因為在沒有自身心念的振動時，在等持、昏厥與熟睡之中，都不存在它。因此，這種差別被稱為二元性。
+
+然而，對於那些二元論者而言，無論從究竟實相方面，還是從非究竟實相方面，二元性都同樣是二元性。
+
+倘若他們這些迷妄者看見二元性，而我們這些未迷妄者看見不二元性，那麼依此理由，他們不能反駁我們的立場。
+
+因為經文說：「Indra（因陀羅）藉由 māyā（幻力）顯現為多種形態而行走」（《廣林奧義書》2 / 5 / 11）；又說：「但那裡不存在第二者」（《廣林奧義書》4 / 3 / 23）。
+
+譬如，一個騎在發狂大象上的人，對著站在地上的瘋子說：「我是騎象者，我駕馭著象，你應當駕馭我。」即使如此，他也不會對那人駕馭，因為他的心中沒有相違的認識；情形正是如此。
+
+因此，從究竟實相而言，對二元論者來說，Brahman（梵）只是自我。
+
+依此理由，他們不能反駁我們的立場。 //
+
+有人擔心：既然說二元性與不二元性的差別，那麼二元性也就應當如同不二元性一樣，是究竟實有的。對此，他回答說：
+
+因 māyā（幻力）而被分割的，確實是這個；
+除此之外，無生者以任何方式都不會被分割。
+因若從真實本性上被分割，
+不死者便會走向死亡。 //
+
+那個從究竟實相而言實有的不二元者，確實因 māyā（幻力）而被分割；就如同眼翳所見的多個月亮，也如繩子因蛇、裂縫等差別而顯現為分別。
+
+然而，從究竟實相而言，自我是不可分割的，因為它沒有部分。
+
+有部分者，才會因部分的不同而被分割；例如泥土因罐等差別而被分割。
+
+因此，所謂無部分、無生者，不會以任何方式、由任何事物加以分割，這就是其意旨。
+
+若從真實本性上被分割，那麼本來不死、無生、不二、依其本性而實有者，便會走向死亡；就如同火走向寒冷。
+
+而這種情況是不應接受的，因為那就是走向與自身本性相反的狀態，並且與一切有效認識相違。
+
+無生、無變、作為自我本質的事物，只是因 māyā（幻力）而被分割，並非從究竟實相而言被分割。
+
+因此，不二元者並非從究竟實相而言的實有。 //
+
+有些論者希望無生之存在本身出生。
+無生者確實是不死的存在，
+它怎麼會走向死亡呢？ //
+
+還有一些《奧義書》注釋者、宣說 Brahman（梵）者與善於辯說者，希望作為自我本質的無生者本身，從其本性而言是不死者，能夠在究竟實相上出生、產生。
+
+但若它確實出生，那麼它必然會走向死亡。
+
+然而，那個無生且不死的存在，自身本性便是自我；它怎麼會走向死亡呢？
+
+絕不可能走向死亡；這意思是說，它不可能走向與自身本性相反的死亡狀態。 //
 
 因此：
 
-無有滅止，也無生起；
-無有受縛者，也無修行者；
-無有求解脫者，也確實無有已解脫者；
-此即究竟真實。
+不死者不會成為凡死者，
+凡死者也同樣不會成為不死者。
+本性的改變，
+無論如何都不可能發生。 //
 
-「滅止」是消滅，也就是歸滅；「生起」是出生；「受縛者」是流轉於 saṃsāra（輪迴）中的生命；「修行者」是具備解脫方法的人；「求解脫者」是尋求脫離束縛的人；「已解脫者」則是已脫離束縛的人。
+即使在世俗世界中，不死者也不會成為凡死者，凡死者也同樣不會成為不死者。
 
-由於生起與歸滅皆不存在，受縛者等也都不存在。此即究竟真實。
+因此，本性自身的改變、從自身本性中脫離，無論如何都不可能發生，就如同火的熱性不可能改變。 //
 
-為何生起與歸滅不存在？答曰：因為二元並不真實。
+若其存在依本性是不死者，
+卻走向凡死者的狀態，
+那麼對於它而言，
+由造作而成的不死又怎能不動搖地存在？ //
 
-「凡有二元彷彿存在之處……」（《廣林奧義書》2.4.14）
+然而，若某位論者所說的存在依本性是不死者，卻從究竟實相而言走向凡死者、確實出生，那麼，他在出生以前所主張「那個存在依本性是不死者」便是虛妄的。
 
-「誰在此處彷彿看見多樣性……」（《羯陀奧義書》2.1.10–11）
+那麼，對於它而言，由造作而成的不死又怎能存在呢？
 
-「這一切唯是 ātman。」（《歌者奧義書》7.25.2）
+由造作而成的不死，怎麼能夠不動搖地存在，並且保持不死的本性呢？絕不可能如此存在。
 
-「這一切唯是 Brahman。」（《人獅後奧義書》7）
+對於主張自我出生的人而言，所謂永遠無生者根本不存在；一切這些都是凡死者。
 
-「唯有一，並無第二。」（《歌者奧義書》6.2.1）
+其意旨是：如此便會導致無法解脫。 //
 
-「這一切，就是此 ātman。」（《廣林奧義書》2.4.6、4.5.7）
+可是，主張無生的人所依據的、宣說創造的經文，難道不就不能成立為有效知識了嗎？
 
-依據這些及其他眾多天啟經典。
+確實存在宣說創造的經文；但它是針對別的目的而說的。
 
-=== 20 | 鳩摩梨商羯羅偈頌 2.32 註 — 2.33 ===
+我們已經說過，那是通往實現的方法。
 
-dvaita 之 asatva（非實）之 siddhi（成立）：
+即使現在已經說明了這項排除方式，仍然再次提出疑問。
 
-由 sat（真實）有 utpatti（生）或 pralaya（滅）；
-由 asat（非實，如兔角）則無。
-advaita（不二）亦不 utpadyate（生）不 līyate（滅）。
-然若視 advaya（無二）亦如 utpatti-pralaya（生滅），則互相矛盾。
-至於 dvaita-saṃvyavahāra（二之施設），
-如 rajju-sarpa（繩中之蛇），以 prāṇa（息）等相，
-被 kalpita（假立）於 ātman（我）中，如前所說。
-
-蓋如 rajju-sarpa 相之 manovikalpanā（心之分別），
-於 rajju 中無 pralaya、無 utpatti；
-於 manas（心）中亦無 rajju-sarpa 之 utpatti、pralaya，於二者亦無。
-同理，因 dvaita 不離 mānasa-tva（心性），
-於心被制、或於 suṣupta（熟眠）中，dvaita 不 gṛhyate（被取）。
-故 dvaita 唯 manovikalpanā 而已——[此] siddha（成立）。
-
-由此善說：因 dvaita 之 asattva（非實），
-nirodha-ādi-abhāva（無執著等之無）即是 paramārtha（究竟）。
-
-詰難：若如是，於 dvaita-abhāve（二之無）中，
-śāstra-vyāpāra（經典之作）則無，因對 advaita 無 virodha（違逆）？
-如是則 advaita 之 vastutva（真實性）成立，因 pramāṇa-abhāva（證量之無）[而推] dvaita 之無，
-墮於 śūnyavāda（空見）之 prasaṅga（過）。
-
-答不：「如 rajju-sarpa-ādi-vikalpanā（繩蛇等分別）之 nirāspada-tva（無所依）」之 anupapatti（不成立），
-此是 pratyukti（答覆）。
-「katham ujjīvayasi（汝何以存活）」之詰難，今答之：
-
-詰難：rajju 亦被想為 sarpa-vikalpa 之 āspada（所依），
-此即 dṛṣṭānta（譬喻）之 anupapatti。
-
-答不：vikalpanā-kṣaye（分別之滅）時，
-如 avikalpita-rajjv-aṃśa（如無分別之繩分段），
-有 prāk（先前）之 sarpābhāva-vijñāna（蛇之非有了知）。
-於 vikalpayituḥ（能分別者），
-因 prāg vikalpana-utpatti（先於分別之生起）siddhatva（成立），
-asatva-anupapatti（非實之不成立）。
-
-詰難：若 svarūpa-vyāpāra-abhāve（無我相作用），
-śāstra 何以有 dvaita-vijñāna-nivartakatva（斷二智之力）？
-
-答：na eṣa doṣaḥ（此非過）。
-因 dvaita 如 rajju 中之 sarpa-ādi（蛇等），
-avidyā-adhyasta（無明所假）於 ātman 故。
-
-katham（如何）？sukhī ahaṃ「我快樂」、duḥkhī「我苦」、mūḍhaḥ「我愚」、
-jātaḥ「我生」、mṛtaḥ「我死」、jīrṇaḥ「我老」、dehī「我身」、paśyāmi「我見」、
-avyaktaḥ「顯」、avyaktaḥ「隱」、kartā「能作」、phalī「受果」、
-saṃyuktaḥ「我合」、viyuktaḥ「我離」、kṣīṇaḥ「我衰」、vṛddhaḥ「我盛」、
-ahaṃ「我」、mama「我所」——evam-ādayaḥ（如是等）sarva（一切）adhyāropyante（被假立）於 ātman 中。
-
-ātmaḥ（我）eteṣu（於此等）anugataḥ（隨轉），sarvatra avyabhicārāt（遍一切處，無乖離）。
-yathā（如）rajjuḥ（繩）sarpa-dhārādi-bhedeṣu（蛇、繩端等之差別中）。
-
-yadā ca（當如是）viśeṣya-svarūpa-pratyaya（有自相知）siddhatvāt（成立），
-na kartavyatvaṃ śāstreṇa（經典無所作）。
-
-akṛta-kartṛ ca（於無所作者），kṛtānukāritve（若唯隨順所作）aprāmāṇam（無證量/失效）。
-
-yataḥ（因為）avidyā-adhyāropita-sukhitvādi-viśeṣa-pratibandhāt（由無明所假快樂等我相之障）eva，
-ātmanaḥ svarūpeṇa anavasthānaṃ（我之我相不安住）、
-svarūpa-avasthānaṃ ca（住於我相）śreya iti（為勝故）——
-sukhitvādi-nivartakaṃ śāstraṃ（斷快樂等之經典），
-ātmani asukhitvādi-pratyaya-karaṇena（於我中作非快樂等之知），
-neti-nety-asthūlādi-vākyaiḥ（「非此非此」、「非粗」等句所詮）。
-
-ātma-svarūpa-vat（如我之我相），asukhitvādi-api（非快樂等亦然），
-sukhitvādi-bhedeṣu（於快樂等之差別中）na anuvṛttaḥ asti dharmaḥ（不隨轉為法）。
-
-yadī anuvṛttaḥ syāt（若隨轉），na adhyāropita-sukhitvādi-lakṣaṇaḥ viśeṣaḥ（非所假快樂等相之我相）。
-yathā（如）uṣṇatva-guṇa-viśeṣa-vaty agnau（火具熱性之相）śītatā（之冷）。
-
-tasmāt（故）nirviśeṣa eva（唯無相）ātmani（於我中）sukhitvādayaḥ viśeṣāḥ（快樂等我相）kalpitāḥ（所假立）。
-
-yat tu asukhitvādi-śāstraṃ（凡非快樂等之經典所說）ātmanas（我之），
-tat-sukhitvādi-viśeṣa-nivṛti-artham（為彼快樂等我相之斷）eva iti siddham（如是而已，已成立）。
-
-「siddhaṃ tu nivartakatvāt」（成立，因有斷除故）——
-ity āgama-vidāṃ sūtram（如是知經者之經）。//32//
-
-（偈頌 2.33）
-
-pūrva-ślokārthasya（前偈之義）hetum āha（今示其因）：
-
-bhāvair asadbhir evāyam advayena ca kalpitaḥ —
-　 由無實之存有、與不二，此我被假立；
-bhāvā apy advayenaiva tasmād advayatā śivā —
-　 存有亦由不二，故無二性為吉祥。//2.33//
-
-（偈頌 2.33 註釋）
-
-yathā rajjvāṃ（如於繩）asadbhiḥ sa-pradhārādibhiḥ（由無實之具繩端等），
-advayena ca rajju-dravyeṇa satā（與不二之真實繩事）——
-ayam sarpaḥ（此蛇）、iyam dhārā（此繩端）、ayam daṇḍaḥ（此棍）、ayam iti vā（或是此），
-rajju-dravyam eva（繩事自身）kalpyate（被假立）。
-
-evaṃ prāṇādibhiḥ anantaiḥ（如是由無數息等）asadbhiḥ eva avidyamānaiḥ（為非有之無實），
-na paramārthataḥ（不究竟故）——
-hi（因為）apracalite manasi（心不動時）kenacit kaścit bhāvaḥ（無一存有）upalakṣayituṃ śakyate（可被任何人覺察）；
-na ca ātmanaḥ pracalanam（我之運動）asti（有）；
-pracalitasya eva（唯動者之）upalabhyamānā bhāvāḥ（被覺察之存有），
-na paramārthataḥ santaḥ（非究竟真實）kalpayituṃ śakyāḥ（不可假立）。
-
-ataḥ asadbhiḥ eva prāṇādi-bhāvaiḥ（故由無實之息等存有），
-advayena ca paramārtha-satātmanā（與不二之究竟真實之我）——
-rajju-vat（如繩）、tarva-vikalpāspada-bhūtena（為樹想之所依）——
-ayaṃ svayam eva ātmā（此我自身）kalpitaḥ（被假立），sadaika-svabhāvaḥ api san（雖常住一性）。
-
-te ca prāṇādi-bhāvāḥ api（彼等息等之存有亦然），
-advayena eva satātmanā（由不二之真實之我）vikalpitāḥ（被假立）。
-
-na hi nirāspadā kācit kalpanā（蓋無任一無所依之假立）upalabhyate（被覺知）；
-ataḥ sarva-kalpanā āspadā——[原文截斷
-
-
-
-=== 2.38 ===
-
-外相為地等諸大，內相為身等形狀，如繩之蛇、如夢、如幻術。
-
-由「未曾起者為無，作唯是名」（Chā.U.6.1.4）等聖教。
-
-ātman 亦無外無內、無生、無前、無後、無外、整全，猶如 ākāśa、遍滿、微細、不動、無性、無分、無作——
-
-由「彼是真、彼是 ātman、tattvamasi（彼是汝）」（Chā.U.6.8.16）等聖教。
-
-如是見 tattva，tattvībhūta（成就 tattva），住於彼之喜樂，不欣外樂。如是見 tattva 者——
-
-然以心為 ātman 者，執本不動之 ātman 隨心而動；以所成之身等為 ātman，一時作是念：「我今從 ātman-tattva 墮離，不復是我」。至心攝斂時，一時又作清淨 ātman 之念：「我今已是 tattva」。如此者非真知 ātman。
-
-以 ātman 自性唯一、自性無可墮故。
-
-當常：「我恆是 Brahman」，不墮；由見 ātman-tattva 故不墮——此之謂也。「智者於犬與旃陀羅視為平等」（Gī.12.18）、「於一切有情平等」（Gī.13.17）等 smṛti 故。//38//
-
----
-
-=== Advaita-Prakaraṇa ===
-
-oṃkāra 之決擇已說，戲論之寂止已說，以 śiva 與 advaita（不二）為 ātman——是唯立宗；知已，dvaita（不二）不存。
-
-dvaita 之無，前 vaitathya-prakaraṇa（虛妄品）已以夢、幻術、乾闥婆城等譬喻，及見有起盡之理證成。
-
-advaita 唯依聖教可知，亦以理（tarka）可知？此處說：亦以理可知。如何？由 advaita-prakaraṇa 始開。
-
-一切依 upāsanā（觀行）之 dharma，於 jāta brahman（已知梵）時現行。以 prāgutpatti（先已生）故，一切 a-ja（無生）；以是故彼執 upāsanā 者，名 kṛpaṇa（可悲），為 smṛti 所記。
-
-=== MandUpK 3.1 ===
-
-依 upāsanā 之 dharma，於 jāte brahmaṇi 時現行。以 prāgutpatti 故，此一切皆 a-ja；以此故，彼名 kṛpaṇa，為 smṛti 所記。
-
-=== MandUpKC 3.1 ===
-
-upāsanāśrita——以 upāsanā 為 ātman 解脫之 sādhana（修道之具）；其已趣入為 upāsaka：「我」、「我所觀」、「Brahman」。
-
-作彼 upāsanā，於 jāte brahmaṇi 時現行者，即：「我於身壞以後，當得 a-ja Brahman；由 prāgutpatti 故，此一切及我皆 a-ja」。
-
-我是何性？由 prāgutpatti，jāta 於 jāte brahmaṇi 時，更由 upāsanā 將得彼——如是依 upāsanā 之 dharma 為修道之具；彼以下劣知見梵者為因，由常知見梵者稱為 kṛpaṇa——「言不由顯、言由之顯，彼即 Brahman；汝當知此即 Brahm，彼所觀者非此」（Ke.U.1.4）等聖教故。//1//
-
-=== MandUpK 3.2 ===
-
-以 avidyā 自見 dīna（卑下）之 ātman，不能得 sabāhyābhyantara、a-ja 之 ātman：「我已生、已知梵、依 upāsanā 住，當得 Brahman」——如是執者為 kṛpaṇa，以是故——
-
-「故我當說 akārpaṇya——已得 samatā 之 a-ja tattva。」
-
-=== MandUpKC 3.2 ===
-
-故 vakṣyāmi——當說 akārpaṇya（kṛpaṇa 之反）——a-ja brahman。
-
-蓋 kārpaṇya（卑下）之依處：「於他見他、聞他、知他——彼是少分、是死、是無」（Chā.U.7.24.1）等聖教故。
-
-與此相反：sabāhyābhyantara、a-ja 之 akārpaṇya，即 bhūmā（廣大）之 brahman。
-
-「至已，avidyā 所作一切 kārpaṇya 永息」——彼之 kārpaṇya 當如是說義。
-
-tad ajāti：其無 jāti；已得 samatā（一切平等）。
-
-以何？以無 avayava-vaiṣamya（部分差別）故。
-
-若有部分之 vastu，得部分差別，是名為生。
-
-此則 niravayava（無部分）……
-
-=== 23 | 無生之喻（3.2 釋尾 + 頌 3.3–3.5）===
-
-〔3.2 釋尾〕
-
-ātman（我）已達平等故，由任何分位皆不顯了；因此無生之貧乏。一切處皆爾：絕無微少之生起、不顯了，猶如繩蛇由無明所造之見——所生者，何以不生？由一切處唯是無生之梵故。如是聽聞此相，此其義。
-
-**3.3 頌**
-
-「我將說無生之梵之貧乏」——此為論題已宣。為成立此義，將說理由與譬喻，故云：
-
-ātman 確如 ākāśa（虛空），由 jīva（個我）——猶如瓶中空——而顯現；
-由聚合（如瓶）而說生起，此即其譬喻。
-
-**3.3 釋**
-
-ātman 是至高，因其如 ākāśa 般微細、無分、遍在，故被說為如 ākāśa。jīva，即田主，被說為猶如瓶中空，亦被說為「顯現」。彼即等同 ākāśa 的至高 ātman。
-
-或者，ākāśa 如何由瓶中空而顯現、出生，如是至高者由 jīva-ātman 而出生。jīva-ātman 由至高 ātman 出生之說，於吠檀多中常聞；此喻如瓶中空由大空出生，非究竟義，此其意趣。
-
-因此，正如其聚合（瓶等）由 ākāśa 出生，如是由位於 ākāśa 位之至高 ātman，地等諸大之聚合與屬內在之 kārya（所作）、karaṇa（具）相的種種——如繩蛇之虛妄分別——方得生起。故說「由聚合（如瓶）而顯現」。
-
-若以鈍根智慧所領解之經中說 ātman 有生，於 jīva 等之生起見此譬喻時，則此所說之譬喻如已說之 ākāśa 喻等。
-
-**3.4 頌**
-
-瓶等已滅時，瓶中空等亦滅於 ākāśa；
-如是此處 jīva 滅於 ātman。
-
-**3.4 釋**
-
-如由瓶等出生而有瓶中空之出生；如由瓶等壞滅而有瓶中空之壞滅；如是，由身等聚合之出生有 jīva 之出生，其壞滅時，jīva 於此處 ātman 中之滅，非由自性故。
-
-**3.5 頌**
-
-如一處瓶中空與塵、煙等共處時，
-非一切皆與之共處；
-如是 jīva 與樂等。
-
-**3.5 釋**
-
-如一處瓶中空與塵、煙等共處時，雖相應，非一切瓶中空皆與彼塵、煙等共處；如是 jīva 與樂等。
-
-「豈非一 ātman？」——確實。然豈非已由汝聞「如 ākāśa 於一切聚合，唯一 ātman」？若 ātman 唯一，則應一切處皆樂與苦？然此說於 sāṃkhya（數論）無過。
-
-蓋數論不許 ātman 有樂、苦等性，以為樂、苦等由與覺相應而有，不認 ātman 有之。亦無覺知自性之 ātman 有分別之證量。
-
-若言：「分別若無，則 prakṛti（自性）之有用性不成。」此不然；prakṛti 所作之事於 ātman 中無有相應。
-
-若 prakṛti 所作之繫、解等事於 puruṣa（神我）中以分別而相應，則 prakṛti 之有用性於 ātman 唯一之時不能成立；故分別 puruṣa 為多，於理為當。然數論不許繫、解等事於 puruṣa 相應而有。
-
-又彼等 ātman 被許為無差別、純是覺。是故，prakṛti 之有用性唯由 puruṣa 之存在而有，非由 puruṣa 之多而立。故於 puruṣa 分別之計執，prakṛti 之有用性非其理由。
-
-亦無數論於 puruṣa 分別之計執有餘證量。彼等以「為他之存在」為因故，prakṛti 由自繫、自解。即彼等以「為他之覺知存在」之自性為因，於 prakṛti 之活動中為因
-
-=== MandUpK 3.5 釋終 ===
-
-若言：「由差別施設人我差別，乃純由愚癡；如是則吠陀之義亦應捨。」若勝論派（vaiśeṣika）等說：「欲等（icchādaya）與自我常住和合（samavāya）。」——此亦非。
-
-以記憶之因即諸習氣（saṃskāra）於自我中無和合故。又以自我與心和合故，記憶（smṛti）生起；以記憶之決定不成立故。
-
-一時則一切記憶同時生起之過失。
-
-以異類（bhinnajātīya）之諸我無觸（sparśa）等之故，自我不應以心等與彼等和合。
-
-又諸德（guṇa）——色等——非從共通之業（karmasāmānya）、亦非從差別之業（karmaviśeṣa）和合有；異於實體（dravya），於他者中亦無。
-
-若實體絕對異於自我之欲等，則實體與彼等之和合不成。
-
-若謂：「未和合者（ayutasiddha）和合之相，不相違。」——非。
-
-以欲等無常，於常住之自我，於先已成立（pūrvasiddha），故無未和合之理。
-
-若自我與欲等未和合，則欲等亦將如自我中之大（mahat），常住——此非所欲。
-
-以自我不解脫之過失故。
-
-若和合異於實體，則應另說實體之他種和合，如實體與德。
-
-若謂：「和合即常住和合，故不別說。」——若如是者，則和合者常住和合之過失，故別異不成。
-
-若實體等絕對別異，則如觸與不觸之實體，六句義（ṣaṣṭyartha）不成。
-
-若欲等是德而成壞者，則自我亦無常——此亦非所欲。
-
-若自我有分部、有變易，如身之果等，如身等——此二過不能不有。
-
-如虛空由無明所增益之塵、煙、垢等故，有過失；如是自我由無明所增益之慧等所立（upādhikṛta）之苦、樂等故，有過失；如是則縛、解等世俗（vyavahāra）不相違。
-
-由諸論者共許無明所作之世俗、由不許勝義（paramārtha）故。
-
-是故由論師施設「我之差別」（puruṣabheda），乃徒勞之事。//5//
-
-=== MandUpK 3.6 ===
-
-若問：「於一自我中，由無明所作之差別為因之世俗，如何成立？」答：
-
-形相、作業、名稱等 於彼彼處 皆各分別
-虛空實無有分別 如是於諸我 亦應決定 // MandUpK_3.6 //
-
-MandUpKC_3.6
-如於一虛空，瓶虛空、碗虛空、櫃虛空等之小、大等形相分別；如是作業——取水、持水、臥等名稱——於瓶虛空、碗虛空等，亦見有別作者。
-
-「於彼彼處」者，於世俗所緣之義。
-
-此一切虛空之形相分別所作之世俗，非勝義；於勝義中虛空無別。
-
-無虛空別因之世俗，唯由他之所立（paropādhikṛta）門，無別義。
-
-如於彼彼由我慢（ahaṃkāra）所立之諸我差別所作，於瓶虛空位之諸自我中，由諸智者決定者，是決定之義。//6//
-
-=== MandUpK 3.7 ===
-
-若問：「於勝義中，瓶虛空等之形相、作業分別世俗，豈非有耶？」曰：「無。」以：
-
-如瓶空非虛空之變易與部分
-如是自我中之我 從來非變易 亦非部分 // MandUpK_3.7 //
-
-MandUpKC_3.7
-勝義虛空之瓶虛空，非變易；如金之光澤等，或如水之泡沫、水泡、冰等。
-
-亦非部分，如樹之枝等。
-
-「如瓶空非虛空之變易與部分」者，「如是」——勝義常住之大虛空位之自我，瓶虛空位之我，從來如前所譬喻，非變易，非部分。
-
-是故由「我之差別」所作之世俗，乃虛妄。//7//
-
-=== 25 | 第三品 8-12 偈頌與釋論 ===
-
-[第三品 7 偈釋論續]身苦命者之別、生死等世間言說，故煩惱業果之垢染唯 ātman（自我）之事，非究竟真實。為以譬喻（dṛṣṭānta）明示此義，云：
-
-**MandUpK 3.8**
-
-如孩童觀虛空為垢所染，
-如是無智者觀自我亦為垢所染。
-
-**MandUpKC 3.8**
-
-如世間無分辨智之孩童，觀虛空為密雲、塵、煙等垢所染污；然虛空實非染污，如自我分辨智者所知。如是至上自我——即認知者——對於無分辨自我智之無智者所見，亦為煩惱業果等垢所染污；非對自我分辨智者所見。
-如日光區絕不為生者所投射之水沫波浪等所染污；如是，自我絕不為無智者所投射之煩惱等垢所染污。此其義。
-
-**MandUpK 3.9**
-
-於死亡與出生，於往與來，
-於一切身中住，與虛空無異。
-
-**MandUpKC 3.9**
-
-如瓶中虛空之生、滅、來、往、住，於一切身中，自我之生、死等與虛空無異，當如是知。此其義。
-
-**MandUpK 3.10**
-
-一切聚合如夢，由自我之幻所投射；
-於勝、於一切平等，皆無正理，蓋無故。
-
-**MandUpKC 3.10**
-
-如瓶等所依之身等聚合，如夢中所見之身等，或如幻所變之身等，皆由自我之幻所投射；自我之幻即無明（avidyā），由其所施設，彼等非真實存在。此其義。
-若以為有勝——以天神等有長臂之身等為能作之聚合有勝者之狀態；若以為一切平等，皆無正理成立，無生故，無證成實有之因；以由無明所造故，非真實存在。此其義。
-
-**MandUpK 3.11**
-
-味等諸鞘（kośa），已於《泰迪黎耶》中說明；
-彼等之自我至上，即命者（jīva），
-如虛空，已如是明示。
-
-**MandUpKC 3.11**
-
-味所成（anna-rasa-maya）、氣所成（prāṇa-maya）等諸鞘，為自我之鞘，由前前者外於後後者而存在，已於《泰迪黎耶》支派奧義書篇章中明示。諸鞘之自我——五鞘皆由之而為有我，最內者——即一切之命者，以彼為生命因故。
-彼為何？——至上自我，前於《泰迪黎耶》說：「真、智、無量是梵」（Brahman）所標者。
-如前所說，自我之鞘相聚合，如虛空等之次第，由自我之幻所投射，如夢、如幻。
-此自我如虛空，已由我等以「自我實如虛空」等偈明示。
-非如論師所施設之自我，亦非以人心智為量所能得，此乃其意。
-
-**MandUpK 3.12**
-
-於蜜智中，於一一雙，
-至上梵（Brahman）已顯；
-如虛空於地中、於腹中已顯。
-
-**MandUpKC 3.12**
-
-復次，由光明所成、由不死所成之人（puruṣa），住於地等中者，認知者，至上自我，「一切即是梵」——於一一雙中，由離二（advaita）故，至上梵已顯。
-何處？——經說：於蜜智，即梵智，蜜波羅蜜門——何謂蜜智？蜜者，不死；不死性於其中知，以能生歡喜故。
-如何顯？——經說：世間以比量知唯一虛空於地中、於腹中；如是。此其義。
-
-**MandUpK 3.13（起，未完）**
-
-命我（jīva）與自我之無別，
-以無異...
-
-[本偈頌未完，續下段]
-
-=== 3.13 | MandUpK ===
-
-而凡多樣性受到譴責者，
-如此方為合理。
-
-=== 3.13 | MandUpKC ===
-
-由理證與 śruti（聖典）所確定的個我與至上 Ātman（自我）之不異性，即二者無別，受到 śāstra（論典）以及 Vyāsa（毗耶娑）等人的讚揚。
-
-至於眾生所共有、出於本性的多樣性之見，乃是被排除於聖典之外的謬論者所造作；它受到譴責。Brahman（梵）的知者以「彼實無第二者」（《廣林奧義書》4.3.23）、「由第二者，確實生起恐懼」（《廣林奧義書》1.4.2）、「若在其中造成間隔，恐懼便由此而生」（《泰帝利耶奧義書》2.7.1）、「凡此一切，即是此自我」（《廣林奧義書》2.4.6、4.5.7）、「在此見到彷彿有多樣性者，便從死亡走向死亡」（《卡塔奧義書》2.1.10）等語以及其他語句譴責它。
-
-這一點正因如此而合理：它是直接的理解，也是合乎正理的。至於推理者所構想的種種邪見，經過考察，皆不直接，也無法成立。
-
-=== 3.14 | MandUpK ===
-
-個我與自我之分離，
-雖在產生之前已被宣說；
-那只是依將來狀態而作的次要說法，
-因為它不可能具有主要的實義。
-
-=== 3.14 | MandUpKC ===
-
-有人問：即使 śruti 也宣說個我與至上自我的分離。在解說產生的奧義書語句之前，業行部已因欲求不同而多次宣說：「此人欲此，彼人欲彼。」至上者也由「祂支撐大地與天穹」（《梨俱吠陀本集》10.121.1）等頌句加以宣說。既然業行部與智慧部的語句彼此相違，為何只把智慧部語句所說的一體性確定為合理？
-
-對此回答：「這些眾生由何者而生」（《泰帝利耶奧義書》3.1）、「如同微小火星從火中迸出」（《廣林奧義書》2.1.20）、「從此自我生出虛空」（《泰帝利耶奧義書》2.1.1）、「它思量」（《歌者奧義書》6.2.3）、「它創造火」（《歌者奧義書》6.2.3）等解說產生的奧義書語句出現以前，業行部所宣說的分離並非究竟真實。
-
-那麼它是什麼？它只是次要的說法，如大虛空與甕中虛空等差別一般；也如依將來狀態而說「飯正在煮」。
-
-宣說差別的語句，絕不可能以真實差別為其主要意義。因為宣說自我差別的語句，只是在重述眾生受與生俱來的 avidyā（無明）影響而見到的差別。
-
-奧義書中的產生、消滅等語句，意在表明個我與至上自我唯是一體；「你就是那個」（《歌者奧義書》6.8–16）以及「認為『彼是一者，我是另一者』的人，並不知曉」（《廣林奧義書》1.4.10）等語亦是如此。
-
-因此，śruti 將在奧義書中宣說一體性。依據後文所將宣說的同一狀態，對世間差別之見的重述只具有次要意義。
-
-又或者，在「它思量」（《歌者奧義書》6.2.3）與「它創造火」（《歌者奧義書》6.2.3）等產生之前，經文已以「唯一，實無第二」（《歌者奧義書》6.2.2）宣說一體性；此後又將以「那是真實，那是自我，你就是那個」（《歌者奧義書》6.8–16）宣說同一性。依據後文所將宣說的這一狀態，任何語句中所顯示的個我與自我之分離，都只是次要的說法，如依將來狀態而說「飯正在煮」一般。
-
-=== 3.15 | MandUpK ===
-
-有人問：即使在產生之前，一切皆不生、唯一無二，然而在產生之後，這一切已經生起，個我也彼此不同。
-
-不可如此，因為解說產生的 śruti 語句另有旨趣。這項異議先前已經消除：種種聚合如夢一般，由自我的 māyā（幻力）投射而出；個我的產生與差別等，也如甕中虛空的產生與差別等一般。
-
-因此，這裡再次引述那些宣說產生與差別等事的 śruti 語句，以表明解說產生之語句的真正旨趣：
-
-以泥土、鐵、火星等譬喻，
-以及其他方式所宣說的創造，
-只是用以導入理解的方便；
-差別無論如何都不存在。
-
-=== 27 | 蛙氏奧義書釋論 第三品 第十五至十八頌 ===
-
-第三章 第十五頌
-
-以泥丸、火花等譬喻之施設，
-凡所被教示之種種創造方式，
-皆為我等引入「個我與最高我同一」之智覺之方便。
-猶如於「氣息（prāṇa）對話」中，
-為引入認識氣息之特勝，
-方便施設語等諸阿修羅、惡業、毀謗等故事。
-
-第三章 第十五頌 釋論
-
-若言：「彼（施設之說）亦不成立。」
-
-不爾；以於不同支派中，氣息等對話之傳承各各不同故。
-
-若對話為究竟理、唯一相狀，則於一切支派當一致聽聞；今乃以矛盾、多式多樣而聽聞，非一致聽聞。
-
-然實有聽聞，故氣息對話之諸聖典不必全然與彼所述之義相符。
-
-起源之聖句亦應如是理解。
-
-若問：「因 kalpa（時分）與 sarga（創造）之差別，故對話聖典與起源聖典之施設當有別。」
-
-不爾；以除去「引生智覺」之方便施設別無他用故。
-
-對話聖典與起源聖典，不可能施設為別有用途。
-
-若言：「為證成此狀故，乃定慧之所緣。」
-
-不爾；以「爭論之起滅」不決定故。
-
-故起源等聖典，唯一為引入「個我與最高我同一」之智覺而施設，別無他義可施設為合理。
-
-故由起源等所施設之差別畢竟無有。
-
-第三章 第十六頌
-
-若最高我為常、淨、慧、離繫之自性，唯一究竟者，
-由「唯一無二」（歌者奧義書 6.2.2）等聖典故，
-於非真之他事何用施設為修持對象？
-由「應觀自我」（廣林奧義書 2.4.5）、
-「自我已除諸惡」（歌者奧義書 8.7.1, 3）、
-「彼應立願」（歌者奧義書 3.14.1）、
-「應以自我為對象而修」（廣林奧義書 1.4.7）等聖典故，
-火祭等業事何用施設？
-聽其原因——
-住林（āśrama）之經有下、中、上三階之見；
-此乃修持所說，為其義故，出於悲愍。
-
-第三章 第十六頌 釋論
-
-此修持所說，及諸業事，乃聖者出於悲愍，為中下根器者施設住林等意義之智覺之方便；非為唯一無二自我之究竟知見而施設。若已得究竟決定之最勝知見、隨順正法而行者，如何復得此等最勝之「自我同一」之見？
-
-由「不以心識心思、所言心之對象者即是梵，勿以為此乃所修持者」（伽耶奧義書 1.4）、「汝即是彼」（歌者奧義書 6.8–16）、「自我即此一切」（歌者奧義書 7.25.3）等聖典故。
-
-第三章 第十七頌
-
-由聖教與正理所成證故，
-「不二自我之見」為正見；
-其餘以不二為外之見為邪見。
-由此故，執二之見者所見為邪——
-以彼等為貪、瞋等垢之所依故。
-如何？
-「於自宗之確立中，二元論者決定堅固。」
-「彼等互相違諍，彼（不二之見）不與之違諍。」
-
-第三章 第十七頌 釋論
-
-於自宗之施設法則之限定中，隨順 Kapila、Kaṇāda、Buddha、Arhat 等見之二元論者，決定不移。
-
-彼等如是深信：「此究竟理非他如是」，隨處耽著，又見己之反對者而起憎恨，如是具貪、瞋之染，唯為自宗之見故，互相衝突。
-
-與彼等互不相違故，我等此吠陀之「不二自我同一」之見，畢竟不與之違諍，如自家手足之不相違。
-
-以此貪、瞋等垢為所依故，唯「個我與最高我同一」之智覺乃正見——此乃論主之意趣。
-
-第三章 第十八頌
-
-以何因故彼不與之違諍？
-「不二為究竟真實，二元為彼之差別。」
-「於彼二者皆說為二元，故此不與之違諍。」
-
-第三章 第十八頌 釋論
-
-不二為究竟真實，以不二非是多性故；彼不二之差別即是其所作之義——此即義理。
-
-「唯一無二」（歌者奧義書
-
-=== 28 | MandUpK 第三品 第19-23頌 ===
-
-「（ChU 6/2/2）他以那個（tat）創造了」，「（ChU 6/2/3）他以那個火（tat-tejas）創造了」之經證，又自心波動不存在——於三摩地、昏厥、睡眠中亦不存在——因此，那區別被說為 dvaita（二元）。
-
-但對那些 dvaitin（二元論者）而言，從勝義或世俗兩方面都仍是 dvaita。
-
-若那些迷惑者有 dvaita 知見，我等（無迷惑者）有 advaita（非二）知見，依此因，我等這一邊不與他們矛盾。
-
-「Indra 以 māyā（幻）在多形中運行」（bṛ.u.2/5/19），「但無第二」（bṛ.u.4/3/23）——依經證。
-
-如醉象上的人向地上醉者說：「騎象者我啊，駕馭象吧，對我這樣說」，雖如此說，對他卻不駕馭，以不矛盾的智慧——同理。
-
-由此從勝義上，梵的知者，對 dvaitin 而言，即是 ātman（阿特瑪）本身。
-
-由此因，我等這一邊不與他們矛盾。//28//
-
-dvaita 與 advaita 之別已說。某人有疑惑：dvaita 也可能從勝義上真實，如同 advaita。故說：
-
-**MandUpK 3.19 偈**
-
-此不生者唯由 māyā 所分別，
-非以任何方式別；
-若從真實分別，
-不死反得死亡性。
-
-**MandUpK 3.19 釋**
-
-那從勝義上真實的 advaita，唯由 māyā 分別——如幻影、如多月、如繩由蛇等多種分別——非從勝義，因 ātman 無部分。
-
-有部分者以部分不同自性分別，如泥土以瓶等分別。因此，無部分、不生、非二之 ātman，並非以任何方式分別。
-
-若從真實分別，自性是不生、不死、無二者反得死亡性，如火得寒性——那是不可欲的（自性反轉到達），違背一切量。
-
-不生、無變的 ātman 真實，唯由 māyā 分別，非從勝義。因此，從勝義上，並無真實分別。
-
-**MandUpK 3.20 偈**
-
-論者主張此不生之存在性有「生」；
-這不生之存在即不死，怎會得死亡性？
-
-**MandUpK 3.20 釋**
-
-但有些吠陀經解釋者、梵的論者，主張這自性不死的不生 ātman 真實有「生」（出生）；從勝義上，他們（ātman）若已生，必得死亡性。
-
-而這不生之不死存在，自性即是 ātman，怎會得死亡性？意思是：死亡性、自性反轉，在任何情況下都將不到來。
-
-**MandUpK 3.21 偈**
-
-不死不成為死亡，
-死亡也不成不死；
-自性的別樣變化，
-任何情況下都將不發生。
-
-**MandUpK 3.21 釋**
-
-在世間中，不死亦不成死亡，不死對死亡亦然。因此，自性的別樣變化（如火之熱性反轉），自身永不發生。
-
-**MandUpK 3.22 偈**
-
-自性不死，誰的存在性去到死亡性；
-造作的不死，怎會不動地保持？
-
-**MandUpK 3.22 釋**
-
-若某位論者，自性不死之存在性去到死亡性，從勝義上生起——那「自性不死」之存在性，在他出生之前，必是虛妄。
-
-那麼，造作的不死之存在性，如何？造作的不死，怎會不動地保持？不死自性者，同樣不會在任何情況下保持。
-
-對 ātman 有生之論者，永恆之「不生」之名不存在，一切是死。因此，有不得解脫之結論——此是意旨。
-
-**MandUpK 3.23 起**
-
-但對主張「不生」者，施設根本之經，不契其權威性嗎？
-
-（答：）確實存在施設根本之經；那（經）卻指向其他。
-
-我等已說那方便，為了入（此教）。
-
-現雖已說破斥，再起問難——
-
-=== 29 | MandUpK 第三卷 23–25 頌 ===
-
-【頌 3.23】
-
-兩種遮遣（parihāra），對所應闡明之義，為除滅吠陀音節之造化經教中並行與相違之疑——
-於從有、或從無所生，經教（śruti）平等不二。
-由經教決定、與正理（yukti）相應者，是；其餘非。
-
-【3.23 釋論】
-
-於真實義中，從有而生成之實事，或從無以幻（māyā）而生、或如具幻者之所生之實事，
-其造化經教平等無別。
-
-「然主要義之語言與對象，於引申義與主要義皆得成立。」
-「不然，否則造化不可知且無所為，如吾等所說。」
-
-一切造化，無論引申義或主要義，其所觀皆為無明（avidyā）所造，於真實義中不成立；
-「彼無生者無外亦無內」（鳩尸羯陀奧義書 Mu.U.2.1.2）經教故。
-
-故由經教決定為唯一、無二、無生、永恆者，亦與正理相應、正理圓具者，
-正是此義，如先典所說。
-此方為經教之義，其餘任何時皆非。//23//
-
-【頌 3.24】
-
-由「此中實無差別」之經教，亦由「因陀羅以幻」之經教；
-無生者以幻多方而出生，唯彼無生。
-
-【3.24 釋論】
-
-若造化乃從有本身而來，則既於真實上非是多種實事，便不應有經教示現其非有。
-然有「此中實無差別」（羯陀奧義書 Ka.U.2.1.11）等經教，遮止二元之相。
-
-故為成立我（ātman）之唯一性，造化乃施設，實為非有，猶如生命氣息之相悅。
-由「因陀羅以幻」（廣森林奧義書 Bṛ.U.3.5.19）以示現非有義之「幻」字故。
-
-「然則『幻』字為般若（prajñā）之義。」
-「誠然；以根般若為惡性故，認許其為幻性，無過。」
-
-「幻」者，即「以根般若、無明相之般若」之義，由「無生者多方而出生」經教故，
-由此唯以幻而出生，唯彼無生。
-
-「唯（tu）」字為限定之義——唯以幻故。
-無生性與多方之生，不能同處共存，猶火中之冷與熱不能同處。
-由能成果故，見我唯一性方為經教決定之義，
-由「見一者何有癡、何有憂」（伊莎奧義書 Ī.U.7）等偈頌故；
-由見造化等差別者受譴，如「彼以死得死」（羯陀奧義書 Ka.U.2.1.10）故。//24//
-
-【頌 3.25】
-
-由遮遣所生（saṃbhūti），生起（saṃbhava）亦被遮止；
-「誰當生彼」——其因亦被遮止。
-
-【3.25 釋論】
-
-由「入於闇闇者，敬事所生」（伊莎奧義書 Ī.U.12），所生者被遮為不可敬事，生起即被遮止。
-若於真實義中生起為真，於生起自身中遮遣所生即不成立。
-
-「然遮遣所生乃為與壞滅並教之意。」
-如「入於闇闇者，敬事無明」（伊莎奧義書 Ī.U.9）。
-
-誠然，遮遣所生乃為說示敬天之事——即所生之境、以「壞滅」名說之業——與壞滅並教之意。
-
-如是，所稱「壞滅」之業——自然無明現行相之死——其意為越度於死。
-由此具二求（eṣaṇā）相之死、不淨相離之人得修治故，
-為越度於死故，具敬天事與業並合相之無明乃應破除。
-
-如是，具有求相之無明、越度於死者、離著者、究觀奧義書義旨者，
-不生內證至上我（paramātman）唯一性之智——此智對於先前之無明，
-及後起之、以得永恆為一之我而與人相關、為得永恆之梵（Brahman）智之無明並合而說。
-
-故以別有用故，遮遣所生對於成就永恆之梵智乃純為譴責之意。
-雖亦是離不淨之
-
-=== 25 | 註（3.25 續） ===
-
-「由於無生、由於與生起相待故，其存在只是相依。從究竟實相觀察，則是常住之真我（ātman）與實在合一，故被稱為『不死』（amṛta）的生起即被遮止。同樣地，由無明（avidyā）所施設、由摩耶（māyā）所造的個體我（jīva），其本性即是——當無明滅除後即回歸其自性之相（svabhāvarūpatvāt）。『誰能創造此（我）？』——由於此（我）非從他生，故『誰能生此』之問，乃破斥增上慢之故而遮止其因：『由無明所生、已滅之法，無有能生之因』乃其意。經云：『此（我）從未曾生起於任何處』（《羯陀奧義書》1.2.18）。」
-
-=== 26 | 3.26 ===
-
-sa eṣa neti netīti vyākhyātaṃ nihnute yataḥ /
-sarvaṃ agrāhyabhāvena hetunājaṃ prakāśate //
-
-「由於遮止一切差別相，此我（ātman）已被解說為『非如此、非如此』（neti neti）。《奧義書》（śruti）恐眾生不解施設方便（upāya）與所施設（upeya）之別，故再次再次以方便施設欲顯示此已闡明之義，故所闡明之一切皆被遮遣——凡可執取（grāhya）者、有生者，皆由與識相應之境（buddhiviṣaya）所攝，皆被遣除。實義上，『此我非如此、非如此』（《廣林奧義書》3.1.26）顯示此我之不可見性，恐未了知施設之住於所施設者，誤將方便所說者視為所施設般可執取，故以『不可執取』為因，遮遣之。由此，當了知方便之住於所施設、而所施設常唯一不變，故其無外、無內、無生之真我自性自然顯現。」
-
-=== 27 | 3.27 ===
-
-sato hi māyayā janma yujyate na tu tattvataḥ /
-tattvato jāyate yasya jātaṃ tasya hi jāyate //
-
-「如是，由《奧義書》千百語句已決定：無外、無內、無生之不二（advaya）真我自性，更無餘物。此亦由理證再次決定，故言——」
-
-「此中之義：若謂此真我自性是『常、不可執取』，則不應有生；若觀為『有生之果』，則彼從摩耶而生。如實有者由摩耶生果，如是觀察世界之生為果，則摩耶主（māyāvin）般之究竟實在之我（ātman）令知世界之生乃摩耶之施設（māyāspada）。因為從實有之因，由摩耶所造之果——如象等——世界之生合理；非從非實有之因。從真實，則此我之生不合理。或復次：實有之物如繩，由摩耶而有生如蛇等合理；非從真實，如是『不可執取』亦由實有之我由摩耶以世界之相而生合理，非從真實無生之我生。何者之究竟實在之無生真我自性以世界之相生者，論者不能說『彼無生者生』，以相違故。由此，其義乃『生者乃從生者生』，故成無窮過失（anavasthā），由生者又為生者故。是故決定：無生不二唯一真我自性。」
-
-=== 28 | 3.28 ===
-
-asato māyayā janma tattvato naiva yujyate /
-vandhyāputro na tattvena māyayā vāpi jāyate //
-
-「非實有（asat）論者之非實有物，由摩耶或由真實皆不應生，以不可見故。如石女之子（vandhyāputra）由摩耶或由真實皆不生，故此中非實有之論自始即不合理。」
-
-=== 29 | 3.29 ===
-
-yathā svapne dvayābhāsaṃ spandate māyayā manaḥ /
-tathā jāgraddvayābhāsaṃ spandate māyayā manaḥ //
-
-「若問『如何可說從實有由摩耶生』——」
-
-「如夢中，心（manas）由摩耶現起二相之動搖（dvayābhāsa）；如是覺時，心由摩耶亦現起二相之動搖。如繩上所分別之蛇，唯以繩之相觀察時為有；如是心唯以究竟實在所證知之我（ātman）之相觀察時為有」
-
-=== 31 | 3.30 — 3.34 ===
-
-（前段註釋續）
-
-如以無所取之相，於夢中以 māyā（幻）現起二相，如繩上現蛇相。
-同樣，於醒覺中亦以 māyā 現起，心亦振動，是其義。//29//
-
-=== 3.30 | 無二現二 ===
-
-心於夢中，無二而現二相，無疑。
-心於醒時，無二而現二相，亦無疑。
-
-【註】
-
-如以繩之自性，現起蛇之相，究竟而言以自性之無二，似現二相，心於夢中無疑如此。
-因於夢中，象等所取與能取之眼等二相，離了 vijñāna（識）便不存在。
-醒時亦同此理。
-以究竟實在唯是 vijñāna 無別故。//30//
-
-=== 3.31 | 心所見 ===
-
-如以繩蛇分別之無相，現起二相之相，唯是心，前已說。
-其證為何？以具同法異法相之比量（anumāna，推理）說：
-
-凡此有動無動之一切二相，皆是心所見。
-心若無作，二相便不可得。
-
-【註】
-
-由心所分別所見，此一切二相皆是心所見，此為宗義。
-因有彼故有，因無彼故無。
-心若無作、止息時——以差別觀、修習與離欲故——如繩上蛇相潛隱，於熟眠中，二相不可得，由「無」故成證二相之非有。//31//
-
-=== 3.32 | 無心之性 ===
-
-「云何得無心之性？」如是說：
-
-以自性真實之覺悟，彼時不作分別。
-所取若無，能取亦無，彼時得無心性。
-
-【註】
-
-自性即真實，據「如陶瓶為名言之變，僅土為真實」（Chā.U. 6.1.4）聖教，由師長教授領悟，即自性真實之覺悟。
-以此不作分別之故，彼不作分別，如薪盡則火滅。
-彼時、其時得無心之性。
-所取若無，彼心亦無所取，即離取與分別之意。//32//
-
-=== 3.33 | 無生之智覺無生 ===
-
-若此二相非真實，以何無生之智覺悟自性真實？如是說：
-
-無分別、無生之智，與所知無異，覺者如是說。
-Brahman（梵）為所知、無生、恆常，由無生之智覺悟無生。
-
-【註】
-
-無分別——離一切分別——因此無生，智唯是明證，與所知——究竟實在之 Brahman——無異，梵之證知者如是說。
-因能知與所知無有別異，如火與熱，據「智與喜為 Brahman」（Bṛ.U. 3.9.28）、「真實、智、無盡為 Brahman」（Tai.U. 2.1）等聖教。
-其屬性即「Brahman 為所知」，此即其自性。此所謂梵所知，如火之熱，與火無異。
-以自性之無生之智，無生所知、自性真實，自身自證、自悟。
-如日恆常光明為自性，智為恆常一味密集故，不待餘智。//33//
-
-=== 3.34 | 攝心之行 ===
-
-以自性真實之覺悟，不作分別，無外所取，如無薪之火寂滅，攝心、止息之心已成，前已說。
-如是心若無作，二相亦無，前已說。
-其頌云：
-
-攝心、智者、離分別之心，
-其行相當知，唯有熟眠可與比擬，餘者不及。
-
-【註】
-
-攝心——止息之心——離分別——離一切分別——智者——具差別觀者——之行相，其行相應為瑜伽士所特別了知。
-然而於一切心相皆無之時，熟眠中之心行相如是，攝止之心亦應如是……（原文此處截斷）
-
-=== 32 | 第三篇 第35-37頌 ===
-
-由於此狀態無差別，於彼有何可知？
-對此答道：不然；因為在深睡（suṣupta）中另有運作。被無明（avidyā）愚癡黑暗所吞沒、其內在潛伏無數惡業現行種子的習氣者，由於心（manas）已被自我真實性的直覺之火所焚，惡業現行之種子已被斷滅，故有另一從一切煩惱塵染寂靜、自在的運作。
-因此彼不如是。
-故他說「彼當被了知」是有此意圖。 //34//
-
-關於運作差別之原因，他說：
-
-於深睡（suṣupte）中有融入者，亦有被制而不融入者。
-那無畏之梵（brahma），是智光、遍一切。 // 3.35 //
-
-睡眠者之所以融入（līyate），乃因彼與一切無明等認知種子的習氣同住，入於黑暗之相、無差別之相，到達種子位。若彼已由揀別智先行制（nigṛhīta）而不融入者，則不入於黑暗種子位。
-故如上所說：深睡者與心已集中者之運作差別。
-由於能所（grāhya-grāhaka）之無明所生之垢染、與二取（dvaita）皆已遠離，故彼時即是至上不二之梵（brahma）為其所證。由是，彼即是無畏者，因怖畏之因——二取——不存在。
-「寂靜無畏之梵（brahma），知者不懼任何處」，
-此中以特殊方式說 jñāpti（智之成就）、jñāna（智）、ātmasvabhāvacaitanya（自我本性之覺性），彼即是「jñānam ālokaḥ」（智為光），故此梵（brahma）為「jñānāloka」（智光），即「純然覺識之密集」之義。
-samantataḥ（遍）= samantāt（從一切方面）、sarvataḥ（從一切），如虛空遍滿、無間斷之遍滿義。 //35//
-
-無生（ajam）、無自在主（anindram）、無夢（asvapnam）、無名（anāmakam）、無相（arūpakam），
-恆常照耀（sakṛdvibhātaṃ）、一切知（sarvajñaṃ），不可以任何方式施設（upacāra）。 // 3.36 //
-
-由於無生之因故，內外皆無生；
-無明為生之因，如前述繩蛇之喻。
-此由無明為自我真實性的直覺所滅，故無生，從而無自在主（Indra）。
-無明之相為無始之幻（māyā），即是睡眠（nidrā）。
-從睡眠醒來時，以不二之自性與自我，故無夢（asvapna）。
-當未覺時，彼無名無相。
-覺悟之時，如繩蛇已滅故，梵（brahma）不以名被稱、不以相被示，於任何方式皆無名無相（anāmakarūpakaṃ）。
-「言語從彼轉回」（tai.u.2/4/1）等經文為證。
-又，sakṛdvibhātaṃ（一次照耀）= sadā vibhātaṃ（恆常照耀）= sadā bhārūpam（恆常光明之相），由於無取與不取、無顯現與隱沒之別。
-蓋取與不取者即夜與晝，此為無明之相；若彼不存在則無恆常黑暗之因。
-由於無彼（黑暗）且為恆常覺性光明之相，故說 sakṛdvibhāta（一次照耀）為合理。
-由是，彼是一切、亦以自性知一切，故 sarvajñaṃ（一切知）。
-於此梵（brahma）不應有如是之 upacāra（施設）。
-如其他者離自我自性而有定（samādhi）等之施設；
-由於梵（brahma）為恆常清淨覺悟解脫自性，故不應以任何方式施設，施設亦不可能；
-即無明已滅之義。 //36//
-
-為成就「無名」等所說之義理，他給出理由：
-
-遠離一切言說、超越一切思惟所生，
-極寂靜、恆常光耀之三昧（samādhi），不動、無畏。 // 3.37 //
-
-abhilāpaḥ（言說）= 由其而被稱說故，即一切種類指稱之言說，故已遠離之。
-此亦以言語為代表，整個已離於造作梵（brahma）之工具。
-同樣，sarvacintāsamutthitaḥ（超越一切思惟所生）。
-cintā（思惟）= 由其而被思故，即覺（buddhi），其內部所生已離於內在工具（antaḥ karaṇa）之義。「無生命、無心意、白淨、超越無音、超越至上」（mu.u.2/1/2）等經為證。
-由於已離一切對境，故 supraśāntaḥ（極寂靜）；
-sakṛjjyotiḥ（恆常光耀）= 恆常以自我覺性之本性為光耀；
-samādhiḥ（三昧）= 由三昧之因——般若（prajñā）所通達故；或「於彼而被定故」之三昧；
-acalaḥ（不動）= 不變易；
-由是 abhayaḥ（無畏）；
-
-=== MandUpK 3.38 ===
-
-既說此 samādhi 即是 Brahman，不動、無畏，則於其中——
-無攝取（graha），無捨離（utsarga），思慮（cintā）不存；
-其時 jñāna 安住於 ātma，無生（ajāti），已達平等（samatāṃ-gata）。
-
-=== MandUpKC 3.38 ===
-
-於彼 Brahman 中：graha（攝取）——所謂 upādāna（執取）——不存在；utsarga（捨離）——所謂棄捨乃至 hāna（損失）——亦不存在。
-
-若有變異或所變之境，則於彼可有 hāna 與 upādāna；然此二者於此 Brahman 中皆不生起。
-
-以變異之因別無其他，又以（Brahman）無分（niravayavatva）故。
-
-故彼處無 hāna、無 upādāna——義如是。
-
-cintā 彼處不存在：凡一切思慮，於無心之處皆不生起；彼處何得有 hāna 與 upādāna？義如是。
-
-ātma-satya 之覺悟（anubodha）一旦生起，則因所緣（viṣaya）不存，jñāna 如火之與熱，唯住於 ātma 之中——
-
-ajāti，離生；samatāṃ-gata，已達至高之平等。
-
-開篇所宣之「我當宣說 akārpaṇya（不貧陋）、無生、已達平等」，今依推理（upapatti）與教說（śāstra）略攝之：「無生，已達平等。」
-
-此義獨屬 ātma-satya 之覺悟，他處不涉。《Bṛhadāraṇyaka》3.8.10 云：「凡不知此 akṣara（不滅）、由此世去者，是為 kṛpaṇa（可憐者）。」
-
-得此已，一切人皆為已辦所辦之婆羅門——此是密意。
-
-=== MandUpK 3.39 ===
-
-此所謂 asparśa-yoga（無觸瑜伽），誠難為一切 yogin 所見。
-yogin 畏之——於無畏處見畏者。
-
-=== MandUpKC 3.39 ===
-
-此 yoga：以離一切「saṃbandha（繫縛）之觸」故，於諸 upaniṣad 中素稱「asparśa-yoga」。
-
-dur-darśa（難見）：為一切缺 vedānta 所教 vijñāna（智慧）之 yogin 所難見。
-
-此義即：ātma-satya 之覺悟難得故。
-
-yogin 畏之：此瑜伽雖離一切畏，彼等卻以此瑜伽為 ātma 之滅相，於無畏處施畏——bhayadarśin：樂以 ātma 之滅為畏因而作是見之 avivekin（無辨者）。義如是。
-
-=== MandUpK 3.40 ===
-
-一切 yogin 之無畏（abhaya），依心之攝制；
-duḥkha 之寂滅、prabodha 亦然、akṣayā śānti 亦爾。
-
-=== MandUpKC 3.40 ===
-
-一切 yogin 之無畏，依心之攝制。
-
-復次，duḥkha 之寂滅（duḥkṣaya）亦爾——若與 ātma 相連之心動搖，於 avivekin 則無 duḥkṣaya。
-
-復次，ātma 之 prabodha（覺醒）亦唯依心之攝制。
-
-如是，mokṣa 所名之 akṣayā śānti（不滅之寂），於彼等亦唯依心之攝制。
-
-=== MandUpK 3.41 ===
-
-如以吉祥草（kuśa）尖之一滴，欲潤大海；
-心之攝制亦應如是，無懈。
-
-=== MandUpKC 3.41 ===
-
-彼等之心攝制，亦當如以 kuśa 尖之一滴「涸竭大海」之決志（śoṣaṇa-vyavasāya-vat）；由內諸根之不厭倦（nirveda），而無懈（aparipheda）。義如是。
-
-=== MandUpK 3.42 ===
-
-應以方便（upāya），攝制為欲樂（kāma-bhoga）所散動（vikṣipta）之心；
-於寂（laya）之中亦當極清明（suprasanna）：欲如是寂、寂亦如是。
-
-=== MandUpKC 3.42 ===
-
-「非僅以無懈（aparikhinna）之決志（vyavasāya）為心攝制之方便乎？」「非也。」（如是說——）
-
-具足 aparikhinna-vyavasāya 者，以當說之方便，攝制為欲樂之境（kāma-bhoga-viṣaya）所散動之心⋯⋯[後文殘缺
-
-=== 3.43 | 第四十三頌 ===
-
-憶念一切皆為苦，
-應當背離欲與樂。
-憶念一切為無生，
-彼誠不見有已生。
-
-一切二相皆由無明開展，其體即是苦。憶念此故。
-
-從欲樂——以欲為因之受、以欲為所緣之受——心已流散而出，應當以離欲之修習而令迴轉，此其義也。
-
-「一切皆是無生之梵」——依於經典、依於師教而憶念——彼不見任何與此相違之二相與已生之事物，因為本無。
-
-=== 3.44 | 第四十四頌 ===
-
-沉沒當警覺其心，
-掉舉再令得寂靜。
-帶染者應當了知，
-已得平等勿動搖。
-
-如是以智修習與離欲二法為方便。沉沒於深眠淪沒之心，當以自我明辨之正見使其警覺而結合。
-
-「心」與「意」異名同義。
-
-掉舉於欲樂之中者，再令寂靜。
-
-如是不斷修習，從沉沒中警覺，從諸境中已遠離，而尚未得平等之中間狀態——帶染、有貪、與種子相應者——是名「心」，應當了知。
-
-從此更當努力而達平等。
-
-何時已得平等，即已傾向於平等之義，從此不應再動搖之，即不應使其再傾向於諸境，此其義也。
-
-=== 3.45 | 第四十五頌 ===
-
-於中不應嘗此樂，
-當以慧而無所繫。
-不動而出之心念，
-努力使其得專一。
-
-修習三昧之瑜伽士所生之樂，不應嘗味，於其中不應貪著，此其義也。
-
-然則如何？以無繫、無求之心，以明辨之慧，所證之樂乃是無明所妄計、虛妄不實，應當如是證知。
-
-由此更應節制對樂之貪，此其義也。
-
-如對樂之貪已離，其本性不動之心，已得寂止而不再外流，從此以所說方便攝制，應當努力使其唯歸於我，成就心之自性實相，此其義也。
-
-=== 3.46 | 第四十六頌 ===
-
-心若不沉不復掉舉，
-無所住亦無所顯時，
-彼即是為成就之梵。
-
-如以所說方便已攝制之心，何時於深眠中不沉沒，亦不再掉舉於諸境——無所住而不動，譬若無風處之燈——無所顯，不為任何所妄計之境相而顯現。
-
-當心具此相時，彼即是成就之梵——心已成就於梵之自性，此其義也。
-
-=== 3.47 | 第四十七頌 ===
-
-安住寂靜具涅槃，
-不可說為最上樂。
-無生由無生可知，
-說為全知之梵。
-
-如上所說之最上真實之樂，以證得我之真實為相：安住，住於自身；寂靜，寂滅一切過患之相；具涅槃，離繫解脫之獨存，與涅槃俱有；不可說，不可言宣，以其為最無共許之對象；最上之樂，無比上品，唯是瑜伽士之現量所知。
-
-如「無生」本非已生，境與所境亦爾。以無生——未曾生起——之可知者為可知，非異、即自性也。以全知之相為相，全知之梵即是此樂，諸婆羅門宣說——
-
-=== 3.48 | 第三章第四十八頌 ===
-
-以上所說的一切，包括心的制御、如泥土與金屬等物一般的創生，以及觀修，都是領悟究竟真實本性的方便，並非究竟真理。
-
-究竟真理則是：
-
-沒有任何 jīva（個體我）出生，
-它的生起亦不可得；
-在其中無有任何事物出生，
-這就是最高的真理。 //48//
-
-沒有任何 jīva 出生；行動者與受用者，皆不以任何方式產生。
-
-因此，這本性不生而唯一的 Ātman（自我），沒有生起的原因；此原因並不存在。
-
-因為它的原因不可得，所以說：「沒有任何 jīva 出生。」
-
-在先前作為方便而宣說的諸種真理中，這就是最高的真理：在以真實為本性的 Brahman（梵）之中，連原子般微小的任何事物也不出生。 //48//
-
-=== 4 | 燃炬止息品 ===
-
-藉由判定 oṃkāra（唵音），依聖教而立的不二，由外在對象差別的虛妄而得以成立；又以經典與理證，直接確定不二之後，末尾便以「這就是最高的真理」作為總結。
-
-與這一聖教義旨及不二見相對立的，是二元論者與斷滅論者。由於他們彼此矛盾，他們的見解成為貪、瞋等煩惱的依處；因此指出了那些見解乃是邪見。
-
-由於不二見並非煩惱的依處，故它是正見；不二見由此受到讚揚。
-
-因此，此處將詳細顯示諸見因彼此矛盾而成為邪見，再藉由否定它們，依 avīta-nyāya（反證法）總結不二見的成立。由此開始〈燃炬止息品〉。
-
-=== 4.1 | 第四章第一頌 ===
-
-此處第一首頌，是向不二見傳承的建立者致敬；所禮敬者即是不二的本性。
-
-在經典開始時禮敬導師，是為了成就所期望的宗旨。
-
-以如虛空的智慧，
-覺悟如太虛的諸法；
-此智與所知不異，
-我禮敬彼二足中最勝者。 //1//
-
-「如虛空」是說尚非虛空本身，而與虛空相似。
-
-以這如虛空的智慧，覺悟什麼？覺悟作為 Ātman 的諸法。它們有何特徵？它們以太虛為譬喻，故稱「如太虛」；所覺悟的，正是這些如太虛的 Ātman 諸法。
-
-此處又進一步限定智慧：智慧與作為所知的諸法、諸 Ātman 並無差別，如火與熱、太陽與光明一般。
-
-以這與所知不異、如虛空的智慧，也就是不離所知之 Ātman 本性的智慧，覺悟如太虛諸法者，即是已經正覺之人。
-
-此人正是名為 Nārāyaṇa（那羅延）的自在主。我禮敬他，向他致敬。他是二足者之中的最勝者，也就是以二足為標誌的人類之中最為尊貴者、至上之人。
-
-藉由禮敬教導者，本品立下所欲闡明的究竟見：它遠離能知、所知與知三者的差別；此見將藉由否定相反主張而得到闡明。 //1//
-
-=== 4.2 | 第四章第二頌 ===
-
-現在，為了讚揚不二見之瑜伽，而向它致敬：
-
-此確實名為 asparśayoga（無觸瑜伽），
-為一切眾生帶來安樂與利益；
-它無有爭論，亦不相違；
-我禮敬如此宣說的瑜伽。 //2//
-
-「觸」就是接觸，也就是關係。若一種瑜伽在任何時候都不與任何事物發生關係，它就是 asparśayoga；它正是 Brahman 的本性。
-
-「確實名為」是說：在知 Brahman 者之中，它正以「asparśayoga」之名而聞名。
-
-它也為一切眾生帶來安樂。
-
-有些事物雖是獲得究竟安樂的殊勝方法，本身卻具有痛苦的性質，例如苦行；此瑜伽並非如此。
-
-那麼它是什麼？它是一切眾生的安樂。
-
-同樣，有些感官享受雖然令人愉悅，卻沒有利益；此瑜伽則既安樂又有益，因為它具有恆常而不動搖的本性。
-
-此外，它沒有爭論。採取主張與反方主張而彼此說出相違之言，就是爭論；在這瑜伽之中並無此事，所以它沒有爭論。
-
-為什麼？因為它本身亦不與任何事物相違。
-
-如此的瑜伽已由經典宣說與教示；我禮敬它，也就是向它致敬。 //2//
-
-=== 36 | 第四章 4.3-4.10 ===
-
-=== 4.3 ===
-有論師主張已生之物的生起，另一些智者爭論未生之物的生起；
-彼此相互對立。
-
-=== 4.4 ===
-已生者不生起，未生者亦不生起；
-如是對立爭論之不二論者，宣說 ajāti（無生）。
-
-=== 4.5 ===
-彼等所宣說之 ajāti，我等亦隨喜之；
-然我等不與彼等爭論，請聽無諍之說。
-
-=== 4.6 ===
-諸論師主張無生之 dharma（法）亦有生起；
-然無生且 amṛta（不死）之 dharma，云何而成死？
-
-=== 4.7 ===
-amṛta（不死）不成為 martya（有死者），martya 亦不成為 amṛta；
-prakṛti（本性）之變異，畢竟不會發生。
-
-=== 4.8 ===
-其本性為不死之 dharma 而走向死亡；
-其不死由人為所造，云何不動而能住立？
-
-=== 4.9 ===
-成就性、自然性、俱生性、非所作性，
-此 prakṛti 應當知，不捨 svabhāva（自性）。
-
-=== 4.10 ===
-[原文殘缺]
-
-=== 37 | 第四章頌 10–15 ===
-
-**頌 4.10**
-
-一切法（dharma）自性（svabhāva）已離 rāma（喜）與 araṇa（悲）；
-然心念（manīṣā）竟欣求老死，遂由是而流轉。
-
-**釋 4.10**
-
-「離老死」——意謂遠離老死等一切變易。
-是誰？一切法（dharma），即一切 ātman（我），由自性故，本來如是。
-如是自性之法，雖欣求老死——猶如執繩為蛇，於自心中妄立——
-然自然流轉。流轉者，自性動搖之義。
-由彼心念（manīṣā）——即生滅之思惟、由有而無之過患故。
-
-**頌 4.11**
-
-若某派以因（kāraṇa）即果（kārya），
-則其因從果而生；
-然所生者云何為無生（aja）？
-分裂者云何為常（nitya）？
-
-**釋 4.11**
-
-「因」——具柔軟攝持因相之某派所立之果，以因果之相而轉變。
-其義：此派之主 pradhāna（原初物質）原為無生，今以 mahad（覺）等果相而出生。
-以 mahad 等相出生之 pradhāna，如何被稱為無生？
-此與彼等所立「無生」之說相違。
-又彼等言 pradhāna 為常，然 pradhāna 為「分裂」（bhinna）——破裂、一部分破碎之相。
-世間所見瓶等具部分之物，一部分破碎即非常住；如是而說。
-分裂者又云為「無生」「常住」，彼等所立互相違背，此其本意。
-
-**頌 4.12**
-
-若由因汝許果與因無異（ananyatva），
-則此果本應無生；
-然從所生之果，汝之因云何能常住（dhruva）？
-
-**釋 4.12**
-
-若由無生之因，汝許果與因無異；
-則由彼因所出之果，汝應說為「無生」——此義已成。
-然「果為無生」之說，亦與汝所立相違。
-更進言之：若因果無異，則從所生之果，
-汝之因如何能常住不壞？
-譬如母雞，一部分煮食，一部分孵卵——因果豈可同一？
-
-**頌 4.13**
-
-若言果從無生者而生，
-此派則無譬喻（dṛṣṭānta）可立；
-又從所生引生所生，
-則墮無窮過失。
-
-**釋 4.13**
-
-若某派言果從無生之事物而生，則無譬喻可證；
-以無譬喻故，從無生者畢竟無物可生——此義已成。
-若彼又承許「從所生引生所生」，則此所生者復從他生，
-彼復從他生……如是墮於無窮過失。
-
-**頌 4.14**
-
-若彼等之果從因（hetu）而始，
-其因從果（phala）而始；
-如是因果皆無始（anādi），
-彼等如何能成立？
-
-**釋 4.14**
-
-「因之始」：dharma 等之因；
-「果」：deha（身）等之集聚。
-若彼等派言：因與果互為因果，則此因與果皆無始之義，
-如何為彼等所立？相違故。
-常、堅住、不動之 ātman（我），
-不容有因果之性。
-
-**頌 4.15**
-
-若彼等之果從因（hetu）而始，
-其因從時（kāla）而始；
-則彼等之生起，
-譬如父（pitr̥）從子（putra）而生。
-
-**釋 4.15**
-
-由因所生之果，從彼果之因復生……
-
-=== 4.16 | 第四章 第十六頌 ===
-
-若你以為上述的違難不宜接受——
-則生起中，hetu（因）與 phala（果）的次第應由你考察；
-因為若二者同時生起，則如 śaśaviṣāṇa（兔角）一般無有關係。
-
-生起中，因與果的次第應由你考察；其餘學派考察的次第是「因在前，果在後」。
-由此，因與果若以因果關係同時生起，則無有關係——如同牛之左右二角同時生起。// 4.16 //
-
-=== 4.17 | 第四章 第十七頌 ===
-
-若問：「何以無有關係？」——
-從果而生起時，你的因不能成立；
-未成立的因，如何能生起果？
-
-從果生起的因，從自身無所得自性的兔角等譬喻而論，因不能成立，不得生起。
-無所得自性、未成立的兔角等譬喻，如何能為你生起果？
-因為相互依待而成立的兔角譬喻，從未見以因果關係相連，否則便可成立——這是論旨。// 4.17 //
-
-=== 4.18 | 第四章 第十八頌 ===
-
-若因成就果，果亦成就因，
-二者互相依待——何者先已成就？
-
-雖以「無關係」之失破斥因果關係，若你仍接受因與果相互成就，則二者之中何者先成？後者之成依前者之成，請回答！// 4.18 //
-
-=== 4.19 | 第四章 第十九頌 ===
-
-若你以為此不可說，則——
-無能、或無知、或次第顛倒，
-如此則智者以一切方式宣說 ajāti（無生）。
-
-這無能即是無知，即是不達真實的愚癡。
-或者，你所說因之次第成就、果之次第成就——這是相互隨順之相，其顛倒即是反轉或變異——這是論旨。
-如此，因與果因果關係的不成立，無生已被智者、博學者宣說。// 4.19 //
-
-=== 4.20 | 第四章 第二十頌 ===
-
-你說：「種芽譬喻是怎樣？」——則答：
-名為種芽（bījāṅkura）的譬喻，常與所立（sādhya）等同；
-等同所立的因，不能用於成立所立。// 4.20 //
-
-名為種芽的譬喻，論敵說「與我所立等同」——這是論旨。
-你問：種芽的因果關係現量可見，豈非無始？
-答：不對，因為承認前前各有後後為其初始。
-例如現在生起的後芽來自有初始的種子，種子又來自另一芽，以此類推皆各有初始。
-如此，前前的芽與種子皆各有初始；何況一切種芽類因皆有初始，故於任何一法無始皆不成立。
-如此，因與果亦然。
-若說：種芽相續無始？則不對，因為一性不成立。
-因為離開種芽別無種芽相續或因果相續可被接受，故為無始論者所說：「因與果的無始，如何由他們可說？」
-
-
-
-
-<!-- CHUNK 40/53 FAILED — retry needed -->
-
-
-=== 41 | 第四章·第二十八至三十四頌段 ===
-
-saṃsparśa（接觸）。
-
-無因之顛倒，如何其心將成顛倒？其旨意：絕無少許顛倒。
-心的自性正是：於無因時，如瓶等亦無彼之顯現。
-〔結偈 27〕
-
----
-
-=== 28 ===
-
-〔釋〕由於非實中如瓶等之顯現，乃唯識論者（vijñānavādin）所許；吾等亦由有身之見故隨許之，故彼心之生顯現於非實中乃合理之生。是故心不生，心所見（cittadṛśya）亦不生。若唯識論者見此心之生——以剎那性、苦性、空性、無我性等——即以此心見心自性為不可得者，乃於虛空（kha）中見其處，即旁側等之歸趣。
+=== 23 | 第三品第二十三頌 ===
 
 頌：
 
-tasmān na jāyate cittaṃ cittadṛśyaṃ na jāyate /
-tasya paśyanti ye jātiṃ khe vai paśyanti te padam //
+無論從實有（bhūta）或從非實有（abhūta）而被創造，
+聖教（śruti）皆同等；
+已決定且合於道理者唯此，其餘則否。
 
-是故心（citta）不生，心所見亦不生；
-其生若彼見者，乃於虛空中見其處。
+註：
 
-〔釋〕故此較其他二執論者（dvaitin）更極粗暴——亦有空論者（śūnyavādin）正見一切空、自所見亦空、自所見亦空而自稱者，彼等較此更粗暴，欲以拳亦攝取虛空。
-〔MandUpK 4.28〕
+於真實中從實有被造之物，或於真實中從非實有——亦即從幻力（māyā）——被造之物，
+有關創造之聖教乃同等。
 
----
+然於譬義（gauṇī）與勝義（mukhyā）二者之中，於勝義處應理解語詞之義，此乃合理。
 
-=== 29 ===
+不對，否則創造不能被建立，且將無有意義——我們已說過。
 
-〔釋〕由前述諸因故，「無生唯一梵」是已建立。然最初所宗者，為得果攝故立此頌：
+一切譬義與勝義之創造，皆以無明（avidyā）所造為對境，並非真實。
 
-頌：
+「無有外內之不生者」（mu.u.2/1/2）之聖教故。
 
-ajātaṃ jāyate yasmād ajātiḥ prakṛtis tataḥ /
-prakṛter anyathābhāvo na kathañcid bhaviṣyati //
+因此，由聖教所決定者：「唯一無二、不生（aja）、不死（amṛta）」，且合於道理、由道理所圓成者，正是如此——我們依前人之典籍所言。
 
-無生者（ajāta）生故，自性（prakṛti）為無生；
-自性之異相變異，畢竟將無有生。
+聖教之意義正是如此，絕非其他。
 
-〔釋〕彼諸論者施設「無生之心，梵即生」，然其無生者生故，自性為無生；是故由無生相之自性，異相之生畢竟將無。
-〔MandUpK 4.29〕
-
----
-
-=== 30 ===
-
-〔釋〕此另外，指究竟真實存在論者之輪迴（saṃsāra）、解脫（mokṣa）二者之過失：
+=== 24 | 第三品第二十四頌 ===
 
 頌：
 
-anāder antavattvaṃ ca saṃsārasya na setsyati /
-anantatā cādimato mokṣasya na bhaviṣyati //
+聖教說「此中無任何多元」，
+亦說「Indra 通過幻力」——
+未生者以幻力多樣地生起。
 
-無始之輪迴，其有終之性不可證得；
-有始之解脫，無終之性將無。
+註：
 
-〔釋〕無始、超越終極、無餘之輪迴，其有終性不可證得，合理之建立不可得。世間不見無始而有終之法。若言：種芽相續中間斷絕為所欲求反例，彼非物自性故被遣除。如是有始之解脫——生於證智之時——亦將無有終性，如瓶等中不見涅槃常住。若言：如瓶等壞故無常為過失；如是則破壞解脫之究竟真實存在之宗。猶如兔角因非實故，亦無有始性之過。
-〔MandUpK 4.30〕
+若實從實有而有創造，則「存在真實之多元之物」；如此，為顯示其不存在，聖教便不需要了。
 
----
+然有「此中無任何多元」（ka.u.2/1/11）等聖教，旨在遮止二元之存在。
 
-=== 31-32 ===
+因此，為令證得「我」（ātman）之唯一性，所施設之創造乃非實有，如「氣息之談論」（prāṇasaṃvāda）。
 
-〔釋〕為成立虛妄性故，此處立二頌，依輪迴解脫無有之過而立：
+由「Indra 藉幻力」（bṛ.u.3/5/19）以表示非實有之義之幻力一詞而被說示。
 
-頌：
+然幻力一詞是智慧之代名詞？
 
-ādāvante ca yan nāsti vartamāne 'pi tat tathā /
-vitathaiḥ sadṛśāḥ santo 'vitathā iva lakṣitāḥ //
+誠然；因以根境之智慧為不清淨染污性，故認同其為幻，並無過失。
 
-若於初、於終亦無，於現在亦爾；
-等同虛妄，似非妄而實被分別。
+「māyābhiḥ」即「以根境之智、以無明為形」之意。
 
-saprayojanatā teṣāṃ svapne vipratipadyate /
-tasmād ādyantavattena mithyaiva khalu te smṛtāḥ //
+由「未生者多樣地生起」之聖教故，因此唯以幻力而彼生起。
 
-彼等之有效用，夢中相互矛盾；
-故以有初有終故，彼等確為虛妄所憶。
-〔MandUpK 4.31-32〕
+「tu」一字為限定之意——唯以幻力。
 
----
+未生性與多樣生起不能並存，如火之冷與熱不能並存。
 
-=== 33 ===
+且因其有結果，故聖教決定之意義，正是顯示「我」之唯一性。
 
-〔釋〕由有因為無因之性，由有（身）見故欲說此義，以諸偈而說：
+由「彼處有何迷妄？有何憂悲？見唯一性者」（ī.u.7）等諸聖句故。
+
+由「彼由死而得死」（ka.u.2/1/10）之被貶斥，及對創造等差別之見故。
+
+=== 25 | 第三品第二十五頌 ===
 
 頌：
 
-sarve dharmā mṛṣā svapne kāyasyāntanidarśanāt /
-saṃvṛtte 'smin pradeśe vai bhūtānāṃ darśanaṃ kutaḥ //
+由對「已生」之否定，生起亦被否定；
+「誰能生起他」——對原因之否定。
 
-一切法（dharma）皆妄，由夢中身體內見故；
-於此捲攝處，有情之見復何從？
-〔MandUpK 4.33〕
+註：
+
+由「入於暗冥之甚者，乃崇敬已生者」（ī.u.12）——對已生之可崇敬性之否定，故生起被否定。
+
+真實中，已生者若已生，則對彼之否定並不合理。
+
+然而，「已生」之否定，是以與「壞滅」合說為義——
+
+如「入於暗冥之甚者，乃崇敬無明者」（ī.u.9）。
+
+誠然，對「神我觀照」——其對境為「已生」、以壞滅之語所表之業——之合說，乃「已生」否定之義。
+
+復次，名為「壞滅」之業——以自然之無明流轉為形——其義為度脫死亡。
+
+如是，由此兩種尋求形相之不清淨之死中解脫之人，乃被陶冶之行者；故以度脫死亡為義、以神我觀照業之合說為相之無明，
+
+如是，度脫死亡、離欲、專注於奧義書義理探尋者，無間生起「梵我」（paramātman）唯一之智；此相對於前有之無明，後有之梵智（brahmavidyā）作為不死之手段，與此人結合之無明，合說為一——此即所說。
+
+因此，「已生」之否定，捨棄以不死為義之梵智，唯取貶斥之義。
+
+雖然，此亦以離不清淨為因，故已決定。
+
+=== 25 | MandUpK 3.25 ===
+
+由於「生成」是依相對條件而有的存在，因此，依據真實存在、 आत्मन्（自我）唯一性的究竟實相，所謂「不死的生成」便被否定了。
+
+同樣，這個由 māyā（幻）所造、由無明呈現出來的生命個體，在無明消滅時便成為自己的本性；從究竟實相來說，又有誰能生成它呢？
+
+沒有人會再生成那條繩子上由無明錯認而成、後來因辨別而消失的蛇。
+
+同樣，沒有人能生成它；「誰」這個詞是用來表示反問，因此，生成的原因被否定了。其意是：由無明生起而後消失的事物，沒有任何生成者或原因。經文說：「他不曾從任何地方生成，也沒有任何人成為他。」（《迦陀奧義書》1.2.18）
 
 ---
 
-=== 34 ===
+=== 26 | MandUpK 3.26 ===
 
-na yuktaṃ darśanaṃ gatvā kālasyāniyamād gatau /
-pratibuddhaś ca vai sarvas tasmin deśe na vidyate //
+因此，祂被如此解說的「非此，非此」所否定；  
+由於一切皆不可 grasp，祂以此理由顯現為無生。  
 
-往（見）非宜見之見，由時間無定故往；
-一切已醒者，於彼處所皆不存在。
+由於以否定一切特徵的方式，經文說明了「現在，指示如下：非此，非此」（《大森林奧義書》2.3.6）所指示的 आत्मन्（自我）難以理解，於是經文為了再次、反覆地以其他方法指示同一個自我，便否定了前面所解說的一切，否定一切可被認知、屬於由生起而成的心識對象之物。
 
-=== 42 | 第四章 第三十四頌 ===
+也就是說，經文藉由「這就是非此，非此」（《大森林奧義書》3.1.26）顯示自我的不可見性。經文不了解方法必須以所達成的目標為歸依，因此，是為了避免被解說為方法之物如同目標一般成為可 grasp 的對象，才以「不可 grasp」為理由而否定它。
 
-於 jāgarita（醒覺）狀態中，行往來之時間固定，處所依計量而決定；以其無一定規則之規則故，於 svapna（夢）中便無往至他處之事。此其義也。
-
-=== 43 | 第四章 第三十五頌 ===
-
-（頌）與朋友等共議之後，於 pratibuddhi（完全覺悟）不得證入；
-所曾執取之一切，覺悟者不復見之。
-
-（釋）與朋友等共議——此唯同一之思惟耳，於完全覺悟不得證入；所曾執取之金等物，亦不得獲；是故夢中不往他處。
-
-=== 44 | 第四章 第三十六頌 ===
-
-（頌）夢中之身亦 avastuka（無實體），以別見另一身故；
-如同此身，凡 citta（心）所見一切，皆是無實。
-
-（釋）夢中所見之身乃無實，以別見另一睡眠中身故。如夢中所見之身不實，醒覺中一切心所見亦皆無實，以皆為心所見故，此其義也。夢與醒覺同等，二者皆非實——此全章之義。
-
-=== 45 | 第四章 第三十七頌 ===
-
-由此，醒覺中之對象 asattva（無實）：
-以如醒覺般被執取故，夢為其因；以夢為因故，其本身之夢樣醒覺即是。
-
-=== 46 | 第四章 第三十八頌 ===
-
-然則：夢雖為因，醒覺之對象不如夢之無實——夢極動搖，而醒覺見為穩固。此於 avivekin（未證分辨者）為然。然於 vivekin（已證分辨者），無一物生起，以彼本已證知故；以生起未得證明故，一切宣說為 aja（無生）；已存在者不從不存在者而生，此理從來未有之。
-
-=== 47 | 第四章 第三十九頌 ===
-
-然豈非汝自言夢為醒覺之因耶？則云何言生起未得證明？請聽我等所指之因緣關係如何：於醒覺中見 asat（無實），夢中即見充滿彼；於夢中無實見已，於完全覺悟時不復見。
-
-=== 48 | 第四章 第四十頌 ===
-
-然就 paramārthatas（究竟實相）而言，任何事物任何方面，因果關係皆不得成立。何以故？無實之物無無實之因，亦無有實之因；有實之物亦無有實之因；無實之物云何得有有實之因？
-
-=== 40 釋續 | 第四章第四十頌釋續 ===
-
-彼 [ātman（自我）] 無 śaśaviṣāṇa（兔角）之類非有之因（hetu）；以 svakusumādīn（空華等）本無故，其非有之因、非有之果，不成就。
-又 ghaṭādīn vastu（pot 等物）雖是有，亦無 śaśaviṣāṇādīn（兔角等）非有因之果。
-又 vidyamāna-ghaṭādīn vastu（pot 等現有之物）內部之 vastu-antara-kāryam（物間之果）亦無。
-有之果從非有如何得生？他種 kārya-kāraṇa-bhāva（因果性）能生、能施設否？是皆不可。
-故於簡擇者之見，kārya-kāraṇa-bhāva（因果性）不可得，kasya cid ity abhiprāyaḥ（此其意旨）。//40//
-
-=== 41 | 第四章第四十一頌 ===
-
-viparyāsād（由顛倒），如 jāgrat（醒位），
-acintyān（不可思議者）如 bhūta-vat（實物般）而觸；
-tathā svapne（如是夢中）viparyāsād（由顛倒），
-tatra eva（於彼中）dharmān（諸法）paśyati（見）。//4.41//
-
-=== 41 釋 | 第四章第四十一頌釋 ===
-
-由 avivekataḥ viparyāsād（未簡擇之顛倒故），如 jāgra-jāgarite（醒位之覺者），有對 acintyān aśakya-cintanīyān bhāvān（如 rajju-sarpa 繩蛇等不可思議之事）作如觸 paramārtha-vat（實事般）之想者，義如是。
-如是於 svapna（夢中）由 viparyāsāt（顛倒故），對 hasty-ādīn dharmān（象等諸法）作有見之想；tatra eva（於彼中）見，非由 jāgaritād utpadyamānān（醒位中已生起者生），ityarthaḥ（是其義）。//41//
-
-=== 42 | 第四章第四十二頌 ===
-
-Upalambhāt samācārād（由觀察、由世間共行）asti-vastutva-vādinām（實有論者，說）vastu（實物）；
-jātiḥ tu（然種相）buddhaiḥ（由覺者）deśitā（說於）sādā trasatām（常畏）ajāteṣu（無生中）者。//4.42//
-
-=== 42 釋 | 第四章第四十二頌釋 ===
-
-Buddhaiḥ（覺者，此指 advaita-vādibhiḥ 不二論師）所 deśitā upadiṣṭā（說、所教）之 jāti（種相），由 upalambhāt（觀察，能觀察故為義）、samācārāt（世間共行，由 varṇāśramādi-dharma-samācaraṇāt 姓姓等法之共行故為義）；
-由此二因故，asti-vastutva-vādinām（實有論者，堅執「實有」、信之 manda-vivekinām 鈍根簡擇者）所說「有實物 bhūvaḥ 是」——此非 arthe-pāyatvena（究竟義故）——sā deśitā jātiḥ（彼種相所說）。
-Tāṃ gṛhṇantu tāvat（彼願取之即可）；
-vedānta-abhyāsināṃ tu（然吠檀多修學者），svayam eva（自然）ajā-dvayātma-viṣayaḥ vivekaḥ（無生不二之我之簡擇）bhaviṣyati（將生）；na tu paramārtha-buddhyā（非由究竟之智）。
-Te hi śrotriyāḥ（彼等多聞者），sthūla-buddhitvāt（粗鈍之智故），ajāteḥ ajāti-vastunaḥ（無生之事、無生之實事）sādā trasyanti（常畏），ātmanāśaṃ manyamānā avivekinaḥ（認為自我之滅故未簡擇者），ityarthaḥ。
-Upāyaḥ sa avatārāya（此方便為悟入之門故）ityuktam（如是說）。//42//
-
-=== 43 | 第四章第四十三頌 ===
-
-Ye（彼）ajāteḥ trasatām（無生中常畏者）teṣām（彼等）upalambhāt（由觀察）viyanti（相違、背離）；
-jāti-doṣāḥ（種相之過）na setsyanti（不能成辦）；doṣo 'py alpo bhaviṣyati（過亦少將是）。//4.43//
-
-=== 43 釋 | 第四章第四十三頌釋 ===
-
-Ye ca evam（如是彼等）upalambhāt samācārāt ca（由觀察、由世間共行故），ajāteḥ ajāti-vastunaḥ trasantaḥ（畏無生之事、無生之實事者），asti vastv iti（信「有實物」），advayāt ātmanoḥ（由不二之自我）viyanti viruddhaṃ yanti dvaitaṃ pratipadyantaḥ（與之相違、反於其道、取於二相），ityarthaḥ。
-Teṣām（彼等）ajāteḥ trasatām（畏無生者）、śraddadhānānām（信者）、san-mārga-avalambinām（行正法者），jāti-doṣāḥ（種相之過，jāty-upalambha-kṛtā doṣāḥ 由執 jāti 觀察所生之過）na setsyanti（不能成辦，siddhiṃ na upayāsyanti 不能證得），viveka-mārga-pravṛttatvāt（由簡擇道已起故）。
-Yadyapi kaścit doṣaḥ syāt（縱有少過），so 'py alpaḥ eva bhaviṣyati（彼亦極少將是）。
-Samyak-darśana-pratipatti-hetuka ityarthaḥ（為正見得證之因，是其義）。//43//
-
-=== 44 | 第四章第四十四頌 ===
-
-Nanūpalambha-samācārayoḥ pramāṇatvād（若由觀察、世間共行為量故），dvaitaṃ vastu asti eva iti（二相之實有是有，是如此說）；na（不然）；upalambha-samācārayoḥ vyabhicārāt（由觀察、世間共行之偏差故）。
-Katham vyabhicāra ityucyate（如是問）：
-
-Upalambhāt samācārāt（由觀察、由世間共行），yathā māyā-hastī（幻象之象）ucyate（如是說）；
-Upalambhāt samācārāt（由觀察、由世間共行），tathā vastu asti ucyate（如是說有實物）。//4.44//
-
-=== 44 釋 | 第四章第四十四頌釋 ===
-
-Upalambhyate hi（實被觀察）māyā-hastī（幻象之象），atra（於此）hastī iva（猶如象），hastinaḥ iva（猶如象者）bandhana-ārohaṇa-ādīn（繫縛乘馭等）hasti-sambandhibhiḥ dharmaiḥ（與象相關之諸相）hastī iti（名之為象），asann api（雖實非有）yathā（如是），tathopalambhāt（由觀察）samācārāt（由世間共行）dvaitaṃ bheda-rūpam（二相差別之形）asti vastv ityucyate（說為實有之物）；
-Tasmāt（是故）na upalambha-samācārau dvaita-vastu-sadbhāve hetu bhavataḥ（觀察、世間共行非為二相實物存在之因），ityabhiprāyaḥ（是其意旨）。//44//
-
-=== 45 | 第四章第四十五頌 ===
-
-Jātyābhāsam（種相之顯現）、calābhāsam（運動之顯現）、tathaiva ca（如是亦）vastvābhāsam（物之顯現）；
-Ajācalam（不動之無生）、avastutvam（非物性、無物性）；
-Vijñānam（識）、śāntam（寂靜）、advayam（不二）。//4.45//
-
-=== 45 釋 | 第四章第四十五頌釋 ===
-
-Ajāti（無生）、saj jāti-vat（如種相般）avabhāsata iti（如是顯現故），iti jātyābhāsam（是故名種相之顯現）；
-Tad yathā（例如），Devadattaḥ jāyata iti（「Devadatta 生」），
-Calābhāsam（運動之顯現）cal...
-
-=== 4.46 | 偈頌 4.46 ===
-
-心如此而不生，法如此被記為無生；
-正是如此證知者，不墮於顛倒。
-
-=== 4.46 釋 | 釋論 4.46 ===
-
-由此上述因緣，心不生；諸法被梵智識為我之無生性。
-「法」之複數，乃隨諸色身的差別而施設，實唯是對非二之方便的表說。
-正是如此，證得如上所說的、無生無滅等相之、無二的、即真我真實性的覺知；已棄外在追求者，不再墮於無明（avidyā）黑暗的大海中顛倒——
-正如《伊屍奧義》（ī.u.7）所言：「於彼見一體者，何為迷惑，何為憂悲」等偈頌所明示。
-
-=== 4.47 | 偈頌 4.47 ===
-
-如火燄因搖動所生的、正曲等顯相一般；
-如是，能取所取的顯相，亦是識的動搖。
-
-=== 4.47 釋 | 釋論 4.47 ===
-
-如世間所見，火燄（alāta）因燼火之動而搖動，呈現正、長等種種相貌；如是，所取（viṣaya）與能取（viṣayin）的顯相即是所說的「識之動搖」（vijñāna-spandita）之義。
-何為此識的動搖？
-是似動搖之動搖，由無明（avidyā）所致。
-因為此識實無真實的動搖，
-經已說「無生、不動」（ajā acalam）故。
-
-=== 4.48 | 偈頌 4.48 ===
-
-不動搖的火燄，無顯現、無生，如是；
-不動搖的識，亦無顯現、無生，如是。
-
-=== 4.48 釋 | 釋論 4.48 ===
-
-無動搖者，即離於動搖的彼火燄，於正曲等相貌中不生、無顯現、無生——如是。
-如是，當無明斷盡，無動搖者於無生等相貌中，無顯現、無生、不動，當來如是成就——此即其義。
-
-=== 4.49 | 偈頌 4.49 ===
-
-火燄搖動時，彼諸顯相不從他處來；
-不動搖時，亦不從他處入於火燄。
-
-=== 4.49 釋 | 釋論 4.49 ===
-
-彼火燄搖動時，正、曲等顯相不從某處來而於火燄有（實生）——故說「不從他處來」。
-亦不從不動搖的火燄他出。
-亦不入於不動搖的火燄。
-
-=== 4.50 | 偈頌 4.50 ===
-
-那些顯相不從火燄而出，以無實質可得故；
-於識亦應如是，以顯相無別故。
-
-=== 4.50 釋 | 釋論 4.50 ===
-
-「顯相不從火燄而來」，因如牆壁等物之無實質（dravyatvābhāva）可得故。「dravya」即物質；dravyatva 即物質之有（bhāva）；dravyatvābhāva 即物質之有之非有（abhāva）；因無物質性（dravyatvābhāva-yogataḥ）故，故無實在性（vastutva）——其義即：唯有實事始有出入，非實事則不能。
-識中生滅等顯相亦應如是，以就顯相而言，兩者（火燄與識）並無差別故、以其同等故。
-
-=== 4.51 | 偈頌 4.51 ===
-
-識搖動時，彼諸顯相不從他處來；
-不動搖時，亦不從他處入於識。
-
-=== 4.52 | 偈頌 4.52 ===
-
-彼等不從識而出，以無實質可得故；
-以無能所生滅關係故，是不可思議、恆常如此。
-
-=== 4.51 釋 | 釋論 4.51-52 ===
-
-識的一切皆同於火燄。
-但「識恆常不動」（sadā-calatva）則是其殊勝。
-若識是不動的，無生等顯相究何所作？為示此義而說偈云：
-以無能所關係故（kārya-kāraṇa-tā-abhāvād），以能生所生不能成立故，以無有之自性故（abhāva-rūpatvāt）——是故彼等恆常不可思議。
-如於無有正曲等顯相之時，正曲之智唯見於火燄之上……
-（原文截斷，續見次段。）
-
-=== 45 | 第四品 五三—五八偈 ===
-
-### 五三偈
-
-事物不能為事物的因，
-亦不能為他事之因；
-事事物性與互相差別，
-於諸法中皆不可得。
-
-〔釋〕無生（aja）唯一真我之自性（ātma-tattva）已如是安立。然而對於仍施設能作所作關係者而言：一事物不能為另一事物的因，亦不能以此為此之因；世間現量所見，亦無非事物可為某物之獨立之因；事事物性於諸法、我中皆不成立，亦無任何差別使某物成某物之因性或果性可得；由非事事物性、無差別性故，無任何一法可為另一法之果或因——我（ātman）即是此義。
-
-### 五四偈
-
-如是諸法非從心（citta）生，
-心亦非從諸法生；
-如是，知者入於因果無生之理。
-
-〔釋〕如是從前述諸因觀之，心（citta）即是真我識（ātma-vijñāna）之自性，故外在諸法非從心生，亦非從外在諸法生心；以一切諸法皆是識性顯現故；如是果不從因生，因亦不從果生，於因果無生之理，知者得入、安立、決定：於真我中因果本無所有——此即覺者（brahmavid）之義。
-
-### 五五偈
-
-因果執著未盡時，因果之生即未盡；
-因果執著已盡時，因果之生即不存。
-
-〔釋〕然對執著因果者，當如何說？——「以法與非法（dharma-adharma）為因，我是作者，我的法與非法，其果報於某時某眾生中受生而受用之」——因果之執著（āveśa），即因果之執取（grahā）與自我之妄加施設（āropana），此乃在心（citta）中之義；因果執著存續時，因果即生起，此即法與非法及其果報不斷流轉之義；然而若如咒語之力（mantrauṣadhī-vīrya）使執著消解，依前述不二（advaita）正觀，無明所起之因果執著被拔除，彼時執著已盡，因果之生即不存。
-
-### 五六偈
-
-因果執著未盡時，輪迴（saṃsāra）即綿延；
-因果執著已盡時，不入輪迴。
-
-〔釋〕只要正觀（samyag-darśana）未滅除因果之執著，輪迴即無盡而綿長；然而因果之執著已盡時，由於無因，則不入輪迴。
-
-### 五七偈
-
-依世俗（saṃvṛti）一切生，於彼無有恆常；
-以真實相（sad-bhāva），一切無生，於彼無有斷滅。
-
-〔釋〕若無生（aja）真我之外無他，云何汝說因果、輪迴之生滅？——聽之：saṃvṛti（世俗、覆障）即覆蔽，覆蔽者即無明所緣之世俗言說，依此世俗一切生；故於無明所緣中，恆常、不滅實無；由是具生滅之相的輪迴，被說為綿延不絕；以勝義真實相（paramārtha-sad-bhāva）觀之，一切無生，唯有真我故；由此無生亦無滅，故於任何人因果皆不可得，義即此理。
-
-### 五八偈
-
-所謂生起之諸法，於真實中皆不生；
-彼等之生起如幻（māyā），而此幻亦不可得。
-
-〔釋〕其他真我與諸法施設為生起者，已如前依世俗（saṃvṛti）所說明，故諸法僅依世俗而有生；於勝義真實中彼等並非生起；至於彼等諸法依世俗所謂之生……（原文至此截斷）
-
-=== 4.58（續） | MandUpK ===
-
-**偈 4.58 末句：**
-猶如魔術師（hoktṛ）之生起由幻（māyā）成就，
-如是應知此為與彼同類之幻（māyopama）。
-
-**釋 4.58 末段：**
-「然則，幻（māyā）為實有事（vastu）耶？」——非如是。彼幻亦不存在（vidyate）；「幻」之稱說，其意指不存在者。
-
-=== 4.59 | MandUpK ===
-
-「彼諸法之生起，如何相似於幻（māyā）？」——如是問，而答曰：
-
-**偈 4.59：**
-猶如由幻所成之種子（bīja），
-生起與彼同類之芽（aṅkura）；
-彼芽既非常住（nitya）亦非斷滅（ucchedi），
-如是應推度法（dharma）之生滅。
-
-**釋 4.59：**
-猶如由幻所成之種子，生起與彼同類、亦由幻所成之芽；彼芽既非常住，亦非斷滅，亦非壞滅者，以其已生起故。如是，法之生與滅，唯是施設之推度；於勝義（paramārtha）中，諸法之生與滅不應成立。此乃其義。
-
-=== 4.60 | MandUpK ===
-
-**偈 4.60：**
-於無生者（aja）中諸法，
-無有常（śāśvata）、無常（aśāśvata）之稱說（abhidhā）；
-言語（varṇa）所不至之處，
-彼處無所謂簡擇（viveka）可言說。
-
-**釋 4.60：**
-於勝義中，於自我所生者——即唯常住、唯一、純為智之顯現（vijñapti-mātra）而有之諸法中——「常」或「無常」之稱說皆不轉起，此乃其義。
-
-於何處、由何義，言語不轉起於稱說、不轉起於顯說，此乃其義。
-
-如是之簡擇，即離言之分別（viviktatā），於彼處不說為「常」或「無常」。
-
-依《泰迪黎耶奧義書》（Tai.U.）2.4.1「言語從彼處折返」之聖教（śruti）。
-
-=== 4.61–4.62 | MandUpK ===
-
-**偈 4.61：**
-猶如夢（svapna）中，心（citta）以二相（dvaya-ābhāsa）流轉於幻（māyā）；
-如是覺位（jāgrat）中，心以二相流轉於幻。
-
-**偈 4.62：**
-不二（advaya）之心於夢中以二相顯現，無疑；
-不二之心於覺位中以二相顯現，亦無疑。
-
-**釋 4.61–4.62：**
-前已宣說，不二者、唯識（vijñāna-mātra）者，勝義中言語所不及，唯是其心之微細振動（spandana-mātra），非勝義諦故。
-
-此二偈之義，已如前述。
-
-=== 4.63 | MandUpK ===
-
-**偈 4.63：**
-夢中能見者（svapna-dṛk）流轉於夢，
-於十方（diś）中見住立之有情（jīva）——
-卵生（aṇḍaja）、濕生（svedaja）——彼常所見者。
-
-**釋 4.63：**
-夢中能見者即見夢者，流轉遊行於夢、夢之住處中，於十方中見住立之有情、生命——卵生者或濕生者——彼常所見者。
-
-=== 4.64 | MandUpK ===
-
-**偈 4.64：**
-由夢心（svapna-dṛk-citta）所見之有情，
-彼等自彼非別異（pṛthak）而存在；
-如是，此被視為夢心之所見（dṛśya）。
-
-**釋 4.64：**
-夢中所見之心即夢心（svapna-dṛśa-citta），有情為其所見者，故有情自彼夢心非別異而存在，此乃其義。
-
-蓋心以多樣有情等差別之相（bheda-ākāra）而施設（vikalpyate）。
-
-如是，此夢心亦唯是所見，以夢中能見者故，所見即彼所見。
-
-故除夢中能見者外，心之名相不可得。此乃其義。
-
-=== 4.65–4.66 | MandUpK ===
-
-**偈 4.65：**
-覺位（jāgarita）中流轉，覺者（jāgrat）於十方中
-見住立之有情——卵生、濕生——彼常所見者。
-
-**偈 4.66：**
-由覺心（jāgrat-citta）所應觀察（īkṣaṇīya）之有情，
-彼等自彼非別異而存在；
-如是，此被視為覺心之所見。
-
-**釋 4.65–4.66：**
-覺者所見之有情，與彼心非別異，以其為心所應觀察故，如夢心所應觀察之有情。
-
-而彼以觀察有情為性之心，與能見者（draṣṭu）非別異，以其為能見者之所見故，如夢心。
-
-其餘之義，已如前述。
-
-=== 4.67 | MandUpK ===
-
-**偈 4.67：**
-此二者互相（anyonya）為所見，
-彼是何物？——如是問答；
-二者皆離相（lakṣaṇa-śūnya），
-依吾所見（mat），不可執取（na gṛhyate）。
-
-**釋 4.67：**
-有情心與心性（cit）此二者，互相為所見、互相可達。
-
-蓋心之名，唯依有情等所緣（viṣaya）而立。
-
-=== 47 | 第四章 偈頌 68-75 與注釋 ===
-
-【偈 67 注釋末段】
-
-jīva（個體我）等所見者，實依於此。若彼等處於不可見之他處，則不可得。故說：『無有一物存在——citta（心）或 citta（心）之所見者為何？』由簡擇者說如是。
-
-於夢中，象與象之心皆不可得；於此（覺時）亦然，是簡擇者之見。
-
-如何？由無相者而顯為相，故相即是 pramāṇa（量）；量與無量，二者皆是 citta（心）與 caitanya（心性）之二。唯由彼、唯由其心性，彼被攝取。
-
-非捨瓶心而攝取瓶，非捨瓶而攝取瓶心。
-
-於彼中，pramāṇa（量）與 prameya（所量）之別不可施設，是此義。
-
-【偈 68】
-
-如夢所成之 jīva 生亦死，
-如是此等一切 jīva，存在亦非存在。
-
-【偈 69】
-
-如 māyā（幻術）所成之 jīva 生亦死，
-如是此等一切 jīva，存在亦非存在。
-
-【偈 70】
-
-如 nirmitaka（人工所造）之 jīva 生亦死，
-如是此等一切 jīva，存在亦非存在。
-
-【偈 68-70 注釋】
-
-由幻術師所造之 māyā（幻術）所成者；由咒、草藥等所生之 nirmitaka（人工所造）者；夢、māyā（幻術）、nirmitaka（人工所造）之 jīva，及卵生等之 jīva，由是生、由是死；其人等之相實不可得，唯是 citta（心）之分別（vikalpanā）而已，是此義。
-
-【偈 71】
-
-無有一 jīva 生，此 jīva 之生起（saṃbhava）亦無有。
-此即至上（uttama）真理（satya），於中無有一物生。
-
-【偈 71 注釋】
-
-於世間俗諦之境中，諸 jīva 之生、死等，如夢中等 jīva，已說如彼。然至上之 paramārtha-satya（第一義諦/究竟真理），無有一 jīva 生。其餘義已說。
-
-【偈 72】
-
-此能取（grāhaka）、所取（grāhya）之二，實唯是 citta（心）之振動（spanda）。
-citta（心）無所緣（nirviṣaya）、恆常（nitya）、無繫（asaṅga），是彼（聖者）所宣說。
-
-【偈 72 注釋】
-
-一切能取、所取之二，唯是 citta（心）之振動。citta（心）究竟即是 ātman（自性），故為無所緣。由無所緣故，說為恆常、無繫。《大梵書》（bṛ.u.）4/3/15、16 載：『此 puruṣa（我人）實無繫。』依此聖教故。有所緣者，於境有繫；由無所緣故，citta（心）無繫，是此義。
-
-【偈 73】
-
-依 kalpita（施設）saṃvṛti（世俗）而存在者，paramārthena（究竟）無；
-依 paratantra（他依）saṃvṛti（世俗）而可有者，paramārthataḥ（究竟）亦無。
-
-【偈 73 注釋】
-
-教法等所顯之 padārtha（句義/事物），依 kalpita（施設）saṃvṛti（世俗）而有；此施設，乃究竟智得之方便，故為 saṃvṛti（世俗）。由彼 saṃvṛti（世俗）而存在者，究竟無，不見。已說：『了知時，二取（dvaita）不見。』
-
-依 paratantra（他依）saṃvṛti（世俗），於其他教法行相中可有之 padārtha（事物），究竟觀察時，實是無。
-
-故『是彼所宣說無繫』之義已成就。
-
-【偈 74】
-
-依 kalpita（施設）saṃvṛti（世俗）為 ajaḥ（無生），paramārthena（究竟）亦非 ajaḥ（無生）；
-依 paratantra（他依）等之成就（niṣpatti），saṃvṛtyā（世俗）中彼則生起。
-
-【偈 74 注釋】
-
-問：若教法等是 saṃvṛti（世俗），則『ajaḥ（無生）』此施設，亦是 saṃvṛti（世俗）否？
-
-誠然如是。
-
-依教法等之 kalpita（施設）saṃvṛti（世俗），故說為 ajaḥ（無生）。paramārthena（究竟）亦非 ajaḥ（無生），以依 paratantra（他依）abhiniṣpattyā（成就）、待他教法成就故。彼『ajaḥ（無生）』之說，saṃvṛtyā（世俗）中生起。
-
-故『ajaḥ（無生）』此施設，於 paramārtha（究竟）之境中不入，是此義。
-
-【偈 75（偈未完）】
-
-由於以 asat（無）為 viṣaya（境）故——
-於 abhūta（虛妄）abhiniveśa（執著）處，dvaya（二取）於彼不可得；
-dvayābhāva（二取之無）...
-
-
-<!-- CHUNK 48/53 FAILED — retry needed -->
-
-
-=== 49 | 第四章 第81—86 頌 ===
-
-**81 頌**
-
-此 dhātu（界）自性之 dharma（法性），sakṛdvibhātaḥ（頓然顯了）。
-
-註：其自明之輝顯自然生起，不依賴太陽或他緣；svayaṃ-jyotiḥ（自明之光）即是自性之義。sakṛdvibhātaḥ 是常住顯了——此即具此相之 ātman（我）所名之 dharma，從 dhātu 自性、物之自性之義。
+由此可知，經文完全了解方法必須以目標為歸依，也了解目標具有永恆唯一的本性，因此，自我的真實本質——內外皆無生、非二元——便自行顯現。
 
 ---
 
-**82 頌**
+=== 27 | MandUpK 3.27 ===
 
-常住之 sukha（樂）被覆蔽，常顯之 duḥkha（苦）被開顯；
-依於任何 dharma（法）之執取，bhagavān（薄伽梵）即被如是蒙蔽。
+確實，透過數百句經文，已確定內外皆無生的非二元自我本質，除此之外別無其他。現在又要以推理重新確定這一點，因此說：
 
-註：由於以 dvaya（二元）之物之任何 dharma 之執取——以執取與入定之力，因虛妄執著，常住之樂便被覆蔽、被掩蓋之義。dvaya 之所得是彼覆蔽之因，不待其餘之努力。苦則被顯開、被開顯，因究竟智難得之故。bhagavān 是 ātmadvaya（不二我）之天主之義；故雖為吠檀多師與諸上師多所宣說，仍非能被了知之義。如經云：「能說此者奇哉，能得此者妙哉」（《羯陀奧義書》1.2.7）。
+由真實存在者，透過 māyā（幻）而有生成，這是相應的；  
+但從真實本性來說，並沒有生成。  
+凡是從真實本性生成者，已生成的事物也必須再生成。  
 
----
+有人可能提出：既然實在的自我本質完全不可 grasp，那麼它就是不存在的。對此回答：不是，因為可以 grasp 到結果。
 
-**83 頌**
+正如真實存在的施幻者透過 māyā（幻）而有生成，這是他的結果；同樣，當世界的生成作為結果被 grasp 到時，它便顯示出：就像施幻者一樣，自我在究竟實相中真實存在，並且是世界生成之幻的依處。
 
-「有」「無」，或「有」「無」，或「無」「無」——
-愚者以動、靜、雙、非四種 bhāva（存在）皆遮蔽 bhagavān。
+因為世界的生成，是由真實存在的原因所生起的，正如由施幻者所造的大象等幻象的結果；它不可能由不存在的原因所生起。
 
-註：有人作「有我」之說而起執。另一人作「無我」之說，是 vaināśika（斷滅論者）；又有人作「有」「無」之說，是 ardha-vaināśika（半斷滅論者），即 sadasad-vādī（有無論者）、digvāsāḥ（裸形派）。「無」「無」者，是 atyanta-śūnya-vādī（究竟空論者）。其中「有」之 bhāva 是動的，因與瓶等無常法相異之故。「無」之 bhāva 是靜的，因常住無差別之故。二者是 sadasad-bhāva（有無之存在），亦即 abhāva（非有），是 atyanta-abhāva（究竟之非有）。此四種之說，無論是動、靜、二、非之有無論者，皆遮蔽 bhagavān，皆是愚者、無分別者。雖是博學者，亦同是愚者，因不了知究竟真實之故，何況是本性愚癡之人——此為本意。
+但從真實本性來說，自我並沒有生成。
 
----
+或者，真實存在的事物，例如繩子，能夠如蛇一般透過 māyā（幻）而有生成，但從其真實本性來說卻沒有生成。同樣，雖然真實存在且不可 grasp 的自我，能夠如同繩蛇一般透過 māyā（幻）以世界的形態生成，但從真實本性來說，無生的自我並沒有生成。
 
-**84 頌**
+然而，如果有人主張：究竟真實存在且無生的自我本質，是以世界的形態生成的，那麼就不能說它是無生的，因為這相互矛盾。
 
-此四 koṭī（極端），bhagavān 雖常為執取所覆，
-卻不為其所觸；以何見者，sarvadṛk（遍照）。
+如此一來，便等於說「已生成者仍然生成」，而且由於它作為正在生成者，便會形成從已生成者再生起的無窮倒退。
 
-註：koṭhyaḥ 是 prāvādika（詭辯派）教理所決定之邊際，稱為「有」「無」等的四種 koṭī。以執取——以執取與現量之決定——常被遮蔽、被掩蓋；這些就是 prāvādika。bhagavān 為此四種 koṭī 所不觸，離「有」等分別；此由何位 munī（牟尼）所見、所了者，即是在諸吠檀多、諸奧義書中的 puruṣa（原人），是 sarvadṛk、sarvajña（一切知），是究竟博學者之義。
-
----
-
-**85 頌**
-
-已得 sarvajñatā（一切智）之究竟，brāhmaṇya-padam（梵位）之 advayam（不二），
-無始、中、終——更何所求？
-
-註：已得如前所說之究竟、一切之 sarvajñatā，即 brāhmaṇya-padam。如經云：「彼是梵」（《廣林奧義書》3.8.10）、「此是梵之常住莊嚴」（4.4.23）。ādi-madhyānta（始、中、終）——utpatti（生起）、sthiti（安住）、laya（壞滅）——anāpanna（未至）、aprāpta（未得）；於此 advayam 之 padam 不可得見者，即是 anāpannādi-madhyānta（無始、中、終）之 brāhmaṇya-padam。即得此位之後，更從此我之所得之上，何求？何作？即無用之義。如《Gītā（薄伽梵歌）》3.18 等所記：「彼之所作非為有所得」。
+因此，確定自我本質是唯一無生的。
 
 ---
 
-**86 頌**
+=== 28 | MandUpK 3.28 ===
 
-viprāṇām（婆羅門之）調伏、寂靜，此即是……
+從不存在者透過 māyā（幻）而有生成，從真實本性來說都不相應；  
+不論從真實本性或透過 māyā（幻），不孕婦的兒子都不會生成。  
 
+主張不存在者的人所說的不存在之物，不論從真實本性或透過 māyā（幻），都不可能有任何生成，因為從未見過這種情況。
 
+不孕婦的兒子不論從真實本性或透過 māyā（幻）都不會生成。因此，這裡所謂不存在者的主張，完全不能成立，應當遠遠排除。
 
-=== 51 | 第四章 頌 90-95 ===
+---
 
-〔頌 4.90 註釋末〕
+=== 29 | MandUpK 3.29 ===
 
-世俗所說三種——醒、夢、熟睡——皆 heya（所捨），應如觀繩上虛蛇般觀之，以其在 ātman（我）中無真實自性故。
+那麼，為何說真實存在者僅僅透過 māyā（幻）而有生成呢？
 
-〔頌 4.90 註釋續〕
+正如在夢中，心透過 māyā（幻）而呈現雙重相，  
+同樣，在清醒中，心也透過 māyā（幻）而呈現雙重相。  
 
-於此當知：超越 catuskoṭi（四句）之 paramārtha-tattva（究竟實相）。
+正如在繩子上被分別構想出的蛇，當它被觀察為繩子的本性時，實際上仍然存在；同樣，心在被觀察為究竟的知覺、自我的本性時，作為真實存在、可被 grasp……
 
-捨離三種外欲之 bhikṣu（乞士），所應得之方便凡三：pāṇḍitya（博學）、bālya（童子無知）、mauna（沈默）。
+=== 31 | 第三十一段 ===
 
-rāga（貪）、dveṣa（瞋）、moha（癡）等煩惱，名 kaṣāya（垢染），當煮之。
+因此，前面已說明：心只是以繩蛇般的分別形式，呈現為二元。因此，什麼是其證明？現說明具有隨存隨滅特徵的推論：
 
-此一切——heya、jñeya（所知）、āpya（所得）、apākya（所煮）——皆應知為 bhikṣu 之 upāya（方便），自最先者為始。
+凡是心所見的二元，無論動或不動，皆由心所見。因為，當心不成為心時，二元便完全不可得。
 
-除此等 heya 等中 jñeya 為 paramārtha-satya（究竟實相）——唯 brahman（梵）獨存、外皆當除——之外，upalabdhi（能取）與 upalambha（所取）唯 avidyā（無明）之妄想而已。
+所以，一切由這個正在分別的心所見的二元，都是心所見；這是主張。因為心存在時它便存在，心不存在時它也不存在。因為，當心不成為心——也就是藉由辨別觀照的修習與離欲而止息——如同繩上的蛇消融，或在深睡中，二元便完全不可得。由於它不存在，便證明二元並不真實。
 
-brahma-vid（知梵者）說此三者——heya、āpya、apākya——皆非究竟實相。
+=== 3.34 | 第三十四頌釋文（續） ===
 
-〔頌 4.91〕
+「既然在活動不存在這一點上並無差別，其中又有什麼應當認識的？」
 
-然就究竟言：
-一切 dharma（法）由本性猶如 ākāśa（虛空），皆 anādi（無始）；
-nānātvam（差別）——於其任何處、任何種——皆不可得。
+對此答曰：並非如此。因為在熟睡中，心被 avidyā（無明）、迷妄與黑暗所吞沒，並具有內隱的種種過患活動之種子潛勢，它的運行是一種；而心被制止時，其 avidyā 與過患活動的種子已被體悟 ātman（自我）真實性的火焚毀，所有煩惱塵垢都已平息，它那自主的運行則全然是另一種。
 
-〔頌 4.91 註釋〕
+因此，二者並不相同。
 
-以 prakṛtyā svabhāvata（本性自性）為 ākāśa-tulya（等虛空）——以 sūkṣma-nirañjana-sarvagata（細微、無染、遍滿）故——一切 dharma 即一切 ātman，應由 mumukṣu（求解脫者）知其 anādi、nitya（常住）。
+所以，說它應當被認識是合理的；這就是本意。
 
-為遣由複數所起之差別疑，故言：差別——縱 kimcid-anumātram（最極微量）——於其任何處亦不可得。
+=== 3.35 | 第三章第三十五頌 ===
 
-〔頌 4.92〕
+在熟睡中，它確實融沒；
+受到制御時，它卻不融沒。
+那本身正是無畏的 Brahman（梵），
+知之光遍滿一切處。
 
-dharma（法）之可知性，亦僅 saṃvṛti（世俗），非究竟義——如是說：
+在熟睡中，它之所以融沒，是因為它連同一切以 avidyā 等觀念為種子的潛勢，進入以黑暗為性、以無差別為性的種子狀態。然而，以辨別智為先而受到制止、受到制御的它並不融沒，也不進入黑暗的種子狀態。
 
-一切 dharma，由 ādi-buddha（本覺）之本性已 suniścita（善決定）；
-誰得如是之 kṣānti（忍），彼堪 amṛtatva（不死）。
+因此，熟睡之心與安住於 samādhi（等持）之心，其運行確有差別。
 
-〔頌 4.92 註釋〕
+當它離開由 avidyā 造成的所取與能取這兩重垢染時，它便成為至上不二的 Brahman。因此，唯有它是無畏的，因為造成恐懼的二元把握已不存在。
 
-ādau budhyate ādibuddhaḥ（本初覺者）——yathā svabhāvata eva sūryaḥ nitya-prakāśa-svarūpaḥ，恰如 sūrya（太陽）本性常住光明自性故，一切 dharma 即一切 ātman——nitya-bodha-svarūpa（常住覺性自相）故。
+Brahman 寂靜而無畏；知曉它的人，對任何事物都不恐懼。
 
-於彼不應作決定——nitya-niścita-svarūpa（常住決定自相）故。
+「知之光」又是對它的說明：覺知就是知，也就是作為 ātman 本性的意識；這知本身就是它的光與明照。因此，Brahman 是知之光，是一味純識的凝聚體。
 
-非 saṃdigdha（猶豫）之自性——「如是」「不如是」皆不可得故。
+「遍滿一切處」，意即周遍四方，如虛空般毫無間斷地遍在。
 
-凡 mumukṣu 得如是——yathokta-prakāreṇa（如上所說）——恆得 bodha-niścaya-nirapekṣatā（覺之決定不待），於己於人皆然，恰如 āditya（日）常住光明、不依他光、於己於人皆然，於己中恆得此 kṣānti——覺不待決定——者，彼堪 amṛtatva、能得 mokṣa（解脫）故。
+=== 3.36 | 第三章第三十六頌 ===
 
-〔頌 4.93〕
+不生、無眠、無夢，
+無名、無形；
+恆常明現而全知，
+任何修治皆無從施加。
 
-亦無「自性中應作之寂」——如是說：
+由於生起之因不存在，它於內外皆不生。
 
-ādi-buddha 之 dharma 本來 anutpanna（無生），prakṛtya 已 sunirvṛta（善寂）；
-一切 dharma samā-bhinna（平等無別）——
-aja（無生）之 sāmya（平等），viśārada（無畏）。
+我們已說過，生起以 avidyā 為因，如同在繩上見蛇。
 
-〔頌 4.93 註釋〕
+那 avidyā 又因對 ātman 真實性的覺知而被制止；因此它不生，也正因此無眠。
 
-ādau śānta ādi-śānta（本寂）——常住寂、anutpanna、aja——prakṛtya 已 sunirvṛta，suṣṭhu-uparata-svabhāva（善寂自性）故。一切 dharma samā-bhinna——aja 之 sāmya，即 viśārada——viśuddha（清淨）ātma-tattva（我之實相）。由是之故，śānti 或 mokṣa 不應作——nitya-eka-svabhāva（常住一性）者所作皆無義故。
+無始的 māyā（幻力），其特徵為 avidyā，便是睡眠。
 
-〔頌 4.94〕
+從睡眠中醒覺時，ātman 以不二為本性，因此無夢。
 
-誰如所說通達 paramārtha-tattva，彼於世方為 akṛpaṇa（非貧者），餘皆貧者——如是說：
+它的名與色，確由未覺所造成。
 
-bhede vicaratāṃ sadā vaiśāradyaṃ vai nāsti /
-bhedin 所溺之 pṛthagvāda（異說者），由是知為 kṛpaṇa（貧者）。
+隨著覺醒，名與色如繩上之蛇般消失。因此，Brahman 不能由任何名稱指稱，也不能以任何方式成形；所以它無名、無形。
 
-〔頌 4.94 註釋〕
+「言語由此折返。」——《Taittirīya奧義書》2.4.1 等經文亦有此說。
 
-bhedin 所溺、bhedin 所隨、saṃsāra（輪迴）所隨故。為何？pṛthagvāda——pṛthak-nānā-vastu（種種異之實體）如是說者——即 dvaitin（二元論者）故；故彼為 kṛpaṇa、kṣudra（卑劣）smṛta（已知）。bhede vicaratāṃ dvaita-mārge（二元之道）avidyā-kalpita（無明妄想）中常住者，vaiśāradya、viśuddhi（清淨）於其不可得故。
+此外，它恆常明現：它永遠明現，恆以光明為本性，因為它不具有由未能把握與錯誤把握所造成的顯現與隱沒。
 
-由是之故，彼等之 kārpaṇya（貧）恰為合宜，意旨如此。
+把握與未能把握，如同晝與夜；以 avidyā 為特徵的黑暗，是不能恆常明現的原因。
 
-〔頌 4.95〕（未竟——次段續）
+由於那黑暗不存在，且它以永恆意識之光為本性，故說它恆常明現是合理的。
 
-aje sāmya 中，誰若 suniścita，
-彼…
+正因如此，它既是一切，又以知為本性，故為全知。
 
-=== 95 | ===
+對這樣的 Brahman，不應施加任何修治；不像其他事物，可在 ātman 本性以外施行專注等修治。
 
-在世間，這是大智[摩訶智]。然而世間並不解入此大智。
+由於 Brahman 的本性永遠清淨、覺明、解脫，故在任何意義上都不可能有任何應做之事；此處所指，就是 avidyā 的消滅。
 
-註：「大智」（mahājñāna）為絕對真實之不二智；「世間不解入」（na gāhate）即不內證、不取為我所。
+=== 3.37 | 第三章第三十七頌 ===
 
-一切有情皆以自性為體，一切有情皆以利他為性。
-即使諸天行此道，亦對「無相之相」迷途失措。
+為了證成前述無名等義，現說其理由：
 
-憶及「譬如空中飛鳥之跡，終不可得」（摩訶衍採葉 239/23-24）等語。
+離一切言說，
+超出一切思慮；
+至極寂靜，恆常自明，
+是 samādhi，不動而無畏。
 
-=== 96 | ===
+「言說」是藉以表述的語言器官，一切形式的命名皆由它完成；Brahman 已離於它。
 
-（問：如何是大智？答：）
-於無生者中，知此「無生」亦不動搖，是名為智。
-此智不離於法，無所執著，是故宣說為「無繫」。
+此處的「語言」只是例示，意即它離一切外在器官。
 
-=== 97 | ===
+同樣，它也超出一切思慮。
 
-即使最微小的差別異相生起，於無分別慧者而言，
-從無有「無繫」之時，何況說「離障解脫」？
+所謂「思慮」，就是藉以思量的 buddhi（智性）；超出它，意即離一切內在器官。正如經文所說：
 
-=== 98 | ===
+「它確實無 prāṇa（生命氣息）、無心而清淨，比至高的不滅者更高。」——《Muṇḍaka奧義書》2.1.2
 
-若有人說「彼等無離障解脫」，在其自宗中已承許法有「障」。
-今遮彼說：
+因為它離一切對境，所以至極寂靜；它恆常自明，因為它以 ātman 意識為本性而永遠是光；它是 samādhi，因為由 samādhi 所生的智慧才能了知它，或因一切皆安定於它之中，故稱 samādhi；它不動，也就是不變；正因它沒有變化，所以無畏。
 
-諸法本來已離障，本性清淨。
-初即覺者，亦初即解脫；惟主尊能證知此義。
+=== 33 | 第三品 38–42 偈頌（含釋論）===
 
-=== 99 | ===
+【3.38 偈頌導引】
 
-覺者之智於諸法不離——
-諸法亦如於覺者之智。
-此非覺者之所宣說。
+由於Brahman（梵）即是samādhi（三摩地），不動搖、無畏，故如此說——
 
-=== MandUpK 全文止 ===
+graho na tatra notsargaś cintā yatra na vidyate /
+ātmasaṃsthaṃ tadā jñānam ajāti samatāṃ gatam //
 
-=== 53 | 第四品終偈 ===
+彼處既無執取，也無棄捨，也無慮念。
+那時安住於ātman（自我）的智，是ajāti（無生）的，已達到samatā（平等）。
 
-難以觀見的、極為深邃的、無生的、平等無別的、智者徹知的——
-此『非異』之位，我等既已證得，盡力頂禮。
+【3.38 釋論】
 
-「durdarśaṃ」（難以觀見）者，由「duḥkhena darśanam asya」（艱難地觀見其）合成，故「難以觀見」；由於離「有、無、亦有亦無、非有非無」四句之實性，故「極難了知」，此其義。
+於此Brahman中，執取（graha）即執著、攝取，並不存在；棄捨（utsarga）即放棄、損減，亦不存在。
+哪裡有變異或所緣境之變動，哪裡便會有損減與攝取；但此Brahman中，此二事皆不可能。
+因為變異之因（他者）不存在，又因Brahman是無部分（nir-avayava）的。
+故說「彼處無損減、無攝取」即此義。
+慮念（cintā）亦不存在於彼處。
+一切的慮念，在無心（amanastva）之處皆不能生起；何況彼處尚有損減與攝取？
+當ātman真實之現證（ātma-satyānubodha）生起之時，由於無所緣境，那安住於ātman中的智——如火不冷不熱一樣——便生起；此智是ajāti（無生）的，遠離生滅，達到samatā（平等），達到究竟之平等。
+先前所宗的「無匱乏、無生、達到平等」，今由成立之理（upapatti）與經證（śāstra）兩方面證成，故攝頌曰：「ajāti samatāṃ gatam」（無生，已達平等）。
+由於ātman真實之現證，匱乏之境不存於他處，正如《廣林奧義》（Bṛhadāraṇyaka Upaniṣad）所說：
+「知此akṣara（不壞者）者，Gargi，從此世捨離，他是匱乏的嗎？」（3.8.10）
+經已如此說。
+達此境界者，一切已辦，婆羅門成就者，即此意趣。
 
-「atigambhīram」（極深邃）者，「duṣparveśaṃ」（難入）之義，如大海，非未熟智慧者所能測度；「ajaṃ」（無生）、「sāmyaṃ」（平等）、「viśāradam」（智者徹知）——此如是之位之「anānātvaṃ」（非異性），捨「nānatva」（多元）而證得；成為「tadbhūtāḥ」（與彼同體者），故頂禮彼位；雖「avyavahāryam」（不可施設），仍達「vyavahāra-gocaram」（語言之境）；「yathābalam」（盡力）即「yathāśakti」（隨力），此其義。
+【3.39 偈頌導引】
 
-如是，薄伽梵商羯羅（Śaṅkarabhagavat）所造《喬荼帕達教法經釋》（gauḍapādīya-āgama-śāstra-vivaraṇa）中，「薪火寂止」（alāta-śānti）第四品終。
+雖然此究竟真實之tattva（實性）——
+
+asparśayogo vai nāma durdarśaḥ sarvayogibhiḥ /
+yogino bibhyati hy asmād abhaye bhayadarśinaḥ //
+
+asparśa-yoga（無觸瑜伽）實難見，一切瑜伽行者所難見；
+瑜伽行者畏懼此，因為他們於無畏中見畏。
+
+【3.39 釋論】
+
+asparśa-yoga（無觸瑜伽）之名，因其遠離一切聯繫所稱的「觸」（sparśa），故於諸奧義書中被著名為asparśa-yoga。
+「難見」（dur-darśa）即難以觀見，因為它難以由ātman真實之現證所獲得。
+那些瑜伽行者，雖然這瑜伽遠離一切怖畏，仍以為此瑜伽會導致ātman毀滅，故生畏懼；
+他們於無畏中見畏，是常於畏因中見ātman毀滅者，是無分辨者，即此義。
+
+【3.40 偈頌導引】
+
+至於那些除去Brahman自性、把心與諸根看作如繩上之蛇（純由妄想而立）、於究竟中不存在的人——我們曾說：對他們這些Brahman自性者，無畏即mokṣa（解脫）、無減之śānti（寂靜），本來已成就，不由其他而有，亦絕對無施設可有。
+然而其他瑜伽行者，行於道中，所見下中——把心看作與ātman別異、或與ātman相聯者——對他們這些缺乏ātman真實之現證者：
+
+manaso nigrahāyattam abhayaṃ sarvayoginām /
+duḥkhakṣayaḥ prabodhaś cāpy akṣayā śāntir eva ca //
+
+心之調伏乃一切瑜伽行者之無畏；
+苦之滅、覺悟、無減之śānti（寂靜）亦然。
+
+【3.40 釋論】
+
+心之調伏乃一切瑜伽行者之無畏。
+何況苦之滅亦然——因為ātman相關之心若動搖，無分辨者便無苦滅。
+何況ātman之覺悟，亦唯由調心而得。
+如此，無減之mokṣa（解脫）即śānti（寂靜），亦唯由調心而得。
+
+【3.41 偈頌導引】
+
+utseka udadher yadvat kuśāgreṇaikabindunā /
+manaso nigrahas tadvad bhaved aparikhedataḥ //
+
+譬如欲以kuśa（吉祥草）草端之一滴水，使大海之水滿溢；
+調心亦應以不懈（a-parikheda）而成。
+
+【3.41 釋論】
+
+對他們而言，調心亦如以kuśa草端之一滴，欲令大海乾涸——
+此決心（vyavasāya）之力，從內心諸行之止息、無心（amanasattā）而起，不懈而行，即此義。
+
+【3.42 偈頌導引】
+
+難道僅由不懈之決心，即是調心之方便嗎？非也，故說——
+
+upāyena nigṛhṇīyād vikṣiptaṃ kāmabhogayoḥ /
+suprasannaṃ laye caiva yathā kāmo layas tathā //
+
+以方便調伏那於欲樂中散亂的心；
+亦調伏那極寂靜而入於laya（沉沒）的心，正如欲入於laya（沉沒）之理。
+
+【3.42 釋論（僅存開頭）】
+
+以不懈之決心者，由下述之方便，於欲樂之境中散亂之心……
+
+=== 42 | 心之攝持 ===
+
+這是說，應當攝制它，不使它流散，而使它止息於自性之中。
+
+又因為「於其中消融」之故，稱為熟睡；在那消融之中，又極為清明，沒有疲勞。這就是「亦」字所表示的意義。「應當攝制」一語承接於此。
+
+若既然極為清明，為什麼還要攝制它呢？回答是：正如欲望是禍害的根源，消融也同樣是禍害的根源。因此，這是說：正如應當攝制以欲望為對象的心，也應當防止它消融。
+
+=== 43 | 離欲觀生 ===
+
+憶念一切皆是苦，應當離棄欲樂；
+憶念一切是不生，便不再看見所生之物。
+
+憶念一切二元之相，都是由無明展現而成，唯獨是苦；因此，應當從欲樂中退轉心。所謂欲樂，是由欲望所造成、以欲望為對象的享受；心便是從那裡流散出去的。這是說，應當以離欲的觀修使心退轉。
+
+憶念一切皆是不生的梵，這是依據經典與阿闍黎的教導；於是便不再看見與此相反、由二元性所生的一切，因為它們並不存在。
+
+=== 44 | 覺醒、止息與安住 ===
+
+心在消融時，應當使它覺醒；
+心散亂時，應當再次使它止息；
+應當知道它仍含有染著；
+一旦達到平等，便不應再使它動搖。
+
+如此，藉由知見的修習與離欲這兩種方法，在消融之時，應當使沉入熟睡中的心覺醒，令它與辨別自我的知見相連。
+
+「心」與「意」在此並無不同。
+
+當它散亂於欲樂之中時，也應當再次使它止息。如此反覆修習，使從消融中覺醒的心不再趨向對象；但若它尚未達到平等，處於中間狀態，仍含有染著、仍有情愛、仍與種子相連，便應當知道這是心。
+
+然後還要更加努力，使它達到平等。
+
+當它已達到平等時，意思是說，它已趨近於平等；此後便不應再使它動搖，也就是不應使它轉向對象。
+
+=== 45 | 不染著於禪樂 ===
+
+不應品味那裡的喜樂；
+應當以智慧成為無所繫著；
+努力使不動而向外行進的心合而為一。
+
+對於正努力入定的瑜伽行者而言，所生起的喜樂，不應加以品味；這是說，不應對它產生貪著。
+
+那麼應當如何呢？應當無所繫著、無所渴求，並以辨別的智慧觀察：由智慧所領受的喜樂，是由無明所虛構的，純粹是虛妄。
+
+即使對那喜樂，也應當攝制自己，不使心貪著；這就是其中的意義。
+
+當心已從對喜樂的貪著中退轉，具有不動的本性，卻仍向外行進、向外流出時，便應當依前面所說的方法，從各處加以制止，努力使它只在自性之中合而為一。
+
+這是說，應當使它達到僅僅是心之自體存在的狀態。
+
+=== 46 | 梵的成就 ===
+
+當心不再消融，
+也不再再次散亂；
+那時，梵便已成就，
+不動而不顯現。
+
+當心依照前面所說的方法受到攝制時，若它不再於熟睡中消融，也不再重新散亂於對象之中；它不動，如同無風處的燈；它不顯現為任何由虛構而成的對象之相——當心具有這樣的特徵時，便說梵已成就。
+
+這是說，心已依梵的本性而成就。
+
+=== 47 | 不生者與不生的所知者 ===
+
+安住於自身，寂靜，帶有涅槃，
+不可言說，至上的喜樂；
+人們稱它為不生者，
+以不生的所知者而成為遍知。
+
+前面所說的究竟喜樂，具有覺知自我真實性的特徵；它安住於自身之中，寂靜，形同止息一切禍害，帶有涅槃，也就是具有解脫、獨存之性，與涅槃同在。
+
+它不可言說，因為它的對象極其獨特，無法加以言說。它是至上的、無可超越的喜樂，因為那只是瑜伽行者親自證知的。
+
+它是不生的，正如對象之於其所知者那樣。
+
+它與不生的、未曾產生的所知者不可分離；它以自性而存在，成為遍知的形態。因此，人們稱這遍知的梵本身為喜樂。
+
+=== 1 | 第三品 第四十八頌 ===
+
+無任何 jīva（個我）生起，其 saṃbhava（生起）不存在。
+此乃最高 satya（真實），於中無任何生起。
+
+=== 2 | 第三品 第四十八頌 釋 ===
+
+無任何 jīva 生起，作者與受者亦不以任何方式生起。
+因此此不生之唯一 ātman（自我），其 saṃbhava 之因不存在。
+既其因不存在，故無 jīva 生起，是即此義。
+前文以方便說之諸 satya 之中，今此乃彼等中之最高 satya，
+於此 satya-svarūpa（真實自性）之 brahman（梵）中，縱微如原子亦無生起。
+
+=== 3 | Alāta-śānti（火薪止息）章導言 ===
+
+憑藉 oṃ-kāra（唵聲）之決定門，由 āgama（聖教量）所立之 advaita（不二），
+及以外境差別之虛妄已成就者，
+更於不二中以經教與理證直接證成此為最高 satya，作結於後。
+此 āgama-artha（聖教量義）之 advaita-darśana（不二見），
+其反方之 dvaitin（二元論者）與 vaināśika（破滅論者），
+彼等以互相違逆、貪瞋等苦為自性之見，故標示此為虛妄見；
+以非苦為自性故為正見，故 advaita-darśana 受到讚揚。
+今此中以詳述互相違逆之正見性，遮遣彼而成立 advaita-darśana 作結，
+此法以 anyonyavirodha（互相違逆）之理，故 Alāta-śānti 章由此而起。
+
+=== 4 | 第四品 第一頌 ===
+
+以如 ākāśa（虛空）之 jñāna（慧），
+證悟 gaganopama（如虛空）之 dharma（法性）；
+以與 jñeya（所知）不二之慧證悟，
+我禮彼 dvipadāṃ-vara（人中最勝）。
+
+=== 5 | 第四品 第一頌 釋 ===
+
+ākāśa 與 īṣad-asamāpta（少分未圓滿）之 ākāśa-kalpa（如虛空）、
+ākāśa-tulya（等同虛空），此即其義。
+以彼如虛空之 jñāna，所觀為何？即 ātman 之 dharma。
+gaganopama 者，即 gaganopama-upamān（以虛空為喻）之 dharma，
+彼乃 ātman 之 dharma。
+復次 jñāna 之特性——與 jñeya-dharma（所知法性）、
+ātman 不二，如 agni（火）與 ūṣṇa（熱）、如 sūrya（日）之 prakāśa（光照），
+jñāna 亦如是。
+彼與 jñeya 不二之 jñāna，與虛空相似者，
+證悟 jñeya-ātmasvarūpa（所知自我自性）所不離之 gaganopama 之 dharma。
+彼乃 saṃbuddha（已證悟者），即此乃 Īśvara（自在主），
+即 nārāyaṇa（那羅延）之名。我禮彼、敬禮 dvipadāṃ-vara，
+即 dvipada（人）所表之 puruṣa（人）中之 vara（最勝）、
+pradhāna（主）、puruṣottama（人中尊）之意。
+以禮敬說法者為門，此 jñāna、jñeya、jñātṛ（能知）之差別已除之
+paramārtha-darśana（勝義見），於本 prakaraṇa（章）中，
+經由遮遣反方而欲令證成，已作 pratiñā（立宗）。
+
+=== 6 | 第四品 第二頌 ===
+
+此名 asparśa-yoga（無觸瑜伽），乃一切 sattva（眾生）之 sukha（樂）、hita（利）；
+無 vivāda（諍論）、無 viruddha（違逆），此所宣說，我頂禮之。
+
+=== 7 | 第四品 第二頌 釋 ===
+
+sparśa（觸）即 sparśana（觸）、sambandha（關連），sparśa 不存在之 yoga（瑜伽），
+不於任何時以任何方式，彼即 asparśa-yoga，即 brahma-svabhāva（梵自性）本身。
+vai（確實）為名，brahmavid（知梵者）所共許之 asparśa-yoga 以如是聲名，此即其義。
+彼又為 sarva-sattva-sukha（一切眾生之樂）。
+有者雖具極 sukha 之方便，仍為 duḥhkha（苦）之自性，如 tapaḥ（苦行）。
+此瑜伽則不然。
+如何？乃 sarva-sattva 之 sukha。
+如是於此或有 viṣayopabhoga（受用境界）之 sukha 非 hita，
+此則為 sukha 且為 hita，以其自性常住不動故。
+復次，無 vivāda、viruddha 即 vivāda，以持宗與反宗之差別，
+於瑜伽中此不存在，彼即 avivāda（無諍論）。
+何故？以無 viruddha。
+如是之瑜伽由 śāstra（經教）所宣說、所教示，我頂禮彼、即 praṇāma（禮敬）之義。
+
+=== 36 | 第四章 第3-10頌 ===
+
+**4.3**
+「為何二元論者相互矛盾？」答曰：
+有些論師主張已生之事有「生」，
+另有些智者辯論未生之事，
+相互為敵。
+
+「已生」即已存在之事，論師中有人主張其生起，非一切二元論者皆如此，數論派除外。「未生」即不存在之事，另有些智者，即勝論派、正理派，相互爭論，欲以自宗破他宗，此其意也。
+
+**4.4**
+已生者無從生，
+未生者亦無生，
+如此辯論的不二論者，
+乃在宣說「無生」。
+
+「已生」即存在之事，說其不生，以已存在故，如我；持此說者破斥數論「已生有生」之宗。「未生」即不存在之事，以不存在故，亦不生，如兔角；持此說者亦破斥「未生有生」之宗。相互辯論、不相投契者，即是不二論者，相互破斥「已生」「未生」之二生，乃在宣說「無生」即畢竟不生。
+
+**4.5**
+彼等所宣說之「無生」，我等讚同，
+但不與彼等共爭；
+請聽此無諍之說。
+
+彼等如此宣說「無生」，我等唯讚同而已，不取彼等之宗與破共辯，如彼等之相互為敵意。故此無諍、即離戲論之見勝義者，乃我所許，諸弟子應知。
+
+**4.6**
+論師們主張未生之法亦有生，
+然而未生者即是無死之法，
+怎能趨向死亡？
+
+已生派與未生派之諸論師，此偈前已釋。
+
+**4.7-8**
+不死者不成為必死者，
+必死者亦不成為不死者，
+自性永不改變，
+任何時候皆如此。
+
+本性已是不死之法，
+若趨向死亡，
+人為造作的不死之法，
+怎能常住不動？
+
+前述諸頌之義，此處舉示，以顯相互矛盾之諸外論師所宣說之「無生」，彼等之互相矛盾乃我所讚同。
+
+**4.9**
+然世俗自性亦不變異。何者？頌曰：
+
+圓成、自有、俱生、無作，
+此即自性應當了知；
+不失自性者，即是自性。
+
+圓成者，圓滿成就，如瑜伽成就者之得神境等功德之自性；自有者，即以物自性而有，如火等之熱、光明等相，於時處亦不變易；俱生者，即與我俱生，如鳥等之飛行等相；無作者，即無有作之者所造作，如水流下於低地等相。又有任運不失自性者，此一切即世間所稱之自性。即於虛妄分別之世俗事，自性亦不變易，況無自性之勝義事、無死之自性，豈有變易？此其意也。
+
+**4.10**
+然此自性以何為境，而論師虛構其變異？或虛構有何過失？頌曰：
+ja
+
+=== 10 | 第四品第十頌 ===
+
+[頌]
+凡諸法（dharma）本性解脫於老死（jarāmaraṇa），
+然彼等希求老死，
+由其妄想而流轉。
+
+[釋]
+「解脫於老死」——離老死等一切變易之義。
+誰是？一切法（dharma），即一切我（ātman），本性爾故。
+諸法如是本性，而希求老死——如於繩上妄計為蛇，於我（ātman）
+上計著，希求如是真實，實由本性而流轉；「由其妄想」——由計
+著生滅之想，由彼有無之過故。
+
+=== 11 | 第四品第十一頌 ===
+
+[頌]
+若因即是果，
+其因復從果生；
+已生云何稱無生（ajam）？
+已破云何為常住（nityam）？
+
+[釋]
+軟性所取之因，於彼論者，轉成果之相狀。
+彼說者意：無生之因（pradhāna 原質等）以覺（mahat）等果相
+而生。
+pradhāna 以覺相而生，云何稱無生？此與彼「生而無生」之說相
+違。
+又彼說 pradhāna 為常住，已破（已裂）少分，云何常住？
+世間之缽等，由少分破裂，已破者不見為常住——彼等如是違
+說。
+
+=== 12 | 第四品第十二頌 ===
+
+[頌]
+若汝說因無異於果，
+由此果為無生（ajam）；
+然果既是已生，
+汝因云何得堅固（dhruvam）？
+
+[釋]
+汝既許無生之因與果無異，則果為無生，此理所至。
+此又相違：汝說果為無生。
+復次，若因果無異，從已生之果，汝因云何得常住堅固？
+猶雞之一分部熟，一分部留作產卵。
+
+=== 13 | 第四品第十三頌 ===
+
+[頌]
+若說無生（ajam）而能生，
+彼即無譬喻可得；
+從已生而復生者，
+便墮無窮之過失。
+
+[釋]
+若彼論者說果從無生（未生）之物而生，彼即無譬喻。
+由無譬喻故，從無生者無物得生——此理成立。
+若復從已生之物，許有更生，則此從彼生，彼又從他生——如是
+不得定止，便墮無窮（anavasthā）。
+
+=== 14 | 第四品第十四頌 ===
+
+[頌]
+若彼說果從因始，
+因復從果為始，
+因與果云何無始（anādi）？
+彼說實為相違。
+
+[釋]
+彼等論者：身等集聚為法（dharma）等之因（始），法（dharma）
+等又為身等集聚（果）之因（始）。
+如是相互因果而說有始，今說因與果為無始（anādi），云何不
+相違？
+常住不變之我（ātman），不可有因果之性。
+
+=== 15 | 第四品第十五頌 ===
+
+[頌]
+若果從因而生，
+因復從果而生，
+如是彼等應如：
+子生父亦生。
+
+[釋]
+從因所生之果，因復從果生……
+（註：本頌釋文於所引原文中截斷）
+
+=== 38 | 第四章 ===
+
+他們不應接受這樣的矛盾，就如同「兒子從父親出生」一樣。
+
+=== 4.16 ===
+
+如果你認為，所說的矛盾不應接受，那麼你應當考察因與果的生起次序，因為若同時生起，便沒有關聯，如同兩隻角。
+
+因與果生起時，你應當考察次序：因在前，果在後。
+
+此外，因與果若同時生起，由於它們作為結果與原因便沒有關聯，正如同時生起的左角與右角沒有關聯。
+
+=== 4.17 ===
+
+從果生起的那個因，並不能由此成立；未成立的因怎麼能產生果呢？
+
+從一個自身尚未獲得本性的果中生起的因，就如同兔角等不存在之物一樣，並不能成立，並不能獲得生起。
+
+你所說的因，如兔角等一般，尚未獲得自身本性而不成立，怎麼能產生果呢？因為在任何地方，都未曾見到兩個各自依賴對方而成立、如兔角一般的事物，具有結果與原因的關係。這就是所要表明的意思。
+
+=== 4.18 ===
+
+如果因由果而成立，而果又由因而成立，那麼哪一個先完成？那一個的成立，是依靠另一個而來的嗎？
+
+即使因與果具有結果與原因的關係，已經接受了彼此相互成立這一點，哪一個先完成，以便後來者的成立能依靠先前的成立？請說明。這就是偈頌的意思。
+
+=== 4.19 ===
+
+如果你認為這不能說明，那麼這是無能、無知，或是次序的錯亂；因此，諸佛如此全面地闡明了無生。
+
+這種無能、無知，是不辨真實、愚昧的意思。
+
+又或者，你所說的次序是：因由果而成立，果又由因而成立；這種以彼此相續為特徵的次序，應當是錯亂、顛倒、成為另一種樣子的。這就是所要表明的意思。
+
+由於因與果不可能具有結果與原因的關係，所以諸佛、諸位智者以闡明各種立場之過失的方式，闡明了一切事物皆無生，即一切事物都不生起。這就是偈頌的意思。
+
+=== 4.20 ===
+
+有人說：我們所說的是因與果的結果與原因關係；你只是依靠字面，提出了這個詭辯，說什麼「兒子從父親出生」，又說「如同角一般沒有關聯」等等。
+
+我們並沒有接受因從未成立的因而成立果，也沒有接受果從未成立的果而成立因。
+
+那麼是什麼呢？我們接受的是如同種子與芽一般的結果與原因關係。
+
+對此回答：
+
+名為種子與芽的例子，始終與所要證成之物相同；因為與所要證成之物相同的因，不能用來成立所要證成之物。
+
+名為種子與芽的例子，與我所要證成之物相同，這就是我的意思。
+
+有人說：種子與芽之間的結果與原因關係是直接可見的，而且是無始的嗎？不是。因為我們接受每一個先前的事物，都如同後來的事物一般具有開始。
+
+例如，現在生起的另一個芽以種子為開始，而種子又以另一個芽為開始；由於依次生起，所以它們都有開始。
+
+同樣地，每一個更早的芽與更早的種子，也都各自具有開始。因此，種子與芽這一類事物中的每一個，都具有開始，不可能有任何一個是無始的。
+
+因與果也是如此。
+
+如果有人說，種子與芽的相續是無始的呢？不是，因為不可能是一個單一的事物。
+
+離開種子與芽之外，並沒有一個名為種子與芽相續的單一事物被接受；同樣，也沒有一個名為因與果相續的單一事物，被那些主張其無始的人所接受。
+
+因此，因與果無始怎麼能由他們……
+
+=== 39 | 第四章第二十一至二十四頌 ===
+
+「因為如此」——
+
+此外，因為在其他方面也無法成立，所以「並非欺罔」是其意旨。
+
+世間上，精通量論者在證成所證之時，不會採用與所證相同的因作為成就所證的理由；這就是其中的意思。
+
+所謂「因」，這裡意指譬喻，因為它具有能夠使人通達的作用。原本的譬喻不是因，正是如此。
+
+=== 21 | 何以顯明不生 ===
+
+問：諸佛是如何闡明不生的？
+
+不了知前後者，
+正是顯明不生；
+既然法正在生起，
+為何不能把握其先前？
+
+這裡所說的「不了知因與果的前後」，正是顯明、了悟不生的意思。
+
+如果一個法正在生起時可以被把握，那麼為何在它之前，作為其原因者不能被把握？
+
+正在生起之物，必定應當由把握它的主體把握那個產生它的原因，因為所生者與能生者之間的關聯並未中斷。因此，那就是顯明不生的意思。
+
+=== 22 | 一切事物皆不生 ===
+
+因此，也沒有任何事物會生起；凡是正在生起的事物——
+
+無論由自身，或由其他者，
+都沒有任何事物會生起；
+無論是存在、非存在，
+或存在與非存在，
+都沒有任何事物會生起。
+
+無論由自身、由他者，或由兩者，存在、非存在，或存在與非存在，都不會生起；它不可能以任何方式出生。
+
+首先，一物不會由自身生起，因為自身的本性尚未完成，不可能由自身生起自身；正如陶罐不會由那個陶罐自身生起。
+
+也不會由他者生起：一物不會由不同於自身的另一物生起，正如布不由陶罐生起，另一匹布也不由布生起。
+
+同樣，也不會由兩者生起，因為彼此相違；正如陶罐與布不會產生陶罐或布。
+
+問：可是，陶罐由泥土生起，兒子由父親生起。
+
+答：確實，愚昧者有「生起」的認知，也有「生起」這個詞。然而，明辨者會檢驗這兩者：那究竟是真實，還是虛妄？
+
+因為經過檢驗，作為「生起」這個詞的對象、具有陶罐與兒子等特徵的事物，終究只是語言而已。正如經文所說：「只是言語的開始。」（《查andogya奧義書》6.1.4）
+
+如果它是存在者，那麼它不會生起，因為存在者本身就已存在，如泥土、父親等。
+
+如果它是非存在者，那麼即使如此也不會生起，因為非存在者本身不可能生起，正如兔角等。
+
+如果它是存在與非存在，那麼即使如此也不會生起，因為一個彼此相違的事物不可能同時成立。
+
+因此，沒有任何事物會生起，這一點便已確定。
+
+至於那些主張「生起本身就是生起」，並且主張事物是剎那性的論者，他們從遠處看就已背離正理；因為不能確定「這就是這個」的認知會停留到另一個剎那，也因為未曾經驗之物不可能成為記憶的對象。
+
+=== 23 | 因與果皆無生起 ===
+
+再者，你既然主張因與果是無始的，就必然是強行承認因與果本身不生。
+
+為什麼呢？
+
+因不生，因為它是無始的；
+果也依其本性不生；
+凡是沒有起始者，
+它就沒有起始。
+
+由於果是無始、沒有起點，所以因不會由果生起。你並不承認因會由尚未生起、無始的果生起。
+
+果也不會由無始、沒有起點的因生起；你不承認果無因而依其本性、毫無理由地生起。
+
+因此，你既然承認因與果是無始的，就必須承認因與果皆不生。
+
+因為在世間上，凡是沒有起點、沒有原因者，便沒有前面所說的「生起」；只有具有原因者，才承認它有起點，無因者則不然。
+
+=== 24 | 依他而存在的認定 ===
+
+為了再次駁斥、堅定前面所說的義理，他提出質疑：
+
+若認知有其因，
+便會因雙重性的消失
+而成為另一種情形；
+又因苦惱可以被覺知，
+所以認為存在是依他的。
+
+「認知」就是「認知活動」，也就是對聲音等的覺知。認知具有因，這是我們所主張的；這裡的「因」是原因，也是對象。因此，所謂「具有因」，就是「具有對象」；也就是說，承認它具有不同於自身的對象。
+
+認知不可能沒有對象，對聲音等的覺知……
+
+=== 40 | 施設有因與顛倒無因（偈 4.25–4.27）===
+
+【偈 4.25】
+
+施設（prajñapti）有因（sanimitta）說，藉正理（yukti）觀見而立；
+因（nimitta）之無因說，藉如實（bhūta）觀見而立。
+
+【釋 4.25】
+
+誠然如是！施設之有因性，汝依二煩惱（saṃkleśa）之領受與正理觀見等而立。
+
+此中：「汝當先堅住此正理觀見，然後以物之如實為證得之因耶？」
+
+「請說其故。」
+
+施設所緣（ālambana）之因（如瓶等），吾等亦立其無因性、無所緣性，以其為差別之因故。
+
+云何？由如實觀見，即由勝義（paramārtha）觀見故。
+
+若如實觀見泥之形相，則瓶不離泥而有。如牛之於馬、帛之不離線、線之不離纖維，如是層層如實觀見，至言語概念（āśabda-pratyaya）止息處，吾等不領受其有因，故也。
+
+或由如實觀見故，吾等亦立外境之無因性，如繩上之蛇等。
+
+由於是顛倒觀見之對象故，因之無因性當成立。
+
+由於顛倒觀見之無故，於無夢定（suṣupta-samāhita）解脫者，離我之外境不被領受。
+
+非如瘋狂者所覺知之物，非瘋狂者亦能如實證知。
+
+以此，二顯與煩惱之領受已答。（25）
+
+【偈 4.26】
+
+由於無外因故：
+心（citta）不觸對象（artha），亦不觸對象之相（ābhāsa）；
+由對象非實故，對象之相亦不異於心。
+
+【釋 4.26】
+
+心不觸以外境為所緣之對象，亦不觸對象之相，以是心故，如夢中之心。
+
+即使在醒位，外聲等對象亦如夢中之對象非實，由前述因故。
+
+對象之相亦不異於心，如夢中，瓶等對象之相即是心之顯現。（26）
+
+【偈 4.27】
+
+若無瓶等，瓶等相之顯現於心為顛倒（viparyāsa）；如是則顛倒之真實應於某處宣說。
+
+答曰：
+於三世（adhvan）中，心皆不觸因；
+因若無，彼之顛倒如何當有？
+
+【釋 4.27】
+
+於過、現、未三世中，心皆不觸對象（viṣaya）為因，誠然也。
+
+若於某處觸，彼即非顛倒，而是勝義。
+
+故就彼而言，於無瓶時，瓶等相之顯現為顛倒，而非心於任何時有對象…
+
+=== 27 | 第四章第二十七節 ===
+
+hasaṃsparśanam /
+
+因此，若無原因，顛倒妄見怎麼會在那個心中生起？無論如何都沒有顛倒妄見，這就是其意旨。
+
+因為，心的本性正是如此：即使沒有原因，如陶罐等，它仍然如同有原因時那樣顯現。
+
+---
+
+=== 28 | 第四章第二十八節 ===
+
+從「施設具有原因性」直到這裡，這是佛教瑜伽行派關於唯識的言論；它旨在否定外境實有論的立場，而為阿闍梨所認可。
+
+以此作為理由，為了否定那一立場，現在說：
+
+因此，心不生起，心所見者也不生起。  
+那些看見它出生的人，確實是在虛空中看見了足跡。
+
+由於唯識論者承認，即使陶罐等並不存在，心仍顯現為陶罐等；我們也由於看見事物而認可這一點。因此，即使那個心所顯現的生起是在並不存在的出生中，也應當是合理的。所以心不生起，正如心所見者也不生起。
+
+因此，那些看見心出生的唯識論者，認為心具有剎那性、苦性、空性、無我性等；然而，他們以那個心不可能看見心的本性，卻仍然說自己看見了它，實際上正如在虛空中看見鳥獸等的足跡。
+
+因此，他們比其他二元論者更加大膽。至於那些主張一切皆空的空論者，甚至連自身見解的空性也主張為空；他們比那些人更加大膽，因為他們甚至想用拳頭抓住虛空。
+
+---
+
+=== 29 | 第四章第二十九節 ===
+
+由前面所說的理由，已經證明不生的一者就是 Brahman（梵）。為了總結最初所提出的主張及其結果，現在說這一偈：
+
+不生者之所以出生，  
+是因為本性是不生的；  
+因此，本性不可能以任何方式變成其他形態。
+
+那個心被主張為「不生的心就是 Brahman（梵）而出生」；但它是不生的，因為它的本性是不生的。因此，由於其本性是不生的，那個本性不可能以任何方式變成出生。
+
+---
+
+=== 30 | 第四章第三十節 ===
+
+現在說那些主張輪迴與解脫在究竟上真實存在者的另一個過失：
+
+若輪迴無始，  
+它就不可能有終；  
+若解脫有始，  
+它就不可能是無限的。
+
+無始、沒有過去極限的輪迴，不可能有終結或完結；依照道理，它不能獲得成立。
+
+在世間沒有見過任何一個無始而有終的事物。
+
+如果有人說，種子與芽之間的連續關係雖然不間斷，但其間仍可容許有斷裂，那也不能成立，因為這會導致一個事物不存在。
+
+同樣地，解脫若以獲得知識的時刻為其起始，也不可能是無限的，因為在陶罐等事物中看不到這種情況。
+
+如果有人說，解脫如同陶罐等的毀滅，因其非實有而沒有過失，那麼如此一來，就會放棄主張解脫在究竟上實有；而且，由於它不存在，也就如同兔角一樣沒有起始。
+
+---
+
+=== 31–32 | 第四章第三十一至三十二節 ===
+
+在起初與末後不存在的事物，  
+在現在也同樣不存在；  
+它們雖然與虛妄者相似，  
+卻被看作彷彿真實。
+
+它們在夢中所具有的目的性，  
+會彼此產生分歧；  
+因此，正因為它們有始有終，  
+它們確實被記為虛妄。
+
+這兩首偈頌在說明虛妄時被解釋過了；此處是由於會導致輪迴與解脫不存在，所以誦出它們。
+
+---
+
+=== 33 | 第四章第三十三節 ===
+
+夢中一切法都是虛妄，  
+因為可以看見身體有終；  
+在這個區域已經消滅之後，  
+眾生的顯現從何而來？
+
+這些偈頌闡明了這個意思：由於看見事物，所以承認原因並非原因。
+
+---
+
+=== 34 | 第四章第三十四節 ===
+
+前往某處而看見它，並不合理，  
+因為前往的時間沒有固定；  
+而且，醒來之後，  
+在那個地方根本沒有任何一切。
+
+=== 34 | 第四章 第三十四頌 ===
+
+醒位之中，行動之往來有其限定之時間與處所；夢中無此限定，故夢中並非真實前往他處。
+
+=== 35 | 第四章 第三十五頌 ===
+
+與朋友等共議之事，於醒後並不真正抵達；夢中所取之物，覺醒後亦不復見。
+
+與朋友等共議之事，醒後並不真正從事該事；所取諸物（黃金等）亦不能獲得。因此夢中人並未真正前往他處。
+
+=== 36 | 第四章 第三十六頌 ===
+
+夢中之身亦無實體，因另見他身之故；如夢中之身，凡心所見一切皆無實體。
+
+夢中所見之身，名為「無實體之身」。因另見別一身之故。如夢中所見之身非實，凡心所見皆無實體。意謂醒位所見亦是心所見，故亦無實體。此段意謂：夢中無實，醒位亦非實，與夢相同。
+
+=== 37 | 第四章 第三十七頌 ===
+
+由是可知醒位對象亦無實：以可被執取故，夢被視為如醒位；夢既為醒位之因，則由彼所執取者，被視為「似醒」。
+
+夢以可被取與能取之相狀而被取，故夢如醒位。其因為醒位；夢本身被視為「由因而生之果」，即夢中醒位之果。以是夢之因與果故，僅於夢中所見者為「似醒」，非其他。其意謂：如夢一般。
+
+又：夢乃夢中所見，僅以無共有實體之相狀而顯現；同理，以夢為因所顯現者，亦以無共有實體之相狀而顯現，而非真實共有之實體，與夢相同。其意如此。
+
+=== 38 | 第四章 第三十八頌 ===
+
+設問：縱使醒位為夢之因，醒位之對象亦不如夢之無實。以夢極為變動不居，而醒位則被認為穩固故。此說於未證量者誠然為實；然於證量者，無有一物之生起可得成立。故由生起不可得故，一切被宣說為無生。實有從非實有終不生起。
+
+以生起不可得故，一切即是自我，此即「一切無生」之宣說。《奧義書》中亦云：「無外無內，無生者」。若汝以為由醒位之實有而生夢之非實有，此說不然。於世間，實有不從實有而生，非實有不從非實有而生。從非實有（如兔角等）始終未見任何生起。
+
+=== 39 | 第四章 第三十九頌 ===
+
+設難：汝自言「夢乃醒位之果」，然則「生起不可得」云何可說？聽我等所立之因與果之關係：於醒位見非實，充滿彼想者於夢中亦見；於夢中見非實，於醒後則不復見。
+
+醒位見非實之物，即如繩上妄分別為蛇之例。充滿彼想者，於夢中亦如醒位，以可取與能取之相狀分別而見。同理，於夢中見非實，於醒後則不分別而不見。「ca」字意謂：同理於醒位所見，夢中亦不見（偶爾）。故醒位被稱為夢之因，而非究竟真實。
+
+=== 40 | 第四章 第四十頌 ===
+
+然於究竟真實中，無有一法於任何方式下有因果關係成立。何以故？非實無因，亦非實與實為因；實亦無因，非實何從實而有因？
+
+=== 4.40 | 註釋 ===
+
+不存在以非有為因的非有。兔角等若是因，而其所生的非有是虛空花等，那麼這種以非有為因的非有並不存在。
+
+同樣，壺等事物雖為實有，卻不存在以兔角等非有之物為因而生的結果。
+
+同樣，現存的壺等，也不是另一個現存壺等事物的結果。
+
+實有之果怎可能唯從非有而生？也不可能存在或設想出另一種因果關係。因此，在有辨別力者看來，任何事物的因果關係都不能成立。這就是本意。
+
+=== 4.41 | 頌 ===
+
+如於醒時因顛倒，
+將不可思議之物觸知為實有；
+如是於夢中因顛倒，
+就在其中見到諸法。
+
+=== 4.41 | 註釋 ===
+
+所謂「因顛倒」，就是由於不能辨別。譬如有人在醒覺之時，把繩蛇等不可思議之相，想像成彷彿已被觸知的真實之物。
+
+同樣，他在夢中彷彿見到象等諸法，並加以想像；他只在夢中見到它們，而不是看見它們從醒覺狀態生起。這就是本意。
+
+=== 4.42 | 頌 ===
+
+由於知覺與行持，
+實有論者遂說事物存在；
+然而覺者所教的 jāti（生起），
+恆為畏懼 ajāti（不生）者而說。
+
+=== 4.42 | 註釋 ===
+
+不二論的覺者所教導的生起，是依據知覺，也就是由於有所知覺；又依據行持，也就是奉行種姓與生命階段等規範。
+
+基於這兩個理由，對那些慣於堅稱「事物確實存在」、執著牢固、篤信而辨別力薄弱的人，生起之說被教導為一種方法。
+
+暫且讓他們接受這種說法。至於修習 Vedānta（吠檀多）的人，對不生而不二之自我的辨別，自會在他們心中生起；因此，生起之說並非從究竟實相的立場而說。
+
+這些熟習聖典的人，由於心智粗鈍，總是畏懼不生及不生之實相，以為自我將遭毀滅，因而不能辨別。先前所說「這是為了使人得以進入的方法」，就是這個意思。
+
+=== 4.43 | 頌 ===
+
+那些畏懼不生的人，
+因知覺而背離不生；
+生起之過不會在他們身上成就，
+即使有過，也將十分微小。
+
+=== 4.43 | 註釋 ===
+
+那些由於知覺與行持而畏懼不生及不生之實相的人，背離了作為不二自我的不生，也就是走向與它相反的方向，接受了二元之說。
+
+然而，這些畏懼不生、心懷信受並依循正道的人，由於已走上辨別之道，因執取生起而有的過失不會成立，也不會獲得成就。
+
+即使仍有某種過失，也只會十分微小；那是由於尚未證得正見。這就是本意。
+
+=== 4.44 | 註釋 ===
+
+若說：「知覺與行持既是有效的認知根據，二元事物就確實存在。」並非如此，因為知覺與行持也會有所偏離。
+
+它們如何有所偏離？以下說明：
+
+=== 4.44 | 頌 ===
+
+由於知覺與行持，
+遂說幻象之象是象；
+由於知覺與行持，
+同樣遂說事物存在。
+
+=== 4.44 | 註釋 ===
+
+幻象之象確實能被看見，彷彿是一頭象；人們也彷彿對待一頭象那樣對待它，依照繫縛、乘坐等與象有關的行為而行，並稱它為象，儘管它並非實有。
+
+同樣，由於知覺與行持，二元而有差別之相也被說成實有之物。
+
+因此，知覺與行持不能成為二元事物確實存在的理由。這就是本意。
+
+=== 4.45 | 註釋 ===
+
+那麼，究竟實有而成為生起等虛妄觀念所依之處的事物，究竟是什麼？以下說明：
+
+=== 4.45 | 頌 ===
+
+顯現為生起，顯現為移動，
+同樣顯現為事物；
+vijñāna（識）不生、不動、不是事物，
+寂靜而不二。
+
+=== 4.45 | 註釋 ===
+
+它本是不生，卻如已生一般顯現，因此稱為「顯現為生起」。
+
+例如說：「提婆達多出生了。」
+
+所謂「顯現為移動」，移動……
+
+=== 44 | 4.45–4.52 ===
+
+「呈現為此」，意思是：正如同一位 Devadatta（提婆達多）被說成「正在行走」。
+
+所謂「物的顯現」，是指某個物、實體、具有性質者，像那樣顯現；因此稱為「物的顯現」。例如，同一位 Devadatta 被說成白皙、身長；Devadatta 在動作時，就如此顯現為身長、白皙。
+
+然而從究竟真實來說，什麼具有無生、不動、非實有、非實體這種性質？是 vijñāna（識），即認知。
+
+因為沒有生等，所以寂靜。
+
+因此也是非二；這就是它的意思。
+
+#### 4.46
+
+如此，心便不生；如此，諸法被記為無生。如此確實知道的人，不會墮入顛倒。
+
+如此，依據前面所說的種種理由，心便不生；因此，梵知者認為自我（ātman）的諸法是無生的。
+
+「法」使用複數，是因為它隨順身體的差別；這只是對非二者的方便說法。
+
+同樣地，知道前面所說的、沒有生等的、非二的自我實相之識，且已放下對外在事物的追求者，不再墮入無明黑暗之海中的顛倒。
+
+因為經文中說：「對於看見一體者，哪裡有迷惑，哪裡有憂愁？」等等（《伊莎奧義書》7）。
+
+#### 4.47
+
+為了闡明前面所說的究竟見，他說：
+
+正如火把的轉動顯現為直、曲等形狀，  
+同樣，識的運動顯現為所取與能取。
+
+世間所見的情況是，火把的揮動顯現為直、曲等形狀；同樣地，識的運動顯現為能知者與所知者，意思是所取與能取的顯現。
+
+那麼，這個識的運動是什麼？
+
+它只是由無明造成的、如同運動般的運動。
+
+因為不動的識並沒有運動。
+
+經中已說它是無生且不動的。
+
+#### 4.48
+
+正如不動的火把沒有顯現、是無生的，  
+同樣，不動的識沒有顯現、是無生的。
+
+不動，就是沒有運動。正如那同一火把不以直、曲等形狀生起，沒有顯現且無生；同樣，因無明而似乎運動的識，當無明止息時，便不動；它不以生等形狀顯現，無生且不動——這就是意思。
+
+#### 4.49
+
+此外：
+
+火把在運動時，顯現並非從別處生起；  
+火把不動時，顯現也不從它到別處，亦不進入火把。
+
+就在那支運動的火把中，直、曲等顯現並不是從某個火把以外的地方來到而在火把中生成，所以不是從別處生起。
+
+它們也沒有在火把不動時從火把離開而到別處；也不是在不動的火把中重新進入。
+
+#### 4.50
+
+這些顯現並未從火把中出離，因為它們不具實體性；  
+在識中也同樣如此，因為顯現並無差別。
+
+那些顯現並未從火把中出離；它們不像房屋等物那樣具有實體性。所謂實體性，就是實體的存在；實體不存在，就是無實體性。意思是，因為它們具有無實體性，所以不具有實在性；實在的事物才可能有進入等情況，非實在之物則不可能。
+
+識中生起的生等顯現也同樣如此，因為顯現的性質沒有差別，二者相同。
+
+#### 4.51–4.52
+
+如何說二者相同？他說：
+
+識在運動時，顯現並非從別處生起；  
+識不動時，它們不從識到別處，也不進入識。
+
+它們並未從識中出離，因為不具實體性；  
+因為沒有因果性，所以它們永遠不可思議。
+
+就識而言，一切都與火把相同；但識的特點在於它始終不動。
+
+那麼，無生等顯現在不動的識中，是由什麼造成的？他說：
+
+由於沒有因果性，產生者與被產生者不可能成立；由於它們屬於非存在的性質，所以它們始終不可思議。
+
+正如在直、曲等顯現並不存在時，直、曲等的認知只在火把自身上被看見……
+
+=== 1 | 第四品 4.53 ===
+
+故於種族等中，唯識，種族等之知乃虛妄，此乃集（samudāya）之義。
+
+無生（ajā）、唯一（eka）、自我之真實（ātma-tattva）既然已立，於彼而計因果之關係者：
+
+物非物之因，
+異物為他因。
+物性他性等，
+於法皆不立。
+
+一物不能是另一物之因，唯有異者方為他物之因，而非其自身之因；
+世間亦不見非物（adravya）為任何獨立之因。
+法、自我（ātman）之「物性」不成立，「他性」亦無從而有，無由得「他為因」、「他為果」之義。
+故由非物性、無他性故，無一法或自我為果為因。此為義。
+
+=== 2 | 第四品 4.54 ===
+
+法非心生起，
+心亦非生法。
+因果皆無生，
+智者入於此。
+
+如是，由前說諸因緣故，心（citta）即是自我識（vijñāna）之自性，
+故非心之外法生，亦非外法生心；
+以一切法皆唯是識性之顯現故。
+如是，果不從因生，因不從果生，
+智者入因果無生，決定於自我中唯有因果之無生，
+知梵者（brahmavid）即此義。
+
+=== 3 | 第四品 4.55 ===
+
+復次，若執著因果者，當如何？說曰：
+「以法與非法為因：『我是作者，法與非法屬我，於異時某眾生類中受其果報』」——
+
+因果習未盡，
+因果生不絕。
+因果習若盡，
+因果生不生。
+
+因與果之習氣（āveśa）者，因與果之執著，即投射於自我之上者，此即心也，此為義。
+如是因與果之生起者，法與非法及其果報之流轉不斷，此為義。
+復次，猶如以咒語（mantra）、藥力（auṣadhī）驅除執著之習氣，
+如是由前述不二見（advaita-darśana）驅除無明（avidyā）所起之因果習氣，
+則彼習氣若盡，因果不生。
+
+=== 4 | 第四品 4.56 ===
+
+「若因果生，復有何失？」說曰：
+
+因果習未盡，
+輪迴（saṃsāra）即長遠。
+因果習若盡，
+不墮於輪迴。
+
+由正見（samyagdarśana）未斷除因果之習氣、習氣未盡故，輪迴即長遠，此為義。
+因與果之習氣若盡，由無因故，則不墮輪迴。
+
+=== 5 | 第四品 4.57 ===
+
+然自我本無生（ajā）無滅，無有異於無生者，汝云何說因果與輪迴之生滅？「聽言：」
+
+世俗說一切生，
+於是無常住。
+真實說一切無生，
+於是無斷滅。
+
+saṃvṛti（世俗）者，覆障義，無明所緣，世間言談也；
+依彼世俗故，一切生。
+於彼無明境中，無有常住，以是故。
+輪迴之長遠者，以具生滅相故，此說如此。
+以勝義真實（paramārtha）故，一切無生，以其即是自我故。
+由無生故亦無斷滅，是中無有一法因果之斷。此為義。
+
+=== 6 | 第四品 4.58 ===
+
+諸法若言生，
+彼不從真生。
+其生如幻化，
+幻亦不可得。
+
+自與諸法若計為生者，如是等類，前已說為世俗（saṃvṛti），
+故諸法唯依世俗而生；
+彼等不從真實（tattva）、勝義（paramārtha）而生。
+
+=== 4.59 | 頌與釋 ===
+
+諸法之生如何如同 māyā？今說：
+
+如從 māyā 所成的種子，
+生出由它所成的萌芽；
+它既非恆常，也非斷滅，
+諸法亦應作如是理解。
+
+如從 māyā 所成的種子，生出由它所成、由 māyā 所成的萌芽。那萌芽既非恆常，也非毀滅者，因為它並非實有。同樣，將生滅等安立於諸法之上，只是權宜的理則；就究竟而言，諸法有生或滅，皆不成立。此即其意。
+
+=== 4.60 | 頌與釋 ===
+
+於一切不生之法中，
+無有恆常或無常之名；
+言語在彼不能運行，
+故亦不說彼有分別。
+
+就究竟而言，在作為 ātman（自我）、不生、恆常一味且唯有識之存在的諸法中，並不運用「恆常」或「無常」之名稱。此即其意。
+
+用以描述事物的語詞，在彼處不能運行，不能指稱或顯明它們。此即其意。
+
+在彼處，不能說「此是如此」而作分別，也不能說它是恆常或無常。
+
+正如聖典所言：「言語由彼退返。」
+
+=== 4.61–4.62 | 頌與釋 ===
+
+如在夢中，心因 māyā 而動，
+顯現二元之相；
+同樣在醒時，心因 māyā 而動，
+顯現二元之相。
+
+心本非二，卻在夢中顯現二元之相，
+此事無疑；
+同樣，心本非二，卻在醒時顯現二元之相，
+此事無疑。
+
+至於究竟非二、唯有識者竟成為言語所及，那只是心的振動，並非究竟實相。
+
+以上二頌之義已明。
+
+=== 4.63 | 頌與釋 ===
+
+由此亦知，二元並非言語所能觸及：
+
+夢見者在夢中遊行，
+於十方各處，
+總能看見卵生之眾生，
+以及濕生之眾生。
+
+看見夢境者，稱為夢見者。他在夢境之中遊行徘徊，總能看見居於十方各處的眾生，包括卵生者與濕生者。
+
+=== 4.64 | 頌與釋 ===
+
+若是如此，又當如何？今說：
+
+那些為夢見者之心所見者，
+不離那顆心而另有存在；
+同樣，這夢見者之心，
+也被認為正是所見之物。
+
+那些眾生為夢見者之心所見，並不離夢見者之心而另有存在。此即其意。
+
+心本身被分別想像為眾多眾生等不同形態。
+
+同樣，這夢見者之心本身也是所見之物；它為夢見者所見，因而是其所見。因此，離開夢見者，並不存在一個稱為心的事物。此即其意。
+
+=== 4.65–4.66 | 頌與釋 ===
+
+人在醒時遊行，
+於十方各處，
+總能看見卵生之眾生，
+以及濕生之眾生。
+
+那些為醒時之心所見者，
+不離那顆心而另有存在；
+同樣，醒時之人的心，
+也被認為正是所見之物。
+
+醒時所見的眾生，不異於那顆心，因為它們是心的所見；正如夢見者之心所見的眾生一般。
+
+而那以觀看眾生為其形態的心，也不異於觀看者，因為它是觀看者的所見；正如夢中之心一般。
+
+其餘義理已如前說。
+
+=== 4.67 | 頌與釋 ===
+
+二者實乃互為所見；
+若問：「那麼，究竟何者存在？」
+二者皆無任何可辨之相，
+故在彼見中，二者皆不可得。
+
+眾生與心二者，即心與心所緣，互為所見，彼此可知。
+
+所謂心，乃依待眾生等對境而成立。
+
+=== 47 | 第四章 67-75 偈頌與註 ===
+
+因與「我」相關，故 jīva（命）等為可見。除此之外別無可見者，故說「無物存在」，或說「心存在」，或說「所緣境存在」——「那是什麼」？覺者如此回答：「譬如夢中，象或象之心皆不存在；同樣於覺知中亦然。」這是覺者的意旨。如何？「因無相者由彼而顯現」，故相即 pramāṇa（量）；量所空之二者——心與意識之雙重——皆然。是以由彼心、由心故而被認知；非捨鉢之念而識鉢，亦非捨鉢而識鉢之念；於彼處 pramāṇa（量）與 prameya（所量）之差別不可施設。此即意旨。// 67 //
+
+如夢所成之 jīva（命），生時亦死，
+如是此等一切 jīva（命），有而復無。// 4.68 //
+如 māyā（幻）所成之 jīva（命），生時亦死，
+如是此等一切 jīva（命），有而復無。// 4.69 //
+如化所成之 jīva（命），生時亦死，
+如是此等一切 jīva（命），有而復無。// 4.70 //
+
+māyā 所成、由幻術者所作、由真言藥物等所生者，即「幻所成」、「化所成」。夢、māyā、化三類卵生之 jīva（命），由其生而死；彼等具人等之相狀，實則為無——唯是心之虛妄分別而已。// 68-70 //
+
+無一 jīva（命）生，其生起亦不存在；
+此即至上真實——於其中無一物生。// 4.71 //
+
+於 vyavahāra-satya（世間俗諦）層面，jīva（命）之生、死等，如夢中之 jīva（命）所說。然至上者乃 paramārtha-satya（勝義諦）之真實——無一 jīva（命）生。（其餘意旨已述。）// 71 //
+
+此雙重者，猶如所取與能取，實唯心之微細活動；
+心無所緣、恆常、不染——是故彼所稱揚。// 4.72 //
+
+一切所取與能取之雙重，唯是心之微細活動；於勝義層，心即是 ātman（自我），故無所緣。是故以無所緣故，稱為恆常、不染。「此 puruṣa（原人）實不染著」（《廣森林奧義書》4.3.15, 16）——此乃聖教。有緣者則染著於緣；以無所緣故，心不染著，是其義。// 72 //
+
+若以心無所緣故，則心不染著——然若教法、教師、弟子等所緣實有，則無染著不成立，何以故？此非過失。何以故？
+彼由 kalpita-saṃvṛti（施設世俗）而存在，於 paramārtha（勝義）則無；
+由 paratantra（他緣）施設世俗而或有，於 paramārtha（勝義）則無。// 4.73 //
+
+教法等所知之事，乃由施設世俗而成；此施設乃趣入 paramārtha（勝義）之方便，故為世俗。由此施設而存在者，於勝義中則無——此非可知。「了知時則無二元」——此已說。由 paratantra（他緣）施設世俗，即由他教法之施設而或有之事，於勝義中正被審察時，實亦無。是故「心不染著」之說合理。// 73 //
+
+若教法等為世俗，則「此是不生者（ajaḥ）」之施設，亦應為世俗？誠然如是——
+由施設世俗故為 ajaḥ（不生者），於 paramārtha（勝義）亦非 ajaḥ（不生者）；
+由 paratantra（他緣）等之成就故，由世俗而彼乃生。// 4.74 //
+
+由教法等之施設世俗故，稱為 ajaḥ（不生）。於勝義中亦非 ajaḥ（不生者）；因由 paratantra（他緣）之成就——即由他教法之成立而說為 ajaḥ（不生者）——由世俗故，彼乃生。故「ajaḥ（不生者）」之此施設，於勝義中無所造作，是其義。// 74 //
+
+由於所緣為無，故（結論）：
+執著於未曾有之事，於彼無此雙重；
+於雙重之無…
+
+=== 4.75 | 頌與釋 ===
+
+唯有覺知之後，無因者不生。
+
+對不實的二元懷有執著，僅此而已。
+執著只是固執。
+其中並不存在二者。
+由於虛妄執著正是出生之因，因此，覺知二者之不存在後，成為無因者；凡已止息對虛妄二元之執著者，他便不再出生。
+
+=== 4.76 | 頌與釋 ===
+
+當心不能獲得上、中、下等諸因時，
+心便不生；因既不存在，果從何而來？
+
+由種姓與生命階段所規定、由不求祝福者奉行的諸法，是獲得神性等果報的上等之因；這些是純粹的法。
+與非法混合、旨在獲得人身等果報者，是中等之因。
+以獲得畜生等果報為目的、具有非法特徵的各種行為，是下等之因。
+
+當人了知那唯一、無二的 Ātman（自我）實相，離一切分別，便不能獲得、也看不見那些由無明所構想的上、中、下等諸因；正如有辨別力者不會看見孩童在天空中所見的污點。此時，心不再出生，不再以神等形態，作為上、中、下等果報而生起。因不存在時，果實不能生起，正如沒有種子等物時，莊稼等物便不能生長。
+
+=== 4.77 | 頌與釋 ===
+
+如前所說，因不存在時，心便不生。
+至於心的這種不生究竟如何，現說如下：
+
+無因之心的那種不生，
+恆常、無二；
+因為一切本來不生，
+心所見者正是它。
+
+從最高實相的見地而言，產生之因——所謂法與非法——已被消除；無因之心的那種稱為解脫的不生，在任何時候、任何狀態中都同一、無差別且無二。
+其意是：那是本來不生之心、那一切無二者的不生。
+因為在認知生起以前，那無二者、出生以及心所見者已然如此，所以，一切本來不生之心的不生，恆常同一且無二；並非有時存在，有時不存在。
+其意是：它永遠只有同一形態。
+
+=== 4.78 | 頌與釋 ===
+
+依上述道理，由於作為出生之因的二元並不存在：
+
+覺知無因性是真實，
+又不能另行獲得任何因者，
+便抵達離憂、離欲、
+無畏的境地。
+
+覺知無因性是真實且具有最高實相之性，又不另行獲取法等能使人投生於神等生處的原因，不再執取，捨棄對外在事物的追求，便抵達離欲、離憂等、遠離無明等事物的無畏境地。其意是：他不再出生。
+
+=== 4.79 | 頌與釋 ===
+
+由於執著不存在者，
+心遂依其相似者而活動；
+唯有覺知實體不存在，
+心才無所依著而止息。
+
+由於執著不存在者——即在二元並不存在時，仍確信二元存在——因此，出於具有無明迷亂之性的虛妄執著，心便依照與之相似、與之相應的事物而活動。
+當人覺知那二元實體不存在時，便不再依著它，無所期待，確實從作為虛妄執著對象的事物中止息。
+
+=== 4.80 | 頌與釋 ===
+
+已止息、不再活動者，
+其狀態確實如此寂然不動；
+那正是覺者的境域，
+是平等、不生、無二。
+
+心已從二元境域止息，又因見到其他境域亦不存在而不再活動，此時，其狀態寂然不動，遠離一切動搖，正是 Brahman（梵）的本性。
+
+心的這種 Brahman 本性狀態，以無二認知之唯一、同一且圓滿為特徵；由於它正是見最高實相之諸覺者的對象與境域，因此，它是至高、無差別、平等、不生且無二。
+
+=== 4.81 | 頌與釋 ===
+
+又問：覺者的那一境域究竟如何？現說如下：
+
+不生、無眠、無夢、覺明。
+
+=== 81 | 第四章第八十一頌及釋 ===
+
+自行顯現；
+因為此法依其界之自性，僅一次顯明。
+
+它自行顯現，不依賴太陽等物；其義為：它的自性即是自明之光。
+
+「僅一次顯明」，即恆常顯明。具有如此特徵、名為 Ātman（自我）的此法，依其界之自性，也就是依實在之自性而顯明。
+
+=== 82 | 第四章第八十二頌及釋 ===
+
+即使如此宣說，世俗之人為何仍不能領會最高真實？現說如下：
+
+執取任何一法，
+幸福便恆常被遮蔽，
+痛苦則始終被揭露；
+彼即是那位 Bhagavān（尊者）。
+
+由於執取任何二元事物之法，陷入執取之中，虛妄而固著，幸福便毫不費力地被遮蔽。
+
+因為在那裡，二元知覺本身就是遮蔽之因，不需要其他努力。
+
+痛苦則被揭開、被顯露，因為最高真實之知極難獲得。
+
+彼 Bhagavān，即無二的 Ātman，也就是神聖者。因此，即使 Vedānta（吠檀多）經典與諸教師屢次宣說，人仍無法認識他。
+
+正如聖傳所言：「宣說者難得，能領受此者亦善巧。」
+
+=== 83 | 第四章第八十三頌及釋 ===
+
+即使學者對「存在」「不存在」等微細論題的執取，也只會遮蔽 Bhagavān、最高 Ātman；更何況愚人以知性為相的執取。為顯明此義，故說：
+
+「存在」「不存在」「既存在又不存在」，
+或又說「既非存在亦非不存在」；
+愚者以動、靜、二者及二者皆無，
+將他遮蔽。
+
+有人主張：「Ātman 存在。」
+
+另一位斷滅論者主張：「它不存在。」
+
+另一位半斷滅論者、主張存在與不存在的裸行者則說：「它既存在又不存在。」
+
+徹底的空無論者則主張：「它既非存在，亦非不存在。」
+
+其中，「存在」之狀態是動的，因它不同於瓶等無常之物；「不存在」之狀態是靜的，因它始終沒有差別。
+
+「二者」因以動與靜為對象，即存在與不存在之狀態；「二者皆無」則是絕對不存在。
+
+所有主張存在、不存在等論說的愚者與無辨識者，都以這四種方式各自相應的動、靜、二者與二者皆無，遮蔽 Bhagavān。
+
+雖然他是學者，卻因不了解最高真實而仍是愚者；何況那些本性愚昧之人。
+
+=== 84 | 第四章第八十四頌及釋 ===
+
+那麼，最高真實究竟如何？認識它之後，學者便不再是愚者。現說：
+
+這四種邊際，
+人總被對它們的執取所覆；
+Bhagavān 不為它們所觸。
+見到他的人，便是見一切者。
+
+這裡所說的四種邊際，是諸論說者學說的最終判定，即「存在」「不存在」等。那些論說者總被對這些邊際的執取、領會與確定所覆蓋、遮蔽。
+
+而 Bhagavān 不為「存在」「不存在」等四種邊際所觸，也就是遠離「存在」等分別。
+
+任何牟尼在 Vedānta 中見到、認識這位奧義書所說的 Puruṣa（人）者，便是見一切者、知一切者，也就是真正通達最高真實的學者。
+
+=== 85 | 第四章第八十五頌及釋 ===
+
+獲得完整的一切智，
+以及無二的 Brāhmaṇya（婆羅門境地）；
+那境地不落入始、中、終，
+在此之上，他還追求什麼？
+
+獲得上述完整、無缺的一切智，以及 Brāhmaṇya 的境地，正如聖傳所言：「他就是婆羅門」，又說：「這是婆羅門永恆的偉大。」
+
+那無二境地不具有始、中、終，也就是不具有生起、存續與消滅；此即不落入始、中、終的 Brāhmaṇya 境地。
+
+獲得此境地之後，在獲得 Ātman 之上，他還追求、努力什麼？那已毫無目的。
+
+正如傳承所言：「對他而言，已完成之事並無所得」等。
+
+=== 86 | 第四章第八十六頌 ===
+
+這正是智者們的謙抑；寂……
+
+=== 50 | 第五十段 ===
+
+dama 被稱為自然平靜，因為本性已受調伏；如此，智者應趨向 śama。
+
+MandUpKC_4.86
+
+婆羅門之中的婆羅門，其謙遜、受教，是自然而然的，即安住於自身本性之中。這種謙遜就是 śama；這也正是自然的、由本性而然的、非造作的，所以被稱為 prākṛta。dama 也正是如此，因為本性已受調伏，並且由於 Brahman 的本性本來就是寂靜之相。如此，智者知曉如上所說、自性寂靜的 Brahman，應趨向自然的 śama、寂靜，即 Brahman 的本性；意思是安住於 Brahman 的本性之中。
+
+=== 50 | 第五十段（續） ===
+
+由於彼此相互矛盾，諸種學說的見解是輪迴的原因，是貪與瞋等過失所依止之處。因此，已藉由它們各自的論證顯示那些是錯誤的見解；由於它們不具四句分別，於是總結說：唯有不以貪等過失為所依、而自性寂靜的非二元見，才是正確的見解。
+
+現在，為了展示自身的論述方法，開始如下：
+
+「有實且有認知的二元，被認為是世俗的；
+無實但有認知的二元，被認為是純粹世俗的。」
+
+MandUpKC_4.87
+
+與世俗實有共同運行，所以稱為「有實」；與認知共同運行，所以稱為「有認知」。這種二元，以可取與能取為特徵，是一切經典等世俗活動的依處；不離於世間，所以是世俗的，也就是清醒狀態。這便是吠檀多諸論中所承認的清醒狀態。
+
+因為它甚至不具有世俗約定的實有，所以稱為「無實」。如同實有一般而被認知，認知即使在實有不存在時仍與它共同運行，所以稱為「有認知」。純粹，是單獨而分別的；相對於清醒狀態的粗重世俗，它被認為是所有眾生共同具有的，意思是夢境。
+
+=== 50 | 第五十段（續二） ===
+
+「無實且無認知，被記為超世俗；
+知與所知，始終被覺者宣說為可知。」
+
+MandUpKC_4.88
+
+「無實且無認知」，意思是不具有可取與能取；正因如此，稱為超世俗，即超越世間。世間是可取與能取的對象；由於它們不存在，便成為一切活動的種子，這就是熟睡狀態，已如此記述。
+
+依次藉由某種知識，認知具有方法的究竟真理、世俗、純粹世俗以及超世俗；這就是知識。所知，就是這三者，因為除此之外，所知無法成立；所有各種學說所臆造的實體，都包含在這裡。可知的，是究竟真實、名為第四的非二元、無生的自性真理；意思是如此。
+
+一切從世俗直到超世俗的可知之物，始終被覺者、見究竟實相者、知 Brahman 者宣說為如此。
+
+=== 50 | 第五十段（續三） ===
+
+「當三種知識與三種所知依次被知曉時，
+具有廣大智慧者在此便成為一切智。」
+
+MandUpKC_4.89
+
+在涉及世俗等對象的三種知識，以及世俗等三種所知之中，首先是世俗的粗重者；在它不存在之後，其次是純粹世俗；在它也不存在之後，便是超世俗。如此依次，當三種狀態不存在、究竟真實的第四、非二元、無生、無畏者被知曉時，一切智便自然只是自身的本性。「一切」與「知者」合為「一切智」；具有一切智的狀態，在此世間中為廣大智慧者所有。
+
+由於具有以一切世間所超越的實體為對象的智慧，如此之人的智慧在一切處、一切時都存在。意思是，一旦自身本性被知曉，就不會有偏離。
+
+因為知曉究竟實相者，不會像其他學說的倡導者那樣，有知識的生起與消滅。
+
+=== 50 | 第五十段（續四） ===
+
+由於依次將世俗等指示為所知，為避免產生究竟而言它們存在的疑惑，經文說：
+
+「應被捨離、應被知曉、應被煮熟的，
+應藉由最上的道路而被知曉；
+在三者之中，已知者以外的其他處，
+被記為認知。」
+
+Mand…
+
+=== 90 | 第九十頌 ===
+
+世俗流傳的三境——醒覺、睡夢、深眠——於自我中非真實存在，如同繩上之蛇乃虛妄所造。當知：離於四句（catuṣkoṭi）的究竟真實（paramārthasatya）乃此中所應證知。應斷者、應證知者、已調理者：諸比丘應以離棄三種外求之方式修習，捨離博學、愚癡、靜默等偽方便。應烹煮者：貪、瞋、癡等諸煩惱（doṣa），名為染污（kaṣāya）。一切應斷、應知、應調理而未調理者：此等於比丘為方便故乃應了知。「agrāyaṇātah prathamataḥ」（自最初起）——於應斷等之餘，除去究竟真實——唯一應知者即是梵（brahma ekam）。執著（upalambhana）、能執（upalambha）僅是無明之虛構而已。
+
+雖說應斷、應調理、應證知之三者是可調理者（apākya），然證得梵者知此三者不具究竟真實性。
+
+=== 91 | 第九十一頌 ===
+
+究竟真實而言——
+
+一切法（dharma）當知如虛空本性（prakṛtyā），無始以來；於其中畢竟無有差別，毫髮亦無。
+
+=== 91 釋 ===
+
+本性即自性，如虛空般——以最微細、離染、周遍故——一切法、一切自我（ātman），求解脫者當證知為無始、為常住。為斷除由多言所起之差別疑惑，故說「於其中畢竟無有差別，毫髮亦無」。
+
+=== 92 | 第九十二頌 ===
+
+法之當知，亦唯世俗而言，非究竟真實——
+
+一切法本來即是始覺者（ādibuddha），決定無疑；若人有如是勝解（kṣānti），彼便堪受不死（amṛtatvāya）。
+
+=== 92 釋 ===
+
+因於最初覺悟故名「始覺者」（ādibuddha），本性如是、自性如此——譬如太陽常住光明之自性，如是常住覺照之自性——一切法、一切自我。亦無須更作決定，以其自性乃常住決定故。其自性非猶豫者，「如是」「不如是」之念皆無。若求解脫者，如是（依所說道理）——一切時中覺照決定，不待他緣，為自利亦為利他——譬如太陽常住光明，不待餘照，自利亦利他——成就如是勝解（不待能覺作意，常住自心中），彼便堪受不死，堪能證得解脫。
+
+=== 93 | 第九十三頌 ===
+
+是故亦說：於寂靜之自性中，無須更作寂靜——
+
+一切法本來寂靜（ādiśānta），無有生起，本性已圓滿寂滅；一切法平等無異，乃無生者、平等者、純淨者（viśārada）；是故寂靜（即解脫）無須另作，以常住一自性者所作無有義利故。
+
+=== 94 | 第九十四頌 ===
+
+已證究竟真實如上所說者乃非下劣，其餘者乃下劣——
+
+然沉溺於差別者畢竟無有純淨；溺於差別、隨流轉者，名為「別說者」（pṛthagvād），即二元論者，故說彼等為下劣（kṛpaṇa）。以彼等常行於差別之途（虛妄所立之二元），無有純淨故。彼等下劣極為應理，此乃論主之意趣。
+
+=== 95 | 第九十五頌（未完）===
+
+若有人於無生、平等之法中決定無疑者，彼等
+
+=== 95 | MandUpK 4.95 ===
+
+因為世間的大智者，也不能進入那一境界。
+
+MandUpKC 4.95
+
+於不生與平等之中，究竟實相確實如此；凡 Triāya 等人，也必將確信此事。
+
+因為世間的大智者，意即對實相之知識無有更勝者。
+
+而他們的道路，即他們所知的究竟實相，其他具有一般理解的世人不能進入；意即不能深入，不能將它作為對象。
+
+對已成為一切眾生之自體者，
+以及利益一切眾生者，
+諸神亦迷失於他的道路；
+他無有足跡，而眾人尋求其足跡。
+
+又如傳承所說：
+
+如鳥行於虛空，
+其行跡全不可得。
+
+=== 96 | MandUpK 4.96 ===
+
+如何說是大智？他說：
+
+於諸不生之法中，知識被認為是不生且不轉移；
+因為知識不遷移，故被稱為無所依著。
+
+MandUpKC 4.96
+
+於諸不生、不動之法，即諸自體之中，知識被認為如太陽中的熱與光一般，不生且不動。因此，知識被認為不生，不轉移至其他事物。
+
+因為知識不遷移至其他事物，所以它被稱為無所依著；如前所說，它如虛空一般。
+
+=== 97 | MandUpK 4.97 ===
+
+無智者只要生起微如原子的一點差異，
+便永遠不可能無所依著，
+更何況能除去覆障？
+
+MandUpKC 4.97
+
+至於其他論者，只要在外在或內在的事物中生起、造作微如原子的一點差異，這些無智、無辨別者便永遠沒有無所依著的狀態；更何須說，他們不可能除去覆障、滅除束縛。
+
+=== 98 | MandUpK 4.98 ===
+
+有人說他們不能除去覆障，豈不是在自己的宗義中承認諸法具有覆障？
+
+回答說：不是。
+
+一切法從未獲得覆障，本性清淨；
+它們本初已覺，亦已解脫；
+諸導師因而覺知。
+
+MandUpKC 4.98
+
+「從未獲得覆障」：諸法從未得到、從未具有以無明等為束縛的覆障，因此諸法從未獲得覆障；意即它們沒有束縛。它們本性清淨、自性純淨，本初已覺，亦已解脫，因為它們的自性永遠清淨、覺悟、解脫。
+
+若是如此，為何又說「覺知」？
+
+「諸導師」意即諸主宰、具有覺知能力者，其自性具有覺知之力。譬如太陽雖以恆常照明為其本性，仍被說為「照耀」；又如山嶽雖永遠止息一切移動，仍被說為「恆常屹立」。此處亦然。
+
+=== 99 | MandUpK 4.99 ===
+
+覺者的知識不遷移於諸法；
+他是護持者。
+一切法亦然，知識亦然；
+此非 Buddha（佛陀）所說。
+
+MandUpKC 4.99
+
+因為見究竟實相的覺者，其知識不遷移至作為其他對象的諸法，而安住於法中，如光明安住於太陽。
+
+「護持者」意即具有護持；又意即連續不斷、如虛空一般；或意即應受崇敬者，或具有智慧者。
+
+一切法，即諸自體，亦如知識一般；因為它們如虛空，所以不遷移至任何其他事物。
+
+起初所舉「以如虛空的知識」等說法，正是此義：如虛空的護持者，即覺者，因與那知識不異，其如虛空的知識不遷移至任何其他事物。諸法亦然。
+
+如虛空一般不動、不變、無部分、恆常、不二、無所依著、不可見、不可取、超越飢餓等的 Brahman（梵）與 Ātman（自我）之實相，正如 Śruti 所說：
+
+見者之見，確實不會滅失。
+
+究竟實相是不二的，沒有知識、所知與知者的差別。這不是 Buddha 所說。
+
+雖然否定外在對象，以及假立唯有知識，已被說為接近不二實在；然而，此不二的究竟實相唯應於 Vedānta（吠檀多）中被認知。
+
+=== 53 | 第四品 結尾 ===
+
+於論末，為讚歎究竟真實（paramārthatattva）之故，說敬禮偈：
+
+那難以見、極深湛、不生、平等、智者之位，
+已覺此無異之性，我等隨力敬禮。
+
+durdarśaṃ（難以見）——此之 darśana（見）以 duḥkha（苦）為性，故名 durdarśaṃ；因彼真實性遠離『有、無』四句之執，故極難證知。
+
+由是 atigambhīram（極深湛）——難以契入；對未得正慧者而言，如大海般深不可測。
+
+所謂 ajaṃ（不生）、sāmyam（平等）、viśāradam（智者）——如此境界離於種種差別之執，覺了、證知之後，我等成為與彼真實同體者，對此境界行禮敬；雖此境界不可言說，仍以言說為手段，隨己之力（yathābalam）而為——這是『隨力』之義。
+
+以上為商羯羅大師（Śaṅkara-bhagavat）所撰《喬達帕阿含論》（gauḍapādīya-āgama-śāstra）之釋（vivaraṇa）中，名「焰熄」（ālaṭāśānti）之第四品（prakaraṇa）之終。
 
 唵！寂靜！寂靜！寂靜！

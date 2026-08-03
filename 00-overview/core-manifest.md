@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**160** / 518
-- 已標籤：**191** / 518
+- 已翻譯：**161** / 518
+- 已標籤：**192** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 33 | 45 |
-| 印度教 | 58 | 25 | 28 |
+| 印度教 | 58 | 26 | 29 |
 | 古希臘羅馬 | 46 | 15 | 15 |
 | 猶太教 | 45 | 25 | 26 |
 | 道教 | 18 | 9 | 15 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -355,7 +355,7 @@
 - `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
 - `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯– 標–
-- `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯– 標–
+- `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯– 標–
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
 - `matsya-purana` 魚往世書（Sanskrit）譯– 標–
