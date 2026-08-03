@@ -8298,6 +8298,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -15134,6 +15139,11 @@
       "slug": "bible-numbers",
       "name_zh": "民數記",
       "religion": "基督教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     },
     {
       "slug": "vulgate-leviticus",
@@ -23129,6 +23139,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
       "religion": "基督教"
@@ -24956,6 +24971,13 @@
       "religion": "佛教"
     }
   ],
+  "按手": [
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    }
+  ],
   "挪亞": [
     {
       "slug": "bible-2-peter",
@@ -25391,6 +25413,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     },
     {
       "slug": "malachi",
@@ -26760,6 +26787,11 @@
     {
       "slug": "chronicles-2",
       "name_zh": "歷代志下",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
       "religion": "猶太教"
     },
     {
@@ -29298,6 +29330,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "vulgate-2-chronicles",
       "name_zh": "歷代志下（武加大）",
       "religion": "基督教"
@@ -30788,6 +30825,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
@@ -30837,6 +30879,13 @@
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
+    }
+  ],
+  "祭壇": [
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     }
   ],
   "祭式": [
@@ -31853,6 +31902,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
       "religion": "基督教"
@@ -32421,6 +32475,11 @@
     {
       "slug": "kings-1",
       "name_zh": "列王紀上",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
       "religion": "猶太教"
     },
     {
@@ -35424,6 +35483,11 @@
       "slug": "bible-leviticus",
       "name_zh": "利未記",
       "religion": "基督教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     }
   ],
   "贖罪": [
@@ -35431,6 +35495,11 @@
       "slug": "bible-hebrews",
       "name_zh": "希伯來書",
       "religion": "基督教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     }
   ],
   "贖罪祭": [
@@ -35438,6 +35507,11 @@
       "slug": "bible-leviticus",
       "name_zh": "利未記",
       "religion": "基督教"
+    },
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     },
     {
       "slug": "vulgate-leviticus",
@@ -37605,6 +37679,13 @@
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    }
+  ],
+  "馨香火祭": [
+    {
+      "slug": "leviticus",
+      "name_zh": "利未記",
+      "religion": "猶太教"
     }
   ],
   "馬其頓": [

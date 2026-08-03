@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**166** / 518
-- 已標籤：**197** / 518
+- 已翻譯：**167** / 518
+- 已標籤：**198** / 518
 
 ## 各宗教核心進度
 
@@ -14,7 +14,7 @@
 | 佛教 | 74 | 33 | 45 |
 | 印度教 | 58 | 26 | 29 |
 | 古希臘羅馬 | 46 | 17 | 17 |
-| 猶太教 | 45 | 26 | 27 |
+| 猶太教 | 45 | 27 | 28 |
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 4 | 4 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
@@ -465,7 +465,7 @@
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標–
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
 - `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標–
-- `leviticus` 利未記（Hebrew）譯– 標–
+- `leviticus` 利未記（Hebrew）譯✓ 標✓
 - `malachi` 瑪拉基書（Hebrew）譯✓ 標✓
 - `micah` 彌迦書（Hebrew）譯✓ 標✓
 - `nahum` 那鴻書（Hebrew）譯✓ 標✓
