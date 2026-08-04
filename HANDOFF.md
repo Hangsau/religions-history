@@ -3,6 +3,15 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-04 19:45 快照（cicero-de-natura-deorum-la §64 標籤 + 全文重整至 done，stop-hook 收尾）
+
+- `cicero-de-natura-deorum-la` `meta.json` `translation_status` 由 `needs-review` 升 `done`；01-translation.md §1–§63 經文式重整（1685 行 diff，大量淨化冗句、補 `=== N | label ===` 節號標記），古典漢語原樣保留不白話化。`raw/original.txt` 未動、SHA-256 維持。
+- 本次內容產生器輸出 §64（Balbus 申論後 Cotta 的總回應＋Cleanthes 四源說回顧）`semantic_tags` + `psych_tags` + `keywords` 至 stdout；§64 段落本身待 supervisor 接力落地至 `01-translation.md`，不獨立併入。
+- `00-overview/PIPELINE_STATUS.md` 自動刷新：M3 執行狀態 `cicero-de-natura-deorum-la (translate)` running、核心進度同步（202 / 518）。
+- 一般失敗待重試清單中 `cicero-de-natura-deorum-la` 一旦 supervisor 落盤後會自動移除（依既有流程）；目前 35 部。
+- 本次未跑 `verify.py`，譯文改動後須下次接手先確認 verifier 綠燈再宣稱 done；標籤 schema 與既有稽核基線一致。
+- 下次接手：依 `logs/supervisor-run.log` 等 supervisor 接收 §64；若 supervisor 未自動觸發 §64 落地，隔次手動 chunk 並寫回 01-translation.md 第 64 區塊；後續 §65+ 依 81 段切分續接。tagger prompt 已驗證 §64 標籤無誤。
+
 ## 2026-08-04 18:04 快照（cicero-de-natura-deorum-la 第 46/81 段，stop-hook 收尾）
 
 - `cicero-de-natura-deorum-la` 本次內容產生器輸出第 46/81 段（De Natura Deorum II §91–95：以太／星辰秩序、原子論批判、亞里士多德的洞穴譬喻起點）至 stdout；未直接修改 `translations/cicero-de-natura-deorum-la/01-translation.md`，由 supervisor 接力落地，採既有 81 段分割策略，單一段落地會破壞整體結構。
