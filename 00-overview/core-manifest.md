@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**170** / 518
-- 已標籤：**202** / 518
+- 已翻譯：**171** / 518
+- 已標籤：**203** / 518
 
 ## 各宗教核心進度
 
@@ -13,7 +13,7 @@
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 34 | 46 |
 | 印度教 | 58 | 26 | 29 |
-| 古希臘羅馬 | 46 | 17 | 17 |
+| 古希臘羅馬 | 46 | 18 | 18 |
 | 猶太教 | 45 | 29 | 31 |
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 4 | 4 |
@@ -393,7 +393,7 @@
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
-- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯– 標–
+- `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯✓ 標✓
 - `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯✓ 標✓
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯✓ 標✓
