@@ -2,14 +2,16 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-04 13:31:18 +0800
+- 更新時間：2026-08-04 13:42:52 +0800
 - 佇列 tier：**核心**
 - 進度：**200 / 518** 已翻譯+標籤
 - 目前處理：`(本輪完成)`
 - P0 尚未完整翻譯：8 部
 - 一般失敗待重試：37 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, deuteronomy, samaveda, cicero-de-natura-deorum-la, samuel-1, chronicles-2
 - 已阻塞待人工處理：16 部 — avesta-sbe31-ae, quran, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1, an9-nines, mimamsa-sutra-jaimini, exodus, psalms
-- M3 執行狀態：**running** — `samuel-1` (translate)
+- M3 執行狀態：**waiting_provider** — `samuel-1` (translate chunk 31/57)
+- 限制偵測：2026-08-04T13:41:07.198757+08:00；下次重試：2026-08-04T13:51:07.198757+08:00
+- 最後錯誤：`timeout after 360s`
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
