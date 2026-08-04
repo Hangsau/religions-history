@@ -3,6 +3,17 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-05 01:54 快照（plato-phaedo-el 翻譯重試 44 chunks 入庫，stop-hook 收尾）
+
+- `translations/plato-phaedo-el/01-translation.md` 從 175 行 `<!-- CHUNK N/44 FAILED -->` placeholder 重生為 **1754 行完整希臘原文直譯**（+1630 / -24）；44 個 chunks 一次重試成功。`raw/original.txt` 未動、SHA-256 維持。
+- `translations/plato-phaedo-el/meta.json` `translation_status: needs-review` → **`done`**、`translation_models: MiniMax-M3`（先前 44 chunks 全失敗後首度落地）。
+- `00-overview/PIPELINE_STATUS.md` / `PROGRESS.json` 同步：核心 **204 / 518**、古希臘羅馬 `with_translation` 29→**30**；PIPELINE_STATUS 「目前處理」=`eyrbyggja-saga-on`（M3 已切下一部）。
+- 已 commit：`5e9fb868` Pipeline B+C: plato-phaedo-el 翻譯重試成功（44 chunks 完成）；已 push 至 `main`。
+- 本次內容產生器僅輸出 `plato-phaedo-el` 第 23/25 段（§39–40，真地中段＋冥府四大河）的標籤 JSON，未直接寫檔；§23 標籤待 supervisor 接力落地至 `meta.json` 的 `semantic_tags` / `psych_tags` / `keywords`。
+- 標籤摘要：`semantic_tags = [heaven-hell, reincarnation, vision-experience, ultimate-reality, cyclic-cosmos, divine-immanence]`；`psych_tags = [death, who-am-i, living-with-unknown]`；13 keywords 含 Tartarus / Oceanus / Acheron / Pyriphlegethon / αἰθήρ / 冥府 等。
+- 本次未跑 `verify.py`，翻譯入庫後須下次接手先跑 verifier 確認全綠再宣稱 done。
+- 下次接手：① 等 supervisor 接收 §23 標籤落地 `meta.json`；② supervisor 跑 plato-phaedo-el 剩 §24/25（最後神話寓言＋結語）；③ 續跑 `auto-pipeline.py --tier 核心` 對應 eyrbyggja-saga-on（先標籤再續翻譯）；④ 翻譯完後跑 `verify.py --all`。
+
 ## 2026-08-05 00:04 快照（samaveda 第 44/74 段翻譯 + 狀態檔 commit，stop-hook 收尾）
 
 - 本次內容產生器輸出 `samaveda`（沙摩吠陀）第 44/74 段譯文至 stdout（第四書・第一章 17–24＋第二章 1a–6a 偈頌，吠陀詩體直譯繁中，含因陀羅 / 蘇摩 / 阿耆尼 / 摩錄多 / 密多羅 / 伐樓拿 / 跋伽 / 阿底提耶 / 伐蘇 名相首次出現加常用漢譯）；未直接修改 `translations/samaveda/01-translation.md`，由 supervisor 接力落地。採既有 74 段分割策略，單一段落地會破壞整體結構。
