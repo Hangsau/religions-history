@@ -3,6 +3,13 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-04 10:03 快照（sn12-nidana 第 32/88 段，stop-hook 收尾）
+
+- `sn12-nidana` 本次內容產生器輸出第 32/88 段（SN 12.29–12.30）至 stdout；未直接修改 `translations/sn12-nidana/01-translation.md`，由 supervisor 接力落地。
+- `00-overview/PIPELINE_STATUS.md`／`PROGRESS.json` 為管線自動同步的中間狀態：核心 **199 / 518**，M3 目前 `sn12-nidana` translate running。
+- 本次未改動 `raw/original.txt` 或 `meta.json`；本地變更提交前仍須依既有 verifier 狀態判讀，不能宣稱全庫全綠。
+- 下次接手：確認 supervisor 是否已接收本段，並依 `logs/supervisor-run.log`／`PIPELINE_STATUS.md` 續接 `sn12-nidana`，不要把 stdout 段落單獨併入完整譯文檔。
+
 ## 2026-08-03 19:49 快照（Pipeline B+C an9-nines 進度收尾，stop-hook）
 
 - `an9-nines` 的既有提交 `fddc8731` 已含翻譯＋標籤計數更新；本次內容產生器輸出第 39/72 段至 stdout，未直接修改 `translations/an9-nines/01-translation.md`。
