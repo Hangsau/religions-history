@@ -3,6 +3,15 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-05 00:04 快照（samaveda 第 44/74 段翻譯 + 狀態檔 commit，stop-hook 收尾）
+
+- 本次內容產生器輸出 `samaveda`（沙摩吠陀）第 44/74 段譯文至 stdout（第四書・第一章 17–24＋第二章 1a–6a 偈頌，吠陀詩體直譯繁中，含因陀羅 / 蘇摩 / 阿耆尼 / 摩錄多 / 密多羅 / 伐樓拿 / 跋伽 / 阿底提耶 / 伐蘇 名相首次出現加常用漢譯）；未直接修改 `translations/samaveda/01-translation.md`，由 supervisor 接力落地。採既有 74 段分割策略，單一段落地會破壞整體結構。
+- `00-overview/PIPELINE_STATUS.md` / `PROGRESS.json` 為管線自動同步的中間狀態：核心 **203 / 518**（18:04→00:04, +1），印度教 `with_translation` 17→**18**、`with_semantic_tags` 28→**29**；M3 執行狀態 `samaveda` (translate) running。
+- 一般失敗待重試清單中 `samaveda` 在列（10 部），本段翻譯 stdout 已就緒、supervisor 落盤後會自動從清單移除。
+- 已 commit：`39637219` PIPELINE_STATUS + PROGRESS: samaveda 進位 17→18 done（含 translation）。
+- 本次未改動 `raw/original.txt` 或 `meta.json`；本地變更提交前仍須依既有 verifier 狀態判讀，不能宣稱全庫全綠。
+- 下次接手：確認 supervisor 已接收本段，並依 `logs/supervisor-run.log` / `PIPELINE_STATUS.md` 續接 `samaveda` 第 45/74 段；不要把 stdout 段落單獨併入完整譯文檔。
+
 ## 2026-08-04 19:45 快照（cicero-de-natura-deorum-la §64 標籤 + 全文重整至 done，stop-hook 收尾）
 
 - `cicero-de-natura-deorum-la` `meta.json` `translation_status` 由 `needs-review` 升 `done`；01-translation.md §1–§63 經文式重整（1685 行 diff，大量淨化冗句、補 `=== N | label ===` 節號標記），古典漢語原樣保留不白話化。`raw/original.txt` 未動、SHA-256 維持。
