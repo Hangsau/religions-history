@@ -22,5 +22,7 @@
   "notes": "柏拉圖《斐多篇》希臘原文（單頁）",
   "text_role": "original",
   "is_original_language": true,
-  "original_of": "plato-works"
+  "original_of": "plato-works",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3"
 }

@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-05 01:09:32 +0800
+- 更新時間：2026-08-05 01:54:01 +0800
 - 佇列 tier：**核心**
 - 進度：**204 / 518** 已翻譯+標籤
-- 目前處理：`(本輪完成)`
+- 目前處理：`eyrbyggja-saga-on`
 - P0 尚未完整翻譯：8 部
 - 一般失敗待重試：32 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, an6-sixes, ramanuja-vedarthasamgraha, snorra-edda-on, avesta-sbe23-ae, isaiah
 - 已阻塞待人工處理：17 部 — avesta-sbe31-ae, quran, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1, an9-nines, mimamsa-sutra-jaimini, exodus
-- M3 執行狀態：**running** — `plato-phaedo-el` (translate)
+- M3 執行狀態：**running** — `eyrbyggja-saga-on` (translate)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
