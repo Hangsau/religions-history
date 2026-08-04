@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**167** / 518
-- 已標籤：**198** / 518
+- 已翻譯：**168** / 518
+- 已標籤：**199** / 518
 
 ## 各宗教核心進度
 
@@ -14,7 +14,7 @@
 | 佛教 | 74 | 33 | 45 |
 | 印度教 | 58 | 26 | 29 |
 | 古希臘羅馬 | 46 | 17 | 17 |
-| 猶太教 | 45 | 27 | 28 |
+| 猶太教 | 45 | 28 | 29 |
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 4 | 4 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -461,7 +461,7 @@
 - `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標–
 - `kings-1` 列王紀上（Hebrew）譯✓ 標✓
-- `kings-2` 列王紀下（Hebrew）譯– 標–
+- `kings-2` 列王紀下（Hebrew）譯✓ 標✓
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標–
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
 - `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標–
