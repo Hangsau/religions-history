@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**172** / 518
-- 已標籤：**204** / 518
+- 已翻譯：**173** / 518
+- 已標籤：**205** / 518
 
 ## 各宗教核心進度
 
@@ -13,7 +13,7 @@
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 34 | 46 |
 | 印度教 | 58 | 26 | 29 |
-| 古希臘羅馬 | 46 | 18 | 18 |
+| 古希臘羅馬 | 46 | 19 | 19 |
 | 猶太教 | 45 | 30 | 32 |
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 4 | 4 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -417,7 +417,7 @@
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯✓ 標✓
-- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
