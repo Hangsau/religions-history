@@ -2,16 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-04 15:26:31 +0800
+- 更新時間：2026-08-04 17:56:59 +0800
 - 佇列 tier：**核心**
 - 進度：**201 / 518** 已翻譯+標籤
-- 目前處理：`(本輪完成)`
+- 目前處理：`cicero-de-natura-deorum-la`
 - P0 尚未完整翻譯：8 部
 - 一般失敗待重試：36 部 — eyrbyggja-saga-on, plato-phaedo-el, yajnavalkya-smrti, plato-timaeus-el, numbers, deuteronomy, samaveda, cicero-de-natura-deorum-la, chronicles-2, an6-sixes
 - 已阻塞待人工處理：16 部 — avesta-sbe31-ae, quran, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1, an9-nines, mimamsa-sutra-jaimini, exodus, psalms
-- M3 執行狀態：**waiting_provider** — `cicero-de-natura-deorum-la` (translate chunk 18/81)
-- 限制偵測：2026-08-04T15:24:41.388781+08:00；下次重試：2026-08-04T15:34:41.388781+08:00
-- 最後錯誤：`timeout after 360s`
+- M3 執行狀態：**running** — `cicero-de-natura-deorum-la` (translate)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`

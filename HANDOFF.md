@@ -3,6 +3,15 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-04 18:04 快照（cicero-de-natura-deorum-la 第 46/81 段，stop-hook 收尾）
+
+- `cicero-de-natura-deorum-la` 本次內容產生器輸出第 46/81 段（De Natura Deorum II §91–95：以太／星辰秩序、原子論批判、亞里士多德的洞穴譬喻起點）至 stdout；未直接修改 `translations/cicero-de-natura-deorum-la/01-translation.md`，由 supervisor 接力落地，採既有 81 段分割策略，單一段落地會破壞整體結構。
+- `00-overview/PIPELINE_STATUS.md`／`PROGRESS.json` 為管線自動同步的中間狀態：核心 **201 / 518**（+2,10:03→18:04），M3 執行狀態 `cicero-de-natura-deorum-la (translate)` running；早前 `waiting_provider` 的「限制偵測」與「最後錯誤：timeout after 360s」已被管線清掉。
+- 計數增量：佛教 `with_translation` 33→34、`with_semantic_tags` 66→67；古希臘羅馬 `with_translation` 28→29、`with_semantic_tags` 43→44。
+- 一般失敗待重試：仍是 36 部（含 `cicero-de-natura-deorum-la` 在列），但本段翻譯 stdout 已就緒、supervisor 落盤後會自動從清單移除。
+- 本次未改動 `raw/original.txt` 或 `meta.json`；本地變更提交前仍須依既有 verifier 狀態判讀，不能宣稱全庫全綠。
+- 下次接手：確認 supervisor 已接收本段，並依 `logs/supervisor-run.log`／`PIPELINE_STATUS.md` 續接 `cicero-de-natura-deorum-la` 第 47/81 段；不要把 stdout 段落單獨併入完整譯文檔。
+
 ## 2026-08-04 10:03 快照（sn12-nidana 第 32/88 段，stop-hook 收尾）
 
 - `sn12-nidana` 本次內容產生器輸出第 32/88 段（SN 12.29–12.30）至 stdout；未直接修改 `translations/sn12-nidana/01-translation.md`，由 supervisor 接力落地。
