@@ -3,6 +3,44 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-05 20:08 快照（numbers 翻譯+標籤 收尾 commit + push，stop-hook 收尾）
+
+- 本次 stop-hook 觸發收尾，工作樹上的差異已**收斂為一筆可 commit 單元**（`numbers/` P4+P5 皆 done），故走完整 commit + push 流程。
+- 現況（runtime `logs/pipeline-runtime.json` 2026-08-05 20:06:12 刷新）：
+  - supervisor 活著，現正處理 `ramanuja-vedarthasamgraha` translate chunk 33/85（`logs/supervisor-run.log` 最新兩筆：`[chunk 32/85] ... (3000 chars)`、`[chunk 33/85] ... (3000 chars)`，M3 primary）。
+  - 5h 額度剩 42%、週額度剩 5%；resets 23:00 / 08-10 08:00。
+- 與 10:08 快照的差異：10:08 標「刻意留置」是因為 `plato-timaeus-el` P5 還在 supervisor 寫盤中（meta.json partial）。本次 20:08 觸發時，`plato-timaeus-el` 已於 4 個後續 commit（`ffac3e9b`/`48a94f89`/`54c3eac6`/`a311b40f`）「Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 1)」整批入庫，supervisor 早已切到 `ramanuja-vedarthasamgraha`；本次 uncommitted 的是 `numbers/` 完整翻譯（兩階段皆 done），與活躍 slug 無檔案衝突，無「搶 commit 鎖 partial 寫盤」風險。
+- 本次 uncommitted 變更（5 檔，+2434 / -77）：
+  - `translations/numbers/01-translation.md`：`+2615 / -279`（從 `<!-- CHUNK 1/70 FAILED -->` 佔位換成完整 70 章希伯來文→繁中譯文，§1–§70 全段 `=== N | 章題 ===` 標記齊全）
+  - `translations/numbers/meta.json`：`tag_status="done"`（既有）+ `translation_status="done"` + `translation_models="MiniMax-M3"`（新增）
+  - `00-overview/PIPELINE_STATUS.md` / `PROGRESS.json`：管線自動同步的中間狀態，核心 206→**207** / 518、猶太教 `with_translation` 30→**31**、印度教 `with_translation` 19→**20** 與 `with_semantic_tags` 30→**31**
+  - `HANDOFF.md`：本快照
+- verify：`PYTHONIOENCODING=utf-8 python scripts/verify.py --slug numbers` → **PASS**（70 章 checksum 與章數對齊）
+- commit message：「Pipeline B+C: numbers 翻譯+標籤 收尾 (processed 1)」（與既有批次格式一致）
+- 下次接手：
+  1. supervisor 仍在 `ramanuja-vedarthasamgraha` translate chunk 33/85 推進；不要直接編輯 `translations/ramanuja-vedarthasamgraha/01-translation.md`（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. 本批已 commit + push（`origin/main` 同步）；HANDOFF 已收尾。
+  3. 5H 額度 42%，下一批派工預期在 quota-watch-resume.py 觸發 resume 後接力；若 23:00 前撞牆依 CLAUDE.md L1「5H 配額節奏」一律 shotclock 單發排到下一窗。
+
+## 2026-08-05 10:08 快照（plato-timaeus-el 翻譯完成 50 段 + tag 進行中，stop-hook 收尾／刻意留置中間狀態）
+
+- 本次 stop-hook 觸發收尾，但 `religions-history` 工作樹上的差異屬於**管線刻意留置的中間狀態**，不 commit、不 push、不搶收尾。
+- 現況（runtime `logs/pipeline-runtime.json` 2026-08-05 10:01:50 刷新）：
+  - supervisor / worker 雙雙活著（`supervise-pipeline.py` PID 68004、`auto-pipeline.py` PID 69424，啟動 09:46:11/37，supervisor pid 檔同步）。
+  - `plato-timaeus-el` 處於 **tag chunk 21/25 進行中**（`logs/supervisor-run.log` 最新 9 筆皆為 tag，14→21 連進），5h 額度剩 64% 留 5%、週額度剩 22% 留 2%。
+  - 本批翻譯 50 段已全部入檔：`translations/plato-timaeus-el/01-translation.md` 共 955 行、§1–§50 全段 `=== N | 標題 ===` 標記齊全、無 `CHUNK N/50 FAILED` 殘留；`meta.json` `translation_status="done"` + `translation_models="MiniMax-M3"` 已就位（早於 2026-07-28 `28e56452` 即標 done，本次僅內容增量）。
+  - `00-overview/PIPELINE_STATUS.md` 自動刷新：核心仍 205/518、「目前處理」切至 `plato-timaeus-el`、M3 執行狀態 running、09:46 進位。一般失敗待重試 29 部、已阻塞 19 部皆與本批無關。
+- 為何不 commit：
+  1. supervisor 還在寫 `meta.json` P5 標籤（`semantic_tags` / `psych_tags` / `keywords` 與 `tag_status`），搶 commit 會把 `meta.json` 鎖在 partial 狀態、破壞 supervisor 的 tag 階段原子寫盤。
+  2. 翻譯檔增量（+812 / -55）對應的是 supervisor 補完翻譯後才落盤的 §27–§50 區段，已超過 09:46 進位那一刻的 checkpoint；混進 commit 會把尚未由管線整體驗收的內容提到 main，違反 CLAUDE.md §6「push 前必跑 verify --all」。
+  3. 一般失敗待重試 29 部中含 `plato-timaeus-el`，需 supervisor 收尾後才會自動從清單移除。
+- 下次接手（無論新對話或 stop-hook 再觸發）：
+  1. 讀 `logs/pipeline-runtime.json` + `logs/supervisor-run.log` 末 20 行，確認 tag 25/25 已完成、`request_started_at` 與 `updated_at` 進入靜止、且 `meta.json` 已被 supervisor 完整覆寫（`tag_status="done"`、`semantic_tags` / `psych_tags` / `keywords` 與 25 段 chunk 對應齊全）。
+  2. 跑 `PYTHONIOENCODING=utf-8 python scripts/verify.py --slug plato-timaeus-el`（預期綠燈；若 FAIL，依 `tools/m3-tagger-role.md` 與 `tools/m3-translator-role.md` 規則檢查）。
+  3. `git diff --stat` 確認僅 `translations/plato-timaeus-el/{01-translation.md,meta.json}` 與 `00-overview/PIPELINE_STATUS.md` 三檔異動（狀態檔為 supervisor 自動同步）；`git status -sb` 應不再有 untracked 翻譯檔。
+  4. 一次 commit + push（commit message 範例：「Pipeline B+C: plato-timaeus-el 翻譯+標籤 收尾 (processed 1)」），然後依既有 stop-hook 紀律在 HANDOFF 補一條快照，標本次 +1（核心 205→206、`with_translation` +1、`with_semantic_tags` +1）。
+  5. 若 supervisor 死亡（pid 檔消失 / `auto-pipeline.lock` 過期 30 分未更新）且 `runtime.json` 仍 `running`，不要直接重啟，先讀本快照與「07-21 15:45 恢復程序」段，依 `powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden` 復活，並先確認 `logs/pipeline-HALT.flag` 與 `logs/pipeline-alert.txt` 為空。
+
 ## 2026-08-05 08:00 快照（yajnavalkya-smrti 第 38/74 段 + 狀態檔 commit，stop-hook 收尾）
 
 - 本次內容產生器輸出 `yajnavalkya-smrti`（祭皮衣仙法論）第 38/74 段譯文至 stdout：Yajñavalkyasmṛti 2.138 末段＋2.139–2.149（含 §9 sīmā-vivāda-prakaraṇam 界訟章開頭 2.150–2.151），梵語 śloka 直譯繁中兩行詩體，按守則保留外語名相（kṣetraja、ādhivedanika、strīdhana、śulka、anvādheyaka、bandhu、yautaka 等首次出現加常用漢譯一行）；未直接修改 `translations/yajnavalkya-smrti/01-translation.md`，由 supervisor 接力落地，採既有 74 段分割策略，單一段落地會破壞整體結構。
