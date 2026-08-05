@@ -16,13 +16,13 @@
 
 - [ ] `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）— 已英→中✓，原文待補
 
-## 美洲（1 部）
-
-- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
-
 ## 印加（1 部）
 
 - [ ] `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）— 未譯，原文待補
+
+## 美洲（1 部）
+
+- [ ] `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）— 未譯，原文待補
 
 ---
 
