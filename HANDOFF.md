@@ -3,6 +3,16 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-05 08:00 快照（yajnavalkya-smrti 第 38/74 段 + 狀態檔 commit，stop-hook 收尾）
+
+- 本次內容產生器輸出 `yajnavalkya-smrti`（祭皮衣仙法論）第 38/74 段譯文至 stdout：Yajñavalkyasmṛti 2.138 末段＋2.139–2.149（含 §9 sīmā-vivāda-prakaraṇam 界訟章開頭 2.150–2.151），梵語 śloka 直譯繁中兩行詩體，按守則保留外語名相（kṣetraja、ādhivedanika、strīdhana、śulka、anvādheyaka、bandhu、yautaka 等首次出現加常用漢譯一行）；未直接修改 `translations/yajnavalkya-smrti/01-translation.md`，由 supervisor 接力落地，採既有 74 段分割策略，單一段落地會破壞整體結構。
+- 內容覆蓋主題：異母兄弟分產、殘疾者無份、婦女財產六大類（父/母/夫/兄所給、火祭所得、婚配所得等）、婦產繼承路徑（夫族→女→父）、還嫁之罰、不得還婦產之例外、給婚配之妻之半數補貼、分產隱密判定之證據鏈、界爭訟之證人與標示（高阜／炭屑／雜草／蟻穴／神樹等）。
+- `00-overview/PIPELINE_STATUS.md` / `PROGRESS.json` 為管線自動同步的中間狀態：核心 **205 / 518**（+1, 01:54→08:00），印度教 `with_translation` 18→**19**、`with_semantic_tags` 29→**30**；M3 執行狀態切換為 `plato-timaeus-el` (translate) running。
+- 一般失敗待重試清單中 `yajnavalkya-smrti` 仍在列（10 部），本段翻譯 stdout 已就緒、supervisor 落盤後會自動從清單移除。
+- 已 commit：`08431f49` PIPELINE_STATUS + PROGRESS: yajnavalkya-smrti §38/74 進位（with_translation 18→19、with_semantic_tags 29→30，核心 204→205）；已 push 至 `main`。
+- 本次未改動 `raw/original.txt` 或 `meta.json`；本地變更提交前仍須依既有 verifier 狀態判讀，不能宣稱全庫全綠。
+- 下次接手：確認 supervisor 已接收本段，並依 `logs/supervisor-run.log` / `PIPELINE_STATUS.md` 續接 `yajnavalkya-smrti` 第 39/74 段；不要把 stdout 段落單獨併入完整譯文檔；當前 M3 已切到 plato-timaeus-el，須依其 74 段切分繼續派翻譯。
+
 ## 2026-08-05 01:54 快照（plato-phaedo-el 翻譯重試 44 chunks 入庫，stop-hook 收尾）
 
 - `translations/plato-phaedo-el/01-translation.md` 從 175 行 `<!-- CHUNK N/44 FAILED -->` placeholder 重生為 **1754 行完整希臘原文直譯**（+1630 / -24）；44 個 chunks 一次重試成功。`raw/original.txt` 未動、SHA-256 維持。
