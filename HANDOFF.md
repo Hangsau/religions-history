@@ -3,6 +3,16 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-10 09:57 快照（ramanuja-vedarthasamgraha quota wait resume + chunk 80/85 譯文，stop-hook 收尾）
+
+- 本次內容產生器輸出 `ramanuja-vedarthasamgraha`（吠陀義綱要）chunk 80/85 至 stdout：RVas_140 段前後完整譯文（吠陀之權威、那羅延之本性、及創造之起），梵語直譯繁中含多段 Upaniṣad / Mahābhārata 偈頌（一切皆梵、Śvetaketu 句、Devakī之子頌、Viṣṇu 遍在頌、自性神我創世段等）；未直接修改 `translations/ramanuja-vedarthasamgraha/01-translation.md`，由 supervisor 接力落地。
+- supervisor 已從 waiting_quota 切回 running（`logs/pipeline-runtime.json` 2026-08-10 09:57:14 刷新）：chunk **80 / 85**、retry_attempt=1、resumed_by=`quota-watch-resume.py`。`logs/supervisor-run.log` 末 30 筆顯示 resume 51→79 checkpoint hit 一路推進至 chunk 80 提交入庫。
+- 5h 額度剩 82%、週額度剩 98%（resets 13:00 / 08-17 08:00）。
+- `00-overview/PIPELINE_STATUS.md` 自動同步：M3 執行狀態 waiting_quota → running、`限制偵測`/`最後錯誤` 兩行移除、更新時間刷至 09:57:13。
+- 已 commit：`148e36e1` PIPELINE_STATUS: ramanuja-vedarthasamgraha resume from quota wait (chunk 80/85)；推送待下一輪 stop-hook。
+- 本次未改動 `raw/original.txt` 或 `meta.json`；本地變更提交前仍須依既有 verifier 狀態判讀，不能宣稱全庫全綠。
+- 下次接手：續接 `ramanuja-vedarthasamgraha` 第 81/85 段；chunk 進度在 supervisor 內部、不在 PIPELINE_STATUS.md 顯示，所以狀態檔下一次增量會落在 §81 落地或翻譯收尾。PIPELINE_STATUS + PROGRESS 增量（核心 207→208、印度教 with_translation +1）將由 supervisor 於翻譯收尾後自動觸發。
+
 ## 2026-08-05 20:08 快照（numbers 翻譯+標籤 收尾 commit + push，stop-hook 收尾）
 
 - 本次 stop-hook 觸發收尾，工作樹上的差異已**收斂為一筆可 commit 單元**（`numbers/` P4+P5 皆 done），故走完整 commit + push 流程。
