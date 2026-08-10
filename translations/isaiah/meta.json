@@ -51,5 +51,15 @@
     "約坦",
     "希西家"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done"
 }
