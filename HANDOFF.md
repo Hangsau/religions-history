@@ -1022,3 +1022,10 @@ lotus-sutra, mengzi, proverbs, quran, sblgnt-john, sblgnt-matthew, tao-te-ching,
 3. 看 `logs/pipeline-failed.json` 有無卡住的 slug；薄譯多半是 `raw/original.txt` 只有目錄 → Pipeline A 補抓正文
 4. 核心跑完 → `--tier 次要` 往外延伸；並行 Pipeline A 繼續補收集缺口（神道 / 兩河 / 諾斯底 等）
 5. 標籤索引最新度：`python scripts/build-tag-index.py`；核心稽核：`python scripts/audit-core.py`
+
+## 2026-08-10 收尾快照
+
+- 已 commit 並 push：`PIPELINE_STATUS` 狀態更新（`3bbb8d3`）
+- an8-eights 第 57/122 段已由 M3 生成器翻譯完成（stdout 形式），但**本次 session 沒有 orchestrator 抓 stdout 寫盤**，所以 `translations/an8-eights/01-translation.md` 仍是空
+- 下次 auto-pipeline 重啟會從 checkpoint 續跑，必要時重新派發 an8-eights 該段；翻譯文字本身已產生、不需重思
+- 當前失敗佇列 22 部含 an8-eights 與 lucretius-de-rerum-natura-la（後者上次 timeout 360s）
