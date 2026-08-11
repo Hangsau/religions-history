@@ -3,6 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-11 16:07 快照（lucretius 翻譯落盤 commit + push；supervisor 續跑 ezekiel，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有一筆**已完成單元**：`lucretius-de-rerum-natura-la` 的 `01-translation.md`（untracked）+ `meta.json`（`translation_status=done`、`translation_models=MiniMax-M3`），已 commit + push（`0da109ad`）。
+- 譯文完整性：7125 行，涵蓋 Liber I–VI 全六卷，末段收在第六卷雅典瘟疫的葬禮與哀痛（＝原詩結尾）。章節標記編號有跳號（15→17、104→106、107→109），抽查為 chunk 續寫未重發 header 所致，**內容連續無缺**，非漏譯。
+- verify：`python scripts/verify.py --slug lucretius-de-rerum-natura-la` → **PASS**（未動 `raw/original.txt`，SHA-256 未破）。
+- **lucretius 的 P5 標籤仍是 blocked，不要當作已完成**：`logs/pipeline-failed.json` 記 `task=tag`、`error_code=invalid_tag_json`、`last_error="tag chunk 16 was not parseable JSON"`、attempts=4、`next_retry_at=null`（＝管線不會自動重試，需人工處理）。`meta.json` 的 `semantic_tags` / `keywords` 仍為 null。
+- supervisor 仍活著，本次收尾期間持續推進 `ezekiel` translate（16:02 chunk 74/89 → 16:06 chunk 76/89，retry_attempt=2）。**不要直接編輯 `translations/ezekiel/01-translation.md`**（supervisor 寫盤中），內容由 supervisor 接力落地。
+- 配額（16:06 快照）：5h 剩 58%、週剩 53%；resets 2026-08-11 18:00 / 2026-08-17 08:00。距撞牆尚遠。
+- 失敗隊列現況：blocked 24 部 / retryable 18 部（`logs/pipeline-failed.json`）。
+- 下次接手：
+  1. 先看 `logs/pipeline-runtime.json` 確認 supervisor 在跑哪一部、chunk 幾，不要與它搶同一個 slug 的檔案。
+  2. `ezekiel` 翻譯收尾後 PIPELINE_STATUS / PROGRESS 增量由 supervisor 自動觸發，照既有批次格式 commit。
+  3. blocked 的 24 部（含 lucretius 的 tag）需要人工路線：`invalid_tag_json` 屬標籤輸出格式問題不是配額問題，同參數重跑不會自己好——先看 chunk 16 實際回了什麼，再決定改 prompt 或改 parser。
+
 ## 2026-08-10 09:57 快照（ramanuja-vedarthasamgraha quota wait resume + chunk 80/85 譯文，stop-hook 收尾）
 
 - 本次內容產生器輸出 `ramanuja-vedarthasamgraha`（吠陀義綱要）chunk 80/85 至 stdout：RVas_140 段前後完整譯文（吠陀之權威、那羅延之本性、及創造之起），梵語直譯繁中含多段 Upaniṣad / Mahābhārata 偈頌（一切皆梵、Śvetaketu 句、Devakī之子頌、Viṣṇu 遍在頌、自性神我創世段等）；未直接修改 `translations/ramanuja-vedarthasamgraha/01-translation.md`，由 supervisor 接力落地。
