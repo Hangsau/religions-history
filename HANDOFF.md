@@ -3,6 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-12 02:04 快照（engishiki-jingi-zh 翻譯收尾 commit + push，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有一筆**已完成單元**：`engishiki-jingi-zh` 的 `01-translation.md`（untracked，4395 行）+ `meta.json`（新增 `translation_status=done`、`translation_models=MiniMax-M3`），同步更新 auto-gen 索引 `00-overview/PIPELINE_STATUS.md` 與 `PROGRESS.json`，已 commit + push（`d5756a8c`）。
+- 譯文完整性：4395 行，涵蓋《延喜式》卷第一至卷第十（含 norito 祝詞二十七篇與卷九十神名帳），全文為漢文原文 → 古典漢語原樣保留（簡→繁），保留 Wikisource 原文不清字符 ■／〓／∥ 與夾註 ／…／；未動 `raw/original.txt`、SHA-256 維持。
+- 索引增量：核心 213/518（`engishiki-jingi-zh` 移出失敗待重試、改列已阻塞 27 部中）、with_translation 4→**5**（核心）/ 21→**22**（v3 listed）。
+- 現況（runtime `logs/pipeline-runtime.json` 02:03:46 刷新）：
+  - supervisor 活著，現正處理 `grettis-saga-on` translate chunk **8 / 119**、`resumed_by=quota-watch-resume.py`、`request_started_at` 02:03:46。剛接手時 chunk 7/119 譯文已落地至 stdout。
+  - 5h 額度剩 49%（留 5%）、週額度剩 36%（留 2%）；resets 2026-08-12 04:00 / 2026-08-17 08:00。距撞牆尚遠，supervisor 仍可接力。
+- 本次未改動 `raw/original.txt` 或 supervisor 寫盤中的 `translations/grettis-saga-on/01-translation.md`；commit 與活躍 slug 無檔案衝突。
+- 下次接手：
+  1. 不要直接編輯 `translations/grettis-saga-on/01-translation.md`（supervisor 寫盤中）；chunk 進度以 supervisor 內部為準。
+  2. PIPELINE_STATUS / PROGRESS 增量由 supervisor 於 `grettis-saga-on` 翻譯收尾後自動觸發，照既有批次格式 commit。
+  3. 已阻塞 27 部中含神道多部（kami-grammar / shinto-prayers / izanagi-izanami 等），皆為原始來源問題或目錄結構待人工判定，與本次收尾無關。
+
 ## 2026-08-11 16:07 快照（lucretius 翻譯落盤 commit + push；supervisor 續跑 ezekiel，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有一筆**已完成單元**：`lucretius-de-rerum-natura-la` 的 `01-translation.md`（untracked）+ `meta.json`（`translation_status=done`、`translation_models=MiniMax-M3`），已 commit + push（`0da109ad`）。
