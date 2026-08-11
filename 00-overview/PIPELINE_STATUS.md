@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-11 09:11:35 +0800
+- 更新時間：2026-08-11 10:42:56 +0800
 - 佇列 tier：**核心**
-- 進度：**210 / 518** 已翻譯+標籤
+- 進度：**211 / 518** 已翻譯+標籤
 - 目前處理：`(本輪完成)`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：19 部 — bud-buddhacarita-sa, ezekiel, marcus-aurelius-meditations-el, sn35-salayatana, laxdaela-saga-on, engishiki-jingi-zh, jeremiah, grettis-saga-on, sibylline-oracles-el, egils-saga-on
+- 一般失敗待重試：18 部 — ezekiel, marcus-aurelius-meditations-el, sn35-salayatana, laxdaela-saga-on, engishiki-jingi-zh, jeremiah, grettis-saga-on, sibylline-oracles-el, egils-saga-on, carmina-gadelica-1
 - 已阻塞待人工處理：24 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `bud-buddhacarita-sa` (translate)
+- M3 執行狀態：**running** — `marcus-aurelius-meditations-el` (translate)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
