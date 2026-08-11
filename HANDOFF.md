@@ -3,6 +3,22 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-12 06:01 快照（supervisor 續跑 grettis-saga-on chunk 32/119 warn+retry，PIPELINE_STATUS / PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 05:59:45→05:59:51、`目前處理` `(本輪完成)`→`grettis-saga-on`、移除先前 `M3 執行狀態: waiting_provider` 與 `限制偵測 / 最後錯誤` 三行（timeout 警告已被新一輪取代）。
+  - `00-overview/PROGRESS.json`：`佛教.with_translation` 32→**33**、`儒教.with_translation` 1→**2**（兩宗教各 +1，源於 supervisor 04:08→06:00 期間完成的兩個 slug；非當前 grettis 翻譯）。
+- 期間（04:08 → 06:00 ~2 小時）supervisor 動態（`logs/supervisor-run.log`）：
+  - supervisor 從 `jeremiah`（04:08 快照）→ 接續 `grettis-saga-on` translate。chunks 1→31 全 `checkpoint hit`（resume 自先前 cache），現正執行 chunk **32/119**（`logs/pipeline-runtime.json` `status=running`、`updated_at=2026-08-12T05:59:53`、`request_started_at=2026-08-12T05:59:52`、`retry_attempt=1`）。
+  - chunk 32 第一次失敗 → `[warn] chunk 32 failed ... keeping prior file unchanged` → 立即 retry（已第二次 `[chunk 32/119] (3000 chars)` 起步）。`translations/grettis-saga-on/01-translation.md` **尚未落地**（目錄只含 meta.json + raw/），全部 chunks 仍在累積。
+- 配額（runtime 05:59:52 刷新）：5h 額度 **55%**（留 5%）、週額度 **28%**（留 2%）；resets 2026-08-12 08:00 / 2026-08-17 08:00。距 5h reset 約 2 小時，supervisor 仍可接力。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（grettris-saga-on 第 32/119 段，跨第二十三至二十四章）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤中的 `translations/grettis-saga-on/01-translation.md` 衝突；該檔尚未建立，supervisor 仍在累積 chunk 32）。後續 supervisor 接力落地時 chat 那段譯文不會入庫。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md` + `00-overview/PROGRESS.json`（supervisor auto-regen）+ 本 HANDOFF 快照。
+- 下次接手：
+  1. supervisor 仍在 `grettis-saga-on` translate chunk 32/119 retry 中；**不要直接編輯 `translations/grettis-saga-on/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. chunk 32 warn 模式已 retry；如再連續 warn 需查 supervisor log 失敗原因（`grep "warn.*grettis" logs/supervisor-run.log`）。
+  3. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-12 04:08 快照（supervisor 由 grettis-saga-on 切 jeremiah chunk 55/96，PIPELINE_STATUS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹**只有一筆 auto-regen 變更**：`00-overview/PIPELINE_STATUS.md`（`目前處理` 由 `grettis-saga-on` → `jeremiah`、`更新時間` 04:01:42），由 supervisor 在處理序切換時自動寫盤。**沒有未寫盤翻譯**。
