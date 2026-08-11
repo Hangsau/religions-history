@@ -3,6 +3,20 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-12 04:08 快照（supervisor 由 grettis-saga-on 切 jeremiah chunk 55/96，PIPELINE_STATUS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹**只有一筆 auto-regen 變更**：`00-overview/PIPELINE_STATUS.md`（`目前處理` 由 `grettis-saga-on` → `jeremiah`、`更新時間` 04:01:42），由 supervisor 在處理序切換時自動寫盤。**沒有未寫盤翻譯**。
+- 期間（02:04 → 04:01 ~2 小時）supervisor 動態（`logs/supervisor-run.log`）：
+  - `grettis-saga-on`：從 chunk 8/119 推進到 chunk 18/119，**chunk 18 觸發 `warn`（kept prior unchanged）後不再推進**，該 slug 卡死（`logs/pipeline-failed.json` 仍列 13 部 retryable 含此項）。
+  - `jeremiah`：04:00 額度 reset 後 supervisor 接手，chunks 1→54 全部 `checkpoint hit`（resume 自先前 cache），現正執行 chunk **55/96**（`logs/pipeline-runtime.json` `status=running`、`updated_at=2026-08-12T04:01:43`、`request_started_at=2026-08-12T04:01:43`、`retry_attempt=1`）。
+- 配額（runtime 04:01:43 刷新）：5h 額度 **100%**（剛 reset）、週額度 **33%**（留 2%）；resets 2026-08-12 08:00 / 2026-08-17 08:00。
+- 本次主 session 額外動作：用戶誤把 m3 translator 角色 prompt 直接貼到主 session（Jeremiah chapter 42 / segment 75 of 96）。我已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤中的 `translations/jeremiah/01-translation.md` 衝突；該檔尚未建立，supervisor chunk 55 仍在累積）。後續若 supervisor 接力順利，chat 裡那版 segment 75 譯文不會入庫。
+- 本次 uncommitted 變更（1 檔）：`00-overview/PIPELINE_STATUS.md`（supervisor auto-regen）+ 本 HANDOFF 快照。
+- 下次接手：
+  1. supervisor 仍在 `jeremiah` translate chunk 55/96 推進；**不要直接編輯 `translations/jeremiah/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. `grettis-saga-on` 已從活躍佇列退出（chunk 18 卡死）；如要恢復需人工查 chunk 18 失敗原因後重置 retry counter。
+  3. PIPELINE_STATUS / PROGRESS 增量由 supervisor 於 `jeremiah` 翻譯收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-12 02:04 快照（engishiki-jingi-zh 翻譯收尾 commit + push，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有一筆**已完成單元**：`engishiki-jingi-zh` 的 `01-translation.md`（untracked，4395 行）+ `meta.json`（新增 `translation_status=done`、`translation_models=MiniMax-M3`），同步更新 auto-gen 索引 `00-overview/PIPELINE_STATUS.md` 與 `PROGRESS.json`，已 commit + push（`d5756a8c`）。
