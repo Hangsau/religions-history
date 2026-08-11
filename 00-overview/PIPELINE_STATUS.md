@@ -2,13 +2,13 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-11 20:36:37 +0800
+- 更新時間：2026-08-12 02:01:23 +0800
 - 佇列 tier：**核心**
 - 進度：**213 / 518** 已翻譯+標籤
-- 目前處理：`(本輪完成)`
+- 目前處理：`grettis-saga-on`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：15 部 — sn35-salayatana, engishiki-jingi-zh, jeremiah, grettis-saga-on, sibylline-oracles-el, egils-saga-on, carmina-gadelica-1, an3-threes, snorra-edda-is, bud-lankavatara-sa
-- 已阻塞待人工處理：25 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
+- 一般失敗待重試：13 部 — jeremiah, grettis-saga-on, sibylline-oracles-el, egils-saga-on, carmina-gadelica-1, an3-threes, snorra-edda-is, bud-lankavatara-sa, manu-smrti, xenophon-memorabilia-el
+- 已阻塞待人工處理：27 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
 - M3 執行狀態：**running** — `jeremiah` (translate)
 
 
