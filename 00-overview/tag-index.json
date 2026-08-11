@@ -76,6 +76,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -84,6 +89,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mozi",
@@ -318,6 +328,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -543,6 +558,11 @@
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "liji",
@@ -934,6 +954,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
@@ -1114,6 +1139,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -1323,6 +1353,13 @@
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
       "religion": "道教"
+    }
+  ],
+  "caesaropapism": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "caste-system": [
@@ -1639,6 +1676,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "lotus-sutra",
@@ -2273,6 +2315,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "leviticus",
@@ -3129,6 +3176,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
@@ -3341,9 +3393,19 @@
       "religion": "錫克教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mozi",
@@ -3996,6 +4058,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -4395,6 +4462,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
@@ -4760,6 +4832,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "legends-of-the-gods-egypt",
@@ -5232,6 +5309,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "masnavi-rumi-st",
@@ -5748,6 +5830,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -5868,6 +5955,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -6269,6 +6361,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
@@ -6513,6 +6610,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -6630,6 +6732,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -6638,6 +6745,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pistis-sophia",
@@ -6874,6 +6986,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -7103,6 +7220,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -7116,6 +7238,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pistis-sophia",
@@ -8190,6 +8317,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-phaedo-el",
       "name_zh": "斐多篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -8385,6 +8517,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mengzi",
@@ -8642,6 +8779,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "ramanuja-vedarthasamgraha",
@@ -9382,6 +9524,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
@@ -9831,6 +9978,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
@@ -10128,6 +10280,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "leviticus",
@@ -10490,6 +10647,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -11241,6 +11403,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -11581,6 +11748,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "leviticus",
@@ -12129,6 +12301,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
@@ -12456,6 +12633,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
@@ -12680,6 +12862,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
@@ -12895,6 +13087,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "legends-of-the-jews",
@@ -13126,6 +13323,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -13228,6 +13430,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -13303,6 +13510,11 @@
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "mabinogion-cy-2",
@@ -13490,6 +13702,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "legends-of-the-gods-egypt",
@@ -13904,6 +14121,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -13922,6 +14144,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "medicine-buddha-sutra",
@@ -14349,6 +14576,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "leviticus",
@@ -15075,6 +15307,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -15441,6 +15678,11 @@
     }
   ],
   "proselytizing": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
     {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
@@ -16106,6 +16348,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "legends-of-the-gods-egypt",
@@ -16857,6 +17104,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -17144,9 +17396,19 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mengzi",
@@ -17444,6 +17706,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mozi",
@@ -17748,6 +18015,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -18030,6 +18302,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -18038,6 +18315,11 @@
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mozi",
@@ -18262,6 +18544,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
@@ -18422,6 +18709,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mimamsa-sutra",
@@ -18925,6 +19217,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -19102,6 +19399,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "leviticus",
@@ -19309,6 +19611,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "leviticus",
@@ -19608,9 +19915,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mozi",
@@ -20512,6 +20829,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -20899,6 +21221,11 @@
       "religion": "神道"
     },
     {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -20932,6 +21259,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "mozi",
@@ -21544,6 +21876,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "micah",
@@ -22160,6 +22497,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "mabinogion-cy-1",

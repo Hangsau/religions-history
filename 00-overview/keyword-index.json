@@ -2380,6 +2380,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Epiktētos": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Epimetheus": [
     {
       "slug": "hesiod-works",
@@ -10500,6 +10507,13 @@
       "religion": "基督教"
     }
   ],
+  "logos": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "longhouse": [
     {
       "slug": "code-of-handsome-lake",
@@ -13116,6 +13130,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "θεοί": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "θεός": [
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -13230,6 +13251,13 @@
     {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "πρόνοια": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -18116,6 +18144,13 @@
       "religion": "古埃及"
     }
   ],
+  "冰島": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "凝神": [
     {
       "slug": "taiyi-jinhua-zongzhi",
@@ -18137,6 +18172,13 @@
       "religion": "佛教"
     }
   ],
+  "凱思內斯": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "凱爾特": [
     {
       "slug": "mabinogion-cy-2",
@@ -18149,6 +18191,13 @@
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "凱蒂爾·弗拉特內菲爾": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "出埃及": [
@@ -19621,6 +19670,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
@@ -19798,6 +19852,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "哈拉爾德·欣哈爾法拉格里": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "哈拿": [
     {
       "slug": "bible-1-samuel",
@@ -19891,6 +19952,11 @@
     {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -20113,6 +20179,13 @@
       "slug": "sn45-magga",
       "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
+    }
+  ],
+  "善良": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "善行": [
@@ -21831,6 +21904,13 @@
       "slug": "shurangama-sutra",
       "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "religion": "佛教"
+    }
+  ],
+  "奧克尼群島": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "奧列格": [
@@ -25213,6 +25293,13 @@
       "religion": "基督教"
     }
   ],
+  "拓殖": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "拔摩島": [
     {
       "slug": "sblgnt-revelation",
@@ -25425,6 +25512,13 @@
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "挪威": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "挽回祭": [
@@ -26655,6 +26749,11 @@
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "斯拉夫民俗學": [
@@ -27301,6 +27400,13 @@
       "slug": "abhidharmakosa",
       "name_zh": "阿毘達磨俱舍論",
       "religion": "佛教"
+    }
+  ],
+  "朋友": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "服氣": [
@@ -28121,6 +28227,11 @@
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "正見 sammādiṭṭhi": [
@@ -28590,6 +28701,13 @@
       "religion": "猶太教"
     }
   ],
+  "比約恩": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "比量": [
     {
       "slug": "nyaya-sutra",
@@ -28935,6 +29053,13 @@
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
       "religion": "佛教"
+    }
+  ],
+  "法羅群島": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "法老": [
@@ -29390,6 +29515,13 @@
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
+    }
+  ],
+  "深慮者烏娜": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "深睡": [
@@ -30353,6 +30485,13 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    }
+  ],
+  "理性": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "理智": [
@@ -32547,6 +32686,13 @@
       "religion": "基督教"
     }
   ],
+  "索倫": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "索那卡本": [
     {
       "slug": "atharvaveda-saunaka",
@@ -34309,6 +34455,13 @@
       "religion": "基督教"
     }
   ],
+  "自制": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "自在": [
     {
       "slug": "shvetashvatara-upanishad",
@@ -34372,6 +34525,11 @@
     }
   ],
   "自然": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
@@ -35130,6 +35288,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
       "religion": "古希臘羅馬"
@@ -35168,6 +35331,13 @@
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "蘇格蘭": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "蘇特拉": [
@@ -36265,6 +36435,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "赫爾吉": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "赫爾墨斯": [
     {
       "slug": "corpus-hermeticum-el",
@@ -36906,6 +37083,13 @@
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "酋長": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "醫治": [
@@ -38490,6 +38674,13 @@
       "religion": "基督教"
     }
   ],
+  "馬庫斯·奧理略": [
+    {
+      "slug": "marcus-aurelius-meditations-el",
+      "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "馬提亞": [
     {
       "slug": "bible-acts",
@@ -38627,6 +38818,13 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    }
+  ],
+  "鮑恩·希諾斯特蘭尼": [
+    {
+      "slug": "laxdaela-saga-on",
+      "name_zh": "拉克斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "鳩摩羅什": [
