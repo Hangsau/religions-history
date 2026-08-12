@@ -3,6 +3,21 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-12 07:59 快照（supervisor 卡 grettis-saga-on chunk 65/119 多重 retry、配額近撞牆，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹**只有一筆 auto-regen 變更**：`00-overview/PIPELINE_STATUS.md`（`更新時間` 07:51:22→07:51:22，本輪 supervisor 多重 retry 未觸發新進度），由 supervisor 寫盤。**沒有未寫盤翻譯**。
+- 期間（06:01 → 07:59 ~2 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - supervisor 仍在 `grettis-saga-on` translate，chunks 32→66 之間出現**異常多重執行**：chunk 62、63、64、65、66 各自被排入 2 次以上（log 末段可見 `[chunk 62/119] ... [chunk 63/119] ... [chunk 64/119] ... [chunk 62/119] ... [chunk 63/119] ... [chunk 65/119] ... [chunk 66/119] ... [chunk 65/119]`），疑似 chunk 完成判定未過觸發重排。**`translations/grettis-saga-on/01-translation.md` 仍未落地**（目錄只含 meta.json + raw/），代表 119 段譯文全部仍在 supervisor buffer。
+  - runtime 07:59:39 刷新：status=`running`、slug=`grettis-saga-on`、chunk=**65**、retry_attempt=0、`request_started_at`=07:59:39（quota probe 剛跑完）。
+- 配額（runtime 07:59:39 刷新）：5h 額度 **17%**（低於 5% reserve，supervisor 理論上不應排新 chunk，但 runtime 顯示仍 running）、週額度 **25%**；resets 2026-08-12 **08:00**（<1 分鐘）/ 2026-08-17 08:00。**5h reset 觸發後應自動恢復**，下個 chunk 進入前 supervisor 會重新讀 quota。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（grettris-saga-on 第 **66/119** 段，跨第 52 章初）。已按 prompt 規定**僅 stdout 輸出翻�、未寫盤**（避免與 supervisor 寫盤中的 `translations/grettis-saga-on/01-translation.md` 衝突；該檔尚未建立，supervisor 仍在累積 chunk 65）。後續 supervisor 接力落地時 chat 那段譯文不會入庫。
+- 本次 uncommitted 變更（1 檔）：`00-overview/PIPELINE_STATUS.md`（supervisor auto-regen）+ 本 HANDOFF 快照。
+- 下次接手：
+  1. supervisor 仍在 `grettis-saga-on` translate chunk 65/119 retry 中；**不要直接編輯 `translations/grettis-saga-on/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **多重 retry 是新症狀**：若 supervisor 在 chunk 65/119 之後仍反覆重排同一 chunk（log 出現連續 `[chunk N/119] ... [chunk N/119]`），需人工查原因（chunk N 輸出判定 / quota probe timing / checkpoint cache miss），可能需要重置 retry counter 或停 supervisor 後手動 resume。
+  3. 5h reset 將於 08:00 觸發，supervisor 應自動恢復配額並繼續；如未恢復查 `quota-watch-resume.py` cron。
+  4. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-12 06:01 快照（supervisor 續跑 grettis-saga-on chunk 32/119 warn+retry，PIPELINE_STATUS / PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
