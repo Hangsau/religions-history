@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-12 18:05 快照（supervisor 接力 egils-saga-on chunk 117/120 timeout retry、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 12:21:31→18:05:04、`目前處理` `(本輪完成)`→`egils-saga-on`、`M3 執行狀態` `waiting_provider chunk 44/120 (timeout)`→`running`、移除「限制偵測 / 最後錯誤」兩行（5h reset 後 supervisor 恢復排程）。
+  - `00-overview/PROGRESS.json`：`佛教.with_translation` 22→**23**、`佛教.with_semantic_tags` 32→**33**（+1 翻譯、+1 標籤，源於 12:19→18:05 之間某 slug 完成；非當前 egils 翻譯，egils 仍在累積）。
+- 期間（07:59 → 18:05 ~10 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - 07:59 快照時 supervisor 卡在 `grettis-saga-on` chunk 65/119 多重 retry。之後未見 `grettis-saga-on` 任何續跑 log（也未見成功落地），推測該 slug 整列被 supervisor 移出活躍列、或全部 chunks 早已完成但組裝階段失敗（`logs/pipeline-failed.json` 仍列其為 retryable）。**該檔 `translations/grettis-saga-on/01-translation.md` 仍未落地**。
+  - 12:19 快照：`egils-saga-on` chunk 44/120 timeout 後 `waiting_provider`。13:00 左右 5h reset（17% → 100%），supervisor 自動恢復並 resume `egils-saga-on`：chunks 45→116 全部 `checkpoint hit`（72 chunks 自 cache 接力），現正執行 chunk **117/120**（`logs/pipeline-runtime.json` `status=running`、`updated_at=2026-08-12T18:05:06`、`request_started_at=2026-08-12T18:05:05`、`retry_attempt=1`）。
+  - chunk 117 第一次 timeout → supervisor 立即 retry（log 末段 `[chunk 117/120] egils-saga-on (translate) (3000 chars)`，第二次起步）。`translations/egils-saga-on/01-translation.md` **尚未落地**（目錄只含 meta.json + raw/），代表前 116 段譯文仍在 supervisor buffer。
+  - retry queue：10→11 部（新增 1 個 slug；egils-saga-on 仍在列中，因為 supervisor 把它當 retry 處理而不是新 pipeline）。
+- 配額（runtime 18:05:05 刷新）：5h 額度 **100%**（剛 reset）、週額度 **12%**（低於 25% reserve，supervisor 仍可排新 chunk 但週視窗警戒）；resets 2026-08-12 **23:00** / 2026-08-17 08:00。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（egils-saga-on 第 **117/120** 段）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤中的 `translations/egils-saga-on/01-translation.md` 衝突；該檔尚未建立，supervisor chunk 117 仍在累積）。後續 supervisor 接力落地時 chat 那段譯文不會入庫。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md` + `00-overview/PROGRESS.json`（supervisor auto-regen）+ 本 HANDOFF 快照。
+- 下次接手：
+  1. supervisor 仍在 `egils-saga-on` translate chunk 117/120 retry 中；**不要直接編輯 `translations/egils-saga-on/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. chunk 117 retry 模式延續前 116 段 timeout 模式（每段第一次失敗、立即 retry 成功 checkpoint hit），若 supervisor 在 chunk 117 之後又觸發 timeout 卡死同 chunk（連續 `[chunk 117/120] ... [chunk 117/120]`），需查 supervisor log 失敗原因（`grep "warn.*egils.*117" logs/supervisor-run.log`）。
+  3. **5h reset 在 23:00**（約 5 小時後），週視窗 12% 偏低但 supervisor 仍允許排程；如週額度撞 2% reserve 會自動停派。
+  4. `grettis-saga-on` 已從活躍佇列退出（未見續跑 log）；如需恢復查 `logs/pipeline-failed.json` 是否仍列其為 retryable，再手動放回 active queue。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-12 07:59 快照（supervisor 卡 grettis-saga-on chunk 65/119 多重 retry、配額近撞牆，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹**只有一筆 auto-regen 變更**：`00-overview/PIPELINE_STATUS.md`（`更新時間` 07:51:22→07:51:22，本輪 supervisor 多重 retry 未觸發新進度），由 supervisor 寫盤。**沒有未寫盤翻譯**。
