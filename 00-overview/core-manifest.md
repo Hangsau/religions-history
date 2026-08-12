@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**185** / 518
-- 已標籤：**214** / 518
+- 已翻譯：**186** / 518
+- 已標籤：**215** / 518
 
 ## 各宗教核心進度
 
@@ -13,7 +13,7 @@
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 37 | 49 |
 | 印度教 | 58 | 27 | 30 |
-| 古希臘羅馬 | 46 | 22 | 21 |
+| 古希臘羅馬 | 46 | 23 | 22 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 9 | 15 |
 | 北歐 | 15 | 5 | 5 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -427,7 +427,7 @@
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標–
 - `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯– 標–
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標–
-- `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯– 標–
+- `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯✓ 標✓
 - `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標–
