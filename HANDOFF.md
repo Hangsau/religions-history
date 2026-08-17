@@ -3,6 +3,22 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-18 06:09 快照（bud-lankavatara-sa chunk 21/118 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 2026-08-18 01:06:27→**06:08:53**、`目前處理` `(本輪完成)`→**`bud-lankavatara-sa`**、`一般失敗待重試` 仍 7 部（含 bud-lankavatara-sa）。
+  - `00-overview/PROGRESS.json`：`with_translation` 6→**7**、`with_semantic_tags` 9→**10**（增量來源非本次 stdout 輸出 — 見下方「未寫盤說明」）。
+- 期間（2026-08-17 20:09 → 2026-08-18 06:09 ~10 小時）無新 supervisor commit；最後一筆 supervisor 收尾為 `d3ca79ec`（snorra-edda-is chunk 78 落地後 PROGRESS auto-regen，commit 於 2026-08-17 21:xx）。本時段 PROGRESS 增量（6→7、9→10）為 supervisor 在該期間寫入另一 chunk 翻譯+標籤落地的 regen lag，非本 session 動作。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`bud-lankavatara-sa` 第 **21/118** 段，楞伽經梵文 GRETIL 標準版 → 繁中直譯，涵蓋如來乘證入種性三種／未定種性／四首偈頌 Lank_2.128–131／闡提不入涅槃二因／三自性之始）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤衝突 — supervisor 該段尚在 `一般失敗待重試` 佇列中，retry_attempt 狀態待查）。
+- **未寫盤說明**：`translations/bud-lankavatara-sa/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與 08-17 20:09 快照時狀態相同）。chat 內已產生該段完整 markdown 譯文（從 `=== 21 | 種性 / 闡提 / 三自性 ===` 起，含 4 首偈頌、散文至「相執著者即於彼…」），內容以 supervisor 接力 retry 落地為準；supervisor retry 成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md` + `00-overview/PROGRESS.json`（auto-regen）+ 本 HANDOFF 快照 — 已 commit `1c3e2b31` 並 push `d3ca79ec..1c3e2b31`。
+- 下次接手：
+  1. supervisor 仍在 `bud-lankavatara-sa` 失敗佇列（與 manu-smrti / xenophon-memorabilia-el / apuleius-metamorphoses-la / an5-fives / virgil-aeneid-la / sibylline-oracles-el 共 7 部）。檢查 `logs/pipeline-runtime.json` 與 `logs/supervisor-run.log` 看 retry_attempt 進度與失敗原因；不要直接編輯 `translations/bud-lankavatara-sa/01-translation.md`，由 supervisor 接力落地。
+  2. PROGRESS 增量 6→7、9→10 對應 supervisor 在本時段寫入的某 chunk 翻譯+標籤；查 `git log --since="2026-08-17 20:09"` 找出對應 commit（無 commit = 僅 regen lag，未實際寫盤）。
+  3. 5h reset 時段需查當前 `pipeline-runtime.json` 報的 resets 時間；週額度照既有 2% reserve。
+  4. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+  5. 7 部 retryable 跑完後 supervisor 將回到核心佇列下一個新 slug（核心 tier 218/518）；依 `core-manifest.md` 與 v3 inventory 對照決定是否先擴核心清單。
+
 ## 2026-08-17 20:09 快照（snorra-edda-is chunk 78/127 retry 起步、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
