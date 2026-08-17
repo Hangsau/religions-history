@@ -3,6 +3,23 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-17 10:09 快照（supervisor 收尾 carmina-gadelica-1 後接手 an3-threes chunk 117/158、PIPELINE_STATUS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**一筆 auto-regen 變更**：`00-overview/PIPELINE_STATUS.md`（`更新時間` 08:05:19→10:09:23、`目前處理` `carmina-gadelica-1`→`an3-threes`、`M3 執行狀態` `carmina-gadelica-1`→`an3-threes`、`一般失敗待重試` 10→**9** 部、`已阻塞待人工處理` 28→**29** 部），由 supervisor 在 slug 切換時自動寫盤。PROGRESS.json 未動（無 with_translation / with_semantic_tags 增量）。**沒有未寫盤翻譯**。
+- 期間（2026-08-12 18:05 → 2026-08-17 10:09 ~4 天）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - 08:05 前一快照時 supervisor 仍在 `carmina-gadelica-1` translate（chunk 49/170）。之後 `carmina-gadelica-1` 完成整部並 commit（包含最後 chunk 落地 + PROGRESS 增量），收尾 commit 為 `450151a4`「HANDOFF: stop-hook 收尾（carmina-gadelica-1 chunk 49/170 m3 翻譯、PIPELINE_STATUS/PROGRESS auto-regen）」。
+  - 收尾後 supervisor 從 retry queue 接手 `an3-threes`（先前列為「一般失敗待重試」，未見完整收尾紀錄），resume 自 cache：**chunks 1→116 全部 `checkpoint hit`**（116 段譯文全自 cache 接力，未呼叫 provider），現正執行 chunk **117/158**（`logs/pipeline-runtime.json` `status=running`、`updated_at=2026-08-17T10:09:24`、`request_started_at=2026-08-17T10:09:24`、`retry_attempt=2`、`resumed_by=quota-watch-resume.py`）。
+  - chunk 117 起步失敗一次 → retry（`retry_attempt=2`），目前未見落地。`translations/an3-threes/01-translation.md` **尚未落地**（目錄只含 meta.json + raw/），代表前 116 段譯文仍在 supervisor buffer。
+- 配額（runtime 10:09:24 刷新）：5h 額度 **84%**（留 5%）、週額度 **98%**（留 2%）；resets 2026-08-17 **13:00** / 2026-08-24 08:00。配額充裕，supervisor 可繼續接力至下次 5h reset。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`an3-threes` 第 **117/158** 段，an3.100 Loṇakapallasutta 鹽團經，巴利原文 → 繁中直譯）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤中的 `translations/an3-threes/01-translation.md` 衝突；該檔尚未建立，supervisor chunk 117 仍在累積）。後續 supervisor 接力落地時 chat 那段譯文不會入庫（內容以 supervisor 接力 M3 為準）。
+- 本次 uncommitted 變更（1 檔）：`00-overview/PIPELINE_STATUS.md`（supervisor auto-regen）+ 本 HANDOFF 快照。
+- 下次接手：
+  1. supervisor 仍在 `an3-threes` translate chunk 117/158 retry 中（retry_attempt=2）；**不要直接編輯 `translations/an3-threes/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. chunk 117 retry 模式延續 supervisor 標準 retry 行為（前 116 段皆 checkpoint hit、無 timeout，chunk 117 retry 屬一次性失敗）；若 supervisor 在 chunk 117 之後又連續觸發 warn（log 出現 `chunk 117 ... keeping prior file unchanged`），需查 supervisor log 失敗原因（`grep "warn.*an3-threes.*117" logs/supervisor-run.log`）。
+  3. **5h reset 在 13:00**（約 3 小時後），週視窗 98% 充裕；如週額度撞 2% reserve 會自動停派。
+  4. PIPELINE_STATUS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。chunk 117 落地後下一個 chunk 118 起步。
+  5. an3-threes 完成後 supervisor 將從 retry queue 接手下一個 slug（依序為 snorra-edda-is / bud-lankavatara-sa / manu-smrti / xenophon-memorabilia-el / apuleius-metamorphoses-la / an5-fives / virgil-aeneid-la / sibylline-oracles-el，共 9 部 retryable）。
+
 ## 2026-08-12 18:05 快照（supervisor 接力 egils-saga-on chunk 117/120 timeout retry、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
