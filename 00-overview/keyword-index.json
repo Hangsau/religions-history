@@ -7236,6 +7236,11 @@
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Sohila": [
@@ -13312,6 +13317,11 @@
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Τίμαιος": [
@@ -13380,6 +13390,11 @@
       "slug": "sblgnt-mark",
       "name_zh": "馬可福音（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "δικαιοσύνη": [
@@ -13448,6 +13463,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "θεός": [
@@ -13471,6 +13491,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "κόσμος": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "λέπρα": [
     {
       "slug": "sblgnt-mark",
@@ -13489,6 +13516,13 @@
     {
       "slug": "plato-protagoras-el",
       "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "μαντική": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -13523,6 +13557,13 @@
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "οἰωνοί": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "οὐσία": [
@@ -13599,6 +13640,13 @@
     {
       "slug": "plato-protagoras-el",
       "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "σοφισταί": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -14348,6 +14396,13 @@
       "religion": "印度教"
     }
   ],
+  "ἀγορά": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἀνεξικακία": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -15022,6 +15077,13 @@
       "slug": "an2-twos",
       "name_zh": "AN2 二法集",
       "religion": "佛教"
+    }
+  ],
+  "不敬神": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "不敬虔": [
@@ -19298,6 +19360,13 @@
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
+    }
+  ],
+  "占卜": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "卡利亞斯": [
@@ -30677,6 +30746,11 @@
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "玄": [
@@ -31698,6 +31772,13 @@
       "slug": "vulgate-2-corinthians",
       "name_zh": "哥林多後書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "神意": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "神憐憫": [
@@ -34847,6 +34928,13 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "自然哲學": [
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "自由": [
@@ -38405,6 +38493,11 @@
     {
       "slug": "plato-protagoras-el",
       "name_zh": "普羅塔哥拉篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xenophon-memorabilia-el",
+      "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
