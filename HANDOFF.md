@@ -3,6 +3,23 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-18 12:01 快照（xenophon-memorabilia-el 翻譯+標籤收尾、apuleius-metamorphoses-la chunk 17/159 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**八筆變更**（含四筆索引 auto-regen）：
+  - `translations/xenophon-memorabilia-el/01-translation.md`：**新建**（2513 行，色諾芬《回憶蘇格拉底》卷一至卷四希臘原文 → 繁中直譯；`meta.json` `translation_status` 標 `done`、models `MiniMax-M3`）
+  - `translations/xenophon-memorabilia-el/meta.json`：加 `semantic_tags`（受控詞彙 38 條，含 `creator-deity` / `divine-immanence` / `divine-transcendence` / `golden-rule` / `non-violence` / `polytheist` / `prayer` / `prophetic-critique` 等）與 `keywords`
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 11:50:53、`目前處理` `xenophon-memorabilia-el` (tag) → **`apuleius-metamorphoses-la`**、`進度` 219→**220 / 518**、`一般失敗待重試` 5→**4** 部（xenophon 移出）、`M3 執行狀態` `xenophon-memorabilia-el` (tag) running
+  - `00-overview/PROGRESS.json` + `PROGRESS.md`：`with_translation` 27→**28**（核心全 100%、v3_listed 44.4%、pct_full 3.7%）
+  - `00-overview/{tag-index,keyword-index,psych-tag-index}.json`：xenophon semantic_tags / keywords 增量 auto-regen
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`apuleius-metamorphoses-la` 第 **17/159** 段，金驢記卷二開頭拉丁 Wikisource 通行本 → 繁中直譯，涵蓋 Photis 性愛場面收束、Byrrhena 宴會邀約與警告、Byrrhen 豪華盛宴描寫、Lucius 對巫術的恐懼）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤衝突 — supervisor 該段尚在 `一般失敗待重試` 佇列中，retry_attempt 狀態待查）。
+- **未寫盤說明**：`translations/apuleius-metamorphoses-la/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與 06:09 快照時狀態相同）。chat 內已產生該段完整 markdown 譯文（從 `=== 17 | 卷二 開頭 ===` 起，含 9 個段落至「…以迅捷之速搶先掠奪他人的葬禮」處截斷），內容以 supervisor 接力 retry 落地為準；supervisor retry 成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（8 檔）：已全部 commit `b4118bd7`「Pipeline B+C: xenophon-memorabilia-el 翻譯+標籤收尾 (processed 1)」並 push `c6a51b7f..b4118bd7`。
+- 下次接手：
+  1. supervisor 仍在 `apuleius-metamorphoses-la` 失敗佇列（與 manu-smrti / an5-fives / virgil-aeneid-la / sibylline-oracles-el 共 4 部）。檢查 `logs/pipeline-runtime.json` 與 `logs/supervisor-run.log` 看 retry_attempt 進度與失敗原因；不要直接編輯 `translations/apuleius-metamorphoses-la/01-translation.md`，由 supervisor 接力落地。
+  2. 核心 tier 220/518 完成；下個新 slug 將由 supervisor 從 `core-manifest.md` 與 v3 inventory 對照挑出，可優先擴核心清單。
+  3. 5h reset 時段需查當前 `pipeline-runtime.json` 報的 resets 時間；週額度照既有 2% reserve。
+  4. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-18 06:09 快照（bud-lankavatara-sa chunk 21/118 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
