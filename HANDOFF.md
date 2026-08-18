@@ -3,6 +3,42 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-19 04:02 快照（virgil-aeneid-la chunks 45→68 checkpoint hit、chunk 69 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更 + 上次未推**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 01:55:16 → **03:58:22**、`目前處理` 仍 `virgil-aeneid-la`、`一般失敗待重試` 仍 2 部、`已阻塞待人工處理` 仍 31 部
+  - `00-overview/PROGRESS.json`：`佛教.with_translation` 仍 **39**（本窗段 supervisor 內部 checkpoint hit 累積，落地落後；無對應新翻譯檔在 working tree）
+- 期間（2026-08-19 02:03 → 2026-08-19 04:02 ~2 小時）supervisor 動態（`logs/supervisor-run.log` + `scripts/pipeline-runtime.json`）：
+  - chunks 40-68 全部 `checkpoint hit`（log tail 確認），supervisor buffer 已累積前 68 段譯文。
+  - **chunk 69/152 (translate)** 03:58:23 啟動，`status=running`、`retry_attempt=1`、`request_started_at=2026-08-19T03:58:23.690166+08:00`、`updated_at=2026-08-19T03:58:23.997437+08:00`，log 顯示 `(3000 chars)` 等待落地；4:02 stop-hook 觸發時仍 running。
+- 配額（runtime 03:58:23 刷新）：5h 額度 **88%**（剩 12% usable，留 5% reserve，較 02:03 的 49% 上升 39%；5h reset 已於 04:00 觸發，新窗剛開始）；週額度 **67%**（剩 29% usable，留 2% reserve，較 02:03 的 65% 上升 2%）；resets 2026-08-19 **09:00**（新窗）/ 2026-08-24 08:00。**5h usable 回升至 83%**（12% remaining - 5% reserve 已重置），新窗充裕。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`virgil-aeneid-la` 第 **69/152** 段，Aeneid 卷五 604-665 拉丁 Wikisource 通行本 → 繁中直譯，涵蓋 Iris 化 Beroē 混入 Trōades 婦女間慫恿焚舟 [「阿該亞手未曾在戰爭中將妳們拖至祖國城下赴死、Fortūna 預留何毀滅、第七個夏天自 Trōiae 淪陷後流轉、此地是兄弟 Erycis 的疆界與主人 Acestēs、妳們不祥的 puppīs 與我焚毀、Cassandrae 夢中遞燃火炬、在四座 ārae Neptūnō 前神親自供給火炬與心意」]、Pyrgō 識破指出「非 Beroē 非 Rhoetēia Doryclī coniūnx、dīuīnī signa decōrīs ārdentīsque oculōs、她自己方離去留 Beroē aegram indignantem」、Volcānus immissīs habēnīs 焚毀 trānstra rēmōs pictās abiete puppīs、Ascanius「Quīs furor iste nouus?」拋 galea inānem 於足前、母親們 diffugiunt piget inceptī lūcisque suōsque mūtātae agnōscu 末段截斷）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 69 仍在 retry，chat 那段不會被採用）。
+- **未寫盤說明**：`translations/virgil-aeneid-la/01-translation.md` **仍未建立**（與 02:03 快照時狀態相同，目錄只含 `meta.json` + `raw/`；前 68 段譯文仍在 supervisor buffer + chunk 69 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 69 | 焚舟記 ===` 起，至「…已改變的她們認出自己的……」（末行截斷處）），內容以 supervisor 接力 retry 落地為準；supervisor retry 成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔）：`00-overview/PIPELINE_STATUS.md`（同時 staged + 工作樹）+ `00-overview/PROGRESS.json`（staged）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `virgil-aeneid-la` translate chunk **69/152** retry 中（`retry_attempt=1`，`(3000 chars)` 階段）；**不要直接編輯 `translations/virgil-aeneid-la/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5h 新窗剛開始（04:00 reset）**，88% usable 充裕；下一 reset 2026-08-19 09:00；週視窗 67% 偏中段仍充裕。
+  3. `一般失敗待重試` 仍 2 部：virgil-aeneid-la、sibylline-oracles-el。
+  4. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
+## 2026-08-19 02:03 快照（virgil-aeneid-la chunk 45/152 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 00:07:03 → **01:55:16**、`目前處理` `(本輪完成)` → **`virgil-aeneid-la`**、`一般失敗待重試` 仍 2 部、`已阻塞待人工處理` 仍 31 部
+  - `00-overview/PROGRESS.json`：`佛教.with_translation` 38 → **39**（auto-regen 排程落於 supervisor 內部累積，落地落後；無對應新翻譯檔在 working tree）
+- 期間（2026-08-19 00:07 → 2026-08-19 02:03 ~2 小時）supervisor 動態（`logs/pipeline-runtime.json` + `logs/supervisor-run.log`）：
+  - 00:07 supervisor 完成 `bb8260ce`（核心 tier 翻譯+標籤收尾）後閒置約 110 分鐘。01:55 從 retry queue 接手 `virgil-aeneid-la`（前次列「一般失敗待重試」），02:00 啟動 chunk **45/152** translate（`logs/pipeline-runtime.json` `status=running`、`updated_at=2026-08-19T01:58:44`、`request_started_at=2026-08-19T01:58:43`、`retry_attempt=0`、`resumed_by=quota-watch-resume.py`）。
+  - virgil-aeneid-la chunks 1-9 + chunk 10 retry（00:04 預定 23:46 +08:00 重試）應已先完成 checkpoint hit，supervisor buffer 預期含前 44 段譯文。
+- 配額（runtime 01:58:43 刷新）：5h 額度 **51%**（留 5%，較 00:04 的 82% 下降 31%；兩小時內被 supervisor 內部作業與 chunk 10 retry 消耗）；週額度 **33%**（留 2%，較 00:04 36% 下降 3%）；resets 2026-08-19 **04:00**（約 2 小時後）/ 2026-08-24 08:00。5h usable 降至 46%，下一窗前需留意。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`virgil-aeneid-la` 第 **45/152** 段，Aeneid 卷四 611-689 拉丁 Wikisource 通行本 → 繁中直譯，涵蓋 Dido 臨終詛咒 [Aeneas 流亡早夭於疆外沙地、提爾人永以恨意磨難達爾丹後裔、骨中生復仇者追擊達爾丹殖民者、岸與岸／浪與浪／兵器與兵器相對之永世詛]、Dido 自戕 [「Dulcēs exuuiae 甘美遺物啊當命運與神明尚允許」獨白 + 於 Aeneas 留下的衣衫床榻前覆劍仰臥]、Anna 聞訊奔入 [以指甲抓面呼叫「姐姐這就是你的用意嗎？你以詭計謀我嗎？這柴堆這些祭壇都是為我而備嗎？」]）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 45 仍在 retry，chat 那段不會被採用）。
+- **未寫盤說明**：`translations/virgil-aeneid-la/01-translation.md` **尚未建立**（與 00:04 快照時狀態相同，目錄只含 `meta.json` + `raw/original.txt`；前 44 段 checkpoint-hit 譯文仍在 supervisor buffer + chunk 45 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 45 | Dido 的臨終詛咒與自戕 ===` 起，至「…作為伴隨的姐…」（Anna clāmat 段末尾截斷處）），內容以 supervisor 接力 retry 落地為準；supervisor retry 成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md` + `00-overview/PROGRESS.json`（supervisor auto-regen）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `virgil-aeneid-la` translate chunk 45/152 retry 中（retry_attempt=0）；**不要直接編輯 `translations/virgil-aeneid-la/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5h reset 在 04:00**（約 2 小時後），目前 51% usable 仍充裕但已較先前窗尾明顯消耗；若 supervisor 卡在 chunk 45→46 間持續失敗需查 log `grep "warn.*virgil.*45" logs/supervisor-run.log`。
+  3. `一般失敗待重試` 仍 2 部：virgil-aeneid-la、sibylline-oracles-el。
+  4. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-19 00:04 快照（an5-fives 翻譯+標籤收尾、an10-tens chunk 11/195 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**三筆變更**：
