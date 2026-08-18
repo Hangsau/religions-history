@@ -3,6 +3,24 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-19 06:00 快照（virgil-aeneid-la chunks 70-74 接力、chunk 74 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**一筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 03:58:22 → **05:55:05**、`目前處理` 仍 `virgil-aeneid-la`、`一般失敗待重試` 仍 2 部、`已阻塞待人工處理` 仍 31 部、`進度` 仍 221/518
+- 期間（2026-08-19 04:02 → 2026-08-19 06:00 ~2 小時）supervisor 動態（`logs/supervisor-run.log` + `scripts/pipeline-runtime.json`）：
+  - chunks 69-73 接力：log tail 確認 `[resume 70-72/152] checkpoint hit`（cache 接力）+ `[chunk 73/152] (3000 chars)` 派發 MiniMax-M3。
+  - supervisor 起步 chunk 74/152（`status=running`、`retry_attempt=0`、`request_started_at=2026-08-19T05:59:19`、`updated_at=2026-08-19T05:59:19`、`resumed_by=quota-watch-resume.py`），與本 session 主 m3 chunk 74 stdout-only 平行；supervisor 落地後 chat 內譯文不會入庫。
+  - `translations/virgil-aeneid-la/01-translation.md` **仍未建立**（與 04:02 快照時狀態相同，目錄只含 `meta.json` + `raw/`；前 73 段譯文仍在 supervisor buffer，chunk 74 進行中）。
+- 配額（runtime 05:59:19 刷新）：5h 額度 **42%**（剩 58% usable，留 5% reserve；較 04:02 的 88% 下降 46%；5h 下一 reset 2026-08-19 **08:00**，約 2 小時後）；週額度 **73%**（剩 25% usable，留 2% reserve；較 04:02 的 67% 下降 6%）。5h usable 已消耗近半，新窗前需注意 supervisor 是否需要停派冷卻。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`virgil-aeneid-la` 第 **74/152** 段，Aeneid 卷六 69-135 拉丁 Wikisource 通行本 → 繁中直譯，涵蓋西比拉預言主段 [「特洛亞人將定居、流浪的神祇與擾動中的特洛亞神力受祭／建 Phoebus 與 Trivia 神殿／節慶之日／國度深處陳示命運與神諭／切勿銘刻葉片免被疾風吹散／iphis（手稿訛誤，應作 ipsa）canās 自吟」+ Apollo 壓制狂喜 Sibyl 在百扇自開殿門中穿越氣流傳達之預言「達爾丹之子將入拉維努斯王國、戰爭駭人戰爭台伯河湧血沫、另一位 Achilles 神女所生已在 Latium 誕生、Iūnō 不離 Teucrīs、外邦婚姻外邦婚床禍端、你莫屈服於苦難反要更勇敢前行、救恩第一條路將從希臘城展開」]、Aenēās 答辯求入下界 [非新穎意外勞苦、唯一求：見親愛父親面容 + 指點道路開啟神聖之門、述救出父親經火焰千支箭矢、自敵陣接回、父親伴隨旅程無力承擔海與天威脅、同樣的祈求同樣的囑咐、垂憐女兒與父親 / Orpheus 色雷斯琴召亡妻魂 / Pollūx 交替死亡贖兄弟 / Thēseus / Alcīdēs / 血脈出自至高 Ioue]、Sibyl 回應 [「神聖血統所生、特洛的 Anchīsiadē、下 Auernus 之路輕易 / 黑夜與白晝黑色 Dīs 門扉敞開／召回腳步上升上方氣息此乃工程此乃艱辛／少數人公正 Iuppiter 所愛或熾熱德行提升至以太者神聖出身者方能為之／中處一切為林叢所占、Cōcȳtus 黑色曲流環繞／若心中大愛若如此渴望兩度泅入 Stygian 湖兩度觀看 Tartara 且狂喜地甘願耽溺…」末段截斷]）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤衝突）。
+- **未寫盤說明**：`translations/virgil-aeneid-la/01-translation.md` **仍未建立**（與 04:02 快照時狀態相同）。chat 內已產生該段完整 markdown 譯文（從 `=== 74 | 第六卷 · 西比拉神諭（續） ===` 起，至「…且狂喜地甘願耽溺」（原 `indulgē` 截斷處）），內容以 supervisor 接力 retry 落地為準；supervisor retry 成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `virgil-aeneid-la` translate chunk **74/152** retry 中（`retry_attempt=0`）；**不要直接編輯 `translations/virgil-aeneid-la/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5h 下一 reset 在 08:00**（約 2 小時後），目前 58% usable 已較先前窗頭明顯消耗（4 小時內由 88% → 58%）；若 supervisor 卡在 chunk 74→75 間持續失敗需查 log `grep "warn.*virgil.*74" logs/supervisor-run.log`。
+  3. `一般失敗待重試` 仍 2 部：virgil-aeneid-la、sibylline-oracles-el。
+  4. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-19 04:02 快照（virgil-aeneid-la chunks 45→68 checkpoint hit、chunk 69 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更 + 上次未推**：
