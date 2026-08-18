@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-19 00:04 快照（an5-fives 翻譯+標籤收尾、an10-tens chunk 11/195 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**三筆變更**：
+  - `translations/an5-fives/01-translation.md`：**新建**（9207 行，AN5 五法集完整翻譯，66/66 chunks；`meta.json` `translation_status` 標 `done`、models `MiniMax-M3`、尾收於「五集篇文竟。」）
+  - `translations/an5-fives/meta.json`：加 `psych_tags`（受控詞彙 5 條：`addiction-self-destruction` / `aging-time` / `body-mind` / `boundaries-self-worth` / `calling-vocation`）與 `translation_status` `done`
+  - `00-overview/PIPELINE_STATUS.md`：時間戳 13:49→**23:31**、`目前處理` `apuleius-metamorphoses-la`→**`an10-tens`**、`進度` 220→**221 / 518**、`一般失敗待重試` 4→**2** 部（an5-fives 移出）、`已阻塞待人工處理` 30→**31** 部
+- 期間（2026-08-18 12:01 → 2026-08-19 00:04 ~12 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - 12:01 快照時 supervisor 仍在 `apuleius-metamorphoses-la` 失敗佇列等待。12-13 點之間 supervisor 從 retry queue 接手 `an5-fives`、resume 自 cache，**66/66 chunks 全部 `checkpoint hit`**（含 `translate` 全段與 `tag` 66 chunks），完成整部並落地翻譯+標籤。
+  - virgil-aeneid-la chunks 1-9 checkpoint hit、chunk 10 → `pattern='PIPELINE_STATUS'` 污染觸發 retry（`retry_attempt=2`，下次重試 2026-08-18 15:46 UTC），預期 supervisor 重啟清空 cache 後從乾淨 prompt 重譯。
+  - an10-tens 接手：supervisor 把 211 章拆 195 chunks，已派發 chunks 1-11 給 M3（chunk 1-10 已 checkpoint hit 或落地、**chunk 11/195 為本次 m3 session 翻譯物件**）。
+- 配額（runtime 23:59:10 刷新）：5h 額度 **82%**（留 5%）、週額度 **36%**（留 2%）；resets 2026-08-19 **04:00** / 2026-08-24 08:00。配額充裕。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`an10-tens` 第 **11/195** 段，AN10.11 Senāsanasutta 巴利 SuttaCentral 校勘版 → 繁中直譯，涵蓋五分具足比丘（信 / 少病少惱 / 不詭詐 / 精進 / 慧）× 五分具足住處（不太遠近 / 晝靜夜寂 / 少蚊蟲風日 / 不勞得四資具 / 長老比丘多聞持法持律）的 Pañcaṅga 雙配對架構；bhikkhu、āsava、cetovimutti、paññāvimutti、saddha、tathāgata、bodhi、bhagavā、viññū、vīriya、akusala dhamma、kusala dhamma、paññā、ariya、nibbedhika、senāsana 名相首次出現加中文對應，後續裸用）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（避免與 supervisor 寫盤衝突 — `translations/an10-tens/01-translation.md` 尚未建立，目錄只含 `meta.json` + `raw/`，supervisor chunk 11 仍在累積 buffer）。
+- 本次 uncommitted 變更（3 檔）：已全部 commit `3b6542d4`「Pipeline B+C: an5-fives 翻譯+標籤收尾 (processed 1)」+ 本 HANDOFF 快照。
+- 下次接手：
+  1. supervisor 仍在 `an10-tens` translate 累積中（當前 chunk 11/195 = 本次 session 輸出端），**不要直接編輯 `translations/an10-tens/01-translation.md`**（supervisor 寫盤中），由 M3 chunks 12-195 接力，落地後 supervisor 自動組裝 + 加 psych_tags。
+  2. **5h reset 在 04:00**（約 4 小時後），週視窗 36% 偏低但仍充裕；如週額度撞 2% reserve 會自動停派。
+  3. virgil-aeneid-la chunk 10 retry 在 2026-08-18 15:46 UTC → 23:46 +08:00（已過），supervisor 應已用乾淨 prompt 接力完成；如仍有 warn 紀錄查 `logs/supervisor-run.log` `grep "warn.*virgil.*10"`。
+  4. `一般失敗待重試` 仍 2 部：virgil-aeneid-la（待確認 retry 結果）、sibylline-oracles-el。an5-fives 與 apuleius-metamorphoses-la 與 xenophon-memorabilia-el 與 an3-threes 等已移出失敗佇列。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-18 12:01 快照（xenophon-memorabilia-el 翻譯+標籤收尾、apuleius-metamorphoses-la chunk 17/159 m3 翻譯 stdout-only、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**八筆變更**（含四筆索引 auto-regen）：
