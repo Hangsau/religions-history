@@ -3,6 +3,29 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-19 08:05 快照（an10-tens chunk 106/195 m3 翻譯 stdout-only、5H 窗 08:00 reset、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 07:57:05 → **08:00:17**、`進度` 221/518 → **222/518**、`目前處理` `(本輪完成)` → **`an10-tens`**、`M3 執行狀態` `waiting_quota` → **running**、限制偵測與最後錯誤欄消失（5H reset 後重派）。
+  - `00-overview/PROGRESS.json`：`with_translation` 24 → **25**、`with_semantic_tags` 34 → **35**（各 +1）。
+- 期間（2026-08-19 06:00 → 2026-08-19 08:05 ~2 小時）supervisor 動態（`logs/supervisor-run.log` + `scripts/pipeline-runtime.json`）：
+  - **virgil-aeneid-la** 從 chunks 74-86 全部 `checkpoint hit`（supervisor 接力 replay，buffer 累積中），但 supervisor 05:59 之後似乎切換到 an10-tens（從 `(本輪完成)` → `an10-tens` 推測）。
+  - **an10-tens** chunks 57→105 全部 `checkpoint hit`、chunk 106/195 在本 session 主翻譯後由 supervisor 接手派發（log tail 確認 `[chunk 106/195] an10-tens (translate)  (3000 chars)`）。
+  - `一般失敗待重試`：virgil-aeneid-la 移除 → 現剩 **1 部 — sibylline-oracles-el**。
+  - `已阻塞待人工處理`：**31 部**不變。
+- 配額（MiniMax API）：5H 額度 **1%**（5H 窗已於 08:00 reset，新窗剛起步 5 分鐘，與先前 06:00 快照預測一致）；週額度 **81%**（剩 19% usable，較 06:00 的 73% 上升 8%；7D 下一 reset 距今 6 天）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`an10-tens` 第 **106/195** 段，Aṅguttara Nikāya 10.87 Nappiyasutta 巴利原文 → 繁中直譯）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（chunk 106 supervisor 接力 retry 進行中，內容以 supervisor 寫盤為準）。
+- **未寫盤說明**：`translations/an10-tens/01-translation.md` **未新增本段**（chat 內已產生 chunk 106 完整 markdown 譯文：=== 87 | an10.87 === 起、老品／不愛經標頭、AN10.87 全文十條誦內容直譯繁中 + 結論段「…見彼諸惡、不善…」截斷）；supervisor retry 成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + an10-tens 切換）、`00-overview/PROGRESS.json`（+1 翻譯 +1 標籤）、本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已切到 `an10-tens` translate（5H 窗剛 reset，狀態 running）；前 105 段 `checkpoint hit`、chunk 106 進行中；**不要直接編輯 `translations/an10-tens/01-translation.md`**（supervisor 寫盤中）。
+  2. **5H 額度 1%**（新窗剛起步），週額度 81%（剩 19% usable，留 2% reserve = 17% 實際可用）；supervisor 接力窗口寬。
+  3. `一般失敗待重試` 1 部 — sibylline-oracles-el（virgil-aeneid-la 已從失敗清單移除）；下一輪 supervisor 可能處理。
+  4. `已阻塞待人工處理` 31 部不變（其中含 `quran`、`numbers`、`chronicles-1` 等高優先但需人工介入確認源文本）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
+
+
 ## 2026-08-19 06:00 快照（virgil-aeneid-la chunks 70-74 接力、chunk 74 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**一筆 auto-regen 變更**：
