@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-19 13:58 快照（an10-tens 翻譯+標籤全 B+C 收尾、augustine-confessiones-la chunk 48/178 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**三筆變更**：
+  - `translations/an10-tens/01-translation.md`：**新建**（9462 行，Pali AN10 十法集 211 章經文 → 繁中直譯完整 195 chunks；尾收於「十集聖典終。」，標頭完整「# AN10 十法集 — 翻譯」/「翻譯：MiniMax-M3，2026-08-18」/「守則：見 `tools/m3-translator-role.md`」）
+  - `translations/an10-tens/meta.json`：`semantic_tags` 18 條 + `keywords` 12 條 + `psych_tags`（厭離、離染）先前已 `tag_status: done`；本輪 `translation_status: done`、`translation_models: MiniMax-M3` 由 supervisor 落地後自動回填
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 11:51:01 → **13:51:22**、`目前處理` `an10-tens` → **`augustine-confessiones-la`**、`一般失敗待重試` 2 → **3 部**（augustine 入列）、`M3 執行狀態` `an10-tens (translate)` → **`augustine-confessiones-la (translate)`** running
+- 期間（2026-08-19 11:51 → 2026-08-19 13:58 ~2 小時）supervisor 動態（`logs/supervisor-run.log` + `scripts/pipeline-runtime.json`）：
+  - **an10-tens** translate 全 195 chunks 由 supervisor 接力完成並落地 `01-translation.md`（11:51 快照時已 178/195,本輪補完 179→195 chunk 收尾）；落地後 supervisor 自動回填 `meta.json` `translation_status: done` + `translation_models: MiniMax-M3`、regen `PIPELINE_STATUS.md`。
+  - **augustine-confessiones-la** 從 core-manifest 接手：`detected_at=2026-08-19T13:51:18`、`resumed_at=2026-08-19T13:51:20` (`resumed_by=quota-watch-resume.py`)、`request_started_at=2026-08-19T13:58:55`、當前 **chunk 48/178** translate `status=running`、`retry_attempt=0`、`failure_code=null`、`last_error=null`。
+- 配額（`logs/pipeline-runtime.json` 13:58:55 刷新）：5h 額度 **86%**（剩餘，較 11:51 的 1% 上升 85%，**5H 新窗已於 13:00 reset**，新窗已運行約 1 小時；留 5% reserve = 81% 實際可用）；週額度 **14%**（較 11:51 的 81% 下降 67%，近週窗末段；留 2% reserve = 12% 實際可用）；resets 2026-08-19 **18:00**（5H 下一窗，約 4 小時後）/ 2026-08-24 **08:00**（週窗 reset）。週視窗已偏低,需留意 supervisor 是否撞 reserve。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`augustine-confessiones-la` 第 **48/178** 段，Augustine《懺悔錄》卷九蒙妮卡辭世前後拉丁 Wikisource 通行本 → 繁中直譯,涵蓋 Ostia 之香膏餘�而未奔隨主、Alypius 與 Evodius 同歸、母親於奧斯蒂亞辭世、轉入蒙妮卡早年由老嫗教導飲水節制之訓、幼時悄悄從酒甕偷啜純酒數滴、隨年歲盈溢衝動日漸加劇的伏筆；tatem �字、cupa / lagunculam / merum / primoribus labris / senāsana 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 48 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/augustine-confessiones-la/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`,與 11:51 快照時狀態相同；前 47 段譯文仍在 supervisor buffer,chunk 48 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 48 | Book IX | 蒙妮卡�世與其幼年養育 ===` 起,至「…因為輕視小節者,將逐漸…」（末行 `quoniam qui modica spernit, paula-` 截斷處））,內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔）：`translations/an10-tens/01-translation.md`（新建翻譯）+ `translations/an10-tens/meta.json`（auto-regen status/models）+ `00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已在 `augustine-confessiones-la` translate chunk **48/178** retry 中（`retry_attempt=0`,`(3000 chars)` 階段）；**不要直接編輯 `translations/augustine-confessiones-la/01-translation.md`**（supervisor 寫盤中）,內容以 supervisor 接力落地為準。
+  2. **5H 額度 86%**（新窗剛 reset 約 1 小時）,週額度 **14%** 已偏低（剩 12% usable）；若 supervisor 持續派發 chunks 撞週 reserve 會自動停派,需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el / an10-tens（已從清單移除,an10-tens 全 B+C 收尾完成）/ augustine-confessiones-la（剛入列,實際 retry_attempt=0 屬正常運作非失敗,清單入列可能為前次 session 預標）。
+  4. `已阻塞待人工處理` 31 部不變。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發,照既有批次格式 commit。
+
 ## 2026-08-19 08:05 快照（an10-tens chunk 106/195 m3 翻譯 stdout-only、5H 窗 08:00 reset、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：

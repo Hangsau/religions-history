@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-19 11:51:01 +0800
+- 更新時間：2026-08-19 13:51:22 +0800
 - 佇列 tier：**核心**
 - 進度：**222 / 518** 已翻譯+標籤
-- 目前處理：`an10-tens`
+- 目前處理：`augustine-confessiones-la`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：2 部 — sibylline-oracles-el, an10-tens
+- 一般失敗待重試：3 部 — sibylline-oracles-el, an10-tens, augustine-confessiones-la
 - 已阻塞待人工處理：31 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `an10-tens` (translate)
+- M3 執行狀態：**running** — `augustine-confessiones-la` (translate)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
