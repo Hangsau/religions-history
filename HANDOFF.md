@@ -3,6 +3,27 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-19 18:03 快照（an4-fours translate 接力中 chunk 34/210 m3 翻譯 stdout-only、augustine-confessiones-la chunks 48→87 接力、an10-tens 全收尾後佛教+1 翻譯完成、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` 15:53:44 → **17:41:04**、`目前處理` `(本輪完成)` → **`an4-fours`**、`一般失敗待重試` 2 → **1 部**（augustine-confessiones-la 從清單移除）、`已阻塞待人工處理` 31 → **32 部**、`M3 執行狀態` `augustine-confessiones-la (translate)` → **`an4-fours (translate)`** running
+  - `00-overview/PROGRESS.json`：`佛教.with_translation` 39 → **40**（+1，an10-tens 全 195 chunks 收尾後落地 `01-translation.md` 並 auto-regen 觸發 +1）
+- 期間（2026-08-19 13:58 → 2026-08-19 17:41 ~4 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - **augustine-confessiones-la** chunks 48→87 接力：13:58 快照時 chunk 48 retry 起步（`(3000 chars)` 階段）、本輪 supervisor 派發至 **chunk 87/178**（log tail 確認），從「一般失敗待重試」清單移除（實際 `retry_attempt=0` 屬正常運作非失敗，先前入列為前次 session 預標）。
+  - **an4-fours** 從 core-manifest 接手：`detected_at=2026-08-19T17:41:00.541154+08:00`、`resumed_at=2026-08-19T17:41:02.346715+08:00`（`resumed_by=quota-watch-resume.py`），log tail 顯示 chunks 28→34 接力（chunk 34 `(1525 chars)` 即本 session 主翻譯）。
+  - an10-tens B+C 全收尾後落地 `translations/an10-tens/01-translation.md`（9462 行）並 auto-regen `PROGRESS.json` +1。
+  - 平行派發模式：augustine-confessiones-la 與 an4-fours 兩個 slug chunks 交錯派發（log tail 顯示 `[chunk 80/178] augustine` 與 `[chunk 28/210] an4-fours` 同時出現於相近時間）。
+- 配額（`logs/pipeline-runtime.json` 17:59:48 刷新）：5h 額度 **35%**（剩餘，較 13:58 的 86% 下降 51%，新窗已運行 ~5 小時；留 5% reserve = **30% 實際可用**）；週額度 **9%**（較 13:58 的 14% 下降 5%，近週窗末段；留 2% reserve = **7% 實際可用**）；resets 2026-08-19 **18:00**（5H 下一窗，**約 1 分鐘後**）/ 2026-08-24 **08:00**（週窗 reset）。**週視窗已極低**（7% usable），supervisor 撞週 reserve 會自動停派。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`an4-fours` 第 **34/210** 段，Aṅguttara Nikāya 4.39 Ujjayasutta 巴利原文 → 繁中直譯，涵蓋 Ujjaya 婆羅門問世尊是否讚歎祭祀、世尊答「sārambha（帶殺害）之祭祀不讚歎、nirārambha（無殺害）之祭祀讚歎即常施與隨順祭祀」之雙層判準、偈頌四首譯出馬祭人祭 sammāpāsa vājapeyya niraggaḷa 等吠陀祭祀不生大果、無殺害之祭大仙親往、智者應行此祭 devatā 歡喜、yañña / sārambha / nirārambha / niccadāna / anukulayañña / arahant / arahattamagga / devatā 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 34 平行派發 `(1525 chars)` 進行中，chat 那段不會被採用）。
+- **未寫盤說明**：`translations/an4-fours/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與 13:58 快照時狀態相同；前 33 段譯文仍在 supervisor buffer，chunk 34 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 39 | an4.39 ===` 起，至「第九。」，含優陀夷婆羅門問答、偈頌四首翻譯、Navamaṁ 收尾），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換 + 失敗清單與阻塞清單調整）+ `00-overview/PROGRESS.json`（佛教 +1）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已在 `an4-fours` translate chunk **34/210** retry 中（`retry_attempt=0`，`(1525 chars)` 階段），並行派發 `augustine-confessiones-la` chunk **87/178**；**不要直接編輯 `translations/an4-fours/01-translation.md` 或 `translations/augustine-confessiones-la/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5H 額度 35%**（新窗將於 18:00 reset，~1 分鐘後），週額度 **9%** 極低（剩 7% usable，**已近週 reserve 邊緣**）；若 supervisor 撞週 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **1 部** — sibylline-oracles-el（augustine-confessiones-la 已從清單移除）。
+  4. `已阻塞待人工處理` **32 部**（+1，可能含 an4-fours 上游 P0 之一或核心 catalog 待源確認項）；清單需查 `logs/pipeline-failed.json` 與 `00-overview/core-manifest.md` 對齊。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-19 13:58 快照（an10-tens 翻譯+標籤全 B+C 收尾、augustine-confessiones-la chunk 48/178 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**三筆變更**：
