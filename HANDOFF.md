@@ -3,6 +3,24 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-24 12:03 快照（ovid-metamorphoses-la chunk 55/186 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、5H 窗 13:00 reset，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**一筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-19 17:41:04` → **`2026-08-24 11:13:07`**、`目前處理` `an4-fours` → **`ovid-metamorphoses-la`**、`已阻塞待人工處理` 32 → **33 部**（+1）、`M3 執行狀態` `an4-fours (translate)` → **`ovid-metamorphoses-la (translate)`** running；`進度` 仍 **223/518**、`一般失敗待重試` 仍 **1 部 — sibylline-oracles-el**
+- 期間（2026-08-19 18:03 → 2026-08-24 12:03 ~4.75 天）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - **ovid-metamorphoses-la** 從 core-manifest 接手：`resumed_by=quota-watch-resume.py`、log tail 確認 chunks 47→55 接力派發（chunk 55 `(3000 chars)` 即本 session 主翻譯，平行的 chunk 53/186 同步在 supervisor 上運作）。
+  - 過去幾日多 5H 窗切換期間應已觸發多次 `checkpoint hit` replay，但 supervisor log tail 僅顯示近期 chunks；本 session 進入時 `ovid-metamorphoses-la` 已在執行中，前 54 段譯文應已在 buffer 或落地（`translations/ovid-metamorphoses-la/01-translation.md` 仍未建立於 working tree）。
+- 配額（`logs/pipeline-runtime.json` 12:03 附近刷新）：5h 額度 **26%**（剩餘，留 5% reserve = **21% 實際可用**）；週額度 **92%**（剩 90% usable，留 2% reserve = **88% 實際可用**）；`pause_reason: null`（未暫停）；resets 2026-08-24 **13:00**（5H 下一窗，**約 57 分鐘後**）/ 2026-08-31 **08:00**（週窗 reset）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`ovid-metamorphoses-la` 第 **55/186** 段，Ovid《變形記》卷九 268-335 拉丁 Wikisource 通行本 → 繁中直譯，涵蓋 Tirynthius（赫拉克勒斯）脫去凡人肢體轉化為星辰 / Iuppiter 以四馬車攜其至天上 / Atlas 感覺新承重 / 歐律斯透斯仇恨未消 / Argolis 人 Alcmene 長久憂慮不知向誰訴苦 / 擁有 Iolen 為 Hyllus 之妻並懷其種 / Alcmene 對 Iole 述說分娩赫拉克勒斯之苦（第十星座壓迫、腹中重擔猶如 Iuppiter 宮殿之重量、七夜七日呼叫 Lucina 與 Nixi、被預先收買之神祇坐在祭壇以右膝壓左膝十指如梳阻止分娩、無聲咒語令已開始之分娩停滯、瘋狂辱罵忘恩之 Iuppiter 願死、Cadmeïdes 之女在場鼓勵）/ Galanthis（金髮平民女侍）察覺 Iuno 不義、屢次進出門戶窺見女神坐祭壇十指相扣、謊報「Argolis 的 Alcmene 已獲解脫」Iuno 受騙驚跳鬆手束縛解 / 殘酷女神捉住嘲笑之 Galanthis 抓髮拖去阻止其離地先化手臂為腳 / 形貌迥異背未失色 / 因謊言之口助產便以口產子常訪我家 / 說畢為古老女侍提醒而歎 / 媳婦安慰「妳啊母親為我族人血脈所奪之異面容所動、若將姊妹奇異命運告訴妳又當如何、淚水與悲傷阻礙言語、她是母親獨生之女我乃父親與他人所生、Oechalidum 中最著名美貌 Dryope、喪失貞操承受掌管 Delphi 與 Delos 神的力量後 Andraemon 接納她以夫婿之位被視為幸福、有一湖坡上有陡峭之海…」末段截斷；Tirynthius / Iuppiter / Atlas / Stheneleïus / Argolis / Alcmene / Iolen / Hyllus / Ilithyia / Iuno / Lucina / Nixi / Cadmeïdes / Galanthis / Oechalidum / Dryope / Delphi / Delos / Andraemon 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 55 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/ovid-metamorphoses-la/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與 2026-08-19 18:03 快照時狀態相同；前 54 段譯文仍在 supervisor buffer，chunk 55 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 55 | ===` 起，至「…有一湖，坡上有陡峭之海…」（原 `est lacus, adclivis devexo mar` 截斷處）），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換 + 阻塞清單 +1）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已在 `ovid-metamorphoses-la` translate chunk **55/186** 進行中（`retry_attempt=0`，`(3000 chars)` 階段），並行派發 chunk **53/186**；**不要直接編輯 `translations/ovid-metamorphoses-la/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5H 額度 26%**（5H 下一 reset 2026-08-24 **13:00**，約 57 分鐘後），週額度 92%（剩 88% usable）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **1 部** — sibylline-oracles-el。
+  4. `已阻塞待人工處理` **33 部**（+1，新成員需查 `logs/pipeline-failed.json` 與 `00-overview/core-manifest.md` 對齊）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-19 18:03 快照（an4-fours translate 接力中 chunk 34/210 m3 翻譯 stdout-only、augustine-confessiones-la chunks 48→87 接力、an10-tens 全收尾後佛教+1 翻譯完成、PIPELINE_STATUS/PROGRESS auto-regen，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
