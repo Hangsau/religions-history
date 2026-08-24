@@ -48,5 +48,15 @@
     "shamrock",
     "blessing"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "aging-time",
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+  ],
+  "psych_tag_status": "done"
 }

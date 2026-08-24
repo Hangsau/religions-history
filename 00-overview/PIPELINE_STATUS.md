@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-24 21:12:52 +0800
+- 更新時間：2026-08-25 04:05:38 +0800
 - 佇列 tier：**核心**
-- 進度：**224 / 518** 已翻譯+標籤
-- 目前處理：`ovid-metamorphoses-la`
+- 進度：**226 / 518** 已翻譯+標籤
+- 目前處理：`(本輪完成)`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：3 部 — sibylline-oracles-el, ovid-metamorphoses-la, huangdi-neijing
-- 已阻塞待人工處理：33 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `carmina-gadelica-2` (translate)
+- 一般失敗待重試：2 部 — sibylline-oracles-el, huangdi-neijing
+- 已阻塞待人工處理：34 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
+- M3 執行狀態：**running** — `chandogya-upanishad` (translate)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
