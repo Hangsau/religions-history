@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-24 21:15 快照（carmina-gadelica-2 chunk 114/231 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、PROGRESS.json 道教.with_translation +1，stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-24 14:50:56` → **`2026-08-24 21:12:52`**、`目前處理` `(本輪完成)` → **`ovid-metamorphoses-la`**、`M3 執行狀態` `ovid-metamorphoses-la (translate)` → **`carmina-gadelica-2 (translate)`** running；`進度` 仍 **224/518**、`一般失敗待重試` 仍 **3 部 — sibylline-oracles-el, ovid-metamorphoses-la, huangdi-neijing`、`已阻塞待人工處理` 仍 **33 部**
+  - `00-overview/PROGRESS.json`：`道教.with_translation` 9 → **10**（+1，由 supervisor 14:49:06 觸發 auto-regen；PIPELINE_STATUS 21:12:53 重新生成時未再次觸發 PROGRESS.json 變更；具體落地 slug 待 supervisor log 對齊）
+- 期間（2026-08-24 12:03 → 2026-08-24 21:15 ~9 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - **ovid-metamorphoses-la** chunks 55→131 接力派發：12:03 快照時 chunk 55 `(3000 chars)` retry 中，本輪 supervisor 推進至 **chunk 131/186**（runtime.json 21:15:36 顯示 `slug=ovid-metamorphoses-la chunk=131 retry_attempt=0 failure_code=null`，正常運作）；chunks 56→130 多數應為 `checkpoint hit` 接力 replay（log tail 確認）。
+  - **carmina-gadelica-2** chunk 114/231 派發至本 session 主翻譯：runtime.json 21:12:48 detected、21:12:50 resumed by `quota-watch-resume.py`、21:12:53 supervisor 切換 PIPELINE_STATUS 標記 M3 running；chunk 114 已完成 stdout 翻譯但 supervisor 寫盤流程繼續運作中（chunk 114 完成後 supervisor 已切回 ovid-metamorphoses-la chunk 131，carmina-gadelica-2 後續 chunks 115→231 接力需待下一輪 resume）。
+  - **道藏**某 slug（推測為 dao-zang 入口或 `dao-de-jing` 等 P0）落地 `01-translation.md` 完成 `translation_status: done`，auto-regen 觸發 PROGRESS.json 道教 +1。
+- 配額（`logs/pipeline-runtime.json` 21:15:36 刷新）：5H 額度 **34%**（剩餘，較 12:03 的 26% 上升 8%，新窗已於 18:00 reset 進入；留 5% reserve = **29% 實際可用**）；週額度 **75%**（剩 73% usable，留 2% reserve = **71% 實際可用**）；`pause_reason: null`（未暫停）；resets 2026-08-24 **23:00**（5H 下一窗，**約 1 小時 45 分鐘後**）/ 2026-08-31 **08:00**（週窗 reset）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`carmina-gadelica-2` 第 **114/231** 段，Carmichael 1900《Carmina Gadelica Vol 2》凱爾特民俗故事與詩歌選集 → 繁中直譯，涵蓋 Domhull Dubh Mor 冒犯聖布倫丹在田間犁地魔法迷霧連降三次、悔罪呼求「A Bhrianain! a Bhrianain! Eisd ri mo bhriathran, A dheoin Dhia 's a mhiann dhaoine, Tog dhiom an ceo」蓋爾語詩歌、迷霧散去小馬與犁恢復原貌 Domhull 從精靈矮小恢復人形、鄰人嘲諷最親者責備、其妻暗誦「My loving dark-haired one, Let sharp tongues assail thee…」英語民謠讚美真愛、向神父求聖母哀傷之聖母份上灑聖水解布倫丹詛咒、神父責備後仍灑平安之水勸施捨悔罪、長段蓋爾語詩歌（Chunna Brianain Domhull Dubh...）述布倫丹責備 Domhull 罪惡地神子之家中其價甚小、貢物幼羊彎犁收割牧草馬匹寶物牛群皆不能避死亡之日、布倫丹之眼注視雲中遮蔽獵犬之劍追尋於罪人苦痛之屋、放棄背叛者詭詐放棄過失謊言以神殿為依靠、悔罪者放棄邪惡回到神子避難之屋於祭壇上棄絕己名天上天使歡欣；Domhull Dubh / Brendan / Brianain / Mhic De / Cadmeïdes 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 114 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/carmina-gadelica-2/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與 12:03 快照時狀態相同；前 113 段譯文仍在 supervisor buffer，chunk 114 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 114 | Domhull Dubh Mor 與聖布倫丹 ===` 起，至詩誦末行「天上天使充滿歡欣與喜樂。」+ 末尾「布倫丹」署名），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換）+ `00-overview/PROGRESS.json`（道教 +1）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已在 `ovid-metamorphoses-la` translate chunk **131/186** 進行中（`retry_attempt=0`，正常運作），`carmina-gadelica-2` chunk 114 寫盤中；**不要直接編輯 `translations/ovid-metamorphoses-la/01-translation.md` 或 `translations/carmina-gadelica-2/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5H 額度 34%**（5H 下一 reset 2026-08-24 **23:00**，~1 小時 45 分鐘後），週額度 75%（剩 71% usable）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, ovid-metamorphoses-la, huangdi-neijing。
+  4. `已阻塞待人工處理` **33 部**不變（清單見 `logs/pipeline-failed.json`）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-24 12:03 快照（ovid-metamorphoses-la chunk 55/186 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、5H 窗 13:00 reset，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**一筆 auto-regen 變更**：
