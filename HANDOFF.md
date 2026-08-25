@@ -3,6 +3,25 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-26 06:05 快照（markandeya-purana chunk 40/173 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen only、PROGRESS.json 無變更、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹**僅一筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-26 01:52:29` → **`2026-08-26 06:01:47`**、`一般失敗待重試` 3 → **4 部 — sibylline-oracles-el, huangdi-neijing, markandeya-purana, njals-saga-on**（+1 `njals-saga-on` 為 supervisor 期間新進場失敗）；其餘欄位不變（`進度` 仍 227/518、`目前處理` `markandeya-purana`、`已阻塞待人工處理` 35 部）。
+- 期間（2026-08-26 02:00 → 2026-08-26 06:05 ~4 小時，跨 5H 窗 reset 04:00）supervisor 動態（`logs/pipeline-runtime.json` 06:05:34 + `logs/supervisor-run.log`）：
+  - **markandeya-purana** chunks 11→39 全為 `checkpoint hit` 快速接力（前次 session 已部分落地、supervisor replay 走快速路徑，無實際重翻譯）；chunk **40/173** 派發至本 session 主翻譯，runtime 顯示 `retry_attempt=2`、`failure_code=null`、`last_error=null`，仍在 supervisor 接力派發中（06:05:34 dispatch 仍在）。
+  - **njals-saga-on** supervisor 期間新進場失敗（推測為前次 commit 時 chunk 35 派發後續 chunks 落地的 quota / schema 問題），已入列 `一般失敗待重試`，對應 PIPELINE_STATUS +1。
+  - 無 `01-translation.md` 落地觸發 PROGRESS.json 變更 → `with_translation` 仍 227、`with_semantic_tags` 仍 68。
+- 配額（`logs/pipeline-runtime.json` 06:05:34 刷新）：5H 額度 **57%** 剩餘（新窗已於 04:00 reset 進入；留 5% reserve = **52% 實際可用**）；週額度 **17%** 剩餘（留 2% reserve = **15% 實際可用**，本週窗已偏低）；`pause_reason: null`（未暫停）；resets 2026-08-26 **08:00**（5H 下一窗，**約 2 小時後**）/ 2026-08-31 **08:00**（週窗 reset）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`markandeya-purana` 第 **40/173** 段，《Markandeya Purana》GRETIL 校勘電子版第十五章末 15.61–15.81（法 / 因陀羅 引王入天界、王以悲憫拒絕並求以福德解地獄罪人、Dharma 喻大海水滴星辰雨滴恆河沙喻王福德無量、Indra 述王悲憫達百千之數、王子述花雨降王 Hari 扶登天車引至天界、業果既定往生他處、二族最勝述地獄各罪業報依何罪得何種生、古來經驗智無誤大吉祥更何言、第十五章「父子對論」終）+ 第十六章 16.1–16.4（父言輪迴確立難知如陶輪機無盡問當作何事、子言捨在家法修林居法、如法修行捨火供養護於自性安置自我離二邊無所執著獨處而食自性調伏當成乞士 - 截斷）；Dharma / Śakra / vimāna / Śacīpati / amara-ālaya / Hari / dvijasattama / mahābhāga / gārhasthya / vānaprastha / nirdvandva / niṣparigraha / bhikṣu 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 40 retry 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/markandeya-purana/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與 02:00 快照時狀態相同；前 39 段譯文由 checkpoint hit 接力、chunk 40 進行中 retry_attempt=2）。chat 內已產生該段完整 markdown 譯文（從 `=== 40 | MarkP_15.61–16.4 ===` 起，至「…獨處而食，自性調伏，當成乞士（bhikṣu）…」（原 `bhava bhikṣu` 截斷處）），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + 失敗清單 njals-saga-on 加入）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `markandeya-purana` translate chunk **40/173** 進行中（`retry_attempt=2`，06:05:34 dispatch），njals-saga-on 入列 retry；**不要直接編輯 `translations/markandeya-purana/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5H 額度 57%**（5H 下一 reset 2026-08-26 **08:00**，~2 小時後），**週額度 17%**（剩 15% usable，本週偏低）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **4 部** — sibylline-oracles-el, huangdi-neijing, markandeya-purana, njals-saga-on（njals-saga-on 為本輪新進場）。
+  4. `已阻塞待人工處理` **35 部**不變（清單見 `logs/pipeline-failed.json`）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-26 02:00 快照（markandeya-purana chunk 26/173 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、PROGRESS.json with_translation +1 / with_semantic_tags +1、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
