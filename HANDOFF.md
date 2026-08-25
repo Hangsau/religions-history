@@ -3,6 +3,28 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-26 02:00 快照（markandeya-purana chunk 26/173 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、PROGRESS.json with_translation +1 / with_semantic_tags +1、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-26 00:06:20` → **`2026-08-26 01:52:29`**、`目前處理` `(本輪完成)` → **`markandeya-purana`**、`進度` 226 → **227/518**（+1）、`一般失敗待重試` 2 → **3 部 — sibylline-oracles-el, huangdi-neijing, markandeya-purana**（markandeya 從前次 session 標記入列 retry，當前 supervisor 已正常接力 chunk 26）、`已阻塞待人工處理` 35 部（清單不變）、`M3 執行狀態` running — `markandeya-purana` (translate)
+  - `00-overview/PROGRESS.json`：`with_translation` 40 → **41**（+1，具體 slug 待 supervisor log 對齊）、`with_semantic_tags` 68 → **69**（+1）；皆由 supervisor 落地 `01-translation.md` 後 auto-regen 觸發。
+- 期間（2026-08-25 10:05 → 2026-08-26 02:00 ~16 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - **chandogya-upanishad** chunks 109 → 完成後從 PIPELINE_STATUS `目前處理` 移除（清單 `一般失敗待重試` 中 chandogya-upanishad 已於本輪移除）。
+  - **ovid-metamorphoses-la** 全 186 chunks 收尾後從 active 清單移除（推測，與 `with_translation +1` 對應）。
+  - **njals-saga-on** 接力上陣：chunks 1 → **35/244** 派發中（`pipeline-runtime.json` 02:01:15 刷新顯示當前 chunk 35 retry_attempt=0 failure_code=null）；本輪新進場。
+  - **markandeya-purana** chunks 1 → 24 為 `checkpoint hit`（前次 session 已部分落地、supervisor replay 快速路徑）、chunk 25 派發、chunk **26/173** 派發至本 session 主翻譯（3000 chars，markandeya 從 retry 清單接力當前未完成）；log 顯示 `[model] MiniMax-M3 (primary)` 派工。
+  - **某 slug 落地 `01-translation.md` + 標籤完成**觸發 `with_translation +1` + `with_semantic_tags +1`（具體 slug 待 supervisor log 對齊，推測為 P0 核心之一）。
+- 配額（`logs/pipeline-runtime.json` 02:01:15 刷新）：5H 額度 **35%**（剩餘，較 2026-08-25 10:05 的 63% 下降 28%，本窗重負荷使用中；留 5% reserve = **30% 實際可用**）；週額度 **24%**（剩餘，較 10:05 的 52% 下降 28%；留 2% reserve = **22% 實際可用**）；`pause_reason: null`（未暫停）；resets 2026-08-26 **04:00**（5H 下一窗，**約 2 小時後**）/ 2026-08-31 **08:00**（週窗 reset）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`markandeya-purana` 第 **26/173** 段，《Markandeya Purana》GRETIL 校勘電子版含 1-93 章梵文 → 繁中直譯，涵蓋第八章末 8.267-8.270（rājasūya 王祭業報是毀滅大地的原因，其因緣是 āḍi 青蛙與 baka 蒼鷺之間的大戰）+ 第八章結尾偈 + 第九章 9.1-9.23（Vaśiṣṭha 怒責 Viśvāmitra 對 Harishchandra 所做所為，二人大怒互咒「你將成為 āḍi / 你將成為 baka」墮畜生道，雖獲不同身形仍交戰，āḍi 身高兩千由旬、baka 達三千由旬比那多出九十，雙方翅膀攻擊擊打彼此寬闊胸脯、翅膀風使山自天空墜落於地、大地震動使海水翻湧大地一側傾斜欲通往 Pātāla、世界陷入恐懼發出「啊」之悲鳴、眾生驚呼「孩子啊愛人啊嬰兒啊山要墜落了快逃吧」、被諸天環繞的 pitāmaha 前來勸阻但雙方帶著憤怒與不滿仍欲戰 - 截斷）；svarga / Indra / Harishchandra / purohita / Vaśiṣṭha / Viśvāmitra / caṇḍāla / baka / āḍi / Kauśika / Pātāla / pitāmaha / Brahmā 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 26 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/markandeya-purana/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與前次 session 狀態相同；前 25 段譯文由 checkpoint hit 接力、chunk 26 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 第八章末 ===` 起，至「他們兩位聽著無形出生的 Brahmā（梵天）之語，帶著憤怒與不滿，欲……」（原 `yuyu` 截斷處）），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換 + 進度 +1 + 失敗清單 markandeya-purana 加入）+ `00-overview/PROGRESS.json`（with_translation +1 / with_semantic_tags +1）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已在 `njals-saga-on` translate chunks **35/244** 進行中（`retry_attempt=0`，`(2186 chars)` 階段），markandeya-purana chunk 26/173 同步落地中；**不要直接編輯 `translations/njals-saga-on/01-translation.md` 或 `translations/markandeya-purana/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5H 額度 35%**（5H 下一 reset 2026-08-26 **04:00**，~2 小時後），週額度 24%（剩 22% usable）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, markandeya-purana（markandeya 當前正常運行，可於下輪 auto-regen 移除）。
+  4. `已阻塞待人工處理` **35 部**（清單不變）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-25 10:05 快照（chandogya-upanishad chunk 109/168 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、PROGRESS.json 凱爾特.with_translation +1 / 道教.with_translation +1、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更 + 1 個殘留 .tmp/**：
