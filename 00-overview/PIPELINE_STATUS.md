@@ -2,12 +2,12 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-25 04:05:38 +0800
+- 更新時間：2026-08-25 12:02:21 +0800
 - 佇列 tier：**核心**
 - 進度：**226 / 518** 已翻譯+標籤
-- 目前處理：`(本輪完成)`
+- 目前處理：`chandogya-upanishad`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：2 部 — sibylline-oracles-el, huangdi-neijing
+- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, chandogya-upanishad
 - 已阻塞待人工處理：34 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
 - M3 執行狀態：**running** — `chandogya-upanishad` (translate)
 

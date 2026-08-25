@@ -3,6 +3,27 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-25 10:05 快照（chandogya-upanishad chunk 109/168 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、PROGRESS.json 凱爾特.with_translation +1 / 道教.with_translation +1、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更 + 1 個殘留 .tmp/**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-24 21:12:52` → **`2026-08-25 10:02:12`**、`目前處理` `ovid-metamorphoses-la` → **`chandogya-upanishad`**、`進度` 224 → **226/518**、`一般失敗待重試` 2 → **3 部 — sibylline-oracles-el, huangdi-neijing, chandogya-upanishad**（chandogya 為前次 session 標記，當前 supervisor 已正常接力）、`已阻塞待人工處理` 33 → **34 部**（+1，chandogya-upanishad 從清單外加入）、`M3 執行狀態` running
+  - `00-overview/PROGRESS.json`：`凱爾特.with_translation` 3 → **4**（+1）、`道教.with_translation` 10 → **11**（+1）；皆由 supervisor 落地 `01-translation.md` 後 auto-regen 觸發
+  - `.tmp/`（未追蹤）：chandogya-upanishad chunk 88/89 m3 翻�殘留物（prompt 11356/11450 bytes + 0-byte output/stderr，2026-08-25 08:04/08:08 產生），係前次 session �試 stdout-only 翻譯未寫盤後遺留；**已 rm 清除**（不進 git，符合目錄清潔規則）。
+- 期間（2026-08-24 21:15 → 2026-08-25 10:05 ~13 小時）supervisor 動態（`logs/supervisor-run.log` + `logs/pipeline-runtime.json`）：
+  - **ovid-metamorphoses-la** chunks 131→186 接力至收尾（具體 chunk 落地進度待 `translations/ovid-metamorphoses-la/01-translation.md` 確認；PIPELINE_STATUS `進度` 224→226 反映 +2 翻譯落地）；該 slug 從 PIPELINE_STATUS `目前處理` 移除，標記完成。
+  - **chandogya-upanishad** 接手：chunks 1→104 大量 `checkpoint hit`（已在前次 session 部分落地、supervisor replay 走快速路徑），chunk 105/109 為當前派發的 m3 翻� chunk。supervisor-run.log 末尾顯示 `[chunk 105/168] chandogya-upanishad (translate)  (3000 chars)` 與 `[chunk 109/168] chandogya-upanishad (translate)  (3000 chars)`，兩 chunk 平行派發。
+  - **道教 +1**、**凱爾特 +1** 對應 slug 待對 supervisor log 對齊（推測為 `dao-zang` 入口或 P0 道藏經某部 / 凱爾特 taliesin-welsh 或 mabinogion 等核心）。
+- 配額（`logs/pipeline-runtime.json` 10:03:22 刷新）：5H 額度 **63%**（剩餘，較 2026-08-24 21:15 的 34% 上升 29%，新窗已於 2026-08-25 08:00 reset 進入；留 5% reserve = **58% 實際可用**）；週額度 **52%**（剩餘，較 21:15 的 75% 下降 23%；留 2% reserve = **50% 實際可用**）；`pause_reason: null`（未暫停）；resets 2026-08-25 **13:00**（5H 下一窗，**約 2 小時 55 分鐘後**）/ 2026-08-31 **08:00**（週窗 reset）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`chandogya-upanishad` 第 **109/168** 段，《Chāndogya Upaniṣad》GRETIL 標準版含 Śaṅkarabhāṣya 梵文 → 繁中直譯，涵蓋 6.4.5 古時大居士大聞者（mahāśāla / mahāśrotriya）知此（Brahman 梵）者宣說「無人將宣說未聞未思未知之事」因彼等已如是知此；6.4.6,7 顯現紅白黑者分別為 tejas（火）/ āpas（水）/ anna（食）/ 此等諸天（devatā）集合的形相、嗚呼柔善者（Somya）三天入人身各各成為三重三重請汝知此；6.5.1 所食之物（annaṃ）分為三分、最粗重者糞、中者肉、最細者 manas（心）；對應 Śaṅkarabhāṣya 各段釋論含胃火消化三分、最細部分上行至心（hṛdaya）進入 hita 細脈產生語等根門住持變成 manas、由此知 manas 為物質性非如勝論派（vaiśeṣika）經典所說常恆無部分、又此 manas 為「天眼」（daivaṃ cakṣuḥ）非就常恆而言而是就微細隔越遠離等一切根境之周遍而言末段截斷。Brahman / mahāśāla / mahāśrotriya / tejas / āpas / anna / devatā / Somya / manas / hṛdaya / vaiśeṣika / daivaṃ cakṣuḥ 名相首見加中文對應）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 109 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/chandogya-upanishad/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與前次 session 狀態相同；前 108 段譯文仍在 supervisor buffer，chunk 105/109 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 109 | 唱讚奧義書 第六篇 第四章 5–7 節 + 第五章 1 節 ===` 起，至「…又就其他根境之常�而言，此亦……」（原 `yaccānyendriyaviṣayāpekṣayā nityatvaṃ tad api` 截斷處）），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（3 檔 + 1 刪除）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換 + 進度 +2 + 失敗/阻塞清單調整）+ `00-overview/PROGRESS.json`（凱爾特 +1、道教 +1）+ 本 HANDOFF 快照 + `.tmp/` 刪除（不進 git） — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 已在 `chandogya-upanishad` translate chunks **105**、**109/168** 進行中（`retry_attempt=1`，`(3000 chars)` 階段），前 108 段為 `checkpoint hit` 快速接力；**不要直接編輯 `translations/chandogya-upanishad/01-translation.md`**（supervisor 寫盤中），內容以 supervisor 接力落地為準。
+  2. **5H 額度 63%**（5H 下一 reset 2026-08-25 **13:00**，~2 小時 55 分鐘後），週額度 52%（剩 50% usable）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, chandogya-upanishad（chandogya 當前正常運行，可於下輪 auto-regen 移除）。
+  4. `已阻塞待人工處理` **34 部**（+1，chandogya-upanishad 新入列）不變（清單見 `logs/pipeline-failed.json`）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-24 21:15 快照（carmina-gadelica-2 chunk 114/231 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen、PROGRESS.json 道教.with_translation +1，stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有**兩筆 auto-regen 變更**：
