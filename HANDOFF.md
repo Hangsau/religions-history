@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-26 08:01 快照（njals-saga-on chunk 115/244 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen only、PROGRESS.json 無變更、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹**僅一筆 auto-regen 變更**：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-26 06:05:33` → **`2026-08-26 07:55:47`**、`目前處理` `markandeya-purana` → **`njals-saga-on`**、`進度` 仍 **227/518**（無 01-translation.md 落地）、`一般失敗待重試` 4 → **3 部 — sibylline-oracles-el, huangdi-neijing, njals-saga-on**（markandeya-purana 因達 attempts=4 上限從 retry 轉入 block 清單）、`已阻塞待人工處理` 35 → **36 部**（+1 markandeya-purana）、`M3 執行狀態` running — `markandeya-purana` (translate)
+- 期間（2026-08-26 06:05 → 2026-08-26 08:01 ~2 小時，剛跨 5H 窗 reset 08:00）supervisor 動態（`logs/pipeline-runtime.json` 08:01:26 + `logs/supervisor-run.log` + `logs/pipeline-failed.json`）：
+  - **njals-saga-on** chunks 36 → 110 為 `checkpoint hit`（前次 session 已部分落地、supervisor replay 走快速路徑，無實際重翻譯）；chunks 111 → **115/244** 派發至 m3（chunk 115 為本 session 主翻譯 2078 chars）；njals-saga-on 仍於 retry 清單（attempts=2、`last_failed_at` 2026-08-25T22:46:04 UTC、`error_code` contaminated_output、`last_error` "chunk 111: HANDOFF.md"）。
+  - **markandeya-purana** chunks 104/173 + 105/173 派發 m3 翻譯（3000 chars × 2）；runtime 顯示當前 chunk 105 進行中（08:01:26 dispatch，`retry_attempt=0`）；同步 `logs/pipeline-failed.json` 顯示 markandeya-purana `last_failed_at` 2026-08-25T23:55:47 UTC、`attempts=4`、`status=blocked`、`error_code` contaminated_output、`last_error` "chunk 81: auto-pipeline" → 已從 retry 轉入 block 清單（+1）；`M3 執行狀態` 與 fail log 短暫不一致（status 列為 running、fail 記錄為 blocked），推測 supervisor 於 quota reset 後接力重試第 5 次。
+  - 無 `01-translation.md` 落地觸發 PROGRESS.json 變更 → `with_translation` 仍 227、`with_semantic_tags` 仍 68（PROGRESS.json 最後修改 04:03）。
+  - 無 `01-translation.md` 落地觸發 PROGRESS.json 變更 → `with_translation` 仍 227、`with_semantic_tags` 仍 68（PROGRESS.json 最後修改 04:03）。
+- 配額（`logs/pipeline-runtime.json` 08:01:26 刷新）：5H 額度 **99%** 剩餘（剛於 08:00 reset，留 5% reserve = **94% 實際可用**）；週額度 **13%** 剩餘（留 2% reserve = **11% 實際可用**，本週偏低）；`pause_reason: null`（未暫停）；resets 2026-08-26 **13:00**（5H 下一窗，**約 5 小時後**）/ 2026-08-31 **08:00**（週窗 reset）。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`njals-saga-on` 第 **115/244** 段，《Njáls Saga》第 85 章古諾斯語原文 is.wikisource 校訂本，涵蓋 Sigurður 伯爵統治奧克尼、Kári 邀尼亞爾之子同赴赫羅斯島、Kári 介紹戰功勳請主上收為家臣、伯爵應允、Helgi 沉默引出蘇格蘭人殺執法官撤哨衛渡佩特蘭海峽、伯爵問預言者否 Helgi 答尚未驗證、Kári 證其父為預言者、伯爵派執法官 Arnljótr 南下斯特勞姆島、Arnljótr 渡海峽巡哨查得 Hundi 伯爵與 Melsnati 伯爵殺斯拉斯維克的 Hávarðr——Sigurður 伯爵內弟、Arnljótr 傳話 Sigurður 伯爵率大軍南下逐兩伯爵、伯爵接報立即於群島間集結大軍）；Orkney、Suðureyjar（赫布里底）、Hrossey、Skotlandsfjörðr、Dungalsbær、Pettlandsfjörðr（佩特蘭海峽）、Straumey、Þrasvík、默勒（Mæri）地名首見加中文對應；Sigurður、Kári、Helgi、Hlöðvir、Þorfinnr hausakljúfr、Torf-Einarr、Rögnvaldr、Eysteinn glumra、Gilla、Moldan、Arnljótr、Hundi、Melsnati、Hávarðr 人名首見保留古諾斯語形式 + 中文音譯（除 Njáll 採定型漢譯「尼亞爾」）。已按 prompt 規定**僅 stdout 輸出翻譯、未寫盤**（supervisor chunk 115 寫盤中,chat 那段不會被採用）。
+- **未寫盤說明**：`translations/njals-saga-on/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與前次 session 狀態相同；前 114 段由 checkpoint hit 接力、chunk 115 進行中）。chat 內已產生該段完整 markdown 譯文（從 `=== 85 | 85 ===` 起，至「…立即在群島之間集結大軍。」），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + slug 切換至 njals-saga-on + 一般失敗清單 markandeya-purana 移除 + 已阻塞 +1 markandeya-purana）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `markandeya-purana` translate chunks **105/173** 進行中（08:01:26 dispatch，`retry_attempt=0`），njals-saga-on 已從 retry 轉入**已阻塞待人工處理**（36 部）；**不要直接編輯 `translations/markandeya-purana/01-translation.md`**（supervisor 寫盤中），njals-saga-on 當前在 block list（先查 `logs/pipeline-failed.json` 確認失敗根因再決定是否從 block 移回 retry）。
+  2. **5H 額度 99%**（5H 下一 reset 2026-08-26 **13:00**，~5 小時後），**週額度 13%**（剩 11% usable，本週偏低）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, njals-saga-on（njals-saga-on 已於本輪從 retry 移入 block 清單，本欄數字將於下輪 auto-regen 同步）。
+  4. `已阻塞待人工處理` **36 部**（+1 njals-saga-on，清單見 `logs/pipeline-failed.json`）。
+  5. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-26 06:05 快照（markandeya-purana chunk 40/173 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen only、PROGRESS.json 無變更、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹**僅一筆 auto-regen 變更**：
