@@ -2,12 +2,12 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-08-26 09:54:49 +0800
+- 更新時間：2026-08-26 11:29:14 +0800
 - 佇列 tier：**核心**
 - 進度：**227 / 518** 已翻譯+標籤
-- 目前處理：`aristotle-nicomachean-ethics-el`
+- 目前處理：`njals-saga-on`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, njals-saga-on
+- 一般失敗待重試：4 部 — sibylline-oracles-el, huangdi-neijing, njals-saga-on, aristotle-nicomachean-ethics-el
 - 已阻塞待人工處理：36 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
 - M3 執行狀態：**running** — `njals-saga-on` (translate)
 
