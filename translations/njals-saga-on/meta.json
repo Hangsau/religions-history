@@ -21,5 +21,7 @@
   "tier": "核心",
   "notes": "《尼雅爾薩迦》(焚燒尼雅爾)古諾斯語原文，冰島最長最著名家族薩迦，法律與血仇的宏篇。is.wikisource 逐章子頁自動探索。heimskringla.no 未收古諾斯語全文，改由 is.wikisource 補。",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3"
 }

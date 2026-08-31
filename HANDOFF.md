@@ -3,6 +3,28 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-31 08:00 快照（njals-saga-on 翻譯落地 commit + m3 tagger chunk 1/116 stdout-only、PIPELINE_STATUS auto-regen、M3 tag 階段啟動、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有三筆變更（前次 supervisor 翻譯落地後未及 commit）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-26 11:29:14` → **`2026-08-31 08:00:17`**（跨 5 天首次刷新）、`進度` 仍 **227/518**（`01-translation.md` 落地未觸發 PROGRESS.json 增量，與 meta.json `translation_status: done` 短暫不一致，待 supervisor 下次 PROGRESS 重算）、`一般失敗待重試` 4 → **5 部 — sibylline-oracles-el, huangdi-neijing, njals-saga-on, aristotle-nicomachean-ethics-el, nihon-shoki-zh**（+1 `nihon-shoki-zh` 為 5 天內 supervisor 新進場失敗）、`已阻塞待人工處理` 36 部不變、`M3 執行狀態` running — `njals-saga-on` **(translate) → (tag)**（翻譯階段結束、進入語義標籤階段）
+  - `translations/njals-saga-on/meta.json`：新增 `translation_status: done` + `translation_models: MiniMax-M3`（supervisor 於 2026-08-26 13:19 落地翻譯後回填狀態欄位）
+  - `translations/njals-saga-on/01-translation.md`（new, **599062 bytes / 232 段**，saga 全本 159 章對齊翻譯完成，從 `=== 1 | 1 ===` 莫爾德吉雅 / 赫斯克爾德兄弟介紹，至 `=== 159 | 159 ===` Kári 與 Hildigunnr 後裔 + Flosi 航海失蹤 + 「我們在此結束《Brennu-Njáls saga》」；Flosi 教皇赦罪、Kári 渡英格蘭繞北抵 Caithness、Skeggi 商船、冰島 Ingólfshöfði 撞碎、人員獲救、Flosi 老年挪威取碗木出海失蹤等末段情節皆完整）
+- 期間（2026-08-26 11:30 → 2026-08-31 08:00 ~5 天，**跨 6 個 5H 窗 + 1 個週窗 08-31 08:00 reset**）supervisor 動態（`logs/pipeline-runtime.json` + `logs/supervisor-run.log` + `logs/pipeline-failed.json`）：
+  - **njals-saga-on** chunks 116 → 244 派發 m3 翻譯（chunk 115 前已完成，本 session 接手前 supervisor 已落地餘下 128 段；attempts=3 → 最終落地，未觸發 4th retry）；`logs/pipeline-failed.json` 仍記錄 `status: retryable`、`attempts= 3`、`last_failed_at: 2026-08-26T01:54:49 UTC`、`error_code: invalid_output`、`last_error: chunk 176 failed output validation`（fail log 未與成功落地同步更新，下輪 supervisor 需手動清除或 supervisor 自行 reconcile）。
+  - **njals-saga-on** 翻譯階段於 2026-08-26 13:19 完成，`01-translation.md` 落地 599062 bytes / 232 段；meta.json `translation_status` 由 supervisor 寫為 `done`、`translation_models: MiniMax-M3`。**PROGRESS.json 未對應增量**（`with_translation` 仍 41、`with_semantic_tags` 仍 69），推測 supervisor 落地翻譯後尚未觸發 PROGRESS 重算，需下輪 regenerate-on-write 或手動同步。
+  - **nihon-shoki-zh** 5 天內 supervisor 新進場失敗並入 retry 清單（`一般失敗待重試` 4 → 5 部）；推測為配額撞牆後續進場。
+  - 5 天其餘時間 supervisor 應有陸續 retry markandeya-purana / 其他失敗清單（`logs/supervisor-run.log` 未直接讀取細節，本次僅靠 PIPELINE_STATUS 與 pipeline-failed.json 推斷）。
+- 配額（推算）：5H 窗於 2026-08-31 **08:00** 已 reset（與本 session 啟動同步），週窗同日 reset（`logs/pipeline-runtime.json` 本 session 未主動刷新，無法精確讀取剩餘百分比；推測應為新窗 100% / 100%）；`M3 執行狀態` running 顯示 supervisor 在 tag 階段已 dispatch。
+- 本次主 session 額外動作：用戶貼 m3 tagger 角色 prompt（`njals-saga-on` 第 **1/116** 段，《Njáls Saga》ch.1–3 古諾斯語原文 is.wikisource 校訂本，涵蓋 Mörður gígja / Unnur / Höskuldur / Hrútur 介紹、Hrútur 之兄 Eyvind 死訊、Hrútur 與 Unnur alþingi 議會婚約協商、財產條件（hundrað 六十百 + 三分之一）、Höskuldur 提議另立三年婚約、Hrútur 收貨出海 Hörðaland Hernar / Vík 靠岸）；Mörður gígja、Unnur、Höskuldur、Hrútur、Eyvind、alþingi、lögrétta、Hundrað、Kambsnes、Hrútsstaðir、Hörðaland、Vík 名相首見加中文對應。已按 prompt 規定**僅 stdout 輸出 JSON**（`semantic_tags: ["commandments-law", "lineage-importance", "tribal-traditional", "marriage-sacred", "patriarchal", "oral-tradition"]` + `psych_tags: ["marriage-family", "justice-power", "responsibility-leadership", "loss-grief"]` + `keywords: ["Mörður gígja", "Unnur", "Höskuldur", "Hrútur", "Eyvind", "alþingi", "lögrétta", "Gulaþing", "Hundrað", "Kambsnes", "Hörðaland", "Vík", "族長", "遺產", "婚約"]`）、**未寫盤**（supervisor tag 階段 chunk 1 寫盤中,chat 那段不會被採用；chunk 2/116 → 116/116 由 supervisor 接力）。
+- 本次 uncommitted 變更（4 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + 一般失敗清單 + nihon-shoki-zh + M3 tag 階段切換）+ `translations/njals-saga-on/meta.json`（translation_status done + translation_models）+ `translations/njals-saga-on/01-translation.md`（new, 599062 bytes / 232 段）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `njals-saga-on` **tag** 階段 chunks **2 → 116/116** 接力中（本 session tag chunk 1/116 已 stdout，supervisor 將以本次 JSON 為輸入繼續）；**不要直接編輯 `translations/njals-saga-on/01-translation.md`**（翻譯已落地完成，但 PROGRESS.json 未對應增量），tag 寫盤由 supervisor 控制。
+  2. **5H 額度**新窗 08:00 reset、**週額度**同日 reset（本次未刷新 runtime.json，預設近 100%）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **5 部** — sibylline-oracles-el, huangdi-neijing, njals-saga-on, aristotle-nicomachean-ethics-el, nihon-shoki-zh（njals-saga-on 已翻譯落地但 fail log 未清，supervisor 下次 reconcile 時應轉 completed）。
+  4. `已阻塞待人工處理` **36 部**（清單見 `logs/pipeline-failed.json`）。
+  5. **PROGRESS.json 與實際狀態不一致**待 supervisor 下次 regen 修正（`with_translation` 應 41 → 至少 42 含 njals-saga-on）。
+  6. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-26 08:01 快照（njals-saga-on chunk 115/244 m3 翻譯 stdout-only、PIPELINE_STATUS auto-regen only、PROGRESS.json 無變更、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹**僅一筆 auto-regen 變更**：
