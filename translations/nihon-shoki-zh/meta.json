@@ -22,5 +22,7 @@
   "notes": "《日本書紀》720 年舍人親王等撰，日本現存最古正史，漢文編年體全三十卷（zh.wikisource 卷第一至卷第三十）；對應 sacred-texts Aston 英譯 nihongi-aston。日文 ja.wikisource 僅版本頁，漢文原文本體置於 zh.wikisource（同 kojiki-zh 慣例）。",
   "text_role": "original",
   "is_original_language": true,
-  "original_of": "nihongi-aston"
+  "original_of": "nihongi-aston",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3"
 }

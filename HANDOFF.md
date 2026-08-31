@@ -3,6 +3,30 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-08-31 18:02 快照（nihon-shoki-zh 翻譯完成落地 661KB / 3626 行 / 126 段、神道 PROGRESS +1/+1、bud-lalitavistara-sa 新進場 translate、m3 tagger chunk 1/126 stdout-only 空 JSON（segment 1 僅 header）、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有四筆變更（supervisor 12:03 → 18:00 期間累積，最後 commit 575d42da 為 15:41 doctrine-and-covenants 入帳）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-08-31 15:41:42` → **`2026-08-31 18:00:17`**、`進度` 228 → **229/518**（+1 nihon-shoki-zh 翻譯+標籤 reconcile）、`目前處理` `(本輪完成)` → **`nihon-shoki-zh`** → 後 supervisor 接力切到 `bud-lalitavistara-sa` (translate) 並反映於 `M3 執行狀態`、`一般失敗待重試` 4 → **4 部 — sibylline-oracles-el, huangdi-neijing, nihon-shoki-zh, bud-lalitavistara-sa**（`-` aristotle-nicomachean-ethics-el / `+` bud-lalitavistara-sa）、`已阻塞待人工處理` 36 → **37 部**（+1 推測為 markandeya-purana 達 attempts 上限轉入）、`M3 執行狀態` `waiting_quota — nihon-shoki-zh (tag chunk 11/126)` → **`running — bud-lalitavistara-sa (translate)`**（quota 解除、5H reserve 5% / 週 reserve 2% 限制偵測行已移除）
+  - `00-overview/PROGRESS.json`：`神道.with_translation` 1 → **2**（+1 nihon-shoki-zh 翻譯完成 reconcile）、`神道.with_semantic_tags` 2 → **3**（+1 推測為 nihon-shoki-zh tag 階段部分落地，PROGRESS 統計含 supervisor 已落地 chunks）、`北歐.with_translation` 2 → **3**（+1 推測為本 6 小時 supervisor 又完成 1 部北歐翻譯，與 15:41 commit 的 doctrine-and-covenants / PROGRESS.md diff 對應）
+  - `translations/nihon-shoki-zh/meta.json`：增 `translation_status: done` + `translation_models: MiniMax-M3`（supervisor 於 2026-08-31 14:52 落地翻譯後回填狀態欄位，檔案 mtime 14:52）
+  - `translations/nihon-shoki-zh/01-translation.md`（new, **661447 bytes / 3626 行 / 126 段**，全 30 卷漢文編年體原文 + 古典漢語原樣保留註解翻譯完成，supervisor 於 14:52 落地；前 chunk 88/90 → 89/90 → 90/90 於本次前 session 已 stdout，最終組裝為 126 段式 chunking）
+- 期間（2026-08-31 12:03 → 18:02 ~6 小時，**跨 1.2 個 5H 窗 + 1 個週窗已 reset 08-31 08:00**）supervisor 動態（`logs/pipeline-runtime.json` + `logs/supervisor-run.log` + `logs/pipeline-failed.json`）：
+  - **nihon-shoki-zh** chunks 88/90 → 89/90 → **90/90** 派發 m3 翻譯完成（古典漢語原樣保留，卷第二十八〜三十 持統紀漢文原文）；於 14:52 落地 `01-translation.md` 661447 bytes / 3626 行 / 126 段，meta.json `translation_status: done` + `translation_models: MiniMax-M3` 由 supervisor 寫入；`logs/pipeline-failed.json` 內 `nihon-shoki-zh` entry 推測已從 retry 清單移除（與 PROGRESS.json 神道 with_translation +1 對應；待 supervisor 下次 reconcile 確認 fail log 同步清理）。
+  - **nihon-shoki-zh** 進入 tag 階段（chunks 1 → 10+ 落地，PROGRESS.json 神道 with_semantic_tags 2→3 反映 +1；推測 supervisor 仍在接力剩餘 116+ 段，預計下輪 reconcile 觸發 +1 → +2）。
+  - **bud-lalitavistara-sa** 新進場 `M3 執行狀態` running — `bud-lalitavistara-sa` (translate)；從 `一般失敗待重試` 接力（前次 attempts 計數已達 retry 上限）；`logs/pipeline-failed.json` `bud-lalitavistara-sa` entry 推測 attempt 計數續增或已轉 blocked。
+  - **doctrine-and-covenants**（摩門教）15:41 commit 575d42da 落地 — `01-translation.md` (10 行增量)、`meta.json` (35 行增量)、對應索引（`tag-index.json` / `keyword-index.json` / `psych-tag-index.json`）regen 觸發增量；推測為 supervisor 期間完成的另一部翻譯+標籤，於 15:41 自動 commit 後 PROGRESS.json 北歐 with_translation +1 反映。
+  - 5H 配額 reserve 5% / 週 reserve 2% 觸發 `waiting_quota` 已解除（`限制偵測` / `最後錯誤` 行於 PIPELINE_STATUS 已移除），推測 5H 下一窗 reset（08-31 23:00）後 supervisor 自動恢復 normal pace。
+- 配額（推算，未讀取 `logs/pipeline-runtime.json` 18:02 當下快照）：5H 窗 reset 2026-08-31 **18:00**（剛 reset 或接近，下一窗 **23:00** ~5 小時後）、週窗已 reset **08-31 08:00**；`pause_reason: null`（quota 解除）；推測 5H 仍在 90%+（6 小時內 supervisor 完成 nihon-shoki-zh 翻譯+部分標籤 + bud-lalitavistara-sa 起步，未直接燒主 session 額度）。
+- 本次主 session 額外動作：用戶貼 m3 tagger 角色 prompt（`nihon-shoki-zh` 第 **1/126** 段，《日本書紀》漢文原文，全三十卷 — **segment 1 內容僅 header + metadata**（`# 日本書紀（漢文原文，全三十卷） — 翻譯` + 5 行 `> ...` blockquote 註解 + `---` 分隔），無實際譯文段落；推測為 supervisor 切 126 段時 segment 1 為文件 preamble，tag 階段 supervisor 將跳過空 segment 或在落地前補空段）。已按 prompt 規定**僅 stdout 輸出空 JSON**（`{"semantic_tags": [], "psych_tags": [], "keywords": []}`）、**未寫盤**（supervisor tag 階段 chunk 1 寫盤中,chat 那段不會被採用；chunk 2/126 → 126/126 由 supervisor 接力，最終組裝進 `meta.json` `semantic_tags` / `psych_tags` / `keywords` 欄位）。
+- 本次 uncommitted 變更（5 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + 進度 229 + bud-lalitavistara-sa + 移除 quota 限制偵測）+ `00-overview/PROGRESS.json`（神道 +1/+1 + 北歐 +1）+ `translations/nihon-shoki-zh/meta.json`（translation_status done + translation_models）+ `translations/nihon-shoki-zh/01-translation.md`（new, 661447 bytes / 3626 行 / 126 段）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `bud-lalitavistara-sa` **translate** 階段起步中；`nihon-shoki-zh` 翻譯已落地、tag 階段接力 chunks **2 → 126/126** 仍在進行（PROGRESS.json 神道 with_semantic_tags +1 已觸發），預計下輪 reconcile +1 → +2 → ...；**不要直接編輯 `translations/nihon-shoki-zh/01-translation.md`**（已落地完成，supervisor 不再寫盤），但 `meta.json` 的 `semantic_tags` / `psych_tags` / `keywords` 仍在 supervisor 寫盤中。
+  2. **5H 額度**下一 reset 2026-08-31 **23:00**（~5 小時後），**週額度** 08-31 08:00 已 reset（quota 解除、本次 reserve 5%/2% 未撞牆）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **4 部** — sibylline-oracles-el, huangdi-neijing, nihon-shoki-zh, bud-lalitavistara-sa（aristotle-nicomachean-ethics-el 已從 retry 清單移除，bud-lalitavistara-sa 新加入；nihon-shoki-zh 翻譯已落地但 fail log 未清，supervisor 下次 reconcile 時應轉 completed）。
+  4. `已阻塞待人工處理` **37 部**（+1 推測為 markandeya-purana 達 attempts 上限轉入；清單見 `logs/pipeline-failed.json`）。
+  5. **PROGRESS.json 與實際狀態對齊**：神道 with_translation 2 / with_semantic_tags 3（+1+1 nihon-shoki-zh 雙進度）、北歐 with_translation 3（+1 doctrine-and-covenants 已 commit 落地）；其餘 26 宗教 / 傳統分項不變。
+  6. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-31 11:58 快照（njals-saga-on 翻譯+標籤 reconcile 落定、北歐 PROGRESS.json 增 1、PIPELINE_STATUS 啟動 nihon-shoki-zh 新一輪 retry、m3 nihon-shoki-zh chunk 88/90 stdout-only、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有兩筆 auto-regen 變更（supervisor 8:00 → 11:58 期間累積）：
