@@ -19,5 +19,38 @@
   "verified": true,
   "tier": "核心",
   "is_original_language": true,
-  "notes": "摩門教（LDS）標準經典之一，Joseph Smith 等所受啟示與教令彙編。與 raw/original.txt 併收各 Section。此為公版；現行版另含後期增補。"
+  "notes": "摩門教（LDS）標準經典之一，Joseph Smith 等所受啟示與教令彙編。與 raw/original.txt 併收各 Section。此為公版；現行版另含後期增補。",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "semantic_tags": [
+    "apocalypse",
+    "lineage-importance",
+    "messianism",
+    "priesthood",
+    "prophetic-revelation"
+  ],
+  "keywords": [
+    "以利亞",
+    "Elijah",
+    "摩羅乃",
+    "Moroni",
+    "約瑟·斯密",
+    "Joseph Smith",
+    "聖職",
+    "Priesthood",
+    "列祖",
+    "兒女",
+    "大而可畏之日",
+    "心轉向",
+    "末世",
+    "家譜",
+    "Manchester"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "parenthood"
+  ],
+  "psych_tag_status": "done"
 }

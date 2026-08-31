@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**199** / 518
-- 已標籤：**228** / 518
+- 已翻譯：**201** / 518
+- 已標籤：**229** / 518
 
 ## 各宗教核心進度
 
@@ -24,8 +24,8 @@
 | 古埃及 | 8 | 1 | 1 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
-| 現代新興 | 5 | 1 | 1 |
-| 神道 | 5 | 2 | 1 |
+| 現代新興 | 5 | 2 | 2 |
+| 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 1 | 1 |
 | 伊斯蘭 | 4 | 0 | 0 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -607,7 +607,7 @@
 ### 現代新興（5 部）
 
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標–
-- `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯– 標–
+- `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯✓ 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
 - `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯– 標–
@@ -617,7 +617,7 @@
 - `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯✓ 標–
 - `kojiki-chamberlain` 古事記（English (translation)）譯– 標–
 - `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯✓ 標✓
-- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯– 標–
+- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯✓ 標–
 - `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
 
 ### 錫克教（4 部）

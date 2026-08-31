@@ -1843,6 +1843,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "doctrine-and-covenants",
+      "name_zh": "教義和聖約 (LDS)",
+      "religion": "現代新興"
+    },
+    {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -4483,6 +4488,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "doctrine-and-covenants",
+      "name_zh": "教義和聖約 (LDS)",
+      "religion": "現代新興"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -5395,6 +5405,13 @@
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
+    }
+  ],
+  "parenthood": [
+    {
+      "slug": "doctrine-and-covenants",
+      "name_zh": "教義和聖約 (LDS)",
+      "religion": "現代新興"
     }
   ],
   "patience-waiting": [
