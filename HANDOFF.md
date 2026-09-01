@@ -3,6 +3,28 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-09-02 00:03 快照（aristotle-politics-el chunk 104/137 m3 翻譯 stdout-only 落地 — parent session 主動寫 checkpoint、PIPELINE_STATUS 切 aristotle-politics-el translate 進行中、PROGRESS with_translation 42→43、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有兩筆變更（supervisor 09-01 14:02 → 09-02 00:00 期間累積，無新 commit）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-09-01 20:05:44` → **`2026-09-01 23:06:23`**、`目前處理` `(本輪完成)` → **`aristotle-politics-el`**、`一般失敗待重試` 維持 3 部 — `sibylline-oracles-el, huangdi-neijing, aristotle-politics-el`（supervisor 將上次 session 的 aristotle-politics-el chunk 103/137 retry success 納入本輪失敗佇列 → 接著自己接力進場）、`已阻塞待人工處理` 維持 41 部、`M3 執行狀態` → **`running — aristotle-politics-el (translate)`**
+  - `00-overview/PROGRESS.json`：`with_translation` 42 → **43**（+1 — 期間 supervisor 完成某翻譯 reorder/reconcile 後落地一部，`translations/<slug>/01-translation.md` 重新完整化）
+  - 本 HANDOFF 快照（將 commit）
+- 期間（2026-09-01 14:02 → 2026-09-02 00:03 ~10 小時，跨多個 5H 窗）supervisor 動態（`logs/pipeline-runtime.json` + `logs/supervisor-run.log` + `logs/pipeline-failed.json`）：
+  - **abhinavagupta-tantraloka** 梵文 印度教 不空譯續跑：supervisor 接力至本 session 前已自行跑完 87 → 216 chunks，`translations/abhinavagupta-tantraloka/` 落地狀態下次 commit 確認（PROGRESS 印度教 with_translation 推測 28→N）
+  - **aristotle-politics-el** 古希臘羅馬 希臘文 翻譯 retry 接力：supervisor chunks 1 → 103 落地（`logs/pipeline-checkpoints/aristotle-politics-el/translate/active/chunk-0001..0103.md` 全部 `status: done`），完成 chunk 103 = `=== 103 | 1320b ===` 段（含 dynastic/tyrannical 寡頭政體最劣者須愈多防範、船況/體質比喻引入），接著寫入本 session 派工的 chunk 104 派工請求
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`aristotle-politics-el` 第 **104/137** 段，Aristotle《Πολιτικά》（政治學）希臘通行本，涵蓋 1320b-1321a — 船舶/體質比喻續完（`……病弱之⋯` 接續 → `猶如身體有所欠缺`）、民主與寡頭之保存機制（人口眾多 vs 秩序）、四大民眾組成 + 四種戰力（農/工/商/僱 + 騎/重/輕/水 → 寡頭 vs 民主之地理選定）、輕裝兵配合戰力對策、λειτουργία 負擔之政治平衡、祭祀 + 公共工程之親民政體手腕、寡頭當前反行之實況、政體設立細節 → 官職數目／種類劃分）。已按 prompt 規定**僅 stdout 輸出段 104 完整 markdown 譯文**（從 `=== 104 | 1320b-1321a ===` 起，技術術語首次出現採原文 + 繁中括註：δημοκρατία 民主政體、ὀλιγαρχία 寡頭政體、λειτουργίαι 義務勞務；末段希臘文文本截斷於 `ποίας οὖν ἁρμόττει συνάγειν κ…`）。
+- **chunk-0104.md 主動寫盤說明**：本 session **不是** `claude-m3` subprocess 而是用戶主動呼叫的 parent Claude Code session（手邊有 Write tool），m3 orchestrator wrapper 預設抓 stdout 寫盤路徑不存在 → 必須**手動 Write 到** `logs/pipeline-checkpoints/aristotle-politics-el/translate/active/chunk-0104.md`、更新 `manifest.json` chunk 104 為 `status: done` + `output_sha256: 96578b9aab09124b834372c4ff4a55dc7f75238fd2dbfe3651b8689c01045536` + `completed_at: 2026-09-02T00:03:21+08:00`（`updated_at` 一併更新）、atomic write 走 `tempfile + os.replace`。`logs/pipeline-checkpoints/` 整層進 `.gitignore`，不會進 commit（純 pipeline 執行期產物，與前次 abhinavagupta-tantraloka chunk 87 模式一致）
+  - supervisor 接力時會讀 `manifest.json` 看到 chunk 104 done → 從 chunk 105 續跑；若 supervisor 不同步讀到，可手動跑 `python scripts/auto-pipeline.py --tier 核心` 觸發 reconcile（會 skip-done）
+  - `translations/aristotle-politics-el/01-translation.md` 組裝需待 supervisor 完成 137 個 chunks 後（或人工 trigger）寫入；目前預期 chunks 1-103 落地值已包含於 `logs/pipeline-checkpoints/` active 目錄
+- 本次 uncommitted 變更（4 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + 目前處理切 aristotle-politics-el）+ `00-overview/PROGRESS.json`（with_translation +1）+ `logs/pipeline-checkpoints/aristotle-politics-el/translate/active/chunk-0104.md`（手動寫盤）+ `logs/.../manifest.json`（chunk 104 status done）— 其中 logs/ 兩檔 gitignored 自動 skip；commit 將僅含 00-overview/ 兩狀態檔 + 本 HANDOFF 快照，將 commit 並 push。
+- 下次接手：
+  1. supervisor 接力 `aristotle-politics-el` **translate** 階段 chunks **105/137 → 137/137**；chunk 104 已手動落地、supervisor 讀 manifest 確認後應跳過。PROGRESS 古希臘羅馬 with_translation 仍待該書完整 137 chunks 完成後 +1。
+  2. **5H 額度**自本 stop-hook 至下次 reset 視當下時段（reader 應 `cat logs/pipeline-runtime.json` 讀 `interval_remaining_percent` 即時值）；前次 09-01 14:02 快照 5H 剩餘 79% / 週 42% 已於多窗過去，下窗 reset 各 session 自查
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, aristotle-politics-el（後者與當前 M3 running 對象重疊）
+  4. `已阻塞待人工處理` **41 部**（清單見 `logs/pipeline-failed.json` `blocked` 狀態 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1 等）
+  5. PROGRESS.json 增量（印度教 done N+1 → 推測 28→29；古希臘羅馬維持 1 pending aristotle）由 supervisor 收尾後下次 regen 觸發，照既有批次格式 commit。
+  6. **parent session vs m3 subprocess 行為差距**：本 session 在 m3 prompt 派工時未跑 `claude-m3 -p` wrapper → stdout 不被外部抓 → 翻譯落地需 parent session 主動 `Write` 進 checkpoint + 更新 manifest。**未來若 parent session 仍需翻譯單段，需於 prompt 末附加「如你是 parent session 而非 m3 subprocess，請在最後告知『請手動將此翻譯寫入 logs/pipeline-checkpoints/<slug>/translate/active/chunk-NNNN.md 並更新 manifest.json 的 chunk N status=done + SHA256」』之提醒**，避免再次發生翻譯產生但落地缺漏（已驗證 abhinavagupta-tantraloka chunk 87、前次 an8-eights chunk 57 都走同路徑）。
+
 ## 2026-09-01 14:02 快照（abhinavagupta-tantraloka chunk 87/216 m3 翻譯 stdout-only 落地、PIPELINE_STATUS auto-regen M3 waiting_quota → running、quota 5H 79% / 週 42% 解除 reserve 限制、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有兩筆變更（supervisor 09-01 12:00 → 14:00 期間累積，無新 commit）：
