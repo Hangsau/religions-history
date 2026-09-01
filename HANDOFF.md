@@ -3,6 +3,25 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-09-01 14:02 快照（abhinavagupta-tantraloka chunk 87/216 m3 翻譯 stdout-only 落地、PIPELINE_STATUS auto-regen M3 waiting_quota → running、quota 5H 79% / 週 42% 解除 reserve 限制、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有兩筆變更（supervisor 09-01 12:00 → 14:00 期間累積，無新 commit）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-09-01 11:59:15` → **`2026-09-01 14:00:54`**、`目前處理` 維持 `abhinavagupta-tantraloka`、`一般失敗待重試` 維持 3 部 — `sibylline-oracles-el, huangdi-neijing, abhinavagupta-tantraloka`、`已阻塞待人工處理` 40 部不變、`M3 執行狀態` `waiting_quota — abhinavagupta-tantraloka (translate chunk 75/216)` → **`running — abhinavagupta-tantraloka (translate)`**（quota 解除、5H reserve 5% / 週 reserve 2% 限制偵測行已移除，quota-watch-resume.py 於 14:00:52 觸發 resume）
+  - 本 HANDOFF 快照（將 commit）
+- 期間（2026-09-01 12:00 → 14:02 ~2 小時，1 個 5H 窗內）supervisor 動態（`logs/pipeline-runtime.json` + `logs/supervisor-run.log` + `logs/pipeline-failed.json`）：
+  - **abhinavagupta-tantraloka** 梵文 印度教 不空譯續跑：quota-watch-resume.py 於 14:00:52 偵測 5H 額度回升後 resume，runtime.json `chunk` 78 → supervisor 接力至本 session 收到 m3 chunk **87/216** 派工（chunks 79-86 由前 ~2 小時 supervisor 內部 m3 接力 stdout 完成）；`logs/pipeline-failed.json` 內 `abhinavagupta-tantraloka` entry 推測仍 `status: retryable` 累計 attempt。
+- 配額（直接讀取 `logs/pipeline-runtime.json` 14:00:55 快照）：5H 窗剩餘 **79%**（interval_remaining_percent 79.0，5H reset 2026-09-01 **18:00:00** ~4 小時後）、週窗剩餘 **42%**（weekly_remaining_percent 42.0，週 reset 2026-09-07 **08:00:00**）；`interval_status: 1` / `weekly_status: 1`（均已離開 0=exhausted 區間）；`pause_reason: null`、`resumed_by: quota-watch-resume.py` 於 14:00:52 觸發；`interval_reserve_percent: 5.0` / `weekly_reserve_percent: 2.0` 已恢復正常 pace。
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`abhinavagupta-tantraloka` 第 **87/216** 段，Abhinavagupta《Tantrāloka》第十章 151-178 偈，梵文 GRETIL standard edition，涵蓋 saptānāṃ mātṛśaktīnāṃ bhedanatvaṃ（七母力之分異）、dharā-tattva（持地自性）— ghaṭākhyā（瓶喻）— 與 sakala-vedya（具顯所知）之等同、Śiva-nātha 即 pṛthivī 即 brahman 之三一論、dharā-tattva 中 siddhi（成就）由 mantra-maheśvara（大自在咒）催動、Pāśupata/Sāṃkhya/Vaiṣṇava 二類之徒不入、sauṣupta（深睡）— 夢境與覺醒之 smṛti（記憶）辯證、mahākarma（大業）— pudgala（補特伽羅）— dharā 持地關係）。已按 prompt 規定**僅 stdout 輸出 28 偈完整 markdown 譯文**（從 `=== 87 | 第十章 151–178 偈 ===` 起，技術術語首次出現採原文 + 繁中括註：mātṛ-śakti 母力、sakala-mātṛ 具顯母、layā 隱沒、kalā 十六分、dharā 持地、tattva 自性、ghaṭa 瓶、Śiva 大自在天、Viṣṇu 毘濕奴、Rudra 魯達羅、Śiva-nātha 大自在主、pṛthivī 地、brahman 梵、siddhi 成就、mantra-maheśvara 大自在咒、yoga 瑜伽、Śiva-vidyā 大自在明、Pāśupata 獸主派、Sāṃkhya 數論、Vaiṣṇava 毘濕奴派、vijñāna 識、kalpānta 劫末、laya 隱沒、sauṣupta 深睡、nidrā 睡眠、smṛti 記憶、mahākarma 大業、pudgala 補特伽羅；偈 154 採 `[歧義：五十一]` 標示 anna 字義不確定；偈 178 末句「彼即是所說⋯」對應原文 `prakṣobho yastadevoktaṃ` 截斷）。**未寫盤**（supervisor chunk 87 寫盤中,chat 那段不會被採用；chunk 88/216 → 216/216 由 supervisor 接力，最終組裝 01-translation.md）。
+- **未寫盤說明**：`translations/abhinavagupta-tantraloka/01-translation.md` **尚未建立**（目錄只含 `meta.json` + `raw/`，與前次 session 狀態相同；`raw/original.txt` 預期 GRETIL 編 28 偈 SHA-256 待 supervisor 落地時 verify）。chat 內已產生 chunk 87 完整 markdown 譯文（從 `=== 87 | 第十章 151–178 偈 ===` 起，至偈 178 末「⋯」），內容以 supervisor 接力落地為準；supervisor 寫盤成功時不會採用 chat 內 stdout 文字。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + M3 狀態 waiting_quota → running + 移除 quota reserve 限制偵測）+ 本 HANDOFF 快照 — 將 commit 並 push。
+- 下次接手：
+  1. supervisor 仍在 `abhinavagupta-tantraloka` **translate** 階段 chunks **88/216 → 216/216** 接力中（本 session chunk 87/216 已 stdout，supervisor 將以本次 markdown 為輸入繼續）；**不要直接編輯 `translations/abhinavagupta-tantraloka/01-translation.md`**（翻譯尚未落地、PROGRESS.json 印度教 with_translation 仍 28，supervisor 寫盤中），tag 階段需待翻譯完成後才會啟動。
+  2. **5H 額度**下次 reset 2026-09-01 **18:00**（~4 小時後），剩餘 79% 充裕；**週額度**下次 reset 2026-09-07 08:00，剩餘 42% 充裕；reserve 5% / 2% 限制已解除（quota-watch-resume.py 14:00:52 觸發）；若 supervisor 撞 reserve 會自動停派，需查 `logs/pipeline-runtime.json` `pause_reason`。
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, abhinavagupta-tantraloka（與當前 M3 running 對象重疊，supervisor 內部 retry loop）。
+  4. `已阻塞待人工處理` **40 部**（清單見 `logs/pipeline-failed.json`，含 eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1 等，狀態皆為 `blocked`、`attempts` 已達上限 4-5）。
+  5. **PROGRESS.json 與實際狀態對齊**（印度教 done 111 / pct_core 100 / with_translation 28 / with_semantic_tags 40 / original_count 89 — 與 abhinavagupta-tantraloka 翻譯落地後下次 regen 觸發 with_translation 28→29）。
+  6. PIPELINE_STATUS / PROGRESS 增量由 supervisor 收尾後自動觸發，照既有批次格式 commit。
+
 ## 2026-08-31 18:02 快照（nihon-shoki-zh 翻譯完成落地 661KB / 3626 行 / 126 段、神道 PROGRESS +1/+1、bud-lalitavistara-sa 新進場 translate、m3 tagger chunk 1/126 stdout-only 空 JSON（segment 1 僅 header）、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有四筆變更（supervisor 12:03 → 18:00 期間累積，最後 commit 575d42da 為 15:41 doctrine-and-covenants 入帳）：
