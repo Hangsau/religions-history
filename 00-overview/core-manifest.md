@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**203** / 518
-- 已標籤：**231** / 518
+- 已翻譯：**204** / 518
+- 已標籤：**232** / 518
 
 ## 各宗教核心進度
 
@@ -13,7 +13,7 @@
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 43 | 55 |
 | 印度教 | 58 | 28 | 31 |
-| 古希臘羅馬 | 46 | 25 | 24 |
+| 古希臘羅馬 | 46 | 26 | 25 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 11 | 17 |
 | 北歐 | 15 | 8 | 8 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -392,7 +392,7 @@
 - `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
-- `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯✓ 標✓
 - `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯✓ 標✓
 - `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯✓ 標✓
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓

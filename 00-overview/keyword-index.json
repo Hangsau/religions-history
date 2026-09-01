@@ -671,6 +671,11 @@
   ],
   "Aristotle": [
     {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
@@ -3253,6 +3258,11 @@
   ],
   "Hesiod": [
     {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -3320,6 +3330,11 @@
     }
   ],
   "Homer": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
@@ -13523,6 +13538,13 @@
       "religion": "基督教"
     }
   ],
+  "βάρβαρος": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "βασιλεία τοῦ θεοῦ": [
     {
       "slug": "sblgnt-mark",
@@ -13551,6 +13573,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "δίκαιον": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "δαιμόνιον": [
     {
       "slug": "plato-euthyphro-el",
@@ -13568,7 +13597,19 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "δεσπότης": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "δικαιοσύνη": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
@@ -13622,6 +13663,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ζῷον πολιτικόν": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "θάνατος": [
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -13662,6 +13710,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "κοινωνία": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "κόσμος": [
     {
       "slug": "xenophon-memorabilia-el",
@@ -13680,6 +13735,11 @@
     {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -13737,6 +13797,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "οἶκος": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "οὐσία": [
     {
       "slug": "aristotle-de-anima-el",
@@ -13790,6 +13857,13 @@
     {
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "πόλις": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -13867,6 +13941,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "φύσις": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -14590,6 +14671,11 @@
   ],
   "ἀρετή": [
     {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -14612,6 +14698,13 @@
       "slug": "sblgnt-mark",
       "name_zh": "馬可福音（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "ἄπολις": [
+    {
+      "slug": "aristotle-politics-el",
+      "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Ἀποκάλυψις": [
