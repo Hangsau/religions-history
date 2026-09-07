@@ -3,6 +3,24 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-09-07 22:14 快照（vishnu-purana chunk 71/231 m3 翻譯 stdout-only 落地 — parent session 主動寫 checkpoint、PIPELINE_STATUS 維持 vishnu-purana translate 進行中、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有一筆變更（前次 09-02 04:08 → 09-07 22:07 期間累積，無新 commit，pipeline 跨 supervisor 接力運轉 vishnu-purana chunks 1-71 從 09-02 11:49 至 09-07 21:54）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-09-02 04:07:21` → **`2026-09-07 22:07:25`**、`目前處理` `kurma-purana` → **`vishnu-purana`**、`M3 執行狀態` `running — kn-milindapanha (translate)` → **`running — vishnu-purana (translate)`**、`一般失敗待重試` 3 部 → **3 部**（vishnu-purana 加入 retry 隊列）、`已阻塞待人工處理` 41 部 → **43 部**（+2 部）。前次 kn-milindapanha chunk 54 收尾後 pipeline 轉場至 vishnu-purana 開始翻譯；本期 chunks 1-70 已陸續完成（chunk-0070.md completed_at 2026-09-07T21:54:28）
+  - `00-overview/PROGRESS.json`：本期 vishnu-purana 翻譯尚未整書完成（需 231 個 chunks 全部 done 才 +1），未觸發增量
+- 本次主 session 額外動作：用戶貼 m3 translator 角色 prompt（`vishnu-purana` 第 **71/231** 段，ViP_2,8.107–122 + 第八章終 + ViP_2,9.1–10，涵蓋恆河（Gaṅgā）諸功德源流——從 Viṣṇu 足趾裂縫流出、Dhruva 頂承、七仙居髮髻、Śiva 百年承受、降世至 Meru 峰頂四流淨世、四名異流（Sītā/Ālakanandā/Cakṣubhadrā/第四）、洗淨 Sagara 諸子骨屑、浴者罪滅、供祖先得百年滿足、祭祀 Puruṣottama 雙成就、瑜伽行者得涅槃、誦名消三生罪、三界淨化為 Bhagavat 第三足步；第八章終；第九章啟——śiśumāra（星海豚）為天界星宿相，Nārāyaṇa 之路徑，Dhruva 立其尾，Janārdana 為其支撐；Vivasvāt 攝含精之水以降甘霖，雲中水經風力淨化而降）。已按 prompt 規定**僅 stdout 輸出段 71 完整 markdown 譯文**（從 `=== 71 | 2.8.107–2.9.10 | Gaṅgā 諸功德；Dhruva 與天體運行 ===` 起至結尾，技術術語首次出現採原文 + 繁中括註：Gaṅgā 恆河、Dhruva 毘琉奢那／北極星、Viṣṇu 毗濕奴、Meru 須彌山、Sītā、Ālakanandā、Cakṣubhadrā、Śarva/Śambhu 濕婆、Maitreya 彌勒、Puruṣottama 至上之人、nirvāṇa 涅槃、yojana 由旬、Bhagavat 世尊、Hari 吠利天、śiśumāra 星海豚、nakṣatra 二十八宿、Nārāyaṇa 那羅延、Janārdana 毘濕奴之名、Uttānapāda、Sagara、Vivasvāt/Vivasvān 太陽、Soma 月神、prāṇāyāma 調息）。
+- **chunk-0071.md 主動寫盤說明**：本 session **不是** `claude-m3` subprocess 而是用戶主動呼叫的 parent Claude Code session（手邊有 Write tool），m3 orchestrator wrapper 預設抓 stdout 寫盤路徑不存在 → 必須**手動 Write 到** `logs/pipeline-checkpoints/vishnu-purana/translate/active/chunk-0071.md`、更新 `manifest.json` chunk 71 為 `status: done` + `output_sha256: 010d7d37d4c0b7ed786850ac2bf9cbb207cf03648a6f185014053e3b28ce9d3b` + `completed_at: 2026-09-07T22:14:00+08:00`（`updated_at` 一併更新）。input_sha256 由複現 `_sha256_text` 計算 chunk_input = `6b83a3cd736a3cbddf93505755eb8be53b050df0bcbf0216f00ebc914dcb7d09`（與原 manifest schema 內既有 1-70 條目之 SHA256 演算法一致驗證通過；本次演算法複現以 `split_chapters` + `group_chunks` 跑 source text 691274 chars → 231 chunks 確認 split 邏輯與原 pipeline 一致）。`logs/pipeline-checkpoints/` 整層進 `.gitignore`，不會進 commit（純 pipeline 執行期產物，與前次 kn-milindapanha chunk 54 模式一致）
+  - supervisor 接力時會讀 `manifest.json` 看到 chunk 71 done → 從 chunk 72 續跑；若 supervisor 不同步讀到，可手動跑 `python scripts/auto-pipeline.py --tier 核心` 觸發 reconcile（會 skip-done）
+  - `translations/vishnu-purana/01-translation.md` 組裝需待 supervisor 完成 231 個 chunks 後（或人工 trigger 跑 translate_one）寫入；目前預期 chunks 1-71 落地值已包含於 `logs/pipeline-checkpoints/` active 目錄
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + 目前處理 vishnu-purana）+ `HANDOFF.md`（本快照）；logs/pipeline-checkpoints/ 兩檔 gitignored 自動 skip，commit 將僅含 00-overview/PIPELINE_STATUS.md + 本 HANDOFF 快照，將 commit 並 push。
+- 下次接手：
+  1. supervisor 接力 `vishnu-purana` **translate** 階段 chunks **72/231 → 231/231**；chunk 71 已手動落地、supervisor 讀 manifest 確認後應跳過。PROGRESS 印度教 with_translation 仍待該書完整 231 chunks 完成後 +1（目前印度教 23 維持）。
+  2. **5H 額度**自本 stop-hook 至下次 reset 視當下時段（reader 應 `cat logs/pipeline-runtime.json` 讀 `interval_remaining_percent` 即時值）；本次 quota 快照：interval 59%、weekly 88%、interval resets 2026-09-07 23:00、weekly resets 2026-09-14 08:00
+  3. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, vishnu-purana（vishnu-purana 加入 retry 隊列但目前 translate 進行中）
+  4. `已阻塞待人工處理` **43 部**（清單見 `logs/pipeline-failed.json` `blocked` 狀態 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1 等）
+  5. PROGRESS.json 增量（印度教 done N+1）由 supervisor 收尾 vishnu-purana 231 chunks 後下次 regen 觸發，照既有批次格式 commit。
+  6. **parent session vs m3 subprocess 行為差距**：本 session 在 m3 prompt 派工時未跑 `claude-m3 -p` wrapper → stdout 不被外部抓 → 翻譯落地需 parent session 主動 `Write` 進 checkpoint + 更新 manifest。**未來若 parent session 仍需翻譯單段，需於 prompt 末附加「如你是 parent session 而非 m3 subprocess，請在最後告知『請手動將此翻譯寫入 logs/pipeline-checkpoints/<slug>/translate/active/chunk-NNNN.md 並更新 manifest.json 的 chunk N status=done + SHA256』之提醒」，避免再次發生翻譯產生但落地缺漏（已驗證 abhinavagupta-tantraloka chunk 87、aristotle-politics-el chunk 104、an8-eights chunk 57、kn-milindapanha chunk 54、vishnu-purana chunk 71 都走同路徑，模式穩定）。
+
 ## 2026-09-02 04:08 快照（kn-milindapanha chunk 54/281 m3 翻譯 stdout-only 落地 — parent session 主動寫 checkpoint、PIPELINE_STATUS 維持 kn-milindapanha translate 進行中、PROGRESS 古希臘羅馬 with_translation 25→26（前一回合 aristotle-politics-el +1 補 commit 入庫）、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有兩筆變更（前次 09-02 00:03 → 09-02 04:05 期間累積，無新 commit）：
