@@ -2,7 +2,7 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-09-08 04:00:17 +0800
+- 更新時間：2026-09-08 09:52:02 +0800
 - 佇列 tier：**核心**
 - 進度：**232 / 518** 已翻譯+標籤
 - 目前處理：`bud-astasahasrika-prajnaparamita-sa`
