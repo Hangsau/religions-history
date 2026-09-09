@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**205** / 518
-- 已標籤：**232** / 518
+- 已翻譯：**206** / 518
+- 已標籤：**233** / 518
 
 ## 各宗教核心進度
 
@@ -19,12 +19,12 @@
 | 北歐 | 15 | 8 | 8 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
 | 美洲 | 11 | 1 | 1 |
-| 儒教 | 10 | 3 | 9 |
+| 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 4 | 4 |
 | 古埃及 | 8 | 1 | 1 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
-| 現代新興 | 5 | 2 | 2 |
+| 現代新興 | 5 | 3 | 2 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 1 | 1 |
@@ -554,7 +554,7 @@
 - `analects` 論語（古典漢語）譯– 標✓
 - `book-of-changes` 周易（古典漢語）譯– 標✓
 - `book-of-poetry` 詩經（古典漢語）譯✓ 標✓
-- `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯✓ 標–
+- `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯✓ 標✓
 - `doctrine-of-the-mean` 中庸（古典漢語）譯– 標✓
 - `great-learning` 大學（古典漢語）譯– 標✓
 - `liji` 禮記（古典漢語）譯– 標✓
@@ -610,7 +610,7 @@
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯✓ 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
 - `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
-- `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯– 標–
+- `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯✓ 標–
 
 ### 神道（5 部）
 
