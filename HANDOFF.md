@@ -3,6 +3,28 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-09-09 15:59 快照（chun-qiu-zuo-zhuan m3 翻譯完成、轉 tag 任務 chunk 43/114 running、auto-pipeline 2h tick PIPELINE_STATUS 15:21 更新、stage interval 66% / weekly 21%、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有兩筆變更（前次 09-09 06:05 → 09-09 15:21 ~9 小時，跨一個 5H 窗 reset 至 13:00，再跨第二個 5H 窗 reset 至 18:00）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-09-09 05:47:34` → **`2026-09-09 15:21:42`**、`目前處理` `kn-jataka` → **`chun-qiu-zuo-zhuan`**、`一般失敗待重試` 3 部 → **3 部**（sibylline-oracles-el, huangdi-neijing 不變；`shiva-purana` → **`studies-in-the-scriptures-1`**，跨週 chunks 88-251 落地完成後 supervisor 從 retry pool 移除）、`已阻塞待人工處理` 47 部 → **49 部**（+2 升級）、`M3 執行狀態` `running — shiva-purana (translate)` → **`running — studies-in-the-scriptures-1 (translate)`**（翻譯階段新接手書，chun-qiu-zuo-zhuan 翻譯已 done 轉 tag）
+  - `translations/chun-qiu-zuo-zhuan/meta.json`：補上 `translation_status: done` + `translation_models: MiniMax-M3`（先前 m3 翻譯落地後 auto-pipeline 補登，book-level `semantic_tags` / `keywords` 沿用之前 5+12 暫存版，per-chunk tags 累積中）
+- 期間（2026-09-09 06:05 → 09-09 15:59 ~10 小時，跨 2 個 5H 窗 reset：08:00 → 13:00 → 18:00）supervisor 動態（`logs/pipeline-runtime.json` 15:59:36 快照 + `logs/supervisor-run.log`）：
+  - **chun-qiu-zuo-zhuan** m3 翻譯完成 → 切 tag 任務：`logs/pipeline-runtime.json` `slug=chun-qiu-zuo-zhuan, task=tag, chunk=43, chunks_total=114, retry_attempt=0, status=running, updated_at=2026-09-09T15:59:36`；supervisor-run.log 顯示 chunks 19→33 已 dispatch（M3 subprocess）；本週期 chunk 43 為當下 m3 派工（本次 parent session 收到 m3 tagger prompt，第 43/114 段：昭公元年，涵蓋 諸侯盟虢、楚公子圍鄭聘、邾悼公葬、叔孫豹莒事辯、令尹將王之預言、趙孟享鄭、子產放游楚於吳 等）
+  - **shiva-purana** 跨週接力 chunks 88-251 落地完成（parent session 接力：chunks 80-87 落地於 05:40-05:59、chunks 88-251 跨 9 小時內 supervisor M3 接力完成），supervisor 從 retry pool 移除
+  - **studies-in-the-scriptures-1** 新接手翻譯：M3 running；從 retry pool 接手（新書第一次進 translate pipeline）
+  - **kn-jataka** 翻譯 chunks 33-301 跨週接力中（status 於本週期內由 running 切換至 done 後清出 queue；新週期由 studies-in-the-scriptures-1 接手）
+- 配額（直接讀取 `logs/pipeline-runtime.json` 15:59:36 快照）：5H 窗剩餘 **66%**（interval_remaining_percent 66.0，5H reset 2026-09-09 **18:00:00** ~2 小時後）、週窗剩餘 **21%**（weekly_remaining_percent 21.0，週 reset 2026-09-14 **08:00:00**）；`interval_status: 1` / `weekly_status: 1`（均離開 0=exhausted 區間）；`pause_reason: null`、`resumed_by: quota-watch-resume.py` 14:04:48 觸發；`retry_attempt: 0`（chun-qiu-zuo-zhuan tag 接手 0 次 retry）
+- 本次主 session 額外動作：用戶貼 m3 tagger 角色 prompt（`chun-qiu-zuo-zhuan` 第 **43/114** 段，昭公元年 全文：元年春王正月公即位叔孫豹會晉趙武楚公子圍齊國弱宋向戌衛齊惡陳公子招蔡公孫歸生鄭罕虎許人曹人于虢；取鄆；秦伯之弟鍼出奔晉；邾子華卒晉荀吳帥師敗狄；莒去疾自齊入于莒；葬邾悼公；楚子麇卒公子比出奔晉；楚公子圍聘鄭且娶公孫段氏，伍舉為介、鄭行人子羽辭以墠聽命；令尹大宰伯州犁對、伍舉垂櫜入；祁午謂趙文子宋盟楚得志；趙文子答以信為本、能信不為人下；楚公子圍設服離衛叔孫穆子鄭子皮蔡子家齊國子陳公子招衛齊子宋合左師晉樂王鮒鄭行人揮伯州犁子羽九子各評；季武子伐莒取鄆楚請戮其使、樂桓子求貨叔孫弗與、趙孟不許戮請免之，論王伯之令不可壹、恤大舍小足以為盟主；令尹享趙孟賦大明之首章、趙孟賦小宛之二章；夏四月趙孟叔孫豹曹大夫入于鄭、鄭伯兼享之、子皮戒趙孟、趙孟賦瓠葉、穆叔賦鵲巢又賦采蘩、子皮賦野有死麇之卒章、趙孟賦常棣；天王使劉定公勞趙孟於潁、劉子美禹功、論神怒民叛何以能久、趙孟不復年；叔孫歸曾夭御季孫以勞之、論忍其外不忍其內、賈而欲贏而惡囂；鄭徐吾犯之妹美、公孫楚聘之、公孫黑又使強委禽焉、子產使女擇、子皙盛飾入布幣而出、子南戎服入左右射超乘而出、女自房觀之曰子皙信美矣抑子南夫也、夫夫婦婦所謂順也、適子南氏、子皙怒櫜甲見子南欲殺之而取其妻、子南執戈逐之及衝擊之以戈、子皙傷而歸、子產執子南而數之曰國之大節有五女皆奸之、五月庚辰鄭放游楚於吳、子產諮於大叔、吉不能亢身焉能亢宗、周公殺管叔而蔡蔡叔王室故也）。已按 prompt 規定**僅 stdout 輸出段 43 之 JSON 標籤**（semantic_tags 8 個：commentarial-layer, commandments-law, mandate-of-heaven, marriage-sacred, patriarchal, ritual-practice, secular-state, truthfulness；psych_tags 4 個：justice-power, trust-vulnerability, marriage-family, responsibility-leadership；keywords 15 個：昭公, 公子圍, 趙武, 叔孫豹, 子產, 公孫楚, 公孫黑, 鄭, 楚, 晉, 令尹, 盟會, 聘禮, 賦詩, 信），主控腳本會累積各段結果至書級 meta.json。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + 目前處理 chun-qiu-zuo-zhuan + 失敗/阻塞 3/49 + M3 改 studies-in-the-scriptures-1）+ `translations/chun-qiu-zuo-zhuan/meta.json`（translation_status done + translation_models MiniMax-M3）+ `HANDOFF.md`（本快照）；`logs/pipeline-checkpoints/chun-qiu-zuo-zhuan/translate/active/` 已清空（翻譯完成 checkpoints 被 supervisor 移除，gitignored 不進 commit）。commit 將僅含上述 3 檔，將 commit 並 push。
+- 下次接手：
+  1. supervisor 接力 `chun-qiu-zuo-zhuan` **tag** 階段 running（chunk 43/114, retry 0）；`studies-in-the-scriptures-1` **translate** 階段 M3 running（M3 queue 從 chun-qiu-zuo-zhuan 翻譯清出後接手新書）。
+  2. supervisor 同時接力 `chun-qiu-zuo-zhuan` 後續任務（tag 進行中，後續應接書級 semantic_tags / keywords 累積回填 meta.json、book-level 聚合）；chun-qiu-zuo-zhuan 翻譯 01-translation.md 已落地 931861 bytes（合 16 章），tag 收尾後該書整體 done。
+  3. supervisor 跨週接力其他 retryable：`sibylline-oracles-el`、`huangdi-neijing`（2 部，studies-in-the-scriptures-1 從 retry pool 移走後剩 2 部），blocked 49 部等待人工處置（清單見 `logs/pipeline-failed.json`）。
+  4. **5H 額度**自本 stop-hook 至下次 reset 視當下時段（reader 應 `cat logs/pipeline-runtime.json` 讀 `interval_remaining_percent` 即時值）；本次 quota 快照：interval 66%、weekly 21%、interval resets 2026-09-09 18:00、weekly resets 2026-09-14 08:00。
+  5. `一般失敗待重試` **3 部** — sibylline-oracles-el, huangdi-neijing, studies-in-the-scriptures-1（清單見 `logs/pipeline-failed.json` `retryable` 狀態；本次週期內 shiva-purana 跨週 chunks 88-251 完成後從 retry pool 移除）。
+  6. `已阻塞待人工處理` **49 部**（清單見 `logs/pipeline-failed.json` `blocked` 狀態 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1 等）。
+  7. PROGRESS.json 增量（儒教 done N+1）由 supervisor 收尾 chun-qiu-zuo-zhuan 整書 chunks 後下次 regen 觸發，照既有批次格式 commit。
+
 ## 2026-09-09 06:05 快照（kn-jataka 接手 m3 翻譯 chunk 33/301 running、shiva-purana 87/251 done 後 parent session 落地 chunk 88/251、auto-pipeline 2h tick PIPELINE_STATUS 05:47 更新、stage interval 65% / weekly 40%、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有一筆變更（前次 09-08 23:57 → 09-09 05:47 ~6 小時，跨一個 5H 窗 reset）：
