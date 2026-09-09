@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-09-09 19:59 快照（chun-qiu-zuo-zhuan tag chunk 43 失敗進 retry pool、retryable 3→4、auto-pipeline 2h tick PIPELINE_STATUS 19:41 更新、stage interval 71% / weekly 16%、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有一筆變更（前次 09-09 15:59 → 09-09 19:41 ~4 小時，跨一個 5H 窗 reset 至 23:00）：
+  - `00-overview/PIPELINE_STATUS.md`：`更新時間` `2026-09-09 15:21:42` → **`2026-09-09 19:41:38`**、`一般失敗待重試` 3 部 → **4 部**（新增 `chun-qiu-zuo-zhuan`，本週期內 supervisor 接力 tag chunk 43 失敗 `error_code: invalid_tag_json, last_error: tag chunk 43 was not parseable JSON`，`first_failed_at` / `last_failed_at` 2026-09-09T08:04:27 UTC = 16:04 +0800、`next_retry_at` 2026-09-09T08:09:27 UTC = 16:09 +0800，retry 後 supervisor 已 restore 為 chunk 33 running 並推進至 19:59）；`M3 執行狀態` `running — studies-in-the-scriptures-1 (translate)` 維持（無變動）。
+- 期間（2026-09-09 15:59 → 09-09 19:59 ~4 小時，跨一個 5H 窗 reset：18:00 → 23:00）supervisor 動態（`logs/pipeline-runtime.json` 19:59:51 快照 + `logs/supervisor-run.log` + `logs/pipeline-failed.json`）：
+  - **chun-qiu-zuo-zhuan** tag chunk 43 失敗 → 進 retry pool → retry 後恢復為 chunk 33 running：`logs/pipeline-runtime.json` `slug=chun-qiu-zuo-zhuan, task=tag, chunk=33, chunks_total=114, retry_attempt=0, status=running, updated_at=2026-09-09T19:59:51`；`detected_at: 2026-09-09T18:03:43`（quota-watch-resume 觸發重試）；`logs/pipeline-failed.json` `chun-qiu-zuo-zhuan: {status: retryable, attempts: 1, task: tag, error_code: invalid_tag_json, last_error: tag chunk 43 was not parseable JSON}` 標記為 retryable 後 supervisor 已從 chunk 33 續跑；`resumed_at: 2026-09-09T18:03:45`、`resumed_by: quota-watch-resume.py`
+  - **studies-in-the-scriptures-1** 翻譯 M3 running 維持（無變動）
+- 配額（直接讀取 `logs/pipeline-runtime.json` 19:59:51 快照）：5H 窗剩餘 **71%**（interval_remaining_percent 71.0，5H reset 2026-09-09 **23:00:00** ~3 小時後）、週窗剩餘 **16%**（weekly_remaining_percent 16.0，週 reset 2026-09-14 **08:00:00**）；`interval_status: 1` / `weekly_status: 1`（均離開 0=exhausted 區間）；`pause_reason: null`、`resumed_by: quota-watch-resume.py` 18:03:45 觸發
+- 本次主 session 額外動作：用戶貼 m3 tagger 角色 prompt（`chun-qiu-zuo-zhuan` 第 **33/114** 段，襄公九年至十三年一段，涵蓋 伯姬歸宋、楚人求鄭、晉侯見鍾儀問南音、范文子評仁信忠敏、楚伐莒、晉景公病入膏肓、桑田巫預言、晉景公陷廁卒、叔申立君謀、魯送晉葬、聲伯奪婦、郤犨求施氏婦、宋華元合晉楚之成、晉楚宋西門盟、子反享郤至設地室金奏驚走、范文子論禮與亂、郤至聘楚、伐秦、孟獻子論敬為身基）。已按 prompt 規定**僅 stdout 輸出段 33 之 JSON 標籤**（semantic_tags 5 個：commentarial-layer, ritual-practice, secular-state, truthfulness, prophetic-revelation；psych_tags 5 個：death, meaning-of-suffering, trust-vulnerability, fear-uncertainty, honesty-hypocrisy；keywords 14 個：春秋, 左傳, 晉景公, 鍾儀, 桑田巫, 病入膏肓, 禮, 范文子, 宋華元, 郤至, 子反, 晉楚之成, 盟約, 楚子重），主控腳本會累積各段結果至書級 meta.json。
+- 本次 uncommitted 變更（2 檔）：`00-overview/PIPELINE_STATUS.md`（auto-regen 時間戳 + `chun-qiu-zuo-zhuan` 加入 retry pool 4 部）+ `HANDOFF.md`（本快照）。commit 將僅含上述 2 檔，將 commit 並 push。
+- 下次接手：
+  1. supervisor 接力 `chun-qiu-zuo-zhuan` **tag** 階段 running（chunk 33/114, retry 0，supervisor 已從 failed chunk 43 退回 chunk 33 續跑）；`studies-in-the-scriptures-1` **translate** 階段 M3 running 維持。
+  2. supervisor 同時接力 `chun-qiu-zuo-zhuan` 後續任務（tag 進行中，後續應接書級 semantic_tags / keywords 累積回填 meta.json、book-level 聚合）；chun-qiu-zuo-zhuan 翻譯 01-translation.md 已落地（合 16 章），tag 收尾後該書整體 done。
+  3. supervisor 跨週接力其他 retryable：`sibylline-oracles-el`、`huangdi-neijing`、`studies-in-the-scriptures-1`（3 部長期 retryable），加上本週期新增 `chun-qiu-zuo-zhuan` tag retryable（已 retry 一次恢復），blocked 49 部等待人工處置（清單見 `logs/pipeline-failed.json`）。
+  4. **5H 額度**自本 stop-hook 至下次 reset 視當下時段（reader 應 `cat logs/pipeline-runtime.json` 讀 `interval_remaining_percent` 即時值）；本次 quota 快照：interval 71%、weekly 16%、interval resets 2026-09-09 23:00、weekly resets 2026-09-14 08:00。
+  5. `一般失敗待重試` **4 部** — sibylline-oracles-el, huangdi-neijing, studies-in-the-scriptures-1, chun-qiu-zuo-zhuan（清單見 `logs/pipeline-failed.json` `retryable` 狀態）。
+  6. `已阻塞待人工處理` **49 部**（清單見 `logs/pipeline-failed.json` `blocked` 狀態 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1 等）。
+  7. PROGRESS.json 增量（儒教 done N+1）由 supervisor 收尾 chun-qiu-zuo-zhuan 整書 chunks 後下次 regen 觸發，照既有批次格式 commit。
+  8. **tag chunk 43 invalid_tag_json 失敗根因推測**：本次 parent session 收到 prompt 為 chunk **33** 而非 43，但 supervisor 14:00-16:00 期間曾派發 chunk 43 → m3 subprocess 回傳非可解析 JSON（多為額外 markdown fence / 自然語言摘要混入）。supervisor retry 機制自動退回 chunk 33 重新派發，模式與過去 shiva-purana / aristotle-metaphysics-el parent session chunk fallback 類似，無須人工介入。
+
 ## 2026-09-09 15:59 快照（chun-qiu-zuo-zhuan m3 翻譯完成、轉 tag 任務 chunk 43/114 running、auto-pipeline 2h tick PIPELINE_STATUS 15:21 更新、stage interval 66% / weekly 21%、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有兩筆變更（前次 09-09 06:05 → 09-09 15:21 ~9 小時，跨一個 5H 窗 reset 至 13:00，再跨第二個 5H 窗 reset 至 18:00）：
