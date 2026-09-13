@@ -3,6 +3,45 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## ⏸ 2026-09-13 專案暫停（使用者要求，非配額問題）
+
+**全專案自動管線已關閉**，MiniMax 額度改派其他用途。這不是故障，不要「修復」它。
+
+- 已關閉的三個自動觸發點：
+  1. `scripts/quota-watch-resume.py`（原 PID 24292）— 已 kill。它原本在等 2026-09-14 08:00 週額度重置，一旦偵測到額度回來會**自動刪除 HALT flag 並重啟 supervisor**，所以必須先殺它，光寫 flag 沒用。
+  2. deskboard 刊版分頁（`scripts/status_gui.py`，hub.py 分頁①）的 supervisor 自動復活 — 由 HALT flag 擋住。
+  3. `supervise-pipeline.py` / `auto-pipeline.py` — 由 HALT flag 擋住。
+- `logs/pipeline-HALT.flag` 已建立（gitignored，內含關閉原因與恢復步驟）。
+- Windows Task Scheduler 的 `religions-history-pipeline-supervisor` **未註冊**（`install-pipeline-task.ps1` 從未執行），不必處理。
+- 暫停時的 checkpoint：`studies-in-the-scriptures-1` — 翻譯 **已完成**（6,876 行，`translation_status: done`、`translation_models: MiniMax-M3`、verify PASS）；tag 停在 **chunk 35 / 114**，chunk 36 起未跑。
+- 暫停時整體進度：4683 部收集 / 206 部完整翻譯 / 核心 tier 分類 151 of 518（29%）；retryable 3 部、blocked 49 部（清單見 `logs/pipeline-failed.json`）。
+- 本次已 commit 暫停前的在途成果（PIPELINE_STATUS、PROGRESS.json、studies-in-the-scriptures-1 的 meta + 譯文），工作樹乾淨。
+
+**恢復步驟（使用者說要繼續才做）：**
+1. 確認 MiniMax 是否還歸本專案用（已改派他用的話先確認 `scripts/translate.py` 的 provider 設定仍有效）。
+2. 刪 `logs/pipeline-HALT.flag`。
+3. `powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden`
+4. checkpoint 會從 `studies-in-the-scriptures-1` tag chunk 35 續跑（`--skip-done` 語義）。
+
+## 2026-09-10 04:00 快照（studies-in-the-scriptures-1 翻譯整書完成、切入 P5 tag chunk 1/114、PROGRESS 增量、stop-hook 收尾）
+
+- 本次 stop-hook 觸發時工作樹有四筆變更（前次 00:01 → 04:00，跨 5H reset 至 08:00）：
+  - `00-overview/PIPELINE_STATUS.md`：更新時間 → `2026-09-10 04:00:17 +0800`、核心進度 **233 / 518**、目前處理 `studies-in-the-scriptures-1`、一般失敗待重試 3 部、已阻塞待人工處理 49 部。
+  - `00-overview/PROGRESS.json`：現代新興 `with_translation` **2 → 3**；全域統計同步增加 1 部。
+  - `translations/studies-in-the-scriptures-1/meta.json`：補上 `translation_status: done`、`translation_models: MiniMax-M3`。
+  - `translations/studies-in-the-scriptures-1/01-translation.md`：整書翻譯檔新落地，**699,283 bytes / 6,876 行**。
+- supervisor runtime（`logs/pipeline-runtime.json` 04:00:18）已由 P4 translate 切入 P5 **tag**：`slug=studies-in-the-scriptures-1, task=tag, chunk=1, chunks_total=114, retry_attempt=0, status=running`；本次尚未有可提交的 tag manifest，後續由 supervisor 接力並回填書級 `semantic_tags` / `psych_tags` / `keywords`。
+- 配額：5H 窗剩餘 **100%**（reset 2026-09-10 08:00），週窗剩餘 **3%**（reset 2026-09-14 08:00）；週窗已接近保留線，後續 tag 接力應遵守 `weekly_reserve_percent: 2.0`，避免再開大量任務。
+- 目前失敗佇列已由 `logs/pipeline-failed.json` 實測確認：retryable 3 部（`sibylline-oracles-el`、`huangdi-neijing`、`studies-in-the-scriptures-1`；後者舊 translate retry 狀態尚未清除）、blocked 49 部。
+- 本次 stop-hook 主 session 僅完成標籤輸出驗證與狀態核對，未直接寫入 tag checkpoint；翻譯整書完成與 P5 切換由 supervisor 落地。
+- 本次 commit 應包含上述四項工作樹變更與本 `HANDOFF.md` 快照；`logs/pipeline-checkpoints/` 為 gitignored 執行期產物，不進 commit。
+
+- 下次接手：
+  1. supervisor 接力 `studies-in-the-scriptures-1` **tag** chunk 1/114；每段成功後確認 checkpoint / manifest，再推進下一段。
+  2. tag 114 段完成後回填 `meta.json` 書級 `semantic_tags`、`psych_tags`、`keywords`，並確認 `translation_status` 保持 done。
+  3. 驗證 `PROGRESS.json`、`PIPELINE_STATUS.md` 與 `meta.json` 一致；跑 `verify.py --all` 後再提交。
+  4. 週額度僅剩 3%，不要在本週窗內啟動非必要的大批量任務；持續觀察 `logs/pipeline-runtime.json` 的 quota 狀態。
+
 ## 2026-09-10 00:01 快照（studies-in-the-scriptures-1 翻譯 chunk 281/308 dispatched、M3 stdout 翻譯輸出落地、auto-pipeline 2h tick PIPELINE_STATUS 23:37 更新、stage interval 90% / weekly 12%、stop-hook 收尾）
 
 - 本次 stop-hook 觸發時工作樹有一筆變更（前次 09-09 19:59 → 09-10 00:01 ~4 小時，跨一個 5H 窗 reset 至 04:00）：
