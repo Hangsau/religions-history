@@ -38,11 +38,39 @@ attempt metric 多記 `usage` 欄。
 - `auto-pipeline.py --tier 核心 --limit 3 --no-push`：314 次呼叫全 success，配額只掉 4%（5H 96% / 週 97%）
 - 抽查 `ramanuja-gitabhashya` chunk 44：梵文名相原樣保留 + 漢譯夾注、詩體保詩體、`=== N | label ===` 完整
 
+### 同日第二件事：單實例鎖在 Windows 上完全失效（已修，commit `1d7bf0c9`）
+
+刪掉 HALT flag 後 deskboard 立刻復活了一個 supervisor（06:49:25，pid 28084），我又手動起了
+第二個（07:06:43，pid 34620）。**兩個都成功取得鎖**，於是兩個 `auto-pipeline` 同時寫同一本
+`ramanuja-gitabhashya` 的 checkpoint 目錄——CLAUDE.md 明列為禁止的「同源並行雙跑」。
+`logs/supervisor.log` 那兩行 `[start]` 就是證據。
+
+根因不在鎖的邏輯，在探活函式。CPython 的 Windows `os.kill(pid, 0)` 走
+`OpenProcess(PROCESS_ALL_ACCESS)`，對 deskboard 以 DETACHED_PROCESS 派出的 pythonw 會拋
+`WinError 87`，與「PID 不存在」無法區分。實測五個確實在跑的 pid（含 deskboard hub 自己）
+**全部**被判成 dead，鎖因此被當殘留刪掉。
+
+影響範圍是四個 pidfile 使用者，都已改用 `pipeline_lock.pid_alive()`
+（`OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION)` + `GetExitCodeProcess`，判不出來一律回
+alive）：`pipeline_lock.acquire_run_lock`、`supervise-pipeline.acquire_pidfile`、
+`quota-watch-resume.acquire_pidfile`、`pipeline_failures._pid_alive`。
+
+善後：已 kill 34620 + 19316（留 deskboard 管的 28084/15264），pidfile 改指向存活者，清掉
+2026-09-10 留下的 `quota-watch.pid`（24292 早已死）。**資料沒有損壞**——chunk 檔走
+`os.replace` 原子寫入且檔名含 pid+uuid，雙跑最壞只是重算同一個 chunk，掃過 47 個 active
+checkpoint 目錄零個 `.tmp` 殘留。
+
+> 更正前面的回報：我先前對使用者說過「沒有鎖的 bug，stale PID 會正確解析」——**錯**。當時的
+> 測試用 `subprocess.Popen` 起自己的子行程，父行程持有 handle 所以 `os.kill` 行為不同，
+> 測不出這個 bug。對無親屬關係的 pythonw 才會踩到 WinError 87。
+
 ### 下次接手
 
-1. 管線正在跑 `ramanuja-gitabhashya` translate（264 chunks）。supervisor 尚未重啟，目前是
-   前景 `auto-pipeline.py` 在跑；要常態化就跑
-   `powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden`。
+1. 管線正在跑 `ramanuja-gitabhashya` translate（264 chunks），由 deskboard 拉起的
+   supervisor 28084 → auto-pipeline 15264 負責，**不需要再手動起 supervisor**。若哪天真的
+   全死光了才跑
+   `powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden`；
+   起之前先看 `logs/supervisor.pid` 與 `logs/auto-pipeline.lock` 裡的 pid 是不是還活著。
 2. **chunk 大小仍是 3,000 字元**（`MAX_CHARS_PER_CALL - 5000`）。行李消掉後這個保留額已無意義，
    放大到 1–2 萬字元還有 5–7× 的呼叫數削減——但會改動 `max_chunk_chars`，**所有在途 checkpoint
    會被歸檔重跑**，要挑手上沒有長書在跑的時機做。
