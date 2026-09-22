@@ -68,6 +68,22 @@
 - 派 m3 用 `claude-m3 -p --permission-mode bypassPermissions "..."` 從 Bash 起 background
 - m3 跑時不要主 session 同步跑同一個 source（避免 rate limit 翻倍）
 
+**兩條管道分清楚，不要混用**：
+
+| 用途 | 管道 | 為什麼 |
+|------|------|--------|
+| 派 agent 做事（跑 downloader / verify / commit） | `claude-m3 -p` | 需要工具與檔案系統 |
+| 生成內容（P4 翻譯 / P5 標籤） | `translate.py` 直呼 `https://api.minimax.io/anthropic` 的 `/v1/messages` | 只要文字進文字出，不需要工具 |
+
+**P4/P5 絕對不要走回 `claude -p`**：那條路每次呼叫都重送 Claude Code 的系統提示、工具定義與
+CLAUDE.md／MEMORY.md，實測固定行李約 83,500 tokens（隔離對照：6 字元 prompt、空目錄，仍要
+87,282）。生產期 115 筆呼叫的 input 中位數是 85,009，真正 payload 只有 5,000——94% 的週配額
+燒在與經文無關的內容上，一本 308 chunk 的書就吃掉 90% 以上週視窗。改直呼後同一批工作的
+input 中位數是 1,961（其中 1,920 是 cache_read）。
+
+角色守則走 `system` block 並掛 `cache_control`，**不要放回 user prompt**——放回去就跨 chunk
+重算一次，快取全失效。`build_prompt()` / `build_tag_prompt()` 因此不收 `role` 參數。
+
 ### 5. 爬蟲倫理（**強制**）
 
 所有 downloader **必須**：

@@ -3,7 +3,56 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## ⏸ 2026-09-13 專案暫停（使用者要求，非配額問題）
+## 2026-09-23 管線恢復 + 派工層改直呼 API（本次工作）
+
+**HALT flag 已刪除，管線恢復運轉。** 下面那段 2026-09-13 的暫停紀錄已失效，保留只為說明當時
+關了哪三個觸發點（恢復時要確認的也是那三個）。
+
+### 做了什麼
+
+`scripts/translate.py` 的傳輸層從 `claude -p` subprocess 換成直呼 MiniMax 的
+Anthropic-相容 endpoint（`https://api.minimax.io/anthropic` 的 `/v1/messages`）。
+
+根因是 harness 行李，不是配額不夠：
+
+| 量測 | input tokens |
+|------|-------------|
+| 生產期 115 筆實際呼叫中位數（舊） | 85,009 |
+| 隔離對照：6 字元 prompt、空目錄（舊） | 87,282 |
+| 本次 314 筆呼叫中位數（新） | **1,961**（其中 cache_read 1,920） |
+
+也就是說每次呼叫約 83,500 tokens 是 Claude Code 的系統提示、工具定義、CLAUDE.md、MEMORY.md
+與 skills 清單，與經文無關；真正 payload 只有 5,000 上下。一本 308 chunk 的書吃掉 90% 以上
+週視窗就是這樣來的。角色守則改走 `system` block 掛 `cache_control`，跨 chunk 命中快取。
+
+其餘同 commit `67967d86`：`stop_reason == max_tokens` 視為失敗（防截斷譯文被當成功寫進
+chunk）、只取 `type == "text"` block（濾掉 M3 thinking）、空回應連三次走既有 quota 等待、
+attempt metric 多記 `usage` 欄。
+
+**checkpoint 全部存活**：role 文字、`MAX_CHARS_PER_CALL`、`PRIMARY_MODEL` 都沒動，
+`_manifest_identity()` 的 `role_sha256` / `max_chunk_chars` / `model` 不變。
+
+### 驗證
+
+- 單篇 translate + tag（`sefaria-rashba-on-megillah`、`sefaria-shiltei-hagiborim-on-pesachim`）輸出格式與舊版一致
+- `auto-pipeline.py --tier 核心 --limit 3 --no-push`：314 次呼叫全 success，配額只掉 4%（5H 96% / 週 97%）
+- 抽查 `ramanuja-gitabhashya` chunk 44：梵文名相原樣保留 + 漢譯夾注、詩體保詩體、`=== N | label ===` 完整
+
+### 下次接手
+
+1. 管線正在跑 `ramanuja-gitabhashya` translate（264 chunks）。supervisor 尚未重啟，目前是
+   前景 `auto-pipeline.py` 在跑；要常態化就跑
+   `powershell Start-Process pythonw -ArgumentList 'scripts/supervise-pipeline.py','核心' -WindowStyle Hidden`。
+2. **chunk 大小仍是 3,000 字元**（`MAX_CHARS_PER_CALL - 5000`）。行李消掉後這個保留額已無意義，
+   放大到 1–2 萬字元還有 5–7× 的呼叫數削減——但會改動 `max_chunk_chars`，**所有在途 checkpoint
+   會被歸檔重跑**，要挑手上沒有長書在跑的時機做。
+3. `logs/pipeline-failed.json`：retryable 3 部、blocked 49 部，清單見檔案。
+4. 本檔 368 KB，Read 一次讀不完（上限 256 KB）。stop-hook 每個 session 寫一份巨大快照是主因，
+   要處理的話把 2026-09 以前的快照切到 `HANDOFF-archive-2026-09.md`。
+
+---
+
+## ⏸ 2026-09-13 專案暫停（已於 2026-09-23 恢復，本段僅供對照）
 
 **全專案自動管線已關閉**，MiniMax 額度改派其他用途。這不是故障，不要「修復」它。
 
