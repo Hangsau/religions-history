@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 """
-Pipeline B: dispatch translation to MiniMax-M3 (claude-m3) per scripture.
+Pipeline B: dispatch translation to MiniMax-M3 per scripture.
 
 For each target slug:
     1. Read translations/<slug>/raw/original.txt
     2. Read translations/<slug>/meta.json  (for source_language / name_zh)
-    3. Build prompt with role-instructions + original text
-    4. Dispatch via claude-m3 -p  →  output saved to translations/<slug>/01-translation.md
+    3. Build prompt (role → cached system block, text → user message)
+    4. Dispatch via MiniMax's Anthropic-compatible /v1/messages
+       →  output saved to translations/<slug>/01-translation.md
 
 Usage:
     # Translate one specific scripture
@@ -32,9 +33,10 @@ import hashlib
 import json
 import os
 import shutil
-import subprocess
 import sys
 import time
+import urllib.error
+import urllib.request
 import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -234,9 +236,10 @@ def _record_completion(slug: str, task: str, output_chars: int,
 
 def _call_m3_measured(prompt: str, slug: str, task: str, input_chars: int,
                       chunk: int | None = None, chunks_total: int | None = None,
-                      resumed: bool = False, dry_run: bool = False) -> str | None:
+                      resumed: bool = False, dry_run: bool = False,
+                      system: str | None = None) -> str | None:
     started = time.monotonic()
-    output = call_m3(prompt, dry_run=dry_run)
+    output = call_m3(prompt, dry_run=dry_run, system=system)
     if not dry_run:
         runtime = {}
         try:
@@ -254,14 +257,17 @@ def _call_m3_measured(prompt: str, slug: str, task: str, input_chars: int,
             outcome = "provider_wait"
         else:
             outcome = "error"
-        _append_metric({
+        metric = {
             "event": "attempt", "timestamp": datetime.now(TZ).isoformat(),
             "slug": slug, "task": task,
             "chunk_index": chunk, "chunks_total": chunks_total, "model": PRIMARY_MODEL,
             "input_chars": input_chars, "prompt_chars": len(prompt),
             "elapsed_ms": round((time.monotonic() - started) * 1000), "outcome": outcome,
             "output_chars": len(output or ""), "resumed": resumed,
-        })
+        }
+        if output is not None and LAST_USAGE:
+            metric["usage"] = dict(LAST_USAGE)
+        _append_metric(metric)
     return output
 
 
@@ -360,7 +366,8 @@ def load_scripture(slug: str) -> tuple[str, dict] | None:
     return orig.read_text(encoding="utf-8"), json.loads(meta_p.read_text(encoding="utf-8"))
 
 
-def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str, translation_text: str | None = None) -> str:
+def build_prompt(task: str, slug: str, meta: dict, original_text: str, translation_text: str | None = None) -> str:
+    # 角色守則改走 system block（帶 cache_control），不再塞進 user prompt。
     source_language = meta.get("source_language") or meta.get("language", "?")
     meta_block = f"""- **slug**: {slug}
 - **name_zh**: {meta.get('name_zh', '?')}
@@ -388,11 +395,7 @@ def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str
         instruction = "請按守則為上方經文寫**白話註釋**（歷史背景 + 名相索引 + 段落白話解釋 + 學術爭議）。"
     else:
         raise ValueError(task)
-    return f"""{role}
-
----
-
-## 本次任務
+    return f"""## 本次任務
 
 {meta_block}
 
@@ -437,51 +440,62 @@ def build_prompt(task: str, role: str, slug: str, meta: dict, original_text: str
 """
 
 
-def _run_claude(prompt: str, base_url: str, token: str, model: str) -> tuple[str | None, str | None]:
-    """跑一次 `claude -p`（Anthropic-相容端點）。回 (stdout, None) 或 (None, err_msg)。"""
-    env = os.environ.copy()
-    env["ANTHROPIC_BASE_URL"] = base_url
-    env["ANTHROPIC_AUTH_TOKEN"] = token
-    env["ANTHROPIC_MODEL"] = model
-    env["ANTHROPIC_SMALL_FAST_MODEL"] = model
-    proc = None
+API_MAX_TOKENS = int(os.environ.get("RELIGIONS_M3_MAX_TOKENS", "8192"))
+# _run_api 每次成功後覆寫；_call_m3_measured 讀它把真實 token 用量寫進 metrics。
+LAST_USAGE: dict[str, int] = {}
+
+
+def _run_api(prompt: str, base_url: str, token: str, model: str,
+             system: str | None = None) -> tuple[str | None, str | None]:
+    """直呼 Anthropic-相容 /v1/messages。回 (text, None) 或 (None, err_msg)。
+
+    不走 `claude -p`：那條路每次都重送 Claude Code 的系統提示、工具定義與
+    CLAUDE.md／MEMORY.md，實測固定行李約 83,500 tokens，而本任務 payload 僅約
+    5,000，週配額有 94% 燒在與經文無關的內容上。角色守則改走 system block
+    （帶 cache_control），跨 chunk 可命中快取。
+    """
+    body: dict[str, object] = {
+        "model": model,
+        "max_tokens": API_MAX_TOKENS,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    if system:
+        body["system"] = [{"type": "text", "text": system,
+                           "cache_control": {"type": "ephemeral"}}]
+    req = urllib.request.Request(
+        base_url.rstrip("/") + "/v1/messages", method="POST",
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Authorization": f"Bearer {token}",
+                 "content-type": "application/json",
+                 "anthropic-version": "2023-06-01"})
     try:
-        creationflags = getattr(subprocess, "CREATE_NO_WINDOW", 0)
-        if os.name == "nt":
-            creationflags |= getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0)
-        proc = subprocess.Popen(
-            ["claude", "-p", "--permission-mode", "bypassPermissions"],
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            # M3 reasoning latency varies with traffic. Keep a finite unattended
-            # bound, but allow slower valid responses instead of treating 180s as quota.
-            env=env,
-            # Windows: 別讓 claude 這個主控台程式從背景進程彈出黑框視窗
-            creationflags=creationflags,
-        )
-        stdout, stderr = proc.communicate(prompt.encode("utf-8"), timeout=M3_TIMEOUT_SECONDS)
-        if proc.returncode != 0:
-            return None, f"exit {proc.returncode}: {stderr.decode('utf-8', errors='replace')[:500]}"
-        return stdout.decode("utf-8", errors="replace"), None
-    except subprocess.TimeoutExpired:
-        if proc is not None:
-            if os.name == "nt":
-                subprocess.run(
-                    ["taskkill", "/PID", str(proc.pid), "/T", "/F"],
-                    capture_output=True,
-                    creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
-                    timeout=15,
-                )
-            else:
-                proc.kill()
-            try:
-                proc.communicate(timeout=5)
-            except subprocess.TimeoutExpired:
-                proc.kill()
+        with urllib.request.urlopen(req, timeout=M3_TIMEOUT_SECONDS) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except TimeoutError:
         return None, f"timeout after {M3_TIMEOUT_SECONDS}s"
-    except FileNotFoundError:
-        return None, "`claude` CLI not found in PATH"
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")[:500]
+        return None, f"http {exc.code}: {detail}"
+    except urllib.error.URLError as exc:
+        return None, f"connection error: {exc.reason}"
+    except (json.JSONDecodeError, OSError) as exc:
+        return None, f"invalid response: {exc}"
+
+    # 截斷的譯文若被當成功寫入會靜默毀掉該 chunk，必須當失敗讓 checkpoint 保留原狀。
+    if payload.get("stop_reason") == "max_tokens":
+        return None, f"output truncated at max_tokens={API_MAX_TOKENS}"
+    content = payload.get("content")
+    if not isinstance(content, list):
+        return None, f"unexpected response shape: {str(payload)[:300]}"
+    text = "".join(block.get("text", "") for block in content
+                   if isinstance(block, dict) and block.get("type") == "text")
+    if not text.strip():
+        return None, f"empty response (stop_reason={payload.get('stop_reason')})"
+    usage = payload.get("usage")
+    LAST_USAGE.clear()
+    if isinstance(usage, dict):
+        LAST_USAGE.update({k: v for k, v in usage.items() if isinstance(v, int)})
+    return text, None
 
 
 MINIMAX_ANTHROPIC_URL = "https://api.minimax.io/anthropic"
@@ -631,9 +645,9 @@ def _resolve_backend(model: str) -> tuple[str, str] | None:
     return None
 
 
-def call_m3(prompt: str, dry_run: bool = False) -> str | None:
-    """只呼叫 MiniMax-M3；配額訊號或連續無詳情 exit 1 立即停管線。"""
-    sys.stdout.flush()  # ensure prior prints land before subprocess wait
+def call_m3(prompt: str, dry_run: bool = False, system: str | None = None) -> str | None:
+    """只呼叫 MiniMax-M3；配額訊號或連續無詳情失敗立即停管線。"""
+    sys.stdout.flush()  # ensure prior prints land before the blocking API call
     if dry_run:
         print(f"\n[DRY RUN] prompt length: {len(prompt)} chars\n{'='*60}")
         print(prompt[:2000] + "\n...[truncated]...\n" + prompt[-500:])
@@ -648,9 +662,9 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
     base_url, token = backend
     if not _quota_preflight():
         return None
-    blank_exit_ones = 0
+    blank_replies = 0
     for attempt in range(1, 4):
-        out, err = _run_claude(prompt, base_url, token, PRIMARY_MODEL)
+        out, err = _run_api(prompt, base_url, token, PRIMARY_MODEL, system)
         if out is not None:
             print(MODEL_MARKER.format(name=PRIMARY_MODEL, role="primary"))
             LAST_MODELS_USED.add(PRIMARY_MODEL)
@@ -670,11 +684,12 @@ def call_m3(prompt: str, dry_run: bool = False) -> str | None:
                                      "connection", "temporarily unavailable", "overloaded")):
             _wait_for_provider(err or "M3 provider unavailable", "provider_unavailable")
             return None
-        if (err or "").strip() in ("exit 1:", "exit 1: "):
-            blank_exit_ones += 1
-            print(f"  [warn] {PRIMARY_MODEL} 無詳情 exit 1（{blank_exit_ones}/3）")
-            if blank_exit_ones >= 3:
-                _wait_for_quota("MiniMax-M3 repeated detail-free exit 1")
+        # 被節流時 M3 會回 200 但內容全空；連三次代表額度面的問題，不是這段經文的問題。
+        if "empty response" in detail:
+            blank_replies += 1
+            print(f"  [warn] {PRIMARY_MODEL} 空回應（{blank_replies}/3）")
+            if blank_replies >= 3:
+                _wait_for_quota("MiniMax-M3 repeated empty responses")
                 return None
             continue
         _record_generation_error(err or f"{PRIMARY_MODEL} generation failed")
@@ -811,11 +826,11 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
 
     # Single-call path: text fits
     if len(chunkable_text) <= MAX_CHARS_PER_CALL:
-        prompt = build_prompt(task, role, slug, meta, chunkable_text, translation_text)
+        prompt = build_prompt(task, slug, meta, chunkable_text, translation_text)
         print(f"  [start] {slug} ({task})  (prompt {len(prompt)} chars)")
         if not dry_run:
             set_current_work(slug, task)
-        output = _call_m3_measured(prompt, slug, task, len(chunkable_text), dry_run=dry_run)
+        output = _call_m3_measured(prompt, slug, task, len(chunkable_text), dry_run=dry_run, system=role)
         if output is None or dry_run:
             return dry_run
         output = strip_output_wrappers(output)
@@ -848,15 +863,15 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
         chunk_meta_note = f"\n\n**注意：本經分 {len(groups)} 段處理，這是第 {i}/{len(groups)} 段。請只處理本段內容，標題列只在第 1 段需要，後續段直接從 `=== N | label ===` 開始即可。**"
         # For annotate, pass chunk as the "translation" to annotate (since we're chunking the translation now)
         if task == "translate":
-            prompt = build_prompt(task, role, slug, meta, chunk_text + chunk_meta_note, translation_text)
+            prompt = build_prompt(task, slug, meta, chunk_text + chunk_meta_note, translation_text)
         else:
             # Annotation: chunk_text is the translation chunk; original is not actively passed in chunked mode
-            prompt = build_prompt(task, role, slug, meta, "(原文略，見原文檔)", chunk_text + chunk_meta_note)
+            prompt = build_prompt(task, slug, meta, "(原文略，見原文檔)", chunk_text + chunk_meta_note)
         print(f"    [chunk {i}/{len(groups)}] {slug} ({task})  ({len(chunk_text)} chars)")
         if not dry_run:
             set_current_work(slug, task, i, len(groups))
         output = _call_m3_measured(prompt, slug, task, len(chunk_text), i, len(groups),
-                                   resumed=bool(completed), dry_run=dry_run)
+                                   resumed=bool(completed), dry_run=dry_run, system=role)
         if output is None:
             if dry_run:
                 continue
@@ -897,16 +912,13 @@ def translate_one(slug: str, task: str, role: str, skip_done: bool = False, dry_
     return True
 
 
-def build_tag_prompt(role: str, slug: str, meta: dict, text: str, whitelist: set[str],
+def build_tag_prompt(slug: str, meta: dict, text: str, whitelist: set[str],
                      psych_whitelist: set[str], chunk_note: str = "") -> str:
+    # 角色守則改走 system block（帶 cache_control），不再塞進 user prompt。
     source_language = meta.get("source_language") or meta.get("language", "?")
     vocab = " ".join(sorted(whitelist))
     psych_vocab = " ".join(sorted(psych_whitelist))
-    return f"""{role}
-
----
-
-## 本次任務
+    return f"""## 本次任務
 
 - **slug**: {slug}
 - **name_zh**: {meta.get('name_zh', '?')}
@@ -1021,11 +1033,11 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
 
     # Chunk if large; union tags across chunks
     if len(text) <= MAX_CHARS_PER_CALL:
-        prompt = build_tag_prompt(role, slug, meta, text, whitelist, psych_whitelist)
+        prompt = build_tag_prompt(slug, meta, text, whitelist, psych_whitelist)
         print(f"  [start] {slug} (tag)  (prompt {len(prompt)} chars)")
         if not dry_run:
             set_current_work(slug, "tag")
-        output = _call_m3_measured(prompt, slug, "tag", len(text), dry_run=dry_run)
+        output = _call_m3_measured(prompt, slug, "tag", len(text), dry_run=dry_run, system=role)
         if output is None or dry_run:
             return dry_run
         obj = parse_tag_json(output)
@@ -1042,12 +1054,12 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         for i, group in enumerate(groups, 1):
             chunk_text = "\n".join(group)
             note = f"**本經分 {len(groups)} 段，這是第 {i}/{len(groups)} 段，只針對本段抽標籤。**"
-            prompt = build_tag_prompt(role, slug, meta, chunk_text, whitelist, psych_whitelist, note)
+            prompt = build_tag_prompt(slug, meta, chunk_text, whitelist, psych_whitelist, note)
             print(f"    [chunk {i}/{len(groups)}] {slug} (tag)")
             if not dry_run:
                 set_current_work(slug, "tag", i, len(groups))
             output = _call_m3_measured(prompt, slug, "tag", len(chunk_text), i, len(groups),
-                                       dry_run=dry_run)
+                                       dry_run=dry_run, system=role)
             if output is None:
                 if dry_run:
                     continue

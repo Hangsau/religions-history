@@ -19,5 +19,34 @@
   "tier": "Sefaria full crawl",
   "is_original_language": true,
   "notes": "Category: Commentary",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "oral-tradition",
+    "ritual-practice",
+    "tabula-rasa"
+  ],
+  "keywords": [
+    "עומר",
+    "פסח",
+    "תבואה",
+    "שרוש",
+    "ספק",
+    "ס\"ס",
+    "ימי עינוי עכו\"ם",
+    "חרישה",
+    "הלכה",
+    "שוגגין",
+    "מזידין",
+    "רא\"ש",
+    "שאלה ותשובה"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done"
 }
