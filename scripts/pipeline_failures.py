@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Callable
 
-from pipeline_lock import create_pid_lock
+from pipeline_lock import create_pid_lock, pid_alive
 
 ROOT = Path(__file__).resolve().parent.parent
 FAILED_PATH = ROOT / "logs" / "pipeline-failed.json"
@@ -132,11 +132,7 @@ def save(state: dict, path: Path = FAILED_PATH) -> None:
 
 
 def _pid_alive(pid: int) -> bool:
-    try:
-        os.kill(pid, 0)
-        return True
-    except OSError:
-        return False
+    return pid_alive(pid)
 
 
 def _acquire_update_lock(path: Path, timeout: float = 5.0) -> None:

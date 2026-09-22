@@ -28,7 +28,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from pipeline_lock import create_pid_lock
+from pipeline_lock import create_pid_lock, pid_alive
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT / "logs"
@@ -234,11 +234,13 @@ def acquire_pidfile() -> bool:
             return True
         try:
             pid = int(PIDFILE.read_text(encoding="utf-8").strip())
-            os.kill(pid, 0)
-            hb(f"[locked] supervisor 已在執行 pid={pid}，本程序退出")
-            return False
         except (OSError, ValueError):
             PIDFILE.unlink(missing_ok=True)
+            continue
+        if pid_alive(pid):
+            hb(f"[locked] supervisor 已在執行 pid={pid}，本程序退出")
+            return False
+        PIDFILE.unlink(missing_ok=True)
     return False
 
 
