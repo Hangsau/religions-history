@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**206** / 518
-- 已標籤：**233** / 518
+- 已翻譯：**211** / 518
+- 已標籤：**238** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 27 |
 | 佛教 | 74 | 43 | 55 |
-| 印度教 | 58 | 28 | 31 |
+| 印度教 | 58 | 33 | 35 |
 | 古希臘羅馬 | 46 | 26 | 25 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 11 | 17 |
@@ -24,7 +24,7 @@
 | 古埃及 | 8 | 1 | 1 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
-| 現代新興 | 5 | 3 | 2 |
+| 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -331,8 +331,8 @@
 - `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯✓ 標✓
 - `apastamba-dharmasutra` 阿波斯檀跋法經（梵語）譯✓ 標✓
 - `ashtavakra-gita` 八曲之歌（Sanskrit）譯✓ 標✓
-- `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯– 標–
-- `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯– 標–
+- `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯✓ 標✓
+- `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯✓ 標✓
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯– 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標–
@@ -354,17 +354,17 @@
 - `linga-purana` 林伽往世書（Sanskrit）譯– 標–
 - `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
 - `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
-- `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯– 標–
+- `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯✓ 標✓
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯✓ 標✓
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
-- `matsya-purana` 魚往世書（Sanskrit）譯– 標–
+- `matsya-purana` 魚往世書（Sanskrit）譯✓ 標–
 - `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標–
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標–
 - `nyaya-sutra` 正理經（梵語）譯✓ 標✓
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯✓ 標✓
-- `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯– 標–
+- `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯✓ 標✓
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯✓ 標✓
 - `rigveda` 梨俱吠陀（Sanskrit）譯– 標–
 - `samaveda` 沙摩吠陀（Sanskrit）譯– 標–
@@ -610,7 +610,7 @@
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯✓ 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
 - `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
-- `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯✓ 標–
+- `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯✓ 標✓
 
 ### 神道（5 部）
 

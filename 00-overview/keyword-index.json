@@ -714,6 +714,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Arukh": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    }
+  ],
   "Arámfè": [
     {
       "slug": "ife-mythology",
@@ -1180,6 +1187,13 @@
       "religion": "印度教"
     }
   ],
+  "Bhagavān": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "Bhaggā": [
     {
       "slug": "sn22-khandha",
@@ -1347,6 +1361,11 @@
     {
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
     },
     {
@@ -3654,6 +3673,13 @@
       "religion": "佛教"
     }
   ],
+  "Indra": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    }
+  ],
   "Inti": [
     {
       "slug": "inca-rites",
@@ -5126,6 +5152,13 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "Megillah": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
     }
   ],
   "Menander": [
@@ -6697,6 +6730,20 @@
       "religion": "猶太教"
     }
   ],
+  "Rashba": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    }
+  ],
+  "Rashi": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    }
+  ],
   "Ratnagotravibhāga": [
     {
       "slug": "bud-ratnagotravibhaga-sa",
@@ -6828,6 +6875,13 @@
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Russell": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "Ruth": [
@@ -7185,6 +7239,13 @@
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
+    }
+  ],
+  "Shabbat": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
     }
   ],
   "Shamash": [
@@ -7981,8 +8042,20 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    },
+    {
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
+      "religion": "猶太教"
+    }
+  ],
+  "Tosefta": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
       "religion": "猶太教"
     }
   ],
@@ -8133,6 +8206,13 @@
       "religion": "佛教"
     }
   ],
+  "Ula": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    }
+  ],
   "Ulster": [
     {
       "slug": "cuchulain-muirthemne",
@@ -8279,6 +8359,13 @@
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Varuṇa": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
     }
   ],
   "Vashti": [
@@ -9238,6 +9325,13 @@
       "religion": "北歐"
     }
   ],
+  "ambāyī": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    }
+  ],
   "anagāra": [
     {
       "slug": "jain-acaranga-pkt",
@@ -9355,6 +9449,13 @@
       "slug": "bud-udanavarga-sa",
       "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "apsaras": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
     }
   ],
   "archangels": [
@@ -9547,6 +9648,13 @@
       "religion": "印度教"
     }
   ],
+  "bhakti-yoga": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "bhava": [
     {
       "slug": "sn12-nidana",
@@ -9707,6 +9815,13 @@
     {
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
+      "religion": "印度教"
+    }
+  ],
+  "brahman": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
     }
   ],
@@ -10372,6 +10487,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "gandharva": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    }
+  ],
   "gate gate pāragate": [
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
@@ -10608,6 +10730,13 @@
       "slug": "an5-fives",
       "name_zh": "AN5 五法集",
       "religion": "佛教"
+    }
+  ],
+  "honor": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
     }
   ],
   "hrímþursar": [
@@ -11097,6 +11226,13 @@
       "religion": "佛教"
     }
   ],
+  "meturgeman": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    }
+  ],
   "midwinter ceremony": [
     {
       "slug": "code-of-handsome-lake",
@@ -11297,6 +11433,13 @@
       "religion": "佛教"
     }
   ],
+  "nārāyaṇa": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "nīvaraṇa 五蓋": [
     {
       "slug": "an1-ones",
@@ -11412,6 +11555,13 @@
       "religion": "印度教"
     }
   ],
+  "paraṃ brahma": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "paribbājaka": [
     {
       "slug": "digha-nikaya",
@@ -11437,6 +11587,13 @@
     {
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    }
+  ],
+  "parjanya": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
     }
   ],
@@ -11565,6 +11722,13 @@
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
       "religion": "佛教"
+    }
+  ],
+  "piśāca": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
     }
   ],
   "plague": [
@@ -11765,6 +11929,20 @@
       "religion": "印度教"
     }
   ],
+  "puruṣa-uttama": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
+  "puruṣottama": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "puruṣārtha": [
     {
       "slug": "samkhya-sutra-kapila",
@@ -11833,6 +12011,13 @@
       "slug": "vulgate-ezekiel",
       "name_zh": "以西結書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "quorum": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
     }
   ],
   "rabbi": [
@@ -11916,6 +12101,13 @@
     {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
+  "rāmānuja": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
     }
   ],
@@ -12160,6 +12352,13 @@
       "religion": "佛教"
     }
   ],
+  "scroll": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
+    }
+  ],
   "seiðr": [
     {
       "slug": "poetic-edda-on",
@@ -12237,6 +12436,13 @@
       "religion": "古埃及"
     }
   ],
+  "soma": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    }
+  ],
   "sound doctrine": [
     {
       "slug": "vulgate-titus",
@@ -12298,6 +12504,13 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    }
+  ],
+  "synagogue": [
+    {
+      "slug": "sefaria-rashba-on-megillah",
+      "name_zh": "Rashba on Megillah",
+      "religion": "猶太教"
     }
   ],
   "sāmānya": [
@@ -12616,6 +12829,11 @@
   ],
   "vedānta": [
     {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
       "religion": "印度教"
@@ -12747,6 +12965,13 @@
       "religion": "印度教"
     }
   ],
+  "viśiṣṭādvaita": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "vratam": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -12873,6 +13098,13 @@
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
+      "religion": "印度教"
+    }
+  ],
+  "yāmuna": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
     }
   ],
@@ -14211,6 +14443,13 @@
       "religion": "猶太教"
     }
   ],
+  "הלכה": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "ושתי": [
     {
       "slug": "esther",
@@ -14236,6 +14475,13 @@
     {
       "slug": "proverbs",
       "name_zh": "箴言",
+      "religion": "猶太教"
+    }
+  ],
+  "חרישה": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
       "religion": "猶太教"
     }
   ],
@@ -14315,6 +14561,13 @@
       "religion": "猶太教"
     }
   ],
+  "ימי עינוי עכו\"ם": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "יראת-יהוה": [
     {
       "slug": "proverbs",
@@ -14390,6 +14643,13 @@
       "religion": "猶太教"
     }
   ],
+  "מזידין": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "מיכה": [
     {
       "slug": "micah",
@@ -14446,10 +14706,31 @@
       "religion": "猶太教"
     }
   ],
+  "ס\"ס": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
+  "ספק": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "עדת ישראל": [
     {
       "slug": "numbers",
       "name_zh": "民數記",
+      "religion": "猶太教"
+    }
+  ],
+  "עומר": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
       "religion": "猶太教"
     }
   ],
@@ -14478,6 +14759,13 @@
     {
       "slug": "amos",
       "name_zh": "阿摩司書",
+      "religion": "猶太教"
+    }
+  ],
+  "פסח": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
       "religion": "猶太教"
     }
   ],
@@ -14542,6 +14830,13 @@
       "religion": "猶太教"
     }
   ],
+  "רא\"ש": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "שׂמרון": [
     {
       "slug": "amos",
@@ -14549,10 +14844,24 @@
       "religion": "猶太教"
     }
   ],
+  "שאלה ותשובה": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "שבטי ישראל": [
     {
       "slug": "numbers",
       "name_zh": "民數記",
+      "religion": "猶太教"
+    }
+  ],
+  "שוגגין": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
       "religion": "猶太教"
     }
   ],
@@ -14577,10 +14886,24 @@
       "religion": "猶太教"
     }
   ],
+  "שרוש": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
   "תּוֹרָה": [
     {
       "slug": "joshua",
       "name_zh": "約書亞記",
+      "religion": "猶太教"
+    }
+  ],
+  "תבואה": [
+    {
+      "slug": "sefaria-shiltei-hagiborim-on-pesachim",
+      "name_zh": "Shiltei HaGiborim on Pesachim",
       "religion": "猶太教"
     }
   ],
@@ -17952,6 +18275,13 @@
       "religion": "印度教"
     }
   ],
+  "俱盧族": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "俱舍論": [
     {
       "slug": "abhidharmakosa",
@@ -19922,6 +20252,11 @@
       "slug": "samuel-2",
       "name_zh": "撒母耳記下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "受苦": [
@@ -19955,6 +20290,13 @@
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "受默示": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "口傳": [
@@ -22679,6 +23021,11 @@
       "slug": "bible-ephesians",
       "name_zh": "以弗所書",
       "religion": "基督教"
+    },
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "奧秘": [
@@ -23104,6 +23451,13 @@
       "slug": "bible-habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "基督教"
+    }
+  ],
+  "守望樓": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "守望者": [
@@ -25180,6 +25534,13 @@
       "religion": "儒教"
     }
   ],
+  "恢復者": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
+    }
+  ],
   "恩典": [
     {
       "slug": "bible-2-corinthians",
@@ -27089,6 +27450,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
+    },
+    {
       "slug": "vulgate-1-peter",
       "name_zh": "彼得前書（武加大）",
       "religion": "基督教"
@@ -28131,6 +28497,11 @@
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     },
     {
       "slug": "vulgate-2-chronicles",
@@ -31229,6 +31600,13 @@
       "religion": "儒教"
     }
   ],
+  "王權": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    }
+  ],
   "王舍城": [
     {
       "slug": "bud-saddharmapundarika-sa",
@@ -32267,6 +32645,13 @@
       "religion": "猶太教"
     }
   ],
+  "神聖計畫": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
+    }
+  ],
   "神視": [
     {
       "slug": "vulgate-habakkuk",
@@ -32684,6 +33069,13 @@
       "slug": "sblgnt-acts",
       "name_zh": "使徒行傳（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "禱詞": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
     }
   ],
   "科林斯": [
@@ -33703,6 +34095,11 @@
       "slug": "bible-psalms",
       "name_zh": "詩篇",
       "religion": "基督教"
+    },
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "義人受難": [
@@ -34933,6 +35330,18 @@
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
       "religion": "基督教"
+    },
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
+    }
+  ],
+  "聖經學生協會": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "聖經正典": [
@@ -35149,6 +35558,13 @@
       "slug": "bible-jeremiah",
       "name_zh": "耶利米書",
       "religion": "基督教"
+    }
+  ],
+  "胞衣": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
     }
   ],
   "胡德": [
@@ -35380,6 +35796,13 @@
       "religion": "道教"
     }
   ],
+  "至高梵": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
   "至高者": [
     {
       "slug": "bible-daniel",
@@ -35512,6 +35935,13 @@
     {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    }
+  ],
+  "般度族": [
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
     }
   ],
@@ -36088,6 +36518,13 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
+    }
+  ],
+  "蘆矢": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
     }
   ],
   "蘇摩": [
@@ -36975,6 +37412,13 @@
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "諸世代": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "諸侯": [
@@ -38266,6 +38710,13 @@
       "religion": "諾斯底"
     }
   ],
+  "長壽": [
+    {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    }
+  ],
   "長生": [
     {
       "slug": "taishang-ganying-pian",
@@ -38363,6 +38814,11 @@
   ],
   "阿修羅": [
     {
+      "slug": "atharvaveda-paippalada",
+      "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
@@ -38394,6 +38850,11 @@
     {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramanuja-gitabhashya",
+      "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
     }
   ],
@@ -39635,6 +40096,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "高等批評": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
+    }
+  ],
   "高達波陀頌": [
     {
       "slug": "mandukya-upanishad",
@@ -39773,6 +40241,13 @@
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
       "religion": "道教"
+    }
+  ],
+  "黃金時代": [
+    {
+      "slug": "studies-in-the-scriptures-1",
+      "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
+      "religion": "現代新興"
     }
   ],
   "黎巴嫩": [
