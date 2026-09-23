@@ -3,20 +3,20 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**216** / 518
-- 已標籤：**243** / 518
+- 已翻譯：**221** / 518
+- 已標籤：**246** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 27 |
-| 佛教 | 74 | 45 | 57 |
-| 印度教 | 58 | 34 | 36 |
+| 佛教 | 74 | 46 | 58 |
+| 印度教 | 58 | 37 | 37 |
 | 古希臘羅馬 | 46 | 27 | 26 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 12 | 18 |
-| 北歐 | 15 | 8 | 8 |
+| 北歐 | 15 | 9 | 9 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
 | 美洲 | 11 | 1 | 1 |
 | 儒教 | 10 | 3 | 10 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -281,7 +281,7 @@
 - `dhammapada` 法句經（Pali）譯– 標✓
 - `diamond-mulamadhyamaka` 中論（古典漢語）譯– 標✓
 - `diamond-sutra-kumarajiva` 金剛般若波羅蜜經（古典漢語）譯– 標✓
-- `digha-nikaya` 長部經典（Pali）譯– 標–
+- `digha-nikaya` 長部經典（Pali）譯✓ 標✓
 - `dirghagama` 長阿含經（古典漢語）譯✓ 標✓
 - `ekottarikagama` 增一阿含經（古典漢語）譯✓ 標✓
 - `fortytwo-chapters-sutra` 四十二章經（古典漢語）譯✓ 標✓
@@ -336,9 +336,9 @@
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯– 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標–
-- `brahma-purana` 梵天往世書（Sanskrit）譯– 標–
+- `brahma-purana` 梵天往世書（Sanskrit）譯✓ 標–
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
-- `brahmanda-purana` 梵卵往世書（Sanskrit）譯– 標–
+- `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標–
 - `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標✓
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標–
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
@@ -346,7 +346,7 @@
 - `gautama-dharmasutra` 喬達摩法經（梵語）譯✓ 標✓
 - `gheranda-samhita` 格蘭達本集（梵語）譯✓ 標✓
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
-- `harivamsha` 訶利世系（Sanskrit）譯✓ 標–
+- `harivamsha` 訶利世系（Sanskrit）譯✓ 標✓
 - `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯✓ 標✓
 - `isha-upanishad` 伊舍奧義書（Sanskrit）譯– 標✓
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯– 標✓
@@ -366,7 +366,7 @@
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯✓ 標✓
 - `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯✓ 標✓
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯✓ 標✓
-- `rigveda` 梨俱吠陀（Sanskrit）譯– 標–
+- `rigveda` 梨俱吠陀（Sanskrit）譯✓ 標–
 - `samaveda` 沙摩吠陀（Sanskrit）譯– 標–
 - `samkhya-karika` 數論頌（梵語）譯✓ 標✓
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
@@ -510,7 +510,7 @@
 - `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
-- `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯– 標–
+- `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `hrafnkels-saga-on` 赫拉夫恩克爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `laxdaela-saga-on` 拉克斯達拉薩迦（古諾斯語）譯✓ 標✓
 - `njals-saga-on` 尼雅爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓

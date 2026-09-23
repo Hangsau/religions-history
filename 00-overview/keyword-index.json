@@ -667,6 +667,13 @@
       "religion": "耆那教"
     }
   ],
+  "Ari fróði": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Aristotelianism": [
     {
       "slug": "guide-for-the-perplexed-st",
@@ -1241,6 +1248,13 @@
       "religion": "佛教"
     }
   ],
+  "Bhārata": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    }
+  ],
   "Bildad": [
     {
       "slug": "vulgate-job",
@@ -1353,6 +1367,11 @@
     {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
       "religion": "印度教"
     },
     {
@@ -2000,6 +2019,13 @@
       "slug": "vulgate-daniel",
       "name_zh": "但以理書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Dann": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Darbaar": [
@@ -2683,6 +2709,13 @@
       "religion": "北歐"
     }
   ],
+  "Freyr": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Funeral Rite": [
     {
       "slug": "burden-of-isis",
@@ -3158,6 +3191,11 @@
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
     }
   ],
   "Harlech": [
@@ -3185,6 +3223,13 @@
     {
       "slug": "poetic-edda-on",
       "name_zh": "詩體埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Heimskringla": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -3522,6 +3567,20 @@
     {
       "slug": "gisla-saga-on",
       "name_zh": "吉斯利薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Háleygjatal": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Hárekr": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -5528,6 +5587,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -5833,6 +5897,11 @@
     }
   ],
   "Nārāyaṇa": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    },
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
@@ -6214,6 +6283,13 @@
     {
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    }
+  ],
+  "Parāśara": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
       "religion": "印度教"
     }
   ],
@@ -7122,6 +7198,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -7162,10 +7243,24 @@
       "religion": "基督教"
     }
   ],
+  "Satyavatī": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    }
+  ],
   "Satī": [
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    }
+  ],
+  "Sauti": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
       "religion": "印度教"
     }
   ],
@@ -8347,6 +8442,13 @@
       "religion": "印度教"
     }
   ],
+  "Upsölum": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Ur": [
     {
       "slug": "pearl-of-great-price",
@@ -8586,6 +8688,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -8768,6 +8875,11 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
       "religion": "印度教"
     }
   ],
@@ -9024,6 +9136,20 @@
     {
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
+      "religion": "北歐"
+    }
+  ],
+  "Ynglingar": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Ynglingatal": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -9912,6 +10038,13 @@
       "religion": "印度教"
     }
   ],
+  "brunaöld": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "brāhmaṇa": [
     {
       "slug": "baudhayana-dharmasutra",
@@ -10711,11 +10844,25 @@
       "religion": "北歐"
     }
   ],
+  "harivaṃśa": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    }
+  ],
   "harvest": [
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "haugsöld": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "haṃsa": [
@@ -12020,6 +12167,11 @@
   ],
   "puruṣa": [
     {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -13268,6 +13420,13 @@
       "religion": "非洲"
     }
   ],
+  "Ólafr Tryggvason": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Óláfr feilan": [
     {
       "slug": "laxdaela-saga-on",
@@ -13291,6 +13450,13 @@
     {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Þangbrandr": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -13527,6 +13693,11 @@
     {
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
       "religion": "印度教"
     }
   ],
@@ -15075,6 +15246,13 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
+    }
+  ],
+  "ṛta": [
+    {
+      "slug": "harivamsha",
+      "name_zh": "訶利世系",
+      "religion": "印度教"
     }
   ],
   "ṣaṭkarma": [
@@ -20561,6 +20739,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -23814,6 +23997,13 @@
       "slug": "shurangama-sutra",
       "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "religion": "佛教"
+    }
+  ],
+  "宮廷詩人": [
+    {
+      "slug": "heimskringla-on",
+      "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "家庭倫理": [
