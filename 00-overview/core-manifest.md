@@ -3,19 +3,19 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**211** / 518
-- 已標籤：**238** / 518
+- 已翻譯：**216** / 518
+- 已標籤：**243** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 25 | 27 |
-| 佛教 | 74 | 43 | 55 |
-| 印度教 | 58 | 33 | 35 |
-| 古希臘羅馬 | 46 | 26 | 25 |
+| 佛教 | 74 | 45 | 57 |
+| 印度教 | 58 | 34 | 36 |
+| 古希臘羅馬 | 46 | 27 | 26 |
 | 猶太教 | 45 | 33 | 34 |
-| 道教 | 18 | 11 | 17 |
+| 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 8 | 8 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
 | 美洲 | 11 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -283,7 +283,7 @@
 - `diamond-sutra-kumarajiva` 金剛般若波羅蜜經（古典漢語）譯– 標✓
 - `digha-nikaya` 長部經典（Pali）譯– 標–
 - `dirghagama` 長阿含經（古典漢語）譯✓ 標✓
-- `ekottarikagama` 增一阿含經（古典漢語）譯– 標–
+- `ekottarikagama` 增一阿含經（古典漢語）譯✓ 標✓
 - `fortytwo-chapters-sutra` 四十二章經（古典漢語）譯✓ 標✓
 - `heart-sutra-kumarajiva` 摩訶般若波羅蜜大明咒經（古典漢語）譯– 標✓
 - `heart-sutra-xuanzang` 般若波羅蜜多心經（古典漢語）譯– 標✓
@@ -293,7 +293,7 @@
 - `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯✓ 標✓
 - `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標✓
 - `madhyamagama` 中阿含經（古典漢語）譯– 標–
-- `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯– 標–
+- `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標–
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
 - `majjhima-nikaya` 中部經典（Pali）譯– 標–
@@ -346,7 +346,7 @@
 - `gautama-dharmasutra` 喬達摩法經（梵語）譯✓ 標✓
 - `gheranda-samhita` 格蘭達本集（梵語）譯✓ 標✓
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
-- `harivamsha` 訶利世系（Sanskrit）譯– 標–
+- `harivamsha` 訶利世系（Sanskrit）譯✓ 標–
 - `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯✓ 標✓
 - `isha-upanishad` 伊舍奧義書（Sanskrit）譯– 標✓
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯– 標✓
@@ -358,7 +358,7 @@
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯✓ 標✓
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
-- `matsya-purana` 魚往世書（Sanskrit）譯✓ 標–
+- `matsya-purana` 魚往世書（Sanskrit）譯✓ 標✓
 - `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標–
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標–
 - `nyaya-sutra` 正理經（梵語）譯✓ 標✓
@@ -415,7 +415,7 @@
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
-- `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯– 標–
+- `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-meno-el` 美諾篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯✓ 標✓
@@ -485,7 +485,7 @@
 ### 道教（18 部）
 
 - `baopuzi` 抱朴子（內外篇）（古典漢語）譯✓ 標✓
-- `duren-jing` 靈寶無量度人上品妙經（古典漢語）譯– 標–
+- `duren-jing` 靈寶無量度人上品妙經（古典漢語）譯✓ 標✓
 - `huainanzi` 淮南子（古典漢語）譯– 標✓
 - `huangdi-neijing` 黃帝內經（古典漢語）譯✓ 標✓
 - `huangting-neijing` 黃庭內景經（古典漢語）譯– 標✓

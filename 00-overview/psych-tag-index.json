@@ -61,6 +61,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
@@ -81,6 +86,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
       "slug": "maitrayani-samhita",
       "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
       "religion": "印度教"
@@ -94,6 +104,11 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "proverbs",
@@ -243,6 +258,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    },
+    {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -251,6 +271,11 @@
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
     },
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -358,14 +383,29 @@
       "religion": "佛教"
     },
     {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
       "slug": "maitrayani-samhita",
       "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     },
     {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-timaeus-el",
@@ -535,6 +575,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
       "religion": "印度教"
@@ -575,6 +620,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -588,6 +638,11 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-phaedo-el",
@@ -787,9 +842,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    },
+    {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
+    },
+    {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
     },
     {
       "slug": "epic-of-gilgamesh-st",
@@ -872,6 +937,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
       "slug": "maitrayani-samhita",
       "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
       "religion": "印度教"
@@ -887,6 +957,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
@@ -900,6 +975,11 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-phaedo-el",
@@ -1149,6 +1229,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ekottarikagama",
+      "name_zh": "增一阿含經",
+      "religion": "佛教"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1194,8 +1279,18 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
       "slug": "maitrayani-samhita",
       "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     },
     {
@@ -1207,6 +1302,11 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "poetic-edda-on",
@@ -1426,6 +1526,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    },
+    {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -1586,6 +1691,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "mahaparinirvana-sutra-northern",
+      "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -1604,6 +1714,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
     },
     {
       "slug": "mengzi",
@@ -2036,6 +2151,11 @@
       "slug": "doctrine-and-covenants",
       "name_zh": "教義和聖約 (LDS)",
       "religion": "現代新興"
+    },
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     },
     {
       "slug": "egils-saga-on",
@@ -3404,6 +3524,11 @@
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
+    },
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     },
     {
       "slug": "ecclesiastes",

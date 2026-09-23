@@ -596,6 +596,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1201,6 +1206,13 @@
       "religion": "佛教"
     }
   ],
+  "Bhairava": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    }
+  ],
   "Bharata": [
     {
       "slug": "valmiki-ramayana",
@@ -1388,6 +1400,11 @@
     {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -2779,6 +2796,13 @@
       "slug": "denkard-bk-5",
       "name_zh": "Pahlavi Texts Part V (Contents of the Nasks)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Gaṅgā": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
     }
   ],
   "Gefjun": [
@@ -5014,6 +5038,11 @@
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
       "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
     }
   ],
   "Manuskihar": [
@@ -5255,6 +5284,13 @@
       "religion": "佛教"
     }
   ],
+  "Minos": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Miserere": [
     {
       "slug": "vulgate-psalms",
@@ -5489,6 +5525,11 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -5792,6 +5833,11 @@
     }
   ],
   "Nārāyaṇa": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
@@ -6800,6 +6846,13 @@
       "religion": "古埃及"
     }
   ],
+  "Rhadamanthys": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Rhiannon": [
     {
       "slug": "mabinogion-st",
@@ -7066,6 +7119,11 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -7759,6 +7817,11 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -8523,6 +8586,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
@@ -9094,6 +9162,11 @@
     {
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -9733,6 +9806,13 @@
     {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "bhūta-grāma": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -11198,6 +11278,13 @@
       "religion": "古埃及"
     }
   ],
+  "matsyāvatāra": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    }
+  ],
   "merkavah": [
     {
       "slug": "vulgate-ezekiel",
@@ -11717,6 +11804,13 @@
       "religion": "現代新興"
     }
   ],
+  "pitṛ-tarpaṇa": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
+      "religion": "印度教"
+    }
+  ],
   "piya atta": [
     {
       "slug": "sn3-kosala",
@@ -11792,6 +11886,13 @@
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
+      "religion": "印度教"
+    }
+  ],
+  "pralaya": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -11947,6 +12048,13 @@
     {
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
+      "religion": "印度教"
+    }
+  ],
+  "purāṇa": [
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -13455,6 +13563,11 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "matsya-purana",
+      "name_zh": "魚往世書",
       "religion": "印度教"
     }
   ],
@@ -15382,6 +15495,13 @@
       "religion": "佛教"
     }
   ],
+  "三十二天": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    }
+  ],
   "三十頌": [
     {
       "slug": "bud-trimshika-sa",
@@ -15603,6 +15723,13 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    }
+  ],
+  "上品妙經": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "上善若水": [
@@ -18498,6 +18625,13 @@
       "religion": "佛教"
     }
   ],
+  "元始天尊": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    }
+  ],
   "元氣": [
     {
       "slug": "taiping-jing",
@@ -18707,6 +18841,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "克利尼亞斯": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "克律塞斯": [
     {
       "slug": "homer-greek",
@@ -18752,6 +18893,13 @@
       "religion": "基督教"
     }
   ],
+  "克諾索斯": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "克里希那": [
     {
       "slug": "bhagavad-gita",
@@ -18767,6 +18915,11 @@
     }
   ],
   "克里特": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "plato-phaedo-el",
       "name_zh": "斐多篇（希臘原文）",
@@ -19112,6 +19265,13 @@
       "slug": "an6-sixes",
       "name_zh": "AN6 六法集",
       "religion": "佛教"
+    }
+  ],
+  "共餐": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "兼王之道": [
@@ -19644,6 +19804,13 @@
       "religion": "印度教"
     }
   ],
+  "勝過自身": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "勞碌": [
     {
       "slug": "bible-ecclesiastes",
@@ -19689,6 +19856,13 @@
       "slug": "mahaparinirvana-sutra-northern",
       "name_zh": "大般涅槃經（北本）",
       "religion": "佛教"
+    }
+  ],
+  "北都羅酆": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "十一法集": [
@@ -19973,6 +20147,13 @@
       "slug": "jain-sutrakrtanga-pkt",
       "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "南宮": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "卜筮": [
@@ -22024,6 +22205,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "墨吉洛斯": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "墨子": [
     {
       "slug": "mozi",
@@ -22309,6 +22497,13 @@
       "slug": "vulgate-haggai",
       "name_zh": "哈該書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "大浮黎土": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "大痲瘋": [
@@ -23191,6 +23386,13 @@
       "religion": "基督教"
     }
   ],
+  "始青天": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    }
+  ],
   "威爾斯": [
     {
       "slug": "mabinogion-cy-2",
@@ -23902,6 +24104,11 @@
     {
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    },
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
     }
   ],
@@ -24779,6 +24986,13 @@
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
+    }
+  ],
+  "度人": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "庫克洛佩斯": [
@@ -26121,6 +26335,13 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    }
+  ],
+  "戰爭": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "戰陣": [
@@ -29368,6 +29589,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "正見 sammādiṭṭhi": [
@@ -31084,6 +31310,13 @@
       "religion": "佛教"
     }
   ],
+  "無量": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    }
+  ],
   "無量壽經": [
     {
       "slug": "infinite-life-sutra",
@@ -31557,6 +31790,13 @@
     {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    }
+  ],
+  "玉京": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
     }
   ],
@@ -33218,6 +33458,13 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "立法者": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "立約": [
@@ -36183,6 +36430,11 @@
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "莊周": [
@@ -38719,6 +38971,11 @@
   ],
   "長生": [
     {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
@@ -38758,6 +39015,13 @@
       "slug": "dirghagama",
       "name_zh": "長阿含經",
       "religion": "佛教"
+    }
+  ],
+  "長齋": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "門之書": [
@@ -39432,6 +39696,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "雅典人": [
+    {
+      "slug": "plato-laws-el",
+      "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "雅典娜": [
     {
       "slug": "homer-odyssey-st",
@@ -39590,6 +39861,13 @@
       "slug": "sblgnt-1-corinthians",
       "name_zh": "哥林多前書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "靈寶": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
+      "religion": "道教"
     }
   ],
   "靈寶經": [
@@ -39874,6 +40152,13 @@
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    }
+  ],
+  "飛天神王": [
+    {
+      "slug": "duren-jing",
+      "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
     }
   ],
