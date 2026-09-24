@@ -51,5 +51,15 @@
     "慚愧",
     "智慧"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "aging-time",
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done"
 }

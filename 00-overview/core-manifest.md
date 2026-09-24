@@ -3,16 +3,16 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**227** / 518
-- 已標籤：**251** / 518
+- 已翻譯：**228** / 518
+- 已標籤：**253** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 26 | 28 |
-| 佛教 | 74 | 48 | 59 |
-| 印度教 | 58 | 40 | 40 |
+| 佛教 | 74 | 48 | 60 |
+| 印度教 | 58 | 41 | 41 |
 | 古希臘羅馬 | 46 | 27 | 26 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 12 | 18 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -292,7 +292,7 @@
 - `kn-milindapanha` 小部·彌蘭王問經（Pali）譯– 標–
 - `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯✓ 標✓
 - `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標✓
-- `madhyamagama` 中阿含經（古典漢語）譯✓ 標–
+- `madhyamagama` 中阿含經（古典漢語）譯✓ 標✓
 - `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標–
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
@@ -335,7 +335,7 @@
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯✓ 標✓
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯– 標✓
-- `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標–
+- `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯✓ 標✓
 - `brahma-purana` 梵天往世書（Sanskrit）譯✓ 標–
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
 - `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標✓
