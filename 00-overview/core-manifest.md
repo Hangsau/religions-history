@@ -3,16 +3,16 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**221** / 518
-- 已標籤：**246** / 518
+- 已翻譯：**227** / 518
+- 已標籤：**251** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 25 | 27 |
-| 佛教 | 74 | 46 | 58 |
-| 印度教 | 58 | 37 | 37 |
+| 基督教 | 161 | 26 | 28 |
+| 佛教 | 74 | 48 | 59 |
+| 印度教 | 58 | 40 | 40 |
 | 古希臘羅馬 | 46 | 27 | 26 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 12 | 18 |
@@ -86,7 +86,7 @@
 ### 基督教（161 部）
 
 - `augustine-confessiones-la` 懺悔錄（拉丁原文）（拉丁）譯– 標–
-- `augustine-de-civitate-dei-la` 上帝之城（拉丁原文）（拉丁）譯– 標–
+- `augustine-de-civitate-dei-la` 上帝之城（拉丁原文）（拉丁）譯✓ 標✓
 - `bible-1-chronicles` 歷代志上（古典中文）譯– 標–
 - `bible-1-corinthians` 哥林多前書（古典中文）譯– 標–
 - `bible-1-john` 約翰一書（古典中文）譯– 標–
@@ -292,14 +292,14 @@
 - `kn-milindapanha` 小部·彌蘭王問經（Pali）譯– 標–
 - `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯✓ 標✓
 - `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標✓
-- `madhyamagama` 中阿含經（古典漢語）譯– 標–
+- `madhyamagama` 中阿含經（古典漢語）譯✓ 標–
 - `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標–
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
 - `majjhima-nikaya` 中部經典（Pali）譯– 標–
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
-- `samyuktagama` 雜阿含經（古典漢語）譯– 標–
+- `samyuktagama` 雜阿含經（古典漢語）譯✓ 標✓
 - `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標✓
 - `sn1-devata` SN1 天人相應 (81 經)（Pali）譯– 標✓
 - `sn10-yakkha` SN10 夜叉相應（Pali）譯✓ 標✓
@@ -327,7 +327,7 @@
 ### 印度教（58 部）
 
 - `abhinavagupta-tantraloka` 坦特羅光輝（梵語）譯– 標–
-- `agni-purana` 火神往世書（Sanskrit）譯– 標–
+- `agni-purana` 火神往世書（Sanskrit）譯✓ 標✓
 - `aitareya-upanishad` 愛多列雅奧義書（含注）（Sanskrit）譯✓ 標✓
 - `apastamba-dharmasutra` 阿波斯檀跋法經（梵語）譯✓ 標✓
 - `ashtavakra-gita` 八曲之歌（Sanskrit）譯✓ 標✓
@@ -338,11 +338,11 @@
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯– 標–
 - `brahma-purana` 梵天往世書（Sanskrit）譯✓ 標–
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
-- `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標–
+- `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標✓
 - `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標✓
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標–
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
-- `garuda-purana` 金翅鳥往世書（Sanskrit）譯– 標–
+- `garuda-purana` 金翅鳥往世書（Sanskrit）譯✓ 標–
 - `gautama-dharmasutra` 喬達摩法經（梵語）譯✓ 標✓
 - `gheranda-samhita` 格蘭達本集（梵語）譯✓ 標✓
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
@@ -371,7 +371,7 @@
 - `samkhya-karika` 數論頌（梵語）譯✓ 標✓
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
-- `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯– 標–
+- `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯✓ 標✓
 - `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標✓

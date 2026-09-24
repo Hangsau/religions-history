@@ -263,6 +263,13 @@
       "religion": "印度教"
     }
   ],
+  "Agni Purāṇa": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    }
+  ],
   "Aharman": [
     {
       "slug": "dadestan-i-denig",
@@ -1327,6 +1334,11 @@
   ],
   "Brahma": [
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -1424,6 +1436,13 @@
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
+      "religion": "印度教"
+    }
+  ],
+  "Brahmāṇḍapurāṇa": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
       "religion": "印度教"
     }
   ],
@@ -1744,6 +1763,11 @@
     }
   ],
   "Christus": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
@@ -2152,6 +2176,11 @@
     }
   ],
   "Deus": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
@@ -3188,6 +3217,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -3944,6 +3978,13 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Jaimini": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
     }
   ],
   "Jain Agamas": [
@@ -4881,6 +4922,13 @@
       "religion": "北歐"
     }
   ],
+  "Lomaharṣaṇa": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    }
+  ],
   "Lotus Sutra": [
     {
       "slug": "lotus-sutra",
@@ -5094,6 +5142,11 @@
   ],
   "Manu": [
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
       "religion": "印度教"
@@ -5109,6 +5162,13 @@
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Marcellinus": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "Marcion": [
@@ -6287,6 +6347,11 @@
     }
   ],
   "Parāśara": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
     {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
@@ -7915,6 +7980,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -8540,6 +8610,13 @@
       "religion": "基督教"
     }
   ],
+  "Vasiṣṭha": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    }
+  ],
   "Veda": [
     {
       "slug": "atharvaveda-saunaka",
@@ -8682,6 +8759,11 @@
     }
   ],
   "Viṣṇu": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    },
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
@@ -8878,6 +8960,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -8917,6 +9004,11 @@
     }
   ],
   "Vāsudeva": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    },
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
@@ -9594,6 +9686,13 @@
       "religion": "佛教"
     }
   ],
+  "anukramaṇikā": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    }
+  ],
   "anumāna": [
     {
       "slug": "nyaya-sutra-gautama",
@@ -9708,6 +9807,11 @@
   ],
   "avatāra": [
     {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
@@ -9787,6 +9891,13 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "basilica": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
     }
   ],
@@ -10031,6 +10142,13 @@
       "religion": "印度教"
     }
   ],
+  "brahmanda": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    }
+  ],
   "brahmavidyā": [
     {
       "slug": "taittiriya-upanishad",
@@ -10059,6 +10177,13 @@
     {
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
+      "religion": "印度教"
+    }
+  ],
+  "buddha": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
       "religion": "印度教"
     }
   ],
@@ -10798,6 +10923,11 @@
   ],
   "guṇa": [
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
@@ -11140,6 +11270,13 @@
       "religion": "印度教"
     }
   ],
+  "kalki": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    }
+  ],
   "kalā": [
     {
       "slug": "prashna-upanishad",
@@ -11252,6 +11389,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "kūrma": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
     }
   ],
   "langskip": [
@@ -11423,6 +11567,13 @@
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
+    }
+  ],
+  "matsya": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
     }
   ],
   "matsyāvatāra": [
@@ -11681,6 +11832,13 @@
       "religion": "佛教"
     }
   ],
+  "nṛsiṃha": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    }
+  ],
   "ogha": [
     {
       "slug": "sn1-devata",
@@ -11786,6 +11944,13 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    }
+  ],
+  "paraśurāma": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
       "religion": "印度教"
     }
   ],
@@ -12289,6 +12454,11 @@
   ],
   "rajas": [
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -12361,6 +12531,13 @@
     {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
+    }
+  ],
+  "rāma": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
       "religion": "印度教"
     }
   ],
@@ -12529,6 +12706,11 @@
     }
   ],
   "sattva": [
+    {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
@@ -12832,6 +13014,11 @@
   ],
   "tamas": [
     {
+      "slug": "brahmanda-purana",
+      "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -13066,6 +13253,13 @@
       "religion": "北歐"
     }
   ],
+  "varāha": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    }
+  ],
   "varṇa": [
     {
       "slug": "manu-smrti",
@@ -13244,6 +13438,13 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "vāmana": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
     }
   ],
   "vāyu": [
@@ -13731,6 +13932,11 @@
     }
   ],
   "Śiva": [
+    {
+      "slug": "agni-purana",
+      "name_zh": "火神往世書",
+      "religion": "印度教"
+    },
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
@@ -22031,6 +22237,13 @@
       "religion": "古埃及"
     }
   ],
+  "埃涅阿斯": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "城牆": [
     {
       "slug": "bible-nehemiah",
@@ -22113,6 +22326,11 @@
     }
   ],
   "基督": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "bible-1-corinthians",
       "name_zh": "哥林多前書",
@@ -24056,6 +24274,13 @@
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    }
+  ],
+  "密涅瓦": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "富人": [
@@ -28655,6 +28880,13 @@
       "religion": "佛教"
     }
   ],
+  "普里阿摩斯": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "普魯沙": [
     {
       "slug": "shvetashvatara-upanishad",
@@ -29153,6 +29385,13 @@
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    }
+  ],
+  "朱諾": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "李君": [
@@ -30109,6 +30348,13 @@
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
+    }
+  ],
+  "殉道者": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "段干木": [
@@ -31662,6 +31908,11 @@
     }
   ],
   "特洛伊": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
@@ -34363,6 +34614,13 @@
       "religion": "道教"
     }
   ],
+  "維吉爾": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "維摩詰": [
     {
       "slug": "vimalakirti-sutra",
@@ -34445,6 +34703,11 @@
     }
   ],
   "羅馬": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "josephus-works",
       "name_zh": "約瑟夫斯著作",
@@ -37919,6 +38182,11 @@
   ],
   "謙卑": [
     {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-1-peter",
       "name_zh": "彼得前書",
       "religion": "基督教"
@@ -40543,6 +40811,13 @@
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
       "religion": "印度教"
+    }
+  ],
+  "驕傲": [
+    {
+      "slug": "augustine-de-civitate-dei-la",
+      "name_zh": "上帝之城（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "高地蘇格蘭": [
