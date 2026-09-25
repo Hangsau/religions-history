@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**229** / 518
-- 已標籤：**254** / 518
+- 已翻譯：**236** / 518
+- 已標籤：**259** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 26 | 28 |
-| 佛教 | 74 | 48 | 60 |
-| 印度教 | 58 | 41 | 41 |
-| 古希臘羅馬 | 46 | 28 | 27 |
+| 基督教 | 161 | 27 | 29 |
+| 佛教 | 74 | 52 | 63 |
+| 印度教 | 58 | 42 | 41 |
+| 古希臘羅馬 | 46 | 29 | 28 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 9 | 9 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -190,7 +190,7 @@
 - `vulgate-1-timothy` 提摩太前書（武加大）（Latin）譯– 標–
 - `vulgate-2-chronicles` 歷代志下（武加大）（Latin）譯– 標–
 - `vulgate-2-corinthians` 哥林多後書（武加大）（Latin）譯– 標–
-- `vulgate-2-john` 約翰二書（武加大）（Latin）譯– 標–
+- `vulgate-2-john` 約翰二書（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-kings` 列王紀下 (武加大稱 列王紀四)（Latin）譯– 標–
 - `vulgate-2-peter` 彼得後書（武加大）（Latin）譯– 標–
 - `vulgate-2-samuel` 撒母耳記下 (武加大稱 列王紀二)（Latin）譯– 標–
@@ -262,7 +262,7 @@
 - `an7-sevens` AN7 七法集（Pali）譯✓ 標✓
 - `an8-eights` AN8 八法集（Pali）譯– 標–
 - `an9-nines` AN9 九法集（Pali）譯– 標–
-- `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯– 標–
+- `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
 - `bud-abhidharmakosha-sa` 阿毗達磨俱舍論本頌（梵文）（梵語）譯✓ 標✓
 - `bud-astasahasrika-prajnaparamita-sa` 八千頌般若波羅蜜多（梵文）（梵語）譯– 標–
@@ -294,9 +294,9 @@
 - `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標✓
 - `madhyamagama` 中阿含經（古典漢語）譯✓ 標✓
 - `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
-- `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯– 標–
+- `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯✓ 標✓
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
-- `majjhima-nikaya` 中部經典（Pali）譯– 標–
+- `majjhima-nikaya` 中部經典（Pali）譯✓ 標–
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
 - `samyuktagama` 雜阿含經（古典漢語）譯✓ 標✓
@@ -322,7 +322,7 @@
 - `sutta-nipata` 經集（Pali）譯– 標–
 - `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯– 標✓
 - `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯– 標✓
-- `yogacarabhumi` 瑜伽師地論（古典漢語）譯– 標–
+- `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
 
 ### 印度教（58 部）
 
@@ -377,7 +377,7 @@
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標✓
 - `vaisheshika-sutra` 勝論經（梵語）譯✓ 標✓
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
-- `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯– 標–
+- `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯✓ 標–
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯✓ 標✓
 - `vedanta-upadeshasahasri` 千則教誨（梵語）譯✓ 標✓
 - `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
@@ -398,7 +398,7 @@
 - `epicurus-letter-menoeceus-el` 致美諾寇的信（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-bacchae-el` 酒神的女信徒（希臘原文）（Ancient Greek）譯✓ 標✓
 - `euripides-medea-el` 美狄亞（希臘原文）（Ancient Greek）譯✓ 標✓
-- `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯– 標–
+- `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯✓ 標✓
 - `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標✓
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
