@@ -45,5 +45,15 @@
     "所多瑪",
     "蛾摩拉"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+  ],
+  "psych_tag_status": "done"
 }

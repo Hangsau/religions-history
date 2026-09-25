@@ -1746,6 +1746,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-haggai",
+      "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-jude",
+      "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -3369,6 +3379,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-haggai",
+      "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -4941,6 +4956,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bible-jude",
+      "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -5186,6 +5206,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-jude",
+      "name_zh": "猶大書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -5216,6 +5241,21 @@
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
+    },
+    {
+      "slug": "bible-haggai",
+      "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-jude",
+      "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "基督教"
     },
     {
       "slug": "bud-buddhacarita-sa",
@@ -5438,6 +5478,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "vulgate-jude",
+      "name_zh": "猶大書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-obadiah",
+      "name_zh": "俄巴底亞書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -5601,6 +5651,11 @@
   ],
   "gratitude-contentment": [
     {
+      "slug": "bible-haggai",
+      "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
@@ -5631,6 +5686,16 @@
       "slug": "amos",
       "name_zh": "阿摩司書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "bible-jude",
+      "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "基督教"
     },
     {
       "slug": "ezra",
@@ -5691,6 +5756,16 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "vulgate-jude",
+      "name_zh": "猶大書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-obadiah",
+      "name_zh": "俄巴底亞書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "zephaniah",
@@ -5891,6 +5966,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-jude",
+      "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "基督教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
@@ -5924,6 +6009,18 @@
       "slug": "vulgate-3-john",
       "name_zh": "約翰三書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-jude",
+      "name_zh": "猶大書（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "insignificance-history": [
+    {
+      "slug": "vulgate-jude",
+      "name_zh": "猶大書（武加大）",
+      "religion": "基督教"
     }
   ],
   "justice-power": [
@@ -5931,6 +6028,11 @@
       "slug": "amos",
       "name_zh": "阿摩司書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "bible-obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "基督教"
     },
     {
       "slug": "habakkuk",
@@ -5971,6 +6073,11 @@
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
+    },
+    {
+      "slug": "vulgate-obadiah",
+      "name_zh": "俄巴底亞書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "zephaniah",
@@ -6125,6 +6232,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "bible-haggai",
+      "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-obadiah",
+      "name_zh": "俄巴底亞書",
+      "religion": "基督教"
+    },
+    {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
@@ -6223,6 +6340,11 @@
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "vulgate-obadiah",
+      "name_zh": "俄巴底亞書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "wuzhen-pian",
