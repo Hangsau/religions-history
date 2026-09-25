@@ -211,6 +211,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-proverbs",
+      "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1372,6 +1377,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-proverbs",
+      "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-song-of-songs",
       "name_zh": "雅歌（武加大）",
       "religion": "基督教"
@@ -1689,6 +1699,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-proverbs",
+      "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
       "religion": "基督教"
@@ -1863,6 +1883,16 @@
     {
       "slug": "bible-jude",
       "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
       "religion": "基督教"
     },
     {
@@ -2516,6 +2546,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-daniel",
+      "name_zh": "但以理書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
@@ -2546,8 +2581,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-proverbs",
+      "name_zh": "箴言（武加大）",
       "religion": "基督教"
     },
     {
@@ -2675,6 +2720,11 @@
     {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
       "religion": "基督教"
     },
     {
@@ -3328,6 +3378,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-daniel",
+      "name_zh": "但以理書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-ephesians",
       "name_zh": "以弗所書（武加大）",
       "religion": "基督教"
@@ -3635,6 +3690,11 @@
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "vulgate-proverbs",
+      "name_zh": "箴言（武加大）",
+      "religion": "基督教"
     }
   ],
   "courage": [
@@ -3691,6 +3751,16 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
       "religion": "基督教"
     },
     {
@@ -4119,6 +4189,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-daniel",
+      "name_zh": "但以理書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
@@ -4228,6 +4303,16 @@
     {
       "slug": "bible-hebrews",
       "name_zh": "希伯來書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
       "religion": "基督教"
     },
     {
@@ -4891,6 +4976,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-daniel",
+      "name_zh": "但以理書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
       "religion": "基督教"
@@ -4903,6 +4993,11 @@
     {
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -5182,6 +5277,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-revelation",
       "name_zh": "啟示錄",
       "religion": "基督教"
@@ -5305,6 +5405,11 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-revelation",
@@ -5546,6 +5651,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "基督教"
@@ -5553,6 +5663,11 @@
     {
       "slug": "bible-malachi",
       "name_zh": "瑪拉基書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
       "religion": "基督教"
     },
     {
@@ -5871,6 +5986,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-daniel",
+      "name_zh": "但以理書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-galatians",
       "name_zh": "加拉太書（武加大）",
       "religion": "基督教"
@@ -5913,6 +6033,11 @@
     {
       "slug": "vulgate-malachi",
       "name_zh": "瑪拉基書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
     },
     {

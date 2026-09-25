@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**321** / 518
-- 已標籤：**344** / 518
+- 已翻譯：**326** / 518
+- 已標籤：**349** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 109 | 111 |
+| 基督教 | 161 | 114 | 116 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -130,12 +130,12 @@
 - `bible-jonah` 約拿書（古典中文）譯✓ 標✓
 - `bible-joshua` 約書亞記（古典中文）譯– 標–
 - `bible-jude` 猶大書（古典中文）譯✓ 標✓
-- `bible-judges` 士師記（古典中文）譯– 標–
+- `bible-judges` 士師記（古典中文）譯✓ 標✓
 - `bible-lamentations` 耶利米哀歌（古典中文）譯✓ 標✓
 - `bible-leviticus` 利未記（古典中文）譯– 標–
 - `bible-luke` 路加福音（古典中文）譯– 標–
 - `bible-malachi` 瑪拉基書（古典中文）譯✓ 標✓
-- `bible-mark` 馬可福音（古典中文）譯– 標–
+- `bible-mark` 馬可福音（古典中文）譯✓ 標✓
 - `bible-matthew` 馬太福音（古典中文）譯– 標–
 - `bible-micah` 彌迦書（古典中文）譯✓ 標✓
 - `bible-nahum` 那鴻書（古典中文）譯✓ 標✓
@@ -200,7 +200,7 @@
 - `vulgate-acts` 使徒行傳（武加大）（Latin）譯– 標–
 - `vulgate-amos` 阿摩司書（武加大）（Latin）譯✓ 標✓
 - `vulgate-colossians` 歌羅西書（武加大）（Latin）譯✓ 標✓
-- `vulgate-daniel` 但以理書（武加大）（Latin）譯– 標–
+- `vulgate-daniel` 但以理書（武加大）（Latin）譯✓ 標✓
 - `vulgate-deuteronomy` 申命記（武加大）（Latin）譯– 標–
 - `vulgate-ecclesiastes` 傳道書（武加大）（Latin）譯✓ 標✓
 - `vulgate-ephesians` 以弗所書（武加大）（Latin）譯✓ 標✓
@@ -228,7 +228,7 @@
 - `vulgate-leviticus` 利未記（武加大）（Latin）譯– 標–
 - `vulgate-luke` 路加福音（武加大）（Latin）譯– 標–
 - `vulgate-malachi` 瑪拉基書（武加大）（Latin）譯✓ 標✓
-- `vulgate-mark` 馬可福音（武加大）（Latin）譯– 標–
+- `vulgate-mark` 馬可福音（武加大）（Latin）譯✓ 標✓
 - `vulgate-matthew` 馬太福音（武加大）（Latin）譯– 標–
 - `vulgate-micah` 彌迦書（武加大）（Latin）譯✓ 標✓
 - `vulgate-nahum` 那鴻書（武加大）（Latin）譯✓ 標✓
@@ -237,7 +237,7 @@
 - `vulgate-obadiah` 俄巴底亞書（武加大）（Latin）譯✓ 標✓
 - `vulgate-philemon` 腓利門書（武加大）（Latin）譯✓ 標✓
 - `vulgate-philippians` 腓立比書（武加大）（Latin）譯✓ 標✓
-- `vulgate-proverbs` 箴言（武加大）（Latin）譯– 標–
+- `vulgate-proverbs` 箴言（武加大）（Latin）譯✓ 標✓
 - `vulgate-psalms` 詩篇（武加大）（Latin）譯– 標–
 - `vulgate-revelation` 啟示錄（武加大）（Latin）譯✓ 標✓
 - `vulgate-romans` 羅馬書（武加大）（Latin）譯✓ 標✓
