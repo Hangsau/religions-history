@@ -51,5 +51,15 @@
     "大利烏王",
     "和平"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power"
+  ],
+  "psych_tag_status": "done"
 }

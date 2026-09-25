@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**296** / 518
-- 已標籤：**319** / 518
+- 已翻譯：**301** / 518
+- 已標籤：**324** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 87 | 89 |
+| 基督教 | 161 | 92 | 94 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -120,7 +120,7 @@
 - `bible-habakkuk` 哈巴谷書（古典中文）譯✓ 標✓
 - `bible-haggai` 哈該書（古典中文）譯✓ 標✓
 - `bible-hebrews` 希伯來書（古典中文）譯– 標–
-- `bible-hosea` 何西阿書（古典中文）譯– 標–
+- `bible-hosea` 何西阿書（古典中文）譯✓ 標✓
 - `bible-isaiah` 以賽亞書（古典中文）譯– 標–
 - `bible-james` 雅各書（古典中文）譯✓ 標✓
 - `bible-jeremiah` 耶利米書（古典中文）譯– 標–
@@ -151,7 +151,7 @@
 - `bible-ruth` 路得記（古典中文）譯✓ 標✓
 - `bible-song-of-songs` 雅歌（古典中文）譯– 標–
 - `bible-titus` 提多書（古典中文）譯✓ 標✓
-- `bible-zechariah` 撒迦利亞書（古典中文）譯– 標–
+- `bible-zechariah` 撒迦利亞書（古典中文）譯✓ 標✓
 - `bible-zephaniah` 西番雅書（古典中文）譯✓ 標✓
 - `sblgnt-1-corinthians` 哥林多前書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-1-john` 約翰一書（希臘原文）（Koine Greek）譯✓ 標✓
@@ -202,7 +202,7 @@
 - `vulgate-colossians` 歌羅西書（武加大）（Latin）譯✓ 標✓
 - `vulgate-daniel` 但以理書（武加大）（Latin）譯– 標–
 - `vulgate-deuteronomy` 申命記（武加大）（Latin）譯– 標–
-- `vulgate-ecclesiastes` 傳道書（武加大）（Latin）譯– 標–
+- `vulgate-ecclesiastes` 傳道書（武加大）（Latin）譯✓ 標✓
 - `vulgate-ephesians` 以弗所書（武加大）（Latin）譯✓ 標✓
 - `vulgate-esther` 以斯帖記（武加大）（Latin）譯– 標–
 - `vulgate-exodus` 出埃及記（武加大）（Latin）譯– 標–
@@ -213,7 +213,7 @@
 - `vulgate-habakkuk` 哈巴谷書（武加大）（Latin）譯✓ 標✓
 - `vulgate-haggai` 哈該書（武加大）（Latin）譯✓ 標✓
 - `vulgate-hebrews` 希伯來書（武加大）（Latin）譯– 標–
-- `vulgate-hosea` 何西阿書（武加大）（Latin）譯– 標–
+- `vulgate-hosea` 何西阿書（武加大）（Latin）譯✓ 標✓
 - `vulgate-isaiah` 以賽亞書（武加大）（Latin）譯– 標–
 - `vulgate-james` 雅各書（武加大）（Latin）譯✓ 標✓
 - `vulgate-jeremiah` 耶利米書（武加大）（Latin）譯– 標–
@@ -244,7 +244,7 @@
 - `vulgate-ruth` 路得記（武加大）（Latin）譯✓ 標✓
 - `vulgate-song-of-songs` 雅歌（武加大）（Latin）譯✓ 標✓
 - `vulgate-titus` 提多書（武加大）（Latin）譯✓ 標✓
-- `vulgate-zechariah` 撒迦利亞書（武加大）（Latin）譯– 標–
+- `vulgate-zechariah` 撒迦利亞書（武加大）（Latin）譯✓ 標✓
 - `vulgate-zephaniah` 西番雅書（武加大）（Latin）譯✓ 標✓
 
 ### 佛教（74 部）
