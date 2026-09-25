@@ -48,5 +48,15 @@
   ],
   "tag_status": "done",
   "is_original_language": false,
-  "text_role": "translation"
+  "text_role": "translation",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "love-sex-intimacy",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done"
 }

@@ -49,5 +49,15 @@
     "神",
     "光暗"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "love-sex-intimacy",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done"
 }
