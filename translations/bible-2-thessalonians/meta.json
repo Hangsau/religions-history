@@ -50,5 +50,14 @@
     "聖靈",
     "末日降臨"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }

@@ -50,5 +50,14 @@
     "監督",
     "重生"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "giving-generosity",
+    "honesty-hypocrisy"
+  ],
+  "psych_tag_status": "done"
 }
