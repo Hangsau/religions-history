@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**331** / 518
-- 已標籤：**354** / 518
+- 已翻譯：**337** / 518
+- 已標籤：**359** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 119 | 121 |
+| 基督教 | 161 | 124 | 125 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -18,7 +18,7 @@
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 9 | 9 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
-| 美洲 | 11 | 1 | 1 |
+| 美洲 | 11 | 2 | 2 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
 | 古埃及 | 8 | 2 | 2 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -98,7 +98,7 @@
 - `bible-2-chronicles` 歷代志下（古典中文）譯– 標–
 - `bible-2-corinthians` 哥林多後書（古典中文）譯✓ 標✓
 - `bible-2-john` 約翰二書（古典中文）譯✓ 標✓
-- `bible-2-kings` 列王紀下（古典中文）譯– 標–
+- `bible-2-kings` 列王紀下（古典中文）譯✓ 標✓
 - `bible-2-peter` 彼得後書（古典中文）譯✓ 標✓
 - `bible-2-samuel` 撒母耳記下（古典中文）譯✓ 標✓
 - `bible-2-thessalonians` 帖撒羅尼迦後書（古典中文）譯✓ 標✓
@@ -126,13 +126,13 @@
 - `bible-jeremiah` 耶利米書（古典中文）譯– 標–
 - `bible-job` 約伯記（古典中文）譯✓ 標✓
 - `bible-joel` 約珥書（古典中文）譯✓ 標✓
-- `bible-john` 約翰福音（古典中文）譯– 標–
+- `bible-john` 約翰福音（古典中文）譯✓ 標✓
 - `bible-jonah` 約拿書（古典中文）譯✓ 標✓
 - `bible-joshua` 約書亞記（古典中文）譯✓ 標✓
 - `bible-jude` 猶大書（古典中文）譯✓ 標✓
 - `bible-judges` 士師記（古典中文）譯✓ 標✓
 - `bible-lamentations` 耶利米哀歌（古典中文）譯✓ 標✓
-- `bible-leviticus` 利未記（古典中文）譯– 標–
+- `bible-leviticus` 利未記（古典中文）譯✓ 標✓
 - `bible-luke` 路加福音（古典中文）譯– 標–
 - `bible-malachi` 瑪拉基書（古典中文）譯✓ 標✓
 - `bible-mark` 馬可福音（古典中文）譯✓ 標✓
@@ -219,11 +219,11 @@
 - `vulgate-jeremiah` 耶利米書（武加大）（Latin）譯– 標–
 - `vulgate-job` 約伯記（武加大）（Latin）譯✓ 標✓
 - `vulgate-joel` 約珥書（武加大）（Latin）譯✓ 標✓
-- `vulgate-john` 約翰福音（武加大）（Latin）譯– 標–
+- `vulgate-john` 約翰福音（武加大）（Latin）譯✓ 標–
 - `vulgate-jonah` 約拿書（武加大）（Latin）譯✓ 標✓
 - `vulgate-joshua` 約書亞記（武加大）（Latin）譯✓ 標✓
 - `vulgate-jude` 猶大書（武加大）（Latin）譯✓ 標✓
-- `vulgate-judges` 士師記（武加大）（Latin）譯– 標–
+- `vulgate-judges` 士師記（武加大）（Latin）譯✓ 標✓
 - `vulgate-lamentations` 耶利米哀歌（武加大）（Latin）譯✓ 標✓
 - `vulgate-leviticus` 利未記（武加大）（Latin）譯– 標–
 - `vulgate-luke` 路加福音（武加大）（Latin）譯– 標–
@@ -545,7 +545,7 @@
 - `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
 - `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
 - `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯– 標–
-- `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯– 標–
+- `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯✓ 標✓
 - `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）譯– 標–
 - `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）譯– 標–
 
