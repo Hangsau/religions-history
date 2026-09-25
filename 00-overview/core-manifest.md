@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**351** / 518
-- 已標籤：**374** / 518
+- 已翻譯：**356** / 518
+- 已標籤：**379** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 136 | 138 |
+| 基督教 | 161 | 140 | 142 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -31,7 +31,7 @@
 | 伊斯蘭 | 4 | 0 | 0 |
 | 印加 | 3 | 2 | 2 |
 | 瑪雅 | 3 | 1 | 1 |
-| 兩河 | 3 | 2 | 1 |
+| 兩河 | 3 | 3 | 2 |
 | 斯拉夫 | 3 | 1 | 1 |
 | 非洲 | 2 | 1 | 1 |
 | 阿茲特克 | 1 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -133,7 +133,7 @@
 - `bible-judges` 士師記（古典中文）譯✓ 標✓
 - `bible-lamentations` 耶利米哀歌（古典中文）譯✓ 標✓
 - `bible-leviticus` 利未記（古典中文）譯✓ 標✓
-- `bible-luke` 路加福音（古典中文）譯– 標–
+- `bible-luke` 路加福音（古典中文）譯✓ 標✓
 - `bible-malachi` 瑪拉基書（古典中文）譯✓ 標✓
 - `bible-mark` 馬可福音（古典中文）譯✓ 標✓
 - `bible-matthew` 馬太福音（古典中文）譯✓ 標✓
@@ -183,7 +183,7 @@
 - `vulgate-1-chronicles` 歷代志上（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-corinthians` 哥林多前書（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-john` 約翰一書（武加大）（Latin）譯✓ 標✓
-- `vulgate-1-kings` 列王紀上 (武加大稱 列王紀三)（Latin）譯– 標–
+- `vulgate-1-kings` 列王紀上 (武加大稱 列王紀三)（Latin）譯✓ 標✓
 - `vulgate-1-peter` 彼得前書（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-samuel` 撒母耳記上 (武加大稱 列王紀一)（Latin）譯– 標–
 - `vulgate-1-thessalonians` 帖撒羅尼迦前書（武加大）（Latin）譯✓ 標✓
@@ -197,7 +197,7 @@
 - `vulgate-2-thessalonians` 帖撒羅尼迦後書（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-timothy` 提摩太後書（武加大）（Latin）譯✓ 標✓
 - `vulgate-3-john` 約翰三書（武加大）（Latin）譯✓ 標✓
-- `vulgate-acts` 使徒行傳（武加大）（Latin）譯– 標–
+- `vulgate-acts` 使徒行傳（武加大）（Latin）譯✓ 標✓
 - `vulgate-amos` 阿摩司書（武加大）（Latin）譯✓ 標✓
 - `vulgate-colossians` 歌羅西書（武加大）（Latin）譯✓ 標✓
 - `vulgate-daniel` 但以理書（武加大）（Latin）譯✓ 標✓
@@ -229,7 +229,7 @@
 - `vulgate-luke` 路加福音（武加大）（Latin）譯– 標–
 - `vulgate-malachi` 瑪拉基書（武加大）（Latin）譯✓ 標✓
 - `vulgate-mark` 馬可福音（武加大）（Latin）譯✓ 標✓
-- `vulgate-matthew` 馬太福音（武加大）（Latin）譯– 標–
+- `vulgate-matthew` 馬太福音（武加大）（Latin）譯✓ 標✓
 - `vulgate-micah` 彌迦書（武加大）（Latin）譯✓ 標✓
 - `vulgate-nahum` 那鴻書（武加大）（Latin）譯✓ 標✓
 - `vulgate-nehemiah` 尼希米記（武加大稱 2 Esdras）（Latin）譯✓ 標✓
@@ -655,7 +655,7 @@
 
 ### 兩河（3 部）
 
-- `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯– 標–
+- `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯✓ 標✓
 - `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯✓ 標–
 - `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯✓ 標✓
 

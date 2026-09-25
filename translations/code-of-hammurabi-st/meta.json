@@ -47,5 +47,15 @@
     "巴比倫",
     "法典"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done"
 }
