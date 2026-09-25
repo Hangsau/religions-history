@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**346** / 518
-- 已標籤：**369** / 518
+- 已翻譯：**351** / 518
+- 已標籤：**374** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 133 | 135 |
+| 基督教 | 161 | 136 | 138 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -18,7 +18,7 @@
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 9 | 9 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
-| 美洲 | 11 | 2 | 2 |
+| 美洲 | 11 | 3 | 3 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
 | 古埃及 | 8 | 2 | 2 |
@@ -29,7 +29,7 @@
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 2 | 2 |
 | 伊斯蘭 | 4 | 0 | 0 |
-| 印加 | 3 | 1 | 1 |
+| 印加 | 3 | 2 | 2 |
 | 瑪雅 | 3 | 1 | 1 |
 | 兩河 | 3 | 2 | 1 |
 | 斯拉夫 | 3 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -104,11 +104,11 @@
 - `bible-2-thessalonians` 帖撒羅尼迦後書（古典中文）譯✓ 標✓
 - `bible-2-timothy` 提摩太後書（古典中文）譯✓ 標✓
 - `bible-3-john` 約翰三書（古典中文）譯✓ 標✓
-- `bible-acts` 使徒行傳（古典中文）譯– 標–
+- `bible-acts` 使徒行傳（古典中文）譯✓ 標✓
 - `bible-amos` 阿摩司書（古典中文）譯✓ 標✓
 - `bible-colossians` 歌羅西書（古典中文）譯✓ 標✓
 - `bible-daniel` 但以理書（古典中文）譯✓ 標✓
-- `bible-deuteronomy` 申命記（古典中文）譯– 標–
+- `bible-deuteronomy` 申命記（古典中文）譯✓ 標✓
 - `bible-ecclesiastes` 傳道書（古典中文）譯✓ 標✓
 - `bible-ephesians` 以弗所書（古典中文）譯✓ 標✓
 - `bible-esther` 以斯帖記（古典中文）譯✓ 標✓
@@ -191,7 +191,7 @@
 - `vulgate-2-chronicles` 歷代志下（武加大）（Latin）譯– 標–
 - `vulgate-2-corinthians` 哥林多後書（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-john` 約翰二書（武加大）（Latin）譯✓ 標✓
-- `vulgate-2-kings` 列王紀下 (武加大稱 列王紀四)（Latin）譯– 標–
+- `vulgate-2-kings` 列王紀下 (武加大稱 列王紀四)（Latin）譯✓ 標✓
 - `vulgate-2-peter` 彼得後書（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-samuel` 撒母耳記下 (武加大稱 列王紀二)（Latin）譯✓ 標✓
 - `vulgate-2-thessalonians` 帖撒羅尼迦後書（武加大）（Latin）譯✓ 標✓
@@ -544,7 +544,7 @@
 - `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯– 標–
 - `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯– 標–
 - `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
-- `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯– 標–
+- `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯✓ 標✓
 - `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯✓ 標✓
 - `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）譯– 標–
 - `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）譯– 標–
@@ -643,7 +643,7 @@
 
 ### 印加（3 部）
 
-- `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）譯– 標–
+- `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）譯✓ 標✓
 - `inca-rites` 印加儀禮與法律（English (translation)）譯✓ 標✓
 - `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）譯– 標–
 
