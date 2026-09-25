@@ -47,5 +47,15 @@
     "審判",
     "喜樂"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }

@@ -48,5 +48,15 @@
     "拯救",
     "王后冠冕"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+  ],
+  "psych_tag_status": "done"
 }

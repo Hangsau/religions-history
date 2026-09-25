@@ -49,5 +49,14 @@
     "錫安",
     "耶路撒冷"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }
