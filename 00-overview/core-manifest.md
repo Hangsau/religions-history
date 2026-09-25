@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**366** / 518
-- 已標籤：**389** / 518
+- 已翻譯：**371** / 518
+- 已標籤：**394** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 148 | 150 |
+| 基督教 | 161 | 152 | 154 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -27,7 +27,7 @@
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
-| 巴哈伊 | 4 | 2 | 2 |
+| 巴哈伊 | 4 | 3 | 3 |
 | 伊斯蘭 | 4 | 0 | 0 |
 | 印加 | 3 | 2 | 2 |
 | 瑪雅 | 3 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -113,15 +113,15 @@
 - `bible-ephesians` 以弗所書（古典中文）譯✓ 標✓
 - `bible-esther` 以斯帖記（古典中文）譯✓ 標✓
 - `bible-exodus` 出埃及記（古典中文）譯✓ 標✓
-- `bible-ezekiel` 以西結書（古典中文）譯– 標–
+- `bible-ezekiel` 以西結書（古典中文）譯✓ 標✓
 - `bible-ezra` 以斯拉記（古典中文）譯✓ 標✓
 - `bible-galatians` 加拉太書（古典中文）譯✓ 標✓
-- `bible-genesis` 創世記（古典中文）譯– 標–
+- `bible-genesis` 創世記（古典中文）譯✓ 標✓
 - `bible-habakkuk` 哈巴谷書（古典中文）譯✓ 標✓
 - `bible-haggai` 哈該書（古典中文）譯✓ 標✓
 - `bible-hebrews` 希伯來書（古典中文）譯✓ 標✓
 - `bible-hosea` 何西阿書（古典中文）譯✓ 標✓
-- `bible-isaiah` 以賽亞書（古典中文）譯– 標–
+- `bible-isaiah` 以賽亞書（古典中文）譯✓ 標✓
 - `bible-james` 雅各書（古典中文）譯✓ 標✓
 - `bible-jeremiah` 耶利米書（古典中文）譯– 標–
 - `bible-job` 約伯記（古典中文）譯✓ 標✓
@@ -214,7 +214,7 @@
 - `vulgate-haggai` 哈該書（武加大）（Latin）譯✓ 標✓
 - `vulgate-hebrews` 希伯來書（武加大）（Latin）譯✓ 標✓
 - `vulgate-hosea` 何西阿書（武加大）（Latin）譯✓ 標✓
-- `vulgate-isaiah` 以賽亞書（武加大）（Latin）譯– 標–
+- `vulgate-isaiah` 以賽亞書（武加大）（Latin）譯✓ 標✓
 - `vulgate-james` 雅各書（武加大）（Latin）譯✓ 標✓
 - `vulgate-jeremiah` 耶利米書（武加大）（Latin）譯– 標–
 - `vulgate-job` 約伯記（武加大）（Latin）譯✓ 標✓
@@ -632,7 +632,7 @@
 - `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）譯✓ 標✓
 - `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）譯– 標–
-- `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯– 標–
+- `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯✓ 標✓
 
 ### 伊斯蘭（4 部）
 

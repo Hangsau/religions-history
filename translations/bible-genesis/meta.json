@@ -50,5 +50,15 @@
     "分別善惡樹",
     "原罪"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done"
 }

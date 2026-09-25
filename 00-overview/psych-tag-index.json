@@ -206,6 +206,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "splendour-of-god",
+      "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
@@ -296,6 +301,11 @@
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bible-genesis",
+      "name_zh": "創世記",
+      "religion": "基督教"
     },
     {
       "slug": "bible-joshua",
@@ -888,6 +898,11 @@
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
+    },
+    {
+      "slug": "splendour-of-god",
+      "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
+      "religion": "巴哈伊"
     },
     {
       "slug": "taittiriya-upanishad",
@@ -1584,6 +1599,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-ezekiel",
+      "name_zh": "以西結書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-leviticus",
       "name_zh": "利未記",
       "religion": "基督教"
@@ -1787,6 +1807,11 @@
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "splendour-of-god",
+      "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
+      "religion": "巴哈伊"
     },
     {
       "slug": "vaisheshika-sutra-kanada",
@@ -2036,8 +2061,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-ezekiel",
+      "name_zh": "以西結書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-ezra",
       "name_zh": "以斯拉記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-genesis",
+      "name_zh": "創世記",
       "religion": "基督教"
     },
     {
@@ -2053,6 +2088,11 @@
     {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -2706,6 +2746,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "splendour-of-god",
+      "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
@@ -2848,6 +2893,11 @@
     {
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-isaiah",
+      "name_zh": "以賽亞書（武加大）",
       "religion": "基督教"
     },
     {
@@ -3050,6 +3100,16 @@
     {
       "slug": "bible-acts",
       "name_zh": "使徒行傳",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-ezekiel",
+      "name_zh": "以西結書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -3648,6 +3708,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "splendour-of-god",
+      "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
@@ -4161,6 +4226,11 @@
     {
       "slug": "bible-esther",
       "name_zh": "以斯帖記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-ezekiel",
+      "name_zh": "以西結書",
       "religion": "基督教"
     },
     {
@@ -4836,8 +4906,23 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-ezekiel",
+      "name_zh": "以西結書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-genesis",
+      "name_zh": "創世記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-hebrews",
       "name_zh": "希伯來書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -5636,6 +5721,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-isaiah",
+      "name_zh": "以賽亞書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-job",
       "name_zh": "約伯記（武加大）",
       "religion": "基督教"
@@ -6174,6 +6264,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-genesis",
+      "name_zh": "創世記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-hebrews",
       "name_zh": "希伯來書",
       "religion": "基督教"
@@ -6181,6 +6276,11 @@
     {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -6324,6 +6424,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-isaiah",
+      "name_zh": "以賽亞書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
       "religion": "基督教"
@@ -6421,6 +6526,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-genesis",
+      "name_zh": "創世記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "基督教"
@@ -6433,6 +6543,11 @@
     {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -6868,6 +6983,11 @@
     {
       "slug": "vulgate-hosea",
       "name_zh": "何西阿書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-isaiah",
+      "name_zh": "以賽亞書（武加大）",
       "religion": "基督教"
     },
     {
@@ -7430,6 +7550,11 @@
     {
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-isaiah",
+      "name_zh": "以賽亞書（武加大）",
       "religion": "基督教"
     },
     {
