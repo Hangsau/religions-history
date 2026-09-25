@@ -211,6 +211,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
       "religion": "基督教"
@@ -608,8 +613,18 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "vulgate-2-samuel",
+      "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -1397,6 +1412,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
       "religion": "基督教"
@@ -1724,6 +1744,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-mark",
       "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
@@ -1844,6 +1869,16 @@
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "bible-1-chronicles",
+      "name_zh": "歷代志上",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-kings",
+      "name_zh": "列王紀上",
+      "religion": "基督教"
     },
     {
       "slug": "bible-1-thessalonians",
@@ -2581,6 +2616,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-2-samuel",
+      "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-2-timothy",
       "name_zh": "提摩太後書（武加大）",
       "religion": "基督教"
@@ -2636,6 +2676,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-john",
+      "name_zh": "約翰福音（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
       "religion": "基督教"
@@ -2648,6 +2693,11 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -3460,6 +3510,11 @@
     {
       "slug": "vulgate-ephesians",
       "name_zh": "以弗所書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-john",
+      "name_zh": "約翰福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -4366,8 +4421,18 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-1-chronicles",
+      "name_zh": "歷代志上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-1-corinthians",
       "name_zh": "哥林多前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-kings",
+      "name_zh": "列王紀上",
       "religion": "基督教"
     },
     {
@@ -5101,6 +5166,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-2-samuel",
+      "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-2-timothy",
       "name_zh": "提摩太後書（武加大）",
       "religion": "基督教"
@@ -5133,6 +5203,11 @@
     {
       "slug": "vulgate-job",
       "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-john",
+      "name_zh": "約翰福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -5557,6 +5632,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "vulgate-2-samuel",
+      "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-job",
       "name_zh": "約伯記（武加大）",
       "religion": "基督教"
@@ -5597,6 +5677,11 @@
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "bible-1-kings",
+      "name_zh": "列王紀上",
+      "religion": "基督教"
     },
     {
       "slug": "bible-daniel",
@@ -5724,6 +5809,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vulgate-2-samuel",
+      "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
@@ -5744,6 +5834,16 @@
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
+    },
+    {
+      "slug": "bible-1-chronicles",
+      "name_zh": "歷代志上",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-kings",
+      "name_zh": "列王紀上",
+      "religion": "基督教"
     },
     {
       "slug": "bible-1-thessalonians",
@@ -6206,6 +6306,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-john",
+      "name_zh": "約翰福音（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
       "religion": "基督教"
@@ -6298,8 +6403,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "bible-1-chronicles",
+      "name_zh": "歷代志上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-kings",
+      "name_zh": "列王紀上",
       "religion": "基督教"
     },
     {
@@ -6718,6 +6833,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-john",
+      "name_zh": "約翰福音（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jude",
       "name_zh": "猶大書（武加大）",
       "religion": "基督教"
@@ -6783,6 +6903,11 @@
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "bible-1-chronicles",
+      "name_zh": "歷代志上",
+      "religion": "基督教"
     },
     {
       "slug": "bible-galatians",
