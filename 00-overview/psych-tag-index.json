@@ -1751,6 +1751,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-timothy",
+      "name_zh": "提摩太後書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
       "religion": "基督教"
@@ -2334,6 +2339,11 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "vulgate-2-timothy",
+      "name_zh": "提摩太後書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-3-john",
@@ -3424,6 +3434,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-2-timothy",
+      "name_zh": "提摩太後書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
       "religion": "基督教"
@@ -3834,6 +3849,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-2-timothy",
+      "name_zh": "提摩太後書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -3889,6 +3909,11 @@
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "bible-2-timothy",
+      "name_zh": "提摩太後書",
+      "religion": "基督教"
     },
     {
       "slug": "brahma-sutra",
@@ -4501,6 +4526,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-2-timothy",
+      "name_zh": "提摩太後書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -5021,6 +5051,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-timothy",
+      "name_zh": "提摩太後書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "基督教"
@@ -5028,6 +5063,11 @@
     {
       "slug": "bible-jude",
       "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-malachi",
+      "name_zh": "瑪拉基書",
       "religion": "基督教"
     },
     {
@@ -5291,6 +5331,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-2-timothy",
+      "name_zh": "提摩太後書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
       "religion": "基督教"
@@ -5308,6 +5353,11 @@
     {
       "slug": "vulgate-jude",
       "name_zh": "猶大書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-malachi",
+      "name_zh": "瑪拉基書（武加大）",
       "religion": "基督教"
     },
     {
@@ -5355,6 +5405,11 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joel",
+      "name_zh": "約珥書",
       "religion": "基督教"
     },
     {
@@ -5841,6 +5896,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-malachi",
+      "name_zh": "瑪拉基書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
@@ -5853,8 +5913,18 @@
       "religion": "猶太教"
     },
     {
+      "slug": "bible-joel",
+      "name_zh": "約珥書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-jude",
       "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-malachi",
+      "name_zh": "瑪拉基書",
       "religion": "基督教"
     },
     {
@@ -5945,6 +6015,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
@@ -5988,6 +6063,11 @@
       "slug": "vulgate-3-john",
       "name_zh": "約翰三書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-malachi",
+      "name_zh": "瑪拉基書（武加大）",
+      "religion": "基督教"
     }
   ],
   "hope-reason-to-live": [
@@ -6009,6 +6089,11 @@
     {
       "slug": "bible-habakkuk",
       "name_zh": "哈巴谷書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joel",
+      "name_zh": "約珥書",
       "religion": "基督教"
     },
     {
@@ -6240,6 +6325,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-joel",
+      "name_zh": "約珥書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-nahum",
       "name_zh": "那鴻書",
       "religion": "基督教"
@@ -6297,6 +6392,11 @@
     {
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-malachi",
+      "name_zh": "瑪拉基書（武加大）",
       "religion": "基督教"
     },
     {
@@ -6445,6 +6545,11 @@
   ],
   "marriage-family": [
     {
+      "slug": "bible-malachi",
+      "name_zh": "瑪拉基書",
+      "religion": "基督教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -6489,6 +6594,11 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joel",
+      "name_zh": "約珥書",
       "religion": "基督教"
     },
     {
@@ -6622,6 +6732,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-2-timothy",
+      "name_zh": "提摩太後書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
       "religion": "基督教"
@@ -6634,6 +6749,11 @@
     {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-malachi",
+      "name_zh": "瑪拉基書（武加大）",
       "religion": "基督教"
     },
     {

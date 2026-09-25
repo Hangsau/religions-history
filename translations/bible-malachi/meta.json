@@ -51,5 +51,15 @@
     "以掃",
     "默示"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power",
+    "marriage-family"
+  ],
+  "psych_tag_status": "done"
 }

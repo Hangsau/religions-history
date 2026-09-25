@@ -49,5 +49,15 @@
     "禁食",
     "素祭奠祭"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }
