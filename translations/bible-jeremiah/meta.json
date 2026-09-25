@@ -50,5 +50,15 @@
     "選召",
     "審判"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done"
 }

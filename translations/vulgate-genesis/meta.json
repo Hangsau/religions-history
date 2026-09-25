@@ -47,5 +47,15 @@
   ],
   "tag_status": "done",
   "is_original_language": false,
-  "text_role": "translation"
+  "text_role": "translation",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done"
 }
