@@ -48,5 +48,15 @@
     "屍體污染",
     "神犬"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy"
+  ],
+  "psych_tag_status": "done"
 }

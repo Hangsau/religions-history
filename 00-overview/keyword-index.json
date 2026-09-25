@@ -1,4 +1,11 @@
 {
+  "'Abdu'l-Bahá": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
+    }
+  ],
   "1 Chronicles": [
     {
       "slug": "bible-1-chronicles",
@@ -362,6 +369,13 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Akka": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "Akkadian": [
@@ -1074,6 +1088,13 @@
       "religion": "基督教"
     }
   ],
+  "Babism": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
+    }
+  ],
   "Babylon": [
     {
       "slug": "code-of-hammurabi-st",
@@ -1128,8 +1149,20 @@
   ],
   "Baha'u'llah": [
     {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
+      "religion": "巴哈伊"
+    }
+  ],
+  "Bahaism": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
       "religion": "巴哈伊"
     }
   ],
@@ -5105,6 +5138,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Laura Clifford Barney": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
+    }
+  ],
   "Laṅkā": [
     {
       "slug": "valmiki-ramayana",
@@ -5510,6 +5550,11 @@
     {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
       "religion": "巴哈伊"
     }
   ],
@@ -13887,6 +13932,13 @@
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "the Bab": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "theodicy": [
@@ -25916,11 +25968,32 @@
       "religion": "猶太教"
     }
   ],
+  "巴哈伊": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
+    }
+  ],
+  "巴哈歐拉": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
+    }
+  ],
   "巴商": [
     {
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "巴布": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "巴拉": [
@@ -26072,6 +26145,13 @@
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
+    }
+  ],
+  "巴比教": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "巴特摩島": [
@@ -32144,6 +32224,11 @@
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "波斯匿王": [
@@ -34472,6 +34557,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "神所要彰顯者": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "神智學": [
@@ -40925,6 +41017,13 @@
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
+    }
+  ],
+  "阿卡": [
+    {
+      "slug": "some-answered-questions",
+      "name_zh": "已答之問（Abdu'l-Bahá）",
+      "religion": "巴哈伊"
     }
   ],
   "阿含": [

@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**398** / 518
-- 已標籤：**420** / 518
+- 已翻譯：**401** / 518
+- 已標籤：**423** / 518
 
 ## 各宗教核心進度
 
@@ -17,18 +17,18 @@
 | 猶太教 | 45 | 34 | 35 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
-| 瑣羅亞斯德 | 11 | 2 | 2 |
+| 瑣羅亞斯德 | 11 | 3 | 3 |
 | 美洲 | 11 | 10 | 10 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
-| 古埃及 | 8 | 8 | 7 |
+| 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
-| 巴哈伊 | 4 | 3 | 3 |
-| 伊斯蘭 | 4 | 1 | 1 |
+| 巴哈伊 | 4 | 4 | 4 |
+| 伊斯蘭 | 4 | 2 | 1 |
 | 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 3 | 3 |
 | 兩河 | 3 | 3 | 2 |
@@ -523,7 +523,7 @@
 
 ### 瑣羅亞斯德（11 部）
 
-- `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯– 標–
+- `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標–
 - `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
@@ -583,7 +583,7 @@
 - `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯✓ 標✓
 - `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯✓ 標✓
 - `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯✓ 標✓
-- `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯✓ 標–
+- `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯✓ 標✓
 
 ### 耆那教（7 部）
 
@@ -631,12 +631,12 @@
 
 - `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）譯✓ 標✓
-- `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）譯– 標–
+- `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）譯✓ 標✓
 - `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯✓ 標✓
 
 ### 伊斯蘭（4 部）
 
-- `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯– 標–
+- `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯✓ 標–
 - `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯✓ 標✓
 - `quran` 古蘭經（古典阿拉伯）譯– 標–
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標–

@@ -10,7 +10,7 @@
 
 - [ ] `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）— 已英→中✓，原文待補
 - [ ] `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）— 已英→中✓，原文待補
-- [ ] `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）— 未譯，原文待補
+- [ ] `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）— 已英→中✓，原文待補
 
 ## 美洲（1 部）
 
