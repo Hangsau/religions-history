@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**377** / 518
-- 已標籤：**399** / 518
+- 已翻譯：**381** / 518
+- 已標籤：**404** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 156 | 158 |
+| 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -18,21 +18,21 @@
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 9 | 9 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
-| 美洲 | 11 | 5 | 4 |
+| 美洲 | 11 | 5 | 5 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
-| 古埃及 | 8 | 4 | 4 |
+| 古埃及 | 8 | 5 | 5 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 3 | 3 |
-| 伊斯蘭 | 4 | 0 | 0 |
+| 伊斯蘭 | 4 | 1 | 1 |
 | 印加 | 3 | 2 | 2 |
 | 瑪雅 | 3 | 1 | 1 |
 | 兩河 | 3 | 3 | 2 |
-| 斯拉夫 | 3 | 1 | 1 |
+| 斯拉夫 | 3 | 2 | 2 |
 | 非洲 | 2 | 1 | 1 |
 | 阿茲特克 | 1 | 1 | 1 |
 | 赫爾墨斯 | 1 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -238,7 +238,7 @@
 - `vulgate-philemon` 腓利門書（武加大）（Latin）譯✓ 標✓
 - `vulgate-philippians` 腓立比書（武加大）（Latin）譯✓ 標✓
 - `vulgate-proverbs` 箴言（武加大）（Latin）譯✓ 標✓
-- `vulgate-psalms` 詩篇（武加大）（Latin）譯– 標–
+- `vulgate-psalms` 詩篇（武加大）（Latin）譯✓ 標✓
 - `vulgate-revelation` 啟示錄（武加大）（Latin）譯✓ 標✓
 - `vulgate-romans` 羅馬書（武加大）（Latin）譯✓ 標✓
 - `vulgate-ruth` 路得記（武加大）（Latin）譯✓ 標✓
@@ -542,7 +542,7 @@
 - `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯✓ 標✓
 - `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
 - `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯– 標–
-- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯✓ 標–
+- `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯✓ 標✓
 - `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
 - `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯✓ 標✓
 - `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯✓ 標✓
@@ -582,7 +582,7 @@
 - `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯✓ 標✓
 - `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯– 標–
 - `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯– 標–
-- `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯– 標–
+- `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯✓ 標✓
 - `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標–
 
 ### 耆那教（7 部）
@@ -637,7 +637,7 @@
 ### 伊斯蘭（4 部）
 
 - `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯– 標–
-- `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯– 標–
+- `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯✓ 標✓
 - `quran` 古蘭經（古典阿拉伯）譯– 標–
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標–
 
@@ -662,7 +662,7 @@
 ### 斯拉夫（3 部）
 
 - `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標–
-- `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯– 標–
+- `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯✓ 標✓
 - `tale-of-igor-ru` 伊戈爾遠征記（古東斯拉夫原文）（古東斯拉夫）譯✓ 標✓
 
 ### 非洲（2 部）

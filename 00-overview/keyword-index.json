@@ -402,6 +402,13 @@
       "religion": "北歐"
     }
   ],
+  "Algonquian": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
+    }
+  ],
   "Allah": [
     {
       "slug": "quran",
@@ -2781,6 +2788,13 @@
       "religion": "北歐"
     }
   ],
+  "Five Nations": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
+    }
+  ],
   "Flood": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -3070,6 +3084,13 @@
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "Great Lakes": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "Great Spirit": [
@@ -3977,6 +3998,11 @@
     {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
     }
   ],
@@ -4904,6 +4930,13 @@
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
+    }
+  ],
+  "League of the Iroquois": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "Lehi": [
@@ -7870,6 +7903,11 @@
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
+    },
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "Skaði": [
@@ -8655,6 +8693,13 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    }
+  ],
+  "Tuscaroras": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "Tyre": [
@@ -10633,6 +10678,11 @@
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "creation": [
@@ -11133,6 +11183,13 @@
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "genesis": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "ghaṭastha-yoga": [
@@ -11804,6 +11861,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "magic power": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
+    }
+  ],
   "magical names": [
     {
       "slug": "book-of-gates",
@@ -11830,6 +11894,13 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    }
+  ],
+  "man-being": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "manas": [
@@ -12031,6 +12102,20 @@
       "religion": "伊斯蘭"
     }
   ],
+  "mythology": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
+    }
+  ],
+  "nature-personified": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
+    }
+  ],
   "negative theology": [
     {
       "slug": "guide-for-the-perplexed-st",
@@ -12168,11 +12253,25 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "orenda": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
+    }
+  ],
   "ottappa": [
     {
       "slug": "an5-fives",
       "name_zh": "AN5 五法集",
       "religion": "佛教"
+    }
+  ],
+  "oñgwe": [
+    {
+      "slug": "iroquois-cosmology",
+      "name_zh": "易洛魁宇宙觀 (Hewitt)",
+      "religion": "美洲"
     }
   ],
   "oṃ": [
