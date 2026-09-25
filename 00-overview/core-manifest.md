@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**391** / 518
-- 已標籤：**414** / 518
+- 已翻譯：**396** / 518
+- 已標籤：**419** / 518
 
 ## 各宗教核心進度
 
@@ -13,12 +13,12 @@
 | 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
-| 古希臘羅馬 | 46 | 29 | 28 |
-| 猶太教 | 45 | 33 | 34 |
+| 古希臘羅馬 | 46 | 30 | 29 |
+| 猶太教 | 45 | 34 | 35 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
-| 瑣羅亞斯德 | 11 | 1 | 1 |
-| 美洲 | 11 | 9 | 9 |
+| 瑣羅亞斯德 | 11 | 2 | 2 |
+| 美洲 | 11 | 10 | 10 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
 | 古埃及 | 8 | 7 | 7 |
@@ -30,7 +30,7 @@
 | 巴哈伊 | 4 | 3 | 3 |
 | 伊斯蘭 | 4 | 1 | 1 |
 | 印加 | 3 | 3 | 3 |
-| 瑪雅 | 3 | 1 | 1 |
+| 瑪雅 | 3 | 2 | 2 |
 | 兩河 | 3 | 3 | 2 |
 | 斯拉夫 | 3 | 2 | 2 |
 | 非洲 | 2 | 2 | 2 |
@@ -426,7 +426,7 @@
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標–
 - `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標–
 - `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯✓ 標✓
-- `sibylline-oracles` 西比拉神諭集（English (translation)）譯– 標–
+- `sibylline-oracles` 西比拉神諭集（English (translation)）譯✓ 標✓
 - `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯✓ 標✓
@@ -462,7 +462,7 @@
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標–
 - `kings-1` 列王紀上（Hebrew）譯✓ 標✓
 - `kings-2` 列王紀下（Hebrew）譯✓ 標✓
-- `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯– 標–
+- `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯✓ 標✓
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
 - `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標–
 - `leviticus` 利未記（Hebrew）譯✓ 標✓
@@ -532,7 +532,7 @@
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標–
 - `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標–
 - `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯– 標–
-- `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯– 標–
+- `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯✓ 標✓
 - `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標–
 
 ### 美洲（11 部）
@@ -547,7 +547,7 @@
 - `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯✓ 標✓
 - `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯✓ 標✓
 - `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）譯✓ 標✓
-- `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）譯– 標–
+- `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）譯✓ 標✓
 
 ### 儒教（10 部）
 
@@ -651,7 +651,7 @@
 
 - `chilam-balam` 契倫·巴蘭之書 (Chumayel)（English (translation)）譯– 標–
 - `popol-vuh` 波波爾·烏 (基切馬雅創世史詩)（English (translation)）譯✓ 標✓
-- `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯– 標–
+- `yucatan-before-after-conquest` 尤卡坦征服前後 (Landa)（English (translation)）譯✓ 標✓
 
 ### 兩河（3 部）
 
