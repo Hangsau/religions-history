@@ -1454,6 +1454,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-2-john",
+      "name_zh": "約翰二書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-philemon",
+      "name_zh": "腓利門書",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -2301,6 +2311,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-3-john",
+      "name_zh": "約翰三書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -3135,6 +3150,16 @@
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
+    },
+    {
+      "slug": "bible-3-john",
+      "name_zh": "約翰三書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-philemon",
+      "name_zh": "腓利門書",
+      "religion": "基督教"
     },
     {
       "slug": "book-of-changes",
@@ -5519,6 +5544,16 @@
   ],
   "giving-generosity": [
     {
+      "slug": "bible-3-john",
+      "name_zh": "約翰三書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-philemon",
+      "name_zh": "腓利門書",
+      "religion": "基督教"
+    },
+    {
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
@@ -5552,6 +5587,16 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    },
+    {
+      "slug": "vulgate-3-john",
+      "name_zh": "約翰三書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-philemon",
+      "name_zh": "腓利門書（武加大）",
+      "religion": "基督教"
     }
   ],
   "gratitude-contentment": [
@@ -5655,6 +5700,11 @@
   ],
   "honesty-hypocrisy": [
     {
+      "slug": "bible-2-john",
+      "name_zh": "約翰二書",
+      "religion": "基督教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
@@ -5687,6 +5737,11 @@
     {
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-3-john",
+      "name_zh": "約翰三書（武加大）",
       "religion": "基督教"
     }
   ],
@@ -5831,6 +5886,11 @@
   ],
   "ingroup-outgroup-prejudice": [
     {
+      "slug": "bible-2-john",
+      "name_zh": "約翰二書",
+      "religion": "基督教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
@@ -5858,6 +5918,11 @@
     {
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-3-john",
+      "name_zh": "約翰三書（武加大）",
       "religion": "基督教"
     }
   ],
@@ -5965,9 +6030,19 @@
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-philemon",
+      "name_zh": "腓利門書（武加大）",
+      "religion": "基督教"
     }
   ],
   "loss-grief": [
+    {
+      "slug": "bible-philemon",
+      "name_zh": "腓利門書",
+      "religion": "基督教"
+    },
     {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
@@ -5977,9 +6052,19 @@
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "vulgate-philemon",
+      "name_zh": "腓利門書（武加大）",
+      "religion": "基督教"
     }
   ],
   "love-sex-intimacy": [
+    {
+      "slug": "bible-2-john",
+      "name_zh": "約翰二書",
+      "religion": "基督教"
+    },
     {
       "slug": "ruth",
       "name_zh": "路得記",
@@ -6190,6 +6275,11 @@
   ],
   "responsibility-leadership": [
     {
+      "slug": "bible-3-john",
+      "name_zh": "約翰三書",
+      "religion": "基督教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
@@ -6314,6 +6404,11 @@
   ],
   "trust-vulnerability": [
     {
+      "slug": "bible-philemon",
+      "name_zh": "腓利門書",
+      "religion": "基督教"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -6335,6 +6430,11 @@
     }
   ],
   "who-am-i": [
+    {
+      "slug": "bible-3-john",
+      "name_zh": "約翰三書",
+      "religion": "基督教"
+    },
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
@@ -6404,6 +6504,11 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    },
+    {
+      "slug": "vulgate-3-john",
+      "name_zh": "約翰三書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "wuzhen-pian",

@@ -45,5 +45,14 @@
     "教牧書信",
     "短箋"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "communication-being-understood",
+    "giving-generosity",
+    "responsibility-leadership",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done"
 }

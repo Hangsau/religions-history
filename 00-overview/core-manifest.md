@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**236** / 518
-- 已標籤：**259** / 518
+- 已翻譯：**241** / 518
+- 已標籤：**264** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 27 | 29 |
+| 基督教 | 161 | 32 | 34 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -97,13 +97,13 @@
 - `bible-1-timothy` 提摩太前書（古典中文）譯– 標–
 - `bible-2-chronicles` 歷代志下（古典中文）譯– 標–
 - `bible-2-corinthians` 哥林多後書（古典中文）譯– 標–
-- `bible-2-john` 約翰二書（古典中文）譯– 標–
+- `bible-2-john` 約翰二書（古典中文）譯✓ 標✓
 - `bible-2-kings` 列王紀下（古典中文）譯– 標–
 - `bible-2-peter` 彼得後書（古典中文）譯– 標–
 - `bible-2-samuel` 撒母耳記下（古典中文）譯– 標–
 - `bible-2-thessalonians` 帖撒羅尼迦後書（古典中文）譯– 標–
 - `bible-2-timothy` 提摩太後書（古典中文）譯– 標–
-- `bible-3-john` 約翰三書（古典中文）譯– 標–
+- `bible-3-john` 約翰三書（古典中文）譯✓ 標✓
 - `bible-acts` 使徒行傳（古典中文）譯– 標–
 - `bible-amos` 阿摩司書（古典中文）譯– 標–
 - `bible-colossians` 歌羅西書（古典中文）譯– 標–
@@ -142,7 +142,7 @@
 - `bible-nehemiah` 尼希米記（古典中文）譯– 標–
 - `bible-numbers` 民數記（古典中文）譯– 標–
 - `bible-obadiah` 俄巴底亞書（古典中文）譯– 標–
-- `bible-philemon` 腓利門書（古典中文）譯– 標–
+- `bible-philemon` 腓利門書（古典中文）譯✓ 標✓
 - `bible-philippians` 腓立比書（古典中文）譯– 標–
 - `bible-proverbs` 箴言（古典中文）譯– 標–
 - `bible-psalms` 詩篇（古典中文）譯– 標–
@@ -196,7 +196,7 @@
 - `vulgate-2-samuel` 撒母耳記下 (武加大稱 列王紀二)（Latin）譯– 標–
 - `vulgate-2-thessalonians` 帖撒羅尼迦後書（武加大）（Latin）譯– 標–
 - `vulgate-2-timothy` 提摩太後書（武加大）（Latin）譯– 標–
-- `vulgate-3-john` 約翰三書（武加大）（Latin）譯– 標–
+- `vulgate-3-john` 約翰三書（武加大）（Latin）譯✓ 標✓
 - `vulgate-acts` 使徒行傳（武加大）（Latin）譯– 標–
 - `vulgate-amos` 阿摩司書（武加大）（Latin）譯– 標–
 - `vulgate-colossians` 歌羅西書（武加大）（Latin）譯– 標–
@@ -235,7 +235,7 @@
 - `vulgate-nehemiah` 尼希米記（武加大稱 2 Esdras）（Latin）譯– 標–
 - `vulgate-numbers` 民數記（武加大）（Latin）譯– 標–
 - `vulgate-obadiah` 俄巴底亞書（武加大）（Latin）譯– 標–
-- `vulgate-philemon` 腓利門書（武加大）（Latin）譯– 標–
+- `vulgate-philemon` 腓利門書（武加大）（Latin）譯✓ 標✓
 - `vulgate-philippians` 腓立比書（武加大）（Latin）譯– 標–
 - `vulgate-proverbs` 箴言（武加大）（Latin）譯– 標–
 - `vulgate-psalms` 詩篇（武加大）（Latin）譯– 標–
