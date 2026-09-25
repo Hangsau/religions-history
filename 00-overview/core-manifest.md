@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**251** / 518
-- 已標籤：**274** / 518
+- 已翻譯：**256** / 518
+- 已標籤：**279** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 42 | 44 |
+| 基督教 | 161 | 47 | 49 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -117,7 +117,7 @@
 - `bible-ezra` 以斯拉記（古典中文）譯– 標–
 - `bible-galatians` 加拉太書（古典中文）譯– 標–
 - `bible-genesis` 創世記（古典中文）譯– 標–
-- `bible-habakkuk` 哈巴谷書（古典中文）譯– 標–
+- `bible-habakkuk` 哈巴谷書（古典中文）譯✓ 標✓
 - `bible-haggai` 哈該書（古典中文）譯✓ 標✓
 - `bible-hebrews` 希伯來書（古典中文）譯– 標–
 - `bible-hosea` 何西阿書（古典中文）譯– 標–
@@ -138,7 +138,7 @@
 - `bible-mark` 馬可福音（古典中文）譯– 標–
 - `bible-matthew` 馬太福音（古典中文）譯– 標–
 - `bible-micah` 彌迦書（古典中文）譯– 標–
-- `bible-nahum` 那鴻書（古典中文）譯– 標–
+- `bible-nahum` 那鴻書（古典中文）譯✓ 標✓
 - `bible-nehemiah` 尼希米記（古典中文）譯– 標–
 - `bible-numbers` 民數記（古典中文）譯– 標–
 - `bible-obadiah` 俄巴底亞書（古典中文）譯✓ 標✓
@@ -211,7 +211,7 @@
 - `vulgate-galatians` 加拉太書（武加大）（Latin）譯– 標–
 - `vulgate-genesis` 創世記（武加大）（Latin）譯– 標–
 - `vulgate-habakkuk` 哈巴谷書（武加大）（Latin）譯– 標–
-- `vulgate-haggai` 哈該書（武加大）（Latin）譯– 標–
+- `vulgate-haggai` 哈該書（武加大）（Latin）譯✓ 標✓
 - `vulgate-hebrews` 希伯來書（武加大）（Latin）譯– 標–
 - `vulgate-hosea` 何西阿書（武加大）（Latin）譯– 標–
 - `vulgate-isaiah` 以賽亞書（武加大）（Latin）譯– 標–
@@ -220,7 +220,7 @@
 - `vulgate-job` 約伯記（武加大）（Latin）譯– 標–
 - `vulgate-joel` 約珥書（武加大）（Latin）譯– 標–
 - `vulgate-john` 約翰福音（武加大）（Latin）譯– 標–
-- `vulgate-jonah` 約拿書（武加大）（Latin）譯– 標–
+- `vulgate-jonah` 約拿書（武加大）（Latin）譯✓ 標✓
 - `vulgate-joshua` 約書亞記（武加大）（Latin）譯– 標–
 - `vulgate-jude` 猶大書（武加大）（Latin）譯✓ 標✓
 - `vulgate-judges` 士師記（武加大）（Latin）譯– 標–
@@ -231,7 +231,7 @@
 - `vulgate-mark` 馬可福音（武加大）（Latin）譯– 標–
 - `vulgate-matthew` 馬太福音（武加大）（Latin）譯– 標–
 - `vulgate-micah` 彌迦書（武加大）（Latin）譯– 標–
-- `vulgate-nahum` 那鴻書（武加大）（Latin）譯– 標–
+- `vulgate-nahum` 那鴻書（武加大）（Latin）譯✓ 標✓
 - `vulgate-nehemiah` 尼希米記（武加大稱 2 Esdras）（Latin）譯– 標–
 - `vulgate-numbers` 民數記（武加大）（Latin）譯– 標–
 - `vulgate-obadiah` 俄巴底亞書（武加大）（Latin）譯✓ 標✓

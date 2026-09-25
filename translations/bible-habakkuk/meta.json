@@ -48,5 +48,15 @@
     "罪孽",
     "獅吼"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }
