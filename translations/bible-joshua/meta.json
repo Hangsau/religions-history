@@ -50,5 +50,15 @@
     "逾越節",
     "和合本"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "courage",
+    "death",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done"
 }

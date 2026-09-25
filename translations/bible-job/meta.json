@@ -49,5 +49,15 @@
     "公義",
     "約伯記"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done"
 }

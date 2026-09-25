@@ -283,6 +283,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-joshua",
+      "name_zh": "約書亞記",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
@@ -601,6 +606,11 @@
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "vulgate-joshua",
+      "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "xenophon-memorabilia-el",
@@ -1841,6 +1851,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
       "religion": "基督教"
@@ -1878,6 +1893,11 @@
     {
       "slug": "bible-jonah",
       "name_zh": "約拿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joshua",
+      "name_zh": "約書亞記",
       "religion": "基督教"
     },
     {
@@ -2571,6 +2591,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
       "religion": "基督教"
@@ -2578,6 +2603,11 @@
     {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-joshua",
+      "name_zh": "約書亞記（武加大）",
       "religion": "基督教"
     },
     {
@@ -3734,6 +3764,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
       "religion": "基督教"
@@ -3751,6 +3786,11 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joshua",
+      "name_zh": "約書亞記",
       "religion": "基督教"
     },
     {
@@ -4204,6 +4244,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-joshua",
+      "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
@@ -4281,6 +4326,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
       "religion": "基督教"
@@ -4303,6 +4353,16 @@
     {
       "slug": "bible-hebrews",
       "name_zh": "希伯來書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joshua",
+      "name_zh": "約書亞記",
       "religion": "基督教"
     },
     {
@@ -4996,6 +5056,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-joshua",
+      "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-mark",
       "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
@@ -5407,6 +5477,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-mark",
       "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
@@ -5643,6 +5718,16 @@
     {
       "slug": "bible-james",
       "name_zh": "雅各書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-joshua",
+      "name_zh": "約書亞記",
       "religion": "基督教"
     },
     {
@@ -6016,8 +6101,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-joshua",
+      "name_zh": "約書亞記（武加大）",
       "religion": "基督教"
     },
     {
@@ -6108,6 +6203,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書",
       "religion": "基督教"
@@ -6145,6 +6245,11 @@
     {
       "slug": "bible-hebrews",
       "name_zh": "希伯來書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
       "religion": "基督教"
     },
     {
@@ -6483,6 +6588,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
       "religion": "基督教"
@@ -6751,6 +6861,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-ecclesiastes",
       "name_zh": "傳道書",
       "religion": "基督教"
@@ -6768,6 +6883,11 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
       "religion": "基督教"
     },
     {
@@ -6895,6 +7015,11 @@
     {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
       "religion": "基督教"
     },
     {
