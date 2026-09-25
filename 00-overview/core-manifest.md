@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**381** / 518
-- 已標籤：**404** / 518
+- 已翻譯：**386** / 518
+- 已標籤：**409** / 518
 
 ## 各宗教核心進度
 
@@ -16,12 +16,12 @@
 | 古希臘羅馬 | 46 | 29 | 28 |
 | 猶太教 | 45 | 33 | 34 |
 | 道教 | 18 | 12 | 18 |
-| 北歐 | 15 | 9 | 9 |
+| 北歐 | 15 | 10 | 10 |
 | 瑣羅亞斯德 | 11 | 1 | 1 |
-| 美洲 | 11 | 5 | 5 |
+| 美洲 | 11 | 7 | 7 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
-| 古埃及 | 8 | 5 | 5 |
+| 古埃及 | 8 | 6 | 6 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
 | 現代新興 | 5 | 3 | 3 |
@@ -29,7 +29,7 @@
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 3 | 3 |
 | 伊斯蘭 | 4 | 1 | 1 |
-| 印加 | 3 | 2 | 2 |
+| 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 1 | 1 |
 | 兩河 | 3 | 3 | 2 |
 | 斯拉夫 | 3 | 2 | 2 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -518,7 +518,7 @@
 - `poetic-edda-on` 詩體埃達（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `snorra-edda-on` 散文埃達／斯諾里埃達（古諾斯語原文）（古諾斯語）譯– 標–
-- `volsunga-saga` 沃爾松傳奇（English (translation)）譯– 標–
+- `volsunga-saga` 沃爾松傳奇（English (translation)）譯✓ 標✓
 - `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯✓ 標✓
 
 ### 瑣羅亞斯德（11 部）
@@ -537,7 +537,7 @@
 
 ### 美洲（11 部）
 
-- `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯– 標–
+- `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯✓ 標✓
 - `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）譯✓ 標✓
 - `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯✓ 標✓
 - `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
@@ -546,7 +546,7 @@
 - `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯– 標–
 - `peyote-cult` 佩約特儀式 (烏羽玉聖餐宗教)（English (translation)）譯✓ 標✓
 - `religion-indians-california` 加州印第安人的宗教 (Kroeber)（English (translation)）譯✓ 標✓
-- `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）譯– 標–
+- `religion-luiseno-indians` 路易塞紐印第安人的宗教 (DuBois)（English (translation)）譯✓ 標✓
 - `sun-dance-ceremonies` 太陽舞與其他儀式 (Oglala Sioux)（English (translation)）譯– 標–
 
 ### 儒教（10 部）
@@ -580,7 +580,7 @@
 - `book-of-gates` 門之書（English (Budge translation)）譯✓ 標✓
 - `burden-of-isis` 伊西斯的悲歌（奧西里斯讚歌）（English (Budge translation)）譯✓ 標✓
 - `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯✓ 標✓
-- `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯– 標–
+- `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯✓ 標✓
 - `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯– 標–
 - `liturgy-funerary-offerings` 葬祭供養儀軌（English (Budge translation)）譯✓ 標✓
 - `pyramid-texts-mercer` 金字塔銘文（English (Budge translation)）譯– 標–
@@ -645,7 +645,7 @@
 
 - `apu-ollantay` 阿普·奧揚泰 (克丘亞語戲劇)（English (translation)）譯✓ 標✓
 - `inca-rites` 印加儀禮與法律（English (translation)）譯✓ 標✓
-- `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）譯– 標–
+- `narratives-rites-laws-yncas` 印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)（English (translation)）譯✓ 標✓
 
 ### 瑪雅（3 部）
 
