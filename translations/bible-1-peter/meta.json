@@ -50,5 +50,14 @@
     "審判",
     "謙卑"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }
