@@ -48,5 +48,15 @@
     "哈拿尼",
     "以斯拉"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done"
 }

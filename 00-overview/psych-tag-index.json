@@ -1679,6 +1679,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-song-of-songs",
       "name_zh": "雅歌（武加大）",
       "religion": "基督教"
@@ -1851,8 +1856,23 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-romans",
+      "name_zh": "羅馬書",
       "religion": "基督教"
     },
     {
@@ -2493,6 +2513,16 @@
     {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-nehemiah",
+      "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
       "religion": "基督教"
     },
     {
@@ -4049,6 +4079,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-nehemiah",
+      "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -4148,6 +4183,11 @@
     {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
       "religion": "基督教"
     },
     {
@@ -4806,6 +4846,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -5067,6 +5112,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
+      "religion": "基督教"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -5224,6 +5274,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-romans",
+      "name_zh": "羅馬書",
+      "religion": "基督教"
+    },
+    {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
@@ -5327,6 +5382,11 @@
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
     }
   ],
   "faith-doubt": [
@@ -5423,6 +5483,21 @@
     {
       "slug": "bible-micah",
       "name_zh": "彌迦書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-romans",
+      "name_zh": "羅馬書",
       "religion": "基督教"
     },
     {
@@ -5766,6 +5841,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-nehemiah",
+      "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-zechariah",
       "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
@@ -5868,6 +5953,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "基督教"
@@ -5875,6 +5965,11 @@
     {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
       "religion": "基督教"
     },
     {
@@ -6178,6 +6273,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-nehemiah",
+      "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-obadiah",
       "name_zh": "俄巴底亞書（武加大）",
       "religion": "基督教"
@@ -6237,6 +6337,11 @@
     {
       "slug": "bible-jonah",
       "name_zh": "約拿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-romans",
+      "name_zh": "羅馬書",
       "religion": "基督教"
     },
     {
@@ -6431,8 +6536,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-romans",
+      "name_zh": "羅馬書",
       "religion": "基督教"
     },
     {
@@ -6483,6 +6598,11 @@
     {
       "slug": "vulgate-malachi",
       "name_zh": "瑪拉基書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-nehemiah",
+      "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
     },
     {
@@ -6555,6 +6675,11 @@
     {
       "slug": "bible-micah",
       "name_zh": "彌迦書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-nehemiah",
+      "name_zh": "尼希米記",
       "religion": "基督教"
     },
     {

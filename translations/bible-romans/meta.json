@@ -47,5 +47,15 @@
     "挽回祭",
     "信心"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "existence-why-born",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done"
 }
