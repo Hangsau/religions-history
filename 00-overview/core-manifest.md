@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**356** / 518
-- 已標籤：**379** / 518
+- 已翻譯：**361** / 518
+- 已標籤：**384** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 140 | 142 |
+| 基督教 | 161 | 145 | 147 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -112,7 +112,7 @@
 - `bible-ecclesiastes` 傳道書（古典中文）譯✓ 標✓
 - `bible-ephesians` 以弗所書（古典中文）譯✓ 標✓
 - `bible-esther` 以斯帖記（古典中文）譯✓ 標✓
-- `bible-exodus` 出埃及記（古典中文）譯– 標–
+- `bible-exodus` 出埃及記（古典中文）譯✓ 標✓
 - `bible-ezekiel` 以西結書（古典中文）譯– 標–
 - `bible-ezra` 以斯拉記（古典中文）譯✓ 標✓
 - `bible-galatians` 加拉太書（古典中文）譯✓ 標✓
@@ -185,10 +185,10 @@
 - `vulgate-1-john` 約翰一書（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-kings` 列王紀上 (武加大稱 列王紀三)（Latin）譯✓ 標✓
 - `vulgate-1-peter` 彼得前書（武加大）（Latin）譯✓ 標✓
-- `vulgate-1-samuel` 撒母耳記上 (武加大稱 列王紀一)（Latin）譯– 標–
+- `vulgate-1-samuel` 撒母耳記上 (武加大稱 列王紀一)（Latin）譯✓ 標✓
 - `vulgate-1-thessalonians` 帖撒羅尼迦前書（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-timothy` 提摩太前書（武加大）（Latin）譯✓ 標✓
-- `vulgate-2-chronicles` 歷代志下（武加大）（Latin）譯– 標–
+- `vulgate-2-chronicles` 歷代志下（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-corinthians` 哥林多後書（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-john` 約翰二書（武加大）（Latin）譯✓ 標✓
 - `vulgate-2-kings` 列王紀下 (武加大稱 列王紀四)（Latin）譯✓ 標✓
@@ -201,7 +201,7 @@
 - `vulgate-amos` 阿摩司書（武加大）（Latin）譯✓ 標✓
 - `vulgate-colossians` 歌羅西書（武加大）（Latin）譯✓ 標✓
 - `vulgate-daniel` 但以理書（武加大）（Latin）譯✓ 標✓
-- `vulgate-deuteronomy` 申命記（武加大）（Latin）譯– 標–
+- `vulgate-deuteronomy` 申命記（武加大）（Latin）譯✓ 標✓
 - `vulgate-ecclesiastes` 傳道書（武加大）（Latin）譯✓ 標✓
 - `vulgate-ephesians` 以弗所書（武加大）（Latin）譯✓ 標✓
 - `vulgate-esther` 以斯帖記（武加大）（Latin）譯✓ 標✓
@@ -226,7 +226,7 @@
 - `vulgate-judges` 士師記（武加大）（Latin）譯✓ 標✓
 - `vulgate-lamentations` 耶利米哀歌（武加大）（Latin）譯✓ 標✓
 - `vulgate-leviticus` 利未記（武加大）（Latin）譯✓ 標✓
-- `vulgate-luke` 路加福音（武加大）（Latin）譯– 標–
+- `vulgate-luke` 路加福音（武加大）（Latin）譯✓ 標✓
 - `vulgate-malachi` 瑪拉基書（武加大）（Latin）譯✓ 標✓
 - `vulgate-mark` 馬可福音（武加大）（Latin）譯✓ 標✓
 - `vulgate-matthew` 馬太福音（武加大）（Latin）譯✓ 標✓

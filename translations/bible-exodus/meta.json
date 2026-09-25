@@ -50,5 +50,15 @@
     "神顯現",
     "立約"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done"
 }
