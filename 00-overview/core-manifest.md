@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**316** / 518
-- 已標籤：**339** / 518
+- 已翻譯：**321** / 518
+- 已標籤：**344** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 107 | 109 |
+| 基督教 | 161 | 109 | 111 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -20,14 +20,14 @@
 | 瑣羅亞斯德 | 11 | 1 | 1 |
 | 美洲 | 11 | 1 | 1 |
 | 儒教 | 10 | 3 | 10 |
-| 凱爾特 | 9 | 4 | 4 |
-| 古埃及 | 8 | 1 | 1 |
+| 凱爾特 | 9 | 5 | 5 |
+| 古埃及 | 8 | 2 | 2 |
 | 耆那教 | 7 | 4 | 4 |
 | 諾斯底 | 6 | 1 | 1 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
-| 巴哈伊 | 4 | 1 | 1 |
+| 巴哈伊 | 4 | 2 | 2 |
 | 伊斯蘭 | 4 | 0 | 0 |
 | 印加 | 3 | 1 | 1 |
 | 瑪雅 | 3 | 1 | 1 |
@@ -144,7 +144,7 @@
 - `bible-obadiah` 俄巴底亞書（古典中文）譯✓ 標✓
 - `bible-philemon` 腓利門書（古典中文）譯✓ 標✓
 - `bible-philippians` 腓立比書（古典中文）譯✓ 標✓
-- `bible-proverbs` 箴言（古典中文）譯– 標–
+- `bible-proverbs` 箴言（古典中文）譯✓ 標✓
 - `bible-psalms` 詩篇（古典中文）譯– 標–
 - `bible-revelation` 啟示錄（古典中文）譯✓ 標✓
 - `bible-romans` 羅馬書（古典中文）譯✓ 標✓
@@ -239,7 +239,7 @@
 - `vulgate-philippians` 腓立比書（武加大）（Latin）譯✓ 標✓
 - `vulgate-proverbs` 箴言（武加大）（Latin）譯– 標–
 - `vulgate-psalms` 詩篇（武加大）（Latin）譯– 標–
-- `vulgate-revelation` 啟示錄（武加大）（Latin）譯– 標–
+- `vulgate-revelation` 啟示錄（武加大）（Latin）譯✓ 標✓
 - `vulgate-romans` 羅馬書（武加大）（Latin）譯✓ 標✓
 - `vulgate-ruth` 路得記（武加大）（Latin）譯✓ 標✓
 - `vulgate-song-of-songs` 雅歌（武加大）（Latin）譯✓ 標✓
@@ -566,7 +566,7 @@
 
 - `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯– 標–
 - `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯✓ 標✓
-- `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯– 標–
+- `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯✓ 標✓
 - `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯✓ 標✓
 - `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標–
 - `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯✓ 標✓
@@ -578,7 +578,7 @@
 
 - `book-of-am-tuat` 阿姆杜阿特之書（幽冥界之書）（English (Budge translation)）譯– 標–
 - `book-of-gates` 門之書（English (Budge translation)）譯– 標–
-- `burden-of-isis` 伊西斯的悲歌（奧西里斯讚歌）（English (Budge translation)）譯– 標–
+- `burden-of-isis` 伊西斯的悲歌（奧西里斯讚歌）（English (Budge translation)）譯✓ 標✓
 - `egyptian-book-of-dead` 古埃及死者之書（English (Budge translation)）譯✓ 標✓
 - `egyptian-heaven-and-hell` 埃及的天堂與地獄（English (Budge translation)）譯– 標–
 - `legends-of-the-gods-egypt` 諸神傳說（古埃及文本）（English (Budge translation)）譯– 標–
@@ -630,7 +630,7 @@
 ### 巴哈伊（4 部）
 
 - `kitab-i-iqan-ighan` 篤信經（確信之書，Kitáb-i-Íqán）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
-- `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）譯– 標–
+- `seven-valleys-four-valleys` 七谷與四谷（巴哈歐拉）（English）譯✓ 標✓
 - `some-answered-questions` 已答之問（Abdu'l-Bahá）（English）譯– 標–
 - `splendour-of-god` 上帝的光輝 (巴哈歐拉著作節錄)（English (translation)）譯– 標–
 

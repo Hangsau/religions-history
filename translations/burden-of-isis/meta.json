@@ -48,5 +48,15 @@
     "Funeral Rite",
     "Ancient Egypt"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done"
 }

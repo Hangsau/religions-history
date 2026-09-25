@@ -56,6 +56,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
@@ -1494,6 +1499,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -1866,6 +1876,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-revelation",
       "name_zh": "啟示錄",
       "religion": "基督教"
@@ -1926,8 +1941,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "burden-of-isis",
+      "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
+      "religion": "古埃及"
+    },
+    {
       "slug": "carmina-gadelica-2",
       "name_zh": "Carmina Gadelica Vol 2",
+      "religion": "凱爾特"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
       "religion": "凱爾特"
     },
     {
@@ -2366,6 +2391,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
@@ -2518,6 +2548,11 @@
     {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-revelation",
+      "name_zh": "啟示錄（武加大）",
       "religion": "基督教"
     },
     {
@@ -3422,6 +3457,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -3654,6 +3694,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -3676,6 +3721,11 @@
     {
       "slug": "carmina-gadelica-2",
       "name_zh": "Carmina Gadelica Vol 2",
+      "religion": "凱爾特"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
       "religion": "凱爾特"
     },
     {
@@ -4241,6 +4291,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "burden-of-isis",
+      "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
@@ -4661,6 +4721,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -4843,6 +4908,11 @@
     {
       "slug": "vulgate-philippians",
       "name_zh": "腓立比書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-revelation",
+      "name_zh": "啟示錄（武加大）",
       "religion": "基督教"
     },
     {
@@ -5235,6 +5305,11 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "vulgate-revelation",
+      "name_zh": "啟示錄（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-zechariah",
@@ -5726,6 +5801,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "sibylline-oracles-el",
       "name_zh": "西比拉神諭集（希臘原文）",
       "religion": "古希臘羅馬"
@@ -5843,6 +5923,11 @@
     {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-revelation",
+      "name_zh": "啟示錄（武加大）",
       "religion": "基督教"
     },
     {
@@ -5996,6 +6081,16 @@
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "burden-of-isis",
+      "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
+      "religion": "凱爾特"
     },
     {
       "slug": "contemplation-sutra",
@@ -6163,6 +6258,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
@@ -6288,6 +6388,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-revelation",
+      "name_zh": "啟示錄（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-zechariah",
       "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
@@ -6343,6 +6448,11 @@
       "slug": "bible-romans",
       "name_zh": "羅馬書",
       "religion": "基督教"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
+      "religion": "凱爾特"
     },
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -6551,6 +6661,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "burden-of-isis",
+      "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
@@ -6569,6 +6684,11 @@
       "slug": "sblgnt-philippians",
       "name_zh": "腓立比書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
     },
     {
       "slug": "vulgate-colossians",
@@ -6950,6 +7070,11 @@
       "slug": "bible-zephaniah",
       "name_zh": "西番雅書",
       "religion": "基督教"
+    },
+    {
+      "slug": "burden-of-isis",
+      "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
+      "religion": "古埃及"
     },
     {
       "slug": "ezra",
