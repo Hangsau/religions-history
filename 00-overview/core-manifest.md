@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**271** / 518
-- 已標籤：**294** / 518
+- 已翻譯：**276** / 518
+- 已標籤：**299** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 62 | 64 |
+| 基督教 | 161 | 67 | 69 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -94,7 +94,7 @@
 - `bible-1-peter` 彼得前書（古典中文）譯– 標–
 - `bible-1-samuel` 撒母耳記上（古典中文）譯– 標–
 - `bible-1-thessalonians` 帖撒羅尼迦前書（古典中文）譯✓ 標✓
-- `bible-1-timothy` 提摩太前書（古典中文）譯– 標–
+- `bible-1-timothy` 提摩太前書（古典中文）譯✓ 標✓
 - `bible-2-chronicles` 歷代志下（古典中文）譯– 標–
 - `bible-2-corinthians` 哥林多後書（古典中文）譯– 標–
 - `bible-2-john` 約翰二書（古典中文）譯✓ 標✓
@@ -122,7 +122,7 @@
 - `bible-hebrews` 希伯來書（古典中文）譯– 標–
 - `bible-hosea` 何西阿書（古典中文）譯– 標–
 - `bible-isaiah` 以賽亞書（古典中文）譯– 標–
-- `bible-james` 雅各書（古典中文）譯– 標–
+- `bible-james` 雅各書（古典中文）譯✓ 標✓
 - `bible-jeremiah` 耶利米書（古典中文）譯– 標–
 - `bible-job` 約伯記（古典中文）譯– 標–
 - `bible-joel` 約珥書（古典中文）譯✓ 標✓
@@ -143,12 +143,12 @@
 - `bible-numbers` 民數記（古典中文）譯– 標–
 - `bible-obadiah` 俄巴底亞書（古典中文）譯✓ 標✓
 - `bible-philemon` 腓利門書（古典中文）譯✓ 標✓
-- `bible-philippians` 腓立比書（古典中文）譯– 標–
+- `bible-philippians` 腓立比書（古典中文）譯✓ 標✓
 - `bible-proverbs` 箴言（古典中文）譯– 標–
 - `bible-psalms` 詩篇（古典中文）譯– 標–
 - `bible-revelation` 啟示錄（古典中文）譯– 標–
 - `bible-romans` 羅馬書（古典中文）譯– 標–
-- `bible-ruth` 路得記（古典中文）譯– 標–
+- `bible-ruth` 路得記（古典中文）譯✓ 標✓
 - `bible-song-of-songs` 雅歌（古典中文）譯– 標–
 - `bible-titus` 提多書（古典中文）譯✓ 標✓
 - `bible-zechariah` 撒迦利亞書（古典中文）譯– 標–
@@ -236,7 +236,7 @@
 - `vulgate-numbers` 民數記（武加大）（Latin）譯– 標–
 - `vulgate-obadiah` 俄巴底亞書（武加大）（Latin）譯✓ 標✓
 - `vulgate-philemon` 腓利門書（武加大）（Latin）譯✓ 標✓
-- `vulgate-philippians` 腓立比書（武加大）（Latin）譯– 標–
+- `vulgate-philippians` 腓立比書（武加大）（Latin）譯✓ 標✓
 - `vulgate-proverbs` 箴言（武加大）（Latin）譯– 標–
 - `vulgate-psalms` 詩篇（武加大）（Latin）譯– 標–
 - `vulgate-revelation` 啟示錄（武加大）（Latin）譯– 標–

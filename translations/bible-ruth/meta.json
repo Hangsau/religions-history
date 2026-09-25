@@ -46,5 +46,15 @@
     "拾麥穗",
     "以利米勒"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "loneliness-belonging",
+    "loss-grief",
+    "marriage-family"
+  ],
+  "psych_tag_status": "done"
 }

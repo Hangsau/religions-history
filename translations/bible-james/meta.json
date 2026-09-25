@@ -50,5 +50,15 @@
     "十二支派",
     "和合本"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done"
 }

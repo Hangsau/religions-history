@@ -51,5 +51,15 @@
     "耶穌基督",
     "律法"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "responsibility-leadership",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done"
 }
