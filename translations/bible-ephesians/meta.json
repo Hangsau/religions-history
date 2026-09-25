@@ -50,5 +50,15 @@
     "丈夫妻子",
     "全副軍裝"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done"
 }

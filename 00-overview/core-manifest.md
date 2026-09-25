@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**286** / 518
-- 已標籤：**309** / 518
+- 已翻譯：**291** / 518
+- 已標籤：**314** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 77 | 79 |
+| 基督教 | 161 | 82 | 84 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、美洲、諾斯底
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -110,12 +110,12 @@
 - `bible-daniel` 但以理書（古典中文）譯– 標–
 - `bible-deuteronomy` 申命記（古典中文）譯– 標–
 - `bible-ecclesiastes` 傳道書（古典中文）譯– 標–
-- `bible-ephesians` 以弗所書（古典中文）譯– 標–
+- `bible-ephesians` 以弗所書（古典中文）譯✓ 標✓
 - `bible-esther` 以斯帖記（古典中文）譯– 標–
 - `bible-exodus` 出埃及記（古典中文）譯– 標–
 - `bible-ezekiel` 以西結書（古典中文）譯– 標–
 - `bible-ezra` 以斯拉記（古典中文）譯– 標–
-- `bible-galatians` 加拉太書（古典中文）譯– 標–
+- `bible-galatians` 加拉太書（古典中文）譯✓ 標✓
 - `bible-genesis` 創世記（古典中文）譯– 標–
 - `bible-habakkuk` 哈巴谷書（古典中文）譯✓ 標✓
 - `bible-haggai` 哈該書（古典中文）譯✓ 標✓
@@ -131,7 +131,7 @@
 - `bible-joshua` 約書亞記（古典中文）譯– 標–
 - `bible-jude` 猶大書（古典中文）譯✓ 標✓
 - `bible-judges` 士師記（古典中文）譯– 標–
-- `bible-lamentations` 耶利米哀歌（古典中文）譯– 標–
+- `bible-lamentations` 耶利米哀歌（古典中文）譯✓ 標✓
 - `bible-leviticus` 利未記（古典中文）譯– 標–
 - `bible-luke` 路加福音（古典中文）譯– 標–
 - `bible-malachi` 瑪拉基書（古典中文）譯✓ 標✓
@@ -203,12 +203,12 @@
 - `vulgate-daniel` 但以理書（武加大）（Latin）譯– 標–
 - `vulgate-deuteronomy` 申命記（武加大）（Latin）譯– 標–
 - `vulgate-ecclesiastes` 傳道書（武加大）（Latin）譯– 標–
-- `vulgate-ephesians` 以弗所書（武加大）（Latin）譯– 標–
+- `vulgate-ephesians` 以弗所書（武加大）（Latin）譯✓ 標✓
 - `vulgate-esther` 以斯帖記（武加大）（Latin）譯– 標–
 - `vulgate-exodus` 出埃及記（武加大）（Latin）譯– 標–
 - `vulgate-ezekiel` 以西結書（武加大）（Latin）譯– 標–
 - `vulgate-ezra` 以斯拉記（武加大）（Latin）譯– 標–
-- `vulgate-galatians` 加拉太書（武加大）（Latin）譯– 標–
+- `vulgate-galatians` 加拉太書（武加大）（Latin）譯✓ 標✓
 - `vulgate-genesis` 創世記（武加大）（Latin）譯– 標–
 - `vulgate-habakkuk` 哈巴谷書（武加大）（Latin）譯✓ 標✓
 - `vulgate-haggai` 哈該書（武加大）（Latin）譯✓ 標✓

@@ -49,5 +49,13 @@
     "救恩",
     "自由"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done"
 }
