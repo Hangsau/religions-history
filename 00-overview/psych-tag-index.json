@@ -690,6 +690,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "基督教"
+    },
+    {
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
@@ -1009,6 +1014,11 @@
     {
       "slug": "bible-leviticus",
       "name_zh": "利未記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
       "religion": "基督教"
     },
     {
@@ -1559,6 +1569,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -1881,6 +1896,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書",
       "religion": "基督教"
@@ -1888,6 +1908,11 @@
     {
       "slug": "bible-1-timothy",
       "name_zh": "提摩太前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-chronicles",
+      "name_zh": "歷代志下",
       "religion": "基督教"
     },
     {
@@ -1981,6 +2006,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-nehemiah",
       "name_zh": "尼希米記",
       "religion": "基督教"
@@ -2008,6 +2038,11 @@
     {
       "slug": "bible-ruth",
       "name_zh": "路得記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
       "religion": "基督教"
     },
     {
@@ -2606,6 +2641,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-1-chronicles",
+      "name_zh": "歷代志上（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
       "religion": "基督教"
@@ -2833,6 +2873,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-corinthians",
       "name_zh": "哥林多後書",
       "religion": "基督教"
@@ -2845,6 +2890,11 @@
     {
       "slug": "bible-mark",
       "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -3647,6 +3697,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "基督教"
+    },
+    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -3861,6 +3916,16 @@
     {
       "slug": "bible-1-corinthians",
       "name_zh": "哥林多前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-chronicles",
+      "name_zh": "歷代志下",
       "religion": "基督教"
     },
     {
@@ -4436,8 +4501,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-chronicles",
+      "name_zh": "歷代志下",
       "religion": "基督教"
     },
     {
@@ -4508,6 +4583,11 @@
     {
       "slug": "bible-mark",
       "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -5146,6 +5226,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-1-chronicles",
+      "name_zh": "歷代志上（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
       "religion": "基督教"
@@ -5507,6 +5592,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-revelation",
       "name_zh": "啟示錄",
       "religion": "基督教"
@@ -5846,8 +5936,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-chronicles",
+      "name_zh": "歷代志下",
       "religion": "基督教"
     },
     {
@@ -5953,6 +6053,11 @@
     {
       "slug": "bible-mark",
       "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -6226,6 +6331,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vulgate-1-chronicles",
+      "name_zh": "歷代志上（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-1-peter",
       "name_zh": "彼得前書（武加大）",
       "religion": "基督教"
@@ -6420,6 +6530,11 @@
     {
       "slug": "bible-1-peter",
       "name_zh": "彼得前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-chronicles",
+      "name_zh": "歷代志下",
       "religion": "基督教"
     },
     {
@@ -6766,6 +6881,11 @@
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-1-chronicles",
+      "name_zh": "歷代志上（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-1-john",
@@ -7179,6 +7299,11 @@
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "vulgate-1-chronicles",
+      "name_zh": "歷代志上（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-colossians",
