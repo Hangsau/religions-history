@@ -3,14 +3,14 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**306** / 518
-- 已標籤：**329** / 518
+- 已翻譯：**311** / 518
+- 已標籤：**334** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 97 | 99 |
+| 基督教 | 161 | 102 | 104 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 29 | 28 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -88,7 +88,7 @@
 - `augustine-confessiones-la` 懺悔錄（拉丁原文）（拉丁）譯– 標–
 - `augustine-de-civitate-dei-la` 上帝之城（拉丁原文）（拉丁）譯✓ 標✓
 - `bible-1-chronicles` 歷代志上（古典中文）譯– 標–
-- `bible-1-corinthians` 哥林多前書（古典中文）譯– 標–
+- `bible-1-corinthians` 哥林多前書（古典中文）譯✓ 標✓
 - `bible-1-john` 約翰一書（古典中文）譯✓ 標✓
 - `bible-1-kings` 列王紀上（古典中文）譯– 標–
 - `bible-1-peter` 彼得前書（古典中文）譯✓ 標✓
@@ -107,7 +107,7 @@
 - `bible-acts` 使徒行傳（古典中文）譯– 標–
 - `bible-amos` 阿摩司書（古典中文）譯✓ 標✓
 - `bible-colossians` 歌羅西書（古典中文）譯✓ 標✓
-- `bible-daniel` 但以理書（古典中文）譯– 標–
+- `bible-daniel` 但以理書（古典中文）譯✓ 標✓
 - `bible-deuteronomy` 申命記（古典中文）譯– 標–
 - `bible-ecclesiastes` 傳道書（古典中文）譯✓ 標✓
 - `bible-ephesians` 以弗所書（古典中文）譯✓ 標✓
@@ -181,7 +181,7 @@
 - `sblgnt-romans` 羅馬書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-titus` 提多書（希臘原文）（Koine Greek）譯✓ 標✓
 - `vulgate-1-chronicles` 歷代志上（武加大）（Latin）譯– 標–
-- `vulgate-1-corinthians` 哥林多前書（武加大）（Latin）譯– 標–
+- `vulgate-1-corinthians` 哥林多前書（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-john` 約翰一書（武加大）（Latin）譯✓ 標✓
 - `vulgate-1-kings` 列王紀上 (武加大稱 列王紀三)（Latin）譯– 標–
 - `vulgate-1-peter` 彼得前書（武加大）（Latin）譯✓ 標✓
@@ -204,10 +204,10 @@
 - `vulgate-deuteronomy` 申命記（武加大）（Latin）譯– 標–
 - `vulgate-ecclesiastes` 傳道書（武加大）（Latin）譯✓ 標✓
 - `vulgate-ephesians` 以弗所書（武加大）（Latin）譯✓ 標✓
-- `vulgate-esther` 以斯帖記（武加大）（Latin）譯– 標–
+- `vulgate-esther` 以斯帖記（武加大）（Latin）譯✓ 標✓
 - `vulgate-exodus` 出埃及記（武加大）（Latin）譯– 標–
 - `vulgate-ezekiel` 以西結書（武加大）（Latin）譯– 標–
-- `vulgate-ezra` 以斯拉記（武加大）（Latin）譯– 標–
+- `vulgate-ezra` 以斯拉記（武加大）（Latin）譯✓ 標✓
 - `vulgate-galatians` 加拉太書（武加大）（Latin）譯✓ 標✓
 - `vulgate-genesis` 創世記（武加大）（Latin）譯– 標–
 - `vulgate-habakkuk` 哈巴谷書（武加大）（Latin）譯✓ 標✓

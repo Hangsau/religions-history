@@ -51,5 +51,15 @@
     "巴比倫之囚",
     "默示文學"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done"
 }
