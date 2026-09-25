@@ -1746,6 +1746,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
       "religion": "基督教"
@@ -2351,8 +2356,18 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-colossians",
+      "name_zh": "歌羅西書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-haggai",
       "name_zh": "哈該書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-joel",
+      "name_zh": "約珥書（武加大）",
       "religion": "基督教"
     },
     {
@@ -3911,6 +3926,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bible-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
       "religion": "基督教"
@@ -4521,6 +4541,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "vulgate-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-2-peter",
       "name_zh": "彼得後書（武加大）",
       "religion": "基督教"
@@ -5041,6 +5066,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bible-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
       "religion": "基督教"
@@ -5053,6 +5083,11 @@
     {
       "slug": "bible-2-timothy",
       "name_zh": "提摩太後書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-colossians",
+      "name_zh": "歌羅西書",
       "religion": "基督教"
     },
     {
@@ -5314,6 +5349,11 @@
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-2-john",
@@ -5668,6 +5708,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-joel",
+      "name_zh": "約珥書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jude",
       "name_zh": "猶大書（武加大）",
       "religion": "基督教"
@@ -5891,6 +5936,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-colossians",
+      "name_zh": "歌羅西書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-joel",
+      "name_zh": "約珥書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
       "religion": "基督教"
@@ -6082,6 +6137,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bible-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書",
       "religion": "基督教"
@@ -6192,6 +6252,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "vulgate-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（武加大）",
       "religion": "基督教"
@@ -6199,6 +6264,11 @@
     {
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-joel",
+      "name_zh": "約珥書（武加大）",
       "religion": "基督教"
     },
     {
@@ -6469,6 +6539,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "vulgate-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
       "religion": "基督教"
@@ -6480,6 +6555,11 @@
     }
   ],
   "loss-grief": [
+    {
+      "slug": "bible-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
     {
       "slug": "bible-jonah",
       "name_zh": "約拿書",
@@ -6720,6 +6800,11 @@
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "vulgate-1-thessalonians",
+      "name_zh": "帖撒羅尼迦前書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-2-peter",
@@ -7065,6 +7150,11 @@
     {
       "slug": "vulgate-3-john",
       "name_zh": "約翰三書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-colossians",
+      "name_zh": "歌羅西書（武加大）",
       "religion": "基督教"
     },
     {
