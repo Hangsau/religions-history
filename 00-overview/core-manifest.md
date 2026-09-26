@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**411** / 518
-- 已標籤：**433** / 518
+- 已翻譯：**415** / 518
+- 已標籤：**438** / 518
 
 ## 各宗教核心進度
 
@@ -13,16 +13,16 @@
 | 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
-| 古希臘羅馬 | 46 | 32 | 31 |
+| 古希臘羅馬 | 46 | 34 | 33 |
 | 猶太教 | 45 | 35 | 36 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
-| 瑣羅亞斯德 | 11 | 4 | 4 |
-| 美洲 | 11 | 11 | 10 |
+| 瑣羅亞斯德 | 11 | 5 | 5 |
+| 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 6 | 6 |
 | 古埃及 | 8 | 8 | 8 |
-| 耆那教 | 7 | 5 | 5 |
+| 耆那教 | 7 | 6 | 6 |
 | 諾斯底 | 6 | 3 | 3 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -402,10 +402,10 @@
 - `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標✓
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
-- `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標–
+- `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯✓ 標✓
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯✓ 標✓
 - `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯✓ 標✓
-- `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯✓ 標–
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯✓ 標✓
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
@@ -527,7 +527,7 @@
 - `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標–
 - `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
-- `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯– 標–
+- `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標–
 - `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標–
@@ -540,7 +540,7 @@
 - `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯✓ 標✓
 - `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）譯✓ 標✓
 - `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯✓ 標✓
-- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯✓ 標–
+- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯✓ 標✓
 - `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯✓ 標✓
 - `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯✓ 標✓
 - `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯✓ 標✓
@@ -591,7 +591,7 @@
 - `jain-aptamimamsa-sa` 可信者審思（梵文原文）（梵語）譯✓ 標✓
 - `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯✓ 標✓
-- `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標–
+- `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯✓ 標✓
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
 

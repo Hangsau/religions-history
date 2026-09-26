@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-09-26 13:47:44 +0800
+- 更新時間：2026-09-26 17:29:18 +0800
 - 佇列 tier：**核心**
-- 進度：**433 / 518** 已翻譯+標籤
-- 目前處理：`denkard-3-bahman-yasht`
+- 進度：**438 / 518** 已翻譯+標籤
+- 目前處理：`avesta-sbe31`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, creation-myths-primitive-america
+- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, talmud-rodkinson
 - 已阻塞待人工處理：55 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `denkard-3-bahman-yasht` (tag)
+- M3 執行狀態：**running** — `avesta-sbe31` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
