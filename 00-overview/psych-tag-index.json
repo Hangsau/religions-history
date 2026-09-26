@@ -101,6 +101,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "homer-odyssey-st",
+      "name_zh": "奧德賽 (Pope/Bryant 英譯)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
@@ -113,6 +118,11 @@
     {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-sbe22",
+      "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
     },
     {
@@ -144,6 +154,11 @@
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
       "religion": "印度教"
+    },
+    {
+      "slug": "masnavi-rumi-st",
+      "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "peyote-cult",
@@ -214,6 +229,11 @@
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "thrice-greatest-hermes-2",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
+      "religion": "諾斯底"
     },
     {
       "slug": "volsunga-saga-on",
@@ -445,6 +465,11 @@
     {
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "homer-odyssey-st",
+      "name_zh": "奧德賽 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
     },
     {
@@ -835,6 +860,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-odyssey-st",
+      "name_zh": "奧德賽 (Pope/Bryant 英譯)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -843,6 +873,16 @@
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-sbe22",
+      "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "kabbalah-unveiled",
+      "name_zh": "卡巴拉揭示 (Mathers)",
+      "religion": "猶太教"
     },
     {
       "slug": "kojiki-zh",
@@ -1252,6 +1292,16 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-sbe22",
+      "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "kabbalah-unveiled",
+      "name_zh": "卡巴拉揭示 (Mathers)",
+      "religion": "猶太教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -1490,6 +1540,11 @@
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
+    },
+    {
+      "slug": "thrice-greatest-hermes-2",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
+      "religion": "諾斯底"
     },
     {
       "slug": "vaisheshika-sutra",
@@ -1809,6 +1864,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-sbe22",
+      "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
+      "religion": "耆那教"
+    },
+    {
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
@@ -1927,6 +1987,11 @@
       "slug": "sun-dance-ceremonies",
       "name_zh": "太陽舞與其他儀式 (Oglala Sioux)",
       "religion": "美洲"
+    },
+    {
+      "slug": "thrice-greatest-hermes-2",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
+      "religion": "諾斯底"
     },
     {
       "slug": "vaisheshika-sutra-kanada",
@@ -2536,6 +2601,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-odyssey-st",
+      "name_zh": "奧德賽 (Pope/Bryant 英譯)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -2581,6 +2651,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-sbe22",
+      "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
@@ -2598,6 +2673,11 @@
     {
       "slug": "judges",
       "name_zh": "士師記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kabbalah-unveiled",
+      "name_zh": "卡巴拉揭示 (Mathers)",
       "religion": "猶太教"
     },
     {
@@ -2694,6 +2774,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "masnavi-rumi-st",
+      "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "matsya-purana",
@@ -2999,6 +3084,11 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "thrice-greatest-hermes-2",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
+      "religion": "諾斯底"
     },
     {
       "slug": "vasistha-dharmasutra",
@@ -3593,6 +3683,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-odyssey-st",
+      "name_zh": "奧德賽 (Pope/Bryant 英譯)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -3746,6 +3841,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "masnavi-rumi-st",
+      "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "mengzi",
@@ -4073,6 +4173,11 @@
       "religion": "道教"
     },
     {
+      "slug": "thrice-greatest-hermes-2",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
+      "religion": "諾斯底"
+    },
+    {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
@@ -4380,6 +4485,11 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kabbalah-unveiled",
+      "name_zh": "卡巴拉揭示 (Mathers)",
+      "religion": "猶太教"
     },
     {
       "slug": "kojiki-zh",
@@ -4824,6 +4934,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kabbalah-unveiled",
+      "name_zh": "卡巴拉揭示 (Mathers)",
+      "religion": "猶太教"
+    },
+    {
       "slug": "kings-1",
       "name_zh": "列王紀上",
       "religion": "猶太教"
@@ -4857,6 +4972,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "masnavi-rumi-st",
+      "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "mozi",
@@ -5819,6 +5939,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "masnavi-rumi-st",
+      "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "medicine-buddha-sutra",

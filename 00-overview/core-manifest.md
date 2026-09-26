@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**401** / 518
-- 已標籤：**423** / 518
+- 已翻譯：**405** / 518
+- 已標籤：**428** / 518
 
 ## 各宗教核心進度
 
@@ -13,8 +13,8 @@
 | 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
-| 古希臘羅馬 | 46 | 30 | 29 |
-| 猶太教 | 45 | 34 | 35 |
+| 古希臘羅馬 | 46 | 31 | 30 |
+| 猶太教 | 45 | 35 | 36 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
 | 瑣羅亞斯德 | 11 | 3 | 3 |
@@ -22,13 +22,13 @@
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 5 | 5 |
 | 古埃及 | 8 | 8 | 8 |
-| 耆那教 | 7 | 4 | 4 |
-| 諾斯底 | 6 | 1 | 1 |
+| 耆那教 | 7 | 5 | 5 |
+| 諾斯底 | 6 | 2 | 2 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
 | 巴哈伊 | 4 | 4 | 4 |
-| 伊斯蘭 | 4 | 2 | 1 |
+| 伊斯蘭 | 4 | 2 | 2 |
 | 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 3 | 3 |
 | 兩河 | 3 | 3 | 2 |
@@ -403,7 +403,7 @@
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
 - `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯– 標–
-- `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯– 標–
+- `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯✓ 標✓
 - `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯✓ 標–
@@ -459,7 +459,7 @@
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標–
 - `joshua` 約書亞記（Hebrew）譯✓ 標✓
 - `judges` 士師記（Hebrew）譯✓ 標✓
-- `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯– 標–
+- `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯✓ 標✓
 - `kings-1` 列王紀上（Hebrew）譯✓ 標✓
 - `kings-2` 列王紀下（Hebrew）譯✓ 標✓
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯✓ 標✓
@@ -590,7 +590,7 @@
 - `jain-acaranga-pkt` 阿闥羅門經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-aptamimamsa-sa` 可信者審思（梵文原文）（梵語）譯✓ 標✓
 - `jain-dasavaikalika-pkt` 十誦律要（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
-- `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯– 標–
+- `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯✓ 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯– 標–
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 - `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
@@ -601,7 +601,7 @@
 - `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
 - `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
-- `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
+- `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標–
 
 ### 現代新興（5 部）
@@ -636,7 +636,7 @@
 
 ### 伊斯蘭（4 部）
 
-- `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯✓ 標–
+- `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯✓ 標✓
 - `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯✓ 標✓
 - `quran` 古蘭經（古典阿拉伯）譯– 標–
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標–

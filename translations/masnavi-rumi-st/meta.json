@@ -49,5 +49,15 @@
     "精神對句",
     "Majnun"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done"
 }
