@@ -47,5 +47,15 @@
     "中世紀威爾斯",
     "蓋爾神話"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "aging-time",
+    "beauty-wonder-transcendent-moment",
+    "boundaries-self-worth",
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done"
 }

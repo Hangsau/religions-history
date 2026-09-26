@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-09-26 20:59:18 +0800
+- 更新時間：2026-09-27 01:35:44 +0800
 - 佇列 tier：**核心**
-- 進度：**443 / 518** 已翻譯+標籤
-- 目前處理：`quran-pickthall`
+- 進度：**448 / 518** 已翻譯+標籤
+- 目前處理：`bundahishn`
 - P0 尚未完整翻譯：8 部
 - 一般失敗待重試：2 部 — sibylline-oracles-el, huangdi-neijing
 - 已阻塞待人工處理：55 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `quran-pickthall` (tag)
+- M3 執行狀態：**running** — `bundahishn` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`

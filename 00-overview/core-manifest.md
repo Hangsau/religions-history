@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**420** / 518
-- 已標籤：**443** / 518
+- 已翻譯：**425** / 518
+- 已標籤：**448** / 518
 
 ## 各宗教核心進度
 
@@ -17,13 +17,13 @@
 | 猶太教 | 45 | 36 | 37 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
-| 瑣羅亞斯德 | 11 | 6 | 6 |
+| 瑣羅亞斯德 | 11 | 9 | 9 |
 | 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
-| 凱爾特 | 9 | 6 | 6 |
+| 凱爾特 | 9 | 7 | 7 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 6 | 6 |
-| 諾斯底 | 6 | 4 | 4 |
+| 諾斯底 | 6 | 5 | 5 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 3 | 3 |
@@ -525,15 +525,15 @@
 
 - `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
-- `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯– 標–
+- `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
-- `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標–
+- `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯✓ 標✓
 - `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯✓ 標✓
 - `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯✓ 標✓
 - `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯✓ 標✓
-- `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標–
+- `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯✓ 標✓
 
 ### 美洲（11 部）
 
@@ -571,7 +571,7 @@
 - `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯✓ 標✓
 - `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯✓ 標✓
-- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標–
+- `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯✓ 標✓
 - `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
 
 ### 古埃及（8 部）
@@ -597,7 +597,7 @@
 
 ### 諾斯底（6 部）
 
-- `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
+- `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
 - `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
