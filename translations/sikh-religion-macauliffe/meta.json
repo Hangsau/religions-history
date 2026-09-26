@@ -51,5 +51,15 @@
     "傳記",
     "上師"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "aging-time",
+    "calling-vocation",
+    "change-transformation",
+    "childhood-wounds"
+  ],
+  "psych_tag_status": "done"
 }

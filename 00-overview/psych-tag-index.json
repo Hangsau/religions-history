@@ -86,6 +86,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "dadestan-i-denig",
+      "name_zh": "Dadestan-i Denig (宗教裁判)",
+      "religion": "瑣羅亞斯德"
+    },
+    {
       "slug": "denkard-3-bahman-yasht",
       "name_zh": "Pahlavi Texts Part III",
       "religion": "瑣羅亞斯德"
@@ -191,6 +196,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "quran-pickthall",
+      "name_zh": "古蘭經 (Pickthall 英譯)",
+      "religion": "伊斯蘭"
+    },
+    {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
@@ -209,6 +219,11 @@
       "slug": "shurangama-sutra",
       "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "religion": "佛教"
+    },
+    {
+      "slug": "sikh-religion-macauliffe",
+      "name_zh": "錫克教（Macauliffe）",
+      "religion": "錫克教"
     },
     {
       "slug": "sn1-devata",
@@ -401,6 +416,11 @@
       "slug": "creation-myths-primitive-america",
       "name_zh": "原始美洲創世神話 (Curtin)",
       "religion": "美洲"
+    },
+    {
+      "slug": "dadestan-i-denig",
+      "name_zh": "Dadestan-i Denig (宗教裁判)",
+      "religion": "瑣羅亞斯德"
     },
     {
       "slug": "dhammapada",
@@ -658,6 +678,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sikh-religion-macauliffe",
+      "name_zh": "錫克教（Macauliffe）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -711,6 +736,11 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "talmud-rodkinson",
+      "name_zh": "塔木德 (Rodkinson 選譯)",
+      "religion": "猶太教"
     },
     {
       "slug": "thrice-greatest-hermes-3",
@@ -868,6 +898,11 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "dadestan-i-denig",
+      "name_zh": "Dadestan-i Denig (宗教裁判)",
+      "religion": "瑣羅亞斯德"
     },
     {
       "slug": "devi-gita",
@@ -1053,6 +1088,16 @@
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
+    },
+    {
+      "slug": "talmud-rodkinson",
+      "name_zh": "塔木德 (Rodkinson 選譯)",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "thrice-greatest-hermes-1",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
+      "religion": "諾斯底"
     },
     {
       "slug": "thrice-greatest-hermes-3",
@@ -1265,6 +1310,11 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "dadestan-i-denig",
+      "name_zh": "Dadestan-i Denig (宗教裁判)",
+      "religion": "瑣羅亞斯德"
     },
     {
       "slug": "denkard-3-bahman-yasht",
@@ -1632,6 +1682,16 @@
       "religion": "道教"
     },
     {
+      "slug": "talmud-rodkinson",
+      "name_zh": "塔木德 (Rodkinson 選譯)",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "thrice-greatest-hermes-1",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
+      "religion": "諾斯底"
+    },
+    {
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
@@ -1914,6 +1974,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "dadestan-i-denig",
+      "name_zh": "Dadestan-i Denig (宗教裁判)",
+      "religion": "瑣羅亞斯德"
+    },
+    {
       "slug": "digha-nikaya",
       "name_zh": "長部經典",
       "religion": "佛教"
@@ -2059,6 +2124,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "quran-pickthall",
+      "name_zh": "古蘭經 (Pickthall 英譯)",
+      "religion": "伊斯蘭"
+    },
+    {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
@@ -2107,6 +2177,16 @@
       "slug": "sun-dance-ceremonies",
       "name_zh": "太陽舞與其他儀式 (Oglala Sioux)",
       "religion": "美洲"
+    },
+    {
+      "slug": "talmud-rodkinson",
+      "name_zh": "塔木德 (Rodkinson 選譯)",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "thrice-greatest-hermes-1",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
+      "religion": "諾斯底"
     },
     {
       "slug": "thrice-greatest-hermes-2",
@@ -3076,6 +3156,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "quran-pickthall",
+      "name_zh": "古蘭經 (Pickthall 英譯)",
+      "religion": "伊斯蘭"
+    },
+    {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
@@ -3181,6 +3266,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sikh-religion-macauliffe",
+      "name_zh": "錫克教（Macauliffe）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
@@ -3249,6 +3339,16 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "talmud-rodkinson",
+      "name_zh": "塔木德 (Rodkinson 選譯)",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "thrice-greatest-hermes-1",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
+      "religion": "諾斯底"
     },
     {
       "slug": "thrice-greatest-hermes-2",
@@ -4258,6 +4358,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sikh-religion-macauliffe",
+      "name_zh": "錫克教（Macauliffe）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -4371,6 +4476,11 @@
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
+    },
+    {
+      "slug": "thrice-greatest-hermes-1",
+      "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
+      "religion": "諾斯底"
     },
     {
       "slug": "thrice-greatest-hermes-2",
@@ -4578,6 +4688,11 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "sikh-religion-macauliffe",
+      "name_zh": "錫克教（Macauliffe）",
+      "religion": "錫克教"
     },
     {
       "slug": "volsunga-saga",
@@ -5282,6 +5397,11 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "quran-pickthall",
+      "name_zh": "古蘭經 (Pickthall 英譯)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "religion-indians-california",
@@ -6279,6 +6399,11 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    },
+    {
+      "slug": "quran-pickthall",
+      "name_zh": "古蘭經 (Pickthall 英譯)",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "ramanuja-vedarthasamgraha",

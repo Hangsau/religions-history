@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**415** / 518
-- 已標籤：**438** / 518
+- 已翻譯：**420** / 518
+- 已標籤：**443** / 518
 
 ## 各宗教核心進度
 
@@ -14,21 +14,21 @@
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 34 | 33 |
-| 猶太教 | 45 | 35 | 36 |
+| 猶太教 | 45 | 36 | 37 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
-| 瑣羅亞斯德 | 11 | 5 | 5 |
+| 瑣羅亞斯德 | 11 | 6 | 6 |
 | 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 6 | 6 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 6 | 6 |
-| 諾斯底 | 6 | 3 | 3 |
+| 諾斯底 | 6 | 4 | 4 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
-| 錫克教 | 4 | 2 | 2 |
+| 錫克教 | 4 | 3 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
-| 伊斯蘭 | 4 | 2 | 2 |
+| 伊斯蘭 | 4 | 3 | 3 |
 | 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 3 | 3 |
 | 兩河 | 3 | 3 | 2 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -478,7 +478,7 @@
 - `samuel-1` 撒母耳記上（Hebrew）譯✓ 標✓
 - `samuel-2` 撒母耳記下（Hebrew）譯✓ 標✓
 - `song-of-songs` 雅歌（Hebrew）譯✓ 標✓
-- `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯– 標–
+- `talmud-rodkinson` 塔木德 (Rodkinson 選譯)（English (translation)）譯✓ 標✓
 - `zechariah` 撒迦利亞書（Hebrew）譯✓ 標✓
 - `zephaniah` 西番雅書（Hebrew）譯✓ 標✓
 
@@ -530,7 +530,7 @@
 - `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標–
-- `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標–
+- `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯✓ 標✓
 - `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯✓ 標✓
 - `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯✓ 標✓
 - `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標–
@@ -600,7 +600,7 @@
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
 - `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
 - `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
-- `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
+- `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 
@@ -625,7 +625,7 @@
 - `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標–
 - `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
-- `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 
 ### 巴哈伊（4 部）
 
@@ -639,7 +639,7 @@
 - `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯✓ 標✓
 - `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯✓ 標✓
 - `quran` 古蘭經（古典阿拉伯）譯– 標–
-- `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯– 標–
+- `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯✓ 標✓
 
 ### 印加（3 部）
 
