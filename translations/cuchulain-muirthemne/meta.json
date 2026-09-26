@@ -44,5 +44,15 @@
     "Irish mythology",
     "Lady Gregory"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+  ],
+  "psych_tag_status": "done"
 }

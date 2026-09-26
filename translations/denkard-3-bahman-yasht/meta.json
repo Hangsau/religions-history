@@ -48,5 +48,15 @@
     "false religions",
     "瑣羅亞斯德"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done"
 }

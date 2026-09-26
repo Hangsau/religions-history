@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**405** / 518
-- 已標籤：**428** / 518
+- 已翻譯：**411** / 518
+- 已標籤：**433** / 518
 
 ## 各宗教核心進度
 
@@ -13,17 +13,17 @@
 | 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
-| 古希臘羅馬 | 46 | 31 | 30 |
+| 古希臘羅馬 | 46 | 32 | 31 |
 | 猶太教 | 45 | 35 | 36 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 11 | 11 |
-| 瑣羅亞斯德 | 11 | 3 | 3 |
-| 美洲 | 11 | 10 | 10 |
+| 瑣羅亞斯德 | 11 | 4 | 4 |
+| 美洲 | 11 | 11 | 10 |
 | 儒教 | 10 | 3 | 10 |
-| 凱爾特 | 9 | 5 | 5 |
+| 凱爾特 | 9 | 6 | 6 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 5 | 5 |
-| 諾斯底 | 6 | 2 | 2 |
+| 諾斯底 | 6 | 3 | 3 |
 | 現代新興 | 5 | 3 | 3 |
 | 神道 | 5 | 3 | 1 |
 | 錫克教 | 4 | 2 | 2 |
@@ -32,7 +32,7 @@
 | 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 3 | 3 |
 | 兩河 | 3 | 3 | 2 |
-| 斯拉夫 | 3 | 2 | 2 |
+| 斯拉夫 | 3 | 3 | 3 |
 | 非洲 | 2 | 2 | 2 |
 | 阿茲特克 | 1 | 1 | 1 |
 | 赫爾墨斯 | 1 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -408,7 +408,7 @@
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
 - `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯✓ 標–
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯✓ 標✓
-- `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標–
@@ -531,7 +531,7 @@
 - `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯– 標–
 - `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯– 標–
-- `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯– 標–
+- `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯✓ 標✓
 - `denkard-bk-5` Pahlavi Texts Part V (Contents of the Nasks)（English (19c. translation)）譯✓ 標✓
 - `denkard-bk-7-8` Dinkard Books 8-9（English (19c. translation)）譯– 標–
 
@@ -540,7 +540,7 @@
 - `cherokee-sacred-formulas` 切羅基神聖咒文 (Mooney)（English (translation)）譯✓ 標✓
 - `chinigchinich` 欽尼赤尼赤 (路易塞紐宗教)（English (translation)）譯✓ 標✓
 - `code-of-handsome-lake` 英俊湖法典 (塞內卡先知啟示)（English (translation)）譯✓ 標✓
-- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯– 標–
+- `creation-myths-primitive-america` 原始美洲創世神話 (Curtin)（English (translation)）譯✓ 標–
 - `iroquois-book-of-rites` 易洛魁儀禮之書 (Hale)（English (translation)）譯✓ 標✓
 - `iroquois-cosmology` 易洛魁宇宙觀 (Hewitt)（English (translation)）譯✓ 標✓
 - `origin-myth-of-acoma` 阿科馬創世神話（English (translation)）譯✓ 標✓
@@ -568,7 +568,7 @@
 - `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯✓ 標✓
 - `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯✓ 標✓
 - `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯✓ 標✓
-- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯– 標–
+- `cuchulain-muirthemne` Cuchulain of Muirthemne (Ulster Cycle)（English (translation)）譯✓ 標✓
 - `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯– 標–
@@ -602,7 +602,7 @@
 - `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
-- `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯– 標–
+- `thrice-greatest-hermes-3` 三度偉大的赫爾墨斯 Vol 3（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 
 ### 現代新興（5 部）
 
@@ -661,7 +661,7 @@
 
 ### 斯拉夫（3 部）
 
-- `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯– 標–
+- `songs-of-russian-people` 俄羅斯人民之歌（English (translation)）譯✓ 標✓
 - `tale-of-igor-campaign` 伊戈爾遠征記（English (translation)）譯✓ 標✓
 - `tale-of-igor-ru` 伊戈爾遠征記（古東斯拉夫原文）（古東斯拉夫）譯✓ 標✓
 
