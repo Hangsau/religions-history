@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**425** / 518
-- 已標籤：**448** / 518
+- 已翻譯：**433** / 518
+- 已標籤：**453** / 518
 
 ## 各宗教核心進度
 
@@ -13,19 +13,19 @@
 | 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
-| 古希臘羅馬 | 46 | 34 | 33 |
-| 猶太教 | 45 | 36 | 37 |
+| 古希臘羅馬 | 46 | 37 | 35 |
+| 猶太教 | 45 | 37 | 38 |
 | 道教 | 18 | 12 | 18 |
-| 北歐 | 15 | 11 | 11 |
+| 北歐 | 15 | 12 | 12 |
 | 瑣羅亞斯德 | 11 | 9 | 9 |
 | 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 7 | 7 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 6 | 6 |
-| 諾斯底 | 6 | 5 | 5 |
-| 現代新興 | 5 | 3 | 3 |
-| 神道 | 5 | 3 | 1 |
+| 諾斯底 | 6 | 6 | 5 |
+| 現代新興 | 5 | 4 | 3 |
+| 神道 | 5 | 4 | 2 |
 | 錫克教 | 4 | 3 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
 | 伊斯蘭 | 4 | 3 | 3 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -411,7 +411,7 @@
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
-- `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯– 標–
+- `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯✓ 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
@@ -424,13 +424,13 @@
 - `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標–
-- `plotinus-enneads` 普羅提諾九章集（English (translation)）譯– 標–
+- `plotinus-enneads` 普羅提諾九章集（English (translation)）譯✓ 標–
 - `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯✓ 標✓
 - `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-antigone-el` 安提戈涅（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sophocles-oedipus-rex-el` 伊底帕斯王（希臘原文）（Ancient Greek）譯✓ 標✓
-- `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯– 標–
+- `virgil-aeneid` 伊尼德 (維吉爾)（English (translation)）譯✓ 標✓
 - `virgil-aeneid-la` 伊尼德（拉丁原文）（Latin）譯✓ 標✓
 - `xenophon-memorabilia-el` 回憶蘇格拉底（希臘原文）（Ancient Greek）譯✓ 標✓
 
@@ -447,7 +447,7 @@
 - `ezekiel` 以西結書（Hebrew）譯– 標–
 - `ezra` 以斯拉記（Hebrew）譯✓ 標✓
 - `genesis` 創世記（Hebrew）譯– 標✓
-- `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯– 標–
+- `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯✓ 標✓
 - `habakkuk` 哈巴谷書（Hebrew）譯✓ 標✓
 - `haggai` 哈該書（Hebrew）譯✓ 標✓
 - `hosea` 何西阿書（Hebrew）譯✓ 標✓
@@ -509,7 +509,7 @@
 - `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
-- `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `hrafnkels-saga-on` 赫拉夫恩克爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `laxdaela-saga-on` 拉克斯達拉薩迦（古諾斯語）譯✓ 標✓
@@ -598,7 +598,7 @@
 ### 諾斯底（6 部）
 
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
-- `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯– 標–
+- `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標–
 - `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
@@ -609,13 +609,13 @@
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標–
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯✓ 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
-- `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標–
 - `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯✓ 標✓
 
 ### 神道（5 部）
 
 - `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯✓ 標–
-- `kojiki-chamberlain` 古事記（English (translation)）譯– 標–
+- `kojiki-chamberlain` 古事記（English (translation)）譯✓ 標✓
 - `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯✓ 標✓
 - `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯✓ 標–
 - `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–

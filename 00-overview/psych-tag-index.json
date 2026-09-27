@@ -186,6 +186,11 @@
       "religion": "伊斯蘭"
     },
     {
+      "slug": "ovid-metamorphoses",
+      "name_zh": "變形記 (奧維德)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -513,6 +518,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "heimskringla",
+      "name_zh": "赫姆斯克林格拉",
+      "religion": "北歐"
+    },
+    {
       "slug": "heimskringla-on",
       "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
@@ -603,6 +613,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-chamberlain",
+      "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -665,6 +680,11 @@
     {
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses",
+      "name_zh": "變形記 (奧維德)",
       "religion": "古希臘羅馬"
     },
     {
@@ -781,6 +801,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "virgil-aeneid",
+      "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -965,6 +990,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "guide-for-the-perplexed-st",
+      "name_zh": "迷途指津 (Maimonides)",
+      "religion": "猶太教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -1015,6 +1045,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-chamberlain",
+      "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -1047,6 +1082,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses",
+      "name_zh": "變形記 (奧維德)",
       "religion": "古希臘羅馬"
     },
     {
@@ -1143,6 +1183,11 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    },
+    {
+      "slug": "virgil-aeneid",
+      "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "vulgate-song-of-songs",
@@ -1422,6 +1467,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "guide-for-the-perplexed-st",
+      "name_zh": "迷途指津 (Maimonides)",
+      "religion": "猶太教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -1502,6 +1552,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kojiki-chamberlain",
+      "name_zh": "古事記",
+      "religion": "神道"
+    },
+    {
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
@@ -1580,6 +1635,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses",
+      "name_zh": "變形記 (奧維德)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-laws-el",
@@ -1785,6 +1845,11 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    },
+    {
+      "slug": "virgil-aeneid",
+      "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -2069,6 +2134,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "guide-for-the-perplexed-st",
+      "name_zh": "迷途指津 (Maimonides)",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "heimskringla",
+      "name_zh": "赫姆斯克林格拉",
+      "religion": "北歐"
+    },
+    {
       "slug": "heimskringla-on",
       "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
@@ -2107,6 +2182,11 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kojiki-chamberlain",
+      "name_zh": "古事記",
+      "religion": "神道"
     },
     {
       "slug": "liji",
@@ -2172,6 +2252,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses",
+      "name_zh": "變形記 (奧維德)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-laws-el",
@@ -2881,6 +2966,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guide-for-the-perplexed-st",
+      "name_zh": "迷途指津 (Maimonides)",
+      "religion": "猶太教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
@@ -2889,6 +2979,11 @@
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
+    },
+    {
+      "slug": "heimskringla",
+      "name_zh": "赫姆斯克林格拉",
+      "religion": "北歐"
     },
     {
       "slug": "heimskringla-on",
@@ -3024,6 +3119,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kojiki-chamberlain",
+      "name_zh": "古事記",
+      "religion": "神道"
     },
     {
       "slug": "kojiki-zh",
@@ -3474,6 +3574,11 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    },
+    {
+      "slug": "virgil-aeneid",
+      "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -4048,6 +4153,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "guide-for-the-perplexed-st",
+      "name_zh": "迷途指津 (Maimonides)",
+      "religion": "猶太教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -4056,6 +4166,11 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "heimskringla",
+      "name_zh": "赫姆斯克林格拉",
+      "religion": "北歐"
     },
     {
       "slug": "heimskringla-on",
@@ -4628,6 +4743,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "virgil-aeneid",
+      "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -4905,6 +5025,11 @@
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "heimskringla",
+      "name_zh": "赫姆斯克林格拉",
+      "religion": "北歐"
     },
     {
       "slug": "iroquois-book-of-rites",
