@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**433** / 518
-- 已標籤：**453** / 518
+- 已翻譯：**435** / 518
+- 已標籤：**456** / 518
 
 ## 各宗教核心進度
 
@@ -13,7 +13,7 @@
 | 基督教 | 161 | 157 | 159 |
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
-| 古希臘羅馬 | 46 | 37 | 35 |
+| 古希臘羅馬 | 46 | 38 | 37 |
 | 猶太教 | 45 | 37 | 38 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 12 | 12 |
@@ -25,7 +25,7 @@
 | 耆那教 | 7 | 6 | 6 |
 | 諾斯底 | 6 | 6 | 5 |
 | 現代新興 | 5 | 4 | 3 |
-| 神道 | 5 | 4 | 2 |
+| 神道 | 5 | 5 | 3 |
 | 錫克教 | 4 | 3 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
 | 伊斯蘭 | 4 | 3 | 3 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -423,8 +423,8 @@
 - `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
 - `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯✓ 標✓
-- `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯– 標–
-- `plotinus-enneads` 普羅提諾九章集（English (translation)）譯✓ 標–
+- `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯✓ 標✓
+- `plotinus-enneads` 普羅提諾九章集（English (translation)）譯✓ 標✓
 - `plotinus-enneads-el` 九章集（希臘原文）（Ancient Greek）譯✓ 標✓
 - `sibylline-oracles` 西比拉神諭集（English (translation)）譯✓ 標✓
 - `sibylline-oracles-el` 西比拉神諭集（希臘原文）（Ancient Greek）譯✓ 標✓
@@ -618,7 +618,7 @@
 - `kojiki-chamberlain` 古事記（English (translation)）譯✓ 標✓
 - `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯✓ 標✓
 - `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯✓ 標–
-- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯– 標–
+- `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯✓ 標✓
 
 ### 錫克教（4 部）
 
