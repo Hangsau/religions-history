@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**435** / 518
-- 已標籤：**456** / 518
+- 已翻譯：**436** / 518
+- 已標籤：**457** / 518
 
 ## 各宗教核心進度
 
@@ -14,7 +14,7 @@
 | 佛教 | 74 | 52 | 63 |
 | 印度教 | 58 | 42 | 41 |
 | 古希臘羅馬 | 46 | 38 | 37 |
-| 猶太教 | 45 | 37 | 38 |
+| 猶太教 | 45 | 38 | 39 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 12 | 12 |
 | 瑣羅亞斯德 | 11 | 9 | 9 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -464,7 +464,7 @@
 - `kings-2` 列王紀下（Hebrew）譯✓ 標✓
 - `kitab-al-khazari` 庫薩里 (Judah Halevi)（English (translation)）譯✓ 標✓
 - `lamentations` 耶利米哀歌（Hebrew）譯✓ 標✓
-- `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯– 標–
+- `legends-of-the-jews` 猶太人的傳說 (Ginzberg)（English (translation)）譯✓ 標✓
 - `leviticus` 利未記（Hebrew）譯✓ 標✓
 - `malachi` 瑪拉基書（Hebrew）譯✓ 標✓
 - `micah` 彌迦書（Hebrew）譯✓ 標✓
