@@ -17,6 +17,7 @@ import sys
 import time
 import tkinter as tk
 from collections import Counter
+from tkinter import ttk
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -257,18 +258,21 @@ def operations_summary(now: float | None = None) -> dict:
 
 ACTION_ZH = {"translate": "經文翻譯", "tag": "語義標籤", "annotate": "白話註釋"}
 
-# ---- 配色：departure board / NOC 監控牆（深色面板 + 琥珀/綠燈號）----
-BG    = "#15181c"
-PANEL = "#1e2228"
-FG    = "#d7dae0"
-MUTED = "#7c828c"
-DONE  = "#5b8a52"   # 綠：已完成
-PROG  = "#d9a441"   # 琥珀：進行中
-BAD   = "#c0504d"   # 紅：停擺 / 警報
-TRACK = "#2b3038"   # 進度條底槽
-HEAD  = "#c8956c"   # 標題暖色
+# ---- 配色：艦橋 HUD（與桌面看板一致；色票來源 C:\claudehome\tools\deskboard\hud.py）----
+# 深空藍黑底＋霓虹青標題；綠＝完成、金＝進行中、洋紅＝停擺／警報。文字對比全數 ≥4.5:1。
+BG    = "#0b1020"
+PANEL = "#121a2e"
+FG    = "#e6f1ff"
+MUTED = "#8ea3c7"
+DONE  = "#5cf2a2"   # 綠：已完成
+PROG  = "#ffc857"   # 金：進行中
+BAD   = "#ff4fa3"   # 洋紅：停擺 / 警報
+TRACK = "#2a3d66"   # 進度條未亮的格
+HEAD  = "#3ee6ff"   # 標題霓虹青
+SEGMENT_W, SEGMENT_GAP = 8, 2   # 分段能量條：每格寬與間距（px）
 
 FONT   = "Microsoft JhengHei"  # CJK 安全、無 italic 偽斜
+F_CODE = ("Bahnschrift SemiBold", 10)  # 站點代號（HUD 標籤字）
 F_TITLE = (FONT, 17, "bold")
 F_BIG   = (FONT, 22, "bold")
 F_SEC   = (FONT, 11, "bold")
@@ -546,10 +550,10 @@ class Board:
         row.pack(fill="x", padx=18, pady=2)
         tk.Label(row, text=label, bg=BG, fg=FG, font=F_ROW,
                  width=16, anchor="w").pack(side="left")
-        cv = tk.Canvas(row, height=16, bg=TRACK, highlightthickness=0)
+        cv = tk.Canvas(row, height=14, bg=BG, highlightthickness=0)
         cv.pack(side="left", fill="x", expand=True, padx=(4, 8))
         cnt = tk.Label(row, text="", bg=BG, fg=MUTED, font=F_SMALL,
-                       width=14, anchor="e")
+                       width=20, anchor="e")
         cnt.pack(side="left")
         self.rows[key] = (cv, cnt)
 
@@ -574,7 +578,7 @@ class Board:
         scroll = tk.Frame(self.root, bg=BG)
         scroll.pack(fill="both", expand=True)
         self.scroll_canvas = tk.Canvas(scroll, bg=BG, highlightthickness=0)
-        scrollbar = tk.Scrollbar(scroll, orient="vertical", command=self.scroll_canvas.yview)
+        scrollbar = ttk.Scrollbar(scroll, orient="vertical", command=self.scroll_canvas.yview)
         scrollbar.pack(side="right", fill="y")
         self.scroll_canvas.pack(side="left", fill="both", expand=True)
         self.scroll_canvas.configure(yscrollcommand=scrollbar.set)
@@ -587,7 +591,9 @@ class Board:
 
         head = tk.Frame(self.body, bg=BG)
         head.pack(fill="x", pady=(14, 0))
-        tk.Label(head, text="religions-history 刊版", bg=BG, fg=HEAD,
+        tk.Label(head, text="FLEET ・ 翻譯艦隊", bg=BG, fg=HEAD,
+                 font=F_CODE, anchor="w").pack(fill="x", padx=18)
+        tk.Label(head, text="religions-history 刊版", bg=BG, fg=FG,
                  font=F_TITLE, anchor="w").pack(fill="x", padx=18)
         self.big = tk.Label(head, text="—", bg=BG, fg=FG, font=F_BIG, anchor="w")
         self.big.pack(fill="x", padx=18)
@@ -646,6 +652,10 @@ class Board:
             label.config(wraplength=wrap)
 
     def _on_mousewheel(self, event):
+        # 全域綁定會收到整個視窗的滾輪；看板各站疊在同一格，只在指標確實落在刊版上時才捲動
+        under = self.root.winfo_containing(event.x_root, event.y_root)
+        if under is None or not str(under).startswith(str(self.root)):
+            return
         self.scroll_canvas.yview_scroll(int(-event.delta / 120), "units")
 
     def _pause(self):
@@ -664,12 +674,12 @@ class Board:
         cv.delete("all")
         w = cv.winfo_width() or 360
         fill = DONE if pct >= 99.5 else PROG
-        fw = int(w * min(pct, 100) / 100)
-        if fw > 0:
-            cv.create_rectangle(0, 0, fw, 16, fill=fill, width=0)
-        cv.create_text(6, 8, text=f"{pct:.0f}%", anchor="w",
-                       fill="#12151a" if fw > 30 else MUTED, font=F_SMALL)
-        cnt.config(text=f"{count} / {total}")
+        segments = max(1, (w + SEGMENT_GAP) // (SEGMENT_W + SEGMENT_GAP))
+        lit = round(segments * min(pct, 100) / 100)
+        for i in range(segments):
+            x = i * (SEGMENT_W + SEGMENT_GAP)
+            cv.create_rectangle(x, 1, x + SEGMENT_W, 13, fill=fill if i < lit else TRACK, width=0)
+        cnt.config(text=f"{pct:.0f}%  {count} / {total}", fg=fill if pct >= 99.5 else MUTED)
 
     def _draw_activity(self, a: dict):
         """畫『現在正在翻什麼、做什麼』三行：正在處理 / 動作+模型 / 速度+ETA+異常。"""
