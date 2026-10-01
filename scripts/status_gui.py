@@ -32,6 +32,9 @@ HALT = status.LOGS / "pipeline-HALT.flag"  # 存在即人工暫停：刊版不�
 RUNTIME = status.LOGS / "pipeline-runtime.json"
 WATCHER = SCRIPTS / "quota-watch-resume.py"
 WATCH_PIDFILE = status.LOGS / "quota-watch.pid"
+IDLE = status.LOGS / "pipeline-idle.json"  # supervisor 判定佇列無事可做時寫入
+FAILED_STATE = status.LOGS / "pipeline-failed.json"
+IDLE_RECHECK_SECS = 60 * 60  # 閒置後多久再復活一次，接住新收進核心的經文
 
 
 def _pid_alive(pid: int) -> bool:
@@ -50,6 +53,22 @@ def _pid_alive(pid: int) -> bool:
         return False
 
 
+def _idle_recently(now: float | None = None) -> bool:
+    """佇列剛判定無事可做、且 failed-state 之後沒被 --unblock 動過 → 先不復活。"""
+    try:
+        idle = json.loads(IDLE.read_text(encoding="utf-8"))
+        at = datetime.fromisoformat(idle["at"]).timestamp()
+    except (OSError, ValueError, KeyError, TypeError):
+        return False
+    try:
+        failed_mtime = FAILED_STATE.stat().st_mtime
+    except OSError:
+        failed_mtime = None
+    if failed_mtime != idle.get("failed_mtime"):
+        return False
+    return (now if now is not None else time.time()) - at < IDLE_RECHECK_SECS
+
+
 def ensure_supervisor() -> None:
     """刊版兼任監督：發現 supervisor 沒在跑就（無視窗、脫離本進程地）拉起來。
 
@@ -59,6 +78,8 @@ def ensure_supervisor() -> None:
     try:
         if HALT.exists():
             return  # 人工暫停中（如等 MiniMax 配額重置），不復活管線
+        if _idle_recently():
+            return  # 只剩 blocked／已全部完成：每 30 秒復活只會空轉
         try:
             if json.loads(RUNTIME.read_text(encoding="utf-8")).get("status") in {
                     "waiting_quota", "waiting_provider"}:

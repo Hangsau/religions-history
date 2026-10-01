@@ -39,6 +39,8 @@ HALT = LOGS / "pipeline-HALT.flag"   # 人工暫停開關：存在即不啟動�
 RUNTIME = LOGS / "pipeline-runtime.json"
 RUN_LOG = LOGS / "supervisor-run.log"
 PIDFILE = LOGS / "supervisor.pid"  # 刊版靠此判斷 supervisor 是否還活著（避免重複拉起）
+FAILED = LOGS / "pipeline-failed.json"
+IDLE = LOGS / "pipeline-idle.json"  # 佇列無事可做時留下；刊版據此不每 30 秒空轉復活
 
 def _tier_arg() -> str:
     raw = sys.argv[1] if len(sys.argv) > 1 else "核心"
@@ -58,6 +60,17 @@ MAX_QUICK_STRIKES = 3   # 連續幾次「啟動後幾乎立刻退出」即判系
 QUICK_SECONDS = 120     # 幾秒內退出算「立刻失敗」
 MAX_NOPROGRESS = 2      # 連續幾輪「一部都沒 processed」即判系統性問題
 BACKOFF_BASE = 30       # 重啟退避秒數（× strikes）
+
+
+def mark_idle(reason: str) -> None:
+    """記下「佇列沒有可跑的工作」與當時的 failed-state mtime；--unblock 會改動該檔而解除。"""
+    try:
+        failed_mtime = FAILED.stat().st_mtime
+    except OSError:
+        failed_mtime = None
+    IDLE.write_text(json.dumps({"at": datetime.now(TZ).isoformat(), "reason": reason,
+                                "failed_mtime": failed_mtime}) + "
+", encoding="utf-8")
 
 
 def hb(msg: str) -> None:
@@ -195,12 +208,16 @@ def main() -> None:
             continue
 
         if this_run == 0 and blocked_only:
+            mark_idle("blocked")
             hb(f"[blocked] {blocked_only} 部需人工修復後 --unblock；supervisor 正常退出")
             break
 
         if this_run == 0:
+            mark_idle("done")
             hb("[done] 佇列已全部完成，supervisor 正常退出")
             break
+
+        IDLE.unlink(missing_ok=True)
 
         if processed == 0:
             noprogress += 1

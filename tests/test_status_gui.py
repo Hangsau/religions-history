@@ -176,5 +176,33 @@ class StatusBoardTimerTests(unittest.TestCase):
         self.assertEqual(len(board.root.cancelled), 9)
 
 
+class IdleSupervisorTests(unittest.TestCase):
+    def run_check(self, failed_mtime_matches=True, age=10):
+        with tempfile.TemporaryDirectory() as td:
+            idle, failed = Path(td) / "idle.json", Path(td) / "failed.json"
+            failed.write_text("{}", encoding="utf-8")
+            recorded = failed.stat().st_mtime if failed_mtime_matches else 1.0
+            at = time.time() - age
+            idle.write_text(json.dumps({
+                "at": status_gui.datetime.fromtimestamp(at).astimezone().isoformat(),
+                "reason": "blocked", "failed_mtime": recorded}), encoding="utf-8")
+            with mock.patch.object(status_gui, "IDLE", idle), \
+                    mock.patch.object(status_gui, "FAILED_STATE", failed):
+                return status_gui._idle_recently()
+
+    def test_fresh_idle_marker_suppresses_revive(self):
+        self.assertTrue(self.run_check())
+
+    def test_unblock_changes_failed_state_and_allows_revive(self):
+        self.assertFalse(self.run_check(failed_mtime_matches=False))
+
+    def test_old_idle_marker_allows_periodic_recheck(self):
+        self.assertFalse(self.run_check(age=status_gui.IDLE_RECHECK_SECS + 5))
+
+    def test_missing_marker_allows_revive(self):
+        with mock.patch.object(status_gui, "IDLE", Path(tempfile.gettempdir()) / "nope-idle.json"):
+            self.assertFalse(status_gui._idle_recently())
+
+
 if __name__ == "__main__":
     unittest.main()
