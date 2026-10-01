@@ -197,6 +197,11 @@
   ],
   "Adam": [
     {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "vulgate-1-chronicles",
       "name_zh": "歷代志上（武加大）",
       "religion": "基督教"
@@ -300,6 +305,11 @@
   ],
   "Agni": [
     {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -331,6 +341,13 @@
       "religion": "基督教"
     }
   ],
+  "Ahuna Vairya": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "Ahura Mazda": [
     {
       "slug": "avesta-sbe04",
@@ -345,6 +362,11 @@
     {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -494,6 +516,13 @@
       "religion": "美洲"
     }
   ],
+  "Almáttigr guð": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Am-Tuat": [
     {
       "slug": "book-of-am-tuat",
@@ -571,6 +600,11 @@
   ],
   "Amesha Spentas": [
     {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
@@ -578,6 +612,13 @@
     {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Amesha-Spentas": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -637,6 +678,11 @@
     {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -893,6 +939,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
       "slug": "avesta-sbe31-ae",
       "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
@@ -902,6 +953,13 @@
     {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Ashem Vohū": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -990,6 +1048,13 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    }
+  ],
+  "Auðr djúpúðga": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Avesta": [
@@ -1462,6 +1527,13 @@
       "religion": "印度教"
     }
   ],
+  "Bhṛgu": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    }
+  ],
   "Bildad": [
     {
       "slug": "vulgate-job",
@@ -1470,6 +1542,11 @@
     }
   ],
   "Björn": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
     {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
@@ -1624,6 +1701,13 @@
     {
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
+      "religion": "印度教"
+    }
+  ],
+  "Brahmin": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
     }
   ],
@@ -2974,6 +3058,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Evrópá": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Evu": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Ezechiel": [
     {
       "slug": "vulgate-ezekiel",
@@ -3138,6 +3236,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Fraxshti": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "Frey": [
     {
       "slug": "hrafnkels-saga-on",
@@ -3268,6 +3373,11 @@
     }
   ],
   "Gathas": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
     {
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
@@ -3691,6 +3801,13 @@
     {
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Haraldr hárfagri": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -4177,6 +4294,11 @@
   ],
   "Iceland": [
     {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -4578,6 +4700,13 @@
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
       "religion": "美洲"
+    }
+  ],
+  "Jamtaland": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Janaka": [
@@ -5082,6 +5211,13 @@
       "religion": "北歐"
     }
   ],
+  "Ketill flatnefr": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Keśava": [
     {
       "slug": "gita-govinda",
@@ -5148,6 +5284,13 @@
       "slug": "mabinogion-st",
       "name_zh": "Mabinogion 馬比諾吉昂 (Welsh)",
       "religion": "凱爾特"
+    }
+  ],
+  "Kjöl": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Knorr von Rosenroth": [
@@ -5304,6 +5447,13 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    }
+  ],
+  "Kṣatriya": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
     }
   ],
@@ -5922,6 +6072,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Maruts": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    }
+  ],
   "Mary": [
     {
       "slug": "carmina-gadelica-1",
@@ -6243,6 +6400,13 @@
       "religion": "北歐"
     }
   ],
+  "Miðjarðarsjó": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Moab": [
     {
       "slug": "vulgate-ruth",
@@ -6377,6 +6541,13 @@
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
+    }
+  ],
+  "Mãthra Spenta": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     }
   ],
   "Múspell": [
@@ -6780,6 +6951,13 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    }
+  ],
+  "Nói": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Nóregr": [
@@ -8061,6 +8239,11 @@
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
     }
   ],
   "Rumi": [
@@ -8573,6 +8756,13 @@
       "religion": "兩河"
     }
   ],
+  "Sif": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Sifra de-Tsni'uta": [
     {
       "slug": "kabbalah-unveiled",
@@ -8764,6 +8954,13 @@
       "religion": "基督教"
     }
   ],
+  "Soma": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    }
+  ],
   "Sophocles": [
     {
       "slug": "plato-republic-el",
@@ -8809,6 +9006,13 @@
       "slug": "vulgate-acts",
       "name_zh": "使徒行傳（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Spitama": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     }
   ],
   "Sponsa": [
@@ -8942,6 +9146,13 @@
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
+    }
+  ],
+  "Suðreyjar": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Svātmārāma": [
@@ -9399,6 +9610,13 @@
       "religion": "猶太教"
     }
   ],
+  "Trakíá": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Transformation 變形": [
     {
       "slug": "ovid-metamorphoses",
@@ -9468,6 +9686,13 @@
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Tróa": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Trōia": [
@@ -9718,6 +9943,13 @@
       "religion": "印度教"
     }
   ],
+  "Vaiśya": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
+    }
+  ],
   "Valentinus": [
     {
       "slug": "fragments-of-faith-forgotten",
@@ -9923,6 +10155,13 @@
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Vivasvat": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
     }
   ],
   "Viveka": [
@@ -10154,6 +10393,13 @@
       "religion": "印度教"
     }
   ],
+  "Vóden": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Völsung": [
     {
       "slug": "volsunga-saga-on",
@@ -10196,6 +10442,13 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    }
+  ],
+  "Vāyu": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
       "religion": "印度教"
     }
   ],
@@ -10413,6 +10666,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Yasna Haptanghaiti": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "Yazata": [
     {
       "slug": "avesta-sbe23",
@@ -10514,6 +10774,13 @@
       "religion": "美洲"
     }
   ],
+  "Yājñavalkya": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
+    }
+  ],
   "Yāmuna": [
     {
       "slug": "ramanuja-vedarthasamgraha",
@@ -10532,6 +10799,11 @@
     {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -11175,6 +11447,13 @@
       "religion": "基督教"
     }
   ],
+  "berserkir": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "berserkr": [
     {
       "slug": "egils-saga-on",
@@ -11409,6 +11688,13 @@
     {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "brahma-sūtra": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
     }
   ],
@@ -11702,6 +11988,13 @@
       "religion": "印度教"
     }
   ],
+  "daēva": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "death": [
     {
       "slug": "plato-works",
@@ -11812,6 +12105,11 @@
     {
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
     }
   ],
@@ -12246,6 +12544,11 @@
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
     }
   ],
   "guṇa": [
@@ -12285,6 +12588,13 @@
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
       "religion": "佛教"
+    }
+  ],
+  "gāyatrī": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
     }
   ],
   "hajj": [
@@ -12376,6 +12686,13 @@
       "religion": "基督教"
     }
   ],
+  "hersir": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "hesed": [
     {
       "slug": "ruth",
@@ -12423,6 +12740,13 @@
       "religion": "猶太教"
     }
   ],
+  "hotṛ": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    }
+  ],
   "hrímþursar": [
     {
       "slug": "snorra-edda-is",
@@ -12435,6 +12759,20 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "hákonungr": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "hófðingri": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "hólmganga": [
@@ -12744,6 +13082,13 @@
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
+    }
+  ],
+  "landnáms saga": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "langskip": [
@@ -14353,6 +14698,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
     }
   ],
   "solar barque": [
@@ -14458,6 +14808,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "sāvitrī": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
     }
   ],
   "sīla": [
@@ -14693,6 +15050,11 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
     }
   ],
   "upaniṣad": [
@@ -14769,6 +15131,11 @@
     {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
     }
   ],
@@ -15105,6 +15472,13 @@
       "religion": "北歐"
     }
   ],
+  "Ásíá": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Æon": [
     {
       "slug": "thrice-greatest-hermes-1",
@@ -15192,10 +15566,24 @@
       "religion": "北歐"
     }
   ],
+  "Þorolfr Mostrarskegg": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Þriði": [
     {
       "slug": "snorra-edda-is",
       "name_zh": "散文埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Þór": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -15208,6 +15596,11 @@
   ],
   "Þórr": [
     {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
@@ -15217,6 +15610,13 @@
     {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "óðul": [
+    {
+      "slug": "eyrbyggja-saga-on",
+      "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -15393,6 +15793,13 @@
       "religion": "印度教"
     }
   ],
+  "āśrama": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
+    }
+  ],
   "Īśvarakṛṣṇa": [
     {
       "slug": "samkhya-karika-ishvarakrshna",
@@ -15507,6 +15914,13 @@
       "religion": "佛教"
     }
   ],
+  "Śūdra": [
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
+      "religion": "印度教"
+    }
+  ],
   "śabda": [
     {
       "slug": "nyaya-sutra-gautama",
@@ -15554,6 +15968,11 @@
     {
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "yajnavalkya-smrti",
+      "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
     }
   ],
@@ -19629,6 +20048,13 @@
       "religion": "印度教"
     }
   ],
+  "伐由": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    }
+  ],
   "休倫—易洛魁": [
     {
       "slug": "iroquois-book-of-rites",
@@ -21222,6 +21648,13 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
+    }
+  ],
+  "全能的神": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "八不": [
@@ -23662,6 +24095,11 @@
     }
   ],
   "善思善言善行": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
     {
       "slug": "avesta-sbe31-ae",
       "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
@@ -29510,6 +29948,13 @@
       "religion": "基督教"
     }
   ],
+  "挪亞方舟": [
+    {
+      "slug": "snorra-edda-on",
+      "name_zh": "散文埃達／斯諾里埃達（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "挽回祭": [
     {
       "slug": "bible-1-john",
@@ -30029,6 +30474,13 @@
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
+    }
+  ],
+  "摩錄多": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
     }
   ],
   "摩門經": [
@@ -32173,6 +32625,13 @@
       "slug": "vulgate-genesis",
       "name_zh": "創世記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "樓陀羅": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
     }
   ],
   "模仿": [
@@ -36040,6 +36499,11 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
     },
     {
       "slug": "sblgnt-1-peter",
@@ -39929,6 +40393,13 @@
       "religion": "耆那教"
     }
   ],
+  "薄利古": [
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    }
+  ],
   "薩滿": [
     {
       "slug": "religion-indians-california",
@@ -39980,6 +40451,11 @@
     {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
       "religion": "印度教"
     }
   ],
@@ -42725,6 +43201,11 @@
     {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samaveda",
+      "name_zh": "沙摩吠陀",
       "religion": "印度教"
     }
   ],

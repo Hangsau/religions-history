@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-02 02:52:22 +0800
+- 更新時間：2026-10-02 03:56:49 +0800
 - 佇列 tier：**核心**
-- 進度：**478 / 518** 已翻譯+標籤
-- 目前處理：`homer-greek`
+- 進度：**483 / 518** 已翻譯+標籤
+- 目前處理：`avesta-sbe23-ae`
 - P0 尚未完整翻譯：0 部
-- 一般失敗待重試：40 部 — eyrbyggja-saga-on, yajnavalkya-smrti, samaveda, snorra-edda-on, avesta-sbe23-ae, an8-eights, ezekiel, sn35-salayatana, grettis-saga-on, carmina-gadelica-1
+- 一般失敗待重試：35 部 — an8-eights, ezekiel, sn35-salayatana, grettis-saga-on, carmina-gadelica-1, bud-lankavatara-sa, apuleius-metamorphoses-la, augustine-confessiones-la, an4-fours, ovid-metamorphoses-la
 - 已阻塞待人工處理：0 部
-- M3 執行狀態：**running** — `homer-greek` (tag)
+- M3 執行狀態：**running** — `avesta-sbe23-ae` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`

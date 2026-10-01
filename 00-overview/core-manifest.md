@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**452** / 518
-- 已標籤：**478** / 518
+- 已翻譯：**457** / 518
+- 已標籤：**483** / 518
 
 ## 各宗教核心進度
 
@@ -12,12 +12,12 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 158 | 159 |
 | 佛教 | 74 | 54 | 65 |
-| 印度教 | 58 | 44 | 44 |
+| 印度教 | 58 | 46 | 46 |
 | 古希臘羅馬 | 46 | 41 | 41 |
 | 猶太教 | 45 | 40 | 43 |
 | 道教 | 18 | 12 | 18 |
-| 北歐 | 15 | 12 | 12 |
-| 瑣羅亞斯德 | 11 | 10 | 10 |
+| 北歐 | 15 | 14 | 14 |
+| 瑣羅亞斯德 | 11 | 11 | 11 |
 | 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
 | 凱爾特 | 9 | 8 | 8 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -367,7 +367,7 @@
 - `ramanuja-gitabhashya` 薄伽梵歌釋（羅摩奴闍）（梵語）譯✓ 標✓
 - `ramanuja-vedarthasamgraha` 吠陀義綱要（梵語）譯✓ 標✓
 - `rigveda` 梨俱吠陀（Sanskrit）譯✓ 標–
-- `samaveda` 沙摩吠陀（Sanskrit）譯– 標–
+- `samaveda` 沙摩吠陀（Sanskrit）譯✓ 標✓
 - `samkhya-karika` 數論頌（梵語）譯✓ 標✓
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
@@ -382,7 +382,7 @@
 - `vedanta-upadeshasahasri` 千則教誨（梵語）譯✓ 標✓
 - `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
 - `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
-- `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯– 標–
+- `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯✓ 標✓
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
 ### 古希臘羅馬（46 部）
@@ -506,7 +506,7 @@
 ### 北歐（15 部）
 
 - `egils-saga-on` 埃吉爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
-- `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
@@ -517,7 +517,7 @@
 - `poetic-edda-bellows` 詩體埃達 (Bellows 譯)（English (translation)）譯✓ 標✓
 - `poetic-edda-on` 詩體埃達（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `snorra-edda-is` 散文埃達（古諾斯語原文）（古諾斯語）譯✓ 標✓
-- `snorra-edda-on` 散文埃達／斯諾里埃達（古諾斯語原文）（古諾斯語）譯– 標–
+- `snorra-edda-on` 散文埃達／斯諾里埃達（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `volsunga-saga` 沃爾松傳奇（English (translation)）譯✓ 標✓
 - `volsunga-saga-on` 沃爾松傳奇（古諾斯語原文）（古諾斯語）譯✓ 標✓
 
@@ -526,7 +526,7 @@
 - `avesta-sbe04` 阿維斯塔 SBE 04 (Vendidad)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe04-ae` 驅魔書／維提吠達（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯✓ 標✓
-- `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯✓ 標✓
