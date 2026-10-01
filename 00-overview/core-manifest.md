@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**441** / 518
-- 已標籤：**462** / 518
+- 已翻譯：**442** / 518
+- 已標籤：**467** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 158 | 159 |
-| 佛教 | 74 | 52 | 63 |
+| 佛教 | 74 | 53 | 64 |
 | 印度教 | 58 | 44 | 43 |
-| 古希臘羅馬 | 46 | 38 | 37 |
-| 猶太教 | 45 | 39 | 41 |
+| 古希臘羅馬 | 46 | 38 | 38 |
+| 猶太教 | 45 | 39 | 42 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 12 | 12 |
 | 瑣羅亞斯德 | 11 | 9 | 9 |
@@ -25,7 +25,7 @@
 | 耆那教 | 7 | 6 | 6 |
 | 諾斯底 | 6 | 6 | 5 |
 | 現代新興 | 5 | 4 | 3 |
-| 神道 | 5 | 5 | 3 |
+| 神道 | 5 | 5 | 5 |
 | 錫克教 | 4 | 4 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
 | 伊斯蘭 | 4 | 3 | 3 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、印加、諾斯底
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -261,7 +261,7 @@
 - `an6-sixes` AN6 六法集（Pali）譯✓ 標✓
 - `an7-sevens` AN7 七法集（Pali）譯✓ 標✓
 - `an8-eights` AN8 八法集（Pali）譯– 標–
-- `an9-nines` AN9 九法集（Pali）譯– 標–
+- `an9-nines` AN9 九法集（Pali）譯✓ 標✓
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
 - `bud-abhidharmakosha-sa` 阿毗達磨俱舍論本頌（梵文）（梵語）譯✓ 標✓
@@ -406,7 +406,7 @@
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯✓ 標✓
 - `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `iliad-butler` 伊利亞德（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
-- `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯✓ 標–
+- `lucretius-de-rerum-natura-la` 物性論（拉丁原文）（拉丁）譯✓ 標✓
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯✓ 標✓
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
@@ -470,7 +470,7 @@
 - `micah` 彌迦書（Hebrew）譯✓ 標✓
 - `nahum` 那鴻書（Hebrew）譯✓ 標✓
 - `nehemiah` 尼希米記（Hebrew）譯✓ 標✓
-- `numbers` 民數記（Hebrew）譯✓ 標–
+- `numbers` 民數記（Hebrew）譯✓ 標✓
 - `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
 - `proverbs` 箴言（Hebrew）譯– 標✓
 - `psalms` 詩篇（Hebrew）譯✓ 標✓
@@ -614,10 +614,10 @@
 
 ### 神道（5 部）
 
-- `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯✓ 標–
+- `engishiki-jingi-zh` 延喜式·神祇式（漢文原文，卷一至十）（漢文）譯✓ 標✓
 - `kojiki-chamberlain` 古事記（English (translation)）譯✓ 標✓
 - `kojiki-zh` 古事記（上代日本語原文，漢文・萬葉假名）（上代日本語）譯✓ 標✓
-- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯✓ 標–
+- `nihon-shoki-zh` 日本書紀（漢文原文，全三十卷）（漢文）譯✓ 標✓
 - `nihongi-aston` 日本書紀 (英譯)（English (translation)）譯✓ 標✓
 
 ### 錫克教（4 部）

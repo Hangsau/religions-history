@@ -46,5 +46,13 @@
   ],
   "tag_status": "done",
   "translation_status": "done",
-  "translation_models": "MiniMax-M3"
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done"
 }

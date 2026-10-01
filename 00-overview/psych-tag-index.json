@@ -31,6 +31,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
       "religion": "印度教"
@@ -663,6 +668,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mabinogion-st",
       "name_zh": "Mabinogion 馬比諾吉昂 (Welsh)",
       "religion": "凱爾特"
@@ -1090,6 +1100,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -1103,6 +1118,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "nihon-shoki-zh",
+      "name_zh": "日本書紀（漢文原文，全三十卷）",
+      "religion": "神道"
     },
     {
       "slug": "nihongi-aston",
@@ -1299,6 +1319,11 @@
     {
       "slug": "an7-sevens",
       "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
       "religion": "佛教"
     },
     {
@@ -1630,6 +1655,11 @@
       "slug": "lotus-sutra",
       "name_zh": "妙法蓮華經",
       "religion": "佛教"
+    },
+    {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "madhyamagama",
@@ -2019,6 +2049,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
@@ -2174,6 +2209,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "engishiki-jingi-zh",
+      "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -2264,6 +2304,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -2309,6 +2354,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "nihon-shoki-zh",
+      "name_zh": "日本書紀（漢文原文，全三十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
       "religion": "神道"
@@ -2317,6 +2367,11 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
     },
     {
       "slug": "odyssey-butler",
@@ -2568,6 +2623,11 @@
     {
       "slug": "an7-sevens",
       "name_zh": "AN7 七法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
       "religion": "佛教"
     },
     {
@@ -3016,6 +3076,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "engishiki-jingi-zh",
+      "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
+    },
+    {
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
@@ -3351,6 +3416,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "nihon-shoki-zh",
+      "name_zh": "日本書紀（漢文原文，全三十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
       "religion": "神道"
@@ -3359,6 +3429,11 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
     },
     {
       "slug": "odyssey-butler",
@@ -4013,6 +4088,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "an9-nines",
+      "name_zh": "AN9 九法集",
+      "religion": "佛教"
+    },
+    {
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
@@ -4496,6 +4576,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "nihon-shoki-zh",
+      "name_zh": "日本書紀（漢文原文，全三十卷）",
+      "religion": "神道"
     },
     {
       "slug": "nihongi-aston",
@@ -5724,6 +5809,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "nihon-shoki-zh",
+      "name_zh": "日本書紀（漢文原文，全三十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -6471,6 +6561,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "engishiki-jingi-zh",
+      "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
+    },
+    {
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
@@ -6691,6 +6786,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -6734,6 +6834,11 @@
       "slug": "narratives-rites-laws-yncas",
       "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
       "religion": "印加"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
     },
     {
       "slug": "nyaya-sutra",
@@ -8376,6 +8481,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "numbers",
+      "name_zh": "民數記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
@@ -8943,6 +9053,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "engishiki-jingi-zh",
+      "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -9045,6 +9160,11 @@
     {
       "slug": "nehemiah",
       "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "numbers",
+      "name_zh": "民數記",
       "religion": "猶太教"
     },
     {
@@ -9554,6 +9674,11 @@
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
+    },
+    {
+      "slug": "engishiki-jingi-zh",
+      "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
     },
     {
       "slug": "epicurus-letter-menoeceus-el",
