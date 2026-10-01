@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-01 17:42:51 +0800
+- 更新時間：2026-10-01 20:35:52 +0800
 - 佇列 tier：**核心**
-- 進度：**468 / 518** 已翻譯+標籤
-- 目前處理：`(本輪完成)`
-- P0 尚未完整翻譯：8 部
-- 一般失敗待重試：12 部 — sibylline-oracles-el, huangdi-neijing, rigveda, brahma-purana, valmiki-ramayana, majjhima-nikaya, gnostics-and-their-remains, science-and-health-1906, mahabharata-ganguli, guru-granth-sahib-st
-- 已阻塞待人工處理：40 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1, tain-bo-cuailnge-ga
-- M3 執行狀態：**running** — `garuda-purana` (tag)
+- 進度：**473 / 518** 已翻譯+標籤
+- 目前處理：`plato-republic-el`
+- P0 尚未完整翻譯：3 部
+- 一般失敗待重試：45 部 — eyrbyggja-saga-on, yajnavalkya-smrti, quran, samaveda, ovid-fasti-la, chronicles-1, book-of-mormon-1830, homer-greek, snorra-edda-on, avesta-sbe23-ae
+- 已阻塞待人工處理：0 部
+- M3 執行狀態：**running** — `plato-republic-el` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`

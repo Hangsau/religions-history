@@ -353,6 +353,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
@@ -382,6 +387,11 @@
     {
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
+      "religion": "凱爾特"
+    },
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
       "religion": "凱爾特"
     }
   ],
@@ -416,6 +426,13 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    }
+  ],
+  "Alban": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "Alexander Carmichael": [
@@ -545,6 +562,13 @@
       "religion": "美洲"
     }
   ],
+  "Amesha Spenta": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "Amesha Spentas": [
     {
       "slug": "avesta-sbe31",
@@ -618,6 +642,11 @@
     {
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -861,6 +890,11 @@
     {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -1875,6 +1909,13 @@
       "religion": "兩河"
     }
   ],
+  "Cephalus": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Chaldaei": [
     {
       "slug": "vulgate-habakkuk",
@@ -2111,6 +2152,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Conchobar": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
   "Conchobor": [
     {
       "slug": "cuchulain-muirthemne",
@@ -2219,6 +2267,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Crúachain Ai": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
   "Cura Valdez": [
     {
       "slug": "apu-ollantay",
@@ -2245,12 +2300,24 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "Dadistan-i Denig": [
     {
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Daeva": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -2359,6 +2426,13 @@
     {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Daēnā": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -2476,6 +2550,13 @@
       "religion": "佛教"
     }
   ],
+  "Dhaniya": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    }
+  ],
   "Dharma": [
     {
       "slug": "mahabharata-ganguli",
@@ -2583,6 +2664,13 @@
       "slug": "denkard-3-bahman-yasht",
       "name_zh": "Pahlavi Texts Part III",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Dún Lethglaisse": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "Dīgha Nikāya": [
@@ -2723,6 +2811,13 @@
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
+    }
+  ],
+  "Emain": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "Emanation": [
@@ -2914,6 +3009,13 @@
       "religion": "北歐"
     }
   ],
+  "Fedelm": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
   "Filius": [
     {
       "slug": "vulgate-1-john",
@@ -3006,6 +3108,13 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    }
+  ],
+  "Fravaši": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     }
   ],
   "Frey": [
@@ -3205,6 +3314,13 @@
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
+    }
+  ],
+  "Glaucon": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Gnosis": [
@@ -3994,6 +4110,13 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "Hāvan": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     }
   ],
   "Iamblichus": [
@@ -5683,6 +5806,13 @@
       "religion": "佛教"
     }
   ],
+  "Manthra": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "Manu": [
     {
       "slug": "brahmanda-purana",
@@ -5848,6 +5978,13 @@
       "slug": "quran-pickthall",
       "name_zh": "古蘭經 (Pickthall 英譯)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Medb": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "Medea": [
@@ -6018,6 +6155,11 @@
     {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -6194,6 +6336,13 @@
     {
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    }
+  ],
+  "Māra": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],
@@ -7253,6 +7402,13 @@
       "religion": "印度教"
     }
   ],
+  "Piraeus": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Pistis Sophia": [
     {
       "slug": "gnostics-and-their-remains",
@@ -7334,6 +7490,13 @@
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
+    }
+  ],
+  "Polemarchus": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Popol Vuh": [
@@ -7965,6 +8128,13 @@
       "religion": "基督教"
     }
   ],
+  "Samain": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
   "Samantabhadra": [
     {
       "slug": "jain-aptamimamsa-sa",
@@ -8476,6 +8646,11 @@
   ],
   "Socrates": [
     {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
       "religion": "古希臘羅馬"
@@ -8505,6 +8680,13 @@
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Sophocles": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Spanish Conquest": [
@@ -8989,6 +9171,13 @@
       "slug": "kabbalah-unveiled",
       "name_zh": "卡巴拉揭示 (Mathers)",
       "religion": "猶太教"
+    }
+  ],
+  "Themistocles": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Theophilus": [
@@ -10130,12 +10319,22 @@
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     }
   ],
   "Yazata": [
     {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -10246,6 +10445,11 @@
     {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     }
   ],
@@ -10678,6 +10882,13 @@
       "religion": "佛教"
     }
   ],
+  "anusaya": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    }
+  ],
   "anussati": [
     {
       "slug": "sn11-sakka",
@@ -10896,10 +11107,22 @@
       "religion": "印度教"
     }
   ],
+  "bhagavayā": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "bhagavā": [
     {
       "slug": "an4-fours",
       "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],
@@ -10979,6 +11202,11 @@
     {
       "slug": "sn56-sacca",
       "name_zh": "SN56 諦相應 (131 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],
@@ -11076,6 +11304,13 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    }
+  ],
+  "bolga": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "brahma": [
@@ -12555,6 +12790,13 @@
       "religion": "印度教"
     }
   ],
+  "mahāvīra": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "man-being": [
     {
       "slug": "iroquois-cosmology",
@@ -12987,6 +13229,13 @@
       "religion": "基督教"
     }
   ],
+  "papañca": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
+    }
+  ],
   "papyrus": [
     {
       "slug": "egyptian-book-of-dead",
@@ -13083,6 +13332,13 @@
       "slug": "devi-gita",
       "name_zh": "女神之歌",
       "religion": "印度教"
+    }
+  ],
+  "parīsaha": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "passaddhi": [
@@ -13614,6 +13870,13 @@
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
+    }
+  ],
+  "ríastarthae": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
     }
   ],
   "rāja-yoga": [
@@ -14495,6 +14758,13 @@
       "religion": "佛教"
     }
   ],
+  "vinaya": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "viprā": [
     {
       "slug": "baudhayana-dharmasutra",
@@ -14887,6 +15157,13 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    }
+  ],
+  "Ātar": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     }
   ],
   "Ātman": [
@@ -17732,6 +18009,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "乞食": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "乾": [
     {
       "slug": "book-of-changes",
@@ -17758,6 +18042,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "二十二忍": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "二十五聖": [
@@ -17939,6 +18230,11 @@
     {
       "slug": "sn46-bojjhanga",
       "name_zh": "SN46 覺支相應 (184 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],
@@ -20825,6 +21121,13 @@
       "religion": "道教"
     }
   ],
+  "八支定": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "八正道": [
     {
       "slug": "sn45-magga",
@@ -21071,6 +21374,13 @@
       "slug": "majjhima-nikaya",
       "name_zh": "中部經典",
       "religion": "佛教"
+    }
+  ],
+  "凱法盧": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "凱爾特": [
@@ -23213,6 +23523,13 @@
       "religion": "佛教"
     }
   ],
+  "善思善言善行": [
+    {
+      "slug": "avesta-sbe31-ae",
+      "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    }
+  ],
   "善惡": [
     {
       "slug": "bible-3-john",
@@ -25251,6 +25568,20 @@
       "religion": "美洲"
     }
   ],
+  "奪牛長征記": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
+  "女先知": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
   "奴僕": [
     {
       "slug": "bible-philemon",
@@ -27092,6 +27423,13 @@
       "religion": "印加"
     }
   ],
+  "康諾特": [
+    {
+      "slug": "tain-bo-cuailnge-ga",
+      "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
   "廣長舌相": [
     {
       "slug": "amitabha-sutra",
@@ -27321,6 +27659,13 @@
       "slug": "vulgate-colossians",
       "name_zh": "歌羅西書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "彼岸": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
     }
   ],
   "彼得": [
@@ -27764,6 +28109,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
@@ -27774,6 +28124,13 @@
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
+    }
+  ],
+  "忍辱苦行篇": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "忒拜": [
@@ -27888,6 +28245,13 @@
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
+    }
+  ],
+  "性情": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "恢復者": [
@@ -28517,6 +28881,11 @@
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
     }
   ],
   "所多瑪": [
@@ -28957,6 +29326,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "kn-jataka",
@@ -31796,6 +32170,13 @@
       "religion": "佛教"
     }
   ],
+  "正法": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    }
+  ],
   "正理經": [
     {
       "slug": "nyaya-sutra",
@@ -32248,6 +32629,11 @@
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "madhyamagama",
@@ -33342,6 +33728,13 @@
       "religion": "道教"
     }
   ],
+  "火炬接力": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "火焰神": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -34212,6 +34605,13 @@
       "religion": "佛教"
     }
   ],
+  "玻勒馬霍斯": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "玻瑞阿斯": [
     {
       "slug": "plato-phaedrus-el",
@@ -34568,6 +34968,13 @@
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "癡迷": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
     }
   ],
   "登天 ascension": [
@@ -34927,6 +35334,13 @@
     {
       "slug": "sn22-khandha",
       "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    }
+  ],
+  "瞋恨": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],
@@ -36039,6 +36453,13 @@
       "religion": "基督教"
     }
   ],
+  "節慶": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "米勒公": [
     {
       "slug": "vulgate-zephaniah",
@@ -36910,6 +37331,13 @@
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
+    }
+  ],
+  "老年": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "老死": [
@@ -39430,6 +39858,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -39532,6 +39965,13 @@
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
+    }
+  ],
+  "蛇經": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
     }
   ],
   "蛙氏奧義書": [
@@ -40270,6 +40710,11 @@
   ],
   "調伏": [
     {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
@@ -40492,6 +40937,13 @@
       "religion": "儒教"
     }
   ],
+  "財富": [
+    {
+      "slug": "plato-republic-el",
+      "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "貧富": [
     {
       "slug": "bible-james",
@@ -40508,6 +40960,11 @@
     {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],
@@ -40945,6 +41402,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "迦葉": [
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "迦葉瞿曇": [
@@ -42228,6 +42692,11 @@
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-uttaradhyayana-pkt",
+      "name_zh": "後篇經（半摩揭陀原文）",
+      "religion": "耆那教"
     }
   ],
   "阿闥婆吠陀": [
@@ -42354,6 +42823,13 @@
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
+    }
+  ],
+  "隨眠": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
+      "religion": "佛教"
     }
   ],
   "隱基底": [
@@ -42533,6 +43009,13 @@
     {
       "slug": "sn35-salayatana",
       "name_zh": "SN35 六入相應 (248 經)",
+      "religion": "佛教"
+    }
+  ],
+  "雨神": [
+    {
+      "slug": "sutta-nipata",
+      "name_zh": "經集",
       "religion": "佛教"
     }
   ],

@@ -3,26 +3,26 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**442** / 518
-- 已標籤：**468** / 518
+- 已翻譯：**447** / 518
+- 已標籤：**473** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 158 | 159 |
-| 佛教 | 74 | 53 | 64 |
+| 佛教 | 74 | 54 | 65 |
 | 印度教 | 58 | 44 | 44 |
-| 古希臘羅馬 | 46 | 38 | 38 |
+| 古希臘羅馬 | 46 | 39 | 39 |
 | 猶太教 | 45 | 39 | 42 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 12 | 12 |
-| 瑣羅亞斯德 | 11 | 9 | 9 |
+| 瑣羅亞斯德 | 11 | 10 | 10 |
 | 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
-| 凱爾特 | 9 | 7 | 7 |
+| 凱爾特 | 9 | 8 | 8 |
 | 古埃及 | 8 | 8 | 8 |
-| 耆那教 | 7 | 6 | 6 |
+| 耆那教 | 7 | 7 | 7 |
 | 諾斯底 | 6 | 6 | 5 |
 | 現代新興 | 5 | 4 | 3 |
 | 神道 | 5 | 5 | 5 |
@@ -319,7 +319,7 @@
 - `sn7-brahmana` SN7 婆羅門相應（Pali）譯✓ 標✓
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯✓ 標✓
 - `sn9-vana` SN9 林相應（Pali）譯✓ 標✓
-- `sutta-nipata` 經集（Pali）譯– 標–
+- `sutta-nipata` 經集（Pali）譯✓ 標✓
 - `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯– 標✓
 - `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯– 標✓
 - `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
@@ -420,7 +420,7 @@
 - `plato-phaedo-el` 斐多篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-phaedrus-el` 斐德羅篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-protagoras-el` 普羅塔哥拉篇（希臘原文）（Ancient Greek）譯✓ 標✓
-- `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯– 標–
+- `plato-republic-el` 理想國（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-symposium-el` 會飲篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-timaeus-el` 蒂邁歐篇（希臘原文）（Ancient Greek）譯✓ 標✓
 - `plato-works` 柏拉圖對話集 (sacred-texts 選)（English (translation)）譯✓ 標✓
@@ -528,7 +528,7 @@
 - `avesta-sbe23` 阿維斯塔 SBE 23 (Yasht)（English (19c. translation)）譯✓ 標✓
 - `avesta-sbe23-ae` 耶什特讚歌集（阿維斯塔原文）（阿維斯塔語）譯– 標–
 - `avesta-sbe31` 阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)（English (19c. translation)）譯✓ 標✓
-- `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯– 標–
+- `avesta-sbe31-ae` 亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）（阿維斯塔語）譯✓ 標✓
 - `bundahishn` Bundahishn + Bahman Yasht + Shayast la-Shayast（English (19c. translation)）譯✓ 標✓
 - `dadestan-i-denig` Dadestan-i Denig (宗教裁判)（English (19c. translation)）譯✓ 標✓
 - `denkard-3-bahman-yasht` Pahlavi Texts Part III（English (19c. translation)）譯✓ 標✓
@@ -572,7 +572,7 @@
 - `mabinogion-cy-1` 馬比諾吉昂 第一卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-cy-2` 馬比諾吉昂 第二卷（威爾斯原文）（威爾斯）譯✓ 標✓
 - `mabinogion-st` Mabinogion 馬比諾吉昂 (Welsh)（English (translation)）譯✓ 標✓
-- `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯– 標–
+- `tain-bo-cuailnge-ga` 奪牛長征記（古愛爾蘭語原文，兩傳本）（古愛爾蘭語）譯✓ 標✓
 
 ### 古埃及（8 部）
 
@@ -593,7 +593,7 @@
 - `jain-sbe22` 耆那經典 SBE 22 (Acaranga + Kalpa)（English (Jacobi 19c translation)）譯✓ 標✓
 - `jain-sbe45` 耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)（English (Jacobi 19c translation)）譯✓ 標✓
 - `jain-sutrakrtanga-pkt` 修多羅經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
-- `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯– 標–
+- `jain-uttaradhyayana-pkt` 後篇經（半摩揭陀原文）（半摩揭陀俗語）譯✓ 標✓
 
 ### 諾斯底（6 部）
 
