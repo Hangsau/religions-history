@@ -31,18 +31,30 @@
 注意：`--unblock` 指令會被執行中管線的 run lock 擋下（`[locked]`），管線在跑時改用
 `pipeline_failures.unblock(slug, Path("translations"))`，它只拿 failed-state 自己的鎖。
 
+### 同日下午續做
+
+- `77f90160` 續跑時 checkpoint 中已完成但含污染的段落改為重譯（an9-nines 試點就是沿用了舊污染段）；
+  3 個 mock `_run_claude` 的舊測試改對 `_run_api`
+- `85f8c302` 清理 49 部已入庫譯文：`clean-contamination.py` 新增整段比對回吐 prompt 尾段（原逐段規則被範例裡的
+  `# 標題`／`=== 1 | ... ===` 保護而只切一半）、寫檔改 LF；`contamination.py` 補樣式（含 think tag）；
+  sutta-nipata、chronicles-2、egyptian-book-of-dead、kitab-i-iqan-ighan 的英文思考過程手動切除。全庫 0 命中
+- `749e1b06` max_tokens 截斷改同段重問 3 次（mahabharata 4 次失敗各在不同段，偶發失控長輸出）
+- `4cfd4e46` **修 `d34a98d5` 引入的 supervise-pipeline.py 語法錯誤**——該 commit 之後新起的 supervisor 一啟動就
+  SyntaxError、無 log；加 `tests/test_scripts_compile.py` 編譯全部腳本
+- 用 HALT 讓舊程式行程在 garuda-purana 後安全退出，再 unblock 全部 40 部 blocked（35 contaminated_output、
+  4 invalid_output、mahabharata）、清掉 sibylline-oracles-el／huangdi-neijing 殘留紀錄。17:49 刊版以新程式
+  拉起管線：核心 468/518 完成，本輪 50 部，由 sutta-nipata 開始（第 4 段污染段已確認重譯）
+
+更正：先前說 `pipeline-failed.json` 的 tier 存成亂碼——錯，檔內是「核心」，亂碼是讀取時未設 UTF-8 輸出所致。
+
 ### 下次接手
 
-1. 看試點：`mimamsa-sutra-jaimini`、`an9-nines` 翻譯若乾淨通過 → unblock 其餘 35 部 contaminated_output
-2. 看 `logs/tag-parse-failures/` 有沒有檔案；有就讀原始回覆判斷 M3 為何吐壞 JSON
-3. **46 部已入庫譯文含模型回吐的 prompt 段落**（`PYTHONIOENCODING=utf-8 python scripts/verify.py --contamination`
-   可列出；最多 sutta-nipata 9 處、plotinus-enneads 7、yucatan 7、mahabharata-ganguli 6）。常伴隨
-   該段內容重複一次，`clean-contamination.py` 只切段落、不處理重複，需另訂清理方式（重譯該 chunk 較乾淨）
-4. `verify.py --all` 有 FAIL：samaveda、sutta-nipata 等含 failed chunk placeholder（皆 blocked 舊書，非本次造成）
-5. `tests/test_translate_checkpoint.py` 3 個測試還在 mock 已移除的 `_run_claude`（9-23 改 API 時遺留），需改寫
-6. `pipeline-failed.json` 的 `tier` 欄位存成亂碼 `�֤�`，因讀寫兩端一致不影響比對；sibylline-oracles-el、
-   huangdi-neijing 兩筆 retryable 是早已完成的殘留紀錄
-7. 其餘 4 部 invalid_output、mahabharata 截斷未處理
+1. 看本輪 50 部結果：`logs/pipeline-failed.json` 有沒有新 blocked；`logs/tag-parse-failures/` 的壞回覆樣本
+2. 4 部 invalid_output（avesta-sbe31-ae、quran、plato-republic-el、augustine-confessiones-la）失敗都在
+   7–8 月 `claude -p` 時期，本輪若再失敗才需要查
+3. 已清理的譯文在回吐處常有同段內容重複、或書名標題區塊在書中間再出現（如 josephus-works），未去重
+4. `verify.py --all` 的 failed chunk placeholder 屬 blocked 舊書，本輪重譯完成後應消失，屆時再跑一次確認
+5. 本檔 368 KB，Read 讀不完，2026-09 以前快照可切到 `HANDOFF-archive-2026-09.md`
 
 ---
 
