@@ -526,8 +526,6 @@ ajyate darśanādinām anyena punar anyadā //
 // MMK_12.8 //
 自作之苦非是，彼非由彼自作；他若非自作，苦云何他作？
 
-我是翻譯子任務（m3 executor），按 `m3-translator-role.md` 規則禁止 git 操作；本段 markdown 已 stdout 輸出交給主控腳本，由 orchestrator 接管寫檔、commit、push、HANDOFF 更新流程。
-
 轉 /
 離心則果不生，相續亦不轉 // MMK_17.9 //
 

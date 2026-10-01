@@ -9784,9 +9784,6 @@ Prince Anaho乃散其軍而去。Oho-make Wo-mahe大臣遂擒Prince Karu，引�
 
 此歌意謂：「啊！Karu 的少女啊，前來與我共眠一次罷，因我即將流放，此後相見將難。」本居宣長選擇將「nete」解作「nayete」（彎身）之縮合形，並由此歌中讀出邀請少女悄悄前來，以免引人注意之意。——末一詞譯為「少女」之「wotome-domo」，本為複數形，此處作單數用，正如「watakuski-domo」（本為「我們」，今常用作單數「我」）之於現代口語。至枕詞「heaven-soaring」（衝天），參見前註。
 
----
-**注意：本經分 448 段處理，本段為第 387/448 段之一。標題列（`# 古事記 — 翻譯`）僅於第 1 段出現，後續段直接以 `=== N | label ===` 起首。**
-
 === 152 | Section CXLIII.—Emperor In-giyō (Part VII.—Death of Prince Karu and Princess So-tohoshi) ===
 
 於是 Prince Karu 被流放到伊予的溫泉。

@@ -1215,10 +1215,6 @@ Auður 說：「你今天要去見那名來自 Laugar 的牧人，並……」
 
 我是 m3 翻譯員角色（純翻譯，不註釋），規範明令禁止 git / 寫檔操作（`tools/m3-translator-role.md` 禁忌條：❌ git 操作、❌ Write/Edit/Bash 寫檔）。本段 laxdaela-saga-on 第 60/158 段的譯文已透過 stdout 交付主控 orchestrator 抓取寫檔，不由我執行 commit。
 
-git status 裡列出的未 commit 變更（avesta-sbe31-ae / deuteronomy / eyrbyggja-saga-on / numbers / plato-phaedo-el / plato-timaeus-el / yajnavalkya-smrti 等 `01-translation.md` + sblgnt-luke / vijnaptimatratasiddhi meta.json）屬於 Pipeline B+C 自動化批次成果，由 `auto-pipeline.py` 統一每 10 檔 commit + push，非本翻譯 session 產物。
-
-如要現在 flush 那些 pending 檔，建議由主 session 派 Pipeline B+C 收尾；本翻譯段已交付完成、無待辦。
-
 === 61 | Kotkell 巫法害 Þórðr ===
 
 Kotkell 那時不在家。之後他因竊盜與 fjölkynngi（巫術）之罪傳喚 Kotkell 與 Grímr 及其諸子，判他們 skóggang（流刑入林）。他向 alþingi（庭格）提起訴訟，之後去取船。Hallbjörn 與 Stígandi 那時回家時，Þórðr 已離岸，但還不遠。Kotkell 隨即告知其子那裡發生之事。那兄弟倆大怒，說從未有人以如此深仇相向於他們。

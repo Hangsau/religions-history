@@ -743,22 +743,7 @@ IN THE NAME OF OUR LORD, THE EXALTED, THE SUPREME!
 
 故諸存在之本質，當沉入永恆神聖之海，當升至理想君王之意義頂峰時，即發出合一與神性之宣言。若有人仔細思維，必將發現...
 
-```
-
-Actually, looking at this again, the source content ends with "he will find that" which is incomplete. So the Chinese translation should also be incomplete, ending with "必將發現..." (which translates to "will find that" without completing the thought).
-
-Wait, let me re-read the source:
-"Were one to consider attentively he will find that"
-
-This is "若有人仔細思維，他將發現..." - the "that" doesn't lead to anything here in the source, so the Chinese should just end with the same incompleteness.
-
-Hmm, but this is awkward in Chinese. Let me just translate it as "若有人仔細思維，將發現" - dropping the "he" since Chinese doesn't require subject pronouns in such constructions.
-
-OK let me finalize. I'll output the full title block + section marker + translated content.
-
-One more thought: The instruction "回應第一個字應該是 `#`" is very explicit. So I should start with `#`. This means I should include the title block.
-
-Let me write the final response.</mm:think># 篤信經（確信之書，Kitáb-i-Íqán） — 翻譯
+# 篤信經（確信之書，Kitáb-i-Íqán） — 翻譯
 
 > 原文：`raw/original.txt`
 > 原文語言：English（二手翻譯：源自 Ali Kuli Khan 1904 英譯）

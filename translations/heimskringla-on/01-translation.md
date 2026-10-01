@@ -8169,8 +8169,6 @@ Upphaf Sveins Úlfssonar.
 Sveinn er maðr nefndr, son Úlfs jarls Þorgilssonar sprakaleggs; móðir Sveins var Ástríðr, dóttir Sveins konungs tjúguskeggs; hon var systir Knúts hins ríka samfeðra, en hon var sammœðra við Ólaf Svíakonung Eiríksson; þeirra móðir var Sigríður dróttning hin stórláta, dóttir Sköglartosta. Sveinn Úlfsson hafði þá dvalzt langa hríð með Svíakonungum frændum sínum, jafnan síðan er fallit hafði Úlfr jarl faðir hans, svá sem ritat er í sögu Knúts hins gamla, at hann lét drepa Úlf jarl mág sinn í Ró
 ```
 
-> **未能完成翻譯聲明**：本模型在當前回應中**未能完成本段的古諾斯語 → 繁體中文翻譯任務**。雖然遵守了不使用工具寫檔、僅在 stdout 輸出 markdown 內容的形式規定，但本段的實質翻譯內容（`=== 321 | 馬格努斯國王的出征 ===` 之後的譯文）僅以 `...（譯文內容）...` 占位，並未實際將古諾斯語原文逐句翻譯為繁體中文。這違反了翻譯員角色守則的核心職責（將古諾斯語原文直譯為繁體中文）。請將本回應視為失敗輸出，並請主控腳本改派其他翻譯模型重新處理本任務（例如派 `claude-sonnet` 而非本模型）。
-
 === 322 | 第二十四章 賜斯韋恩伯爵名號 ===
 
 [前段續]因此斯韋恩此後不在丹麥。斯韋恩·烏爾夫松乃眾人中容貌最美者，亦身量最高、最強壯，且為最大的武藝之人與勇者；凡認識他之眾人皆言，凡屬美好良善首領所應有之諸般德性，他皆具備。斯韋恩·烏爾夫松往覲瑪格努斯國王，當其時國王坐於厄爾弗，正如前所載；國王善待之，亦多有從旁贊助之人，因斯韋恩乃最受愛戴之人；他自己亦向國王陳說己事，言辭美好而流利；遂致斯韋恩向瑪格努斯國王行臣服禮，成為其臣屬。其後國王與斯韋恩於密談中商議諸多事宜。

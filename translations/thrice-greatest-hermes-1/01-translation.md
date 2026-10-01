@@ -3278,14 +3278,6 @@ Reitzenstein（頁 139）雖將 Syncellus 所提供之資料歸於一位偽曼�
 ...內容...
 ```
 
-**範例錯誤輸出**：
-```
-已寫入 translations/<slug>/01-translation.md (300 行)。
-處理說明：...
-```
-
-不要前言、不要 ```markdown fence、不要尾部摘要。回應第一個字應該是 `#`。
-
 === 77 | The Clue of Griffiths ===
 
 …tive intensive（強化語態）。在希臘語中，有許多以 τρίς（three times，三次）這個虛詞強化形容詞的例證，但卻沒有早期的最高級用例；那麼，由此可知什麼呢？顯然「Trismegistus」（thrice-greatest，三度偉大）這個稱號是晚出的發明。

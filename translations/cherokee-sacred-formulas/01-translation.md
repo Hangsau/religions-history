@@ -360,7 +360,7 @@ s only a small portion of this was copied by the owners it can not be duplicated
 
 幾乎可以說，他一生的每一個舉動，都受到其宗教信仰的規範與決定。有人或許會將其稱為迷信，這並不重要。其間差別只是相對的。今日的宗教乃是從更粗糙的迷信發展而來——
 
-=== 18 | ===</mm:think>
+=== 18 | ===
 
 === 12 | The Origin of Disease and Medicine ===
 

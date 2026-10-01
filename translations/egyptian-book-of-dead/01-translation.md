@@ -376,15 +376,7 @@ Maspero 先生繼續在 Sakkâra（薩卡拉）發掘，開啟了 Teta[1] 的金
 
 不僅於烏納斯（Unas）與泰塔（Teta）之金字塔中，亦於佩皮一世（Pepi I.）及其直接繼承者之金字塔中，皆見所選錄之段落；此事提示《死者之書》在彼早期已篇幅浩繁，以致即使是國王，亦僅得從中選取合乎其個人偏好，或被視為足以確保其來世福祉之若干段落。於泰塔、佩皮一世、美倫拉（Mer-en-Ra）及佩皮二世之金字塔中，見許多文本與其前輩所用者完全相同；檢視佩皮二世之銘文可知，其全篇約四分之三可於其祖先之碑石中尋得。各王選錄之原則為何 […]
 
-`, then the actual response.
-
-For this task, the actual response is just the translation markdown. Let me prepare that.
-
-One more check: the user said "你只是內容產生器，不是 agent" - so I should NOT use any tools. Just output the markdown.
-
-Let me also note: the system reminder about skills and agents is just context. The actual task at the end is the translation task. I should focus on that.
-
-OK, submitting the translation now.=== 19 | Historical reference | ===
+=== 19 | Historical reference | ===
 
 其文本之蒐集，或每部中新增之內容是否代表宗教發展，皆無法斷言；但埃及宗教不可能在每一細節上皆維持不變，故某些文本反映了祭司們於教義問題上意見之變遷，乃屬可能。
 
@@ -6871,8 +6863,6 @@ Hesep-ti 稱：「此章發現於 hennu（亨努船）下方地基之中，由�
 + El-Assasif，即 Asasîf el-bahrîyeh，又稱 Asasif of the north，在 Dêr el-baharî 之後，尼羅河西岸，對岸即底比斯。
 
 ---
-
-**摘要（給 Claude Code 用戶，主控腳本可有可無）**：本段僅 239/345，未寫檔。Segment 240–345 需由 pipeline 接力；若用戶希望我直接接力生成全 345 段並落地 `01-translation.md`，請明確告知（會偏離 HANDOFF 既定「pipeline 接力」決策，且翻譯量大需多視窗或分批派工）。
 
 # 古埃及死者之書 — 翻譯
 

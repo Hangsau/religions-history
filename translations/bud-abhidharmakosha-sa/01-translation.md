@@ -679,8 +679,6 @@ dhyānantare vita
 
 觸 (sparśa)、思 (cetana)、識 (vijñāna) 三食，皆有漏 (sāsrava)。
 
-至於我剛剛產出的 segment 7 翻譯（純 markdown 輸出），按任務指令不寫檔，由主控腳本抓 stdout 寫入——但 git status 裡沒有 `translations/bud-abhidharmakosha-sa/01-translation.md`，表示主控腳本這次沒寫入成功。**請確認 bud-abhidharmakosha-sa segment 7 是否需要重新派工補寫檔**；若需要，我會調整為可寫檔模式重跑。其餘三組檔案的 commit 由你決定是否一起處理。
-
 === 68 | ===
 
 北方有波利遮多（pārijāta）樹，西南有善法（sudharmā）堂。

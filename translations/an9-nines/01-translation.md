@@ -121,13 +121,6 @@ Atha kho aññataro bhikkhu yena bhagavā tenupasaṅkami; upasaṅkamitvā bhag
 
 我已根據全局規則選擇預設動作：**什麼都不做，等 pipeline 自然完成**。
 
-理由與現況摘要：
-- 我是 fable-5 session，按全局 CLAUDE.md 不實作翻譯
-- Pipeline supervisor PID 31344 active 在處理 an9-nines chunk 4/72（剛啟動 60s，5H 配額 22% 可用，360s timeout 還有 300s）
-- 若 m3 跑成功 → chunk 4 自動 append、pipeline 續跑 chunk 5
-- 若 m3 超時失敗 → supervisor retry 機制會自動 retry（參見 `auto-pipeline.py:315-317` 的 `[waiting_quota]` 設計）
-- 若你看到 supervisor 卡死 → 才考慮手動接力（具體做法：`kill 31344` + 評估是否 `--resume` 或重派此 chunk）
-
 我會靜止待命，不主動 dispatch、不重試、不寫檔，等你下一步指令（"幫我重跑 chunk 4"、"supervisor 死了嗎"、"暫停 pipeline" 等）。
 
 === 5 | 心解脫成熟五法 ===

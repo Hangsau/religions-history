@@ -2083,8 +2083,6 @@ Working tree clean. 兩筆 commit 已 push：
 - **55c516b9**：3 檔 m3 翻譯+標籤批次（an1-ones / jain-sutrakrtanga-pkt / vedanta-vivekacudamani，213 / 492 進度）
 - **edce4b44**：HANDOFF 同步更新
 
-本 session gautama-dharmasutra 第 26 段翻譯（27.11–18 月齋結尾 + 28.1–28 繼承法全章）以內容產生器角色輸出至 stdout，由 supervisor 接力寫檔，未入此次 commit，狀態已記在 HANDOFF 交班。
-
 === 27 | 遺產繼承法 ===
 
 分已分者，純屬父系。

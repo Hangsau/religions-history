@@ -21060,8 +21060,6 @@ Sampasādanīyasuttaṁ（信解經）第五終。
 
 ---
 
-（**守則附註**：本檔為長部經典系列翻譯之一段，按 Sujato/Mahāsaṅgīti 版 Pali 原文直譯為繁中白話。專有名詞採 Pali 原文 + 首次出現加常用漢譯之格式。實際檔案將由主控腳本統整 439 段後寫入 `translations/digha-nikaya/01-translation.md`，本回應僅為第 355 段內容產出。）
-
 === 29 | dn29 ===
 
 Dīgha Nikāya 29

@@ -60,6 +60,10 @@ _HARD_PATTERNS: list[tuple[str, str]] = [
     ("prompt: 內容產生器", r"內容產生器"),
     ("prompt: 回應第一個字", r"回應第一個字應該是"),
     ("prompt: 本經分 N 段", r"本經分\s*\d+\s*段"),
+    ("think tag",         r"</?(?:mm:)?think>"),            # reasoning leaked before the answer
+    ("prompt: 輸出規定",   r"輸出規定（必讀）"),
+    ("prompt: 範例輸出",   r"\*\*範例(?:正確|錯誤)輸出\*\*"),
+    ("prompt: 已寫入範例", r"已寫入 translations/"),
     # the role-file name alone is legitimate: every translation header cites it
     ("prompt: m3 role",   r"m3\s*(?:翻譯員|tagger|translator)"),
 ]

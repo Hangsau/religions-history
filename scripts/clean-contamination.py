@@ -84,6 +84,37 @@ def find_block(lines: list[str], match_lineno: int) -> tuple[int, int]:
     return start, end
 
 
+# Our own prompt tail echoed back verbatim: excise from its first line to the
+# "回應第一個字應該是 `#`" line in one span. It contains an example `# title` and
+# `=== 1 | ... ===`, so the paragraph rule's structure guard would otherwise skip it.
+TEMPLATE_START = re.compile(r"本經分\s*\d+\s*段處理|輸出規定（必讀）|你只是\*\*內容產生器\*\*")
+TEMPLATE_END = re.compile(r"回應第一個字應該是 `#`")
+TEMPLATE_MAX_LINES = 45
+
+
+def find_template_ranges(lines: list[str]) -> list[tuple[int, int]]:
+    """0-based inclusive spans of echoed prompt tail, widened over a leading `---`."""
+    ranges: list[tuple[int, int]] = []
+    i = 0
+    while i < len(lines):
+        if TEMPLATE_START.search(lines[i]):
+            end = next((j for j in range(i, min(i + TEMPLATE_MAX_LINES, len(lines)))
+                        if TEMPLATE_END.search(lines[j])), None)
+            if end is not None:
+                start = i
+                while start > 0 and (not lines[start - 1].strip() or lines[start - 1].strip() == "---"):
+                    start -= 1
+                if start < i and not lines[start].strip():
+                    start += 1  # keep one blank line between the surrounding paragraphs
+                while end + 1 < len(lines) and not lines[end + 1].strip():
+                    end += 1
+                ranges.append((start, end))
+                i = end + 1
+                continue
+        i += 1
+    return ranges
+
+
 def find_excision_ranges(lines: list[str], contamination_matches) -> tuple[list[tuple[int,int]], list[dict]]:
     """Return (excision_ranges, skipped_blocks).
 
@@ -94,8 +125,11 @@ def find_excision_ranges(lines: list[str], contamination_matches) -> tuple[list[
     # Group matches by block; use block_start as key
     block_matches: dict[int, list] = {}  # block_start -> list of matches
     skipped: list[dict] = []
+    template_ranges = find_template_ranges(lines)
 
     for m in contamination_matches:
+        if any(a <= m.line_no - 1 <= b for a, b in template_ranges):
+            continue
         block_start, block_end = find_block(lines, m.line_no)
 
         # Check safety guards
@@ -126,6 +160,7 @@ def find_excision_ranges(lines: list[str], contamination_matches) -> tuple[list[
         excision_ranges.append((block_start, trail_end))
 
     # Merge overlapping/adjacent ranges
+    excision_ranges.extend(template_ranges)
     excision_ranges.sort()
     merged: list[tuple[int,int]] = []
     for start, end in excision_ranges:
@@ -248,7 +283,7 @@ def process_file(translation_file: Path, apply: bool, verbose: bool = True) -> d
 
         # Atomic write
         tmp = translation_file.with_suffix(".tmp")
-        tmp.write_text(cleaned_text, encoding="utf-8")
+        tmp.write_text(cleaned_text, encoding="utf-8", newline="\n")
         shutil.move(str(tmp), str(translation_file))
 
         # Completeness check on cleaned file

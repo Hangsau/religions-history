@@ -5971,8 +5971,6 @@ Agni 給予虔信者寶物與善勇，給予奉獻之人
 
 【1545】保佑免於一切 rakṣas、免於敵意者，於我等之競賽中前來保佑；我等緊靠於你，最接近者，為求神恩而願靠近以獲繁榮。
 
-Samaveda 第 61 段翻譯已交付 stdout（26 條 mantra，含 Pavamana 主題之 Agni/Vāyu 讚頌）→ 等主控腳本接住寫入 `translations/samaveda/01-translation.md`。
-
 === 62 | 第七書 第三段 ===
 
 在水中，他確實安立了足跡；

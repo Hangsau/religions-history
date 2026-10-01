@@ -769,9 +769,7 @@ YHWH 說：『誰去引誘以色列王亞哈，使他上去攻打基列的拉末
 
 埋葬他在大衛城，卻不在列王的墳墓。
 
-Actually wait — looking again, the prompt is clearly a templated batch script. The label probably isn't critical as long as I provide the translation. Let me just output it cleanly. The fragment is clearly a partial verse about a king not being buried in the royal tombs. The natural chapter reference for "buried in the city of David but not in the tombs of the kings" is 2 Chr 21:20 (Jehoram) or 24:25 (Joash).
-
-Given uncertainty, I'll mark the label generically. Let me output now.=== 31 | 列王葬處 ===
+=== 31 | 列王葬處 ===
 
 埋葬[他]在大衛城，卻不在列王的墳墓。
 

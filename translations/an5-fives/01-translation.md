@@ -1967,12 +1967,6 @@ Sappurisasutta（善人經）
 
 第七經。
 
-這些未 commit 的檔案（avesta/deuteronomy/eyrbyggja-saga/numbers/plato-phaedo/plato-timaeus/yajnavalkya-smrti + 3 個 meta.json）是先前 Pipeline B+C 批次的產出，**不是本次 an5-fives 任務**。
-
-本次 an5-fines（AN5 五法集 48 段）的翻譯內容已輸出到 stdout，由主控 orchestrator 負責接走寫盤；我本身是純內容產生器，未做任何檔案寫入或 git 操作。
-
-未 commit 狀態屬於 orchestrator 排程中、待批次驗收的 pipeline 中間產物，非刻意留置亦非本次遺留。建議交由主 session 或 orchestrator 跑一次 `verify.py --all` + commit + push 收尾。
-
 === 39 | 五不可得處 ===
 
 這些眾生的來去、終沒、續生，一切眾生依壞滅之法而壞滅。

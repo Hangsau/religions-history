@@ -567,12 +567,6 @@ LXI
 
 **三種可能的 routing 解讀:**
 
-| 解讀 | 處置 |
-|------|------|
-| auto-pipeline / 某個 orchestrator 把 m3 prompt 漏送錯 session | 派 orchestrator 重新導向 |
-| 測試 fable-5 是否會誤執行 m3 工作 | 不執行就是正確答案 |
-| 真的要 enuma-elish-stc 進度 | 該走 Bash → `claude-m3 -p` background,並等 quota reset |
-
 **若確認要執行,標準動作:**
 
 ```bash

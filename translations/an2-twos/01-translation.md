@@ -752,8 +752,6 @@ Bālavaggo（愚者品）第三。
 
 等心品第四。
 
-我這輪的角色是 m3 翻譯員（per `tools/m3-translator-role.md`），任務規定明確禁止使用任何寫檔 / git / bash 工具——輸出 markdown 文字到 stdout 即可，由主控腳本抓 stdout 寫入檔案。所以我**沒有也無法**在這輪觸碰 working tree。
-
 === 45 | 聖眾 ===
 
 …這些 bhikkhū（比丘）如實了知「這是苦」、如實了知「這是苦集」、如實了知「這是苦滅」、如實了知「這是趣向苦滅之道」。

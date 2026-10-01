@@ -1255,8 +1255,6 @@ Pañcamaṁ.（第五。）
 
 **verify.py --slug corpus-hermeticum-el：PASS**
 
-**sn45-magga 進度**：本 session m3 chunk 內容產生器翻譯已完成第 23/46 段（`sn45.96` 第六 傾向東方經 + `sn45.97` 第一 傾向大海經，verbatim 三喻對句「傾向 / 趣向 / 傾注於」），輸出至 stdout。依 SOP「一份完整 46 段 chunking 才入庫」，`sn45-magga/01-translation.md` 待 supervisor 接力剩餘 23 段聚合後才入庫，下次接手對照 `logs/supervisor-run.log` chunk 進度。
-
 === 66 | sn45.98-102 ===
 
 「比丘們！猶如恆河向海、趣海、傾於海；

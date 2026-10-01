@@ -1742,12 +1742,6 @@
 
 狀態確認：未提交變動是 **cicero-de-natura-deorum-la 的 mid-iteration 接力工作**（從最近 commit message「cicero-de-natura-deorum-la mid-iteration 接力」可知是刻意留置），不是我剛才的工作造成的。
 
-我剛才的 sblgnt-luke 第 48/54 段翻譯**只輸出到 stdout**（per role rule：「絕對禁止使用 Write/Edit/Bash 寫檔」「唯一動作：直接輸出完整 markdown 內容」），由主控腳本負責接 stdout 寫入 `translations/sblgnt-luke/01-translation.md`。從 `ls` 看，sblgnt-luke/ 底下還沒有 01-translation.md —— 表示主控腳本未把這段寫入（或會在後續 cycle 處理）。
-
-所以這是**預期的 mid-iteration 狀態**，不是遺留 bug：
-- cicero 的三個改動 → 等下次接力 session 繼續
-- sblgnt-luke 第 48 段翻譯 → 在 stdout 已產出，等主控腳本捕獲
-
 正常結束，不 commit。
 
 === 49 | 橄欖山禱告、被捕與彼得不認主 ===

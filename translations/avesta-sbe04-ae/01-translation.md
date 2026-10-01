@@ -2500,8 +2500,6 @@ Zarathushtra 問 Ahura Mazda：
 
 阿胡拉·瑪茲達言：當誦此偈歌（gâthâhva）之言辭……
 
-這是純翻譯任務，沒有任何檔案寫入或 git 操作——按 `m3-translator-role.md` 守則我被明確禁止使用 Write/Edit/Bash/git 工具，stdout 文字由主控腳本接收寫入 `01-translation.md`。
-
 我已完成 Visperad 9.46 續 → 9.47–9.57 + Visperad 10.1–10.2 的翻譯輸出（第 32/56 段），無需 commit/push/HANDOFF 更新。
 
 === 33 | 二、三、四言驅邪頌 ===

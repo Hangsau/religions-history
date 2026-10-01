@@ -1991,8 +1991,6 @@ Saṁyogasutta（結合頌）
 然而作是念：『我能熟食，彼等不能，我不應能熟食而不施與不能者』而施……乃至……
 又不作是念：『我能熟食，彼等不能，我不應能熟食而不施與不能者』而施；
 
-備註：先前 turn 的 AN7 七法集 §39 Pali 翻譯回應為 M3 translator 角色的內容產生器輸出（stdout-only，禁寫檔），實際接力由 supervisor / 下一個 m3 chunk worker 處理寫入 `01-translation.md`；本次收尾只涵蓋已實際落地的 pipeline 狀態變更。
-
 === 53 | an7.53 ===
 
 《Aṅguttara Nikāya（增支部）》7.53  
