@@ -57,6 +57,8 @@ MINIMAX_TOKEN_PATH = Path.home() / ".minimax-token"  # 月費 M3，唯一翻譯�
 RUNTIME_STATE_PATH = ROOT / "logs" / "pipeline-runtime.json"
 CHECKPOINT_ROOT = ROOT / "logs" / "pipeline-checkpoints"
 METRICS_PATH = ROOT / "logs" / "pipeline-metrics.jsonl"
+TAG_PARSE_FAILURE_DIR = ROOT / "logs" / "tag-parse-failures"
+TAG_PARSE_ATTEMPTS = 3  # one bad reply in a 1,000-chunk book must not fail the whole book
 TZ = timezone(timedelta(hours=8))
 CHECKPOINT_SCHEMA_VERSION = 1
 CHUNKING_VERSION = 1
@@ -957,19 +959,53 @@ def build_tag_prompt(slug: str, meta: dict, text: str, whitelist: set[str],
 
 
 def parse_tag_json(output: str) -> dict | None:
-    """Extract first {...} JSON object from M3 output."""
-    output = output.strip()
+    """Extract the first decodable {...} JSON object from M3 output.
+
+    raw_decode from each '{' tolerates prose or a second object after the JSON,
+    which a first-'{'-to-last-'}' slice turns into a decode error.
+    """
+    decoder = json.JSONDecoder()
     start = output.find("{")
-    end = output.rfind("}")
-    if start < 0 or end <= start:
-        return None
-    try:
-        obj = json.loads(output[start:end + 1])
-    except json.JSONDecodeError:
-        return None
-    if not isinstance(obj, dict):
-        return None
-    return obj
+    while start >= 0:
+        try:
+            obj, _ = decoder.raw_decode(output, start)
+        except json.JSONDecodeError:
+            start = output.find("{", start + 1)
+            continue
+        if isinstance(obj, dict):
+            return obj
+        start = output.find("{", start + 1)
+    return None
+
+
+def _dump_tag_parse_failure(slug: str, chunk: int | None, attempt: int, output: str) -> None:
+    """Keep the raw reply so an unparseable tag chunk can be diagnosed later."""
+    path = TAG_PARSE_FAILURE_DIR / f"{slug}-chunk{chunk or 0:04d}-try{attempt}.txt"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    _atomic_write_text(path, output)
+
+
+def _call_tag_json(prompt: str, slug: str, input_chars: int,
+                   chunk: int | None, chunks_total: int | None,
+                   role: str, dry_run: bool) -> tuple[str, dict | None]:
+    """Ask for one chunk's tags, re-asking when the reply is not parseable JSON.
+
+    Returns ("call_failed", None) when the transport failed (failure already recorded),
+    ("dry_run", None) in dry-run, ("invalid", None) after TAG_PARSE_ATTEMPTS bad replies,
+    or ("ok", obj).
+    """
+    for attempt in range(1, TAG_PARSE_ATTEMPTS + 1):
+        output = _call_m3_measured(prompt, slug, "tag", input_chars, chunk, chunks_total,
+                                   dry_run=dry_run, system=role)
+        if output is None:
+            return ("dry_run" if dry_run else "call_failed"), None
+        obj = parse_tag_json(output)
+        if obj is not None:
+            return "ok", obj
+        _dump_tag_parse_failure(slug, chunk, attempt, output)
+        print(f"    [warn] {slug} (tag) chunk {chunk}: unparseable JSON, "
+              f"attempt {attempt}/{TAG_PARSE_ATTEMPTS}")
+    return "invalid", None
 
 
 def merge_meta_tags(slug: str, semantic_tags: list[str], psych_tags: list[str],
@@ -1037,10 +1073,9 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         print(f"  [start] {slug} (tag)  (prompt {len(prompt)} chars)")
         if not dry_run:
             set_current_work(slug, "tag")
-        output = _call_m3_measured(prompt, slug, "tag", len(text), dry_run=dry_run, system=role)
-        if output is None or dry_run:
+        result, obj = _call_tag_json(prompt, slug, len(text), None, None, role, dry_run)
+        if result in ("dry_run", "call_failed"):
             return dry_run
-        obj = parse_tag_json(output)
         if obj is None:
             _set_failure("invalid_tag_json", "scripture", "tag response was not parseable JSON")
             print(f"  [error] {slug} (tag): unparseable JSON")
@@ -1058,13 +1093,12 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
             print(f"    [chunk {i}/{len(groups)}] {slug} (tag)")
             if not dry_run:
                 set_current_work(slug, "tag", i, len(groups))
-            output = _call_m3_measured(prompt, slug, "tag", len(chunk_text), i, len(groups),
-                                       dry_run=dry_run, system=role)
-            if output is None:
-                if dry_run:
-                    continue
+            result, obj = _call_tag_json(prompt, slug, len(chunk_text), i, len(groups),
+                                         role, dry_run)
+            if result == "dry_run":
+                continue
+            if result == "call_failed":
                 return False
-            obj = parse_tag_json(output)
             if obj is None:
                 _set_failure("invalid_tag_json", "scripture", f"tag chunk {i} was not parseable JSON")
                 print(f"    [error] chunk {i} returned unparseable JSON for {slug} (tag)")

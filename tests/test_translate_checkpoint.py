@@ -149,6 +149,38 @@ class TranslateCheckpointTests(unittest.TestCase):
         self.assertNotIn("tag_status", meta)
         self.assertNotIn("psych_tag_status", meta)
 
+    def test_tag_chunk_reasks_after_unparseable_reply(self):
+        base, _ = self.make_slug()
+        good = json.dumps({
+            "semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": ["x"],
+        })
+        replies = [good, '{"semantic_tags": ["meaning",', good, good]
+        dumps = self.root / "logs" / "tag-parse-failures"
+        with mock.patch.object(translate, "TAG_PARSE_FAILURE_DIR", dumps), \
+                mock.patch.object(translate, "call_m3", side_effect=replies):
+            self.assertTrue(translate.tag_one("demo", "tag role", {"meaning"}, {"death"}))
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertEqual(meta["tag_status"], "done")
+        self.assertEqual(len(list(dumps.glob("demo-chunk0002-try1.txt"))), 1)
+
+    def test_tag_chunk_fails_after_all_reasks_invalid(self):
+        base, _ = self.make_slug()
+        good = json.dumps({
+            "semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": ["x"],
+        })
+        replies = [good] + ["not json"] * translate.TAG_PARSE_ATTEMPTS
+        with mock.patch.object(translate, "TAG_PARSE_FAILURE_DIR", self.root / "dumps"), \
+                mock.patch.object(translate, "call_m3", side_effect=replies):
+            self.assertFalse(translate.tag_one("demo", "tag role", {"meaning"}, {"death"}))
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertNotIn("tag_status", meta)
+
+    def test_parse_tag_json_ignores_trailing_text_with_braces(self):
+        reply = '{"semantic_tags": ["a"]}\n\n說明：另見 {註}'
+        self.assertEqual(translate.parse_tag_json(reply), {"semantic_tags": ["a"]})
+        self.assertEqual(translate.parse_tag_json('前言 {x} 然後 {"k": 1}'), {"k": 1})
+        self.assertIsNone(translate.parse_tag_json("no json here"))
+
     def test_token_is_local_error_but_timeout_and_429_leave_handoff(self):
         with mock.patch.object(translate, "_resolve_backend", return_value=None):
             self.assertIsNone(translate.call_m3("prompt"))

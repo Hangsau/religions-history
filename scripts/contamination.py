@@ -55,6 +55,13 @@ _HARD_PATTERNS: list[tuple[str, str]] = [
     ("verify PASS",      r"verify\s+PASS"),
     ("pipeline 此刻正處理", r"pipeline\s+此刻正處理"),
     ("iteration 收尾",   r"iteration\s+收尾"),
+    # prompt echo — the model repeats our own instructions back into the translation
+    ("prompt: 主控腳本",   r"主控腳本"),
+    ("prompt: 內容產生器", r"內容產生器"),
+    ("prompt: 回應第一個字", r"回應第一個字應該是"),
+    ("prompt: 本經分 N 段", r"本經分\s*\d+\s*段"),
+    # the role-file name alone is legitimate: every translation header cites it
+    ("prompt: m3 role",   r"m3\s*(?:翻譯員|tagger|translator)"),
 ]
 
 # Compile to single regex per pattern
