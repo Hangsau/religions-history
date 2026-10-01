@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-09-28 12:43:00 +0800
+- 更新時間：2026-09-29 03:02:18 +0800
 - 佇列 tier：**核心**
 - 進度：**457 / 518** 已翻譯+標籤
-- 目前處理：`(本輪完成)`
+- 目前處理：`bible-psalms`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, mahabharata-ganguli
-- 已阻塞待人工處理：57 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `guru-granth-sahib-st` (translate)
+- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, bible-psalms
+- 已阻塞待人工處理：60 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
+- M3 執行狀態：**running** — `josephus-works` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
