@@ -697,6 +697,11 @@ def call_m3(prompt: str, dry_run: bool = False, system: str | None = None) -> st
                 _wait_for_quota("MiniMax-M3 repeated empty responses")
                 return None
             continue
+        # 偶發的失控長輸出（p99 約 2,500 tokens，上限 8,192）：重問同一段通常就好；
+        # 直接失敗會讓 4,000 段的長書每撞一次就整本重來、四次後 blocked。
+        if "output truncated" in detail and attempt < 3:
+            print(f"  [warn] {PRIMARY_MODEL} 輸出截斷，重問同一段（{attempt}/3）")
+            continue
         _record_generation_error(err or f"{PRIMARY_MODEL} generation failed")
         print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）")
         return None

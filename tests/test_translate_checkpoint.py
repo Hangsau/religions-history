@@ -260,6 +260,20 @@ class TranslateCheckpointTests(unittest.TestCase):
         path.write_text("x" * 200 + "<!-- CHUNK 1/2 FAILED -->", encoding="utf-8")
         self.assertFalse(translate.has_complete_translation(path))
 
+    def test_truncated_reply_is_reasked_before_failing(self):
+        truncated = (None, "output truncated at max_tokens=8192")
+        with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
+                mock.patch.object(translate, "_quota_preflight", return_value=True), \
+                mock.patch.object(translate, "_run_api", side_effect=[truncated, ("譯文", None)]) as run:
+            self.assertEqual(translate.call_m3("prompt"), "譯文")
+        self.assertEqual(run.call_count, 2)
+
+        with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
+                mock.patch.object(translate, "_quota_preflight", return_value=True), \
+                mock.patch.object(translate, "_run_api", return_value=truncated) as run:
+            self.assertIsNone(translate.call_m3("prompt"))
+        self.assertEqual(run.call_count, 3)
+
     def test_api_timeout_and_truncation_are_failures(self):
         with mock.patch.object(translate.urllib.request, "urlopen", side_effect=TimeoutError):
             output, error = translate._run_api("prompt", "https://api.invalid", "token", "model")
