@@ -550,10 +550,10 @@ class Board:
         row.pack(fill="x", padx=18, pady=2)
         tk.Label(row, text=label, bg=BG, fg=FG, font=F_ROW,
                  width=16, anchor="w").pack(side="left")
-        cv = tk.Canvas(row, height=14, bg=BG, highlightthickness=0)
+        cv = tk.Canvas(row, width=120, height=14, bg=BG, highlightthickness=0)  # 寬度靠 expand；預設寬會擠掉右側計數
         cv.pack(side="left", fill="x", expand=True, padx=(4, 8))
         cnt = tk.Label(row, text="", bg=BG, fg=MUTED, font=F_SMALL,
-                       width=20, anchor="e")
+                       width=22, anchor="e")
         cnt.pack(side="left")
         self.rows[key] = (cv, cnt)
 
@@ -671,15 +671,22 @@ class Board:
 
     def _draw_bar(self, key, count, total, pct):
         cv, cnt = self.rows[key]
+        # 首次刷新時畫布可能還沒排版（寬度 1px）；記下數值，等 <Configure> 拿到真寬度再重畫
+        cv._bar_args = (key, count, total, pct)
+        if not getattr(cv, "_bar_bound", False):
+            cv.bind("<Configure>", lambda _e, c=cv: self._draw_bar(*c._bar_args))
+            cv._bar_bound = True
         cv.delete("all")
-        w = cv.winfo_width() or 360
+        w = cv.winfo_width()
+        if w < SEGMENT_W * 4:
+            return
         fill = DONE if pct >= 99.5 else PROG
         segments = max(1, (w + SEGMENT_GAP) // (SEGMENT_W + SEGMENT_GAP))
         lit = round(segments * min(pct, 100) / 100)
         for i in range(segments):
             x = i * (SEGMENT_W + SEGMENT_GAP)
             cv.create_rectangle(x, 1, x + SEGMENT_W, 13, fill=fill if i < lit else TRACK, width=0)
-        cnt.config(text=f"{pct:.0f}%  {count} / {total}", fg=fill if pct >= 99.5 else MUTED)
+        cnt.config(text=f"{pct:.0f}% · {count}/{total}", fg=fill if pct >= 99.5 else MUTED)
 
     def _draw_activity(self, a: dict):
         """畫『現在正在翻什麼、做什麼』三行：正在處理 / 動作+模型 / 速度+ETA+異常。"""
