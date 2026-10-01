@@ -3,24 +3,24 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**457** / 518
-- 已標籤：**483** / 518
+- 已翻譯：**462** / 518
+- 已標籤：**488** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 158 | 159 |
-| 佛教 | 74 | 54 | 65 |
+| 佛教 | 74 | 56 | 67 |
 | 印度教 | 58 | 46 | 46 |
 | 古希臘羅馬 | 46 | 41 | 41 |
-| 猶太教 | 45 | 40 | 43 |
+| 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
-| 北歐 | 15 | 14 | 14 |
+| 北歐 | 15 | 15 | 15 |
 | 瑣羅亞斯德 | 11 | 11 | 11 |
 | 美洲 | 11 | 11 | 11 |
 | 儒教 | 10 | 3 | 10 |
-| 凱爾特 | 9 | 8 | 8 |
+| 凱爾特 | 9 | 9 | 9 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 7 | 7 |
 | 諾斯底 | 6 | 6 | 5 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -260,7 +260,7 @@
 - `an5-fives` AN5 五法集（Pali）譯✓ 標✓
 - `an6-sixes` AN6 六法集（Pali）譯✓ 標✓
 - `an7-sevens` AN7 七法集（Pali）譯✓ 標✓
-- `an8-eights` AN8 八法集（Pali）譯– 標–
+- `an8-eights` AN8 八法集（Pali）譯✓ 標✓
 - `an9-nines` AN9 九法集（Pali）譯✓ 標✓
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
@@ -308,7 +308,7 @@
 - `sn2-devaputta` SN2 天子相應（Pali）譯✓ 標✓
 - `sn22-khandha` SN22 蘊相應 (159 經)（Pali）譯✓ 標✓
 - `sn3-kosala` SN3 拘薩羅相應（Pali）譯✓ 標✓
-- `sn35-salayatana` SN35 六入相應 (248 經)（Pali）譯– 標–
+- `sn35-salayatana` SN35 六入相應 (248 經)（Pali）譯✓ 標✓
 - `sn4-mara` SN4 魔羅相應（Pali）譯✓ 標✓
 - `sn45-magga` SN45 道相應 (180 經)（Pali）譯✓ 標✓
 - `sn46-bojjhanga` SN46 覺支相應 (184 經)（Pali）譯✓ 標✓
@@ -444,7 +444,7 @@
 - `ecclesiastes` 傳道書（Hebrew）譯– 標✓
 - `esther` 以斯帖記（Hebrew）譯✓ 標✓
 - `exodus` 出埃及記（Hebrew）譯✓ 標✓
-- `ezekiel` 以西結書（Hebrew）譯– 標–
+- `ezekiel` 以西結書（Hebrew）譯✓ 標✓
 - `ezra` 以斯拉記（Hebrew）譯✓ 標✓
 - `genesis` 創世記（Hebrew）譯– 標✓
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯✓ 標✓
@@ -508,7 +508,7 @@
 - `egils-saga-on` 埃吉爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `eyrbyggja-saga-on` 艾爾比格亞薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `gisla-saga-on` 吉斯利薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
-- `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯– 標–
+- `grettis-saga-on` 格雷提爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `heimskringla` 赫姆斯克林格拉（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `heimskringla-on` 赫姆斯克林格拉（古諾斯語原文）（古諾斯語）譯✓ 標✓
 - `hrafnkels-saga-on` 赫拉夫恩克爾薩迦（古諾斯語原文）（古諾斯語）譯✓ 標✓
@@ -564,7 +564,7 @@
 
 ### 凱爾特（9 部）
 
-- `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯– 標–
+- `carmina-gadelica-1` Carmina Gadelica Vol 1（蘇格蘭蓋爾語／英語對照）譯✓ 標✓
 - `carmina-gadelica-2` Carmina Gadelica Vol 2（蘇格蘭蓋爾語／英語對照）譯✓ 標✓
 - `cath-maige-tuired-en` 第二次莫伊圖拉之戰（英譯）（English）譯✓ 標✓
 - `cath-maige-tuired-ga` 第二次莫伊圖拉之戰（古愛爾蘭語原文）（古愛爾蘭語）譯✓ 標✓
