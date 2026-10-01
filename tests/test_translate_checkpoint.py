@@ -72,6 +72,29 @@ class TranslateCheckpointTests(unittest.TestCase):
         self.assertIn("第三段", final)
         self.assertFalse(active.exists())
 
+    def test_resume_regenerates_checkpoint_chunk_that_is_contaminated(self):
+        base, _ = self.make_slug()
+        role = "translation role"
+        first_outputs = ["# 測試 — 翻譯\n\n=== 1 | c1 ===\n第一段", "=== 2 | c2 ===\n第二段", None]
+        with mock.patch.object(translate, "call_m3", side_effect=first_outputs):
+            self.assertFalse(translate.translate_one("demo", "translate", role))
+        # Simulate a chunk saved before the prompt-echo pattern existed: valid sha, dirty text.
+        active = self.checkpoints / "demo" / "translate" / "active"
+        dirty = "=== 2 | c2 ===\n第二段\n\n我（主控腳本）會抓你的 stdout 寫入檔案"
+        (active / "chunk-0002.md").write_text(dirty, encoding="utf-8")
+        manifest_path = active / "manifest.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest["chunks"][1]["output_sha256"] = translate._sha256_text(dirty)
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+
+        with mock.patch.object(translate, "call_m3",
+                               side_effect=["=== 2 | c2 ===\n第二段乾淨", "=== 3 | c3 ===\n第三段"]) as call:
+            self.assertTrue(translate.translate_one("demo", "translate", role))
+        self.assertEqual(call.call_count, 2)
+        final = (base / "01-translation.md").read_text(encoding="utf-8")
+        self.assertIn("第二段乾淨", final)
+        self.assertNotIn("主控腳本", final)
+
     def test_source_change_archives_checkpoint(self):
         _, source = self.make_slug()
         chunks = ["one", "two"]
@@ -189,7 +212,7 @@ class TranslateCheckpointTests(unittest.TestCase):
 
         with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
                 mock.patch.object(translate, "_quota_preflight", return_value=True), \
-                mock.patch.object(translate, "_run_claude", return_value=(None, "timeout after 360s")):
+                mock.patch.object(translate, "_run_api", return_value=(None, "timeout after 360s")):
             self.assertIsNone(translate.call_m3("prompt"))
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
         self.assertEqual(state["status"], "waiting_provider")
@@ -199,7 +222,7 @@ class TranslateCheckpointTests(unittest.TestCase):
 
         with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
                 mock.patch.object(translate, "_quota_preflight", return_value=True), \
-                mock.patch.object(translate, "_run_claude", return_value=(None, "HTTP 429 rate limit")):
+                mock.patch.object(translate, "_run_api", return_value=(None, "HTTP 429 rate limit")):
             self.assertIsNone(translate.call_m3("prompt"))
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
         self.assertEqual(state["status"], "waiting_quota")
@@ -213,7 +236,7 @@ class TranslateCheckpointTests(unittest.TestCase):
         translate._QUOTA_CACHE.update(checked_monotonic=0.0, result=None)
         with mock.patch.object(translate.minimax_quota, "probe_quota",
                                return_value=("official_reset", "reserve", quota, retry_at)), \
-                mock.patch.object(translate, "_run_claude") as run:
+                mock.patch.object(translate, "_run_api") as run:
             self.assertFalse(translate._quota_preflight())
         run.assert_not_called()
         state = json.loads(self.runtime.read_text(encoding="utf-8"))
@@ -237,21 +260,20 @@ class TranslateCheckpointTests(unittest.TestCase):
         path.write_text("x" * 200 + "<!-- CHUNK 1/2 FAILED -->", encoding="utf-8")
         self.assertFalse(translate.has_complete_translation(path))
 
-    def test_timeout_terminates_windows_process_tree(self):
-        proc = mock.Mock(pid=4321, returncode=None)
-        proc.communicate.side_effect = [
-            translate.subprocess.TimeoutExpired("claude", 1),
-            (b"", b""),
-        ]
-        with mock.patch.object(translate.subprocess, "Popen", return_value=proc), \
-                mock.patch.object(translate.subprocess, "run") as run, \
-                mock.patch.object(translate.os, "name", "nt"):
-            output, error = translate._run_claude("prompt", "url", "token", "model")
+    def test_api_timeout_and_truncation_are_failures(self):
+        with mock.patch.object(translate.urllib.request, "urlopen", side_effect=TimeoutError):
+            output, error = translate._run_api("prompt", "https://api.invalid", "token", "model")
         self.assertIsNone(output)
         self.assertIn("timeout after", error)
-        self.assertEqual("taskkill", run.call_args.args[0][0])
-        self.assertIn("/T", run.call_args.args[0])
 
+        resp = mock.MagicMock()
+        resp.__enter__.return_value.read.return_value = json.dumps({
+            "stop_reason": "max_tokens", "content": [{"type": "text", "text": "partial"}],
+        }).encode("utf-8")
+        with mock.patch.object(translate.urllib.request, "urlopen", return_value=resp):
+            output, error = translate._run_api("prompt", "https://api.invalid", "token", "model")
+        self.assertIsNone(output)
+        self.assertIn("truncated", error)
 
 if __name__ == "__main__":
     unittest.main()

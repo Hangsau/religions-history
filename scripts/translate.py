@@ -189,7 +189,10 @@ def _prepare_checkpoint(slug: str, task: str, source_text: str, role: str,
             output = part_path.read_text(encoding="utf-8")
         except OSError:
             output = ""
-        if output.strip() and _sha256_text(output) == chunk["output_sha256"]:
+        # A chunk saved before a contamination pattern existed must not be stitched back
+        # in on resume; regenerate it like a missing chunk.
+        if output.strip() and _sha256_text(output) == chunk["output_sha256"] \
+                and not find_contamination(output):
             completed[chunk["index"]] = output.rstrip("\n")
         else:
             chunk.update(status="pending", output_sha256=None, completed_at=None)
