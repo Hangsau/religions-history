@@ -69,8 +69,7 @@ def mark_idle(reason: str) -> None:
     except OSError:
         failed_mtime = None
     IDLE.write_text(json.dumps({"at": datetime.now(TZ).isoformat(), "reason": reason,
-                                "failed_mtime": failed_mtime}) + "
-", encoding="utf-8")
+                                "failed_mtime": failed_mtime}) + "\n", encoding="utf-8")
 
 
 def hb(msg: str) -> None:
