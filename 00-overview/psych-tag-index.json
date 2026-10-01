@@ -718,6 +718,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
@@ -1163,6 +1168,11 @@
       "slug": "plotinus-enneads-el",
       "name_zh": "九章集（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
     },
     {
       "slug": "ramanuja-gitabhashya",
@@ -2294,6 +2304,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
       "religion": "神道"
@@ -3001,6 +3016,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "enuma-elish-stc",
+      "name_zh": "創世七碑（埃努瑪·埃利什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -3014,6 +3034,11 @@
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
     },
     {
       "slug": "ezra",
@@ -3296,6 +3321,16 @@
       "religion": "儒教"
     },
     {
+      "slug": "mimamsa-sutra",
+      "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
@@ -3434,6 +3469,11 @@
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
     },
     {
       "slug": "pyramid-texts-mercer",
@@ -5509,6 +5549,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "enuma-elish-stc",
+      "name_zh": "創世七碑（埃努瑪·埃利什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -5527,6 +5572,11 @@
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
     },
     {
       "slug": "fortytwo-chapters-sutra",
@@ -6421,6 +6471,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "enuma-elish-stc",
+      "name_zh": "創世七碑（埃努瑪·埃利什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -6449,6 +6504,11 @@
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
     },
     {
       "slug": "gheranda-samhita",
@@ -6738,6 +6798,11 @@
     {
       "slug": "proverbs",
       "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
       "religion": "猶太教"
     },
     {
@@ -7522,6 +7587,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "enuma-elish-stc",
+      "name_zh": "創世七碑（埃努瑪·埃利什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -7819,6 +7889,16 @@
       "religion": "古埃及"
     },
     {
+      "slug": "enuma-elish-stc",
+      "name_zh": "創世七碑（埃努瑪·埃利什）",
+      "religion": "兩河"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -7877,6 +7957,11 @@
       "slug": "narratives-rites-laws-yncas",
       "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
       "religion": "印加"
+    },
+    {
+      "slug": "psalms",
+      "name_zh": "詩篇",
+      "religion": "猶太教"
     },
     {
       "slug": "samkhya-karika",
@@ -8194,6 +8279,11 @@
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
+    },
+    {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
     },
     {
       "slug": "ezra",
@@ -9663,6 +9753,16 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mimamsa-sutra",
+      "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-1-john",
       "name_zh": "約翰一書（希臘原文）",
       "religion": "基督教"
@@ -10121,6 +10221,16 @@
       "religion": "基督教"
     },
     {
+      "slug": "mimamsa-sutra",
+      "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
       "slug": "obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "猶太教"
@@ -10268,6 +10378,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mimamsa-sutra-jaimini",
+      "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
     },
     {
       "slug": "nahum",
@@ -10707,6 +10822,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mimamsa-sutra",
+      "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
@@ -10925,6 +11045,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mimamsa-sutra",
+      "name_zh": "彌曼差經",
+      "religion": "印度教"
     },
     {
       "slug": "sblgnt-philemon",

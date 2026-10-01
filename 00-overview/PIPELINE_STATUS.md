@@ -2,14 +2,14 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-09-29 03:02:18 +0800
+- 更新時間：2026-10-01 16:42:36 +0800
 - 佇列 tier：**核心**
-- 進度：**457 / 518** 已翻譯+標籤
-- 目前處理：`bible-psalms`
+- 進度：**462 / 518** 已翻譯+標籤
+- 目前處理：`mimamsa-sutra-jaimini`
 - P0 尚未完整翻譯：8 部
-- 一般失敗待重試：3 部 — sibylline-oracles-el, huangdi-neijing, bible-psalms
-- 已阻塞待人工處理：60 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, numbers, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1
-- M3 執行狀態：**running** — `josephus-works` (tag)
+- 一般失敗待重試：18 部 — numbers, an9-nines, lucretius-de-rerum-natura-la, engishiki-jingi-zh, sibylline-oracles-el, huangdi-neijing, nihon-shoki-zh, rigveda, garuda-purana, brahma-purana
+- 已阻塞待人工處理：40 部 — eyrbyggja-saga-on, yajnavalkya-smrti, avesta-sbe31-ae, quran, samaveda, ovid-fasti-la, jain-uttaradhyayana-pkt, sutta-nipata, chronicles-1, tain-bo-cuailnge-ga
+- M3 執行狀態：**running** — `mimamsa-sutra-jaimini` (tag)
 
 
 流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`

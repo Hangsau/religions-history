@@ -3,18 +3,18 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**436** / 518
-- 已標籤：**457** / 518
+- 已翻譯：**441** / 518
+- 已標籤：**462** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 157 | 159 |
+| 基督教 | 161 | 158 | 159 |
 | 佛教 | 74 | 52 | 63 |
-| 印度教 | 58 | 42 | 41 |
+| 印度教 | 58 | 44 | 43 |
 | 古希臘羅馬 | 46 | 38 | 37 |
-| 猶太教 | 45 | 38 | 39 |
+| 猶太教 | 45 | 39 | 41 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 12 | 12 |
 | 瑣羅亞斯德 | 11 | 9 | 9 |
@@ -26,12 +26,12 @@
 | 諾斯底 | 6 | 6 | 5 |
 | 現代新興 | 5 | 4 | 3 |
 | 神道 | 5 | 5 | 3 |
-| 錫克教 | 4 | 3 | 3 |
+| 錫克教 | 4 | 4 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
 | 伊斯蘭 | 4 | 3 | 3 |
 | 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 3 | 3 |
-| 兩河 | 3 | 3 | 2 |
+| 兩河 | 3 | 3 | 3 |
 | 斯拉夫 | 3 | 3 | 3 |
 | 非洲 | 2 | 2 | 2 |
 | 阿茲特克 | 1 | 1 | 1 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、美洲、印加、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -145,7 +145,7 @@
 - `bible-philemon` 腓利門書（古典中文）譯✓ 標✓
 - `bible-philippians` 腓立比書（古典中文）譯✓ 標✓
 - `bible-proverbs` 箴言（古典中文）譯✓ 標✓
-- `bible-psalms` 詩篇（古典中文）譯– 標–
+- `bible-psalms` 詩篇（古典中文）譯✓ 標–
 - `bible-revelation` 啟示錄（古典中文）譯✓ 標✓
 - `bible-romans` 羅馬書（古典中文）譯✓ 標✓
 - `bible-ruth` 路得記（古典中文）譯✓ 標✓
@@ -353,14 +353,14 @@
 - `kurma-purana` 龜往世書（Sanskrit）譯– 標–
 - `linga-purana` 林伽往世書（Sanskrit）譯– 標–
 - `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
-- `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯– 標–
+- `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標–
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯✓ 標✓
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯✓ 標✓
 - `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
 - `matsya-purana` 魚往世書（Sanskrit）譯✓ 標✓
-- `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標–
-- `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯– 標–
+- `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標✓
+- `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯✓ 標✓
 - `nyaya-sutra` 正理經（梵語）譯✓ 標✓
 - `nyaya-sutra-gautama` 正理經（喬達摩）（Sanskrit）譯✓ 標✓
 - `prashna-upanishad` 問難奧義書（Sanskrit）譯✓ 標✓
@@ -443,7 +443,7 @@
 - `deuteronomy` 申命記（Hebrew）譯✓ 標✓
 - `ecclesiastes` 傳道書（Hebrew）譯– 標✓
 - `esther` 以斯帖記（Hebrew）譯✓ 標✓
-- `exodus` 出埃及記（Hebrew）譯✓ 標–
+- `exodus` 出埃及記（Hebrew）譯✓ 標✓
 - `ezekiel` 以西結書（Hebrew）譯– 標–
 - `ezra` 以斯拉記（Hebrew）譯✓ 標✓
 - `genesis` 創世記（Hebrew）譯– 標✓
@@ -456,7 +456,7 @@
 - `job` 約伯記（Hebrew）譯– 標✓
 - `joel` 約珥書（Hebrew）譯✓ 標✓
 - `jonah` 約拿書（Hebrew）譯✓ 標✓
-- `josephus-works` 約瑟夫斯著作（English (translation)）譯– 標–
+- `josephus-works` 約瑟夫斯著作（English (translation)）譯✓ 標–
 - `joshua` 約書亞記（Hebrew）譯✓ 標✓
 - `judges` 士師記（Hebrew）譯✓ 標✓
 - `kabbalah-unveiled` 卡巴拉揭示 (Mathers)（English (translation)）譯✓ 標✓
@@ -473,7 +473,7 @@
 - `numbers` 民數記（Hebrew）譯✓ 標–
 - `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
 - `proverbs` 箴言（Hebrew）譯– 標✓
-- `psalms` 詩篇（Hebrew）譯✓ 標–
+- `psalms` 詩篇（Hebrew）譯✓ 標✓
 - `ruth` 路得記（Hebrew）譯✓ 標✓
 - `samuel-1` 撒母耳記上（Hebrew）譯✓ 標✓
 - `samuel-2` 撒母耳記下（Hebrew）譯✓ 標✓
@@ -623,7 +623,7 @@
 ### 錫克教（4 部）
 
 - `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
-- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯– 標–
+- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯✓ 標–
 - `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 
@@ -656,7 +656,7 @@
 ### 兩河（3 部）
 
 - `code-of-hammurabi-st` 漢摩拉比法典（English (translation)）譯✓ 標✓
-- `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯✓ 標–
+- `enuma-elish-stc` 創世七碑（埃努瑪·埃利什）（English (translation)）譯✓ 標✓
 - `epic-of-gilgamesh-st` 吉爾伽美什史詩（English (translation)）譯✓ 標✓
 
 ### 斯拉夫（3 部）
