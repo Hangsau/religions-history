@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**447** / 518
-- 已標籤：**473** / 518
+- 已翻譯：**452** / 518
+- 已標籤：**478** / 518
 
 ## 各宗教核心進度
 
@@ -13,8 +13,8 @@
 | 基督教 | 161 | 158 | 159 |
 | 佛教 | 74 | 54 | 65 |
 | 印度教 | 58 | 44 | 44 |
-| 古希臘羅馬 | 46 | 39 | 39 |
-| 猶太教 | 45 | 39 | 42 |
+| 古希臘羅馬 | 46 | 41 | 41 |
+| 猶太教 | 45 | 40 | 43 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 12 | 12 |
 | 瑣羅亞斯德 | 11 | 10 | 10 |
@@ -24,11 +24,11 @@
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 7 | 7 |
 | 諾斯底 | 6 | 6 | 5 |
-| 現代新興 | 5 | 4 | 3 |
+| 現代新興 | 5 | 5 | 4 |
 | 神道 | 5 | 5 | 5 |
 | 錫克教 | 4 | 4 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
-| 伊斯蘭 | 4 | 3 | 3 |
+| 伊斯蘭 | 4 | 4 | 4 |
 | 印加 | 3 | 3 | 3 |
 | 瑪雅 | 3 | 3 | 3 |
 | 兩河 | 3 | 3 | 3 |
@@ -401,7 +401,7 @@
 - `herodotus-histories` 希羅多德《歷史》(英希對照)（Ancient Greek）譯✓ 標✓
 - `hesiod-el` 赫西俄德：神譜＋工作與時日（希臘原文）（Ancient Greek）譯✓ 標✓
 - `hesiod-works` 赫西俄德 (神譜 + 工作與時日)（English (translation)）譯✓ 標✓
-- `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯– 標–
+- `homer-greek` 伊利亞德 + 奧德賽 (希臘原文)（Ancient Greek）譯✓ 標✓
 - `homer-iliad-pope` 伊利亞德 (Pope/Bryant 英譯)（English (translation)）譯✓ 標✓
 - `homer-odyssey-st` 奧德賽 (Pope/Bryant 英譯)（English (translation)）譯✓ 標✓
 - `homeric-hymns-el` 荷馬諸頌（希臘原文）（Ancient Greek）譯✓ 標✓
@@ -410,7 +410,7 @@
 - `marcus-aurelius-meditations-el` 沉思錄（希臘原文）（Ancient Greek）譯✓ 標✓
 - `odyssey-butler` 奧德賽（Butler 譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
-- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯– 標–
+- `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯✓ 標✓
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯✓ 標✓
 - `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
@@ -437,7 +437,7 @@
 ### 猶太教（45 部）
 
 - `amos` 阿摩司書（Hebrew）譯✓ 標✓
-- `chronicles-1` 歷代志上（Hebrew）譯– 標–
+- `chronicles-1` 歷代志上（Hebrew）譯✓ 標✓
 - `chronicles-2` 歷代志下（Hebrew）譯✓ 標✓
 - `daniel` 但以理書（Hebrew）譯✓ 標✓
 - `deuteronomy` 申命記（Hebrew）譯✓ 標✓
@@ -606,7 +606,7 @@
 
 ### 現代新興（5 部）
 
-- `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯– 標–
+- `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯✓ 標✓
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯✓ 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
 - `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標–
@@ -638,7 +638,7 @@
 
 - `masnavi-rumi-st` 瑪斯納維 (Rumi 蘇菲詩)（English (translation)）譯✓ 標✓
 - `mishkat-al-anwar` Mishkat al-Anwar 光明壁龕 (Ghazali)（English (translation)）譯✓ 標✓
-- `quran` 古蘭經（古典阿拉伯）譯– 標–
+- `quran` 古蘭經（古典阿拉伯）譯✓ 標✓
 - `quran-pickthall` 古蘭經 (Pickthall 英譯)（English (translation)）譯✓ 標✓
 
 ### 印加（3 部）

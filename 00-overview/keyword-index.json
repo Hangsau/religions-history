@@ -1324,6 +1324,13 @@
       "religion": "古埃及"
     }
   ],
+  "Bella": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Beloved": [
     {
       "slug": "masnavi-rumi-st",
@@ -1916,6 +1923,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ceres": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Chaldaei": [
     {
       "slug": "vulgate-habakkuk",
@@ -1928,6 +1942,13 @@
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
+    }
+  ],
+  "Chaos": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Chaos 卡厄斯": [
@@ -3295,6 +3316,13 @@
       "religion": "北歐"
     }
   ],
+  "Germanicus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Gheraṇḍa": [
     {
       "slug": "gheranda-samhita",
@@ -4126,6 +4154,13 @@
       "religion": "諾斯底"
     }
   ],
+  "Ianus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Iason": [
     {
       "slug": "euripides-medea-el",
@@ -4429,6 +4464,11 @@
     }
   ],
   "Iuppiter": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
@@ -4923,6 +4963,13 @@
       "slug": "kabbalah-unveiled",
       "name_zh": "卡巴拉揭示 (Mathers)",
       "religion": "猶太教"
+    }
+  ],
+  "Kalendas": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Kali-yuga": [
@@ -5868,6 +5915,13 @@
       "religion": "兩河"
     }
   ],
+  "Mars": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Mary": [
     {
       "slug": "carmina-gadelica-1",
@@ -6700,6 +6754,13 @@
       "religion": "諾斯底"
     }
   ],
+  "Numa": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Nut": [
     {
       "slug": "pyramid-texts-mercer",
@@ -7285,6 +7346,13 @@
       "religion": "基督教"
     }
   ],
+  "Pax": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Pañcakhandha": [
     {
       "slug": "sn22-khandha",
@@ -7728,6 +7796,13 @@
       "religion": "印加"
     }
   ],
+  "Quirinus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Qur'ân": [
     {
       "slug": "quran-pickthall",
@@ -7971,6 +8046,13 @@
     {
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Romulus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -9751,6 +9833,11 @@
     {
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -11950,6 +12037,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "fastus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "fate": [
     {
       "slug": "virgil-aeneid",
@@ -13022,6 +13116,13 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    }
+  ],
+  "nefastus": [
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "negative theology": [
@@ -18373,6 +18474,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
@@ -18618,6 +18724,11 @@
       "slug": "bible-romans",
       "name_zh": "羅馬書",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "genesis",
@@ -19028,6 +19139,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -19053,6 +19169,11 @@
       "slug": "bible-1-chronicles",
       "name_zh": "歷代志上",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     }
   ],
   "以斯帖": [
@@ -19089,6 +19210,11 @@
       "slug": "bible-obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "malachi",
@@ -19195,6 +19321,11 @@
       "slug": "bible-micah",
       "name_zh": "彌迦書",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "deuteronomy",
@@ -19547,6 +19678,13 @@
       "slug": "vulgate-matthew",
       "name_zh": "馬太福音（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "伯利恙": [
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     }
   ],
   "伯沙撒": [
@@ -26181,6 +26319,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "doctrine-and-covenants",
       "name_zh": "教義和聖約 (LDS)",
       "religion": "現代新興"
@@ -27125,6 +27268,11 @@
       "slug": "bible-2-samuel",
       "name_zh": "撒母耳記下",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "samuel-2",
@@ -30868,6 +31016,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -32707,6 +32860,13 @@
       "slug": "bible-mark",
       "name_zh": "馬可福音",
       "religion": "基督教"
+    }
+  ],
+  "比拉": [
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     }
   ],
   "比拿雅": [
@@ -35391,6 +35551,13 @@
       "religion": "神道"
     }
   ],
+  "示珊": [
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    }
+  ],
   "示羅": [
     {
       "slug": "bible-1-samuel",
@@ -37717,6 +37884,13 @@
       "slug": "vulgate-malachi",
       "name_zh": "瑪拉基書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "耶拉蔑": [
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     }
   ],
   "耶斯列": [
@@ -41295,6 +41469,11 @@
       "slug": "bible-deuteronomy",
       "name_zh": "申命記",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     }
   ],
   "迦勒底": [
@@ -42919,6 +43098,11 @@
       "slug": "bible-obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "基督教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "malachi",

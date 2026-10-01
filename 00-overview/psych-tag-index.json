@@ -241,6 +241,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
+    },
+    {
       "slug": "quran-pickthall",
       "name_zh": "古蘭經 (Pickthall 英譯)",
       "religion": "伊斯蘭"
@@ -578,6 +583,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -733,6 +743,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ovid-metamorphoses",
       "name_zh": "變形記 (奧維德)",
       "religion": "古希臘羅馬"
@@ -761,6 +776,11 @@
       "slug": "psalms",
       "name_zh": "詩篇",
       "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "religion-luiseno-indians",
@@ -1085,6 +1105,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -1180,6 +1205,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ovid-metamorphoses",
       "name_zh": "變形記 (奧維德)",
       "religion": "古希臘羅馬"
@@ -1238,6 +1268,11 @@
       "slug": "psalms",
       "name_zh": "詩篇",
       "religion": "猶太教"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "ramanuja-gitabhashya",
@@ -1619,6 +1654,11 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -2219,6 +2259,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
+    },
+    {
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
@@ -2326,6 +2371,11 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -2502,6 +2552,11 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "quran-pickthall",
@@ -3021,6 +3076,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
+    },
+    {
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
@@ -3089,6 +3149,11 @@
       "slug": "chinigchinich",
       "name_zh": "欽尼赤尼赤 (路易塞紐宗教)",
       "religion": "美洲"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "chronicles-2",
@@ -3263,6 +3328,11 @@
     {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -3556,6 +3626,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -3659,6 +3734,11 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    },
+    {
+      "slug": "quran",
+      "name_zh": "古蘭經",
+      "religion": "伊斯蘭"
     },
     {
       "slug": "quran-pickthall",
@@ -4298,6 +4378,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
+    },
+    {
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
       "religion": "印度教"
@@ -4730,6 +4815,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -5260,6 +5350,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ovid-fasti-la",
+      "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
@@ -5684,6 +5779,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
+    },
+    {
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
       "religion": "印度教"
@@ -5717,6 +5817,11 @@
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "chronicles-2",
@@ -6551,6 +6656,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
+    },
+    {
       "slug": "brahma-sutra",
       "name_zh": "梵經",
       "religion": "印度教"
@@ -6629,6 +6739,11 @@
       "slug": "chinigchinich",
       "name_zh": "欽尼赤尼赤 (路易塞紐宗教)",
       "religion": "美洲"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "chronicles-2",
@@ -8511,6 +8626,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -9176,6 +9296,11 @@
       "slug": "cath-maige-tuired-en",
       "name_zh": "第二次莫伊圖拉之戰（英譯）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "code-of-hammurabi-st",

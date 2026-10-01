@@ -50,5 +50,15 @@
     "Joseph Smith"
   ],
   "tag_status": "done",
-  "composition_note": "英文即原典：Joseph Smith 1830 稱譯自金頁片(reformed Egyptian)，惟金頁片從不存在於任何典藏，英文 1830 版為最原始文本，無原文可補。"
+  "composition_note": "英文即原典：Joseph Smith 1830 稱譯自金頁片(reformed Egyptian)，惟金頁片從不存在於任何典藏，英文 1830 版為最原始文本，無原文可補。",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done"
 }
