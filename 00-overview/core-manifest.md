@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**462** / 518
-- 已標籤：**488** / 518
+- 已翻譯：**467** / 518
+- 已標籤：**493** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 158 | 159 |
-| 佛教 | 74 | 56 | 67 |
+| 基督教 | 161 | 159 | 160 |
+| 佛教 | 74 | 58 | 69 |
 | 印度教 | 58 | 46 | 46 |
-| 古希臘羅馬 | 46 | 41 | 41 |
+| 古希臘羅馬 | 46 | 43 | 43 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 15 | 15 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -85,7 +85,7 @@
 
 ### 基督教（161 部）
 
-- `augustine-confessiones-la` 懺悔錄（拉丁原文）（拉丁）譯– 標–
+- `augustine-confessiones-la` 懺悔錄（拉丁原文）（拉丁）譯✓ 標✓
 - `augustine-de-civitate-dei-la` 上帝之城（拉丁原文）（拉丁）譯✓ 標✓
 - `bible-1-chronicles` 歷代志上（古典中文）譯✓ 標✓
 - `bible-1-corinthians` 哥林多前書（古典中文）譯✓ 標✓
@@ -256,7 +256,7 @@
 - `an11-elevens` AN11 十一法集（Pali）譯✓ 標✓
 - `an2-twos` AN2 二法集（Pali）譯✓ 標✓
 - `an3-threes` AN3 三法集（Pali）譯✓ 標✓
-- `an4-fours` AN4 四法集（Pali）譯– 標–
+- `an4-fours` AN4 四法集（Pali）譯✓ 標✓
 - `an5-fives` AN5 五法集（Pali）譯✓ 標✓
 - `an6-sixes` AN6 六法集（Pali）譯✓ 標✓
 - `an7-sevens` AN7 七法集（Pali）譯✓ 標✓
@@ -269,7 +269,7 @@
 - `bud-bodhicaryavatara-sa` 入菩薩行論（梵文）（梵語）譯✓ 標✓
 - `bud-buddhacarita-sa` 佛所行讚（梵文）（梵語）譯✓ 標✓
 - `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯– 標–
-- `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯– 標–
+- `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯✓ 標✓
 - `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯✓ 標✓
 - `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯✓ 標✓
 - `bud-ratnagotravibhaga-sa` 寶性論（梵文）（梵語）譯✓ 標✓
@@ -388,7 +388,7 @@
 ### 古希臘羅馬（46 部）
 
 - `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
-- `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯– 標–
+- `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯✓ 標✓
 - `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
@@ -412,7 +412,7 @@
 - `orphic-hymns-el` 俄耳甫斯讚歌（希臘原文）（Ancient Greek）譯✓ 標✓
 - `ovid-fasti-la` 歲時記（拉丁原文）（拉丁）譯✓ 標✓
 - `ovid-metamorphoses` 變形記 (奧維德)（English (translation)）譯✓ 標✓
-- `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯– 標–
+- `ovid-metamorphoses-la` 變形記（拉丁原文）（Latin）譯✓ 標✓
 - `plato-apology-el` 蘇格拉底的申辯（希臘原文）（希臘）譯✓ 標✓
 - `plato-euthyphro-el` 歐緒弗洛篇（希臘原文）（希臘）譯✓ 標✓
 - `plato-laws-el` 法律篇（希臘原文）（Ancient Greek）譯✓ 標✓

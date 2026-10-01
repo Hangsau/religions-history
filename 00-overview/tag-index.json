@@ -6,6 +6,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "bible-job",
       "name_zh": "約伯記",
       "religion": "基督教"
@@ -161,6 +166,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -263,9 +273,19 @@
   ],
   "against-idolatry": [
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -361,6 +381,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-udanavarga-sa",
@@ -576,6 +601,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pearl-of-great-price",
@@ -1010,6 +1040,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1287,6 +1322,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -1442,6 +1482,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -1624,6 +1669,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -1731,6 +1781,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1739,6 +1794,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -1924,6 +1984,11 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pistis-sophia",
@@ -2337,6 +2402,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -2412,6 +2482,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-udanavarga-sa",
@@ -2556,6 +2631,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -2569,6 +2649,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-saddharmapundarika-sa",
@@ -2745,6 +2830,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -3070,6 +3160,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -3325,6 +3420,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -3507,6 +3607,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -3515,6 +3620,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -3669,6 +3779,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -4404,6 +4519,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -4451,6 +4571,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -4866,9 +4991,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -4933,6 +5068,11 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -5201,6 +5341,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -5356,6 +5501,11 @@
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "bible-1-corinthians",
@@ -5780,6 +5930,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -5860,6 +6015,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -5992,6 +6152,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -6159,6 +6324,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -6269,6 +6439,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -6511,6 +6686,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -6743,6 +6923,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
@@ -6855,6 +7040,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -7025,6 +7215,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -7075,6 +7270,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "religion-indians-california",
       "name_zh": "加州印第安人的宗教 (Kroeber)",
       "religion": "美洲"
@@ -7107,6 +7307,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -7120,6 +7325,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -7200,6 +7410,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-ratnagotravibhaga-sa",
@@ -7497,6 +7712,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -7777,6 +7997,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristotle-politics-el",
@@ -8129,6 +8354,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -8321,6 +8551,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -8334,6 +8569,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -8801,6 +9041,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -9213,6 +9458,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bundahishn",
       "name_zh": "Bundahishn + Bahman Yasht + Shayast la-Shayast",
       "religion": "瑣羅亞斯德"
@@ -9597,6 +9847,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
       "religion": "佛教"
@@ -9794,6 +10049,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -9971,6 +10231,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -10003,6 +10268,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -10378,6 +10648,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -10525,6 +10800,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -10598,6 +10878,11 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-laws-el",
@@ -10727,9 +11012,19 @@
   ],
   "evil-as-deception": [
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -10862,6 +11157,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -10984,6 +11284,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
@@ -10996,6 +11301,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -11159,6 +11469,11 @@
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "baudhayana-dharmasutra",
@@ -11368,6 +11683,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
@@ -11513,6 +11833,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "poetic-edda-on",
       "name_zh": "詩體埃達（古諾斯語原文）",
       "religion": "北歐"
@@ -11568,6 +11893,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -11897,6 +12227,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
@@ -12032,6 +12367,11 @@
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "atharvaveda-paippalada",
@@ -12184,6 +12524,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -12276,6 +12621,11 @@
       "religion": "墨家"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -12346,6 +12696,16 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -13207,6 +13567,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -13322,6 +13687,11 @@
       "religion": "印加"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-phaedo-el",
       "name_zh": "斐多篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -13404,9 +13774,19 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -13637,6 +14017,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pistis-sophia",
@@ -14045,6 +14430,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -14477,9 +14867,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -14514,6 +14914,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -14627,6 +15032,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -14709,6 +15119,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
@@ -14717,6 +15132,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -14761,6 +15181,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -14991,6 +15416,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -15488,6 +15918,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
       "religion": "佛教"
@@ -15743,6 +16178,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -15945,6 +16385,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "avesta-sbe23-ae",
       "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
@@ -16127,6 +16572,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -16135,6 +16585,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -16324,6 +16779,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -16534,6 +16994,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
       "religion": "佛教"
@@ -16581,6 +17046,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -17256,6 +17726,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
@@ -17578,6 +18053,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -17605,6 +18085,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -17938,6 +18423,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -18517,6 +19007,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
@@ -18684,6 +19179,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -18722,6 +19222,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "chinigchinich",
@@ -18966,6 +19471,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
@@ -18974,6 +19484,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -19013,6 +19528,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -19208,6 +19728,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -19500,6 +20025,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -19882,6 +20412,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
@@ -20012,6 +20547,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-phaedrus-el",
       "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -20122,6 +20662,11 @@
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -20611,6 +21156,11 @@
   ],
   "original-sin": [
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -20658,9 +21208,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -20700,6 +21260,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -20828,6 +21393,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -20933,6 +21503,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristotle-politics-el",
@@ -21152,6 +21727,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -21287,6 +21872,11 @@
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristotle-politics-el",
@@ -21629,6 +22219,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
       "religion": "古希臘羅馬"
@@ -21836,9 +22431,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -22276,6 +22881,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -22603,6 +23213,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -22701,6 +23316,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bundahishn",
@@ -22958,6 +23578,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -23150,6 +23775,11 @@
       "religion": "印加"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -23228,6 +23858,11 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "cath-maige-tuired-ga",
@@ -23530,6 +24165,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -23944,6 +24584,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -24436,6 +25081,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
@@ -24524,6 +25174,11 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "peyote-cult",
@@ -24628,6 +25283,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -24671,6 +25331,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-ratnagotravibhaga-sa",
@@ -24910,6 +25575,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -24923,6 +25593,11 @@
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -25047,6 +25722,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -25470,6 +26150,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -25782,6 +26467,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
@@ -25790,6 +26480,11 @@
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -25855,6 +26550,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-saddharmapundarika-sa",
@@ -26127,6 +26827,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -26334,9 +27039,19 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -27143,6 +27858,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -27161,6 +27881,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -27205,6 +27930,11 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -27396,6 +28126,11 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "perfect-enlightenment-sutra",
@@ -27655,9 +28390,19 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -27825,6 +28570,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -27957,9 +28707,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -28085,6 +28845,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-ratnagotravibhaga-sa",
@@ -28280,6 +29045,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "peyote-cult",
@@ -28504,6 +29274,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
@@ -28706,6 +29481,11 @@
     {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -29103,9 +29883,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -29170,6 +29960,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -29326,6 +30121,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pistis-sophia",
@@ -29557,9 +30357,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -29580,6 +30390,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-saddharmapundarika-sa",
@@ -29797,6 +30612,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -29959,6 +30779,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristotle-politics-el",
@@ -30213,6 +31038,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -30700,9 +31530,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -30813,6 +31653,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bundahishn",
@@ -31090,6 +31935,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -31337,9 +32187,19 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -31844,6 +32704,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -32611,6 +33476,11 @@
       "religion": "印加"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -32624,6 +33494,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -32698,6 +33573,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -33034,6 +33914,11 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "peyote-cult",
@@ -33398,6 +34283,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -33416,6 +34306,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -33525,6 +34420,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -33870,6 +34770,11 @@
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -34424,6 +35329,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "apuleius-metamorphoses-la",
+      "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -34432,6 +35342,11 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    },
+    {
+      "slug": "augustine-confessiones-la",
+      "name_zh": "懺悔錄（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "augustine-de-civitate-dei-la",
@@ -34506,6 +35421,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-lankavatara-sa",
+      "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
     },
     {
@@ -34722,6 +35642,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "ovid-metamorphoses-la",
+      "name_zh": "變形記（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pearl-of-great-price",
