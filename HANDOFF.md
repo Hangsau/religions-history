@@ -3,7 +3,50 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
-## 2026-09-23 管線恢復 + 派工層改直呼 API（本次工作）
+## 2026-10-01 管線從「全部 blocked 空轉」恢復（本次工作）
+
+### 當時狀況
+
+2026-09-29 03:16 起核心佇列 457/518 完成，剩下 61 部全是 blocked，supervisor 每 30 秒被刊版拉起、
+3 秒後退出，空轉 6,380 次。不是配額問題（當時週額度剩 82%）。
+
+| 數量 | 階段 | error_code | 根因 |
+|---|---|---|---|
+| 37 | translate | `contaminated_output` | 全部發生在 7/23–9/9，即 `claude -p` 時代的 harness 雜訊；9-23 改直呼 API 後應不再出現 |
+| 19 | tag | `invalid_tag_json` | 單段 JSON 解析失敗就整本失敗、tag 無 checkpoint 每次從第 1 段重來、壞回覆沒留存 |
+| 4 | translate | `invalid_output` | 未查 |
+| 1 | translate | `generation_error` | mahabharata 輸出在 max_tokens=8192 截斷 |
+
+### 做了什麼
+
+- `727bd0d2` 收下 10 部卡在標籤前的完成譯文（原本只在工作樹）
+- `dcd799fa` P5：`parse_tag_json` 改 `raw_decode`；每段最多問 3 次（`TAG_PARSE_ATTEMPTS`），壞回覆存
+  `logs/tag-parse-failures/`（gitignored）。`contamination.py` 補 prompt 回吐樣式（主控腳本／內容產生器／
+  回應第一個字應該是／本經分 N 段／m3 翻譯員）
+- `d34a98d5` supervisor 閒置時寫 `logs/pipeline-idle.json`；刊版看到新鮮標記不復活，
+  `pipeline-failed.json` 被改動（--unblock）或滿 1 小時才再拉起。**刊版要重開才會載入新版**
+- 19 部 tag-blocked 已 unblock，exodus 已成功；另 unblock `mimamsa-sutra-jaimini`、`an9-nines`
+  兩部翻譯污染書做試點（排在 19 部後面）
+
+注意：`--unblock` 指令會被執行中管線的 run lock 擋下（`[locked]`），管線在跑時改用
+`pipeline_failures.unblock(slug, Path("translations"))`，它只拿 failed-state 自己的鎖。
+
+### 下次接手
+
+1. 看試點：`mimamsa-sutra-jaimini`、`an9-nines` 翻譯若乾淨通過 → unblock 其餘 35 部 contaminated_output
+2. 看 `logs/tag-parse-failures/` 有沒有檔案；有就讀原始回覆判斷 M3 為何吐壞 JSON
+3. **46 部已入庫譯文含模型回吐的 prompt 段落**（`PYTHONIOENCODING=utf-8 python scripts/verify.py --contamination`
+   可列出；最多 sutta-nipata 9 處、plotinus-enneads 7、yucatan 7、mahabharata-ganguli 6）。常伴隨
+   該段內容重複一次，`clean-contamination.py` 只切段落、不處理重複，需另訂清理方式（重譯該 chunk 較乾淨）
+4. `verify.py --all` 有 FAIL：samaveda、sutta-nipata 等含 failed chunk placeholder（皆 blocked 舊書，非本次造成）
+5. `tests/test_translate_checkpoint.py` 3 個測試還在 mock 已移除的 `_run_claude`（9-23 改 API 時遺留），需改寫
+6. `pipeline-failed.json` 的 `tier` 欄位存成亂碼 `�֤�`，因讀寫兩端一致不影響比對；sibylline-oracles-el、
+   huangdi-neijing 兩筆 retryable 是早已完成的殘留紀錄
+7. 其餘 4 部 invalid_output、mahabharata 截斷未處理
+
+---
+
+## 2026-09-23 管線恢復 + 派工層改直呼 API
 
 **HALT flag 已刪除，管線恢復運轉。** 下面那段 2026-09-13 的暫停紀錄已失效，保留只為說明當時
 關了哪三個觸發點（恢復時要確認的也是那三個）。
