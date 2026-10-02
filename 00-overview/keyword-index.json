@@ -743,6 +743,13 @@
       "religion": "古埃及"
     }
   ],
+  "Anāthapiṇḍada": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "Anāthapiṇḍika": [
     {
       "slug": "sn1-devata",
@@ -1047,6 +1054,13 @@
     {
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Atlas": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2756,6 +2770,13 @@
       "religion": "耆那教"
     }
   ],
+  "Dikte": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Dinkard": [
     {
       "slug": "denkard-bk-5",
@@ -3110,6 +3131,13 @@
       "religion": "巴哈伊"
     }
   ],
+  "Erinyes": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Eros": [
     {
       "slug": "orphic-hymns-el",
@@ -3415,6 +3443,13 @@
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
+    }
+  ],
+  "Gaia": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Gaiwiio": [
@@ -4405,6 +4440,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Iapetos": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Iason": [
     {
       "slug": "euripides-medea-el",
@@ -4996,6 +5038,11 @@
   ],
   "Jetavana": [
     {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -5490,8 +5537,20 @@
   ],
   "Kouretes": [
     {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Krete": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -5505,6 +5564,13 @@
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
+    }
+  ],
+  "Kronos": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Krētē": [
@@ -5552,6 +5618,13 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "Kyklos": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Kāivalya": [
@@ -5634,6 +5707,13 @@
       "slug": "sun-dance-ceremonies",
       "name_zh": "太陽舞與其他儀式 (Oglala Sioux)",
       "religion": "美洲"
+    }
+  ],
+  "Lalitavistara": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "Laman": [
@@ -6041,6 +6121,13 @@
       "religion": "耆那教"
     }
   ],
+  "Maheśvara": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "Mahmackrah": [
     {
       "slug": "pearl-of-great-price",
@@ -6079,6 +6166,13 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    }
+  ],
+  "Maitreya": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "Maitrāyaṇī-Saṃhitā": [
@@ -7510,6 +7604,13 @@
       "religion": "古埃及"
     }
   ],
+  "Ouranos": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ovid 奧維德": [
     {
       "slug": "ovid-metamorphoses",
@@ -8046,6 +8147,11 @@
   ],
   "Prometheus": [
     {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -8357,6 +8463,13 @@
     {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Rhea": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -9577,6 +9690,11 @@
   ],
   "Tartaros": [
     {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -9766,6 +9884,13 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    }
+  ],
+  "Titan": [
+    {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Titos": [
@@ -11136,6 +11261,11 @@
   ],
   "Zeus": [
     {
+      "slug": "apollodorus-bibliotheca-el",
+      "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -11762,6 +11892,13 @@
       "religion": "印度教"
     }
   ],
+  "bhagavat": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "bhagavayā": [
     {
       "slug": "jain-uttaradhyayana-pkt",
@@ -11966,6 +12103,11 @@
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "bodily restoration 體復": [
@@ -12072,6 +12214,11 @@
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "buddhadhātu": [
@@ -12482,6 +12629,13 @@
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
       "religion": "印度教"
+    }
+  ],
+  "dhāraṇī": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "diaspora": [
@@ -14599,6 +14753,11 @@
   ],
   "pāramitā": [
     {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -14808,6 +14967,13 @@
       "religion": "諾斯底"
     }
   ],
+  "saddharma": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "saddhā": [
     {
       "slug": "an5-fives",
@@ -14887,6 +15053,11 @@
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lankavatara-sa",
@@ -15437,6 +15608,13 @@
       "slug": "vulgate-2-kings",
       "name_zh": "列王紀下 (武加大稱 列王紀四)",
       "religion": "基督教"
+    }
+  ],
+  "tuṣita": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "twelve-thousand-years": [
@@ -16390,6 +16568,13 @@
       "religion": "印度教"
     }
   ],
+  "Śrāvastī": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "Śukla Yajurveda": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -16478,6 +16663,13 @@
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
+    }
+  ],
+  "śuddhāvāsa": [
+    {
+      "slug": "bud-lalitavistara-sa",
+      "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
     }
   ],
   "śānti": [

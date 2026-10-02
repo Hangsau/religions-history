@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**470** / 518
-- 已標籤：**496** / 518
+- 已翻譯：**472** / 518
+- 已標籤：**498** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 159 | 160 |
-| 佛教 | 74 | 58 | 69 |
+| 佛教 | 74 | 59 | 70 |
 | 印度教 | 58 | 48 | 48 |
-| 古希臘羅馬 | 46 | 44 | 44 |
+| 古希臘羅馬 | 46 | 45 | 45 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 15 | 15 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、印加、美洲
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -268,7 +268,7 @@
 - `bud-astasahasrika-prajnaparamita-sa` 八千頌般若波羅蜜多（梵文）（梵語）譯– 標–
 - `bud-bodhicaryavatara-sa` 入菩薩行論（梵文）（梵語）譯✓ 標✓
 - `bud-buddhacarita-sa` 佛所行讚（梵文）（梵語）譯✓ 標✓
-- `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯– 標–
+- `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯✓ 標✓
 - `bud-lankavatara-sa` 楞伽經（梵文）（梵語）譯✓ 標✓
 - `bud-mulamadhyamakakarika-sa` 中論本頌（梵文）（梵語）譯✓ 標✓
 - `bud-prajnaparamita-hrdaya-sa` 般若波羅蜜多心經（梵文）（梵語）譯✓ 標✓
@@ -387,7 +387,7 @@
 
 ### 古希臘羅馬（46 部）
 
-- `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯– 標–
+- `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯✓ 標✓
 - `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯✓ 標✓
 - `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
