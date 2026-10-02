@@ -48,5 +48,15 @@
     "吠陀",
     "婆羅門"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "death",
+    "dreams-unconscious",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done"
 }

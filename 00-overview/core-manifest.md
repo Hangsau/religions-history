@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**467** / 518
-- 已標籤：**493** / 518
+- 已翻譯：**470** / 518
+- 已標籤：**496** / 518
 
 ## 各宗教核心進度
 
@@ -12,8 +12,8 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 159 | 160 |
 | 佛教 | 74 | 58 | 69 |
-| 印度教 | 58 | 46 | 46 |
-| 古希臘羅馬 | 46 | 43 | 43 |
+| 印度教 | 58 | 48 | 48 |
+| 古希臘羅馬 | 46 | 44 | 44 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 15 | 15 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、諾斯底、印加、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -340,7 +340,7 @@
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
 - `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標✓
 - `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標✓
-- `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯– 標–
+- `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯✓ 標✓
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
 - `garuda-purana` 金翅鳥往世書（Sanskrit）譯✓ 標✓
 - `gautama-dharmasutra` 喬達摩法經（梵語）譯✓ 標✓
@@ -357,7 +357,7 @@
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯✓ 標✓
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯✓ 標✓
-- `markandeya-purana` 摩根德耶往世書（Sanskrit）譯– 標–
+- `markandeya-purana` 摩根德耶往世書（Sanskrit）譯✓ 標✓
 - `matsya-purana` 魚往世書（Sanskrit）譯✓ 標✓
 - `mimamsa-sutra` 彌曼差經（梵語）譯✓ 標✓
 - `mimamsa-sutra-jaimini` 彌曼差經（闍彌尼）（Sanskrit）譯✓ 標✓
@@ -391,7 +391,7 @@
 - `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯✓ 標✓
 - `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
-- `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯– 標–
+- `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯✓ 標✓
 - `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯✓ 標✓
 - `epictetus-enchiridion-el` 愛比克泰德手冊（希臘原文）（Ancient Greek）譯✓ 標✓
