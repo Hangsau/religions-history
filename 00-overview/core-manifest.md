@@ -4,15 +4,15 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**481** / 518
-- 已標籤：**508** / 518
+- 已標籤：**511** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 159 | 160 |
-| 佛教 | 74 | 62 | 73 |
-| 印度教 | 58 | 53 | 54 |
+| 佛教 | 74 | 62 | 74 |
+| 印度教 | 58 | 53 | 56 |
 | 古希臘羅馬 | 46 | 46 | 46 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、諾斯底、美洲、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -296,7 +296,7 @@
 - `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯✓ 標✓
 - `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
-- `majjhima-nikaya` 中部經典（Pali）譯✓ 標–
+- `majjhima-nikaya` 中部經典（Pali）譯✓ 標✓
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
 - `samyuktagama` 雜阿含經（古典漢語）譯✓ 標✓
@@ -336,7 +336,7 @@
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
 - `bhagavad-gita` 薄伽梵歌（Sanskrit）譯– 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯✓ 標✓
-- `brahma-purana` 梵天往世書（Sanskrit）譯✓ 標–
+- `brahma-purana` 梵天往世書（Sanskrit）譯✓ 標✓
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
 - `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標✓
 - `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標✓
@@ -377,7 +377,7 @@
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標✓
 - `vaisheshika-sutra` 勝論經（梵語）譯✓ 標✓
 - `vaisheshika-sutra-kanada` 勝論經（迦那陀）（Sanskrit）譯✓ 標✓
-- `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯✓ 標–
+- `valmiki-ramayana` 羅摩衍那（Valmiki, critical）（Sanskrit）譯✓ 標✓
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯✓ 標✓
 - `vedanta-upadeshasahasri` 千則教誨（梵語）譯✓ 標✓
 - `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
