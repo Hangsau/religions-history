@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**479** / 518
-- 已標籤：**505** / 518
+- 已翻譯：**480** / 518
+- 已標籤：**506** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 159 | 160 |
 | 佛教 | 74 | 61 | 72 |
-| 印度教 | 58 | 52 | 52 |
+| 印度教 | 58 | 53 | 53 |
 | 古希臘羅馬 | 46 | 46 | 46 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、美洲、諾斯底、印加
+- 名單：巴哈伊、印加、諾斯底、美洲
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -372,7 +372,7 @@
 - `samkhya-karika-ishvarakrshna` 數論頌（自在黑）（Sanskrit）譯✓ 標✓
 - `samkhya-sutra-kapila` 數論經（迦毗羅）（Sanskrit）譯✓ 標✓
 - `shatapatha-brahmana-1` 百道梵書（Sanskrit）譯✓ 標✓
-- `shiva-purana` 濕婆往世書（Sanskrit）譯– 標–
+- `shiva-purana` 濕婆往世書（Sanskrit）譯✓ 標✓
 - `shvetashvatara-upanishad` 白騾奧義書（Sanskrit）譯✓ 標✓
 - `taittiriya-upanishad` 鷓鴣氏奧義書（含商羯羅注）（Sanskrit）譯✓ 標✓
 - `vaisheshika-sutra` 勝論經（梵語）譯✓ 標✓
