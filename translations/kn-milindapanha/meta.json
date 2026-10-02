@@ -49,5 +49,15 @@
     "印度希臘",
     "Indo-Greek"
   ],
-  "tag_status": "done"
+  "tag_status": "done",
+  "translation_status": "done",
+  "translation_models": "MiniMax-M3",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "communication-being-understood"
+  ],
+  "psych_tag_status": "done"
 }
