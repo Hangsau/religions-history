@@ -884,6 +884,11 @@
   ],
   "Aristotle": [
     {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1812,6 +1817,11 @@
     {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
       "religion": "印度教"
     },
     {
@@ -5668,6 +5678,13 @@
       "religion": "印度教"
     }
   ],
+  "Kālarudra": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    }
+  ],
   "Kālarātrī": [
     {
       "slug": "devi-gita",
@@ -5981,6 +5998,13 @@
       "religion": "美洲"
     }
   ],
+  "Liṅga": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    }
+  ],
   "Llech Las": [
     {
       "slug": "mabinogion-cy-2",
@@ -6160,6 +6184,11 @@
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
     }
   ],
   "Mahmackrah": [
@@ -6207,6 +6236,11 @@
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
     }
   ],
   "Maitrāyaṇī-Saṃhitā": [
@@ -6973,6 +7007,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -7328,6 +7367,11 @@
   ],
   "Nārada": [
     {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
@@ -7362,6 +7406,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -7683,6 +7732,13 @@
       "religion": "非洲"
     }
   ],
+  "Oṃ": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    }
+  ],
   "PER-EM-HRU": [
     {
       "slug": "egyptian-heaven-and-hell",
@@ -7810,6 +7866,11 @@
     {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -8135,6 +8196,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Pradhāna": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    }
+  ],
   "Prajapati": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -8433,6 +8501,13 @@
       "religion": "錫克教"
     }
   ],
+  "Rajas": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    }
+  ],
   "Ralston": [
     {
       "slug": "songs-of-russian-people",
@@ -8629,6 +8704,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -8673,6 +8753,13 @@
     {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
+      "religion": "印度教"
+    }
+  ],
+  "Rāmānuja": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -8886,6 +8973,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
     }
   ],
   "Sasanian": [
@@ -8921,6 +9013,13 @@
       "slug": "vulgate-job",
       "name_zh": "約伯記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Sattva": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
     }
   ],
   "Satyavatī": [
@@ -9683,6 +9782,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -9728,6 +9832,13 @@
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
+    }
+  ],
+  "Tamas": [
+    {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
     }
   ],
   "Tammuz": [
@@ -10461,6 +10572,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
     }
   ],
   "Veda": [
@@ -10669,6 +10785,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
@@ -10681,6 +10802,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -10879,8 +11005,18 @@
       "religion": "印度教"
     },
     {
+      "slug": "linga-purana",
+      "name_zh": "林伽往世書",
+      "religion": "印度教"
+    },
+    {
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -11852,6 +11988,13 @@
       "religion": "基督教"
     }
   ],
+  "astahasrika": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "asubhanimitta 不淨": [
     {
       "slug": "an1-ones",
@@ -12039,6 +12182,11 @@
     }
   ],
   "bhagavān": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
@@ -12880,6 +13028,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "emptiness": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "ephod": [
     {
       "slug": "samuel-1",
@@ -13246,6 +13401,13 @@
       "religion": "印度教"
     }
   ],
+  "gṛdhakūṭa": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "hajj": [
     {
       "slug": "quran-pickthall",
@@ -13603,6 +13765,13 @@
       "religion": "印度教"
     }
   ],
+  "kalpa": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
+    }
+  ],
   "kalā": [
     {
       "slug": "prashna-upanishad",
@@ -13715,6 +13884,13 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    }
+  ],
+  "krodha": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
     }
   ],
   "kusti sacred thread-girdle": [
@@ -13955,6 +14131,13 @@
     {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
+      "religion": "印度教"
+    }
+  ],
+  "manvantara": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -14658,6 +14841,13 @@
       "religion": "基督教"
     }
   ],
+  "prajnaparamita": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "prajñā": [
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
@@ -14673,6 +14863,11 @@
     }
   ],
   "prajñāpāramitā": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
@@ -14959,6 +15154,13 @@
       "religion": "猶太教"
     }
   ],
+  "raakṣasa": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
+    }
+  ],
   "rabbi": [
     {
       "slug": "kitab-al-khazari",
@@ -15060,6 +15262,13 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    }
+  ],
+  "rājagṛha": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
     }
   ],
   "rāma": [
@@ -15265,6 +15474,13 @@
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
+    }
+  ],
+  "satra": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
     }
   ],
   "satta bojjhaṅga": [
@@ -15527,6 +15743,13 @@
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
+    }
+  ],
+  "subhūti": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
     }
   ],
   "sudreh sacred shirt": [
@@ -16174,6 +16397,11 @@
   ],
   "wisdom": [
     {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
       "religion": "古希臘羅馬"
@@ -16251,6 +16479,11 @@
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
       "religion": "印度教"
     }
   ],
@@ -16757,6 +16990,13 @@
       "religion": "佛教"
     }
   ],
+  "Śrīdharīya": [
+    {
+      "slug": "vishnu-purana",
+      "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
+    }
+  ],
   "Śukla Yajurveda": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -16866,6 +17106,13 @@
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
       "religion": "印度教"
+    }
+  ],
+  "śāriputra": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
     }
   ],
   "śāstra": [
@@ -17093,6 +17340,13 @@
       "religion": "基督教"
     }
   ],
+  "αἰτία": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "αὐτάρκεια": [
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -17317,6 +17571,13 @@
       "religion": "基督教"
     }
   ],
+  "λογισμός": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "λόγος": [
     {
       "slug": "aristotle-de-anima-el",
@@ -17340,6 +17601,13 @@
     {
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "μνήμη": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -17455,6 +17723,11 @@
   ],
   "σοφία": [
     {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -17516,6 +17789,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "τέχνη": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "τύχη": [
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -17538,6 +17818,11 @@
     }
   ],
   "φύσις": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
@@ -18377,6 +18662,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἀρχαί": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἀρχιτέκτων": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἀταραξία": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -18424,10 +18723,24 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἐμπειρία": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἐντελέχεια": [
     {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἐπιστήμη": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -22601,6 +22914,13 @@
       "religion": "佛教"
     }
   ],
+  "八千頌": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "八卦": [
     {
       "slug": "yinfu-jing",
@@ -23925,6 +24245,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "原因與原理": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "原始美洲": [
@@ -29152,6 +29479,13 @@
       "religion": "儒教"
     }
   ],
+  "形上學": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "形式": [
     {
       "slug": "aristotle-de-anima-el",
@@ -32670,6 +33004,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
@@ -33136,6 +33475,13 @@
       "religion": "佛教"
     }
   ],
+  "本體論": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "朱熹": [
     {
       "slug": "doctrine-of-the-mean",
@@ -33411,6 +33757,11 @@
     }
   ],
   "梵文": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
@@ -37007,6 +37358,13 @@
       "religion": "印度教"
     }
   ],
+  "知識論": [
+    {
+      "slug": "aristotle-metaphysics-el",
+      "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "短箋": [
     {
       "slug": "bible-3-john",
@@ -37968,6 +38326,11 @@
     }
   ],
   "空性": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
@@ -40904,6 +41267,11 @@
     }
   ],
   "般若波羅蜜多": [
+    {
+      "slug": "bud-astasahasrika-prajnaparamita-sa",
+      "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",

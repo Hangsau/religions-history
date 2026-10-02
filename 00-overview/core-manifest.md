@@ -3,17 +3,17 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**475** / 518
-- 已標籤：**501** / 518
+- 已翻譯：**479** / 518
+- 已標籤：**505** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
 | 基督教 | 161 | 159 | 160 |
-| 佛教 | 74 | 60 | 71 |
-| 印度教 | 58 | 50 | 50 |
-| 古希臘羅馬 | 46 | 45 | 45 |
+| 佛教 | 74 | 61 | 72 |
+| 印度教 | 58 | 52 | 52 |
+| 古希臘羅馬 | 46 | 46 | 46 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
 | 北歐 | 15 | 15 | 15 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、美洲、諾斯底、印加
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -265,7 +265,7 @@
 - `avatamsaka-sutra` 大方廣佛華嚴經（八十華嚴）（古典漢語）譯✓ 標✓
 - `awakening-of-faith` 大乘起信論（古典漢語）譯✓ 標✓
 - `bud-abhidharmakosha-sa` 阿毗達磨俱舍論本頌（梵文）（梵語）譯✓ 標✓
-- `bud-astasahasrika-prajnaparamita-sa` 八千頌般若波羅蜜多（梵文）（梵語）譯– 標–
+- `bud-astasahasrika-prajnaparamita-sa` 八千頌般若波羅蜜多（梵文）（梵語）譯✓ 標✓
 - `bud-bodhicaryavatara-sa` 入菩薩行論（梵文）（梵語）譯✓ 標✓
 - `bud-buddhacarita-sa` 佛所行讚（梵文）（梵語）譯✓ 標✓
 - `bud-lalitavistara-sa` 方廣大莊嚴經（梵文）（梵語）譯✓ 標✓
@@ -351,7 +351,7 @@
 - `isha-upanishad` 伊舍奧義書（Sanskrit）譯– 標✓
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯– 標✓
 - `kurma-purana` 龜往世書（Sanskrit）譯✓ 標✓
-- `linga-purana` 林伽往世書（Sanskrit）譯– 標–
+- `linga-purana` 林伽往世書（Sanskrit）譯✓ 標✓
 - `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
 - `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標–
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯✓ 標✓
@@ -381,7 +381,7 @@
 - `vasistha-dharmasutra` 婆私吒法經（梵語）譯✓ 標✓
 - `vedanta-upadeshasahasri` 千則教誨（梵語）譯✓ 標✓
 - `vedanta-vivekacudamani` 明辨寶鬘（分別智頂珠）（梵語）譯✓ 標✓
-- `vishnu-purana` 毗濕奴往世書（Sanskrit）譯– 標–
+- `vishnu-purana` 毗濕奴往世書（Sanskrit）譯✓ 標✓
 - `yajnavalkya-smrti` 祭皮衣仙法論（梵語）譯✓ 標✓
 - `yoga-sutra` 瑜伽經（Sanskrit）譯✓ 標✓
 
@@ -390,7 +390,7 @@
 - `apollodorus-bibliotheca-el` 書庫·神話全書（希臘原文）（希臘）譯✓ 標✓
 - `apuleius-metamorphoses-la` 金驢記（拉丁原文）（拉丁）譯✓ 標✓
 - `aristotle-de-anima-el` 論靈魂（希臘原文）（Ancient Greek）譯✓ 標✓
-- `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯– 標–
+- `aristotle-metaphysics-el` 形上學（希臘原文）（希臘）譯✓ 標✓
 - `aristotle-nicomachean-ethics-el` 尼各馬可倫理學（希臘原文）（Ancient Greek）譯✓ 標✓
 - `aristotle-politics-el` 政治學（希臘原文）（Ancient Greek）譯✓ 標✓
 - `cicero-de-natura-deorum-la` 論神性（拉丁原文）（拉丁）譯✓ 標✓
