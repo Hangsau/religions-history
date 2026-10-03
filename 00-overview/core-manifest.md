@@ -4,7 +4,7 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**481** / 518
-- 已標籤：**511** / 518
+- 已標籤：**512** / 518
 
 ## 各宗教核心進度
 
@@ -23,7 +23,7 @@
 | 凱爾特 | 9 | 9 | 9 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 7 | 7 |
-| 諾斯底 | 6 | 6 | 5 |
+| 諾斯底 | 6 | 6 | 6 |
 | 現代新興 | 5 | 5 | 4 |
 | 神道 | 5 | 5 | 5 |
 | 錫克教 | 4 | 4 | 3 |
@@ -598,7 +598,7 @@
 ### 諾斯底（6 部）
 
 - `fragments-of-faith-forgotten` 被遺忘信仰的碎片 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
-- `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標–
+- `gnostics-and-their-remains` 諾斯底與其遺存 (King)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `pistis-sophia` 信仰智慧 (Pistis Sophia, Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-1` 三度偉大的赫爾墨斯 Vol 1 (Mead)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
 - `thrice-greatest-hermes-2` 三度偉大的赫爾墨斯 Vol 2 (Hermetica)（English (G.R.S. Mead and other 19c. translations)）譯✓ 標✓
