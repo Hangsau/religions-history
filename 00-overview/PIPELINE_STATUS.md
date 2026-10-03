@@ -2,12 +2,12 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-03 13:29:36 +0800
+- 更新時間：2026-10-03 15:20:27 +0800
 - 佇列 tier：**核心**
-- 進度：**514 / 518** 已翻譯+標籤
+- 進度：**515 / 518** 已翻譯+標籤
 - 目前處理：`(本輪完成)`
 - P0 尚未完整翻譯：0 部
-- 一般失敗待重試：4 部 — mahabharata, guru-granth-sahib-st, josephus-works, bible-psalms
+- 一般失敗待重試：3 部 — mahabharata, josephus-works, bible-psalms
 - 已阻塞待人工處理：0 部
 - M3 執行狀態：**running** — `mahabharata` (tag)
 

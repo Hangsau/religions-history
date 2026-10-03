@@ -4,7 +4,7 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**482** / 518
-- 已標籤：**514** / 518
+- 已標籤：**515** / 518
 
 ## 各宗教核心進度
 
@@ -26,7 +26,7 @@
 | 諾斯底 | 6 | 6 | 6 |
 | 現代新興 | 5 | 5 | 5 |
 | 神道 | 5 | 5 | 5 |
-| 錫克教 | 4 | 4 | 3 |
+| 錫克教 | 4 | 4 | 4 |
 | 巴哈伊 | 4 | 4 | 4 |
 | 伊斯蘭 | 4 | 4 | 4 |
 | 印加 | 3 | 3 | 3 |
@@ -623,7 +623,7 @@
 ### 錫克教（4 部）
 
 - `guru-granth-sahib-pa` 古魯格蘭特薩希卜（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
-- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯✓ 標–
+- `guru-granth-sahib-st` 錫克教根本經 Shri Guru Granth Sahib（English (translation, parts romanized Punjabi)）譯✓ 標✓
 - `japji-sahib-pa` 晨禱（旁遮普原文，古木基文字）（旁遮普）譯✓ 標✓
 - `sikh-religion-macauliffe` 錫克教（Macauliffe）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 
