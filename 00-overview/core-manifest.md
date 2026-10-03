@@ -3,8 +3,8 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**481** / 518
-- 已標籤：**512** / 518
+- 已翻譯：**482** / 518
+- 已標籤：**514** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 159 | 160 |
 | 佛教 | 74 | 62 | 74 |
-| 印度教 | 58 | 53 | 56 |
+| 印度教 | 58 | 54 | 57 |
 | 古希臘羅馬 | 46 | 46 | 46 |
 | 猶太教 | 45 | 41 | 44 |
 | 道教 | 18 | 12 | 18 |
@@ -24,7 +24,7 @@
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 7 | 7 |
 | 諾斯底 | 6 | 6 | 6 |
-| 現代新興 | 5 | 5 | 4 |
+| 現代新興 | 5 | 5 | 5 |
 | 神道 | 5 | 5 | 5 |
 | 錫克教 | 4 | 4 | 3 |
 | 巴哈伊 | 4 | 4 | 4 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、諾斯底、美洲、印加
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -352,8 +352,8 @@
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯– 標✓
 - `kurma-purana` 龜往世書（Sanskrit）譯✓ 標✓
 - `linga-purana` 林伽往世書（Sanskrit）譯✓ 標✓
-- `mahabharata` 摩訶婆羅多（Sanskrit）譯– 標–
-- `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標–
+- `mahabharata` 摩訶婆羅多（Sanskrit）譯✓ 標–
+- `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯✓ 標✓
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
 - `manu-smrti` 摩奴法典（Sanskrit）譯✓ 標✓
@@ -609,7 +609,7 @@
 - `book-of-mormon-1830` 摩門經（1830 初版）（English (原典)）譯✓ 標✓
 - `doctrine-and-covenants` 教義和聖約 (LDS)（English）譯✓ 標✓
 - `pearl-of-great-price` 無價珍珠（English (原典)）譯✓ 標✓
-- `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標–
+- `science-and-health-1906` 科學與健康暨解經之鑰（1906）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `studies-in-the-scriptures-1` 聖經研究 第一卷：諸世代的神聖計畫（Russell）（English）譯✓ 標✓
 
 ### 神道（5 部）
