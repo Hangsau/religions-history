@@ -3,23 +3,23 @@
 > 由 `scripts/audit-core.py` 自動產生。核心 = `meta.json` 的 `tier == 核心`。
 
 - 核心總數：**518** 部
-- 已翻譯：**482** / 518
+- 已翻譯：**518** / 518
 - 已標籤：**517** / 518
 
 ## 各宗教核心進度
 
 | 宗教 | 核心數 | 已譯 | 已標籤 |
 |------|-------|------|-------|
-| 基督教 | 161 | 159 | 161 |
-| 佛教 | 74 | 62 | 74 |
-| 印度教 | 58 | 54 | 57 |
+| 基督教 | 161 | 161 | 161 |
+| 佛教 | 74 | 74 | 74 |
+| 印度教 | 58 | 58 | 57 |
 | 古希臘羅馬 | 46 | 46 | 46 |
-| 猶太教 | 45 | 41 | 45 |
-| 道教 | 18 | 12 | 18 |
+| 猶太教 | 45 | 45 | 45 |
+| 道教 | 18 | 18 | 18 |
 | 北歐 | 15 | 15 | 15 |
 | 瑣羅亞斯德 | 11 | 11 | 11 |
 | 美洲 | 11 | 11 | 11 |
-| 儒教 | 10 | 3 | 10 |
+| 儒教 | 10 | 10 | 10 |
 | 凱爾特 | 9 | 9 | 9 |
 | 古埃及 | 8 | 8 | 8 |
 | 耆那教 | 7 | 7 | 7 |
@@ -36,7 +36,7 @@
 | 非洲 | 2 | 2 | 2 |
 | 阿茲特克 | 1 | 1 | 1 |
 | 赫爾墨斯 | 1 | 1 | 1 |
-| 墨家 | 1 | 0 | 1 |
+| 墨家 | 1 | 1 | 1 |
 
 ## 缺口分析
 
@@ -170,11 +170,11 @@
 - `sblgnt-galatians` 加拉太書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-hebrews` 希伯來書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-james` 雅各書（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-john` 約翰福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-jude` 猶大書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-luke` 路加福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-mark` 馬可福音（希臘原文）（Koine Greek）譯✓ 標✓
-- `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯– 標✓
+- `sblgnt-matthew` 馬太福音（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philemon` 腓利門書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-philippians` 腓立比書（希臘原文）（Koine Greek）譯✓ 標✓
 - `sblgnt-revelation` 啟示錄（希臘原文）（Koine Greek）譯✓ 標✓
@@ -278,30 +278,30 @@
 - `bud-udanavarga-sa` 優陀那品（梵文）（梵語）譯✓ 標✓
 - `bud-vajracchedika-prajnaparamita-sa` 金剛般若波羅蜜多（梵文）（梵語）譯✓ 標✓
 - `contemplation-sutra` 佛說觀無量壽佛經（古典漢語）譯✓ 標✓
-- `dhammapada` 法句經（Pali）譯– 標✓
-- `diamond-mulamadhyamaka` 中論（古典漢語）譯– 標✓
-- `diamond-sutra-kumarajiva` 金剛般若波羅蜜經（古典漢語）譯– 標✓
+- `dhammapada` 法句經（Pali）譯✓ 標✓
+- `diamond-mulamadhyamaka` 中論（古典漢語）譯✓ 標✓
+- `diamond-sutra-kumarajiva` 金剛般若波羅蜜經（古典漢語）譯✓ 標✓
 - `digha-nikaya` 長部經典（Pali）譯✓ 標✓
 - `dirghagama` 長阿含經（古典漢語）譯✓ 標✓
 - `ekottarikagama` 增一阿含經（古典漢語）譯✓ 標✓
 - `fortytwo-chapters-sutra` 四十二章經（古典漢語）譯✓ 標✓
-- `heart-sutra-kumarajiva` 摩訶般若波羅蜜大明咒經（古典漢語）譯– 標✓
-- `heart-sutra-xuanzang` 般若波羅蜜多心經（古典漢語）譯– 標✓
-- `infinite-life-sutra` 佛說無量壽經（古典漢語）譯– 標✓
+- `heart-sutra-kumarajiva` 摩訶般若波羅蜜大明咒經（古典漢語）譯✓ 標✓
+- `heart-sutra-xuanzang` 般若波羅蜜多心經（古典漢語）譯✓ 標✓
+- `infinite-life-sutra` 佛說無量壽經（古典漢語）譯✓ 標✓
 - `kn-jataka` 小部·本生 (547 故事)（Pali）譯✓ 標✓
 - `kn-milindapanha` 小部·彌蘭王問經（Pali）譯✓ 標✓
 - `ksitigarbha-sutra` 地藏菩薩本願經（古典漢語）譯✓ 標✓
-- `lotus-sutra` 妙法蓮華經（古典漢語）譯– 標✓
+- `lotus-sutra` 妙法蓮華經（古典漢語）譯✓ 標✓
 - `madhyamagama` 中阿含經（古典漢語）譯✓ 標✓
 - `mahaparinirvana-sutra-northern` 大般涅槃經（北本）（古典漢語）譯✓ 標✓
 - `mahaprajnaparamita-shastra` 大智度論（古典漢語）譯✓ 標✓
-- `mahayanasamgraha` 攝大乘論（古典漢語）譯– 標✓
+- `mahayanasamgraha` 攝大乘論（古典漢語）譯✓ 標✓
 - `majjhima-nikaya` 中部經典（Pali）譯✓ 標✓
 - `medicine-buddha-sutra` 藥師琉璃光如來本願功德經（古典漢語）譯✓ 標✓
 - `perfect-enlightenment-sutra` 大方廣圓覺修多羅了義經（古典漢語）譯✓ 標✓
 - `samyuktagama` 雜阿含經（古典漢語）譯✓ 標✓
-- `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯– 標✓
-- `sn1-devata` SN1 天人相應 (81 經)（Pali）譯– 標✓
+- `shurangama-sutra` 大佛頂如來密因修證了義諸菩薩萬行首楞嚴經（古典漢語）譯✓ 標✓
+- `sn1-devata` SN1 天人相應 (81 經)（Pali）譯✓ 標✓
 - `sn10-yakkha` SN10 夜叉相應（Pali）譯✓ 標✓
 - `sn11-sakka` SN11 帝釋相應（Pali）譯✓ 標✓
 - `sn12-nidana` SN12 因緣相應 (93 經)（Pali）譯✓ 標✓
@@ -320,8 +320,8 @@
 - `sn8-vangisa` SN8 婆耆舍相應（Pali）譯✓ 標✓
 - `sn9-vana` SN9 林相應（Pali）譯✓ 標✓
 - `sutta-nipata` 經集（Pali）譯✓ 標✓
-- `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯– 標✓
-- `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯– 標✓
+- `vijnaptimatratasiddhi` 成唯識論（古典漢語）譯✓ 標✓
+- `vimalakirti-sutra` 維摩詰所說經（古典漢語）譯✓ 標✓
 - `yogacarabhumi` 瑜伽師地論（古典漢語）譯✓ 標✓
 
 ### 印度教（58 部）
@@ -334,12 +334,12 @@
 - `atharvaveda-paippalada` 阿闥婆吠陀（派拍拉達傳本）（梵語）譯✓ 標✓
 - `atharvaveda-saunaka` 阿闥婆吠陀（Śaunaka）（Sanskrit）譯✓ 標✓
 - `baudhayana-dharmasutra` 包達耶那法經（梵語）譯✓ 標✓
-- `bhagavad-gita` 薄伽梵歌（Sanskrit）譯– 標✓
+- `bhagavad-gita` 薄伽梵歌（Sanskrit）譯✓ 標✓
 - `bhagavata-purana` 薄伽梵往世書（Sanskrit）譯✓ 標✓
 - `brahma-purana` 梵天往世書（Sanskrit）譯✓ 標✓
 - `brahma-sutra` 梵經（Sanskrit）譯✓ 標✓
 - `brahmanda-purana` 梵卵往世書（Sanskrit）譯✓ 標✓
-- `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯– 標✓
+- `brihadaranyaka-upanishad` 大林間奧義書（Sanskrit）譯✓ 標✓
 - `chandogya-upanishad` 唱讚奧義書（含注）（Sanskrit）譯✓ 標✓
 - `devi-gita` 女神之歌（Sanskrit）譯✓ 標✓
 - `garuda-purana` 金翅鳥往世書（Sanskrit）譯✓ 標✓
@@ -348,8 +348,8 @@
 - `gita-govinda` 牧童歌（梵語）譯✓ 標✓
 - `harivamsha` 訶利世系（Sanskrit）譯✓ 標✓
 - `hatha-yoga-pradipika` 哈達瑜伽明燈（梵語）譯✓ 標✓
-- `isha-upanishad` 伊舍奧義書（Sanskrit）譯– 標✓
-- `katha-upanishad` 迦塔奧義書（Sanskrit）譯– 標✓
+- `isha-upanishad` 伊舍奧義書（Sanskrit）譯✓ 標✓
+- `katha-upanishad` 迦塔奧義書（Sanskrit）譯✓ 標✓
 - `kurma-purana` 龜往世書（Sanskrit）譯✓ 標✓
 - `linga-purana` 林伽往世書（Sanskrit）譯✓ 標✓
 - `mahabharata` 摩訶婆羅多（Sanskrit）譯✓ 標–
@@ -441,19 +441,19 @@
 - `chronicles-2` 歷代志下（Hebrew）譯✓ 標✓
 - `daniel` 但以理書（Hebrew）譯✓ 標✓
 - `deuteronomy` 申命記（Hebrew）譯✓ 標✓
-- `ecclesiastes` 傳道書（Hebrew）譯– 標✓
+- `ecclesiastes` 傳道書（Hebrew）譯✓ 標✓
 - `esther` 以斯帖記（Hebrew）譯✓ 標✓
 - `exodus` 出埃及記（Hebrew）譯✓ 標✓
 - `ezekiel` 以西結書（Hebrew）譯✓ 標✓
 - `ezra` 以斯拉記（Hebrew）譯✓ 標✓
-- `genesis` 創世記（Hebrew）譯– 標✓
+- `genesis` 創世記（Hebrew）譯✓ 標✓
 - `guide-for-the-perplexed-st` 迷途指津 (Maimonides)（English (translation)）譯✓ 標✓
 - `habakkuk` 哈巴谷書（Hebrew）譯✓ 標✓
 - `haggai` 哈該書（Hebrew）譯✓ 標✓
 - `hosea` 何西阿書（Hebrew）譯✓ 標✓
 - `isaiah` 以賽亞書（Hebrew）譯✓ 標✓
 - `jeremiah` 耶利米書（Hebrew）譯✓ 標✓
-- `job` 約伯記（Hebrew）譯– 標✓
+- `job` 約伯記（Hebrew）譯✓ 標✓
 - `joel` 約珥書（Hebrew）譯✓ 標✓
 - `jonah` 約拿書（Hebrew）譯✓ 標✓
 - `josephus-works` 約瑟夫斯著作（English (translation)）譯✓ 標✓
@@ -472,7 +472,7 @@
 - `nehemiah` 尼希米記（Hebrew）譯✓ 標✓
 - `numbers` 民數記（Hebrew）譯✓ 標✓
 - `obadiah` 俄巴底亞書（Hebrew）譯✓ 標✓
-- `proverbs` 箴言（Hebrew）譯– 標✓
+- `proverbs` 箴言（Hebrew）譯✓ 標✓
 - `psalms` 詩篇（Hebrew）譯✓ 標✓
 - `ruth` 路得記（Hebrew）譯✓ 標✓
 - `samuel-1` 撒母耳記上（Hebrew）譯✓ 標✓
@@ -486,17 +486,17 @@
 
 - `baopuzi` 抱朴子（內外篇）（古典漢語）譯✓ 標✓
 - `duren-jing` 靈寶無量度人上品妙經（古典漢語）譯✓ 標✓
-- `huainanzi` 淮南子（古典漢語）譯– 標✓
+- `huainanzi` 淮南子（古典漢語）譯✓ 標✓
 - `huangdi-neijing` 黃帝內經（古典漢語）譯✓ 標✓
-- `huangting-neijing` 黃庭內景經（古典漢語）譯– 標✓
+- `huangting-neijing` 黃庭內景經（古典漢語）譯✓ 標✓
 - `huangting-waijing` 黃庭外景經（古典漢語）譯✓ 標✓
-- `liezi` 列子（古典漢語）譯– 標✓
+- `liezi` 列子（古典漢語）譯✓ 標✓
 - `qingjing-jing` 太上老君說常清靜經（古典漢語）譯✓ 標✓
-- `taiping-jing` 太平經（古典漢語）譯– 標✓
+- `taiping-jing` 太平經（古典漢語）譯✓ 標✓
 - `taishang-ganying-pian` 太上感應篇（古典漢語）譯✓ 標✓
 - `taiyi-jinhua-zongzhi` 太乙金華宗旨（古典漢語）譯✓ 標✓
-- `tao-te-ching` 道德經（古典漢語）譯– 標✓
-- `wenzi` 文子（古典漢語）譯– 標✓
+- `tao-te-ching` 道德經（古典漢語）譯✓ 標✓
+- `wenzi` 文子（古典漢語）譯✓ 標✓
 - `wuzhen-pian` 悟真篇（古典漢語）譯✓ 標✓
 - `yinfu-jing` 黃帝陰符經（古典漢語）譯✓ 標✓
 - `zhouyi-cantong-qi` 周易參同契（古典漢語）譯✓ 標✓
@@ -551,15 +551,15 @@
 
 ### 儒教（10 部）
 
-- `analects` 論語（古典漢語）譯– 標✓
-- `book-of-changes` 周易（古典漢語）譯– 標✓
+- `analects` 論語（古典漢語）譯✓ 標✓
+- `book-of-changes` 周易（古典漢語）譯✓ 標✓
 - `book-of-poetry` 詩經（古典漢語）譯✓ 標✓
 - `chun-qiu-zuo-zhuan` 春秋左傳（古典漢語）譯✓ 標✓
-- `doctrine-of-the-mean` 中庸（古典漢語）譯– 標✓
-- `great-learning` 大學（古典漢語）譯– 標✓
-- `liji` 禮記（古典漢語）譯– 標✓
-- `mengzi` 孟子（古典漢語）譯– 標✓
-- `shang-shu` 尚書（古典漢語）譯– 標✓
+- `doctrine-of-the-mean` 中庸（古典漢語）譯✓ 標✓
+- `great-learning` 大學（古典漢語）譯✓ 標✓
+- `liji` 禮記（古典漢語）譯✓ 標✓
+- `mengzi` 孟子（古典漢語）譯✓ 標✓
+- `shang-shu` 尚書（古典漢語）譯✓ 標✓
 - `taiji-tushuo` 太極圖說（古典漢語）譯✓ 標✓
 
 ### 凱爾特（9 部）
@@ -680,5 +680,5 @@
 
 ### 墨家（1 部）
 
-- `mozi` 墨子（古典漢語）譯– 標✓
+- `mozi` 墨子（古典漢語）譯✓ 標✓
 

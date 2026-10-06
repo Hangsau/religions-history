@@ -368,6 +368,19 @@ def pipeline_health(now: float, runtime: dict | None = None) -> dict:
     base = {"done": done, "total": total, "current": current, "retry": retry,
             "blocked": blocked, "p0_pending": p0_pending}
 
+    if runtime.get("status") == "idle":
+        reason = runtime.get("idle_reason")
+        if reason == "blocked":
+            slugs = ", ".join(runtime.get("blocked_slugs") or [])
+            return {**base, "color": BAD,
+                    "text": f"翻譯管線已阻塞：{done}/{total}；待修復 {slugs or blocked}；修復後解鎖續跑"}
+        if reason == "retry_wait":
+            return {**base, "color": PROG,
+                    "text": f"翻譯管線等待重試：{done}/{total}；下次 {runtime.get('next_retry_at') or '待排程'}"}
+        if reason != "done":
+            return {**base, "color": PROG,
+                    "text": f"翻譯管線閒置：{done}/{total}；{current}"}
+
     if (total and done >= total) or current.startswith("(完成"):
         return {**base, "color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
 
@@ -482,6 +495,9 @@ def translation_activity(now: float, runtime: dict | None = None) -> dict:
                 d["name"] = json.loads(mp.read_text(encoding="utf-8")).get("name_zh")
             except (OSError, json.JSONDecodeError):
                 pass
+    if runtime and runtime.get("status") == "idle":
+        d.update(current=None, name=None, action=None, chunk=None, provider="—",
+                 pace_hr=None, eta_h=None, fallback_active=False)
     return d
 
 
@@ -514,12 +530,11 @@ def collect() -> dict:
 
     # ---- 收集 / 下載（Pipeline A）動態 ----
     now = time.time()
-    paths = list(status.TRANSLATIONS_DIR.glob("*/meta.json"))
-    if paths:
-        newest = max(paths, key=lambda p: p.stat().st_mtime)
-        d["dl_newest"] = newest.parent.name
-        d["dl_newest_ago"] = fmt_ago(now - newest.stat().st_mtime)
-        d["dl_landed_30m"] = sum(1 for p in paths if now - p.stat().st_mtime < 1800)
+    newest, age, landed = status.collection_activity(now)
+    if newest:
+        d["dl_newest"] = newest
+        d["dl_newest_ago"] = fmt_ago(age)
+        d["dl_landed_30m"] = landed
     else:
         d["dl_newest"], d["dl_newest_ago"], d["dl_landed_30m"] = "—", "—", 0
     runtime = load_runtime(now)

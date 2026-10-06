@@ -172,6 +172,108 @@ class TranslateCheckpointTests(unittest.TestCase):
         self.assertNotIn("tag_status", meta)
         self.assertNotIn("psych_tag_status", meta)
 
+    def test_tag_resume_uses_only_missing_chunks_and_merges_saved_tags(self):
+        base, _ = self.make_slug()
+        first = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"],
+                            "keywords": ["saved"]})
+        rest = json.dumps({"semantic_tags": ["faith"], "psych_tags": ["doubt"],
+                           "keywords": ["later"]})
+        with mock.patch.object(translate, "call_m3", side_effect=[first, None]):
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning", "faith"}, {"death", "doubt"}))
+        active = self.checkpoints / "demo/tag/active"
+        manifest = json.loads((active / "manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual([c["status"] for c in manifest["chunks"]], ["done", "pending", "pending"])
+        self.assertTrue((active / "chunk-0001.json").exists())
+        # Clear in-memory work to simulate a new interpreter; only files survive.
+        translate.CURRENT_WORK.clear()
+        with mock.patch.object(translate, "call_m3", return_value=rest) as call:
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning", "faith"}, {"death", "doubt"}))
+        self.assertEqual(call.call_count, 2)
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertEqual(meta["semantic_tags"], ["faith", "meaning"])
+        self.assertEqual(meta["psych_tags"], ["death", "doubt"])
+        self.assertEqual(meta["keywords"], ["saved", "later"])
+        self.assertFalse(active.exists())
+
+    def test_tag_vocab_change_invalidates_saved_chunks(self):
+        self.make_slug()
+        good = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": []})
+        with mock.patch.object(translate, "call_m3", side_effect=[good, None]):
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        with mock.patch.object(translate, "call_m3", return_value=good) as call:
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning", "faith"}, {"death"}))
+        self.assertEqual(call.call_count, 3)
+        self.assertTrue(list((self.checkpoints / "demo/tag").glob("stale-*")))
+
+    def test_tag_source_role_metadata_and_model_changes_invalidate_cache(self):
+        good = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": []})
+        for changed in ("source", "role", "metadata", "model"):
+            with self.subTest(changed=changed):
+                base, _ = self.make_slug(changed)
+                with mock.patch.object(translate, "call_m3", side_effect=[good, None]):
+                    self.assertFalse(translate.tag_one(changed, "role", {"meaning"}, {"death"}))
+                role, model = "role", translate.PRIMARY_MODEL
+                if changed == "source":
+                    path = base / "raw/original.txt"
+                    path.write_text(path.read_text(encoding="utf-8").replace("AAA", "ZZZ"), encoding="utf-8")
+                elif changed == "role":
+                    role = "changed role"
+                elif changed == "metadata":
+                    path = base / "meta.json"
+                    meta = json.loads(path.read_text(encoding="utf-8"))
+                    meta["name_zh"] = "更新書名"
+                    path.write_text(json.dumps(meta), encoding="utf-8")
+                else:
+                    model = "test-other-model"
+                with mock.patch.object(translate, "PRIMARY_MODEL", model), \
+                        mock.patch.object(translate, "call_m3", return_value=good) as call:
+                    self.assertTrue(translate.tag_one(changed, role, {"meaning"}, {"death"}))
+                self.assertEqual(call.call_count, 3)
+
+    def test_tag_rejects_invalid_cached_schema_even_with_matching_checksum(self):
+        self.make_slug()
+        good = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": []})
+        with mock.patch.object(translate, "call_m3", side_effect=[good, None]):
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        active = self.checkpoints / "demo/tag/active"
+        manifest = json.loads((active / "manifest.json").read_text(encoding="utf-8"))
+        translate._save_checkpoint_part(active, manifest, 1, '{"semantic_tags": "meaning"}')
+        with mock.patch.object(translate, "call_m3", return_value=good) as call:
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        self.assertEqual(call.call_count, 3)
+
+    def test_tag_rejects_wrong_shapes_and_escaped_control_characters(self):
+        valid = {"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": ["詞"]}
+        for invalid in ({}, {**valid, "keywords": "text"}, {**valid, "psych_tags": [3]},
+                        {**valid, "keywords": ["bad\x00value"]}, {**valid, "keywords": ["bad\ufffd"]}):
+            with self.subTest(invalid=invalid), \
+                    mock.patch.object(translate, "TAG_PARSE_FAILURE_DIR", self.root / "dumps"), \
+                    mock.patch.object(translate, "call_m3", side_effect=[json.dumps(invalid), json.dumps(valid)]) as call:
+                result, obj = translate._call_tag_json("prompt", "demo", 1, 1, 1, "role", False)
+                self.assertEqual((result, obj), ("ok", valid))
+                self.assertEqual(call.call_count, 2)
+
+    def test_tag_dry_run_has_no_writes(self):
+        base, _ = self.make_slug()
+        before = (base / "meta.json").read_bytes()
+        with mock.patch.object(translate, "call_m3", return_value=None):
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, {"death"}, dry_run=True))
+        self.assertFalse(self.checkpoints.exists())
+        self.assertFalse(self.runtime.exists())
+        self.assertFalse(self.metrics.exists())
+        self.assertEqual(before, (base / "meta.json").read_bytes())
+
+    def test_tag_short_and_empty_source_boundaries(self):
+        base, _ = self.make_slug(chapter_chars=50)
+        good = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": []})
+        with mock.patch.object(translate, "call_m3", return_value=good) as call:
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        self.assertEqual(call.call_count, 1)
+        (base / "raw/original.txt").write_text("", encoding="utf-8")
+        with mock.patch.object(translate, "call_m3") as call:
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        call.assert_not_called()
+
     def test_tag_chunk_reasks_after_unparseable_reply(self):
         base, _ = self.make_slug()
         good = json.dumps({

@@ -3,6 +3,43 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-10-07 標籤斷點續跑與狀態修復
+
+### 結果
+
+- 核心 518 部都有通過現有完整性檢查的文本；翻譯＋雙標籤完成 517/518。
+  《摩訶婆羅多》譯文已完成，剩標籤 3162 段；本次沒有重譯或改動原文。
+- 10/3 停在 tag chunk 247，回覆包含控制字元及損壞 JSON，四次書級失敗後 blocked。
+  舊 tag_one 無 checkpoint，重跑會從頭計算；supervisor 因只剩 blocked 每小時空轉退出。
+- 翻譯 checkpoint 沿用；標籤新增逐段 JSON checkpoint，驗證三欄皆為字串陣列且無控制／替換字元。
+  source/model/role/prompt/metadata/vocab 改變時歸檔舊 checkpoint；壞 checksum 或 payload 重做該段。
+  全部段落成功才合併 tags 並標 done，中途失敗不發布部分結果。
+- auto-pipeline 即使 processed=0 也保存 idle 與原因、更新 PIPELINE_STATUS；quota/provider 等待不被覆寫。
+  看板不再因 supervisor 空轉的新日誌或上一部 running 而誤報正在執行。
+- 補齊 36 部核心既有完整檔案的缺漏 translation_status；保留 needs-review 等明示狀態。
+  README、PROGRESS、core-manifest、STATUS 對齊：完成狀態＋檔案通過 518，雙標籤各 519，三軸 517。
+- 下載活性改讀 raw/original.txt mtime，兩個報表共用，避免 metadata 修復誤報新增 36 部經文。
+
+### 驗證與恢復證據
+
+- 82 項 unittest 通過，含跨進程鎖互斥、中斷續跑、來源／角色／模型／metadata／詞彙改變、
+  損壞 JSON／cache、單段／空輸入、dry-run 無寫入、空佇列／blocked／retry／wait 狀態。
+- verify.py --all：4683 部全數 PASS；metadata 回填後針對 37 部再驗證全 PASS。
+- 真實 MiniMax API 試跑保存 tag chunks 1–3，再啟動獨立 supervisor；run log 有 resume 1/3162、
+  2/3162、3/3162，接續 chunk 4。06:58:35 已保存 8 段、正在跑第 9 段。
+- supervisor PID 55496、worker PID 49896；維護 HALT 已移除，mahabharata 已 unblock。
+  **不用再開第二條生成管線**。PID／進度屬當時快照，以 logs 的活性與 checkpoint 為準。
+- 本機備份及驗收證據：tmp/tag-resume-20261007/（gitignored）；原文及譯文 SHA-256 均未改變。
+
+### 後續
+
+1. 讓現有 supervisor 完成剩餘標籤；遇配額／供應商等待沿既有 watcher 機制續跑，已保存段落不重問。
+2. 完成核心後做內容品質驗收；現有完整性檢查不等於人工翻譯／心理標籤品質審閱。
+3. 次要佇列排除 alias 後 257 部，尚未啟動；不自動跨過核心品質驗收。
+4. 已開啟的桌面 hub 要在下次重開時載入新的 status_gui.py；磁碟 runtime 與文字報表已更新。
+
+---
+
 ## 2026-10-01 管線從「全部 blocked 空轉」恢復（本次工作）
 
 ### 當時狀況

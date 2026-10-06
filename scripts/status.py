@@ -86,6 +86,20 @@ def classification_complete(meta: dict) -> bool:
             and semantic_complete(meta) and psych_complete(meta))
 
 
+def collection_activity(now: float) -> tuple[str | None, float, int]:
+    """Metadata/tag edits are not new downloads; measure original text arrivals."""
+    arrivals = []
+    for path in TRANSLATIONS_DIR.glob("*/raw/original.txt"):
+        try:
+            arrivals.append((path.stat().st_mtime, path.parent.parent.name))
+        except OSError:
+            continue
+    if not arrivals:
+        return None, 0, 0
+    newest_at, slug = max(arrivals)
+    return slug, max(0, now - newest_at), sum(0 <= now - stamp < 1800 for stamp, _ in arrivals)
+
+
 def git_recent(n: int = 6) -> list[str]:
     try:
         r = subprocess.run(["git", "log", f"-{n}", "--oneline", "--no-decorate"],
@@ -168,14 +182,11 @@ def build() -> str:
     # ---- 收集 / 下載（Pipeline A）----
     import time as _time
     now = _time.time()
-    paths = list(TRANSLATIONS_DIR.glob("*/meta.json"))
+    newest, age, landed = collection_activity(now)
     L.append("## 收集 / 下載（Pipeline A）")
     L.append("")
-    if paths:
-        newest = max(paths, key=lambda p: p.stat().st_mtime)
-        landed = sum(1 for p in paths if now - p.stat().st_mtime < 1800)
-        ago_m = int((now - newest.stat().st_mtime) / 60)
-        L.append(f"- 最新收錄：`{newest.parent.name}`（{ago_m} 分前）· 近 30 分 **+{landed}** 部")
+    if newest:
+        L.append(f"- 最新收錄：`{newest}`（{int(age / 60)} 分前）· 近 30 分 **+{landed}** 部")
     dl_logs = list(LOGS.glob("pipeline-a*.log"))
     if dl_logs:
         active = max(dl_logs, key=lambda p: p.stat().st_mtime)

@@ -34,3 +34,7 @@ logs/pipeline-failed.json
 logs/pipeline-failed.lock
 logs/pipeline-diagnostic.json
 logs/pipeline-idle.json
+
+# Local repair evidence and pre-change backups
+tmp/tag-resume-20261007/
+tmp/tag-*.log

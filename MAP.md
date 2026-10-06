@@ -14,7 +14,11 @@
 
 ## Reporting path
 
-- `logs/pipeline-runtime.json`: authoritative live/wait/paused state and handoff point.
+- `logs/pipeline-runtime.json`: authoritative live/wait/paused/idle state and handoff point.
+  `idle_reason` distinguishes blocked, retry_wait, done, batch_limit and paused;
+  idle records clear the preceding active slug/chunk. Quota/provider waits retain
+  their existing retry/handoff fields. `status_gui.py` (also used by deskboard)
+  renders idle state independently of periodic supervisor log activity.
 - `logs/pipeline-failed.json`: retryable/blocked scripture failures.
 - `logs/pipeline-metrics.jsonl`: append-only attempt and completion metrics.
 - `scripts/status_gui.py`: desktop board, operational controls and diagnostic export.
@@ -26,5 +30,10 @@
 
 - `logs/pipeline-HALT.flag`: safe pause at the next scripture boundary.
 - `logs/auto-pipeline.lock`: prevents duplicate MiniMax generation.
-- `logs/pipeline-checkpoints/<slug>/<task>/active/`: resume point for long translations.
+- `logs/pipeline-checkpoints/<slug>/<task>/active/`: resume point for translations and tags.
+  Tag chunks use JSON files with checksums; identity includes source, model, role,
+  tagging prompt, metadata used by that prompt, and both vocabularies. Invalid parts
+  are regenerated; changed identity archives the prior checkpoint. Tags merge into
+  metadata only after every chunk succeeds. Missing legacy translation status is
+  reconciled before skipping completed books, without overriding explicit review states.
 - `scripts/install-pipeline-task.ps1`: optional Task Scheduler installer; it is not registered automatically.

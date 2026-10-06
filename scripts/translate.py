@@ -139,7 +139,7 @@ def _checkpoint_manifest(slug: str, task: str, source_text: str, role: str,
                 "index": i,
                 "input_sha256": _sha256_text(chunk_text),
                 "status": "pending",
-                "output_file": f"chunk-{i:04d}.md",
+                "output_file": f"chunk-{i:04d}.{'json' if task == 'tag' else 'md'}",
                 "output_sha256": None,
                 "completed_at": None,
             }
@@ -538,7 +538,8 @@ def set_current_work(slug: str, task: str, chunk: int | None = None,
     _write_runtime_state(status="running", slug=slug, task=task, chunk=chunk,
                          chunks_total=chunks_total, last_error=None, next_retry_at=None,
                          failure_code=None, failure_scope=None, handoff=None,
-                         pause_reason=None,
+                         pause_reason=None, idle_reason=None,
+                         blocked_slugs=[], retryable_slugs=[], runnable_count=None,
                          request_started_at=datetime.now(TZ).isoformat())
 
 
@@ -993,9 +994,24 @@ def _dump_tag_parse_failure(slug: str, chunk: int | None, attempt: int, output: 
     _atomic_write_text(path, output)
 
 
+def valid_tag_payload(obj: object) -> bool:
+    """Reject malformed fields and corrupted strings before saving or aggregating."""
+    if not isinstance(obj, dict):
+        return False
+    for key in ("semantic_tags", "psych_tags", "keywords"):
+        values = obj.get(key)
+        if not isinstance(values, list):
+            return False
+        if any(not isinstance(value, str) or any(
+                ord(char) < 32 or 127 <= ord(char) <= 159 or char == "\ufffd"
+                for char in value) for value in values):
+            return False
+    return True
+
+
 def _call_tag_json(prompt: str, slug: str, input_chars: int,
                    chunk: int | None, chunks_total: int | None,
-                   role: str, dry_run: bool) -> tuple[str, dict | None]:
+                   role: str, dry_run: bool, resumed: bool = False) -> tuple[str, dict | None]:
     """Ask for one chunk's tags, re-asking when the reply is not parseable JSON.
 
     Returns ("call_failed", None) when the transport failed (failure already recorded),
@@ -1004,14 +1020,14 @@ def _call_tag_json(prompt: str, slug: str, input_chars: int,
     """
     for attempt in range(1, TAG_PARSE_ATTEMPTS + 1):
         output = _call_m3_measured(prompt, slug, "tag", input_chars, chunk, chunks_total,
-                                   dry_run=dry_run, system=role)
+                                   resumed=resumed, dry_run=dry_run, system=role)
         if output is None:
             return ("dry_run" if dry_run else "call_failed"), None
         obj = parse_tag_json(output)
-        if obj is not None:
+        if valid_tag_payload(obj):
             return "ok", obj
         _dump_tag_parse_failure(slug, chunk, attempt, output)
-        print(f"    [warn] {slug} (tag) chunk {chunk}: unparseable JSON, "
+        print(f"    [warn] {slug} (tag) chunk {chunk}: invalid tag JSON, "
               f"attempt {attempt}/{TAG_PARSE_ATTEMPTS}")
     return "invalid", None
 
@@ -1075,43 +1091,60 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
                 if isinstance(k, str) and k.strip() and k not in kw:
                     kw.append(k.strip())
 
-    # Chunk if large; union tags across chunks
-    if len(text) <= MAX_CHARS_PER_CALL:
-        prompt = build_tag_prompt(slug, meta, text, whitelist, psych_whitelist)
-        print(f"  [start] {slug} (tag)  (prompt {len(prompt)} chars)")
-        if not dry_run:
-            set_current_work(slug, "tag")
-        result, obj = _call_tag_json(prompt, slug, len(text), None, None, role, dry_run)
-        if result in ("dry_run", "call_failed"):
-            return dry_run
-        if obj is None:
-            _set_failure("invalid_tag_json", "scripture", "tag response was not parseable JSON")
-            print(f"  [error] {slug} (tag): unparseable JSON")
-            return False
-        ingest(obj)
-    else:
+    if not text.strip():
+        _set_failure("invalid_tag_input", "scripture", "tagging source is empty")
+        return False
+    # Both short and long books use the same durable, atomic checkpoint path.
+    chunk_texts = [text]
+    if len(text) > MAX_CHARS_PER_CALL:
         chapters = split_chapters(text)
         groups = group_chunks(chapters, MAX_CHARS_PER_CALL - 5000)
-        tag_chunks_total = len(groups)
-        print(f"  [chunk] {slug} (tag): {len(chapters)} chapters → {len(groups)} chunks")
-        for i, group in enumerate(groups, 1):
-            chunk_text = "\n".join(group)
-            note = f"**本經分 {len(groups)} 段，這是第 {i}/{len(groups)} 段，只針對本段抽標籤。**"
+        chunk_texts = ["\n".join(group) for group in groups]
+    tag_chunks_total = len(chunk_texts)
+    print(f"  [chunk] {slug} (tag): {tag_chunks_total} chunks")
+    completed = {}
+    if not dry_run:
+        # Include the actual prompt template, metadata and both vocabularies in
+        # identity, so resumed chunks cannot silently use obsolete instructions.
+        checkpoint_role = role + "\n" + build_tag_prompt(
+            slug, meta, "", whitelist, psych_whitelist)
+        active, manifest, completed = _prepare_checkpoint(
+            slug, "tag", text, checkpoint_role, chunk_texts)
+    for i, chunk_text in enumerate(chunk_texts, 1):
+        obj = None
+        if i in completed:
+            try:
+                cached = json.loads(completed[i])
+            except json.JSONDecodeError:
+                cached = None
+            if valid_tag_payload(cached):
+                obj = cached
+                print(f"    [resume {i}/{tag_chunks_total}] {slug} (tag)  checkpoint hit")
+            else:
+                manifest["chunks"][i - 1].update(
+                    status="pending", output_sha256=None, completed_at=None)
+                _atomic_write_text(active / "manifest.json",
+                                   json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+        if obj is None:
+            note = (f"**本經分 {tag_chunks_total} 段，這是第 {i}/{tag_chunks_total} 段，"
+                    "只針對本段抽標籤。**") if tag_chunks_total > 1 else ""
             prompt = build_tag_prompt(slug, meta, chunk_text, whitelist, psych_whitelist, note)
-            print(f"    [chunk {i}/{len(groups)}] {slug} (tag)")
+            print(f"    [chunk {i}/{tag_chunks_total}] {slug} (tag)")
             if not dry_run:
-                set_current_work(slug, "tag", i, len(groups))
-            result, obj = _call_tag_json(prompt, slug, len(chunk_text), i, len(groups),
-                                         role, dry_run)
+                set_current_work(slug, "tag", i, tag_chunks_total)
+            result, obj = _call_tag_json(prompt, slug, len(chunk_text), i, tag_chunks_total,
+                                         role, dry_run, resumed=bool(completed))
             if result == "dry_run":
                 continue
             if result == "call_failed":
                 return False
             if obj is None:
-                _set_failure("invalid_tag_json", "scripture", f"tag chunk {i} was not parseable JSON")
-                print(f"    [error] chunk {i} returned unparseable JSON for {slug} (tag)")
+                _set_failure("invalid_tag_json", "scripture", f"tag chunk {i} returned invalid tag JSON")
+                print(f"    [error] chunk {i} returned invalid tag JSON for {slug} (tag)")
                 return False
-            ingest(obj)
+            _save_checkpoint_part(active, manifest, i,
+                                  json.dumps(obj, ensure_ascii=False, sort_keys=True))
+        ingest(obj)
 
     if dry_run:
         return True
@@ -1123,6 +1156,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         print(f"  [error] {slug} (tag): empty controlled tag axis; metadata unchanged")
         return False
     merge_meta_tags(slug, semantic_tags, psych_tags, keywords)
+    shutil.rmtree(active, ignore_errors=True)
     _record_completion(slug, "tag", 0, tag_chunks_total)
     print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} semantic, "
           f"{len(psych_tags)} psych, {len(keywords)} keywords")

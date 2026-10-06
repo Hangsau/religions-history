@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 import tempfile
 import threading
@@ -14,6 +15,21 @@ import status_gui  # noqa: E402
 
 
 class StatusBoardDataTests(unittest.TestCase):
+    def test_metadata_updates_do_not_count_as_new_downloads(self):
+        with tempfile.TemporaryDirectory() as td, \
+                mock.patch.object(status_gui.status, "TRANSLATIONS_DIR", Path(td)):
+            raw = Path(td) / "book/raw/original.txt"
+            raw.parent.mkdir(parents=True)
+            raw.write_text("old original", encoding="utf-8")
+            now = time.time()
+            os.utime(raw, (now - 7200, now - 7200))
+            (raw.parent.parent / "meta.json").write_text('{"translation_status":"done"}', encoding="utf-8")
+            slug, age, landed = status_gui.status.collection_activity(now)
+            self.assertEqual((slug, landed), ("book", 0))
+            self.assertGreaterEqual(age, 7199)
+            os.utime(raw, (now - 10, now - 10))
+            self.assertEqual(status_gui.status.collection_activity(now)[2], 1)
+
     def test_fresh_runtime_loads_and_old_schema_is_safe(self):
         with tempfile.TemporaryDirectory() as td:
             runtime = Path(td) / "runtime.json"

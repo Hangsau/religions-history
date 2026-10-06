@@ -59,6 +59,53 @@ def set_meta_status(slug: str, key: str, value: str) -> None:
             meta_p, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
 
 
+def reconcile_missing_translation_status(queue: list[str]) -> list[Path]:
+    """Fill missing legacy status, without overriding explicit review/failure states."""
+    touched = []
+    for slug in queue:
+        meta_path = TRANSLATIONS_DIR / slug / "meta.json"
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        if meta.get("translation_status") is not None:
+            continue
+        path = meta_path.parent / "01-translation.md"
+        if not translate.has_complete_translation(path):
+            continue
+        if translate.find_contamination(path.read_text(encoding="utf-8")):
+            continue
+        set_meta_status(slug, "translation_status", "done")
+        touched.append(meta_path)
+    return touched
+
+
+def finish_runtime(tier: str, queue: list[str], tasks: list[str], failure_state: dict) -> str:
+    """Close the active state even when this run found no runnable books."""
+    if translate.is_waiting_generation():
+        return "(等待供應商恢復)"
+    failures = failure_state.get("failures", {})
+    pending = build_pending(queue, tasks, failures, tier, translations_dir=TRANSLATIONS_DIR)
+    blocked = [slug for slug in queue if failures.get(slug, {}).get("status") == "blocked"]
+    retryable = [slug for slug in queue if failures.get(slug, {}).get("status") == "retryable"]
+    if HALT_PATH.exists():
+        reason, label = "paused", "(人工暫停)"
+    elif pending:
+        reason, label = "batch_limit", "(本輪結束，尚有待處理項目)"
+    elif retryable:
+        reason, label = "retry_wait", "(等待重試)"
+    elif blocked:
+        reason, label = "blocked", "(等待人工修復)"
+    else:
+        reason, label = "done", "(完成)"
+    retry_times = [failures[slug].get("next_retry_at") for slug in retryable]
+    translate._write_runtime_state(
+        status="idle", idle_reason=reason, tier=tier, slug=None, task=None,
+        chunk=None, chunks_total=None, request_started_at=None,
+        next_retry_at=min((value for value in retry_times if value), default=None),
+        retry_attempt=0, last_error=None, failure_code=None, failure_scope=None,
+        wait_mode=None, quota_wait_mode=None, pause_reason=None, handoff=None,
+        blocked_slugs=blocked, retryable_slugs=retryable, runnable_count=len(pending))
+    return label
+
+
 def write_status(tier: str, done: int, total: int, current: str, failure_state: dict) -> None:
     now = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
     try:
@@ -77,6 +124,8 @@ def write_status(tier: str, done: int, total: int, current: str, failure_state: 
     elif runtime.get("status") == "running":
         runtime_lines = (f"- M3 執行狀態：**running** — `{runtime.get('slug', current)}`"
                          f" ({runtime.get('task', '?')})\n")
+    elif runtime.get("status") == "idle":
+        runtime_lines = f"- M3 執行狀態：**idle** — {current}；原因：{runtime.get('idle_reason', '?')}\n"
     failures = failure_state.get("failures", {})
     retryable = [slug for slug, entry in failures.items()
                  if entry.get("tier") == tier and entry.get("status") == "retryable"]
@@ -159,6 +208,7 @@ def rebuild_indexes() -> list[Path]:
         OVERVIEW_DIR / "keyword-index.json",
         OVERVIEW_DIR / "psych-tag-index.json",
         OVERVIEW_DIR / "PROGRESS.md",
+        OVERVIEW_DIR / "PROGRESS.json",
         OVERVIEW_DIR / "core-manifest.md",
         OVERVIEW_DIR / "original-text-todo.md",
         STATUS_PATH,
@@ -288,11 +338,13 @@ def main():
                             TRANSLATIONS_DIR, priority_map)
 
     total = len(queue)
-    already = count_completed(queue, tasks)
+    already = count_completed(queue, tasks, TRANSLATIONS_DIR)
     initial_runnable = min(len(pending), args.limit) if args.limit else len(pending)
     print(f"tier={args.tier}  queue={total}  already_done={already}  this_run={initial_runnable}  tasks={tasks}")
 
-    batch_paths: list[Path] = []
+    batch_paths = [] if args.dry_run else reconcile_missing_translation_status(queue)
+    if batch_paths:
+        print(f"[reconcile] restored missing translation status for {len(batch_paths)} books")
     processed = 0
     attempted = 0
     dry_seen: set[str] = set()
@@ -315,7 +367,8 @@ def main():
         attempted += 1
         dry_seen.add(slug)
         print(f"[{attempted}/{initial_runnable or len(pending)}] {slug}")
-        write_status(args.tier, already + processed, total, slug, failure_state)
+        if not args.dry_run:
+            write_status(args.tier, already + processed, total, slug, failure_state)
         try:
             ok, touched = process_slug(slug, tasks, whitelist, psych_whitelist, args.dry_run)
         except Exception as e:  # noqa: BLE001 — never let one slug kill the run
@@ -332,7 +385,8 @@ def main():
             if translate.is_waiting_generation():
                 # Provider/quota waits are global, not scripture failures. Preserve
                 # the exact slug/chunk and let the watcher resume from checkpoint.
-                write_status(args.tier, already + processed, total, slug, failure_state)
+                if not args.dry_run:
+                    write_status(args.tier, already + processed, total, slug, failure_state)
                 print("[waiting_generation] M3 等待中；停止本輪，等待 watcher 從此 chunk 接手")
                 break
             if not args.dry_run:
@@ -353,10 +407,14 @@ def main():
                          push=not args.no_push)
             batch_paths = []
 
+    failure_state, _ = pipeline_failures.load()
+    if not args.dry_run:
+        current = finish_runtime(args.tier, queue, tasks, failure_state)
+        write_status(args.tier, count_completed(queue, tasks, TRANSLATIONS_DIR), total, current, failure_state)
+
     # final flush
     if not args.dry_run and batch_paths:
         idx_paths = rebuild_indexes()
-        write_status(args.tier, already + processed, total, "(本輪完成)", failure_state)
         commit_batch(batch_paths + idx_paths,
                      f"Pipeline B+C: {args.tier} 翻譯+標籤 收尾 (processed {processed})",
                      push=not args.no_push)
