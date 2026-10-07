@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "智光如來",
+    "普賢菩薩",
+    "妙吉祥菩薩",
+    "金剛手菩薩",
+    "日月天子",
+    "陀羅尼",
+    "五逆罪",
+    "阿鼻地獄",
+    "菩提心",
+    "末法",
+    "懺悔",
+    "閻浮檀金",
+    "優曇鉢花",
+    "持地王菩薩",
+    "釋迦牟尼如來"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0d470abc9c2f134d9aa765343b77461b67573989b20dbcf4b5df1a8084db1daa"
+  },
+  "tagging_models": "MiniMax-M3"
 }
