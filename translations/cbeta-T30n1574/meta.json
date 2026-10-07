@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "liberation-by-knowledge",
+    "non-dual",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "諸法無實",
+    "無自性",
+    "空",
+    "分別",
+    "第一義諦",
+    "無上菩提",
+    "布施持戒忍辱精進禪定智慧",
+    "實際",
+    "悲愍",
+    "假名",
+    "蘊",
+    "虛空"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f8325c04e9425ba519a42557899f3cf501637f4db8753def2f8fc1a9f1efcc1b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
