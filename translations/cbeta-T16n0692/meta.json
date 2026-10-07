@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "heaven-hell",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "other-power",
+    "ritual-practice",
+    "salvation-by-faith",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "佛形像",
+    "拘鹽惟國",
+    "拘翼",
+    "優填王",
+    "紫磨金色",
+    "第七梵天",
+    "遮迦越王",
+    "泥洹道",
+    "阿彌陀佛國",
+    "泥犁",
+    "薜荔",
+    "舍利",
+    "閻浮利地",
+    "功德",
+    "福祐"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "28bdcc5f16a425604eaa4751298c3f81e1e9ee686b84319239eb5c180d2a6593"
+  },
+  "tagging_models": "MiniMax-M3"
 }

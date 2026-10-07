@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic"
+  ],
+  "keywords": [
+    "五陰",
+    "色",
+    "痛",
+    "想",
+    "行",
+    "識",
+    "沫聚",
+    "芭蕉",
+    "幻",
+    "空",
+    "無常",
+    "精勤",
+    "正智",
+    "寂滅道",
+    "靡勝國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ed6b982dbf4237fe15e16a3dc57576c475da4e217f2b36197443dfe0474d04ec"
+  },
+  "tagging_models": "MiniMax-M3"
 }
