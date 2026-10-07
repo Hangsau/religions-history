@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "十二佛名",
+    "陀羅尼",
+    "彌勒菩薩",
+    "虛空功德清淨微塵等目端正功德相光明華波頭摩琉璃光寶體香最上香供養訖種種莊嚴頂髻無量無邊日月光明願力莊嚴變化莊嚴法界出生無障礙王如來",
+    "解脫主世界",
+    "阿逸多菩薩",
+    "王舍城",
+    "耆闍崛山",
+    "四重五逆",
+    "誹謗三寶",
+    "懺悔",
+    "隨喜",
+    "迴向",
+    "蓮華化生",
+    "毘盧遮那"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "14ef2ceddac4baff0a07bc865ab268e0e1dbbcc102537ed9102cb2bb60216bce"
+  },
+  "tagging_models": "MiniMax-M3"
 }

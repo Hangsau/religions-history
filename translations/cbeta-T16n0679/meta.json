@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "divine-transcendence",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "multiple-canons",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "法身",
+    "解脫身",
+    "化身",
+    "文殊師利",
+    "修多羅",
+    "毘尼",
+    "摩德勒伽",
+    "波羅蜜",
+    "三十二大人相",
+    "十力",
+    "四無畏",
+    "八聖道",
+    "四沙門果",
+    "一切智",
+    "染污清淨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "08a537e8779bb39af1ed79af0636792f661777c46e372fb756f63911dde73713"
+  },
+  "tagging_models": "MiniMax-M3"
 }
