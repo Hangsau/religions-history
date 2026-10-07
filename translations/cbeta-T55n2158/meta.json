@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "mandate-of-heaven",
+    "monastic",
+    "multiple-canons",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+  ],
+  "keywords": [
+    "開元錄",
+    "貞元錄",
+    "智昇",
+    "圓照",
+    "不空",
+    "金剛智",
+    "般若",
+    "義淨",
+    "梵夾",
+    "三藏",
+    "西崇福寺",
+    "西明寺",
+    "五臺山",
+    "千鉢經",
+    "華嚴論"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "623e0689bb24206f8ae0e2f965de83a8ec2bc87d9ce1d2893f5ea33595c6ea99"
+  },
+  "tagging_models": "MiniMax-M3"
 }
