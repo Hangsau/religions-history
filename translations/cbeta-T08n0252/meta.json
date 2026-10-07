@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual"
+  ],
+  "keywords": [
+    "觀自在菩薩",
+    "舍利弗",
+    "般若波羅蜜多",
+    "五蘊",
+    "色即是空",
+    "三昧",
+    "菩提薩埵",
+    "涅槃",
+    "揭諦",
+    "靈鷲山",
+    "王舍大城",
+    "阿耨多羅三藐三菩提",
+    "心無罣礙",
+    "普遍智藏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a69091b82e49ea8ceae4f4f3d6f85db942dfb46dd45e19413fcff40061d545f8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
