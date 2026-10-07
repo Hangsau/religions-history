@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "舍利弗",
+    "比丘",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "十二時聚會",
+    "二十品說",
+    "十六業",
+    "十六行可聞法",
+    "十思想",
+    "二十二時處",
+    "不淨思想",
+    "無為",
+    "四諦",
+    "沙門",
+    "道弟子"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7c95fbd04e2b9c5cdbdef3fc2d68ff86ee3c156759b4cc268b65c33a8efcfc6f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

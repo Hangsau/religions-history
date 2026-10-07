@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "金耀童子",
+    "波斯匿王",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "緣覺",
+    "吉祥密",
+    "聞軍王",
+    "阿耨多羅三藐三菩提",
+    "六波羅蜜",
+    "波羅奈國",
+    "瞻蔔迦華",
+    "菴沒羅菓",
+    "曼陀羅華",
+    "阿難陀",
+    "地獄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a45a1c735199f876bf9751585b62b1fac034be6b3a46999c4e7503d25bc86ad2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
