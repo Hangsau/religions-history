@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "review_id": "mahabharata-tag-0525-20261007",
+  "created_at": "2026-10-07T11:30:42.702067+08:00",
+  "status": "applied_to_checkpoint",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "mahabharata-gretil-bori",
+  "slug": "mahabharata",
+  "task": "tag",
+  "chunk_index": 525,
+  "source_path": "translations/mahabharata/01-translation.md",
+  "source_sha256": "02231f36900fc79202671b451ddc719d91db38c849c1788a0abdc4446e66ee9c",
+  "input_sha256": "6025257f92ef933c8deb1d4091b1d8b59fa744cf4c51ba1c87c36e1a0857110c",
+  "original_path": "translations/mahabharata/raw/original.txt",
+  "original_sha256": "7786734e16505a151c7c2ec43ee9df408699866470cbd48ee00918819f862464",
+  "original_locator": "03,030.020a–03,031.013d*0110_01",
+  "parent_context_locator": "03,030.001 (Yudhisthira speaks); 03,031.001 (Draupadi speaks)",
+  "translation_locator": "line 62826; === 30.20 === and === 788 | 03,030.044c – 03,031.013d ===",
+  "source_url": "http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/2_epic/mbh/mbh_03_u.htm",
+  "discovery_path": "pipeline checkpoint 525 -> Chinese slice -> neighboring dialogue -> local Sanskrit verse IDs -> existing controlled vocabularies",
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0714eb14b720e27071cf6f1f99f6b931\"}",
+    "blocked_at": "2026-10-07T11:14:59.663633+08:00"
+  },
+  "rejection_interpretation": "MiniMax reports input new_sensitive (1026). It gives no offending span; no exact trigger is asserted.",
+  "claims": [
+    {
+      "claim_id": "mbh-03-030-restraint",
+      "claim_kind": "text_passage",
+      "locator": "03,030.025a–03,030.034c",
+      "speaker": "Yudhisthira",
+      "statement": "以相互辱罵、傷害乃至親屬相殺，說明失控憤怒的毀壞後果，主張克制與寬忍；這些行為是反面例子。",
+      "supports": [
+        "non-violence",
+        "emotions-passions"
+      ]
+    },
+    {
+      "claim_id": "mbh-03-030-forgiveness",
+      "claim_kind": "text_passage",
+      "locator": "03,030.035a–03,030.044c",
+      "speaker": "Yudhisthira, quoting verses attributed to Kasyapa",
+      "statement": "以 kṣamā（寬忍）為中心，讚頌其宗教與倫理價值。",
+      "supports": [
+        "forgiveness"
+      ]
+    },
+    {
+      "claim_id": "mbh-03-031-righteous-suffering",
+      "claim_kind": "text_passage",
+      "locator": "03,031.001–03,031.009c",
+      "speaker": "Draupadi",
+      "statement": "質疑堅守正法、忍讓而仍遭苦難的處境；須與前一位說話者的主張分開理解。",
+      "supports": [
+        "theodicy",
+        "meaning-of-suffering",
+        "justice-power"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "theodicy follows this project taxonomy: 為何義人受苦. This mapping is an editorial interpretation, not a claim that the passage proves a doctrine.",
+  "payload": {
+    "semantic_tags": [
+      "forgiveness",
+      "non-violence",
+      "theodicy"
+    ],
+    "psych_tags": [
+      "emotions-passions",
+      "justice-power",
+      "meaning-of-suffering"
+    ],
+    "keywords": [
+      "寬忍",
+      "瞋恚",
+      "正法",
+      "義人受苦",
+      "kṣamā",
+      "krodha",
+      "Yudhiṣṭhira",
+      "Draupadī",
+      "Kāśyapa"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可保留本段並用有來源紀錄的審讀標籤補齊第 525 批次。",
+    "works_when": "原文、譯文與該批次 SHA-256 全部符合本紀錄，標籤仍在既有詞表。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表、或無法排除執行中 worker 寫入競爭。",
+    "how_to_identify": "檢查三個來源 hash、checkpoint 狀態、全域生成鎖與受控標籤詞表。",
+    "action": "保留原文與譯文；停下已核實的 worker 並取得生成鎖，備份 manifest，寫入有審讀出處的非空標籤，再從既有斷點續跑。",
+    "remaining_boundary": "此審讀處理段落主題，不宣稱整本譯文已校勘；本段若干譯句仍需梵文專業校訂。內容拒絕的精確觸發句未知。"
+  },
+  "run_manifest": {
+    "phase": "extraction -> decision -> checkpoint integration",
+    "included": [
+      "tag chunk 525 and relevant neighboring speaker context",
+      "local Sanskrit source",
+      "existing semantic and psychology taxonomies"
+    ],
+    "excluded": [
+      "rewriting or deleting scripture text",
+      "changing model prompts",
+      "re-requesting rejected content from MiniMax",
+      "book-level done before other chunks complete"
+    ],
+    "checkpoint_path": "logs/pipeline-checkpoints/mahabharata/tag/active",
+    "publication": "Per-chunk repair only; normal tag_one completeness checks remain authoritative."
+  },
+  "applied_at": "2026-10-07T11:31:15.484536+08:00",
+  "output_sha256": "9fdb922b4c9af72fa8f54595f70798bf3a254296efb7040acab598ff5d8f92bd",
+  "preserved_completed_chunks": 784
+}

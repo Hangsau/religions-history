@@ -3,6 +3,28 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-10-07 11:31 第 525 批次已審讀補標並續跑
+
+- 525 是《摩訶婆羅多》標籤任務的第 525/3162 個切分批次，非原典章號。
+  對應第三卷 `03,030.020a–03,031.013d*0110_01`：堅戰論憤怒與寬忍，
+  接德勞帕蒂質疑守正法者仍然受苦。相互傷害的描述是論證中的反面例子。
+- Codex 核對本地梵文、譯文及鄰近說話者後補標：semantic 為 forgiveness、non-violence、
+  theodicy；psych 為 emotions-passions、justice-power、meaning-of-suffering。
+  theodicy 採本專案詞表「為何義人受苦」的定義。不是 MiniMax 生成，也未冒稱人工專家校勘。
+- 永久審讀紀錄：`translations/mahabharata/reviews/tag-chunk-0525.json`。
+  含原文節號、三組來源 hash、各標籤依據、原始拒絕、Codex 出處與適用條件。
+  原文與譯文未改；1026 沒有指出觸發句，不推定是哪個字句造成拒絕。
+- 以暫時 HALT 阻止復活，核實並停止 supervisor 37804 / worker 56740，取得既有生成鎖後
+  備份 manifest，再以既有 atomic checkpoint 函式寫入第 525 段。原有 784 個成功結果
+  的 checksum 與 payload 全數驗證保留；補標後 785 個完成、0 個 blocked。
+  一次性施作與備份在 `tmp/tag-resume-20261007/review-525*`。
+- HALT 已移除；supervisor 58784 / worker 48140 恢復，log 確認第 525 段 checkpoint hit，
+  從第 786 段續跑。11:31:44 已完成 791 段、正在 792/3162，待審段落為空。
+  整本 tag_status 仍未標 done，待其他段落依正常完整性門檻完成。
+- 此次是段落主題審讀補標；若日後修改譯文或切段，須按新 hash 重審，不能盲目套用舊結果。
+
+---
+
 ## 2026-10-07 11:15 續修：內容拒絕誤判供應商故障，watcher 無限重啟
 
 - 上次恢復確實從 30 繼續跑到 524 段，最後成功在 07:23:44；之後卡住。
