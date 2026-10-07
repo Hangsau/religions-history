@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "一切如來",
+    "金剛壽命",
+    "陀羅尼",
+    "毘沙門",
+    "四天王",
+    "殑伽河",
+    "執金剛菩薩",
+    "延命",
+    "非命業",
+    "夭死",
+    "彈指",
+    "三惡道",
+    "如是我聞"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d97cbda8a5ddef1c33c255105608724219821af10c9a4b905dcbc0e555c5411e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
