@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "如來",
+    "阿難",
+    "舍衛國",
+    "祇洹",
+    "帝釋",
+    "婆羅門",
+    "犢子",
+    "牛乳",
+    "慈心",
+    "十六劫",
+    "彌勒佛",
+    "乳光如來",
+    "得道",
+    "福報",
+    "惡知識"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0043ac41be135ec7b458411a9ab67a5a67a0344b88fceea34d61ad862ca11c8c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

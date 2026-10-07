@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "八正道",
+    "邪道",
+    "諦見",
+    "諦念",
+    "諦語",
+    "諦行",
+    "諦受",
+    "諦治",
+    "諦意",
+    "諦定",
+    "布施",
+    "三十七品",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "85566ebd48386f403200f5742c8348892f0886deddc6de92f8ff36adf81394e1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

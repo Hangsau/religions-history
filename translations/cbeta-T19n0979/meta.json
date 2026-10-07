@@ -20,5 +20,34 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "于瑟抳沙毘",
+    "陀囉尼",
+    "唵",
+    "部嘍應",
+    "素陀野",
+    "縛日囉",
+    "莎賀",
+    "阿致瑟吒",
+    "薩嚩多他迦多",
+    "沙訶",
+    "毘沙瑟吒",
+    "摩賀舞怛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c12549064950adec583c2181eee7f1944fe45b546e6de89782c7a7084fa89e83"
+  },
+  "tagging_models": "MiniMax-M3"
 }
