@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "pilgrimage",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "舍利弗",
+    "佛塔",
+    "右繞",
+    "功德",
+    "閻浮提",
+    "忉利天",
+    "梵天",
+    "轉輪王",
+    "四念處",
+    "四真諦",
+    "六神通",
+    "獨覺菩提",
+    "摩尼珠",
+    "八難",
+    "世尊"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "610bc03808d63bb5e896a533da0a07cf9f8ea4db5027a634a6030280d3e6c89e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

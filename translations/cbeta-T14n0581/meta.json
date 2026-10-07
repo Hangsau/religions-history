@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "佛",
+    "阿難",
+    "梵志",
+    "耶句",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "五戒",
+    "殺生",
+    "邪婬",
+    "妄語",
+    "無常",
+    "泥洹",
+    "八師",
+    "地獄",
+    "戒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "change-transformation",
+    "death",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8c76e55fd41c89cbf1f60e3dd64b3bb05f4e1da46f945eebbfc9ba3fc45bbbc3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
