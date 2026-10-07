@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "multiple-canons",
+    "ritual-practice",
+    "theocracy"
+  ],
+  "keywords": [
+    "眾經目錄",
+    "道宣",
+    "玄奘",
+    "敬愛寺",
+    "大乘經",
+    "小乘經",
+    "單譯",
+    "別生",
+    "疑偽",
+    "同本異譯",
+    "重翻",
+    "入藏",
+    "目錄",
+    "經錄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cc7f31e4f2503c6e7b97285bb9de01ff43a3f016923844074f51b0c300058656"
+  },
+  "tagging_models": "MiniMax-M3"
 }

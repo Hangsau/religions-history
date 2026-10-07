@@ -20567,6 +20567,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X01n0028",
       "name_zh": "造像量度經",
       "religion": "佛教"
@@ -21456,6 +21461,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0975",
       "name_zh": "白傘蓋大佛頂王最勝無比大威德金剛無礙大道場陀羅尼念誦法要",
       "religion": "佛教"
@@ -21930,6 +21940,11 @@
     {
       "slug": "cbeta-T19n0931",
       "name_zh": "金剛頂經觀自在王如來修行法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -23666,6 +23681,11 @@
     {
       "slug": "cbeta-T15n0610",
       "name_zh": "佛說內身觀章句經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
       "religion": "佛教"
     }
   ],
@@ -26429,6 +26449,11 @@
       "slug": "cbeta-T24n1474",
       "name_zh": "沙彌尼戒經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
     }
   ],
   "五母": [
@@ -26471,6 +26496,13 @@
     {
       "slug": "cbeta-T24n1479",
       "name_zh": "佛說苾芻五法經",
+      "religion": "佛教"
+    }
+  ],
+  "五淨": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
       "religion": "佛教"
     }
   ],
@@ -27527,6 +27559,13 @@
     {
       "slug": "cbeta-T18n0907",
       "name_zh": "佛頂尊勝心破地獄轉業障出三界祕密陀羅尼",
+      "religion": "佛教"
+    }
+  ],
+  "五部悉地": [
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -30067,6 +30106,11 @@
   ],
   "佛眼": [
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1323",
       "name_zh": "除一切疾病陀羅尼經",
       "religion": "佛教"
@@ -30307,6 +30351,11 @@
     {
       "slug": "cbeta-T19n0948",
       "name_zh": "金輪王佛頂要略念誦法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -33259,6 +33308,13 @@
       "religion": "佛教"
     }
   ],
+  "入藏": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
+    }
+  ],
   "入藥鏡": [
     {
       "slug": "tianxian-zhengli",
@@ -34125,6 +34181,13 @@
     {
       "slug": "cbeta-T16n0700",
       "name_zh": "右繞佛塔功德經",
+      "religion": "佛教"
+    }
+  ],
+  "八風": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
       "religion": "佛教"
     }
   ],
@@ -35678,6 +35741,13 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    }
+  ],
+  "別生": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
     }
   ],
   "別離": [
@@ -37783,6 +37853,13 @@
       "religion": "佛教"
     }
   ],
+  "十地經": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
+    }
+  ],
   "十地自在": [
     {
       "slug": "cbeta-T20n1106",
@@ -38637,6 +38714,11 @@
     }
   ],
   "南閻浮提": [
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1408",
       "name_zh": "佛說最上意陀羅尼經",
@@ -39861,6 +39943,13 @@
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "同本異譯": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
     }
   ],
   "同泰寺": [
@@ -42219,6 +42308,13 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
+      "religion": "佛教"
+    }
+  ],
+  "單譯": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
       "religion": "佛教"
     }
   ],
@@ -46320,6 +46416,11 @@
       "slug": "cbeta-T49n2030",
       "name_zh": "大阿羅漢難提蜜多羅所說法住記",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
     }
   ],
   "大乘經律論": [
@@ -47115,6 +47216,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n1004",
       "name_zh": "般若波羅蜜多理趣經大樂不空三昧真實金剛薩埵菩薩等一十七聖大曼荼羅義述",
       "religion": "佛教"
@@ -47236,6 +47342,13 @@
     {
       "slug": "cbeta-T17n0773",
       "name_zh": "佛說菩薩修行四法經",
+      "religion": "佛教"
+    }
+  ],
+  "大毘盧遮那": [
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -50101,6 +50214,11 @@
   ],
   "如意寶珠": [
     {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1145",
       "name_zh": "虛空藏菩薩能滿諸願最勝心陀羅尼求聞持法",
       "religion": "佛教"
@@ -50315,6 +50433,13 @@
     {
       "slug": "cbeta-T21n1362",
       "name_zh": "佛說善夜經",
+      "religion": "佛教"
+    }
+  ],
+  "妄想不生": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
       "religion": "佛教"
     }
   ],
@@ -51860,6 +51985,13 @@
       "slug": "ezekiel",
       "name_zh": "以西結書",
       "religion": "猶太教"
+    }
+  ],
+  "守本真心": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
     }
   ],
   "守衛者": [
@@ -53734,6 +53866,11 @@
       "slug": "cbeta-T01n0095",
       "name_zh": "蟻喻經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
     }
   ],
   "對法": [
@@ -53767,6 +53904,13 @@
       "slug": "lingbao-bifa",
       "name_zh": "靈寶畢法",
       "religion": "道教"
+    }
+  ],
+  "小乘經": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
     }
   ],
   "小乘經論": [
@@ -54262,6 +54406,13 @@
     {
       "slug": "cbeta-T15n0612",
       "name_zh": "身觀經",
+      "religion": "佛教"
+    }
+  ],
+  "屍林": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
       "religion": "佛教"
     }
   ],
@@ -59359,6 +59510,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0955",
       "name_zh": "一字頂輪王瑜伽觀行儀軌",
       "religion": "佛教"
@@ -61533,6 +61689,13 @@
       "religion": "佛教"
     }
   ],
+  "我所心滅": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
+    }
+  ],
   "我見": [
     {
       "slug": "cbeta-T01n0052",
@@ -63169,6 +63332,13 @@
       "religion": "基督教"
     }
   ],
+  "捨": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    }
+  ],
   "捨世緣": [
     {
       "slug": "cbeta-T03n0167",
@@ -63903,6 +64073,11 @@
     {
       "slug": "cbeta-T02n0148",
       "name_zh": "國王不梨先泥十夢經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -65702,6 +65877,13 @@
     {
       "slug": "cbeta-T21n1210",
       "name_zh": "降三世忿怒明王念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
+  "敬愛寺": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
       "religion": "佛教"
     }
   ],
@@ -68842,6 +69024,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0954A",
       "name_zh": "一字頂輪王念誦儀軌",
       "religion": "佛教"
@@ -69948,6 +70135,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n1010",
       "name_zh": "佛說出生無邊門陀羅尼儀軌",
       "religion": "佛教"
@@ -70634,6 +70826,13 @@
     {
       "slug": "cbeta-T19n0940",
       "name_zh": "佛說帝釋巖祕密成就儀軌",
+      "religion": "佛教"
+    }
+  ],
+  "根本定": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
       "religion": "佛教"
     }
   ],
@@ -72691,6 +72890,11 @@
     {
       "slug": "cbeta-T17n0783",
       "name_zh": "佛說十二頭陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
       "religion": "佛教"
     },
     {
@@ -76674,6 +76878,11 @@
       "slug": "cbeta-T46n1927",
       "name_zh": "十不二門",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
     }
   ],
   "法華部": [
@@ -76760,6 +76969,11 @@
     {
       "slug": "cbeta-T17n0766",
       "name_zh": "佛說法身經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -78543,6 +78757,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0192",
       "name_zh": "佛說如意虗空藏菩薩陀羅尼經",
       "religion": "佛教"
@@ -78644,6 +78863,11 @@
     {
       "slug": "cbeta-T12n0368",
       "name_zh": "拔一切業障根本得生淨土神呪",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
       "religion": "佛教"
     }
   ],
@@ -79743,6 +79967,11 @@
     {
       "slug": "cbeta-T19n0944B",
       "name_zh": "大佛頂大陀羅尼",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -81834,6 +82063,13 @@
       "religion": "佛教"
     }
   ],
+  "無記心": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
+    }
+  ],
   "無說": [
     {
       "slug": "cbeta-T17n0836",
@@ -82992,6 +83228,11 @@
     {
       "slug": "cbeta-T33n1714",
       "name_zh": "般若波羅蜜多心經註解",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
       "religion": "佛教"
     },
     {
@@ -84853,6 +85094,13 @@
       "religion": "佛教"
     }
   ],
+  "疑偽": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
+    }
+  ],
   "疑惑": [
     {
       "slug": "cbeta-T01n0095",
@@ -85322,6 +85570,13 @@
       "religion": "佛教"
     }
   ],
+  "白骨觀": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    }
+  ],
   "百三昧": [
     {
       "slug": "cbeta-T15n0644",
@@ -85787,6 +86042,11 @@
     }
   ],
   "目錄": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T55n2169",
       "name_zh": "開元寺求得經疏記等目錄",
@@ -86339,6 +86599,11 @@
     {
       "slug": "cbeta-T19n0948",
       "name_zh": "金輪王佛頂要略念誦法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -86981,6 +87246,13 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    }
+  ],
+  "眾經目錄": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
     }
   ],
   "眾緣和合": [
@@ -92560,6 +92832,13 @@
       "religion": "佛教"
     }
   ],
+  "經錄": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
+    }
+  ],
   "綠色": [
     {
       "slug": "cbeta-T20n1108B",
@@ -92579,6 +92858,13 @@
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
+    }
+  ],
+  "維摩經": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
     }
   ],
   "維摩詰": [
@@ -96293,6 +96579,13 @@
       "religion": "基督教"
     }
   ],
+  "膖脹": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    }
+  ],
   "膠香": [
     {
       "slug": "cbeta-T21n1406",
@@ -96375,6 +96668,13 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    }
+  ],
+  "自心": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
     }
   ],
   "自性": [
@@ -98514,6 +98814,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T40n1817",
       "name_zh": "略明般若末後一頌讚述",
       "religion": "佛教"
@@ -99624,6 +99929,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T32n1685",
       "name_zh": "佛說八大靈塔名號經",
       "religion": "佛教"
@@ -99963,6 +100273,11 @@
     {
       "slug": "cbeta-T19n0935",
       "name_zh": "極樂願文",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -101002,6 +101317,11 @@
     {
       "slug": "cbeta-T19n0943",
       "name_zh": "佛說無能勝幡王如來莊嚴陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -102292,6 +102612,11 @@
     {
       "slug": "cbeta-T19n0948",
       "name_zh": "金輪王佛頂要略念誦法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     },
     {
@@ -105760,6 +106085,13 @@
       "religion": "基督教"
     }
   ],
+  "設利": [
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "設帝嚕": [
     {
       "slug": "cbeta-T21n1403",
@@ -108476,6 +108808,13 @@
       "religion": "儒教"
     }
   ],
+  "輕安": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    }
+  ],
   "輕安覺支": [
     {
       "slug": "sn46-bojjhanga",
@@ -110410,6 +110749,13 @@
       "religion": "佛教"
     }
   ],
+  "道宣": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
+    }
+  ],
   "道家": [
     {
       "slug": "baopuzi",
@@ -111822,6 +112168,13 @@
       "religion": "佛教"
     }
   ],
+  "重翻": [
+    {
+      "slug": "cbeta-T55n2148",
+      "name_zh": "眾經目錄",
+      "religion": "佛教"
+    }
+  ],
   "野馬": [
     {
       "slug": "cbeta-T02n0106",
@@ -111929,6 +112282,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0955",
       "name_zh": "一字頂輪王瑜伽觀行儀軌",
       "religion": "佛教"
@@ -111968,6 +112326,11 @@
     {
       "slug": "cbeta-T15n0644",
       "name_zh": "佛說金剛三昧本性清淨不壞不滅經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
       "religion": "佛教"
     }
   ],
@@ -112018,6 +112381,13 @@
     {
       "slug": "cbeta-T55n2175",
       "name_zh": "錄外經等目錄",
+      "religion": "佛教"
+    }
+  ],
+  "金剛佛性": [
+    {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
       "religion": "佛教"
     }
   ],
@@ -112194,6 +112564,11 @@
     {
       "slug": "cbeta-T19n0940",
       "name_zh": "佛說帝釋巖祕密成就儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -112606,6 +112981,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T48n2011",
+      "name_zh": "最上乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -112669,6 +113049,11 @@
     {
       "slug": "cbeta-T19n0958",
       "name_zh": "金剛頂經一字頂輪王儀軌音義",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -113098,6 +113483,13 @@
     {
       "slug": "cbeta-T21n1281",
       "name_zh": "那羅延天共阿修羅王鬪戰法",
+      "religion": "佛教"
+    }
+  ],
+  "金輪佛頂": [
+    {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
       "religion": "佛教"
     }
   ],
@@ -114131,6 +114523,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0954B",
       "name_zh": "一字頂輪王念誦儀軌",
       "religion": "佛教"
@@ -114605,6 +115002,11 @@
     {
       "slug": "cbeta-T18n0907",
       "name_zh": "佛頂尊勝心破地獄轉業障出三界祕密陀羅尼",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -116567,6 +116969,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0949",
+      "name_zh": "奇特最勝金輪佛頂念誦儀軌法要",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0954A",
       "name_zh": "一字頂輪王念誦儀軌",
       "religion": "佛教"
@@ -117837,6 +118244,11 @@
     {
       "slug": "cbeta-T19n0948",
       "name_zh": "金輪王佛頂要略念誦法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -119931,6 +120343,13 @@
       "religion": "佛教"
     }
   ],
+  "青膖": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
+      "religion": "佛教"
+    }
+  ],
   "青色大金剛": [
     {
       "slug": "cbeta-T21n1221",
@@ -120011,6 +120430,13 @@
     {
       "slug": "cbeta-T17n0797b",
       "name_zh": "佛說貧窮老公經",
+      "religion": "佛教"
+    }
+  ],
+  "靜慮": [
+    {
+      "slug": "cbeta-T32n1655",
+      "name_zh": "止觀門論頌",
       "religion": "佛教"
     }
   ],
@@ -121675,6 +122101,13 @@
     {
       "slug": "cbeta-T50n2046",
       "name_zh": "馬鳴菩薩傳",
+      "religion": "佛教"
+    }
+  ],
+  "馱都": [
+    {
+      "slug": "cbeta-T19n0962",
+      "name_zh": "寶悉地成佛陀羅尼經",
       "religion": "佛教"
     }
   ],

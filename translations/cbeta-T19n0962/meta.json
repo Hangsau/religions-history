@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith"
+  ],
+  "keywords": [
+    "馱都",
+    "設利",
+    "陀羅尼",
+    "如意寶珠",
+    "金剛手",
+    "大毘盧遮那",
+    "五部悉地",
+    "南閻浮提",
+    "大曼荼羅",
+    "法身",
+    "摩尼",
+    "金剛薩埵",
+    "阿字",
+    "三摩地"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3a3fa6109913a32868987717df07061a2a9a58a2635bcb8753fb1f5034ef934b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
