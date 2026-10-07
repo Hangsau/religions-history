@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "monastic",
+    "reincarnation",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "睒子",
+    "迦夷國",
+    "盲父母",
+    "菩薩",
+    "十善",
+    "毒箭",
+    "兜率天",
+    "帝釋",
+    "摩耶",
+    "閱頭檀王",
+    "彌勒",
+    "泥犁",
+    "五戒",
+    "慈仁惠施"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "loss-grief",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d0a8298a101b66050fa896ea02254729cfd8898fa75dfe9acfa9415b9b706bc9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
