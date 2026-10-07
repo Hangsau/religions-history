@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "虗空藏菩薩",
+    "陀羅尼",
+    "釋迦牟尼佛",
+    "佉翅山",
+    "五濁",
+    "如意寶珠",
+    "三十五佛",
+    "灌頂",
+    "涅槃",
+    "娑婆世界",
+    "勝華敷藏如來",
+    "無怖畏",
+    "悉地成就",
+    "大悲",
+    "護國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "157ac18dc9ee6d374fc3c04c8f1adc7093ae45fccac6b3099b2bfe4207a0198b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
