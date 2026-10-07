@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "other-power"
+  ],
+  "keywords": [
+    "梵志",
+    "閻羅王",
+    "四禪",
+    "五神通",
+    "放捨",
+    "迦葉",
+    "尼連江",
+    "舍衛",
+    "香山",
+    "摩夷",
+    "三脫門",
+    "不退轉地",
+    "四魔",
+    "沙門",
+    "寂志"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d8318ae89a1d1089d3087a59a49a92a8b6479a554f3eca52932ec886cb4bf7c0"
+  },
+  "tagging_models": "MiniMax-M3"
 }

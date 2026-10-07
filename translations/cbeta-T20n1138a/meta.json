@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "金剛密迹菩薩",
+    "善門陀羅尼",
+    "釋提桓因",
+    "梵天王",
+    "四天王",
+    "菩提樹",
+    "舍利弗",
+    "阿難",
+    "彌勒菩薩",
+    "金剛幢菩薩",
+    "金剛藏菩薩",
+    "二十種功德",
+    "灌頂",
+    "護念"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "02ade2183375b43a72a3b65ba913f7c6fb7a074b07e82ee25a3ff9ae0bae897a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

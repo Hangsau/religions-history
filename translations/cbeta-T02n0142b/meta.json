@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "marriage-sacred",
+    "ritual-practice",
+    "sexual-ethics"
+  ],
+  "keywords": [
+    "玉耶",
+    "給孤獨",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "十戒",
+    "三自歸",
+    "優婆夷",
+    "七輩婦",
+    "五善三惡",
+    "十惡事",
+    "母婦",
+    "婢婦",
+    "怨家婦",
+    "奪命婦",
+    "三十二相"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gender-body",
+    "guilt-atonement",
+    "marriage-family"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "79354f328fe6764d7f737d3942bcd7df4b8528571ebe5d956f90c54228798a3a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -19726,6 +19726,13 @@
       "religion": "佛教"
     }
   ],
+  "七輩婦": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
+    }
+  ],
   "七靈": [
     {
       "slug": "bible-revelation",
@@ -19945,6 +19952,11 @@
     {
       "slug": "cbeta-T02n0132b",
       "name_zh": "施食獲五福報經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
       "religion": "佛教"
     },
     {
@@ -21151,6 +21163,13 @@
       "religion": "佛教"
     }
   ],
+  "三脫門": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    }
+  ],
   "三自性": [
     {
       "slug": "bud-trimshika-sa",
@@ -21172,6 +21191,11 @@
     {
       "slug": "cbeta-T01n0073",
       "name_zh": "須達經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
       "religion": "佛教"
     },
     {
@@ -22015,6 +22039,11 @@
     {
       "slug": "cbeta-T14n0571",
       "name_zh": "佛說婦人遇辜經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     },
     {
@@ -23105,6 +23134,13 @@
       "religion": "基督教"
     }
   ],
+  "二十種功德": [
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
+    }
+  ],
   "二十萬遍": [
     {
       "slug": "cbeta-T20n1078",
@@ -23302,6 +23338,11 @@
     {
       "slug": "cbeta-T02n0142a",
       "name_zh": "佛說玉耶女經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
       "religion": "佛教"
     }
   ],
@@ -23830,6 +23871,11 @@
   ],
   "五神通": [
     {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1134B",
       "name_zh": "金剛壽命陀羅尼經",
       "religion": "佛教"
@@ -23978,6 +24024,11 @@
       "slug": "cbeta-T17n0827",
       "name_zh": "佛說懈怠耕者經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
     }
   ],
   "五色綖": [
@@ -24109,6 +24160,11 @@
     {
       "slug": "cbeta-T14n0561",
       "name_zh": "佛說老母經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     },
     {
@@ -25103,6 +25159,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1314",
       "name_zh": "佛說救面然餓鬼陀羅尼神呪經",
       "religion": "佛教"
@@ -26022,6 +26083,11 @@
     }
   ],
   "伽藍": [
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1322",
       "name_zh": "新集浴像儀軌",
@@ -28233,6 +28299,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T12n0391",
       "name_zh": "般泥洹後灌臘經",
       "religion": "佛教"
@@ -29671,6 +29742,11 @@
     {
       "slug": "cbeta-T17n0778",
       "name_zh": "佛說菩薩內習六波羅蜜經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     },
     {
@@ -31600,6 +31676,13 @@
       "religion": "基督教"
     }
   ],
+  "十二支": [
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
+      "religion": "佛教"
+    }
+  ],
   "十二支派": [
     {
       "slug": "bible-james",
@@ -32145,12 +32228,22 @@
   ],
   "十惡事": [
     {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0791",
       "name_zh": "佛說出家緣經",
       "religion": "佛教"
     }
   ],
   "十戒": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T24n1502",
       "name_zh": "菩薩受齋經",
@@ -33049,6 +33142,11 @@
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
+      "religion": "佛教"
     }
   ],
   "取捨": [
@@ -33067,6 +33165,11 @@
     {
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     }
   ],
@@ -33586,6 +33689,11 @@
     {
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     }
   ],
@@ -35310,6 +35418,13 @@
       "religion": "基督教"
     }
   ],
+  "善門陀羅尼": [
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
+    }
+  ],
   "善馬": [
     {
       "slug": "cbeta-T02n0114",
@@ -35612,6 +35727,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1135",
       "name_zh": "佛說一切如來金剛壽命陀羅尼經",
       "religion": "佛教"
@@ -35619,6 +35739,11 @@
     {
       "slug": "cbeta-T20n1136",
       "name_zh": "佛說一切諸如來心光明加持普賢菩薩延命金剛最勝陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -35886,6 +36011,11 @@
     {
       "slug": "cbeta-T02n0149",
       "name_zh": "佛說阿難同學經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     },
     {
@@ -36209,6 +36339,11 @@
     }
   ],
   "四魔": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T17n0779",
       "name_zh": "佛說八大人覺經",
@@ -38230,6 +38365,13 @@
       "religion": "佛教"
     }
   ],
+  "大佛頂": [
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    }
+  ],
   "大像異象": [
     {
       "slug": "daniel",
@@ -40044,6 +40186,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0924B",
       "name_zh": "藥師如來念誦儀軌",
       "religion": "佛教"
@@ -40641,6 +40788,13 @@
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
+    }
+  ],
+  "奪命婦": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
     }
   ],
   "奪牛長征記": [
@@ -41738,6 +41892,13 @@
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "婢婦": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
     }
   ],
   "婦人無爵": [
@@ -43043,6 +43204,13 @@
       "religion": "佛教"
     }
   ],
+  "寂志": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    }
+  ],
   "寂根菩薩": [
     {
       "slug": "cbeta-T14n0491",
@@ -43957,6 +44125,13 @@
     {
       "slug": "cbeta-T20n1113A",
       "name_zh": "觀自在菩薩廣大圓滿無礙大悲心陀羅尼",
+      "religion": "佛教"
+    }
+  ],
+  "尼連江": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     }
   ],
@@ -46023,6 +46198,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1144",
       "name_zh": "佛說彌勒菩薩發願王偈",
       "religion": "佛教"
@@ -47493,6 +47673,13 @@
       "religion": "佛教"
     }
   ],
+  "怨家婦": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
+    }
+  ],
   "怨敵": [
     {
       "slug": "cbeta-T20n1181",
@@ -48482,6 +48669,11 @@
     {
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     },
     {
@@ -50136,6 +50328,11 @@
   ],
   "持呪": [
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1180",
       "name_zh": "六字神呪經",
       "religion": "佛教"
@@ -51054,6 +51251,13 @@
       "religion": "佛教"
     }
   ],
+  "摩夷": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    }
+  ],
   "摩奴": [
     {
       "slug": "manu-smrti",
@@ -51741,6 +51945,13 @@
       "religion": "基督教"
     }
   ],
+  "擇地": [
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    }
+  ],
   "擇法覺支": [
     {
       "slug": "sn46-bojjhanga",
@@ -51823,6 +52034,13 @@
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
       "religion": "道教"
+    }
+  ],
+  "放捨": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
     }
   ],
   "放生": [
@@ -54574,6 +54792,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0924A",
       "name_zh": "藥師如來念誦儀軌",
       "religion": "佛教"
@@ -54901,6 +55124,11 @@
     {
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     }
   ],
@@ -56085,6 +56313,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1294",
       "name_zh": "施八方天儀則",
       "religion": "佛教"
@@ -56135,6 +56368,11 @@
     {
       "slug": "cbeta-T19n1029",
       "name_zh": "佛說安宅陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -56190,6 +56428,11 @@
     {
       "slug": "cbeta-T14n0582",
       "name_zh": "佛說孫多耶致經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     },
     {
@@ -58109,6 +58352,13 @@
       "religion": "佛教"
     }
   ],
+  "母婦": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
+    }
+  ],
   "母恩": [
     {
       "slug": "cbeta-T14n0555a",
@@ -58445,6 +58695,11 @@
     {
       "slug": "cbeta-T17n0800",
       "name_zh": "佛說無上處經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
       "religion": "佛教"
     },
     {
@@ -59195,6 +59450,13 @@
       "religion": "佛教"
     }
   ],
+  "水壇": [
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    }
+  ],
   "水泡": [
     {
       "slug": "cbeta-T02n0106",
@@ -59534,6 +59796,11 @@
     {
       "slug": "cbeta-T14n0582",
       "name_zh": "佛說孫多耶致經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     },
     {
@@ -62061,6 +62328,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T46n1954",
       "name_zh": "明佛法根本碑",
       "religion": "佛教"
@@ -62985,6 +63257,11 @@
     {
       "slug": "cbeta-T20n1178",
       "name_zh": "文殊菩薩獻佛陀羅尼名烏蘇吒",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     },
     {
@@ -64353,6 +64630,11 @@
       "slug": "cbeta-T02n0142a",
       "name_zh": "佛說玉耶女經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
     }
   ],
   "王": [
@@ -65041,6 +65323,11 @@
     {
       "slug": "cbeta-T02n0124",
       "name_zh": "緣起經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     }
   ],
@@ -67555,6 +67842,11 @@
     {
       "slug": "cbeta-T02n0139",
       "name_zh": "佛說四泥犁經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
       "religion": "佛教"
     },
     {
@@ -70903,6 +71195,11 @@
   ],
   "結界": [
     {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0948",
       "name_zh": "金輪王佛頂要略念誦法",
       "religion": "佛教"
@@ -70990,6 +71287,13 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    }
+  ],
+  "給孤獨": [
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
+      "religion": "佛教"
     }
   ],
   "給孤獨園": [
@@ -71226,6 +71530,11 @@
     {
       "slug": "cbeta-T30n1573",
       "name_zh": "壹輸盧迦論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     }
   ],
@@ -71588,6 +71897,11 @@
     {
       "slug": "cbeta-T17n0819",
       "name_zh": "佛說法常住經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0910",
+      "name_zh": "梵天擇地法",
       "religion": "佛教"
     },
     {
@@ -72043,6 +72357,11 @@
     {
       "slug": "cbeta-T02n0124",
       "name_zh": "緣起經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
       "religion": "佛教"
     },
     {
@@ -74657,6 +74976,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1168B",
       "name_zh": "八曼荼羅經",
       "religion": "佛教"
@@ -74752,6 +75076,11 @@
     {
       "slug": "cbeta-T14n0569",
       "name_zh": "佛說心明經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     },
     {
@@ -74869,6 +75198,11 @@
     {
       "slug": "cbeta-T02n0142a",
       "name_zh": "佛說玉耶女經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0142b",
+      "name_zh": "玉耶女經",
       "religion": "佛教"
     },
     {
@@ -76893,6 +77227,11 @@
     {
       "slug": "cbeta-T20n1077",
       "name_zh": "佛說七俱胝佛母心大准提陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -79048,6 +79387,11 @@
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
+      "religion": "佛教"
     }
   ],
   "行善": [
@@ -80303,6 +80647,11 @@
       "slug": "cbeta-T16n0718",
       "name_zh": "佛說分別緣生經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
+      "religion": "佛教"
     }
   ],
   "觸瓶": [
@@ -81264,6 +81613,11 @@
       "slug": "cbeta-T31n1619",
       "name_zh": "無相思塵論",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1654",
+      "name_zh": "因緣心論頌因緣心論釋",
+      "religion": "佛教"
     }
   ],
   "識無邊處": [
@@ -81352,6 +81706,13 @@
     {
       "slug": "cbeta-T20n1150",
       "name_zh": "轉法輪菩薩摧魔怨敵法",
+      "religion": "佛教"
+    }
+  ],
+  "護念": [
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     }
   ],
@@ -83121,6 +83482,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1368",
       "name_zh": "佛說大七寶陀羅尼經",
       "religion": "佛教"
@@ -84330,6 +84696,11 @@
       "slug": "cbeta-T20n1046",
       "name_zh": "六字大陀羅尼呪經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
     }
   ],
   "釋梵": [
@@ -84826,10 +85197,24 @@
       "religion": "佛教"
     }
   ],
+  "金剛密迹菩薩": [
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
+      "religion": "佛教"
+    }
+  ],
   "金剛峰": [
     {
       "slug": "cbeta-T20n1127",
       "name_zh": "佛說普賢菩薩陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "金剛幢菩薩": [
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     }
   ],
@@ -85120,6 +85505,13 @@
     {
       "slug": "cbeta-T19n0929",
       "name_zh": "淨瑠璃淨土摽",
+      "religion": "佛教"
+    }
+  ],
+  "金剛藏菩薩": [
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     }
   ],
@@ -86054,6 +86446,11 @@
     {
       "slug": "cbeta-T01n0043",
       "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
       "religion": "佛教"
     }
   ],
@@ -87849,6 +88246,11 @@
     {
       "slug": "cbeta-T20n1118",
       "name_zh": "佛說十八臂陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1138a",
+      "name_zh": "金剛祕密善門陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -90710,6 +91112,11 @@
     }
   ],
   "香山": [
+    {
+      "slug": "cbeta-T14n0583",
+      "name_zh": "佛說黑氏梵志經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1265",
       "name_zh": "佛說常瞿利毒女陀羅尼呪經",
