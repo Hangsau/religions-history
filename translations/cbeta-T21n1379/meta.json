@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "大愛",
+    "海神",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "苾芻",
+    "苾芻尼",
+    "優婆塞",
+    "優婆夷",
+    "海難",
+    "眷屬",
+    "世尊",
+    "受持",
+    "讀誦",
+    "娑嚩賀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c3e2cd04153a55ce58d4387fa1a0b19bde28b1ab4d795afed2ea08adb595a3f3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "斷溫經",
+    "阿難",
+    "南閻浮提",
+    "溫氣",
+    "瘴",
+    "鬼神",
+    "夢多難鬼",
+    "阿佉尼鬼",
+    "尼佉尸鬼",
+    "阿伽那鬼",
+    "波羅尼鬼",
+    "阿毗羅鬼",
+    "婆提梨鬼",
+    "金剛秘密呪",
+    "觀世音菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "805c91fd6778890e4d43a5d5731cee6adc670a1e127719ee57893a61990aa1dc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

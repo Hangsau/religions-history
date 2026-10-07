@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "十八臂",
+    "陀羅尼",
+    "阿難",
+    "世尊",
+    "三界",
+    "輪迴",
+    "根本罪業",
+    "持誦",
+    "功德",
+    "四重罪",
+    "實智",
+    "那謨",
+    "唵",
+    "娑嚩賀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "40ed0dacdcf792fb05dc45c1188942124431853d726f33f1c7a99bf098641a68"
+  },
+  "tagging_models": "MiniMax-M3"
 }
