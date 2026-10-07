@@ -19200,6 +19200,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T32n1679",
       "name_zh": "佛一百八名讚",
       "religion": "佛教"
@@ -20476,6 +20481,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
       "religion": "佛教"
@@ -21521,6 +21531,13 @@
       "religion": "儒教"
     }
   ],
+  "不親近白衣": [
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    }
+  ],
   "不記說": [
     {
       "slug": "cbeta-T01n0093",
@@ -22334,6 +22351,11 @@
   ],
   "乞食": [
     {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0552",
       "name_zh": "佛說摩登女解形中六事經",
       "religion": "佛教"
@@ -22366,10 +22388,24 @@
       "religion": "佛教"
     }
   ],
+  "乳汁": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    }
+  ],
   "乳粥": [
     {
       "slug": "cbeta-T21n1263",
       "name_zh": "氷揭羅天童子經",
+      "religion": "佛教"
+    }
+  ],
+  "乳糖": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
       "religion": "佛教"
     }
   ],
@@ -26218,6 +26254,13 @@
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
+    }
+  ],
+  "保護方藥": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
     }
   ],
   "信": [
@@ -36201,6 +36244,11 @@
       "slug": "cbeta-T20n1113A",
       "name_zh": "觀自在菩薩廣大圓滿無礙大悲心陀羅尼",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
+      "religion": "佛教"
     }
   ],
   "大悲心陀羅尼": [
@@ -36493,6 +36541,11 @@
   ],
   "大目乾連": [
     {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1327",
       "name_zh": "佛說呪齒經",
       "religion": "佛教"
@@ -36754,6 +36807,13 @@
       "slug": "bible-1-samuel",
       "name_zh": "撒母耳記上",
       "religion": "基督教"
+    }
+  ],
+  "大覺世尊": [
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
+      "religion": "佛教"
     }
   ],
   "大身呪": [
@@ -38739,6 +38799,11 @@
     {
       "slug": "cbeta-T01n0029",
       "name_zh": "鹹水喻經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
       "religion": "佛教"
     },
     {
@@ -40952,6 +41017,13 @@
       "religion": "基督教"
     }
   ],
+  "尼師壇": [
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    }
+  ],
   "尼拘𡀩陀樹": [
     {
       "slug": "cbeta-X01n0028",
@@ -41954,6 +42026,11 @@
   ],
   "師子吼": [
     {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0775",
       "name_zh": "佛說四無所畏經",
       "religion": "佛教"
@@ -42459,6 +42536,13 @@
       "slug": "beidou-yansheng-jing",
       "name_zh": "太上玄靈北斗本命延生真經",
       "religion": "道教"
+    }
+  ],
+  "延胎十二月": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
     }
   ],
   "建業": [
@@ -44514,6 +44598,13 @@
       "religion": "印度教"
     }
   ],
+  "情欲": [
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
+    }
+  ],
   "惑障": [
     {
       "slug": "cbeta-T31n1620",
@@ -44525,6 +44616,11 @@
     {
       "slug": "cbeta-T17n0805",
       "name_zh": "佛說栴檀樹經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
       "religion": "佛教"
     }
   ],
@@ -45279,6 +45375,13 @@
       "religion": "佛教"
     }
   ],
+  "憂鉢羅花": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    }
+  ],
   "憍慢": [
     {
       "slug": "cbeta-T02n0103",
@@ -45379,6 +45482,20 @@
       "slug": "vulgate-deuteronomy",
       "name_zh": "申命記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "懷孕": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    }
+  ],
+  "懷胎十月": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
     }
   ],
   "懸鈴木": [
@@ -46135,6 +46252,11 @@
       "slug": "cbeta-T14n0559",
       "name_zh": "佛說老女人經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
     }
   ],
   "拘翼": [
@@ -46397,6 +46519,11 @@
     {
       "slug": "cbeta-T24n1467a",
       "name_zh": "佛說犯戒罪報輕重經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     },
     {
@@ -47061,6 +47188,13 @@
       "religion": "印度教"
     }
   ],
+  "摩尼羅亶經": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    }
+  ],
   "摩尼跋捺囉": [
     {
       "slug": "cbeta-T21n1285",
@@ -47110,6 +47244,13 @@
       "religion": "猶太教"
     }
   ],
+  "摩曩識": [
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
+      "religion": "佛教"
+    }
+  ],
   "摩梨山": [
     {
       "slug": "cbeta-T32n1689",
@@ -47142,6 +47283,13 @@
     {
       "slug": "cbeta-T14n0552",
       "name_zh": "佛說摩登女解形中六事經",
+      "religion": "佛教"
+    }
+  ],
+  "摩竭": [
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
       "religion": "佛教"
     }
   ],
@@ -47324,6 +47472,13 @@
       "religion": "佛教"
     }
   ],
+  "摩訶目犍連": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    }
+  ],
   "摩訶般摩龍王": [
     {
       "slug": "cbeta-T20n1074",
@@ -47382,6 +47537,13 @@
     {
       "slug": "cbeta-T19n1002",
       "name_zh": "不空羂索毘盧遮那佛大灌頂光真言",
+      "religion": "佛教"
+    }
+  ],
+  "摩訶迦葉": [
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     }
   ],
@@ -48742,6 +48904,13 @@
     {
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    }
+  ],
+  "方便觀": [
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     }
   ],
@@ -51160,6 +51329,13 @@
       "religion": "佛教"
     }
   ],
+  "栴檀香": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    }
+  ],
   "栴檀香身": [
     {
       "slug": "cbeta-T21n1387",
@@ -51597,6 +51773,11 @@
     {
       "slug": "cbeta-T01n0029",
       "name_zh": "鹹水喻經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
       "religion": "佛教"
     },
     {
@@ -53261,6 +53442,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
       "religion": "佛教"
@@ -53473,6 +53659,11 @@
     {
       "slug": "cbeta-T21n1391",
       "name_zh": "佛說檀特羅麻油述經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     },
     {
@@ -54366,6 +54557,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -54708,6 +54904,13 @@
     {
       "slug": "cbeta-T32n1678",
       "name_zh": "佛三身讚",
+      "religion": "佛教"
+    }
+  ],
+  "法界善覺心": [
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     }
   ],
@@ -55284,6 +55487,11 @@
       "slug": "cbeta-T17n0786",
       "name_zh": "佛說木槵子經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
     }
   ],
   "泥洹道": [
@@ -55332,6 +55540,11 @@
     {
       "slug": "cbeta-T24n1467a",
       "name_zh": "佛說犯戒罪報輕重經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     },
     {
@@ -55511,6 +55724,13 @@
       "religion": "基督教"
     }
   ],
+  "浮丘": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    }
+  ],
   "浮圖": [
     {
       "slug": "cbeta-T51n2094",
@@ -55582,6 +55802,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
       "religion": "佛教"
     },
     {
@@ -55976,6 +56201,13 @@
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
+    }
+  ],
+  "深沙": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
     }
   ],
   "深睡": [
@@ -57048,6 +57280,11 @@
     {
       "slug": "cbeta-T30n1576",
       "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     },
     {
@@ -58944,6 +59181,13 @@
     {
       "slug": "cbeta-T31n1621",
       "name_zh": "掌中論",
+      "religion": "佛教"
+    }
+  ],
+  "甘草": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
       "religion": "佛教"
     }
   ],
@@ -61414,6 +61658,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T24n1481",
       "name_zh": "佛說五恐怖世經",
       "religion": "佛教"
@@ -61551,6 +61800,13 @@
     {
       "slug": "cbeta-T21n1258",
       "name_zh": "摩利支菩薩略念誦法",
+      "religion": "佛教"
+    }
+  ],
+  "祕密主": [
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     }
   ],
@@ -62278,6 +62534,11 @@
     {
       "slug": "cbeta-T21n1324",
       "name_zh": "能淨一切眼疾病陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     }
   ],
@@ -64280,6 +64541,13 @@
     {
       "slug": "cbeta-T21n1326",
       "name_zh": "佛說呪時氣病經",
+      "religion": "佛教"
+    }
+  ],
+  "結跏趺坐": [
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
       "religion": "佛教"
     }
   ],
@@ -66975,6 +67243,11 @@
   ],
   "胎藏": [
     {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T55n2165",
       "name_zh": "日本國承和五年入唐求法目錄",
       "religion": "佛教"
@@ -67193,6 +67466,11 @@
     {
       "slug": "cbeta-T08n0257",
       "name_zh": "佛說聖佛母般若波羅蜜多經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     }
   ],
@@ -67618,6 +67896,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T46n1942",
       "name_zh": "法華三昧行事運想補助儀",
       "religion": "佛教"
@@ -68038,6 +68321,11 @@
     {
       "slug": "cbeta-T21n1385",
       "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     },
     {
@@ -69206,6 +69494,13 @@
       "religion": "佛教"
     }
   ],
+  "菉豆": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    }
+  ],
   "菩提": [
     {
       "slug": "an2-twos",
@@ -69414,6 +69709,11 @@
     {
       "slug": "cbeta-T30n1576",
       "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     },
     {
@@ -69709,6 +70009,11 @@
     {
       "slug": "cbeta-T21n1395",
       "name_zh": "拔濟苦難陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     },
     {
@@ -70843,6 +71148,13 @@
       "religion": "佛教"
     }
   ],
+  "蘊處界": [
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
+      "religion": "佛教"
+    }
+  ],
   "蘘麌哩曳童女": [
     {
       "slug": "cbeta-T21n1264a",
@@ -70966,6 +71278,11 @@
     {
       "slug": "cbeta-T30n1574",
       "name_zh": "大乘破有論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     },
     {
@@ -71272,6 +71589,11 @@
     {
       "slug": "cbeta-T14n0521",
       "name_zh": "佛說梵摩難國王經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
       "religion": "佛教"
     }
   ],
@@ -71821,6 +72143,13 @@
     {
       "slug": "cbeta-T21n1400",
       "name_zh": "佛說消除一切災障寶髻陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "觀痛": [
+    {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
       "religion": "佛教"
     }
   ],
@@ -72695,6 +73024,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "諛諂": [
+    {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
+    }
+  ],
   "諦受": [
     {
       "slug": "cbeta-T02n0112",
@@ -72777,6 +73113,13 @@
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
+    }
+  ],
+  "諸佛名字": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
     }
   ],
   "諸佛子": [
@@ -73771,6 +74114,13 @@
       "religion": "佛教"
     }
   ],
+  "赤色鬼": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    }
+  ],
   "赫利奧波利斯神學": [
     {
       "slug": "pyramid-texts-mercer",
@@ -74188,6 +74538,11 @@
     {
       "slug": "cbeta-T30n1576",
       "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
       "religion": "佛教"
     },
     {
@@ -74649,9 +75004,28 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "迦葉仙人": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
+    }
+  ],
+  "迦葉佛": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
     }
   ],
   "迦葉如來": [
@@ -75758,6 +76132,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    },
+    {
       "slug": "dirghagama",
       "name_zh": "長阿含經",
       "religion": "佛教"
@@ -76401,6 +76780,13 @@
     {
       "slug": "cbeta-T21n1397",
       "name_zh": "智炬陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "金曼鬼": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
       "religion": "佛教"
     }
   ],
@@ -77921,6 +78307,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1663",
+      "name_zh": "菩提心觀釋",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -78498,6 +78889,11 @@
     {
       "slug": "cbeta-T21n1390",
       "name_zh": "佛說洛叉陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
       "religion": "佛教"
     },
     {
@@ -80317,6 +80713,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T24n1469",
+      "name_zh": "佛說迦葉禁戒經",
+      "religion": "佛教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -81095,6 +81496,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X01n0019",
       "name_zh": "佛說斷溫經",
       "religion": "佛教"
@@ -81406,6 +81812,11 @@
   ],
   "鹿野苑": [
     {
+      "slug": "cbeta-T01n0047",
+      "name_zh": "離睡經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
       "religion": "佛教"
@@ -81553,6 +81964,13 @@
       "slug": "maitrayani-samhita",
       "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
       "religion": "印度教"
+    }
+  ],
+  "黑色鬼": [
+    {
+      "slug": "cbeta-T21n1393",
+      "name_zh": "佛說摩尼羅亶經",
+      "religion": "佛教"
     }
   ],
   "黑落德": [
@@ -81965,6 +82383,13 @@
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
+    }
+  ],
+  "𠰒嚩迦仙人": [
+    {
+      "slug": "cbeta-T32n1691",
+      "name_zh": "迦葉仙人說醫女人經",
+      "religion": "佛教"
     }
   ]
 }

@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "non-dual",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "菩提心",
+    "阿耨多羅三藐三菩提",
+    "祕密主",
+    "蘊處界",
+    "摩曩識",
+    "自性空",
+    "無我",
+    "大悲心",
+    "輪迴",
+    "虛空",
+    "大覺世尊",
+    "方便觀",
+    "法界善覺心",
+    "一切智"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d4834fc51a4f79e43c15362f2f4165f5118bb3bddb07feb092142c1bb94d5c58"
+  },
+  "tagging_models": "MiniMax-M3"
 }

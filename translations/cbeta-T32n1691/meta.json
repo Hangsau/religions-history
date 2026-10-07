@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "迦葉仙人",
+    "𠰒嚩迦仙人",
+    "懷孕",
+    "胎藏",
+    "保護方藥",
+    "栴檀香",
+    "憂鉢羅花",
+    "乳汁",
+    "乳糖",
+    "菉豆",
+    "甘草",
+    "懷胎十月",
+    "延胎十二月"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "illness-body",
+    "marriage-family",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6c31817c69f49d7d0adbd817e5d929101f47c357e145c38665f3c55e7d723bd7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
