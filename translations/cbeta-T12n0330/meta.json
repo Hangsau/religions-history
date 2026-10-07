@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "essentially-flawed",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "菩薩",
+    "威施",
+    "觀身行",
+    "四十二事",
+    "大乘",
+    "無上正真道意",
+    "泥洹",
+    "六度無極",
+    "柔順法忍",
+    "舍衛國",
+    "祇樹給孤獨精舍",
+    "慈氏佛",
+    "華吉藏王如來",
+    "阿鼻",
+    "閻羅王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4ca89c393fed889662bd423bfa93fe65119566d5f0e5e69fa18d02fe3f8e0212"
+  },
+  "tagging_models": "MiniMax-M3"
 }
