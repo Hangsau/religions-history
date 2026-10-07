@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "lay-practitioner",
+    "marriage-sacred",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "舍衛國",
+    "遬達",
+    "玉耶",
+    "佛",
+    "父母恩",
+    "孝順",
+    "三惡四善",
+    "婦禮",
+    "優婆塞",
+    "比丘",
+    "地獄",
+    "天上",
+    "神化",
+    "姑妐",
+    "婬泆"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "gratitude-contentment",
+    "honesty-hypocrisy",
+    "marriage-family",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "75f187fa00645c5c2df0110c1365cf661dadf854e34c5126815a9887e1d81670"
+  },
+  "tagging_models": "MiniMax-M3"
 }

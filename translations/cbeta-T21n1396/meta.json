@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "forgiveness",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "曼殊室利",
+    "呪王",
+    "五濁世",
+    "貪恚癡",
+    "大地獄",
+    "淨居天",
+    "毘那夜迦",
+    "觀自在",
+    "勢至菩薩",
+    "執金剛菩薩",
+    "六種震動",
+    "善處",
+    "罪障"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6f5e367869757803e3ea4acde36139e167dac324095e9d1ddd65a2a46a03a953"
+  },
+  "tagging_models": "MiniMax-M3"
 }
