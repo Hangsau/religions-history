@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "申日",
+    "旃羅法",
+    "王舍國",
+    "鷂山",
+    "毒藥",
+    "火坑",
+    "蓮華",
+    "五戒",
+    "優婆塞",
+    "須陀洹",
+    "阿難",
+    "三毒",
+    "貪婬",
+    "瞋恚",
+    "愚癡"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b54c64cd493ea4c45b816afa4f6ca0bcacad0bce516e0dfbe3be4940ec0bb227"
+  },
+  "tagging_models": "MiniMax-M3"
 }

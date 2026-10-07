@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "multiple-canons",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "大寶積經",
+    "如來",
+    "鷲峯",
+    "玄奘",
+    "菩提流志",
+    "迦葉摩騰",
+    "竺法蘭",
+    "涅槃",
+    "波羅蜜",
+    "梵文",
+    "譯經",
+    "唐先天二年",
+    "泥洹",
+    "聲教",
+    "仙宇"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ca98006833d717997293683802c2fc5237cbc2815553586bfe85e834610376d3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

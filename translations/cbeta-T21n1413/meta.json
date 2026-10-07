@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "尊勝大明王",
+    "阿難",
+    "世尊",
+    "觀自在菩薩",
+    "娑婆世界",
+    "持明天",
+    "焰魔王",
+    "歸命",
+    "陀羅尼",
+    "夜叉",
+    "魑魅魍魎",
+    "鬼神",
+    "惡鬼",
+    "罪業",
+    "受持讀誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2951e42279b90c6333023d707e2a00f8b5c98572abf9b872f224cc4e823efde8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
