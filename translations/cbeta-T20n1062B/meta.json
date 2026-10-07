@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "monastic",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "觀自在",
+    "菩提薩埵",
+    "怛嚩",
+    "大悲心",
+    "陀羅尼",
+    "千眼千足千舌千臂",
+    "世尊",
+    "聖者",
+    "廣大圓滿",
+    "無礙",
+    "千首",
+    "大悲",
+    "密咒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8aa68cfe43dcd7329978818890a29f42834df3f204114cd80d4b81aa5d752f99"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "清淨心",
+    "五蓋",
+    "七覺支",
+    "貪欲",
+    "瞋恚",
+    "昏沈睡眠",
+    "掉悔",
+    "疑",
+    "心解脫",
+    "慧解脫",
+    "無明",
+    "正智",
+    "無學",
+    "舍衛國",
+    "祇樹給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "11f9ec8362c6d619323bb8cc24cf63ceca711fc4f7413eedd01e5a3dc4f41564"
+  },
+  "tagging_models": "MiniMax-M3"
 }

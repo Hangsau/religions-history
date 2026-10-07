@@ -20,5 +20,37 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "辟除賊害",
+    "默利薜利",
+    "健陀摩訶術",
+    "鬼子母",
+    "呪經",
+    "七佛",
+    "膠香",
+    "然燈",
+    "擁護",
+    "辟邪害",
+    "南無佛",
+    "二十九日",
+    "默利陰利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3917aa9e89be20bfa044e166e0345b4dd1f760e6f663ec37758aa88aec92ebff"
+  },
+  "tagging_models": "MiniMax-M3"
 }
