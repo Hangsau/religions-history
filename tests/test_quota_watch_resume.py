@@ -118,6 +118,14 @@ class QuotaProbeTests(unittest.TestCase):
 
 
 class WatchStateTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        patch = mock.patch.object(quota_watch.tagging_queue, 'MANIFEST_PATH',
+                                  Path(self.temp.name) / 'no-configured-job.json')
+        patch.start()
+        self.addCleanup(patch.stop)
+
     def test_provider_backoff_is_waited_without_quota_probe_or_resume(self):
         retry_at = datetime.now(quota_watch.TZ) + timedelta(minutes=30)
         state = {"status": "waiting_provider", "wait_mode": "provider_backoff",

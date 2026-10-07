@@ -15,6 +15,15 @@ import status_gui  # noqa: E402
 
 
 class StatusBoardDataTests(unittest.TestCase):
+    def test_tag_only_run_counts_finished_tags_as_activity(self):
+        with tempfile.TemporaryDirectory() as td, \
+                mock.patch.object(status_gui.status, 'LOGS', Path(td)), \
+                mock.patch.object(status_gui.status, 'TRANSLATIONS_DIR', Path(td) / 'translations'):
+            (Path(td) / 'supervisor-run.log').write_text(
+                '[done] old (translate)\n[done] first (tag)\n[done] second (tag)\n', encoding='utf-8')
+            activity = status_gui.translation_activity(time.time(), {'tasks': ['tag']})
+            self.assertEqual(activity['done_run'], 2)
+
     def test_metadata_updates_do_not_count_as_new_downloads(self):
         with tempfile.TemporaryDirectory() as td, \
                 mock.patch.object(status_gui.status, "TRANSLATIONS_DIR", Path(td)):

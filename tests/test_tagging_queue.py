@@ -141,6 +141,15 @@ class TaggingQueueTests(unittest.TestCase):
             self.assertTrue(watcher.resume('核心'))
         self.assertEqual(popen.call_args.args[0][-1], queue.QUEUE_NAME)
 
+    def test_disabled_tag_handoff_never_falls_back_to_translation(self):
+        self.data['enabled'] = False
+        self.write_manifest()
+        with mock.patch.object(sys, 'argv', ['supervise-pipeline.py', queue.QUEUE_NAME]):
+            supervisor = module('disabled_tag_supervisor_test', 'supervise-pipeline.py')
+        self.assertEqual(supervisor.TIER, queue.QUEUE_NAME)
+        with self.assertRaises(ValueError):
+            queue.worker_args(supervisor.TIER)
+
     def test_tag_only_worker_keeps_translation_axis_and_restarts_without_api(self):
         pipeline = module('tag_pipeline_test', 'auto-pipeline.py')
         runtime = self.root / 'runtime.json'

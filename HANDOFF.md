@@ -16,10 +16,16 @@
 - 共用 tagging_queue module 對齊 supervisor、watcher、桌面啟動與 handoff；即使舊桌面仍
   傳「核心」，supervisor 也會讀持久設定派 `--tag-queue`。不必另開第二條生成管線。
   本次未新增 Windows 排程；既有桌面看板是復活入口，背景 worker 可獨立於本對話運行。
-- 101 項測試通過：新佇列惡意路徑／重複／錯 hash、來源變更與短文、tag-only 不呼叫翻譯
+- 103 項測試通過：新佇列惡意路徑／重複／錯 hash、來源變更與短文、tag-only 不呼叫翻譯
   或改 translation_status、完成後重跑不再呼叫 API、舊 supervisor 入口與 quota 恢復，
   以及既有跨進程鎖、checkpoint、拒絕隔離與等待退避。全庫 4683 部 verify 通過。
   兩部 dry-run 確認 tasks=['tag']，沒有生成請求或 metadata 寫入。
+- 22:21:29 啟動 supervisor 34924 / worker 45008；22:21:51 已完成前五部真實 MiniMax-M3
+  標籤回覆：定觀經、陰騭文、天隱子、金丹四百字、內觀經。metadata 包含雙標籤、關鍵字、
+  tag_source 與 tagging_models；沒有新增翻譯檔或 translation_status。
+  桌面新版本可按 tag 任務計算本輪完成數，舊已開啟視窗下次重開載入新版。
+- 持續觀察至 22:24:34：同一組 supervisor/worker 已完成 10 部，包含三批切段的《象山語錄》，
+  每次成功回覆都有 API usage；第一批之後仍接續運行，失敗 ledger 為空。
 - 後續：待審與外語來源另行決定；這批只補標籤，未把核心品質審查宣告完成。
 
 ---

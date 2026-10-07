@@ -410,8 +410,9 @@ def pipeline_health(now: float, runtime: dict | None = None) -> dict:
             live_detail += f" · {len(rejected)} 段待審（內容遭拒，未計入完成）"
     elif runtime and not runtime.get("_fresh"):
         live_detail = " · runtime 已逾期，顯示持久狀態"
+    activity_label = "標籤" if runtime.get("tasks") == ["tag"] else "翻譯"
     return {**base, "color": DONE,
-            "text": f"翻譯管線運行中：{done}/{total} @ {current}{live_detail}"
+            "text": f"{activity_label}管線運行中：{done}/{total} @ {current}{live_detail}"
                     f"（chunk {fmt_ago(run_age)}活動）"}
 
 
@@ -465,7 +466,9 @@ def translation_activity(now: float, runtime: dict | None = None) -> dict:
 
     d["fallbacks"] = sum(1 for l in block if re.search(r"\[model\]\s+\S+\s+\(fallback\)", l))
     d["errors"] = sum(1 for l in block if "[error]" in l)
-    d["done_run"] = sum(1 for l in block if re.search(r"\[done\]\s+\S+\s+\(translate\)", l))
+    completion_task = "tag" if runtime and runtime.get("tasks") == ["tag"] else "translate"
+    d["done_run"] = sum(1 for l in block if re.search(
+        rf"\[done\]\s+\S+\s+\({completion_task}\)", l))
 
     # 供應商：解析 translate.py 印的 `[model] <name> (<role>)` marker（唯一真相源，不寫死 model 名）。
     # 抓最後一個 marker → 顯示現用 model；role==fallback 時看板紅字提醒在燒備援。

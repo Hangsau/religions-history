@@ -45,13 +45,13 @@ IDLE = LOGS / "pipeline-idle.json"  # 佇列無事可做時留下；刊版據此
 
 def _tier_arg() -> str:
     raw = sys.argv[1] if len(sys.argv) > 1 else "核心"
-    if raw in {"核心", "次要", "總集"}:
+    if raw in {"核心", "次要", "總集", tagging_queue.QUEUE_NAME}:
         return raw
     try:
         repaired = raw.encode("latin1").decode("utf-8")
     except (UnicodeEncodeError, UnicodeDecodeError):
         repaired = raw
-    return repaired if repaired in {"核心", "次要", "總集"} else "核心"
+    return repaired if repaired in {"核心", "次要", "總集", tagging_queue.QUEUE_NAME} else "核心"
 
 
 TIER = tagging_queue.effective_tier(_tier_arg())
