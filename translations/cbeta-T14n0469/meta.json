@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "truthfulness"
+  ],
+  "keywords": [
+    "文殊師利",
+    "字母",
+    "陀羅尼",
+    "阿字",
+    "無常",
+    "無我",
+    "三有",
+    "四聖諦",
+    "七聖財",
+    "六神通",
+    "真如",
+    "解脫",
+    "勝義",
+    "佛",
+    "世尊"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3b2b35c0d54d749fe4beba2eb42041cee13f9da22d8964c7e4e35ae6e85704a5"
+  },
+  "tagging_models": "MiniMax-M3"
 }
