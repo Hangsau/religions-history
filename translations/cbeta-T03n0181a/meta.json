@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "forgiveness",
+    "liberation-by-works",
+    "non-violence"
+  ],
+  "keywords": [
+    "菩薩",
+    "九色鹿",
+    "恒水",
+    "羼提波羅蜜",
+    "忍辱",
+    "阿難",
+    "調達",
+    "悅頭檀",
+    "先陀利",
+    "烏",
+    "溺人",
+    "因果"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "evil-cruelty-empathy",
+    "gratitude-contentment",
+    "honesty-hypocrisy",
+    "love-sex-intimacy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "07e68cf269e733aedb825d7813771ef3799c85588b30a33ccd559acb16bf1921"
+  },
+  "tagging_models": "MiniMax-M3"
 }

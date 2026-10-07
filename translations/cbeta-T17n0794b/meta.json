@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "時非時經",
+    "王舍城",
+    "迦蘭陀竹林園",
+    "比丘",
+    "世尊",
+    "放逸",
+    "因緣",
+    "地獄",
+    "解脫",
+    "天竺三藏",
+    "若羅嚴",
+    "于闐",
+    "聲聞",
+    "披褐懷玉"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "gratitude-contentment",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bb9685713fc9d4d6216b0a024b351777323d85af6812fe16082f792d06c3f2a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }

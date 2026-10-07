@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "mystical-union",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "金剛香",
+    "陀羅尼",
+    "真言",
+    "世尊",
+    "降伏",
+    "星曜",
+    "諸天",
+    "大明",
+    "三界",
+    "護持佛法",
+    "曩謨",
+    "唵",
+    "吽",
+    "娑嚩賀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1bd7021ed271278fda8c6b774020939d5858ec9a136754af9d31d7575166f744"
+  },
+  "tagging_models": "MiniMax-M3"
 }
