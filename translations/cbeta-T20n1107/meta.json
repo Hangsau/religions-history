@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+  ],
+  "keywords": [
+    "聖多羅菩薩",
+    "梵讚",
+    "觀世音",
+    "多羅",
+    "Tara",
+    "般若波羅蜜多",
+    "三摩地",
+    "薩埵",
+    "菩提",
+    "陀羅尼",
+    "曼陀羅",
+    "菩薩",
+    "梵語"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9e434b9d3fff7790fde1d25bfbd60f4b2ddd705f565980c65a2c29873a9a2526"
+  },
+  "tagging_models": "MiniMax-M3"
 }

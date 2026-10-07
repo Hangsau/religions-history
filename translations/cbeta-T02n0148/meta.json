@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "不梨先泥",
+    "十夢",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "摩尼",
+    "婆羅門",
+    "齋房",
+    "祠天",
+    "三瓶併",
+    "小樹生華",
+    "大谿水流正赤",
+    "佛教",
+    "末世預言",
+    "國王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f26e012d2bd1f0e96bcf9c0e1074cf33f8e87633988f1a867871f98b437789bf"
+  },
+  "tagging_models": "MiniMax-M3"
 }
