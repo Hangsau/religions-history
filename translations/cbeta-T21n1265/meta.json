@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "chanting",
+    "compassion",
+    "feminine-divine",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "常瞿利毒女",
+    "陀羅尼",
+    "神呪",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "雪山",
+    "香山",
+    "毒龍",
+    "降怨鳥王",
+    "蔓覩蘿",
+    "加持印",
+    "勸修寺",
+    "大明身呪",
+    "瓔珞",
+    "觸護陀羅尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "27487fcf69120a933a528213bd176b66eae989d9577000fd8ccfcbabf7634987"
+  },
+  "tagging_models": "MiniMax-M3"
 }

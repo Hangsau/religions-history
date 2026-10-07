@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "vision-experience"
+  ],
+  "keywords": [
+    "八陽神呪經",
+    "舍利弗",
+    "快樂如來",
+    "月英幢王如來",
+    "等遍明如來",
+    "彌勒菩薩",
+    "四天王",
+    "陀隣尼",
+    "三惡道",
+    "五濁",
+    "泥洹",
+    "菩薩",
+    "佛剎",
+    "持戒",
+    "八菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2d223b8705a1c0066e10463087ebf4bdb619cc2949e1e429d30851305032d96d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

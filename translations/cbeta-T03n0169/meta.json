@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "self-effort"
+  ],
+  "keywords": [
+    "月明童男",
+    "菩薩",
+    "法施",
+    "飯食施",
+    "善權方便",
+    "諦念願無上王如來",
+    "智力王",
+    "智止太子",
+    "浮曇末",
+    "三昧",
+    "至誠意比丘",
+    "彌勒菩薩",
+    "無上正真道",
+    "須陀洹",
+    "辟支佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "giving-generosity",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0d6af6ac98cd9924a04b339088602ad3778ee65a22742f204ab89bcc6975a161"
+  },
+  "tagging_models": "MiniMax-M3"
 }

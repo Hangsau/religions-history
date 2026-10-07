@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "壞相金剛",
+    "陀羅尼",
+    "金剛手",
+    "婆伽梵",
+    "金剛場",
+    "三摩地",
+    "息災增益",
+    "明呪",
+    "莎嚩訶",
+    "栴檀",
+    "金剛杵",
+    "閻淨水",
+    "百八遍",
+    "梵天棄背",
+    "夭橫"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f5d9c950bea78c3d081e2280c2be2b8cdcf2179db75c8b3cbeac94789e91dc79"
+  },
+  "tagging_models": "MiniMax-M3"
 }
