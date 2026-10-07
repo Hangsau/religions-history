@@ -21,5 +21,62 @@
   "tier": "次要",
   "notes": "玉皇上帝本行與威神，玉皇信仰核心經",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "creator-deity",
+    "divine-immanence",
+    "divine-kingship",
+    "divine-transcendence",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "prophetic-revelation",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "spirit-possession",
+    "syncretic",
+    "theodicy",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "元始天尊",
+    "玉皇",
+    "清微天",
+    "玉京",
+    "太上道君",
+    "淨德王",
+    "寶月光",
+    "光嚴妙樂國",
+    "六道",
+    "三惡道",
+    "解脫",
+    "光明",
+    "化身",
+    "夜光玉女",
+    "清淨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d412de90be5174bffae4af50222b54cc45f8c1d7108c4b8feb94dedf59ca660e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -873,6 +873,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
+      "religion": "道教"
+    },
+    {
       "slug": "lotus-sutra",
       "name_zh": "妙法蓮華經",
       "religion": "佛教"
@@ -2072,6 +2077,11 @@
       "religion": "道教"
     },
     {
+      "slug": "huashu",
+      "name_zh": "化書",
+      "religion": "道教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -2160,6 +2170,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
+      "religion": "道教"
     },
     {
       "slug": "lotus-sutra",
@@ -2926,6 +2941,11 @@
     {
       "slug": "huainanzi",
       "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
+      "slug": "huashu",
+      "name_zh": "化書",
       "religion": "道教"
     },
     {
@@ -4246,6 +4266,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -5006,6 +5031,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
+    },
+    {
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
@@ -5019,6 +5049,11 @@
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "religion": "道教"
     },
     {
       "slug": "zhoudunyi-tongshu",
@@ -5503,6 +5538,11 @@
       "religion": "道教"
     },
     {
+      "slug": "huashu",
+      "name_zh": "化書",
+      "religion": "道教"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -5626,6 +5666,11 @@
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
+    },
+    {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
+      "religion": "道教"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -6934,6 +6979,11 @@
       "religion": "道教"
     },
     {
+      "slug": "huashu",
+      "name_zh": "化書",
+      "religion": "道教"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -7007,6 +7057,11 @@
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
+    },
+    {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -7417,6 +7472,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
     },
     {
       "slug": "zhuangzi",
@@ -7961,6 +8021,11 @@
       "religion": "道教"
     },
     {
+      "slug": "huashu",
+      "name_zh": "化書",
+      "religion": "道教"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -8093,6 +8158,11 @@
     {
       "slug": "liezi",
       "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
       "religion": "道教"
     },
     {
@@ -8711,8 +8781,18 @@
       "religion": "印度教"
     },
     {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
+    },
+    {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
+      "religion": "道教"
+    },
+    {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
       "religion": "道教"
     },
     {
@@ -9886,6 +9966,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -10239,6 +10324,11 @@
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
+    },
+    {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "religion": "道教"
     },
     {
       "slug": "zechariah",
@@ -10603,9 +10693,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
+      "religion": "道教"
+    },
+    {
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
+    },
+    {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
     },
     {
       "slug": "medicine-buddha-sutra",
@@ -10866,6 +10966,16 @@
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
       "religion": "儒教"
+    },
+    {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
+    },
+    {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "religion": "道教"
     },
     {
       "slug": "zechariah",
@@ -11261,6 +11371,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
+    },
+    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
@@ -11493,6 +11608,11 @@
       "religion": "道教"
     },
     {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "religion": "道教"
+    },
+    {
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
@@ -11533,6 +11653,11 @@
       "slug": "job",
       "name_zh": "約伯記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
     },
     {
       "slug": "sblgnt-3-john",

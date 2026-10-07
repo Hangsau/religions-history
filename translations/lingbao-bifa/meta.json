@@ -21,5 +21,56 @@
   "tier": "次要",
   "notes": "託名鍾離權，鍾呂金丹派內丹次第「畢法」修煉綱要",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "breath-control",
+    "celibate-tradition",
+    "chaos-to-order",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "dualistic-cosmos",
+    "emanation",
+    "enlightenment",
+    "human-as-microcosm",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "靈寶畢法",
+    "鍾離權",
+    "呂嵒",
+    "正陽真人",
+    "元始天尊",
+    "元皇道君",
+    "太上老君",
+    "陰陽",
+    "匹配陰陽",
+    "聚散水火",
+    "氣液相生",
+    "小乘安樂延法",
+    "金誥",
+    "玉書",
+    "真原"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "body-mind",
+    "change-transformation",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "48a4be2234081b2c8f5cb14ffb84d82ec45a7e888c58380d3663ac9dc04f95a2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

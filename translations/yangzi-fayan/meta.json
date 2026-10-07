@@ -21,5 +21,58 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "monastic",
+    "oral-tradition",
+    "prophetic-critique",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "study",
+    "theocracy",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "仲尼",
+    "顏淵",
+    "學",
+    "修身",
+    "模範",
+    "師",
+    "聖人",
+    "金口木舌",
+    "遷善",
+    "堯舜禹湯文武",
+    "鑄人",
+    "正考甫",
+    "尹吉甫",
+    "道德修養",
+    "善惡混"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e051bbea6eefa3e279211a3a1ae694d4f7c7635063a350ea40dbaf4e9f64852d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
