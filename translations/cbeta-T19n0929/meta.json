@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "vision-experience"
+  ],
+  "keywords": [
+    "藥師瑠璃光如來",
+    "大空三昧",
+    "蓮華",
+    "金剛藏王菩薩",
+    "日光菩薩",
+    "月光菩薩",
+    "蓮花幢金剛手菩薩",
+    "十二神將",
+    "毘沙門",
+    "淨瑠璃淨土",
+    "大寶瑠璃藥",
+    "真陀摩尼",
+    "佛波羅蜜",
+    "三昧總持",
+    "元睿山本"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4453d2a6ca32f8e0538430863bfaaebfaaf37f6f6f7810feea1ce995575851f2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

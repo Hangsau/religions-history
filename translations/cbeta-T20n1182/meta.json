@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "曼殊室利童子",
+    "釋迦牟尼佛",
+    "淨居天",
+    "一字呪王",
+    "唵叱洛呬焰",
+    "壇場神呪",
+    "療病護身",
+    "菩薩摩訶薩",
+    "先陀婆鹽",
+    "羯吒布單那",
+    "厭魅蠱毒",
+    "石女",
+    "天眾"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f4f56db2fffedb044c4214cd9511f7b498a32a8683e66fa604dbc476490a2383"
+  },
+  "tagging_models": "MiniMax-M3"
 }
