@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "sexual-ethics"
+  ],
+  "keywords": [
+    "佛大",
+    "僧大",
+    "快見",
+    "沙門",
+    "應真",
+    "溝港道",
+    "頻來道",
+    "不還道",
+    "三惡道",
+    "婬泆",
+    "持戒",
+    "五戒",
+    "三寶",
+    "忉利天",
+    "地獄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9b690921394457ed471ebd448b3d6ca230c29f7064ca706140c3f5425f791cae"
+  },
+  "tagging_models": "MiniMax-M3"
 }
