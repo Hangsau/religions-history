@@ -20,5 +20,34 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X09",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "圓覺經",
+    "了義經",
+    "三世諸佛",
+    "禪師",
+    "荷恩讚法",
+    "丞相",
+    "休常",
+    "血氣之屬",
+    "疏",
+    "科文",
+    "序"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6e753739c1fe0929b700deb6597d6ee4870d811ecd607d253a2de9ea55505b66"
+  },
+  "tagging_models": "MiniMax-M3"
 }

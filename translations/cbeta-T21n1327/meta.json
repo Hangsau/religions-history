@@ -20,5 +20,34 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "南無佛",
+    "舍利弗",
+    "大目乾連",
+    "健陀摩呵衍山",
+    "差吼無",
+    "牙齒",
+    "呪",
+    "蟲王",
+    "鳩羅勤蟮",
+    "梵天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9a701e93da52284f85cffe65ad14dfd81d83a488d9c66bbc18d06352f442b61b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "oral-tradition",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "錄外",
+    "常曉",
+    "惠運",
+    "禪林",
+    "蓮花王院",
+    "持誦次第儀軌",
+    "最澄",
+    "圓仁",
+    "圓珍",
+    "建長八年",
+    "村上醍醐覺洞院",
+    "金剛佛子親尊",
+    "目錄",
+    "他宗三家"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f48f8ee0e3cc6a11d7f38522a63d937946629ed35cee41aea6b2ee34672f637a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

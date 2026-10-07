@@ -20,5 +20,36 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "甘露陀羅尼呪",
+    "阿彌陀佛",
+    "皤哦嚩帝",
+    "怛他羯哆耶",
+    "阿羅訶帝",
+    "三藐三勃陀耶",
+    "唵",
+    "陀羅尼",
+    "甘露",
+    "呪",
+    "那謨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5d44740ba6a99337ed5f48eb4a28edb36cd65aa73236ff78b48d343ff939eccf"
+  },
+  "tagging_models": "MiniMax-M3"
 }
