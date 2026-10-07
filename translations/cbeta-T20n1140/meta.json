@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "延壽妙門",
+    "金剛手菩薩",
+    "灌頂陀羅尼",
+    "大梵天王",
+    "毘沙門天王",
+    "持國天王",
+    "增長天王",
+    "廣目天王",
+    "娑婆世界",
+    "釋迦牟尼佛",
+    "如是我聞",
+    "大菩提道場"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f15615e3173f1cbbb2626afa3bb5c34c02a2af2d169c8bf6e36b0bf0d996e776"
+  },
+  "tagging_models": "MiniMax-M3"
 }

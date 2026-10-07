@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "cyclic-cosmos",
+    "divine-kingship",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "messianism",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "阿難律",
+    "和里緣覺",
+    "彌勒",
+    "波旬",
+    "轉輪聖王",
+    "軻王",
+    "雞頭末",
+    "宿命",
+    "梵行",
+    "分衛",
+    "沙門",
+    "六神通",
+    "忉利天",
+    "波羅奈",
+    "鹿處"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "037b9b7ac2fe38213add9478f6f8553f5df038f1987ef7d86dc1300a8146da38"
+  },
+  "tagging_models": "MiniMax-M3"
 }
