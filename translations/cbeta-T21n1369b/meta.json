@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "百千印陀羅尼",
+    "王舍城",
+    "耆闍崛山",
+    "金色廣顏光明幢佛",
+    "釋迦牟尼佛",
+    "心呪",
+    "隨心呪",
+    "造塔",
+    "天龍八部",
+    "比丘",
+    "比丘尼",
+    "優婆塞",
+    "優婆夷",
+    "陀羅尼",
+    "歸命"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cdfa61c290deccb33deacf9cda8947ce63df8cc9028ac24ad0e2760c91f5f873"
+  },
+  "tagging_models": "MiniMax-M3"
 }
