@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+  ],
+  "keywords": [
+    "頻婆娑羅王",
+    "優樓頻螺迦葉",
+    "王舍城",
+    "杖林山",
+    "五蘊",
+    "色受想行識",
+    "涅槃",
+    "阿羅漢",
+    "三摩地",
+    "事火",
+    "梵行",
+    "法眼清淨",
+    "近事戒",
+    "大聲聞",
+    "圍陀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b24540927f11bec733cbb0314a69110cf6f8eca35a9932a097b1fbcb07ce3bdd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
