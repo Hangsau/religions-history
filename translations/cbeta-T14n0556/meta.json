@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness"
+  ],
+  "keywords": [
+    "拘留國",
+    "分儒達樹園",
+    "婆羅門",
+    "摩訶蜜",
+    "迦羅越",
+    "七女",
+    "迦葉佛",
+    "釋提桓因",
+    "阿耨多羅三藐三菩提",
+    "塚間",
+    "不淨觀",
+    "十二因緣",
+    "泥犁",
+    "波羅奈",
+    "機惟尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7fca7a6ba9097165b2a6fac352f2e9d88228962d24940902818d378af35da103"
+  },
+  "tagging_models": "MiniMax-M3"
 }
