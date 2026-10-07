@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "毘盧遮那",
+    "不空羂索",
+    "大灌頂光真言",
+    "母捺囉",
+    "十惡",
+    "五逆",
+    "四重",
+    "尸陀林",
+    "西方極樂國土",
+    "蓮華化生",
+    "摩訶迦羅神",
+    "魍魎",
+    "阿梨樹枝",
+    "白芥子"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "88f3d7c10b4d8a477dabcbf7cdae7da8476bbbf40d35a87afc32968c8697e32b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

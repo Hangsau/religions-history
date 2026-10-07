@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T04",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "大魚事經",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "世尊",
+    "比丘",
+    "魚師",
+    "波旬",
+    "婬心",
+    "利養",
+    "惡露觀",
+    "禁戒",
+    "生老病死",
+    "愁憂苦惱",
+    "惡趣",
+    "無上處"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "fear-uncertainty",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1e5d6d714f364f6ecbb6de2fb236e6df56e32a59cbc371859d98212b6c7b4dc5"
+  },
+  "tagging_models": "MiniMax-M3"
 }
