@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "creator-deity",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "舍利弗",
+    "如來",
+    "容像",
+    "量度法",
+    "尼拘𡀩陀樹",
+    "肉髻",
+    "白毫",
+    "頂髻",
+    "祇樹給孤獨園",
+    "忉利天",
+    "伽陀",
+    "優填王",
+    "三十二相",
+    "福德",
+    "福田"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "memory-reconciliation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3aa56f49b80624591edc8d841862a33013ff3503bbe5587f689393c5d5d26757"
+  },
+  "tagging_models": "MiniMax-M3"
 }

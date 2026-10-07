@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "non-dual",
+    "theodicy"
+  ],
+  "keywords": [
+    "菩提心",
+    "無我",
+    "真如",
+    "輪迴",
+    "涅槃",
+    "煩惱",
+    "眾生",
+    "唯心",
+    "大乘",
+    "分別",
+    "無明緣",
+    "幻",
+    "地獄",
+    "生死",
+    "菩提行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "11726b3f59822d8595906aa527edae362e7efc648b22b33e27e031cbef26a248"
+  },
+  "tagging_models": "MiniMax-M3"
 }

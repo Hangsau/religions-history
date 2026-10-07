@@ -19850,6 +19850,11 @@
       "slug": "cbeta-T17n0827",
       "name_zh": "佛說懈怠耕者經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
     }
   ],
   "三十五佛": [
@@ -20059,6 +20064,11 @@
     {
       "slug": "cbeta-T24n1498",
       "name_zh": "佛說八種長養功德經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     },
     {
@@ -23264,6 +23274,13 @@
       "religion": "道教"
     }
   ],
+  "五識": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "五識身": [
     {
       "slug": "yogacarabhumi",
@@ -23333,6 +23350,11 @@
     {
       "slug": "cbeta-T21n1363",
       "name_zh": "勝幢臂印陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -25008,6 +25030,13 @@
       "religion": "佛教"
     }
   ],
+  "似外境現": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "伽藍": [
     {
       "slug": "cbeta-T51n2094",
@@ -25019,6 +25048,11 @@
     {
       "slug": "cbeta-T24n1498",
       "name_zh": "佛說八種長養功德經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
       "religion": "佛教"
     }
   ],
@@ -26806,6 +26840,11 @@
       "slug": "cbeta-T16n0692",
       "name_zh": "佛說作佛形像經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
     }
   ],
   "優多羅": [
@@ -27682,6 +27721,13 @@
       "religion": "道教"
     }
   ],
+  "內境": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "內外加護": [
     {
       "slug": "cbeta-T19n0943",
@@ -27708,6 +27754,13 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    }
+  ],
+  "內色": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
     }
   ],
   "內觀": [
@@ -28162,6 +28215,11 @@
   ],
   "六塵": [
     {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T48n2010",
       "name_zh": "信心銘",
       "religion": "佛教"
@@ -28230,6 +28288,13 @@
     {
       "slug": "cbeta-T02n0108",
       "name_zh": "佛說滿願子經",
+      "religion": "佛教"
+    }
+  ],
+  "六情懺悔": [
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -28763,6 +28828,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T31n1620",
       "name_zh": "解捲論",
       "religion": "佛教"
@@ -29272,6 +29342,13 @@
       "slug": "wunengzi",
       "name_zh": "無能子",
       "religion": "道教"
+    }
+  ],
+  "功能": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
     }
   ],
   "加低斯巴尼 Cadesbarne": [
@@ -30016,6 +30093,11 @@
     {
       "slug": "cbeta-T21n1357",
       "name_zh": "佛說師子奮迅菩薩所問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -31979,6 +32061,13 @@
       "religion": "道教"
     }
   ],
+  "和合": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "和合本": [
     {
       "slug": "bible-1-kings",
@@ -32352,10 +32441,22 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "唯心": [
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    }
+  ],
   "唯識": [
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
       "religion": "佛教"
     },
     {
@@ -32880,6 +32981,11 @@
       "slug": "cbeta-T17n0773",
       "name_zh": "佛說菩薩修行四法經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
+      "religion": "佛教"
     }
   ],
   "善知識 kalyāṇamitta": [
@@ -32933,6 +33039,13 @@
     {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
+      "religion": "佛教"
+    }
+  ],
+  "善財": [
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -33705,6 +33818,11 @@
   ],
   "因明": [
     {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T55n2177",
       "name_zh": "華嚴宗章疏并因明錄",
       "religion": "佛教"
@@ -34239,6 +34357,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X01n0023",
       "name_zh": "大藏正教血盆經",
       "religion": "佛教"
@@ -34253,6 +34376,11 @@
     {
       "slug": "cbeta-T20n1168B",
       "name_zh": "八曼荼羅經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -35348,6 +35476,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
       "slug": "lotus-sutra",
       "name_zh": "妙法蓮華經",
       "religion": "佛教"
@@ -35355,6 +35488,13 @@
     {
       "slug": "mahaparinirvana-sutra-northern",
       "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    }
+  ],
+  "大乘法輪": [
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -35559,6 +35699,11 @@
     {
       "slug": "cbeta-T21n1366",
       "name_zh": "佛說祕密八名陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     },
     {
@@ -37581,6 +37726,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -37648,6 +37798,13 @@
     {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    }
+  ],
+  "如夢三昧": [
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -37808,6 +37965,11 @@
     {
       "slug": "cbeta-T20n1186",
       "name_zh": "佛說妙吉祥菩薩陀羅尼",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -39234,6 +39396,13 @@
       "religion": "現代新興"
     }
   ],
+  "容像": [
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    }
+  ],
   "容成": [
     {
       "slug": "laozi-xianger-zhu",
@@ -39618,6 +39787,11 @@
     {
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -40178,6 +40352,13 @@
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
+    }
+  ],
+  "尼拘𡀩陀樹": [
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
     }
   ],
   "尼祿": [
@@ -41252,6 +41433,13 @@
       "religion": "儒教"
     }
   ],
+  "帶彼相起": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "常曉": [
     {
       "slug": "cbeta-T55n2175",
@@ -41334,6 +41522,11 @@
     {
       "slug": "cbeta-T02n0105",
       "name_zh": "五陰譬喻經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     },
     {
@@ -42806,6 +42999,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -44249,6 +44447,11 @@
       "slug": "cbeta-T24n1504",
       "name_zh": "菩薩五法懺悔文",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
+      "religion": "佛教"
     }
   ],
   "慈氏菩薩": [
@@ -44519,6 +44722,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T46n1942",
       "name_zh": "法華三昧行事運想補助儀",
       "religion": "佛教"
@@ -44778,6 +44986,13 @@
     {
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
+      "religion": "佛教"
+    }
+  ],
+  "所緣緣": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
       "religion": "佛教"
     }
   ],
@@ -48524,6 +48739,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
+      "religion": "佛教"
+    },
+    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -49827,6 +50047,13 @@
       "religion": "佛教"
     }
   ],
+  "本識": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "本際皆淨": [
     {
       "slug": "cbeta-T14n0561",
@@ -50846,6 +51073,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0190",
       "name_zh": "阿迦陀密一印千類千轉三使者成就經法",
       "religion": "佛教"
@@ -50855,6 +51087,11 @@
     {
       "slug": "cbeta-T31n1621",
       "name_zh": "掌中論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
       "religion": "佛教"
     },
     {
@@ -53999,6 +54236,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
+      "religion": "佛教"
+    },
+    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -54058,6 +54300,11 @@
     {
       "slug": "cbeta-T24n1467b",
       "name_zh": "佛說犯戒罪報輕重經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -54491,6 +54738,11 @@
     {
       "slug": "cbeta-T26n1535",
       "name_zh": "大乘四法經釋",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     },
     {
@@ -55834,6 +56086,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -55971,6 +56228,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T46n1942",
       "name_zh": "法華三昧行事運想補助儀",
       "religion": "佛教"
@@ -56005,6 +56267,13 @@
     {
       "slug": "sn45-magga",
       "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    }
+  ],
+  "無明緣": [
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     }
   ],
@@ -56142,6 +56411,11 @@
     {
       "slug": "cbeta-T24n1504",
       "name_zh": "菩薩五法懺悔文",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -56427,6 +56701,11 @@
     {
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     },
     {
@@ -57461,6 +57740,11 @@
   ],
   "現量": [
     {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    },
+    {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
@@ -57789,6 +58073,11 @@
     {
       "slug": "cbeta-T21n1360",
       "name_zh": "六門陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     },
     {
@@ -58353,6 +58642,13 @@
       "religion": "佛教"
     }
   ],
+  "白毫": [
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    }
+  ],
   "白芥子": [
     {
       "slug": "cbeta-T19n1002",
@@ -58623,6 +58919,13 @@
       "religion": "道教"
     }
   ],
+  "盧舍那佛": [
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
+      "religion": "佛教"
+    }
+  ],
   "盧訶寧俱沙": [
     {
       "slug": "cbeta-T54n2143",
@@ -58857,6 +59160,11 @@
     {
       "slug": "cbeta-T19n0933",
       "name_zh": "九品往生阿彌陀三摩地集陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     },
     {
@@ -59279,6 +59587,11 @@
       "slug": "cbeta-T02n0107",
       "name_zh": "佛說不自守意經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
     }
   ],
   "眼清淨": [
@@ -59330,6 +59643,11 @@
     {
       "slug": "cbeta-T21n1414",
       "name_zh": "佛說金身陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     },
     {
@@ -60039,6 +60357,11 @@
     {
       "slug": "cbeta-T24n1497",
       "name_zh": "佛說大乘戒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
       "religion": "佛教"
     },
     {
@@ -60959,6 +61282,11 @@
       "slug": "cbeta-T17n0740",
       "name_zh": "佛說頞多和多耆經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
     }
   ],
   "福德聚": [
@@ -60989,6 +61317,11 @@
     {
       "slug": "cbeta-T32n1689",
       "name_zh": "請賓頭盧法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
       "religion": "佛教"
     },
     {
@@ -65489,6 +65822,13 @@
       "religion": "基督教"
     }
   ],
+  "肉髻": [
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    }
+  ],
   "肋未": [
     {
       "slug": "vulgate-numbers",
@@ -66159,6 +66499,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    },
+    {
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
@@ -66770,6 +67115,11 @@
     {
       "slug": "cbeta-T21n1210",
       "name_zh": "降三世忿怒明王念誦儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     },
     {
@@ -67847,6 +68197,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T46n1954",
       "name_zh": "明佛法根本碑",
       "religion": "佛教"
@@ -67856,6 +68216,13 @@
     {
       "slug": "cbeta-T20n1127",
       "name_zh": "佛說普賢菩薩陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "菩提果": [
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -67919,6 +68286,13 @@
     {
       "slug": "cbeta-T20n1062B",
       "name_zh": "世尊聖者千眼千首千足千舌千臂觀自在菩提薩埵怛嚩廣大圓滿無礙大悲心陀羅尼",
+      "religion": "佛教"
+    }
+  ],
+  "菩提行": [
+    {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
       "religion": "佛教"
     }
   ],
@@ -68584,6 +68958,13 @@
     {
       "slug": "cbeta-T55n2175",
       "name_zh": "錄外經等目錄",
+      "religion": "佛教"
+    }
+  ],
+  "蓮花藏界": [
+    {
+      "slug": "cbeta-T45n1908",
+      "name_zh": "大乘六情懺悔",
       "religion": "佛教"
     }
   ],
@@ -69345,6 +69726,11 @@
     {
       "slug": "cbeta-T20n1168B",
       "name_zh": "八曼荼羅經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -70302,6 +70688,11 @@
     {
       "slug": "cbeta-T21n1387",
       "name_zh": "佛說栴檀香身陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     },
     {
@@ -72445,6 +72836,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T30n1576",
+      "name_zh": "大乘二十頌論",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-sutrakrtanga-pkt",
       "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -73011,6 +73407,11 @@
     {
       "slug": "cbeta-T24n1504",
       "name_zh": "菩薩五法懺悔文",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     },
     {
@@ -74141,6 +74542,13 @@
       "religion": "耆那教"
     }
   ],
+  "量度法": [
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
+      "religion": "佛教"
+    }
+  ],
   "量論": [
     {
       "slug": "vaisheshika-sutra-kanada",
@@ -74304,6 +74712,11 @@
     {
       "slug": "cbeta-T17n0789",
       "name_zh": "金剛頂瑜伽念珠經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1676",
+      "name_zh": "廣大發願頌",
       "religion": "佛教"
     }
   ],
@@ -76702,6 +77115,13 @@
       "religion": "佛教"
     }
   ],
+  "阿頼耶": [
+    {
+      "slug": "cbeta-T31n1624",
+      "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
   "阿魏": [
     {
       "slug": "cbeta-T21n1279",
@@ -78136,6 +78556,13 @@
     {
       "slug": "cbeta-T46n1944",
       "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    }
+  ],
+  "頂髻": [
+    {
+      "slug": "cbeta-X01n0028",
+      "name_zh": "造像量度經",
       "religion": "佛教"
     }
   ],
