@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "other-power",
+    "ritual-practice",
+    "temple-centered"
+  ],
+  "keywords": [
+    "如是我聞",
+    "王舍城",
+    "鷲峯山",
+    "薄伽梵",
+    "清淨慧菩薩",
+    "舍利",
+    "窣覩波",
+    "浴像",
+    "三身",
+    "法身",
+    "般涅槃",
+    "五分法身",
+    "三十二相",
+    "阿耨多羅三藐三菩提",
+    "緣起"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7882a9d1ac85f468e19a11af017a48900c35ccf2e65ba3d1ba3bc06982b410cd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
