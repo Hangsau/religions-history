@@ -7058,6 +7058,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -12522,6 +12527,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    },
+    {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
@@ -12966,6 +12976,11 @@
     {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
       "religion": "印度教"
     },
     {
@@ -13888,6 +13903,13 @@
       "religion": "印度教"
     }
   ],
+  "kaliyuga": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
   "kalki": [
     {
       "slug": "agni-purana",
@@ -13899,6 +13921,13 @@
     {
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
+      "religion": "印度教"
+    }
+  ],
+  "kalpavṛkṣa": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
       "religion": "印度教"
     }
   ],
@@ -14049,6 +14078,20 @@
       "religion": "印度教"
     }
   ],
+  "kṛtayuga": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
+  "kṛṣṇa": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
   "landnáms saga": [
     {
       "slug": "eyrbyggja-saga-on",
@@ -14115,6 +14158,13 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "lomaharṣaṇa": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
     }
   ],
   "longhouse": [
@@ -14485,6 +14535,13 @@
       "religion": "佛教"
     }
   ],
+  "namas": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
   "natura": [
     {
       "slug": "lucretius-de-rerum-natura-la",
@@ -14604,6 +14661,11 @@
     }
   ],
   "nārāyaṇa": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    },
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
@@ -14813,6 +14875,13 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    }
+  ],
+  "parāśara": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
       "religion": "印度教"
     }
   ],
@@ -15223,6 +15292,11 @@
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
       "religion": "印度教"
     },
     {
@@ -16214,6 +16288,13 @@
       "religion": "印度教"
     }
   ],
+  "ugraśravāḥ": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
   "underworld": [
     {
       "slug": "book-of-gates",
@@ -16507,10 +16588,24 @@
       "religion": "印度教"
     }
   ],
+  "viṣṇu": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
   "vratam": [
     {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
+      "religion": "印度教"
+    }
+  ],
+  "vyāsa": [
+    {
+      "slug": "mahabharata",
+      "name_zh": "摩訶婆羅多",
       "religion": "印度教"
     }
   ],

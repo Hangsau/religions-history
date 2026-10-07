@@ -4,7 +4,7 @@
 
 - 核心總數：**518** 部
 - 已翻譯：**518** / 518
-- 已標籤：**517** / 518
+- 已標籤：**518** / 518
 
 ## 各宗教核心進度
 
@@ -12,7 +12,7 @@
 |------|-------|------|-------|
 | 基督教 | 161 | 161 | 161 |
 | 佛教 | 74 | 74 | 74 |
-| 印度教 | 58 | 58 | 57 |
+| 印度教 | 58 | 58 | 58 |
 | 古希臘羅馬 | 46 | 46 | 46 |
 | 猶太教 | 45 | 45 | 45 |
 | 道教 | 18 | 18 | 18 |
@@ -73,7 +73,7 @@
 > 這些宗教的核心語料**目前只有英譯本、語料庫無原文**。政策：**先英→中翻譯**（`m3-translator-role.md` English 列，二手翻譯）讓它有中文可讀；**原文另列 `original-text-todo.md` 追蹤補抓**。此為已定政策，audit 不再視為不明缺口。
 
 - 唯一英譯本宗教：**4** 個 / 核心 **6** 部
-- 名單：巴哈伊、印加、諾斯底、美洲
+- 名單：巴哈伊、印加、美洲、諾斯底
 
 ### 內容檢查：原文已在庫但 text_role 標錯（改標，非缺口）
 
@@ -352,7 +352,7 @@
 - `katha-upanishad` 迦塔奧義書（Sanskrit）譯✓ 標✓
 - `kurma-purana` 龜往世書（Sanskrit）譯✓ 標✓
 - `linga-purana` 林伽往世書（Sanskrit）譯✓ 標✓
-- `mahabharata` 摩訶婆羅多（Sanskrit）譯✓ 標–
+- `mahabharata` 摩訶婆羅多（Sanskrit）譯✓ 標✓
 - `mahabharata-ganguli` 摩訶婆羅多（Ganguli 英譯）（English (translation from Greek/Latin/Old Norse/etc)）譯✓ 標✓
 - `maitrayani-samhita` 梅特拉雅尼本集（黑耶柔吠陀）（Sanskrit）譯✓ 標✓
 - `mandukya-upanishad` 蛙氏奧義書（Sanskrit）譯✓ 標✓
