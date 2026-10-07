@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "彌勒菩薩",
+    "菩提心",
+    "懺悔",
+    "隨喜",
+    "六度",
+    "布施",
+    "持戒",
+    "忍辱",
+    "精進",
+    "禪定",
+    "智慧",
+    "兜率天",
+    "慈氏",
+    "十地",
+    "無上菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7a54c99c870d6f5c2453f97401903c3d37f7df19baf7340b3240a68a9e441cb9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

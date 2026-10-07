@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "enlightenment",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "菩薩",
+    "忍辱",
+    "三十二相",
+    "差摩竭",
+    "迦維羅衛",
+    "釋氏",
+    "無所從生",
+    "不起法忍",
+    "不退轉",
+    "西方無量壽佛",
+    "菩薩道",
+    "空行",
+    "大慈",
+    "布施",
+    "沙門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "emotions-passions",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eb97a9c939cb33f05191ceb3d01f918a34a4a7207482b75c18db9e39da8ae700"
+  },
+  "tagging_models": "MiniMax-M3"
 }

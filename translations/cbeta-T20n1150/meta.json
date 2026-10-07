@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "mandate-of-heaven",
+    "monastic",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+  ],
+  "keywords": [
+    "摧魔怨敵法",
+    "祕密真言",
+    "苦楝木幢",
+    "十六大護",
+    "藥叉",
+    "龍王",
+    "大天后",
+    "無礙王十字佛頂真言",
+    "毗首羯磨",
+    "劫比羅",
+    "護國界",
+    "末法",
+    "金剛拳",
+    "教勅印",
+    "閼伽"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d0c48af818ace796194086ade540083a9a0df10e3e0c7477276223a1922338e1"
+  },
+  "tagging_models": "MiniMax-M3"
 }
