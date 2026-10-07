@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "勝光天子",
+    "室羅伐城",
+    "逝多林",
+    "給孤獨園",
+    "菩薩摩訶薩",
+    "阿羅漢",
+    "陀羅尼",
+    "涅槃",
+    "三寶",
+    "琰摩使",
+    "無常",
+    "五欲",
+    "四攝",
+    "灌頂大王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fcc0fcadb5f5d98cc7dc7bcc47ae11ebd79a88a59e2aa962de5683570ff742fd"
+  },
+  "tagging_models": "MiniMax-M3"
 }

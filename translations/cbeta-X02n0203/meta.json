@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "觀世音菩薩",
+    "地藏菩薩",
+    "文殊師利",
+    "善住龍王",
+    "阿耨達龍王",
+    "五穀",
+    "閼伽果汁",
+    "消滅怖畏",
+    "六波羅蜜",
+    "菩薩",
+    "無盡意菩薩",
+    "摩訶",
+    "消災",
+    "護國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "nature-animals-ecology"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "25378b4f5b5a9a694e033dd94daef66de45fa66befbac1fbf60e56f48a0e8f20"
+  },
+  "tagging_models": "MiniMax-M3"
 }
