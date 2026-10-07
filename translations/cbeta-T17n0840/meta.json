@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "reincarnation",
+    "truthfulness"
+  ],
+  "keywords": [
+    "大乘",
+    "菩提心",
+    "菩薩",
+    "二乘",
+    "魔軍",
+    "誹謗大乘",
+    "無上正等菩提",
+    "阿耨多羅三藐三菩提",
+    "無生法忍",
+    "薄伽梵",
+    "德嚴華",
+    "阿難",
+    "如來",
+    "法界藏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0fd8014642753e22a2cad33c0aff46265d543e93c5a905907c295189d1571a48"
+  },
+  "tagging_models": "MiniMax-M3"
 }
