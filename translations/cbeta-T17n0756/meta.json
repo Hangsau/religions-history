@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "八無暇",
+    "有暇",
+    "薄伽梵",
+    "室羅伐城",
+    "逝多林",
+    "給孤獨園",
+    "苾芻",
+    "地獄",
+    "餓鬼",
+    "傍生",
+    "長壽天",
+    "邊地",
+    "蔑戾車",
+    "三寶",
+    "梵行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a925f616a728df62ab2df42e63acd03c7a169e05f658c320126afab5392c81e9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
