@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "妙法蓮華經",
+    "釋迦牟尼佛",
+    "多寶佛",
+    "普賢菩薩",
+    "文殊師利菩薩",
+    "彌陀",
+    "蓮華",
+    "懺悔",
+    "頂禮",
+    "三寶",
+    "菩薩",
+    "聲聞",
+    "緣覺",
+    "生死",
+    "佛菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cefa4a16169b6894f031f55d108999d425b4e138c64f9c92728f6375eee113e1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

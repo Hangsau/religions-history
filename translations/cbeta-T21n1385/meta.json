@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "俱枳羅",
+    "陀羅尼",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "阿修羅",
+    "乾闥婆",
+    "部多",
+    "惡曜",
+    "梵魔",
+    "沙門婆羅門",
+    "吉祥",
+    "讀誦受持",
+    "唵",
+    "娑嚩賀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "91494c5667551735d453005e270044757ab08e8aaebee34aa5449f363b3cbf95"
+  },
+  "tagging_models": "MiniMax-M3"
 }

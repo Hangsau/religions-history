@@ -20,5 +20,36 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "truthfulness"
+  ],
+  "keywords": [
+    "五陰",
+    "六衰",
+    "因緣",
+    "拘樓秦佛",
+    "阿難",
+    "薩婆",
+    "多華",
+    "禮禪劫",
+    "忉利天",
+    "正真道意",
+    "法忍",
+    "諸法因緣"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bdab6f0ebb8bcc847ec293f4ef9d06d1b04174748168a28b448a03a541eebf88"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "安般",
+    "守意",
+    "六衰",
+    "無為身",
+    "次第行",
+    "時時法觀",
+    "精進",
+    "甘露",
+    "滅苦",
+    "泥洹",
+    "禪定",
+    "道人自意",
+    "度生死",
+    "苦盡",
+    "布施"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9fda575da4d5499bffd1c6836eee58cd4942fbab6b945b26daf4804a01890c81"
+  },
+  "tagging_models": "MiniMax-M3"
 }

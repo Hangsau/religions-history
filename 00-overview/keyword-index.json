@@ -19545,6 +19545,13 @@
       "religion": "佛教"
     }
   ],
+  "三寶": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    }
+  ],
   "三尸神": [
     {
       "slug": "taishang-ganying-pian",
@@ -20636,6 +20643,13 @@
       "religion": "道教"
     }
   ],
+  "乾闥婆": [
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "乾闥婆婚": [
     {
       "slug": "vasistha-dharmasutra",
@@ -20846,6 +20860,11 @@
     }
   ],
   "五欲": [
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T17n0792",
       "name_zh": "佛說法受塵經",
@@ -21108,8 +21127,20 @@
   ],
   "五陰": [
     {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-kumarajiva",
       "name_zh": "摩訶般若波羅蜜大明咒經",
+      "religion": "佛教"
+    }
+  ],
+  "五陰無我": [
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
       "religion": "佛教"
     }
   ],
@@ -22787,6 +22818,13 @@
       "religion": "佛教"
     }
   ],
+  "佛菩提": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    }
+  ],
   "佛說法受塵經": [
     {
       "slug": "cbeta-T17n0792",
@@ -23576,6 +23614,13 @@
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "俱枳羅": [
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "俱盧之野": [
@@ -24665,6 +24710,13 @@
       "religion": "道教"
     }
   ],
+  "八大人覺": [
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    }
+  ],
   "八支定": [
     {
       "slug": "jain-uttaradhyayana-pkt",
@@ -24887,6 +24939,18 @@
     {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    }
+  ],
+  "六衰": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
       "religion": "佛教"
     }
   ],
@@ -26895,6 +26959,11 @@
   ],
   "吉祥": [
     {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
@@ -27774,6 +27843,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1390",
       "name_zh": "佛說洛叉陀羅尼經",
       "religion": "佛教"
@@ -28336,6 +28410,13 @@
       "religion": "佛教"
     }
   ],
+  "四魔": [
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    }
+  ],
   "回光": [
     {
       "slug": "taiyi-jinhua-zongzhi",
@@ -28442,6 +28523,11 @@
     }
   ],
   "因緣": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
+    },
     {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
@@ -29322,6 +29408,13 @@
       "religion": "基督教"
     }
   ],
+  "多寶佛": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    }
+  ],
   "多比雅": [
     {
       "slug": "bible-nehemiah",
@@ -29337,6 +29430,13 @@
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
+    }
+  ],
+  "多華": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
     }
   ],
   "夜光玉女": [
@@ -29406,6 +29506,11 @@
     {
       "slug": "cbeta-T12n0348",
       "name_zh": "佛說大乘方等要慧經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
       "religion": "佛教"
     },
     {
@@ -31039,6 +31144,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "lotus-sutra",
       "name_zh": "妙法蓮華經",
       "religion": "佛教"
@@ -31107,6 +31217,11 @@
     {
       "slug": "cbeta-T21n1379",
       "name_zh": "佛說大愛陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -31592,6 +31707,13 @@
       "religion": "道教"
     }
   ],
+  "守意": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "守望所": [
     {
       "slug": "bible-habakkuk",
@@ -31686,6 +31808,13 @@
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "安般": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
     }
   ],
   "安萬侶": [
@@ -33044,6 +33173,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -33475,6 +33614,13 @@
       "religion": "道教"
     }
   ],
+  "度生死": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "度疑": [
     {
       "slug": "cbeta-T02n0107",
@@ -33805,6 +33951,13 @@
       "slug": "vulgate-micah",
       "name_zh": "彌迦書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "彌陀": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
     }
   ],
   "彖傳": [
@@ -34397,6 +34550,11 @@
     }
   ],
   "忉利天": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
+    },
     {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
@@ -34997,6 +35155,13 @@
       "religion": "基督教"
     }
   ],
+  "惡曜": [
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "惡業": [
     {
       "slug": "cbeta-T20n1198",
@@ -35394,6 +35559,11 @@
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
     }
   ],
   "懿德": [
@@ -35895,6 +36065,13 @@
     {
       "slug": "mahaparinirvana-sutra-northern",
       "name_zh": "大般涅槃經（北本）",
+      "religion": "佛教"
+    }
+  ],
+  "拘樓秦佛": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
       "religion": "佛教"
     }
   ],
@@ -37577,6 +37754,13 @@
       "religion": "佛教"
     }
   ],
+  "文殊師利菩薩": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    }
+  ],
   "文王": [
     {
       "slug": "shuoyuan",
@@ -38091,6 +38275,13 @@
       "religion": "儒教"
     }
   ],
+  "時時法觀": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "時氣病": [
     {
       "slug": "cbeta-T21n1326",
@@ -38215,6 +38406,11 @@
   ],
   "普賢菩薩": [
     {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
@@ -38287,6 +38483,11 @@
     {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
       "religion": "佛教"
     },
     {
@@ -39431,6 +39632,13 @@
       "religion": "佛教"
     }
   ],
+  "梵魔": [
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "棄離想": [
     {
       "slug": "cbeta-T15n0605",
@@ -39681,6 +39889,13 @@
       "religion": "基督教"
     }
   ],
+  "次第行": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "欲": [
     {
       "slug": "cbeta-T01n0059",
@@ -39874,6 +40089,13 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    }
+  ],
+  "正真道意": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
     }
   ],
   "正知": [
@@ -40860,6 +41082,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
@@ -41022,6 +41249,13 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    }
+  ],
+  "法忍": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
     }
   ],
   "法念處": [
@@ -41317,6 +41551,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0605",
       "name_zh": "禪行法想經",
       "religion": "佛教"
@@ -41527,6 +41766,11 @@
     {
       "slug": "cbeta-T17n0773",
       "name_zh": "佛說菩薩修行四法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
       "religion": "佛教"
     },
     {
@@ -41897,6 +42141,13 @@
       "religion": "佛教"
     }
   ],
+  "滅苦": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "滅除罪業": [
     {
       "slug": "cbeta-T21n1399",
@@ -42169,6 +42420,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    },
+    {
       "slug": "samyuktagama",
       "name_zh": "雜阿含經",
       "religion": "佛教"
@@ -42399,6 +42655,13 @@
       "slug": "zuowang-lun",
       "name_zh": "坐忘論",
       "religion": "道教"
+    }
+  ],
+  "無為身": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
     }
   ],
   "無生": [
@@ -43422,6 +43685,11 @@
   ],
   "甘露": [
     {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1281",
       "name_zh": "那羅延天共阿修羅王鬪戰法",
       "religion": "佛教"
@@ -43460,8 +43728,18 @@
   ],
   "生死": [
     {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1360",
       "name_zh": "六門陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
       "religion": "佛教"
     },
     {
@@ -44450,6 +44728,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "知足": [
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    }
+  ],
   "短箋": [
     {
       "slug": "bible-3-john",
@@ -44618,6 +44903,11 @@
     {
       "slug": "cbeta-T21n1379",
       "name_zh": "佛說大愛陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -45462,6 +45752,11 @@
   ],
   "禪定": [
     {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
       "religion": "佛教"
@@ -45563,6 +45858,13 @@
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "禮禪劫": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
     }
   ],
   "禮義": [
@@ -46134,6 +46436,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T02n0114",
       "name_zh": "佛說馬有三相經",
       "religion": "佛教"
@@ -46141,6 +46448,11 @@
     {
       "slug": "cbeta-T15n0605",
       "name_zh": "禪行法想經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
       "religion": "佛教"
     }
   ],
@@ -46789,6 +47101,13 @@
       "slug": "wunengzi",
       "name_zh": "無能子",
       "religion": "道教"
+    }
+  ],
+  "緣覺": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
     }
   ],
   "緣起": [
@@ -48640,6 +48959,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
@@ -49248,6 +49572,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -49567,6 +49896,13 @@
       "religion": "佛教"
     }
   ],
+  "苦盡": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "苦蘊": [
     {
       "slug": "cbeta-T15n0655",
@@ -49780,6 +50116,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1412",
       "name_zh": "佛說寶生陀羅尼經",
       "religion": "佛教"
@@ -49870,6 +50211,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1198",
       "name_zh": "聖者文殊師利發菩提心願文",
       "religion": "佛教"
@@ -49882,6 +50228,11 @@
     {
       "slug": "cbeta-T21n1369a",
       "name_zh": "百千印陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
       "religion": "佛教"
     },
     {
@@ -50196,6 +50547,11 @@
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
+      "religion": "佛教"
     }
   ],
   "蓮華眼陀羅尼": [
@@ -50261,6 +50617,13 @@
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
       "religion": "儒教"
+    }
+  ],
+  "薩婆": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
     }
   ],
   "薩滿": [
@@ -51649,6 +52012,13 @@
       "religion": "道教"
     }
   ],
+  "諸法因緣": [
+    {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
+    }
+  ],
   "諸法從緣起": [
     {
       "slug": "cbeta-T21n1240",
@@ -51859,6 +52229,13 @@
       "religion": "佛教"
     }
   ],
+  "讀誦受持": [
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "讚歌": [
     {
       "slug": "orphic-hymns-el",
@@ -51990,6 +52367,11 @@
     {
       "slug": "bud-udanavarga-sa",
       "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0779",
+      "name_zh": "佛說八大人覺經",
       "religion": "佛教"
     },
     {
@@ -52923,6 +53305,13 @@
       "religion": "道教"
     }
   ],
+  "道人自意": [
+    {
+      "slug": "cbeta-T01n0096",
+      "name_zh": "治意經",
+      "religion": "佛教"
+    }
+  ],
   "道具": [
     {
       "slug": "cbeta-T55n2174A",
@@ -53206,6 +53595,11 @@
       "slug": "cbeta-T21n1381",
       "name_zh": "佛說大吉祥陀羅尼經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "郭璞": [
@@ -53295,6 +53689,11 @@
     {
       "slug": "cbeta-T21n1369b",
       "name_zh": "百千印陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
       "religion": "佛教"
     },
     {
@@ -53988,6 +54387,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
@@ -54604,6 +55008,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0560",
+      "name_zh": "佛說老母女六英經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0934",
       "name_zh": "佛說無量功德陀羅尼經",
       "religion": "佛教"
@@ -54626,6 +55035,11 @@
     {
       "slug": "cbeta-T21n1383",
       "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -54821,6 +55235,11 @@
     {
       "slug": "cbeta-T21n1383",
       "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1385",
+      "name_zh": "佛說俱枳羅陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -55576,6 +55995,13 @@
     {
       "slug": "cbeta-T21n1399",
       "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "頂禮": [
+    {
+      "slug": "cbeta-T46n1944",
+      "name_zh": "禮法華經儀式",
       "religion": "佛教"
     }
   ],
