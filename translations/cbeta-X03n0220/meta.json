@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "truthfulness"
+  ],
+  "keywords": [
+    "華嚴經",
+    "龍樹",
+    "文殊",
+    "普賢",
+    "善財童子",
+    "毗盧遮那",
+    "彌勒",
+    "一真法界",
+    "行布",
+    "圓融",
+    "十玄",
+    "六相",
+    "四種法界",
+    "華藏世界",
+    "德雲比丘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "45a5c650dd489caf86ca8a037e5fc1e3e4e51b287643d97dc9b5968379c3653d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
