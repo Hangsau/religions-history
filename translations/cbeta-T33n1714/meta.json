@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T33",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "心經",
+    "觀自在菩薩",
+    "舍利子",
+    "五蘊",
+    "空",
+    "實相",
+    "涅槃",
+    "十二因緣",
+    "四諦",
+    "三藐三菩提",
+    "釋迦",
+    "玄奘",
+    "施護"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6c340db51b512de42c9939e01b518090995c2f0533225864b6e6e320ee23c692"
+  },
+  "tagging_models": "MiniMax-M3"
 }
