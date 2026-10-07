@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘",
+    "八態",
+    "馬",
+    "譬喻",
+    "聞經",
+    "惡道",
+    "婬泆",
+    "妄語",
+    "行道",
+    "弊惡態"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "77458cc778137c352bb3a38f296a310af332ba429a66a2527333cfd1d6ce4b77"
+  },
+  "tagging_models": "MiniMax-M3"
 }

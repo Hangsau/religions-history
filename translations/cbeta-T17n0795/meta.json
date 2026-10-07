@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "佛",
+    "沙門",
+    "三十七品",
+    "二百五十戒",
+    "身教",
+    "勝身",
+    "正意",
+    "自歸",
+    "苦",
+    "七戒",
+    "三戒",
+    "摩汎藍",
+    "比丘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2bde81d5b0d9c34645b102dae0ac910b48a8e2e56844a6a99613cd6373c2f602"
+  },
+  "tagging_models": "MiniMax-M3"
 }

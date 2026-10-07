@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "摩利支菩薩",
+    "毘盧遮那佛",
+    "真言",
+    "結印",
+    "加持",
+    "祕密",
+    "菩提道",
+    "有情",
+    "惡人",
+    "障礙",
+    "災禍",
+    "禪定",
+    "聞持",
+    "菩提心",
+    "沙嚩訶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8c9ea77c95b6befce0e0bf5ff5b2ed087bfe70fc3670591ce616291ae27fde9e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
