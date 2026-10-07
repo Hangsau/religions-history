@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "阿彌陀佛",
+    "極樂世界",
+    "十往生",
+    "觀世音菩薩",
+    "大勢至菩薩",
+    "山海慧菩薩",
+    "正念",
+    "觀身",
+    "三昧",
+    "閻浮提",
+    "不退轉位",
+    "往生",
+    "誹謗正法",
+    "二十五菩薩",
+    "王舍城"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "006c3e88e64cd8b34d160df8b3439b387c5d42bfd7588950ad50f72bf0cf1f85"
+  },
+  "tagging_models": "MiniMax-M3"
 }

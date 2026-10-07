@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "proselytizing",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "雨寶陀羅尼",
+    "妙月長者",
+    "持金剛海音如來",
+    "陀羅尼",
+    "薄伽梵",
+    "憍睒彌國",
+    "建吒迦林",
+    "阿難陀",
+    "瑜伽資糧",
+    "如意摩尼",
+    "沙門",
+    "婆羅門",
+    "阿蘇羅",
+    "持世陀羅尼",
+    "心真言"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "illness-body",
+    "living-with-unknown",
+    "work-money"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "174816d889cde94c32e4b99dc3cde53f057173bb79b318bfde927ab903c19f9b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

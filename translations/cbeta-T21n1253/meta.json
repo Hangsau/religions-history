@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "goddess-tradition",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "大吉祥天女",
+    "觀自在菩薩",
+    "薄伽梵",
+    "安樂世界",
+    "一百八名",
+    "十二契",
+    "真言",
+    "唵",
+    "娑嚩訶",
+    "如來名號",
+    "善根",
+    "灌頂",
+    "蓮華化生",
+    "六波羅蜜",
+    "持明"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e3888af402480b9b260265c73dcf8bd8ebbdc6bcf0ffa1b8fe7b601e2c110210"
+  },
+  "tagging_models": "MiniMax-M3"
 }
