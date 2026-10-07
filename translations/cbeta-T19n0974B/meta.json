@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "佛頂尊勝陀羅尼",
+    "陀羅尼",
+    "唵",
+    "七佛",
+    "觀音",
+    "多羅葉",
+    "弘法大師",
+    "金剛智",
+    "佛陀波利",
+    "義淨",
+    "善無畏",
+    "不空",
+    "惠果",
+    "梵本",
+    "杜行鎧"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ddef4714a4b1efe65d64b3412b896d7af9e82c66c03ae3e10c6226c526c023a9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

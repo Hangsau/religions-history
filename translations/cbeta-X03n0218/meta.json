@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emanation",
+    "humility",
+    "liberation-by-knowledge",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "華嚴經",
+    "入法界品",
+    "善財",
+    "文殊",
+    "普賢",
+    "念佛三昧",
+    "師子嚬申三昧",
+    "善知識",
+    "五相",
+    "圓融",
+    "法界",
+    "逝多林",
+    "摩耶",
+    "彌勒",
+    "金剛菩提場"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1d434c30776415080e64089b6bb0370577c4991bac6a6c2b6784a4f3161c0bf3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
