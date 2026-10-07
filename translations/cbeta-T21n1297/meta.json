@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "divine-immanence",
+    "non-violence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+  ],
+  "keywords": [
+    "十二大威德天",
+    "普賢菩薩",
+    "地天",
+    "水天",
+    "火天",
+    "風天",
+    "伊舍那",
+    "帝釋天",
+    "焰魔天",
+    "梵天",
+    "毘沙門天",
+    "羅剎天",
+    "日天",
+    "月天",
+    "三密加持"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fdbe5387289ebaf77fa2c448fc2491602006c18712fe2be4d2d0a94f613a6db3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
