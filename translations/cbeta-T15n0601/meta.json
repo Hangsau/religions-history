@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "十善業道",
+    "十不善法",
+    "娑伽羅龍王",
+    "菩薩",
+    "布施",
+    "持戒",
+    "忍辱",
+    "精進",
+    "禪定",
+    "智慧",
+    "波羅蜜",
+    "業報",
+    "焰魔界",
+    "梵王",
+    "帝釋"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9d1f808996c629020d89104c7ecc294d0a3dfdad4e5a6bab4c434e34bbc42d26"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "essentially-flawed",
+    "karma-rebirth",
+    "monastic",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "燈指",
+    "因緣",
+    "尸寶",
+    "指光",
+    "波羅㮈",
+    "毘婆尸佛",
+    "阿羅漢",
+    "阿闍世王",
+    "王舍城",
+    "婆修婆羅門",
+    "治像",
+    "惡口",
+    "貧窮",
+    "涅槃",
+    "善業"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bddc1ae2960139702681f79fa649bef6291f582bad48a281d22600597992ae6f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

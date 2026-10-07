@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual"
+  ],
+  "keywords": [
+    "唯識",
+    "三界唯心",
+    "心意識了",
+    "外境",
+    "處時決定",
+    "相續",
+    "作用",
+    "極微",
+    "夢",
+    "餓鬼",
+    "地獄",
+    "獄卒",
+    "十二處",
+    "數取趣無我",
+    "法無我"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3a57b98949dde9bd3388e95786687271a08d6789b5e461cbf6d280c9a7a687a2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

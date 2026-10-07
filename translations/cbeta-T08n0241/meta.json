@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "emptiness",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "金剛手菩薩",
+    "毘盧遮那",
+    "陀羅尼",
+    "三摩地",
+    "自性清淨",
+    "灌頂",
+    "菩薩句義",
+    "戲論",
+    "密語",
+    "他化自在天",
+    "如來藏",
+    "普賢",
+    "真言",
+    "理趣法門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fccbc63c1178de49e99cde1a67c0205d2f52f3199689adc9f37e4ca3498822cb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
