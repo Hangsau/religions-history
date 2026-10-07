@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "圓覺",
+    "唯識",
+    "一心",
+    "涅槃",
+    "頓漸",
+    "空有",
+    "真子",
+    "宗密",
+    "三觀",
+    "華嚴",
+    "般若",
+    "毗尼",
+    "曼殊",
+    "薄伽",
+    "禪"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "insignificance-history",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cfb0d19a01dcc50244f0bcc8295ad839cb342ef988f89f396008748c711c4d02"
+  },
+  "tagging_models": "MiniMax-M3"
 }

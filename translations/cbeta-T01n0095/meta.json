@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "五蘊",
+    "五鄣",
+    "無明",
+    "我慢",
+    "疑惑",
+    "阿羅漢",
+    "如來",
+    "智慧",
+    "精進",
+    "解脫",
+    "蟻喻",
+    "婆羅門",
+    "苾芻",
+    "尋伺",
+    "三業"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3ad85f2fb71ddb1ef4ac3f81a20b7e974779bf6d2af54b7e60f7f05987ac59ea"
+  },
+  "tagging_models": "MiniMax-M3"
 }

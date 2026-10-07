@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "文殊師利",
+    "六字神呪",
+    "唵婆髻馱那莫",
+    "觀世音",
+    "普賢",
+    "菩薩",
+    "蓮華座",
+    "陀會天",
+    "菩提流志",
+    "陀羅尼",
+    "持呪",
+    "道場",
+    "舍利塔",
+    "沈水香",
+    "旃檀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "illness-body",
+    "insignificance-history",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e9dded36208894a00adba379b69ee67c3a47e9702e9f1599ab7e00a1023de1dd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
