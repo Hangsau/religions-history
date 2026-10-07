@@ -21,5 +21,57 @@
   "tier": "次要",
   "notes": "晚唐佚名道家哲論，反名教、返自然；多子頁篇章",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "commentarial-layer",
+    "divine-immanence",
+    "divine-kingship",
+    "enlightenment",
+    "humility",
+    "liberation-by-knowledge",
+    "non-dual",
+    "original-sin",
+    "other-power",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "劉邦",
+    "張良",
+    "呂雉",
+    "商山四皓",
+    "戚姬",
+    "太子盈",
+    "趙王如意",
+    "留侯",
+    "夏黃公",
+    "用裏先生",
+    "來園公",
+    "綺裏季",
+    "隱逸",
+    "扶太子",
+    "功成身退"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "emotions-passions",
+    "existence-why-born",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0c527547e697031adcb1622b9706eabb7e62479074a31722d63c9d66bd6e1a9b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

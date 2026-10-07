@@ -21,5 +21,56 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "chaos-to-order",
+    "cosmic-egg",
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "human-as-microcosm",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "multiple-souls",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "道",
+    "關尹子",
+    "天",
+    "命",
+    "神",
+    "元",
+    "聖人",
+    "一息",
+    "生死",
+    "形神",
+    "精氣",
+    "陰陽",
+    "水火",
+    "金木",
+    "無為"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0ae712ef4030500278f121a887ad37656f7ea0a8d81d234ddda14fbf0eef0178"
+  },
+  "tagging_models": "MiniMax-M3"
 }

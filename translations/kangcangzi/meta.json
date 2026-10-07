@@ -21,5 +21,58 @@
   "tier": "次要",
   "notes": "道教四子真經之一（洞靈真經）",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "ancestor-worship",
+    "caesaropapism",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "divine-kingship",
+    "divine-transcendence",
+    "emptiness",
+    "humility",
+    "liberation-by-knowledge",
+    "mandate-of-heaven",
+    "mystical-union",
+    "non-dual",
+    "prayer",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "syncretic",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "亢倉子",
+    "老聃",
+    "全道",
+    "尸祝",
+    "羽山",
+    "秦佚",
+    "叔孫卿",
+    "定公",
+    "陳懷君",
+    "虛",
+    "神全",
+    "心合於氣",
+    "蛻",
+    "南子榮之樗",
+    "天子"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0a0813b87fd24a59e7dea23a4142bff9f75f17155dc73f838fbfd4912845c15a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
