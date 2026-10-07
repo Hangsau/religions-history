@@ -20,5 +20,37 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "夜叉",
+    "大軍王",
+    "二十八",
+    "阿難",
+    "十方",
+    "四維",
+    "鎮護國法",
+    "守護國土",
+    "東方",
+    "南方",
+    "西方",
+    "北方",
+    "上方",
+    "下方"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b81fb7f6ae46fbc982c8216d7c371792c8965197ccc289a5d95a670dc8556237"
+  },
+  "tagging_models": "MiniMax-M3"
 }
