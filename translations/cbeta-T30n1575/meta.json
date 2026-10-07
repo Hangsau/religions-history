@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual"
+  ],
+  "keywords": [
+    "緣生",
+    "涅槃",
+    "無性",
+    "無生",
+    "無我",
+    "中觀",
+    "寂靜",
+    "無明",
+    "煩惱",
+    "大悲",
+    "菩提",
+    "蘊處界",
+    "正智",
+    "解脫",
+    "六十頌如理論"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "954ceb8dd198927e46ae3b72aef1cb4d4d2f1055d04e884b7f557a7e293fe2a3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

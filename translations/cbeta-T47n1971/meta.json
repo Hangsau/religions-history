@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "淨土",
+    "彌陀",
+    "極樂世界",
+    "白毫",
+    "觀無量壽佛經",
+    "三觀",
+    "三諦",
+    "唯心淨土",
+    "本性彌陀",
+    "念佛",
+    "往生",
+    "十疑論",
+    "十六觀經",
+    "天台",
+    "四明"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2088875a2bc13ae4c1fd4badc2c0a5ddfd04ebe5ef02ae998216a02818f2d9a1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

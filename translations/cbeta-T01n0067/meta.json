@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "evil-as-deception",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "other-power"
+  ],
+  "keywords": [
+    "目連",
+    "弊魔",
+    "波旬",
+    "拘樓秦佛",
+    "洪音",
+    "知想",
+    "三昧",
+    "四等",
+    "慈悲哀喜護",
+    "地獄",
+    "瞋恚",
+    "禪思",
+    "梵天",
+    "帝釋",
+    "蛇維"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7d4b5ed76db445b9670a977f64a84679dce04b319455e3c4e0cb3bf404256906"
+  },
+  "tagging_models": "MiniMax-M3"
 }

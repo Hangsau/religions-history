@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "bardo",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "other-power",
+    "pilgrimage"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "阿彌陀",
+    "釋迦牟尼",
+    "大勢至",
+    "總持自在菩薩",
+    "補陀落山",
+    "極樂國",
+    "王舍城",
+    "鷲峰山",
+    "菩提心",
+    "大悲",
+    "往生淨土",
+    "摩那斯羅",
+    "長那"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "hope-reason-to-live",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b9c5827ecc45949919fdd822af1b3d1f47e26a2128011b93c5c5a07ecd67e6bb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
