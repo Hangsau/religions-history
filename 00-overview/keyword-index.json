@@ -20045,6 +20045,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1383",
       "name_zh": "佛說宿命智陀羅尼經",
       "religion": "佛教"
@@ -20694,6 +20704,13 @@
       "slug": "laozi-heshanggong",
       "name_zh": "老子河上公章句",
       "religion": "道教"
+    }
+  ],
+  "五色線": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "五蓋": [
@@ -22400,6 +22417,13 @@
     {
       "slug": "cbeta-T21n1386",
       "name_zh": "佛說妙色陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "佛法": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
       "religion": "佛教"
     }
   ],
@@ -24967,6 +24991,13 @@
       "religion": "佛教"
     }
   ],
+  "加持水": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "加百列": [
     {
       "slug": "bible-luke",
@@ -25521,6 +25552,13 @@
       "religion": "儒教"
     }
   ],
+  "卯時": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "印加": [
     {
       "slug": "inca-rites",
@@ -25802,6 +25840,11 @@
     }
   ],
   "受持讀誦": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1399",
       "name_zh": "佛說滅除五逆罪大陀羅尼經",
@@ -26393,6 +26436,13 @@
       "religion": "佛教"
     }
   ],
+  "呪索": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
+    }
+  ],
   "呼吸": [
     {
       "slug": "tianxian-zhengli",
@@ -26888,6 +26938,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1399",
       "name_zh": "佛說滅除五逆罪大陀羅尼經",
       "religion": "佛教"
@@ -27076,6 +27131,11 @@
     }
   ],
   "善法": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
+    },
     {
       "slug": "madhyamagama",
       "name_zh": "中阿含經",
@@ -27420,6 +27480,11 @@
   ],
   "因明": [
     {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    },
+    {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
@@ -27599,6 +27664,13 @@
     {
       "slug": "cbeta-X09n0246",
       "name_zh": "圓覺經略疏科",
+      "religion": "佛教"
+    }
+  ],
+  "圓超": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
       "religion": "佛教"
     }
   ],
@@ -28125,6 +28197,13 @@
       "religion": "佛教"
     }
   ],
+  "增慧陀羅尼": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "增支部": [
     {
       "slug": "an10-tens",
@@ -28476,6 +28555,20 @@
     {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    }
+  ],
+  "大悲心陀羅尼": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
+    }
+  ],
+  "大慧菩薩": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -29171,6 +29264,13 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    }
+  ],
+  "天災": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "天照大神": [
@@ -30176,6 +30276,13 @@
       "religion": "儒教"
     }
   ],
+  "孝明皇帝": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "孝經": [
     {
       "slug": "xiao-jing",
@@ -30394,6 +30501,13 @@
       "religion": "道教"
     }
   ],
+  "安隱快樂": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "安隱樂": [
     {
       "slug": "cbeta-T16n0706",
@@ -30605,6 +30719,13 @@
     {
       "slug": "dirghagama",
       "name_zh": "長阿含經",
+      "religion": "佛教"
+    }
+  ],
+  "宿業": [
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -32101,6 +32222,11 @@
   ],
   "延喜": [
     {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    },
+    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -33066,6 +33192,13 @@
       "religion": "基督教"
     }
   ],
+  "怖畏": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
+    }
+  ],
   "怛他羯哆耶": [
     {
       "slug": "cbeta-T21n1317",
@@ -33432,6 +33565,11 @@
   ],
   "惡趣": [
     {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1386",
       "name_zh": "佛說妙色陀羅尼經",
       "religion": "佛教"
@@ -33616,6 +33754,18 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    }
+  ],
+  "慈氏菩薩": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "慎獨": [
@@ -34363,6 +34513,11 @@
   ],
   "持誦": [
     {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1411",
       "name_zh": "佛說蓮華眼陀羅尼經",
       "religion": "佛教"
@@ -34480,6 +34635,13 @@
       "slug": "vulgate-2-samuel",
       "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
       "religion": "基督教"
+    }
+  ],
+  "授記": [
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "採取": [
@@ -35125,6 +35287,13 @@
       "slug": "vulgate-micah",
       "name_zh": "彌迦書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "擁護": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "擄去": [
@@ -36102,6 +36271,11 @@
   ],
   "日光菩薩": [
     {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1338",
       "name_zh": "呪三首經",
       "religion": "佛教"
@@ -36171,6 +36345,13 @@
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
+    }
+  ],
+  "明記不忘": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "易": [
@@ -36410,6 +36591,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
@@ -36567,6 +36753,13 @@
       "religion": "基督教"
     }
   ],
+  "書寫供養": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "書拉密女": [
     {
       "slug": "bible-song-of-songs",
@@ -36695,6 +36888,13 @@
       "slug": "vulgate-numbers",
       "name_zh": "民數記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "月光菩薩": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "月次祭": [
@@ -36913,6 +37113,25 @@
       "religion": "基督教"
     }
   ],
+  "末法": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "末法眾生": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "末那": [
     {
       "slug": "bud-trimshika-sa",
@@ -37056,6 +37275,13 @@
       "slug": "sblgnt-matthew",
       "name_zh": "馬太福音（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "東漢": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
     }
   ],
   "東華": [
@@ -37638,6 +37864,13 @@
       "slug": "chinigchinich",
       "name_zh": "欽尼赤尼赤 (路易塞紐宗教)",
       "religion": "美洲"
+    }
+  ],
+  "欽明天皇": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
     }
   ],
   "歌利王": [
@@ -39089,6 +39322,13 @@
       "religion": "基督教"
     }
   ],
+  "洛叉": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "洛阿米": [
     {
       "slug": "hosea",
@@ -39274,6 +39514,13 @@
       "religion": "佛教"
     }
   ],
+  "消滅惡業": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "消滅罪業": [
     {
       "slug": "cbeta-T21n1383",
@@ -39293,6 +39540,13 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    }
+  ],
+  "淨嚴": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "淨土": [
@@ -39491,6 +39745,13 @@
       "religion": "基督教"
     }
   ],
+  "滅罪": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
+    }
+  ],
   "滅除罪業": [
     {
       "slug": "cbeta-T21n1399",
@@ -39550,6 +39811,13 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "濁惡世": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "濕婆往世書": [
@@ -39944,6 +40212,13 @@
       "slug": "duren-jing",
       "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
+    }
+  ],
+  "無量壽佛": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "無量壽經": [
@@ -41161,6 +41436,13 @@
       "religion": "道教"
     }
   ],
+  "白馬": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "百八十部": [
     {
       "slug": "sendai-kuji-hongi-zh",
@@ -41571,6 +41853,11 @@
     {
       "slug": "cbeta-T19n0924B",
       "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -42623,6 +42910,13 @@
       "religion": "佛教"
     }
   ],
+  "禪定皇帝": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "禪師": [
     {
       "slug": "cbeta-X09n0246",
@@ -43008,11 +43302,25 @@
       "religion": "基督教"
     }
   ],
+  "章疏": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "章節目錄": [
     {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "童子相": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "童貞瑪利亞": [
@@ -46693,6 +47001,13 @@
       "religion": "佛教"
     }
   ],
+  "華嚴宗": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "華嚴部": [
     {
       "slug": "cbeta-T55n2183",
@@ -47403,6 +47718,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "西天": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "西奈": [
     {
       "slug": "exodus",
@@ -47728,6 +48050,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -47783,6 +48110,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -48169,6 +48501,13 @@
       "religion": "儒教"
     }
   ],
+  "諸天子": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "諸師弟子": [
     {
       "slug": "cbeta-T21n1326",
@@ -48441,6 +48780,13 @@
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
+    }
+  ],
+  "貞享三年": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "貞觀七年": [
@@ -48833,6 +49179,13 @@
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "辟魔": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
       "religion": "佛教"
     }
   ],
@@ -49471,6 +49824,13 @@
       "religion": "佛教"
     }
   ],
+  "那謨囉怛那怛囉夜野": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "那謨婆誐嚩帝": [
     {
       "slug": "cbeta-T21n1386",
@@ -49578,6 +49938,13 @@
       "religion": "佛教"
     }
   ],
+  "釋迦能仁": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
+    }
+  ],
   "重建": [
     {
       "slug": "bible-nehemiah",
@@ -49658,6 +50025,13 @@
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
+    }
+  ],
+  "金人": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
     }
   ],
   "金像": [
@@ -49778,6 +50152,13 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    }
+  ],
+  "鈍根": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "鉛汞": [
@@ -50513,6 +50894,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-sutra-kumarajiva",
       "name_zh": "金剛般若波羅蜜經",
       "religion": "佛教"
@@ -50694,6 +51080,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1368",
       "name_zh": "佛說大七寶陀羅尼經",
       "religion": "佛教"
@@ -50763,7 +51154,24 @@
       "religion": "佛教"
     }
   ],
+  "阿鼻獄": [
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "陀羅尼": [
+    {
+      "slug": "cbeta-T19n0934",
+      "name_zh": "佛說無量功德陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1143",
+      "name_zh": "佛說慈氏菩薩誓願陀羅尼經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1317",
       "name_zh": "甘露陀羅尼呪",
@@ -50777,6 +51185,11 @@
     {
       "slug": "cbeta-T21n1368",
       "name_zh": "佛說大七寶陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -50988,6 +51401,13 @@
       "slug": "tianxian-zhengli",
       "name_zh": "天仙正理直論",
       "religion": "道教"
+    }
+  ],
+  "障難": [
+    {
+      "slug": "cbeta-T20n1160",
+      "name_zh": "日光菩薩月光菩薩陀羅尼",
+      "religion": "佛教"
     }
   ],
   "隨眠": [
@@ -51465,6 +51885,13 @@
       "slug": "sblgnt-philippians",
       "name_zh": "腓立比書（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "須彌山": [
+    {
+      "slug": "cbeta-T21n1372",
+      "name_zh": "增慧陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "須菩提": [
@@ -52026,6 +52453,13 @@
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
       "religion": "儒教"
+    }
+  ],
+  "鹿苑": [
+    {
+      "slug": "cbeta-T55n2177",
+      "name_zh": "華嚴宗章疏并因明錄",
+      "religion": "佛教"
     }
   ],
   "鹿野苑": [

@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "阿難",
+    "世尊",
+    "慈氏菩薩",
+    "觀自在菩薩",
+    "無量壽佛",
+    "末法",
+    "濁惡世",
+    "消滅惡業",
+    "持誦",
+    "洛叉",
+    "那謨囉怛那怛囉夜野",
+    "安隱快樂",
+    "末法眾生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "372f999a2cff642fc0b66fdaf00ae846aa2423681a4cea222f307923507b4590"
+  },
+  "tagging_models": "MiniMax-M3"
 }
