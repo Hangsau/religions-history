@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "聖閻曼德迦威怒王",
+    "文殊師利",
+    "大威德明王",
+    "真言",
+    "護摩",
+    "三角壇",
+    "設覩嚧",
+    "閼伽",
+    "安悉香",
+    "唵噁吽",
+    "舍覩嚧",
+    "五色粉",
+    "加持",
+    "念誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d9eb569ed21373a386ca353d340efc7412430b046d6663cd46bdc2fa847ea081"
+  },
+  "tagging_models": "MiniMax-M3"
 }

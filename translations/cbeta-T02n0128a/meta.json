@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "須摩提女",
+    "阿那邠池",
+    "滿財長者",
+    "舍衛國",
+    "滿富城",
+    "佛",
+    "舍利弗",
+    "目連",
+    "迦葉",
+    "須菩提",
+    "周利槃特伽",
+    "六千梵志",
+    "法眼通",
+    "邪網",
+    "神通變化"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "63fa04385e0d545a5945c8e84ff2d7bdd79005b83e27367a2bb5ccddfc533b93"
+  },
+  "tagging_models": "MiniMax-M3"
 }

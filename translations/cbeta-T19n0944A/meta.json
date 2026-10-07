@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "悉怛多鉢怛囉",
+    "陀羅尼",
+    "真言",
+    "吽",
+    "泮吒",
+    "娑嚩訶",
+    "婆誐嚩帝",
+    "曩謨",
+    "放光",
+    "如來",
+    "唵",
+    "大明呪",
+    "青龍寺",
+    "曇貞"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "698361ae981df18c27c805db7e31184154da74256aece263ee4f003822fd8a20"
+  },
+  "tagging_models": "MiniMax-M3"
 }
