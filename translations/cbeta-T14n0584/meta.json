@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "essentially-good",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "長爪梵志",
+    "喬答摩",
+    "自業",
+    "八支淨戒",
+    "金剛不壞身",
+    "三十二相",
+    "近住淨戒",
+    "王舍城",
+    "鷲峯山",
+    "五輪著地",
+    "因果不虛",
+    "歸依三寶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1c258a6b646cc110043a4e81c8b61c4ec28a80e6d72bc56683862521e278c3fc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
