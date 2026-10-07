@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "evil-as-deception",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "鴦崛髻",
+    "指髻",
+    "伽瞿",
+    "波斯匿王",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "阿羅漢",
+    "梵行",
+    "五戒",
+    "不殺生",
+    "止惡",
+    "降伏",
+    "慈心",
+    "忍辱",
+    "捷疾智"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e58c81e579f7a483d67fce230d4d005a7c3682280ff21f661f9cadffddc1ab62"
+  },
+  "tagging_models": "MiniMax-M3"
 }
