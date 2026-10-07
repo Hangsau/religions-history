@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "multiple-canons",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "閃電障難",
+    "隨求如意",
+    "陀羅尼",
+    "捺囉弭拏",
+    "阿難陀",
+    "舍衛國",
+    "觀自在菩薩",
+    "金剛手",
+    "大梵天王",
+    "帝釋天主",
+    "四大天王",
+    "龍王",
+    "中夭",
+    "真言章句",
+    "舍衛國精舍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ec0886ca27ed5e3c0220526dd2022a76cbfb092ae355b75812481f28b1efba75"
+  },
+  "tagging_models": "MiniMax-M3"
 }

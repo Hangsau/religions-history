@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "文殊師利",
+    "陀羅尼",
+    "唵齒𡄦",
+    "菩薩",
+    "淨居天",
+    "菩提心",
+    "本生印",
+    "安息香",
+    "孔雀羽",
+    "五逆",
+    "惡夢",
+    "怨敵",
+    "災障",
+    "慈悲",
+    "擁護"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "835ee9eecacc6ec9150455adffd558d69e5e4f6b37bf1020866f6e5e6738a76a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

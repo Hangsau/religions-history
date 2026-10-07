@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "菩薩",
+    "六波羅蜜",
+    "檀波羅蜜",
+    "尸波羅蜜",
+    "羼提波羅蜜",
+    "惟逮波羅蜜",
+    "禪波羅蜜",
+    "般若波羅蜜",
+    "數息",
+    "五陰",
+    "六入",
+    "六衰",
+    "泥洹",
+    "本無",
+    "內習"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "35835ec814a2b7cdc65161c9a26b6374a329fea36378b16f6a8182eb7ddbae72"
+  },
+  "tagging_models": "MiniMax-M3"
 }
