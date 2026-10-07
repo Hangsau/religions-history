@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "布施",
+    "四聖諦",
+    "苾芻尼",
+    "摩訶波闍波提",
+    "阿難",
+    "釋種",
+    "迦毗羅城",
+    "尼拘陀樹園",
+    "近事戒",
+    "緣覺",
+    "阿羅漢",
+    "須陀洹",
+    "較量布施",
+    "布施清淨",
+    "淨信"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "giving-generosity",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6293a717c2ec20fd80a2458c9151eeba660875fad95ea3c03bcbc11af4f7127f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
