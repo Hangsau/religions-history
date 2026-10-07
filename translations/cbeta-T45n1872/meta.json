@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "華嚴",
+    "普賢行願",
+    "舍那",
+    "緣起",
+    "法界",
+    "理事",
+    "因果",
+    "色空",
+    "一多",
+    "成壞",
+    "隱顯",
+    "眾生",
+    "諸佛",
+    "無生",
+    "空寂"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "dca40012996c2e73e72731beffb64fe9314ea30168fe4010bca83d7489ac7051"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "放牛經",
+    "四諦",
+    "四意止",
+    "比丘",
+    "沙門",
+    "六根",
+    "摩刷",
+    "護瘡",
+    "行道",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "長老",
+    "羅漢",
+    "八正道"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "patience-waiting",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a09aed6b2106fbaa1422b225d54ff79a5b1e7c0adc1e244f95b75e568eeee220"
+  },
+  "tagging_models": "MiniMax-M3"
 }

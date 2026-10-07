@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "sacred-language"
+  ],
+  "keywords": [
+    "善財童子",
+    "般若波羅蜜",
+    "阿字",
+    "解脫",
+    "字門",
+    "善知眾藝",
+    "菩薩行",
+    "迦毘羅城",
+    "法空",
+    "真如",
+    "菩提心"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "277a14c54b5e2b7791fb87e39c15a1eeaeba3c5d21a035648f3235ef947068b8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "meditation",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "大日經",
+    "真言",
+    "三昧耶",
+    "金剛薩埵",
+    "不動尊",
+    "法界生",
+    "轉法輪",
+    "曼荼羅",
+    "結護",
+    "瑜伽",
+    "持誦",
+    "悉地",
+    "閼伽",
+    "蘇多羅",
+    "本尊"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "14f2743803c9117ec85deab5713505af42dd5f3a21e9b01f20855bb79826d1ea"
+  },
+  "tagging_models": "MiniMax-M3"
 }

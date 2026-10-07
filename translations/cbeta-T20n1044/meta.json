@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "against-idolatry",
+    "chanting",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic"
+  ],
+  "keywords": [
+    "六字呪王經",
+    "阿難",
+    "栴陀羅女",
+    "祇陀林",
+    "舍衛國",
+    "陀羅尼",
+    "觀世音菩薩",
+    "文殊師利",
+    "普賢",
+    "彌勒",
+    "五辛",
+    "呪詛",
+    "厭蠱",
+    "夜叉",
+    "羅剎"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f06338af3d85658093ac6f925c6e68259bdd01d6a7bfe2a0463109d13af73dcf"
+  },
+  "tagging_models": "MiniMax-M3"
 }
