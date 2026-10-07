@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "寶賢",
+    "夜叉",
+    "陀羅尼",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘",
+    "比丘尼",
+    "優婆塞",
+    "優婆夷",
+    "菩薩",
+    "持誦",
+    "持戒",
+    "沈檀香",
+    "摩尼跋捺囉",
+    "世尊"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "176c7d4de64c0dbdbf93a3c26ac080d989a32a6686fb4099ef38b49109024c4b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

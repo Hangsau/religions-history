@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "阿難",
+    "世尊",
+    "陀羅尼",
+    "鉢蘭那賒嚩哩",
+    "惡魔",
+    "惡鬼神",
+    "惡趣",
+    "薄福少慧",
+    "受持讀誦",
+    "至誠心",
+    "災難消除",
+    "那謨囉怛那",
+    "娑嚩賀",
+    "宣流於世",
+    "頂禮"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fbb9d5b6e7d0fb50555d9c9fbde58a6edd454eac5f4ccafe33ac5f35a66d1bab"
+  },
+  "tagging_models": "MiniMax-M3"
 }
