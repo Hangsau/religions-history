@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "mystical-union",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theophany"
+  ],
+  "keywords": [
+    "毘那夜迦",
+    "誐那鉢底",
+    "歡喜王",
+    "象頭人身",
+    "觀世音菩薩",
+    "軍荼利菩薩",
+    "毘盧遮那佛",
+    "真言",
+    "悉地",
+    "障難",
+    "權實",
+    "雙身",
+    "真言法",
+    "瑜伽",
+    "祕要"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a55127364b69b860b7521b1961b4fbd1cb27a4bbee93fee538cdeb0e737a35ff"
+  },
+  "tagging_models": "MiniMax-M3"
 }

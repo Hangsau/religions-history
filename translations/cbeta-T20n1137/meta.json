@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "執金剛神",
+    "善法方便",
+    "菩提樹",
+    "摩竭提",
+    "舍利弗",
+    "目揵連",
+    "阿難",
+    "金剛藏菩薩",
+    "彌勒菩薩",
+    "大梵天王",
+    "釋提桓因",
+    "毘沙門天王",
+    "長壽",
+    "晨朝讀誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "936f6b689fd1375255f97bffef9907723b5e2e38afd0af7fd55242981ee0782a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

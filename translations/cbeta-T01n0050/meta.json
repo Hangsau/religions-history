@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "受歲",
+    "婆伽婆",
+    "羅閱祇",
+    "迦蘭陀竹園",
+    "目揵連",
+    "比丘",
+    "梵行",
+    "惡求",
+    "染欲",
+    "瞋恨",
+    "慳嫉",
+    "諛諂",
+    "恩潤",
+    "反復",
+    "解脫"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "change-transformation",
+    "emotions-passions",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6dc7a55ae9847fe3aa368850fb7f8bdaa3d3fbb8486fc76a6a81d201fe53e386"
+  },
+  "tagging_models": "MiniMax-M3"
 }
