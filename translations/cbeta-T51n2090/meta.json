@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "pilgrimage",
+    "temple-centered"
+  ],
+  "keywords": [
+    "釋迦牟尼如來",
+    "像法滅盡",
+    "于闐",
+    "赤面",
+    "毘左耶訖多",
+    "月藏菩薩",
+    "牛頭山",
+    "乾陀羅",
+    "伊羅葉龍王",
+    "兜率陀天",
+    "慈氏世尊",
+    "娑婆界",
+    "羅漢",
+    "菩薩",
+    "塔寺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5e65dc0ab8045935bb1065e33443bb32ff4bfbf9c2328411e5249affc3d744fa"
+  },
+  "tagging_models": "MiniMax-M3"
 }
