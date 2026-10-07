@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "essentially-flawed",
+    "extinction-of-self",
+    "fasting",
+    "liberation-by-knowledge",
+    "non-violence",
+    "self-effort"
+  ],
+  "keywords": [
+    "優填王",
+    "拘深國",
+    "逝心",
+    "摩回提",
+    "無比",
+    "三十二相",
+    "貝多樹",
+    "魔天",
+    "須陀洹",
+    "三毒",
+    "三塗",
+    "婬欲",
+    "女色",
+    "持戒",
+    "梵志"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "875e90b1089f26d51a64c4a2bf7ae5d81d83ea5fa4fd6714b82200ca4fd5296c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

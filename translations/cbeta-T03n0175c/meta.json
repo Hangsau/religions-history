@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "睒子",
+    "迦夷國",
+    "菩薩",
+    "盲父母",
+    "孝順",
+    "十善",
+    "毒箭",
+    "迦夷國王",
+    "兜率天",
+    "釋梵四王",
+    "泥犁",
+    "宿命",
+    "彌勒佛",
+    "閱頭檀王",
+    "摩耶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6cd56c54d4358bd0e2427deaff6deae37f96966f694fd40d050cce333888d627"
+  },
+  "tagging_models": "MiniMax-M3"
 }

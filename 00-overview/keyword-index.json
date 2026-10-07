@@ -19434,6 +19434,13 @@
       "religion": "道教"
     }
   ],
+  "一法界": [
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    }
+  ],
   "一生補處": [
     {
       "slug": "cbeta-T10n0280",
@@ -20349,6 +20356,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T12n0343",
       "name_zh": "佛說太子刷護經",
       "religion": "佛教"
@@ -20510,6 +20522,11 @@
     }
   ],
   "三塗": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T14n0492a",
       "name_zh": "佛說阿難問事佛吉凶經",
@@ -21858,6 +21875,11 @@
   ],
   "三毒": [
     {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0536",
       "name_zh": "申日兒本經",
       "religion": "佛教"
@@ -22345,6 +22367,13 @@
       "religion": "佛教"
     }
   ],
+  "三藏十二部": [
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
+      "religion": "佛教"
+    }
+  ],
   "三藐三佛陀": [
     {
       "slug": "cbeta-T20n1046",
@@ -22804,10 +22833,24 @@
       "religion": "佛教"
     }
   ],
+  "不善根": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    }
+  ],
   "不善法": [
     {
       "slug": "cbeta-T01n0083",
       "name_zh": "應法經",
+      "religion": "佛教"
+    }
+  ],
+  "不增不減": [
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
       "religion": "佛教"
     }
   ],
@@ -23641,6 +23684,11 @@
     {
       "slug": "cbeta-T01n0055",
       "name_zh": "苦陰因事經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
       "religion": "佛教"
     },
     {
@@ -30971,6 +31019,11 @@
   ],
   "優填王": [
     {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T16n0692",
       "name_zh": "佛說作佛形像經",
       "religion": "佛教"
@@ -31894,6 +31947,11 @@
   "兜率天": [
     {
       "slug": "cbeta-T03n0175b",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
     },
@@ -35953,6 +36011,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0501",
       "name_zh": "佛說沙曷比丘功德經",
       "religion": "佛教"
@@ -39803,6 +39866,11 @@
   ],
   "善根": [
     {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T16n0704",
       "name_zh": "佛說樓閣正法甘露鼓經",
       "religion": "佛教"
@@ -42040,6 +42108,11 @@
   ],
   "圓覺": [
     {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X10n0256",
       "name_zh": "圓覺經略疏序注",
       "religion": "佛教"
@@ -42095,10 +42168,22 @@
       "religion": "佛教"
     }
   ],
+  "圓頓之教": [
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
+      "religion": "佛教"
+    }
+  ],
   "圭峯禪師": [
     {
       "slug": "cbeta-X09n0244",
       "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     }
   ],
@@ -43903,6 +43988,13 @@
     {
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
+      "religion": "佛教"
+    }
+  ],
+  "大人根相": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
       "religion": "佛教"
     }
   ],
@@ -46955,6 +47047,11 @@
   ],
   "女色": [
     {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0615",
       "name_zh": "菩薩訶色欲法經",
       "religion": "佛教"
@@ -46995,6 +47092,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
       "religion": "佛教"
     },
     {
@@ -47290,6 +47392,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0974D",
       "name_zh": "佛頂尊勝陀羅尼注義",
       "religion": "佛教"
@@ -47302,6 +47409,11 @@
     {
       "slug": "cbeta-T46n1953",
       "name_zh": "菩提心義",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     },
     {
@@ -48156,6 +48268,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1046",
       "name_zh": "六字大陀羅尼呪經",
       "religion": "佛教"
@@ -48553,6 +48670,11 @@
       "slug": "cbeta-T01n0055",
       "name_zh": "苦陰因事經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
     }
   ],
   "婬泆": [
@@ -48839,6 +48961,11 @@
     {
       "slug": "cbeta-T02n0141",
       "name_zh": "佛說阿遬達經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
       "religion": "佛教"
     },
     {
@@ -49767,6 +49894,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T10n0289",
       "name_zh": "顯無邊佛土功德經",
       "religion": "佛教"
@@ -50130,6 +50262,13 @@
     {
       "slug": "cbeta-T21n1390",
       "name_zh": "佛說洛叉陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "密嚴國": [
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     }
   ],
@@ -53672,6 +53811,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0457",
       "name_zh": "佛說彌勒來時經",
       "religion": "佛教"
@@ -54591,6 +54735,13 @@
     {
       "slug": "cbeta-T04n0218",
       "name_zh": "灌頂王喻經",
+      "religion": "佛教"
+    }
+  ],
+  "心地": [
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     }
   ],
@@ -56448,6 +56599,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T04n0216",
       "name_zh": "大魚事經",
       "religion": "佛教"
@@ -56625,6 +56781,13 @@
     {
       "slug": "cbeta-T02n0107",
       "name_zh": "佛說不自守意經",
+      "religion": "佛教"
+    }
+  ],
+  "意清淨法": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
       "religion": "佛教"
     }
   ],
@@ -58661,6 +58824,13 @@
       "religion": "佛教"
     }
   ],
+  "拘深國": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    }
+  ],
   "拘牟頭花象力": [
     {
       "slug": "cbeta-T14n0547",
@@ -59004,6 +59174,11 @@
     {
       "slug": "cbeta-T02n0111",
       "name_zh": "佛說相應相可經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
       "religion": "佛教"
     },
     {
@@ -60050,6 +60225,13 @@
       "religion": "佛教"
     }
   ],
+  "摩回提": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    }
+  ],
   "摩夷": [
     {
       "slug": "cbeta-T14n0583",
@@ -60346,6 +60528,11 @@
     },
     {
       "slug": "cbeta-T03n0175b",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
     },
@@ -66678,6 +66865,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0567",
       "name_zh": "佛說梵志女首意經",
       "religion": "佛教"
@@ -69244,6 +69436,11 @@
       "slug": "cbeta-T03n0175b",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
     }
   ],
   "毒藥": [
@@ -71616,6 +71813,11 @@
       "slug": "cbeta-X03n0218",
       "name_zh": "華嚴經入法界品十八問答",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
+      "religion": "佛教"
     }
   ],
   "法界善覺心": [
@@ -71834,6 +72036,11 @@
     {
       "slug": "cbeta-T12n0393",
       "name_zh": "迦葉赴佛般涅槃經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
       "religion": "佛教"
     },
     {
@@ -72342,6 +72549,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T16n0688",
       "name_zh": "佛說未曾有經",
       "religion": "佛教"
@@ -72700,6 +72912,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T02n0139",
       "name_zh": "佛說四泥犁經",
       "religion": "佛教"
@@ -72711,6 +72928,11 @@
     },
     {
       "slug": "cbeta-T03n0175b",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
     },
@@ -73206,6 +73428,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T16n0693",
       "name_zh": "佛說造立形像福報經",
       "religion": "佛教"
@@ -73353,6 +73580,11 @@
     {
       "slug": "cbeta-X02n0192",
       "name_zh": "佛說如意虗空藏菩薩陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     },
     {
@@ -74233,6 +74465,11 @@
     }
   ],
   "澡浴": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T32n1689",
       "name_zh": "請賓頭盧法",
@@ -75823,6 +76060,13 @@
     {
       "slug": "cbeta-T12n0373",
       "name_zh": "後出阿彌陀佛偈",
+      "religion": "佛教"
+    }
+  ],
+  "無比": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
       "religion": "佛教"
     }
   ],
@@ -77670,6 +77914,11 @@
     {
       "slug": "cbeta-T15n0595",
       "name_zh": "佛說嗟韈曩法天子受三歸依獲免惡道經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
       "religion": "佛教"
     },
     {
@@ -79862,6 +80111,11 @@
       "slug": "cbeta-T03n0175b",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
     }
   ],
   "直接知覺": [
@@ -80010,6 +80264,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0846",
       "name_zh": "外道問聖大乘法無我義經",
       "religion": "佛教"
@@ -80067,6 +80326,11 @@
     {
       "slug": "cbeta-T48n2019B",
       "name_zh": "誡初心學人文",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     },
     {
@@ -80858,6 +81122,13 @@
       "religion": "佛教"
     }
   ],
+  "眾生界": [
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    }
+  ],
   "眾神": [
     {
       "slug": "mandukya-upanishad",
@@ -80894,6 +81165,11 @@
     },
     {
       "slug": "cbeta-T03n0175b",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
     }
@@ -83463,6 +83739,13 @@
       "religion": "儒教"
     }
   ],
+  "禘婆達兜": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    }
+  ],
   "禘祀祖先": [
     {
       "slug": "shang-shu",
@@ -84566,6 +84849,11 @@
     {
       "slug": "cbeta-T14n0568",
       "name_zh": "有德女所問大乘經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
       "religion": "佛教"
     },
     {
@@ -89618,6 +89906,13 @@
       "religion": "佛教"
     }
   ],
+  "自性清淨心": [
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    }
+  ],
   "自性清淨涅槃": [
     {
       "slug": "cbeta-T19n0974D",
@@ -90260,6 +90555,11 @@
     {
       "slug": "cbeta-T15n0621",
       "name_zh": "佛說佛印三昧經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
       "religion": "佛教"
     },
     {
@@ -91391,6 +91691,11 @@
     }
   ],
   "般涅槃": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T01n0093",
       "name_zh": "邪見經",
@@ -92560,6 +92865,13 @@
       "religion": "佛教"
     }
   ],
+  "荷澤": [
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
+      "religion": "佛教"
+    }
+  ],
   "荷馬": [
     {
       "slug": "homer-greek",
@@ -92761,6 +93073,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0779",
       "name_zh": "佛說八大人覺經",
       "religion": "佛教"
@@ -92878,6 +93195,11 @@
     {
       "slug": "cbeta-X02n0057",
       "name_zh": "十二禮",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     },
     {
@@ -93393,6 +93715,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T03n0180",
       "name_zh": "過去世佛分衛經",
       "religion": "佛教"
@@ -93550,6 +93877,11 @@
     {
       "slug": "cbeta-T15n0654",
       "name_zh": "佛說入無分別法門經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T16n0668",
+      "name_zh": "佛說不增不減經",
       "religion": "佛教"
     },
     {
@@ -94153,6 +94485,11 @@
     {
       "slug": "cbeta-T47n1977",
       "name_zh": "淨土疑辨",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     },
     {
@@ -96495,6 +96832,13 @@
     {
       "slug": "cbeta-T20n1168A",
       "name_zh": "佛說大乘八大曼拏羅經",
+      "religion": "佛教"
+    }
+  ],
+  "裴休": [
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     }
   ],
@@ -99548,6 +99892,13 @@
       "religion": "儒教"
     }
   ],
+  "貝多樹": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    }
+  ],
   "貞": [
     {
       "slug": "cbeta-T12n0392",
@@ -101335,6 +101686,18 @@
       "slug": "cbeta-T03n0175b",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
+    }
+  ],
+  "迦夷國王": [
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
     }
   ],
   "迦夷城": [
@@ -101939,6 +102302,13 @@
     {
       "slug": "cbeta-T14n0547",
       "name_zh": "大花嚴長者問佛那羅延力經",
+      "religion": "佛教"
+    }
+  ],
+  "逝心": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
       "religion": "佛教"
     }
   ],
@@ -103144,6 +103514,13 @@
     {
       "slug": "cbeta-T17n0797b",
       "name_zh": "佛說貧窮老公經",
+      "religion": "佛教"
+    }
+  ],
+  "釋梵四王": [
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
       "religion": "佛教"
     }
   ],
@@ -105402,6 +105779,11 @@
       "slug": "cbeta-T03n0175b",
       "name_zh": "佛說睒子經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0175c",
+      "name_zh": "佛說睒子經",
+      "religion": "佛教"
     }
   ],
   "閻摩": [
@@ -106007,6 +106389,13 @@
       "slug": "vulgate-1-kings",
       "name_zh": "列王紀上 (武加大稱 列王紀三)",
       "religion": "基督教"
+    }
+  ],
+  "阿夷陀婆池": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
     }
   ],
   "阿娑阿哩耶": [
@@ -107286,6 +107675,13 @@
       "religion": "佛教"
     }
   ],
+  "阿耨風": [
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
+      "religion": "佛教"
+    }
+  ],
   "阿育王": [
     {
       "slug": "cbeta-T02n0145",
@@ -107859,6 +108255,11 @@
     {
       "slug": "cbeta-T01n0040",
       "name_zh": "文陀竭王經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0058",
+      "name_zh": "阿耨風經",
       "religion": "佛教"
     },
     {
@@ -109488,6 +109889,11 @@
     {
       "slug": "cbeta-X02n0206",
       "name_zh": "馬鳴菩薩成就悉地念誦",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X10n0255",
+      "name_zh": "圓覺經序注",
       "religion": "佛教"
     }
   ],
@@ -111361,6 +111767,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0501",
       "name_zh": "佛說沙曷比丘功德經",
       "religion": "佛教"
@@ -112684,6 +113095,13 @@
     {
       "slug": "cbeta-T19n0942",
       "name_zh": "釋迦佛讚",
+      "religion": "佛教"
+    }
+  ],
+  "魔天": [
+    {
+      "slug": "cbeta-T12n0332",
+      "name_zh": "佛說優填王經",
       "religion": "佛教"
     }
   ],
