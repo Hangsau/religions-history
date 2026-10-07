@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "沙彌尼",
+    "離戒文",
+    "十戒",
+    "比丘僧",
+    "歸命佛",
+    "優婆夷",
+    "布薩",
+    "捨羅籌",
+    "鬼子母",
+    "檀越",
+    "精舍",
+    "釋迦文佛",
+    "六情",
+    "菩薩",
+    "阿羅漢"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "gender-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a853e1b7d8c124a535a7e9f16c4fc5aef886c60cc1b33639ead04ae5a2db71df"
+  },
+  "tagging_models": "MiniMax-M3"
 }
