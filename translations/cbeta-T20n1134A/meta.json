@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "毘盧遮那",
+    "金剛壽命陀羅尼",
+    "降三世金剛菩薩",
+    "摩醯首羅",
+    "大自在天",
+    "金剛界輪",
+    "護摩",
+    "三摩地",
+    "延命",
+    "菩提心",
+    "真言",
+    "契印",
+    "灌頂"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "732a46e43436332fc12f10540385fa5fa54a1940be12b09afeb53671582de37c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
