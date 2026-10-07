@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "圓行",
+    "青龍寺",
+    "義真和尚",
+    "惠果阿闍梨",
+    "阿闍梨位",
+    "灌頂",
+    "真言",
+    "三密",
+    "大日如來",
+    "金剛薩埵",
+    "龍猛菩薩",
+    "金剛三藏",
+    "不空三藏",
+    "曼荼羅",
+    "承和六年"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eb9e73c5fdec0e161a4732445ec47e39bbc0ba4e5db0b7a8ac34198ae3e29c15"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "karma-rebirth",
+    "liberation-by-works",
+    "other-power",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+  ],
+  "keywords": [
+    "壽生經",
+    "受生經",
+    "南贍部洲",
+    "壽生錢",
+    "本命錢",
+    "注命官",
+    "阿難",
+    "十地菩薩",
+    "長壽王菩薩",
+    "觀世音菩薩",
+    "災星",
+    "天龍八部",
+    "三世父母",
+    "七代先亡",
+    "橫災"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "23d86c40957285e5890c2ad81acdaec03d3e4f8a75db0a40133e24e88edb220e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
