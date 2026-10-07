@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T54",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "syncretic"
+  ],
+  "keywords": [
+    "阿羅訶",
+    "彌施訶",
+    "淨風王",
+    "三才慈父",
+    "三威蒙度讚",
+    "景教",
+    "盧訶寧俱沙",
+    "三身",
+    "法王",
+    "聖子",
+    "慈父",
+    "眾善根本",
+    "甘露",
+    "苦界",
+    "火江"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1499c87c118ae18e5c99c1f5cc0d14aacf9d46b08a47b54e31355e2a294af8c1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

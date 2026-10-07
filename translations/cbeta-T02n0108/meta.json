@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "邠耨",
+    "摩鳩羅無種山",
+    "首那和蘭",
+    "六情",
+    "三達",
+    "六通",
+    "羅漢",
+    "梵行",
+    "忍辱",
+    "比丘",
+    "清信士",
+    "沙門",
+    "貪欲",
+    "寂然",
+    "滅度"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "death",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f6ef5294d6d22082ef9fe21d9e70bb1fc3b76a47bc3862d3ed53bde506caf652"
+  },
+  "tagging_models": "MiniMax-M3"
 }
