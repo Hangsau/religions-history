@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "truthfulness"
+  ],
+  "keywords": [
+    "阿闍世王",
+    "祇婆",
+    "目連",
+    "貧窮老母",
+    "園監",
+    "須彌燈光如來",
+    "覺華如來",
+    "淨其所部如來",
+    "栴檀",
+    "旃陀和利",
+    "授決",
+    "然燈供養",
+    "耆闍崛山",
+    "羅閱祇國",
+    "鳩夷那竭國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2b78312afc1e6a72281727ddab9ca1c535c7439204c4d41a94e84878eba58887"
+  },
+  "tagging_models": "MiniMax-M3"
 }

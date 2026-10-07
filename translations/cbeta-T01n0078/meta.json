@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "cyclic-cosmos",
+    "heaven-hell",
+    "humility",
+    "karma-rebirth",
+    "lay-practitioner",
+    "truthfulness"
+  ],
+  "keywords": [
+    "兜調",
+    "谷",
+    "舍衛國",
+    "婆羅門",
+    "五戒",
+    "優婆塞",
+    "殺生",
+    "慈心",
+    "布施",
+    "瞋怒",
+    "孝順",
+    "明經",
+    "彌勒佛",
+    "地獄",
+    "天上"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a7b474f062faf0d9d959b945dcc23d4ae9ba1455e212b7a0e4fdf033a1c01fb3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
