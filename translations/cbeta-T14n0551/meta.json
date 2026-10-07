@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "阿難",
+    "摩鄧女",
+    "佛",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "蠱道",
+    "剃頭髮",
+    "阿羅漢道",
+    "持戒",
+    "出家",
+    "惡露",
+    "不淨",
+    "匃食",
+    "比丘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "emotions-passions",
+    "love-sex-intimacy",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0874dc6d0209720a07d209530a7002cd6acc74eaed57c7e8fee2608814165676"
+  },
+  "tagging_models": "MiniMax-M3"
 }
