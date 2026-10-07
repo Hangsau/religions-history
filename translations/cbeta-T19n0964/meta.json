@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "heaven-hell",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theodicy"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "熾盛光如來",
+    "釋迦牟尼佛",
+    "文殊師利菩薩",
+    "九曜",
+    "七曜",
+    "十二宮",
+    "二十八星",
+    "羅睺",
+    "計都",
+    "災難",
+    "道場",
+    "真言",
+    "南斗",
+    "災祥"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "83daa67eb9e96298a40610daa99380e188f03689622b0e3c5f6c964e6ce38dd9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
