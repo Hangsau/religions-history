@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "阿難",
+    "窣堵波",
+    "佛像",
+    "層閣",
+    "供養",
+    "四洲",
+    "南贍部洲",
+    "毘提訶洲",
+    "瞿陀尼洲",
+    "大俱盧洲",
+    "帝釋",
+    "福聚",
+    "甚希有",
+    "般涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f7d330a98731d751c8f221d2efdbd742bcfead87bcca2df0562ccba58ad74525"
+  },
+  "tagging_models": "MiniMax-M3"
 }
