@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "divine-immanence",
+    "liberation-by-devotion",
+    "mystical-union",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+  ],
+  "keywords": [
+    "虛空藏",
+    "文殊",
+    "普賢",
+    "延命",
+    "帝釋天",
+    "毘沙門天",
+    "九曜",
+    "二十八宿",
+    "羅睺",
+    "計都",
+    "北斗七星",
+    "熾盛光佛頂",
+    "大白衣觀音",
+    "陀羅尼",
+    "宿曜"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e0166d8aef2c233e78513d13f53a547629d0a99cd77ff4c096619c6002a41776"
+  },
+  "tagging_models": "MiniMax-M3"
 }

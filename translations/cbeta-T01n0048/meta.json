@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "賢者法",
+    "非賢者法",
+    "貪婬",
+    "瞋恚",
+    "愚癡",
+    "第一禪",
+    "第二禪",
+    "第三禪",
+    "第四禪",
+    "空行意",
+    "識行意",
+    "非常行意",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "insignificance-history",
+    "perfectionism-self-criticism",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5cb2c6c0771b529ad8d42ce48f812add6fc96c74041ff91408e89ed13d6c3545"
+  },
+  "tagging_models": "MiniMax-M3"
 }
