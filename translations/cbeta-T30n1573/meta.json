@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "liberation-by-knowledge",
+    "sin-as-disobedience",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "壹輸盧迦論",
+    "自體",
+    "無常",
+    "空",
+    "有為",
+    "無為",
+    "涅槃",
+    "陰界入",
+    "迦毘羅",
+    "優樓迦",
+    "三蜜提",
+    "修多羅",
+    "自性",
+    "緣生",
+    "斷常見"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "61a0f9ff1d5e94dcab936af442153a9491ffe583336a44bdee68962e8a0982e6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

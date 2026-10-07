@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "liberation-by-devotion",
+    "mystical-union",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "觀世音",
+    "觀自在",
+    "大明太宗文皇帝",
+    "三摩地",
+    "圓通三昧",
+    "五濁",
+    "十四無畏",
+    "三十二應",
+    "梵讚",
+    "六根互用",
+    "菩提",
+    "娑婆世界",
+    "須彌",
+    "大悲",
+    "慈悲"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "00333bca26a61d2574112c6a16f00f6abc6050bda7ccddda16baa28092c07d72"
+  },
+  "tagging_models": "MiniMax-M3"
 }
