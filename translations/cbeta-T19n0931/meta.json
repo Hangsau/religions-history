@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "金剛頂經",
+    "觀自在王如來",
+    "蓮華部",
+    "灌頂",
+    "三昧耶",
+    "曼茶羅",
+    "菩提心",
+    "阿彌陀",
+    "極樂世界",
+    "五方如來",
+    "馬頭明王",
+    "百字密言",
+    "蓮花合掌",
+    "結界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0da6dd31c90d4be5528cc18c07a88d376f65d97c372ccdd7db69959f24a78589"
+  },
+  "tagging_models": "MiniMax-M3"
 }

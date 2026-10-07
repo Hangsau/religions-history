@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T54",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "salvation-by-faith",
+    "syncretic",
+    "theocracy"
+  ],
+  "keywords": [
+    "景教",
+    "阿羅訶",
+    "彌施訶",
+    "十字",
+    "三一妙身",
+    "淨風",
+    "大秦寺",
+    "阿羅本",
+    "房玄齡",
+    "伊斯",
+    "郭子儀",
+    "貞觀",
+    "建中",
+    "敦煌",
+    "波斯"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b8ef1022345bc6bbbb26f920de1e3a407e1864922bb1ec10f6298d3eddcfc0ce"
+  },
+  "tagging_models": "MiniMax-M3"
 }
