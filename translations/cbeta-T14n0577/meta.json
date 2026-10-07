@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "reincarnation",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "影勝大王",
+    "王舍城",
+    "羯闌鐸迦池",
+    "竹林園",
+    "摩訶薩",
+    "苾芻",
+    "業",
+    "異熟",
+    "前識",
+    "後識",
+    "輪迴",
+    "俗諦",
+    "勝義諦",
+    "緣生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4785fbf25f248c8ae252456d1fabac6b0b6aeec5394216e9138e0e06a93bfab5"
+  },
+  "tagging_models": "MiniMax-M3"
 }
