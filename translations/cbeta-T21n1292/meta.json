@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "法華十羅剎法",
+    "羅剎",
+    "釋迦定印",
+    "道場印",
+    "法華印",
+    "修多羅藏印",
+    "十羅剎形樣",
+    "藍婆",
+    "毘藍婆",
+    "曲齒",
+    "花齒",
+    "黑齒",
+    "多髮",
+    "乾達女",
+    "無厭足"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ce359beacb7b8cb5a9f9dbec8f42a3dd4a44883babe80e7e252fb795cacb890d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

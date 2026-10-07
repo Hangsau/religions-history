@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "divine-immanence",
+    "liberation-by-knowledge",
+    "monastic",
+    "prophetic-revelation",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "摩訶迦葉",
+    "般泥洹",
+    "俱夷那竭國",
+    "舍衛國",
+    "阿難",
+    "阿羅漢",
+    "閻浮利",
+    "須彌山",
+    "金輪王",
+    "阿須輪",
+    "末羅弗王",
+    "文陀羅華",
+    "金棺",
+    "三界",
+    "法身"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "loneliness-belonging",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c884d4c5d011b8d2b6f6ee8a753f18f249779f23eecda5ced89979bd44736012"
+  },
+  "tagging_models": "MiniMax-M3"
 }

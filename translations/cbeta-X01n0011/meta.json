@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "other-power"
+  ],
+  "keywords": [
+    "無量壽佛",
+    "法藏比丘",
+    "阿難",
+    "名號",
+    "光明",
+    "西方清淨安樂剎",
+    "觀世音",
+    "大勢至",
+    "阿耨多羅三藐三菩提",
+    "六種震動",
+    "王舍城",
+    "耆闍崛山",
+    "普賢菩薩",
+    "文殊師利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a8ca32c1acb9fe197f1b58ecc75667dd6ec297f6fdc59e548c29a7db9aa8e2bd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
