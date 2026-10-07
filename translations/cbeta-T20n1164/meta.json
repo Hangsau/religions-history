@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "吉祥持世陀羅尼",
+    "妙月長者",
+    "持金剛海大音聲如來",
+    "陀羅尼",
+    "曼拏攞畢",
+    "觀自在菩薩",
+    "阿難陀",
+    "憍睒彌國",
+    "資生財寶",
+    "穀麥",
+    "摩尼",
+    "金剛寶",
+    "大阿羅漢",
+    "菩薩摩訶薩",
+    "婆誐嚩帝"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b2da9545c39b430f5a5468cf86543433a56088e6960f3b0c38fe900242683ce4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

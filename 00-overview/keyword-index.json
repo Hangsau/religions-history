@@ -21602,6 +21602,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T12n0343",
       "name_zh": "佛說太子刷護經",
       "religion": "佛教"
@@ -21762,6 +21767,11 @@
     {
       "slug": "cbeta-T18n0857",
       "name_zh": "大日經略攝念誦隨行法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
       "religion": "佛教"
     },
     {
@@ -26073,6 +26083,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T24n1474",
       "name_zh": "沙彌尼戒經",
       "religion": "佛教"
@@ -26888,6 +26903,11 @@
     }
   ],
   "五辛": [
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T20n1044",
       "name_zh": "佛說六字呪王經",
@@ -30115,6 +30135,13 @@
       "religion": "佛教"
     }
   ],
+  "供養儀軌": [
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    }
+  ],
   "供養法": [
     {
       "slug": "cbeta-T21n1270",
@@ -30162,6 +30189,11 @@
     {
       "slug": "cbeta-T24n1480",
       "name_zh": "佛說苾芻迦尸迦十法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -32511,6 +32543,11 @@
   ],
   "兜率陀天": [
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0919",
       "name_zh": "諸佛心印陀羅尼經",
       "religion": "佛教"
@@ -34726,6 +34763,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0575",
       "name_zh": "佛說大方等修多羅王經",
       "religion": "佛教"
@@ -36889,6 +36931,11 @@
   ],
   "十地": [
     {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0654",
       "name_zh": "佛說入無分別法門經",
       "religion": "佛教"
@@ -38899,6 +38946,13 @@
       "religion": "佛教"
     }
   ],
+  "吉祥持世陀羅尼": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "吉祥草": [
     {
       "slug": "cbeta-T21n1387",
@@ -39710,6 +39764,11 @@
     {
       "slug": "cbeta-T24n1474",
       "name_zh": "沙彌尼戒經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -40736,6 +40795,13 @@
       "religion": "佛教"
     }
   ],
+  "善恭敬": [
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
+    }
+  ],
   "善惡": [
     {
       "slug": "bible-3-john",
@@ -41407,6 +41473,11 @@
     {
       "slug": "cbeta-T16n0699",
       "name_zh": "佛說造塔功德經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -42895,6 +42966,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
@@ -43553,6 +43629,11 @@
     {
       "slug": "cbeta-T24n1468",
       "name_zh": "佛說目連所問經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -44838,6 +44919,11 @@
       "slug": "cbeta-T21n1355",
       "name_zh": "佛說聖最上燈明如來陀羅尼經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
     }
   ],
   "多聞天": [
@@ -45779,6 +45865,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T18n0907",
       "name_zh": "佛頂尊勝心破地獄轉業障出三界祕密陀羅尼",
       "religion": "佛教"
@@ -46609,6 +46700,13 @@
     {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    }
+  ],
+  "大阿羅漢": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -49147,6 +49245,11 @@
       "slug": "cbeta-T20n1163",
       "name_zh": "佛說雨寶陀羅尼經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "妙法": [
@@ -49894,6 +49997,11 @@
     {
       "slug": "cbeta-T19n0944A",
       "name_zh": "大佛頂如來放光悉怛多鉢怛囉陀羅尼",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -52337,6 +52445,13 @@
       "religion": "佛教"
     }
   ],
+  "尊重": [
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
+    }
+  ],
   "尋伺": [
     {
       "slug": "cbeta-T01n0095",
@@ -54379,6 +54494,13 @@
       "slug": "zhoudunyi-tongshu",
       "name_zh": "通書",
       "religion": "儒教"
+    }
+  ],
+  "師長": [
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
     }
   ],
   "席書": [
@@ -57658,6 +57780,13 @@
       "religion": "基督教"
     }
   ],
+  "恭敬": [
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
+    }
+  ],
   "恭敬供養": [
     {
       "slug": "cbeta-T21n1411",
@@ -57754,6 +57883,11 @@
     {
       "slug": "cbeta-T18n0857",
       "name_zh": "大日經略攝念誦隨行法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
       "religion": "佛教"
     },
     {
@@ -59429,6 +59563,11 @@
     {
       "slug": "cbeta-T20n1163",
       "name_zh": "佛說雨寶陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -61297,6 +61436,13 @@
       "religion": "佛教"
     }
   ],
+  "持金剛海大音聲如來": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "持金剛海音如來": [
     {
       "slug": "cbeta-T20n1162",
@@ -62128,6 +62274,11 @@
     {
       "slug": "cbeta-T02n0148",
       "name_zh": "國王不梨先泥十夢經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -64126,6 +64277,11 @@
     {
       "slug": "cbeta-T14n0469",
       "name_zh": "文殊問經字母品第十四",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
       "religion": "佛教"
     },
     {
@@ -66608,6 +66764,13 @@
       "religion": "佛教"
     }
   ],
+  "曼拏攞畢": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "曼拏羅": [
     {
       "slug": "cbeta-T16n0704",
@@ -66846,6 +67009,11 @@
     {
       "slug": "cbeta-T18n0857",
       "name_zh": "大日經略攝念誦隨行法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
       "religion": "佛教"
     },
     {
@@ -67597,6 +67765,11 @@
     {
       "slug": "cbeta-T17n0844",
       "name_zh": "佛說大方廣未曾有經善巧方便品",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -69590,6 +69763,13 @@
       "religion": "佛教"
     }
   ],
+  "椎撲": [
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
+    }
+  ],
   "楊枝": [
     {
       "slug": "cbeta-T20n1157",
@@ -70198,6 +70378,11 @@
     {
       "slug": "cbeta-T03n0166",
       "name_zh": "月光菩薩經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {
@@ -72980,6 +73165,11 @@
   ],
   "毘盧遮那佛": [
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T18n0861",
       "name_zh": "毘盧遮那五字真言修習儀軌",
       "religion": "佛教"
@@ -73762,6 +73952,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1163",
       "name_zh": "佛說雨寶陀羅尼經",
       "religion": "佛教"
@@ -74204,6 +74399,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0654",
       "name_zh": "佛說入無分別法門經",
       "religion": "佛教"
@@ -74398,6 +74598,13 @@
     {
       "slug": "cbeta-T21n1292",
       "name_zh": "法華十羅剎法",
+      "religion": "佛教"
+    }
+  ],
+  "法華如來": [
+    {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
       "religion": "佛教"
     }
   ],
@@ -75015,6 +75222,11 @@
     {
       "slug": "cbeta-T10n0298",
       "name_zh": "大方廣普賢所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {
@@ -75955,6 +76167,11 @@
     {
       "slug": "cbeta-T14n0463",
       "name_zh": "佛說文殊師利般涅槃經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
       "religion": "佛教"
     },
     {
@@ -79006,6 +79223,11 @@
   ],
   "無生法忍": [
     {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0437",
       "name_zh": "大乘寶月童子問法經",
       "religion": "佛教"
@@ -80691,6 +80913,11 @@
     {
       "slug": "cbeta-T14n0439",
       "name_zh": "佛說諸佛經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
       "religion": "佛教"
     },
     {
@@ -83237,6 +83464,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0654",
       "name_zh": "佛說入無分別法門經",
       "religion": "佛教"
@@ -83497,6 +83729,11 @@
     {
       "slug": "cbeta-T18n0857",
       "name_zh": "大日經略攝念誦隨行法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
       "religion": "佛教"
     },
     {
@@ -86907,6 +87144,11 @@
   ],
   "禪": [
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0502",
       "name_zh": "佛為年少比丘說正事經",
       "religion": "佛教"
@@ -87436,6 +87678,13 @@
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
       "religion": "儒教"
+    }
+  ],
+  "穀麥": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "穆王": [
@@ -91058,6 +91307,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0486",
       "name_zh": "師子莊嚴王菩薩請問經",
       "religion": "佛教"
@@ -92824,6 +93078,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0494",
       "name_zh": "阿難七夢經",
       "religion": "佛教"
@@ -93929,6 +94188,11 @@
     {
       "slug": "cbeta-T14n0463",
       "name_zh": "佛說文殊師利般涅槃經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
       "religion": "佛教"
     },
     {
@@ -95337,6 +95601,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0767",
       "name_zh": "佛說三品弟子經",
       "religion": "佛教"
@@ -96601,6 +96870,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0573",
       "name_zh": "差摩婆帝授記經",
       "religion": "佛教"
@@ -96726,6 +97000,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T24n1499",
       "name_zh": "菩薩戒羯磨文",
       "religion": "佛教"
@@ -96813,6 +97092,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {
@@ -97347,6 +97631,11 @@
     {
       "slug": "cbeta-T08n0248",
       "name_zh": "佛說五十頌聖般若波羅蜜經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {
@@ -97950,6 +98239,11 @@
     {
       "slug": "cbeta-T20n1162",
       "name_zh": "持世陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -101645,6 +101939,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1167",
       "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
@@ -104148,6 +104447,13 @@
       "religion": "佛教"
     }
   ],
+  "資生財寶": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "資糧位": [
     {
       "slug": "cbeta-T31n1586",
@@ -105104,6 +105410,11 @@
     }
   ],
   "轉輪王": [
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T14n0569",
       "name_zh": "佛說心明經",
@@ -108268,6 +108579,13 @@
       "religion": "佛教"
     }
   ],
+  "金剛寶": [
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "金剛峰": [
     {
       "slug": "cbeta-T20n1127",
@@ -108716,6 +109034,11 @@
     {
       "slug": "cbeta-T18n0856",
       "name_zh": "大毘盧遮那成佛神變加持經略示七支念誦隨行法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
       "religion": "佛教"
     },
     {
@@ -110113,6 +110436,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T18n0861",
       "name_zh": "毘盧遮那五字真言修習儀軌",
       "religion": "佛教"
@@ -111400,6 +111728,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0494",
       "name_zh": "阿難七夢經",
       "religion": "佛教"
@@ -111552,6 +111885,11 @@
     {
       "slug": "cbeta-T24n1492",
       "name_zh": "佛說舍利弗悔過經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -111711,6 +112049,11 @@
     {
       "slug": "cbeta-T09n0265",
       "name_zh": "薩曇分陀利經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {
@@ -112386,6 +112729,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "cbeta-T18n0859",
+      "name_zh": "供養儀式",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0938",
       "name_zh": "釋迦文尼佛金剛一乘修行儀軌法品",
       "religion": "佛教"
@@ -112428,6 +112776,11 @@
     {
       "slug": "cbeta-T24n1479",
       "name_zh": "佛說苾芻五法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
       "religion": "佛教"
     },
     {
@@ -113095,6 +113448,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T24n1495",
+      "name_zh": "善恭敬經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T24n1496",
       "name_zh": "佛說正恭敬經",
       "religion": "佛教"
@@ -113236,6 +113594,11 @@
     {
       "slug": "cbeta-T20n1163",
       "name_zh": "佛說雨寶陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -113446,6 +113809,11 @@
     {
       "slug": "cbeta-T10n0298",
       "name_zh": "大方廣普賢所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {
@@ -113806,6 +114174,11 @@
     {
       "slug": "cbeta-T20n1163",
       "name_zh": "佛說雨寶陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1164",
+      "name_zh": "佛說大乘聖吉祥持世陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -115244,6 +115617,11 @@
   ],
   "離欲": [
     {
+      "slug": "cbeta-T14n0470",
+      "name_zh": "佛說文殊師利巡行經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn35-salayatana",
       "name_zh": "SN35 六入相應 (248 經)",
       "religion": "佛教"
@@ -116041,6 +116419,11 @@
     {
       "slug": "cbeta-T10n0280",
       "name_zh": "佛說兜沙經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T10n0307",
+      "name_zh": "佛說莊嚴菩提心經",
       "religion": "佛教"
     },
     {

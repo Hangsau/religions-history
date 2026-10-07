@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "humility",
+    "liberation-by-knowledge",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "阿難",
+    "多聞",
+    "恭敬",
+    "和上",
+    "阿闍梨",
+    "依止",
+    "四句偈",
+    "地獄",
+    "椎撲",
+    "師長",
+    "尊重",
+    "末世",
+    "菩提",
+    "阿羅漢",
+    "善恭敬"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "31e800c532a8ecf63636f3b1238305eacd826cd957fcfce5bc0cdbead2fdc61a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
