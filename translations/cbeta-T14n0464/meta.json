@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+  ],
+  "keywords": [
+    "文殊師利",
+    "菩提",
+    "阿耨多羅三藐三菩提",
+    "般若波羅蜜",
+    "六波羅蜜",
+    "菩薩",
+    "大悲",
+    "方便",
+    "慧",
+    "三昧",
+    "無生法忍",
+    "摩伽陀國",
+    "伽耶山",
+    "十善業道",
+    "四心"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6e82ef7976733fb1f5d98265f5e9c2698f840dfadb4acb4cb85b7b0a17317ca6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

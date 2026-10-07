@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "vision-experience"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "大佛頂",
+    "楞嚴",
+    "神咒",
+    "佛頂光明",
+    "唵",
+    "阿難",
+    "摩訶薩",
+    "金剛",
+    "蓮華",
+    "成就",
+    "灌頂",
+    "壇場",
+    "梵字"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "96c4e947c332914c0bdeef389e9d04df935c71a64356dee6b63877652e9bc648"
+  },
+  "tagging_models": "MiniMax-M3"
 }
