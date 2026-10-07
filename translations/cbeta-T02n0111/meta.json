@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "congregational",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "相應相可",
+    "比丘",
+    "舍衛國",
+    "多聞",
+    "貪婬",
+    "瞋恚",
+    "愚癡",
+    "布施",
+    "持戒",
+    "知足",
+    "少欲",
+    "慧人",
+    "因緣",
+    "分別",
+    "受行著意"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4107ac22b5469f42c58378374fddad2878952bcde803486c0d31849f9f4d2adb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

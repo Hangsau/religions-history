@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "血盆經",
+    "血盆池",
+    "目連尊者",
+    "南閻浮提",
+    "地獄",
+    "血盆齋",
+    "血盆勝會",
+    "般若船",
+    "奈河",
+    "孝順",
+    "三寶",
+    "天龍八部",
+    "蓮華",
+    "阿娘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "35b881c1eefae453f75208ba9543e3a1d59ff26149f6a2bbb774705eaf5fd255"
+  },
+  "tagging_models": "MiniMax-M3"
 }
