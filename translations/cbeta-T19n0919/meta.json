@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "佛心印",
+    "陀羅尼",
+    "兜率陀天",
+    "菩薩",
+    "如來",
+    "呪",
+    "魔王",
+    "宿命智",
+    "菩提",
+    "重業消除",
+    "三滿多",
+    "薩哩嚩",
+    "怛儞野他"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9f340a58b0de8b5d97264b34fafdb78ca871b59838aff4343d82b1b2b0883c72"
+  },
+  "tagging_models": "MiniMax-M3"
 }
