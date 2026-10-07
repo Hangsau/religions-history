@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "cyclic-cosmos",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "不思議光王菩薩",
+    "極樂世界",
+    "無量壽佛",
+    "阿儞弭沙世界",
+    "不退輪光明世界",
+    "毘盧遮那如來",
+    "蓮花吉祥",
+    "賢吉祥",
+    "較量佛剎",
+    "金剛摩尼寶師子座",
+    "王舍城",
+    "法野菩提道場",
+    "十佛剎",
+    "恒河沙數",
+    "普行地"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1521170adcd9ad4705bd7ace57d7a7672c09cb7a94f9d33f7ba26ed99560c362"
+  },
+  "tagging_models": "MiniMax-M3"
 }

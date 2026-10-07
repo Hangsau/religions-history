@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "grace-from-god",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "施食",
+    "五福報",
+    "施命",
+    "施色",
+    "施力",
+    "施安",
+    "施辯",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘",
+    "四部弟子",
+    "天龍鬼神",
+    "三十二相",
+    "十種力",
+    "四等四恩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "72f3dc74d05852b726c9d5eb624a18fa954a5e854c1da9517d80d4943cc9875c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
