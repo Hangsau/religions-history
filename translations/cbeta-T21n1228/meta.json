@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "liberation-by-devotion",
+    "mystical-union",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+  ],
+  "keywords": [
+    "穢跡金剛",
+    "不壞金剛",
+    "陀羅尼",
+    "真言",
+    "拘尸那國",
+    "娑羅雙樹",
+    "䗍髻梵王",
+    "涅槃",
+    "天龍八部",
+    "神呪",
+    "印",
+    "夜叉羅剎",
+    "釋迦牟尼佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "96d1f58dccadeb94c3179e6897910395ecb62ccec702cc2a2ecf8e793e14f4d7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

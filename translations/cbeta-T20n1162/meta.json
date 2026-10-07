@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "持世陀羅尼",
+    "妙月長者",
+    "薄伽梵",
+    "持金剛海音如來",
+    "陀羅尼",
+    "阿難",
+    "憍餉彌國",
+    "建礫迦林",
+    "菩薩摩訶薩",
+    "阿素洛",
+    "三寶",
+    "無上正等菩提",
+    "四大康和",
+    "善趣",
+    "庫藏盈滿"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c2d3948492f00b0a61298b9830ab8f56016cc378490b421e8d925489feacecc7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
