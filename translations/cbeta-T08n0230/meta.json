@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "一百八名",
+    "陀羅尼",
+    "空",
+    "真如",
+    "實際",
+    "法性",
+    "無性自性",
+    "諸佛母",
+    "須菩提",
+    "八聖道",
+    "十力",
+    "四念處",
+    "菩薩",
+    "聲聞緣覺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "insignificance-history",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "03d96320a05f0a80f544528e306b834dc9e0522804bb08471a1d64424d0033a2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

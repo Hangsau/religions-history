@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "monastic",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "波斯匿王",
+    "舍衛國",
+    "十夢",
+    "異道人",
+    "佛",
+    "摩利夫人",
+    "後世",
+    "貧窮",
+    "貪淫",
+    "婆羅門",
+    "解夢",
+    "災怪",
+    "末世",
+    "變現"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9040703415050e5753813874bec276ba9f10d0b9dd0872ec492e7e49e69e71da"
+  },
+  "tagging_models": "MiniMax-M3"
 }
