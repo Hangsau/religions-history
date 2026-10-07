@@ -12450,6 +12450,13 @@
       "religion": "印度教"
     }
   ],
+  "bhūta": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    }
+  ],
   "bhūta-grāma": [
     {
       "slug": "matsya-purana",
@@ -12490,6 +12497,13 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "bodhi": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
     }
   ],
   "bodhicitta": [
@@ -12920,6 +12934,11 @@
     }
   ],
   "devatā": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    },
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
@@ -14319,6 +14338,11 @@
   ],
   "mantra": [
     {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
@@ -14656,6 +14680,13 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    }
+  ],
+  "nāma": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
     }
   ],
   "nāmarūpa": [
@@ -15707,6 +15738,13 @@
       "religion": "古埃及"
     }
   ],
+  "sarva": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    }
+  ],
   "satra": [
     {
       "slug": "vishnu-purana",
@@ -16137,6 +16175,13 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    }
+  ],
+  "tathāgata": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
     }
   ],
   "tathāgatagarbha": [
@@ -17361,6 +17406,13 @@
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
+    }
+  ],
+  "śrī": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
     }
   ],
   "śuddhāvāsa": [
@@ -19592,6 +19644,11 @@
     {
       "slug": "cbeta-T01n0040",
       "name_zh": "文陀竭王經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     },
     {
@@ -27657,6 +27714,11 @@
   ],
   "伏藏": [
     {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1263",
       "name_zh": "氷揭羅天童子經",
       "religion": "佛教"
@@ -28367,6 +28429,13 @@
     {
       "slug": "cbeta-T15n0605",
       "name_zh": "禪行法想經",
+      "religion": "佛教"
+    }
+  ],
+  "佛教儀軌": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
       "religion": "佛教"
     }
   ],
@@ -29955,6 +30024,13 @@
     {
       "slug": "cbeta-T17n0756",
       "name_zh": "佛說八無暇有暇經",
+      "religion": "佛教"
+    }
+  ],
+  "傳屍鬼": [
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -32455,6 +32531,11 @@
     }
   ],
   "六牙白象": [
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T50n2047b",
       "name_zh": "龍樹菩薩傳",
@@ -36804,6 +36885,13 @@
       "religion": "印度教"
     }
   ],
+  "吉祥天女": [
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
+    }
+  ],
   "吉祥草": [
     {
       "slug": "cbeta-T21n1387",
@@ -37289,6 +37377,11 @@
     {
       "slug": "cbeta-T19n1029",
       "name_zh": "佛說安宅陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -42132,6 +42225,11 @@
   ],
   "多聞天": [
     {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1294",
       "name_zh": "施八方天儀則",
       "religion": "佛教"
@@ -42807,6 +42905,13 @@
     {
       "slug": "cbeta-T20n1113A",
       "name_zh": "觀自在菩薩廣大圓滿無礙大悲心陀羅尼",
+      "religion": "佛教"
+    }
+  ],
+  "大意": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     }
   ],
@@ -44242,6 +44347,11 @@
     {
       "slug": "cbeta-T17n0769",
       "name_zh": "佛說四輩經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -45745,6 +45855,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1403",
       "name_zh": "佛說如意摩尼陀羅尼經",
       "religion": "佛教"
@@ -45821,6 +45936,13 @@
     {
       "slug": "cbeta-T20n1109",
       "name_zh": "白救度佛母讚",
+      "religion": "佛教"
+    }
+  ],
+  "如意輪王菩薩": [
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -46535,6 +46657,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0457",
       "name_zh": "佛說彌勒來時經",
       "religion": "佛教"
@@ -46938,6 +47065,11 @@
     {
       "slug": "cbeta-T19n0983A",
       "name_zh": "佛說大孔雀明王畫像壇場儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -47361,6 +47493,13 @@
       "slug": "sblgnt-john",
       "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "安怛那": [
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
     }
   ],
   "安息": [
@@ -50440,6 +50579,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0497",
       "name_zh": "佛說摩訶迦葉度貧母經",
       "religion": "佛教"
@@ -50576,6 +50720,11 @@
     {
       "slug": "cbeta-T20n1049",
       "name_zh": "聖六字增壽大明陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -51104,6 +51253,13 @@
     {
       "slug": "cbeta-T21n1387",
       "name_zh": "佛說栴檀香身陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "廣慈哀": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     }
   ],
@@ -52912,6 +53068,13 @@
       "religion": "佛教"
     }
   ],
+  "忍辱仙人": [
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "忍辱力": [
     {
       "slug": "cbeta-T14n0517",
@@ -53817,6 +53980,11 @@
     {
       "slug": "cbeta-T21n1204",
       "name_zh": "聖無動尊一字出生八大童子祕要法品",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
       "religion": "佛教"
     },
     {
@@ -56765,6 +56933,13 @@
       "religion": "佛教"
     }
   ],
+  "持明": [
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
+    }
+  ],
   "持明仙": [
     {
       "slug": "cbeta-T20n1114",
@@ -58057,6 +58232,13 @@
     {
       "slug": "cbeta-T16n0696",
       "name_zh": "佛說摩訶剎頭經",
+      "religion": "佛教"
+    }
+  ],
+  "摩訶檀": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     }
   ],
@@ -60572,6 +60754,13 @@
       "religion": "佛教"
     }
   ],
+  "明月珠": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
+      "religion": "佛教"
+    }
+  ],
   "明月神珠": [
     {
       "slug": "cbeta-T14n0540a",
@@ -60598,6 +60787,11 @@
     {
       "slug": "cbeta-T21n1219",
       "name_zh": "曼殊室利焰曼德迦萬愛祕術如意法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -61981,6 +62175,11 @@
     {
       "slug": "cbeta-T20n1168B",
       "name_zh": "八曼荼羅經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     },
     {
@@ -63431,6 +63630,13 @@
       "religion": "佛教"
     }
   ],
+  "栴陀": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
+      "religion": "佛教"
+    }
+  ],
   "栴陀羅女": [
     {
       "slug": "cbeta-T20n1044",
@@ -63688,6 +63894,13 @@
       "religion": "佛教"
     }
   ],
+  "梵唄": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    }
+  ],
   "梵天": [
     {
       "slug": "cbeta-T01n0056",
@@ -63755,6 +63968,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1237",
       "name_zh": "阿吒婆拘鬼神大將上佛陀羅尼神呪經",
       "religion": "佛教"
@@ -63794,6 +64012,13 @@
     {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    }
+  ],
+  "梵天女": [
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
       "religion": "佛教"
     }
   ],
@@ -64291,6 +64516,11 @@
     {
       "slug": "cbeta-T20n1197",
       "name_zh": "佛說文殊師利一百八名梵讚",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
       "religion": "佛教"
     }
   ],
@@ -65163,6 +65393,13 @@
     {
       "slug": "cbeta-T17n0836",
       "name_zh": "大方廣師子吼經",
+      "religion": "佛教"
+    }
+  ],
+  "歡樂無憂國": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     }
   ],
@@ -67179,6 +67416,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1247",
       "name_zh": "北方毘沙門天王隨軍護法儀軌",
       "religion": "佛教"
@@ -67659,6 +67901,13 @@
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
+    }
+  ],
+  "水精城": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
+      "religion": "佛教"
     }
   ],
   "氷揭羅天童子": [
@@ -70412,6 +70661,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1360",
       "name_zh": "六門陀羅尼經",
       "religion": "佛教"
@@ -71290,6 +71544,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "火界": [
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
+      "religion": "佛教"
+    }
+  ],
   "火葬": [
     {
       "slug": "religion-indians-california",
@@ -71443,6 +71704,13 @@
     {
       "slug": "cbeta-T21n1275",
       "name_zh": "聖歡喜天式法",
+      "religion": "佛教"
+    }
+  ],
+  "炙法": [
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -71791,6 +72059,11 @@
     {
       "slug": "cbeta-T21n1206",
       "name_zh": "佛說俱利伽羅大龍勝外道伏陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -72712,6 +72985,13 @@
       "religion": "佛教"
     }
   ],
+  "無能勝大明王": [
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "無能勝幡王如來": [
     {
       "slug": "cbeta-T19n0943",
@@ -73431,6 +73711,13 @@
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "犍稚梵讚": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
     }
   ],
   "犍闥婆": [
@@ -74404,6 +74691,13 @@
     {
       "slug": "cbeta-T14n0463",
       "name_zh": "佛說文殊師利般涅槃經",
+      "religion": "佛教"
+    }
+  ],
+  "琉璃城": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     }
   ],
@@ -76804,6 +77098,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1228",
       "name_zh": "穢跡金剛說神通大滿陀羅尼法術靈要門",
       "religion": "佛教"
@@ -76821,6 +77120,11 @@
     {
       "slug": "cbeta-T21n1236",
       "name_zh": "聖無能勝金剛火陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
       "religion": "佛教"
     },
     {
@@ -77938,6 +78242,11 @@
     {
       "slug": "cbeta-T03n0168",
       "name_zh": "太子墓魄經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     },
     {
@@ -86051,6 +86360,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -86505,6 +86819,11 @@
     {
       "slug": "cbeta-T02n0151",
       "name_zh": "佛說阿含正行經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     },
     {
@@ -87752,6 +88071,11 @@
     {
       "slug": "cbeta-T19n1028A",
       "name_zh": "佛說護諸童子陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -89432,6 +89756,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1255b",
       "name_zh": "佛說摩利支天經",
       "religion": "佛教"
@@ -91048,8 +91377,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1240",
       "name_zh": "阿吒薄𤘽付囑呪",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
       "religion": "佛教"
     },
     {
@@ -94632,6 +94971,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1247",
       "name_zh": "北方毘沙門天王隨軍護法儀軌",
       "religion": "佛教"
@@ -94783,6 +95127,11 @@
       "slug": "cbeta-T20n1146",
       "name_zh": "大虛空藏菩薩念誦法",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
+      "religion": "佛教"
     }
   ],
   "護身呪": [
@@ -94869,6 +95218,11 @@
     }
   ],
   "讚頌": [
+    {
+      "slug": "cbeta-T32n1683",
+      "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    },
     {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
@@ -98681,6 +99035,13 @@
       "religion": "佛教"
     }
   ],
+  "釋迦金輪佛": [
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
+      "religion": "佛教"
+    }
+  ],
   "重建": [
     {
       "slug": "bible-nehemiah",
@@ -99640,6 +100001,13 @@
       "religion": "儒教"
     }
   ],
+  "金城": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
+      "religion": "佛教"
+    }
+  ],
   "金字塔文": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -99908,6 +100276,13 @@
     {
       "slug": "cbeta-T21n1384",
       "name_zh": "佛說鉢蘭那賒嚩哩大陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "銀城": [
+    {
+      "slug": "cbeta-T03n0177",
+      "name_zh": "大意經",
       "religion": "佛教"
     }
   ],
@@ -102326,6 +102701,11 @@
       "slug": "cbeta-T15n0599",
       "name_zh": "佛為海龍王說法印經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "阿蘭若": [
@@ -103377,6 +103757,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1323",
       "name_zh": "除一切疾病陀羅尼經",
       "religion": "佛教"
@@ -103874,6 +104259,11 @@
     {
       "slug": "cbeta-T21n1228",
       "name_zh": "穢跡金剛說神通大滿陀羅尼法術靈要門",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -104400,6 +104790,13 @@
     {
       "slug": "cbeta-T19n0983A",
       "name_zh": "佛說大孔雀明王畫像壇場儀軌",
+      "religion": "佛教"
+    }
+  ],
+  "除災祈福": [
+    {
+      "slug": "cbeta-T21n1244",
+      "name_zh": "毘沙門天王經",
       "religion": "佛教"
     }
   ],
@@ -105419,6 +105816,13 @@
     {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
+      "religion": "佛教"
+    }
+  ],
+  "青色大金剛": [
+    {
+      "slug": "cbeta-T21n1221",
+      "name_zh": "青色大金剛藥叉辟鬼魔法",
       "religion": "佛教"
     }
   ],
@@ -107370,6 +107774,11 @@
     }
   ],
   "魔羅": [
+    {
+      "slug": "cbeta-T21n1233",
+      "name_zh": "佛說無能勝大明王陀羅尼經",
+      "religion": "佛教"
+    },
     {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",

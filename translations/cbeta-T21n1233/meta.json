@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+  ],
+  "keywords": [
+    "無能勝大明王",
+    "陀羅尼",
+    "舍利子",
+    "阿難陀",
+    "阿蘇羅",
+    "帝釋天主",
+    "魔羅",
+    "菩薩",
+    "忍辱仙人",
+    "六牙白象",
+    "明王",
+    "呪",
+    "梵天",
+    "淨居天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "insignificance-history",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a5982638c6d58c275f6bb3ec6018f93332566208692a4dbdabeb586bf9c285a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
