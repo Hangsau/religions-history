@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "不動明王",
+    "金剛橛",
+    "降三世明王",
+    "軍荼利明王",
+    "馬頭明王",
+    "佛眼明妃",
+    "漫荼羅",
+    "真言",
+    "五股印",
+    "閼伽",
+    "菩提心",
+    "三摩地",
+    "金剛薩埵",
+    "祕密主",
+    "阿闍梨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "14b51c961a569985f588adba2e169f26b294f089a72e1b7c9d6487258574d9d8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

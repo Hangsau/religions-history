@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "藥師琉璃光如來",
+    "曼拏攞",
+    "消災除難",
+    "念誦儀軌",
+    "阿闍梨",
+    "灌頂",
+    "三昧耶戒",
+    "菩提心",
+    "真言",
+    "閼伽水",
+    "五色幡",
+    "本尊",
+    "十二願",
+    "悉地",
+    "念珠"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7881fd59103a09832a1d2f47348f7db03d53060f25eca0c80289d7ac553744f6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
