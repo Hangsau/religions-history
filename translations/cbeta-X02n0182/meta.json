@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "divine-immanence",
+    "liberation-by-devotion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "藥叉",
+    "阿難陀",
+    "正了知",
+    "蘇師奴",
+    "那羯羅國",
+    "二十八部",
+    "八方上下",
+    "鎮護",
+    "神通威德",
+    "本誓",
+    "影印",
+    "孔炙明王經",
+    "地嘌伽",
+    "蘇泥怛羅",
+    "晡𠷈拏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4717545a3e6c156051b3cdaae613b61640f09672f347a3376fa36895b348640c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
