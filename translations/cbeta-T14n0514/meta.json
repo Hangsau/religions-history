@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "heaven-hell",
+    "liberation-by-works",
+    "non-violence"
+  ],
+  "keywords": [
+    "舍衛國",
+    "祇樹給孤獨園",
+    "不離先尼",
+    "五戒",
+    "正法",
+    "慈心",
+    "無常",
+    "太山地獄",
+    "三尊",
+    "沙門",
+    "忠諫",
+    "節度"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "00d17e392e20dabe20e03ce78fc08a377b4656edf8575dd8569f304d8c5d4a28"
+  },
+  "tagging_models": "MiniMax-M3"
 }

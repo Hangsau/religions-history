@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "童子經",
+    "陀羅尼",
+    "大梵天王",
+    "栴檀乾闥婆",
+    "十五鬼神",
+    "印相",
+    "長壽延命",
+    "曼荼羅",
+    "八日十五日",
+    "八戒",
+    "閻浮提",
+    "伏鬼木",
+    "疫病",
+    "鬼宿",
+    "平治元年"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "69f6c8752302069502178dfb7b0b94d00bcd8eaf4f6f7f5d97669ab799d04a49"
+  },
+  "tagging_models": "MiniMax-M3"
 }

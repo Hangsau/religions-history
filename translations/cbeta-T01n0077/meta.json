@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "other-power",
+    "self-effort",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "尊者盧耶強耆",
+    "般那末難天子",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "羅閱祇迦蘭陀竹園",
+    "賢善偈",
+    "涅槃",
+    "三十三天",
+    "結加趺坐",
+    "露地",
+    "梵行",
+    "阿練若窟"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "living-with-unknown",
+    "memory-reconciliation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "85c69e0dfdfda8899e7ee1fddcf8527f945aca2ba48b7347d173ae6e83245b7b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

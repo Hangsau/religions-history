@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "theodicy"
+  ],
+  "keywords": [
+    "阿鳩留",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "迦葉佛",
+    "摩訶迦葉",
+    "忉利天",
+    "帝釋",
+    "布施",
+    "薜荔",
+    "後世",
+    "須陀洹道",
+    "餓鬼",
+    "乞匃女人",
+    "七寶塔"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "569e0d3388ca7746c8ccd593e4971870c24dd04fb3271b82572226d606e1351b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
