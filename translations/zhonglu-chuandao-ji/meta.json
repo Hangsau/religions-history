@@ -21,5 +21,62 @@
   "tier": "次要",
   "notes": "鍾離權授呂洞賓內丹問答集，全真道內丹學根本文獻",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "celibate-tradition",
+    "commentarial-layer",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "emanation",
+    "enlightenment",
+    "human-as-microcosm",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "鍾離權",
+    "呂岩",
+    "施肩吾",
+    "輪回",
+    "陰陽",
+    "鬼仙",
+    "人仙",
+    "地仙",
+    "神仙",
+    "天仙",
+    "丹藥",
+    "黃芽",
+    "大道",
+    "太初",
+    "純陽"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "aging-time",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "dd3a3256d02b0023201f53ca7bda019a341436144a515ca97564fc26aee65a43"
+  },
+  "tagging_models": "MiniMax-M3"
 }

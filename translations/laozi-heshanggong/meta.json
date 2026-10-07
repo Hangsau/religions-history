@@ -21,5 +21,53 @@
   "tier": "次要",
   "notes": "河上公註《道德經》，道教內丹養生解老最早系統註本；子頁 上/德經",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commentarial-layer",
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "道",
+    "無名",
+    "有名",
+    "無為",
+    "玄牝",
+    "谷神",
+    "營魄",
+    "抱一",
+    "上善若水",
+    "天之道",
+    "河上公",
+    "道德經",
+    "太和",
+    "五臟神",
+    "魂魄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7fe0165319a3b6e6604ca1ef541c495f8dc143d605942c4173b6918d9fb5f7ee"
+  },
+  "tagging_models": "MiniMax-M3"
 }
