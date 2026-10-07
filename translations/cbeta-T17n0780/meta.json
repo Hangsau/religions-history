@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union"
+  ],
+  "keywords": [
+    "如來",
+    "十力",
+    "處非處智力",
+    "業異熟智力",
+    "靜慮解脫等持智力",
+    "根上下智力",
+    "種種樂欲勝解智力",
+    "種種諸界智力",
+    "遍趣行智力",
+    "宿住智力",
+    "死生智力",
+    "漏盡智力",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "苾芻"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "47f22d8269e3016a8e9b0e277f0b8ce259807cfb027236af6114369ff402a927"
+  },
+  "tagging_models": "MiniMax-M3"
 }
