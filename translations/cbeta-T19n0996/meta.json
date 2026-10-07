@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "金剛手",
+    "菩提薩埵",
+    "般若波羅蜜",
+    "毘盧遮那",
+    "普賢菩薩",
+    "文殊師利",
+    "金剛智",
+    "婀字",
+    "三密門",
+    "無所得",
+    "阿賴耶識",
+    "人無我",
+    "法無我",
+    "無住涅槃",
+    "瑜伽"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "61746a0523e54fe29d7d22b2f20671aa1e1810bc4e1290d8fa36eafde66ddbd6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

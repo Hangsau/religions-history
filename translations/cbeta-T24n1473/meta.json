@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "sexual-ethics"
+  ],
+  "keywords": [
+    "沙彌",
+    "十戒",
+    "禁戒",
+    "出家",
+    "持戒",
+    "曼拏羅",
+    "三惡道",
+    "涅槃",
+    "正等覺",
+    "四果",
+    "五通",
+    "禁酒",
+    "不妄語",
+    "不殺生",
+    "不偷盜"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "edb3faa0b7f443c85fc8fe847fa01db30a03a289f2b2a4b4e77256993161227c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

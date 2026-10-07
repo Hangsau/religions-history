@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "non-violence",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "勝軍大王",
+    "四攝",
+    "正法",
+    "無常",
+    "布施",
+    "愛語",
+    "利行",
+    "同事",
+    "灌頂大王",
+    "剎帝利",
+    "閻魔",
+    "三寶",
+    "室羅筏",
+    "給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e051ff1bee6e64b910734aad5da6a9f4c194dd2f7a1164be221eab1dc795ba37"
+  },
+  "tagging_models": "MiniMax-M3"
 }
