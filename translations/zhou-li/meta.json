@@ -22,5 +22,58 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
+  "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "caesaropapism",
+    "caste-system",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "economic-justice",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "multiple-canons",
+    "patriarchal",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "secular-state",
+    "syncretic",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+  ],
+  "keywords": [
+    "考工記",
+    "百工",
+    "六職",
+    "王公",
+    "士大夫",
+    "商旅",
+    "農夫",
+    "婦功",
+    "天時",
+    "地氣",
+    "材美工巧",
+    "輪人",
+    "輿人",
+    "輈人",
+    "築氏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "02d698646b637ade5557aa6976fdb3fa5af78d150610c741fc15b429bbdc1c6a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

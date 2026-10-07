@@ -21,5 +21,61 @@
   "tier": "次要",
   "notes": "韓嬰以history/寓言申說詩經義理，今文詩學要籍",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "economic-justice",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "liberation-by-works",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "marriage-sacred",
+    "non-violence",
+    "prayer",
+    "prophetic-critique",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "study",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "曾子",
+    "孔子",
+    "子貢",
+    "原憲",
+    "禮",
+    "義",
+    "廉",
+    "忠",
+    "信",
+    "修身",
+    "君子",
+    "士",
+    "親老",
+    "不擇官而仕",
+    "貧而樂道"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "communication-being-understood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9037d0be40c84d863c18fa55abaa0ecd72d96a4edd60254ee532ee1dfa594e21"
+  },
+  "tagging_models": "MiniMax-M3"
 }

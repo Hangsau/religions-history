@@ -19235,6 +19235,13 @@
       "religion": "佛教"
     }
   ],
+  "七教": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    }
+  ],
   "七教會": [
     {
       "slug": "bible-revelation",
@@ -19604,6 +19611,13 @@
       "religion": "佛教"
     }
   ],
+  "三等": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    }
+  ],
   "三能變": [
     {
       "slug": "vijnaptimatratasiddhi",
@@ -19626,6 +19640,13 @@
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
       "religion": "佛教"
+    }
+  ],
+  "三至": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
     }
   ],
   "三苦": [
@@ -19748,6 +19769,13 @@
       "religion": "耆那教"
     }
   ],
+  "不擇官而仕": [
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    }
+  ],
   "不放逸": [
     {
       "slug": "an2-twos",
@@ -19821,6 +19849,13 @@
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "世子": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
     }
   ],
   "世子申生": [
@@ -20105,6 +20140,13 @@
       "religion": "道教"
     }
   ],
+  "主言": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    }
+  ],
   "主靜": [
     {
       "slug": "taiji-tushuo",
@@ -20348,6 +20390,13 @@
       "slug": "bible-joel",
       "name_zh": "約珥書",
       "religion": "基督教"
+    }
+  ],
+  "五等": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
     }
   ],
   "五經": [
@@ -22488,6 +22537,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
@@ -22707,6 +22761,11 @@
     {
       "slug": "great-learning",
       "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
       "religion": "儒教"
     },
     {
@@ -23015,6 +23074,13 @@
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
+    }
+  ],
+  "元士": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
     }
   ],
   "元始天尊": [
@@ -23346,6 +23412,13 @@
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "克己": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "克己復禮": [
@@ -23691,6 +23764,13 @@
       "religion": "佛教"
     }
   ],
+  "公侯伯子男": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    }
+  ],
   "公平": [
     {
       "slug": "bible-amos",
@@ -23821,6 +23901,13 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
+  "六職": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
       "religion": "儒教"
     }
   ],
@@ -25122,6 +25209,13 @@
       "religion": "印度教"
     }
   ],
+  "原憲": [
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    }
+  ],
   "原祖": [
     {
       "slug": "genesis",
@@ -25509,6 +25603,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
@@ -25626,6 +25725,13 @@
       "religion": "印度教"
     }
   ],
+  "呂伯恭": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
+    }
+  ],
   "呂岩": [
     {
       "slug": "zhonglu-chuandao-ji",
@@ -25687,6 +25793,13 @@
       "slug": "jindan-sibaizi",
       "name_zh": "金丹四百字",
       "religion": "道教"
+    }
+  ],
+  "周子": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "周敦頤": [
@@ -26212,6 +26325,13 @@
       "religion": "道教"
     }
   ],
+  "商旅": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
+    }
+  ],
   "商羯羅": [
     {
       "slug": "aitareya-upanishad",
@@ -26481,6 +26601,13 @@
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "四君子": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "四念處": [
@@ -26803,6 +26930,13 @@
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "地氣": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "地水火風": [
@@ -27319,11 +27453,28 @@
       "religion": "印度教"
     }
   ],
+  "士": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    }
+  ],
   "士大夫": [
     {
       "slug": "wenchang-yinzhiwen",
       "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
+    },
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "士師時期": [
@@ -27548,6 +27699,11 @@
     }
   ],
   "大夫": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
     {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
@@ -28144,6 +28300,11 @@
   ],
   "天子": [
     {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
+    {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
       "religion": "儒教"
@@ -28218,6 +28379,13 @@
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "天時": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "天沼矛": [
@@ -28446,6 +28614,11 @@
     }
   ],
   "太子": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
@@ -28962,6 +29135,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "婦人無爵": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    }
+  ],
+  "婦功": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
+    }
+  ],
   "婦女規條": [
     {
       "slug": "sblgnt-1-timothy",
@@ -28992,6 +29179,11 @@
   ],
   "子貢": [
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "liezi",
       "name_zh": "列子",
       "religion": "道教"
@@ -29011,6 +29203,16 @@
     {
       "slug": "book-of-poetry",
       "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
       "religion": "儒教"
     },
     {
@@ -29053,6 +29255,13 @@
       "religion": "道教"
     }
   ],
+  "存養": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
+    }
+  ],
   "孝": [
     {
       "slug": "analects",
@@ -29072,6 +29281,13 @@
     {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    }
+  ],
+  "孝悌": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
       "religion": "儒教"
     }
   ],
@@ -29148,6 +29364,13 @@
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
       "religion": "印度教"
+    }
+  ],
+  "守": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
     }
   ],
   "守一": [
@@ -29483,6 +29706,13 @@
       "religion": "基督教"
     }
   ],
+  "寒泉精舍": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
+    }
+  ],
   "寓意解經": [
     {
       "slug": "song-of-songs",
@@ -29749,6 +29979,11 @@
     }
   ],
   "尚書": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
     {
       "slug": "shang-shu",
       "name_zh": "尚書",
@@ -30822,6 +31057,13 @@
       "religion": "凱爾特"
     }
   ],
+  "廉": [
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    }
+  ],
   "廣成子": [
     {
       "slug": "shenxian-zhuan",
@@ -30926,6 +31168,13 @@
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
+    }
+  ],
+  "張子": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "張平叔": [
@@ -31191,6 +31440,13 @@
       "religion": "佛教"
     }
   ],
+  "征": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    }
+  ],
   "律條": [
     {
       "slug": "mimamsa-sutra-jaimini",
@@ -31439,6 +31695,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -31650,6 +31911,13 @@
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "忠": [
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
     }
   ],
   "忠恕": [
@@ -34342,6 +34610,13 @@
       "religion": "基督教"
     }
   ],
+  "新安": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
+    }
+  ],
   "新書": [
     {
       "slug": "jiayi-xinshu",
@@ -34575,6 +34850,13 @@
       "religion": "佛教"
     }
   ],
+  "明主": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    }
+  ],
   "明堂": [
     {
       "slug": "huangting-waijing",
@@ -34609,6 +34891,11 @@
     }
   ],
   "春秋": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
@@ -34987,8 +35274,18 @@
   ],
   "曾子": [
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
       "religion": "儒教"
     },
     {
@@ -35323,6 +35620,11 @@
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "朱諾": [
@@ -35337,6 +35639,13 @@
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
+    }
+  ],
+  "材美工巧": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "杜阿特": [
@@ -35379,6 +35688,13 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    }
+  ],
+  "東萊": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "林": [
@@ -38164,6 +38480,13 @@
       "religion": "道教"
     }
   ],
+  "爵": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    }
+  ],
   "父神": [
     {
       "slug": "sblgnt-2-john",
@@ -38654,6 +38977,20 @@
       "religion": "基督教"
     }
   ],
+  "王公": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
+    }
+  ],
+  "王制": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    }
+  ],
   "王后": [
     {
       "slug": "vulgate-esther",
@@ -38982,6 +39319,11 @@
   ],
   "異端": [
     {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
@@ -39146,6 +39488,13 @@
       "slug": "bible-song-of-songs",
       "name_zh": "雅歌",
       "religion": "基督教"
+    }
+  ],
+  "百工": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "百牲大祭": [
@@ -40474,8 +40823,18 @@
       "religion": "儒教"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
       "religion": "儒教"
     },
     {
@@ -40575,6 +40934,13 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    }
+  ],
+  "程子": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "稗田阿禮": [
@@ -40826,6 +41192,13 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "築氏": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "簡易": [
@@ -41737,6 +42110,11 @@
   ],
   "義": [
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
@@ -41845,6 +42223,13 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    }
+  ],
+  "考工記": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "耆那教": [
@@ -43134,6 +43519,13 @@
       "religion": "印度教"
     }
   ],
+  "聖賢": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
+    }
+  ],
   "聖靈": [
     {
       "slug": "bible-1-corinthians",
@@ -43573,11 +43965,32 @@
       "religion": "道教"
     }
   ],
+  "至仁": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    }
+  ],
   "至善": [
     {
       "slug": "aristotle-nicomachean-ethics-el",
       "name_zh": "尼各馬可倫理學（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "至明": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    }
+  ],
+  "至知": [
+    {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
     }
   ],
   "至聖所": [
@@ -43625,6 +44038,13 @@
       "slug": "bible-daniel",
       "name_zh": "但以理書",
       "religion": "基督教"
+    }
+  ],
+  "致知": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "與民同樂": [
@@ -45013,6 +45433,13 @@
       "religion": "印度教"
     }
   ],
+  "親老": [
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    }
+  ],
   "親近": [
     {
       "slug": "seven-valleys-four-valleys",
@@ -45727,6 +46154,13 @@
       "religion": "基督教"
     }
   ],
+  "貧而樂道": [
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    }
+  ],
   "貪欲": [
     {
       "slug": "bud-udanavarga-sa",
@@ -46002,6 +46436,13 @@
       "religion": "基督教"
     }
   ],
+  "輈人": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
+    }
+  ],
   "輔弼": [
     {
       "slug": "jiayi-xinshu",
@@ -46014,6 +46455,13 @@
       "slug": "sn46-bojjhanga",
       "name_zh": "SN46 覺支相應 (184 經)",
       "religion": "佛教"
+    }
+  ],
+  "輪人": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "輪回": [
@@ -46050,6 +46498,13 @@
       "religion": "印度教"
     }
   ],
+  "輿人": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
+    }
+  ],
   "轉依": [
     {
       "slug": "bud-trimshika-sa",
@@ -46083,6 +46538,13 @@
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "農夫": [
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "農業": [
@@ -46397,6 +46859,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
@@ -46511,6 +46978,13 @@
       "slug": "sn45-magga",
       "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
+    }
+  ],
+  "道體": [
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     }
   ],
   "達味後裔": [
@@ -47787,6 +48261,13 @@
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
+    }
+  ],
+  "附庸": [
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
     }
   ],
   "陰功": [
