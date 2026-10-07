@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "四諦",
+    "苦諦",
+    "習諦",
+    "盡諦",
+    "道諦",
+    "八正道",
+    "舍利弗",
+    "目揵連",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "五陰",
+    "六入",
+    "涅槃",
+    "直見",
+    "正直定"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "illness-body",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f6a8b65e31da37a862cc93a06fb8200cc32a739c338c0e7f80f0242b3de77501"
+  },
+  "tagging_models": "MiniMax-M3"
 }

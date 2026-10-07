@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "苾芻",
+    "波羅夷",
+    "僧伽婆尸沙",
+    "波逸底迦",
+    "尼薩祇",
+    "波羅底提舍尼",
+    "突吉羅",
+    "近圓",
+    "布薩",
+    "安居",
+    "自恣",
+    "依止師",
+    "羯磨",
+    "五篇二百五十具體體",
+    "毘奈耶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "064a712e90c505f80720bafbfd38ccf0bf3d73497dc153f4b0d477a32e10f2f0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
