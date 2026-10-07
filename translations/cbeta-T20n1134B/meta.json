@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "theophany"
+  ],
+  "keywords": [
+    "毘盧遮那如來",
+    "金剛壽命陀羅尼",
+    "降三世金剛菩薩",
+    "摩醯首羅天王",
+    "大自在天",
+    "金剛界輪",
+    "三摩地",
+    "契印",
+    "菩提心",
+    "灌頂",
+    "五神通",
+    "真言",
+    "執金剛菩薩",
+    "壽命"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4e0433dfece400480f8b697bd3101f52669c187502004f22b681ed832672d008"
+  },
+  "tagging_models": "MiniMax-M3"
 }

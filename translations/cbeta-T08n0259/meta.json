@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "feminine-divine",
+    "meditation",
+    "prayer",
+    "ritual-practice",
+    "vision-experience"
+  ],
+  "keywords": [
+    "般若波羅蜜多菩薩",
+    "佛母",
+    "灌頂",
+    "真言",
+    "觀想",
+    "釋迦世尊",
+    "阿彌陀世尊",
+    "觀自在菩薩",
+    "地藏菩薩",
+    "金剛手菩薩",
+    "六臂",
+    "吉祥藏師子座",
+    "三藐三沒䭾野",
+    "正覺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ef6525afb90de691116eb3b3c35317b96e04179d9b4edaadfee22c3cd9ab65cc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
