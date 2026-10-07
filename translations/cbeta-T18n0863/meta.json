@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emanation",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "阿字",
+    "毘盧遮那",
+    "阿闍梨",
+    "種子字",
+    "胎藏曼荼羅",
+    "真言",
+    "菩提心",
+    "本不生",
+    "五聲",
+    "三密",
+    "輪",
+    "洛叉",
+    "字母觀行儀",
+    "金剛手",
+    "大日如來"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a248210cd661bbc4fdc65015980ba79483f2638bbdf4bb4a87a7648b58d508c9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

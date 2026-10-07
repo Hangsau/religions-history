@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "佛頂尊勝陀羅尼",
+    "陀羅尼",
+    "善住天子",
+    "帝釋",
+    "薄伽梵",
+    "室羅筏城",
+    "逝多林給孤獨園",
+    "贍部洲",
+    "琰摩王",
+    "三惡道",
+    "地獄",
+    "傍生",
+    "菩提",
+    "菩薩摩訶薩",
+    "舎利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "46b1121a72f6a2b76aea2d79fa9d9de3f768ffc5d73d0fee183649e2cf92464a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
