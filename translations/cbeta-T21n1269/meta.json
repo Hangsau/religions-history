@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "真言",
+    "金色迦那鉢底",
+    "舍利弗",
+    "舍衛國",
+    "迦蘭竹林園",
+    "六臂",
+    "象頭",
+    "五辛",
+    "安悉香",
+    "白檀",
+    "紫檀",
+    "壇",
+    "供養",
+    "護摩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9552f9fbbb1e9ddcd38013758e18557503613078421689f12f1a126fd9882f0d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

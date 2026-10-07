@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "meditation"
+  ],
+  "keywords": [
+    "百法明門論",
+    "世尊",
+    "一切法無我",
+    "心法",
+    "心所有法",
+    "色法",
+    "心不相應行法",
+    "無為法",
+    "阿賴耶識",
+    "末那識",
+    "補特伽羅無我",
+    "法無我",
+    "真如",
+    "八識",
+    "五十一心所"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "96a01e0f91658f6947120a2356bfa002757f30e61d35b338769386023ede258f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

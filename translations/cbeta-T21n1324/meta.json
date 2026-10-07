@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "釋迦種族",
+    "迦毘羅衛國",
+    "陀羅尼",
+    "乞曬摩迦",
+    "阿難陀",
+    "眼清淨",
+    "七佛",
+    "釋迦牟尼",
+    "四大天王",
+    "天帝釋",
+    "梵王",
+    "實語",
+    "禁戒",
+    "苦行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f3ce5de191e1f09fa70ac9db9beefd576126f016480160a54d372ea9cedc4fa7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

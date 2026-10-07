@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+  ],
+  "keywords": [
+    "法印",
+    "空性",
+    "三解脫門",
+    "空解脫門",
+    "無想解脫門",
+    "無作解脫門",
+    "舍衛國",
+    "苾芻",
+    "五蘊",
+    "苦空無常",
+    "三摩地",
+    "正等覺",
+    "貪瞋癡"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8ffcbe74e15fd4773939730fa18df6c73169e61801e7ce9c88977fe28b4eafa4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
