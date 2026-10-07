@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "cyclic-cosmos",
+    "divine-kingship",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "messianism",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "彌勒",
+    "舍利弗",
+    "釋迦牟尼佛",
+    "蠰佉",
+    "翅頭末",
+    "閻浮提",
+    "轉輪王",
+    "龍華菩提樹",
+    "阿耨多羅三藐三菩提",
+    "阿羅漢",
+    "四諦",
+    "涅槃",
+    "五欲",
+    "大迦葉",
+    "華林園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "790e83532601dd8c0c3019f262568dc194939e648425515ee663f562ce180bba"
+  },
+  "tagging_models": "MiniMax-M3"
 }
