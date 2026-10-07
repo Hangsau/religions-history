@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "六字呪",
+    "七俱胝佛呪",
+    "一切如來隨心呪",
+    "觀自在菩薩",
+    "莎訶",
+    "唵",
+    "納慕",
+    "薩埵",
+    "縛盧枳帝",
+    "折麗",
+    "阿利耶",
+    "曼殊室利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b809a345f46540ece003964a8e7f5181ef60f71446a12ba4cb6c78ddae2e0576"
+  },
+  "tagging_models": "MiniMax-M3"
 }

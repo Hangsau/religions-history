@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "monastic",
+    "ritual-practice",
+    "theophany"
+  ],
+  "keywords": [
+    "比丘",
+    "自殺",
+    "惡名聲",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "拘薩羅",
+    "天神",
+    "苦行者",
+    "出家法",
+    "阿羅漢",
+    "忍",
+    "開悟",
+    "斷除煩惱"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cbba11eacbaa5a6b44777a57050409d60a09083bfa7471214d1cf9c746b52f08"
+  },
+  "tagging_models": "MiniMax-M3"
 }

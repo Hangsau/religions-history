@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "俱利伽羅",
+    "陀羅尼",
+    "無動明王",
+    "寶幢陀羅尼菩薩",
+    "智火劍",
+    "九十五種外道",
+    "降三世",
+    "軍陀利",
+    "金剛夜叉",
+    "三摩地",
+    "安樂國",
+    "魔王",
+    "跋伽梵",
+    "五辛",
+    "王舍大城"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b52ffabe28f7e5a1c10c8183be5f10536206071448cecccfb4d8d0adebcf5a43"
+  },
+  "tagging_models": "MiniMax-M3"
 }
