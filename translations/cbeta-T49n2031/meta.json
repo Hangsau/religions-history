@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T49",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "monastic",
+    "oral-tradition",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "大眾部",
+    "上座部",
+    "說一切有部",
+    "犢子部",
+    "化地部",
+    "法藏部",
+    "飲光部",
+    "經量部",
+    "雪山部",
+    "大天五事",
+    "阿笈摩",
+    "世友",
+    "般涅槃",
+    "四聖諦",
+    "佛教"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c3e1b6ce59837e98682b955ec245272e4d24ed3cb08ca3701583ff54f4b1ca3c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

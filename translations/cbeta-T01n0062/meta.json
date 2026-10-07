@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "congregational",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "新歲",
+    "祇樹給孤獨園",
+    "舍利弗",
+    "目揵連",
+    "阿難",
+    "鉢和蘭",
+    "比丘",
+    "禁戒",
+    "三毒",
+    "五蓋",
+    "十善",
+    "四等",
+    "六度",
+    "三昧",
+    "舍羅籌"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "19d1f631e6e486dafd6e1f1b655d773fffa39f6fc3719e0b394e25e6e2a2aaa3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

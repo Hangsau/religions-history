@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "bardo",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "閻羅王",
+    "十王",
+    "生七",
+    "預修",
+    "中陰",
+    "地藏菩薩",
+    "阿彌陀佛",
+    "淨土",
+    "三惡道",
+    "業鏡",
+    "六道輪迴",
+    "破齊",
+    "修齋",
+    "往生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6ce31c13d12b2d806a4149079f65b9ce548bf250d782b587fd7af86163cad8a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }

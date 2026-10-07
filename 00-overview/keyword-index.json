@@ -20358,6 +20358,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T25n1508",
       "name_zh": "阿含口解十二因緣經",
       "religion": "佛教"
@@ -21395,6 +21400,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
+    },
+    {
       "slug": "yuhuang-benxing-jing",
       "name_zh": "高上玉皇本行集經",
       "religion": "道教"
@@ -21760,6 +21770,11 @@
     {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     },
     {
@@ -22339,6 +22354,11 @@
   ],
   "三毒": [
     {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T12n0332",
       "name_zh": "佛說優填王經",
       "religion": "佛教"
@@ -22449,6 +22469,13 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    }
+  ],
+  "三淨眼": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
     }
   ],
   "三淨肉": [
@@ -22579,6 +22606,11 @@
     {
       "slug": "cbeta-T24n1467a",
       "name_zh": "佛說犯戒罪報輕重經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
       "religion": "佛教"
     },
     {
@@ -23268,6 +23300,11 @@
       "slug": "an3-threes",
       "name_zh": "AN3 三法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
     }
   ],
   "上慧": [
@@ -23357,6 +23394,13 @@
     {
       "slug": "cbeta-T24n1498",
       "name_zh": "佛說八種長養功德經",
+      "religion": "佛教"
+    }
+  ],
+  "不傾迴三昧": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
       "religion": "佛教"
     }
   ],
@@ -24321,6 +24365,13 @@
       "religion": "佛教"
     }
   ],
+  "世友": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
+    }
+  ],
   "世子": [
     {
       "slug": "bohutong",
@@ -24950,8 +25001,18 @@
   ],
   "中陰": [
     {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n0935",
       "name_zh": "極樂願文",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     }
   ],
@@ -25204,6 +25265,13 @@
     {
       "slug": "cbeta-X02n0185",
       "name_zh": "權現金色迦那婆底九目天法",
+      "religion": "佛教"
+    }
+  ],
+  "九結": [
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
       "religion": "佛教"
     }
   ],
@@ -25853,6 +25921,13 @@
     {
       "slug": "cbeta-T01n0060",
       "name_zh": "瞿曇彌記果經",
+      "religion": "佛教"
+    }
+  ],
+  "五事論": [
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
       "religion": "佛教"
     }
   ],
@@ -27225,6 +27300,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0070",
       "name_zh": "數經",
       "religion": "佛教"
@@ -27341,6 +27421,11 @@
     {
       "slug": "cbeta-T17n0764",
       "name_zh": "佛說法集名數經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
       "religion": "佛教"
     },
     {
@@ -30244,6 +30329,11 @@
       "slug": "cbeta-T15n0605",
       "name_zh": "禪行法想經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
     }
   ],
   "佛教儀軌": [
@@ -31734,6 +31824,13 @@
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "修齋": [
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
     }
   ],
   "俱利伽羅": [
@@ -34063,6 +34160,13 @@
       "religion": "佛教"
     }
   ],
+  "八忍": [
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    }
+  ],
   "八態": [
     {
       "slug": "cbeta-T02n0115",
@@ -34774,6 +34878,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0493",
       "name_zh": "佛說阿難四事經",
       "religion": "佛教"
@@ -35161,6 +35270,13 @@
       "religion": "儒教"
     }
   ],
+  "六繫閉": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    }
+  ],
   "六職": [
     {
       "slug": "zhou-li",
@@ -35277,6 +35393,11 @@
   ],
   "六識": [
     {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T31n1586",
       "name_zh": "唯識三十論頌",
       "religion": "佛教"
@@ -35373,6 +35494,11 @@
     {
       "slug": "cbeta-T03n0167",
       "name_zh": "太子慕魄經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     }
   ],
@@ -37063,6 +37189,13 @@
       "religion": "佛教"
     }
   ],
+  "化地部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
+    }
+  ],
   "化女": [
     {
       "slug": "cbeta-T14n0580",
@@ -37455,6 +37588,11 @@
     {
       "slug": "cbeta-T17n0785",
       "name_zh": "得道梯橙錫杖經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
       "religion": "佛教"
     },
     {
@@ -38086,6 +38224,11 @@
     {
       "slug": "cbeta-T01n0033",
       "name_zh": "恒水經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     },
     {
@@ -38728,6 +38871,13 @@
     {
       "slug": "cbeta-T01n0093",
       "name_zh": "邪見經",
+      "religion": "佛教"
+    }
+  ],
+  "十王": [
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     }
   ],
@@ -43223,6 +43373,13 @@
       "religion": "佛教"
     }
   ],
+  "四大種": [
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    }
+  ],
   "四大聲聞": [
     {
       "slug": "cbeta-T19n0983A",
@@ -43915,6 +44072,11 @@
   ],
   "四等": [
     {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0067",
       "name_zh": "弊魔試目連經",
       "religion": "佛教"
@@ -44092,6 +44254,11 @@
     {
       "slug": "cbeta-T36n1743",
       "name_zh": "皇帝降誕日於麟德殿講大方廣佛華嚴經玄義一部",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
       "religion": "佛教"
     },
     {
@@ -44613,6 +44780,11 @@
     {
       "slug": "cbeta-T16n0705",
       "name_zh": "佛說布施經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
       "religion": "佛教"
     },
     {
@@ -45516,6 +45688,11 @@
     {
       "slug": "cbeta-T21n1290",
       "name_zh": "焰羅王供行法次第",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     },
     {
@@ -47319,6 +47496,13 @@
       "religion": "佛教"
     }
   ],
+  "大天五事": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
+    }
+  ],
   "大天后": [
     {
       "slug": "cbeta-T20n1150",
@@ -48184,6 +48368,13 @@
     {
       "slug": "cbeta-T12n0336",
       "name_zh": "須摩提經",
+      "religion": "佛教"
+    }
+  ],
+  "大眾部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
       "religion": "佛教"
     }
   ],
@@ -58390,6 +58581,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0057",
       "name_zh": "十二禮",
       "religion": "佛教"
@@ -58557,6 +58753,11 @@
     {
       "slug": "cbeta-T14n0555b",
       "name_zh": "五母子經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
       "religion": "佛教"
     },
     {
@@ -58859,6 +59060,11 @@
   ],
   "心不相應行法": [
     {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T31n1614",
       "name_zh": "大乘百法明門論",
       "religion": "佛教"
@@ -58968,6 +59174,11 @@
   ],
   "心所有法": [
     {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T31n1614",
       "name_zh": "大乘百法明門論",
       "religion": "佛教"
@@ -58988,6 +59199,11 @@
     }
   ],
   "心法": [
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T31n1587",
       "name_zh": "轉識論",
@@ -67647,6 +67863,13 @@
       "religion": "儒教"
     }
   ],
+  "新歲": [
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    }
+  ],
   "新民": [
     {
       "slug": "chuanxi-lu",
@@ -73230,6 +73453,13 @@
       "religion": "佛教"
     }
   ],
+  "業鏡": [
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
+    }
+  ],
   "業障": [
     {
       "slug": "cbeta-T08n0258",
@@ -75475,6 +75705,11 @@
     {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     },
     {
@@ -77869,6 +78104,13 @@
       "religion": "佛教"
     }
   ],
+  "法智": [
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    }
+  ],
   "法海經": [
     {
       "slug": "cbeta-T01n0034",
@@ -78197,6 +78439,13 @@
     {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
+      "religion": "佛教"
+    }
+  ],
+  "法藏部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
       "religion": "佛教"
     }
   ],
@@ -80473,6 +80722,11 @@
     {
       "slug": "cbeta-X01n0013",
       "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     },
     {
@@ -83200,6 +83454,11 @@
   ],
   "無為法": [
     {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T31n1614",
       "name_zh": "大乘百法明門論",
       "religion": "佛教"
@@ -84420,6 +84679,13 @@
     {
       "slug": "cbeta-T49n2032",
       "name_zh": "十八部論",
+      "religion": "佛教"
+    }
+  ],
+  "犢子部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
       "religion": "佛教"
     }
   ],
@@ -85993,6 +86259,13 @@
       "religion": "佛教"
     }
   ],
+  "甘香樹": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    }
+  ],
   "甚希有": [
     {
       "slug": "cbeta-T16n0689",
@@ -86036,6 +86309,13 @@
     {
       "slug": "cbeta-T32n1654",
       "name_zh": "因緣心論頌因緣心論釋",
+      "religion": "佛教"
+    }
+  ],
+  "生七": [
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     }
   ],
@@ -86872,6 +87152,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T25n1508",
       "name_zh": "阿含口解十二因緣經",
       "religion": "佛教"
@@ -87489,6 +87774,11 @@
     {
       "slug": "cbeta-T01n0050",
       "name_zh": "受歲經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     },
     {
@@ -89467,6 +89757,13 @@
       "religion": "佛教"
     }
   ],
+  "破齊": [
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
+    }
+  ],
   "硨渠": [
     {
       "slug": "cbeta-T17n0789",
@@ -89653,6 +89950,11 @@
     {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     },
     {
@@ -91361,6 +91663,11 @@
     }
   ],
   "禁戒": [
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T02n0149",
       "name_zh": "佛說阿難同學經",
@@ -94525,6 +94832,13 @@
       "religion": "佛教"
     }
   ],
+  "經量部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
+    }
+  ],
   "經錄": [
     {
       "slug": "cbeta-T55n2148",
@@ -95522,6 +95836,13 @@
     {
       "slug": "cbeta-T17n0751b",
       "name_zh": "佛說五無返復經",
+      "religion": "佛教"
+    }
+  ],
+  "羅閱祇園": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
       "religion": "佛教"
     }
   ],
@@ -99033,6 +99354,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0063",
       "name_zh": "解夏經",
       "religion": "佛教"
@@ -99363,6 +99689,13 @@
     {
       "slug": "cbeta-T24n1480",
       "name_zh": "佛說苾芻迦尸迦十法經",
+      "religion": "佛教"
+    }
+  ],
+  "舍羅籌": [
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     }
   ],
@@ -100560,6 +100893,11 @@
       "slug": "cbeta-T49n2030",
       "name_zh": "大阿羅漢難提蜜多羅所說法住記",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
     }
   ],
   "般籌寶藏": [
@@ -101108,6 +101446,11 @@
   ],
   "色法": [
     {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T31n1614",
       "name_zh": "大乘百法明門論",
       "religion": "佛教"
@@ -101515,6 +101858,11 @@
     {
       "slug": "cbeta-T21n1380",
       "name_zh": "佛說善樂長者經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
       "religion": "佛教"
     }
   ],
@@ -106886,6 +107234,13 @@
       "religion": "佛教"
     }
   ],
+  "見正": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    }
+  ],
   "見諦": [
     {
       "slug": "cbeta-T17n0826",
@@ -108518,6 +108873,13 @@
       "religion": "道教"
     }
   ],
+  "說一切有部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
+    }
+  ],
   "說戒": [
     {
       "slug": "cbeta-T01n0034",
@@ -109247,6 +109609,11 @@
     }
   ],
   "識神": [
+    {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    },
     {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
@@ -110207,6 +110574,11 @@
     {
       "slug": "cbeta-T17n0828",
       "name_zh": "無字寶篋經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T28n1556",
+      "name_zh": "薩婆多宗五事論",
       "religion": "佛教"
     }
   ],
@@ -115795,6 +116167,13 @@
       "religion": "佛教"
     }
   ],
+  "鉢和蘭": [
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
+      "religion": "佛教"
+    }
+  ],
   "鉢哆曳": [
     {
       "slug": "cbeta-T21n1416",
@@ -116704,6 +117083,11 @@
       "slug": "cbeta-T54n2142",
       "name_zh": "序聽迷詩所經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
     }
   ],
   "閻魔": [
@@ -117526,6 +117910,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0057",
       "name_zh": "十二禮",
       "religion": "佛教"
@@ -117916,6 +118305,13 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    }
+  ],
+  "阿笈摩": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
     }
   ],
   "阿素囉": [
@@ -119501,6 +119897,11 @@
     {
       "slug": "cbeta-T01n0061",
       "name_zh": "受新歲經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0062",
+      "name_zh": "新歲經",
       "religion": "佛教"
     },
     {
@@ -122578,6 +122979,11 @@
   ],
   "雪山部": [
     {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T49n2032",
       "name_zh": "十八部論",
       "religion": "佛教"
@@ -123562,6 +123968,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T17n0796",
+      "name_zh": "佛說見正經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0809",
       "name_zh": "佛說乳光佛經",
       "religion": "佛教"
@@ -123606,6 +124017,13 @@
     {
       "slug": "cbeta-T21n1262",
       "name_zh": "佛說鬼子母經",
+      "religion": "佛教"
+    }
+  ],
+  "預修": [
+    {
+      "slug": "cbeta-X01n0021",
+      "name_zh": "佛說預修十王生七經",
       "religion": "佛教"
     }
   ],
@@ -123997,6 +124415,13 @@
     {
       "slug": "cbeta-T46n1947",
       "name_zh": "釋迦如來涅槃禮讚文",
+      "religion": "佛教"
+    }
+  ],
+  "飲光部": [
+    {
+      "slug": "cbeta-T49n2031",
+      "name_zh": "異部宗輪論",
       "religion": "佛教"
     }
   ],
