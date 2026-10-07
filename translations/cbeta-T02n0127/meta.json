@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "caste-system",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "truthfulness"
+  ],
+  "keywords": [
+    "波斯匿王",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "沙門婆羅門",
+    "旃陀羅",
+    "邪見",
+    "布施",
+    "三十三天",
+    "地獄",
+    "命終",
+    "先醜後妙",
+    "等見"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ccb0a8c8d6f3f95df56ba616c2d92646cdd6e5846af9d482583dcc983ae72fa0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
