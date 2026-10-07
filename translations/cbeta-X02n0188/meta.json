@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "divine-immanence",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "真言",
+    "曼荼羅",
+    "愛王",
+    "染愛菩薩",
+    "萬愛菩薩",
+    "萬德菩薩",
+    "提頭賴吒天王",
+    "毗盧勒叉天王",
+    "毗盧博叉王",
+    "毗沙門天王",
+    "悉地",
+    "無明",
+    "祕密法",
+    "虗空藏法",
+    "傳授"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0ec90b50c763ae2f3f906e90452a8ffd92d1fb5dbc51a016c76bcce771e82b3c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
