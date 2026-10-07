@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "七寶",
+    "阿難",
+    "祇樹給孤獨精舍",
+    "毘婆尸佛",
+    "尸棄",
+    "比尸婆",
+    "拘婁孫佛",
+    "迦那牟尼",
+    "迦葉",
+    "釋迦牟尼",
+    "怨仇",
+    "呪",
+    "護身"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eb88e11eef81b8b5df202e7919f8d181c4ddd4bdddb44625e45a9ccc675c09ac"
+  },
+  "tagging_models": "MiniMax-M3"
 }

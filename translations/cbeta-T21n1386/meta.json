@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "妙色陀羅尼",
+    "阿難",
+    "三世諸佛",
+    "陀羅尼",
+    "菩提心",
+    "惡趣",
+    "餓鬼",
+    "出生",
+    "加持",
+    "三彈指",
+    "佛果",
+    "誦持",
+    "那謨婆誐嚩帝",
+    "怛他誐多",
+    "娑嚩賀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b4e114ef1c4622c52ff52de222520c4f367a2b93c1e8f962ca04facaf491022b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

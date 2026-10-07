@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "蓮華眼陀羅尼",
+    "菩提心",
+    "正覺",
+    "菩提道場",
+    "陀羅尼",
+    "持誦",
+    "罪障",
+    "五種眼清淨",
+    "鼻舌身病",
+    "恭敬供養",
+    "心離垢染",
+    "聖眾",
+    "見佛",
+    "妙法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "illness-body",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e4608f20606c03f9dcf2aca709c6036533a71ae58dc82f6d4df5188378f58989"
+  },
+  "tagging_models": "MiniMax-M3"
 }
