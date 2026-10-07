@@ -22,6 +22,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import status  # 同目錄；沿用其資料 helper
+import tagging_queue
 
 REFRESH_MS = 30_000
 RUNTIME_STALE_SECS = 20 * 60
@@ -66,6 +67,8 @@ def _idle_recently(now: float | None = None) -> bool:
         failed_mtime = None
     if failed_mtime != idle.get("failed_mtime"):
         return False
+    if tagging_queue.MANIFEST_PATH.exists() and tagging_queue.MANIFEST_PATH.stat().st_mtime > at:
+        return False
     return (now if now is not None else time.time()) - at < IDLE_RECHECK_SECS
 
 
@@ -95,7 +98,7 @@ def ensure_supervisor() -> None:
         exe = str(pyw) if pyw.exists() else sys.executable
         flags = 0x00000008 | 0x00000200 | getattr(subprocess, "CREATE_NO_WINDOW", 0)
         subprocess.Popen(
-            [exe, str(SCRIPTS / "supervise-pipeline.py"), "核心"],
+            [exe, str(SCRIPTS / "supervise-pipeline.py"), tagging_queue.effective_tier()],
             cwd=str(SCRIPTS.parent),
             env={**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"},
             creationflags=flags, close_fds=True,
@@ -113,7 +116,7 @@ def ensure_wait_watcher() -> None:
         pyw = Path(sys.executable).with_name("pythonw.exe")
         exe = str(pyw) if pyw.exists() else sys.executable
         subprocess.Popen(
-            [exe, str(WATCHER), "--tier", "核心"], cwd=str(SCRIPTS.parent),
+            [exe, str(WATCHER), "--tier", tagging_queue.effective_tier()], cwd=str(SCRIPTS.parent),
             creationflags=0x00000008 | 0x00000200 | getattr(subprocess, "CREATE_NO_WINDOW", 0),
             close_fds=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
             stdin=subprocess.DEVNULL)
@@ -382,7 +385,7 @@ def pipeline_health(now: float, runtime: dict | None = None) -> dict:
                     "text": f"翻譯管線閒置：{done}/{total}；{current}"}
 
     if (total and done >= total) or current.startswith("(完成"):
-        return {**base, "color": DONE, "text": f"翻譯管線：核心已完成 {done}/{total}"}
+        return {**base, "color": DONE, "text": f"生成管線：{runtime.get('tier') or '目前佇列'}已完成 {done}/{total}"}
 
     # 活性 = 最新工作訊號的年齡（run.log 每 chunk 更新，遠比 status.md 靈敏）。
     # 只有連 chunk 級都靜止才算真停擺。單次 M3 逾時上限 600 秒 + 部間 git，

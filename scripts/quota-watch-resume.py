@@ -19,6 +19,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from pipeline_lock import create_pid_lock, pid_alive
+import tagging_queue
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT / "logs"
@@ -183,6 +184,7 @@ def resume(tier: str) -> bool:
     target = _retry_at(state)
     if target is not None and target > datetime.now(TZ):
         return False  # Quota availability must never bypass a provider backoff.
+    tier = tagging_queue.effective_tier(tier)
     state.update(status="running", resumed_at=datetime.now(TZ).isoformat(),
                  last_error=None, next_retry_at=None, quota_wait_mode=None,
                  wait_mode=None, resumed_by="quota-watch-resume.py")
@@ -209,6 +211,7 @@ def main() -> None:
     parser.add_argument("--tier", default="核心")
     parser.add_argument("--max-days", type=float, default=DEFAULT_MAX_DAYS)
     args = parser.parse_args()
+    args.tier = tagging_queue.effective_tier(args.tier)
 
     deadline = datetime.now(TZ) + timedelta(days=args.max_days)
     log(f"[start] quota-watch 啟動 official-reset + fallback=5/10/20/30m tier={args.tier} "

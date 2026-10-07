@@ -5,9 +5,19 @@
 `status_gui.py` / Windows Scheduled Task → `supervise-pipeline.py` → `auto-pipeline.py`
 → `translate.py` → MiniMax Anthropic-compatible endpoint.
 
+- `00-overview/tagging-queue.json`: durable enabled tag-only job, selected sources and
+  SHA-256, explicit deferred reasons. This is a fixed snapshot, not automatic corpus expansion.
+- `scripts/tagging_queue.py`: job resolution, manifest validation and per-book source checks.
+  Enabled job takes precedence over legacy supervisor tier arguments so existing desktop
+  and scheduled launches cannot fall back to the already completed core queue.
+- `scripts/prepare-tagging-queue.py`: builds a disabled manifest for review; refuses to overwrite it.
+- `auto-pipeline.py --tag-queue`: only tags selected sources, records tag_source and
+  tagging_models, leaves translation files/status alone. Source change blocks for review.
+
 - `scripts/translate.py`: chunk checkpoints, quota preflight, provider calls, metrics and runtime handoff.
 - `scripts/minimax_quota.py`: read-only quota probe and configurable 5h 5% / weekly 2% reserve policy.
 - `scripts/auto-pipeline.py`: priority queue, continuously rebuilt retry scheduling, scoped commits.
+  Every automatic push requires a successful full-corpus verify; failed checks keep local commits.
 - `scripts/pipeline_failures.py`: ordinary scripture failures only; 5/15/30-minute retry then blocked.
 - `scripts/quota-watch-resume.py`: quota/provider wait and checkpoint resume.
   Provider backoff honors its durable retry target; available quota is not evidence

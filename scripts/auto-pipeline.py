@@ -36,6 +36,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import translate  # noqa: E402  (same-dir module)
 import pipeline_failures  # noqa: E402
 import pipeline_priority  # noqa: E402
+import tagging_queue  # noqa: E402
 from pipeline_lock import acquire_run_lock, release_run_lock  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -97,7 +98,7 @@ def finish_runtime(tier: str, queue: list[str], tasks: list[str], failure_state:
         reason, label = "done", "(完成)"
     retry_times = [failures[slug].get("next_retry_at") for slug in retryable]
     translate._write_runtime_state(
-        status="idle", idle_reason=reason, tier=tier, slug=None, task=None,
+        status="idle", idle_reason=reason, tier=tier, tasks=tasks, slug=None, task=None,
         chunk=None, chunks_total=None, request_started_at=None,
         next_retry_at=min((value for value in retry_times if value), default=None),
         retry_attempt=0, last_error=None, failure_code=None, failure_scope=None,
@@ -113,6 +114,7 @@ def write_status(tier: str, done: int, total: int, current: str, failure_state: 
     except (OSError, json.JSONDecodeError):
         runtime = {}
     runtime_lines = ""
+    task_label = "雙標籤" if runtime.get("tasks") == ["tag"] else "翻譯+標籤"
     if runtime.get("status") in {"waiting_quota", "waiting_provider"}:
         chunk = runtime.get("chunk")
         total_chunks = runtime.get("chunks_total")
@@ -146,14 +148,15 @@ def write_status(tier: str, done: int, total: int, current: str, failure_state: 
 
 - 更新時間：{now}
 - 佇列 tier：**{tier}**
-- 進度：**{done} / {total}** 已翻譯+標籤
+- 進度：**{done} / {total}** 已完成{task_label}
+- 本輪任務：{task_label}
 - 目前處理：`{current}`
 - P0 尚未完整翻譯：{p0_pending} 部
 - 一般失敗待重試：{len(retryable)} 部{' — ' + ', '.join(retryable[:10]) if retryable else ''}
 - 已阻塞待人工處理：{len(blocked)} 部{' — ' + ', '.join(blocked[:10]) if blocked else ''}
 {runtime_lines}
 
-流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
+流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。
 → 每批重生三份獨立反向索引 → commit + push。
 """, encoding="utf-8", newline="\n")
 
@@ -182,6 +185,14 @@ def commit_batch(paths: list[Path], message: str, push: bool) -> None:
         return
     print(f"  [git] committed {len(rels)} paths")
     if not push:
+        return
+    verified = subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "verify.py"), "--all"],
+        cwd=ROOT, capture_output=True, text=True, encoding="utf-8", errors="replace",
+        env={**os.environ, "PYTHONIOENCODING": "utf-8"},
+        creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+    if verified.returncode:
+        print("  [git] corpus verification failed; local commit retained, push skipped")
         return
     run_git(["pull", "--rebase"])
     for attempt in range(3):
@@ -219,12 +230,18 @@ def rebuild_indexes() -> list[Path]:
 
 
 def process_slug(slug: str, tasks: list[str], whitelist: set, psych_whitelist: set,
-                 dry_run: bool) -> tuple[bool, list[Path]]:
+                 dry_run: bool, tag_entry: dict | None = None) -> tuple[bool, list[Path]]:
     """Returns (ok, touched_paths)."""
     slug_dir = TRANSLATIONS_DIR / slug
     touched: list[Path] = []
     tr_role = translate.load_role("translate")
     tag_role = translate.load_role("tag")
+    if tag_entry is not None:
+        reason = tagging_queue.validate_source(tag_entry, TRANSLATIONS_DIR)
+        if reason:
+            translate._set_failure("tag_source_changed", "scripture", reason)
+            print(f"  [error] {slug} (tag): {reason}; source requires review")
+            return False, touched
 
     if "translate" in tasks:
         tr_path = slug_dir / "01-translation.md"
@@ -247,13 +264,19 @@ def process_slug(slug: str, tasks: list[str], whitelist: set, psych_whitelist: s
         touched.append(slug_dir / "meta.json")
 
     if "tag" in tasks:
-        if not translate.has_complete_translation(slug_dir / "01-translation.md"):
+        if tag_entry is None and not translate.has_complete_translation(slug_dir / "01-translation.md"):
             print(f"  [error] {slug} (tag): translation is missing or incomplete")
             return False, touched
         ok = translate.tag_one(slug, tag_role, whitelist, psych_whitelist,
                                skip_done=True, dry_run=dry_run)
         if not ok:
             return False, touched
+        if tag_entry is not None and not dry_run:
+            meta_path = slug_dir / "meta.json"
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            meta["tag_source"] = {key: tag_entry[key] for key in ("source_file", "source_sha256")}
+            meta["tagging_models"] = translate.PRIMARY_MODEL
+            translate._atomic_write_text(meta_path, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
         touched.append(slug_dir / "meta.json")
 
     return True, touched
@@ -308,6 +331,7 @@ def build_pending(queue: list[str], tasks: list[str], failures: dict, tier: str,
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tier", default="核心", help="tier queue (核心/次要/總集)")
+    ap.add_argument("--tag-queue", action="store_true", help="run the source-bound tag-only manifest")
     ap.add_argument("--slugs", help="comma list of explicit slugs (overrides --tier queue)")
     ap.add_argument("--limit", type=int, default=0, help="max slugs this run (0=all)")
     ap.add_argument("--batch-size", type=int, default=5, help="commit+push every N slugs")
@@ -323,9 +347,21 @@ def main():
         return
 
     tasks = [t.strip() for t in args.tasks.split(",") if t.strip()]
+    tag_entries = {}
+    if args.tag_queue:
+        if args.slugs:
+            ap.error("--tag-queue cannot be combined with --slugs")
+        manifest = tagging_queue.load()
+        if not manifest["enabled"] and not args.dry_run:
+            ap.error("tagging queue is disabled")
+        args.tier = tagging_queue.QUEUE_NAME
+        tasks = ["tag"]
+        tag_entries = {entry["slug"]: entry for entry in manifest["entries"]}
     whitelist = translate.load_tag_whitelist()
     psych_whitelist = translate.load_psych_tag_whitelist()
-    if args.slugs:
+    if args.tag_queue:
+        queue = list(tag_entries)
+    elif args.slugs:
         queue = [s.strip() for s in args.slugs.split(",") if s.strip()]
     else:
         queue = translate.load_slugs_by_tier(args.tier)
@@ -345,7 +381,8 @@ def main():
     initial_runnable = min(len(pending), args.limit) if args.limit else len(pending)
     print(f"tier={args.tier}  queue={total}  already_done={already}  this_run={initial_runnable}  tasks={tasks}")
 
-    batch_paths = [] if args.dry_run else reconcile_missing_translation_status(queue)
+    batch_paths = ([] if args.dry_run or "translate" not in tasks
+                   else reconcile_missing_translation_status(queue))
     if batch_paths:
         print(f"[reconcile] restored missing translation status for {len(batch_paths)} books")
     processed = 0
@@ -371,10 +408,13 @@ def main():
         dry_seen.add(slug)
         print(f"[{attempted}/{initial_runnable or len(pending)}] {slug}")
         if not args.dry_run:
+            translate._write_runtime_state(tier=args.tier, tasks=tasks,
+                                           tag_blocked_chunks=[], tag_completed_chunks=None)
             translate.set_current_work(slug, "pipeline")
             write_status(args.tier, already + processed, total, slug, failure_state)
         try:
-            ok, touched = process_slug(slug, tasks, whitelist, psych_whitelist, args.dry_run)
+            kwargs = {"tag_entry": tag_entries[slug]} if args.tag_queue else {}
+            ok, touched = process_slug(slug, tasks, whitelist, psych_whitelist, args.dry_run, **kwargs)
         except Exception as e:  # noqa: BLE001 — never let one slug kill the run
             print(f"  [exception] {slug}: {e}")
             ok, touched = False, []
@@ -407,7 +447,7 @@ def main():
             idx_paths = rebuild_indexes()
             write_status(args.tier, already + processed, total, slug, failure_state)
             commit_batch(batch_paths + idx_paths,
-                         f"Pipeline B+C: {args.tier} 翻譯+標籤 批次 (+{len(set(batch_paths))} 檔)",
+                         f"Pipeline: {args.tier} {','.join(tasks)} 批次 (+{len(set(batch_paths))} 檔)",
                          push=not args.no_push)
             batch_paths = []
 
@@ -420,7 +460,7 @@ def main():
     if not args.dry_run and batch_paths:
         idx_paths = rebuild_indexes()
         commit_batch(batch_paths + idx_paths,
-                     f"Pipeline B+C: {args.tier} 翻譯+標籤 收尾 (processed {processed})",
+                     f"Pipeline: {args.tier} {','.join(tasks)} 收尾 (processed {processed})",
                      push=not args.no_push)
 
     failure_state, _ = pipeline_failures.load()

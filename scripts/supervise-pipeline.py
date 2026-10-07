@@ -29,6 +29,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from pipeline_lock import create_pid_lock, pid_alive
+import tagging_queue
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGS = ROOT / "logs"
@@ -53,7 +54,7 @@ def _tier_arg() -> str:
     return repaired if repaired in {"核心", "次要", "總集"} else "核心"
 
 
-TIER = _tier_arg()
+TIER = tagging_queue.effective_tier(_tier_arg())
 TZ = timezone(timedelta(hours=8))
 
 MAX_QUICK_STRIKES = 3   # 連續幾次「啟動後幾乎立刻退出」即判系統性問題
@@ -123,7 +124,7 @@ def persist_pause(reason: str) -> None:
 
 def run_once() -> tuple[int, int, int, float, int | None, int]:
     """Run once; return rc, queue count, processed, elapsed, retry wait, blocked count."""
-    cmd = [sys.executable, str(ROOT / "scripts" / "auto-pipeline.py"), "--tier", TIER]
+    cmd = [sys.executable, str(ROOT / "scripts" / "auto-pipeline.py"), *tagging_queue.worker_args(TIER)]
     env = {**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
     this_run, processed, retry_wait, blocked_only = -1, -1, None, 0
     start = time.time()

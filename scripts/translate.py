@@ -44,6 +44,7 @@ from pathlib import Path
 from pipeline_lock import acquire_run_lock, release_run_lock
 import pipeline_priority
 import minimax_quota
+import tagging_queue
 from contamination import find_contamination
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -578,7 +579,7 @@ def _set_failure(code: str, scope: str, message: str) -> None:
 
 def _handoff(reason: str, next_retry_at: str | None) -> dict:
     return {
-        "resume_command": "python scripts/supervise-pipeline.py 核心",
+        "resume_command": f"python scripts/supervise-pipeline.py {tagging_queue.effective_tier()}",
         "resume_from_checkpoint": True,
         "reason": reason,
         "next_retry_at": next_retry_at,

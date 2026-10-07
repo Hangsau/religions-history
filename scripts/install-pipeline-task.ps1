@@ -14,7 +14,7 @@ if ($Remove) {
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $supervisor = Join-Path $PSScriptRoot 'supervise-pipeline.py'
 $pythonw = (Get-Command pythonw.exe -ErrorAction Stop).Source
-$action = New-ScheduledTaskAction -Execute $pythonw -Argument "`"$supervisor`" 核心" -WorkingDirectory $projectRoot
+$action = New-ScheduledTaskAction -Execute $pythonw -Argument "`"$supervisor`"" -WorkingDirectory $projectRoot
 $atLogon = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME
 $watchdog = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) `
     -RepetitionInterval (New-TimeSpan -Minutes 5) `
