@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "meditation",
+    "monastic"
+  ],
+  "keywords": [
+    "如來",
+    "十一想",
+    "念佛",
+    "慈心解脫",
+    "阿那含",
+    "三昧",
+    "止觀",
+    "耆闍崛山",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "比丘",
+    "梵天",
+    "無餘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "267708e3441569a246c2608b016179d32fd62a4abb8fcbd8c340d1dd56312c5d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T04",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "divine-kingship",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "灌頂",
+    "剎帝利",
+    "苾芻",
+    "舍衛國",
+    "世尊",
+    "滅",
+    "集法",
+    "法眼淨",
+    "諸漏已盡",
+    "心善解脫",
+    "梵行",
+    "不受後有",
+    "袈裟",
+    "正信",
+    "出家"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b59da4dc01a564493fe0a922ae92d59015776520674113cf239b77b3ef1dce98"
+  },
+  "tagging_models": "MiniMax-M3"
 }
