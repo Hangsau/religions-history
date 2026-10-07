@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "monastic",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "舍利",
+    "鉢",
+    "飛行皇帝",
+    "劫波育",
+    "闍維",
+    "塔",
+    "四天王",
+    "比丘",
+    "五戒",
+    "慈",
+    "清",
+    "貞",
+    "慎言",
+    "絕酒",
+    "沙門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "026286cfa3a7cf0093ddf4655ccbfa0e97acccf937041203b6b2263539661f0d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

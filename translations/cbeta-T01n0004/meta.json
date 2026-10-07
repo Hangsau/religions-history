@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "oral-tradition",
+    "truthfulness"
+  ],
+  "keywords": [
+    "七佛",
+    "維衛佛",
+    "式佛",
+    "隨葉佛",
+    "拘樓秦佛",
+    "拘那含牟尼佛",
+    "迦葉佛",
+    "釋迦文尼佛",
+    "舍衛國",
+    "阿羅漢",
+    "剎利種",
+    "婆羅門種",
+    "比丘",
+    "般泥洹",
+    "父母姓字"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c2494cf145a0a24c4062d2308677f96435fcfcde52858e48443e3a943e64c1b4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

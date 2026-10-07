@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "non-dual",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "帝釋天主",
+    "憍尸迦",
+    "十八空",
+    "十二緣",
+    "真言",
+    "陀羅尼",
+    "星燈翳夢幻泡露電",
+    "不生不滅",
+    "不斷不常",
+    "菩薩摩訶薩",
+    "王舍城鷲峯山",
+    "布施持戒忍辱精進禪定"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b3bbce24af2010a4da42984425790388ca70d7b9d1c478cac81bbdd50d78dc37"
+  },
+  "tagging_models": "MiniMax-M3"
 }
