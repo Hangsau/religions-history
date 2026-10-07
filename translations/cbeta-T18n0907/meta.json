@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "佛頂尊勝",
+    "陀羅尼",
+    "阿字",
+    "毘盧遮那",
+    "五字真言",
+    "悉地",
+    "金剛頂經",
+    "大日經",
+    "蓮華藏",
+    "破地獄",
+    "轉業障",
+    "出三界",
+    "五部",
+    "阿閦",
+    "寶生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1bf32caf5a98fe545f08ce4275b46506fb7db5a3b7f7e6acf9ddb5b8dbc5ebfc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

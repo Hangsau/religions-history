@@ -20,5 +20,37 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "meditation",
+    "mystical-union"
+  ],
+  "keywords": [
+    "隣虛",
+    "識",
+    "塵",
+    "根",
+    "境界",
+    "緣緣",
+    "功能",
+    "假名",
+    "六識",
+    "內塵",
+    "外塵",
+    "瓶等",
+    "五塵"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6c1d9974e7ad62d7834d455ababad23e87f18ff9f30f7877652df2ddffa64e59"
+  },
+  "tagging_models": "MiniMax-M3"
 }

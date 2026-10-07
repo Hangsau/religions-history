@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "波逸底迦",
+    "惡作罪",
+    "苾芻",
+    "屣他羅",
+    "十戒",
+    "大戒",
+    "親教師",
+    "軌範師",
+    "褒灑陀",
+    "發露",
+    "覆藏",
+    "齒木",
+    "阿彌陀佛",
+    "慈氏",
+    "覩史多天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "responsibility-leadership",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5eee4e627b2783ba84e7f82226ca460e96b6b2c0b974f98566bc1a5c81d0619b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
