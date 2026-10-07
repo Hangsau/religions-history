@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "菩薩十住",
+    "文殊師利",
+    "波藍質兜波",
+    "阿闍浮",
+    "喻阿闍",
+    "闍摩期",
+    "波俞三般",
+    "阿耆三般",
+    "阿惟越致",
+    "鳩摩羅浮童男",
+    "俞羅闍",
+    "阿惟顏",
+    "十力",
+    "佛十種力",
+    "泥洹"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "46f5d7e035a28bb3d8c19b55229a350989496a5fa987ea65e60790c2b4fab4dc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "寶月童子",
+    "頻婆娑羅王",
+    "十方如來",
+    "名號",
+    "五逆罪",
+    "業障",
+    "無上正等正覺",
+    "阿耨多羅三藐三菩提",
+    "王舍城",
+    "鷲峯山",
+    "無生法忍",
+    "七寶供養",
+    "旃檀香",
+    "大梵天王",
+    "帝釋天子"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8028e1718243df77f5b369b2b40ab228cc263052312309acc45e912b77edfd8a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
