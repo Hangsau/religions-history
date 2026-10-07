@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "毘沙門天王",
+    "毘盧勒叉天王",
+    "提頭賴吒天王",
+    "毘樓博叉天王",
+    "金剛密跡王",
+    "恒伽河",
+    "阿耨多羅三藐三菩提",
+    "生老病死",
+    "非時夭橫",
+    "八戒齋",
+    "栴檀",
+    "欝金香",
+    "十二種果樹之花"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "540837f627e28daeb6a8908784c70435aaaf5d6459f3b8a3c621f053e67f2719"
+  },
+  "tagging_models": "MiniMax-M3"
 }

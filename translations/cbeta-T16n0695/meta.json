@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "other-power",
+    "reincarnation",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "灌洗佛形像",
+    "四月八日",
+    "浴佛",
+    "菩薩道",
+    "轉輪聖王",
+    "辟支佛",
+    "阿羅漢",
+    "三十二相",
+    "八十種好",
+    "阿惟越致",
+    "文殊師利",
+    "摩訶剎頭",
+    "法炬",
+    "十二部經",
+    "四阿含"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loss-grief",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4cf43dd5f2355c888c65ecbb5ea2c72301cfe4b08d9b57827ac0c98c2c8e4bb6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

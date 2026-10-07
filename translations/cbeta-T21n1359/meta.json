@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "如來",
+    "舍利",
+    "陀羅尼",
+    "花積樓閣",
+    "師子遊戲菩薩",
+    "五法",
+    "戒定慧解脫",
+    "四聖諦",
+    "阿耨達池",
+    "曼拏羅",
+    "宿命通",
+    "三乘",
+    "菩薩摩訶薩",
+    "無熱惱龍王",
+    "布施供養"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d6bb67dc96729988235fd7f29d37883a4fd0021105caedec9d512838756a2690"
+  },
+  "tagging_models": "MiniMax-M3"
 }
