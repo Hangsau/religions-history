@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "four-noble-truths",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "息諍因緣經",
+    "七滅諍法",
+    "六和敬法",
+    "毘尼",
+    "阿難",
+    "尊那",
+    "尼乾陀惹提子",
+    "舍摩迦子聚落",
+    "現前毘尼",
+    "如草覆地",
+    "鬪諍根本",
+    "忿恨",
+    "梵行",
+    "如來應供正等正覺",
+    "四念處"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "communication-being-understood",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7d5351ec62d214772dcdcb53e1096ccfa580c30b47d2e3b573f1776fd9b3692d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
