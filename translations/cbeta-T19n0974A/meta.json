@@ -20,5 +20,34 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "佛頂陀羅尼",
+    "唵",
+    "薩嚩怛他誐哆",
+    "悉地",
+    "娑嚩賀",
+    "陀羅尼",
+    "最勝佛頂",
+    "母捺囉",
+    "嚩日囉",
+    "沫底"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0ab273d8d46ff0fe4d03203b177095a5d5817833af66758fff73985d1d7ae4ed"
+  },
+  "tagging_models": "MiniMax-M3"
 }

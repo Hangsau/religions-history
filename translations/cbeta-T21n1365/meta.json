@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "金剛手菩薩",
+    "八名普密陀羅尼",
+    "功德寶藏",
+    "莊嚴象耳",
+    "善勇猛",
+    "勝諦雲",
+    "成熾然",
+    "微妙色",
+    "嚴飾",
+    "金剛",
+    "覩史多天",
+    "彌勒",
+    "室羅筏",
+    "給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d48bcb905af1c9900a9e4ec52407399b88fd9cfbfa5453ca64dba0809c1c266f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

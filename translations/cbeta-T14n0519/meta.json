@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "摩達王",
+    "羅漢",
+    "宿命",
+    "泥洹",
+    "須陀洹道",
+    "五戒",
+    "十善",
+    "三尊",
+    "齋戒",
+    "比丘",
+    "優婆塞",
+    "無常",
+    "苦",
+    "空",
+    "阿難"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6fab4cdd14990c232ea774f11306fd6fd42627dfb855d83b8f9b2e642af1aef3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

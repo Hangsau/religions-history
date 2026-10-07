@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "九橫",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘",
+    "不應飯",
+    "不量飯",
+    "不習飯",
+    "不持戒",
+    "五戒",
+    "惡知識",
+    "橫死",
+    "長壽",
+    "聞道",
+    "佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ca9616dd89547a55e01608461d53991b7df383733b358a3cf81eea4efe52979c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
