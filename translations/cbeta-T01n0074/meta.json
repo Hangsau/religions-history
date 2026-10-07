@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "monotheist-exclusive",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "給孤獨長者",
+    "彌羅摩",
+    "布施",
+    "正見",
+    "須陀洹",
+    "阿那含",
+    "阿羅漢",
+    "緣覺",
+    "如來",
+    "苾芻",
+    "歸依",
+    "五戒",
+    "大慈心",
+    "舍衛國",
+    "祇樹給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "giving-generosity",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9b7f69b772767558c9fd944a863ed6bca08603d69f9d80ac276aa631ac4daa3e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
