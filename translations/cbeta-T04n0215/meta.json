@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T04",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "humility",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "群牛譬",
+    "驢",
+    "沙門",
+    "梵行",
+    "精進",
+    "威儀",
+    "婆伽婆",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "擯出界外",
+    "邪見",
+    "諷誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "honesty-hypocrisy",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "51c910018591b83b4469196003c614e00eb14968b3af32e38855288788709bf1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

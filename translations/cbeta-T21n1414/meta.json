@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "世尊",
+    "羅剎",
+    "必舍左",
+    "藥叉",
+    "羅叉",
+    "安膳那藥",
+    "宿命智",
+    "三世",
+    "頂上",
+    "加持",
+    "受持",
+    "眾生",
+    "天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9f1f895ead1513923aeede00400ddbb01c1b349cfb5a4c4dae095dd82bccba63"
+  },
+  "tagging_models": "MiniMax-M3"
 }

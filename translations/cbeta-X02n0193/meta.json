@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "阿難",
+    "維耶離國",
+    "王舍城",
+    "竹林精舍",
+    "七鬼神",
+    "沙羅佉",
+    "神呪",
+    "溫鬼",
+    "三寶",
+    "五溫",
+    "天行",
+    "却溫神呪",
+    "四部弟子",
+    "熾火"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2e236c600217863a2e78e443f507856201ccbed290dc9771c609c28aa1b8c968"
+  },
+  "tagging_models": "MiniMax-M3"
 }
