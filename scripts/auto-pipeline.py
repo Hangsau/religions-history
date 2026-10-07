@@ -126,6 +126,9 @@ def write_status(tier: str, done: int, total: int, current: str, failure_state: 
                          f" ({runtime.get('task', '?')})\n")
     elif runtime.get("status") == "idle":
         runtime_lines = f"- M3 執行狀態：**idle** — {current}；原因：{runtime.get('idle_reason', '?')}\n"
+    if runtime.get("tag_blocked_chunks"):
+        rejected = runtime["tag_blocked_chunks"]
+        runtime_lines += f"- 標籤待審段落：{len(rejected)} 段（{', '.join(map(str, rejected[:20]))}）；內容遭拒，未計入完成\n"
     failures = failure_state.get("failures", {})
     retryable = [slug for slug, entry in failures.items()
                  if entry.get("tier") == tier and entry.get("status") == "retryable"]
@@ -368,6 +371,7 @@ def main():
         dry_seen.add(slug)
         print(f"[{attempted}/{initial_runnable or len(pending)}] {slug}")
         if not args.dry_run:
+            translate.set_current_work(slug, "pipeline")
             write_status(args.tier, already + processed, total, slug, failure_state)
         try:
             ok, touched = process_slug(slug, tasks, whitelist, psych_whitelist, args.dry_run)

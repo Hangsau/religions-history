@@ -185,7 +185,7 @@ def record_failure(slug: str, tier: str, task: str, error_code: str,
         old = state["failures"].get(slug, {})
         attempts = int(old.get("attempts", 0)) + 1
         first = old.get("first_failed_at") or now.isoformat()
-        if attempts <= len(RETRY_DELAYS):
+        if error_code != "content_rejected" and attempts <= len(RETRY_DELAYS):
             status = "retryable"
             next_retry = (now + timedelta(seconds=RETRY_DELAYS[attempts - 1])).isoformat()
         else:

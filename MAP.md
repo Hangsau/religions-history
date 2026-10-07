@@ -10,6 +10,8 @@
 - `scripts/auto-pipeline.py`: priority queue, continuously rebuilt retry scheduling, scoped commits.
 - `scripts/pipeline_failures.py`: ordinary scripture failures only; 5/15/30-minute retry then blocked.
 - `scripts/quota-watch-resume.py`: quota/provider wait and checkpoint resume.
+  Provider backoff honors its durable retry target; available quota is not evidence
+  that generation recovered. Both the main loop and resume entrypoint enforce the target.
 - `scripts/supervise-pipeline.py`: single long-lived supervisor, HALT and crash recovery.
 
 ## Reporting path
@@ -36,4 +38,8 @@
   are regenerated; changed identity archives the prior checkpoint. Tags merge into
   metadata only after every chunk succeeds. Missing legacy translation status is
   reconciled before skipping completed books, without overriding explicit review states.
+  Content-rejected tag chunks (MiniMax 1026/1027, even under HTTP 500) remain blocked
+  in the manifest while other chunks continue. Runtime exposes tag_completed_chunks
+  and tag_blocked_chunks. A book with any unresolved chunk cannot publish done tags;
+  after remaining work it becomes content_rejected in the ordinary failure ledger.
 - `scripts/install-pipeline-task.ps1`: optional Task Scheduler installer; it is not registered automatically.

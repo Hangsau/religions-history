@@ -195,6 +195,41 @@ class TranslateCheckpointTests(unittest.TestCase):
         self.assertEqual(meta["keywords"], ["saved", "later"])
         self.assertFalse(active.exists())
 
+    def test_content_rejected_chunk_is_retained_while_other_chunks_continue(self):
+        base, _ = self.make_slug()
+        good = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": ["saved"]})
+        rejection = 'http 500: {"error":{"message":"input new_sensitive (1026)"}}'
+        with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
+                mock.patch.object(translate, "_quota_preflight", return_value=True), \
+                mock.patch.object(translate, "_run_api", side_effect=[(good, None), (None, rejection), (good, None)]) as api:
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        self.assertEqual(api.call_count, 3)
+        active = self.checkpoints / "demo/tag/active"
+        manifest = json.loads((active / "manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual([c["status"] for c in manifest["chunks"]], ["done", "blocked", "done"])
+        self.assertEqual(manifest["chunks"][1]["error_code"], "content_rejected")
+        self.assertIn("1026", manifest["chunks"][1]["last_error"])
+        self.assertFalse((active / "chunk-0002.json").exists())
+        self.assertNotIn("tag_status", json.loads((base / "meta.json").read_text(encoding="utf-8")))
+        with mock.patch.object(translate, "call_m3") as call:
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        call.assert_not_called()
+        self.assertEqual(translate.LAST_FAILURE["code"], "content_rejected")
+        metrics = [json.loads(line) for line in self.metrics.read_text(encoding="utf-8").splitlines()]
+        self.assertEqual([m["outcome"] for m in metrics], ["success", "content_rejected", "success"])
+
+    def test_output_rejection_is_not_treated_as_an_outage(self):
+        error = 'http 500: {"error":{"message":"output new_sensitive (1027)"}}'
+        with mock.patch.object(translate, "_resolve_backend", return_value=("url", "token")), \
+                mock.patch.object(translate, "_quota_preflight", return_value=True), \
+                mock.patch.object(translate, "_run_api", return_value=(None, error)) as api:
+            self.assertIsNone(translate.call_m3("prompt"))
+        self.assertEqual(api.call_count, 1)
+        runtime = json.loads(self.runtime.read_text(encoding="utf-8"))
+        self.assertEqual(runtime["status"], "error")
+        self.assertEqual(runtime["failure_code"], "content_rejected")
+        self.assertIsNone(runtime["next_retry_at"])
+
     def test_tag_vocab_change_invalidates_saved_chunks(self):
         self.make_slug()
         good = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": []})

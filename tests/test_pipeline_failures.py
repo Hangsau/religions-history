@@ -13,6 +13,15 @@ import pipeline_failures  # noqa: E402
 
 
 class PipelineFailureTests(unittest.TestCase):
+    def test_content_rejection_is_blocked_without_repeated_identical_requests(self):
+        with tempfile.TemporaryDirectory() as td:
+            path, lock = self.paths(td)
+            entry = pipeline_failures.record_failure(
+                "book", "核心", "tag", "content_rejected", "chunk 525 rejected", path=path, lock_path=lock)
+            self.assertEqual(entry["status"], "blocked")
+            self.assertEqual(entry["attempts"], 1)
+            self.assertIsNone(entry["next_retry_at"])
+
     def paths(self, td):
         root = Path(td)
         return root / "failed.json", root / "failed.lock"

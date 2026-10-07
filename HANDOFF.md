@@ -3,6 +3,35 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-10-07 11:15 續修：內容拒絕誤判供應商故障，watcher 無限重啟
+
+- 上次恢復確實從 30 繼續跑到 524 段，最後成功在 07:23:44；之後卡住。
+  真正錯誤為 HTTP 500 包住 `input new_sensitive (1026)`，是 MiniMax 內容拒絕。
+  官方對照：https://platform.minimax.io/docs/api-reference/errorcode （1026 input、1027 output）。
+- 兩個程式缺口：call_m3 先按 HTTP 500 分到 provider_unavailable；watcher 只等待
+  official_reset/fallback，漏掉 translate 寫出的 provider_backoff，看到額度充足便立即重啟。
+  11:10 維護前 runtime retry_attempt 已達 428。先前的測試只涵蓋斷點續跑與啟動成功，未涵蓋此組合。
+- 已修：1026/1027 分為 content_rejected；真供應商故障尊重 next_retry_at，resume 入口再檢查
+  未到期不得重啟。到期只稱為「單次重試」，不以額度充足宣稱生成 API 已恢復。
+- 標籤 checkpoint 可保存 blocked 段落與 API 原因、input hash、時間；繼續其他段落，保留
+  unresolved 缺口。含 blocked 的書**不得發布整本標籤或標 done**；處理完其餘段落後 book-level
+  content_rejected 直接 blocked，不進四次同內容重試。重開也不會重送已拒絕的段落。
+- 已用保存的 API 錯誤與相同 input hash，把第 525 段標記待審；524 段成功結果保留，原文、譯文、
+  prompt 與模型均未改。沒有以空標籤補缺口。
+- 11:14:59 恢復 supervisor 37804 → worker 56740；11:15:33 已保存 533 段，正在 535/3162，
+  blocked chunks=[525]。新成功回覆有 usage（例第 534 段 input 1099、output 160、cache_read 2007）。
+  此為當時快照，以 runtime/manifest 最新數字為準。
+- 持續觀察至 11:23:13：同一 supervisor/worker 持續存活，成功保存 658 段、正在 660 段；
+  11:14:59 後共 136 次成功回覆、無 provider wait，唯一待審仍為 525。11:23:35 官方 quota
+  probe 顯示 5h remaining=98%、weekly remaining=99%（5 小時窗已有約 2% 使用量）。
+- 90 項測試全過，新增 provider_backoff 不提前 probe/resume、到期只派一次、直接 resume 防提前、
+  1026/1027 不誤判 outage、段落隔離後繼續且不發布部分 tags、重開不重送拒絕段落、
+  任務開始的 PIPELINE_STATUS 不沿用 idle。
+- 本機錯誤與 524 段 manifest 備份：tmp/tag-resume-20261007/provider-wait/。
+  HALT 已移除；第 525 段仍待審，整本維持未完成。單純 --unblock 書籍不會清除段落的拒絕紀錄。
+
+---
+
 ## 2026-10-07 標籤斷點續跑與狀態修復
 
 ### 結果

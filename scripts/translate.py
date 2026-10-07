@@ -214,6 +214,17 @@ def _save_checkpoint_part(active: Path, manifest: dict, index: int, output: str)
                        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
 
 
+def _block_checkpoint_part(active: Path, manifest: dict, index: int, error: str) -> None:
+    """Retain an explicit unresolved chunk; never resubmit or count it complete."""
+    manifest["chunks"][index - 1].update(
+        status="blocked", output_sha256=None, completed_at=None,
+        error_code="content_rejected", last_error=str(error)[:1000],
+        blocked_at=datetime.now(TZ).isoformat())
+    manifest["updated_at"] = datetime.now(TZ).isoformat()
+    _atomic_write_text(active / "manifest.json",
+                       json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+
+
 def _append_metric(event: dict) -> None:
     try:
         METRICS_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -254,6 +265,8 @@ def _call_m3_measured(prompt: str, slug: str, task: str, input_chars: int,
         last_error = str(runtime.get("last_error") or "").lower()
         if output is not None:
             outcome = "success"
+        elif runtime.get("failure_code") == "content_rejected":
+            outcome = "content_rejected"
         elif "timeout" in last_error:
             outcome = "timeout"
         elif runtime.get("status") == "waiting_quota":
@@ -269,6 +282,7 @@ def _call_m3_measured(prompt: str, slug: str, task: str, input_chars: int,
             "input_chars": input_chars, "prompt_chars": len(prompt),
             "elapsed_ms": round((time.monotonic() - started) * 1000), "outcome": outcome,
             "output_chars": len(output or ""), "resumed": resumed,
+            "failure_code": runtime.get("failure_code") if output is None else None,
         }
         if output is not None and LAST_USAGE:
             metric["usage"] = dict(LAST_USAGE)
@@ -604,7 +618,7 @@ def _wait_for_provider(error: str, code: str = "provider_timeout") -> None:
                          quota_wait_mode="provider_backoff", retry_attempt=attempt,
                          last_error=error, failure_code=code, failure_scope="provider",
                          handoff=_handoff(code, retry_at.isoformat()), **CURRENT_WORK)
-    print(f"  [provider-wait] M3 暫時無回應；已保留 chunk，{delay // 60} 分鐘後由 watcher 接手")
+    print(f"  [provider-wait] {error}；已保留 chunk，{delay // 60} 分鐘後由 watcher 接手")
 
 
 def _record_generation_error(error: str, code: str = "generation_error",
@@ -679,6 +693,12 @@ def call_m3(prompt: str, dry_run: bool = False, system: str | None = None) -> st
                                  next_retry_at=None, wait_mode=None, quota_wait_mode=None)
             return out
         detail = (err or "").lower()
+        # MiniMax can wrap content rejection 1026/1027 in HTTP 500. It is a
+        # content-specific failure, not an outage or an exhausted quota.
+        if "input new_sensitive" in detail or "output new_sensitive" in detail:
+            _record_generation_error(err or "MiniMax rejected content", "content_rejected")
+            print(f"  [content-rejected] {err}")
+            return None
         if "timeout" in detail:
             _wait_for_provider(err or "M3 request timed out", "provider_timeout")
             print(f"  [warn] {PRIMARY_MODEL} 失敗（{err}）")
@@ -1103,6 +1123,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
     tag_chunks_total = len(chunk_texts)
     print(f"  [chunk] {slug} (tag): {tag_chunks_total} chunks")
     completed = {}
+    blocked = set()
     if not dry_run:
         # Include the actual prompt template, metadata and both vocabularies in
         # identity, so resumed chunks cannot silently use obsolete instructions.
@@ -1110,7 +1131,14 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
             slug, meta, "", whitelist, psych_whitelist)
         active, manifest, completed = _prepare_checkpoint(
             slug, "tag", text, checkpoint_role, chunk_texts)
+        blocked = {c["index"] for c in manifest["chunks"] if c.get("status") == "blocked"}
+        set_current_work(slug, "tag", chunks_total=tag_chunks_total)
+        _write_runtime_state(tag_blocked_chunks=sorted(blocked), tag_completed_chunks=len(completed))
+    resumed_run = bool(completed)
     for i, chunk_text in enumerate(chunk_texts, 1):
+        if i in blocked:
+            print(f"    [blocked-chunk {i}/{tag_chunks_total}] {slug} (tag)  content rejection retained for review")
+            continue
         obj = None
         if i in completed:
             try:
@@ -1121,6 +1149,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
                 obj = cached
                 print(f"    [resume {i}/{tag_chunks_total}] {slug} (tag)  checkpoint hit")
             else:
+                completed.pop(i, None)
                 manifest["chunks"][i - 1].update(
                     status="pending", output_sha256=None, completed_at=None)
                 _atomic_write_text(active / "manifest.json",
@@ -1133,10 +1162,16 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
             if not dry_run:
                 set_current_work(slug, "tag", i, tag_chunks_total)
             result, obj = _call_tag_json(prompt, slug, len(chunk_text), i, tag_chunks_total,
-                                         role, dry_run, resumed=bool(completed))
+                                         role, dry_run, resumed=resumed_run)
             if result == "dry_run":
                 continue
             if result == "call_failed":
+                if LAST_FAILURE.get("code") == "content_rejected":
+                    _block_checkpoint_part(active, manifest, i, str(LAST_FAILURE.get("message")))
+                    blocked.add(i)
+                    _write_runtime_state(tag_blocked_chunks=sorted(blocked))
+                    print(f"    [blocked-chunk {i}/{tag_chunks_total}] {slug} (tag)  continuing other chunks")
+                    continue
                 return False
             if obj is None:
                 _set_failure("invalid_tag_json", "scripture", f"tag chunk {i} returned invalid tag JSON")
@@ -1144,10 +1179,18 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
                 return False
             _save_checkpoint_part(active, manifest, i,
                                   json.dumps(obj, ensure_ascii=False, sort_keys=True))
+            completed[i] = json.dumps(obj, ensure_ascii=False)
+            _write_runtime_state(tag_completed_chunks=len(completed))
         ingest(obj)
 
     if dry_run:
         return True
+    if blocked:
+        message = f"{len(blocked)} tag chunks require review after content rejection: {', '.join(map(str, sorted(blocked)))}"
+        set_current_work(slug, "tag", chunks_total=tag_chunks_total)
+        _record_generation_error(message, "content_rejected")
+        print(f"  [content-blocked] {slug}: {message}; metadata unchanged, checkpoints retained")
+        return False
     semantic_tags = sorted(sem)
     psych_tags = sorted(psych)[:5]
     keywords = kw[:15]

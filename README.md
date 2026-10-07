@@ -11,6 +11,9 @@
 
 選用的 Windows 排程可由 `scripts/install-pipeline-task.ps1` 安裝（登入時＋每 5 分鐘 watchdog）；腳本已提供但不會自行註冊。
 
+內容遭 MiniMax 拒絕（1026/1027）時，標籤管線會保存待審段落並繼續其他段落，整本保持未完成。
+供應商故障則依 `next_retry_at` 退避；額度充足不會提前解除等待。
+
 ---
 
 ## 專案目標

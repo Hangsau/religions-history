@@ -180,6 +180,9 @@ def resume(tier: str) -> bool:
     state = load_state()
     if state.get("status") not in WAITING_STATUSES:
         return False
+    target = _retry_at(state)
+    if target is not None and target > datetime.now(TZ):
+        return False  # Quota availability must never bypass a provider backoff.
     state.update(status="running", resumed_at=datetime.now(TZ).isoformat(),
                  last_error=None, next_retry_at=None, quota_wait_mode=None,
                  wait_mode=None, resumed_by="quota-watch-resume.py")
@@ -229,7 +232,16 @@ def main() -> None:
         waiting_status = state.get("status")
         mode = state.get("wait_mode") or state.get("quota_wait_mode")
         target = _retry_at(state)
-        if mode in {"official_reset", "fallback"} and target is not None and target > datetime.now(TZ):
+        if waiting_status == "waiting_provider" and (mode != "provider_backoff" or target is None):
+            if target is None:
+                delay = BACKOFF_SECONDS[min(_fallback_attempt(state), len(BACKOFF_SECONDS) - 1)]
+                target = datetime.now(TZ) + timedelta(seconds=delay)
+            mode = "provider_backoff"
+            state.update(wait_mode=mode, quota_wait_mode=mode, next_retry_at=target.isoformat())
+            if isinstance(state.get("handoff"), dict):
+                state["handoff"]["next_retry_at"] = target.isoformat()
+            save_state(state)
+        if mode in {"official_reset", "fallback", "provider_backoff"} and target is not None and target > datetime.now(TZ):
             wait_result = _wait_until(target, mode, deadline)
             if wait_result == "halt":
                 log("[exit] 偵測人工 HALT，停止自動恢復")
@@ -239,6 +251,14 @@ def main() -> None:
                 return
             if wait_result != "due":
                 continue
+
+        if waiting_status == "waiting_provider":
+            log("[retry-due] 供應商退避時間到期，從 checkpoint 單次重試；尚未宣稱 API 恢復")
+            if resume(args.tier):
+                log("[exit] 已交給 supervisor 重試，watcher 退出")
+            else:
+                log("[exit] 重試時間或狀態已改變，未啟動 supervisor")
+            return
 
         outcome, detail, quota, retry_at = probe_quota()
         if HALT.exists():

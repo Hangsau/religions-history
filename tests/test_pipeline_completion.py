@@ -110,6 +110,18 @@ class PipelineCompletionTests(unittest.TestCase):
             pipeline.finish_runtime("核心", [], ["tag"], self.state)
             self.assertEqual(self.runtime.read_text(encoding="utf-8"), before)
 
+    def test_starting_book_report_does_not_reuse_idle_state(self):
+        self.book()
+        self.runtime.write_text(json.dumps({"status": "idle", "idle_reason": "resume_pending"}), encoding="utf-8")
+        def process(*args):
+            report = (self.overview / "PIPELINE_STATUS.md").read_text(encoding="utf-8")
+            self.assertIn("**running**", report)
+            self.assertNotIn("**idle**", report)
+            self.halt.write_text("test boundary", encoding="utf-8")
+            return True, []
+        with mock.patch.object(pipeline, "process_slug", side_effect=process):
+            self.run_main()
+
     def test_only_missing_clean_complete_metadata_is_reconciled(self):
         for slug, text, extra in [
             ("clean", "# 翻譯\n" + "正文" * 100, {}),

@@ -402,6 +402,9 @@ def pipeline_health(now: float, runtime: dict | None = None) -> dict:
         chunks_total = runtime.get("chunks_total")
         chunk_text = f" chunk {chunk}/{chunks_total}" if chunk and chunks_total else ""
         live_detail = f" · {ACTION_ZH.get(runtime.get('task'), runtime.get('task') or '?')}{chunk_text}"
+        rejected = runtime.get("tag_blocked_chunks") or []
+        if runtime.get("task") == "tag" and rejected:
+            live_detail += f" · {len(rejected)} 段待審（內容遭拒，未計入完成）"
     elif runtime and not runtime.get("_fresh"):
         live_detail = " · runtime 已逾期，顯示持久狀態"
     return {**base, "color": DONE,

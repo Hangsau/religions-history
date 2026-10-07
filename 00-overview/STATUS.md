@@ -1,6 +1,6 @@
 # STATUS — religions-history 統一看板
 
-> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：2026-10-07 06:59:17 +0800
+> 由 `scripts/status.py` 產生（pull-based 快照，勿手改）。更新：2026-10-07 11:17:58 +0800
 
 **4683 部 / 27 宗教 / 644 MB**
 
@@ -30,7 +30,7 @@
 
 ## 收集 / 下載（Pipeline A）
 
-- 最新收錄：`cath-maige-tuired-en`（132952 分前）· 近 30 分 **+0** 部
+- 最新收錄：`cath-maige-tuired-en`（133211 分前）· 近 30 分 **+0** 部
 - 下載日誌 `pipeline-a-talmud.log`：`  [book] Benayahu on Moed Katan`
 
 ## 背景管線快照
@@ -40,15 +40,15 @@
 - **翻譯管線**：進度：**517 / 518** 已翻譯+標籤
 - **翻譯管線**：目前處理：`mahabharata`
 - **翻譯管線**：P0 尚未完整翻譯：0 部
-- **翻譯管線**：一般失敗待重試：1 部 — mahabharata
+- **翻譯管線**：一般失敗待重試：0 部
 - **翻譯管線**：已阻塞待人工處理：0 部
 
 ## 最近 git 提交
 
+- `d0e1a62b Resume validated tag checkpoints and report actual pipeline state`
+- `bfdcf9c7 Preserve completed Mahabharata translation before resumed tagging`
 - `00040301 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 2)`
 - `e0f3df09 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 1)`
 - `1284a12a Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 2)`
 - `b85a4e01 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 1)`
-- `e8b210e5 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 3)`
-- `1f8234f5 Pipeline B+C: 核心 翻譯+標籤 收尾 (processed 1)`
 

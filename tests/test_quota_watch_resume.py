@@ -118,6 +118,62 @@ class QuotaProbeTests(unittest.TestCase):
 
 
 class WatchStateTests(unittest.TestCase):
+    def test_provider_backoff_is_waited_without_quota_probe_or_resume(self):
+        retry_at = datetime.now(quota_watch.TZ) + timedelta(minutes=30)
+        state = {"status": "waiting_provider", "wait_mode": "provider_backoff",
+                 "next_retry_at": retry_at.isoformat(), "last_error": "HTTP 503"}
+        with mock.patch.object(quota_watch, "load_state", return_value=dict(state)), \
+                mock.patch.object(quota_watch, "probe_quota", return_value=("usable", "100%", {}, None)) as probe, \
+                mock.patch.object(quota_watch, "_wait_until", return_value="halt") as wait, \
+                mock.patch.object(quota_watch, "resume") as resume, \
+                mock.patch.object(quota_watch, "HALT", mock.Mock(**{"exists.return_value": False})), \
+                mock.patch.object(quota_watch, "log"), \
+                mock.patch.object(sys, "argv", ["quota-watch-resume.py"]):
+            quota_watch.main()
+        self.assertEqual(wait.call_args.args[:2], (retry_at, "provider_backoff"))
+        probe.assert_not_called()
+        resume.assert_not_called()
+
+    def test_expired_provider_backoff_dispatches_once_without_claiming_quota_recovery(self):
+        state = {"status": "waiting_provider", "wait_mode": "provider_backoff",
+                 "next_retry_at": (datetime.now(quota_watch.TZ) - timedelta(seconds=1)).isoformat()}
+        with mock.patch.object(quota_watch, "load_state", return_value=state), \
+                mock.patch.object(quota_watch, "probe_quota") as probe, \
+                mock.patch.object(quota_watch, "resume", return_value=True) as resume, \
+                mock.patch.object(quota_watch, "HALT", mock.Mock(**{"exists.return_value": False})), \
+                mock.patch.object(quota_watch, "log"), \
+                mock.patch.object(sys, "argv", ["quota-watch-resume.py"]):
+            quota_watch.main()
+        resume.assert_called_once_with("核心")
+        probe.assert_not_called()
+
+    def test_provider_wait_without_target_gets_durable_backoff(self):
+        state = {"status": "waiting_provider", "slug": "book", "chunk": 3}
+        def save(value):
+            state.update(value)
+        with mock.patch.object(quota_watch, "load_state", side_effect=lambda: dict(state)), \
+                mock.patch.object(quota_watch, "save_state", side_effect=save), \
+                mock.patch.object(quota_watch, "probe_quota") as probe, \
+                mock.patch.object(quota_watch, "_wait_until", return_value="halt"), \
+                mock.patch.object(quota_watch, "HALT", mock.Mock(**{"exists.return_value": False})), \
+                mock.patch.object(quota_watch, "log"), \
+                mock.patch.object(sys, "argv", ["quota-watch-resume.py"]):
+            quota_watch.main()
+        self.assertEqual(state["wait_mode"], "provider_backoff")
+        self.assertGreater(datetime.fromisoformat(state["next_retry_at"]), datetime.now(quota_watch.TZ))
+        self.assertEqual(state["chunk"], 3)
+        probe.assert_not_called()
+
+    def test_resume_refuses_future_target_even_if_called_directly(self):
+        state = {"status": "waiting_provider", "next_retry_at": (datetime.now(quota_watch.TZ) + timedelta(minutes=30)).isoformat()}
+        with mock.patch.object(quota_watch, "HALT", mock.Mock(**{"exists.return_value": False})), \
+                mock.patch.object(quota_watch, "load_state", return_value=state), \
+                mock.patch.object(quota_watch, "save_state") as save, \
+                mock.patch.object(quota_watch.subprocess, "Popen") as popen:
+            self.assertFalse(quota_watch.resume("核心"))
+        save.assert_not_called()
+        popen.assert_not_called()
+
     def test_official_reset_is_saved_before_wait_without_reprobe(self):
         state = {"status": "waiting_quota", "next_retry_at": "legacy", "retry_attempt": 2}
         retry_at = datetime.now(quota_watch.TZ) + timedelta(hours=2)
