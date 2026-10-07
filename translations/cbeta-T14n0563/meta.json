@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "theophany"
+  ],
+  "keywords": [
+    "菩薩",
+    "十惡",
+    "十善",
+    "舍利弗",
+    "彌勒菩薩",
+    "迦羅婦",
+    "五通",
+    "三十二相",
+    "比丘",
+    "比丘尼",
+    "忉利天王",
+    "蓮華",
+    "羅閱祇",
+    "南無佛",
+    "發心"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0be0f8dccbadea1e97ab7187e8a6aeb14391512b005d6859ef7e13caa7350c86"
+  },
+  "tagging_models": "MiniMax-M3"
 }

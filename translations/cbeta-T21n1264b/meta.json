@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "divine-immanence",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+  ],
+  "keywords": [
+    "穰麌梨童女",
+    "陀羅尼",
+    "真言",
+    "薄伽梵",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "雪山",
+    "毒蛇",
+    "三毒",
+    "孔雀尾",
+    "根本印",
+    "隨心印",
+    "菩薩摩訶薩",
+    "受持"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1c16479f8f14e7f3b8a81b568ee6770f9c0dd99cf890a1f5244fd9cf656b900a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

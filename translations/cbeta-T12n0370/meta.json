@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "阿彌陀",
+    "鼓音聲王陀羅尼",
+    "西方安樂世界",
+    "極樂世界",
+    "念佛三昧",
+    "觀世音",
+    "大勢至",
+    "往生",
+    "蓮花化生",
+    "十方諸佛",
+    "魔王",
+    "提婆達多",
+    "閻浮提",
+    "梵行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "95a8fa95133c104390a29bed492a521ce6347544c4f940d8a8ae961ce043d497"
+  },
+  "tagging_models": "MiniMax-M3"
 }
