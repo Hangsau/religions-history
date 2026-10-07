@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "monotheist-exclusive",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "八方天",
+    "帝釋天",
+    "焰摩天",
+    "多聞天",
+    "伊舍那天",
+    "梵天",
+    "地天",
+    "甘露真言",
+    "真言",
+    "道場",
+    "塗香",
+    "時華",
+    "宿曜",
+    "擁護",
+    "吉祥"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ac886d6ea944fe49111e73a402a31ecc74caa783adbd126dc4e946a481d10de6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

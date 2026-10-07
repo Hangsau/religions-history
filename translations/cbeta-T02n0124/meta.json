@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "緣起",
+    "無明",
+    "行",
+    "識",
+    "名色",
+    "六處",
+    "觸",
+    "受",
+    "愛",
+    "取",
+    "有",
+    "生",
+    "老死",
+    "純大苦蘊",
+    "十二緣起"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "death",
+    "existence-why-born",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c05543575ffac14c281f72417dfe6f088be85dba4310f9b5a3e0d9b476649001"
+  },
+  "tagging_models": "MiniMax-M3"
 }
