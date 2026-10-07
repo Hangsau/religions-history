@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "against-idolatry",
+    "chanting",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "六字神呪王經",
+    "阿難陀",
+    "舍衛國",
+    "祇陀林",
+    "旃陀羅",
+    "陀羅尼",
+    "三寶",
+    "如來",
+    "菩薩",
+    "呪詛",
+    "厭蠱",
+    "梵天",
+    "帝釋",
+    "天龍八部",
+    "歸依"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "illness-body",
+    "loneliness-belonging"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "67af3faa2e99980d65669bf7e8fb85872890c6f91ca3e1552e0fcf6fabd67a2c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

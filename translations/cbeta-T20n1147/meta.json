@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+  ],
+  "keywords": [
+    "虛空藏菩薩",
+    "陀羅尼",
+    "部多",
+    "世尊",
+    "釋迦牟尼如來",
+    "尾鉢尸如來",
+    "尸企如來",
+    "毘舍浮如來",
+    "羯矩忖那如來",
+    "羯曩迦牟尼如來",
+    "迦葉波如來",
+    "殑伽河",
+    "心印",
+    "護摩",
+    "疾病消除"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "06a8440fd49e8885317dde8e0cb7ea924f71841a1e35447e85a0992d41ffc29d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "multiple-canons",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "佛頂尊勝陀羅尼",
+    "釋提桓因",
+    "善住天子",
+    "閻摩法王",
+    "舍衛國祇樹給孤獨園",
+    "地獄",
+    "畜生",
+    "餓鬼",
+    "蓮華化生",
+    "極樂國",
+    "宿命智",
+    "灌頂",
+    "阿修羅",
+    "八大菩薩",
+    "三十二相"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "50731c0fb59e350e7e8bcf1ab3d0b11424d98ae68c3af8b9254292872ca7f411"
+  },
+  "tagging_models": "MiniMax-M3"
 }
