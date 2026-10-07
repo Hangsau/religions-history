@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "菩薩摩訶薩",
+    "舍利子",
+    "世尊",
+    "四念處",
+    "八正道",
+    "波羅蜜",
+    "空三摩地",
+    "無相三摩地",
+    "無願三摩地",
+    "色即是空",
+    "十種疑惑",
+    "一切智智",
+    "六波羅蜜",
+    "十八不共法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2c491d31d0621bf7c7770cdb5c766b7c03faf56e62449252c543269e9a37fefb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
