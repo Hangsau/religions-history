@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "八部佛名經",
+    "善作",
+    "天帝釋",
+    "維耶離",
+    "奈女樹園",
+    "如來",
+    "奉至誠",
+    "固進度思吉義",
+    "觀明功勳",
+    "慈英寂首",
+    "真性上首",
+    "念眾生稱上首",
+    "踊首高超須彌",
+    "勝恥稱上首",
+    "東方諸佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "81c6b9e160eeebc4bd641c6ddcb5e9a10b9445684354acd9f92cb87ab873617e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
