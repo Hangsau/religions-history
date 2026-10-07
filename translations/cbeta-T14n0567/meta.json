@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "monastic",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "十二因緣",
+    "無明",
+    "緣起",
+    "法輪",
+    "波羅奈",
+    "鹿苑",
+    "梵志",
+    "首意",
+    "阿難",
+    "泥洹",
+    "寶光如來",
+    "栴檀",
+    "幻化",
+    "空輪",
+    "滅度"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "42a2d947b7b2d99e40bc5f616c0a43a53a42a67752e81db6a0559e257e170027"
+  },
+  "tagging_models": "MiniMax-M3"
 }

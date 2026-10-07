@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "heaven-hell",
+    "monastic"
+  ],
+  "keywords": [
+    "阿闍世王",
+    "提婆達兜",
+    "五逆罪",
+    "殺父",
+    "地獄",
+    "泥犁",
+    "拍毱",
+    "四天王天",
+    "三十三天",
+    "炎天",
+    "兜術天",
+    "化自在天",
+    "他化自在天",
+    "辟支佛",
+    "無穢"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0f0d33b723e4c7c3e5d6c10e1131f1b48a12b1ea9d1da2587d39c46f48841acc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
