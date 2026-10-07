@@ -19240,6 +19240,11 @@
       "slug": "da-dai-liji",
       "name_zh": "大戴禮記",
       "religion": "儒教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     }
   ],
   "七教會": [
@@ -19647,6 +19652,11 @@
       "slug": "da-dai-liji",
       "name_zh": "大戴禮記",
       "religion": "儒教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     }
   ],
   "三苦": [
@@ -19654,6 +19664,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "三都": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     }
   ],
   "三魂": [
@@ -19713,6 +19730,13 @@
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
+    }
+  ],
+  "上宮廄戶": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     }
   ],
   "上師": [
@@ -19842,6 +19866,13 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
+    }
+  ],
+  "不苟篇": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "不退轉": [
@@ -20030,6 +20061,13 @@
       "slug": "mahaprajnaparamita-shastra",
       "name_zh": "大智度論",
       "religion": "佛教"
+    }
+  ],
+  "中都宰": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     }
   ],
   "中阿含經": [
@@ -21122,6 +21160,11 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "仇敵": [
@@ -21956,6 +21999,13 @@
       "slug": "vulgate-amos",
       "name_zh": "阿摩司書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "伯禽": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     }
   ],
   "伯陽": [
@@ -23203,6 +23253,13 @@
       "slug": "bible-obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "基督教"
+    }
+  ],
+  "先代舊事本紀": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     }
   ],
   "先天": [
@@ -25254,6 +25311,13 @@
       "religion": "佛教"
     }
   ],
+  "去人欲存天理": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    }
+  ],
   "參同契": [
     {
       "slug": "wuzhen-pian",
@@ -25523,6 +25587,13 @@
       "religion": "斯拉夫"
     }
   ],
+  "司空": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    }
+  ],
   "司過之神": [
     {
       "slug": "taishang-ganying-pian",
@@ -25611,6 +25682,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "君王": [
@@ -25778,6 +25854,11 @@
     {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
       "religion": "儒教"
     }
   ],
@@ -26885,6 +26966,13 @@
       "religion": "基督教"
     }
   ],
+  "國造": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "國風": [
     {
       "slug": "book-of-poetry",
@@ -27352,6 +27440,13 @@
       "religion": "基督教"
     }
   ],
+  "堯": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    }
+  ],
   "堯舜": [
     {
       "slug": "lujia-xinyu",
@@ -27691,6 +27786,13 @@
       "religion": "佛教"
     }
   ],
+  "大司寇": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    }
+  ],
   "大國主": [
     {
       "slug": "kojiki-chamberlain",
@@ -27711,6 +27813,11 @@
     }
   ],
   "大學": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
     {
       "slug": "great-learning",
       "name_zh": "大學",
@@ -28327,6 +28434,13 @@
       "religion": "佛教"
     }
   ],
+  "天孫本紀": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "天孫降臨": [
     {
       "slug": "kojiki-chamberlain",
@@ -28365,6 +28479,13 @@
       "slug": "kogo-shui-zh",
       "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
+    }
+  ],
+  "天德": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "天心": [
@@ -28731,6 +28852,13 @@
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
+      "religion": "儒教"
+    }
+  ],
+  "夾谷": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
       "religion": "儒教"
     }
   ],
@@ -29216,6 +29344,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "liezi",
       "name_zh": "列子",
       "religion": "道教"
@@ -29223,6 +29356,11 @@
     {
       "slug": "liji",
       "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
       "religion": "儒教"
     },
     {
@@ -29316,6 +29454,13 @@
     {
       "slug": "gongyang-zhuan",
       "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    }
+  ],
+  "季桓子": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
       "religion": "儒教"
     }
   ],
@@ -29577,6 +29722,11 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     }
   ],
   "定覺支": [
@@ -29957,6 +30107,13 @@
       "religion": "道教"
     }
   ],
+  "小人": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    }
+  ],
   "小先知書": [
     {
       "slug": "vulgate-jonah",
@@ -29976,6 +30133,13 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    }
+  ],
+  "少正卯": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     }
   ],
   "尚書": [
@@ -30028,6 +30192,13 @@
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
+    }
+  ],
+  "尹文": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     }
   ],
   "尼哥波立": [
@@ -30876,6 +31047,13 @@
       "religion": "儒教"
     }
   ],
+  "師曠": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    }
+  ],
   "師道": [
     {
       "slug": "zhoudunyi-tongshu",
@@ -31573,6 +31751,13 @@
       "religion": "道教"
     }
   ],
+  "徐愛": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    }
+  ],
   "得墨忒耳": [
     {
       "slug": "homeric-hymns-el",
@@ -31754,6 +31939,13 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
+  "心即理": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
       "religion": "儒教"
     }
   ],
@@ -32299,6 +32491,13 @@
       "religion": "印度教"
     }
   ],
+  "惠施": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    }
+  ],
   "惡人": [
     {
       "slug": "bible-proverbs",
@@ -32497,6 +32696,11 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "慚": [
@@ -32599,6 +32803,13 @@
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
+    }
+  ],
+  "成王": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     }
   ],
   "成聖": [
@@ -33298,6 +33509,13 @@
       "religion": "基督教"
     }
   ],
+  "推古天皇": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "推基古": [
     {
       "slug": "bible-titus",
@@ -33926,6 +34144,13 @@
       "religion": "佛教"
     }
   ],
+  "攝政": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "支派": [
     {
       "slug": "vulgate-judges",
@@ -34511,6 +34736,13 @@
       "religion": "佛教"
     }
   ],
+  "文王": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    }
+  ],
   "文言": [
     {
       "slug": "book-of-changes",
@@ -34621,6 +34853,13 @@
     {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
+  "新民": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
       "religion": "儒教"
     }
   ],
@@ -34866,8 +35105,20 @@
   ],
   "明明德": [
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
+      "religion": "儒教"
+    }
+  ],
+  "明王之道": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
       "religion": "儒教"
     }
   ],
@@ -34918,6 +35169,13 @@
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
+      "religion": "儒教"
+    }
+  ],
+  "晉平公": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
       "religion": "儒教"
     }
   ],
@@ -35221,6 +35479,13 @@
       "slug": "deuteronomy",
       "name_zh": "申命記",
       "religion": "猶太教"
+    }
+  ],
+  "曲直": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "書信": [
@@ -35615,6 +35880,13 @@
       "religion": "儒教"
     }
   ],
+  "朱子": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    }
+  ],
   "朱熹": [
     {
       "slug": "doctrine-of-the-mean",
@@ -35756,6 +36028,13 @@
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "格物": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     }
   ],
   "格物致知": [
@@ -37054,6 +37333,13 @@
       "religion": "基督教"
     }
   ],
+  "汶陽之田": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    }
+  ],
   "沉淪之子": [
     {
       "slug": "bible-2-thessalonians",
@@ -37150,6 +37436,20 @@
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
+    }
+  ],
+  "河間獻王": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    }
+  ],
+  "治亂": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "治國": [
@@ -39277,6 +39577,13 @@
       "religion": "基督教"
     }
   ],
+  "申徒狄": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    }
+  ],
   "界": [
     {
       "slug": "bud-abhidharmakosha-sa",
@@ -39483,6 +39790,13 @@
       "religion": "道教"
     }
   ],
+  "百八十部": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "百合花": [
     {
       "slug": "bible-song-of-songs",
@@ -39525,6 +39839,13 @@
       "religion": "印度教"
     }
   ],
+  "皇孫本紀": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "皇極讜義": [
     {
       "slug": "wenzhongzi-zhongshuo",
@@ -39536,6 +39857,13 @@
     {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
+      "religion": "儒教"
+    }
+  ],
+  "盜跖": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     }
   ],
@@ -39932,6 +40260,13 @@
       "religion": "基督教"
     }
   ],
+  "知行合一": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    }
+  ],
   "知識": [
     {
       "slug": "bible-proverbs",
@@ -40184,6 +40519,13 @@
       "religion": "神道"
     }
   ],
+  "神代本紀": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "神全": [
     {
       "slug": "kangcangzi",
@@ -40325,6 +40667,13 @@
       "religion": "神道"
     }
   ],
+  "神皇系圖": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "神祇": [
     {
       "slug": "engishiki-jingi-zh",
@@ -40343,6 +40692,13 @@
     {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
+    }
+  ],
+  "神祇本紀": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
       "religion": "神道"
     }
   ],
@@ -40838,6 +41194,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
@@ -40860,6 +41221,13 @@
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "禮義": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "禱告": [
@@ -40899,6 +41267,13 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    }
+  ],
+  "禹": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     }
   ],
   "科林斯": [
@@ -43176,6 +43551,13 @@
       "religion": "印度教"
     }
   ],
+  "聖德太子": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "聖教量": [
     {
       "slug": "nyaya-sutra",
@@ -43977,6 +44359,11 @@
       "slug": "aristotle-nicomachean-ethics-el",
       "name_zh": "尼各馬可倫理學（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     }
   ],
   "至明": [
@@ -44041,6 +44428,11 @@
     }
   ],
   "致知": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
     {
       "slug": "jin-si-lu",
       "name_zh": "近思錄",
@@ -44173,6 +44565,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     }
   ],
   "舞蹈": [
@@ -44295,6 +44692,13 @@
       "slug": "bible-song-of-songs",
       "name_zh": "雅歌",
       "religion": "基督教"
+    }
+  ],
+  "良知": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     }
   ],
   "色即是空": [
@@ -44429,6 +44833,13 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "荀子": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "荊棘": [
@@ -44874,6 +45285,13 @@
     {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
+      "religion": "神道"
+    }
+  ],
+  "蘇我馬子": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
       "religion": "神道"
     }
   ],
@@ -45433,6 +45851,13 @@
       "religion": "印度教"
     }
   ],
+  "親民": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    }
+  ],
   "親老": [
     {
       "slug": "hanshi-waizhuan",
@@ -45824,12 +46249,22 @@
       "religion": "儒教"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "zhoudunyi-tongshu",
       "name_zh": "通書",
       "religion": "儒教"
     }
   ],
   "誠意": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
     {
       "slug": "great-learning",
       "name_zh": "大學",
@@ -46103,6 +46538,13 @@
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
+    }
+  ],
+  "豐聰耳": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     }
   ],
   "象傳": [
@@ -47121,6 +47563,13 @@
     {
       "slug": "er-ya",
       "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
+  "鄧析": [
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     }
   ],
@@ -48385,6 +48834,13 @@
       "religion": "道教"
     }
   ],
+  "陰陽本紀": [
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    }
+  ],
   "陰騭": [
     {
       "slug": "wenchang-yinzhiwen",
@@ -48418,6 +48874,13 @@
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
+    }
+  ],
+  "陽明": [
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     }
   ],
   "陽火": [
@@ -49354,6 +49817,20 @@
       "religion": "儒教"
     }
   ],
+  "魯公": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    }
+  ],
+  "魯哀公": [
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    }
+  ],
   "魯特羅": [
     {
       "slug": "shvetashvatara-upanishad",
@@ -49626,10 +50103,22 @@
       "religion": "基督教"
     }
   ],
+  "齊侯": [
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    }
+  ],
   "齊宣王": [
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
       "religion": "儒教"
     }
   ],

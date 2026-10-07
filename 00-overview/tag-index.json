@@ -131,6 +131,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -246,6 +251,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sibylline-oracles-el",
       "name_zh": "西比拉神諭集（希臘原文）",
       "religion": "古希臘羅馬"
@@ -299,6 +309,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -773,9 +788,19 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -911,6 +936,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yucatan-before-after-conquest",
@@ -1170,6 +1200,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -1285,6 +1320,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
@@ -1293,6 +1333,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "snorra-edda-is",
@@ -1362,6 +1407,11 @@
     {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -2127,6 +2177,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -2982,6 +3037,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
@@ -2990,6 +3055,11 @@
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "zhou-li",
@@ -3119,6 +3189,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -3199,6 +3274,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sutta-nipata",
       "name_zh": "經集",
       "religion": "佛教"
@@ -3221,6 +3301,11 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -4310,6 +4395,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -4383,6 +4473,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yinfu-jing",
@@ -4687,6 +4782,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -4925,6 +5025,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -5202,6 +5307,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -5215,6 +5325,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -5432,6 +5547,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -5639,6 +5759,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
@@ -5777,6 +5902,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -5989,9 +6119,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "snorra-edda-is",
@@ -6086,6 +6226,11 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -6291,6 +6436,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -6491,6 +6641,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -6671,6 +6826,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
@@ -6764,6 +6924,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yogacarabhumi",
@@ -7036,6 +7201,11 @@
       "slug": "sefaria-rashba-on-megillah",
       "name_zh": "Rashba on Megillah",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "shiva-purana",
@@ -7360,6 +7530,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -7398,6 +7573,11 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -7779,6 +7959,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -7912,6 +8097,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "shiva-purana",
@@ -8364,6 +8554,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "shiva-purana",
@@ -9212,6 +9407,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -9410,6 +9610,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -9687,6 +9892,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -9700,6 +9910,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "shvetashvatara-upanishad",
@@ -10244,6 +10459,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -10424,6 +10644,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
@@ -10432,6 +10657,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -10551,6 +10781,11 @@
     {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -11301,6 +11536,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -12040,6 +12280,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -12696,6 +12941,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -13268,6 +13518,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "some-answered-questions",
       "name_zh": "已答之問（Abdu'l-Bahá）",
       "religion": "巴哈伊"
@@ -13291,6 +13546,11 @@
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "essentially-good": [
@@ -13370,6 +13630,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -13427,6 +13692,11 @@
     {
       "slug": "jin-si-lu",
       "name_zh": "近思錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
       "religion": "儒教"
     },
     {
@@ -13535,6 +13805,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sibylline-oracles-el",
       "name_zh": "西比拉神諭集（希臘原文）",
       "religion": "古希臘羅馬"
@@ -13617,6 +13892,11 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -15541,6 +15821,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -15606,6 +15891,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sibylline-oracles-el",
       "name_zh": "西比拉神諭集（希臘原文）",
       "religion": "古希臘羅馬"
@@ -15649,6 +15939,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yangzi-fayan",
@@ -16550,6 +16845,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sibylline-oracles-el",
       "name_zh": "西比拉神諭集（希臘原文）",
       "religion": "古希臘羅馬"
@@ -16817,6 +17117,11 @@
       "religion": "道教"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -16907,6 +17212,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "some-answered-questions",
       "name_zh": "已答之問（Abdu'l-Bahá）",
       "religion": "巴哈伊"
@@ -16929,6 +17239,11 @@
     {
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -17104,6 +17419,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -17222,6 +17542,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -17474,6 +17799,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
@@ -17616,6 +17946,11 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -18071,6 +18406,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sikh-religion-macauliffe",
@@ -18552,6 +18892,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -18767,6 +19112,11 @@
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     },
     {
       "slug": "corpus-hermeticum-el",
@@ -19259,6 +19609,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -19379,6 +19734,11 @@
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     },
     {
       "slug": "dadestan-i-denig",
@@ -19534,6 +19894,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -19728,6 +20093,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
@@ -19918,6 +20288,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -20098,6 +20473,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shenxian-zhuan",
       "name_zh": "神仙傳",
       "religion": "道教"
@@ -20106,6 +20486,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sikh-religion-macauliffe",
@@ -20231,6 +20616,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -20390,6 +20780,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -20475,6 +20870,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
@@ -20483,6 +20883,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -20532,6 +20937,11 @@
     {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -20757,6 +21167,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -20890,6 +21305,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "shiva-purana",
@@ -21172,6 +21592,11 @@
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     },
     {
       "slug": "contemplation-sutra",
@@ -21659,6 +22084,11 @@
       "religion": "道教"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -22069,6 +22499,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -22608,6 +23043,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "shurangama-sutra",
       "name_zh": "大佛頂如來密因修證了義諸菩薩萬行首楞嚴經",
       "religion": "佛教"
@@ -22736,6 +23176,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -23597,6 +24042,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
@@ -23640,6 +24090,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "zhou-li",
@@ -24139,6 +24594,11 @@
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
       "religion": "美洲"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     },
     {
       "slug": "corpus-hermeticum-el",
@@ -24783,6 +25243,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -25165,6 +25630,11 @@
       "religion": "神道"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "some-answered-questions",
       "name_zh": "已答之問（Abdu'l-Bahá）",
       "religion": "巴哈伊"
@@ -25367,6 +25837,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -25482,6 +25957,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
@@ -25525,6 +26005,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -26024,6 +26509,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -26121,6 +26611,11 @@
     {
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -26498,6 +26993,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -26818,6 +27318,11 @@
       "slug": "samuel-2",
       "name_zh": "撒母耳記下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "snorra-edda-is",
@@ -27587,6 +28092,11 @@
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "shiva-purana",
@@ -28416,6 +28926,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -28424,6 +28939,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -28928,6 +29448,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -29123,6 +29648,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -29131,6 +29661,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -29365,6 +29900,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -29443,6 +29983,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -29568,6 +30113,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -29698,6 +30248,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yangzi-fayan",
@@ -30102,6 +30657,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -30327,8 +30887,18 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shang-shu",
       "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
       "religion": "儒教"
     },
     {
@@ -31550,6 +32120,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
@@ -31833,6 +32408,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -32150,6 +32730,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -32163,6 +32748,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "shurangama-sutra",
@@ -32333,6 +32923,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -32737,6 +33332,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -32942,6 +33542,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
@@ -32955,6 +33560,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "snorra-edda-is",
@@ -33679,6 +34289,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "yuhuang-benxing-jing",
       "name_zh": "高上玉皇本行集經",
       "religion": "道教"
@@ -33806,6 +34421,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -33921,6 +34541,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "snorra-edda-is",
       "name_zh": "散文埃達（古諾斯語原文）",
       "religion": "北歐"
@@ -33978,6 +34603,11 @@
     {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -34183,6 +34813,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "da-dai-liji",
       "name_zh": "大戴禮記",
       "religion": "儒教"
@@ -34356,6 +34991,11 @@
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
       "religion": "佛教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -34538,6 +35178,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
@@ -34706,6 +35351,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -34933,6 +35583,11 @@
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -35632,9 +36287,19 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -35780,6 +36445,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -36109,6 +36779,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shenxian-zhuan",
       "name_zh": "神仙傳",
       "religion": "道教"
@@ -36251,6 +36926,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "da-dai-liji",
       "name_zh": "大戴禮記",
       "religion": "儒教"
@@ -36304,6 +36984,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -36436,6 +37121,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
@@ -36488,6 +37178,11 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -36773,6 +37468,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -36938,6 +37638,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
@@ -37051,6 +37756,11 @@
       "slug": "vulgate-philippians",
       "name_zh": "腓立比書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "zhengmeng",
@@ -37472,6 +38182,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shenxian-zhuan",
       "name_zh": "神仙傳",
       "religion": "道教"
@@ -37562,6 +38277,11 @@
       "religion": "道教"
     },
     {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
+    },
+    {
       "slug": "yuhuang-benxing-jing",
       "name_zh": "高上玉皇本行集經",
       "religion": "道教"
@@ -37632,6 +38352,11 @@
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     }
   ],
   "temple-centered": [
@@ -37886,6 +38611,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -38036,9 +38766,19 @@
       "religion": "基督教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -38129,6 +38869,11 @@
       "slug": "vulgate-zechariah",
       "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -38363,6 +39108,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
@@ -38453,9 +39203,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "snorra-edda-is",
@@ -38531,6 +39291,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -38965,6 +39730,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -39165,9 +39935,19 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -39328,6 +40108,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yangzi-fayan",
@@ -40087,6 +40872,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -40100,6 +40890,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -40534,6 +41329,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -40659,6 +41459,16 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
+    },
+    {
       "slug": "snorra-edda-is",
       "name_zh": "散文埃達（古諾斯語原文）",
       "religion": "北歐"
@@ -40747,6 +41557,11 @@
       "slug": "wunengzi",
       "name_zh": "無能子",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yoruba-religion",
@@ -40969,6 +41784,11 @@
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     },
     {
       "slug": "cicero-de-natura-deorum-la",
@@ -41231,6 +42051,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -41491,6 +42316,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
@@ -41504,6 +42334,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -41708,6 +42543,11 @@
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
       "religion": "儒教"
     },
     {
@@ -41988,6 +42828,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -42221,6 +43066,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -42761,6 +43611,11 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    },
+    {
+      "slug": "xunzi",
+      "name_zh": "荀子",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -43427,6 +44282,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
     },
     {
       "slug": "seven-valleys-four-valleys",

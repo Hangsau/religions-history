@@ -21,5 +21,57 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "enlightenment",
+    "essentially-good",
+    "humility",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "prophetic-critique",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "格物",
+    "致知",
+    "親民",
+    "新民",
+    "至善",
+    "明明德",
+    "知行合一",
+    "心即理",
+    "去人欲存天理",
+    "大學",
+    "徐愛",
+    "陽明",
+    "朱子",
+    "良知",
+    "誠意"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b6738867d7b9c3e3cfda5b4d5adc256bc392b7c9e80b487273c32438e2c09406"
+  },
+  "tagging_models": "MiniMax-M3"
 }
