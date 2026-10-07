@@ -19179,6 +19179,13 @@
       "religion": "佛教"
     }
   ],
+  "七候": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    }
+  ],
   "七力": [
     {
       "slug": "an7-sevens",
@@ -19437,6 +19444,11 @@
   ],
   "三教": [
     {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -19571,6 +19583,11 @@
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
       "religion": "道教"
     }
   ],
@@ -20024,6 +20041,11 @@
   ],
   "乾坤": [
     {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
       "religion": "道教"
@@ -20088,6 +20110,13 @@
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
       "religion": "佛教"
+    }
+  ],
+  "于公": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
     }
   ],
   "五力": [
@@ -20168,6 +20197,13 @@
       "slug": "bud-lankavatara-sa",
       "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "五漸之門": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
     }
   ],
   "五濁惡世": [
@@ -20292,6 +20328,11 @@
     {
       "slug": "huangdi-neijing",
       "name_zh": "黃帝內經",
+      "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
       "religion": "道教"
     },
     {
@@ -21647,6 +21688,13 @@
       "religion": "基督教"
     }
   ],
+  "伯陽": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
   "但以理": [
     {
       "slug": "bible-daniel",
@@ -21676,6 +21724,13 @@
       "slug": "bible-3-john",
       "name_zh": "約翰三書",
       "religion": "基督教"
+    }
+  ],
+  "住心": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "何烈山": [
@@ -22714,6 +22769,16 @@
   ],
   "元氣": [
     {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
+    },
+    {
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
@@ -22721,8 +22786,20 @@
   ],
   "元神": [
     {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    }
+  ],
+  "元精": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
       "religion": "道教"
     }
   ],
@@ -23091,6 +23168,11 @@
       "religion": "道教"
     },
     {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
@@ -23129,8 +23211,18 @@
   ],
   "內觀": [
     {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
       "religion": "道教"
     },
     {
@@ -23366,6 +23458,13 @@
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
+    }
+  ],
+  "六識": [
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
     }
   ],
   "六通": [
@@ -25046,6 +25145,13 @@
       "religion": "儒教"
     }
   ],
+  "周天火候": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    }
+  ],
   "周敦頤": [
     {
       "slug": "taiji-tushuo",
@@ -25807,6 +25913,13 @@
       "religion": "佛教"
     }
   ],
+  "四恩": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    }
+  ],
   "四悉檀": [
     {
       "slug": "mahaprajnaparamita-shastra",
@@ -25988,6 +26101,13 @@
       "religion": "印度教"
     }
   ],
+  "因果": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    }
+  ],
   "因果報應": [
     {
       "slug": "taishang-ganying-pian",
@@ -26112,12 +26232,22 @@
   ],
   "坎離": [
     {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
       "religion": "道教"
     }
   ],
   "坐忘": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    },
     {
       "slug": "zhuangzi",
       "name_zh": "莊子",
@@ -26522,6 +26652,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "塵漏": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    }
+  ],
   "增一阿含": [
     {
       "slug": "ekottarikagama",
@@ -26572,6 +26709,13 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    }
+  ],
+  "士大夫": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
     }
   ],
   "士師時期": [
@@ -27235,6 +27379,13 @@
       "religion": "基督教"
     }
   ],
+  "天台": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    }
+  ],
   "天命": [
     {
       "slug": "analects",
@@ -27326,6 +27477,13 @@
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
+    }
+  ],
+  "天尊": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "天師": [
@@ -27422,6 +27580,13 @@
       "religion": "道教"
     }
   ],
+  "天隱子": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
   "太一": [
     {
       "slug": "huainanzi",
@@ -27452,6 +27617,13 @@
     {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "太上老君": [
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
       "religion": "道教"
     }
   ],
@@ -28024,6 +28196,13 @@
       "religion": "道教"
     }
   ],
+  "存想": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
   "孝": [
     {
       "slug": "analects",
@@ -28186,6 +28365,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "安處": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
   "宗徒": [
     {
       "slug": "vulgate-2-timothy",
@@ -28256,6 +28442,13 @@
       "slug": "sn46-bojjhanga",
       "name_zh": "SN46 覺支相應 (184 經)",
       "religion": "佛教"
+    }
+  ],
+  "定觀": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "客邁拉": [
@@ -28743,6 +28936,11 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
     }
   ],
   "左傳": [
@@ -28750,6 +28948,13 @@
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
+    }
+  ],
+  "左玄真人": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "巫師": [
@@ -29654,6 +29859,13 @@
       "religion": "道教"
     }
   ],
+  "張平叔": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    }
+  ],
   "張湛注": [
     {
       "slug": "liezi",
@@ -30163,6 +30375,13 @@
       "religion": "斯拉夫"
     }
   ],
+  "心": [
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
+    }
+  ],
   "心念處": [
     {
       "slug": "sn47-satipatthana",
@@ -30215,6 +30434,13 @@
       "slug": "samyuktagama",
       "name_zh": "雜阿含經",
       "religion": "佛教"
+    }
+  ],
+  "心起": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "心轉向": [
@@ -31224,6 +31450,13 @@
       "religion": "瑪雅"
     }
   ],
+  "承禎": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
   "技藝": [
     {
       "slug": "aristotle-nicomachean-ethics-el",
@@ -31574,6 +31807,13 @@
       "slug": "bible-ecclesiastes",
       "name_zh": "傳道書",
       "religion": "基督教"
+    }
+  ],
+  "捨事": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "捨覺支": [
@@ -32772,6 +33012,13 @@
     {
       "slug": "wenzi",
       "name_zh": "文子",
+      "religion": "道教"
+    }
+  ],
+  "文昌帝君": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
     }
   ],
@@ -35570,6 +35817,11 @@
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
     }
   ],
   "泰坦": [
@@ -35910,6 +36162,11 @@
     {
       "slug": "huainanzi",
       "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
       "religion": "道教"
     },
     {
@@ -36310,6 +36567,11 @@
       "religion": "道教"
     },
     {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
+    },
+    {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
       "religion": "道教"
@@ -36383,6 +36645,13 @@
     {
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
+      "religion": "道教"
+    }
+  ],
+  "照心": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
       "religion": "道教"
     }
   ],
@@ -36826,6 +37095,11 @@
     }
   ],
   "玄牝": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
     {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
@@ -37509,6 +37783,13 @@
       "religion": "佛教"
     }
   ],
+  "真定": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    }
+  ],
   "真實": [
     {
       "slug": "jain-aptamimamsa-sa",
@@ -37526,6 +37807,13 @@
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
+    }
+  ],
+  "真慧": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
     }
   ],
   "真氣": [
@@ -37631,6 +37919,13 @@
       "slug": "sn35-salayatana",
       "name_zh": "SN35 六入相應 (248 經)",
       "religion": "佛教"
+    }
+  ],
+  "眾善奉行": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
     }
   ],
   "眾生心": [
@@ -37865,6 +38160,11 @@
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
       "religion": "基督教"
+    },
+    {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
     }
   ],
   "神世七代": [
@@ -38098,6 +38398,13 @@
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "神解": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
     }
   ],
   "神話": [
@@ -38354,6 +38661,13 @@
     {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
+      "religion": "道教"
+    }
+  ],
+  "福田": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
     }
   ],
@@ -38637,6 +38951,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "積德": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    }
+  ],
   "究竟利": [
     {
       "slug": "nyaya-sutra",
@@ -38695,6 +39016,13 @@
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "竇氏": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
     }
   ],
   "竈神": [
@@ -38895,6 +39223,11 @@
     }
   ],
   "精氣神": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
     {
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
@@ -39381,6 +39714,13 @@
     {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
+      "religion": "道教"
+    }
+  ],
+  "紫陽真人": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
       "religion": "道教"
     }
   ],
@@ -40955,6 +41295,13 @@
       "religion": "現代新興"
     }
   ],
+  "聖胎": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    }
+  ],
   "聖語": [
     {
       "slug": "mimamsa-sutra",
@@ -41366,6 +41713,11 @@
     }
   ],
   "至人": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    },
     {
       "slug": "huangdi-neijing",
       "name_zh": "黃帝內經",
@@ -42334,8 +42686,20 @@
   ],
   "虛心": [
     {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
+    },
+    {
       "slug": "zuowang-lun",
       "name_zh": "坐忘論",
+      "religion": "道教"
+    }
+  ],
+  "虛氣": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
       "religion": "道教"
     }
   ],
@@ -42444,6 +42808,13 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "行善": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
     }
   ],
   "行為": [
@@ -43158,6 +43529,13 @@
       "religion": "儒教"
     }
   ],
+  "諸惡莫作": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    }
+  ],
   "諸行": [
     {
       "slug": "sn6-brahma",
@@ -43854,6 +44232,13 @@
       "religion": "道教"
     }
   ],
+  "迴脫塵籠": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    }
+  ],
   "迴轉": [
     {
       "slug": "bud-buddhacarita-sa",
@@ -44275,6 +44660,11 @@
       "religion": "道教"
     },
     {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -44373,6 +44763,11 @@
     }
   ],
   "鉛汞": [
+    {
+      "slug": "jindan-sibaizi",
+      "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
     {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
@@ -44502,6 +44897,13 @@
       "religion": "基督教"
     }
   ],
+  "鍊神合道": [
+    {
+      "slug": "dingguan-jing",
+      "name_zh": "洞玄靈寶定觀經",
+      "religion": "道教"
+    }
+  ],
   "鍊金術": [
     {
       "slug": "thrice-greatest-hermes-3",
@@ -44523,8 +44925,18 @@
       "religion": "道教"
     },
     {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
+    },
+    {
       "slug": "taishang-ganying-pian",
       "name_zh": "太上感應篇",
+      "religion": "道教"
+    },
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
       "religion": "道教"
     }
   ],
@@ -45192,6 +45604,13 @@
       "religion": "佛教"
     }
   ],
+  "陰功": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    }
+  ],
   "陰符經": [
     {
       "slug": "yinfu-jing",
@@ -45223,6 +45642,11 @@
       "religion": "道教"
     },
     {
+      "slug": "neiguan-jing",
+      "name_zh": "太上老君內觀經",
+      "religion": "道教"
+    },
+    {
       "slug": "nihon-shoki-zh",
       "name_zh": "日本書紀（漢文原文，全三十卷）",
       "religion": "神道"
@@ -45238,6 +45662,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -45245,6 +45674,20 @@
     {
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
+      "religion": "道教"
+    }
+  ],
+  "陰騭": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
+      "religion": "道教"
+    }
+  ],
+  "陰騭文": [
+    {
+      "slug": "wenchang-yinzhiwen",
+      "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
     }
   ],
@@ -45807,6 +46250,13 @@
       "religion": "儒教"
     }
   ],
+  "養氣": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
   "養生": [
     {
       "slug": "baopuzi",
@@ -46054,6 +46504,11 @@
     {
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
+      "religion": "道教"
+    },
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
       "religion": "道教"
     }
   ],
@@ -46370,6 +46825,13 @@
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
+    }
+  ],
+  "齋戒": [
+    {
+      "slug": "tianyinzi",
+      "name_zh": "天隱子",
+      "religion": "道教"
     }
   ],
   "龍樹": [

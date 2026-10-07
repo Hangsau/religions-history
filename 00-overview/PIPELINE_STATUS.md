@@ -2,15 +2,16 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-07 13:44:22 +0800
-- 佇列 tier：**核心**
-- 進度：**518 / 518** 已翻譯+標籤
-- 目前處理：`(完成)`
+- 更新時間：2026-10-07 22:23:48 +0800
+- 佇列 tier：**標籤補齊**
+- 進度：**5 / 2382** 已完成雙標籤
+- 本輪任務：雙標籤
+- 目前處理：`neiguan-jing`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
 - 已阻塞待人工處理：0 部
-- M3 執行狀態：**idle** — (完成)；原因：done
+- M3 執行狀態：**running** — `neiguan-jing` (tag)
 
 
-流程：每部 `01-translation.md`（經文式翻譯）→ `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`
+流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。
 → 每批重生三份獨立反向索引 → commit + push。

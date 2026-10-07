@@ -21,5 +21,44 @@
   "tier": "次要",
   "notes": "漸門修真八階養生論",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+  ],
+  "keywords": [
+    "天隱子",
+    "長生",
+    "養氣",
+    "齋戒",
+    "安處",
+    "存想",
+    "坐忘",
+    "神解",
+    "五漸之門",
+    "虛氣",
+    "魂魄",
+    "陰陽",
+    "伯陽",
+    "承禎"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8142f5f1ea728769bfae69137128b6dd55b367771adf0ef0f016f5137567622d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

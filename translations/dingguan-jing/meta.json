@@ -21,5 +21,42 @@
   "tier": "次要",
   "notes": "論定心止觀、坐忘漸修的短篇道經，與《坐忘論》同流",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "extinction-of-self",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+  ],
+  "keywords": [
+    "定觀",
+    "內觀",
+    "天尊",
+    "左玄真人",
+    "捨事",
+    "照心",
+    "住心",
+    "真定",
+    "真慧",
+    "七候",
+    "至人",
+    "鍊神合道",
+    "心起",
+    "塵漏",
+    "迴脫塵籠"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "924066c4fd8980d693cd45078d0d483c1f35f74baa3961e81ccaa250d4cb0f98"
+  },
+  "tagging_models": "MiniMax-M3"
 }

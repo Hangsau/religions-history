@@ -21,5 +21,46 @@
   "tier": "次要",
   "notes": "內觀存神、心性修養短經，唐代重玄學養生思想",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "breath-control",
+    "enlightenment",
+    "human-as-microcosm",
+    "liberation-by-knowledge",
+    "meditation",
+    "multiple-souls",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "太上老君",
+    "內觀",
+    "泥丸",
+    "三魂七魄",
+    "元氣",
+    "陰陽",
+    "五行",
+    "心",
+    "神",
+    "虛心",
+    "清靜",
+    "無為",
+    "長生",
+    "崑崙",
+    "六識"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "death",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6705aef58fca73fe47c514e59c72110b5a29d941434c62203e4134ffad2b4792"
+  },
+  "tagging_models": "MiniMax-M3"
 }

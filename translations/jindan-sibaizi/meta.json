@@ -21,5 +21,45 @@
   "tier": "次要",
   "notes": "南宗內丹口訣四百字",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "breath-control",
+    "cosmic-egg",
+    "human-as-microcosm",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "金丹",
+    "張平叔",
+    "紫陽真人",
+    "天台",
+    "內丹",
+    "精氣神",
+    "元精",
+    "元氣",
+    "元神",
+    "坎離",
+    "乾坤",
+    "鉛汞",
+    "玄牝",
+    "聖胎",
+    "周天火候"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d23267af4c3433b7eb7cd92dea602402a054d5182419b622da3921b3ac779540"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -21,5 +21,44 @@
   "tier": "次要",
   "notes": "文昌帝君勸善書，與《感應篇》並稱善書雙璧",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "forgiveness",
+    "golden-rule",
+    "humility",
+    "truthfulness"
+  ],
+  "keywords": [
+    "文昌帝君",
+    "陰騭文",
+    "陰騭",
+    "陰功",
+    "福田",
+    "三教",
+    "四恩",
+    "諸惡莫作",
+    "眾善奉行",
+    "于公",
+    "竇氏",
+    "士大夫",
+    "因果",
+    "行善",
+    "積德"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "gratitude-contentment",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "64b0fd7ddba1ebb63f53d89e739edc87052ad57436dcf64527e05331866a972a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
