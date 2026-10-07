@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "other-power",
+    "reincarnation",
+    "theodicy"
+  ],
+  "keywords": [
+    "因緣",
+    "諸法",
+    "空",
+    "無所有",
+    "阿彌陀佛國",
+    "波犍",
+    "拘留秦佛",
+    "墮舍羅",
+    "五蘊",
+    "色受想行識",
+    "地水火風空",
+    "泥犁",
+    "忉利天",
+    "老女人",
+    "法眼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "death",
+    "existence-why-born",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a2c446a61a2254cf5e0d18bf5031e9ecda7c22e724aca62264dee159d53ae1cb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
