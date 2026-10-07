@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "三歸依",
+    "歸依佛",
+    "歸依法",
+    "歸依僧",
+    "五戒",
+    "八戒齋",
+    "十善",
+    "波羅提木叉",
+    "比丘戒",
+    "沙彌戒",
+    "式叉摩那戒",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "功德"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8c13ed369781ae1e8b1c92e0506cd2894a9c7924fc5103ddb1e43a9469cfbb04"
+  },
+  "tagging_models": "MiniMax-M3"
 }

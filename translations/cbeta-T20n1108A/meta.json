@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "goddess-tradition",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "救度佛母",
+    "度母",
+    "多哩",
+    "唵",
+    "蓮華",
+    "阿彌陀佛",
+    "觀音",
+    "真言",
+    "呪",
+    "藥叉",
+    "部多",
+    "起屍",
+    "涅槃",
+    "菩提",
+    "無畏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "78b7a692bdb5f9c5fa64c61f4262ead02406e7242fc17bb3707ec777fa8ccbae"
+  },
+  "tagging_models": "MiniMax-M3"
 }
