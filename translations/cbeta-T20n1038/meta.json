@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "vision-experience"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "普賢",
+    "陀羅尼",
+    "阿閦鞞佛",
+    "寶相佛",
+    "阿彌陀佛",
+    "微妙聲佛",
+    "首楞嚴三昧",
+    "結界",
+    "三摩地",
+    "阿毘跋致",
+    "五逆重罪",
+    "月光佛",
+    "釋迦牟尼佛",
+    "毘陀天女"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "aa7519a95a823e74441d3500b09904df63a7328eed09b082e59d6acd66096d40"
+  },
+  "tagging_models": "MiniMax-M3"
 }
