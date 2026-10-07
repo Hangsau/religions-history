@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "divine-immanence",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "如意輪菩薩",
+    "七星",
+    "般多羅",
+    "神通王菩薩",
+    "迦夷城",
+    "波斯匿王",
+    "如意寶輪",
+    "火壇",
+    "真言",
+    "阿闍梨",
+    "訶利低母",
+    "燃燈佛",
+    "娑婆界",
+    "摩訶般多羅",
+    "蓮臺寺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "267fddff9f235c319c559f4c8c41a1a9542c755dbfc1ee1fa5a38618c447336c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
