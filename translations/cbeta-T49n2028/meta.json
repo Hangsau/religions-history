@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T49",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "mandate-of-heaven",
+    "monastic",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "迦丁比丘",
+    "當來變",
+    "末法",
+    "惡比丘",
+    "正法",
+    "三尊",
+    "摩摩帝",
+    "尸依仇",
+    "須陀流",
+    "耶來那",
+    "揵秋",
+    "晉土",
+    "天竺",
+    "拘睒彌",
+    "二百五十戒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e5616891b65476120d663084dc176f05258db00c3f435a512d2a01e86216d0f9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

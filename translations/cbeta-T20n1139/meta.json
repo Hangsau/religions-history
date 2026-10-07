@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "金剛手菩薩",
+    "陀羅尼",
+    "護命法門",
+    "薄伽梵",
+    "菩提樹",
+    "舍利子",
+    "阿難陀",
+    "慈氏菩薩",
+    "觀自在菩薩",
+    "持國天王",
+    "增長天王",
+    "鬼子母",
+    "藥叉",
+    "灌頂",
+    "梵天王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "aa3fd747af0fadbcc800c18e82787b04a915d6326028a1c8a61f0ddeb763afdd"
+  },
+  "tagging_models": "MiniMax-M3"
 }

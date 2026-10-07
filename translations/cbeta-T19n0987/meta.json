@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+  ],
+  "keywords": [
+    "孔雀王呪",
+    "吉祥比丘",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "辟支佛",
+    "彌勒菩薩",
+    "梵天王",
+    "天帝釋",
+    "毘沙門天王",
+    "鬼子母",
+    "波旬",
+    "陀羅尼",
+    "大金色孔雀王呪經",
+    "黑蛇"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d0567087a90fd62dd4dd23d431f438a2a454f3c84debf268c14d7e8c739ad201"
+  },
+  "tagging_models": "MiniMax-M3"
 }
