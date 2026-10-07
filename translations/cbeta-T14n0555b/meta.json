@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "monastic",
+    "reincarnation",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "阿羅漢",
+    "沙彌",
+    "五母",
+    "宿命",
+    "四通",
+    "泥洹",
+    "地獄",
+    "餓鬼",
+    "畜生",
+    "善惡業報",
+    "後世",
+    "精進",
+    "行道",
+    "佛經戒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "67ce1b8eb3461783bc435c88c2034d5d2b4f2599ee9afc6fe2a04fd29c64cfad"
+  },
+  "tagging_models": "MiniMax-M3"
 }
