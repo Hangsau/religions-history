@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "goddess-tradition",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+  ],
+  "keywords": [
+    "摩利支天",
+    "陀羅尼",
+    "苾芻",
+    "室羅筏城",
+    "逝多林",
+    "給孤獨園",
+    "菩薩",
+    "天女",
+    "護摩",
+    "曼荼羅",
+    "印契",
+    "心真言",
+    "三昧耶印",
+    "金剛部",
+    "蓮部"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ccdd7d7669bc152f53d968eb6a48e1e984b54ef8b6305830e36a7a387f35e506"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "divine-transcendence",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "prophetic-revelation",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "妙色王",
+    "端正子",
+    "妙容夫人",
+    "帝釋天",
+    "密跡主",
+    "藥叉",
+    "室羅伐城",
+    "逝多林給孤獨園",
+    "婆羅痆斯",
+    "捨身求法",
+    "甘露妙法",
+    "伽他",
+    "羅怙羅",
+    "耶輸陀羅",
+    "勝法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "07ea925b6b83bfd4af92eeeb0e4a521e937eea73c9cee4c74843eb1bee0aef31"
+  },
+  "tagging_models": "MiniMax-M3"
 }
