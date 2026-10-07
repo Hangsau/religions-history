@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual"
+  ],
+  "keywords": [
+    "色",
+    "痛",
+    "想",
+    "行",
+    "識",
+    "五陰",
+    "聚沫",
+    "水泡",
+    "野馬",
+    "芭蕉樹",
+    "幻術",
+    "空無所有",
+    "婆伽婆",
+    "阿迎闍恒水",
+    "諦觀察"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "102da4511251d036c33b2bd5f333c6f89bc9dad42b8bcbec65e4037bcb105e74"
+  },
+  "tagging_models": "MiniMax-M3"
 }

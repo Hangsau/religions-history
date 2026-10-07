@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "humility",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "孫多耶致",
+    "梵志",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "二十一惡",
+    "三毒",
+    "十惡",
+    "應儀",
+    "沙門",
+    "溝港",
+    "頻來",
+    "不還",
+    "三寶",
+    "太山",
+    "地獄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "037744c4256b2661c522c0941a7795095119d4fe0b978cfcd70874a57a946236"
+  },
+  "tagging_models": "MiniMax-M3"
 }

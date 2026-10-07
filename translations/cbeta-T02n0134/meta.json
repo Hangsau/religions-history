@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "enlightenment",
+    "extinction-of-self",
+    "lay-practitioner",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "僧伽羅摩",
+    "止觀",
+    "阿羅漢",
+    "出家",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "阿難",
+    "婆伽婆",
+    "梵行",
+    "生死原",
+    "母胞胎",
+    "三法衣",
+    "六過出家",
+    "惡口",
+    "嫉妬"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "living-with-unknown",
+    "loss-grief",
+    "marriage-family",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b87ee8e6a7eae30068d98d07e3d14c80066a487e4f618f3e8b300e3126844f4a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
