@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "寶帶陀羅尼經",
+    "寶帶大明",
+    "羅睺羅",
+    "羅睺羅童子",
+    "阿難",
+    "大惡羅剎",
+    "慈氏菩薩",
+    "大梵天王",
+    "帝釋天主",
+    "四大天王",
+    "夜叉",
+    "羅剎女",
+    "護念",
+    "息災安樂",
+    "陀羅尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eb132d107296f591400edb98611d5ecd637995634c18c8ade0de8ea3be6ff1c1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

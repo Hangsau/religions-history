@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith"
+  ],
+  "keywords": [
+    "阿彌陀佛",
+    "極樂國土",
+    "舍利弗",
+    "陀羅尼",
+    "神呪",
+    "拔一切業障",
+    "往生",
+    "念佛",
+    "釋迦牟尼佛",
+    "五濁惡世",
+    "不退轉",
+    "阿耨多羅三藐三菩提",
+    "舍衛國祇樹給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "817bcccaf0623fdbe9b6c689577d8e1613b6fd5f1b4243ac57477535169ace3a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

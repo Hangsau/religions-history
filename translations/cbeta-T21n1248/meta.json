@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "temple-centered"
+  ],
+  "keywords": [
+    "毘沙門天王",
+    "那吒",
+    "獨健",
+    "真言",
+    "陀羅尼",
+    "畫像",
+    "壇",
+    "牛糞",
+    "白芥子",
+    "赤小豆",
+    "安怛陀那",
+    "阿修羅",
+    "不空三藏",
+    "隨軍護法",
+    "持齋"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "ingroup-outgroup-prejudice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f56567a49d1662b3eafe5899daef1f952ce700452e5acceeff86e3093971b350"
+  },
+  "tagging_models": "MiniMax-M3"
 }
