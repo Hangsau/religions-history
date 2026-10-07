@@ -19212,6 +19212,13 @@
       "religion": "佛教"
     }
   ],
+  "七俱胝": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "七候": [
     {
       "slug": "dingguan-jing",
@@ -19436,6 +19443,13 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    }
+  ],
+  "三塗": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
     }
   ],
   "三大戒": [
@@ -19702,6 +19716,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "三藏": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
     }
   ],
   "三藐三勃陀耶": [
@@ -19990,6 +20011,16 @@
     {
       "slug": "cbeta-T16n0706",
       "name_zh": "佛說五大施經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -20294,6 +20325,13 @@
       "slug": "bible-2-kings",
       "name_zh": "列王紀下",
       "religion": "基督教"
+    }
+  ],
+  "九橫": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
     }
   ],
   "九頭蛇": [
@@ -20715,6 +20753,13 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "五逆重罪": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "五陰": [
@@ -23304,6 +23349,13 @@
       "religion": "美洲"
     }
   ],
+  "儀軌": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    }
+  ],
   "儒家": [
     {
       "slug": "great-learning",
@@ -24802,6 +24854,11 @@
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "功成身退": [
@@ -25040,6 +25097,13 @@
       "religion": "古埃及"
     }
   ],
+  "十二神王": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
   "十二藥叉大將": [
     {
       "slug": "medicine-buddha-sutra",
@@ -25219,6 +25283,20 @@
       "religion": "耆那教"
     }
   ],
+  "千佛": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "千劫": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "升天": [
     {
       "slug": "bible-acts",
@@ -25292,6 +25370,13 @@
     {
       "slug": "cbeta-T21n1327",
       "name_zh": "佛說呪齒經",
+      "religion": "佛教"
+    }
+  ],
+  "南謨": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
       "religion": "佛教"
     }
   ],
@@ -25643,6 +25728,20 @@
       "religion": "佛教"
     }
   ],
+  "受持": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "受持讀誦": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "受膏者": [
     {
       "slug": "bible-lamentations",
@@ -25844,6 +25943,13 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    }
+  ],
+  "台州": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
     }
   ],
   "史詩": [
@@ -26399,6 +26505,13 @@
       "religion": "凱爾特"
     }
   ],
+  "咸通六年": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    }
+  ],
   "哀悼": [
     {
       "slug": "religion-indians-california",
@@ -26701,6 +26814,11 @@
     {
       "slug": "cbeta-T21n1338",
       "name_zh": "呪三首經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -27314,6 +27432,13 @@
       "religion": "基督教"
     }
   ],
+  "國清寺": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    }
+  ],
   "國造": [
     {
       "slug": "sendai-kuji-hongi-zh",
@@ -27363,6 +27488,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T55n2175",
       "name_zh": "錄外經等目錄",
       "religion": "佛教"
@@ -27384,6 +27514,13 @@
     {
       "slug": "cbeta-X09n0246",
       "name_zh": "圓覺經略疏科",
+      "religion": "佛教"
+    }
+  ],
+  "圓載": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
       "religion": "佛教"
     }
   ],
@@ -28114,6 +28251,13 @@
     {
       "slug": "cbeta-T55n2169",
       "name_zh": "開元寺求得經疏記等目錄",
+      "religion": "佛教"
+    }
+  ],
+  "大中寺": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
       "religion": "佛教"
     }
   ],
@@ -29055,6 +29199,13 @@
       "religion": "道教"
     }
   ],
+  "天龍八部": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
   "太一": [
     {
       "slug": "huainanzi",
@@ -29604,6 +29755,20 @@
       "religion": "凱爾特"
     }
   ],
+  "娑嚩賀": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "娑婆呵": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
   "娑婆訶": [
     {
       "slug": "cbeta-T21n1338",
@@ -29623,6 +29788,11 @@
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
     },
     {
       "slug": "chandogya-upanishad",
@@ -30047,6 +30217,13 @@
       "religion": "印加"
     }
   ],
+  "安寧寺": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    }
+  ],
   "安德烈": [
     {
       "slug": "sblgnt-john",
@@ -30304,6 +30481,11 @@
     }
   ],
   "宿命智": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    },
     {
       "slug": "dirghagama",
       "name_zh": "長阿含經",
@@ -32721,6 +32903,13 @@
       "religion": "佛教"
     }
   ],
+  "念誦儀軌": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
   "忿怒": [
     {
       "slug": "bible-nahum",
@@ -32940,6 +33129,13 @@
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
       "religion": "基督教"
+    }
+  ],
+  "悉地": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
     }
   ],
   "悌": [
@@ -33948,6 +34144,13 @@
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "持念": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
     }
   ],
   "持戒": [
@@ -35709,6 +35912,11 @@
       "slug": "cbeta-T55n2169",
       "name_zh": "開元寺求得經疏記等目錄",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
     }
   ],
   "日本書紀": [
@@ -36199,6 +36407,13 @@
       "religion": "印度教"
     }
   ],
+  "曼蘇悉坦羅": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    }
+  ],
   "曼蘇悉怛羅": [
     {
       "slug": "cbeta-T55n2169",
@@ -36629,6 +36844,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "東寺": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    }
+  ],
   "東方博士": [
     {
       "slug": "sblgnt-matthew",
@@ -36702,6 +36924,13 @@
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "根本印": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
     }
   ],
   "根本法": [
@@ -37268,6 +37497,13 @@
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "歡喜": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "正叔": [
@@ -38059,6 +38295,11 @@
       "slug": "cbeta-T55n2169",
       "name_zh": "開元寺求得經疏記等目錄",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
     }
   ],
   "汚鬼": [
@@ -38797,6 +39038,13 @@
       "religion": "佛教"
     }
   ],
+  "消滅罪業": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "消災": [
     {
       "slug": "beidou-yansheng-jing",
@@ -38986,6 +39234,13 @@
       "religion": "美洲"
     }
   ],
+  "溫州": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    }
+  ],
   "滅族令": [
     {
       "slug": "bible-esther",
@@ -38998,6 +39253,13 @@
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "滅除罪業": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "漏盡": [
@@ -40579,6 +40841,13 @@
       "religion": "佛教"
     }
   ],
+  "疏記": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    }
+  ],
   "病怖": [
     {
       "slug": "bud-buddhacarita-sa",
@@ -41057,8 +41326,20 @@
   ],
   "真言": [
     {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X01n0034",
       "name_zh": "觀世音菩薩救苦經",
+      "religion": "佛教"
+    }
+  ],
+  "真言經": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
       "religion": "佛教"
     }
   ],
@@ -41946,6 +42227,13 @@
       "religion": "道教"
     }
   ],
+  "福州": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
+    }
+  ],
   "福府": [
     {
       "slug": "cbeta-T55n2169",
@@ -42146,6 +42434,13 @@
       "slug": "zhoudunyi-tongshu",
       "name_zh": "通書",
       "religion": "儒教"
+    }
+  ],
+  "禮佛": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "禮儀": [
@@ -43214,6 +43509,13 @@
       "religion": "佛教"
     }
   ],
+  "結願神呪": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
   "絜矩之道": [
     {
       "slug": "great-learning",
@@ -43240,6 +43542,13 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
+    }
+  ],
+  "經律論": [
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
+      "religion": "佛教"
     }
   ],
   "經脈": [
@@ -43274,6 +43583,13 @@
     {
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    }
+  ],
+  "維那離音樂樹下": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
       "religion": "佛教"
     }
   ],
@@ -45387,6 +45703,13 @@
       "religion": "基督教"
     }
   ],
+  "至誠心": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "至近親屬": [
     {
       "slug": "bible-ruth",
@@ -45463,6 +45786,13 @@
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "舍利": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
     }
   ],
   "舍利子": [
@@ -46274,6 +46604,11 @@
   ],
   "薄伽梵": [
     {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -46316,6 +46651,13 @@
     {
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
+      "religion": "佛教"
+    }
+  ],
+  "藥師如來": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
       "religion": "佛教"
     }
   ],
@@ -46818,6 +47160,13 @@
       "slug": "zuowang-lun",
       "name_zh": "坐忘論",
       "religion": "道教"
+    }
+  ],
+  "西明寺": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
     }
   ],
   "西比拉": [
@@ -47418,6 +47767,13 @@
       "religion": "道教"
     }
   ],
+  "請益僧": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    }
+  ],
   "論藏": [
     {
       "slug": "bud-abhidharmakosha-sa",
@@ -47622,6 +47978,13 @@
       "religion": "佛教"
     }
   ],
+  "護讚": [
+    {
+      "slug": "cbeta-T19n0924B",
+      "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
   "護身": [
     {
       "slug": "cbeta-T21n1338",
@@ -47712,6 +48075,13 @@
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
+    }
+  ],
+  "貞觀七年": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
     }
   ],
   "財富": [
@@ -48509,6 +48879,13 @@
       "religion": "道教"
     }
   ],
+  "道具": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    }
+  ],
   "道家": [
     {
       "slug": "baopuzi",
@@ -48699,6 +49076,13 @@
     {
       "slug": "cbeta-T21n1317",
       "name_zh": "甘露陀羅尼呪",
+      "religion": "佛教"
+    }
+  ],
+  "那謨囉怛那": [
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -49188,6 +49572,13 @@
       "religion": "印度教"
     }
   ],
+  "長安城": [
+    {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    }
+  ],
   "長生": [
     {
       "slug": "duren-jing",
@@ -49293,6 +49684,11 @@
     {
       "slug": "cbeta-T55n2169",
       "name_zh": "開元寺求得經疏記等目錄",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T55n2170",
+      "name_zh": "福州溫州台州求得經律論疏記外書等目錄",
       "religion": "佛教"
     }
   ],
@@ -49858,6 +50254,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "cbeta-T55n2174A",
+      "name_zh": "新書寫請來法門等目錄",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -49879,6 +50280,16 @@
     {
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -49940,6 +50351,16 @@
     {
       "slug": "cbeta-T21n1338",
       "name_zh": "呪三首經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1383",
+      "name_zh": "佛說宿命智陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -50577,6 +50998,13 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "頂戴": [
+    {
+      "slug": "cbeta-T21n1399",
+      "name_zh": "佛說滅除五逆罪大陀羅尼經",
+      "religion": "佛教"
     }
   ],
   "順服": [

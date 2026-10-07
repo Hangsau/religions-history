@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "藥師如來",
+    "念誦儀軌",
+    "真言",
+    "結願神呪",
+    "薄伽梵",
+    "三塗",
+    "九橫",
+    "十二神王",
+    "天龍八部",
+    "根本印",
+    "護讚",
+    "南謨",
+    "娑婆呵",
+    "維那離音樂樹下"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b040a89ace797da2720a7969e962c27c402c9063ba835f10b502e49aeffc4dea"
+  },
+  "tagging_models": "MiniMax-M3"
 }
