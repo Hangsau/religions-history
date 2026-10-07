@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "阿字",
+    "如意寶",
+    "金剛利針",
+    "龍王",
+    "毘嚕博叉王",
+    "真言",
+    "印",
+    "菩提心",
+    "劍",
+    "大空",
+    "涅槃點",
+    "華座印",
+    "牙印",
+    "風輪",
+    "文殊師利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2cfc98bfb590825d99afb61449492bbc0af15339641248a3f695478c74414744"
+  },
+  "tagging_models": "MiniMax-M3"
 }
