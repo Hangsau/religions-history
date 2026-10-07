@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "pilgrimage",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "舍利",
+    "寶篋印陀羅尼",
+    "金剛手",
+    "婆羅門",
+    "無垢妙光",
+    "窣都婆",
+    "摩伽陀國",
+    "釋迦牟尼",
+    "阿鼻地獄",
+    "極樂界",
+    "大涅槃",
+    "七寶",
+    "十善",
+    "三寶",
+    "末法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "79faee322b5b89acd5d324bd9f863cc3cb6a67fd5679f9edef77239fe80e0f59"
+  },
+  "tagging_models": "MiniMax-M3"
 }

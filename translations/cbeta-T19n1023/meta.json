@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "舍利",
+    "金剛手",
+    "婆羅門",
+    "無垢妙光",
+    "藥叉",
+    "全身舍利",
+    "篋印心陀羅尼",
+    "七寶塔",
+    "摩誐陀國",
+    "十方如來",
+    "末世",
+    "正法將滅",
+    "安樂園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f621726327aba90ba1ccfaef6c7959d78f60ebaef3d76109cb46106db55beda6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
