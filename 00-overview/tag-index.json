@@ -86,6 +86,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -151,6 +156,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -179,6 +189,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -523,6 +538,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -560,6 +580,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -663,6 +688,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -686,6 +716,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nahum",
@@ -1115,6 +1150,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1152,6 +1192,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -1235,6 +1280,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -1253,6 +1303,11 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -2331,6 +2386,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -2421,6 +2481,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -2444,6 +2509,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -2810,6 +2880,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
+    {
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
       "religion": "道教"
@@ -2957,9 +3032,19 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "heimskringla-on",
@@ -2985,6 +3070,11 @@
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -3167,6 +3257,11 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "harivamsha",
@@ -4250,6 +4345,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -4273,6 +4373,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -4852,6 +4957,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "exodus",
       "name_zh": "出埃及記",
       "religion": "猶太教"
@@ -4914,6 +5024,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -5067,6 +5182,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -5105,6 +5225,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -5754,6 +5879,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -5804,6 +5934,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -5836,6 +5971,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -5939,6 +6079,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -5987,6 +6132,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -6486,6 +6636,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -6523,6 +6678,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -6681,6 +6841,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -6733,6 +6898,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
       "religion": "儒教"
     },
     {
@@ -7370,6 +7540,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -7445,6 +7620,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -7463,6 +7643,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -7677,9 +7862,19 @@
       "religion": "印度教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -7899,6 +8094,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -7989,6 +8189,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -8002,6 +8207,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -8401,6 +8611,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -8419,6 +8634,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -8813,6 +9033,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -8876,6 +9101,11 @@
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -9457,6 +9687,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -9495,6 +9730,11 @@
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -9667,6 +9907,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -9705,6 +9950,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -10314,6 +10564,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -10346,6 +10601,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -10494,6 +10754,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -10532,6 +10797,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -11126,6 +11396,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -11174,6 +11449,11 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -11306,6 +11586,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -11339,6 +11624,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -11938,6 +12228,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
+    {
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
@@ -12115,9 +12410,19 @@
       "religion": "北歐"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "hanshi-waizhuan",
@@ -12447,6 +12752,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
+    {
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
@@ -12654,6 +12964,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
@@ -12717,6 +13032,11 @@
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "perfect-enlightenment-sutra",
@@ -12941,6 +13261,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    },
+    {
       "slug": "chuanxi-lu",
       "name_zh": "傳習錄",
       "religion": "儒教"
@@ -12969,6 +13294,11 @@
       "slug": "duren-jing",
       "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
+    },
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
     },
     {
       "slug": "fortytwo-chapters-sutra",
@@ -13081,6 +13411,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -13119,6 +13454,11 @@
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -13418,6 +13758,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -13426,6 +13771,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "hesiod-el",
@@ -13453,6 +13803,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -13466,6 +13821,11 @@
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "njals-saga-on",
@@ -13655,6 +14015,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "gongyang-zhuan",
       "name_zh": "春秋公羊傳",
       "religion": "儒教"
@@ -13662,6 +14027,11 @@
     {
       "slug": "great-learning",
       "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -13720,6 +14090,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -13733,6 +14108,11 @@
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "njals-saga-on",
@@ -14344,6 +14724,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -14362,6 +14747,11 @@
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "plato-phaedo-el",
@@ -15801,8 +16191,18 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "great-learning",
       "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -15841,6 +16241,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -15848,6 +16253,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
       "religion": "儒教"
     },
     {
@@ -16615,6 +17025,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -16632,6 +17047,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -16708,6 +17128,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -17047,6 +17472,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -17142,6 +17572,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -17155,6 +17590,11 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -17454,6 +17894,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -17486,6 +17931,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -17594,6 +18044,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -17626,6 +18081,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
       "religion": "儒教"
     },
     {
@@ -18026,6 +18486,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
+    {
       "slug": "narratives-rites-laws-yncas",
       "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
       "religion": "印加"
@@ -18316,6 +18781,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -19159,6 +19629,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "fragments-of-faith-forgotten",
       "name_zh": "被遺忘信仰的碎片 (Mead)",
       "religion": "諾斯底"
@@ -19299,6 +19774,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "madhyamagama",
       "name_zh": "中阿含經",
       "religion": "佛教"
@@ -19337,6 +19817,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "neiguan-jing",
@@ -19811,6 +20296,11 @@
       "religion": "道教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -19829,6 +20319,11 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "pistis-sophia",
@@ -20158,6 +20653,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -20200,6 +20700,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -20323,6 +20828,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -20351,6 +20861,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -20725,6 +21240,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -20737,6 +21257,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -20790,6 +21315,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -20812,6 +21342,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
       "religion": "儒教"
     },
     {
@@ -21092,6 +21627,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -21120,6 +21660,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "hanshi-waizhuan",
@@ -21589,6 +22134,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
@@ -21632,6 +22182,11 @@
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
+    },
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
     },
     {
       "slug": "garuda-purana",
@@ -21817,6 +22372,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -22828,6 +23388,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    },
+    {
       "slug": "dhammapada",
       "name_zh": "法句經",
       "religion": "佛教"
@@ -22851,6 +23416,11 @@
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
+    },
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
     },
     {
       "slug": "fortytwo-chapters-sutra",
@@ -22991,6 +23561,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -23390,6 +23965,11 @@
       "religion": "道教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "exodus",
       "name_zh": "出埃及記",
       "religion": "猶太教"
@@ -23528,6 +24108,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nahum",
@@ -23965,6 +24550,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -24626,6 +25216,11 @@
       "religion": "道教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -24659,6 +25254,11 @@
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -24766,6 +25366,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -24804,6 +25409,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -25278,6 +25888,11 @@
       "religion": "道教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -25383,6 +25998,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -25421,6 +26041,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "perfect-enlightenment-sutra",
@@ -25772,6 +26397,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "hanshi-waizhuan",
       "name_zh": "韓詩外傳",
       "religion": "儒教"
@@ -25865,6 +26495,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -26224,6 +26859,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -26342,6 +26982,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -26898,6 +27543,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -27160,6 +27810,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -27192,6 +27847,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -28531,6 +29191,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -28554,6 +29219,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -28671,6 +29341,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -28719,6 +29394,11 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -29348,6 +30028,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -29376,6 +30061,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "haggai",
@@ -29481,6 +30171,11 @@
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -29910,6 +30605,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -29932,6 +30632,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -30000,6 +30705,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -30023,6 +30733,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -30577,6 +31292,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -30670,6 +31390,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -31683,6 +32408,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -32210,6 +32940,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -32272,6 +33007,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -32475,6 +33215,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -32528,6 +33273,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -33212,6 +33962,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -33249,6 +34004,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -33400,6 +34160,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -33984,6 +34749,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
+    {
       "slug": "narratives-rites-laws-yncas",
       "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
       "religion": "印加"
@@ -34346,6 +35116,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -34368,6 +35143,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -34441,6 +35221,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -34458,6 +35243,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
       "religion": "儒教"
     },
     {
@@ -34868,6 +35658,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
@@ -35033,6 +35828,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "madhyamagama",
       "name_zh": "中阿含經",
       "religion": "佛教"
@@ -35056,6 +35856,11 @@
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -36002,6 +36807,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -36039,6 +36849,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -36142,6 +36957,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -36165,6 +36985,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -36664,6 +37489,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -36677,6 +37507,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -36926,6 +37761,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    },
+    {
       "slug": "chuanxi-lu",
       "name_zh": "傳習錄",
       "religion": "儒教"
@@ -36938,6 +37778,11 @@
     {
       "slug": "er-ya",
       "name_zh": "爾雅注",
+      "religion": "儒教"
+    },
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
       "religion": "儒教"
     },
     {
@@ -36954,6 +37799,11 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "hanshi-waizhuan",
@@ -37006,6 +37856,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -37024,6 +37879,11 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -37413,6 +38273,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "hanshi-waizhuan",
       "name_zh": "韓詩外傳",
       "religion": "儒教"
@@ -37493,6 +38358,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -37521,6 +38391,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -37947,6 +38822,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -37980,6 +38860,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "harivamsha",
@@ -38062,6 +38947,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -38085,6 +38975,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -38334,6 +39229,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -38342,6 +39242,16 @@
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "sefaria-shiltei-hagiborim-on-pesachim",
@@ -38526,6 +39436,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -38548,6 +39463,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -38634,6 +39554,11 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "mahabharata",
@@ -39023,6 +39948,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -39046,6 +39976,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "harivamsha",
@@ -39141,6 +40076,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -39585,6 +40525,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -39627,6 +40572,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -39765,6 +40715,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -39788,6 +40743,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -40502,6 +41462,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -40637,6 +41602,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -40675,6 +41645,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mishkat-al-anwar",
@@ -41261,6 +42236,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -41851,6 +42831,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -41903,6 +42888,11 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     },
     {
@@ -42091,6 +43081,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -42134,6 +43129,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -42898,6 +43898,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
+    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -42931,6 +43936,11 @@
       "slug": "guanyin-zi",
       "name_zh": "關尹子",
       "religion": "道教"
+    },
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     },
     {
       "slug": "guru-granth-sahib-pa",
@@ -43123,6 +44133,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -43171,6 +44186,11 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "mozi",
@@ -44134,6 +45154,11 @@
       "religion": "道教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -44157,6 +45182,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     },
     {
       "slug": "nahum",

@@ -20,5 +20,35 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X09",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "study"
+  ],
+  "keywords": [
+    "圓覺經",
+    "圭峯禪師",
+    "大疏鈔",
+    "宗密",
+    "嘉禾古塔",
+    "圓澄",
+    "鏤版",
+    "刊本",
+    "坐滅",
+    "科文"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5dbaecd51d16e2807c3b6e140f005d296c5e88e23ac2f0f71634ae6e2e33ca0d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

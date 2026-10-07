@@ -19400,6 +19400,20 @@
       "religion": "佛教"
     }
   ],
+  "三原": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
+  "三原學案": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "三大戒": [
     {
       "slug": "jain-dasavaikalika-pkt",
@@ -19980,6 +19994,11 @@
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
+    },
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     }
   ],
   "中庸": [
@@ -20296,6 +20315,13 @@
       "religion": "佛教"
     }
   ],
+  "二程": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "二空": [
     {
       "slug": "vijnaptimatratasiddhi",
@@ -20374,6 +20400,13 @@
       "slug": "vulgate-acts",
       "name_zh": "使徒行傳（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "五服": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     }
   ],
   "五根": [
@@ -20604,6 +20637,13 @@
       "slug": "beidou-yansheng-jing",
       "name_zh": "太上玄靈北斗本命延生真經",
       "religion": "道教"
+    }
+  ],
+  "井田": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     }
   ],
   "亞伯": [
@@ -21172,6 +21212,20 @@
       "slug": "bible-lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "基督教"
+    }
+  ],
+  "介菴": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
+  "仕宦": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "他世": [
@@ -21977,11 +22031,25 @@
       "religion": "猶太教"
     }
   ],
+  "伯夷": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    }
+  ],
   "伯沙撒": [
     {
       "slug": "bible-daniel",
       "name_zh": "但以理書",
       "religion": "基督教"
+    }
+  ],
+  "伯淳": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
     }
   ],
   "伯特利": [
@@ -22328,6 +22396,13 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    }
+  ],
+  "侯服": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     }
   ],
   "俄備得": [
@@ -22839,6 +22914,13 @@
       "religion": "儒教"
     }
   ],
+  "修辭立其誠": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "修養": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -22994,6 +23076,13 @@
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
       "religion": "瑪雅"
+    }
+  ],
+  "偶然": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "偽經": [
@@ -23271,6 +23360,11 @@
   ],
   "先王": [
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
       "religion": "儒教"
@@ -23479,6 +23573,11 @@
     }
   ],
   "克己復禮": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    },
     {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
@@ -24228,6 +24327,13 @@
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
       "religion": "儒教"
+    }
+  ],
+  "刊本": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
     }
   ],
   "列國": [
@@ -25650,6 +25756,11 @@
   ],
   "后稷": [
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -25852,6 +25963,11 @@
   ],
   "周公": [
     {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -25982,6 +26098,11 @@
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     },
     {
       "slug": "marcus-aurelius-meditations-el",
@@ -26663,6 +26784,13 @@
       "religion": "佛教"
     }
   ],
+  "嘉禾古塔": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    }
+  ],
   "嘴部開啟儀式": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -26994,10 +27122,31 @@
       "religion": "印度教"
     }
   ],
+  "圓澄": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    }
+  ],
   "圓覺": [
     {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
+      "religion": "佛教"
+    }
+  ],
+  "圓覺經": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    }
+  ],
+  "圭峯禪師": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
       "religion": "佛教"
     }
   ],
@@ -27073,6 +27222,13 @@
       "slug": "zuowang-lun",
       "name_zh": "坐忘論",
       "religion": "道教"
+    }
+  ],
+  "坐滅": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
     }
   ],
   "坤": [
@@ -27904,6 +28060,13 @@
       "religion": "道教"
     }
   ],
+  "大疏鈔": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    }
+  ],
   "大痲瘋": [
     {
       "slug": "bible-2-kings",
@@ -28547,6 +28710,13 @@
       "religion": "儒教"
     }
   ],
+  "天理人欲": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "天瓊矛": [
     {
       "slug": "nihon-shoki-zh",
@@ -28705,6 +28875,13 @@
     {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
+  "太公": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
       "religion": "儒教"
     }
   ],
@@ -29359,6 +29536,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    },
+    {
       "slug": "shuoyuan",
       "name_zh": "說苑",
       "religion": "儒教"
@@ -29447,6 +29629,13 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    }
+  ],
+  "孟軻": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
       "religion": "儒教"
     }
   ],
@@ -29633,6 +29822,13 @@
       "religion": "道教"
     }
   ],
+  "宗密": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    }
+  ],
   "宗廟": [
     {
       "slug": "guliang-zhuan",
@@ -29743,6 +29939,13 @@
       "religion": "道教"
     }
   ],
+  "客氣": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "客邁拉": [
     {
       "slug": "hesiod-el",
@@ -29835,11 +30038,25 @@
       "religion": "印度教"
     }
   ],
+  "密國": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    }
+  ],
   "密多羅": [
     {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    }
+  ],
+  "密康公": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     }
   ],
   "密涅瓦": [
@@ -32112,6 +32329,13 @@
       "religion": "儒教"
     }
   ],
+  "忠信進德": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "忠恕": [
     {
       "slug": "analects",
@@ -32798,6 +33022,13 @@
       "religion": "印度教"
     }
   ],
+  "懿德": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    }
+  ],
   "戀人對話": [
     {
       "slug": "song-of-songs",
@@ -32867,6 +33098,13 @@
       "religion": "佛教"
     }
   ],
+  "戒懼慎獨": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "戒行": [
     {
       "slug": "gautama-dharmasutra",
@@ -32879,6 +33117,13 @@
       "slug": "wunengzi",
       "name_zh": "無能子",
       "religion": "道教"
+    }
+  ],
+  "戢干戈": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     }
   ],
   "戰爭": [
@@ -33074,6 +33319,13 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    }
+  ],
+  "才": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "扶太子": [
@@ -34137,6 +34389,13 @@
       "religion": "佛教"
     }
   ],
+  "操行": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
+    }
+  ],
   "攝大乘論": [
     {
       "slug": "mahayanasamgraha",
@@ -35096,6 +35355,13 @@
       "religion": "儒教"
     }
   ],
+  "明儒學案": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "明堂": [
     {
       "slug": "huangting-waijing",
@@ -35155,6 +35421,13 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
+  "時": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
       "religion": "儒教"
     }
   ],
@@ -36561,6 +36834,13 @@
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "正叔": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
     }
   ],
   "正定": [
@@ -38874,6 +39154,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "犬戎": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    }
+  ],
   "狂傲": [
     {
       "slug": "obadiah",
@@ -39265,6 +39552,13 @@
       "religion": "儒教"
     }
   ],
+  "王介甫": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "王位繼承": [
     {
       "slug": "kings-1",
@@ -39275,6 +39569,13 @@
       "slug": "vulgate-1-kings",
       "name_zh": "列王紀上 (武加大稱 列王紀三)",
       "religion": "基督教"
+    }
+  ],
+  "王充": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "王公": [
@@ -39310,6 +39611,27 @@
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "王彥霖": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
+  "王恕": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
+  "王承裕": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
     }
   ],
   "王政": [
@@ -39581,6 +39903,13 @@
     {
       "slug": "xunzi",
       "name_zh": "荀子",
+      "religion": "儒教"
+    }
+  ],
+  "甸服": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     }
   ],
@@ -40300,6 +40629,13 @@
       "religion": "基督教"
     }
   ],
+  "石渠": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "確信": [
     {
       "slug": "kitab-i-iqan-ighan",
@@ -40844,6 +41180,13 @@
       "religion": "印度教"
     }
   ],
+  "祭公謀父": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    }
+  ],
   "祭司": [
     {
       "slug": "bible-1-samuel",
@@ -41153,6 +41496,13 @@
       "religion": "儒教"
     }
   ],
+  "禪學": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "禪定": [
     {
       "slug": "sn4-mara",
@@ -41276,6 +41626,13 @@
       "religion": "儒教"
     }
   ],
+  "科文": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
+    }
+  ],
   "科林斯": [
     {
       "slug": "euripides-medea-el",
@@ -41315,6 +41672,20 @@
     {
       "slug": "jin-si-lu",
       "name_zh": "近思錄",
+      "religion": "儒教"
+    }
+  ],
+  "程頤": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
+  "程顥": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
       "religion": "儒教"
     }
   ],
@@ -41374,6 +41745,13 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
+  "穆王": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
       "religion": "儒教"
     }
   ],
@@ -42548,11 +42926,25 @@
       "religion": "儒教"
     }
   ],
+  "義理": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "羽山": [
     {
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    }
+  ],
+  "耀德不觀兵": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
     }
   ],
   "老君": [
@@ -44849,6 +45241,13 @@
       "religion": "基督教"
     }
   ],
+  "荒服": [
+    {
+      "slug": "guo-yu",
+      "name_zh": "國語",
+      "religion": "儒教"
+    }
+  ],
   "荷馬": [
     {
       "slug": "homer-greek",
@@ -45288,6 +45687,13 @@
       "religion": "神道"
     }
   ],
+  "蘇季明": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
+    }
+  ],
   "蘇我馬子": [
     {
       "slug": "sendai-kuji-hongi-zh",
@@ -45490,6 +45896,13 @@
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
+    }
+  ],
+  "虞舜": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "蛇經": [
@@ -46249,6 +46662,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
+    {
       "slug": "xunzi",
       "name_zh": "荀子",
       "religion": "儒教"
@@ -46326,6 +46744,13 @@
       "slug": "bud-abhidharmakosha-sa",
       "name_zh": "阿毗達磨俱舍論本頌（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "論衡": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "論靈魂": [
@@ -46631,6 +47056,13 @@
     {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
+  "賢不肖": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
       "religion": "儒教"
     }
   ],
@@ -47247,6 +47679,13 @@
       "slug": "vulgate-exodus",
       "name_zh": "出埃及記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "遇": [
+    {
+      "slug": "lunheng",
+      "name_zh": "論衡",
+      "religion": "儒教"
     }
   ],
   "遍知": [
@@ -47991,6 +48430,13 @@
       "slug": "zhonglu-chuandao-ji",
       "name_zh": "鍾呂傳道集",
       "religion": "道教"
+    }
+  ],
+  "鏤版": [
+    {
+      "slug": "cbeta-X09n0244",
+      "name_zh": "圓覺經大疏鈔科",
+      "religion": "佛教"
     }
   ],
   "鑄人": [
@@ -49054,6 +49500,13 @@
       "religion": "猶太教"
     }
   ],
+  "集註": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "雙魂": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -49292,6 +49745,13 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    }
+  ],
+  "韓持國": [
+    {
+      "slug": "ercheng-yishu",
+      "name_zh": "二程遺書",
+      "religion": "儒教"
     }
   ],
   "音圖": [
@@ -49649,6 +50109,13 @@
       "religion": "兩河"
     }
   ],
+  "馬理": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    }
+  ],
   "馬祭 aśvamedha": [
     {
       "slug": "brihadaranyaka-upanishad",
@@ -49761,6 +50228,11 @@
     }
   ],
   "鬼神": [
+    {
+      "slug": "mingru-xuean",
+      "name_zh": "明儒學案",
+      "religion": "儒教"
+    },
     {
       "slug": "zhengmeng",
       "name_zh": "正蒙",
