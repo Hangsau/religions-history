@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "八戒",
+    "五戒",
+    "優婆塞",
+    "不殺",
+    "不盜",
+    "不妄語",
+    "不飲酒",
+    "不邪行",
+    "三歸",
+    "懺摩",
+    "迴向",
+    "三寶",
+    "三業",
+    "普賢行",
+    "梵行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "dd8cb37b5162880724555fe9d30ecde560119475f2c7b37d0f5f9f1c882f7767"
+  },
+  "tagging_models": "MiniMax-M3"
 }
