@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "essentially-flawed",
+    "liberation-by-works",
+    "meditation",
+    "priesthood",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "計水淨",
+    "婆羅門",
+    "二十一結",
+    "邪見",
+    "放逸",
+    "泥犁",
+    "慈",
+    "悲",
+    "喜",
+    "護",
+    "水淨",
+    "染衣",
+    "波羅㮈",
+    "優婆塞",
+    "欝鞞羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d1bac4f74d4c9e680ae6bd9974f374d55a1c312e6d8da26136e1e8d26d948703"
+  },
+  "tagging_models": "MiniMax-M3"
 }

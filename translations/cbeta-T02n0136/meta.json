@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-kingship",
+    "lay-practitioner",
+    "monastic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "轉輪聖王",
+    "阿難",
+    "未曾有法",
+    "祇樹給孤獨園",
+    "舍衛城",
+    "婆伽婆",
+    "比丘",
+    "比丘尼",
+    "優婆塞",
+    "優婆夷",
+    "教勅",
+    "歡喜奉行",
+    "說法",
+    "愛念人民",
+    "長夜獲福"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "592ee3d2df54deed7f32e65f1a83a2055075f17230215625a9f88d20d4da1782"
+  },
+  "tagging_models": "MiniMax-M3"
 }
