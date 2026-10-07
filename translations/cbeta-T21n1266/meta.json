@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "feminine-divine",
+    "mystical-union",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+  ],
+  "keywords": [
+    "毘那夜迦",
+    "象頭人身",
+    "大自在天",
+    "雙身",
+    "天歡喜",
+    "灌油",
+    "圓壇",
+    "身呪",
+    "心呪",
+    "歡喜團",
+    "請召印",
+    "護身呪",
+    "祕要法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "acd2a18c5ff2f50f2b640723d7f59d5521ee0c2373b28dbf1b10a29bf654940b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

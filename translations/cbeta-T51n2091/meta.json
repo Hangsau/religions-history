@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "feminine-divine",
+    "pilgrimage",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "temple-centered",
+    "theophany"
+  ],
+  "keywords": [
+    "燉煌錄",
+    "莫高窟",
+    "鳴沙山",
+    "三危山",
+    "貳師泉",
+    "陽關",
+    "玉女泉",
+    "湫神",
+    "龍舌",
+    "李先王廟",
+    "石膏山",
+    "瓜州",
+    "贊普",
+    "玄宗",
+    "觀音菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "nature-animals-ecology"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5c29ac33394e09f3cdc22230cfc222fd8b4182367dbea5a813e075e55e46f0d6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

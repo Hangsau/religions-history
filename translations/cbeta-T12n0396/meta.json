@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "compassion",
+    "monastic",
+    "multiple-canons",
+    "prophetic-revelation",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "法滅盡",
+    "般涅槃",
+    "五逆",
+    "魔作沙門",
+    "首楞嚴經",
+    "般舟三昧",
+    "彌勒",
+    "辟支",
+    "羅漢",
+    "菩薩",
+    "袈裟",
+    "三寶",
+    "無擇地獄",
+    "十二部經"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6f9f3a3cb4fe5bbb9cc76c4045ab84839f6361f849aacf39bc27f47dc53c19ad"
+  },
+  "tagging_models": "MiniMax-M3"
 }
