@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "non-dual",
+    "self-effort"
+  ],
+  "keywords": [
+    "提婆",
+    "百字論",
+    "實相",
+    "邪見",
+    "我見",
+    "涅槃",
+    "無為",
+    "有為",
+    "因緣生",
+    "夢",
+    "假名",
+    "三毒",
+    "三有",
+    "寂滅",
+    "聲常無常"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8dbc8cf476df3df5d154c735ab230bab42d0330f5fe53131221f0bfcaed3eb0a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
