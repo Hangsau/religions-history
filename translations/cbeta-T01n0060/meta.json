@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "four-noble-truths",
+    "lay-practitioner",
+    "lineage-importance",
+    "monastic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "瞿曇彌",
+    "阿難",
+    "世尊",
+    "比丘尼",
+    "八重法",
+    "四沙門果",
+    "信樂出家",
+    "棄家學道",
+    "梵行",
+    "釋䩭瘦",
+    "迦維羅衛",
+    "那婆提",
+    "婆伽婆",
+    "轉輪王",
+    "五事"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "gender-body",
+    "loneliness-belonging"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "16af9637aecd502665eef56749efc5b4c6091cde65a9ff1963cadac956aa8536"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "銀色女",
+    "阿耨多羅三藐三菩提",
+    "波羅蜜",
+    "檀波羅蜜",
+    "尸波羅蜜",
+    "羼提波羅蜜",
+    "毘梨耶波羅蜜",
+    "禪波羅蜜",
+    "般若波羅蜜",
+    "十善業道",
+    "尸陀林",
+    "摩那婆",
+    "帝釋",
+    "蓮華王都",
+    "舍衛國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "courage",
+    "death",
+    "giving-generosity",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4496d12a25fe536b7e1b1818e2f09d28f393f70d002390ff5dce4cbb3ed2e0e0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
