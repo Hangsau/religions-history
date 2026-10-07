@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "pilgrimage",
+    "priesthood",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "最澄",
+    "義真",
+    "傳教大師",
+    "天台",
+    "明州",
+    "越府",
+    "順曉",
+    "五部灌頂",
+    "曼荼羅",
+    "真言",
+    "延曆寺",
+    "貞元二十一年",
+    "藤原葛野麿",
+    "鄭審則",
+    "入唐求法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bb07cadf3019df71a4daf9715a85820cdb8a464cb8ce99b7d577570255244b06"
+  },
+  "tagging_models": "MiniMax-M3"
 }
