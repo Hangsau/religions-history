@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "forgiveness",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "阿難",
+    "世尊",
+    "洛叉",
+    "持誦",
+    "重罪",
+    "功德",
+    "福聚",
+    "受持",
+    "密咒",
+    "那莫",
+    "唵",
+    "娑嚩賀",
+    "佛說洛叉陀羅尼經"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c8a55e84b4f7bef2a5530bfc2ee7bcb5ce904b225e5a24f47b63566bf33bc5be"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "目連",
+    "餓鬼",
+    "七月十五日",
+    "盂蘭盆",
+    "六通",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "供僧",
+    "三塗",
+    "七世父母",
+    "受鉢和羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b4065cc5bd43d81e5a7b6f1cc1113aa9a8703382deb45b790e627e423d854774"
+  },
+  "tagging_models": "MiniMax-M3"
 }
