@@ -21,5 +21,59 @@
   "tier": "次要",
   "notes": "伍守陽著，伍柳派內丹修煉理論代表作",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "celibate-tradition",
+    "commentarial-layer",
+    "dualistic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "沖虛子",
+    "先天",
+    "後天",
+    "元炁",
+    "元神",
+    "元精",
+    "金丹",
+    "呼吸",
+    "陽火",
+    "陰符",
+    "周天",
+    "入藥鏡",
+    "玉皇心印經",
+    "採取",
+    "升降"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "deb66582f9541acdc9dc0d16d5b77e6d65c5780960942309458c3db8c3a3c88b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

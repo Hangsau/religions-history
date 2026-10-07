@@ -22,5 +22,58 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
+  "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "apocalypse",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-kingship",
+    "essentially-good",
+    "heaven-hell",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "messianism",
+    "patriarchal",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "reincarnation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "公羊傳",
+    "僖公",
+    "齊桓公",
+    "王正月",
+    "諸侯",
+    "尊王攘夷",
+    "實與文不與",
+    "狄滅邢",
+    "屈完",
+    "宮之奇",
+    "禘于太廟",
+    "季子",
+    "晉獻公",
+    "唇亡齒寒",
+    "紀異"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b774d40da0947679b352e47a53e033c348bc363556f2fdefabfd93ab5d7636a1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

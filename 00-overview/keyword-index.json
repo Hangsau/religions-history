@@ -19823,6 +19823,13 @@
       "religion": "佛教"
     }
   ],
+  "世子申生": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
   "世尊": [
     {
       "slug": "abhidharmakosa",
@@ -20975,6 +20982,13 @@
       "religion": "基督教"
     }
   ],
+  "人君": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "人子": [
     {
       "slug": "bible-ezekiel",
@@ -21785,6 +21799,13 @@
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "伐": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "伐樓拿": [
@@ -22913,6 +22934,18 @@
       "religion": "基督教"
     }
   ],
+  "僖公": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
   "儀式": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -23023,6 +23056,13 @@
       "religion": "道教"
     }
   ],
+  "元炁": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "元皇道君": [
     {
       "slug": "lingbao-bifa",
@@ -23040,12 +23080,22 @@
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     }
   ],
   "元精": [
     {
       "slug": "jindan-sibaizi",
       "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
       "religion": "道教"
     }
   ],
@@ -23087,6 +23137,13 @@
       "slug": "bible-obadiah",
       "name_zh": "俄巴底亞書",
       "religion": "基督教"
+    }
+  ],
+  "先天": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     }
   ],
   "先王": [
@@ -23435,6 +23492,13 @@
       "religion": "印度教"
     }
   ],
+  "入藥鏡": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "內七篇": [
     {
       "slug": "zhuangzi",
@@ -23641,6 +23705,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "公羊傳": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    }
+  ],
   "公義": [
     {
       "slug": "bible-amos",
@@ -23755,6 +23826,11 @@
   ],
   "六藝": [
     {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -23828,6 +23904,13 @@
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
       "religion": "印度教"
+    }
+  ],
+  "冠": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     }
   ],
   "冥府": [
@@ -24762,6 +24845,13 @@
       "religion": "基督教"
     }
   ],
+  "升降": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "半摩揭陀俗語": [
     {
       "slug": "jain-sutrakrtanga-pkt",
@@ -24793,6 +24883,13 @@
       "slug": "duren-jing",
       "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
+    }
+  ],
+  "博物": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
     }
   ],
   "卜筮": [
@@ -25227,6 +25324,13 @@
       "religion": "神道"
     }
   ],
+  "古今異言": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "古列王": [
     {
       "slug": "bible-ezra",
@@ -25571,6 +25675,13 @@
       "religion": "儒教"
     }
   ],
+  "周天": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "周天火候": [
     {
       "slug": "jindan-sibaizi",
@@ -25611,6 +25722,13 @@
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
+    }
+  ],
+  "呼吸": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     }
   ],
   "呼吸 prāṇa": [
@@ -26006,6 +26124,18 @@
       "slug": "chinigchinich",
       "name_zh": "欽尼赤尼赤 (路易塞紐宗教)",
       "religion": "美洲"
+    }
+  ],
+  "唇亡齒寒": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "唐代": [
@@ -27417,6 +27547,13 @@
       "religion": "神道"
     }
   ],
+  "大夫": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "大學": [
     {
       "slug": "great-learning",
@@ -28007,6 +28144,11 @@
   ],
   "天子": [
     {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    },
+    {
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
@@ -28100,6 +28242,13 @@
       "slug": "nihon-shoki-zh",
       "name_zh": "日本書紀（漢文原文，全三十卷）",
       "religion": "神道"
+    }
+  ],
+  "天王": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "天理": [
@@ -28261,6 +28410,13 @@
       "slug": "taiyi-jinhua-zongzhi",
       "name_zh": "太乙金華宗旨",
       "religion": "道教"
+    }
+  ],
+  "太傅": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     }
   ],
   "太初": [
@@ -28940,6 +29096,20 @@
       "religion": "儒教"
     }
   ],
+  "季子": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    }
+  ],
+  "孫炎": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "學": [
     {
       "slug": "analects",
@@ -29097,6 +29267,11 @@
   ],
   "宗廟": [
     {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
       "religion": "儒教"
@@ -29216,6 +29391,13 @@
       "religion": "神道"
     }
   ],
+  "宮之奇": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    }
+  ],
   "宮廷詩人": [
     {
       "slug": "heimskringla-on",
@@ -29308,6 +29490,13 @@
       "religion": "猶太教"
     }
   ],
+  "察實": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "寡婦": [
     {
       "slug": "bible-1-timothy",
@@ -29332,6 +29521,13 @@
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
       "religion": "佛教"
+    }
+  ],
+  "實與文不與": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     }
   ],
   "實體": [
@@ -29501,6 +29697,13 @@
       "slug": "vulgate-1-peter",
       "name_zh": "彼得前書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "尊王攘夷": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     }
   ],
   "對法": [
@@ -29687,6 +29890,13 @@
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
+    }
+  ],
+  "屈完": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     }
   ],
   "屍體污染": [
@@ -30452,6 +30662,13 @@
       "religion": "基督教"
     }
   ],
+  "帶劍": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "常樂我淨": [
     {
       "slug": "mahaparinirvana-sutra-northern",
@@ -30587,6 +30804,11 @@
     }
   ],
   "庶人": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    },
     {
       "slug": "xiao-jing",
       "name_zh": "孝經（今文）",
@@ -31072,6 +31294,13 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    }
+  ],
+  "後天": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     }
   ],
   "後彌曼差": [
@@ -32777,6 +33006,13 @@
       "religion": "基督教"
     }
   ],
+  "採取": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "接待": [
     {
       "slug": "bible-3-john",
@@ -34106,6 +34342,13 @@
       "religion": "基督教"
     }
   ],
+  "新書": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "新約": [
     {
       "slug": "bible-2-corinthians",
@@ -34184,6 +34427,20 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    }
+  ],
+  "方俗殊語": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
+  "方履": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     }
   ],
   "方舟": [
@@ -34356,6 +34613,11 @@
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
+    },
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "時變論": [
@@ -34369,6 +34631,13 @@
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
+      "religion": "儒教"
+    }
+  ],
+  "晉獻公": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
       "religion": "儒教"
     }
   ],
@@ -35551,6 +35820,13 @@
       "religion": "基督教"
     }
   ],
+  "樊光": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "樓陀羅": [
     {
       "slug": "samaveda",
@@ -36474,6 +36750,13 @@
       "religion": "基督教"
     }
   ],
+  "沖虛子": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "沙得拉": [
     {
       "slug": "bible-daniel",
@@ -36912,6 +37195,13 @@
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
       "religion": "道教"
+    }
+  ],
+  "注": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
     }
   ],
   "泰坦": [
@@ -37888,6 +38178,13 @@
       "religion": "儒教"
     }
   ],
+  "爾雅": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "牟尼": [
     {
       "slug": "jain-acaranga-pkt",
@@ -37987,6 +38284,13 @@
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "狄滅邢": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     }
   ],
   "猶大": [
@@ -38324,6 +38628,20 @@
       "religion": "道教"
     }
   ],
+  "玉皇心印經": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
+  "王世子": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
   "王位繼承": [
     {
       "slug": "kings-1",
@@ -38369,6 +38687,13 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    }
+  ],
+  "王正月": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     }
   ],
   "王舍城": [
@@ -38837,6 +39162,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "百草": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "百道梵書": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -38855,6 +39187,13 @@
     {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
+      "religion": "儒教"
+    }
+  ],
+  "盟": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
       "religion": "儒教"
     }
   ],
@@ -39764,6 +40103,11 @@
   ],
   "神農": [
     {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -40090,6 +40434,13 @@
       "religion": "基督教"
     }
   ],
+  "禘于太廟": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    }
+  ],
   "禘祀祖先": [
     {
       "slug": "shang-shu",
@@ -40276,6 +40627,13 @@
       "slug": "taiping-jing",
       "name_zh": "太平經",
       "religion": "道教"
+    }
+  ],
+  "穀梁傳": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "穆罕默德": [
@@ -40618,6 +40976,13 @@
       "slug": "sn46-bojjhanga",
       "name_zh": "SN46 覺支相應 (184 經)",
       "religion": "佛教"
+    }
+  ],
+  "紀異": [
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     }
   ],
   "約": [
@@ -41207,6 +41572,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "繼弒君": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "續命幡燈": [
@@ -43262,6 +43634,13 @@
       "religion": "儒教"
     }
   ],
+  "興詠": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "舌頭": [
     {
       "slug": "bible-james",
@@ -43912,6 +44291,13 @@
       "slug": "songs-of-russian-people",
       "name_zh": "俄羅斯人民之歌",
       "religion": "斯拉夫"
+    }
+  ],
+  "葵丘之盟": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     }
   ],
   "蒂邁歐": [
@@ -44868,6 +45254,13 @@
       "religion": "猶太教"
     }
   ],
+  "詁訓": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "試煉": [
     {
       "slug": "bible-james",
@@ -44888,6 +45281,13 @@
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "詩人": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
     }
   ],
   "詩篇": [
@@ -45084,6 +45484,21 @@
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
       "religion": "儒教"
     },
     {
@@ -45336,6 +45751,13 @@
       "religion": "基督教"
     }
   ],
+  "貶": [
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    }
+  ],
   "賢士": [
     {
       "slug": "mozi",
@@ -45578,6 +46000,13 @@
       "slug": "bible-1-corinthians",
       "name_zh": "哥林多前書",
       "religion": "基督教"
+    }
+  ],
+  "輔弼": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     }
   ],
   "輕安覺支": [
@@ -46214,6 +46643,13 @@
       "religion": "基督教"
     }
   ],
+  "郭璞": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "配天": [
     {
       "slug": "xiao-jing",
@@ -46238,6 +46674,13 @@
       "slug": "shenxian-zhuan",
       "name_zh": "神仙傳",
       "religion": "道教"
+    }
+  ],
+  "釋詁": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
     }
   ],
   "釋迦文佛": [
@@ -46340,6 +46783,11 @@
     {
       "slug": "jindan-sibaizi",
       "name_zh": "金丹四百字",
+      "religion": "道教"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
       "religion": "道教"
     },
     {
@@ -47348,6 +47796,13 @@
       "religion": "道教"
     }
   ],
+  "陰符": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
+    }
+  ],
   "陰符經": [
     {
       "slug": "yinfu-jing",
@@ -47481,6 +47936,13 @@
     {
       "slug": "taiping-jing",
       "name_zh": "太平經",
+      "religion": "道教"
+    }
+  ],
+  "陽火": [
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
       "religion": "道教"
     }
   ],
@@ -47683,6 +48145,13 @@
       "religion": "佛教"
     }
   ],
+  "離詞": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    }
+  ],
   "雨神": [
     {
       "slug": "sutta-nipata",
@@ -47879,6 +48348,13 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    }
+  ],
+  "音圖": [
+    {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
     }
   ],
   "頁次索引": [
@@ -48421,6 +48897,13 @@
       "religion": "佛教"
     }
   ],
+  "鹽鐵論": [
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    }
+  ],
   "鹿野苑": [
     {
       "slug": "sn4-mara",
@@ -48680,6 +49163,16 @@
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
       "religion": "儒教"
     }
   ],

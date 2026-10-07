@@ -22,5 +22,54 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04"
+  "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
+  "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "essentially-good",
+    "humility",
+    "lineage-importance",
+    "marriage-sacred",
+    "oral-tradition",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "tribal-traditional",
+    "truthfulness",
+    "vernacular-translation"
+  ],
+  "keywords": [
+    "爾雅",
+    "詁訓",
+    "六藝",
+    "博物",
+    "郭璞",
+    "樊光",
+    "孫炎",
+    "音圖",
+    "離詞",
+    "詩人",
+    "興詠",
+    "注",
+    "釋詁",
+    "古今異言",
+    "方俗殊語"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "communication-being-understood",
+    "courage",
+    "death",
+    "emotions-passions",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "83af8e1a8739694c7c57e5a42504ba931be7e6ea4aeb91c9317df56fe85bb810"
+  },
+  "tagging_models": "MiniMax-M3"
 }
