@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "施食",
+    "五福",
+    "施命",
+    "施色",
+    "施力",
+    "施安",
+    "施辯",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘",
+    "族姓子",
+    "族姓女",
+    "三法",
+    "三十二相",
+    "八十種好"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "giving-generosity",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "46eefae9e45b72b5b33efe2b85041c8d95d9b7c48ea614bb21f56c52acc91f6b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
