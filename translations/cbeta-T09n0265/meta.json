@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T09",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "other-power",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "薩曇分陀利經",
+    "釋迦文佛",
+    "文殊師利",
+    "舍利弗",
+    "般若拘",
+    "調達",
+    "六波羅蜜",
+    "三十二相",
+    "阿耨多羅三藐三菩提",
+    "菩薩道",
+    "般泥洹",
+    "七寶浮圖",
+    "閻浮提",
+    "沙曷龍王",
+    "天王佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bc1889b46df2e63d61dbe4dc1d3bab423d2acab74acfc39d52272790e01a54da"
+  },
+  "tagging_models": "MiniMax-M3"
 }
