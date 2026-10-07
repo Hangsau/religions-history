@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy"
+  ],
+  "keywords": [
+    "阿難",
+    "事佛",
+    "五戒",
+    "十善",
+    "十惡",
+    "泥犁",
+    "地獄",
+    "三塗八難",
+    "泥洹",
+    "吉凶",
+    "齋戒",
+    "善師",
+    "因果報應",
+    "影逐形",
+    "甘露法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ebef86172aa3442561a8d9ae7066c7dfbd5cf5a00eb7a3a5ae692948fbb4644a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

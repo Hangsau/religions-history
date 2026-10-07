@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "羅睺羅",
+    "阿難",
+    "慈氏菩薩",
+    "大梵天王",
+    "帝釋天",
+    "四大天王",
+    "夜叉",
+    "羅剎",
+    "曼拏羅",
+    "結界",
+    "擁護",
+    "無憂樹園",
+    "迦毘羅城"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "loneliness-belonging"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6da6371651ff8efb302a5b036de557b263340105cba9e83f86fcd523cd8e65aa"
+  },
+  "tagging_models": "MiniMax-M3"
 }
