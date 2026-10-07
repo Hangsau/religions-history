@@ -164,8 +164,9 @@ def write_status(tier: str, done: int, total: int, current: str, failure_state: 
 # ---------- git ----------
 
 def run_git(args: list[str]) -> tuple[int, str]:
-    r = subprocess.run(["git", *args], cwd=ROOT, capture_output=True,
+    r = subprocess.run(["git", "-c", "credential.interactive=false", *args], cwd=ROOT, capture_output=True,
                        text=True, encoding="utf-8", errors="replace",
+                       env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
                        creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
     return r.returncode, ((r.stdout or "") + (r.stderr or "")).strip()
 
