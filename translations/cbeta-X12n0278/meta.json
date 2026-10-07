@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "self-effort"
+  ],
+  "keywords": [
+    "楞嚴經",
+    "通議略科",
+    "憨山",
+    "八識",
+    "如來藏",
+    "三觀",
+    "空",
+    "修心",
+    "正宗分",
+    "流通分",
+    "正修行路",
+    "華屋",
+    "攝心",
+    "道場",
+    "阿難"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c92e55a11db9f238452d1a8b15e7ba39715224d7f0005a3395ec6220569ca553"
+  },
+  "tagging_models": "MiniMax-M3"
 }

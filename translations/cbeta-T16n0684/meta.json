@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "父母恩",
+    "乳餔長養",
+    "安隱處",
+    "聖眾",
+    "四雙八輩",
+    "福田",
+    "信如來",
+    "慳貪",
+    "黠慧",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "世尊",
+    "比丘",
+    "所生子",
+    "所養子"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f6ca40696eea19b0ddfb4a81825edec6afae6744b63aa6ae297a94041cddfefd"
+  },
+  "tagging_models": "MiniMax-M3"
 }

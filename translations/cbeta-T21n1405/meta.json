@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "息除賊難",
+    "陀羅尼",
+    "大輪結界",
+    "阿難",
+    "摩伽陀國",
+    "菴羅樹園",
+    "韋提呬山",
+    "帝釋巖",
+    "結界",
+    "加持",
+    "淨白線",
+    "刀劍器杖",
+    "惡賊",
+    "世尊",
+    "救護"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7720da9d568e9e021b12cab1d2a6b280fb132fce200de33cfde3db6494442076"
+  },
+  "tagging_models": "MiniMax-M3"
 }
