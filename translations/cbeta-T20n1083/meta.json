@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "如意摩尼",
+    "陀羅尼",
+    "蓮華",
+    "根本呪",
+    "心呪",
+    "隨心呪",
+    "執金剛",
+    "無量壽佛",
+    "極樂世界",
+    "補特勒伽山",
+    "阿鼻地獄",
+    "五無間罪",
+    "眼藥成就",
+    "轉輪"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cad46690a1862ba8817cc388296bc0790ae1837d36ba0641b9b69a0cbc3e0ff7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
