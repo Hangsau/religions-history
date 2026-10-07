@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "karma-rebirth",
+    "monastic",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "睒子",
+    "慈慧菩薩",
+    "迦夷國",
+    "盲父母",
+    "十善",
+    "鹿皮衣",
+    "毒箭",
+    "阿難",
+    "摩耶",
+    "閱頭檀王",
+    "天帝釋",
+    "彌勒",
+    "五戒",
+    "無常",
+    "三界尊"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cef0c6efd8f568d8268fcc6902c61bf3447464a6a793c29b746eb098e7aad2d4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

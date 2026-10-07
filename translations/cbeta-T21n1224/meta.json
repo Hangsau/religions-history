@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "金剛童子",
+    "三昧耶印",
+    "真言",
+    "曼茶羅",
+    "金剛薩埵",
+    "百字真言",
+    "閼伽",
+    "五供養",
+    "金剛甲冑",
+    "金剛牆",
+    "毘那夜迦",
+    "軍吒利",
+    "事相應",
+    "悉地",
+    "曆應三年"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "dd551f75f705d791c40d3003eacf63dde716528fdde95e75376a0658bda59eb4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

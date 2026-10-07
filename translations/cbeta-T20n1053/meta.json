@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "cyclic-cosmos",
+    "emanation",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "觀自在",
+    "蓮華手",
+    "阿鼻地獄",
+    "餓鬼",
+    "阿修羅",
+    "補陀落山",
+    "三摩地",
+    "慈悲",
+    "輪迴",
+    "三毒",
+    "菩提",
+    "梵行",
+    "摩尼珠寶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9c0eb96b7afd4eb1ac72996d9552b7c9f14be02787037aca91ed8fb575ed7e14"
+  },
+  "tagging_models": "MiniMax-M3"
 }
