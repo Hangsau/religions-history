@@ -19527,6 +19527,13 @@
       "religion": "佛教"
     }
   ],
+  "三災": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
   "三界": [
     {
       "slug": "markandeya-purana",
@@ -19577,6 +19584,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "三魂": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
     }
   ],
   "三魂七魄": [
@@ -19657,6 +19671,13 @@
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
       "religion": "佛教"
+    }
+  ],
+  "不孝": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "不完全征服": [
@@ -19872,6 +19893,13 @@
       "religion": "瑪雅"
     }
   ],
+  "中臣": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
   "中觀": [
     {
       "slug": "bud-mulamadhyamakakarika-sa",
@@ -20046,6 +20074,11 @@
       "religion": "道教"
     },
     {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
+    },
+    {
       "slug": "zhouyi-cantong-qi",
       "name_zh": "周易參同契",
       "religion": "道教"
@@ -20117,6 +20150,13 @@
       "slug": "wenchang-yinzhiwen",
       "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
+    }
+  ],
+  "五刑": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "五力": [
@@ -20372,6 +20412,13 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    }
+  ],
+  "五體": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
     }
   ],
   "亞伯": [
@@ -20828,6 +20875,13 @@
       "religion": "猶太教"
     }
   ],
+  "人欲": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
   "人祭": [
     {
       "slug": "yucatan-before-after-conquest",
@@ -20868,6 +20922,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
       "religion": "儒教"
     }
   ],
@@ -21444,6 +21503,11 @@
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "仲虺之誥": [
@@ -21471,6 +21535,20 @@
     {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
+      "religion": "神道"
+    }
+  ],
+  "伊奘冉": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
+  "伊奘諾": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
     }
   ],
@@ -22268,6 +22346,11 @@
       "slug": "sblgnt-john",
       "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "信仰": [
@@ -22836,6 +22919,13 @@
       "religion": "基督教"
     }
   ],
+  "先王": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    }
+  ],
   "先知": [
     {
       "slug": "bible-1-samuel",
@@ -22939,6 +23029,13 @@
       "religion": "基督教"
     }
   ],
+  "先立乎其大者": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
   "光": [
     {
       "slug": "bible-john",
@@ -23010,6 +23107,13 @@
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "克己復禮": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "克律塞斯": [
@@ -23453,6 +23557,13 @@
       "religion": "耆那教"
     }
   ],
+  "六經注腳": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
   "六處": [
     {
       "slug": "sn12-nidana",
@@ -23680,6 +23791,13 @@
       "slug": "bible-1-corinthians",
       "name_zh": "哥林多前書",
       "religion": "基督教"
+    }
+  ],
+  "切己自反": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "列國": [
@@ -24106,6 +24224,13 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    }
+  ],
+  "北斗七元君": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
     }
   ],
   "北本涅槃經": [
@@ -24552,6 +24677,13 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    }
+  ],
+  "卿大夫": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "厄刻克拉特斯": [
@@ -26010,6 +26142,13 @@
       "religion": "佛教"
     }
   ],
+  "四端": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
   "四聖諦": [
     {
       "slug": "abhidharmakosa",
@@ -26932,6 +27071,13 @@
       "religion": "儒教"
     }
   ],
+  "大己貴神": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
   "大悲": [
     {
       "slug": "bud-bodhicaryavatara-sa",
@@ -27379,6 +27525,13 @@
       "religion": "基督教"
     }
   ],
+  "天兒屋命": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
   "天台": [
     {
       "slug": "jindan-sibaizi",
@@ -27465,6 +27618,13 @@
       "religion": "神道"
     }
   ],
+  "天子": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    }
+  ],
   "天子相應": [
     {
       "slug": "sn2-devaputta",
@@ -27488,6 +27648,11 @@
   ],
   "天師": [
     {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    },
+    {
       "slug": "huangdi-neijing",
       "name_zh": "黃帝內經",
       "religion": "道教"
@@ -27497,6 +27662,13 @@
     {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
+      "religion": "神道"
+    }
+  ],
+  "天御中主神": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
     }
   ],
@@ -27523,6 +27695,11 @@
   ],
   "天照大神": [
     {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    },
+    {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
@@ -27531,6 +27708,13 @@
       "slug": "nihon-shoki-zh",
       "name_zh": "日本書紀（漢文原文，全三十卷）",
       "religion": "神道"
+    }
+  ],
+  "天理": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "天瓊矛": [
@@ -27580,6 +27764,13 @@
       "religion": "道教"
     }
   ],
+  "天鈿女命": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
   "天隱子": [
     {
       "slug": "tianyinzi",
@@ -27621,6 +27812,11 @@
     }
   ],
   "太上老君": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    },
     {
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
@@ -27684,6 +27880,11 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "太極圖": [
@@ -27691,6 +27892,13 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    }
+  ],
+  "太玉命": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
     }
   ],
   "太陽神夜間之旅": [
@@ -28182,6 +28390,11 @@
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "存思": [
@@ -28217,6 +28430,18 @@
     {
       "slug": "liji",
       "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    }
+  ],
+  "孝經": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
       "religion": "儒教"
     }
   ],
@@ -28370,6 +28595,13 @@
       "slug": "tianyinzi",
       "name_zh": "天隱子",
       "religion": "道教"
+    }
+  ],
+  "宗廟": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "宗徒": [
@@ -29626,6 +29858,13 @@
       "religion": "佛教"
     }
   ],
+  "師道": [
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
+    }
+  ],
   "席書": [
     {
       "slug": "popol-vuh",
@@ -29767,6 +30006,13 @@
       "religion": "印加"
     }
   ],
+  "庶人": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    }
+  ],
   "康諾特": [
     {
       "slug": "tain-bo-cuailnge-ga",
@@ -29793,6 +30039,20 @@
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
+    }
+  ],
+  "延生": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
+  "延生真經": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
     }
   ],
   "弓歌": [
@@ -30380,6 +30640,11 @@
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
       "religion": "道教"
+    },
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "心念處": [
@@ -30804,6 +31069,13 @@
       "religion": "基督教"
     }
   ],
+  "悌": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    }
+  ],
   "悔改": [
     {
       "slug": "bible-hosea",
@@ -30915,6 +31187,13 @@
       "slug": "sn5-bhikkhuni",
       "name_zh": "SN5 比丘尼相應",
       "religion": "佛教"
+    }
+  ],
+  "惻隱之心": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "意地": [
@@ -33384,6 +33663,11 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "易洛魁": [
@@ -33527,6 +33811,11 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "智慧": [
@@ -33750,6 +34039,11 @@
     {
       "slug": "great-learning",
       "name_zh": "大學",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
       "religion": "儒教"
     }
   ],
@@ -34006,11 +34300,32 @@
       "religion": "佛教"
     }
   ],
+  "本命": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
+  "本命星官": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
   "本地分": [
     {
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
+    }
+  ],
+  "本心": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "本生": [
@@ -34032,6 +34347,13 @@
       "slug": "aristotle-metaphysics-el",
       "name_zh": "形上學（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "朱元晦": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "朱熹": [
@@ -34513,6 +34835,13 @@
       "slug": "vulgate-2-corinthians",
       "name_zh": "哥林多後書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "槐堂": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "樂園": [
@@ -36052,6 +36381,13 @@
       "religion": "佛教"
     }
   ],
+  "消災": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
   "淤能碁呂島": [
     {
       "slug": "kojiki-zh",
@@ -36543,6 +36879,13 @@
       "religion": "儒教"
     }
   ],
+  "無欲": [
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
+    }
+  ],
   "無漏": [
     {
       "slug": "sn5-bhikkhuni",
@@ -37006,6 +37349,13 @@
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "猿田彥大神": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
     }
   ],
   "獅吼": [
@@ -37766,6 +38116,13 @@
       "religion": "道教"
     }
   ],
+  "真君": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
   "真如": [
     {
       "slug": "awakening-of-faith",
@@ -38008,6 +38365,13 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    }
+  ],
+  "磐境": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
     }
   ],
   "磤馭慮島": [
@@ -38367,6 +38731,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "神籬": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
   "神義論": [
     {
       "slug": "bible-job",
@@ -38612,6 +38983,11 @@
       "slug": "shatapatha-brahmana-1",
       "name_zh": "百道梵書",
       "religion": "印度教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "祭祀者": [
@@ -38808,6 +39184,11 @@
     {
       "slug": "liji",
       "name_zh": "禮記",
+      "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
       "religion": "儒教"
     }
   ],
@@ -39134,6 +39515,13 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "簡易": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     }
   ],
   "米勒公": [
@@ -39674,6 +40062,13 @@
       "religion": "神道"
     }
   ],
+  "素戔鳴神": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
   "素祭": [
     {
       "slug": "bible-leviticus",
@@ -39960,6 +40355,11 @@
     {
       "slug": "mengzi",
       "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
       "religion": "儒教"
     }
   ],
@@ -40936,6 +41336,13 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    }
+  ],
+  "聖人之道": [
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "聖傳": [
@@ -43194,6 +43601,13 @@
       "religion": "佛教"
     }
   ],
+  "解厄": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    }
+  ],
   "解夢": [
     {
       "slug": "bible-daniel",
@@ -43442,6 +43856,11 @@
       "slug": "liji",
       "name_zh": "禮記",
       "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "誠意": [
@@ -43526,6 +43945,11 @@
     {
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
       "religion": "儒教"
     }
   ],
@@ -43694,6 +44118,13 @@
     {
       "slug": "book-of-changes",
       "name_zh": "周易",
+      "religion": "儒教"
+    }
+  ],
+  "象山": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
       "religion": "儒教"
     }
   ],
@@ -44001,6 +44432,11 @@
     }
   ],
   "輪迴": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    },
     {
       "slug": "bud-udanavarga-sa",
       "name_zh": "優陀那品（梵文）",
@@ -44555,6 +44991,13 @@
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "配天": [
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "醫治": [
@@ -45691,6 +46134,13 @@
       "religion": "道教"
     }
   ],
+  "陸九淵": [
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    }
+  ],
   "陽九百六": [
     {
       "slug": "taiping-jing",
@@ -46005,6 +46455,13 @@
       "religion": "道教"
     }
   ],
+  "靜虛": [
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
+    }
+  ],
   "非利士": [
     {
       "slug": "bible-1-samuel",
@@ -46187,6 +46644,13 @@
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
+    }
+  ],
+  "顏子": [
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "顛倒": [
@@ -46484,6 +46948,13 @@
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "高皇產靈神": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
     }
   ],
   "高等批評": [
@@ -46831,6 +47302,20 @@
     {
       "slug": "tianyinzi",
       "name_zh": "天隱子",
+      "religion": "道教"
+    }
+  ],
+  "齋部": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    }
+  ],
+  "齋醮": [
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
       "religion": "道教"
     }
   ],

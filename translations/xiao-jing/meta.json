@@ -21,5 +21,45 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "patriarchal",
+    "ritual-practice",
+    "secular-state"
+  ],
+  "keywords": [
+    "孝經",
+    "孝",
+    "曾子",
+    "仲尼",
+    "先王",
+    "配天",
+    "宗廟",
+    "祭祀",
+    "天子",
+    "諸侯",
+    "卿大夫",
+    "庶人",
+    "五刑",
+    "不孝",
+    "悌"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "loss-grief",
+    "parenthood",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b8961b1ca4a3da9acab7e563a1927392f8064dbc62b4e6cbc766e3e8bfb4175a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

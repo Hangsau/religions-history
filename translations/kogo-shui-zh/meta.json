@@ -22,5 +22,47 @@
   "notes": "齋部廣成 807 年撰，補記《記》《紀》未載之齋部氏神道傳承，神道古傳要籍；漢文原文",
   "text_role": "original",
   "is_original_language": true,
-  "original_of": "kogoshui"
+  "original_of": "kogoshui",
+  "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "theocracy"
+  ],
+  "keywords": [
+    "伊奘諾",
+    "伊奘冉",
+    "天照大神",
+    "素戔鳴神",
+    "天御中主神",
+    "高皇產靈神",
+    "天鈿女命",
+    "天兒屋命",
+    "太玉命",
+    "齋部",
+    "中臣",
+    "大己貴神",
+    "猿田彥大神",
+    "神籬",
+    "磐境"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loss-grief",
+    "memory-reconciliation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "52a1760ca314b4f12ab31ec59c9212982977000a7a22da2cb72f8732148ef00f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

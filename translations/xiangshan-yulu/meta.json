@@ -21,5 +21,51 @@
   "tier": "次要",
   "notes": "陸九淵語錄，心學先聲「心即理」之源",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-immanence",
+    "essentially-good",
+    "humility",
+    "mandate-of-heaven",
+    "meditation",
+    "patriarchal",
+    "self-effort",
+    "study",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "象山",
+    "陸九淵",
+    "天理",
+    "人欲",
+    "心",
+    "本心",
+    "六經注腳",
+    "先立乎其大者",
+    "克己復禮",
+    "四端",
+    "惻隱之心",
+    "簡易",
+    "朱元晦",
+    "槐堂",
+    "切己自反"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d4bfb3f27e023723ea1a76decdd022c1bb89923393ac98473db96a784f8ebdb9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

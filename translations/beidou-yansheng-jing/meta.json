@@ -21,5 +21,45 @@
   "tier": "次要",
   "notes": "北斗本命延生醮儀根本經",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "ancestor-worship",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "other-power",
+    "revealed-text",
+    "ritual-practice",
+    "salvation-by-faith",
+    "theodicy"
+  ],
+  "keywords": [
+    "太上老君",
+    "北斗七元君",
+    "本命",
+    "延生",
+    "消災",
+    "解厄",
+    "齋醮",
+    "天師",
+    "輪迴",
+    "三災",
+    "五體",
+    "真君",
+    "本命星官",
+    "三魂",
+    "延生真經"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "84efa08bec2639662c0586a66460e5f6380e8a9c79b4524a48c60f5e7d5191a8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

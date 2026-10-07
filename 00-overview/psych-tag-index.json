@@ -3309,6 +3309,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -4166,6 +4171,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    },
+    {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
@@ -4956,6 +4966,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -4974,6 +4989,11 @@
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     },
     {
       "slug": "zhuangzi",
@@ -6136,6 +6156,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     },
     {
       "slug": "yinfu-jing",
@@ -7339,6 +7364,11 @@
       "religion": "道教"
     },
     {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "zhuangzi",
       "name_zh": "莊子",
       "religion": "道教"
@@ -7429,6 +7459,11 @@
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
     },
     {
       "slug": "bible-1-chronicles",
@@ -8589,6 +8624,11 @@
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     },
     {
       "slug": "yajnavalkya-smrti",
@@ -10143,6 +10183,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    },
+    {
       "slug": "bible-1-chronicles",
       "name_zh": "歷代志上",
       "religion": "基督教"
@@ -10708,6 +10753,11 @@
       "religion": "道教"
     },
     {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
@@ -11011,6 +11061,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    },
+    {
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
@@ -11081,6 +11136,11 @@
       "religion": "道教"
     },
     {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
+    },
+    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
@@ -11091,6 +11151,11 @@
       "slug": "amos",
       "name_zh": "阿摩司書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
     },
     {
       "slug": "bible-1-john",
@@ -11624,6 +11689,11 @@
   ],
   "illness-body": [
     {
+      "slug": "beidou-yansheng-jing",
+      "name_zh": "太上玄靈北斗本命延生真經",
+      "religion": "道教"
+    },
+    {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
       "religion": "佛教"
@@ -12016,6 +12086,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -12039,6 +12114,11 @@
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "love-sex-intimacy": [
@@ -12435,6 +12515,18 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
+    }
+  ],
+  "memory-reconciliation": [
+    {
+      "slug": "kogo-shui-zh",
+      "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
     }
   ],
   "nihilism-void": [
@@ -12449,6 +12541,11 @@
       "slug": "doctrine-and-covenants",
       "name_zh": "教義和聖約 (LDS)",
       "religion": "現代新興"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "patience-waiting": [
@@ -12482,6 +12579,11 @@
     {
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
+      "religion": "儒教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
       "religion": "儒教"
     }
   ],
@@ -12545,6 +12647,11 @@
       "slug": "wenchang-yinzhiwen",
       "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
+    },
+    {
+      "slug": "xiao-jing",
+      "name_zh": "孝經（今文）",
+      "religion": "儒教"
     }
   ],
   "stillness-rest": [
@@ -12831,6 +12938,11 @@
       "slug": "yinfu-jing",
       "name_zh": "黃帝陰符經",
       "religion": "道教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "wisdom-learning-curiosity": [
@@ -12898,6 +13010,11 @@
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zhoudunyi-tongshu",
+      "name_zh": "通書",
+      "religion": "儒教"
     }
   ],
   "work-money": [
