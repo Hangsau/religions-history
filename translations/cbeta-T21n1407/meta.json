@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "辟除諸惡陀羅尼",
+    "陀羅尼",
+    "阿難",
+    "世尊",
+    "災沴",
+    "飛蝗",
+    "毒蟲",
+    "飢饉",
+    "持誦",
+    "十萬遍",
+    "加持",
+    "成就法",
+    "齋戒",
+    "諸佛菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "86573ef4d28f845df9b3175652d4ae4b85be43230039080a6322baabf5be25c4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

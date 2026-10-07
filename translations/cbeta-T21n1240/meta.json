@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany"
+  ],
+  "keywords": [
+    "阿吒薄𤘽",
+    "藥叉",
+    "跋折羅",
+    "軍荼利",
+    "毘沙門",
+    "因陀羅",
+    "金輪",
+    "鬼王",
+    "舍利",
+    "諸法從緣起",
+    "沙門",
+    "唵",
+    "泮",
+    "莎訶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a90d7f06464122106df5b94038c42f340695b73b6658bbba8a95edffc43bfa13"
+  },
+  "tagging_models": "MiniMax-M3"
 }

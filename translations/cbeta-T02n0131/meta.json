@@ -20,5 +20,37 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "婆羅門",
+    "仙人",
+    "五通",
+    "精進修善法",
+    "畏死",
+    "虛空",
+    "大海",
+    "山腹",
+    "天眼",
+    "世尊",
+    "舍衛城",
+    "祇樹給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "070333b299138a7f458fb566dad66a864fd8a2569604c15450d535a236b835b2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
