@@ -20252,6 +20252,13 @@
       "religion": "佛教"
     }
   ],
+  "三十六物": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    }
+  ],
   "三十六禽": [
     {
       "slug": "cbeta-T21n1275",
@@ -22696,6 +22703,11 @@
       "slug": "cbeta-T14n0502",
       "name_zh": "佛為年少比丘說正事經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
     }
   ],
   "不淨食": [
@@ -23804,7 +23816,19 @@
       "religion": "佛教"
     }
   ],
+  "九執曜": [
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
+    }
+  ],
   "九孔": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T15n0612",
       "name_zh": "身觀經",
@@ -24175,6 +24199,11 @@
     {
       "slug": "cbeta-T21n1304",
       "name_zh": "宿曜儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     },
     {
@@ -24917,6 +24946,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0736",
       "name_zh": "佛說四自侵經",
       "religion": "佛教"
@@ -25149,6 +25183,13 @@
     {
       "slug": "cbeta-T20n1115",
       "name_zh": "觀自在菩薩阿麼𪘨法",
+      "religion": "佛教"
+    }
+  ],
+  "五王經": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     }
   ],
@@ -27576,6 +27617,13 @@
       "religion": "佛教"
     }
   ],
+  "伽多鉢胝帝": [
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    }
+  ],
   "伽栗斯山": [
     {
       "slug": "cbeta-T20n1081",
@@ -27815,6 +27863,11 @@
     {
       "slug": "cbeta-T14n0522",
       "name_zh": "普達王經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     },
     {
@@ -28599,6 +28652,13 @@
     {
       "slug": "cbeta-T21n1408",
       "name_zh": "佛說最上意陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "供養法": [
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
       "religion": "佛教"
     }
   ],
@@ -31437,6 +31497,13 @@
       "religion": "佛教"
     }
   ],
+  "八法": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    }
+  ],
   "八法具足": [
     {
       "slug": "cbeta-T12n0348",
@@ -31467,6 +31534,13 @@
     {
       "slug": "cbeta-T20n1074",
       "name_zh": "何耶揭唎婆觀世音菩薩受法壇",
+      "religion": "佛教"
+    }
+  ],
+  "八苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     }
   ],
@@ -31933,6 +32007,13 @@
     {
       "slug": "cbeta-T14n0430",
       "name_zh": "八吉祥經",
+      "religion": "佛教"
+    }
+  ],
+  "六欲": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     }
   ],
@@ -32572,6 +32653,13 @@
     {
       "slug": "cbeta-T19n1010",
       "name_zh": "佛說出生無邊門陀羅尼儀軌",
+      "religion": "佛教"
+    }
+  ],
+  "出要": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     }
   ],
@@ -33723,6 +33811,11 @@
     {
       "slug": "cbeta-T21n1307",
       "name_zh": "佛說北斗七星延命經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     }
   ],
@@ -37573,6 +37666,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1275",
       "name_zh": "聖歡喜天式法",
       "religion": "佛教"
@@ -38546,6 +38644,11 @@
     {
       "slug": "cbeta-T04n0217",
       "name_zh": "譬喻經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     },
     {
@@ -41847,6 +41950,13 @@
       "religion": "佛教"
     }
   ],
+  "大塚": [
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "大天后": [
     {
       "slug": "cbeta-T20n1150",
@@ -42170,6 +42280,11 @@
     {
       "slug": "cbeta-T20n1168A",
       "name_zh": "佛說大乘八大曼拏羅經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -42618,6 +42733,11 @@
     {
       "slug": "cbeta-T21n1267",
       "name_zh": "使呪法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
       "religion": "佛教"
     },
     {
@@ -43792,6 +43912,13 @@
     {
       "slug": "cbeta-T14n0540a",
       "name_zh": "佛說樹提伽經",
+      "religion": "佛教"
+    }
+  ],
+  "天魅": [
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -47545,6 +47672,13 @@
       "religion": "佛教"
     }
   ],
+  "寒林": [
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
   "寒泉精舍": [
     {
       "slug": "jin-si-lu",
@@ -48568,6 +48702,11 @@
     {
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     }
   ],
@@ -50116,6 +50255,11 @@
     {
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     }
   ],
@@ -52188,6 +52332,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0201",
       "name_zh": "五大牛玉雨寶陀羅尼儀軌",
       "religion": "佛教"
@@ -52393,6 +52542,13 @@
     {
       "slug": "cbeta-T02n0142b",
       "name_zh": "玉耶女經",
+      "religion": "佛教"
+    }
+  ],
+  "怨憎會苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     }
   ],
@@ -52654,6 +52810,13 @@
     {
       "slug": "cbeta-T14n0507",
       "name_zh": "佛說未生冤經",
+      "religion": "佛教"
+    }
+  ],
+  "恩愛別苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     }
   ],
@@ -54116,6 +54279,13 @@
       "religion": "佛教"
     }
   ],
+  "憂悲惱苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
+    }
+  ],
   "憂愁": [
     {
       "slug": "cbeta-T17n0792",
@@ -54681,6 +54851,13 @@
       "religion": "基督教"
     }
   ],
+  "所求不得苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
+    }
+  ],
   "所生子": [
     {
       "slug": "cbeta-T16n0684",
@@ -54853,6 +55030,13 @@
     {
       "slug": "cbeta-T18n0913",
       "name_zh": "火𤙖供養儀軌",
+      "religion": "佛教"
+    }
+  ],
+  "扇那夜迦": [
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
       "religion": "佛教"
     }
   ],
@@ -55702,6 +55886,11 @@
     {
       "slug": "cbeta-T21n1390",
       "name_zh": "佛說洛叉陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -57070,6 +57259,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1282",
       "name_zh": "寶藏天女陀羅尼法",
       "religion": "佛教"
@@ -57286,6 +57480,11 @@
     {
       "slug": "cbeta-T21n1294",
       "name_zh": "施八方天儀則",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -58110,6 +58309,11 @@
     {
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     }
   ],
@@ -59588,6 +59792,13 @@
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
+    }
+  ],
+  "普安王": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
     }
   ],
   "普得攞迦山": [
@@ -61505,6 +61716,13 @@
       "religion": "道教"
     }
   ],
+  "本命星": [
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
+    }
+  ],
   "本命星官": [
     {
       "slug": "beidou-yansheng-jing",
@@ -62115,6 +62333,11 @@
     {
       "slug": "cbeta-T21n1264b",
       "name_zh": "佛說穰麌梨童女經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
       "religion": "佛教"
     },
     {
@@ -64384,6 +64607,11 @@
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
     }
   ],
   "武曲星": [
@@ -64590,6 +64818,13 @@
       "religion": "美洲"
     }
   ],
+  "死屍想": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    }
+  ],
   "死想": [
     {
       "slug": "cbeta-T02n0122",
@@ -64614,6 +64849,13 @@
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
+    }
+  ],
+  "死苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
     }
   ],
   "死魔": [
@@ -65575,6 +65817,13 @@
       "religion": "佛教"
     }
   ],
+  "毘廬遮那如來": [
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    }
+  ],
   "毘樓勒叉": [
     {
       "slug": "cbeta-T20n1136",
@@ -65974,6 +66223,11 @@
     {
       "slug": "cbeta-T21n1267",
       "name_zh": "使呪法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
       "religion": "佛教"
     },
     {
@@ -69831,6 +70085,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "烏摩女": [
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    }
+  ],
   "烏斯地": [
     {
       "slug": "bible-job",
@@ -71393,6 +71654,13 @@
       "religion": "佛教"
     }
   ],
+  "熾盛光": [
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
+    }
+  ],
   "熾盛光佛頂": [
     {
       "slug": "cbeta-T21n1304",
@@ -72505,6 +72773,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T24n1467b",
       "name_zh": "佛說犯戒罪報輕重經",
       "religion": "佛教"
@@ -73129,6 +73402,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0751a",
       "name_zh": "佛說五無反復經",
       "religion": "佛教"
@@ -73273,6 +73551,13 @@
     {
       "slug": "cbeta-T14n0571",
       "name_zh": "佛說婦人遇辜經",
+      "religion": "佛教"
+    }
+  ],
+  "生苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
       "religion": "佛教"
     }
   ],
@@ -73649,6 +73934,13 @@
       "religion": "佛教"
     }
   ],
+  "病苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
+    }
+  ],
   "病身病心": [
     {
       "slug": "sn22-khandha",
@@ -73958,6 +74250,13 @@
     {
       "slug": "cbeta-T55n2150",
       "name_zh": "續大唐內典錄",
+      "religion": "佛教"
+    }
+  ],
+  "白骨想": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     }
   ],
@@ -74317,6 +74616,11 @@
     {
       "slug": "cbeta-T14n0520",
       "name_zh": "佛說薩羅國經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     },
     {
@@ -75671,6 +75975,11 @@
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
     }
   ],
   "破軍星": [
@@ -75789,6 +76098,11 @@
     }
   ],
   "祇桓精舍": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T17n0751a",
       "name_zh": "佛說五無反復經",
@@ -77325,6 +77639,11 @@
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
     }
   ],
   "祿存星": [
@@ -77727,6 +78046,11 @@
     {
       "slug": "cbeta-T15n0597",
       "name_zh": "龍王兄弟經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     },
     {
@@ -80568,6 +80892,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1414",
       "name_zh": "佛說金身陀羅尼經",
       "religion": "佛教"
@@ -80704,6 +81033,11 @@
       "slug": "cbeta-T21n1304",
       "name_zh": "宿曜儀軌",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
     }
   ],
   "羅睺羅": [
@@ -80715,6 +81049,11 @@
     {
       "slug": "cbeta-T20n1049",
       "name_zh": "聖六字增壽大明陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -81252,6 +81591,13 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    }
+  ],
+  "老苦": [
+    {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
     }
   ],
   "考工記": [
@@ -86995,6 +87341,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0523",
+      "name_zh": "佛說五王經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0527",
       "name_zh": "佛說逝童子經",
       "religion": "佛教"
@@ -88426,6 +88777,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1395",
       "name_zh": "拔濟苦難陀羅尼經",
       "religion": "佛教"
@@ -88723,6 +89079,11 @@
     {
       "slug": "cbeta-T21n1302",
       "name_zh": "諸星母陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -90685,6 +91046,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T50n2057",
       "name_zh": "大唐青龍寺三朝供奉大德行狀",
       "religion": "佛教"
@@ -90809,6 +91175,11 @@
     {
       "slug": "cbeta-T14n0469",
       "name_zh": "文殊問經字母品第十四",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     },
     {
@@ -91045,6 +91416,11 @@
     {
       "slug": "cbeta-T21n1304",
       "name_zh": "宿曜儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     }
   ],
@@ -92233,6 +92609,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1409",
       "name_zh": "佛說聖最勝陀羅尼經",
       "religion": "佛教"
@@ -92491,6 +92872,11 @@
     {
       "slug": "cbeta-T21n1267",
       "name_zh": "使呪法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
       "religion": "佛教"
     },
     {
@@ -92765,6 +93151,11 @@
     {
       "slug": "cbeta-T21n1306",
       "name_zh": "北斗七星護摩祕要儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1310",
+      "name_zh": "北斗七星護摩法",
       "religion": "佛教"
     }
   ],
@@ -99129,6 +99520,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0621",
       "name_zh": "佛說佛印三昧經",
       "religion": "佛教"
@@ -101145,6 +101541,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1277",
       "name_zh": "速疾立驗魔醯首羅天說阿尾奢法",
       "religion": "佛教"
@@ -101337,6 +101738,11 @@
     {
       "slug": "cbeta-T21n1390",
       "name_zh": "佛說洛叉陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     },
     {
@@ -102176,6 +102582,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1270",
+      "name_zh": "大聖歡喜雙身大自在天毘那夜迦王歸依念誦供養法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1273",
       "name_zh": "毘那夜迦誐那鉢底瑜伽悉地品祕要",
       "religion": "佛教"
@@ -102323,6 +102734,13 @@
     {
       "slug": "cbeta-T21n1325",
       "name_zh": "佛說療痔病經",
+      "religion": "佛教"
+    }
+  ],
+  "難拏": [
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     }
   ],
@@ -103740,6 +104158,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1410",
       "name_zh": "佛說勝幡瓔珞陀羅尼經",
       "religion": "佛教"
@@ -104058,6 +104481,13 @@
     {
       "slug": "cbeta-T04n0215",
       "name_zh": "群牛譬經",
+      "religion": "佛教"
+    }
+  ],
+  "骨相": [
+    {
+      "slug": "cbeta-T15n0609",
+      "name_zh": "禪要經",
       "religion": "佛教"
     }
   ],
@@ -105430,6 +105860,13 @@
     {
       "slug": "sn9-vana",
       "name_zh": "SN9 林相應",
+      "religion": "佛教"
+    }
+  ],
+  "龍魅": [
+    {
+      "slug": "cbeta-T21n1392",
+      "name_zh": "大寒林聖難拏陀羅尼經",
       "religion": "佛教"
     }
   ],
