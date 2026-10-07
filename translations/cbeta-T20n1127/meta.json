@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "theophany"
+  ],
+  "keywords": [
+    "普賢菩薩",
+    "陀羅尼",
+    "三摩地",
+    "真言",
+    "金剛峰",
+    "波羅蜜",
+    "菩提智種",
+    "總持",
+    "大曼拏羅",
+    "法光明",
+    "十地",
+    "三世",
+    "如來",
+    "眾生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2c97bc2f14b7fecfd3bc888ab462f8aebb1fd8cc117ee15f525d917f69199eb8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

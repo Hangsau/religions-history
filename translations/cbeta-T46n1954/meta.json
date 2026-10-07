@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+  ],
+  "keywords": [
+    "毘盧遮那",
+    "陀羅尼",
+    "真言",
+    "三藏",
+    "灌頂",
+    "阿闍梨",
+    "三密",
+    "金剛薩埵",
+    "菩提心",
+    "三摩耶戒",
+    "大曼拏攞",
+    "瑜伽",
+    "契經",
+    "調伏",
+    "對法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1a242380e412716fcd4059a5a5f12cb24338eb1cc4872225fde085411060652d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

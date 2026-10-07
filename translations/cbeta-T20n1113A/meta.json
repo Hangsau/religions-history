@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "觀自在菩薩",
+    "大悲心",
+    "陀羅尼",
+    "觀世音",
+    "施食",
+    "那謨",
+    "唵",
+    "莎賀",
+    "阿哩夜縛路枳帝",
+    "普致沙埵",
+    "摩訶迦噜抳迦",
+    "尼羅簡陀",
+    "枲陀野",
+    "摩賀枲陀野",
+    "大悲陀羅尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d45e1003cea40c7749847a80544fef919fe0bda697493356d3cb89aeb0bc8ca8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
