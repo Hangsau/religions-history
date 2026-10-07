@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "大普賢陀羅尼",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "呪",
+    "夜叉",
+    "羅剎",
+    "毘舍遮",
+    "拘槃茶",
+    "迦吒富多那",
+    "楊枝",
+    "三色縷",
+    "胡摩兜",
+    "鬼名",
+    "護身"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5f9cbc376b7dc5898836130b1e1c6c2eba12f2835dab8df4d5dc8e4e9a397264"
+  },
+  "tagging_models": "MiniMax-M3"
 }

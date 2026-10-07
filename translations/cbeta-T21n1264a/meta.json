@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "觀自在菩薩",
+    "蘘麌哩曳童女",
+    "陀羅尼",
+    "毒害",
+    "真言",
+    "薄伽梵",
+    "舍衛國",
+    "祇陀園",
+    "苾芻",
+    "菩薩摩訶薩",
+    "天龍夜叉",
+    "三毒",
+    "發背",
+    "鹿皮",
+    "持呪"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7b19d58807f8a2b3ae4b01a6ca225870018d865ec0a5c32f5bb9d8ad4ca12211"
+  },
+  "tagging_models": "MiniMax-M3"
 }
