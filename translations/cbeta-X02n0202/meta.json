@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "牛王神",
+    "神呪",
+    "如意寶珠",
+    "波羅捺",
+    "鹿野園",
+    "阿若拘隣",
+    "四諦",
+    "薄伽梵",
+    "魔軍",
+    "阿鼻拔致",
+    "福德聚",
+    "轉輪",
+    "唵",
+    "莎賀",
+    "真多摩尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ab1da2188a5a8f63b9e36181d0955828dc17e557f824f2af3262842ab967efad"
+  },
+  "tagging_models": "MiniMax-M3"
 }

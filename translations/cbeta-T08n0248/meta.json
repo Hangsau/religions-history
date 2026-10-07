@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "般若波羅蜜",
+    "須菩提",
+    "菩薩",
+    "阿羅漢",
+    "布施波羅蜜",
+    "持戒波羅蜜",
+    "忍辱波羅蜜",
+    "精進波羅蜜",
+    "禪定波羅蜜",
+    "智慧波羅蜜",
+    "四聖諦",
+    "八聖道",
+    "空",
+    "三摩地",
+    "阿耨多羅三藐三菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bf406e066d47411821b835e2628251e60147ccab4d023c885109390dae332903"
+  },
+  "tagging_models": "MiniMax-M3"
 }

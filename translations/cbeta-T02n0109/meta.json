@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "波羅㮈",
+    "鹿野樹下",
+    "法輪",
+    "阿若拘鄰",
+    "八正道",
+    "四諦",
+    "五陰",
+    "貪欲",
+    "泥洹",
+    "阿羅漢",
+    "漏盡",
+    "正見",
+    "正定",
+    "三轉十二行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a149893348901a51894a3eff3d2b44efad17f39c571133c8c2f179ba00e91d4e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
