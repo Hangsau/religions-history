@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "fasting",
+    "lay-practitioner",
+    "liberation-by-works",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "八戒齋",
+    "阿羅漢",
+    "六齋日",
+    "優陂夷墮舍迦",
+    "蕪耶樓母",
+    "舍衛國",
+    "月十五日",
+    "布施",
+    "比丘僧",
+    "度世道",
+    "三惡處",
+    "十六大國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "giving-generosity",
+    "gratitude-contentment",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "51f23541871a43ae2053fe5ed4d43f991485dc24bf1b15acd870b072eae42253"
+  },
+  "tagging_models": "MiniMax-M3"
 }
