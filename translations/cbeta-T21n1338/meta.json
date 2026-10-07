@@ -20,5 +20,35 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "大輪金剛",
+    "日光菩薩",
+    "摩利支天",
+    "曼荼羅",
+    "呪",
+    "護身",
+    "唵",
+    "娑婆訶",
+    "三七遍",
+    "一百八遍",
+    "梵音"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "aa585a7b2eb00d559e6837d55eec5db18b89039af342832678087be42d0dd23f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

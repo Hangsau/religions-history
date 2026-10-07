@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "不殺生",
+    "不偷盜",
+    "不邪染",
+    "不妄語",
+    "不飲酒",
+    "五大施",
+    "無畏施",
+    "苾芻",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "世尊",
+    "安隱樂"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "def3793509120eda659fcf45b21d1eb04447ec2dd64284667e483f3f24489153"
+  },
+  "tagging_models": "MiniMax-M3"
 }

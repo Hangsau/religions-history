@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "救苦經",
+    "阿難",
+    "陀羅尼",
+    "真言",
+    "回光菩薩",
+    "回善菩薩",
+    "阿耨大天王",
+    "五百羅漢",
+    "災難",
+    "離苦難",
+    "誦",
+    "佛力",
+    "南無"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "79a2544e4ef47450dd5cfcd4a23cb3502bc287d762e3a5887494341934f43a51"
+  },
+  "tagging_models": "MiniMax-M3"
 }
