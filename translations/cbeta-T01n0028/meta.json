@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "meditation",
+    "monastic"
+  ],
+  "keywords": [
+    "園生樹",
+    "三十三天",
+    "帝釋天主",
+    "半努鉢羅舍",
+    "尸囉拏鉢羅舍",
+    "四禪",
+    "初禪",
+    "二禪",
+    "三禪",
+    "無學果",
+    "聲聞",
+    "善法堂",
+    "舍衛國",
+    "祇樹給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "95654ef66b24335052a234efd1e73145d9f88535920fb5522d4c7804cc37a003"
+  },
+  "tagging_models": "MiniMax-M3"
 }

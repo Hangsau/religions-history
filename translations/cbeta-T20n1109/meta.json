@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "feminine-divine",
+    "goddess-tradition",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "救度佛母",
+    "聖救度母",
+    "唵",
+    "答哷都答哷",
+    "金剛跏趺",
+    "蓮華月輪",
+    "如意輪",
+    "多寶花",
+    "優鉢花",
+    "八字",
+    "菩提",
+    "順緣",
+    "逆緣",
+    "慈悲鉤",
+    "唵答哷都答哷都嘛嘛阿俞逋葉納逋真沽嚕葉娑訶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "35bb0e25448ca63f06449d8a509bd88d2e9a050f433b5e3382163b5e6f713af7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

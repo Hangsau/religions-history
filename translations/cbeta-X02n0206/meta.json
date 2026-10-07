@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "真言",
+    "悉地",
+    "菩薩",
+    "馬鳴",
+    "六臂",
+    "曼荼羅華",
+    "七寶",
+    "末法",
+    "極樂",
+    "瑜伽",
+    "毗底羅香",
+    "錦繡",
+    "符書"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ab8aca3e5d175e7a859d9c29e09c4fe1a09e42e07f5fa4504ece1db869302cc8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
