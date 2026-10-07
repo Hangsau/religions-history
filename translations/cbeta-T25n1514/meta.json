@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T25",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "金剛",
+    "無住",
+    "法身",
+    "法界",
+    "菩薩",
+    "然燈佛",
+    "福德",
+    "無相",
+    "無我",
+    "三輪",
+    "六度",
+    "唯識",
+    "涅槃",
+    "授記"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8c065761339d0f258dd9ed413fa6916d384c32ba6bafbff2b9db98490017a06a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

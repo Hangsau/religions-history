@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "karma-rebirth",
+    "monastic",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "琉璃王",
+    "波斯匿",
+    "迦維羅衛",
+    "舍夷",
+    "釋摩男",
+    "阿難",
+    "目揵連",
+    "尼拘類樹",
+    "枯樹下",
+    "宿命罪",
+    "無常",
+    "地獄火",
+    "舍衛國",
+    "釋氏",
+    "冤親平等"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2aa0b1ec5660b8bd778c534e7a29c3a8be43c85338b6928bbe3bb7c418da866c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
