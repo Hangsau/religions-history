@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "divine-kingship",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "temple-centered"
+  ],
+  "keywords": [
+    "建業",
+    "小莊嚴寺",
+    "同泰寺",
+    "梁武帝",
+    "度禪師",
+    "誌公",
+    "寶公",
+    "蕭衍",
+    "天監",
+    "大同",
+    "大通",
+    "浮圖",
+    "伽藍",
+    "蔣山",
+    "瓦棺寺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "69ecbc44c1052efa77f6fe8e2a4ebab88dc173c39defc41e9d0e7b0abfe0e550"
+  },
+  "tagging_models": "MiniMax-M3"
 }
