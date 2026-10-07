@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "divine-immanence",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "阿難",
+    "五濁",
+    "慈心",
+    "四事",
+    "六度",
+    "五戒",
+    "四等心",
+    "三塗",
+    "沙門梵志",
+    "屠殺",
+    "布施",
+    "經籍",
+    "魂神",
+    "滅度",
+    "拘夷那竭國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "giving-generosity",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4aebfc70078b4a8f7cc5e744dcb6b90196e6d95f5a8efc441a7431b6b75a570f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
