@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "non-dual"
+  ],
+  "keywords": [
+    "永嘉證道歌",
+    "曹溪",
+    "六祖",
+    "達磨",
+    "般若",
+    "摩訶般若",
+    "無生",
+    "涅槃",
+    "如來藏",
+    "摩尼珠",
+    "頓悟",
+    "禪",
+    "三身四智",
+    "八解六通",
+    "一宿覺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c5a39faba599204172d19dd4f89789a4bb4215c23cb7b4f371b4fdd7e6ab1d39"
+  },
+  "tagging_models": "MiniMax-M3"
 }

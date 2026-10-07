@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "三歸依",
+    "三寶",
+    "十善",
+    "八戒",
+    "五戒",
+    "菩薩三聚淨戒",
+    "預流果",
+    "一來果",
+    "不還果",
+    "阿羅漢",
+    "獨覺",
+    "佛",
+    "阿難",
+    "室羅筏",
+    "給孤獨園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a7650dc4fb3cd7887288e40a6a6428c78c979bb420e2867c45b84d6e8ed2a79b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

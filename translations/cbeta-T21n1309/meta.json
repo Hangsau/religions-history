@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "七曜",
+    "二十八宿",
+    "行病鬼",
+    "玄宗",
+    "一行和尚",
+    "昴宿",
+    "畢宿",
+    "參宿",
+    "柳宿",
+    "張宿",
+    "翼宿",
+    "軫宿",
+    "女宿",
+    "角宿",
+    "井宿"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "98318ff62d30bc092f87bd06533b59cf35e26af443da3e222d600250817d97b3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
