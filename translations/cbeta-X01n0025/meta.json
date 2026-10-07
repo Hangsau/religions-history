@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "essentially-flawed",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "化珠保命真經",
+    "摩尼珠",
+    "藥王菩薩",
+    "藥上菩薩",
+    "觀世音菩經薩",
+    "𤻼痘",
+    "兜率羅天",
+    "神呪",
+    "持誦",
+    "善惡業",
+    "陰陽",
+    "陽界",
+    "陰界",
+    "奈河橋",
+    "王守仁"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "02578a751134415dc87cc69fc38ffd7a1e25938990988ae47cf34d691f5c34cc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
