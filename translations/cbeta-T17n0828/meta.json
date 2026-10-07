@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "golden-rule",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-violence",
+    "truthfulness"
+  ],
+  "keywords": [
+    "無字寶篋經",
+    "勝思惟菩薩",
+    "如來",
+    "貪瞋癡",
+    "我見",
+    "無明",
+    "己所不欲勿勸他人",
+    "般若波羅蜜",
+    "廣博嚴藏",
+    "阿彌陀佛",
+    "法性",
+    "因緣",
+    "三昧",
+    "菩提",
+    "十地菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "death",
+    "emotions-passions",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8bbc0010a855f1fe051ba34ecf07ee603137bf882a61c9f2a6d7da3751762932"
+  },
+  "tagging_models": "MiniMax-M3"
 }

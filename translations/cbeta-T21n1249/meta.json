@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "毘沙門天王",
+    "獨健",
+    "那吒",
+    "吉祥天女",
+    "功德天",
+    "陀羅尼",
+    "真言",
+    "手印",
+    "壇法",
+    "安西城",
+    "大石康五國",
+    "大廣智",
+    "一行禪師",
+    "使者呪",
+    "八大天王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "679b185a84a10128b33dd8467b3c7e38b6dc260253bd85d586ab585dfbdf9077"
+  },
+  "tagging_models": "MiniMax-M3"
 }
