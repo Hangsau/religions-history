@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "般若波羅蜜",
+    "實相",
+    "金剛手菩薩",
+    "觀自在菩薩",
+    "自性清淨",
+    "金剛三昧",
+    "灌頂",
+    "阿耨多羅三藐三菩提",
+    "一切法平等",
+    "如來藏",
+    "調伏",
+    "蓮華",
+    "菩提心",
+    "普光明",
+    "菩薩摩訶薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "896b4c72a525668b15ebab6da3ab05f1b6ef2de2e7b38f9c06f70562df7078c3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
