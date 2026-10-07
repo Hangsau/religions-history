@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "十不二門",
+    "色心不二",
+    "內外不二",
+    "修性不二",
+    "因果不二",
+    "染淨不二",
+    "依正不二",
+    "自他不二",
+    "三業不二",
+    "權實不二",
+    "受潤不二",
+    "三千世間",
+    "空假中",
+    "一念三千",
+    "法華經"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "69b5c7a32d8b10102d2b8a6e97cd0687a14dea8bcb8a4d8260947acd3b4c57ab"
+  },
+  "tagging_models": "MiniMax-M3"
 }

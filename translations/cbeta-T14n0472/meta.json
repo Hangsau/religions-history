@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "truthfulness"
+  ],
+  "keywords": [
+    "四聖諦",
+    "四念處",
+    "四正勤",
+    "五根",
+    "五力",
+    "七菩提分",
+    "八聖道分",
+    "文殊師利",
+    "涅盤",
+    "輪迴",
+    "無生法忍",
+    "王舍城",
+    "鷲峯山",
+    "須菩提",
+    "十二緣生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4b23cf39ca003ab3997aedfd6b1ae25c2630e27e5804e6c763a99d25c90ca8d5"
+  },
+  "tagging_models": "MiniMax-M3"
 }
