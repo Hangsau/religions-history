@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "諸法本",
+    "欲",
+    "更",
+    "痛",
+    "念",
+    "思惟",
+    "三昧",
+    "智慧",
+    "解脫",
+    "泥洹",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "比丘",
+    "斷愛棄欲",
+    "苦際"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1ed943c27564a1f6eb06fa2883f85a0841635a800ebd47ee653dc1272abb6fa3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
