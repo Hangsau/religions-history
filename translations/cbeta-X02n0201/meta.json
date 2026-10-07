@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "五大牛玉雨寶陀羅尼",
+    "虗空神通王菩薩",
+    "金剛頂瑜伽",
+    "雨寶",
+    "如意寶",
+    "陀羅尼",
+    "灌頂",
+    "念誦",
+    "悉地",
+    "薄福眾生",
+    "祕密教法",
+    "五大牛玉菩薩",
+    "金剛合掌",
+    "羯磨印",
+    "三昧耶印"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "giving-generosity",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "243db4f77a0c88b1a8c8d03a7e4459c573ed6540cae6f00a9dafd837f182c293"
+  },
+  "tagging_models": "MiniMax-M3"
 }

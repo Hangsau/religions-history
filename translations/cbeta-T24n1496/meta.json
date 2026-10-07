@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "阿闍梨",
+    "和上",
+    "正恭敬",
+    "依止",
+    "辟支地獄",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "菩薩摩訶薩",
+    "聲聞比丘",
+    "四句偈",
+    "讀誦",
+    "出離",
+    "法眼淨",
+    "三寶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b641eb4fba95bc8d85c403d8c6a26674236ec02a96cd004d782b77948725469b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
