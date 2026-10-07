@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "reincarnation",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "阿彌陀佛",
+    "念佛",
+    "極樂",
+    "往生",
+    "西方",
+    "觀世音菩薩",
+    "九品",
+    "四十八願",
+    "迴向",
+    "臨終",
+    "蓮池大師",
+    "三淨肉",
+    "戒殺",
+    "輪迴",
+    "淨土"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b28e4761e9026095e41e5ccb51046080247a60b8d43668b83d7af02b9ec6a258"
+  },
+  "tagging_models": "MiniMax-M3"
 }

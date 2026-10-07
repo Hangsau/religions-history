@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "theodicy"
+  ],
+  "keywords": [
+    "波斯匿王",
+    "無常想",
+    "除憂患經",
+    "四大恐畏",
+    "死想",
+    "太后",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "欲愛",
+    "無明",
+    "善惡果",
+    "地獄",
+    "天",
+    "恩愛別離",
+    "正法治化"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "death",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "78a9f54952de911c7b25bffc12d7779e47472eda6c3e491574be7810fed3afda"
+  },
+  "tagging_models": "MiniMax-M3"
 }

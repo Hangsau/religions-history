@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "比丘聽施經",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "睡眠",
+    "根門",
+    "貪色",
+    "瞋恚",
+    "三惡念",
+    "三善念",
+    "邪見",
+    "正覺",
+    "五樂",
+    "無為德",
+    "悲心",
+    "寂靜"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "faith-doubt",
+    "fear-uncertainty",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "36100d03a9a69e74fb41e6c0c22df489b89b29e7b3c84c4120179db363b2b512"
+  },
+  "tagging_models": "MiniMax-M3"
 }

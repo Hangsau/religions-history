@@ -19967,6 +19967,13 @@
       "religion": "儒教"
     }
   ],
+  "三善念": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    }
+  ],
   "三垢": [
     {
       "slug": "cbeta-T14n0537",
@@ -20297,6 +20304,13 @@
       "religion": "佛教"
     }
   ],
+  "三惡念": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    }
+  ],
   "三惡行": [
     {
       "slug": "cbeta-T01n0036",
@@ -20308,6 +20322,11 @@
     {
       "slug": "cbeta-T17n0799",
       "name_zh": "佛說略教誡經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -20803,6 +20822,13 @@
       "slug": "xuangang-lun",
       "name_zh": "玄綱論",
       "religion": "道教"
+    }
+  ],
+  "三淨肉": [
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
     }
   ],
   "三清淨": [
@@ -22435,6 +22461,13 @@
       "religion": "佛教"
     }
   ],
+  "九品": [
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    }
+  ],
   "九品往生": [
     {
       "slug": "cbeta-T19n0933",
@@ -22970,6 +23003,13 @@
       "religion": "佛教"
     }
   ],
+  "五天使者": [
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    }
+  ],
   "五如來": [
     {
       "slug": "cbeta-T19n1010",
@@ -23188,6 +23228,11 @@
     {
       "slug": "cbeta-T02n0114",
       "name_zh": "佛說馬有三相經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
       "religion": "佛教"
     }
   ],
@@ -28616,6 +28661,11 @@
     {
       "slug": "cbeta-T14n0490",
       "name_zh": "佛說八大菩薩經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -34053,6 +34103,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0590",
       "name_zh": "佛說四天王經",
       "religion": "佛教"
@@ -34075,6 +34130,13 @@
       "slug": "denkard-bk-7-8",
       "name_zh": "Dinkard Books 8-9",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "善惡果": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
     }
   ],
   "善惡業報": [
@@ -34453,6 +34515,13 @@
       "religion": "佛教"
     }
   ],
+  "四十八願": [
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    }
+  ],
   "四句偈": [
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
@@ -34518,6 +34587,13 @@
     {
       "slug": "cbeta-T21n1403",
       "name_zh": "佛說如意摩尼陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "四大恐畏": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
       "religion": "佛教"
     }
   ],
@@ -35170,6 +35246,11 @@
   ],
   "因果": [
     {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T03n0181a",
       "name_zh": "九色鹿經",
       "religion": "佛教"
@@ -35631,6 +35712,16 @@
   ],
   "地獄": [
     {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T02n0139",
       "name_zh": "佛說四泥犁經",
       "religion": "佛教"
@@ -35742,6 +35833,11 @@
     {
       "slug": "cbeta-T08n0259",
       "name_zh": "佛說觀想佛母般若波羅蜜多菩薩經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -37921,6 +38017,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0794a",
       "name_zh": "佛說時非時經",
       "religion": "佛教"
@@ -38477,6 +38578,11 @@
   ],
   "天眼": [
     {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T02n0131",
       "name_zh": "佛說婆羅門避死經",
       "religion": "佛教"
@@ -38782,6 +38888,13 @@
       "slug": "zhonglu-chuandao-ji",
       "name_zh": "鍾呂傳道集",
       "religion": "道教"
+    }
+  ],
+  "太后": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
     }
   ],
   "太和": [
@@ -41410,6 +41523,11 @@
   ],
   "寂靜": [
     {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0773",
       "name_zh": "佛說菩薩修行四法經",
       "religion": "佛教"
@@ -41505,6 +41623,11 @@
     {
       "slug": "cbeta-T19n0958",
       "name_zh": "金剛頂經一字頂輪王儀軌音義",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     }
   ],
@@ -44365,6 +44488,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0057",
       "name_zh": "十二禮",
       "religion": "佛教"
@@ -45210,6 +45338,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    },
+    {
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
@@ -45693,6 +45826,13 @@
       "religion": "基督教"
     }
   ],
+  "恩愛別離": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    }
+  ],
   "恩膏": [
     {
       "slug": "bible-1-john",
@@ -45915,6 +46055,13 @@
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "悲心": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
     }
   ],
   "悲愍": [
@@ -46644,6 +46791,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1168A",
       "name_zh": "佛說大乘八大曼拏羅經",
       "religion": "佛教"
@@ -47123,6 +47275,13 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    }
+  ],
+  "戒殺": [
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
     }
   ],
   "戒法": [
@@ -51389,6 +51548,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1168A",
       "name_zh": "佛說大乘八大曼拏羅經",
       "religion": "佛教"
@@ -51928,6 +52092,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1219",
       "name_zh": "曼殊室利焰曼德迦萬愛祕術如意法",
       "religion": "佛教"
@@ -52029,6 +52198,11 @@
     {
       "slug": "cbeta-T20n1166",
       "name_zh": "馬鳴菩薩大神力無比驗法念誦軌儀",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -53211,6 +53385,13 @@
       "religion": "佛教"
     }
   ],
+  "根門": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    }
+  ],
   "格勞孔": [
     {
       "slug": "plato-symposium-el",
@@ -53948,6 +54129,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X02n0206",
       "name_zh": "馬鳴菩薩成就悉地念誦",
       "religion": "佛教"
@@ -54226,6 +54412,11 @@
     }
   ],
   "欲愛": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T14n0575",
       "name_zh": "佛說大方等修多羅王經",
@@ -54566,6 +54757,13 @@
       "religion": "佛教"
     }
   ],
+  "正法治化": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    }
+  ],
   "正理經": [
     {
       "slug": "nyaya-sutra",
@@ -54692,6 +54890,11 @@
     {
       "slug": "cbeta-T08n0259",
       "name_zh": "佛說觀想佛母般若波羅蜜多菩薩經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
       "religion": "佛教"
     },
     {
@@ -55125,6 +55328,11 @@
     }
   ],
   "死想": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T15n0605",
       "name_zh": "禪行法想經",
@@ -55721,6 +55929,13 @@
     {
       "slug": "cbeta-T02n0137",
       "name_zh": "舍利弗摩訶目連遊四衢經",
+      "religion": "佛教"
+    }
+  ],
+  "比丘聽施經": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
       "religion": "佛教"
     }
   ],
@@ -57196,6 +57411,11 @@
   ],
   "波斯匿王": [
     {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T02n0147",
       "name_zh": "佛說舍衛國王十夢經",
       "religion": "佛教"
@@ -57570,6 +57790,11 @@
     }
   ],
   "泥犁": [
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T01n0051",
       "name_zh": "梵志計水淨經",
@@ -58212,6 +58437,11 @@
     {
       "slug": "cbeta-T47n1977",
       "name_zh": "淨土疑辨",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
       "religion": "佛教"
     },
     {
@@ -59406,6 +59636,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T15n0605",
       "name_zh": "禪行法想經",
       "religion": "佛教"
@@ -59611,6 +59846,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T02n0124",
       "name_zh": "緣起經",
       "religion": "佛教"
@@ -59805,6 +60045,13 @@
       "slug": "zuowang-lun",
       "name_zh": "坐忘論",
       "religion": "道教"
+    }
+  ],
+  "無為德": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
     }
   ],
   "無為法": [
@@ -61590,6 +61837,13 @@
     {
       "slug": "cbeta-T03n0168",
       "name_zh": "太子墓魄經",
+      "religion": "佛教"
+    }
+  ],
+  "生天": [
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
       "religion": "佛教"
     }
   ],
@@ -63397,6 +63651,13 @@
       "religion": "佛教"
     }
   ],
+  "睡眠": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    }
+  ],
   "瞋": [
     {
       "slug": "cbeta-T17n0727",
@@ -63415,6 +63676,11 @@
     {
       "slug": "cbeta-T02n0111",
       "name_zh": "佛說相應相可經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
       "religion": "佛教"
     },
     {
@@ -63809,6 +64075,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0056",
       "name_zh": "樂想經",
       "religion": "佛教"
@@ -63861,6 +64132,11 @@
     {
       "slug": "cbeta-T02n0117",
       "name_zh": "佛說戒香經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
       "religion": "佛教"
     },
     {
@@ -63946,6 +64222,11 @@
     {
       "slug": "cbeta-T14n0503",
       "name_zh": "比丘避女惡名欲自殺經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
       "religion": "佛教"
     },
     {
@@ -67207,6 +67488,13 @@
       "religion": "佛教"
     }
   ],
+  "經戒": [
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    }
+  ],
   "經脈": [
     {
       "slug": "huangdi-neijing",
@@ -70059,6 +70347,13 @@
       "religion": "佛教"
     }
   ],
+  "臨終": [
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    }
+  ],
   "自制": [
     {
       "slug": "marcus-aurelius-meditations-el",
@@ -70704,6 +70999,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0059",
       "name_zh": "諸法本經",
       "religion": "佛教"
@@ -70826,6 +71126,11 @@
     {
       "slug": "cbeta-T14n0503",
       "name_zh": "比丘避女惡名欲自殺經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
       "religion": "佛教"
     },
     {
@@ -71169,6 +71474,11 @@
     {
       "slug": "cbeta-T01n0082",
       "name_zh": "意經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
       "religion": "佛教"
     },
     {
@@ -72376,6 +72686,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1197",
       "name_zh": "佛說文殊師利一百八名梵讚",
       "religion": "佛教"
@@ -73376,6 +73691,13 @@
       "religion": "佛教"
     }
   ],
+  "蓮池大師": [
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    }
+  ],
   "蓮池禪師": [
     {
       "slug": "cbeta-T47n1977",
@@ -73654,6 +73976,11 @@
     {
       "slug": "cbeta-T19n0924B",
       "name_zh": "藥師如來念誦儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -74312,6 +74639,11 @@
   ],
   "虛空藏菩薩": [
     {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1168A",
       "name_zh": "佛說大乘八大曼拏羅經",
       "religion": "佛教"
@@ -74632,6 +74964,13 @@
       "religion": "佛教"
     }
   ],
+  "補怛落伽山": [
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    }
+  ],
   "補特伽羅無我": [
     {
       "slug": "cbeta-T31n1614",
@@ -74771,6 +75110,11 @@
     {
       "slug": "cbeta-T47n1977",
       "name_zh": "淨土疑辨",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
       "religion": "佛教"
     },
     {
@@ -75117,6 +75461,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X01n0019",
       "name_zh": "佛說斷溫經",
       "religion": "佛教"
@@ -75335,6 +75684,11 @@
     {
       "slug": "cbeta-T20n1117",
       "name_zh": "佛說觀自在菩薩母陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -77077,6 +77431,13 @@
       "religion": "佛教"
     }
   ],
+  "貪色": [
+    {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    }
+  ],
   "貪著": [
     {
       "slug": "cbeta-T15n0615",
@@ -77485,6 +77846,11 @@
       "slug": "an3-threes",
       "name_zh": "AN3 三法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
     }
   ],
   "身呪": [
@@ -77711,6 +78077,11 @@
     {
       "slug": "cbeta-T32n1679",
       "name_zh": "佛一百八名讚",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
       "religion": "佛教"
     },
     {
@@ -78376,6 +78747,11 @@
     {
       "slug": "cbeta-T46n1942",
       "name_zh": "法華三昧行事運想補助儀",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
       "religion": "佛教"
     }
   ],
@@ -79193,6 +79569,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T14n0504",
+      "name_zh": "比丘聽施經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T17n0727",
       "name_zh": "十不善業道經",
       "religion": "佛教"
@@ -79831,6 +80212,11 @@
     {
       "slug": "cbeta-T20n1077",
       "name_zh": "佛說七俱胝佛母心大准提陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
       "religion": "佛教"
     },
     {
@@ -80832,6 +81218,13 @@
       "religion": "佛教"
     }
   ],
+  "閻羅王": [
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
+      "religion": "佛教"
+    }
+  ],
   "閻魔羅界": [
     {
       "slug": "cbeta-T21n1364",
@@ -81203,6 +81596,11 @@
     {
       "slug": "cbeta-T24n1502",
       "name_zh": "菩薩受齋經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X01n0013",
+      "name_zh": "念佛超脫輪迴捷徑經",
       "religion": "佛教"
     },
     {
@@ -83274,7 +83672,19 @@
       "religion": "佛教"
     }
   ],
+  "除憂患經": [
+    {
+      "slug": "cbeta-T02n0122",
+      "name_zh": "佛說波斯匿王太后崩塵土坌身經",
+      "religion": "佛教"
+    }
+  ],
   "除蓋障菩薩": [
+    {
+      "slug": "cbeta-T20n1167",
+      "name_zh": "八大菩薩曼荼羅經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T20n1168A",
       "name_zh": "佛說大乘八大曼拏羅經",
@@ -85303,6 +85713,13 @@
     {
       "slug": "cbeta-T14n0555a",
       "name_zh": "五母子經",
+      "religion": "佛教"
+    }
+  ],
+  "魂神": [
+    {
+      "slug": "cbeta-T01n0043",
+      "name_zh": "閻羅王五天使者經",
       "religion": "佛教"
     }
   ],
