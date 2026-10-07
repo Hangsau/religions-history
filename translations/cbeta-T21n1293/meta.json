@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "十六善神",
+    "般若波羅蜜",
+    "守護",
+    "提頭攞宅",
+    "毘盧勒叉",
+    "摧伏毒害",
+    "增益",
+    "歡喜",
+    "除一切障難",
+    "拔除罪垢",
+    "能忍",
+    "毘沙門天",
+    "陀羅尼集經",
+    "金剛智",
+    "忿怒相"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c13d1f0d58c6dff1df62549eb434dcce245b50ce9fde48ed18ea9d88c01ed9f8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
