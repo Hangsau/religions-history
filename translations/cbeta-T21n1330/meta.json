@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "囉嚩拏",
+    "十二曜母鬼",
+    "持明人",
+    "曼拏羅",
+    "大明",
+    "救療",
+    "小兒疾病",
+    "祭祀",
+    "摩怛哩難那",
+    "蘇難那",
+    "安悉香",
+    "白芥子",
+    "鬼魅",
+    "殤夭",
+    "護摩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "childhood-wounds",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8dc4fada07f9c03c9ab43ba55685664021f6ff42b74fa6def47487f8d7434cae"
+  },
+  "tagging_models": "MiniMax-M3"
 }

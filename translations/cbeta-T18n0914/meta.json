@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "不動尊",
+    "毘盧遮那",
+    "真言",
+    "護摩",
+    "火天",
+    "帝釋天",
+    "毘沙門天",
+    "梵天王",
+    "三昧耶",
+    "曼荼羅",
+    "結界",
+    "降怨法",
+    "安穩",
+    "富饒",
+    "施食"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7ab12a6d60b68755ce53e4a4348b3319a1c819b8327541fa25a266d978f8010f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

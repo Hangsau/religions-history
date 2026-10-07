@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "菩提心",
+    "空",
+    "真如",
+    "實際",
+    "無我",
+    "大悲",
+    "涅槃",
+    "輪迴",
+    "菩薩",
+    "阿賴耶識",
+    "十二支",
+    "緣生",
+    "法無我",
+    "瑜伽行",
+    "普賢行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5babeba974b69e19e1d8b8351b835c4cb84ae4d925b5011cb792b734da379834"
+  },
+  "tagging_models": "MiniMax-M3"
 }
