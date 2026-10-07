@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "菩提心",
+    "三歸依",
+    "懺悔",
+    "真言",
+    "瑜伽",
+    "金剛乘",
+    "菩薩",
+    "五智三身",
+    "毘盧遮那",
+    "阿閦佛",
+    "寶生佛",
+    "阿彌陀佛",
+    "不空成就佛",
+    "真如",
+    "無上菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "guilt-atonement",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "19c3249717481c36e3462f3dba72505df88e44738f7e5d26b5844623848f7ca2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
