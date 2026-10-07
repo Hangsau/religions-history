@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "essentially-flawed",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "syncretic",
+    "theodicy",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "原人論",
+    "阿賴耶識",
+    "如來藏",
+    "真如",
+    "佛性",
+    "業",
+    "元氣",
+    "陰陽",
+    "三教",
+    "權實",
+    "五教",
+    "華嚴經",
+    "中觀論",
+    "起信論",
+    "唯識"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "76eb2229e7a7526b69068448b58eeed7dba9e3ab363cf8f979db32d174438f25"
+  },
+  "tagging_models": "MiniMax-M3"
 }

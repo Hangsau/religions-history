@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "阿彌陀佛",
+    "無量壽",
+    "安樂國",
+    "安樂世界",
+    "淨土",
+    "五念門",
+    "禮拜",
+    "讚歎",
+    "作願",
+    "觀察",
+    "迴向",
+    "奢摩他",
+    "毘婆舍那",
+    "修多羅",
+    "菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "92864d1ef3c04e98747f4bb09038f5ee0c07e794f0c55023a405ea61919d4556"
+  },
+  "tagging_models": "MiniMax-M3"
 }

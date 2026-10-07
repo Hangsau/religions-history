@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "不空王",
+    "聖觀自在菩薩",
+    "阿彌陀",
+    "三摩地",
+    "曼拏羅",
+    "祕密心",
+    "護摩",
+    "補陀落迦山",
+    "慈氏",
+    "舍利子",
+    "梵天子",
+    "苾芻",
+    "優婆塞"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4402bcff90bc86987fea0ca473f97c7f48d59166545a138a4c06d7e86f1c5aa2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
