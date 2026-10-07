@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "heaven-hell",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "耆域",
+    "阿難",
+    "摩竭國",
+    "因沙崛山",
+    "王舍城",
+    "溫室",
+    "澡浴眾僧",
+    "七物",
+    "七福",
+    "四大安隱",
+    "須陀洹",
+    "帝釋",
+    "轉輪聖王",
+    "梵天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "gratitude-contentment",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e0c6e385bbbd512deaef68de62f0b315c2ccce928731f0e8825758dbfbbb372a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

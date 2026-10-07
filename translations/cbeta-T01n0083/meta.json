@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "婬",
+    "愛",
+    "欲",
+    "喜",
+    "殺",
+    "不與取",
+    "妄言",
+    "邪見",
+    "涅槃",
+    "神通",
+    "等道",
+    "如真",
+    "善法",
+    "不善法",
+    "阿摩尼藥"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1809a6ac3d429068dd6e5d24e339d99ff74e74410b8ad8454905963f905ecb75"
+  },
+  "tagging_models": "MiniMax-M3"
 }
