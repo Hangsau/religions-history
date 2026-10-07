@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mystical-union",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "聖觀自在菩薩",
+    "陀羅尼",
+    "真言",
+    "阿耨多羅三藐三菩提",
+    "無上正等菩提",
+    "王舍城鷲峯山",
+    "釋迦牟尼",
+    "普放光明吉祥寶峯王如來",
+    "曼拏攞",
+    "業障",
+    "三摩地",
+    "解脫一切眾生",
+    "小字般若波羅蜜多",
+    "少善方便懈怠眾生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8b718f4056134673dc1cfc29c4d088c66369f208b677c2da34cea16b688992ca"
+  },
+  "tagging_models": "MiniMax-M3"
 }

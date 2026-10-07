@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "sexual-ethics"
+  ],
+  "keywords": [
+    "伏婬",
+    "阿那邠祁",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "世尊",
+    "沙門婆羅門",
+    "如法求財",
+    "非法求財",
+    "施與",
+    "知足",
+    "禍變",
+    "醍醐",
+    "居士"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "giving-generosity",
+    "gratitude-contentment",
+    "wisdom-learning-curiosity",
+    "work-money"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "34340e20088d0ee1a7c1bf469abb090454ac3f9fa6c1ed8d53630e2ba3461c04"
+  },
+  "tagging_models": "MiniMax-M3"
 }

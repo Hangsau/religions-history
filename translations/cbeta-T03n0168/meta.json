@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "liberation-by-knowledge",
+    "reincarnation",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "墓魄太子",
+    "波羅㮈王",
+    "結舌不語",
+    "生埋",
+    "地獄",
+    "兜術天",
+    "迦維羅衛",
+    "閱頭檀",
+    "摩耶",
+    "調達",
+    "阿若拘隣",
+    "祇樹給孤獨園",
+    "五僕",
+    "禪定",
+    "輪迴"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "677fef2e7304a76fe4326e7cdcc858cae23d516b6a6f5f647c6cbdfecc1e37c0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
