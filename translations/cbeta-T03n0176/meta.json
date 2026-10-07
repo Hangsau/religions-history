@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "reincarnation",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "師子月佛",
+    "婆須蜜多",
+    "頻婆娑羅",
+    "獼猴",
+    "五戒",
+    "三歸依",
+    "三寶",
+    "波羅提木叉",
+    "八敬法",
+    "阿鼻地獄",
+    "兜率天",
+    "彌勒",
+    "阿羅漢",
+    "菩薩",
+    "持戒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "existence-why-born",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b8b160cbe12fa16703c643483d64328eb76a44b51dfdccdb1ca3da890bc83ec2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

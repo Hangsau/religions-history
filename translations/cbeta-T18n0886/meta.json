@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "金剛場",
+    "毘盧遮那",
+    "妙吉祥",
+    "金剛薩埵",
+    "大明咒",
+    "四念處",
+    "八正道",
+    "十波羅蜜多",
+    "十地",
+    "三三摩地",
+    "空無相無願",
+    "菩提心",
+    "祕密主"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4ee043394284111d90b6454c704943f94684a637e7e206260cf0ae33ef44f340"
+  },
+  "tagging_models": "MiniMax-M3"
 }
