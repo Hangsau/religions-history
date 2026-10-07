@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "舍利弗",
+    "彌勒菩薩",
+    "八吉祥神呪",
+    "安隱囑累滿具足王如來",
+    "紺琉璃具足王如來",
+    "藥師具足王如來",
+    "蓮華具足王如來",
+    "四天王",
+    "陀隣尼",
+    "無上道",
+    "三惡處",
+    "菩薩道",
+    "羅閱祇耆闍崛山",
+    "恒沙",
+    "泥洹"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d13549ff495fa0460e709d5dc8c0bd4e2716b90aa2d3b82f52b93c3f7d5d8ec9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
