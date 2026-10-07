@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "楞嚴經",
+    "如來藏",
+    "首楞嚴",
+    "圓通",
+    "二十五圓通",
+    "文殊",
+    "阿難",
+    "匿王",
+    "五陰",
+    "六入",
+    "十二處",
+    "十八界",
+    "七大",
+    "陰魔",
+    "五十種陰魔"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "05cf9570025bb2a6fc7c52e6989a56ad615659b20832325a6f86b8e30356e966"
+  },
+  "tagging_models": "MiniMax-M3"
 }

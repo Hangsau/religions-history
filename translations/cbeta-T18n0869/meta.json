@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emanation",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "金剛頂經",
+    "瑜伽",
+    "十八會",
+    "曼荼羅",
+    "毘盧遮那",
+    "金剛薩埵",
+    "金剛界",
+    "降三世",
+    "觀自在菩薩",
+    "虛空藏菩薩",
+    "普賢菩薩",
+    "三摩地",
+    "悉地",
+    "護摩",
+    "四印"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c97e58d1010dd7d8379193485aa5ec77304f34bb5ad16ed2e242fce6da658341"
+  },
+  "tagging_models": "MiniMax-M3"
 }
