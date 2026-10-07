@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "cyclic-cosmos",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "諸行無常",
+    "毘舍梨國",
+    "苾芻",
+    "劫末",
+    "七日出現",
+    "須彌山",
+    "梵世",
+    "二禪",
+    "妙眼如來",
+    "貪瞋癡",
+    "解脫",
+    "阿羅漢",
+    "慈氏",
+    "貪愛",
+    "精進"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5519edfdd6ec2344e2a92547133c468cec70f65f7d1b0b87ab3a5a736203d9ff"
+  },
+  "tagging_models": "MiniMax-M3"
 }
