@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "dietary-restrictions",
+    "monastic",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "時水",
+    "非時淨水",
+    "觸用水",
+    "淨瓶",
+    "觸瓶",
+    "澡罐",
+    "苾芻",
+    "沙彌",
+    "銅椀",
+    "銅杓",
+    "灰揩",
+    "澡豆",
+    "楊枝",
+    "羅濾",
+    "五天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "responsibility-leadership",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "42b39d68cb83674aec7c0fa7160ceb869e89125eda02bd48f8db8e85d7223e4f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
