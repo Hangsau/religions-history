@@ -20,5 +20,36 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "隨求八印",
+    "菩提心印",
+    "懺悔",
+    "陀羅尼",
+    "明王",
+    "菩薩行",
+    "釋迦牟尼",
+    "十力",
+    "灌頂金輪王",
+    "金剛乘",
+    "慈悲",
+    "大隨求",
+    "契印",
+    "障難"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6c96166ef269a4bcfbd656125f50d3f73882d296cc90aeeb8b16441a41235ec1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

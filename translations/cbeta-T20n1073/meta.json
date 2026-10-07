@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "何耶揭唎婆",
+    "觀世音",
+    "毘那夜迦",
+    "曼荼羅",
+    "禁刀印",
+    "持呪仙人",
+    "安善那",
+    "摩那熾羅",
+    "西若",
+    "娑迦比遮香",
+    "迦比闍香",
+    "陀摩尼",
+    "阿修羅宮",
+    "輪轉聖王",
+    "安樂國"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cef82b309288b1073dbc1c28fd0a70a1a5724e00e186c9c9f433c7daff14a9bb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
