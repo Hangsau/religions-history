@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "波羅奈",
+    "施鹿林",
+    "阿逸多",
+    "有德女",
+    "十二因緣",
+    "無明緣行",
+    "第一義諦",
+    "畢竟空",
+    "栴檀香末",
+    "阿耨多羅三藐三菩提",
+    "過去七佛",
+    "毘婆尸佛",
+    "尸棄如來",
+    "毘葉浮佛",
+    "俱留孫佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e5641a5f2bb37787be07cf5cf01fd1a804b30d4ce8d38d8904632cb48a72c214"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "reincarnation",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "鹿母",
+    "菩薩",
+    "舍利弗",
+    "阿羅漢",
+    "阿難",
+    "羅云",
+    "朱利母",
+    "至誠",
+    "信誓",
+    "無常",
+    "因緣",
+    "別離",
+    "三尊",
+    "慈悲",
+    "屠割"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b5cec1a629f258d8d7f7238ce43dd7f4b404042ba9abe120a9aede9f8ff23737"
+  },
+  "tagging_models": "MiniMax-M3"
 }
