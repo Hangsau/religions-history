@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "虛空藏菩薩",
+    "毘婆尸佛",
+    "尸棄佛",
+    "毘舍浮佛",
+    "拘婁孫佛",
+    "拘那含牟尼佛",
+    "迦葉佛",
+    "釋迦如來",
+    "神呪",
+    "厭魅",
+    "惡鬼",
+    "南無佛陀耶",
+    "雞羅娑山",
+    "一生補處"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "756f08b831e2bef5f35c8c52a9e2283b1159586a1ccda0ab5a361cbabfde8056"
+  },
+  "tagging_models": "MiniMax-M3"
 }
