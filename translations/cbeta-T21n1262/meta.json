@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "goddess-tradition",
+    "non-violence",
+    "ritual-practice",
+    "salvation-by-faith",
+    "spirit-possession",
+    "theodicy"
+  ],
+  "keywords": [
+    "鬼子母",
+    "阿難",
+    "佛",
+    "五戒",
+    "須陀洹道",
+    "浮陀摩尼鉢",
+    "毘沙門",
+    "阿須倫",
+    "太山地獄",
+    "大兜國",
+    "結要",
+    "受戒",
+    "鬼王",
+    "不殺生",
+    "精舍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "loss-grief",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7ad9390fd25c4ec4913dbdf822738f404b1c976f66d756c50e8d1425a5bee9ce"
+  },
+  "tagging_models": "MiniMax-M3"
 }

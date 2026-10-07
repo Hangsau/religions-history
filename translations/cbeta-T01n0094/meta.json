@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "箭喻經",
+    "摩羅鳩摩羅",
+    "婆伽婆",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "梵行",
+    "邪見",
+    "世間有常",
+    "無記",
+    "苦陰",
+    "涅槃",
+    "四聖諦",
+    "毒箭"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "48d253b1d17557735c9e8c3dd1361598d78008a7a8f9cc726c5ee1d1d42a6e46"
+  },
+  "tagging_models": "MiniMax-M3"
 }
