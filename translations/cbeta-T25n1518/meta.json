@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T25",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "空",
+    "遍計",
+    "依他",
+    "圓成實",
+    "無二智",
+    "妙吉祥",
+    "菩薩",
+    "八千頌",
+    "梵網",
+    "須菩提",
+    "無我",
+    "十力",
+    "心散亂",
+    "如幻"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "925cad7e41eabaa06713664ce60ffc8f26ce2116fde1e81c40196a2c02c7ac99"
+  },
+  "tagging_models": "MiniMax-M3"
 }
