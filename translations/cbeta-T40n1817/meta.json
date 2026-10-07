@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T40",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若",
+    "無著",
+    "世親",
+    "瑜伽",
+    "中觀",
+    "三性",
+    "二諦",
+    "唯識",
+    "圓成",
+    "真如",
+    "藏識",
+    "有為法",
+    "觀行",
+    "九喻",
+    "慈氏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "be594f233fab4fb40ca4456226b3857990f703ae141d98dd982bba40a03e1930"
+  },
+  "tagging_models": "MiniMax-M3"
 }
