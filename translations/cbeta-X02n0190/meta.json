@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "真言",
+    "密語",
+    "使者",
+    "手印",
+    "唵",
+    "三灾",
+    "三種執",
+    "業障",
+    "悉地",
+    "五逆罪",
+    "七日",
+    "金剛佛子",
+    "闍曳",
+    "娑嚩賀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ec94bcb9526e79f85740cc9b2e4c5a7aa19db18e77a61ec5d7b2bf599870de4e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

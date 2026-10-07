@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "水喻七事",
+    "婆伽婆",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "須陀洹",
+    "斯陀含",
+    "阿那含",
+    "阿羅漢",
+    "三結使",
+    "五下分結",
+    "有漏",
+    "無漏",
+    "念解脫",
+    "智慧解脫",
+    "梵行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0a4687b202fe1ddfb95d30c0026b4e3ab9c7f998a178e696be26ae3f8e67e09a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

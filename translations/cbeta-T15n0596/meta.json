@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "karma-rebirth",
+    "liberation-by-works",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "辟羅",
+    "天王太子",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "布施",
+    "持戒",
+    "殃福",
+    "影隨形",
+    "前世",
+    "飛行皇帝",
+    "沙門梵志",
+    "匡上",
+    "魂靈上生",
+    "福報"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c754ebf55ea1e5088061399c7fe6965357c94ed19b5da52467e75f13b3ea4f89"
+  },
+  "tagging_models": "MiniMax-M3"
 }
