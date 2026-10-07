@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "力士移山經",
+    "拘夷那竭國",
+    "阿難",
+    "大目揵連",
+    "舍利弗",
+    "十種力",
+    "乳哺之力",
+    "神足之力",
+    "智慧之力",
+    "意行之力",
+    "無常",
+    "滅度",
+    "不退轉",
+    "梵天",
+    "須彌山"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e42eaba6c63fbe926319e9e1c2873462ad657dcc09ce9f98689e82a6d73816c3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

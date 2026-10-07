@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "長者音悅",
+    "不蘭迦葉",
+    "阿難邠坻",
+    "吉祥偈",
+    "布施",
+    "宿福",
+    "五危",
+    "七富七貧",
+    "尼揵",
+    "六師",
+    "影報",
+    "瞿曇",
+    "耆闍崛山",
+    "鸚鵡",
+    "禿梟"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "275ae666515cd029f63006754d775d06311417fdadda00349c05b4a1adcf740d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
