@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "compassion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+  ],
+  "keywords": [
+    "金剛手",
+    "曼殊室利",
+    "閻曼德迦",
+    "忿怒王",
+    "大威德",
+    "真言",
+    "三昧耶",
+    "藥叉",
+    "觀自在",
+    "普賢",
+    "末法",
+    "正法",
+    "加持",
+    "菩薩",
+    "護持"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fbb391418b2d5e96abfbb3fd7dad4a170f0d2e19d18e858533be68382106ed3e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

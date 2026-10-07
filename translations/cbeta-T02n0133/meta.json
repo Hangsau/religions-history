@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "temple-centered"
+  ],
+  "keywords": [
+    "頻毘娑羅王",
+    "摩竭國",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "竹林迦蘭陀",
+    "羅閱祇城",
+    "世尊",
+    "如來",
+    "比丘僧",
+    "三耶三佛",
+    "法眼淨",
+    "五戒",
+    "施論",
+    "戒論",
+    "生天論"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "giving-generosity",
+    "gratitude-contentment",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1526017f1ea8bfd790b2c5914228aed2fe3f28815f5222906572c774dd5ed12f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

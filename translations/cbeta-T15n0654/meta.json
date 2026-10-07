@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual"
+  ],
+  "keywords": [
+    "無分別",
+    "無分別界",
+    "菩薩",
+    "如來",
+    "波羅蜜多",
+    "禪定",
+    "三摩地",
+    "真如",
+    "法界",
+    "空",
+    "五取蘊",
+    "大乘",
+    "摩尼寶",
+    "無生法忍",
+    "十地"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3ba6b761a7f8cdcd6c8cd01d4689ebb29b04c12238ff8c132c4b78f043da925d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

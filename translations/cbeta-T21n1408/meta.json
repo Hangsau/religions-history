@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "最上意陀羅尼",
+    "妙吉祥童子",
+    "傳教比丘",
+    "阿修羅",
+    "閻浮提",
+    "南閻浮提",
+    "三寶",
+    "供養",
+    "陀羅尼",
+    "災難",
+    "疫沴",
+    "毘舍闍",
+    "薄福",
+    "諸惡鬼神",
+    "救鴿城"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a79227bbcbf6595fac1daa5874e8ee00d2fcb474042d9125ec98fce8cbd5ef83"
+  },
+  "tagging_models": "MiniMax-M3"
 }
