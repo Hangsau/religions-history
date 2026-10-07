@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "戒香",
+    "近事男",
+    "近事女",
+    "五戒",
+    "不殺",
+    "不盜",
+    "不婬",
+    "不妄",
+    "不飲酒",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "阿難",
+    "旃檀",
+    "十方",
+    "諸天"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "honesty-hypocrisy",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8a1e8ce81484fc98f387a516cf96ece86584bc02a4433e6f82a1d8fe1bae7f6c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
