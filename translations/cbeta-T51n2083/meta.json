@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "evil-as-deception",
+    "fasting",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+  ],
+  "keywords": [
+    "釋門自鏡錄",
+    "十科",
+    "業繫長遠錄",
+    "達磨蜜多",
+    "闍夜多",
+    "離越辟支佛",
+    "慧達",
+    "薩荷",
+    "地獄",
+    "餓鬼",
+    "生死",
+    "五道",
+    "辟支佛",
+    "阿羅漢",
+    "觀世音大士"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "32bc104987bd0340c7cb2a0c0f4f74e8fbc5ed0047109bd5f59b56bcd26355de"
+  },
+  "tagging_models": "MiniMax-M3"
 }
