@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T50",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "other-power",
+    "pilgrimage",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "theocracy",
+    "theodicy",
+    "vision-experience"
+  ],
+  "keywords": [
+    "比丘尼",
+    "竹林寺",
+    "淨撿",
+    "安令首",
+    "智賢",
+    "妙相",
+    "明感",
+    "曇備",
+    "慧湛",
+    "佛圖澄",
+    "建福寺",
+    "受戒",
+    "羯磨",
+    "禪觀",
+    "釋道場"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "body-mind",
+    "calling-vocation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "93e93f7873cf9df98ec854f707ae7084287d7ee447f57e8ff7955442c945d6f0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
