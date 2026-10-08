@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T38",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "bardo",
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "彌勒菩薩",
+    "兜率陀天",
+    "慈氏",
+    "知足天",
+    "上生經",
+    "觀行",
+    "三昧",
+    "一生補處",
+    "阿耨菩提",
+    "十善",
+    "首楞嚴三昧",
+    "波羅捺",
+    "賢劫",
+    "拘留孫佛",
+    "樓至佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a280a317285033ebb19fd7e6d3ae2d61918ac7104ce267b783b82598855aa713"
+  },
+  "tagging_models": "MiniMax-M3"
 }

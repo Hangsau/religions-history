@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T23",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "congregational",
+    "monastic",
+    "ritual-practice",
+    "study"
+  ],
+  "keywords": [
+    "苾芻",
+    "安居",
+    "隨意",
+    "毘奈耶",
+    "薄伽梵",
+    "室羅筏城",
+    "逝多林",
+    "給孤獨園",
+    "鄔波離",
+    "羯磨",
+    "五德",
+    "僧伽",
+    "波羅市迦",
+    "僧伽伐尸沙",
+    "波逸底迦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "loneliness-belonging",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8fab1b50bc8cd35df28f66870a87371fe1a76e4a439315a364c05f19e9527e12"
+  },
+  "tagging_models": "MiniMax-M3"
 }
