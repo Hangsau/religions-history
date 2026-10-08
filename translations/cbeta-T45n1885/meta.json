@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "華嚴經",
+    "法界觀門",
+    "通玄記",
+    "廣智大師",
+    "夷門",
+    "大",
+    "方",
+    "廣",
+    "佛",
+    "曼殊",
+    "密老",
+    "海印三昧",
+    "真如",
+    "性海",
+    "禪門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "902f7ab4591311667982a75a939b9843a4b1cccc87479304e5f9dd9a843ca972"
+  },
+  "tagging_models": "MiniMax-M3"
 }
