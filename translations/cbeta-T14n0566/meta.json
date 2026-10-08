@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "須菩提",
+    "沙門法",
+    "無諍",
+    "如來化",
+    "滅定",
+    "乞食",
+    "瓔珞",
+    "耆闍崛山",
+    "王舍城",
+    "菩薩摩訶薩",
+    "彌勒",
+    "無生法忍",
+    "陀羅尼",
+    "聖諦",
+    "無漏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "73aa3a171e7ff5bce4cb0a8065975080d69cba22bc6deff50fe26f6eac16d00f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
