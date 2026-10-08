@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T22",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "congregational",
+    "humility",
+    "liberation-by-works",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "theocracy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "波羅夷",
+    "僧伽婆尸沙",
+    "波夜提",
+    "布薩",
+    "比丘",
+    "五分戒",
+    "戒經",
+    "釋師子",
+    "說戒",
+    "半月",
+    "和合僧",
+    "清淨",
+    "不淨",
+    "不自恣請",
+    "尼薩耆波夜提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "patience-waiting",
+    "responsibility-leadership",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d8584cba5a02a6899ad4fa6a77dc3682e11fdb44d0dd3445c55aa7d19d28b1b8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
