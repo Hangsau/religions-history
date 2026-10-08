@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "法界",
+    "普賢",
+    "華嚴",
+    "別教一乘",
+    "賢首",
+    "蓮宗",
+    "五門",
+    "三諦觀",
+    "金剛場",
+    "娑竭",
+    "白牛",
+    "南邁童子",
+    "金猊",
+    "遊心法界記",
+    "華嚴遊心法界記"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ae81870cd6cc13d0a602ab1220696048b228fd3f79e62941c04a647d18ac744d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

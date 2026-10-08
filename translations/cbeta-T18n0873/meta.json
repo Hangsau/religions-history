@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort"
+  ],
+  "keywords": [
+    "金剛頂",
+    "蓮華部",
+    "瑜伽",
+    "三寶",
+    "真言",
+    "金剛薩埵",
+    "阿閦尊",
+    "寶生尊",
+    "無量壽",
+    "不空尊",
+    "普賢",
+    "金剛掌",
+    "金剛縛",
+    "降三世",
+    "三昧耶"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b8d3b80712137aa7a61b0c88257baebcac4916af7569375983f365351aa1d8cc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
