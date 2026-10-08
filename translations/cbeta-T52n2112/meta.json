@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T52",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "against-idolatry",
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "cosmic-egg",
+    "divine-transcendence",
+    "fasting",
+    "monastic",
+    "multiple-canons",
+    "oral-tradition",
+    "other-power",
+    "polytheist",
+    "priesthood",
+    "prophetic-critique",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "甄正論",
+    "天尊",
+    "太易",
+    "太初",
+    "太始",
+    "太素",
+    "太極",
+    "三洞",
+    "洞真",
+    "洞玄",
+    "洞神",
+    "靈寶",
+    "葛玄",
+    "陸修靜",
+    "顧歡"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "749745074f9ae9b2928d1fdf1e7c978e3f2c70ac5c5d13248670bc9deda2d771"
+  },
+  "tagging_models": "MiniMax-M3"
 }
