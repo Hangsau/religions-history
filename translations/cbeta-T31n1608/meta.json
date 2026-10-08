@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "業成就論",
+    "天親菩薩",
+    "身口意三業",
+    "無作",
+    "阿陀那識",
+    "阿梨耶識",
+    "報識",
+    "有分識",
+    "滅盡三昧",
+    "業報",
+    "熏心",
+    "相續",
+    "鄴城",
+    "毘目智仙",
+    "瞿曇流支"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a646cfc2b2ae48ccafcccb4023513f6a1cece99a720f0588b9976be253df606c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

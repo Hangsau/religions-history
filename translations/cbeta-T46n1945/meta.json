@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "金光明懺",
+    "吉祥天",
+    "五悔",
+    "召請",
+    "散灑",
+    "天女",
+    "釋迦牟尼",
+    "大辯才天",
+    "功德天",
+    "禮敬三寶",
+    "滅業障品",
+    "百錄",
+    "空品",
+    "旋繞自歸",
+    "懺悔品"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "363afc08e2b8b1e29f6944d40c2c1ded4bf342cd2a55a96c01536d9bb1434bf9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
