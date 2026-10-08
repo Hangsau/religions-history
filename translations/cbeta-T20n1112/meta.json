@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "金剛頂瑜伽",
+    "觀自在王如來",
+    "阿閦尊",
+    "寶生如來",
+    "不空成就如來",
+    "大悲王",
+    "陀羅尼",
+    "三昧耶",
+    "曼荼羅",
+    "蓮華部",
+    "馬頭明王",
+    "金剛縛",
+    "灌頂",
+    "懺悔",
+    "隨喜"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4f916e5f59231a0cff549d28a4dbc0e918093b73ad8bff8308ee69bf131039f7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
