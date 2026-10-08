@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "伽陀",
+    "布施",
+    "檀度",
+    "三寶",
+    "涅槃",
+    "八聖道",
+    "無常",
+    "佛像",
+    "佛塔",
+    "精舍",
+    "捨利",
+    "曼那吉儞",
+    "帝釋",
+    "毘沙門",
+    "菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "gratitude-contentment",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8f2027e8e04d2fad2f8868596a7515a4ee88105a0e769c06c6a5756ddf7f119b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
