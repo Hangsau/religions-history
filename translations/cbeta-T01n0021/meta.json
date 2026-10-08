@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-violence",
+    "other-power",
+    "reincarnation",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "須卑",
+    "梵達摩納",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "分衛",
+    "五蓋",
+    "慈心",
+    "蜎飛蠕動",
+    "沙門瞿曇",
+    "持鉢",
+    "獨坐",
+    "寂定根門",
+    "異道人",
+    "十八見",
+    "四十四見"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "emotions-passions",
+    "existence-why-born",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4398584412b0624c2779f8d4fca2ede53fc852606b70443f6fc0f763dc2222c7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

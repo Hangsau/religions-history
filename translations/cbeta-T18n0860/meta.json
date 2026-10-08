@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+  ],
+  "keywords": [
+    "真言",
+    "三昧耶契",
+    "金剛薩埵",
+    "菩提心",
+    "五輪投地",
+    "閼伽",
+    "蓮華",
+    "曼荼羅",
+    "甲冑",
+    "懺悔",
+    "歸依",
+    "迴向",
+    "隨喜",
+    "勸請",
+    "三身"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "32f2aa85b824c6b211e3280742fcb7f4fca92291adfc6b726ec5c10caa4a7b4c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

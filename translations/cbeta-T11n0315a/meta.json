@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T11",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "普門品",
+    "靈鷲山",
+    "離垢藏",
+    "溥首僮真",
+    "普華如來",
+    "菩薩",
+    "比丘",
+    "三昧",
+    "總持",
+    "平等",
+    "空無寂靜",
+    "幻化",
+    "緣起",
+    "忍界",
+    "淨行世界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "297f1082074205f747d5a1c18ff4b89f27d0b1702dd1abf459fa33e3c4313bb2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
