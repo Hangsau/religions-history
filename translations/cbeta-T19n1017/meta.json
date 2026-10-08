@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "入無邊門",
+    "念佛三昧",
+    "不退轉地",
+    "無生法忍",
+    "舍利弗",
+    "文殊師利",
+    "觀自在",
+    "慈氏",
+    "然燈如來",
+    "阿彌多婆耶如來",
+    "毘耶離城",
+    "菩薩摩訶薩",
+    "一向出生菩薩",
+    "無邊光"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b30808aa51fb00757077cff849e3f77ada89c82bd48c1972a163327b09e0c2f3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

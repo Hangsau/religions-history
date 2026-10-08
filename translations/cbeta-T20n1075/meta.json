@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "准提佛母",
+    "陀羅尼",
+    "曼茶羅",
+    "手契",
+    "唵折隷主隷准提莎嚩訶",
+    "七俱胝",
+    "七俱胝佛母",
+    "灌頂",
+    "護摩",
+    "扇底迦",
+    "布瑟置迦",
+    "伐施迦羅拏",
+    "阿毘遮嚕迦",
+    "數珠",
+    "三摩地"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "912902b999c78d6d97aae1c7379fa9da715a86472aca7b31505a659725b1725d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

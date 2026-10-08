@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "妙法蓮華",
+    "大日如來",
+    "金剛薩埵",
+    "八葉蓮華",
+    "阿字",
+    "本覺",
+    "即身成佛",
+    "普賢",
+    "文殊師利",
+    "三摩耶",
+    "曼荼羅",
+    "龍女",
+    "久遠實成",
+    "毘盧遮那",
+    "祕密三昧"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "841ff6e4e2f08d12730ec0c26fd9c040fb76d7297d7590ce7193951a6c34e0da"
+  },
+  "tagging_models": "MiniMax-M3"
 }
