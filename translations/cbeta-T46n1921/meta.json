@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "essentially-good",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "syncretic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "四念處",
+    "木叉",
+    "三師",
+    "法師",
+    "禪師",
+    "律師",
+    "攝僧",
+    "十利",
+    "四倒",
+    "三德涅槃",
+    "大乘念處",
+    "遺囑",
+    "乘急戒緩",
+    "像法決疑經",
+    "觀心論"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ed7472ef24954cf38cf95b25340b4dbb1e60d7ce5079af4b19c5b50974b78999"
+  },
+  "tagging_models": "MiniMax-M3"
 }
