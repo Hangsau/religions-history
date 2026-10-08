@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "熾盛光",
+    "陀羅尼",
+    "娑羅王佛",
+    "忿怒明王",
+    "金剛手菩薩",
+    "七佛",
+    "三業供養",
+    "道場",
+    "結界",
+    "本命宮宿",
+    "羅睺",
+    "彗孛",
+    "災星",
+    "懺悔",
+    "護世四天王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "77f7de8ba9b576d53326ef11e834d97555053441ee7ba9cdaf6f39520b2d9af7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

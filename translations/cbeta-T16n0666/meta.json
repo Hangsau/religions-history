@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "enlightenment",
+    "essentially-good",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "self-effort"
+  ],
+  "keywords": [
+    "如來藏",
+    "金剛慧",
+    "菩薩",
+    "佛性",
+    "煩惱",
+    "王舍城",
+    "耆闍崛山",
+    "常放光明王",
+    "無邊光",
+    "文殊師利",
+    "觀世音",
+    "大勢至",
+    "大乘",
+    "天眼",
+    "金像"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fa733387a91c55579ad04b6314f5735594c26fd55456c06961692661542d3b9a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
