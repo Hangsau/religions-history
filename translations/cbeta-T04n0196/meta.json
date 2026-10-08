@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T04",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "波羅奈國",
+    "鹿園",
+    "五比丘",
+    "拘憐",
+    "阿蘭迦蘭",
+    "欝頭藍弗",
+    "優吁",
+    "忍辱",
+    "甘露法輪",
+    "八正道",
+    "四諦",
+    "泥洹",
+    "釋迦文",
+    "定光佛",
+    "寶稱"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "evil-cruelty-empathy",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d4a01cd59351fb90a197e4c5a03c08083e72ef23e1095995f2aeefe23fb401b3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
