@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "文殊師利",
+    "舍利弗",
+    "法界",
+    "實際",
+    "金剛句",
+    "寶積三昧",
+    "王舍城",
+    "耆闍崛山",
+    "辯才",
+    "三昧",
+    "無相",
+    "不生不滅",
+    "法本",
+    "入法界",
+    "無生法忍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "living-with-unknown",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "066dcfd83ad74c4d3381497add836414bc940565ce95e7f1bea44c86202e50d1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

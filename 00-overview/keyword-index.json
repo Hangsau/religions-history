@@ -19772,6 +19772,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1406",
       "name_zh": "佛說辟除賊害呪經",
       "religion": "佛教"
@@ -22246,6 +22251,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T12n0356",
       "name_zh": "佛說寶積三昧文殊師利菩薩問法身經",
       "religion": "佛教"
@@ -22358,6 +22368,11 @@
     {
       "slug": "cbeta-T20n1195",
       "name_zh": "大聖文殊師利菩薩讚佛法身禮",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -23202,6 +23217,13 @@
       "religion": "佛教"
     }
   ],
+  "三界火宅": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    }
+  ],
   "三百矛斫飯": [
     {
       "slug": "cbeta-T17n0793",
@@ -23682,6 +23704,13 @@
     {
       "slug": "cbeta-T47n1975",
       "name_zh": "淨土生無生論",
+      "religion": "佛教"
+    }
+  ],
+  "三諦三觀": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
       "religion": "佛教"
     }
   ],
@@ -24623,10 +24652,22 @@
       "religion": "佛教"
     }
   ],
+  "不生": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    }
+  ],
   "不生不滅": [
     {
       "slug": "cbeta-T08n0249",
       "name_zh": "佛說帝釋般若波羅蜜多心經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
       "religion": "佛教"
     }
   ],
@@ -25791,6 +25832,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T50n2047a",
       "name_zh": "龍樹菩薩傳",
       "religion": "佛教"
@@ -26072,6 +26118,13 @@
     {
       "slug": "cbeta-T17n0736",
       "name_zh": "佛說四自侵經",
+      "religion": "佛教"
+    }
+  ],
+  "九實": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
       "religion": "佛教"
     }
   ],
@@ -33273,6 +33326,13 @@
       "religion": "佛教"
     }
   ],
+  "俱分": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "俱利伽羅": [
     {
       "slug": "cbeta-T21n1206",
@@ -33305,6 +33365,13 @@
     {
       "slug": "cbeta-T19n1004",
       "name_zh": "般若波羅蜜多理趣經大樂不空三昧真實金剛薩埵菩薩等一十七聖大曼荼羅義述",
+      "religion": "佛教"
+    }
+  ],
+  "俱摩羅金剛": [
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     }
   ],
@@ -35248,6 +35315,11 @@
     }
   ],
   "入法界": [
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T36n1743",
       "name_zh": "皇帝降誕日於麟德殿講大方廣佛華嚴經玄義一部",
@@ -38947,6 +39019,13 @@
       "religion": "佛教"
     }
   ],
+  "勝宗十句義論": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "勝幡瓔珞陀羅尼": [
     {
       "slug": "cbeta-T21n1410",
@@ -40417,6 +40496,13 @@
     {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
+      "religion": "佛教"
+    }
+  ],
+  "十句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
       "religion": "佛教"
     }
   ],
@@ -43093,6 +43179,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "同句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "同本異譯": [
     {
       "slug": "cbeta-T55n2146",
@@ -43946,6 +44039,13 @@
     {
       "slug": "cbeta-T31n1624",
       "name_zh": "觀所緣緣論",
+      "religion": "佛教"
+    }
+  ],
+  "和合句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
       "religion": "佛教"
     }
   ],
@@ -45785,6 +45885,13 @@
       "religion": "佛教"
     }
   ],
+  "四三昧": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    }
+  ],
   "四不可得": [
     {
       "slug": "cbeta-T17n0770",
@@ -46298,6 +46405,11 @@
     {
       "slug": "cbeta-T24n1480",
       "name_zh": "佛說苾芻迦尸迦十法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
       "religion": "佛教"
     },
     {
@@ -48087,6 +48199,11 @@
     {
       "slug": "cbeta-T45n1889",
       "name_zh": "海印三昧論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
       "religion": "佛教"
     }
   ],
@@ -56926,6 +57043,11 @@
       "slug": "cbeta-T01n0096",
       "name_zh": "治意經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
     }
   ],
   "安萬侶": [
@@ -58191,6 +58313,13 @@
       "religion": "美洲"
     }
   ],
+  "實句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "實德業": [
     {
       "slug": "vaisheshika-sutra-kanada",
@@ -58260,6 +58389,11 @@
     {
       "slug": "cbeta-T08n0230",
       "name_zh": "聖八千頌般若波羅蜜多一百八名真實圓義陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
       "religion": "佛教"
     },
     {
@@ -58564,6 +58698,13 @@
     {
       "slug": "vimalakirti-sutra",
       "name_zh": "維摩詰所說經",
+      "religion": "佛教"
+    }
+  ],
+  "寶積三昧": [
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
       "religion": "佛教"
     }
   ],
@@ -58987,6 +59128,11 @@
     }
   ],
   "尸棄佛": [
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1334",
       "name_zh": "如來方便善巧呪經",
@@ -63253,6 +63399,13 @@
       "religion": "佛教"
     }
   ],
+  "德句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "德嚴華": [
     {
       "slug": "cbeta-T17n0840",
@@ -64385,6 +64538,13 @@
       "religion": "佛教"
     }
   ],
+  "忿怒尊": [
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    }
+  ],
   "忿怒王": [
     {
       "slug": "cbeta-T19n0980",
@@ -65135,6 +65295,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1224",
       "name_zh": "金剛童子持念經",
       "religion": "佛教"
@@ -65617,6 +65782,13 @@
       "religion": "佛教"
     }
   ],
+  "惡病": [
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    }
+  ],
   "惡眼婆羅門": [
     {
       "slug": "cbeta-T03n0166",
@@ -65757,6 +65929,11 @@
     {
       "slug": "cbeta-T17n0739",
       "name_zh": "佛說慢法經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -67867,6 +68044,13 @@
       "religion": "佛教"
     }
   ],
+  "扇提羅": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    }
+  ],
   "扇那夜迦": [
     {
       "slug": "cbeta-T21n1270",
@@ -68307,6 +68491,13 @@
       "religion": "佛教"
     }
   ],
+  "拘樓孫佛": [
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    }
+  ],
   "拘樓孫如來": [
     {
       "slug": "cbeta-T01n0066",
@@ -68437,6 +68628,11 @@
     {
       "slug": "cbeta-T14n0506",
       "name_zh": "犍陀國王經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -70675,6 +70871,11 @@
   ],
   "摩訶般若": [
     {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T48n2014",
       "name_zh": "永嘉證道歌",
       "religion": "佛教"
@@ -72334,6 +72535,11 @@
     {
       "slug": "cbeta-T12n0336",
       "name_zh": "須摩提經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
       "religion": "佛教"
     },
     {
@@ -75708,6 +75914,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1231",
       "name_zh": "大輪金剛修行悉地成就及供養法",
       "religion": "佛教"
@@ -76307,6 +76518,13 @@
       "religion": "佛教"
     }
   ],
+  "有能": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "有餘依涅槃": [
     {
       "slug": "cbeta-T19n0974D",
@@ -76352,6 +76570,13 @@
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
+    }
+  ],
+  "木叉": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
     }
   ],
   "木槵": [
@@ -76881,6 +77106,11 @@
     {
       "slug": "cbeta-T20n1146",
       "name_zh": "大虛空藏菩薩念誦法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -78985,6 +79215,13 @@
       "religion": "佛教"
     }
   ],
+  "業句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    }
+  ],
   "業報": [
     {
       "slug": "an2-twos",
@@ -79129,6 +79366,11 @@
     {
       "slug": "cbeta-T31n1625",
       "name_zh": "觀所緣論釋",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
       "religion": "佛教"
     },
     {
@@ -79543,6 +79785,11 @@
     {
       "slug": "cbeta-T02n0150B",
       "name_zh": "九橫經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
       "religion": "佛教"
     }
   ],
@@ -82296,6 +82543,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1334",
       "name_zh": "如來方便善巧呪經",
       "religion": "佛教"
@@ -82981,6 +83233,11 @@
     }
   ],
   "毘舍浮佛": [
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1334",
       "name_zh": "如來方便善巧呪經",
@@ -84179,6 +84436,13 @@
       "religion": "佛教"
     }
   ],
+  "法本": [
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    }
+  ],
   "法本修多羅": [
     {
       "slug": "cbeta-T14n0471",
@@ -84252,6 +84516,11 @@
     {
       "slug": "cbeta-T10n0298",
       "name_zh": "大方廣普賢所說經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
       "religion": "佛教"
     },
     {
@@ -86763,6 +87032,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T46n1947",
       "name_zh": "釋迦如來涅槃禮讚文",
       "religion": "佛教"
@@ -88308,6 +88582,11 @@
     {
       "slug": "cbeta-T21n1204",
       "name_zh": "聖無動尊一字出生八大童子祕要法品",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -90292,6 +90571,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0437",
       "name_zh": "大乘寶月童子問法經",
       "religion": "佛教"
@@ -90423,6 +90707,11 @@
   ],
   "無相": [
     {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T12n0395",
       "name_zh": "佛說當來變經",
       "religion": "佛教"
@@ -90487,6 +90776,13 @@
     {
       "slug": "cbeta-T02n0121",
       "name_zh": "佛說月喻經",
+      "religion": "佛教"
+    }
+  ],
+  "無能": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
       "religion": "佛教"
     }
   ],
@@ -90593,6 +90889,11 @@
       "slug": "cbeta-T17n0836",
       "name_zh": "大方廣師子吼經",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
     }
   ],
   "無遮施會": [
@@ -90672,6 +90973,11 @@
     {
       "slug": "cbeta-T19n0936",
       "name_zh": "大乘無量壽經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -92347,6 +92653,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0437",
       "name_zh": "大乘寶月童子問法經",
       "religion": "佛教"
@@ -92724,6 +93035,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
+      "religion": "佛教"
+    },
+    {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
@@ -92920,6 +93236,11 @@
     {
       "slug": "cbeta-T20n1152",
       "name_zh": "佛說佛母般若波羅蜜多大明觀想儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -93907,6 +94228,13 @@
     {
       "slug": "cbeta-T21n1248",
       "name_zh": "北方毘沙門天王隨軍護法真言",
+      "religion": "佛教"
+    }
+  ],
+  "異句義": [
+    {
+      "slug": "cbeta-T54n2138",
+      "name_zh": "勝宗十句義論",
       "religion": "佛教"
     }
   ],
@@ -96086,6 +96414,11 @@
     {
       "slug": "cbeta-T21n1221",
       "name_zh": "青色大金剛藥叉辟鬼魔法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -104418,6 +104751,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T14n0470",
       "name_zh": "佛說文殊師利巡行經",
       "religion": "佛教"
@@ -107587,6 +107925,11 @@
     {
       "slug": "cbeta-T09n0265",
       "name_zh": "薩曇分陀利經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
       "religion": "佛教"
     },
     {
@@ -113595,6 +113938,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T37n1755",
       "name_zh": "阿彌陀經義記",
       "religion": "佛教"
@@ -115365,6 +115713,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1334",
       "name_zh": "如來方便善巧呪經",
       "religion": "佛教"
@@ -116876,6 +117229,13 @@
     {
       "slug": "cbeta-T26n1524",
       "name_zh": "無量壽經優波提舍",
+      "religion": "佛教"
+    }
+  ],
+  "觀心": [
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
       "religion": "佛教"
     }
   ],
@@ -119207,6 +119567,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1247",
       "name_zh": "北方毘沙門天王隨軍護法儀軌",
       "religion": "佛教"
@@ -121493,6 +121858,11 @@
   ],
   "辯才": [
     {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T50n2046",
       "name_zh": "馬鳴菩薩傳",
       "religion": "佛教"
@@ -122073,6 +122443,11 @@
     {
       "slug": "cbeta-T17n0745",
       "name_zh": "佛說雜藏經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
       "religion": "佛教"
     },
     {
@@ -124362,6 +124737,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1369b",
       "name_zh": "百千印陀羅尼經",
       "religion": "佛教"
@@ -124783,6 +125163,11 @@
     }
   ],
   "金剛句": [
+    {
+      "slug": "cbeta-T12n0355",
+      "name_zh": "入法界體性經",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T18n0877",
       "name_zh": "金剛頂經毘盧遮那一百八尊法身契印",
@@ -125788,6 +126173,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1231",
       "name_zh": "大輪金剛修行悉地成就及供養法",
       "religion": "佛教"
@@ -125912,6 +126302,11 @@
     {
       "slug": "cbeta-T20n1172",
       "name_zh": "金剛頂超勝三界經說文殊五字真言勝相",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
       "religion": "佛教"
     },
     {
@@ -127928,6 +128323,11 @@
     {
       "slug": "cbeta-T19n0938",
       "name_zh": "釋迦文尼佛金剛一乘修行儀軌法品",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
       "religion": "佛教"
     }
   ],
@@ -130336,6 +130736,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1223",
+      "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1271",
       "name_zh": "摩訶毘盧遮那如來定惠均等入三昧耶身雙身大聖歡喜天菩薩修行祕密法儀軌",
       "religion": "佛教"
@@ -132650,6 +133055,13 @@
       "religion": "佛教"
     }
   ],
+  "陀羅尼呪": [
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
+    }
+  ],
   "陀羅尼王": [
     {
       "slug": "cbeta-T21n1400",
@@ -133158,6 +133570,11 @@
       "slug": "cbeta-T21n1273",
       "name_zh": "毘那夜迦誐那鉢底瑜伽悉地品祕要",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
+      "religion": "佛教"
     }
   ],
   "隣虛": [
@@ -133629,6 +134046,13 @@
     {
       "slug": "cbeta-T21n1267",
       "name_zh": "使呪法經",
+      "religion": "佛教"
+    }
+  ],
+  "雞羅莎山": [
+    {
+      "slug": "cbeta-T21n1333",
+      "name_zh": "虛空藏菩薩問七佛陀羅尼呪經",
       "religion": "佛教"
     }
   ],
@@ -137700,6 +138124,11 @@
     {
       "slug": "cbeta-T46n1914",
       "name_zh": "止觀大意",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T46n1920",
+      "name_zh": "觀心論",
       "religion": "佛教"
     },
     {

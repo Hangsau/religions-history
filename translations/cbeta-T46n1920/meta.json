@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "觀心",
+    "四念處",
+    "木叉",
+    "四三昧",
+    "三界火宅",
+    "涅槃",
+    "龍樹",
+    "阿字門",
+    "中論",
+    "不生",
+    "圓教",
+    "三諦三觀",
+    "摩訶般若",
+    "扇提羅",
+    "安般"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "28799958da925e76aaf25c823aa85ba4b73942d43e4e95b9307ae47ce9f4af75"
+  },
+  "tagging_models": "MiniMax-M3"
 }
