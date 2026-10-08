@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "salvation-by-faith",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "寶網",
+    "維耶離",
+    "獼猴水邊交路精舍",
+    "慈氏菩薩",
+    "兜率天",
+    "帝釋",
+    "梵天王",
+    "龍王",
+    "阿須倫",
+    "一生補處",
+    "阿羅漢",
+    "佛身",
+    "光明",
+    "三十二相",
+    "供養"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b2623367074024997433a5bd82098bd0a4c5901617a1aa02caae46a339748bc2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

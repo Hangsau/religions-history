@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "multiple-canons",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic"
+  ],
+  "keywords": [
+    "孔雀王呪",
+    "娑底比丘",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "毘尼",
+    "蛇毒",
+    "結界",
+    "南無佛陀",
+    "龍王",
+    "毘留勒叉",
+    "難陀",
+    "優婆難陀",
+    "金光明孔雀王",
+    "大孔雀明王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "ingroup-outgroup-prejudice",
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8325823eaef8134f7b68eb240351060daf250f7a6b2ac3641ab41a1049e4e348"
+  },
+  "tagging_models": "MiniMax-M3"
 }
