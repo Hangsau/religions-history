@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "revealed-text",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "如來",
+    "薄伽梵",
+    "菩薩摩訶薩",
+    "有為",
+    "無為",
+    "勝義諦",
+    "離言法性",
+    "遍計所集",
+    "聖智",
+    "聖見",
+    "幻化",
+    "法涌菩薩",
+    "尋思",
+    "解甚深義密意菩薩",
+    "如理請問菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c6886ed6ee486206e3efdf80e4efa72ebe51dc4b5df0d9a7275bb97ad5af13c7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

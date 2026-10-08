@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "楞嚴經",
+    "圓通",
+    "海印三昧",
+    "奢摩他",
+    "台教",
+    "百松大和尚",
+    "天台",
+    "止觀",
+    "法華",
+    "圓覺",
+    "涅槃",
+    "首楞嚴三昧",
+    "大悲菩薩",
+    "耳根圓通",
+    "見性"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "honesty-hypocrisy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f36b2e0be03867a47e1b2f38ae3df097440f28e89c856c8aca61034832e7677d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
