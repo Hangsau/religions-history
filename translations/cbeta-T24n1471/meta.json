@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "humility",
+    "lay-practitioner",
+    "lineage-importance",
+    "monastic",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "study",
+    "truthfulness"
+  ],
+  "keywords": [
+    "沙彌",
+    "十戒",
+    "歸依",
+    "不殺生",
+    "不盜",
+    "不婬",
+    "不妄語",
+    "不飲酒",
+    "袈裟",
+    "和上",
+    "阿闍梨",
+    "舍利弗",
+    "羅睺羅",
+    "涅槃",
+    "威儀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "responsibility-leadership",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "10e27448388a1f5cd257be66ff2933a325df8b9a87c56d083e9360a0be31e1dc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

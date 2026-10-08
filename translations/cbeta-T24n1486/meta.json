@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "heaven-hell",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "十善戒",
+    "八戒齋",
+    "不殺生",
+    "不偷盜",
+    "不婬欲",
+    "不妄語",
+    "歸依佛",
+    "歸依法",
+    "歸依僧",
+    "舍利弗",
+    "布薩",
+    "涅槃",
+    "忉利天",
+    "彌勒",
+    "優婆塞"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "communication-being-understood",
+    "death",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9a33fc6edf96da5bc61325cd93f18c1e4a24da62201d69075e79c931b6e9ca33"
+  },
+  "tagging_models": "MiniMax-M3"
 }
