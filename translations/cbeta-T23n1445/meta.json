@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T23",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "苾芻",
+    "雨安居",
+    "室羅伐城",
+    "逝多林給孤獨園",
+    "羯磨",
+    "七日法",
+    "安居",
+    "鄔波索迦",
+    "鄔波斯迦",
+    "式叉摩拏",
+    "破安居",
+    "前安居",
+    "後安居",
+    "分臥具",
+    "受籌"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "living-with-unknown",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ecef5eb564eade3c8b7558223492d6084b6f8298a4cb94929a82aa9ac942f84a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

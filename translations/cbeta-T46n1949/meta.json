@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "消伏毒害陀羅尼",
+    "破惡業障陀羅尼",
+    "六字章句陀羅尼",
+    "毘舍離",
+    "楊枝淨水",
+    "懺悔",
+    "三障",
+    "三毒",
+    "十種行人",
+    "念佛三昧",
+    "百錄",
+    "止觀",
+    "灌頂章句",
+    "普為法界眾生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "29251dbfcb15319a828a9e1f6fb6252cf8e353bfe5ebcbc1ce1f7e7bfbe9425f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "不空羂索",
+    "觀自在",
+    "神呪心",
+    "薄伽梵",
+    "世主王如來",
+    "般若",
+    "菩提薩埵",
+    "六波羅蜜多",
+    "三摩地",
+    "五無間罪",
+    "結界",
+    "齋戒",
+    "慈悲喜捨",
+    "大慈恩寺",
+    "玄奘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e82af39279e15ce01982ac1ccf7924890131f80c575defa469bdfbf9b2550aee"
+  },
+  "tagging_models": "MiniMax-M3"
 }
