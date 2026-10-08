@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "other-power",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "vision-experience"
+  ],
+  "keywords": [
+    "毘盧舍那",
+    "蓮華胎藏",
+    "曼荼羅",
+    "真言",
+    "菩提心",
+    "金剛薩埵",
+    "三昧耶印",
+    "法界生",
+    "懺悔",
+    "歸依",
+    "迴向",
+    "隨喜",
+    "勸請",
+    "加持",
+    "浄除三業道"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e838499013077bcfb95da5d678f47a9d7affc959f6b175d01cef68d38782e02e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
