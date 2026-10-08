@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T09",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "prophetic-critique",
+    "ritual-practice",
+    "salvation-by-faith"
+  ],
+  "keywords": [
+    "方等",
+    "彌勒",
+    "文殊師利",
+    "須菩提",
+    "阿彌陀佛",
+    "般若波羅蜜",
+    "六波羅蜜",
+    "淨命比丘",
+    "法比丘",
+    "菩薩",
+    "聲聞",
+    "五濁",
+    "不退轉地",
+    "無所從生法忍",
+    "誹謗法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7f9ecd91ca0fe8a0ad3f426cc919deda9ce2fd59cd36619d30b976cf3255e35b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T11",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "human-as-microcosm",
+    "karma-rebirth",
+    "monastic",
+    "reincarnation",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "胞胎經",
+    "難陀",
+    "阿難",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "胚胎",
+    "四大",
+    "地水火風",
+    "宿命因緣",
+    "罪福",
+    "十惡",
+    "十德",
+    "五陰",
+    "生死",
+    "八萬種虫"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "existence-why-born",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4f376c9e4a1619fc7e55f6f664bca6c545bfc1931fab43aca4b08f840f73af2f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
