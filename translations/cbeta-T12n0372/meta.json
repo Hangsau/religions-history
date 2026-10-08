@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "pilgrimage",
+    "reincarnation",
+    "ritual-practice",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "如幻三摩地",
+    "阿耨多羅三藐三菩提",
+    "勝華藏菩薩",
+    "慈氏菩薩",
+    "妙吉祥童真菩薩",
+    "觀自在菩薩",
+    "大勢至菩薩",
+    "無量光如來",
+    "極樂世界",
+    "娑婆世界",
+    "波羅奈國",
+    "鹿野園",
+    "緣生",
+    "無生",
+    "正見"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "faith-doubt",
+    "gender-body",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "571bf85dc1d3a7d7fed1e071cffadae027b407ac42a378f0cfd0997ed59c12d8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
