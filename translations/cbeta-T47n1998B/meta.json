@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "prayer",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "洞山",
+    "興化",
+    "石霜",
+    "真淨",
+    "汾陽",
+    "雪竇",
+    "德山遠",
+    "慈明",
+    "湛堂準",
+    "浮山遠",
+    "天衣懷",
+    "葉縣省",
+    "圜悟",
+    "妙喜",
+    "佛照杲"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f4f4b4aedb8567e4120f8d25f8e8115399662d79e1c9d837be24c104fdc5cd05"
+  },
+  "tagging_models": "MiniMax-M3"
 }

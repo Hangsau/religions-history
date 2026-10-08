@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "如來",
+    "燕坐",
+    "因沙舊",
+    "阿難",
+    "文殊師利",
+    "彌勒",
+    "芻草",
+    "三脫門",
+    "十二因緣",
+    "三十七品",
+    "四意止",
+    "五陰",
+    "六入",
+    "八賢聖路",
+    "四諦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "041cdae5740d22cbae586b26efe6e9f34a9b09e3c99469790aa93dad8d603182"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theocracy",
+    "theophany"
+  ],
+  "keywords": [
+    "金剛手菩薩",
+    "金剛童子",
+    "迦抳",
+    "真言",
+    "印契",
+    "持誦",
+    "伏藏",
+    "阿修羅窟",
+    "護摩",
+    "舍利塔",
+    "摩醯首羅",
+    "持明仙",
+    "毘那夜迦",
+    "菩提心",
+    "降伏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4e3d73551b34415ff7a2c2aa57e8c53679db6fd8bee1cb37a001b7d65acfcccc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
