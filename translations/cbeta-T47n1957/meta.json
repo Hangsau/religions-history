@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "grace-from-god",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power"
+  ],
+  "keywords": [
+    "安樂國",
+    "阿彌陀佛",
+    "法藏菩薩",
+    "淨土",
+    "四十八願",
+    "九品往生",
+    "十念相續",
+    "胎生",
+    "邊地",
+    "不思議智",
+    "不可稱智",
+    "大乘廣智",
+    "無等無倫最上勝智",
+    "波羅蜜",
+    "正定聚"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6a97ea9a6835309829977b536892765425fa489e719cd5d5ee63466614503396"
+  },
+  "tagging_models": "MiniMax-M3"
 }
