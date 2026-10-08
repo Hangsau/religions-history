@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "multiple-souls",
+    "non-dual",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "阿毘達磨",
+    "目乾連",
+    "識身足論",
+    "不善根",
+    "貪瞋癡",
+    "瀑流",
+    "取",
+    "繫",
+    "蓋",
+    "結",
+    "隨眠",
+    "異熟",
+    "涅槃",
+    "嗢柁南",
+    "沙門目連"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "change-transformation",
+    "death",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9b18b0b5da106e94f3aa629861358c1e5d90d2c806c6f21b0b8b144e90734941"
+  },
+  "tagging_models": "MiniMax-M3"
 }
