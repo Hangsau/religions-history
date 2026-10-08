@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "目連",
+    "佛",
+    "波羅夷",
+    "僧伽婆尸沙",
+    "偷蘭遮",
+    "波夜提",
+    "波羅提提舍尼",
+    "泥犁",
+    "阿鼻地獄",
+    "三十三天",
+    "結界",
+    "羯磨",
+    "說戒",
+    "佛物",
+    "三寶物"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f1af54bd1a7d076b89be5e4ca57f01daf2c7c65372b771019cd1225e99929981"
+  },
+  "tagging_models": "MiniMax-M3"
 }

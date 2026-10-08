@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "金剛界",
+    "大毘盧遮那",
+    "三密",
+    "曼拏囉",
+    "阿闍黎",
+    "灌頂",
+    "三昧耶",
+    "金剛薩埵",
+    "五解脫輪",
+    "瑜伽",
+    "真言",
+    "菩提心",
+    "普賢",
+    "閼伽",
+    "華藏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e2f1a9292b8523b784a93d27e485e6835ade8ea493f87096847a0a6cb362936e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
