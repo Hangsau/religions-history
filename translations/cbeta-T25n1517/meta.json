@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T25",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "revealed-text",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "佛母",
+    "無二智",
+    "能取所取",
+    "十六空",
+    "三十二品",
+    "八千頌",
+    "十萬頌",
+    "須菩提",
+    "菩薩",
+    "如來",
+    "分別散亂",
+    "信",
+    "師資",
+    "我聞"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "47e21d208d26d8dbaf3ac6dc13b0c657c965888f3394ee03ed65dd7e2152aa49"
+  },
+  "tagging_models": "MiniMax-M3"
 }
