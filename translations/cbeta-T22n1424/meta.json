@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T22",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "congregational",
+    "dietary-restrictions",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "羯磨",
+    "比丘",
+    "僧伽",
+    "具足戒",
+    "優婆塞",
+    "沙彌",
+    "布薩",
+    "安居",
+    "自恣",
+    "戒場",
+    "大界",
+    "衣界",
+    "食界",
+    "十戒",
+    "五戒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7d6da60519e6e39445347e3967ccb604fadf05de77651a058c83b1c710aace9a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
