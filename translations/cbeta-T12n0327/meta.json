@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "extinction-of-self",
+    "four-noble-truths",
+    "humility",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "彌勒菩薩",
+    "拘留孫如來",
+    "阿鼻地獄",
+    "業障",
+    "懺悔",
+    "菩提分",
+    "波羅奈城",
+    "鹿野苑",
+    "菩薩乘",
+    "蘭若",
+    "頭陀",
+    "阿彌陀國",
+    "般若波羅蜜",
+    "法施",
+    "五百歲正法滅時"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "743bec14b49efa85a9f7a6e7c55858883e9e55cfa021386a8976e32ff68566ce"
+  },
+  "tagging_models": "MiniMax-M3"
 }

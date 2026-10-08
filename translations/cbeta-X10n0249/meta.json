@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "multiple-canons",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "圓覺經",
+    "大疏鈔",
+    "圭峯",
+    "華嚴",
+    "清涼",
+    "唯識",
+    "泯絕無寄",
+    "會色歸空",
+    "海印三昧",
+    "十二因緣",
+    "莊子",
+    "河上公",
+    "大集經",
+    "涅槃",
+    "方文"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "honesty-hypocrisy",
+    "living-with-unknown",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d654429015b5dc57d55dcc36637d6e906546b48e142345130de0c0e7cdbe8567"
+  },
+  "tagging_models": "MiniMax-M3"
 }
