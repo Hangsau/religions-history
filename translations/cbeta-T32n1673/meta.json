@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-works",
+    "meditation",
+    "non-violence",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "勸發諸王要偈",
+    "明勝功德王",
+    "三寶",
+    "十業道",
+    "波羅蜜",
+    "六念",
+    "八分齋",
+    "五欲",
+    "不淨觀",
+    "緣起",
+    "十二因緣",
+    "八正道",
+    "七菩提分",
+    "涅槃",
+    "泥洹"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6b1b0ebfb3d2239f155d122ff98f1d29bfcc95f9909b1d9a6022fbd8367f6146"
+  },
+  "tagging_models": "MiniMax-M3"
 }

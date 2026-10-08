@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "other-power"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "金剛經",
+    "妙生",
+    "薄伽梵",
+    "然燈佛",
+    "菩薩乘",
+    "無住",
+    "布施",
+    "無我",
+    "涅槃",
+    "三十二相",
+    "陀羅尼",
+    "肉眼天眼慧眼法眼佛眼",
+    "忍辱波羅蜜多",
+    "有為法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "38857f8ed298a2adac8fbf2fa42f1e9c4554ebdebaca35dd3cc6fda2687d0854"
+  },
+  "tagging_models": "MiniMax-M3"
 }

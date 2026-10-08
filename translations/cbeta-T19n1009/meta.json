@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "出生無邊門陀羅尼",
+    "薄伽梵",
+    "毘舍離",
+    "舍利弗",
+    "大目揵連",
+    "陀羅尼",
+    "菩薩摩訶薩",
+    "不退轉",
+    "燃燈佛",
+    "無量壽如來",
+    "寶吉祥威光王劫如來",
+    "八字義",
+    "念佛三摩地",
+    "三藐三菩提",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "589d089fbb6108e437a22ea96e778be6caa6044d2924ea59cc5fc1cfc5d7e40f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
