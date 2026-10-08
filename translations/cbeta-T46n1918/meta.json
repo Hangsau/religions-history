@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "四念處",
+    "般若",
+    "波羅提木叉",
+    "五陰",
+    "十二入",
+    "十八界",
+    "阿羅漢",
+    "須陀洹",
+    "三藏",
+    "四阿含",
+    "毘尼",
+    "阿毘曇",
+    "中道第一義諦",
+    "不可思議",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "death",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b54c7b98859b5ea0bca081b50c56ed5d29be1fe0eb7e7af3c75cab0c1c561629"
+  },
+  "tagging_models": "MiniMax-M3"
 }

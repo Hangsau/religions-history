@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "grace-from-god",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "大宗地玄文本論",
+    "歸依德處",
+    "無餘明",
+    "中中主者",
+    "道路軌則",
+    "離雜合一",
+    "毛生",
+    "斷命品",
+    "假有",
+    "無所有事",
+    "具足無礙",
+    "涅槃",
+    "陀羅尼",
+    "金剛三昧",
+    "文殊師利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e920bfd7bdf93f148cb0566b915d4b043ac51b6b7221ec4696b164ad3329548e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
