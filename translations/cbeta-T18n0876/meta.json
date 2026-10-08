@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "毘盧遮那佛",
+    "金剛頂",
+    "瑜伽",
+    "三摩地",
+    "灌頂",
+    "真言",
+    "阿閦佛",
+    "寶生尊",
+    "無量壽",
+    "不空尊",
+    "普賢",
+    "菩提心",
+    "四攝法",
+    "波羅蜜",
+    "三密門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "perfectionism-self-criticism"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2e34bdd47567e1475c153494b5d190c7fd6cf4625db6024adbc3a2cc915e6572"
+  },
+  "tagging_models": "MiniMax-M3"
 }

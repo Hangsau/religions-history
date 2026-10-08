@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "grace-from-god",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "入定不定印",
+    "羊車行",
+    "象車行",
+    "日月神力行",
+    "聲聞神力行",
+    "如來神力行",
+    "妙吉祥菩薩",
+    "菩薩",
+    "無上正等正覺",
+    "大乘",
+    "聲聞乘",
+    "三摩地",
+    "陀羅尼",
+    "王舍城鷲峯山",
+    "退轉"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3bda95e8e98214e2487fb303177c520b589cb02fb1e7ef6e97dcbd6948e1ea1c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
