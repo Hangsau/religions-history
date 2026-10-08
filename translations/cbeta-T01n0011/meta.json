@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "commandments-law",
+    "enlightenment",
+    "essentially-flawed",
+    "meditation",
+    "monastic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "尼拘陀梵志",
+    "和合長者",
+    "王舍城",
+    "迦蘭陀竹林精舍",
+    "善無毒池",
+    "聲聞",
+    "止息",
+    "梵行",
+    "阿那含果",
+    "慈心",
+    "宿住通",
+    "天眼",
+    "煩惱隨增",
+    "增上慢",
+    "四戒具足"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "perfectionism-self-criticism",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e65e1a3e2b7addc7bf41767e13603a0e27fa21327f2223f14d363034ac73e5a4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

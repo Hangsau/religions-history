@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "self-effort"
+  ],
+  "keywords": [
+    "唯識",
+    "三種空",
+    "人無我",
+    "因緣法體空",
+    "真如",
+    "佛性",
+    "阿賴耶識",
+    "種子",
+    "八解脫",
+    "業熏習",
+    "十二緣生",
+    "鄰虛",
+    "婆藪槃豆",
+    "菩提留支",
+    "三界唯心"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1cf439c2bb837f6e91602feb6f19535bed697b06938c3249072ba5b6a2101450"
+  },
+  "tagging_models": "MiniMax-M3"
 }
