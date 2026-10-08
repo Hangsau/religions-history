@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "spirit-possession",
+    "syncretic"
+  ],
+  "keywords": [
+    "蘇悉地羯羅供養法",
+    "三摩耶",
+    "本尊",
+    "灌頂",
+    "真言",
+    "手印",
+    "阿闍梨",
+    "蓮華部",
+    "金剛部",
+    "佛部",
+    "軍荼利",
+    "護摩",
+    "方廣經",
+    "制底",
+    "六念"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d8e320351ca47175d01be29bf4642bbde2afd27e69165bf02e3927e3f2c038f8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
