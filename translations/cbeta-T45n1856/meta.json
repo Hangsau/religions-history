@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "divine-transcendence",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "self-effort",
+    "theodicy",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "鳩摩羅什",
+    "慧遠",
+    "法身",
+    "化身",
+    "大乘",
+    "法性生身",
+    "無生法忍",
+    "涅槃",
+    "泥洹",
+    "般若",
+    "首楞嚴經",
+    "維摩詰經",
+    "大義",
+    "菩薩",
+    "無餘涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ef95f0b0eb5498d18994468a69faf170d5e338bee1b1cf8dd28e3b5cf56f0df4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
