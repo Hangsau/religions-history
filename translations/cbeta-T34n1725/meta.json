@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T34",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "multiple-canons",
+    "non-dual",
+    "revealed-text",
+    "ritual-practice",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "妙法蓮華經",
+    "一乘",
+    "實相",
+    "如來藏",
+    "法身",
+    "佛性",
+    "三乘",
+    "菩薩",
+    "二乘",
+    "方便品",
+    "壽量品",
+    "佛知見",
+    "涅槃界",
+    "眾生界",
+    "薩婆若"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0ac17b023a82b517191d963a5e4afec80dda0915d8bd4b59bd736c9bed43b75a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

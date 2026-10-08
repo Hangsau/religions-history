@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-immanence",
+    "liberation-by-devotion",
+    "monastic",
+    "multiple-canons",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "salvation-by-faith",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "地藏菩薩",
+    "陀羅尼",
+    "佉羅提耶山",
+    "牟尼仙",
+    "五濁惡世",
+    "如意珠",
+    "摩尼寶",
+    "帝釋",
+    "淨有",
+    "三惡道",
+    "六波羅蜜",
+    "聲聞",
+    "辟支佛",
+    "菩薩摩訶薩",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e4a77b8ea4961192cd4cb6c361a2184b2fa3be9a1d3b4563d76ebef37e9a45e9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
