@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "congregational",
+    "lay-practitioner",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "temple-centered",
+    "truthfulness"
+  ],
+  "keywords": [
+    "比丘",
+    "五戒",
+    "十戒",
+    "具足戒",
+    "依止",
+    "布薩",
+    "羯磨",
+    "自恣",
+    "突吉羅",
+    "波羅夷",
+    "優波離",
+    "禪定",
+    "三業",
+    "出家",
+    "在家"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "patience-waiting"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "53ae26f3ee036aba7b317c88a820b0dd360980a226f21a003d248d29028af834"
+  },
+  "tagging_models": "MiniMax-M3"
 }
