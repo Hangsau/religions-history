@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T54",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "caste-system",
+    "celibate-tradition",
+    "chanting",
+    "commentarial-layer",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "vernacular-translation"
+  ],
+  "keywords": [
+    "音義",
+    "玄應",
+    "慧琳",
+    "慧苑",
+    "雲公",
+    "窣覩波",
+    "薄伽梵",
+    "菩提",
+    "涅盤",
+    "六波羅蜜多",
+    "花嚴經",
+    "順正理論",
+    "唐梵",
+    "大乘理趣六波羅蜜多經",
+    "補陁落迦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "memory-reconciliation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2bd2c99359627de9f9b869114fca591858bbb0b61e58b1026d07ecde4dc24a09"
+  },
+  "tagging_models": "MiniMax-M3"
 }

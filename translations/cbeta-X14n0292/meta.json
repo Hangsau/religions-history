@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "dualistic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "楞嚴經",
+    "釋迦老子",
+    "阿難",
+    "如來",
+    "三十二相",
+    "常住真心",
+    "妙奢摩它",
+    "三摩禪那",
+    "大寂滅海",
+    "真精妙覺明性",
+    "心言直",
+    "頂放光明",
+    "神變",
+    "圈套",
+    "本懷"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3c1376bfdca8812b29de8263ef39a283eb1e8ac0e9b0b508ce0f01fb4662f54b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
