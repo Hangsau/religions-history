@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "圓覺",
+    "大方廣",
+    "修多羅了義經",
+    "文殊師利",
+    "普賢",
+    "普眼",
+    "金剛藏",
+    "彌勒",
+    "清淨慧",
+    "威德自在",
+    "辯音",
+    "淨諸業障",
+    "普覺",
+    "賢善首",
+    "大光明藏三昧"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5f8a17c04ced37e712ebd48bd338638ed48a957b9a41cf4f438601fca3f32937"
+  },
+  "tagging_models": "MiniMax-M3"
 }
