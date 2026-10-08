@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "chanting",
+    "divine-immanence",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "一字轉輪王",
+    "末法",
+    "曼陀羅法",
+    "火食法",
+    "舍利",
+    "三昧",
+    "十方諸佛",
+    "天龍八部",
+    "毘那夜迦",
+    "藥叉",
+    "蓮華藏界",
+    "妙吉祥童子",
+    "釋迦牟尼",
+    "觀世音"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4a662f7ee5d61f0b5a9128a630fad96f6523eed67966c7f7261a99df17b4cf6a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

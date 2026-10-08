@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+  ],
+  "keywords": [
+    "靈祐",
+    "溈山",
+    "百丈",
+    "仰山",
+    "香嚴",
+    "雲巖",
+    "道吾",
+    "德山",
+    "石霜",
+    "溈仰宗",
+    "頓悟",
+    "禪",
+    "西來意",
+    "桃花悟道",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "815926baf74e92e82522d9db4549ad846ea4ba6d12746f6a0cbe3b343c39ae37"
+  },
+  "tagging_models": "MiniMax-M3"
 }

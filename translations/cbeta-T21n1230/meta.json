@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "大輪金剛陀羅尼",
+    "總持",
+    "執金剛神",
+    "末法",
+    "曼荼羅",
+    "灌頂",
+    "盧舍那",
+    "金剛藏菩薩",
+    "南閻浮提",
+    "懺悔",
+    "三業",
+    "密跡",
+    "烏芻沙摩",
+    "軍荼利",
+    "天龍八部"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "135d2dfa2d3914601e2298e4849a8d660d4ab7d879bd66b3e31fa3c36f01911c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

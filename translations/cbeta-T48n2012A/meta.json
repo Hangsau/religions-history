@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "黃檗希運",
+    "斷際禪師",
+    "一心",
+    "即心是佛",
+    "無心",
+    "傳心",
+    "頓悟",
+    "心法",
+    "本源清淨心",
+    "曹溪六祖",
+    "達摩",
+    "直指人心見性成佛",
+    "大日輪",
+    "阿耨菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "dcafa91dff5b40cdd80e194470f09c88f5d8985e1e4d2e62e2d9b7037d397270"
+  },
+  "tagging_models": "MiniMax-M3"
 }

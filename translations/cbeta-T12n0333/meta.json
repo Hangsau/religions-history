@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "sexual-ethics",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "日子王",
+    "舍摩嚩底",
+    "無比摩建儞迦",
+    "慈心定",
+    "婬慾",
+    "阿鼻地獄",
+    "菩薩摩訶薩",
+    "聲聞",
+    "女色",
+    "持戒",
+    "供養父母",
+    "慈心三昧",
+    "箭却迴",
+    "焰赫"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b1594706665aa802df87f4c0063d5504d1b1cfedcc3604279d5794ce7ede8507"
+  },
+  "tagging_models": "MiniMax-M3"
 }
