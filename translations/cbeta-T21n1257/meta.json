@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "emanation",
+    "enlightenment",
+    "feminine-divine",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "temple-centered",
+    "vision-experience"
+  ],
+  "keywords": [
+    "摩里支菩薩",
+    "陀羅尼",
+    "毘盧遮那",
+    "日月",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "苾芻",
+    "護摩",
+    "成就法",
+    "冤家",
+    "觀想",
+    "三摩地",
+    "真言",
+    "無憂樹",
+    "童女"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "179bbbb3050e5c19c336b2df25ce2f0cc36c3693e0b36871e8d443129d399439"
+  },
+  "tagging_models": "MiniMax-M3"
 }
