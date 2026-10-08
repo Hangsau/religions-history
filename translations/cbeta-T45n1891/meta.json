@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "pilgrimage",
+    "sacred-language",
+    "self-effort",
+    "vision-experience"
+  ],
+  "keywords": [
+    "善財童子",
+    "文殊師利",
+    "華嚴",
+    "法界",
+    "娑羅林",
+    "德雲比丘",
+    "海雲比丘",
+    "善住比丘",
+    "彌加長者",
+    "解脫長者",
+    "海幢比丘",
+    "毘目瞿沙",
+    "勝熱婆羅門",
+    "慈童女",
+    "善見比丘"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a5b8f27a98d090e729467010dedd9ba989685227cf283e1142c938d0909f25c6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

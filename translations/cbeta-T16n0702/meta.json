@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "temple-centered",
+    "truthfulness"
+  ],
+  "keywords": [
+    "舍利弗",
+    "如來",
+    "施燈",
+    "佛塔",
+    "福田",
+    "尸波羅蜜",
+    "禪波羅蜜",
+    "波若波羅蜜",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "臨命終",
+    "三種明",
+    "四種光明",
+    "供養",
+    "功德"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "73990531cd1df47ce83d9d128b24a945f97db9ecec0f3a3e93e06c7dde2a2fdb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
