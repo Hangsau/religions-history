@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "polytheist",
+    "ritual-practice",
+    "study",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "方便心論",
+    "八種義",
+    "譬喻",
+    "隨所執",
+    "語善",
+    "言失",
+    "知因",
+    "應時語",
+    "似因",
+    "隨言難",
+    "涅槃",
+    "無我",
+    "十二因緣",
+    "四沙門果",
+    "尼乾陀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "467ce814c6d793c7bbc9214575d8544892fe514ec507cb54b84e5d8d064df07f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

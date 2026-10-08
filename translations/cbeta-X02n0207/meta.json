@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "essentially-good",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "non-violence",
+    "other-power",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "因果",
+    "果報",
+    "識見",
+    "阿羅漢",
+    "摩拏羅多",
+    "因緣",
+    "心性",
+    "戒定慧",
+    "六賊",
+    "福田",
+    "本性",
+    "善惡",
+    "生死",
+    "菩提",
+    "范仲淹"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "emotions-passions",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3e40428fe23e9e815999e2a290a48728403b21c926c6daf3477110a751af2fb7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

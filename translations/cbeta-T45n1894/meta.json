@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "humility",
+    "monastic",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "袈裟",
+    "僧伽梨",
+    "三衣",
+    "尼師壇",
+    "壞色衣",
+    "善來",
+    "羯磨",
+    "四依",
+    "五納",
+    "糞掃衣",
+    "十誦律",
+    "四分律",
+    "薩婆多論",
+    "南山",
+    "釋門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4e37bbb03d9d8fe00ed5e169f2b3b1723f49a9e899b96b0f1186c4dcb3ed3969"
+  },
+  "tagging_models": "MiniMax-M3"
 }
