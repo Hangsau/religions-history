@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "extinction-of-self",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "study",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "目連",
+    "比丘",
+    "波羅夷",
+    "波夜提",
+    "偷蘭遮",
+    "僧伽婆尸沙",
+    "泥犁",
+    "阿鼻地獄",
+    "三十三天",
+    "王舍城",
+    "迦蘭陀竹園",
+    "三寶物",
+    "佛物",
+    "結界",
+    "羯磨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "969d96240ae48608be4d4be9d390c04eecc599579b72a30c209bebbb9fe43cca"
+  },
+  "tagging_models": "MiniMax-M3"
 }
