@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "reincarnation",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "禪陀迦王",
+    "六念",
+    "十善",
+    "五戒",
+    "四無量定",
+    "四禪",
+    "十二緣",
+    "八正道",
+    "四聖諦",
+    "七覺支",
+    "不淨觀",
+    "涅槃",
+    "無常",
+    "三界",
+    "地獄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "92a7714a8202df49a3840bf9d501deccda130fcb8c20878b6e1a4568c522b785"
+  },
+  "tagging_models": "MiniMax-M3"
 }
