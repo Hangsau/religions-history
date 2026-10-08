@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "oral-tradition",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "密菴禪師",
+    "應菴",
+    "臨濟正宗",
+    "烏巨山",
+    "乾明禪院",
+    "祖師心印",
+    "般若",
+    "文殊",
+    "雪峰",
+    "雲門",
+    "公案",
+    "棒喝",
+    "參學",
+    "示寂",
+    "靈巖"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "79d048e218bdbe09499e70ed0458a55d5e0e888084a4b7047e28c6945d48f7e7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
