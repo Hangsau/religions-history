@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "文殊師利",
+    "善住意天子",
+    "毘盧遮那",
+    "釋迦牟尼",
+    "王舍城",
+    "耆闍崛山",
+    "娑婆世界",
+    "普光離垢莊嚴三昧",
+    "菩薩摩訶薩",
+    "阿耨多羅三藐三菩提",
+    "大乘",
+    "毘目智仙",
+    "曇林",
+    "五濁世",
+    "空聲"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "22e37d35129d1fc8eaf18c24d57de0e42fa38422d2cf608cdf727539cf9551ec"
+  },
+  "tagging_models": "MiniMax-M3"
 }

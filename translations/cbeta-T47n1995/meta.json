@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "法演禪師",
+    "白雲山海會",
+    "達磨",
+    "六祖",
+    "雲門",
+    "德山",
+    "法眼",
+    "韶國師",
+    "開堂",
+    "拈香",
+    "公案",
+    "機鋒",
+    "棒喝",
+    "小參",
+    "上堂"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0db8068ca9cfc8a62637a522fb2654a1b7511f413e40861d98f6e819fb37db0a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
