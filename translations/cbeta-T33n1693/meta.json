@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T33",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "十二因緣",
+    "四諦",
+    "八解",
+    "泥洹",
+    "禪智",
+    "阿難",
+    "癡",
+    "生死",
+    "八愛",
+    "五陰",
+    "止觀",
+    "三有",
+    "本",
+    "習",
+    "守"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "existence-why-born",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2414e0c2238a3896dd9e4346bf96a1f505e4dedde4a4c86233da1b7a5fa57336"
+  },
+  "tagging_models": "MiniMax-M3"
 }

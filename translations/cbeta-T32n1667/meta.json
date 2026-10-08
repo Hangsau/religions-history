@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "grace-from-god",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "multiple-souls",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "大乘起信論",
+    "馬鳴菩薩",
+    "真諦",
+    "如來藏",
+    "阿賴耶識",
+    "真如",
+    "生滅",
+    "一心",
+    "本覺",
+    "始覺",
+    "摩訶衍",
+    "大乘",
+    "佛種性",
+    "正信",
+    "波羅末陀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "31475731c25aafecef872d60f2a9c3510e4b75d43c6e6fc612d0e076fa354f1a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
