@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "theodicy",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "法華經",
+    "如來藏",
+    "一乘",
+    "摩訶衍",
+    "大乘",
+    "安樂行",
+    "法華三昧",
+    "菩薩",
+    "六根",
+    "金剛慧",
+    "首楞嚴定",
+    "眾生妙",
+    "實性",
+    "涅槃",
+    "如來"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7666dc0e71b531034ec49e34ca6958ea6fbaf3d39f9604c90f55a169bfa6e578"
+  },
+  "tagging_models": "MiniMax-M3"
 }

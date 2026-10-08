@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "菩薩",
+    "六波羅蜜",
+    "摩訶迦葉",
+    "舍衛國",
+    "祇洹",
+    "阿難邠坻阿藍",
+    "智慧",
+    "四事法",
+    "三十二事",
+    "空",
+    "無我",
+    "薩芸若",
+    "漚惒拘舍羅",
+    "遺日摩尼寶經",
+    "善知識"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "death",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1f3fb55f65046886e4934c224ff7a86f0ea43dae04b870fcb007aa4d8551461f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
