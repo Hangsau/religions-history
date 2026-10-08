@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "humility",
+    "lay-practitioner",
+    "lineage-importance",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "study",
+    "truthfulness"
+  ],
+  "keywords": [
+    "比丘",
+    "律儀",
+    "南山大師",
+    "行事鈔",
+    "毘尼",
+    "聲聞",
+    "菩薩",
+    "三寶",
+    "四恩",
+    "四念處",
+    "菩提心",
+    "六根",
+    "戒品",
+    "禪那",
+    "道儀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "gratitude-contentment",
+    "patience-waiting",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7456c09c3ec6c64b1816ee4a37c3c4b146355aa7513e8e9172d465035e606ffe"
+  },
+  "tagging_models": "MiniMax-M3"
 }

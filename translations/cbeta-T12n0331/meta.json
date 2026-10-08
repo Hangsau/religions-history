@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "無畏授",
+    "阿羅漢",
+    "阿難",
+    "菩薩摩訶薩",
+    "阿耨多羅三藐三菩提",
+    "大悲心",
+    "聲聞乘",
+    "緣覺乘",
+    "陀羅尼",
+    "三摩地",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "輪迴",
+    "涅槃",
+    "舍利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cbc37f0114868d4809112a36e64fe7cda1a48597e3fb58eaab9bcc3b13a1ace1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

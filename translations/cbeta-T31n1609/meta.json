@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "身業",
+    "語業",
+    "意業",
+    "表業",
+    "無表業",
+    "形色",
+    "行動",
+    "思",
+    "異熟",
+    "善不善",
+    "律儀",
+    "釋子",
+    "世尊",
+    "瑜伽",
+    "極微"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "memory-reconciliation",
+    "responsibility-leadership",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b87589f2b3c7a22bee56c5c2195841ede9497e7dda4128a4b46eaf78ac44b958"
+  },
+  "tagging_models": "MiniMax-M3"
 }
