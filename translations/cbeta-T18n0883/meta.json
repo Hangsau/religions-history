@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "金剛界",
+    "大曼拏羅",
+    "金剛手菩薩",
+    "毘盧遮那如來",
+    "阿閦如來",
+    "寶生如來",
+    "觀自在王如來",
+    "不空成就如來",
+    "帝釋天",
+    "灌頂",
+    "三昧",
+    "曼拏羅",
+    "金剛杵",
+    "五方佛",
+    "祕密心明"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0c37dc14228f8f35adc2c0b3312b28ac27889c914ce129486d5a05a2233c2da9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

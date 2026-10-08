@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-kingship",
+    "feminine-divine",
+    "liberation-by-devotion",
+    "monastic",
+    "multiple-souls",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theophany"
+  ],
+  "keywords": [
+    "佛母大金曜孔雀明王經",
+    "陀羅尼",
+    "不空",
+    "莎底",
+    "室羅伐城",
+    "逝多林",
+    "給孤獨園",
+    "阿難陀",
+    "孔雀明王",
+    "藥叉",
+    "龍王",
+    "持國龍王",
+    "厭禱",
+    "大明宮",
+    "摩訶摩瑜利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "illness-body",
+    "loneliness-belonging"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bb60d1bc3887ca591c5facab399ec6011da711275d016c17401d2af2a704aea0"
+  },
+  "tagging_models": "MiniMax-M3"
 }

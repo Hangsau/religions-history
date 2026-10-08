@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "essentially-flawed",
+    "forgiveness",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "suffering-as-purifying",
+    "syncretic",
+    "theocracy",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "造像量度經",
+    "法身",
+    "色身",
+    "菩提心",
+    "三十二相",
+    "八十種好",
+    "阿耨多羅三藐三菩提",
+    "金剛般若波羅蜜經",
+    "工布查布",
+    "乾隆",
+    "靈山拈華",
+    "十波羅蜜",
+    "慈悲喜捨",
+    "妙覺",
+    "圓覺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gender-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "009a757730bb07c4496c466f34ccba01aff8cb5160fa9c7ac071d76acec0dba4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
