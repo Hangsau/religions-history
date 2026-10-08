@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-souls",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "阿羅耶識",
+    "如來藏",
+    "心地品",
+    "阿毘曇",
+    "解節經",
+    "心地經",
+    "無想定",
+    "無所有處",
+    "非有想非無想",
+    "五心數法",
+    "三受",
+    "煩惱根本",
+    "我見",
+    "憍慢",
+    "種本"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "aging-time",
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "224e821dc763f1a295aba4666087fe3ae3808b832c95172cfd862b383a7c1bda"
+  },
+  "tagging_models": "MiniMax-M3"
 }
