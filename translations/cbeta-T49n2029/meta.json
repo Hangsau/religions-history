@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T49",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "迦旃延",
+    "正法",
+    "末法",
+    "比丘",
+    "泥洹",
+    "鬪諍",
+    "利養",
+    "尸師",
+    "須賴",
+    "阿斯",
+    "大秦",
+    "安息",
+    "夷王",
+    "沙門",
+    "禁戒"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7720a028cf80efac11e96a95a000a4c267f6fec8fa292504848d5ad058937567"
+  },
+  "tagging_models": "MiniMax-M3"
 }
