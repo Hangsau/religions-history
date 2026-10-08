@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany",
+    "truthfulness"
+  ],
+  "keywords": [
+    "金剛手菩薩",
+    "金剛大乘",
+    "無生法忍",
+    "日清淨光明如來",
+    "精進授王",
+    "大菩提心",
+    "曼拏羅",
+    "灌頂",
+    "三摩地",
+    "廣嚴城",
+    "菴羅樹園",
+    "四無量心",
+    "大慈大悲大喜大捨",
+    "金剛阿闍梨",
+    "摩呬捺囉山"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "stillness-rest",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a4db30f9ef4ac14df2898243bebe06748240c55abd43f5899f0b68b6c4d5a02c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
