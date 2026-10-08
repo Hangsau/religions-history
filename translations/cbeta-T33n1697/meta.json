@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T33",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若波羅蜜",
+    "大慧度",
+    "實相",
+    "觀照",
+    "如來藏",
+    "金剛藏",
+    "正法藏",
+    "妙業藏",
+    "依他起性",
+    "遍計所執",
+    "瑜伽論",
+    "釋論",
+    "攝大乘論",
+    "寶性論",
+    "勝鬘經"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "359eb22de8aab8f187c93c5c012daa17f04316a2ee4a9838bac6f39307118adb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

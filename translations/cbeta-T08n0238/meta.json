@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "般若波羅蜜",
+    "菩薩摩訶薩",
+    "如來",
+    "善實",
+    "須菩提",
+    "施與",
+    "不住",
+    "相具足",
+    "我取",
+    "眾生想",
+    "福聚",
+    "佛法",
+    "涅槃",
+    "筏喻",
+    "正遍知"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "perfectionism-self-criticism",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cbd52920ef9a6a924bf0b8eb0e0eb305adee5d6c434e726c8b2a45aec1960afd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
