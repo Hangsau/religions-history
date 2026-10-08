@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "華嚴經",
+    "金師子章",
+    "杜順",
+    "智儼",
+    "法藏",
+    "清涼",
+    "澄觀",
+    "則天皇后",
+    "法界",
+    "緣起",
+    "三性",
+    "遍計性",
+    "依他性",
+    "圓成實性",
+    "十玄門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f90fd57d5f843efffb0f3b9c72ff8cd6f257bba22c4425dc1290010a35c0e8fb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
