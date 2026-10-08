@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T37",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "觀無量壽佛經",
+    "彌陀",
+    "極樂國土",
+    "十六觀",
+    "三種淨業",
+    "阿彌陀佛",
+    "韋提希",
+    "闍王",
+    "淨業",
+    "實相",
+    "法身",
+    "報身",
+    "應身",
+    "三觀",
+    "一心三觀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3c0274fbb1a097a6772ae6be7fa8da05cd200c09ebb2947b90d175a18c2a272d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
