@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "pilgrimage",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "華嚴經",
+    "吞海集",
+    "清涼法師",
+    "通公",
+    "義熙",
+    "棗柏長者",
+    "毗盧遮那",
+    "普賢",
+    "大威光菩薩",
+    "菩提場會",
+    "世界成就品",
+    "華藏世界",
+    "如來藏身三昧",
+    "圓教",
+    "頓教"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ad1b60407625e4e732db3606d6b7ae46676dd6fd66c7fca2a72221e314f095c2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
