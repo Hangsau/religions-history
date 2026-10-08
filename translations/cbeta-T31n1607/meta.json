@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "self-effort"
+  ],
+  "keywords": [
+    "奢摩他",
+    "毘鉢舍那",
+    "阿賴耶識",
+    "阿笈摩",
+    "阿賴耶",
+    "六門教授習定論",
+    "三摩地",
+    "尋伺",
+    "九住心",
+    "作意",
+    "止觀",
+    "資糧",
+    "解脫",
+    "出離",
+    "瑜伽"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3b6b63f31cfd3052dcb9c4ed3b88e3cafb911a3c3557d44166661b32d8cf3e7c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
