@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "multiple-canons",
+    "other-power",
+    "pilgrimage",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "千佛",
+    "星宿劫",
+    "南無",
+    "涅槃",
+    "三塗",
+    "五濁惡世",
+    "三毒",
+    "五陰",
+    "阿耨多羅三藐三菩提",
+    "六和敬",
+    "陀羅尼",
+    "阿僧祇劫",
+    "如來",
+    "法花經",
+    "佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4f78b4370a513c44172b366d4950799ec3cd49d94bad0e607c6835199bb197fd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
