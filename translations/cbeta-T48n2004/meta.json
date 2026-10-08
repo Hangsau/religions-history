@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "non-proselytizing",
+    "oral-tradition",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "從容庵錄",
+    "萬松老人",
+    "天童覺",
+    "湛然居士",
+    "拈花微笑",
+    "迦葉",
+    "世尊陞座",
+    "文殊白槌",
+    "曹洞正宗",
+    "阿賴耶識",
+    "頌古",
+    "評唱",
+    "達磨",
+    "廓然無聖",
+    "禪宗"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "communication-being-understood",
+    "courage"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3111356acd2ac55c8f69f30efaa57f121e11d8c8bf2e061b89b8b9bd84d916e5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "essentially-good",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "suffering-as-purifying",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality",
+    "universal-resurrection"
+  ],
+  "keywords": [
+    "二諦",
+    "世諦",
+    "第一義諦",
+    "中道",
+    "中論",
+    "涅槃經",
+    "淨名經",
+    "成論",
+    "毘曇",
+    "於諦",
+    "教諦",
+    "非有非無",
+    "空有",
+    "言教",
+    "境理"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bdd0fa2de12465f5395aa3718cfc414419d58f5c0d52ad04d15071c24d552fde"
+  },
+  "tagging_models": "MiniMax-M3"
 }
