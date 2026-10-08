@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "bardo",
+    "commentarial-layer",
+    "compassion",
+    "divine-transcendence",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "毘毘產",
+    "楞迦大城",
+    "摩羅耶頂",
+    "阿耨多羅三藐三菩提",
+    "比丘",
+    "菩薩",
+    "無我",
+    "空性",
+    "無明",
+    "優曇華",
+    "須達拏",
+    "波羅提木叉",
+    "三十二相",
+    "般若"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "03c1c7f079b04ddf1413291a7c162c938d61959efc0a401905f33b5b5981d1a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
