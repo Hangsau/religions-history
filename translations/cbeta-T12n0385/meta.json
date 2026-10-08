@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "bardo",
+    "chanting",
+    "compassion",
+    "cyclic-cosmos",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "theophany",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "中陰",
+    "如來",
+    "釋迦牟尼",
+    "彌勒菩薩",
+    "妙覺如來",
+    "五弘誓法",
+    "寶蓮華",
+    "舍利",
+    "娑呵世界",
+    "閻浮提",
+    "六反震動",
+    "八十四千億光",
+    "白毫相光",
+    "那由他",
+    "四部眾"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d08896732a0e6d14c56ff4acb66a34fc96d0b3768008aabdc57053b3b7e4e6f5"
+  },
+  "tagging_models": "MiniMax-M3"
 }
