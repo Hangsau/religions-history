@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "舍衛城",
+    "祇樹給孤獨園",
+    "最勝燈如來",
+    "娑婆世界",
+    "毘盧遮那",
+    "東方",
+    "無邊華世界",
+    "阿逸多菩薩",
+    "文殊師利",
+    "四大天王",
+    "鬼子母",
+    "梵天",
+    "帝釋",
+    "結界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f6420676e911a0b55c95c13549bb9e9569b65124af1c1599e277f08a3e5d281d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

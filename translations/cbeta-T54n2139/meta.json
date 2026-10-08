@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T54",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "老子",
+    "太上老君",
+    "化胡",
+    "尹喜",
+    "函谷關",
+    "道德經",
+    "悉達",
+    "佛陀",
+    "末摩尼",
+    "罽賓",
+    "涅槃",
+    "九十六種",
+    "鬚髮",
+    "五天竺",
+    "西昇"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4422d87c5bfd58a50b639ce613bd32dfe0d65f1e6851cb683345a04868f84663"
+  },
+  "tagging_models": "MiniMax-M3"
 }

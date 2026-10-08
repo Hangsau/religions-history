@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "如意寶珠",
+    "曼殊師利",
+    "觀自在",
+    "金剛手",
+    "虛空藏",
+    "地藏",
+    "無熱惱池",
+    "阿耨達池",
+    "大曼荼羅",
+    "陀羅尼",
+    "灌頂",
+    "護摩",
+    "悉地",
+    "祕密教",
+    "成佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0d41e8efa5e5dc75b877189781fe63d71dd20758f1d3a390b9f724905312104c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
