@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "study",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "宗乘",
+    "祖令",
+    "翠峯",
+    "靈隱",
+    "曹溪",
+    "雲門",
+    "公案",
+    "拄杖",
+    "衲僧",
+    "禪",
+    "機鋒",
+    "棒喝",
+    "上堂",
+    "實學",
+    "祖意"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "communication-being-understood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cf5f6f4564cf16ca4dede6374c709516f5f9ffad36a5408d8525fc37c8e23a9c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
