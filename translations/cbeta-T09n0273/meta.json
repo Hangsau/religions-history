@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T09",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "grace-from-god",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "revealed-text",
+    "self-effort",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "金剛三昧",
+    "如來藏",
+    "無生",
+    "空寂",
+    "一乘",
+    "六波羅蜜",
+    "解脫菩薩",
+    "王舍城",
+    "耆闍崛山",
+    "阿羅漢",
+    "舍利弗",
+    "須菩提",
+    "十二因緣",
+    "五法淨",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2e5996404b7b3b653d2b41fa93817f2cab1fb29ba379f6f07c3bfdb3659a9a18"
+  },
+  "tagging_models": "MiniMax-M3"
 }

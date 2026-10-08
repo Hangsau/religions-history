@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "theocracy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "黃龍慧南",
+    "同安崇勝禪院",
+    "慈明禪師",
+    "石霜",
+    "歸宗",
+    "藥山",
+    "石頭",
+    "雲門",
+    "南嶽讓和尚",
+    "迦葉",
+    "黃梅",
+    "禪河",
+    "法身",
+    "般若",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8a938687332d62ff15eb6edeca54b1e9f36aae52622b7d0570563102cf4f6cae"
+  },
+  "tagging_models": "MiniMax-M3"
 }

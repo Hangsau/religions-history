@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "revealed-text",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "楞嚴經",
+    "阿難",
+    "摩登伽",
+    "觀音",
+    "文殊",
+    "如來藏",
+    "三摩提",
+    "奢摩他",
+    "三摩禪那",
+    "耳根圓通",
+    "頂相",
+    "神呪",
+    "性淨明體",
+    "常住真心",
+    "截流"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c5be7dfe962d941793a335ab9b49f8e4807608300e596e16d7ab4ac25bd2a5b4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
