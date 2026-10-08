@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T40",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "congregational",
+    "lay-practitioner",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "study",
+    "truthfulness"
+  ],
+  "keywords": [
+    "羯磨",
+    "比丘",
+    "僧羯磨",
+    "結界",
+    "授戒",
+    "說戒",
+    "自恣",
+    "四分",
+    "曹魏",
+    "光律師",
+    "宣律師",
+    "菩提",
+    "涅槃",
+    "波離",
+    "飲光"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "communication-being-understood",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7c47b36e3f0af876baf871f858667ed36fa9e94525fdb92d9dbb45fb0fcccf9f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

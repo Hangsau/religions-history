@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "proselytizing",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "菩提樹",
+    "金剛道場",
+    "摩竭提國",
+    "金剛密迹首菩薩",
+    "觀世音菩薩",
+    "彌勒菩薩",
+    "五佛頂",
+    "三摩地",
+    "一字轉輪王",
+    "陀羅尼",
+    "大寶藏帳",
+    "殑伽沙",
+    "南無佛陀",
+    "佛眼呪"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9e4c67f37a284b0694e08a45e18a902f0c26c7896476e596c1e648d71b91e8b8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

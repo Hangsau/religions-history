@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "apocalypse",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "congregational",
+    "divine-kingship",
+    "emanation",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theocracy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "金剛菩薩",
+    "阿蜜哩多軍荼利",
+    "帝釋天",
+    "阿脩羅",
+    "跋折羅",
+    "陀羅尼",
+    "密教",
+    "義操",
+    "海雲",
+    "青龍寺",
+    "梵字",
+    "灌頂",
+    "三昧",
+    "薄伽畔",
+    "嗔怒金剛王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage",
+    "death",
+    "evil-cruelty-empathy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "14a9616dc08887c1f4a2a4dfa3d364edc0144847c48e82213e840cb4c05d79b0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
