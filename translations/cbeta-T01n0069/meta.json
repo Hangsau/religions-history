@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "reincarnation",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "護國",
+    "世尊",
+    "瞿曇",
+    "苾芻",
+    "出家",
+    "梵行",
+    "輪迴",
+    "伽陀",
+    "俱盧王",
+    "優婆塞",
+    "四法",
+    "老病愛死",
+    "貪愛",
+    "正等正覺",
+    "覩羅聚落"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "295421ae980ae13ac0680c39da98d04997ec3c5c389902b3bb84606832f9cb11"
+  },
+  "tagging_models": "MiniMax-M3"
 }
