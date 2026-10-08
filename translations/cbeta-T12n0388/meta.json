@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "大雲經",
+    "陀羅尼",
+    "阿耨多羅三藐三菩提",
+    "直道梵志",
+    "瞿曇",
+    "四顛倒",
+    "無生忍",
+    "師子吼",
+    "五逆罪",
+    "懺悔",
+    "文殊師利",
+    "無畏功德疾行菩薩",
+    "淨土",
+    "業障",
+    "正見"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "998de4b3ac0624cdba5e79fab00b9f419436f4d8f5f07052f282dcf4887d4add"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "suffering-as-purifying",
+    "vision-experience"
+  ],
+  "keywords": [
+    "釋迦文佛",
+    "摩納",
+    "俱夷",
+    "題惒竭羅佛",
+    "迦維羅衛國",
+    "悉達",
+    "阿夷",
+    "車匿",
+    "鞬德",
+    "文隣龍",
+    "忉利天",
+    "兜率天",
+    "四天王",
+    "六波羅蜜",
+    "阿術闍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6feccfd9d5d177f68efd1f6a4014008b5d0cc78eaa7961c5cccf84a1c89b7893"
+  },
+  "tagging_models": "MiniMax-M3"
 }
