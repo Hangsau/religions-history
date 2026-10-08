@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "vision-experience"
+  ],
+  "keywords": [
+    "毘盧遮那",
+    "真言",
+    "菩提心",
+    "三昧耶",
+    "金剛薩埵",
+    "五字嚴身",
+    "曼荼羅",
+    "加持",
+    "灌頂",
+    "懺悔",
+    "隨喜",
+    "迴向",
+    "地神",
+    "阿字",
+    "鑁字"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "840508624ba00308096654d974cacf022db926136a33dacad8187faa8f8332c6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
