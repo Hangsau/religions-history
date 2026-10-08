@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "那先",
+    "彌蘭",
+    "舍竭國",
+    "阿羅漢",
+    "須陀洹",
+    "沙門",
+    "袈裟",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "象王",
+    "四禪",
+    "布施",
+    "泥洹",
+    "九十六種道",
+    "婆羅門"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f724327ca92e87f12f50cd5dfccc36a4c46af5ba0b8a7bb999a131806b6f3d2a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
