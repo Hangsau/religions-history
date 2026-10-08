@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "真心",
+    "本性",
+    "祖師",
+    "華嚴",
+    "起信論",
+    "般若",
+    "涅槃",
+    "如來藏",
+    "圓覺",
+    "菩提",
+    "法身",
+    "真如",
+    "佛性",
+    "正信",
+    "妙體"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0651d5e8503a8c178e7894a7dd58d3d9a31a50128db07778cb377670e8d52aed"
+  },
+  "tagging_models": "MiniMax-M3"
 }

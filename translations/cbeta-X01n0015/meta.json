@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "cyclic-cosmos",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "multiple-souls",
+    "non-dual",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "淨度三昧經",
+    "羅閱祇",
+    "神鳥山",
+    "六欲",
+    "三塗",
+    "五道",
+    "十八地獄",
+    "十善",
+    "五戒",
+    "般若波羅蜜",
+    "空",
+    "本無",
+    "泥洹",
+    "舍利弗",
+    "文殊師利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7f6c38a5f14124e9274151a5ae6e5f24cf1f419ca63646305dff5b92f0c082a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
