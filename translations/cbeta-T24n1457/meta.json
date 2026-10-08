@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice",
+    "sexual-ethics",
+    "theodicy"
+  ],
+  "keywords": [
+    "毘奈耶",
+    "苾芻",
+    "苾芻尼",
+    "喬答彌",
+    "目連",
+    "舍利",
+    "羯磨",
+    "捨墮",
+    "三衣",
+    "波離",
+    "四依",
+    "八敬法",
+    "涅槃",
+    "結集",
+    "義淨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "death",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d6615032c09c5052f4999f547521cacc383e2da1bfb69f83c8ce0b32bc551872"
+  },
+  "tagging_models": "MiniMax-M3"
 }

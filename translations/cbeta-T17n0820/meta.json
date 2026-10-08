@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "lay-practitioner",
+    "liberation-by-works",
+    "meditation",
+    "monastic"
+  ],
+  "keywords": [
+    "佛",
+    "給孤獨",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "菩薩",
+    "三乘",
+    "聲聞",
+    "緣覺",
+    "大乘",
+    "六度無極",
+    "四等",
+    "四恩",
+    "布施",
+    "持戒",
+    "忍辱"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6cb7d6424ddd4bc3a4c57ade3f7f2bf3e656d008134edef4a454af98b5a738b4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
