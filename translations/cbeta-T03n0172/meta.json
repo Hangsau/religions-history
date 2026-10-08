@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "栴檀摩提",
+    "乾陀摩提",
+    "菩薩投身餓虎",
+    "布施波羅蜜",
+    "捨身",
+    "無生法忍",
+    "捨利塔",
+    "彌勒菩薩",
+    "閱頭檀",
+    "摩耶夫人",
+    "裴提舍",
+    "婆羅門",
+    "鹿皮衣",
+    "九劫",
+    "摩訶薩埵"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "giving-generosity",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6450b777c637969da5dae280005e5a9b642b7e402c45342103914fb2d5ec6bcb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
