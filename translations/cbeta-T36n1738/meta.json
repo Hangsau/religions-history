@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T36",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "creation-ex-nihilo",
+    "emanation",
+    "enlightenment",
+    "heaven-hell",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "sacred-language",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "華嚴經",
+    "七處九會",
+    "清涼觀",
+    "實叉難陀",
+    "菩提樹",
+    "給孤獨園",
+    "忉利天",
+    "夜摩天",
+    "兜率天",
+    "他化自在天",
+    "龍樹",
+    "盧舍那佛",
+    "普賢",
+    "如來出現品",
+    "佛授記寺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "49b8816bcaef9da10807a44fa0d062c0f1693eae370fd078f0f440fed5980499"
+  },
+  "tagging_models": "MiniMax-M3"
 }
