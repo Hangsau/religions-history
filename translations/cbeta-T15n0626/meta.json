@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-kingship",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "forgiveness",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "prophetic-revelation",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "菩薩",
+    "文殊師利",
+    "僧那僧涅",
+    "薩芸若",
+    "摩訶衍",
+    "六度",
+    "空",
+    "三昧",
+    "總持",
+    "極慧",
+    "五道生死",
+    "魔",
+    "佛智慧",
+    "無極",
+    "忍辱"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "97f30c9cb3577819ef212939347f19489265adace927bb198b8f30edf84e7779"
+  },
+  "tagging_models": "MiniMax-M3"
 }

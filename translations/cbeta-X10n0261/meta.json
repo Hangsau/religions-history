@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "圓覺",
+    "無明",
+    "顛倒",
+    "四大",
+    "六塵",
+    "陀羅尼",
+    "波羅蜜",
+    "涅槃",
+    "菩提",
+    "真如",
+    "清淨覺相",
+    "文殊師利",
+    "三昧",
+    "神通大光明藏",
+    "眾生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1b1ddd0080aa857a25e4f53cf8aaa3b2348ed7bd0498548f55019f591db2fddb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

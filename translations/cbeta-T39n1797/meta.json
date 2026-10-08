@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T39",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "theophany",
+    "truthfulness"
+  ],
+  "keywords": [
+    "毘盧遮那",
+    "善無畏三藏",
+    "真言",
+    "阿闍梨",
+    "灌頂",
+    "三昧耶",
+    "金粟王塔",
+    "文殊師利",
+    "乾陀羅",
+    "大日經",
+    "供養次第",
+    "菩提心",
+    "忍辱",
+    "五欲",
+    "曼荼羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2497f9e9bfa543ebf1a31887f2f609a5ca5dbc21ad37813e7784b8070876f8a5"
+  },
+  "tagging_models": "MiniMax-M3"
 }
