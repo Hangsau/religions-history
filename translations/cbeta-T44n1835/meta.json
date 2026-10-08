@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T44",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "辯中邊論",
+    "世親",
+    "無著",
+    "彌勒",
+    "慈氏",
+    "三性",
+    "虛妄分別",
+    "圓成實",
+    "依他起",
+    "遍計所執",
+    "真如",
+    "空性",
+    "中道",
+    "無上乘",
+    "善逝"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "existence-why-born",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "52f10f068c501cf6950b86edc00370e7a2f9ab6c8eda7b49a68915495523fe98"
+  },
+  "tagging_models": "MiniMax-M3"
 }
