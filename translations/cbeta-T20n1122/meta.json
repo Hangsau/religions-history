@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "金剛界",
+    "普賢",
+    "阿閦鞞",
+    "寶生",
+    "阿彌陀",
+    "不空王",
+    "觀自在",
+    "毘首羯磨",
+    "三昧耶",
+    "真言",
+    "灌頂",
+    "本尊",
+    "蓮華",
+    "金剛拳",
+    "閼伽"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "guilt-atonement",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e82b34dc76d46a41de4b32de217bb424c46d4eb9f535db85643953f139e3814f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

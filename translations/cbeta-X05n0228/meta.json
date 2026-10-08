@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X05",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "華嚴經",
+    "普賢行願品",
+    "宗密",
+    "一真法界",
+    "理事無礙",
+    "事事無礙",
+    "善財",
+    "普賢",
+    "回向",
+    "十願",
+    "禮敬諸佛",
+    "稱讚如來",
+    "懺除業障",
+    "隨喜功德",
+    "請轉法輪"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "49e1ef3004f0121acef9cd1fab3cc5ae3300ef3cbe34c4832c16c825315b3728"
+  },
+  "tagging_models": "MiniMax-M3"
 }
