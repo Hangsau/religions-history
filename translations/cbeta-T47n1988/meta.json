@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "theocracy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "雲門",
+    "禪師",
+    "對機",
+    "教外別傳",
+    "正法眼",
+    "三昧",
+    "一句",
+    "衲僧",
+    "宗師",
+    "鉗鎚",
+    "西來意",
+    "本來心",
+    "祖師",
+    "三乘十二分教",
+    "觸目菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "death",
+    "honesty-hypocrisy",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3ce00cf18fa057046e62f0c767da2b7978a4e61604816649e027a66c2b98579c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

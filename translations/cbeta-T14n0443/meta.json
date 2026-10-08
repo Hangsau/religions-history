@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-transcendence",
+    "enlightenment",
+    "forgiveness",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "阿逸多菩薩",
+    "彌勒菩薩",
+    "虛空功德清淨微塵等目端正功德相光明華波頭摩琉璃光寶體香最上香供養訖種種莊嚴頂髻無量無邊日月光明願力莊嚴變化莊嚴法界出生無障礙王如來",
+    "四波羅夷",
+    "滅罪",
+    "解脫主世界",
+    "王舍大城耆闍崛山",
+    "毘盧遮那",
+    "十方諸佛",
+    "懺悔",
+    "陀羅尼",
+    "三昧",
+    "南無",
+    "佛名號",
+    "如來"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "29e78b404c5a4c14d0c9373c3f76545268ffc22282af6e4abd4dcebea6c76234"
+  },
+  "tagging_models": "MiniMax-M3"
 }
