@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T37",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "divine-transcendence",
+    "emptiness",
+    "enlightenment",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "non-dual",
+    "other-power",
+    "salvation-by-faith",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "無量壽經",
+    "阿彌陀",
+    "淨土",
+    "安養",
+    "娑婆",
+    "彌陀",
+    "牟尼世尊",
+    "正定聚",
+    "他受用土",
+    "自受用土",
+    "菩薩藏",
+    "因果",
+    "願行",
+    "往生",
+    "三輩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e2a064008f95251be47cc219afbccf5acc4d1e48639a31e041dab6dec33f4641"
+  },
+  "tagging_models": "MiniMax-M3"
 }
