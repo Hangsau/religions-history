@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "五字陀羅尼頌",
+    "曼殊童子",
+    "金剛薩埵",
+    "阿字",
+    "三昧耶",
+    "百字真言",
+    "灌頂",
+    "金剛劍",
+    "真言",
+    "陀羅尼",
+    "瑜伽",
+    "祕密法",
+    "淨信",
+    "勇進",
+    "內外供養"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ddf10e5177dd94ee5633100a55da098b478ca572ccc5d8f68b8801c049767d9f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

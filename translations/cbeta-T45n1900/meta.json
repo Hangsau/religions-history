@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-transcendence",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "袈裟",
+    "僧伽梨",
+    "欝多羅僧",
+    "安陀會",
+    "鉢多羅",
+    "尼師壇",
+    "漉水囊",
+    "僧祇支",
+    "割截衣",
+    "三衣六物",
+    "佛制",
+    "比丘",
+    "沙門",
+    "邪命",
+    "十誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "65abf02d3121113df4d6dc9c532ac20fd1def4b5696c799c430a468fba8c419c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
