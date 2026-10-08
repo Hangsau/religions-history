@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "准提陀羅尼",
+    "七俱胝",
+    "准提佛母",
+    "菩提心戒",
+    "曼荼羅",
+    "護摩",
+    "息灾法",
+    "增益法",
+    "敬愛法",
+    "降伏法",
+    "閼伽",
+    "念珠",
+    "根本印",
+    "觀想",
+    "念誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "44a0efbb6ca9b6b8918e401b3e3190bd29fe32340c03300e784d705f9f3d6d0c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

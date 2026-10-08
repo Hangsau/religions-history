@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "pilgrimage",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+  ],
+  "keywords": [
+    "天台山",
+    "桐柏觀",
+    "方瀛觀",
+    "白雲先生",
+    "司馬承禎",
+    "王義之",
+    "赤城山",
+    "華頂峯",
+    "國清寺",
+    "智顗",
+    "石橋",
+    "金庭洞天",
+    "福地",
+    "仙人",
+    "劉阮採藥"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a7fbfd9480967ea41f628056301a74335793ae37f799d65d0abfb22f291b51c9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

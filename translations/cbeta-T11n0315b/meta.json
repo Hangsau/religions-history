@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T11",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "普門品",
+    "離垢藏菩薩",
+    "溥首童真",
+    "三昧",
+    "等意分別",
+    "貪婬",
+    "瞋恚",
+    "愚癡",
+    "菩薩",
+    "靈鷲山",
+    "忍界",
+    "泥洹",
+    "波旬",
+    "八萬四千法藏",
+    "不起法忍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "647d065b90790814bda48c8445b8d57024460597da474c5f13928a4e3ea2123b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
