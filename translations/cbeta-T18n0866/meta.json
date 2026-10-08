@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-souls",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "vision-experience"
+  ],
+  "keywords": [
+    "金剛頂",
+    "瑜伽",
+    "三摩耶",
+    "灌頂",
+    "阿闍梨",
+    "金剛薩埵",
+    "阿閦鞞",
+    "阿彌陀",
+    "虛空藏",
+    "觀音",
+    "毘首羯磨",
+    "五部",
+    "密語",
+    "護摩",
+    "菩提心"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7b56a6d9f8bfa02bbb8b4a38b23978aa0ca22d0a7a0ea847c8c0cb6d4f54dd04"
+  },
+  "tagging_models": "MiniMax-M3"
 }
