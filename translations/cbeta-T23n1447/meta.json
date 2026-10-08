@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T23",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "congregational",
+    "essentially-flawed",
+    "four-noble-truths",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "sexual-ethics",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "室羅筏城",
+    "逝多林給孤獨園",
+    "力軍",
+    "聞俱胝耳",
+    "餓鬼",
+    "入海採寶",
+    "大自在天",
+    "毘沙門天",
+    "帝釋",
+    "梵王",
+    "薩埵",
+    "馱索迦",
+    "波洛迦",
+    "婆羅仙"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6921a7409c2ffc551f11d5a859fe51c3516c2889f2052f8cb96e231a523a9b75"
+  },
+  "tagging_models": "MiniMax-M3"
 }

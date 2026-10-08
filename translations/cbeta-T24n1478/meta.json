@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "dietary-restrictions",
+    "extinction-of-self",
+    "feminine-divine",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "other-power",
+    "patriarchal",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "theocracy"
+  ],
+  "keywords": [
+    "大愛道",
+    "裘曇彌",
+    "八敬法",
+    "沙彌尼",
+    "阿難",
+    "迦維羅衛",
+    "釋氏精廬",
+    "比丘尼",
+    "十戒",
+    "泥洹",
+    "沙門四道",
+    "梵行",
+    "那和縣",
+    "具足戒",
+    "婬"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5ef3fb5350628d64d4f2752a57eaa9ec91346c231dc380450596c555c893df99"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "lay-practitioner",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theocracy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "戒壇",
+    "比丘",
+    "羯磨",
+    "受戒",
+    "祇樹園",
+    "大迦葉",
+    "阿難",
+    "結集",
+    "舍利",
+    "波旬",
+    "梵天王",
+    "帝釋",
+    "菩薩",
+    "乾封二年",
+    "釋迦蜜多羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d277765e319376472ed2b921674192a598662ba0cfc229508c6e26898629439f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

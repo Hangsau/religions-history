@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "摩訶般若波羅蜜",
+    "金剛經",
+    "惠能",
+    "弘忍",
+    "神秀",
+    "獵獠",
+    "菩提",
+    "佛性",
+    "頓教",
+    "無念",
+    "無相",
+    "定惠",
+    "一行三昧",
+    "衣法",
+    "黃梅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bdca5b35f25d211b35cb9bf875b3230eb5deb6dfc7e2785ba180e37e5004b1ca"
+  },
+  "tagging_models": "MiniMax-M3"
 }
