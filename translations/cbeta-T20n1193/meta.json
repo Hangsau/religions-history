@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "八大願",
+    "金剛手",
+    "吽字",
+    "月輪",
+    "灌頂",
+    "真言",
+    "陀羅尼",
+    "五佛",
+    "波羅蜜",
+    "明王",
+    "阿闍黎",
+    "悉地",
+    "三業清淨",
+    "金剛杵",
+    "蓮華印"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ad1479f714295bce7ac5402795a97150807495b7f9b404bf5fa4a44d180b27ec"
+  },
+  "tagging_models": "MiniMax-M3"
 }
