@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "龍王",
+    "難陀",
+    "優波難陀",
+    "菩薩",
+    "摩訶薩",
+    "普賢行",
+    "摩尼寶",
+    "華香",
+    "供養",
+    "如來",
+    "阿僧祇",
+    "大雲經",
+    "雲輪輦",
+    "大慈",
+    "陀羅尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "daf47c738a3f87313887b82f8bbff3532b7c0ad868edc5836c325aa9e0155f71"
+  },
+  "tagging_models": "MiniMax-M3"
 }
