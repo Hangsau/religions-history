@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "divine-kingship",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theocracy"
+  ],
+  "keywords": [
+    "不動明王",
+    "毘盧遮那",
+    "金剛智",
+    "五字心真言",
+    "戶摩",
+    "八方天王",
+    "帝釋天",
+    "焰摩羅天",
+    "毘沙門",
+    "伊舍那",
+    "曼拏羅",
+    "鑌鐵橛",
+    "安鎮家國",
+    "菩提心",
+    "息災法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "insignificance-history",
+    "justice-power",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9f06c285da33b298b94f261fd9a6a166cf2ae379d599b1423fd14f4274b42c4b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
