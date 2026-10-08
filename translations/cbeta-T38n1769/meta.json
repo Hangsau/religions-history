@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T38",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "涅槃",
+    "大般涅槃經",
+    "滅度",
+    "佛性",
+    "如來藏",
+    "摩訶般涅槃那",
+    "德王品",
+    "菩薩品",
+    "聖行品",
+    "如來性品",
+    "二夜經",
+    "攝論",
+    "智度論",
+    "六種瓔珞",
+    "二諦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d9fb384d7fa83cecd7439f6d28b037275ba87db48ce05216625c53935da8a881"
+  },
+  "tagging_models": "MiniMax-M3"
 }
