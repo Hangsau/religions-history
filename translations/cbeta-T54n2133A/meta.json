@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T54",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "ritual-practice",
+    "sacred-language",
+    "vernacular-translation"
+  ],
+  "keywords": [
+    "梵語千字文",
+    "義淨",
+    "梵唐千字文",
+    "勝義天",
+    "Paramārtha-deva",
+    "悉曇",
+    "毘耶離",
+    "阿育王柱",
+    "鹿苑",
+    "給園",
+    "劫比羅",
+    "南海傳",
+    "袈裟",
+    "鉢",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b22286b6ad38efeb7166a6865687998f745e6cf09cf379d06e10d60db243ba66"
+  },
+  "tagging_models": "MiniMax-M3"
 }
