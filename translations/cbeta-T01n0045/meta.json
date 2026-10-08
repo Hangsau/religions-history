@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "大正句王",
+    "童子迦葉",
+    "尸利沙",
+    "鹿野園",
+    "斷見",
+    "後世",
+    "化生",
+    "天眼",
+    "三寶",
+    "五戒",
+    "近事戒",
+    "因果",
+    "婆羅門",
+    "忉利天",
+    "地獄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b61f73dc941b400c8adeba41495d077c6bb927650c62bbd9506d24885114c332"
+  },
+  "tagging_models": "MiniMax-M3"
 }

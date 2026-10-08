@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "帝釋天主",
+    "五髻乾闥婆王子",
+    "摩伽陀國",
+    "毘提呬山帝釋巖",
+    "密行天子",
+    "日光女",
+    "八正道",
+    "別解脫法",
+    "虛妄",
+    "憎愛",
+    "疑惑",
+    "怨親",
+    "聲聞",
+    "梵行",
+    "涅槃"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6d680fb6e27c0896d9801f276f2377d69587dded33e7dcf59a78ed5d63c39fc6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
