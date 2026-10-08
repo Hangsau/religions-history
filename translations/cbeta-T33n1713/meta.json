@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T33",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "般若",
+    "實相",
+    "真源",
+    "妙覺",
+    "真如",
+    "二諦",
+    "中道",
+    "真空",
+    "緣生",
+    "依他起",
+    "觀照般若",
+    "清涼",
+    "圭山",
+    "法藏",
+    "圓頓"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "95a83f9701e3ac69bc3f210be8f1795d96bef38f689825547d2f78a2bbb124d8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
