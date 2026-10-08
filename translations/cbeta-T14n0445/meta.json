@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "multiple-canons",
+    "mystical-union",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "如來",
+    "諸佛",
+    "佛土",
+    "世界",
+    "東方",
+    "娑婆",
+    "藥師",
+    "阿閦",
+    "普賢",
+    "觀世音",
+    "釋迦牟尼",
+    "功德",
+    "護念",
+    "不思議功德諸佛所護念經",
+    "不思議功德"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "memory-reconciliation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3cf1a94bd5641bd43110dadb0b81204a78bcb42a1b85f5a5c86db935a62e8f2a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

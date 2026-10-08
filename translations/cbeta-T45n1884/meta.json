@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "法界",
+    "華嚴",
+    "杜順",
+    "圭山",
+    "真空觀",
+    "理事無礙",
+    "周遍含容",
+    "清涼",
+    "如來",
+    "眾生",
+    "妄想執著",
+    "觀門",
+    "禪師",
+    "真空",
+    "空觀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8dc57912bf8d50d55b5113686a9ce65c745f79892c0554529dd9eb29263c28f0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
