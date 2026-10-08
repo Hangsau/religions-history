@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "humility",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "般若波羅蜜",
+    "菩薩",
+    "六度無極",
+    "摩訶衍",
+    "聲聞",
+    "緣覺",
+    "薩芸若",
+    "泥洹",
+    "四恩",
+    "三十二法",
+    "耆闍崛山",
+    "王舍城",
+    "大迦葉",
+    "佛智慧",
+    "中道"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "11661679f4e09598f1876d331e4de0f94e5b22b2c6c78c4963147f696281ea51"
+  },
+  "tagging_models": "MiniMax-M3"
 }
