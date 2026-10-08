@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "pilgrimage",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "study",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "華嚴經",
+    "善財童子",
+    "善知識",
+    "波若",
+    "陀羅尼",
+    "菩薩",
+    "十行",
+    "三昧",
+    "法門",
+    "淨土",
+    "童女彌多羅尼",
+    "普眼妙香",
+    "觀世音",
+    "普賢",
+    "十地"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "097ca776ae3ba95501b28bd8207e5e95f90f79384df701b83c0abd3b25a776cb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
