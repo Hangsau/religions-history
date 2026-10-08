@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "阿難陀目佉尼呵離陀經",
+    "陀隣尼",
+    "陀隣尼目佉",
+    "舍利弗",
+    "八品字",
+    "寶具足有德行王如來",
+    "阿彌陀佛",
+    "提惒竭佛",
+    "無念名聞具足",
+    "摩訶衍",
+    "阿惟越致",
+    "無所從生法忍",
+    "一生補處",
+    "般泥洹",
+    "交路精舍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "281de82cd459f3bd4484f332661573457d937e4415aa1c243e0c3ebf579830f4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
