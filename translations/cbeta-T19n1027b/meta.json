@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "against-idolatry",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theophany"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "具壽慶喜",
+    "阿難",
+    "陀羅尼",
+    "真言",
+    "曼拏羅",
+    "楊枝",
+    "護摩",
+    "婆修吉龍王",
+    "止雨",
+    "止風",
+    "毒龍",
+    "那伽質多",
+    "苗稼華果子實",
+    "贍部洲"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history",
+    "nature-animals-ecology",
+    "work-money"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "44c907a333cd929ce50a5ac93097f1086f6a5007379563ccdfcbf5f7f4fa947e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

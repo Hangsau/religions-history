@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+  ],
+  "keywords": [
+    "明王",
+    "菩提心",
+    "普賢",
+    "金剛",
+    "蓮華部",
+    "三昧耶",
+    "真言",
+    "曼荼羅",
+    "閼伽",
+    "五輪投地",
+    "懺悔",
+    "本尊",
+    "加持",
+    "部主",
+    "部主契"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e54b782c6517116dba6964b68c65b1072109cdb8a201562808923e99e4bfa913"
+  },
+  "tagging_models": "MiniMax-M3"
 }
