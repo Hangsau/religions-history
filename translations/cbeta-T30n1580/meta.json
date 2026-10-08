@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-souls",
+    "other-power",
+    "self-effort"
+  ],
+  "keywords": [
+    "瑜伽師地論",
+    "無著",
+    "彌勒",
+    "大慈氏",
+    "龍猛",
+    "提婆",
+    "菩薩",
+    "唯識",
+    "真如",
+    "般若波羅蜜多",
+    "奢摩他",
+    "毘鉢舍那",
+    "三摩地",
+    "四道理",
+    "三無性"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f2f6aef82c82fa50e125a47b9857001355ff55838f8a634b497d0b2da291f7cd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
