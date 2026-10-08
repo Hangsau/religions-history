@@ -2,17 +2,17 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-08 14:30:46 +0800
+- 更新時間：2026-10-08 14:51:19 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**1560 / 2382** 已完成雙標籤
+- 進度：**1561 / 2382** 已完成雙標籤
 - 本輪任務：雙標籤
 - 目前處理：`(等待供應商恢復)`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
 - 已阻塞待人工處理：49 部 — cbeta-T19n1021, cbeta-T55n2168B, cbeta-T18n0858, cbeta-T55n2174B, cbeta-T17n0806, cbeta-T21n1213, cbeta-X02n0184, cbeta-T32n1677, cbeta-T55n2171, cbeta-T20n1196
-- M3 執行狀態：**waiting_provider** — `cbeta-T14n0565` (tag chunk 5/6)
-- 限制偵測：2026-10-08T14:30:45.273425+08:00；下次重試：2026-10-08T14:35:45.273425+08:00
-- 最後錯誤：`http 529: {"type":"error","error":{"type":"overloaded_error","message":"overloaded_error (529)"},"request_id":"07166b945742128080a895b6587e2285"}`
+- M3 執行狀態：**waiting_provider** — `cbeta-T08n0234` (tag chunk 4/6)
+- 限制偵測：2026-10-08T14:51:18.216049+08:00；下次重試：2026-10-08T14:56:18.216049+08:00
+- 最後錯誤：`http 529: {"type":"error","error":{"type":"overloaded_error","message":"overloaded_error (529)"},"request_id":"07167065a98f74896850714386f65c67"}`
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。
