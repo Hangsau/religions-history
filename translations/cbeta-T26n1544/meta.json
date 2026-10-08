@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "non-violence",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "世第一法",
+    "正性離生",
+    "頂",
+    "煖",
+    "頂墮",
+    "薩迦耶見",
+    "心心所法",
+    "三摩地",
+    "靜慮",
+    "尋伺",
+    "苦法智忍",
+    "聖諦現觀",
+    "毘奈耶",
+    "補特伽羅",
+    "等無間緣"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3b00dcbd0c409c82eb42b17050a19d346be516510573ebff0dc4bd6e9fc7e9e9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
