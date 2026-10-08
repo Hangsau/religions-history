@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T32",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "如來",
+    "牟尼",
+    "菩提",
+    "涅槃",
+    "大悲",
+    "三業",
+    "三善根",
+    "三乘",
+    "金剛定",
+    "法輪",
+    "佛性",
+    "調御師",
+    "尸羅",
+    "一闡提",
+    "盲龜遇楂穴"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "91f13cae249005506d86dd9a47f99c5d17d6be89290d35ce49c47357165cab1b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
