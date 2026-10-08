@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "寶授菩薩",
+    "菩提行",
+    "廣嚴城",
+    "無生法忍",
+    "妙吉祥菩薩",
+    "大目乾連",
+    "舍利弗",
+    "燃燈佛",
+    "阿耨多羅三藐三菩提",
+    "無相",
+    "空三摩地",
+    "中道",
+    "波羅蜜",
+    "不退轉地",
+    "十地"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b5b668d2b9a1fe348b0d01d9aa993ef99a17a035565318057a1af9adbc008ffb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

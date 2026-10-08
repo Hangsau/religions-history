@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "reincarnation",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "首迦長者",
+    "業報差別",
+    "十善業",
+    "十不善業",
+    "忉提耶子",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "地獄",
+    "餓鬼",
+    "畜生",
+    "阿修羅",
+    "涅槃",
+    "提婆達多",
+    "阿闍世王",
+    "十種功德"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9ac715438677ac2fe958bb3858e2912c11b15c6d531938fdbe0fe16e1596f3a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
