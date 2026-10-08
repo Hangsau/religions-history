@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T28",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "阿毘達磨",
+    "對法",
+    "八句義",
+    "色",
+    "受",
+    "想",
+    "行",
+    "識",
+    "大種",
+    "無表色",
+    "律儀",
+    "不律儀",
+    "別解脫",
+    "靜慮",
+    "牟尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "death",
+    "emotions-passions",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "874db6d2edc73db4730ab3dcb02a9b146e0a1302fc28a8934caa8c7a664a3979"
+  },
+  "tagging_models": "MiniMax-M3"
 }
