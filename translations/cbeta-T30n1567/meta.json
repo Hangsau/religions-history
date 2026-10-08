@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "reincarnation",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "中論",
+    "緣生",
+    "不自生",
+    "不他生",
+    "不共生",
+    "不無因生",
+    "勝義諦",
+    "世俗諦",
+    "無生",
+    "戲論",
+    "自性",
+    "空",
+    "歸命",
+    "菩薩",
+    "佛"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3696b2f12fc5a72cb42d121d40dc5c3ca58c055d0111ddb15b7adb9015d3c87e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

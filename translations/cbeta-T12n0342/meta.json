@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "syncretic",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "釋迦文",
+    "文殊師利",
+    "靈鷲山",
+    "王舍城",
+    "忍界",
+    "菩薩",
+    "三昧",
+    "離垢光嚴淨",
+    "空無心離心",
+    "大乘",
+    "聲聞",
+    "緣覺",
+    "五濁",
+    "八正士",
+    "阿須倫"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bebcee959ff9c0175d6407d2e0a3fef41dae0543d0439fb2c6f62872577da0e7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
