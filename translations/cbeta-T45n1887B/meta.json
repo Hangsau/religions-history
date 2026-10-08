@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "一乘法界圖",
+    "法界",
+    "普賢",
+    "海印",
+    "華嚴",
+    "五重海印",
+    "止觀",
+    "六相",
+    "十普",
+    "圓信",
+    "證分",
+    "教分",
+    "妄想",
+    "無名真源",
+    "法界身"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "14782406b20a40ff6501b9087ad49ff402ac7e5e237651dfd326262708e7db4a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
