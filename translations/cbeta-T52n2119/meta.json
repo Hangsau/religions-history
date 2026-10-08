@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T52",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "caesaropapism",
+    "compassion",
+    "divine-kingship",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+  ],
+  "keywords": [
+    "玄奘",
+    "太宗",
+    "西域記",
+    "梵本",
+    "舍利",
+    "翻譯",
+    "大菩薩藏經",
+    "弘福寺",
+    "聖教序",
+    "勅書",
+    "袈裟",
+    "三藏",
+    "述聖記",
+    "貞觀",
+    "皇帝"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d86ccddab2dcd64471844802a7f075abf7111aa1ea9858a5192afdcb618296c4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
