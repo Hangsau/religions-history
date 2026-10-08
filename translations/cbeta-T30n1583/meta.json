@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience"
+  ],
+  "keywords": [
+    "菩薩戒",
+    "優婆塞戒",
+    "沙彌戒",
+    "比丘戒",
+    "波羅提木叉",
+    "羯磨",
+    "菩提心",
+    "十方佛",
+    "阿耨多羅三藐三菩提",
+    "六波羅蜜",
+    "四沙門果",
+    "旃陀羅",
+    "菩薩摩夷",
+    "尸波羅蜜"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "guilt-atonement",
+    "responsibility-leadership",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5820b92f8d8875547cbb4f4ed00c92e469e83ea4ec84728a47ba86ce1204933b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

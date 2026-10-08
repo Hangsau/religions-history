@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "truthfulness"
+  ],
+  "keywords": [
+    "金剛場陀羅尼",
+    "文殊師利",
+    "彌勒菩薩",
+    "觀自在菩薩",
+    "一切法平等",
+    "無二法門",
+    "無生法忍",
+    "無明",
+    "菩提",
+    "涅槃",
+    "地獄",
+    "夢",
+    "虛空",
+    "三昧"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b7ffd83d0629546b3b7dbb96680cc0e3bfe111b3d3ee360a1b9873fcb6793f0b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

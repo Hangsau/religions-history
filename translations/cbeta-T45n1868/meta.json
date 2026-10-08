@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "華嚴",
+    "一乘",
+    "十玄門",
+    "法界緣起",
+    "普賢",
+    "文殊",
+    "因陀羅網",
+    "同時具足相應",
+    "微細相容安立",
+    "諸法相即自在",
+    "唯心迴轉",
+    "託事顯法",
+    "海印三昧",
+    "一即一切",
+    "賢首"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "efd56dda43e9c39f4b9b91731afbbf2de057d952f722360e20f8f12ab625fe5e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
