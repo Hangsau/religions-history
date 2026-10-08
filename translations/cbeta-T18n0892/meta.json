@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "金剛薩埵",
+    "空智",
+    "大悲",
+    "金剛藏菩薩",
+    "三昧耶",
+    "勝慧",
+    "曼荼羅",
+    "真言",
+    "三十二種血脈",
+    "阿難陀龍王",
+    "持明",
+    "金剛乘",
+    "唵阿吽發吒",
+    "拏吉尼",
+    "佛眼母菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "106b852863c78071f9b8d70f0eb212b5fcc5c3a1da119efb9e761e6e42cff974"
+  },
+  "tagging_models": "MiniMax-M3"
 }

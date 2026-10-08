@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "syncretic",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "毘盧遮那如來",
+    "金剛薩埵",
+    "金剛藏菩薩",
+    "金剛天女",
+    "釋提桓因",
+    "三十三天",
+    "妙高山頂",
+    "摩訶瑜伽",
+    "祕密真言",
+    "陀羅尼",
+    "菩提心",
+    "無生法忍",
+    "十地",
+    "普賢菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6c1f1723710de0a8ff5e5d0a494c2f065594a68e842ca8b99d29a69c8ce309fe"
+  },
+  "tagging_models": "MiniMax-M3"
 }
