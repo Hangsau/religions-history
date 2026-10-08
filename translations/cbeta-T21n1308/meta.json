@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "七曜",
+    "攘災",
+    "二十八宿",
+    "日宮",
+    "月宮",
+    "歲星",
+    "熒惑",
+    "鎮星",
+    "太白",
+    "辰星",
+    "陀羅尼",
+    "真言",
+    "婆羅門",
+    "金俱吒",
+    "災蝕"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c9928e2bb4384f5eedb5af59deae80a376a0809e6f9df56ec151013d5940a2b6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "against-idolatry",
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "human-as-microcosm",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "polytheist",
+    "ritual-practice",
+    "self-effort",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "正法眼藏",
+    "涅槃妙心",
+    "拈花微笑",
+    "摩訶迦葉",
+    "大梵天王",
+    "觀世音菩薩",
+    "靈鷲山",
+    "末法",
+    "五濁惡世",
+    "教外別傳",
+    "實相無相",
+    "蓮華",
+    "正覺",
+    "凡夫成佛",
+    "心性"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eb0ed793b1bb3587c718597f77fca88a97af048e3f30e60d61a9d7682d6183e1"
+  },
+  "tagging_models": "MiniMax-M3"
 }
