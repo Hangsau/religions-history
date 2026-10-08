@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "波羅提木叉",
+    "涅槃",
+    "釋迦牟尼佛",
+    "阿若憍陳如",
+    "須跋陀羅",
+    "娑羅雙樹",
+    "持戒",
+    "比丘",
+    "摩訶衍",
+    "清淨戒",
+    "禪定",
+    "滅苦智慧",
+    "佛經",
+    "遺教經",
+    "五根"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3851e8f6c94f65d7acf02dab32bf48d64552a89302a49b1008da32aee8b3a93c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
