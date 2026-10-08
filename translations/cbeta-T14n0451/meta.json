@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "grace-from-god",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "multiple-canons",
+    "other-power",
+    "pilgrimage",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "suffering-as-purifying",
+    "syncretic"
+  ],
+  "keywords": [
+    "藥師琉璃光",
+    "善名稱吉祥王如來",
+    "寶月智嚴光音自在王如來",
+    "金色寶光妙行成就如來",
+    "曼殊室利",
+    "廣嚴城",
+    "樂音樹",
+    "殑伽河沙",
+    "本願功德",
+    "無勝",
+    "妙寶",
+    "圓滿香積",
+    "蓮花化生",
+    "八大願",
+    "消災延壽"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "58f72a9c19a01dbeb676c04383c67167ed86c4dd344dd453ed6253b21baa65f8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

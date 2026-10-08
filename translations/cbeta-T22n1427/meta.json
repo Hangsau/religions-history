@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T22",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "congregational",
+    "humility",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "oral-tradition",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "波羅夷",
+    "波羅提木叉",
+    "僧伽婆尸沙",
+    "布薩",
+    "阿梨耶",
+    "比丘尼",
+    "羯磨",
+    "清淨",
+    "發露",
+    "妄語",
+    "犯戒",
+    "釋師子",
+    "和合僧",
+    "三諫",
+    "尼薩耆波夜提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "55cb9ea48fad39e06160eb62baa40e2dee5f610a46e51e3002244671906c74cc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
