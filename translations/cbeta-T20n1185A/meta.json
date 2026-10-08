@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "syncretic"
+  ],
+  "keywords": [
+    "文殊師利",
+    "陀羅尼",
+    "金剛密迹主菩薩",
+    "贍部洲",
+    "大振那",
+    "五頂山",
+    "阿彌陀",
+    "觀自在",
+    "普賢",
+    "彌勒",
+    "虛空藏",
+    "維摩詰",
+    "無盡意",
+    "十善",
+    "末世"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "971699b31a7ad03132238a564bf222acd2c2339c6a40e9c6513dd2ae37f4a30b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
