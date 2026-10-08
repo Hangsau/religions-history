@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "humility",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "prayer",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "汾陽",
+    "臨濟",
+    "首山",
+    "風穴",
+    "曹溪",
+    "黃檗",
+    "南院",
+    "三玄三要",
+    "汾陽無德",
+    "善昭",
+    "禪",
+    "西河師子",
+    "臨濟宗",
+    "宗風",
+    "正路"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f8722b8b939fe8f01fc8af75053386536a436063e0ea3f0b428fa9467bfb9133"
+  },
+  "tagging_models": "MiniMax-M3"
 }
