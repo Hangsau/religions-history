@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "awe-fear",
+    "compassion",
+    "divine-immanence",
+    "enlightenment",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "pilgrimage",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "清涼山",
+    "五臺山",
+    "文殊師利",
+    "菩薩",
+    "華嚴經",
+    "般若",
+    "涅槃",
+    "雁門",
+    "紫府",
+    "中臺",
+    "北臺",
+    "東臺",
+    "西臺",
+    "南臺",
+    "大孚圖寺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ce7f17e5470b4b4e8482921680943d094e844180b506d65d999476988510d121"
+  },
+  "tagging_models": "MiniMax-M3"
 }

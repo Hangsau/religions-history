@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "awe-fear",
+    "compassion",
+    "divine-kingship",
+    "emptiness",
+    "enlightenment",
+    "humility",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "other-power",
+    "prophetic-critique",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "菩薩",
+    "清淨行",
+    "總持",
+    "忍辱",
+    "辯才",
+    "賴吒和羅",
+    "王舍城",
+    "靈鳥頂山",
+    "比丘",
+    "善權方便",
+    "一切智",
+    "佛國",
+    "懈怠",
+    "邪見",
+    "善知識"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "courage",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b658d2f18ae1ffa172bc561ed9a2957a72e04c2a9103ccc289230125b1711803"
+  },
+  "tagging_models": "MiniMax-M3"
 }
