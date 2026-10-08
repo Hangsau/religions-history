@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "sexual-ethics",
+    "vision-experience"
+  ],
+  "keywords": [
+    "文殊師利",
+    "勝金色光明德",
+    "菩提心",
+    "五陰",
+    "十二入",
+    "十八界",
+    "阿耨多羅三藐三菩提",
+    "王舍城",
+    "耆闍崛山",
+    "毘沙門王",
+    "釋迦牟尼",
+    "神通",
+    "大悲心",
+    "平等",
+    "假名"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "beauty-wonder-transcendent-moment",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1d548e0eae15570f31210c86766353f7f1c8c98a32633d03eba9feef86404baf"
+  },
+  "tagging_models": "MiniMax-M3"
 }
