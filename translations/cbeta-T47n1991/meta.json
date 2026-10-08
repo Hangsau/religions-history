@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "文益",
+    "地藏",
+    "長慶",
+    "雲門",
+    "報恩禪院",
+    "清涼",
+    "三界唯心",
+    "萬法唯識",
+    "還源觀",
+    "涅槃經",
+    "肇論",
+    "參同契",
+    "石頭",
+    "三祇劫",
+    "佛法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "perfectionism-self-criticism",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "673288ba838556a8661061b9fb0dab700ba3a9873c0bbf3378db633007cb50ed"
+  },
+  "tagging_models": "MiniMax-M3"
 }

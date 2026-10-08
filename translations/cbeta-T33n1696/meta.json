@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T33",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "syncretic",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "摩訶波若波羅蜜",
+    "般若",
+    "釋論",
+    "龍樹",
+    "正法波若",
+    "實相",
+    "智慧",
+    "大品經",
+    "涅槃",
+    "成實論",
+    "開善",
+    "莊嚴",
+    "十二門論",
+    "摩醯優波",
+    "釋名"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "45a6eb6f936d22daa994b16b2177c9759c24f54ede3920a4513834e7d988cdc3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
