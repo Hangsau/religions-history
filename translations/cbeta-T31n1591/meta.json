@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "唯識",
+    "大乘",
+    "三界",
+    "阿笈摩",
+    "薩埵",
+    "菩提",
+    "六度",
+    "心意識",
+    "識蘊",
+    "慈悲",
+    "外境",
+    "正理",
+    "方便",
+    "無為法",
+    "識"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f595e86184efcd2d93796a8e3546e88f475c87553f578d6d0ea7763aac20e24b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

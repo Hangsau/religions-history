@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "heaven-hell",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "spirit-possession",
+    "syncretic",
+    "theophany"
+  ],
+  "keywords": [
+    "隨求陀羅尼",
+    "大明王",
+    "金剛藏菩薩",
+    "舍利子",
+    "婆伽梵",
+    "須彌盧峯",
+    "阿蘇羅王",
+    "龍王",
+    "藥叉王",
+    "毘那夜迦",
+    "大悲",
+    "加持",
+    "解脫",
+    "灌頂",
+    "真言"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "840aa3bcd588ab3beabbb47a5592f20ac52f0e294b32f884293fbc56b9d22ca2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
