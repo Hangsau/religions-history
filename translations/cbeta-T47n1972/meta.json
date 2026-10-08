@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "enlightenment",
+    "grace-from-god",
+    "heaven-hell",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "self-effort",
+    "sin-as-disobedience",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "淨土",
+    "念佛",
+    "阿彌陀",
+    "極樂",
+    "永明",
+    "禪",
+    "四料揀",
+    "普賢",
+    "文殊",
+    "龍樹",
+    "馬鳴",
+    "天如",
+    "彌陀經",
+    "華嚴經",
+    "臨終"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5a09435bc9a5d8bcd42de010e94d695e1ed7e0c8ab5232c48d8014d1f3eb0d87"
+  },
+  "tagging_models": "MiniMax-M3"
 }

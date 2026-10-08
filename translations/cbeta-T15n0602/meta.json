@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "安般守意",
+    "六事",
+    "數息",
+    "相隨",
+    "止觀",
+    "還淨",
+    "四諦",
+    "五陰",
+    "六衰",
+    "六度",
+    "三十七品",
+    "三毒",
+    "陰",
+    "禪",
+    "安清"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "death",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5bd5c04e3fb3a3d8d8a7b57f125ceca1fbc7e0476310145a7416b2311525e934"
+  },
+  "tagging_models": "MiniMax-M3"
 }
