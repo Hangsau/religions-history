@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "revealed-text",
+    "self-effort",
+    "suffering-as-purifying",
+    "vernacular-translation"
+  ],
+  "keywords": [
+    "緣生",
+    "十二分緣生",
+    "無明",
+    "行緣識",
+    "攝聚緣生",
+    "轉出緣生",
+    "煩惱染",
+    "業染",
+    "生染",
+    "渴愛",
+    "取",
+    "名色",
+    "六入",
+    "觸",
+    "受"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "405ce4984aa37a9b9f8a7867e367710409bf3e30a1008a209013763129e1bf76"
+  },
+  "tagging_models": "MiniMax-M3"
 }

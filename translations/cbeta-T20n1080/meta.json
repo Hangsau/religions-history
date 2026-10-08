@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "enlightenment",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "如意輪陀羅尼",
+    "觀自在菩薩",
+    "雞喇斯山",
+    "蓮花化生",
+    "補陀落山",
+    "五無間罪",
+    "阿毘地獄",
+    "極樂世界",
+    "阿彌陀佛",
+    "三白食",
+    "瑜伽觀法",
+    "執金剛藏菩薩",
+    "帝釋梵王",
+    "三昧耶",
+    "曼茶羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "797f97281e1ebdd2146f5c51c93acf828eafda5fd6e74498e73e18ae717c07db"
+  },
+  "tagging_models": "MiniMax-M3"
 }
