@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T40",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "congregational",
+    "four-noble-truths",
+    "lay-practitioner",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "羯磨",
+    "比丘尼",
+    "結界",
+    "戒場",
+    "方便篇",
+    "結界篇",
+    "授戒篇",
+    "八不可過法",
+    "式叉摩那",
+    "摩那埵",
+    "說戒",
+    "自恣",
+    "僧殘",
+    "求那跋摩",
+    "四分律"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "26cbef40e992b0ad5cceb1d50bb460e5e75f9ba74fcff2d18b21e1721c18f47c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
