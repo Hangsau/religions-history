@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "虛妄分別",
+    "三自性",
+    "遍計所執",
+    "依他起",
+    "圓成實",
+    "空性",
+    "真如",
+    "實際",
+    "法界",
+    "十二有支",
+    "唯識",
+    "藏識",
+    "三界",
+    "中道",
+    "解脫"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "322efe0d7f7e69cbf8c88d126f65872b00803f7a794d259b091a96f60ebde795"
+  },
+  "tagging_models": "MiniMax-M3"
 }

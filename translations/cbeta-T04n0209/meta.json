@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T04",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "truthfulness"
+  ],
+  "keywords": [
+    "愚人",
+    "外道",
+    "比丘",
+    "布施",
+    "持戒",
+    "煩惱",
+    "苦行",
+    "阿羅漢",
+    "四輩弟子",
+    "三寶",
+    "石蜜",
+    "三重樓",
+    "婆羅門",
+    "山羗",
+    "瞋恚"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "721e80641eef7ef3bb5bfff1d333bf314ae8665e259583d7a454e83ae7d4e87f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
