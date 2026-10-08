@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "multiple-canons",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "syncretic"
+  ],
+  "keywords": [
+    "觀自在",
+    "千光眼",
+    "陀羅尼",
+    "大悲",
+    "千手千眼",
+    "五部",
+    "如意珠",
+    "摩尼",
+    "蓮華",
+    "三昧王",
+    "息災法",
+    "調伏法",
+    "增益法",
+    "敬愛法",
+    "鉤召法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6e5e731adc89abb0824fceb978d15d9c1f932946cc74b75ca2549b50b1eb7df0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
