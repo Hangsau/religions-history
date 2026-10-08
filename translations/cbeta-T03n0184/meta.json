@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "compassion",
+    "divine-kingship",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "marriage-sacred",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-violence",
+    "pilgrimage",
+    "prophetic-revelation",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "佛",
+    "錠光佛",
+    "釋迦文",
+    "迦維羅衛",
+    "菩薩",
+    "阿羅漢",
+    "比丘",
+    "梵志",
+    "儒童",
+    "菩薩妻",
+    "五莖花",
+    "授決",
+    "六通",
+    "三十二相",
+    "摩訶目揵連"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5e6de4ca5c019b824cfd24b4ae10f6d3b15d26a4a49aa3e4a350241fc7a6aed0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
