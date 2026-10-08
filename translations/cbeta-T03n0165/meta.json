@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "awe-fear",
+    "chaos-to-order",
+    "commandments-law",
+    "compassion",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "four-noble-truths",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "頂生王",
+    "布沙陀",
+    "阿耨多羅三藐三菩提",
+    "灌頂",
+    "七寶",
+    "輪寶",
+    "帝釋",
+    "夜叉神",
+    "禰舞迦",
+    "贍部洲",
+    "東勝身洲",
+    "西牛貨洲",
+    "俱盧洲",
+    "五神通",
+    "布施"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4ad9a33fc5ed3f44c89808e7aeb5e145423bb2c1ee9634ce9c3cae6c238b3831"
+  },
+  "tagging_models": "MiniMax-M3"
 }
