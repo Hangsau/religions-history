@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "金剛上味陀羅尼",
+    "文殊師利",
+    "彌勒菩薩",
+    "觀世自在菩薩",
+    "無生法忍",
+    "不二法門",
+    "無明",
+    "菩提",
+    "虛空",
+    "菩薩",
+    "三昧",
+    "凡夫法",
+    "顛倒虛妄",
+    "貪瞋癡",
+    "金窟"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7ab55d4b7bf14d9d429e57d0722cf82e1d03c8603ec879fb641271717c02c399"
+  },
+  "tagging_models": "MiniMax-M3"
 }

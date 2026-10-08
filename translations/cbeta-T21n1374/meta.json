@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+  ],
+  "keywords": [
+    "觀自在菩薩",
+    "執金剛菩薩",
+    "莊嚴王菩薩",
+    "陀羅尼",
+    "薄伽梵",
+    "王舍城",
+    "竹林園",
+    "陀羅尼呪",
+    "勝妙",
+    "安樂世界",
+    "不動佛",
+    "阿難陀",
+    "義淨",
+    "一切法功德莊嚴王經",
+    "無生法忍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3f7b6e4e082dbf173bba8ff21c4e00d17bee5bd6f912678117c5908d8689ff4b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
