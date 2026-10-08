@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "天台",
+    "五時八教",
+    "華嚴",
+    "鹿苑",
+    "方等",
+    "般若",
+    "法華",
+    "涅槃",
+    "藏通別圓",
+    "頓漸",
+    "智者大師",
+    "諦觀",
+    "判教",
+    "四教儀",
+    "淨光大師"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a16cd1ec668d116371d01036a0eb8b5da42d5c22b0cbe0994927fb19cfe22ae4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
