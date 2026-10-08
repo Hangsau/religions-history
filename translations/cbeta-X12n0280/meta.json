@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "original-sin",
+    "reincarnation",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "楞嚴經",
+    "如來藏",
+    "大佛頂",
+    "常住真心",
+    "奢摩他",
+    "三摩",
+    "禪那",
+    "阿難",
+    "摩登伽",
+    "波斯匿王",
+    "妄想",
+    "輪轉",
+    "自心",
+    "幻妄",
+    "曹洞正宗"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ba45d65842536232006e646d5f2f025e526246e71cbd21bace11b0bd8a64f423"
+  },
+  "tagging_models": "MiniMax-M3"
 }
