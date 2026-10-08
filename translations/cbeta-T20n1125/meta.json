@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "syncretic"
+  ],
+  "keywords": [
+    "金剛薩埵",
+    "毘盧遮那",
+    "五密瑜伽",
+    "曼茶羅",
+    "阿闍梨",
+    "灌頂",
+    "三摩地",
+    "三密",
+    "百字真言",
+    "五佛寶冠",
+    "金剛界",
+    "普賢菩薩",
+    "阿賴耶識",
+    "波羅蜜",
+    "羯磨印"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "72b9c3c9c7ae7ca0f960a90772f4835aa3154bda12bb8f9819ea090056902a95"
+  },
+  "tagging_models": "MiniMax-M3"
 }

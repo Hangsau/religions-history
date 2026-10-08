@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "feminine-divine",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "歡喜母",
+    "畢哩孕迦",
+    "藥叉女",
+    "陀羅尼",
+    "三歸五戒",
+    "護摩",
+    "王舍城",
+    "竹林精舍",
+    "支那國",
+    "贍部洲",
+    "娑多",
+    "半支迦",
+    "唵弩弩麼里迦呬諦娑嚩賀",
+    "刻像法",
+    "伏藏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "loneliness-belonging",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6fed0fdd7fce0bec6e28a1021cbca5e1ed1694e120bc5826af795ae3c54a550f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
