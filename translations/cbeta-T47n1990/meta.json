@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "self-effort"
+  ],
+  "keywords": [
+    "慧寂",
+    "仰山",
+    "溈山",
+    "耽源",
+    "圓相",
+    "南泉",
+    "鹽官",
+    "六代祖師",
+    "沙彌",
+    "披剃",
+    "牧牛",
+    "彌勒內院",
+    "摩訶衍法",
+    "佛性",
+    "禪床"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a297416a479cdf7a9661ea9f1dff0b677308b04c53b945005879a344da509efb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

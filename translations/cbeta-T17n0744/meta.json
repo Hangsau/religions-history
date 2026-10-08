@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "other-power",
+    "pilgrimage",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "維耶離國",
+    "王舍城",
+    "竹林精舍",
+    "阿闍世王",
+    "佛",
+    "除恐災患",
+    "疫疾",
+    "甘露法",
+    "七寶蓋",
+    "彈尼才明",
+    "五戒",
+    "十善",
+    "四部弟子",
+    "六度",
+    "三界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "708d0bd650c9d3f7523de016ee347a0ccd352ef3647e7c421f2a429eb6afb622"
+  },
+  "tagging_models": "MiniMax-M3"
 }

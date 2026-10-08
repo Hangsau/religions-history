@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "fasting",
+    "liberation-by-devotion",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "如是我聞",
+    "難陀跋難陀龍王宮",
+    "摩尼德大雲輪藏寶樓閣",
+    "大比丘",
+    "大菩薩",
+    "龍王",
+    "毘盧遮那",
+    "摩尼王藏",
+    "海雲",
+    "十方",
+    "普賢菩薩",
+    "恭敬供養",
+    "師子座",
+    "因陀羅",
+    "阿僧祇"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5786a68580db29fc9639a8285585e67e03945b405f3c86cbfe6c98ecd0c1f232"
+  },
+  "tagging_models": "MiniMax-M3"
 }
