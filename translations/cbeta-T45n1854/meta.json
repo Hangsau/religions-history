@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "dualistic-cosmos",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "二諦",
+    "世俗諦",
+    "第一義諦",
+    "中論",
+    "百論",
+    "吉藏",
+    "嘉祥",
+    "薩波若",
+    "性空",
+    "顛倒",
+    "四論",
+    "大品經",
+    "開善法師",
+    "興皇",
+    "眾生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "existence-why-born",
+    "faith-doubt",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "849a3394d80c949b62159ee3c2deddb0cea2bdb0c3e5d1cfa47a61f4a67984d4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
