@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T25",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "三法",
+    "德",
+    "惡",
+    "依",
+    "善勝",
+    "施",
+    "戒",
+    "修",
+    "禪",
+    "無量",
+    "無色",
+    "根",
+    "無惡",
+    "忍辱",
+    "多聞"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7e397f18e9a7557d59906960bbeb587b9d523fea8210fc1d642f527dfe632aa3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

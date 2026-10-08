@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "caesaropapism",
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-kingship",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "pilgrimage",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "syncretic",
+    "theocracy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "不空三藏",
+    "金剛智",
+    "潛真",
+    "開元釋教錄",
+    "瑜伽",
+    "真言",
+    "密嚴",
+    "仁王經",
+    "文殊",
+    "梵本",
+    "灌頂",
+    "護摩",
+    "貝葉",
+    "三藏",
+    "續開元釋教錄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a45e8e607ba54815ab6b3945546205b415997a328b13439bd44654975b53534c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
