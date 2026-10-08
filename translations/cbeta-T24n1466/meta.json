@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "優波離",
+    "比丘",
+    "布薩",
+    "波羅夷",
+    "捨墮",
+    "僧伽婆尸沙",
+    "突吉羅",
+    "土羅遮",
+    "四棄捐法",
+    "舍衛祇樹給孤獨園",
+    "戒",
+    "犯非犯",
+    "持律",
+    "波逸提",
+    "比丘尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "honesty-hypocrisy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "aff946664c3534c587af489322bfa5c9e17b2ece2ece577188c2568d52ee0d09"
+  },
+  "tagging_models": "MiniMax-M3"
 }
