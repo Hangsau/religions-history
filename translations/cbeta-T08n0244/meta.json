@@ -20,5 +20,62 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "self-effort",
+    "syncretic",
+    "theophany",
+    "truthfulness"
+  ],
+  "keywords": [
+    "毘盧遮那",
+    "金剛手菩薩",
+    "曼拏羅",
+    "三昧",
+    "般若波羅蜜多",
+    "阿闍梨",
+    "灌頂",
+    "大樂金剛",
+    "八俱胝大菩薩",
+    "金剛杵",
+    "祕密金剛三摩地",
+    "清淨法門",
+    "金剛薩埵",
+    "心明",
+    "洛叉"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "65a81f2cca52aab32f47f25ef01a9849d99ce285ae62faf0555776a2fc48ed16"
+  },
+  "tagging_models": "MiniMax-M3"
 }
