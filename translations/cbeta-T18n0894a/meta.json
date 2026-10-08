@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "liberation-by-devotion",
+    "monastic",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+  ],
+  "keywords": [
+    "三摩耶",
+    "閼伽水",
+    "本尊",
+    "手印",
+    "真言",
+    "護摩",
+    "曼荼羅",
+    "金剛部",
+    "蓮華部",
+    "佛部",
+    "軍荼利",
+    "灑掃",
+    "灌頂",
+    "制底",
+    "六念"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0b770cbeb9d8b461ae08f56086474c46dcc74e42a8fc2f98366df7c68353d9d1"
+  },
+  "tagging_models": "MiniMax-M3"
 }
