@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "不空羂索",
+    "陀羅尼",
+    "觀自在菩薩",
+    "阿慕伽",
+    "神呪",
+    "三摩地",
+    "蓮華印",
+    "三業清淨",
+    "菩薩戒",
+    "六波羅蜜",
+    "四聖諦",
+    "羅剎娑",
+    "八關齋",
+    "阿素洛",
+    "三摩鉢底"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d8b437db3f28f26079030426f7ed8bcb6b6a1b79b1795aa5eef80ace21cc781f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

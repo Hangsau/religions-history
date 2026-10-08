@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T25",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "金剛般若波羅蜜",
+    "須菩提",
+    "菩薩摩訶薩",
+    "波羅蜜",
+    "種性不斷",
+    "法身",
+    "色身",
+    "佛地",
+    "攝受",
+    "付囑",
+    "三摩鉢帝",
+    "無我",
+    "涅槃",
+    "有為法",
+    "阿耨多羅三藐三菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "91bb3c678321857c6e3d2a42b27801241b1cf397789f61fe2c6ababe6fff9bff"
+  },
+  "tagging_models": "MiniMax-M3"
 }
