@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "reincarnation",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "唯識",
+    "三界唯心",
+    "妄見",
+    "瞖夢",
+    "乾闥婆城",
+    "餓鬼",
+    "無塵",
+    "第一義諦",
+    "自性清淨心",
+    "相應心",
+    "三界虛妄",
+    "心為本",
+    "業",
+    "我空",
+    "諸法無我"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b4d731acb58de5f573bab522f1e337f65a63da6fbb504e9a8e1efccca544df3a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

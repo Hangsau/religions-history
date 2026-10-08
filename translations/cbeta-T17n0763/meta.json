@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "薄伽梵",
+    "舍衛國",
+    "祇園精舍",
+    "四聖諦",
+    "五蘊",
+    "十二緣生",
+    "八聖道",
+    "三摩地",
+    "四禪",
+    "無明",
+    "十二處",
+    "十八界",
+    "二十二根",
+    "三界",
+    "梵行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "body-mind",
+    "change-transformation",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8dadd71ec73a0c434289687cb860fac4dbc7562036c36675a5f727965ad04fc3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

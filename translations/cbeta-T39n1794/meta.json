@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T39",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "suffering-as-purifying",
+    "theodicy"
+  ],
+  "keywords": [
+    "沙門",
+    "阿羅漢",
+    "阿那含",
+    "斯陀含",
+    "須陀洹",
+    "四諦",
+    "離欲寂靜",
+    "鹿野苑",
+    "禪定",
+    "十善十惡",
+    "三尊",
+    "釋迦牟尼佛",
+    "迦維羅城",
+    "摩騰",
+    "竺法蘭"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4c67e7572893623e43ea790c60134bd7fdffb6461e18cbbfb21a8f7dfe6c8751"
+  },
+  "tagging_models": "MiniMax-M3"
 }

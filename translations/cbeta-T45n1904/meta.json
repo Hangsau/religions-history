@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "congregational",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "truthfulness"
+  ],
+  "keywords": [
+    "羯磨儀範",
+    "鄔波索迦",
+    "苾芻",
+    "鄔波馱耶",
+    "阿遮利耶",
+    "出家",
+    "近圓",
+    "律儀",
+    "三歸依",
+    "五學處",
+    "十學處",
+    "釋迦牟尼",
+    "帝師",
+    "薩思迦扮底達",
+    "一切有部"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7c788e208bfedc24682ff6dc0e30f9d535ba7748d5ccfcd719504ceef107f20d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
