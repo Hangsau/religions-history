@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "fasting",
+    "liberation-by-devotion",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-souls",
+    "mystical-union",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theodicy",
+    "theophany",
+    "truthfulness"
+  ],
+  "keywords": [
+    "世尊",
+    "毘耶離",
+    "阿闍世王",
+    "四天王",
+    "毘沙門天王",
+    "增長天王",
+    "廣目天王",
+    "持國天王",
+    "訶利帝母",
+    "藥叉",
+    "梵天王",
+    "天帝釋",
+    "守護大千經",
+    "神呪",
+    "鬼神惱害"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6c5e6cf40501ee75a3a60a84f665dfd524a9aa51e19fb6dd58f7ac7448010889"
+  },
+  "tagging_models": "MiniMax-M3"
 }
