@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X10",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "圓覺",
+    "大光明藏",
+    "文殊師利",
+    "普賢菩薩",
+    "如來藏",
+    "無明",
+    "幻",
+    "清淨覺地",
+    "三昧",
+    "本起因地",
+    "陀羅尼門",
+    "如幻三昧",
+    "覺心",
+    "平等本際",
+    "罽賓"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0725300f1031c708dc17cbcc6c77c994710b546d6b8700f4dec972094b628339"
+  },
+  "tagging_models": "MiniMax-M3"
 }
