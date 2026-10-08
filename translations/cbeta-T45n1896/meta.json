@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "humility",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "self-effort",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "歸敬",
+    "三寶",
+    "五眾",
+    "沙門",
+    "佛性",
+    "本識",
+    "法身",
+    "戒律",
+    "律儀戒",
+    "攝善法戒",
+    "攝眾生戒",
+    "伽耶山",
+    "迦葉",
+    "瓶沙王",
+    "舍利弗"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "71f76dd0c57071e28eed3f6de56a07b517b94dd8b15ab15be2f4895b95aca299"
+  },
+  "tagging_models": "MiniMax-M3"
 }

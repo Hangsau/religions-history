@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "羅睺羅",
+    "耶輸陀羅",
+    "目犍連",
+    "淨飯王",
+    "波闍波提",
+    "波斯匿王",
+    "沙彌",
+    "出家",
+    "五欲",
+    "涅槃",
+    "菩薩",
+    "三惡道",
+    "恩愛離別",
+    "舍衛國",
+    "迦毘羅城"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "existence-why-born"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0d63d225429a19d9d58b777c484bba003e7183f8f802141d1af08158aeae89f8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

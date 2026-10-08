@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "提婆",
+    "鳩摩罗什",
+    "姚嵩",
+    "百論",
+    "捨罪福品",
+    "世尊",
+    "三藏",
+    "善法",
+    "恶止",
+    "善行",
+    "布施",
+    "持戒",
+    "智慧",
+    "婆藪開士",
+    "迦夷"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "existence-why-born",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ac8c00333e22c3ead927d2b28b9347cd1d3991e8f93fed7786a1e33b2f36d930"
+  },
+  "tagging_models": "MiniMax-M3"
 }
