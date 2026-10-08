@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "caste-system",
+    "celibate-tradition",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "truthfulness"
+  ],
+  "keywords": [
+    "真言",
+    "持誦",
+    "漫荼羅",
+    "執金剛菩薩",
+    "蘇磨呼童子",
+    "菩提心",
+    "十善法",
+    "三昧耶",
+    "戒律",
+    "精室",
+    "外道",
+    "四種應器",
+    "數珠",
+    "邪見",
+    "剎利"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8dca1930c0e98817061f71abbbd688c8164c1423a1c75bb6886915816672d8b6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
