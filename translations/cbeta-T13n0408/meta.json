@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T13",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "虛空孕菩薩",
+    "婆伽婆",
+    "佉羅坻迦山",
+    "應珠",
+    "摩尼寶",
+    "首楞嚴三昧",
+    "六波羅蜜",
+    "斷常二見",
+    "菩薩摩訶薩",
+    "釋提桓因",
+    "梵橛",
+    "般若",
+    "十地",
+    "世尊授記",
+    "藥王菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8ff2086675a239109d98ab7d2382bcd5c898218805ea38b671f7a605718aa772"
+  },
+  "tagging_models": "MiniMax-M3"
 }

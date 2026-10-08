@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T38",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "涅槃",
+    "如來藏",
+    "佛性",
+    "凡聖",
+    "常無常",
+    "開覆",
+    "三論",
+    "攝山大師",
+    "興皇",
+    "摩訶般若",
+    "二諦",
+    "眾生",
+    "本有今無",
+    "河西五門",
+    "波藪七分"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "23284ef5b88a714e9f9a965ce2f0f37546ec1dc51dedd9d0c92f9196cc049421"
+  },
+  "tagging_models": "MiniMax-M3"
 }
