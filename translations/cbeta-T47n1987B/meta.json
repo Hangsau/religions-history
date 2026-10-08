@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T47",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "曹山",
+    "本寂",
+    "洞山",
+    "荷玉",
+    "五位君臣",
+    "正偏",
+    "兼帶",
+    "四禁",
+    "三墮",
+    "披毛戴角",
+    "六祖",
+    "曹谿",
+    "禪床",
+    "格則",
+    "語錄"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "646d46ec9ab49f541dd00e2561c796a8c40c6007d76678182188344d78fe4371"
+  },
+  "tagging_models": "MiniMax-M3"
 }
