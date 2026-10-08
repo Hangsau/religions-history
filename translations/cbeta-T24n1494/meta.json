@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "毘舍離",
+    "婬女",
+    "無垢光",
+    "文殊師利",
+    "破戒",
+    "地獄",
+    "無生法忍",
+    "諸法本性清淨",
+    "夢",
+    "無所得",
+    "大乘",
+    "聲聞",
+    "菩薩摩訶薩",
+    "婬欲",
+    "阿耨多羅三藐三菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7dc05fac87efed86aa2b298c1dd5875ba65923bd64a0e40a771b66a8dc0f2b47"
+  },
+  "tagging_models": "MiniMax-M3"
 }
