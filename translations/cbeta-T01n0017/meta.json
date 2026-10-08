@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "essentially-good",
+    "lay-practitioner",
+    "marriage-sacred",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "善生子經",
+    "羅閱耆闍崛山",
+    "六方禮",
+    "居士",
+    "殺生",
+    "盜竊",
+    "妄語",
+    "婬邪",
+    "六患",
+    "四友",
+    "非友像",
+    "仁明之友",
+    "同苦樂",
+    "利相攝",
+    "與本業"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "communication-being-understood",
+    "giving-generosity",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "714fedb668c1b8533cfdb11cc1f8ba9e34369b2b1a0836dd491ea6f98efb979b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
