@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "theophany",
+    "truthfulness"
+  ],
+  "keywords": [
+    "如淨禪師",
+    "曹洞",
+    "臨濟",
+    "五家宗派",
+    "天童",
+    "禪",
+    "棒喝",
+    "竹篦子",
+    "臨濟命根",
+    "臘八",
+    "涅槃",
+    "開爐",
+    "古佛",
+    "灋鼓",
+    "如淨和尚"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "270190e39f7ae5ba03e71f22892968bee9b57c11f17adc99e9028b49f7f6f988"
+  },
+  "tagging_models": "MiniMax-M3"
 }

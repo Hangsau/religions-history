@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "congregational",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "monastic",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "syncretic",
+    "temple-centered"
+  ],
+  "keywords": [
+    "曼荼羅",
+    "阿闍梨",
+    "真言",
+    "灌頂",
+    "弟子",
+    "息災",
+    "增益",
+    "降伏",
+    "無能勝明王",
+    "善住明王",
+    "除避明王",
+    "金剛部",
+    "蓮華部",
+    "佛部",
+    "護摩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5ae5dfcc43527ab83150af1d30bdc0ad732b69c81a91e500f56926d1aeea6139"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "般若波羅蜜多",
+    "心經",
+    "五蘊",
+    "色空",
+    "涅槃",
+    "菩提",
+    "舍利子",
+    "觀自在菩薩",
+    "十二因緣",
+    "四諦",
+    "六塵",
+    "六根",
+    "六識",
+    "無所得",
+    "三界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c72a3b79fe7bea7a86b62d1283fa8b28f51a218b9013c4dc6ca367b3e3e0f949"
+  },
+  "tagging_models": "MiniMax-M3"
 }
