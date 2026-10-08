@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "forgiveness",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "長壽滅罪護諸童子陀羅尼經",
+    "顛倒",
+    "普光正見如來",
+    "文殊師利",
+    "十二因緣",
+    "六波羅蜜",
+    "五逆罪",
+    "殺胎",
+    "阿鼻地獄",
+    "無常殺鬼",
+    "懺悔",
+    "菩提心",
+    "五色神旛",
+    "閻羅法王",
+    "大乘方等經典"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "childhood-wounds",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9ac8c6b03c3aea2c96bb9747d41e4a3dc1381e33e60f9ad374a88c167f9c62c4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

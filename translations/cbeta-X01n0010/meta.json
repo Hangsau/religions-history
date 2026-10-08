@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "spirit-possession",
+    "vision-experience"
+  ],
+  "keywords": [
+    "觀世音菩薩",
+    "般若之橋",
+    "耆闍崛",
+    "菩提場",
+    "阿蘭若",
+    "舍婆提城",
+    "舍利弗",
+    "大明仁孝皇后",
+    "第一希有大功德經",
+    "甘露水",
+    "須陀洹果",
+    "阿羅漢果",
+    "真如",
+    "虛空常寂",
+    "圓覺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "76a347a12b61a24f7c5be6da3649a2386320affd69dcca0b3af8de4bdade7f5f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
