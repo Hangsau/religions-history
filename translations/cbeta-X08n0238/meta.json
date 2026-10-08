@@ -20,5 +20,60 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "cosmic-egg",
+    "divine-immanence",
+    "emanation",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "study",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "華嚴經",
+    "毗盧舍那",
+    "文殊師利",
+    "普賢",
+    "彌勒",
+    "大方廣",
+    "十信",
+    "十住",
+    "十行",
+    "十迴向",
+    "十地",
+    "菩提場",
+    "法界",
+    "本覺妙性",
+    "清涼國師"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "guilt-atonement",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5fad4ce526370009f895a5c88c4e7d3f434b23fbc00ecb51fdfd8a8e6f462d39"
+  },
+  "tagging_models": "MiniMax-M3"
 }
