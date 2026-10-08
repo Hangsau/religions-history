@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "舍利弗",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "無為",
+    "四諦",
+    "五蓋",
+    "五根",
+    "四識住",
+    "四意止",
+    "四食",
+    "涅槃",
+    "解脫",
+    "三三昧",
+    "五種定",
+    "十報法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "courage",
+    "death",
+    "emotions-passions",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "03e7d666e2bd82d870727b8acdf19479a0a0a20802c2d478420031cb9097647a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

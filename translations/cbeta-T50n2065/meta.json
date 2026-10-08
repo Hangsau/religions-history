@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T50",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "divine-immanence",
+    "divine-kingship",
+    "divine-transcendence",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "oral-tradition",
+    "other-power",
+    "pilgrimage",
+    "prophetic-revelation",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "temple-centered"
+  ],
+  "keywords": [
+    "釋迦如來",
+    "兜率天",
+    "摩耶",
+    "淨飯王",
+    "涅槃",
+    "華嚴",
+    "般若",
+    "法華",
+    "阿育王",
+    "舍利",
+    "摩騰",
+    "竺法蘭",
+    "順道",
+    "阿道",
+    "義淵"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "47acfc22e65285597f20ee04a1a85d7b7d4d13a8051e49bdd283563a5dd9da60"
+  },
+  "tagging_models": "MiniMax-M3"
 }
