@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "multiple-souls",
+    "ritual-practice",
+    "self-effort",
+    "study"
+  ],
+  "keywords": [
+    "五法",
+    "色",
+    "心",
+    "心法",
+    "心不相應行",
+    "無為",
+    "四大",
+    "六識",
+    "九結",
+    "七使",
+    "八纏",
+    "十智",
+    "苦集滅道",
+    "盡智",
+    "無生智"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "emotions-passions"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8af32adb5ca04ccd12dad2370085de1bfbe2baddbdc9789289c218e551a04c60"
+  },
+  "tagging_models": "MiniMax-M3"
 }
