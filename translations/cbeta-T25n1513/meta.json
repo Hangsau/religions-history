@@ -20,5 +20,52 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T25",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "self-effort",
+    "suffering-as-purifying",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "能斷金剛",
+    "般若波羅蜜多",
+    "菩薩",
+    "無餘涅槃",
+    "布施",
+    "不住於事",
+    "三輪",
+    "我想",
+    "法想",
+    "勝相",
+    "如來",
+    "筏喻",
+    "具戒",
+    "具德",
+    "具慧"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2acd94aed53d897cb68ba993142ea13dc274f2b65573cfe5f908f31f8b0066b7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
