@@ -20,5 +20,48 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emptiness",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort"
+  ],
+  "keywords": [
+    "金剛薩埵",
+    "真言",
+    "瑜伽",
+    "五佛",
+    "毘盧遮那",
+    "阿閦",
+    "寶生",
+    "無量壽",
+    "不空成就",
+    "金剛慢",
+    "菩提心",
+    "閼伽",
+    "三昧耶",
+    "普賢",
+    "計里計羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eea06a5d204c301b1604f09d20511b1e40a09dbdce10ad9d28e89af89c7159ae"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "文殊師利",
+    "寶相如來",
+    "第一義諦",
+    "寂調伏音天子",
+    "娑婆世界",
+    "寶主世界",
+    "王舍城",
+    "祇闍崛山",
+    "聖諦",
+    "空",
+    "無相",
+    "無願",
+    "六波羅蜜",
+    "菩薩摩訶薩",
+    "正遍覺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f85ecfb73b03921ca7c3f9eb8ecc53735b490bb157ca9ae27361b5cdddf9b11d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

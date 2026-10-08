@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "non-proselytizing",
+    "other-power",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "十二緣生",
+    "無明",
+    "戒定慧",
+    "金剛般若",
+    "華嚴經",
+    "普光明智",
+    "文殊",
+    "普賢",
+    "毘盧遮那",
+    "波羅蜜",
+    "善財童子",
+    "三界",
+    "五蘊",
+    "菩提",
+    "止觀"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "9ea66e371240d38abf9a22525db8da2531066ac1110847ebcfe77aa47b107be8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
