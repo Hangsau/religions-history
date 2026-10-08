@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort"
+  ],
+  "keywords": [
+    "金剛頂",
+    "瑜伽",
+    "阿闍梨",
+    "灌頂",
+    "三摩耶",
+    "菩提心",
+    "曼荼羅",
+    "毘盧遮那佛",
+    "一字頂輪王",
+    "金剛界",
+    "祕密門",
+    "菩提",
+    "三昧",
+    "輪壇",
+    "六度"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "567ada38620b54de73bab4db6f16f73fe94955769e3f8605dc5d37428801e726"
+  },
+  "tagging_models": "MiniMax-M3"
 }

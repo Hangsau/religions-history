@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "emanation",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "pilgrimage",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "清涼山",
+    "五臺山",
+    "文殊師利",
+    "金剛窟",
+    "金閣寺",
+    "聖燈",
+    "羅睺",
+    "真容院",
+    "張商英",
+    "天覺",
+    "中臺",
+    "北臺",
+    "東臺",
+    "三昧火",
+    "菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bf0e9ee2616f54b719dfddecff108a2b95c8fe50661f957726384f1627419d28"
+  },
+  "tagging_models": "MiniMax-M3"
 }

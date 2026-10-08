@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-works",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "study",
+    "truthfulness"
+  ],
+  "keywords": [
+    "別解脫經",
+    "波羅市迦",
+    "波羅提木叉",
+    "僧伽伐尸沙",
+    "苾芻",
+    "別解脫",
+    "尸羅",
+    "阿羅漢",
+    "蘭若",
+    "褒灑陀",
+    "攝頌",
+    "心馬",
+    "煩惱陣",
+    "破和合僧",
+    "釋迦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "communication-being-understood",
+    "emotions-passions",
+    "honesty-hypocrisy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a7d1d34296d232286ba9e8b18312c2c8267281caac83bc15a7add45b8b625ec5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

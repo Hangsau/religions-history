@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "fasting",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics"
+  ],
+  "keywords": [
+    "郁迦羅越",
+    "菩薩行",
+    "居家菩薩",
+    "出家菩薩",
+    "歸命佛",
+    "歸命法",
+    "歸命僧",
+    "五戒",
+    "上士",
+    "舍衛國",
+    "祇樹之園",
+    "給孤獨精舍",
+    "三十二大人相",
+    "布施度無極",
+    "護法"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "15370c637130136ad47a2495bdca2a25c132d0ab6f8416d69e00cb37065c118e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
