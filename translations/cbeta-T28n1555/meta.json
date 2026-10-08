@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T28",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "study",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "五事論",
+    "對法",
+    "阿毘達磨",
+    "色品",
+    "大種",
+    "四大種",
+    "所造色",
+    "自相共相",
+    "世友尊者",
+    "脇尊者",
+    "妙音",
+    "變礙",
+    "地水火風",
+    "羯賴藍",
+    "眼根"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f18ea04d4abf1e9ae0074160b4c90436ef3c9f9effb9cc7ea63c47e456cb5779"
+  },
+  "tagging_models": "MiniMax-M3"
 }

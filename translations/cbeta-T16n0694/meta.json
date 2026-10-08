@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T16",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "created-in-image",
+    "divine-transcendence",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "優陀延王",
+    "毘首羯磨天",
+    "三十三天",
+    "波利質多羅樹",
+    "造像",
+    "佛像",
+    "紫栴檀",
+    "彌勒菩薩",
+    "五衰相",
+    "柔順忍",
+    "阿耨多羅三藐三菩提",
+    "放逸",
+    "嫉妬",
+    "閻浮提",
+    "貪心"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "emotions-passions",
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "734dd1cf7008cef8959ac473d8141c130406078006ba0f9d4d5e89b0263f35f0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
