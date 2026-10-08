@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T30",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "廣百論本",
+    "破常品",
+    "破我品",
+    "破時品",
+    "涅槃",
+    "無常",
+    "極微",
+    "如來",
+    "勝義",
+    "我",
+    "緣生",
+    "常住",
+    "我所",
+    "廣百論",
+    "住"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2586445bac4c8b92d879f05bb9f54435b62951029ccbdab3daa94eb6eed6c059"
+  },
+  "tagging_models": "MiniMax-M3"
 }

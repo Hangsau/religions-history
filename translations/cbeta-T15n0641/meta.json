@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "菩薩摩訶薩",
+    "三界",
+    "欲界",
+    "色界",
+    "無色界",
+    "諸行",
+    "無常",
+    "生滅",
+    "寂滅",
+    "不生不滅",
+    "空性",
+    "空相",
+    "六根",
+    "六識",
+    "眼耳鼻舌身意"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "d4728bdf330e994fb513194a94810058f1ab3334d208738927345f4c80c91767"
+  },
+  "tagging_models": "MiniMax-M3"
 }

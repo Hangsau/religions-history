@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic"
+  ],
+  "keywords": [
+    "金剛手菩薩",
+    "大毘盧遮那如來",
+    "祕密相經",
+    "曼拏羅",
+    "金剛杵",
+    "蓮華",
+    "菩提心",
+    "三摩地",
+    "瑜伽行者",
+    "阿字",
+    "大明",
+    "無上大菩提心",
+    "金剛乘",
+    "三聚淨戒",
+    "五智金剛杵"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6def1322943c08e0b4add0f81e672ee8914ea1f5addc3fb5c165eaeee2dd6094"
+  },
+  "tagging_models": "MiniMax-M3"
 }
