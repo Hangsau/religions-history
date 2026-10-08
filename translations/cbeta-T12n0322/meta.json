@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "humility",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "oral-tradition",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "法鏡經",
+    "安玄",
+    "嚴浮調",
+    "給孤獨聚園",
+    "勝氏樹",
+    "聞物國",
+    "甚理家",
+    "慈氏",
+    "敬首",
+    "三十二相",
+    "自歸三寶",
+    "五戒",
+    "在家修道",
+    "去家為道",
+    "無上正真道"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a869c229560953ce293a7c85226ba437bea2860538d0f8dc85df79f5523af262"
+  },
+  "tagging_models": "MiniMax-M3"
 }

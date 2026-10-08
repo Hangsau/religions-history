@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "文殊師利",
+    "般若波羅蜜",
+    "如來",
+    "舍利弗",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "菩薩",
+    "六波羅蜜",
+    "涅槃",
+    "畢竟空",
+    "陀羅尼",
+    "神通",
+    "法身",
+    "不退轉地",
+    "彌勒菩薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "888489fd52885d71a2d000bebdd04e3501ae5b8b4dcc4356c191011939a624d4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

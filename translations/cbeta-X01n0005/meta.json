@@ -20,5 +20,53 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "cyclic-cosmos",
+    "grace-from-god",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "syncretic",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "無量壽經",
+    "法藏比丘",
+    "世自在王如來",
+    "淨土",
+    "阿彌陀",
+    "往生",
+    "九品",
+    "持名",
+    "一心不亂",
+    "橫出三界",
+    "二十四法",
+    "觀想",
+    "菩提心",
+    "普賢行願品",
+    "極樂世界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b7fa40b9495f1fc3fe660f06daba8317df6e049789d8b73565bffac67cd195fb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

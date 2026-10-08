@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T39",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "盂蘭盆經",
+    "盂蘭盆",
+    "目連",
+    "目犍連",
+    "釋迦牟尼佛",
+    "盧舍那佛",
+    "孝道",
+    "自恣日",
+    "三藏",
+    "五乘",
+    "涅槃",
+    "餓鬼",
+    "盆供",
+    "福田",
+    "宗密"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b8be9dd5bf3537ce7be51b0067b35afaf6a1bf9a9af360b06cca6c8fd8dbb8a8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
