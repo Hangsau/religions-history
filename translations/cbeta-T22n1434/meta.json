@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T22",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "congregational",
+    "lineage-importance",
+    "monastic",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "truthfulness"
+  ],
+  "keywords": [
+    "羯磨",
+    "比丘尼",
+    "結界",
+    "受戒",
+    "剃髮",
+    "沙彌尼",
+    "式叉摩那",
+    "十戒",
+    "六法",
+    "和尚尼",
+    "教授師",
+    "三寶",
+    "邊罪",
+    "釋種女",
+    "慈愍"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e7dacc0dbc5f7f711a6c66a1a9a1bb25f9fe74792fa48e52d189525186144339"
+  },
+  "tagging_models": "MiniMax-M3"
 }
