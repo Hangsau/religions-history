@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "cyclic-cosmos",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "reincarnation",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "六道",
+    "地獄",
+    "餓鬼",
+    "傍生",
+    "修羅",
+    "天道",
+    "伽陀",
+    "貪瞋癡",
+    "焰魔",
+    "八齋戒",
+    "布施",
+    "業報",
+    "輪迴",
+    "三塗"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "22f00c207f2f6a2a32822d4f9d632147e7df5ade6d1741d8bc2c90aca3f8b9c5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

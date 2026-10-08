@@ -20,5 +20,37 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T31",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "meditation",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "所緣",
+    "極微",
+    "眼識",
+    "意識",
+    "現量",
+    "比量",
+    "內境",
+    "外境",
+    "見分",
+    "相分",
+    "能取",
+    "所取",
+    "唯識",
+    "觀所緣論釋"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fe34258f6f41b119386e25093ded9374686d27797b1ed23a40d53d9384d2632b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
