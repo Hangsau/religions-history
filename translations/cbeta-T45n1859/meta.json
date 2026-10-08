@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T45",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "prayer",
+    "sacred-language",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "僧肇",
+    "肇論",
+    "小招提",
+    "慧達",
+    "姚興",
+    "羅什",
+    "鳩摩羅耆婆",
+    "道安",
+    "宗本義",
+    "不真空論",
+    "般若無知論",
+    "涅槃無名論",
+    "六家七宗",
+    "性空",
+    "實相"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "communication-being-understood",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2d5dcbdeaa5ab0bc18af8bd99a995874196b76efac23eddbbc3eea3f4473dd6b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
