@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "divine-kingship",
+    "enlightenment",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "syncretic",
+    "theocracy",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "福力",
+    "眼力王",
+    "廣照后",
+    "色力太子",
+    "福力太子",
+    "師子座",
+    "伽陀",
+    "苾芻",
+    "舍利子",
+    "阿難",
+    "阿泥樓馱",
+    "聞二百億",
+    "宿命力",
+    "六種震動",
+    "修福因"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "courage",
+    "death",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "223220405e6038d7c22e28a844a5da336d6fcc855331b05acb7cd5b681503306"
+  },
+  "tagging_models": "MiniMax-M3"
 }

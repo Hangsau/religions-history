@@ -20,5 +20,57 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "non-violence",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+  ],
+  "keywords": [
+    "永嘉集",
+    "奢摩他",
+    "毘婆舍那",
+    "優畢叉",
+    "禪觀",
+    "三業",
+    "定慧",
+    "三界",
+    "戒憍奢",
+    "慕道志儀",
+    "淨修三業",
+    "四實語",
+    "三堅法",
+    "布施",
+    "梵行"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7188c993b9e1c5b74677a2a38cff78a8c428536aff9a113b93da8a723972649c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

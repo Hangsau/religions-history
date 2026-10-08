@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "theophany",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "如來智印",
+    "三昧",
+    "陀羅尼",
+    "空",
+    "無相",
+    "無願",
+    "舍利弗",
+    "文殊師利",
+    "釋迦牟尼",
+    "須菩提",
+    "菩薩",
+    "聲聞",
+    "王舍城",
+    "迦蘭陀竹園",
+    "摩竭提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "913dfa46889b8854792b9df2117734a97421b76823575ea57aa4118250fdd8d4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
