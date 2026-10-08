@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "bardo",
+    "compassion",
+    "enlightenment",
+    "grace-from-god",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "pilgrimage",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "temple-centered",
+    "theodicy",
+    "theophany",
+    "truthfulness",
+    "vision-experience"
+  ],
+  "keywords": [
+    "三寶",
+    "感應",
+    "優填王",
+    "波斯匿王",
+    "紫栴檀",
+    "佛像",
+    "忉利天",
+    "摩耶夫人",
+    "毗首羯摩",
+    "五戒",
+    "十二緣生",
+    "三歸依",
+    "仙道王",
+    "影勝王",
+    "苾芻"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "82df9cf855d164036dcc1fd48d49eaec52eac4a15aed066db4b7419cb6dbac4f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
