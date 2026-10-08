@@ -20,5 +20,56 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "other-power",
+    "prayer",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "truthfulness"
+  ],
+  "keywords": [
+    "藥師七佛",
+    "釋迦牟尼",
+    "瑠璃光佛",
+    "八大善逝",
+    "七佛",
+    "維衛",
+    "式棄",
+    "毘舍浮",
+    "毘婆尸",
+    "拘那含牟尼",
+    "迦葉",
+    "釋迦",
+    "文殊",
+    "觀世音",
+    "十二因緣"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ce635856ec3b10bf648362c27f2aa979f7f4ef5d1f59f85ad609b221b49a38c0"
+  },
+  "tagging_models": "MiniMax-M3"
 }

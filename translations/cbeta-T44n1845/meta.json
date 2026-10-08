@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T44",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "bardo",
+    "commentarial-layer",
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "self-effort",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "馬鳴菩薩",
+    "起信論",
+    "一心",
+    "真如門",
+    "生滅門",
+    "如來藏",
+    "本覺",
+    "不覺",
+    "大乘",
+    "染淨",
+    "三性",
+    "分別性",
+    "依他性",
+    "摩訶衍",
+    "大乘起信論別記"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "existence-why-born",
+    "faith-doubt",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "08be5f366a2fcaddf6e0282c21511601f16c244acb8651628d518a04db1d705c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

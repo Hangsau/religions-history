@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "enlightenment",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "金剛手",
+    "釋迦牟尼",
+    "寶燈世界",
+    "蓮華",
+    "俱知魔軍",
+    "大寶廣博樓閣善住祕密",
+    "薄伽梵",
+    "三摩地",
+    "持明仙",
+    "毘那夜迦",
+    "端嚴摩尼種種清淨建立如來",
+    "王舍大城",
+    "贍部洲",
+    "五逆"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "73d3e75e9fb8ac33629615b6b80eb10d95b6217eb010383083a58804d2892ef6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
