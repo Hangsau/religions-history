@@ -20,5 +20,55 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "grace-from-god",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "self-effort",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "舍衛國",
+    "祇陀林",
+    "給孤窮精舍",
+    "尼乾陀若提子",
+    "空寂滅",
+    "妄想",
+    "顛倒",
+    "心性常淨",
+    "如來",
+    "大悲",
+    "嬰兒",
+    "結使",
+    "無我",
+    "眾生",
+    "菩薩摩訶薩"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7cae48b6e2de7985a30728b0b144ab7ad2dc6ce55c2fa80b1949ccf3174050ca"
+  },
+  "tagging_models": "MiniMax-M3"
 }

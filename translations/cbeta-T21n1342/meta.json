@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "總持",
+    "勝怨菩薩",
+    "能仁如來",
+    "舍衛國",
+    "祇樹給孤獨園",
+    "五陰",
+    "無崖際",
+    "般若",
+    "解脫",
+    "三昧",
+    "摩尼珠",
+    "雪山",
+    "奢臘夜叉王",
+    "蓮華化生"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f0a2775d237daf42486e13baa19fc8e5791d1a46477327b3656fb4f5b7f2e1df"
+  },
+  "tagging_models": "MiniMax-M3"
 }

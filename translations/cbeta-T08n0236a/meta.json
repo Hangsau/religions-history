@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T08",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "emptiness",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "般若波羅蜜",
+    "金剛",
+    "須菩提",
+    "阿耨多羅三藐三菩提",
+    "菩薩",
+    "布施",
+    "無住",
+    "忍辱",
+    "歌利王",
+    "燃燈佛",
+    "實相",
+    "我相",
+    "眾生相",
+    "涅槃",
+    "舍婆提城"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "trust-vulnerability",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "55eb038a120112856d7038eb2004cae7d32eed6a87ea324ddad2736c2d02327b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
