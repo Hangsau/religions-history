@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "文殊師利",
+    "八字陀羅尼",
+    "真言",
+    "灌頂",
+    "阿闍梨",
+    "持明悉地",
+    "曼荼羅",
+    "護摩",
+    "念誦",
+    "三摩地",
+    "五智杵",
+    "悉地",
+    "洛叉",
+    "閼伽",
+    "青龍寺"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c69af6811bc08371dbd222eed2eec0a2872b0ff53d80296b610ca639516bbd34"
+  },
+  "tagging_models": "MiniMax-M3"
 }

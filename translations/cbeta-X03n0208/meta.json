@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X03",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "emptiness",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "如來",
+    "法身",
+    "文殊菩薩",
+    "普賢",
+    "光明",
+    "四種道",
+    "權道",
+    "涅槃",
+    "摩訶般若",
+    "金剛智",
+    "清淨",
+    "月輪身",
+    "十力",
+    "三明",
+    "大悲"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7ff51012ce7a604a0d8ed4c6d15621415e1344c6811f3215e07e0e1d1c3de7e1"
+  },
+  "tagging_models": "MiniMax-M3"
 }
