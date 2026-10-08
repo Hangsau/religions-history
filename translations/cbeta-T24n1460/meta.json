@@ -20,5 +20,51 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "congregational",
+    "enlightenment",
+    "humility",
+    "karma-rebirth",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "truthfulness"
+  ],
+  "keywords": [
+    "解脫戒經",
+    "波羅夷",
+    "僧伽婆尸沙",
+    "布薩",
+    "羯磨",
+    "毘婆尸",
+    "尸棄",
+    "毘舍浮",
+    "拘留村陀",
+    "迦那迦牟尼",
+    "迦葉波",
+    "釋迦牟尼",
+    "沙門",
+    "涅槃",
+    "鄴"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "communication-being-understood",
+    "courage"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e7af77ac60c5ad1516cd5beba6f1242da866463a4a1ae2b6c6f4b4358cc86dfb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

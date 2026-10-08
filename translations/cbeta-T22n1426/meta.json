@@ -20,5 +20,50 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T22",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "caste-system",
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "dietary-restrictions",
+    "monastic",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "self-effort",
+    "sexual-ethics",
+    "truthfulness"
+  ],
+  "keywords": [
+    "六念法",
+    "波羅夷",
+    "波羅提木叉",
+    "僧伽婆尸沙",
+    "布薩",
+    "摩訶僧祇律",
+    "毘舍離",
+    "王舍城",
+    "舍衛國",
+    "耶奢伽蘭陀子",
+    "鹿杖外道",
+    "增上慢",
+    "摩那埵",
+    "波利婆沙",
+    "羯磨"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "death",
+    "fear-uncertainty",
+    "giving-generosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6104b63defc233bb27da9d77499084926e579ac8d93e555ec5fe96c7410c793a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
