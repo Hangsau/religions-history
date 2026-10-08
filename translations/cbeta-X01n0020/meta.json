@@ -20,5 +20,46 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "ancestor-worship",
+    "bardo",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "theodicy"
+  ],
+  "keywords": [
+    "地藏菩薩",
+    "閻魔法王",
+    "十王",
+    "秦廣王",
+    "五道轉輪王",
+    "中陰身",
+    "奈河津",
+    "業鏡",
+    "阿賴耶識",
+    "魂識",
+    "魄識",
+    "神呪",
+    "雙童",
+    "六種名字",
+    "十齋"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fedb12ca5dc76b3a00f4a7a117fb23b0c569b466302b3acb40fa82e38cd28dc4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

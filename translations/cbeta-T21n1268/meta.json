@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "divine-kingship",
+    "liberation-by-devotion",
+    "other-power",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+  ],
+  "keywords": [
+    "毘那夜迦",
+    "大自在天",
+    "摩醯首羅",
+    "陀羅尼",
+    "壇法",
+    "結界",
+    "使者",
+    "歡喜團",
+    "阿伽木",
+    "八毘那夜迦",
+    "象頭",
+    "雞羅山",
+    "梵天",
+    "急疾神王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body",
+    "justice-power",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2f777e0dc3b8e40d89ac3a1f682d0167ed1e4ada50dccbed510729a855bf0728"
+  },
+  "tagging_models": "MiniMax-M3"
 }
