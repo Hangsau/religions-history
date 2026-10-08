@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T54",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+  ],
+  "keywords": [
+    "悉曇",
+    "瑜伽",
+    "持念",
+    "唐梵",
+    "梵漢",
+    "真言",
+    "密教",
+    "曼荼羅",
+    "灌頂",
+    "金剛",
+    "阿闍梨",
+    "涅槃",
+    "六趣",
+    "菩提"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f05d826eefdbdd79987dc0e02c2bc211f5142fc601ae7e02dd9eeb8c08f45cf2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

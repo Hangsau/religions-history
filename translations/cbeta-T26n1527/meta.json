@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "涅槃",
+    "甘露門",
+    "自性清淨藏",
+    "金剛不壞身",
+    "佛性",
+    "四依",
+    "滿字",
+    "半字",
+    "蓮華藏世界",
+    "閻浮檀金",
+    "一闡提",
+    "船師",
+    "如意樹",
+    "四顛倒",
+    "生死大海"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1addbe322ffd9f7e939fe893b65529162fc1b7898456d281ecfe652e56ebbf7c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

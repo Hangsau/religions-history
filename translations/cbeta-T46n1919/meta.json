@@ -20,5 +20,43 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T46",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "安般守意",
+    "數息",
+    "六妙門",
+    "止觀",
+    "電光定",
+    "優陀那",
+    "中脈",
+    "身念處",
+    "通明觀",
+    "阿那般那",
+    "焦息",
+    "遍息",
+    "止息",
+    "細住心",
+    "兜醯羅"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "illness-body",
+    "patience-waiting",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "638450d5206c3d34b24c032961d30e2cf82fa20ecb016231ae3a07cc1bd2eabc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
