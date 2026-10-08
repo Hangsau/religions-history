@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "meditation",
+    "mystical-union",
+    "priesthood",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "金剛界",
+    "普賢菩薩",
+    "阿闍梨",
+    "灌頂",
+    "曼荼羅",
+    "毘盧遮那佛",
+    "阿閦鞞",
+    "寶生尊",
+    "無量壽",
+    "不空成就",
+    "金剛薩埵",
+    "真言",
+    "三昧",
+    "念誦"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e11dae0884067dfbf8d6404d51f3e63d5ef57d51381bd28bb5a2de594cdd2490"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,44 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "菩薩戒",
+    "波羅夷",
+    "突吉羅",
+    "三聚戒",
+    "律儀戒",
+    "攝善法戒",
+    "攝眾生戒",
+    "彌勒",
+    "盧舍那",
+    "摩得勒伽",
+    "涅槃",
+    "菩提",
+    "懺悔",
+    "波羅提木叉",
+    "毘尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "giving-generosity",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "08b58a36c0099754c8bb5f92b074ca6db761ae12d8bb3f5400b3f112d1a5382f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T14",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "須摩提",
+    "無常",
+    "十二緣起",
+    "三寶",
+    "五陰",
+    "十惡",
+    "迦葉佛",
+    "拘那含牟尼佛",
+    "彌勒",
+    "除諸憂惱",
+    "示現眾生",
+    "般涅槃",
+    "波旬",
+    "鹿野園"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1dfc4b5f1578c8b96d0f1710cbe5d6d9656c3788447f3cb579bffb10879a1b9e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
