@@ -20,5 +20,45 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "self-effort"
+  ],
+  "keywords": [
+    "賴吒和羅",
+    "佛",
+    "沙門",
+    "袈裟",
+    "四禪",
+    "須陀洹",
+    "阿羅漢",
+    "泥洹",
+    "拘獵王",
+    "黈羅歐吒國",
+    "舍衛",
+    "祇洹",
+    "五戒",
+    "不殺",
+    "不盜"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "illness-body",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1ccbcc773ff54dbed1c4791977dc8e88811bf901bd3502cf69fc1090bb7fc4f9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
