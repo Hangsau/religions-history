@@ -20,5 +20,49 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "vision-experience"
+  ],
+  "keywords": [
+    "觀世音自在",
+    "阿唎多唎心呪",
+    "慕陀羅尼",
+    "隨心印呪",
+    "印壇法",
+    "魔王波旬",
+    "六道眾生",
+    "甘露",
+    "三昧",
+    "護身印",
+    "大懺悔印",
+    "持戒印",
+    "灌頂",
+    "天龍八部",
+    "外道六師"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ea9af3bb17ee705470711574122c145a2435c403df6a06ceb7a45f318d61cbc9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

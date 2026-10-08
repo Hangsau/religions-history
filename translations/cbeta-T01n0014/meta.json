@@ -20,5 +20,47 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T01",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "suffering-as-purifying"
+  ],
+  "keywords": [
+    "阿難",
+    "拘類國",
+    "十二因緣",
+    "老死",
+    "生",
+    "有",
+    "受",
+    "愛",
+    "取",
+    "更",
+    "痛",
+    "名色",
+    "欲愛",
+    "生死",
+    "陰"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "existence-why-born",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "36c235e5f07108e71f30c94ab807ec72045078207fdd8f3ddd4c0c782fbe563d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
