@@ -20,5 +20,54 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "enlightenment",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "self-effort",
+    "syncretic",
+    "vision-experience"
+  ],
+  "keywords": [
+    "尊那菩薩",
+    "持明藏",
+    "瑜伽大教",
+    "毘盧遮那如來",
+    "龍樹菩薩",
+    "悉地",
+    "曼拏羅",
+    "大明",
+    "阿羅漢",
+    "金剛手菩薩",
+    "觀自在菩薩",
+    "慈氏",
+    "阿吠嚩哩底迦",
+    "字輪",
+    "觀智成就"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "cba64f39d61f44a656c4eae326a9b3a9b62b7cb0c8c422ad5bf85fffb2118138"
+  },
+  "tagging_models": "MiniMax-M3"
 }

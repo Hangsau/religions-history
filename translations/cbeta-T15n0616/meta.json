@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T15",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-violence",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "不淨觀",
+    "白骨觀",
+    "五蓋",
+    "婬欲",
+    "瞋恚",
+    "睡眠",
+    "掉悔",
+    "禪定",
+    "三十六物",
+    "五欲",
+    "摩訶目揵連",
+    "阿羅漢",
+    "菩薩",
+    "摩訶衍",
+    "初禪"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0b02c1a54d492c3bf600fe462d7fe299dd5d777120711261cdceb3e13c31bd57"
+  },
+  "tagging_models": "MiniMax-M3"
 }
