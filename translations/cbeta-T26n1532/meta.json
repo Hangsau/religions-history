@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T26",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "釋迦牟尼佛",
+    "文殊師利",
+    "跋陀婆羅",
+    "網明菩薩",
+    "菩薩",
+    "聲聞",
+    "陀羅尼",
+    "無生法忍",
+    "三摩提",
+    "三昧",
+    "樂說辯才",
+    "光明",
+    "波羅蜜",
+    "阿耨多羅三藐三菩提",
+    "梵天王"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "fear-uncertainty",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e34369dd0a96c2134f181d36f882afcddb1ddb368d233047f59c3d62516cdf51"
+  },
+  "tagging_models": "MiniMax-M3"
 }
