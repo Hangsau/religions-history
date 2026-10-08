@@ -20,5 +20,58 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X12",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "essentially-flawed",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "楞嚴",
+    "正脉",
+    "會解",
+    "天如",
+    "觀音",
+    "萬曆",
+    "蘆芽",
+    "法住寺",
+    "圓妙",
+    "萬法惟心",
+    "報恩堂",
+    "古風",
+    "註疏",
+    "華嚴",
+    "法華"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4cc91106f4aa91854021114d52da757fa33089d8eef1b5d89fd6abb9db71abab"
+  },
+  "tagging_models": "MiniMax-M3"
 }

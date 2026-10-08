@@ -20,5 +20,59 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T51",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "mystical-union",
+    "pilgrimage",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "syncretic",
+    "temple-centered",
+    "theophany",
+    "vision-experience"
+  ],
+  "keywords": [
+    "廬山",
+    "匡俗",
+    "匡山",
+    "九疊",
+    "尋陽",
+    "彭蠡",
+    "宮亭湖",
+    "秦始皇",
+    "夏禹",
+    "惠遠",
+    "董奉",
+    "神廟",
+    "杏林",
+    "白鶴",
+    "庾樓"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6a289ba54321c320a65f50963b24f768803ca0343b99b78e74ba143dfcd60240"
+  },
+  "tagging_models": "MiniMax-M3"
 }
