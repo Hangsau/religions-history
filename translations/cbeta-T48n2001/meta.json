@@ -20,5 +20,61 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T48",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "celibate-tradition",
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "essentially-good",
+    "extinction-of-self",
+    "humility",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "study",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "天童覺",
+    "宏智禪師",
+    "范宗尹",
+    "長蘆",
+    "普照禪寺",
+    "曹洞宗",
+    "臨濟宗",
+    "溈仰宗",
+    "雲門宗",
+    "法眼宗",
+    "毘盧遮那",
+    "西竺頭陀",
+    "達磨",
+    "禪",
+    "拈花"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "boundaries-self-worth",
+    "calling-vocation",
+    "change-transformation",
+    "death"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b5b9a30a49a1c116752497869513318efacf16ed3cdffc07b237c232cd7f35cb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
