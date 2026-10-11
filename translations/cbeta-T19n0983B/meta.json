@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "孔雀經",
+    "真言",
+    "梵本",
+    "界",
+    "降",
+    "沙門",
+    "南嶽金剛峯寺",
+    "本初",
+    "密門",
+    "王開",
+    "寶曆",
+    "天保",
+    "圓通寺",
+    "梵字",
+    "dharani"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3d621a1cce3d0e6a7ebcd8065b77dac56fbb1e33c649e506849bcd569203e190"
+  },
+  "tagging_models": "MiniMax-M3"
 }
