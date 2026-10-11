@@ -20,5 +20,40 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T24",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "羯恥那衣",
+    "苾芻",
+    "雨安居",
+    "室羅筏城",
+    "逝多林給孤獨園",
+    "支伐羅",
+    "鄔波離",
+    "羯磨",
+    "揵椎",
+    "僧伽",
+    "安居",
+    "衣利",
+    "張衣"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "responsibility-leadership",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "65b52675f971d525948cd010368c0a9951c4edf095e5d35ff588af78d1178043"
+  },
+  "tagging_models": "MiniMax-M3"
 }
