@@ -20,5 +20,36 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+  ],
+  "keywords": [
+    "烏芻澁明王",
+    "儀軌",
+    "梵字",
+    "真言",
+    "陀羅尼",
+    "密教",
+    "護摩",
+    "結界",
+    "召請",
+    "印契"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b3bc9319a990ab81b2358dd174eca38300b1e56b6bdaaab0fe1f081f866a9bf8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

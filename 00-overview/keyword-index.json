@@ -12983,6 +12983,11 @@
       "slug": "cbeta-T19n0941",
       "name_zh": "釋迦牟尼佛成道在菩提樹降魔讚",
       "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
+      "religion": "佛教"
     }
   ],
   "dharma": [
@@ -20237,6 +20242,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1054",
       "name_zh": "聖觀自在菩薩一百八名經",
       "religion": "佛教"
@@ -20264,6 +20274,11 @@
     {
       "slug": "cbeta-T20n1126",
       "name_zh": "佛說普賢曼拏羅經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -27689,6 +27704,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1118",
       "name_zh": "佛說十八臂陀羅尼經",
       "religion": "佛教"
@@ -28928,6 +28948,13 @@
     {
       "slug": "cbeta-T21n1210",
       "name_zh": "降三世忿怒明王念誦儀軌",
+      "religion": "佛教"
+    }
+  ],
+  "三解脫": [
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
       "religion": "佛教"
     }
   ],
@@ -34943,6 +34970,13 @@
     {
       "slug": "cbeta-T12n0362",
       "name_zh": "佛說阿彌陀三耶三佛薩樓佛檀過度人道經",
+      "religion": "佛教"
+    }
+  ],
+  "二十會": [
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     }
   ],
@@ -43377,6 +43411,13 @@
       "religion": "佛教"
     }
   ],
+  "佛教咒語": [
+    {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    }
+  ],
   "佛教術語": [
     {
       "slug": "cbeta-T54n2135",
@@ -44324,6 +44365,11 @@
     {
       "slug": "cbeta-T19n0954B",
       "name_zh": "一字頂輪王念誦儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
       "religion": "佛教"
     },
     {
@@ -47502,8 +47548,23 @@
   ],
   "儀軌": [
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1191",
       "name_zh": "大方廣菩薩藏文殊師利根本儀軌經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {
@@ -56451,6 +56512,13 @@
       "religion": "佛教"
     }
   ],
+  "勝初瑜伽儀軌真言": [
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
+      "religion": "佛教"
+    }
+  ],
   "勝堅固如來": [
     {
       "slug": "cbeta-T14n0574",
@@ -59306,6 +59374,11 @@
     {
       "slug": "cbeta-T19n0942",
       "name_zh": "釋迦佛讚",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
       "religion": "佛教"
     },
     {
@@ -62770,6 +62843,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1255b",
       "name_zh": "佛說摩利支天經",
       "religion": "佛教"
@@ -63965,6 +64043,11 @@
     }
   ],
   "召請": [
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
+      "religion": "佛教"
+    },
     {
       "slug": "cbeta-T21n1263",
       "name_zh": "氷揭羅天童子經",
@@ -65975,6 +66058,13 @@
       "religion": "佛教"
     }
   ],
+  "唐密": [
+    {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    }
+  ],
   "唐梵": [
     {
       "slug": "cbeta-T54n2129",
@@ -66396,6 +66486,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1078",
       "name_zh": "七佛俱胝佛母心大准提陀羅尼法",
       "religion": "佛教"
@@ -66448,6 +66543,11 @@
     {
       "slug": "cbeta-T20n1121",
       "name_zh": "金剛頂普賢瑜伽大教王經大樂不空金剛薩埵一切時方成就儀",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -66580,6 +66680,13 @@
     {
       "slug": "cbeta-T20n1182",
       "name_zh": "曼殊室利菩薩呪藏中一字呪王經",
+      "religion": "佛教"
+    }
+  ],
+  "唵嘛呢叭咪吽": [
+    {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
       "religion": "佛教"
     }
   ],
@@ -68446,6 +68553,11 @@
     {
       "slug": "cbeta-T19n0974A",
       "name_zh": "最勝佛頂陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -78969,6 +79081,13 @@
       "religion": "佛教"
     }
   ],
+  "大悲神咒": [
+    {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    }
+  ],
   "大悲胎藏大曼荼羅": [
     {
       "slug": "cbeta-T19n1000",
@@ -79671,6 +79790,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1187",
       "name_zh": "佛說最勝妙吉祥根本智最上祕密一切名義三摩地分",
       "religion": "佛教"
@@ -80214,6 +80338,13 @@
       "religion": "佛教"
     }
   ],
+  "大治三年": [
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
+      "religion": "佛教"
+    }
+  ],
   "大法": [
     {
       "slug": "cbeta-T49n2026",
@@ -80731,6 +80862,13 @@
     {
       "slug": "cbeta-T02n0126",
       "name_zh": "佛說阿羅漢具德經",
+      "religion": "佛教"
+    }
+  ],
+  "大自在": [
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
       "religion": "佛教"
     }
   ],
@@ -91991,6 +92129,13 @@
       "religion": "佛教"
     }
   ],
+  "寂滅相": [
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
+      "religion": "佛教"
+    }
+  ],
   "寂滅道": [
     {
       "slug": "cbeta-T02n0105",
@@ -92158,6 +92303,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1390",
       "name_zh": "佛說洛叉陀羅尼經",
       "religion": "佛教"
@@ -92297,8 +92452,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1212",
       "name_zh": "西方陀羅尼藏中金剛族阿蜜哩多軍吒利法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {
@@ -115573,6 +115738,13 @@
       "religion": "佛教"
     }
   ],
+  "摩賀薩埵": [
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
+      "religion": "佛教"
+    }
+  ],
   "摩賀部部嚕": [
     {
       "slug": "cbeta-T21n1415",
@@ -128765,6 +128937,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T19n1006",
       "name_zh": "廣大寶樓閣善住祕密陀羅尼經",
       "religion": "佛教"
@@ -129101,6 +129278,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1152",
       "name_zh": "佛說佛母般若波羅蜜多大明觀想儀軌",
       "religion": "佛教"
@@ -129113,6 +129295,11 @@
     {
       "slug": "cbeta-T21n1213",
       "name_zh": "千臂軍荼利梵字真言",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {
@@ -129458,6 +129645,11 @@
     {
       "slug": "cbeta-T19n0974B",
       "name_zh": "佛頂尊勝陀羅尼",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
       "religion": "佛教"
     },
     {
@@ -130112,6 +130304,11 @@
     {
       "slug": "cbeta-T20n1107",
       "name_zh": "聖多羅菩薩梵讚",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -151731,6 +151928,13 @@
       "religion": "佛教"
     }
   ],
+  "烏芻澁明王": [
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
+      "religion": "佛教"
+    }
+  ],
   "烏茶國": [
     {
       "slug": "cbeta-X05n0229",
@@ -155200,6 +155404,13 @@
     {
       "slug": "cbeta-T47n1957",
       "name_zh": "略論安樂淨土義",
+      "religion": "佛教"
+    }
+  ],
+  "無等等": [
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
       "religion": "佛教"
     }
   ],
@@ -159977,6 +160188,11 @@
     {
       "slug": "cbeta-T20n1120A",
       "name_zh": "金剛頂勝初瑜伽經中略出大樂金剛薩埵念誦儀",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
       "religion": "佛教"
     },
     {
@@ -165649,6 +165865,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1064",
       "name_zh": "千手千眼觀世音菩薩大悲心陀羅尼",
       "religion": "佛教"
@@ -165746,6 +165967,11 @@
     {
       "slug": "cbeta-T20n1120A",
       "name_zh": "金剛頂勝初瑜伽經中略出大樂金剛薩埵念誦儀",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
       "religion": "佛教"
     },
     {
@@ -165926,6 +166152,11 @@
     {
       "slug": "cbeta-T21n1225",
       "name_zh": "大威怒烏芻澁麼儀軌經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {
@@ -170676,6 +170907,13 @@
     {
       "slug": "cbeta-T01n0082",
       "name_zh": "意經",
+      "religion": "佛教"
+    }
+  ],
+  "神通光": [
+    {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
       "religion": "佛教"
     }
   ],
@@ -176407,6 +176645,11 @@
     {
       "slug": "cbeta-T21n1220",
       "name_zh": "金剛藥叉瞋怒王息災大威神驗念誦儀軌",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {
@@ -191095,6 +191338,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T21n1240",
       "name_zh": "阿吒薄𤘽付囑呪",
       "religion": "佛教"
@@ -194478,6 +194726,11 @@
     {
       "slug": "cbeta-T20n1114",
       "name_zh": "毘俱胝菩薩一百八名經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -199602,6 +199855,11 @@
     {
       "slug": "cbeta-T20n1107",
       "name_zh": "聖多羅菩薩梵讚",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -205027,6 +205285,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1067",
       "name_zh": "攝無礙大悲心大陀羅尼經計一法中出無量義南方滿願補陀落海會五部諸尊等弘誓力方位及威儀形色執持三摩耶幖幟曼荼羅儀軌",
       "religion": "佛教"
@@ -207991,6 +208254,11 @@
     {
       "slug": "cbeta-T21n1223",
       "name_zh": "佛說無量壽佛化身大忿迅俱摩羅金剛念誦瑜伽儀軌法",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {
@@ -215523,6 +215791,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T19n0960",
+      "name_zh": "一切如來說佛頂輪王一百八名讚",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1082",
       "name_zh": "觀世音菩薩祕密藏如意輪陀羅尼神呪經",
       "religion": "佛教"
@@ -215659,6 +215932,13 @@
     {
       "slug": "cbeta-T21n1386",
       "name_zh": "佛說妙色陀羅尼經",
+      "religion": "佛教"
+    }
+  ],
+  "那謨窣覩帝": [
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     }
   ],
@@ -218784,6 +219064,13 @@
       "religion": "佛教"
     }
   ],
+  "金剛峯寺": [
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
+      "religion": "佛教"
+    }
+  ],
   "金剛峰": [
     {
       "slug": "cbeta-T20n1127",
@@ -219241,6 +219528,11 @@
     {
       "slug": "cbeta-T20n1130",
       "name_zh": "大乘金剛髻珠菩薩修行分",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1131",
+      "name_zh": "聖金剛手菩薩一百八名梵讚",
       "religion": "佛教"
     },
     {
@@ -232321,6 +232613,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T20n1063",
+      "name_zh": "番大悲神呪",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T20n1064",
       "name_zh": "千手千眼觀世音菩薩大悲心陀羅尼",
       "religion": "佛教"
@@ -232478,6 +232775,11 @@
     {
       "slug": "cbeta-T20n1118",
       "name_zh": "佛說十八臂陀羅尼經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T20n1120B",
+      "name_zh": "勝初瑜伽儀軌真言",
       "religion": "佛教"
     },
     {
@@ -232668,6 +232970,11 @@
     {
       "slug": "cbeta-T21n1213",
       "name_zh": "千臂軍荼利梵字真言",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T21n1226",
+      "name_zh": "烏芻澁明王儀軌梵字",
       "religion": "佛教"
     },
     {

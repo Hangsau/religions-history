@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "大悲神咒",
+    "唵",
+    "莎訶",
+    "觀音",
+    "梵字",
+    "密咒",
+    "唵嘛呢叭咪吽",
+    "儀軌",
+    "真言",
+    "陀羅尼",
+    "唐密",
+    "佛教咒語"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "3ab567906de1fd122b7f52294f238831bfcea7815a87082d3866760c6b3a8648"
+  },
+  "tagging_models": "MiniMax-M3"
 }
