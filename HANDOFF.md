@@ -3,6 +3,31 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-10-11 晚間：標籤佇列停擺修復（57 部 blocked）
+
+- 症狀：10-09 23:13 後無新 commit。標籤佇列 2382 部完成 2325，剩 57 部全 blocked，
+  supervisor 每小時啟動、4 秒無事可做即退出。
+- 44 部 `empty_tag_axis`：陀羅尼／儀軌／經錄類經典，M3 回 psych_tags 空（38 部）或給表外詞（6 部）。
+  checkpoint 讓每次重試只重放同一空結果，attempts 4 次後 blocked。
+  修法：`tag_one` 聚合後心理軸為空時做一次聚焦補問（`_fill_psych_axis`，以「拿起這部經典的人
+  帶著什麼人生問題來」框定），補上者 meta 記 `psych_tag_method: axis-fill`；補問仍空照舊失敗。
+  已 unblock 44 部並重啟 supervisor，實測華嚴經心陀羅尼 → fear-uncertainty／hope-reason-to-live／
+  meaning-of-suffering。
+- 13 部（14 段）`content_rejected`（MiniMax 1026）：比照第 525 段先例，codex 逐段審讀寫
+  `translations/<slug>/reviews/tag-chunk-NNNN.json`，新增通用 `scripts/apply_tag_reviews.py`
+  （預設只驗；`--apply` 取生成鎖、驗 source／chunk hash、寫入 checkpoint、段落全修復即 unblock）。
+  取代一次性 `tmp/tag-resume-20261007/review-525.py`（該檔保留作歷史紀錄）。
+  抽出的段落與 jobs 清單在 `tmp/tag-review-20261011/`（本機，未進 git）。
+- **結果（23:36）**：43+1 部空軸全數補上（0 部補問後仍空）；14 份審讀套用後 13 部完成。
+  標籤佇列 **2382/2382 完成**、blocked 0，supervisor「佇列已全部完成」正常退出。
+  verify --all 0 FAIL，105 項測試通過，所有批次已推 GitHub。
+- 下一步：標籤佇列已無工作。延後清單（短文 17、文字異常 5、無中文來源 1711）與外語來源要不要排，
+  待使用者決定；未決定前 supervisor 啟動即正常退出，不是故障。
+- 注意：手動跑 `auto-pipeline.py` 期間持有生成鎖，看板拉起的 supervisor 會連 3 次「快速退出」
+  而發 ALERT 停止自動重啟；手動跑完要再拉一次 supervisor。
+
+---
+
 ## 2026-10-07 晚間：核心完成後接續標籤佇列
 
 - 核心 518/518 已完成；《摩訶婆羅多》3162 批標籤已全數合併。
