@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T17",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "僧伽尼城",
+    "迦葉佛",
+    "偷婆",
+    "阿難",
+    "金剛際",
+    "七寶",
+    "諸王寺",
+    "群茶王",
+    "涅槃",
+    "清信士",
+    "僧伽藍",
+    "天界"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2e6b80f907f6ecd9995f8f7556595559d0dbcdfec07d8a78db2bc955f5a6a78c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
