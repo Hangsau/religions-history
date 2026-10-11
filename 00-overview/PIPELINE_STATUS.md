@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-11 23:08:55 +0800
+- 更新時間：2026-10-11 23:11:57 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**2331 / 2382** 已完成雙標籤
+- 進度：**2336 / 2382** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`cbeta-T21n1213`
+- 目前處理：`cbeta-T32n1684`
 - P0 尚未完整翻譯：0 部
-- 一般失敗待重試：38 部 — cbeta-X02n0184, cbeta-T32n1677, cbeta-T55n2171, cbeta-T20n1196, cbeta-T32n1684, cbeta-X12n0273, cbeta-T20n1156B, cbeta-T55n2166, cbeta-T21n1241, cbeta-T55n2162
+- 一般失敗待重試：33 部 — cbeta-X12n0273, cbeta-T20n1156B, cbeta-T55n2166, cbeta-T21n1241, cbeta-T55n2162, cbeta-T19n0941, cbeta-T20n1176, cbeta-T21n1296, cbeta-T01n0089, cbeta-T20n1158
 - 已阻塞待人工處理：13 部 — cbeta-T02n0113, cbeta-T17n0735, cbeta-T28n1557, cbeta-T15n0603, cbeta-T17n0817, cbeta-T33n1694, cbeta-T14n0481, cbeta-T15n0624, cbeta-X12n0279, cbeta-T46n1911
-- M3 執行狀態：**running** — `cbeta-T21n1213` (tag)
+- M3 執行狀態：**running** — `cbeta-T32n1684` (tag)
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。

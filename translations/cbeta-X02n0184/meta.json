@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon X / volume X02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "multiple-canons",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "藥叉",
+    "二十八部",
+    "護摩壇",
+    "唱禮",
+    "東方",
+    "南方",
+    "西方",
+    "北方",
+    "四維",
+    "半之迦",
+    "正了知",
+    "最勝王經",
+    "久安五年",
+    "比丘彌伊"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7b3394c998dd5d6abd81d1f07ffb505137c8bedf8e3ea1d7838d8b81ba28d9eb"
+  },
+  "tagging_models": "MiniMax-M3"
 }
