@@ -20,5 +20,37 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T20",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "enlightenment",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "曼殊室利",
+    "五字瑜伽",
+    "真言",
+    "唵",
+    "阿",
+    "吽",
+    "菩提莊嚴",
+    "灌頂",
+    "菩薩",
+    "三字真言",
+    "六字真言",
+    "加持"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a775199fd4324988f276d1fc8062f8f3da9f24c577729c243fc13d0f7a7a365c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

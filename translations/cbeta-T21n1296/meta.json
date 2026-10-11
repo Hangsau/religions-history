@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "大自在天",
+    "帝釋天",
+    "火天",
+    "焰摩天",
+    "羅剎天",
+    "水天",
+    "風天",
+    "毘沙門天",
+    "梵天",
+    "地天",
+    "日天",
+    "月天",
+    "七曜",
+    "二十八宿",
+    "真言"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "67fc6b58ea8eeac1381c52a4e66e82cf13a46b7dd6e53c95dd7952aef0574dcb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

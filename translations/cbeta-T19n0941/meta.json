@@ -20,5 +20,38 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "enlightenment",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "釋迦牟尼",
+    "菩提樹",
+    "降魔",
+    "成道",
+    "讚",
+    "梵文咒語",
+    "陀羅尼",
+    "dharani",
+    "魔羅",
+    "靈雲校",
+    "淨嚴",
+    "貞享"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f9e8be004e83d7a01d9e1c69529402f72d889c934c94d448ea345805708f6e6b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
