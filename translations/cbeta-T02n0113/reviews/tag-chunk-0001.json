@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T02n0113-tag-0001-20261011",
   "created_at": "2026-10-11T23:11:21.199288+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -111,5 +111,7 @@
     "how_to_identify": "對照「我聞是即愁憂」、六念中的入定知四諦，以及念戒、念施的段落；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；六念的安隱與離貪瞋癡按經文修行脈絡理解，不另推定心理治療效果。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.871442+08:00",
+  "output_sha256": "f879956ed5cbf08094c15d115d005818db578bccdd9125091b9433a795655e20"
 }

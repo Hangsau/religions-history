@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T28n1557-tag-0001-20261011",
   "created_at": "2026-10-11T23:11:21.201771+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -112,5 +112,7 @@
     "how_to_identify": "對照開篇苦習盡道、「內盡為何等」、空非身，以及善惡根本與結使的問答；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；「黠可」等古譯術語依本段用法標記，未對各分類數目、異讀或後世術語對應作校訂。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.929678+08:00",
+  "output_sha256": "aceb24071542c25fe57422740087af5b49cefc99e7f9b7715f8c75532098a9ff"
 }

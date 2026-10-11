@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T15n0603-tag-0004-20261011",
   "created_at": "2026-10-11T23:12:38.742504+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -109,5 +109,7 @@
     "how_to_identify": "對照段首無疑信受、「持𧗪戒轉摸貿」、四相應的譬喻與斷上五結、五蓋的說明；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；段末另起「佛說慧印百六十三定解」並轉為向舍利弗的教說；此轉接只按檔內現況辨識，不宣稱篇章歸屬已校勘。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.904879+08:00",
+  "output_sha256": "e258cb5414e1ea391fb4a93e0cd18cc1ee57cdef3d76617a40d6ecf9e4717e27"
 }

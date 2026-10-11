@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T17n0735-tag-0001-20261011",
   "created_at": "2026-10-11T23:11:21.200265+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -111,5 +111,7 @@
     "how_to_identify": "對照純陀喪子、四願中財產與親屬的限制、三惡道及五戒，以及「比丘能曉七處，亦能三觀」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；檔尾由勸戒轉入思想識、五陰與七處三觀，僅按提供的全文記錄主題，不判定此轉接的文獻成因或版本歸屬。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.917129+08:00",
+  "output_sha256": "a65c6e5aa2a27af1cf3e62b06374a0825de6b407e4df5b83c68c4930c2327e4d"
 }

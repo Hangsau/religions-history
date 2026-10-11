@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T13n0397-tag-0268-20261011",
   "created_at": "2026-10-11T23:17:02.048719+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -99,5 +99,7 @@
     "how_to_identify": "對照欲求不遂的種痛、關五陰習與「禪覺復動」問答，區分佛說與末尾既有校記；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；檔末附有談丹藏、宋鄉二本及錯簡的既有校記，本次只辨識其層次，不複核校記結論、不據此移文或宣稱完成校勘。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.879787+08:00",
+  "output_sha256": "4d374191fadefc66756d8002863163ee0cac02b40e29bf3171a5500458e4b18c"
 }

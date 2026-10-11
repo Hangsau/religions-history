@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-X13n0285-tag-0072-20261011",
   "created_at": "2026-10-11T23:15:36.365434+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -110,5 +110,7 @@
     "how_to_identify": "分開「阿難」經文與「根塵識三」「尅論鬼趣」等註語，核對六報、唯心及慎習的論述；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；鬼畜分類及臨終景象只記為經文與註解內容；不以本段略說推成所有眾生固定經過的輪迴路線。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.961911+08:00",
+  "output_sha256": "e0b4f0752f719efd80000f6accc076ebecd35c13b2367b3dd25ad3e920635862"
 }

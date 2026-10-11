@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T17n0817-tag-0004-20261011",
   "created_at": "2026-10-11T23:12:38.743480+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -110,5 +110,7 @@
     "how_to_identify": "分別核對文殊師利的出家定義、上金光首的客塵偈、神通化身敘事及樹聲勸誡；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；女身腐敗為敘事中的神通化現，不改寫為真實死亡事件；重出的偈頌按同一內容理解，未作版本校訂。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.922573+08:00",
+  "output_sha256": "52436e73b7358b9576f83993ac0937c09ef00b1bcc9ad66cb24ec888aab1b9c1"
 }

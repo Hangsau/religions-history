@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-T15n0603-tag-0003-20261011",
   "created_at": "2026-10-11T23:12:38.741527+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -109,5 +109,7 @@
     "how_to_identify": "對照開篇止觀之藥、「不惑清淨本」、非身想與「戒法十一本」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；保留「字」「色」「𧗪」等既有古譯字形，不以本次標籤處理異讀或校定術語。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.892195+08:00",
+  "output_sha256": "c6abedbfe726b8d2b1de604d84fc3905defdd41337f40ac94f23b1394d1dddbd"
 }

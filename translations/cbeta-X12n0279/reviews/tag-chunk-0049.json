@@ -2,7 +2,7 @@
   "schema_version": 1,
   "review_id": "cbeta-X12n0279-tag-0049-20261011",
   "created_at": "2026-10-11T23:15:36.359039+08:00",
-  "status": "reviewed_not_applied",
+  "status": "applied_to_checkpoint",
   "reviewer": "Codex",
   "reviewer_type": "AI_assistant",
   "provenance_type": "source_reviewed_tag_override",
@@ -109,5 +109,7 @@
     "how_to_identify": "區分「議曰」與所引經文，對照思報、十因六果、鬼畜分類及「若悟菩提」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
     "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
     "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；鬼類、病象與動物特性的配對僅記為本書宗教詮釋，未作經驗事實認定；議論者亦自限於據理推說。內容拒絕的精確觸發句未知。"
-  }
+  },
+  "applied_at": "2026-10-11T23:28:58.956450+08:00",
+  "output_sha256": "c8ed44d945088b1ba2204a08c088dc331174ee7a83eee8998d5048025379a334"
 }
