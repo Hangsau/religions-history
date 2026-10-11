@@ -1054,7 +1054,7 @@ def _call_tag_json(prompt: str, slug: str, input_chars: int,
 
 
 def merge_meta_tags(slug: str, semantic_tags: list[str], psych_tags: list[str],
-                    keywords: list[str]) -> None:
+                    keywords: list[str], psych_method: str | None = None) -> None:
     """Merge tags into meta.json, preserving all existing fields + verify.py's format."""
     meta_p = TRANSLATIONS_DIR / slug / "meta.json"
     meta = json.loads(meta_p.read_text(encoding="utf-8"))
@@ -1063,7 +1063,56 @@ def merge_meta_tags(slug: str, semantic_tags: list[str], psych_tags: list[str],
     meta["tag_status"] = "done"
     meta["psych_tags"] = psych_tags
     meta["psych_tag_status"] = "done"
+    if psych_method:
+        meta["psych_tag_method"] = psych_method
+    else:
+        meta.pop("psych_tag_method", None)
     _atomic_write_text(meta_p, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
+
+
+def _fill_psych_axis(slug: str, meta: dict, text: str, semantic_tags: list[str],
+                     keywords: list[str], role: str, psych_whitelist: set[str]) -> set[str]:
+    """One focused re-ask for the psych axis, framed by what brings a reader to the text."""
+    excerpt = text[:MAX_CHARS_PER_CALL - 5000]
+    prompt = f"""## 本次任務：只補 psych_tags
+
+- **slug**: {slug}
+- **name_zh**: {meta.get('name_zh', '?')}
+- **religion**: {meta.get('religion', '?')}
+- 已標 semantic_tags：{' '.join(semantic_tags)}
+- 已標 keywords：{'、'.join(keywords[:15])}
+
+上一輪這部經典的 psych_tags 是空的。psych_tags 不是問「經文有沒有談心理學」，而是問
+**拿起這部經典的人（持誦者、修行者、聽者、編者）是帶著什麼人生問題來的**。
+儀軌、咒語、陀羅尼、目錄、傳承記錄也有使用者：求護身避災、求病癒、為亡者超度、懺罪、
+求開悟、守護傳承、確立身分歸屬，都是人生問題。依文本實際內容挑最切題者。
+
+## psych_tags 人生問題軸白名單（只能從這裡選 1–3 個）
+
+{' '.join(sorted(psych_whitelist))}
+
+---
+
+## 待標記文本
+
+{excerpt}
+
+---
+
+## **輸出規定**
+
+只輸出一個 JSON 物件：{{"psych_tags": ["tag-a"]}}。第一個字元是 `{{`，最後一個是 `}}`，不要解釋。
+"""
+    for attempt in range(1, TAG_PARSE_ATTEMPTS + 1):
+        output = _call_m3_measured(prompt, slug, "tag", len(excerpt), system=role)
+        if output is None:
+            return set()
+        obj = parse_tag_json(output)
+        values = obj.get("psych_tags") if isinstance(obj, dict) else None
+        if isinstance(values, list):
+            return {t for t in values if isinstance(t, str) and t in psych_whitelist}
+        _dump_tag_parse_failure(slug, None, attempt, output)
+    return set()
 
 
 def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str],
@@ -1192,6 +1241,13 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         _record_generation_error(message, "content_rejected")
         print(f"  [content-blocked] {slug}: {message}; metadata unchanged, checkpoints retained")
         return False
+    psych_method = None
+    if sem and not psych:
+        # Ritual / dharani / catalogue texts often get an empty psych axis from the
+        # per-chunk prompt, and checkpoints make plain retries repeat it verbatim.
+        psych |= _fill_psych_axis(slug, meta, chunk_texts[0], sorted(sem), kw,
+                                  role, psych_whitelist)
+        psych_method = "axis-fill" if psych else None
     semantic_tags = sorted(sem)
     psych_tags = sorted(psych)[:5]
     keywords = kw[:15]
@@ -1199,7 +1255,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         _set_failure("empty_tag_axis", "scripture", "semantic or psych controlled tag axis was empty")
         print(f"  [error] {slug} (tag): empty controlled tag axis; metadata unchanged")
         return False
-    merge_meta_tags(slug, semantic_tags, psych_tags, keywords)
+    merge_meta_tags(slug, semantic_tags, psych_tags, keywords, psych_method)
     shutil.rmtree(active, ignore_errors=True)
     _record_completion(slug, "tag", 0, tag_chunks_total)
     print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} semantic, "

@@ -309,6 +309,26 @@ class TranslateCheckpointTests(unittest.TestCase):
             self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
         call.assert_not_called()
 
+    def test_empty_psych_axis_gets_one_focused_fill(self):
+        base, _ = self.make_slug(chapter_chars=50)
+        empty = json.dumps({"semantic_tags": ["meaning"], "psych_tags": [], "keywords": ["x"]})
+        fill = json.dumps({"psych_tags": ["death", "not-in-vocab"]})
+        with mock.patch.object(translate, "call_m3", side_effect=[empty, fill]) as call:
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        self.assertEqual(call.call_count, 2)
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertEqual(meta["psych_tags"], ["death"])
+        self.assertEqual(meta["psych_tag_method"], "axis-fill")
+
+    def test_empty_psych_axis_still_fails_when_fill_finds_nothing(self):
+        base, _ = self.make_slug(chapter_chars=50)
+        empty = json.dumps({"semantic_tags": ["meaning"], "psych_tags": [], "keywords": []})
+        with mock.patch.object(translate, "call_m3",
+                               side_effect=[empty, '{"psych_tags": []}']):
+            self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertNotIn("tag_status", meta)
+
     def test_tag_chunk_reasks_after_unparseable_reply(self):
         base, _ = self.make_slug()
         good = json.dumps({
