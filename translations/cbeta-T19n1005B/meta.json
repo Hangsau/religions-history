@@ -20,5 +20,42 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+  ],
+  "keywords": [
+    "真言",
+    "梵字",
+    "驚覺",
+    "根本",
+    "心",
+    "結壇界",
+    "灌頂",
+    "加持",
+    "曼荼羅",
+    "金剛手",
+    "寶金剛菩薩",
+    "四天王",
+    "天龍",
+    "閼伽",
+    "承安元年"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "insignificance-history"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bc66c70759585208d261995704e0063832e1a083afd41011dfcf0690ca68461e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

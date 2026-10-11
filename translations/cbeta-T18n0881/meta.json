@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T18",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "meditation",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+  ],
+  "keywords": [
+    "賢劫",
+    "彌勒",
+    "虛空藏",
+    "金剛藏",
+    "普賢",
+    "阿字",
+    "吽字",
+    "曼荼羅",
+    "金剛界",
+    "真言",
+    "夜迦天",
+    "那羅延",
+    "多門天",
+    "伊舍那",
+    "seed-syllable"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "43b473665e43b100bf78d5efce5506892771f8582d85482e411240f7c9300bcd"
+  },
+  "tagging_models": "MiniMax-M3"
 }
