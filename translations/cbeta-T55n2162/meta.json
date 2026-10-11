@@ -20,5 +20,41 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T55",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "lineage-importance",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "根本大和尚",
+    "空海",
+    "真然",
+    "阿闍梨",
+    "大僧正",
+    "策子",
+    "目錄",
+    "經藏",
+    "真言",
+    "梵字",
+    "文殊儀軌",
+    "孔雀經",
+    "延喜",
+    "貞觀",
+    "天明"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "memory-reconciliation",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "72cc62437b8709afae92d3cce13372542a04588fa2782ea9206ac1e7a7807fda"
+  },
+  "tagging_models": "MiniMax-M3"
 }

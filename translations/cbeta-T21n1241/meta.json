@@ -20,5 +20,33 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T21",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language"
+  ],
+  "keywords": [
+    "伽馱金剛真言",
+    "真言",
+    "唵",
+    "吽",
+    "皤哦嚩底",
+    "嚩日囉哦馱哩",
+    "金剛",
+    "咒語",
+    "梵音",
+    "陀羅尼"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "24ce9aad6616f9eee45f9b59364a2485b73635c069c109ced4557c715a9f1f2a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
