@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T02n0113-tag-0001-20261011",
+  "created_at": "2026-10-11T23:11:21.199288+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T02n0113",
+  "slug": "cbeta-T02n0113",
+  "task": "tag",
+  "chunk_index": 1,
+  "source_path": "translations/cbeta-T02n0113/raw/original.txt",
+  "source_sha256": "5495e40c929d78b4d79db4105e02bbe6b18418bb4e3a9b671676838b2f93495c",
+  "input_sha256": "5495e40c929d78b4d79db4105e02bbe6b18418bb4e3a9b671676838b2f93495c",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0715de8ac2cc7f64065983f59d5beac6\"}",
+    "blocked_at": "2026-10-08T04:28:59.314359+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T02n0113-tag-0001-c1",
+      "claim_kind": "text_passage",
+      "locator": "我聞是即愁憂，所食不覺味",
+      "speaker": "難提釋陳情；佛回答",
+      "statement": "難提因將與佛及清淨比丘離別而憂愁，佛教他無論能否相見都持守信、清淨行、施、慧與多聞。",
+      "supports": [
+        "study",
+        "loss-grief"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T02n0113-tag-0001-c2",
+      "claim_kind": "text_passage",
+      "locator": "若慧弟子念佛諸德",
+      "speaker": "佛對難提釋說",
+      "statement": "佛以念佛等六念說明離貪瞋癡、由喜樂安隱入定而如實知苦集滅道的修行次第。",
+      "supports": [
+        "meditation",
+        "four-noble-truths",
+        "liberation-by-knowledge",
+        "emotions-passions",
+        "stillness-rest"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T02n0113-tag-0001-c3",
+      "claim_kind": "text_passage",
+      "locator": "若慧弟子自念戒德",
+      "speaker": "佛對難提釋說",
+      "statement": "佛主張尊重所受戒律，並以從戒得定、從定離愛說明持戒的修行意義。",
+      "supports": [
+        "commandments-law"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T02n0113-tag-0001-c4",
+      "claim_kind": "text_passage",
+      "locator": "若慧弟子自念施與之德",
+      "speaker": "佛對難提釋說",
+      "statement": "念施與之德以能從慳貪中自拔、常樂與人為喜悅的根據。",
+      "supports": [
+        "giving-generosity"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "study",
+      "meditation",
+      "four-noble-truths",
+      "liberation-by-knowledge",
+      "commandments-law"
+    ],
+    "psych_tags": [
+      "loss-grief",
+      "emotions-passions",
+      "stillness-rest",
+      "giving-generosity"
+    ],
+    "keywords": [
+      "難提釋",
+      "離別憂愁",
+      "信戒聞施慧",
+      "六念",
+      "念佛",
+      "念法",
+      "念僧",
+      "念戒",
+      "念施",
+      "念天",
+      "四諦",
+      "安隱"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依難提的離別憂愁與佛所教五法、六念，為第 1 段提供學習、持戒、禪定及四諦等審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照「我聞是即愁憂」、六念中的入定知四諦，以及念戒、念施的段落；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；六念的安隱與離貪瞋癡按經文修行脈絡理解，不另推定心理治療效果。內容拒絕的精確觸發句未知。"
+  }
+}

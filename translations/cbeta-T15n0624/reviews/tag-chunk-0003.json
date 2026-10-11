@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T15n0624-tag-0003-20261011",
+  "created_at": "2026-10-11T23:14:09.388749+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T15n0624",
+  "slug": "cbeta-T15n0624",
+  "task": "tag",
+  "chunk_index": 3,
+  "source_path": "translations/cbeta-T15n0624/raw/original.txt",
+  "source_sha256": "644681b5dd957c17e7b25830646b1c33520be9f38c2bc3406f1f64ead7a42292",
+  "input_sha256": "d5e49d2702e503cc5cee86414192d90b87b16a25ccd26c03114ddcb7b5892989",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0716b6c53ea11ca6dc94c84f393e2e93\"}",
+    "blocked_at": "2026-10-08T19:51:33.464765+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T15n0624-tag-0003-c1",
+      "claim_kind": "text_passage",
+      "locator": "我與人自然空",
+      "speaker": "伅真陀羅王等所奏樂音中的法語；已讀前文確認音樂發聲脈絡",
+      "statement": "段首樂音法語說我與人及名色皆空、無所住，以無我和無著引導聞法者。",
+      "supports": [
+        "emptiness",
+        "who-am-i"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0624-tag-0003-c2",
+      "claim_kind": "text_passage",
+      "locator": "何所是空？人則空",
+      "speaker": "伅真陀羅王回答提無離菩薩",
+      "statement": "伅真陀羅由聲音不可見且即滅說明諸法，進而說空與人不離、生死如夢，以不疑有無的法忍理解解脫。",
+      "supports": [
+        "non-dual",
+        "liberation-by-knowledge"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0624-tag-0003-c3",
+      "claim_kind": "text_passage",
+      "locator": "菩薩用十事無有厭足",
+      "speaker": "伅真陀羅王回答提無離菩薩",
+      "statement": "菩薩十不厭足包括供佛、學法、四禪、說法教人、護法及諸波羅蜜，將持續求知與禪修列為長久志業。",
+      "supports": [
+        "study",
+        "meditation",
+        "wisdom-learning-curiosity"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0624-tag-0003-c4",
+      "claim_kind": "text_passage",
+      "locator": "其心所有施與無所愛惜而復增益",
+      "speaker": "佛回答伅真陀羅王關於寶如來三昧的提問",
+      "statement": "八十法寶的列舉將慷慨布施、身口意不作惡、平等慈哀與世事知足並置為菩薩心行。",
+      "supports": [
+        "commandments-law",
+        "compassion",
+        "giving-generosity",
+        "gratitude-contentment"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "emptiness",
+      "non-dual",
+      "liberation-by-knowledge",
+      "study",
+      "meditation",
+      "commandments-law",
+      "compassion"
+    ],
+    "psych_tags": [
+      "who-am-i",
+      "wisdom-learning-curiosity",
+      "giving-generosity",
+      "gratitude-contentment"
+    ],
+    "keywords": [
+      "伅真陀羅王",
+      "提無離菩薩",
+      "樂音法語",
+      "聲與空",
+      "名色",
+      "無所從生法樂忍",
+      "十不厭足",
+      "寶如來三昧",
+      "八十法寶",
+      "布施",
+      "慈哀",
+      "知足"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 3 段的樂音法語、聲空問答、十不厭足與法寶心行，提供兩軸審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "以前文鼓琴與樂音出聲確認段首聲源，並分開伅真陀羅的答問與佛列舉八十法寶的教說；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；本段末尾仍在法寶列舉中，不宣稱已讀全項或全經；古譯名相及數目未經校訂。內容拒絕的精確觸發句未知。"
+  }
+}

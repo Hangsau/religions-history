@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-X13n0285-tag-0072-20261011",
+  "created_at": "2026-10-11T23:15:36.365434+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-X13n0285",
+  "slug": "cbeta-X13n0285",
+  "task": "tag",
+  "chunk_index": 72,
+  "source_path": "translations/cbeta-X13n0285/raw/original.txt",
+  "source_sha256": "2d53dadb0e7defba19875136b4a8d5938864f1139960636c71ef04f92f666cae",
+  "input_sha256": "65bb16eb96d1ed9b7501c0db145c6dbfc2faa5910e43ef5b419de787019e75ca",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"07175ce9f7e4ce56e369753e321b23a2\"}",
+    "blocked_at": "2026-10-09T07:40:25.864222+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-X13n0285-tag-0072-c1",
+      "claim_kind": "text_passage",
+      "locator": "一切眾生六識造業，所招惡報從六根出",
+      "speaker": "佛對阿難說，為《楞嚴經文句》所引經文",
+      "statement": "六報經文逐一敘述見聞嗅味觸思造業後的臨終景象與無間獄苦受，並反覆描述恐懼。",
+      "supports": [
+        "heaven-hell",
+        "death",
+        "fear-uncertainty"
+      ]
+    },
+    {
+      "claim_id": "cbeta-X13n0285-tag-0072-c2",
+      "claim_kind": "text_passage",
+      "locator": "惟心地獄，地獄惟心",
+      "speaker": "《楞嚴經文句》註者",
+      "statement": "註者以唯心地獄及迷般若、解脫、法身的對應解釋惑業苦，勸讀者斷生死之緣、悟性德，並以空華無體解說非本來有。",
+      "supports": [
+        "commentarial-layer",
+        "emptiness",
+        "enlightenment"
+      ]
+    },
+    {
+      "claim_id": "cbeta-X13n0285-tag-0072-c3",
+      "claim_kind": "text_passage",
+      "locator": "尅論鬼趣，有四差別",
+      "speaker": "《楞嚴經文句》註者",
+      "statement": "註者分別列出入鬼趣與畜趣的多種業報途徑，指出本段地獄後為鬼、鬼後為畜的次第只是略說的一種。",
+      "supports": [
+        "karma-rebirth"
+      ]
+    },
+    {
+      "claim_id": "cbeta-X13n0285-tag-0072-c4",
+      "claim_kind": "text_passage",
+      "locator": "貪憶即是怨習，由其䘖恨不忘",
+      "speaker": "《楞嚴經文句》註者",
+      "statement": "十類鬼的註解將貪色、毒恚、記恨、傲慢與邪執等習氣連於相應果報，並在結語提醒餘習仍在而須慎習。",
+      "supports": [
+        "emotions-passions"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "heaven-hell",
+      "commentarial-layer",
+      "emptiness",
+      "enlightenment",
+      "karma-rebirth"
+    ],
+    "psych_tags": [
+      "death",
+      "fear-uncertainty",
+      "emotions-passions"
+    ],
+    "keywords": [
+      "楞嚴經文句",
+      "六識造業",
+      "六根受報",
+      "六報",
+      "無間獄",
+      "十因六果",
+      "惟心地獄",
+      "空華",
+      "性德三因",
+      "鬼趣",
+      "畜趣",
+      "十習",
+      "餘報"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 72 段的六報經文與唯心、鬼畜業報途徑的註解，提供審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "分開「阿難」經文與「根塵識三」「尅論鬼趣」等註語，核對六報、唯心及慎習的論述；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；鬼畜分類及臨終景象只記為經文與註解內容；不以本段略說推成所有眾生固定經過的輪迴路線。內容拒絕的精確觸發句未知。"
+  }
+}

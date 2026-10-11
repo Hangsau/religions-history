@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T33n1694-tag-0008-20261011",
+  "created_at": "2026-10-11T23:14:09.386795+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T33n1694",
+  "slug": "cbeta-T33n1694",
+  "task": "tag",
+  "chunk_index": 8,
+  "source_path": "translations/cbeta-T33n1694/raw/original.txt",
+  "source_sha256": "75a81f13b6c16079f161337b1a51051993b1427c67733b6e2bb5e30298ca0d0f",
+  "input_sha256": "89eed5f91a9b62e4cdfab2ed4305c0ef391cfc9840294667f9140ea41e6b83b2",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"07169f8dafa3b821730747dba23c8de3\"}",
+    "blocked_at": "2026-10-08T18:12:29.991268+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T33n1694-tag-0008-c1",
+      "claim_kind": "text_passage",
+      "locator": "本，宿也。有疑在佛法僧",
+      "speaker": "《陰持入經註》註者，解釋所引經文",
+      "statement": "註者逐句解釋對佛法僧及四諦的宿疑如何解除，並引《安般解》等文說明經句。",
+      "supports": [
+        "commentarial-layer",
+        "faith-doubt"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T33n1694-tag-0008-c2",
+      "claim_kind": "text_passage",
+      "locator": "當以戒𧗪道，而轉意貿易天上",
+      "speaker": "《陰持入經註》註者",
+      "statement": "註者將戒轉貿解為捨求道之願而求天上榮樂，也反對停留於戒願或被服而不進修道品。",
+      "supports": [
+        "commandments-law"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T33n1694-tag-0008-c3",
+      "claim_kind": "text_passage",
+      "locator": "謂四諦止觀一切俱行",
+      "speaker": "《陰持入經註》註者，配合經文四相應",
+      "statement": "註文以四諦與止觀俱行解釋知苦、斷集、證盡、道滿，並用斷因緣之脈和燈炷盡等譬喻闡述離苦。",
+      "supports": [
+        "four-noble-truths",
+        "meditation",
+        "liberation-by-knowledge",
+        "meaning-of-suffering"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T33n1694-tag-0008-c4",
+      "claim_kind": "text_passage",
+      "locator": "言應儀處世如虛空，故曰無所著",
+      "speaker": "《陰持入經註》註者，解釋經文斷結次第",
+      "statement": "註者把增修止觀與捨欲恚等上下五結相聯，並以無所著、解脫畢及不復發起五陰六入說明修行終向。",
+      "supports": [
+        "extinction-of-self",
+        "emotions-passions"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "commentarial-layer",
+      "commandments-law",
+      "four-noble-truths",
+      "meditation",
+      "liberation-by-knowledge",
+      "extinction-of-self"
+    ],
+    "psych_tags": [
+      "faith-doubt",
+      "meaning-of-suffering",
+      "emotions-passions"
+    ],
+    "keywords": [
+      "陰持入經註",
+      "安般解",
+      "疑結",
+      "戒轉貿",
+      "天上榮樂",
+      "四相應",
+      "止觀雙行",
+      "四諦",
+      "三十七品",
+      "五結",
+      "應儀",
+      "無所著"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 8 段逐句註釋的層次，為疑結、戒轉貿、四諦止觀及斷結解脫提供審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "區分經句與「本，宿也」等註語，對照戒轉貿、四相應及「言應儀處世如虛空」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；只將註者的解釋標為註釋層，不據此改訂《陰持入經》或認定各古譯術語只有一種解法。內容拒絕的精確觸發句未知。"
+  }
+}

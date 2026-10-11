@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T13n0397-tag-0268-20261011",
+  "created_at": "2026-10-11T23:17:02.048719+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T13n0397",
+  "slug": "cbeta-T13n0397",
+  "task": "tag",
+  "chunk_index": 268,
+  "source_path": "translations/cbeta-T13n0397/raw/original.txt",
+  "source_sha256": "448bafa13d9ded422176e900ef803454a2f7466d41fe4e7e4c831c79fc8cbd6f",
+  "input_sha256": "790cedc7db3b40f83be4372873449d5e96fb24343c546495ba7dce1183fce81e",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0717fc8975c569f06747adbd7105d8b2\"}",
+    "blocked_at": "2026-10-09T19:01:30.150878+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T13n0397-tag-0268-c1",
+      "claim_kind": "text_passage",
+      "locator": "菩薩心有所念，欲得心不能",
+      "speaker": "佛回答諸菩薩",
+      "statement": "佛以欲求未能即得及感官對好、中、惡境的執取，說明五陰與習如何構成百八痛和生死苦。",
+      "supports": [
+        "emotions-passions",
+        "meaning-of-suffering"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T13n0397-tag-0268-c2",
+      "claim_kind": "text_passage",
+      "locator": "關五陰習令心不動，為斷生死痛",
+      "speaker": "佛回答諸菩薩",
+      "statement": "關生的教說要求守護心意識與諸根，使其不隨境牽動，以持續修持截斷生死痛的相續。",
+      "supports": [
+        "self-effort",
+        "stillness-rest"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T13n0397-tag-0268-c3",
+      "claim_kind": "text_passage",
+      "locator": "諸菩薩報佛言：「禪覺復動。」",
+      "speaker": "佛與諸菩薩問答",
+      "statement": "諸菩薩承認出禪後心仍復動，佛追問其因並指出尚未理解和止守百八行，將禪修安定連於理解生起條件的智慧。",
+      "supports": [
+        "meditation",
+        "liberation-by-knowledge",
+        "wisdom-learning-curiosity"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "self-effort",
+      "meditation",
+      "liberation-by-knowledge"
+    ],
+    "psych_tags": [
+      "emotions-passions",
+      "meaning-of-suffering",
+      "stillness-rest",
+      "wisdom-learning-curiosity"
+    ],
+    "keywords": [
+      "百八痛",
+      "因緣生死痛",
+      "道栽",
+      "五陰",
+      "習",
+      "百八關生",
+      "心意識",
+      "諸根",
+      "關意不動",
+      "坐禪",
+      "禪覺復動",
+      "百八行",
+      "止守"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 268 段百八痛、關生與出禪復動的問答，提供自力修持、禪定及智慧解脫的審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照欲求不遂的種痛、關五陰習與「禪覺復動」問答，區分佛說與末尾既有校記；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；檔末附有談丹藏、宋鄉二本及錯簡的既有校記，本次只辨識其層次，不複核校記結論、不據此移文或宣稱完成校勘。內容拒絕的精確觸發句未知。"
+  }
+}

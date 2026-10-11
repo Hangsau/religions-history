@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T15n0603-tag-0003-20261011",
+  "created_at": "2026-10-11T23:12:38.741527+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T15n0603",
+  "slug": "cbeta-T15n0603",
+  "task": "tag",
+  "chunk_index": 3,
+  "source_path": "translations/cbeta-T15n0603/raw/original.txt",
+  "source_sha256": "3a3f1dcf4c3394c7eaca9624ef70570601568e4c0ed757f3e31e0d4afb460766",
+  "input_sha256": "b6eed9a5a521dbc3f8791ec06b0b727abd957af9c38c7a4c800d0d92eb56082b",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"071656267fbfbbad726c9b8bdf16533b\"}",
+    "blocked_at": "2026-10-08T12:59:18.515132+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T15n0603-tag-0003-c1",
+      "claim_kind": "text_passage",
+      "locator": "彼愛欲藥為何等？為止",
+      "speaker": "本段教說者，承述佛說",
+      "statement": "本段以止對治愛欲、以觀對治愚癡，說明心與慧的解脫以及有餘、無餘兩種無為。",
+      "supports": [
+        "meditation",
+        "liberation-by-knowledge",
+        "extinction-of-self",
+        "stillness-rest"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0603-tag-0003-c2",
+      "claim_kind": "text_passage",
+      "locator": "彼不惑清淨本為何等？為從慧見四諦如有",
+      "speaker": "本段教說者，承述佛說",
+      "statement": "不貪、無恚、不惑三清淨本被配入八種道行，以如實見四諦及不受貪怒牽引說明清淨。",
+      "supports": [
+        "four-noble-truths",
+        "emotions-passions"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0603-tag-0003-c3",
+      "claim_kind": "text_passage",
+      "locator": "彼非身想為何等？為一切法不計身不墮身",
+      "speaker": "本段教說者，承述佛說",
+      "statement": "非常、苦、非身與不淨四想用來分別五陰，尤其非身想與段末身見分析處理把五陰認作自我的執取。",
+      "supports": [
+        "who-am-i"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0603-tag-0003-c4",
+      "claim_kind": "text_passage",
+      "locator": "彼為戒法十一本",
+      "speaker": "本段教說者，承述佛說",
+      "statement": "戒法十一本將持戒無悔、喜樂、正止、如實知見、離著與解脫列為相續的修道過程。",
+      "supports": [
+        "commandments-law"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "meditation",
+      "liberation-by-knowledge",
+      "extinction-of-self",
+      "four-noble-truths",
+      "commandments-law"
+    ],
+    "psych_tags": [
+      "stillness-rest",
+      "emotions-passions",
+      "who-am-i"
+    ],
+    "keywords": [
+      "止觀",
+      "愛癡",
+      "二無為",
+      "三清淨本",
+      "八種道",
+      "四諦",
+      "非常想",
+      "非身想",
+      "不淨想",
+      "五陰",
+      "戒法十一本",
+      "身見"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 3 段的止觀、三清淨本、四想與戒定解脫次第，提供修行及自我執取相關的審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照開篇止觀之藥、「不惑清淨本」、非身想與「戒法十一本」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；保留「字」「色」「𧗪」等既有古譯字形，不以本次標籤處理異讀或校定術語。內容拒絕的精確觸發句未知。"
+  }
+}

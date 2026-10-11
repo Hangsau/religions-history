@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T15n0603-tag-0004-20261011",
+  "created_at": "2026-10-11T23:12:38.742504+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T15n0603",
+  "slug": "cbeta-T15n0603",
+  "task": "tag",
+  "chunk_index": 4,
+  "source_path": "translations/cbeta-T15n0603/raw/original.txt",
+  "source_sha256": "3a3f1dcf4c3394c7eaca9624ef70570601568e4c0ed757f3e31e0d4afb460766",
+  "input_sha256": "0a1861a6479d0d631409ce6dbdea51420bec723cf6598c1d2239337fc8fe3fe7",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"071656295a84245776e09983d6f45e5c\"}",
+    "blocked_at": "2026-10-08T12:59:21.534033+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T15n0603-tag-0004-c1",
+      "claim_kind": "text_passage",
+      "locator": "已如是，道弟子為無疑，在佛亦無疑",
+      "speaker": "本段教說者，承接道弟子斷結的說明",
+      "statement": "段首以對佛、法、修行者眾及苦集滅道解除疑結，描述道弟子由理解生起信受。",
+      "supports": [
+        "faith-doubt"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0603-tag-0004-c2",
+      "claim_kind": "text_passage",
+      "locator": "彼持𧗪戒轉摸貿為二輩",
+      "speaker": "本段教說者",
+      "statement": "本段批評為求天上享樂而持戒或把服飾誓願本身當成解脫之因，並肯定不破戒而能致定的戒行。",
+      "supports": [
+        "commandments-law"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0603-tag-0004-c3",
+      "claim_kind": "text_passage",
+      "locator": "有四相應，何謂四相應",
+      "speaker": "本段教說者",
+      "statement": "四相應以止觀同時完成知苦、斷集、證滅、修道，並用日出、渡船與燃燈等譬喻說明離苦的智慧實踐。",
+      "supports": [
+        "meditation",
+        "four-noble-truths",
+        "liberation-by-knowledge",
+        "meaning-of-suffering"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T15n0603-tag-0004-c4",
+      "claim_kind": "text_passage",
+      "locator": "復增翅止觀，令為解捨上五結",
+      "speaker": "本段教說者",
+      "statement": "止觀的增進被用來說明逐步捨離欲恚、憍慢等結使直至無漏解脫，後文再列五蓋為禪定的障礙。",
+      "supports": [
+        "extinction-of-self",
+        "emotions-passions"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "commandments-law",
+      "meditation",
+      "four-noble-truths",
+      "liberation-by-knowledge",
+      "extinction-of-self"
+    ],
+    "psych_tags": [
+      "faith-doubt",
+      "meaning-of-suffering",
+      "emotions-passions"
+    ],
+    "keywords": [
+      "疑結",
+      "佛法僧",
+      "戒轉貿",
+      "四相應",
+      "止觀雙行",
+      "四諦",
+      "燃燈譬喻",
+      "道迹",
+      "五結",
+      "二無為",
+      "九次第定",
+      "五蓋"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 4 段的信疑、戒行辨析、四諦止觀與斷結入定，提供有段內證據的審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照段首無疑信受、「持𧗪戒轉摸貿」、四相應的譬喻與斷上五結、五蓋的說明；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；段末另起「佛說慧印百六十三定解」並轉為向舍利弗的教說；此轉接只按檔內現況辨識，不宣稱篇章歸屬已校勘。內容拒絕的精確觸發句未知。"
+  }
+}

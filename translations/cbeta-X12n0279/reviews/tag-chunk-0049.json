@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-X12n0279-tag-0049-20261011",
+  "created_at": "2026-10-11T23:15:36.359039+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-X12n0279",
+  "slug": "cbeta-X12n0279",
+  "task": "tag",
+  "chunk_index": 49,
+  "source_path": "translations/cbeta-X12n0279/raw/original.txt",
+  "source_sha256": "fcd2c437aac7591cc96fa7d657c396a065c40b0d8fed848cea19fc46e5bf3195",
+  "input_sha256": "9243b9e12576643b6231b1629458832f511d56dcfd9bd8bd92b74ca4ac33b1be",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"07174939560077c8586dd5f62d751e75\"}",
+    "blocked_at": "2026-10-09T06:16:26.299842+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-X12n0279-tag-0049-c1",
+      "claim_kind": "text_passage",
+      "locator": "六者思報招引惡果",
+      "speaker": "佛對阿難說，為《楞嚴經通議》所引經文",
+      "statement": "思報及其六根交報以臨終惡風、無間獄與身心苦受描寫妄業所招的惡果。",
+      "supports": [
+        "heaven-hell",
+        "karma-rebirth",
+        "death",
+        "fear-uncertainty"
+      ]
+    },
+    {
+      "claim_id": "cbeta-X12n0279-tag-0049-c2",
+      "claim_kind": "text_passage",
+      "locator": "但約義據理而言，非真知見力也",
+      "speaker": "《楞嚴經通議》議論者",
+      "statement": "議論者解釋思業與六根交報時明言只是據義理推說，並將地獄苦具置於自心所現的詮釋框架。",
+      "supports": [
+        "commentarial-layer"
+      ]
+    },
+    {
+      "claim_id": "cbeta-X12n0279-tag-0049-c3",
+      "claim_kind": "text_passage",
+      "locator": "瞋習懷恚不忘，故為貪憶",
+      "speaker": "《楞嚴經通議》議論者",
+      "statement": "議論者將貪、怨、瞋、慢等習氣分別配於鬼形與後續畜生類，強調餘習及怨債延續的輪迴敘述。",
+      "supports": [
+        "emotions-passions"
+      ]
+    },
+    {
+      "claim_id": "cbeta-X12n0279-tag-0049-c4",
+      "claim_kind": "text_passage",
+      "locator": "若悟菩提，則妙圓明本無所有",
+      "speaker": "佛對阿難說，議論者隨後解釋",
+      "statement": "所引經文及議論以悟菩提則本無所有說明鬼畜等妄相，並將惡業果報解為妄想凝結而非心外本有之物。",
+      "supports": [
+        "emptiness",
+        "enlightenment"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "heaven-hell",
+      "karma-rebirth",
+      "commentarial-layer",
+      "emptiness",
+      "enlightenment"
+    ],
+    "psych_tags": [
+      "death",
+      "fear-uncertainty",
+      "emotions-passions"
+    ],
+    "keywords": [
+      "楞嚴經通議",
+      "思報",
+      "六根交報",
+      "十因六果",
+      "無間獄",
+      "唯心所現",
+      "十習",
+      "鬼道",
+      "畜生道",
+      "宿債",
+      "妄想",
+      "菩提"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 49 段所引經文與議論，為地獄鬼畜業報、習氣及悟菩提的主題提供審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "區分「議曰」與所引經文，對照思報、十因六果、鬼畜分類及「若悟菩提」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；鬼類、病象與動物特性的配對僅記為本書宗教詮釋，未作經驗事實認定；議論者亦自限於據理推說。內容拒絕的精確觸發句未知。"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T46n1911-tag-0030-20261011",
+  "created_at": "2026-10-11T23:15:36.362505+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T46n1911",
+  "slug": "cbeta-T46n1911",
+  "task": "tag",
+  "chunk_index": 30,
+  "source_path": "translations/cbeta-T46n1911/raw/original.txt",
+  "source_sha256": "c3532b1f8838760a18143203d04f9b3b6acc5dcc1d8890b5d73c82d9db202a8b",
+  "input_sha256": "f2879d20edaee0863339b2013b85aad85adb09701fb1f71b635f5c9cb5a3f24f",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"07175a1e82d08ab02a99ad88ecc70050\"}",
+    "blocked_at": "2026-10-09T07:28:30.582789+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T46n1911-tag-0030-c1",
+      "claim_kind": "text_passage",
+      "locator": "不著二邊，即是非味、非離，顯色中道實相",
+      "speaker": "《摩訶止觀》論述者，引用《大品》《釋論》等",
+      "statement": "論述者比較析法、即空、從空入假與中道的呵欲方式，以三諦三昧及三種智慧說明既不著欲也不滯空的觀法。",
+      "supports": [
+        "commentarial-layer",
+        "emptiness",
+        "non-dual",
+        "liberation-by-knowledge"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T46n1911-tag-0030-c2",
+      "claim_kind": "text_passage",
+      "locator": "若瞋恚蓋多，當念慈心，滅除恚火",
+      "speaker": "《摩訶止觀》論述者",
+      "statement": "五蓋的對治要求先辨自己最重的障礙，其中以慈心願一切人安樂來止息瞋恚、安心入禪。",
+      "supports": [
+        "meditation",
+        "compassion",
+        "emotions-passions",
+        "stillness-rest"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T46n1911-tag-0030-c3",
+      "claim_kind": "text_passage",
+      "locator": "若人禪定，知過而已，不應想著",
+      "speaker": "《摩訶止觀》論述者",
+      "statement": "掉悔的分析區分知過改往與憂悔縈心，主張悔後不再反覆執著而應修清淨禪定。",
+      "supports": [
+        "guilt-atonement"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T46n1911-tag-0030-c4",
+      "claim_kind": "text_passage",
+      "locator": "一、疑自者，謂我身底下，必非道器",
+      "speaker": "《摩訶止觀》論述者",
+      "statement": "疑蓋分為疑自、疑師、疑法，並勸不因自認低劣而放棄修治，以對治自我貶抑與修行上的信疑。",
+      "supports": [
+        "perfectionism-self-criticism",
+        "faith-doubt"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "commentarial-layer",
+      "emptiness",
+      "non-dual",
+      "liberation-by-knowledge",
+      "meditation",
+      "compassion"
+    ],
+    "psych_tags": [
+      "emotions-passions",
+      "stillness-rest",
+      "guilt-atonement",
+      "perfectionism-self-criticism",
+      "faith-doubt"
+    ],
+    "keywords": [
+      "摩訶止觀",
+      "呵五欲",
+      "空假中",
+      "三諦三昧",
+      "五蓋",
+      "慈心",
+      "掉悔",
+      "知過不著",
+      "疑自疑師疑法",
+      "數息",
+      "先治於強"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 30 段的中道呵欲、五蓋辨識與按偏重對治，提供禪修、情緒、悔咎及信疑相關標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照色中道實相、棄五蓋、慈心除瞋、「知過而已」及三疑的分析；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；五蓋及其對治按禪修文本理解，未將古代修持方法改寫為現代身心治療規範；段末初禪問答未完。內容拒絕的精確觸發句未知。"
+  }
+}

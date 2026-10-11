@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T53n2121-tag-0089-20261011",
+  "created_at": "2026-10-11T23:17:02.036866+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T53n2121",
+  "slug": "cbeta-T53n2121",
+  "task": "tag",
+  "chunk_index": 89,
+  "source_path": "translations/cbeta-T53n2121/raw/original.txt",
+  "source_sha256": "98bc2fae804cc123311a732a92cbe9367fb5ef4d7455199e2db44b5326899a26",
+  "input_sha256": "c838c9a042d8b556cbfaac3b8592f75151e94dc10a9cf971c395ecfb13b2b5b6",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0717a8e865b1873092528757eef949ba\"}",
+    "blocked_at": "2026-10-09T13:04:40.937707+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T53n2121-tag-0089-c1",
+      "claim_kind": "text_passage",
+      "locator": "使國空荒咎在吾身",
+      "speaker": "藍達王自陳；敘事者描述其後受教，王名已由前文確認",
+      "statement": "藍達王承認未能洗心率民的責任，請佛說法後與臣民受五戒、行十善並相互勸導。",
+      "supports": [
+        "commandments-law",
+        "responsibility-leadership"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T53n2121-tag-0089-c2",
+      "claim_kind": "text_passage",
+      "locator": "普安王化四王聞法得道七",
+      "speaker": "敘事者；普安王引四王問法，佛說八苦",
+      "statement": "佛向五王詳說生老病死、恩愛別離等八苦，敘事以眾人聞苦諦悟道及五王捨位出家作結。",
+      "supports": [
+        "four-noble-truths",
+        "liberation-by-knowledge",
+        "monastic",
+        "meaning-of-suffering",
+        "death",
+        "loss-grief"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T53n2121-tag-0089-c3",
+      "claim_kind": "text_passage",
+      "locator": "婆羅門王捨於國俸布施得道八",
+      "speaker": "敘事者；佛化梵志與婆羅門王對話",
+      "statement": "佛化梵志屢取又捨珍寶，以建屋、娶妻和家計需求不斷增加的譬示指出積財難滿貪欲，勸王求道。",
+      "supports": [
+        "work-money"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T53n2121-tag-0089-c4",
+      "claim_kind": "text_passage",
+      "locator": "摩達王從羅漢聞法得道九",
+      "speaker": "敘事者；被役使的阿羅漢向摩達王說",
+      "statement": "阿羅漢將自己被迫養馬七日解釋為往昔輕慢師長的宿殃，以善惡殃福如影隨形勸王歸佛受戒。",
+      "supports": [
+        "karma-rebirth"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "commandments-law",
+      "four-noble-truths",
+      "liberation-by-knowledge",
+      "monastic",
+      "karma-rebirth"
+    ],
+    "psych_tags": [
+      "responsibility-leadership",
+      "meaning-of-suffering",
+      "death",
+      "loss-grief",
+      "work-money"
+    ],
+    "keywords": [
+      "經律異相",
+      "藍達王",
+      "普安王",
+      "四王",
+      "八苦",
+      "苦諦",
+      "五戒",
+      "十善",
+      "恩愛別離",
+      "積寶",
+      "知足",
+      "摩達王",
+      "養馬七日",
+      "宿殃"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 89 段諸王受教故事，提供持戒、苦諦、出家與業報，以及領導責任、死別和財欲的審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "以前文確認藍達王，並按第七至第九則標題核對八苦、取捨珍寶及養馬宿殃；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；第十則乾陀王故事只見開端，不推定其後對話結論；生育、疾病與宿報敘述保留為文中教說，不作校勘或現代知識改寫。內容拒絕的精確觸發句未知。"
+  }
+}

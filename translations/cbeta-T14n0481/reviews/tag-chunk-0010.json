@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T14n0481-tag-0010-20261011",
+  "created_at": "2026-10-11T23:14:09.387772+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T14n0481",
+  "slug": "cbeta-T14n0481",
+  "task": "tag",
+  "chunk_index": 10,
+  "source_path": "translations/cbeta-T14n0481/raw/original.txt",
+  "source_sha256": "1c2d1341de8c1ba32d9b16e38d117f2ea6e582c3b8e4a7d98ef2e5fd8a0de913",
+  "input_sha256": "1a211b7bc324eb3757202c7594967e7d00c27e2a3bda29597b5bbf83001e96f9",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0716abe4072f33342837beba03efe541\"}",
+    "blocked_at": "2026-10-08T19:05:09.403899+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T14n0481-tag-0010-c1",
+      "claim_kind": "text_passage",
+      "locator": "所云世者，謂五盛陰也",
+      "speaker": "佛對持人菩薩說",
+      "statement": "〈世俗度世品〉以五陰本淨而不可得說明世俗與度世，反對將兩者執取為相互隔絕的實體。",
+      "supports": [
+        "emptiness",
+        "non-dual",
+        "who-am-i"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T14n0481-tag-0010-c2",
+      "claim_kind": "text_passage",
+      "locator": "彼何謂有為相？知生當死合會別離",
+      "speaker": "佛對持人菩薩說",
+      "statement": "〈有為無為品〉分說生滅聚散與不生不滅，繼而要求不執取有為無為的名相及有無之見。",
+      "supports": [
+        "nihilism-void"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T14n0481-tag-0010-c3",
+      "claim_kind": "text_passage",
+      "locator": "能自究竟無上正真道，成最正覺",
+      "speaker": "佛對持人菩薩說",
+      "statement": "佛將通達五陰、諸入、緣起、道品與有為無為的智慧連於成就正覺。",
+      "supports": [
+        "liberation-by-knowledge",
+        "enlightenment",
+        "wisdom-learning-curiosity"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T14n0481-tag-0010-c4",
+      "claim_kind": "text_passage",
+      "locator": "在其佛所壽終之後還生本土",
+      "speaker": "佛敘述寶光菩薩往昔修學，並勸持人受持",
+      "statement": "寶光菩薩的故事以多生出家、清淨梵行及持續學法化眾為典範，結以精進學習、受持諷誦經要的勸勉。",
+      "supports": [
+        "reincarnation",
+        "monastic",
+        "study"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "emptiness",
+      "non-dual",
+      "liberation-by-knowledge",
+      "enlightenment",
+      "reincarnation",
+      "monastic",
+      "study"
+    ],
+    "psych_tags": [
+      "who-am-i",
+      "nihilism-void",
+      "wisdom-learning-curiosity"
+    ],
+    "keywords": [
+      "持人菩薩",
+      "世俗度世",
+      "五盛陰",
+      "本淨",
+      "不可得",
+      "有為無為",
+      "不生不滅",
+      "正覺",
+      "寶光菩薩",
+      "紫金山王如來",
+      "梵行",
+      "受持諷誦"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 10 段三品相接的內容，提供空與不二、智慧正覺及寶光多生出家修學的審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "按〈世俗度世品〉、〈有為無為品〉、〈寶光菩薩品〉辨識五陰不可得、名相辨析與多生修學；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；nihilism-void 依詞表對應空與真假的人生提問，不把經文判為虛無主義；寶光的劫數與授決保留為經內敘事。內容拒絕的精確觸發句未知。"
+  }
+}

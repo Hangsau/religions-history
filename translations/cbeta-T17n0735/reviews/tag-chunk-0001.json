@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T17n0735-tag-0001-20261011",
+  "created_at": "2026-10-11T23:11:21.200265+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T17n0735",
+  "slug": "cbeta-T17n0735",
+  "task": "tag",
+  "chunk_index": 1,
+  "source_path": "translations/cbeta-T17n0735/raw/original.txt",
+  "source_sha256": "8665591248903132c918f3e61e679c24a65c31ddab9a82cb14cfa008378956cd",
+  "input_sha256": "8665591248903132c918f3e61e679c24a65c31ddab9a82cb14cfa008378956cd",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"0715e5c88262fb0effebaaaf17a2dc4f\"}",
+    "blocked_at": "2026-10-08T04:59:52.767260+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T17n0735-tag-0001-c1",
+      "claim_kind": "text_passage",
+      "locator": "純陀有子，厥年十四",
+      "speaker": "敘事者；純陀向佛提問",
+      "statement": "純陀喪子後與親屬求法，並詢問人死後親屬哭泣及隨葬財物是否能使亡者受益。",
+      "supports": [
+        "loss-grief",
+        "death"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T17n0735-tag-0001-c2",
+      "claim_kind": "text_passage",
+      "locator": "第二願者，謂有財產、官爵、俸祿",
+      "speaker": "佛對純陀及會眾說",
+      "statement": "佛說身體、財位與親友不能保住壽命或隨死者而去，勸人反省無厭的追求並守護其意以求度脫。",
+      "supports": [
+        "self-effort",
+        "work-money",
+        "change-transformation"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T17n0735-tag-0001-c3",
+      "claim_kind": "text_passage",
+      "locator": "以生時所為罪，死入太山地獄中",
+      "speaker": "佛對純陀及會眾說；後續勸戒敘述承接",
+      "statement": "本段以生前善惡牽引地獄、餓鬼、畜生或生天的敘述勸人守善，並明言以五戒為修道根本。",
+      "supports": [
+        "karma-rebirth",
+        "heaven-hell",
+        "commandments-law"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T17n0735-tag-0001-c4",
+      "claim_kind": "text_passage",
+      "locator": "比丘能曉七處，亦能三觀",
+      "speaker": "段末教說對比丘，結尾標示為佛說",
+      "statement": "段末以五陰的七處覺知與三觀說明斷結、意解脫及不再還入生死的智慧道路。",
+      "supports": [
+        "liberation-by-knowledge"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "self-effort",
+      "karma-rebirth",
+      "heaven-hell",
+      "commandments-law",
+      "liberation-by-knowledge"
+    ],
+    "psych_tags": [
+      "loss-grief",
+      "death",
+      "work-money",
+      "change-transformation"
+    ],
+    "keywords": [
+      "純陀",
+      "喪子",
+      "四願",
+      "守護其意",
+      "財產官爵",
+      "親屬",
+      "魂神",
+      "三惡道",
+      "五戒",
+      "七處",
+      "三觀",
+      "五陰"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依本檔的喪子問法、四願無常與守意勸戒，連同段末七處三觀，為第 1 段提供審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照純陀喪子、四願中財產與親屬的限制、三惡道及五戒，以及「比丘能曉七處，亦能三觀」；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；檔尾由勸戒轉入思想識、五陰與七處三觀，僅按提供的全文記錄主題，不判定此轉接的文獻成因或版本歸屬。內容拒絕的精確觸發句未知。"
+  }
+}

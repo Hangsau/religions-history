@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T28n1557-tag-0001-20261011",
+  "created_at": "2026-10-11T23:11:21.201771+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T28n1557",
+  "slug": "cbeta-T28n1557",
+  "task": "tag",
+  "chunk_index": 1,
+  "source_path": "translations/cbeta-T28n1557/raw/original.txt",
+  "source_sha256": "5180c01aa6008571e74ff2561dd656183b1bb227bb43b29f8cefa8ca0761bacd",
+  "input_sha256": "5180c01aa6008571e74ff2561dd656183b1bb227bb43b29f8cefa8ca0761bacd",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"071614516b9ae8f0a5f38d0c93b3a8a1\"}",
+    "blocked_at": "2026-10-08T08:18:26.706098+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T28n1557-tag-0001-c1",
+      "claim_kind": "text_passage",
+      "locator": "苦法黠可苦法黠",
+      "speaker": "本段問答教說者，未具名",
+      "statement": "開篇以苦、習、盡、道及其覺知說明無常生死之苦與離苦的道路，將理解和受行連在一起。",
+      "supports": [
+        "four-noble-truths",
+        "liberation-by-knowledge",
+        "meaning-of-suffering",
+        "wisdom-learning-curiosity"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T28n1557-tag-0001-c2",
+      "claim_kind": "text_passage",
+      "locator": "內盡為何等？意墮守",
+      "speaker": "本段問答教說者，未具名",
+      "statement": "內盡與道的解說以守意、禪行及安般八行說明滅結，並把苦滅不復生稱為得道。",
+      "supports": [
+        "meditation",
+        "extinction-of-self"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T28n1557-tag-0001-c3",
+      "claim_kind": "text_passage",
+      "locator": "得空便知非我身",
+      "speaker": "本段問答教說者，未具名",
+      "statement": "本段以空、非身和五陰說明不把身體執取為我，後文又將計五陰為自身列入自計慢與身邪。",
+      "supports": [
+        "emptiness",
+        "who-am-i"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T28n1557-tag-0001-c4",
+      "claim_kind": "text_passage",
+      "locator": "善本何等？有三善本",
+      "speaker": "本段問答教說者，未具名",
+      "statement": "對善惡根本、九結、七慢及諸使的分類辨析貪、瞋、癡與自高等內在活動如何形成繫縛。",
+      "supports": [
+        "emotions-passions"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "four-noble-truths",
+      "liberation-by-knowledge",
+      "meditation",
+      "extinction-of-self",
+      "emptiness"
+    ],
+    "psych_tags": [
+      "meaning-of-suffering",
+      "wisdom-learning-curiosity",
+      "who-am-i",
+      "emotions-passions"
+    ],
+    "keywords": [
+      "五法",
+      "苦習盡道",
+      "黠可",
+      "守意",
+      "安般",
+      "五陰",
+      "空非身",
+      "九結",
+      "七慢",
+      "三善本",
+      "三不善本",
+      "諸使",
+      "無為"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依本段的四諦覺知、五法分類、守意滅結與空非身教說，為第 1 段提供有段內證據的審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "對照開篇苦習盡道、「內盡為何等」、空非身，以及善惡根本與結使的問答；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；「黠可」等古譯術語依本段用法標記，未對各分類數目、異讀或後世術語對應作校訂。內容拒絕的精確觸發句未知。"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "review_id": "cbeta-T17n0817-tag-0004-20261011",
+  "created_at": "2026-10-11T23:12:38.743480+08:00",
+  "status": "reviewed_not_applied",
+  "reviewer": "Codex",
+  "reviewer_type": "AI_assistant",
+  "provenance_type": "source_reviewed_tag_override",
+  "not_minimax_generation": true,
+  "evidence_profile": "textual_interpretive",
+  "source_id": "cbeta-T17n0817",
+  "slug": "cbeta-T17n0817",
+  "task": "tag",
+  "chunk_index": 4,
+  "source_path": "translations/cbeta-T17n0817/raw/original.txt",
+  "source_sha256": "7347935797e7b0eea31b10e4ac71f35edaca66f4a958c6ac45b66faaf19c86d9",
+  "input_sha256": "122d2f5ad8ac3be7022513fb59ae7a4eee32be19d3a2bc6513ba2aa471a3ca5d",
+  "prior_rejection": {
+    "status": "blocked",
+    "error_code": "content_rejected",
+    "last_error": "http 500: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"input new_sensitive (1026)\"},\"request_id\":\"07166a0ec1d1bcecbbdbb3cf57068730\"}",
+    "blocked_at": "2026-10-08T14:24:14.522573+08:00"
+  },
+  "source_access": {
+    "full_text_available": true,
+    "relevant_passage_read": true,
+    "whole_book_read": false
+  },
+  "rejection_interpretation": "MiniMax 回報 input new_sensitive (1026)，未指出觸發句或拒絕範圍；本紀錄不推定是哪一句觸發。",
+  "claims": [
+    {
+      "claim_id": "cbeta-T17n0817-tag-0004-c1",
+      "claim_kind": "text_passage",
+      "locator": "菩薩不以自被袈裟為是出家也",
+      "speaker": "文殊師利",
+      "statement": "文殊師利以助眾生去除貪瞋癡、持戒及解脫來界定菩薩出家，強調慈哀度眾而非僅具自身袈裟或威儀。",
+      "supports": [
+        "monastic",
+        "compassion"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T17n0817-tag-0004-c2",
+      "claim_kind": "text_passage",
+      "locator": "愚者心本淨，客塵亦如是",
+      "speaker": "上金光首",
+      "statement": "上金光首以客雲蔽日和良醫除病比喻客塵遮蔽本淨之心，歌頌智慧除去貪欲、瞋恚與愚冥的轉變。",
+      "supports": [
+        "liberation-by-knowledge",
+        "emotions-passions",
+        "change-transformation"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T17n0817-tag-0004-c3",
+      "claim_kind": "text_passage",
+      "locator": "神通之力自化其身，應時終亡",
+      "speaker": "敘事者描述上金光首及長者子畏間等人",
+      "statement": "上金光首以神通化現身體死亡腐敗的景象，使長者子及會眾驚恐並尋求脫離患難的依歸。",
+      "supports": [
+        "fear-uncertainty"
+      ]
+    },
+    {
+      "claim_id": "cbeta-T17n0817-tag-0004-c4",
+      "claim_kind": "text_passage",
+      "locator": "三界虛無實，如幻師現化",
+      "speaker": "園樹木在文殊師利威神作用下出聲說偈",
+      "statement": "樹聲偈以幻化、夢與泡沫說明身相及欲樂無實，同時保留罪福因緣生報應的教說並勸年少者歸依以離恐懼。",
+      "supports": [
+        "emptiness",
+        "karma-rebirth"
+      ]
+    }
+  ],
+  "taxonomy_mapping_note": "semantic_tags 標記本段教義與修行主題；psych_tags 是依所讀段落映射的讀者人生問題入口，並非原文自稱的心理分類或實證療效。",
+  "payload": {
+    "semantic_tags": [
+      "monastic",
+      "compassion",
+      "liberation-by-knowledge",
+      "emptiness",
+      "karma-rebirth"
+    ],
+    "psych_tags": [
+      "emotions-passions",
+      "change-transformation",
+      "fear-uncertainty"
+    ],
+    "keywords": [
+      "文殊師利",
+      "上金光首",
+      "畏間",
+      "菩薩出家",
+      "慈哀",
+      "客塵",
+      "心本淨",
+      "智慧光明",
+      "神通化現",
+      "不淨",
+      "如幻",
+      "罪福因緣",
+      "無畏"
+    ]
+  },
+  "decision": {
+    "affirmative_conclusion": "可依第 4 段的菩薩出家、客塵與智慧、身相幻化及離恐懼教說，提供審讀標籤。",
+    "works_when": "來源全文與本段 SHA-256 均符合本紀錄，且標籤仍屬既有受控詞表並可回指所列段內證據。",
+    "fails_when": "來源或切段改變、標籤不再符合詞表，或將段落敘事、引述與評註混為同一說話者的主張時，須重新審讀。",
+    "how_to_identify": "分別核對文殊師利的出家定義、上金光首的客塵偈、神通化身敘事及樹聲勸誡；核對兩個 SHA-256、claim 的定位與標籤支持關係，並執行 scripts/apply_tag_reviews.py 的唯讀檢查。",
+    "action": "僅新建本段審讀 JSON，保留 reviewed_not_applied 狀態並提供可追溯的標籤；本次只驗證，不套用至 checkpoint。",
+    "remaining_boundary": "只審本段主題，不宣稱原文、譯文或全書已校勘；女身腐敗為敘事中的神通化現，不改寫為真實死亡事件；重出的偈頌按同一內容理解，未作版本校訂。內容拒絕的精確觸發句未知。"
+  }
+}
