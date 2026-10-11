@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T02",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "study"
+  ],
+  "keywords": [
+    "難提釋",
+    "離別憂愁",
+    "信戒聞施慧",
+    "六念",
+    "念佛",
+    "念法",
+    "念僧",
+    "念戒",
+    "念施",
+    "念天",
+    "四諦",
+    "安隱"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "emotions-passions",
+    "giving-generosity",
+    "loss-grief",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5495e40c929d78b4d79db4105e02bbe6b18418bb4e3a9b671676838b2f93495c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
