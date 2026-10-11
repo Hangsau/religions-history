@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-09 23:13:13 +0800
+- 更新時間：2026-10-11 23:03:57 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**2325 / 2382** 已完成雙標籤
+- 進度：**2326 / 2382** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`cbeta-T27n1545`
+- 目前處理：`(等待人工修復)`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
-- 已阻塞待人工處理：57 部 — cbeta-T19n1021, cbeta-T55n2168B, cbeta-T18n0858, cbeta-T55n2174B, cbeta-T17n0806, cbeta-T21n1213, cbeta-X02n0184, cbeta-T32n1677, cbeta-T55n2171, cbeta-T20n1196
-- M3 執行狀態：**running** — `cbeta-T27n1545` (tag)
+- 已阻塞待人工處理：56 部 — cbeta-T55n2168B, cbeta-T18n0858, cbeta-T55n2174B, cbeta-T17n0806, cbeta-T21n1213, cbeta-X02n0184, cbeta-T32n1677, cbeta-T55n2171, cbeta-T20n1196, cbeta-T32n1684
+- M3 執行狀態：**idle** — (等待人工修復)；原因：blocked
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。

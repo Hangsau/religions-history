@@ -20,5 +20,39 @@
   "tier": "總集逐部",
   "is_original_language": true,
   "notes": "From CBETA xml-p5 / canon T / volume T19",
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "陀羅尼",
+    "唵",
+    "普賢如來",
+    "實叉難陀",
+    "于闐國",
+    "華嚴經",
+    "龍藏",
+    "摩訶衍和尚",
+    "上元縣",
+    "高公寺",
+    "誦持",
+    "福聚轉障",
+    "教藏"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "psych_tag_method": "axis-fill",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "72dfbde6c61834b36697f2627e675cea777f339c5be055ca6cf0ec83a148f87e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
