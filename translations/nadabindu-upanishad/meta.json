@@ -19,5 +19,42 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Nādabindūpaniṣad",
+    "oṃkāra",
+    "akāra",
+    "ukāra",
+    "makāra",
+    "ardhamātrā",
+    "haṃsa",
+    "prāṇa",
+    "brahma",
+    "ātman",
+    "yoga",
+    "dhāraṇā",
+    "mātrā",
+    "tapoloka",
+    "satyaloka"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "917c8b8e27de39ebb3180166c8c79b6d260e2fbb351454b88335f5602d194863"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -19,5 +19,42 @@
   "tier": "次要",
   "notes": "論胎生與身體構成之晚出奧義書",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "human-as-microcosm",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "multiple-souls",
+    "reincarnation",
+    "ritual-practice"
+  ],
+  "keywords": [
+    "garbha",
+    "oṃ",
+    "pañcātmaka",
+    "ṣaḍāśraya",
+    "saptadhātu",
+    "nārāyaṇa",
+    "maheśvara",
+    "sāṃkhya",
+    "yoga",
+    "brahma",
+    "karma",
+    "prāṇa",
+    "koṣṭhāgni",
+    "yajamāna"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "312a2a42308c6fd5621e0382e22feada5c9dbcb90cb7ebaf6722165c6db16c0b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

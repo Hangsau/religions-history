@@ -132,6 +132,13 @@
       "religion": "非洲"
     }
   ],
+  "Abraham": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Abraxas": [
     {
       "slug": "gnostics-and-their-remains",
@@ -1728,6 +1735,13 @@
       "religion": "印度教"
     }
   ],
+  "Brahmabindu": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "Brahmadatta": [
     {
       "slug": "digha-nikaya",
@@ -1766,6 +1780,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
@@ -1778,6 +1797,11 @@
     {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
       "religion": "印度教"
     },
     {
@@ -4756,6 +4780,13 @@
       "religion": "美洲"
     }
   ],
+  "Isaac": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Ishtar": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -4886,6 +4917,13 @@
       "slug": "creation-myths-primitive-america",
       "name_zh": "原始美洲創世神話 (Curtin)",
       "religion": "美洲"
+    }
+  ],
+  "Jacob": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "Jacobus": [
@@ -6305,6 +6343,13 @@
       "religion": "基督教"
     }
   ],
+  "Manasseh": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Manawyddan": [
     {
       "slug": "mabinogion-cy-1",
@@ -7402,6 +7447,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Nādabindūpaniṣad": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "Nāgasena": [
     {
       "slug": "kn-milindapanha",
@@ -7633,6 +7685,13 @@
     {
       "slug": "vulgate-psalms",
       "name_zh": "詩篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "Oratio Manasse": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -11878,6 +11937,13 @@
       "religion": "印度教"
     }
   ],
+  "akāra": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "al-Baqarah": [
     {
       "slug": "quran-pickthall",
@@ -11917,6 +11983,13 @@
     {
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "altissimus": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -12107,6 +12180,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "ardhamātrā": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "arete": [
     {
       "slug": "aristotle-nicomachean-ethics-el",
@@ -12181,6 +12261,16 @@
     }
   ],
   "avidyā": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
@@ -12553,6 +12643,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -12560,6 +12655,11 @@
     {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
       "religion": "印度教"
     }
   ],
@@ -12606,6 +12706,11 @@
     }
   ],
   "brahmavidyā": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
@@ -13090,6 +13195,13 @@
       "religion": "印度教"
     }
   ],
+  "dhāraṇā": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "dhāraṇī": [
     {
       "slug": "bud-lalitavistara-sa",
@@ -13437,6 +13549,13 @@
       "religion": "印度教"
     }
   ],
+  "garbha": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    }
+  ],
   "gate gate pāragate": [
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
@@ -13449,6 +13568,13 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    }
+  ],
+  "ghaṭa": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
     }
   ],
   "ghaṭastha-yoga": [
@@ -13638,6 +13764,11 @@
   ],
   "haṃsa": [
     {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -13730,6 +13861,13 @@
       "religion": "耆那教"
     }
   ],
+  "hiraṇmaya": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    }
+  ],
   "hirī": [
     {
       "slug": "an5-fives",
@@ -13812,6 +13950,13 @@
       "slug": "an6-sixes",
       "name_zh": "AN6 六法集",
       "religion": "佛教"
+    }
+  ],
+  "iniquitates": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "iustus in fide sua vivet": [
@@ -13925,6 +14070,13 @@
       "religion": "北歐"
     }
   ],
+  "jīva": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "jīvātman": [
     {
       "slug": "ramanuja-vedarthasamgraha",
@@ -13940,6 +14092,11 @@
     }
   ],
   "kaivalya": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
@@ -14009,6 +14166,11 @@
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
       "religion": "印度教"
     },
     {
@@ -14096,6 +14258,13 @@
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
+    }
+  ],
+  "koṣṭhāgni": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
     }
   ],
   "krodha": [
@@ -14215,6 +14384,13 @@
       "religion": "印度教"
     }
   ],
+  "longanimis": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "longhouse": [
     {
       "slug": "code-of-handsome-lake",
@@ -14297,6 +14473,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
     }
   ],
   "mahāmati": [
@@ -14327,6 +14508,13 @@
       "religion": "耆那教"
     }
   ],
+  "makāra": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "man-being": [
     {
       "slug": "iroquois-cosmology",
@@ -14335,6 +14523,11 @@
     }
   ],
   "manas": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
@@ -14473,6 +14666,11 @@
       "slug": "vulgate-hosea",
       "name_zh": "何西阿書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "moha": [
@@ -14498,6 +14696,16 @@
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
       "religion": "印度教"
     },
     {
@@ -14572,6 +14780,13 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    }
+  ],
+  "mātrā": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
     }
   ],
   "māyā": [
@@ -14671,6 +14886,20 @@
       "religion": "錫克教"
     }
   ],
+  "nirvikalpa": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "nirviṣaya": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "nirvāṇa": [
     {
       "slug": "bud-udanavarga-sa",
@@ -14722,6 +14951,11 @@
   ],
   "nārāyaṇa": [
     {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -14729,6 +14963,13 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
+  "nīlakaṇṭha": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
       "religion": "印度教"
     }
   ],
@@ -14795,6 +15036,16 @@
   ],
   "oṃ": [
     {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
       "religion": "印度教"
@@ -14802,6 +15053,13 @@
     {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
+      "religion": "印度教"
+    }
+  ],
+  "oṃkāra": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
       "religion": "印度教"
     }
   ],
@@ -14859,6 +15117,13 @@
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
       "religion": "佛教"
+    }
+  ],
+  "parameṣṭhin": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
     }
   ],
   "paramārtha": [
@@ -14980,6 +15245,13 @@
       "religion": "佛教"
     }
   ],
+  "pañcātmaka": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    }
+  ],
   "paññā": [
     {
       "slug": "an4-fours",
@@ -15032,6 +15304,13 @@
     {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "peccavi": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -15284,8 +15563,25 @@
       "religion": "印度教"
     },
     {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "prāṇava": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
       "religion": "印度教"
     }
   ],
@@ -15398,6 +15694,13 @@
       "religion": "佛教"
     }
   ],
+  "pāramātman": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    }
+  ],
   "pātimokkha 波羅提木叉": [
     {
       "slug": "an8-eights",
@@ -15417,6 +15720,13 @@
       "slug": "an11-elevens",
       "name_zh": "AN11 十一法集",
       "religion": "佛教"
+    }
+  ],
+  "pœnitentia": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "pūrṇam": [
@@ -15506,6 +15816,13 @@
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "remission": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "renovation": [
@@ -15762,6 +16079,13 @@
       "religion": "基督教"
     }
   ],
+  "saptadhātu": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    }
+  ],
   "sarcophagus": [
     {
       "slug": "book-of-gates",
@@ -15816,6 +16140,13 @@
       "religion": "印度教"
     }
   ],
+  "satyaloka": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "saṁvega": [
     {
       "slug": "sn9-vana",
@@ -15828,6 +16159,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "saṃnyāsa": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
     }
   ],
   "saṃskāra": [
@@ -16141,6 +16479,13 @@
       "religion": "印度教"
     }
   ],
+  "sāṃkhya": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    }
+  ],
   "sīla": [
     {
       "slug": "an11-elevens",
@@ -16200,6 +16545,13 @@
     {
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "tapoloka": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
       "religion": "印度教"
     }
   ],
@@ -16327,6 +16679,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "trilochana": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    }
+  ],
   "turbinis": [
     {
       "slug": "vulgate-2-kings",
@@ -16380,6 +16739,13 @@
     {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
+  "ukāra": [
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
       "religion": "印度教"
     }
   ],
@@ -16559,6 +16925,11 @@
   ],
   "vidyā": [
     {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
@@ -16690,6 +17061,13 @@
       "religion": "印度教"
     }
   ],
+  "vulgata": [
+    {
+      "slug": "vulgate-prayer-of-manasseh",
+      "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "vyāsa": [
     {
       "slug": "mahabharata",
@@ -16713,6 +17091,13 @@
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
+      "religion": "印度教"
+    }
+  ],
+  "vāsudeva": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
       "religion": "印度教"
     }
   ],
@@ -16768,6 +17153,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "yajamāna": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    }
+  ],
   "yajna": [
     {
       "slug": "shatapatha-brahmana-1",
@@ -16814,6 +17206,16 @@
     {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
       "religion": "印度教"
     },
     {
@@ -17111,6 +17513,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "taittiriya-upanishad",
       "name_zh": "鷓鴣氏奧義書（含商羯羅注）",
       "religion": "印度教"
@@ -17144,6 +17551,13 @@
       "religion": "印度教"
     }
   ],
+  "ādhyātmika": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
   "ādi-vākya": [
     {
       "slug": "abhinavagupta-tantraloka",
@@ -17166,6 +17580,11 @@
     }
   ],
   "ākāśa": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
@@ -17205,6 +17624,13 @@
       "religion": "印度教"
     }
   ],
+  "āraṇi": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    }
+  ],
   "āsana": [
     {
       "slug": "hatha-yoga-pradipika",
@@ -17231,6 +17657,11 @@
     {
       "slug": "mandukya-upanishad",
       "name_zh": "蛙氏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "nadabindu-upanishad",
+      "name_zh": "聲點奧義書",
       "religion": "印度教"
     },
     {
@@ -17395,6 +17826,20 @@
     {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    }
+  ],
+  "śabda-brahma": [
+    {
+      "slug": "brahmabindu-upanishad",
+      "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "śatarudrīya": [
+    {
+      "slug": "kaivalya-upanishad",
+      "name_zh": "獨存奧義書",
       "religion": "印度教"
     }
   ],
@@ -18985,6 +19430,13 @@
     {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
+      "religion": "印度教"
+    }
+  ],
+  "ṣaḍāśraya": [
+    {
+      "slug": "garbha-upanishad",
+      "name_zh": "胎藏奧義書",
       "religion": "印度教"
     }
   ],

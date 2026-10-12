@@ -19,5 +19,42 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "breath-control",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Brahman",
+    "manas",
+    "mokṣa",
+    "nirviṣaya",
+    "nirvikalpa",
+    "oṃ",
+    "ākāśa",
+    "jīva",
+    "ghaṭa",
+    "śabda-brahma",
+    "vidyā",
+    "avidyā",
+    "vāsudeva",
+    "ādhyātmika",
+    "Brahmabindu"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4c7cadc9da0e4e74e01377779ba0a15be4acf281cadae9402de32b0b56b9f308"
+  },
+  "tagging_models": "MiniMax-M3"
 }
