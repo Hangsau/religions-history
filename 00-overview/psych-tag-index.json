@@ -6669,11 +6669,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-song-of-songs",
-      "name_zh": "雅歌",
-      "religion": "基督教"
-    },
-    {
       "slug": "bohutong",
       "name_zh": "白虎通義",
       "religion": "儒教"
@@ -16431,11 +16426,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "kings-2",
-      "name_zh": "列王紀下",
-      "religion": "猶太教"
-    },
-    {
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
@@ -17131,11 +17121,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-2-kings",
-      "name_zh": "列王紀下 (武加大稱 列王紀四)",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-2-timothy",
       "name_zh": "提摩太後書（武加大）",
       "religion": "基督教"
@@ -17446,11 +17431,6 @@
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
-    },
-    {
-      "slug": "bible-1-samuel",
-      "name_zh": "撒母耳記上",
-      "religion": "基督教"
     },
     {
       "slug": "bible-2-peter",
@@ -21123,11 +21103,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "kings-2",
-      "name_zh": "列王紀下",
-      "religion": "猶太教"
-    },
-    {
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
@@ -21767,11 +21742,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-song-of-songs",
-      "name_zh": "雅歌",
-      "religion": "基督教"
-    },
-    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -22257,11 +22227,6 @@
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
-    },
-    {
-      "slug": "bible-1-samuel",
-      "name_zh": "撒母耳記上",
-      "religion": "基督教"
     },
     {
       "slug": "bible-2-chronicles",
@@ -24299,11 +24264,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "kings-2",
-      "name_zh": "列王紀下",
-      "religion": "猶太教"
-    },
-    {
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
@@ -24541,11 +24501,6 @@
     {
       "slug": "vulgate-2-chronicles",
       "name_zh": "歷代志下（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-2-kings",
-      "name_zh": "列王紀下 (武加大稱 列王紀四)",
       "religion": "基督教"
     },
     {
@@ -29861,11 +29816,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "chronicles-1",
-      "name_zh": "歷代志上",
-      "religion": "猶太教"
-    },
-    {
       "slug": "chronicles-2",
       "name_zh": "歷代志下",
       "religion": "猶太教"
@@ -32137,11 +32087,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "kings-2",
-      "name_zh": "列王紀下",
-      "religion": "猶太教"
-    },
-    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -33614,11 +33559,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "vulgate-2-kings",
-      "name_zh": "列王紀下 (武加大稱 列王紀四)",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
       "religion": "基督教"
@@ -33673,11 +33613,6 @@
     {
       "slug": "bible-1-kings",
       "name_zh": "列王紀上",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-1-samuel",
-      "name_zh": "撒母耳記上",
       "religion": "基督教"
     },
     {
@@ -36086,11 +36021,6 @@
       "religion": "兩河"
     },
     {
-      "slug": "chronicles-1",
-      "name_zh": "歷代志上",
-      "religion": "猶太教"
-    },
-    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -36640,6 +36570,11 @@
     {
       "slug": "bible-1-peter",
       "name_zh": "彼得前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
       "religion": "基督教"
     },
     {
@@ -41613,11 +41548,6 @@
       "religion": "錫克教"
     },
     {
-      "slug": "chronicles-1",
-      "name_zh": "歷代志上",
-      "religion": "猶太教"
-    },
-    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -41821,6 +41751,11 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -42160,6 +42095,11 @@
     {
       "slug": "vulgate-1-peter",
       "name_zh": "彼得前書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-2-kings",
+      "name_zh": "列王紀下 (武加大稱 列王紀四)",
       "religion": "基督教"
     },
     {
@@ -44761,6 +44701,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -44945,6 +44890,11 @@
     {
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
       "religion": "基督教"
     },
     {
@@ -46625,6 +46575,11 @@
     {
       "slug": "hosea",
       "name_zh": "何西阿書",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
       "religion": "猶太教"
     },
     {
@@ -51305,6 +51260,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "vulgate-2-kings",
+      "name_zh": "列王紀下 (武加大稱 列王紀四)",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-2-samuel",
       "name_zh": "撒母耳記下 (武加大稱 列王紀二)",
       "religion": "基督教"
@@ -52518,6 +52478,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
+      "religion": "基督教"
+    },
+    {
       "slug": "burden-of-isis",
       "name_zh": "伊西斯的悲歌（奧西里斯讚歌）",
       "religion": "古埃及"
@@ -52747,6 +52712,11 @@
     {
       "slug": "bible-ruth",
       "name_zh": "路得記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-song-of-songs",
+      "name_zh": "雅歌",
       "religion": "基督教"
     },
     {
@@ -56167,6 +56137,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -56300,6 +56275,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
+      "religion": "猶太教"
     },
     {
       "slug": "kitab-i-iqan-ighan",
@@ -56594,6 +56574,11 @@
     {
       "slug": "vulgate-2-corinthians",
       "name_zh": "哥林多後書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-2-kings",
+      "name_zh": "列王紀下 (武加大稱 列王紀四)",
       "religion": "基督教"
     },
     {
@@ -57659,6 +57644,11 @@
       "slug": "cbeta-X02n0188",
       "name_zh": "祕密要術法",
       "religion": "佛教"
+    },
+    {
+      "slug": "chronicles-1",
+      "name_zh": "歷代志上",
+      "religion": "猶太教"
     },
     {
       "slug": "code-of-hammurabi-st",
@@ -59360,6 +59350,11 @@
   ],
   "trust-vulnerability": [
     {
+      "slug": "bible-1-samuel",
+      "name_zh": "撒母耳記上",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-2-corinthians",
       "name_zh": "哥林多後書",
       "religion": "基督教"
@@ -59717,6 +59712,11 @@
     {
       "slug": "joshua",
       "name_zh": "約書亞記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "kings-2",
+      "name_zh": "列王紀下",
       "religion": "猶太教"
     },
     {

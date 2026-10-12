@@ -75,15 +75,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
-    "change-transformation",
-    "courage",
     "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2548c99e4d3a8fea583ed7207af1be272d9de44d1a28cccd7b4bfee685c060f2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

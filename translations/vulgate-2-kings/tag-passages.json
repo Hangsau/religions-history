@@ -1,0 +1,355 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-2-kings",
+ "chunks_total": 20,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber IV Regum",
+   "last_heading": "2 | 第二章",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 |",
+   "last_heading": "5 | 書念婦人的兒子",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "1 | 第四章",
+   "last_heading": "7 | 厄里叟與飢荒",
+   "semantic_tags": [
+    "divine-transcendence",
+    "grace-from-god",
+    "monotheist-exclusive",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "guilt-atonement",
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 |",
+   "last_heading": "8 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | 第六章 25–33；第七章 1–9",
+   "last_heading": "9 | 第六章 25–33；第七章 1–9",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "11 | 列王紀下第八章 15 節至第九章 28 節",
+   "last_heading": "13 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | 列王紀下 第十章",
+   "last_heading": "11 | 第十一章",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "12 | 第十二章",
+   "last_heading": "12 | 第十二章",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "17 | 列王紀下 第十二–十四章（續）",
+   "last_heading": "17 | 列王紀下 第十二–十四章（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 11,
+   "first_heading": "18 | 耶戶王朝續 / 約阿施與厄里叟",
+   "last_heading": "19 | 亞瑪謝登基",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "20 |",
+   "last_heading": "21",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "illness-body",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "22 | 亞哈斯行惡與求援亞述",
+   "last_heading": "25 | 猶大王希則克雅登基",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "25 | 第十八章 14-23",
+   "last_heading": "27 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "28 | 第十九章 33–37 節 ／ 第二十章",
+   "last_heading": "29 | 希西家病與巴比倫使者 / 瑪拿西作王",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "grace-from-god",
+    "messianism",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "30 | 列王紀下第二十一章後半至第二十二章",
+   "last_heading": "31 | 第廿二章10–20節；第廿三章1–6節",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "32 | 第四冊第二十三章 7-24",
+   "last_heading": "32 | 第四冊第二十三章 7-24",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "1 | 第一章",
+   "last_heading": "1 | 第一章",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 20,
+   "first_heading": "34 | 24:8 – 25:9",
+   "last_heading": "36 | 末段",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}
