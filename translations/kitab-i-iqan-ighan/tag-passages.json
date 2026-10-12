@@ -1,0 +1,623 @@
+{
+ "schema_version": 1,
+ "slug": "kitab-i-iqan-ighan",
+ "chunks_total": 32,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Chapter 1",
+   "last_heading": "3 | 列代先知之遭遇",
+   "semantic_tags": [
+    "essentially-good",
+    "grace-from-god",
+    "messianism",
+    "multiple-canons",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "existence-why-born",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 法老之反對",
+   "last_heading": "5 |",
+   "semantic_tags": [
+    "grace-from-god",
+    "messianism",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 第六段",
+   "last_heading": "6 | 第六段",
+   "semantic_tags": [
+    "divine-transcendence",
+    "inclusive-monotheism",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "inclusive-monotheism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "10 | 第十段",
+   "last_heading": "12 | 理想太陽與顯化者",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "divine-transcendence",
+    "messianism",
+    "prophetic-revelation",
+    "sacred-language",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 論「日」與「月」之多重意義",
+   "last_heading": "14 |",
+   "semantic_tags": [
+    "commentarial-layer",
+    "fasting",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "16 | 心之大地",
+   "last_heading": "18 | 試煉之必要：摩西之例",
+   "semantic_tags": [
+    "divine-immanence",
+    "messianism",
+    "mystical-union",
+    "other-power",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "19 | 顯聖者之試煉",
+   "last_heading": "21 | 人子之兆",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "prophetic-revelation",
+    "sacred-language",
+    "suffering-as-purifying",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "22 | 顯聖者降臨之外在與內在徵兆",
+   "last_heading": "24 | 第24段",
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-transcendence",
+    "messianism",
+    "mystical-union",
+    "prophetic-revelation",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "25 | 雲的象徵",
+   "last_heading": "25 | 雲的象徵",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "27 | 論天使之義",
+   "last_heading": "29 | 經文之變造：伊本·蘇利亞的故事",
+   "semantic_tags": [
+    "messianism",
+    "prophetic-revelation",
+    "reincarnation",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "30 | 轉置",
+   "last_heading": "2 | Chapter 2",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "34 | 第 34 段",
+   "last_heading": "36 | 治權之真義",
+   "semantic_tags": [
+    "created-in-image",
+    "divine-immanence",
+    "emanation",
+    "human-as-microcosm",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "37 | 聖尊所受之迫害與眾先知之統治",
+   "last_heading": "39 | 第三十九段",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "messianism",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "40 | 復活之奧義",
+   "last_heading": "42 | 內在的統治權",
+   "semantic_tags": [
+    "divine-transcendence",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "43 | 論權柄之真義",
+   "last_heading": "45 | 真實貧窮與財富",
+   "semantic_tags": [
+    "compassion",
+    "divine-immanence",
+    "mystical-union",
+    "non-violence",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "46 | 神聖者的主權與權能",
+   "last_heading": "48 | 第四十八段",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "forgiveness",
+    "messianism",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "49 | 復活與會見上帝",
+   "last_heading": "51 | 聖伴之返回",
+   "semantic_tags": [
+    "commentarial-layer",
+    "inclusive-monotheism",
+    "messianism",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "52 | 論神聖顯示者之合一",
+   "last_heading": "54 | 第 54 段",
+   "semantic_tags": [
+    "commentarial-layer",
+    "liberation-by-devotion",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "reincarnation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "55 | 始末之同一",
+   "last_heading": "57 | 論榮耀之帷幕",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "messianism",
+    "mystical-union",
+    "prophetic-revelation",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "trust-vulnerability",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "58 | 論封印與相會",
+   "last_heading": "60 | 論顯聖者之兩境",
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "divine-transcendence",
+    "messianism",
+    "mystical-union",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "61 | 顯化者之位階",
+   "last_heading": "62 | 論神聖言語之詮釋",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-immanence",
+    "divine-transcendence",
+    "messianism",
+    "monotheist-exclusive",
+    "mystical-union",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "63 | 論虛假的學問",
+   "last_heading": "65 | 試金石",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "liberation-by-knowledge",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "66 | 求道者淨心修道之要",
+   "last_heading": "68 | 靈性之城與各時代的神聖之書",
+   "semantic_tags": [
+    "divine-immanence",
+    "grace-from-god",
+    "humility",
+    "liberation-by-knowledge",
+    "multiple-canons",
+    "mystical-union",
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "patience-waiting",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "69 | 經典之權威",
+   "last_heading": "71 | 論經文之尊嚴與否認者之辱",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "multiple-canons",
+    "prophetic-revelation",
+    "revealed-text",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "72 | 論經文之充足證據",
+   "last_heading": "74 | 教士之悖離與聖言之浩瀚",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "messianism",
+    "multiple-canons",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "justice-power",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "75 | 致兄弟",
+   "last_heading": "77",
+   "semantic_tags": [
+    "against-idolatry",
+    "humility",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "78 |",
+   "last_heading": "80 |",
+   "semantic_tags": [
+    "messianism",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "81 | 聖道之證明與世人矛盾",
+   "last_heading": "83 | 哈希姆青年顯現之聖訓傳承",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "84 | 知識的二十七個字母",
+   "last_heading": "85 | 聖伴之磨難與警示",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "messianism",
+    "multiple-canons",
+    "priesthood",
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "86 | 迫害與隱遁",
+   "last_heading": "89 | 結語",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "mystical-union",
+    "other-power",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "3 | Glossary",
+   "last_heading": "4 | Introduction",
+   "semantic_tags": [
+    "commentarial-layer",
+    "heaven-hell",
+    "inclusive-monotheism",
+    "messianism",
+    "multiple-canons",
+    "prophetic-revelation",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,622 @@
+{
+ "schema_version": 1,
+ "slug": "psalms",
+ "chunks_total": 29,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 1",
+   "last_heading": "7 | 7",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "8 | 8",
+   "last_heading": "15 | 15",
+   "semantic_tags": [
+    "created-in-image",
+    "creator-deity",
+    "divine-kingship",
+    "prayer",
+    "salvation-by-faith",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "16 | 16",
+   "last_heading": "9 | 詩篇 18:38–51",
+   "semantic_tags": [
+    "divine-transcendence",
+    "messianism",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "19 | 19",
+   "last_heading": "21 | 21",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "grace-from-god",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "22 | 22",
+   "last_heading": "26 | 26",
+   "semantic_tags": [
+    "commandments-law",
+    "messianism",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "27 | 27",
+   "last_heading": "31 | 31",
+   "semantic_tags": [
+    "awe-fear",
+    "creator-deity",
+    "divine-transcendence",
+    "liberation-by-devotion",
+    "prayer",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "32 | 32",
+   "last_heading": "36 | 36",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "forgiveness",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "37 | 37",
+   "last_heading": "40 | 40",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "41 | 41",
+   "last_heading": "46 | 46",
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-transcendence",
+    "messianism",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "47 | 47",
+   "last_heading": "51 | 詩篇第五十一篇",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "52 | 詩篇第五十二篇",
+   "last_heading": "58 | 58",
+   "semantic_tags": [
+    "forgiveness",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "59 | 59",
+   "last_heading": "65 | 65",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "forgiveness",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "66 | 66",
+   "last_heading": "69 | 69",
+   "semantic_tags": [
+    "awe-fear",
+    "creator-deity",
+    "inclusive-monotheism",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "70 | 70",
+   "last_heading": "74 | 74",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "75 | 75",
+   "last_heading": "78 | 78",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "47 | 詩篇 78:39–72",
+   "last_heading": "82 | 82",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "83 | 83",
+   "last_heading": "86 | 86",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "inclusive-monotheism",
+    "prayer",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "89 | 89",
+   "last_heading": "91 | 91",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-kingship",
+    "divine-transcendence",
+    "messianism",
+    "prayer",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "92 | 92",
+   "last_heading": "97 | 97",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "98 | 98",
+   "last_heading": "103 | 詩篇 103",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "forgiveness",
+    "monotheist-exclusive",
+    "prayer",
+    "priesthood",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "104 | 104",
+   "last_heading": "105 | 105",
+   "semantic_tags": [
+    "awe-fear",
+    "chaos-to-order",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "prayer",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "106 | 106",
+   "last_heading": "108 | 108",
+   "semantic_tags": [
+    "against-idolatry",
+    "congregational",
+    "forgiveness",
+    "grace-from-god",
+    "prayer",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "109 | 109",
+   "last_heading": "115 | 115",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "116 | 116",
+   "last_heading": "119:57 | ח Heth",
+   "semantic_tags": [
+    "commandments-law",
+    "congregational",
+    "monotheist-exclusive",
+    "prayer",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "119:65 | ט Teth",
+   "last_heading": "74 | 詩篇 119:81–145",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "75 | ק (Qoph) — 第 75 段 / 詩篇 119:147-152, 153-160, 161-168",
+   "last_heading": "129 | 129",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "pilgrimage",
+    "prayer",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "130 | 詩篇 130",
+   "last_heading": "137 | 137",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "pilgrimage",
+    "prayer",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "138 | 138",
+   "last_heading": "143 | 143",
+   "semantic_tags": [
+    "compassion",
+    "creator-deity",
+    "divine-immanence",
+    "divine-transcendence",
+    "essentially-good",
+    "grace-from-god",
+    "prayer",
+    "prophetic-critique",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "144 | 144",
+   "last_heading": "150 | 150",
+   "semantic_tags": [
+    "commandments-law",
+    "congregational",
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}
