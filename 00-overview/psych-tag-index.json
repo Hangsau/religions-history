@@ -3336,11 +3336,6 @@
       "slug": "zhonglu-chuandao-ji",
       "name_zh": "鍾呂傳道集",
       "religion": "道教"
-    },
-    {
-      "slug": "zhouyi-cantong-qi",
-      "name_zh": "周易參同契",
-      "religion": "道教"
     }
   ],
   "beauty-wonder-transcendent-moment": [
@@ -6567,11 +6562,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "samkhya-karika",
-      "name_zh": "數論頌",
-      "religion": "印度教"
-    },
-    {
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
@@ -8762,11 +8752,6 @@
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
-    },
-    {
-      "slug": "esther",
-      "name_zh": "以斯帖記",
-      "religion": "猶太教"
     },
     {
       "slug": "fragments-of-faith-forgotten",
@@ -16596,11 +16581,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "esther",
-      "name_zh": "以斯帖記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -17586,11 +17566,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-amos",
-      "name_zh": "阿摩司書（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-colossians",
       "name_zh": "歌羅西書（武加大）",
       "religion": "基督教"
@@ -17801,6 +17776,11 @@
       "religion": "道教"
     },
     {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "zhengmeng",
       "name_zh": "正蒙",
       "religion": "儒教"
@@ -17819,6 +17799,11 @@
       "slug": "zhoudunyi-tongshu",
       "name_zh": "通書",
       "religion": "儒教"
+    },
+    {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
     }
   ],
   "change-transformation": [
@@ -22296,11 +22281,6 @@
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
-    },
-    {
-      "slug": "zechariah",
-      "name_zh": "撒迦利亞書",
-      "religion": "猶太教"
     },
     {
       "slug": "zephaniah",
@@ -31356,11 +31336,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "samkhya-karika",
-      "name_zh": "數論頌",
-      "religion": "印度教"
-    },
-    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -31864,11 +31839,6 @@
       "slug": "yuhuang-benxing-jing",
       "name_zh": "高上玉皇本行集經",
       "religion": "道教"
-    },
-    {
-      "slug": "zechariah",
-      "name_zh": "撒迦利亞書",
-      "religion": "猶太教"
     },
     {
       "slug": "zhengmeng",
@@ -32702,11 +32672,6 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
-      "religion": "印度教"
-    },
-    {
-      "slug": "samkhya-karika",
-      "name_zh": "數論頌",
       "religion": "印度教"
     },
     {
@@ -37808,11 +37773,6 @@
     {
       "slug": "vulgate-acts",
       "name_zh": "使徒行傳（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-amos",
-      "name_zh": "阿摩司書（武加大）",
       "religion": "基督教"
     },
     {
@@ -43478,11 +43438,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-amos",
-      "name_zh": "阿摩司書（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
       "religion": "基督教"
@@ -46264,11 +46219,6 @@
       "slug": "yangzi-fayan",
       "name_zh": "揚子法言",
       "religion": "儒教"
-    },
-    {
-      "slug": "zechariah",
-      "name_zh": "撒迦利亞書",
-      "religion": "猶太教"
     }
   ],
   "guilt-atonement": [
@@ -48113,6 +48063,11 @@
       "religion": "道教"
     },
     {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
@@ -49172,6 +49127,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "ezra",
       "name_zh": "以斯拉記",
       "religion": "猶太教"
@@ -49287,6 +49247,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-amos",
+      "name_zh": "阿摩司書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-ephesians",
       "name_zh": "以弗所書（武加大）",
       "religion": "基督教"
@@ -49335,6 +49300,11 @@
       "slug": "vulgate-zephaniah",
       "name_zh": "西番雅書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zechariah",
+      "name_zh": "撒迦利亞書",
+      "religion": "猶太教"
     },
     {
       "slug": "zephaniah",
@@ -50472,11 +50442,6 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
-    },
-    {
-      "slug": "zhouyi-cantong-qi",
-      "name_zh": "周易參同契",
-      "religion": "道教"
     }
   ],
   "ingroup-outgroup-prejudice": [
@@ -52033,6 +51998,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "samkhya-karika",
+      "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
       "slug": "sefer-yetzirah",
       "name_zh": "創造之書",
       "religion": "猶太教"
@@ -52307,6 +52277,11 @@
     {
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-amos",
+      "name_zh": "阿摩司書（武加大）",
       "religion": "基督教"
     },
     {
@@ -53274,6 +53249,11 @@
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
+    },
+    {
+      "slug": "esther",
+      "name_zh": "以斯帖記",
+      "religion": "猶太教"
     },
     {
       "slug": "genesis",
@@ -57182,6 +57162,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-amos",
+      "name_zh": "阿摩司書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
       "religion": "基督教"
@@ -59703,6 +59688,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "zhouyi-cantong-qi",
+      "name_zh": "周易參同契",
+      "religion": "道教"
+    },
+    {
       "slug": "zhuangzi",
       "name_zh": "莊子",
       "religion": "道教"
@@ -61887,6 +61877,11 @@
       "religion": "道教"
     },
     {
+      "slug": "samkhya-karika",
+      "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
@@ -63032,6 +63027,11 @@
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
+    },
+    {
+      "slug": "samkhya-karika",
+      "name_zh": "數論頌",
+      "religion": "印度教"
     },
     {
       "slug": "sblgnt-1-timothy",

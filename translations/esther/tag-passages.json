@@ -1,0 +1,81 @@
+{
+ "schema_version": 1,
+ "slug": "esther",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一章",
+   "last_heading": "4 | 第二章",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "gender-body",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 3",
+   "last_heading": "6 | 6",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "fasting",
+    "messianism",
+    "other-power",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | 第七章",
+   "last_heading": "第九章",
+   "semantic_tags": [
+    "against-idolatry",
+    "fasting",
+    "liberation-by-devotion",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | 普珥節的設立",
+   "last_heading": "10 | 10",
+   "semantic_tags": [
+    "congregational",
+    "other-power",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  }
+ ]
+}

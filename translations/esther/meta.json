@@ -46,15 +46,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
-    "calling-vocation",
     "courage",
     "death",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "747f1317118e0b4daaa7ff5e8cbdbe7ddd944d8ace20a783f9e386ea57b4c8b6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

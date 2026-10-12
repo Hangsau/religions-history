@@ -55,15 +55,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
     "death",
-    "faith-doubt",
-    "fear-uncertainty",
-    "guilt-atonement"
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "bb192a337f936408225837f32ec51e9d8e3bb98c9a63e94078a2e09a930f1d46"
+  },
+  "tagging_models": "MiniMax-M3"
 }

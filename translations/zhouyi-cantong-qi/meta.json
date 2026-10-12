@@ -49,15 +49,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "aging-time",
     "body-mind",
+    "calling-vocation",
     "change-transformation",
     "death",
-    "illness-body"
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d21182e295ffd3bdfef917798e98a40534f12541712a9cff564937850aa1faf9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

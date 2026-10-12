@@ -54,15 +54,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "death",
+    "calling-vocation",
     "faith-doubt",
     "fear-uncertainty",
-    "gratitude-contentment"
+    "guilt-atonement",
+    "hope-reason-to-live"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "60730b2a65ab186b469b4c1f05af6c078313652f765cc466bb129d888c3af79f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

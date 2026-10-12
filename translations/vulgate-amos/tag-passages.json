@@ -1,0 +1,85 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-amos",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Prophetia Amos",
+   "last_heading": "4 | Amos 4",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 第四章",
+   "last_heading": "7 | 第八章",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "economic-justice",
+    "prophetic-critique",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "8 | 第九章",
+   "last_heading": "3 | 第八章",
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "6 | 第八章",
+   "last_heading": "7 | 阿摩司書 9:12–15",
+   "semantic_tags": [
+    "against-idolatry",
+    "economic-justice",
+    "messianism",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}
