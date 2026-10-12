@@ -1,0 +1,536 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-genesis",
+ "chunks_total": 28,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber Genesis",
+   "last_heading": "3 | 第三章",
+   "semantic_tags": [
+    "chaos-to-order",
+    "commandments-law",
+    "created-in-image",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 第四章",
+   "last_heading": "5 | 第五章",
+   "semantic_tags": [
+    "created-in-image",
+    "creator-deity",
+    "divine-transcendence",
+    "lineage-importance",
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 洪水前",
+   "last_heading": "8 | 第八章後半 — 第九章 7",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "divine-transcendence",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | Noë 的後裔、洪水後之事",
+   "last_heading": "10 | Sem 後裔與巴別塔",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "lineage-importance",
+    "polytheist",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | 第十二章（續）",
+   "last_heading": "12 | 第十二段",
+   "semantic_tags": [
+    "creator-deity",
+    "grace-from-god",
+    "lineage-importance",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "calling-vocation",
+    "freewill-fate-choice",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 第十三段：亞伯蘭救回羅得 / 麥基洗德祝福 / 與所多瑪王交涉 / 上主的應許",
+   "last_heading": "13 | 第十三段：亞伯蘭救回羅得 / 麥基洗德祝福 / 與所多瑪王交涉 / 上主的應許",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "priesthood",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | 第十五章 9–21、第十六章 1–16",
+   "last_heading": "14 | 第十五章 9–21、第十六章 1–16",
+   "semantic_tags": [
+    "commandments-law",
+    "marriage-sacred",
+    "other-power",
+    "prophetic-revelation",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "existence-why-born",
+    "meaning-of-suffering",
+    "parenthood",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "16 | 三客訪亞伯拉罕與所多瑪事件",
+   "last_heading": "18 | 第十九章 17–38, 第二十章 1–5",
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "19 | 第二十章 7–18；第二十一章 1–15a",
+   "last_heading": "20 | 哈加爾與以實瑪利／亞伯拉罕與亞比米勒立約／亞伯拉罕獻以撒",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "21 | 第22章10–24節／第23章1–15節",
+   "last_heading": "23 | Rebecca at the Well",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "other-power",
+    "pilgrimage",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "24 | 創世記第24章46節–第25章5節",
+   "last_heading": "25 | 以撒與以實瑪利的後代；以掃與雅各",
+   "semantic_tags": [
+    "divine-transcendence",
+    "lineage-importance",
+    "marriage-sacred",
+    "prayer",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "26 | 創世記 26",
+   "last_heading": "27 |",
+   "semantic_tags": [
+    "divine-transcendence",
+    "patriarchal",
+    "pilgrimage",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "28 |",
+   "last_heading": "30 | 雅各與拉班",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "lineage-importance",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "31 | 第29章第35節至第30章第31節",
+   "last_heading": "32 | Jacob's flocks, Laban's bargain",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "lineage-importance",
+    "marriage-sacred",
+    "other-power",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "33 |",
+   "last_heading": "34 |",
+   "semantic_tags": [
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "35 | Jacob at Iaboc — wrestling and reconciliation gifts",
+   "last_heading": "36 | 第三十三章 17–20，與第三十四章 1–10",
+   "semantic_tags": [
+    "grace-from-god",
+    "messianism",
+    "prayer",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "37 | Chapter 34",
+   "last_heading": "38 | 第三十五章（續）— 雅各在伯特利、拉結之死、以掃的後裔、以撒之死",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "39 | 第36章 7節～第36章 43節",
+   "last_heading": "41 | 第卅七章（續）",
+   "semantic_tags": [
+    "lineage-importance",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "42 | 第卅八章",
+   "last_heading": "43 | 創世記 39:13–40:19",
+   "semantic_tags": [
+    "divine-transcendence",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "44 |",
+   "last_heading": "44 |",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "other-power",
+    "prophetic-revelation",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "45 | 約瑟治理埃及",
+   "last_heading": "47 |",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "other-power",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "guilt-atonement",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "48 | 第43章12-34",
+   "last_heading": "49",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "50 | 兄弟相認",
+   "last_heading": "52",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "inclusive-monotheism",
+    "lineage-importance",
+    "prophetic-revelation",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "loss-grief",
+    "memory-reconciliation",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "53 | 第 47 章（續）",
+   "last_heading": "55 | 第四十九章",
+   "semantic_tags": [
+    "ancestor-worship",
+    "creation-ex-nihilo"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "giving-generosity",
+    "parenthood",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "55 | 雅各的祝福（續：呂便、西緬、利未、猶大等十二支派）",
+   "last_heading": "55 | 雅各的祝福（續：呂便、西緬、利未、猶大等十二支派）",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "lineage-importance",
+    "messianism",
+    "prophetic-revelation",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "56 | 雅各遺囑與約瑟安葬",
+   "last_heading": "56 | 雅各遺囑與約瑟安葬",
+   "semantic_tags": [
+    "divine-transcendence",
+    "essentially-good",
+    "forgiveness",
+    "lineage-importance",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "57 | 第50章",
+   "last_heading": "57 | 第50章",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death"
+   ]
+  }
+ ]
+}

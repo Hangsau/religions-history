@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
-    "death",
-    "existence-why-born",
-    "faith-doubt"
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "edd4c1218dd65642e24ab01bd10337bd42e9c989f081708847beba409c3ea940"
+  },
+  "tagging_models": "MiniMax-M3"
 }

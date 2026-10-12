@@ -51,15 +51,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "death",
-    "evil-cruelty-empathy",
-    "existence-why-born"
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2084e96301d76f99b8fd2a0c88e622092c6c5d21a1794ef9b76db6bca6197d01"
+  },
+  "tagging_models": "MiniMax-M3"
 }

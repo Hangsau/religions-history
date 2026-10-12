@@ -1,0 +1,563 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-isaiah",
+ "chunks_total": 28,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Prophetia Isaiae",
+   "last_heading": "1 | 以賽亞書第二章",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "commandments-law",
+    "inclusive-monotheism",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "guilt-atonement",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | caput 3",
+   "last_heading": "5 | 責罰與救恩的異象",
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-critique",
+    "theodicy",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 第七章",
+   "last_heading": "5 | 10:1-4",
+   "semantic_tags": [
+    "divine-kingship",
+    "messianism",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "6 | 10:5-8",
+   "last_heading": "10 | 以賽亞書 第10章第33-34節，第11章，第12章，第13章第1-3節",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "messianism",
+    "prophetic-critique",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | 第十一章",
+   "last_heading": "12 | 第14章第4節起",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "hope-reason-to-live",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 論摩押",
+   "last_heading": "13 | 論摩押",
+   "semantic_tags": [
+    "apocalypse",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "17 | 論大馬色的默示",
+   "last_heading": "1 | Isaiah 20",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "2 | Isaiah 21",
+   "last_heading": "19 | 第二十四章",
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "19 | 以賽亞書 24:13-25:12",
+   "last_heading": "21 | 以賽亞書第廿七、廿八章",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-kingship",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "theophany",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "22 | 以賽亞書 第28章 16-29節、第29章 1-9節",
+   "last_heading": "24 | —",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "25 |",
+   "last_heading": "25 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 14,
+   "first_heading": "26 |",
+   "last_heading": "28 | 以賽亞書 34–37",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-transcendence",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "29 | 耶路撒冷被圍；以賽亞預言",
+   "last_heading": "31 | 以賽亞書 第37-38章（節錄）",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "32 | 以賽亞書 38:21–39:8；40:1–14",
+   "last_heading": "41 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "messianism",
+    "other-power",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "42 |",
+   "last_heading": "42 |",
+   "semantic_tags": [
+    "compassion",
+    "creator-deity",
+    "divine-immanence",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "35 | 第42章",
+   "last_heading": "35 | 第42章",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "forgiveness",
+    "grace-from-god",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "37 | 以賽亞書 第44章",
+   "last_heading": "38 | 以賽亞書 44",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "grace-from-god",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "39 | 以賽亞書 45:22 — 46:13",
+   "last_heading": "43 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "other-power",
+    "salvation-by-faith",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "44 |",
+   "last_heading": "44 |",
+   "semantic_tags": [
+    "grace-from-god",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "43 |",
+   "last_heading": "45 | Servus Domini et Ierusalem futura",
+   "semantic_tags": [
+    "grace-from-god",
+    "mandate-of-heaven",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "46 | 以賽亞書 第55-56章",
+   "last_heading": "48",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "compassion",
+    "economic-justice",
+    "fasting",
+    "forgiveness",
+    "grace-from-god",
+    "inclusive-monotheism",
+    "prayer",
+    "prophetic-critique",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "49",
+   "last_heading": "49 | 第五十九章（續）／第六十章（起）",
+   "semantic_tags": [
+    "forgiveness",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "60 | 以賽亞書第六十章（續）",
+   "last_heading": "52 | 第六十三章",
+   "semantic_tags": [
+    "created-in-image",
+    "grace-from-god",
+    "messianism",
+    "prophetic-revelation",
+    "sacred-language",
+    "salvation-by-faith",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "53 | 第六十三章後半至第六十五章",
+   "last_heading": "53 | 第六十三章後半至第六十五章",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "creator-deity",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "54 |",
+   "last_heading": "55",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "heaven-hell",
+    "messianism",
+    "theophany",
+    "ultimate-reality",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  }
+ ]
+}
