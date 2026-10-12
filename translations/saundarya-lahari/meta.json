@@ -19,5 +19,61 @@
   "tier": "次要",
   "notes": "傳為商羯羅著夏克提派（Śākta）女神讚歌，Śrīvidyā 密教核心讚頌",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "awe-fear",
+    "breath-control",
+    "commentarial-layer",
+    "compassion",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "feminine-divine",
+    "goddess-tradition",
+    "grace-from-god",
+    "human-as-microcosm",
+    "liberation-by-devotion",
+    "meditation",
+    "multiple-souls",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "Śaṅkara",
+    "Saundaryalaharī",
+    "Śiva",
+    "Śakti",
+    "Tripurasundarī",
+    "Lalitā",
+    "Pārvatī",
+    "Bhairava",
+    "Harihara",
+    "Brahmā",
+    "Viṣṇu",
+    "Manmatha",
+    "Kāma",
+    "aparā prakṛti",
+    "cintāmaṇi"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "gratitude-contentment",
+    "love-sex-intimacy",
+    "stillness-rest"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5a785186411857580fcf70a18d3373a624c77cea424a23119dc4fbf086ca210c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

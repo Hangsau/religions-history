@@ -21,5 +21,51 @@
   "tier": "次要",
   "notes": "柏拉圖對話，蘇格拉底獄中論守法義務與逃獄之非，政治倫理與良心經典",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "divine-transcendence",
+    "essentially-good",
+    "golden-rule",
+    "oral-tradition",
+    "other-power",
+    "patriarchal",
+    "secular-state",
+    "self-effort",
+    "synagogue-mosque-style",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "Κρίτων",
+    "Σωκράτης",
+    "Δῆ",
+    "Σω",
+    "πλοῖον",
+    "ἐνύπνιον",
+    "Φθίη",
+    "δεσμωτήριον",
+    "τελευτᾶν",
+    "ἀποθνῄσκειν",
+    "σῴζειν",
+    "δόξα",
+    "τύχη",
+    "συκοφάνται",
+    "Θετταλία"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "0a7eb46b425e39e99e7c75f767b21012f8627420ca4b6a65a976dae101623817"
+  },
+  "tagging_models": "MiniMax-M3"
 }

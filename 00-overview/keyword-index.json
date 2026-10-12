@@ -301,6 +301,13 @@
       "religion": "諾斯底"
     }
   ],
+  "Aethiopia": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Afanasief": [
     {
       "slug": "songs-of-russian-people",
@@ -455,6 +462,13 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Akittivagga": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     }
   ],
   "Akka": [
@@ -875,6 +889,13 @@
       "religion": "猶太教"
     }
   ],
+  "Arahato": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "Ardhanārīśvarastotra": [
     {
       "slug": "ardhanarishvara-stotra",
@@ -970,6 +991,13 @@
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
+    }
+  ],
+  "Arphaxad": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Artemis": [
@@ -1095,6 +1123,13 @@
       "slug": "chaldean-account-deluge",
       "name_zh": "迦勒底洪水記",
       "religion": "兩河"
+    }
+  ],
+  "Assyrii": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Astaroth": [
@@ -1652,6 +1687,13 @@
       "religion": "印度教"
     }
   ],
+  "Bhagavato": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "Bhagavān": [
     {
       "slug": "kurma-purana",
@@ -1690,6 +1732,11 @@
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     }
   ],
@@ -1983,6 +2030,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "shiva-mahimna-stava",
       "name_zh": "濕婆威德讚",
       "religion": "印度教"
@@ -2244,6 +2296,13 @@
       "religion": "美洲"
     }
   ],
+  "Cariyāpiṭaka": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "Carmina Gadelica": [
     {
       "slug": "carmina-gadelica-1",
@@ -2474,6 +2533,13 @@
       "slug": "chandogya-upanishad",
       "name_zh": "唱讚奧義書（含注）",
       "religion": "印度教"
+    }
+  ],
+  "Cilicia": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Cittavagga": [
@@ -3151,6 +3217,13 @@
       "religion": "北歐"
     }
   ],
+  "Ecbatana": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Ecclesiastes": [
     {
       "slug": "vulgate-ecclesiastes",
@@ -3226,6 +3299,13 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
+    }
+  ],
+  "Eliachim": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Elias": [
@@ -3414,6 +3494,13 @@
     {
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "Euphraten": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     }
   ],
@@ -3743,6 +3830,18 @@
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "Gallio": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Gambler": [
@@ -4348,6 +4447,13 @@
       "religion": "印度教"
     }
   ],
+  "Harihara": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    }
+  ],
   "Harlech": [
     {
       "slug": "mabinogion-cy-1",
@@ -4572,6 +4678,20 @@
       "slug": "carmina-gadelica-1",
       "name_zh": "Carmina Gadelica Vol 1",
       "religion": "凱爾特"
+    }
+  ],
+  "Holofern": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "Holofernes": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Holy Temple": [
@@ -5425,6 +5545,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-micah",
       "name_zh": "彌迦書（武加大）",
       "religion": "基督教"
@@ -6144,6 +6269,13 @@
       "religion": "印度教"
     }
   ],
+  "Kāma": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    }
+  ],
   "Kāṇva 傳本": [
     {
       "slug": "brihadaranyaka-upanishad",
@@ -6217,6 +6349,13 @@
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "Lalitā": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
     }
   ],
   "Laman": [
@@ -6820,6 +6959,13 @@
       "religion": "巴哈伊"
     }
   ],
+  "Manmatha": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    }
+  ],
   "Manopubbaṅgamā": [
     {
       "slug": "dhammapada",
@@ -7046,6 +7192,13 @@
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Medi": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Medrawd": [
@@ -7499,6 +7652,11 @@
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Naciketas": [
@@ -7766,6 +7924,13 @@
     {
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "Ninive": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     }
   ],
@@ -9118,6 +9283,11 @@
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
     }
   ],
   "Pārśva": [
@@ -9231,6 +9401,13 @@
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
+    }
+  ],
+  "Ragau": [
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     }
   ],
   "Ragnarök": [
@@ -9680,6 +9857,13 @@
       "religion": "耆那教"
     }
   ],
+  "Sammāsambuddhassa": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "Samuel": [
     {
       "slug": "samuel-1",
@@ -9831,6 +10015,13 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    }
+  ],
+  "Saundaryalaharī": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     }
   ],
@@ -10421,6 +10612,13 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    }
+  ],
+  "Stoici": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Strife": [
@@ -11104,6 +11302,13 @@
       "religion": "印度教"
     }
   ],
+  "Tripurasundarī": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    }
+  ],
   "Trismegistus": [
     {
       "slug": "thrice-greatest-hermes-3",
@@ -11740,6 +11945,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -12772,6 +12982,13 @@
       "religion": "印度教"
     }
   ],
+  "akitti": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "akāra": [
     {
       "slug": "nadabindu-upanishad",
@@ -12896,6 +13113,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "animi bonum": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "animism": [
     {
       "slug": "religion-indians-california",
@@ -12985,6 +13209,13 @@
       "slug": "bud-madhyantavibhaga-sa",
       "name_zh": "辯中邊論頌（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "aparā prakṛti": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
     }
   ],
   "apavarga": [
@@ -13276,6 +13507,13 @@
       "religion": "基督教"
     }
   ],
+  "beate vivere": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "berserkir": [
     {
       "slug": "snorra-edda-on",
@@ -13563,6 +13801,13 @@
       "religion": "佛教"
     }
   ],
+  "bodhipācanaṁ": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "bodhisattva": [
     {
       "slug": "bud-bodhicaryavatara-sa",
@@ -13699,6 +13944,13 @@
       "religion": "印度教"
     }
   ],
+  "brahāraññe": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "brevitas vitae": [
     {
       "slug": "seneca-de-brevitate-vitae-la",
@@ -13718,6 +13970,11 @@
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     },
     {
       "slug": "sn56-sacca",
@@ -13797,6 +14054,13 @@
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "cariyā": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     }
   ],
   "cattāri ariyasaccāni": [
@@ -13887,6 +14151,13 @@
     {
       "slug": "abhinavagupta-kramastotra",
       "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    }
+  ],
+  "cintāmaṇi": [
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     }
   ],
@@ -14061,6 +14332,13 @@
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
       "religion": "印度教"
+    }
+  ],
+  "dakkhiṇeyya": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     }
   ],
   "dano": [
@@ -14456,6 +14734,13 @@
       "religion": "佛教"
     }
   ],
+  "dānapāramī": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "dāsya": [
     {
       "slug": "yamuna-gitartha-samgraha",
@@ -14519,6 +14804,13 @@
       "religion": "基督教"
     }
   ],
+  "error": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "eternal life": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -14545,6 +14837,13 @@
       "slug": "carmina-gadelica-2",
       "name_zh": "Carmina Gadelica Vol 2",
       "religion": "凱爾特"
+    }
+  ],
+  "exempla": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "exile": [
@@ -14605,6 +14904,13 @@
     {
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "felicitas aeternae": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -15191,6 +15497,13 @@
       "slug": "vulgate-prayer-of-manasseh",
       "name_zh": "瑪拿西禱辭（武加大附錄）",
       "religion": "基督教"
+    }
+  ],
+  "iudicium": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "iustus in fide sua vivet": [
@@ -16318,6 +16631,18 @@
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "natura cupiditas": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "natura rerum": [
@@ -16922,6 +17247,13 @@
       "religion": "基督教"
     }
   ],
+  "peregrinatio": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "phassa": [
     {
       "slug": "sn12-nidana",
@@ -17408,6 +17740,13 @@
       "religion": "佛教"
     }
   ],
+  "puñña": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    }
+  ],
   "puḍhavi-kamma": [
     {
       "slug": "jain-acaranga-pkt",
@@ -17451,6 +17790,13 @@
       "slug": "kaivalya-upanishad",
       "name_zh": "獨存奧義書",
       "religion": "印度教"
+    }
+  ],
+  "pāramī": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     }
   ],
   "pātimokkha 波羅提木叉": [
@@ -17568,6 +17914,13 @@
       "slug": "chandi-di-var-pa",
       "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "ratio": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "reason and faith": [
@@ -17693,6 +18046,13 @@
     {
       "slug": "bud-lankavatara-sa",
       "name_zh": "楞伽經（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "sabbaṁ kammāni ācarin": [
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
       "religion": "佛教"
     }
   ],
@@ -18981,6 +19341,11 @@
   ],
   "veritas": [
     {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-2-john",
       "name_zh": "約翰二書（武加大）",
       "religion": "基督教"
@@ -19148,6 +19513,13 @@
       "religion": "基督教"
     }
   ],
+  "vita beata": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "vita brevis": [
     {
       "slug": "seneca-de-brevitate-vitae-la",
@@ -19221,6 +19593,13 @@
       "slug": "vulgate-prayer-of-manasseh",
       "name_zh": "瑪拿西禱辭（武加大附錄）",
       "religion": "基督教"
+    }
+  ],
+  "vulgus": [
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "vyāsa": [
@@ -19953,6 +20332,11 @@
   ],
   "Śakti": [
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
       "religion": "印度教"
@@ -19991,6 +20375,11 @@
     {
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -20035,6 +20424,11 @@
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -20355,6 +20749,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Δῆ": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ζαχαρίας": [
     {
       "slug": "sblgnt-luke",
@@ -20371,6 +20772,13 @@
     {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Θετταλία": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20399,6 +20807,13 @@
     {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Κρίτων": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20519,7 +20934,19 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Σω": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Σωκράτης": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
@@ -20549,6 +20976,13 @@
     {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Φθίη": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20639,6 +21073,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "δεσμωτήριον": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "δεσπότης": [
     {
       "slug": "aristotle-politics-el",
@@ -20669,6 +21110,13 @@
     {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "δόξα": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20919,6 +21367,13 @@
       "religion": "基督教"
     }
   ],
+  "πλοῖον": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "προαίρεσις": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -20973,6 +21428,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "συκοφάνται": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "συμπόσιον": [
     {
       "slug": "plato-symposium-el",
@@ -21001,6 +21463,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "σῴζειν": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "σῶμα": [
     {
       "slug": "plotinus-enneads-el",
@@ -21015,10 +21484,22 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "τελευτᾶν": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "τύχη": [
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -22382,6 +22863,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἀποθνῄσκειν": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἀρετή": [
     {
       "slug": "aristotle-politics-el",
@@ -22466,6 +22954,13 @@
     {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἐνύπνιον": [
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],

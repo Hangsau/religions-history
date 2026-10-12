@@ -20,5 +20,60 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "tradition": "巴利"
+  "tradition": "巴利",
+  "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "humility",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-violence",
+    "other-power",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Bhagavato",
+    "Arahato",
+    "Sammāsambuddhassa",
+    "dānapāramī",
+    "bodhipācanaṁ",
+    "akitti",
+    "brahāraññe",
+    "dakkhiṇeyya",
+    "puñña",
+    "brāhmaṇa",
+    "pāramī",
+    "cariyā",
+    "Akittivagga",
+    "Cariyāpiṭaka",
+    "sabbaṁ kammāni ācarin"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "giving-generosity",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b03b78bb035d3ce09c9bfa4775b53a26bc88941d0f4f01c5445f1b515600eee4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -21,5 +21,58 @@
   "tier": "次要",
   "notes": "塞內卡論幸福在於循自然與美德而活，斯多噶幸福論核心文本",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "asceticism",
+    "awe-fear",
+    "compassion",
+    "divine-transcendence",
+    "economic-justice",
+    "enlightenment",
+    "essentially-flawed",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "secular-state",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "vita beata",
+    "beate vivere",
+    "Gallio",
+    "ratio",
+    "felicitas aeternae",
+    "animi bonum",
+    "error",
+    "vulgus",
+    "exempla",
+    "iudicium",
+    "natura cupiditas",
+    "peregrinatio",
+    "veritas",
+    "Stoici",
+    "natura"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "e3dff1c66fc7a90fae55804b91796df01110021886ca94f502d83f1e4051e20d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

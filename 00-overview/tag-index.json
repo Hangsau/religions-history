@@ -241,6 +241,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -278,6 +283,11 @@
     {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -1448,6 +1458,11 @@
       "religion": "神道"
     },
     {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
@@ -1570,6 +1585,11 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -4659,6 +4679,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -4766,6 +4791,11 @@
     {
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -5719,6 +5749,16 @@
       "slug": "samuel-2",
       "name_zh": "撒母耳記下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "seven-valleys-four-valleys",
@@ -6922,6 +6962,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -10619,6 +10664,11 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     },
     {
       "slug": "kurma-purana",
@@ -15451,6 +15501,11 @@
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -20377,6 +20432,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -20709,6 +20769,11 @@
     {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -25346,6 +25411,11 @@
     {
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -33726,6 +33796,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -33911,6 +33986,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-acts",
       "name_zh": "使徒行傳（希臘原文）",
       "religion": "基督教"
@@ -33924,6 +34004,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "seven-valleys-four-valleys",
@@ -35178,6 +35263,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-philemon",
       "name_zh": "腓利門書（武加大）",
       "religion": "基督教"
@@ -35822,6 +35912,11 @@
     {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -36884,6 +36979,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
@@ -36956,6 +37056,11 @@
     {
       "slug": "vulgate-genesis",
       "name_zh": "創世記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -37688,6 +37793,11 @@
     {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -41592,6 +41702,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-1-john",
       "name_zh": "約翰一書（希臘原文）",
       "religion": "基督教"
@@ -43624,6 +43739,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
@@ -45111,6 +45231,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -45201,6 +45326,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-1-corinthians",
       "name_zh": "哥林多前書（希臘原文）",
       "religion": "基督教"
@@ -45243,6 +45373,11 @@
     {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -45463,6 +45598,11 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -46198,6 +46338,11 @@
       "slug": "sblgnt-philemon",
       "name_zh": "腓利門書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sibylline-oracles-el",
@@ -48334,6 +48479,11 @@
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -59016,6 +59166,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -59219,6 +59374,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "seven-valleys-four-valleys",
@@ -60296,6 +60456,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "shuoyuan",
@@ -61430,6 +61595,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -61492,6 +61662,11 @@
     {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -65491,6 +65666,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -65981,6 +66161,11 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
     },
     {
       "slug": "science-and-health-1906",
@@ -70709,6 +70894,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
@@ -70926,6 +71116,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -70954,6 +71149,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "shuoyuan",
@@ -72143,6 +72343,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-1-corinthians",
       "name_zh": "哥林多前書（希臘原文）",
       "religion": "基督教"
@@ -72310,6 +72515,11 @@
     {
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -74467,6 +74677,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
@@ -75754,6 +75969,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -76024,6 +76244,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
@@ -76126,6 +76351,11 @@
     {
       "slug": "vulgate-job",
       "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -80278,6 +80508,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -83268,6 +83503,11 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -89597,6 +89837,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
@@ -89664,6 +89909,11 @@
     {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -95789,6 +96039,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
       "religion": "佛教"
@@ -95996,6 +96251,11 @@
     {
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -99821,6 +100081,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -99929,6 +100194,11 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-tobit",
@@ -103081,6 +103351,11 @@
       "slug": "kings-2",
       "name_zh": "列王紀下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
     },
     {
       "slug": "kogo-shui-zh",
@@ -111784,6 +112059,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -111949,6 +112229,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
@@ -111956,6 +112241,11 @@
     {
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -112938,6 +113228,11 @@
     {
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -122188,6 +122483,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -125477,6 +125777,11 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -128856,6 +129161,11 @@
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -134471,6 +134781,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -134693,6 +135008,11 @@
     {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
+      "religion": "印度教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
       "religion": "印度教"
     },
     {
@@ -139043,6 +139363,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
@@ -141387,6 +141712,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -142726,6 +143056,11 @@
     {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -149098,6 +149433,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -149171,6 +149511,11 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-phaedo-el",
@@ -149300,6 +149645,11 @@
     {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -149665,6 +150015,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -149743,6 +150098,11 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "welsh-triads",
@@ -155516,6 +155876,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-lamentations",
       "name_zh": "耶利米哀歌（武加大）",
       "religion": "基督教"
@@ -158585,6 +158950,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-lamentations",
       "name_zh": "耶利米哀歌（武加大）",
       "religion": "基督教"
@@ -160424,6 +160794,11 @@
     {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -173415,6 +173790,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -173760,6 +174140,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-acts",
       "name_zh": "使徒行傳（希臘原文）",
       "religion": "基督教"
@@ -173967,6 +174352,11 @@
     {
       "slug": "vulgate-ezra",
       "name_zh": "以斯拉記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -178447,6 +178837,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-acts",
       "name_zh": "使徒行傳（希臘原文）",
       "religion": "基督教"
@@ -180254,6 +180649,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-mark",
       "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
@@ -180646,6 +181046,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -180701,6 +181106,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "shuoyuan",
       "name_zh": "說苑",
       "religion": "儒教"
@@ -180739,6 +181149,11 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-nehemiah",
@@ -186068,6 +186483,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
       "religion": "佛教"
@@ -186188,6 +186608,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -186270,6 +186695,11 @@
     {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -189844,6 +190274,11 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -196013,6 +196448,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -196203,6 +196643,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
@@ -196323,6 +196768,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-lamentations",
       "name_zh": "耶利米哀歌（武加大）",
       "religion": "基督教"
@@ -196423,6 +196873,11 @@
       "slug": "mishnah-berakhot",
       "name_zh": "米示拿·祝福章",
       "religion": "猶太教"
+    },
+    {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-laws-el",
@@ -201928,6 +202383,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
       "religion": "基督教"
@@ -204435,6 +204895,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -204537,6 +205002,11 @@
     {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -204657,6 +205127,11 @@
     {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -207722,6 +208197,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -207965,6 +208445,11 @@
       "slug": "samuel-2",
       "name_zh": "撒母耳記下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
     },
     {
       "slug": "sblgnt-acts",
@@ -208831,6 +209316,11 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -214081,6 +214571,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -214261,6 +214756,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-crito-el",
+      "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-euthyphro-el",
       "name_zh": "歐緒弗洛篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -214398,6 +214898,11 @@
     {
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -214598,6 +215103,11 @@
     {
       "slug": "vulgate-job",
       "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -218823,6 +219333,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-cariyapitaka",
+      "name_zh": "小部·所行藏",
+      "religion": "佛教"
+    },
+    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -219118,6 +219633,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-1-john",
       "name_zh": "約翰一書（希臘原文）",
       "religion": "基督教"
@@ -219150,6 +219670,11 @@
     {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-vita-beata-la",
+      "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -219390,6 +219915,11 @@
     {
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-judith",
+      "name_zh": "猶滴傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -222742,6 +223272,11 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
+    },
+    {
+      "slug": "saundarya-lahari",
+      "name_zh": "美之波濤",
+      "religion": "印度教"
     },
     {
       "slug": "sblgnt-2-thessalonians",
