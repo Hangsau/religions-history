@@ -57,15 +57,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
+    "calling-vocation",
     "change-transformation",
     "death",
-    "living-with-unknown"
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "e643b5797c1a06f27bd56239c2300de68d7336a171601e1e604a006c0cc77bd5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

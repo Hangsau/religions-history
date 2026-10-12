@@ -1,0 +1,129 @@
+{
+ "schema_version": 1,
+ "slug": "sblgnt-hebrews",
+ "chunks_total": 6,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一章",
+   "last_heading": "3 | chapter 3",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "messianism",
+    "monotheist-exclusive",
+    "priesthood",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | chapter 4",
+   "last_heading": "6 | chapter 6",
+   "semantic_tags": [
+    "awe-fear",
+    "commandments-law",
+    "priesthood",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | chapter 7",
+   "last_heading": "11 | 第九章 26-28 節：基督一次獻祭",
+   "semantic_tags": [
+    "commandments-law",
+    "messianism",
+    "monotheist-exclusive",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | chapter 10",
+   "last_heading": "11 | chapter 11",
+   "semantic_tags": [
+    "commandments-law",
+    "messianism",
+    "monotheist-exclusive",
+    "priesthood",
+    "reincarnation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "15 | 希伯來書 11:26b-40",
+   "last_heading": "17 | 希伯來書 12:26–29",
+   "semantic_tags": [
+    "commandments-law",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | chapter 13",
+   "last_heading": "13 | chapter 13",
+   "semantic_tags": [
+    "grace-from-god",
+    "marriage-sacred",
+    "priesthood",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

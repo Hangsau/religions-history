@@ -51,15 +51,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "courage",
-    "death",
     "faith-doubt",
     "fear-uncertainty",
-    "gratitude-contentment"
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "4dc4810320d63525ac33e2caea0e7deef0016430639223f45d49bb15152f39dc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

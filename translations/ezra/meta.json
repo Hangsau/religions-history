@@ -55,13 +55,14 @@
   "psych_tags": [
     "calling-vocation",
     "faith-doubt",
-    "giving-generosity",
-    "guilt-atonement",
-    "hope-reason-to-live"
+    "hope-reason-to-live",
+    "ingroup-outgroup-prejudice",
+    "marriage-family"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "aa7af233b6a6fe69b05684e1847f038769de73c520531e51265198d92bf88c52"
+  },
+  "tagging_models": "MiniMax-M3"
 }

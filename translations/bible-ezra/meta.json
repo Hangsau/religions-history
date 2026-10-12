@@ -55,14 +55,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "faith-doubt",
-    "fear-uncertainty",
-    "gratitude-contentment",
-    "guilt-atonement"
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "memory-reconciliation",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "bcb25f6f255f04caf4927727709d43f693dfe843a404983e98027588b626eca5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

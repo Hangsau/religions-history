@@ -52,15 +52,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "aging-time",
-    "change-transformation",
-    "courage",
-    "emotions-passions",
-    "evil-cruelty-empathy"
+    "calling-vocation",
+    "fear-uncertainty",
+    "giving-generosity",
+    "insignificance-history",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "94c13d22219feac62396bfd79fcfb9e53acf1d28dd730b1fa8d2ddc0f8c0f14e"
+  },
+  "tagging_models": "MiniMax-M3"
 }
