@@ -51,7 +51,9 @@ def worker_args(fallback: str = '核心') -> list[str]:
     return ['--tier', fallback]
 
 
-def select_source(base: Path, meta: dict) -> tuple[Path | None, str | None]:
+def select_source(base: Path, meta: dict,
+                  allow_original: bool = False) -> tuple[Path | None, str | None]:
+    """allow_original: round 2 tags untranslated non-Chinese originals directly."""
     # Import lazily: translate imports this module only for its resume command.
     import translate
     if meta.get('alias_of'):
@@ -65,7 +67,7 @@ def select_source(base: Path, meta: dict) -> tuple[Path | None, str | None]:
         source = tr
     else:
         language = meta.get('source_language') or meta.get('language')
-        if language not in (*translate._CHINESE_LANGS, '漢文', 'Chinese'):
+        if not allow_original and language not in (*translate._CHINESE_LANGS, '漢文', 'Chinese'):
             return None, 'no_chinese_source'
         if meta.get('verified') is not True:
             return None, 'source_not_verified'
@@ -89,7 +91,7 @@ def validate_source(entry: dict, translations_dir: Path) -> str | None:
     base = translations_dir / entry['slug']
     try:
         meta = json.loads((base / 'meta.json').read_text(encoding='utf-8'))
-        source, reason = select_source(base, meta)
+        source, reason = select_source(base, meta, entry.get('source_policy') == 'original')
         if reason:
             return reason
         if source.relative_to(base).as_posix() != entry['source_file']:

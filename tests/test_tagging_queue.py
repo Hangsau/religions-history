@@ -84,6 +84,16 @@ class TaggingQueueTests(unittest.TestCase):
         self.write_meta()
         self.assertEqual(queue.validate_source(self.entry, self.translations), 'no_chinese_source')
 
+    def test_original_policy_entry_accepts_non_chinese_source(self):
+        self.meta['language'] = 'Hebrew'
+        self.write_meta()
+        self.assertEqual(queue.validate_source(self.entry, self.translations), 'no_chinese_source')
+        entry = {**self.entry, 'source_policy': 'original'}
+        self.assertIsNone(queue.validate_source(entry, self.translations))
+        self.meta['verified'] = False
+        self.write_meta()
+        self.assertEqual(queue.validate_source(entry, self.translations), 'source_not_verified')
+
     def test_short_alias_transliteration_and_incomplete_sources_are_deferred(self):
         for fields, reason in [({'alias_of': 'canonical'}, 'alias'),
                                ({'text_role': 'transliteration'}, 'transliteration_requires_review'),
