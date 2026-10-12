@@ -70,15 +70,16 @@
   "tag_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "calling-vocation",
     "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cac984d4f346b25da475ab11e60b3f0a231a5ce0cd7294f8c860e23e95acdfe0"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -55,15 +55,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "28505e3bbf946d700d302588158093eb80fcc9d1387b0c591f4bae2b5514988a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
