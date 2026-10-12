@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "death",
-    "evil-cruelty-empathy",
     "existence-why-born",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d22100c3b3e7018a23d645945c3f38dac4a08aff57c51e79d2d7514c8b98bdf3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

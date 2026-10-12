@@ -48,15 +48,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
     "death",
     "faith-doubt",
-    "fear-uncertainty"
+    "guilt-atonement",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0089f1f65f111a3368a3db99017d4dcedfc6a07ee3deb42609aad0f19e976242"
+  },
+  "tagging_models": "MiniMax-M3"
 }

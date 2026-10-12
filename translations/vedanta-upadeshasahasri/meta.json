@@ -71,15 +71,16 @@
   "tag_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
-    "death",
-    "existence-why-born"
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cf1f6e52ad9828aa3882f187df8c3727b18f514a7f4c0152dbd5b01491d89d0f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -1,0 +1,384 @@
+{
+ "schema_version": 1,
+ "slug": "numbers",
+ "chunks_total": 20,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 1",
+   "last_heading": "1 | 1",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "lineage-importance",
+    "priesthood",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | 2",
+   "last_heading": "3 | 3",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 民數記 3:28–51",
+   "last_heading": "9 | 第四章",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "5 | 5",
+   "last_heading": "13 | 亞倫祝福",
+   "semantic_tags": [
+    "commandments-law",
+    "marriage-sacred",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "7 | 7",
+   "last_heading": "17 | 民數記 7:84-89",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": "8 | 8",
+   "last_heading": "10 | 10",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "23 | 民數記 10:30-36",
+   "last_heading": "12 | 12",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "13 | 13",
+   "last_heading": "30 | 民數記 14:24–45",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "inclusive-monotheism",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "15 | 15",
+   "last_heading": "16 | 16",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "34 | 民數記 16:25–35",
+   "last_heading": "18 | 18",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "38 | 第十八章 20–32 | 利未人之業與什一之例",
+   "last_heading": "42 | 民 20:22b–29 | 亞倫之死",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "21 | 21",
+   "last_heading": "22 | 民數記 第二十二章",
+   "semantic_tags": [
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "46 | 巴蘭路上",
+   "last_heading": "24 | 24",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "messianism",
+    "other-power",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "25 | 25",
+   "last_heading": "53 | 民數記 26:57-65",
+   "semantic_tags": [
+    "against-idolatry",
+    "caste-system",
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "27 | 27",
+   "last_heading": "27 | 27",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "28 | 28",
+   "last_heading": "58 | 第五至第八日獻祭",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "30 | 30",
+   "last_heading": "62 | 民數記 31:52–54",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "32 | 32",
+   "last_heading": "33 | 33",
+   "semantic_tags": [
+    "commandments-law",
+    "pilgrimage",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "66 | 民數記 33:40-56",
+   "last_heading": "69 | 民數記 35:27–34",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "pilgrimage",
+    "priesthood",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "36 | 36",
+   "last_heading": "36 | 36",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "marriage-family"
+   ]
+  }
+ ]
+}
