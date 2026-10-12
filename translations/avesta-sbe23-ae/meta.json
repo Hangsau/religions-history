@@ -93,13 +93,14 @@
   "psych_tags": [
     "calling-vocation",
     "courage",
-    "death",
-    "evil-cruelty-empathy",
-    "faith-doubt"
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d1bd9be9cf372a32c46e9fb6bc50132091d5a82409c820ceb061173829fbb3c1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

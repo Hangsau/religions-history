@@ -85,15 +85,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth",
-    "death"
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0cfdcb2e38a83ed7c93aa322c47ada7e4fc42f7c34bb414d383f3c573b46281a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

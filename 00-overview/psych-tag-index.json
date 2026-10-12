@@ -1821,11 +1821,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "manu-smrti",
-      "name_zh": "摩奴法典",
-      "religion": "印度教"
-    },
-    {
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
@@ -2858,11 +2853,6 @@
       "religion": "道教"
     },
     {
-      "slug": "lucretius-de-rerum-natura-la",
-      "name_zh": "物性論（拉丁原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "lunheng",
       "name_zh": "論衡",
       "religion": "儒教"
@@ -3493,11 +3483,6 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
-    },
-    {
-      "slug": "lucretius-de-rerum-natura-la",
-      "name_zh": "物性論（拉丁原文）",
-      "religion": "古希臘羅馬"
     },
     {
       "slug": "mabinogion-st",
@@ -5862,11 +5847,6 @@
       "religion": "道教"
     },
     {
-      "slug": "lucretius-de-rerum-natura-la",
-      "name_zh": "物性論（拉丁原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "lunheng",
       "name_zh": "論衡",
       "religion": "儒教"
@@ -5902,11 +5882,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "manu-smrti",
-      "name_zh": "摩奴法典",
-      "religion": "印度教"
-    },
-    {
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
@@ -5935,11 +5910,6 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
-    },
-    {
-      "slug": "origin-myth-of-acoma",
-      "name_zh": "阿科馬創世神話",
-      "religion": "美洲"
     },
     {
       "slug": "ovid-metamorphoses",
@@ -8144,11 +8114,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "lucretius-de-rerum-natura-la",
-      "name_zh": "物性論（拉丁原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "lunheng",
       "name_zh": "論衡",
       "religion": "儒教"
@@ -8227,11 +8192,6 @@
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "origin-myth-of-acoma",
-      "name_zh": "阿科馬創世神話",
-      "religion": "美洲"
     },
     {
       "slug": "ovid-metamorphoses",
@@ -20408,11 +20368,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "manu-smrti",
-      "name_zh": "摩奴法典",
-      "religion": "印度教"
-    },
-    {
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
@@ -20443,11 +20398,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "origin-myth-of-acoma",
-      "name_zh": "阿科馬創世神話",
-      "religion": "美洲"
-    },
-    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -20461,11 +20411,6 @@
       "slug": "plotinus-enneads-el",
       "name_zh": "九章集（希臘原文）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "poetic-edda-bellows",
-      "name_zh": "詩體埃達 (Bellows 譯)",
-      "religion": "北歐"
     },
     {
       "slug": "popol-vuh",
@@ -20738,11 +20683,6 @@
       "slug": "cbeta-X01n0017",
       "name_zh": "佛說長壽滅罪護諸童子陀羅尼經",
       "religion": "佛教"
-    },
-    {
-      "slug": "origin-myth-of-acoma",
-      "name_zh": "阿科馬創世神話",
-      "religion": "美洲"
     },
     {
       "slug": "sikh-religion-macauliffe",
@@ -21112,11 +21052,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "manu-smrti",
-      "name_zh": "摩奴法典",
-      "religion": "印度教"
-    },
-    {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
       "religion": "神道"
@@ -21130,11 +21065,6 @@
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "poetic-edda-bellows",
-      "name_zh": "詩體埃達 (Bellows 譯)",
-      "religion": "北歐"
     },
     {
       "slug": "sblgnt-2-john",
@@ -23204,6 +23134,11 @@
       "religion": "神道"
     },
     {
+      "slug": "origin-myth-of-acoma",
+      "name_zh": "阿科馬創世神話",
+      "religion": "美洲"
+    },
+    {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
       "religion": "古希臘羅馬"
@@ -23413,11 +23348,6 @@
     {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
-      "religion": "瑣羅亞斯德"
-    },
-    {
-      "slug": "avesta-sbe23-ae",
-      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -28821,6 +28751,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
@@ -28874,6 +28809,11 @@
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
+    },
+    {
+      "slug": "origin-myth-of-acoma",
+      "name_zh": "阿科馬創世神話",
+      "religion": "美洲"
     },
     {
       "slug": "orphic-hymns-el",
@@ -30164,11 +30104,6 @@
     {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
-      "religion": "瑣羅亞斯德"
-    },
-    {
-      "slug": "avesta-sbe23-ae",
-      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -31944,6 +31879,11 @@
       "religion": "道教"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -31999,11 +31939,6 @@
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
-    },
-    {
-      "slug": "avesta-sbe23-ae",
-      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
-      "religion": "瑣羅亞斯德"
     },
     {
       "slug": "avesta-sbe31-ae",
@@ -34970,6 +34905,11 @@
     {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
     },
     {
@@ -40338,6 +40278,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -40408,6 +40353,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "origin-myth-of-acoma",
+      "name_zh": "阿科馬創世神話",
+      "religion": "美洲"
+    },
+    {
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -40466,6 +40416,11 @@
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "poetic-edda-bellows",
+      "name_zh": "詩體埃達 (Bellows 譯)",
+      "religion": "北歐"
     },
     {
       "slug": "poetic-edda-on",
@@ -42129,6 +42084,11 @@
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
     },
     {
       "slug": "avesta-sbe31-ae",
@@ -45446,6 +45406,11 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
     },
     {
       "slug": "micah",
@@ -49858,6 +49823,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mandukya-karika",
       "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
@@ -50253,6 +50223,11 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
     },
     {
       "slug": "mengzi",
@@ -55667,6 +55642,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "lucretius-de-rerum-natura-la",
+      "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mahayanasamgraha",
       "name_zh": "攝大乘論",
       "religion": "佛教"
@@ -57226,6 +57206,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "manu-smrti",
+      "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
@@ -57264,6 +57249,11 @@
       "slug": "numbers",
       "name_zh": "民數記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "origin-myth-of-acoma",
+      "name_zh": "阿科馬創世神話",
+      "religion": "美洲"
     },
     {
       "slug": "plato-crito-el",
@@ -59004,6 +58994,11 @@
     }
   ],
   "trust-vulnerability": [
+    {
+      "slug": "avesta-sbe23-ae",
+      "name_zh": "耶什特讚歌集（阿維斯塔原文）",
+      "religion": "瑣羅亞斯德"
+    },
     {
       "slug": "bible-1-samuel",
       "name_zh": "撒母耳記上",
@@ -62932,6 +62927,11 @@
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "poetic-edda-bellows",
+      "name_zh": "詩體埃達 (Bellows 譯)",
+      "religion": "北歐"
     },
     {
       "slug": "proverbs",

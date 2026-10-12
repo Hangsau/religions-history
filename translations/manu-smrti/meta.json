@@ -51,15 +51,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "e8e3482f5d450439597cfaefba328f811066028949621d4d6178c1addda95398"
+  },
+  "tagging_models": "MiniMax-M3"
 }

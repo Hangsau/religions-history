@@ -1,0 +1,985 @@
+{
+ "schema_version": 1,
+ "slug": "poetic-edda-bellows",
+ "chunks_total": 65,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Title Page",
+   "last_heading": "3 | 斯圖爾松家族",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist",
+    "secular-state",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 譯者前言（續）",
+   "last_heading": "5 | Introduction (continued)",
+   "semantic_tags": [
+    "multiple-canons",
+    "oral-tradition",
+    "patriarchal",
+    "polytheist",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 |",
+   "last_heading": "7 | 序文：第七段",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 翻譯史續述",
+   "last_heading": "9 | Preface",
+   "semantic_tags": [
+    "commentarial-layer",
+    "multiple-canons",
+    "oral-tradition",
+    "vernacular-translation"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 5,
+   "first_heading": "4 | Prologue",
+   "last_heading": "12 | 諸王世系與 Odin 北行",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | （續：Odin 抵達北方）",
+   "last_heading": "15 |",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "heaven-hell",
+    "lineage-importance",
+    "polytheist",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "16 |",
+   "last_heading": "17 | 第七至八章",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "18 | 第八至十章",
+   "last_heading": "15 |",
+   "semantic_tags": [
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "human-as-microcosm",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 9,
+   "first_heading": "16 |",
+   "last_heading": "21 | 第七至十五章續（侏儒族譜與世界之樹）",
+   "semantic_tags": [
+    "chaos-to-order",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "22 | Gylfaginning XV-XVI",
+   "last_heading": "23 | 諸天之住所",
+   "semantic_tags": [
+    "divine-kingship",
+    "multiple-canons",
+    "polytheist",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "24 | 第20章",
+   "last_heading": "25 | 第二十一至二十三則",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "26 |",
+   "last_heading": "27 | 提爾（Týr）與布拉吉（Bragi）",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "28 | Vidar's Might to Brynhild",
+   "last_heading": "29 | 第29段",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "30 | 諸神之黃昏前的束縛",
+   "last_heading": "31 | 第 XXXVI 章續",
+   "semantic_tags": [
+    "chaos-to-order",
+    "feminine-divine",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "32 | Gylfaginning XXXVI–XXXVII（Valkyrs 與 Freyr 求婚 Gerðr）",
+   "last_heading": "33 | 第三十八至三十九章",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "other-power",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "34 | Valhall 與其門戶",
+   "last_heading": "36 | 第 XLII–XLIV 章",
+   "semantic_tags": [
+    "chaos-to-order",
+    "created-in-image",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "37 | Thjálfi 與 Röskva 成為 Thor 的僕人；旅程東向 Útgarða-Loki",
+   "last_heading": "39 | Útgarðr 篇章 · 第四十六節續",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "insignificance-history",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "40 | Útgarda-Loki 的技藝考驗（續）",
+   "last_heading": "42 | Útgarða-Loki 揭示幻術",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "divine-transcendence",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "43 | Thor 與 Útgarda-Loki 之會 — 結尾；Thor 前往 Hymir 處",
+   "last_heading": "45 | 巴德爾之死",
+   "semantic_tags": [
+    "apocalypse",
+    "awe-fear",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "46 | Baldr 的葬禮與 Hermódr 之旅",
+   "last_heading": "47 | Baldr 之死與 Loki 的懲罰（續）",
+   "semantic_tags": [
+    "evil-as-deception",
+    "polytheist",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "48 | LI",
+   "last_heading": "49 | Ragnarök — 諸神黃昏",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "cosmic-egg",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "50 | 第 50 段",
+   "last_heading": "52 | LIV",
+   "semantic_tags": [
+    "apocalypse",
+    "cosmic-egg",
+    "heaven-hell",
+    "multiple-canons",
+    "oral-tradition",
+    "reincarnation",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "53 | Skáldskaparmal",
+   "last_heading": "55 | Bragi 對 Ægir 言：Thjazi 之家世與詩藝之起源",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "56 | Bragi's Tale of the Mead",
+   "last_heading": "57 | Skáldskaparmál 續",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-transcendence",
+    "mystical-union",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "58 | (無題)",
+   "last_heading": "59 | Eiríksmál 與各詩人頌詩",
+   "semantic_tags": [
+    "against-idolatry",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "60 | Skáldskaparmál: Kvasir 之血與詩的比喻 / Thor 的稱號",
+   "last_heading": "61 | Húsdrápa 中的措辭",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "62 | Skáldskaparmál 第七至十六節（Kennings 集錄）",
+   "last_heading": "63 | Loki 之名號",
+   "semantic_tags": [
+    "commentarial-layer",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 28,
+   "first_heading": "64 | Grjótúnagard",
+   "last_heading": "65 | Hrungnir 之死；碎岩之碎片",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "66 | Skáldskaparmál XVIII",
+   "last_heading": "67 | 第 67 段",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-transcendence",
+    "oral-tradition",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "68 |",
+   "last_heading": "69 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "70 |",
+   "last_heading": "71 |",
+   "semantic_tags": [
+    "multiple-canons",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "72 | 第七十二段",
+   "last_heading": "73 | 第三十一至三十三節",
+   "semantic_tags": [
+    "oral-tradition",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "74 | Loki at Ægir's Feast",
+   "last_heading": "75 | Sindri 與 Loki 之賭——Brokkr 的三件寶物",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "76 | XXXVI–XXXVIII",
+   "last_heading": "77 | 第三十九章（節錄）",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "78 | Hreidmarr 之金與 Sigurdr 之劍",
+   "last_heading": "79 | Fáfnir 之死與 Sigurdr 的旅程（續）",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "80 | Sigurdr and the Niflungs 後續",
+   "last_heading": "81 | Gudrún's Revenge against Jörmunrekkr",
+   "semantic_tags": [
+    "lineage-importance"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "82 | Hamðismál（尾聲）",
+   "last_heading": "83 | Grottisöngr（葛洛迪之歌）",
+   "semantic_tags": [
+    "multiple-canons",
+    "oral-tradition",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "84 | Grottaöngr（磨坊頌）",
+   "last_heading": "86 | XLIII（續）",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "divine-kingship",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "hope-reason-to-live",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "87 | 金的隱喻 (續)",
+   "last_heading": "87 | 金的隱喻 (續)",
+   "semantic_tags": [
+    "commentarial-layer"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "giving-generosity",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "88 | Skáldskaparmál § 37–43",
+   "last_heading": "48 | 軍備之迂稱",
+   "semantic_tags": [
+    "goddess-tradition",
+    "oral-tradition",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "49 | 武備與戰",
+   "last_heading": "47 | 戰之迂稱",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "48 | 盾與戰",
+   "last_heading": "50 | 環與各兵",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "90 | Búi",
+   "last_heading": "91 | 武器 kennings（Hjadnings 之戰導言）",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "92 | Hjadnings 之戰與 Hildr 之歌",
+   "last_heading": "93 | LI",
+   "semantic_tags": [
+    "multiple-canons",
+    "oral-tradition",
+    "polytheist",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "94 | 十字節",
+   "last_heading": "94 | 十字節",
+   "semantic_tags": [
+    "divine-kingship",
+    "monotheist-exclusive",
+    "prayer",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "95 | Skáldskaparmál（中段：頭銜與侍從）",
+   "last_heading": "95 | Skáldskaparmál（中段：頭銜與侍從）",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "tribal-traditional",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "96 | 第三部分",
+   "last_heading": "97 | LIV–LVI：諸神、天界與大地之名",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 48,
+   "first_heading": "98 | LVII",
+   "last_heading": "98 | LVII",
+   "semantic_tags": [
+    "multiple-canons"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "100 |",
+   "last_heading": "100 |",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "101 | 海之諸名（續）",
+   "last_heading": "101 | 海之諸名（續）",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 51,
+   "first_heading": "102 | 火焰 / 火之名",
+   "last_heading": "103 | LXIII",
+   "semantic_tags": [
+    "commentarial-layer",
+    "multiple-canons",
+    "oral-tradition",
+    "polytheist",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 52,
+   "first_heading": "104 | LXIV",
+   "last_heading": "105 | Skáldskaparmál 64 (續)",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "death",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "106 | Skáldskaparmál — 人稱與身份名號（續）",
+   "last_heading": "106 | Skáldskaparmál — 人稱與身份名號（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "107 | LXVII–LXVIII. 群體數詞與人之稱謂",
+   "last_heading": "108 | LXIX–LXX",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "109 | Skáldskaparmál — LXXI–LXXIV",
+   "last_heading": "7 | 略語",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "112 | Index",
+   "last_heading": "113 | D",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 57,
+   "first_heading": "114 | 索引頁 248-250（E–G 開頭）",
+   "last_heading": "114 | 索引頁 248-250（E–G 開頭）",
+   "semantic_tags": [
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 58,
+   "first_heading": "115 | 索引 G—詞節",
+   "last_heading": "115 | 索引 G—詞節",
+   "semantic_tags": [
+    "chaos-to-order",
+    "commentarial-layer",
+    "divine-transcendence",
+    "polytheist",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "116 | 第 252–253 頁索引",
+   "last_heading": "117 | 索引 H",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 60,
+   "first_heading": "118 | Index H–M (continued)",
+   "last_heading": "118 | Index H–M (continued)",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 61,
+   "first_heading": "119 | 索引（中段）",
+   "last_heading": "119 | 索引（中段）",
+   "semantic_tags": [
+    "cosmic-egg",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "sacred-language",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "120 | 索引（續）",
+   "last_heading": "120 | 索引（續）",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 63,
+   "first_heading": "121 | 索引 (S–Þ)",
+   "last_heading": "121 | 索引 (S–Þ)",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 64,
+   "first_heading": "122 | 索引 T–V",
+   "last_heading": "122 | 索引 T–V",
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 65,
+   "first_heading": "123 | 索引 V–Y",
+   "last_heading": "124 | 索引條目（Örmt 至 Ölvir Cut-Nose-and-Cropped-Ears）",
+   "semantic_tags": [
+    "commentarial-layer",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "memory-reconciliation"
+   ]
+  }
+ ]
+}
