@@ -54,14 +54,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
-    "evil-cruelty-empathy",
-    "faith-doubt"
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f532429946eb7b7696630e7bd644fadc1b0c5951fe617df3f52f2aff74fda6b9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

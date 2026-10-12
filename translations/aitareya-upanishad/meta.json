@@ -53,13 +53,14 @@
   "psych_tags": [
     "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "death",
-    "dreams-unconscious"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8ec0173303d7bd90811f1f786c2429a22d667f05df25554f782841a38345a4df"
+  },
+  "tagging_models": "MiniMax-M3"
 }

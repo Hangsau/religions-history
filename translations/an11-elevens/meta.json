@@ -52,15 +52,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage"
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "21b4a30044bb778e146c8d3ebbca46849a37a5077dbb51af958ef942859c2a20"
+  },
+  "tagging_models": "MiniMax-M3"
 }

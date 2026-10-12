@@ -51,15 +51,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "courage",
     "death",
-    "evil-cruelty-empathy",
-    "existence-why-born"
+    "existence-why-born",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ada12144e52c81ebc229bbb4ee08a7320c4d79088a7be8c912fc5c610cd1ab6b"
+  },
+  "tagging_models": "MiniMax-M3"
 }
