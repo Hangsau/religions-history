@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "eeeb54e81e1789d9c21eee93f7a123b74bd4a3fd3493452c4437c97dd9415e24"
+  },
+  "tagging_models": "MiniMax-M3"
 }

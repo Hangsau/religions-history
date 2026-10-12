@@ -2848,11 +2848,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "egyptian-book-of-dead",
-      "name_zh": "古埃及死者之書",
-      "religion": "古埃及"
-    },
-    {
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
@@ -2935,11 +2930,6 @@
     {
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "homer-greek",
-      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -3807,11 +3797,6 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "homer-greek",
-      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -6212,11 +6197,6 @@
       "religion": "道教"
     },
     {
-      "slug": "egyptian-book-of-dead",
-      "name_zh": "古埃及死者之書",
-      "religion": "古埃及"
-    },
-    {
       "slug": "ekottarikagama",
       "name_zh": "增一阿含經",
       "religion": "佛教"
@@ -6289,11 +6269,6 @@
     {
       "slug": "herodotus-histories",
       "name_zh": "希羅多德《歷史》(英希對照)",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "homer-greek",
-      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -7032,11 +7007,6 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
-    },
-    {
-      "slug": "book-of-mormon-1830",
-      "name_zh": "摩門經（1830 初版）",
-      "religion": "現代新興"
     },
     {
       "slug": "book-of-poetry",
@@ -8869,11 +8839,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "homer-greek",
-      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -9271,11 +9236,6 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-song-of-songs",
-      "name_zh": "雅歌（武加大）",
       "religion": "基督教"
     },
     {
@@ -9719,11 +9679,6 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
-    },
-    {
-      "slug": "book-of-mormon-1830",
-      "name_zh": "摩門經（1830 初版）",
-      "religion": "現代新興"
     },
     {
       "slug": "book-of-poetry",
@@ -16621,11 +16576,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "egyptian-book-of-dead",
-      "name_zh": "古埃及死者之書",
-      "religion": "古埃及"
-    },
-    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -16771,11 +16721,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "homer-greek",
-      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -16849,6 +16794,11 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "jeremiah",
@@ -17776,11 +17726,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-song-of-songs",
-      "name_zh": "雅歌（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
@@ -18041,11 +17986,6 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
-    },
-    {
-      "slug": "book-of-mormon-1830",
-      "name_zh": "摩門經（1830 初版）",
-      "religion": "現代新興"
     },
     {
       "slug": "bud-abhidharmakosha-sa",
@@ -21518,11 +21458,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "egyptian-book-of-dead",
-      "name_zh": "古埃及死者之書",
-      "religion": "古埃及"
-    },
-    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -23007,6 +22942,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-song-of-songs",
+      "name_zh": "雅歌（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "xunzi",
       "name_zh": "荀子",
       "religion": "儒教"
@@ -23152,11 +23092,6 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
-    },
-    {
-      "slug": "book-of-mormon-1830",
-      "name_zh": "摩門經（1830 初版）",
-      "religion": "現代新興"
     },
     {
       "slug": "bud-bodhicaryavatara-sa",
@@ -25034,11 +24969,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "egyptian-book-of-dead",
-      "name_zh": "古埃及死者之書",
-      "religion": "古埃及"
-    },
-    {
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
@@ -25101,6 +25031,11 @@
     {
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
     },
     {
@@ -30976,6 +30911,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "egyptian-book-of-dead",
+      "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
@@ -31071,6 +31011,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hosea",
       "name_zh": "何西阿書",
       "religion": "猶太教"
@@ -31134,11 +31079,6 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
-    },
-    {
-      "slug": "japji-sahib-pa",
-      "name_zh": "晨禱（旁遮普原文，古木基文字）",
-      "religion": "錫克教"
     },
     {
       "slug": "jeremiah",
@@ -34879,6 +34819,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "egyptian-book-of-dead",
+      "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
@@ -35254,6 +35199,11 @@
       "slug": "bible-zephaniah",
       "name_zh": "西番雅書",
       "religion": "基督教"
+    },
+    {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
     },
     {
       "slug": "bud-mulamadhyamakakarika-sa",
@@ -38241,6 +38191,11 @@
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
+    },
+    {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
     },
     {
       "slug": "bud-buddhacarita-sa",
@@ -43108,6 +43063,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "egyptian-book-of-dead",
+      "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
@@ -43198,6 +43158,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
@@ -43206,11 +43171,6 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
-    },
-    {
-      "slug": "japji-sahib-pa",
-      "name_zh": "晨禱（旁遮普原文，古木基文字）",
-      "religion": "錫克教"
     },
     {
       "slug": "job",
@@ -43993,11 +43953,6 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
-    },
-    {
-      "slug": "japji-sahib-pa",
-      "name_zh": "晨禱（旁遮普原文，古木基文字）",
-      "religion": "錫克教"
     },
     {
       "slug": "kangcangzi",
@@ -46426,6 +46381,11 @@
       "slug": "bible-zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "基督教"
+    },
+    {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
     },
     {
       "slug": "cbeta-T01n0034",
@@ -52093,6 +52053,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
@@ -53356,6 +53321,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -53720,6 +53690,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-song-of-songs",
+      "name_zh": "雅歌（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -53845,6 +53820,11 @@
       "slug": "bible-zephaniah",
       "name_zh": "西番雅書",
       "religion": "基督教"
+    },
+    {
+      "slug": "book-of-mormon-1830",
+      "name_zh": "摩門經（1830 初版）",
+      "religion": "現代新興"
     },
     {
       "slug": "brahma-sutra",
@@ -56957,6 +56937,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "egyptian-book-of-dead",
+      "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -56997,6 +56982,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "homer-greek",
+      "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -57010,6 +57000,11 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "japji-sahib-pa",
+      "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "job",
@@ -61850,6 +61845,11 @@
       "slug": "doctrine-of-the-mean",
       "name_zh": "中庸",
       "religion": "儒教"
+    },
+    {
+      "slug": "egyptian-book-of-dead",
+      "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
     },
     {
       "slug": "enuma-elish-stc",

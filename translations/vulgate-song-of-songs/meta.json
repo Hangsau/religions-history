@@ -53,13 +53,14 @@
   "psych_tags": [
     "beauty-wonder-transcendent-moment",
     "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "love-sex-intimacy"
+    "communication-being-understood",
+    "love-sex-intimacy",
+    "marriage-family"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "7f8a6bcf0cdf6c6bf2a0fd6635f61ee8422f56594392ee8313ac6d6a12e53ae9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

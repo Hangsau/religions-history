@@ -1,0 +1,83 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-song-of-songs",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Canticum Canticorum",
+   "last_heading": "1 | Vulgata Clementina/Canticum Canticorum",
+   "semantic_tags": [
+    "marriage-sacred",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 第五章",
+   "last_heading": "3 | 第五章",
+   "semantic_tags": [
+    "feminine-divine",
+    "marriage-sacred",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "4 | 第六章",
+   "last_heading": "4 | 第六章",
+   "semantic_tags": [
+    "feminine-divine",
+    "marriage-sacred",
+    "mystical-union",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "body-mind",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "marriage-sacred",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "body-mind",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "5 | 第八章 10–14 節",
+   "last_heading": "5 | 第八章 10–14 節",
+   "semantic_tags": [
+    "marriage-sacred",
+    "mystical-union",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "love-sex-intimacy",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  }
+ ]
+}

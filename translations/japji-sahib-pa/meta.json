@@ -58,15 +58,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "death",
+    "calling-vocation",
     "existence-why-born",
     "faith-doubt",
-    "fear-uncertainty",
-    "freewill-fate-choice"
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "7642ffd6dd9e97163335b5133d673dcb2918232cd5777dcccf74048f429a46c2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
