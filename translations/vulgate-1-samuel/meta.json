@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "courage",
     "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "34299419ac76426784e5b2bcb64f34cfa73da0d5a1f210e66573b7491b16db72"
+  },
+  "tagging_models": "MiniMax-M3"
 }

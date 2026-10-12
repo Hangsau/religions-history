@@ -1,0 +1,325 @@
+{
+ "schema_version": 1,
+ "slug": "samuel-1",
+ "chunks_total": 16,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 1",
+   "last_heading": "2 | 2",
+   "semantic_tags": [
+    "monotheist-exclusive",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "hope-reason-to-live",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 撒母耳記上 2:22-36 神人對以利的預言",
+   "last_heading": "7 | 第四章",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "monotheist-exclusive",
+    "priesthood",
+    "prophetic-revelation",
+    "temple-centered",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 5",
+   "last_heading": "7 | 7",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 8",
+   "last_heading": "14 | 撒母耳記上 9:19–27",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "prophetic-revelation",
+    "theocracy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "10 | 10",
+   "last_heading": "11 | 11",
+   "semantic_tags": [
+    "congregational",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "gratitude-contentment",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "12 | 12",
+   "last_heading": "21 | 撒母耳記上 13:20-23",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | 14",
+   "last_heading": "24 | 撒母耳記上 14:40-52",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "15 | 15",
+   "last_heading": "28 | 16:21-23",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "17 | 17",
+   "last_heading": "30 | 第十七章",
+   "semantic_tags": [
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "18 | 18",
+   "last_heading": "35 | 撒母耳記上 19:20–24",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "spirit-possession",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "20 | 20",
+   "last_heading": "21 | 21",
+   "semantic_tags": [
+    "divine-immanence",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "22 | 22",
+   "last_heading": "43 | 撒母耳記上 23:20下–28",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "mandate-of-heaven",
+    "priesthood",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "24 | 24",
+   "last_heading": "47 | 撒母耳記上 25",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "forgiveness",
+    "liberation-by-devotion",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "48 | 撒母耳記上 25:38–44",
+   "last_heading": "27 | 27",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "28 | 28",
+   "last_heading": "54 | 29",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "spirit-possession",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "30 | 30",
+   "last_heading": "31 | 31",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  }
+ ]
+}
