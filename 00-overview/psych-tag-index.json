@@ -9366,6 +9366,11 @@
       "religion": "瑣羅亞斯德"
     },
     {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
@@ -17221,11 +17226,6 @@
       "religion": "神道"
     },
     {
-      "slug": "seven-valleys-four-valleys",
-      "name_zh": "七谷與四谷（巴哈歐拉）",
-      "religion": "巴哈伊"
-    },
-    {
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
@@ -17833,6 +17833,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "augustine-confessiones-la",
       "name_zh": "懺悔錄（拉丁原文）",
       "religion": "基督教"
@@ -17840,11 +17845,6 @@
     {
       "slug": "avatamsaka-sutra",
       "name_zh": "大方廣佛華嚴經（八十華嚴）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "awakening-of-faith",
-      "name_zh": "大乘起信論",
       "religion": "佛教"
     },
     {
@@ -17945,11 +17945,6 @@
     {
       "slug": "bud-madhyantavibhaga-sa",
       "name_zh": "辯中邊論頌（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-mulamadhyamakakarika-sa",
-      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     },
     {
@@ -22747,11 +22742,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-euthyphro-el",
-      "name_zh": "歐緒弗洛篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -22882,11 +22872,6 @@
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
-    },
-    {
-      "slug": "awakening-of-faith",
-      "name_zh": "大乘起信論",
-      "religion": "佛教"
     },
     {
       "slug": "bible-1-corinthians",
@@ -25099,11 +25084,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-euthyphro-el",
-      "name_zh": "歐緒弗洛篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -25481,11 +25461,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "ashtavakra-gita",
-      "name_zh": "八曲之歌",
-      "religion": "印度教"
-    },
-    {
       "slug": "avesta-sbe04",
       "name_zh": "阿維斯塔 SBE 04 (Vendidad)",
       "religion": "瑣羅亞斯德"
@@ -25723,11 +25698,6 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-mulamadhyamakakarika-sa",
-      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     },
     {
@@ -31835,11 +31805,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "ashtavakra-gita",
-      "name_zh": "八曲之歌",
-      "religion": "印度教"
-    },
-    {
       "slug": "avesta-sbe04-ae",
       "name_zh": "驅魔書／維提吠達（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
@@ -33272,11 +33237,6 @@
       "slug": "aristotle-metaphysics-el",
       "name_zh": "形上學（希臘原文）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "ashtavakra-gita",
-      "name_zh": "八曲之歌",
-      "religion": "印度教"
     },
     {
       "slug": "avesta-sbe31",
@@ -34954,11 +34914,6 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
-    },
-    {
-      "slug": "bud-mulamadhyamakakarika-sa",
-      "name_zh": "中論本頌（梵文）",
-      "religion": "佛教"
     },
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
@@ -37351,11 +37306,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-euthyphro-el",
-      "name_zh": "歐緒弗洛篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "psalms",
       "name_zh": "詩篇",
       "religion": "猶太教"
@@ -37469,11 +37419,6 @@
       "slug": "sblgnt-romans",
       "name_zh": "羅馬書（希臘原文）",
       "religion": "基督教"
-    },
-    {
-      "slug": "seven-valleys-four-valleys",
-      "name_zh": "七谷與四谷（巴哈歐拉）",
-      "religion": "巴哈伊"
     },
     {
       "slug": "shiva-mahimna-stava",
@@ -37930,11 +37875,6 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-mulamadhyamakakarika-sa",
-      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     },
     {
@@ -43138,11 +43078,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "seven-valleys-four-valleys",
-      "name_zh": "七谷與四谷（巴哈歐拉）",
-      "religion": "巴哈伊"
-    },
-    {
       "slug": "shiva-mahimna-stava",
       "name_zh": "濕婆威德讚",
       "religion": "印度教"
@@ -43393,11 +43328,6 @@
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "ashtavakra-gita",
-      "name_zh": "八曲之歌",
-      "religion": "印度教"
     },
     {
       "slug": "bhagavad-gita",
@@ -45926,11 +45856,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "seven-valleys-four-valleys",
-      "name_zh": "七谷與四谷（巴哈歐拉）",
-      "religion": "巴哈伊"
-    },
-    {
       "slug": "shiva-mahimna-stava",
       "name_zh": "濕婆威德讚",
       "religion": "印度教"
@@ -48100,6 +48025,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
@@ -48144,11 +48074,6 @@
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
-      "religion": "佛教"
-    },
-    {
-      "slug": "awakening-of-faith",
-      "name_zh": "大乘起信論",
       "religion": "佛教"
     },
     {
@@ -50498,6 +50423,16 @@
   ],
   "insignificance-history": [
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
+    },
+    {
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
@@ -51843,6 +51778,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
       "religion": "印度教"
@@ -52090,6 +52030,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
@@ -52166,6 +52111,11 @@
     }
   ],
   "living-with-unknown": [
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-vimshatika-sa",
       "name_zh": "唯識二十論（梵文）",
@@ -53383,6 +53333,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "song-of-songs",
       "name_zh": "雅歌",
       "religion": "猶太教"
@@ -53649,6 +53604,11 @@
     {
       "slug": "bud-madhyantavibhaga-sa",
       "name_zh": "辯中邊論頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     },
     {
@@ -56982,6 +56942,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
       "religion": "印度教"
@@ -58121,6 +58086,11 @@
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
     },
     {
       "slug": "brahmabindu-upanishad",
@@ -60042,9 +60012,19 @@
       "religion": "印度教"
     },
     {
+      "slug": "ashtavakra-gita",
+      "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "avesta-sbe31-ae",
       "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "awakening-of-faith",
+      "name_zh": "大乘起信論",
+      "religion": "佛教"
     },
     {
       "slug": "bhagavad-gita",
@@ -60089,6 +60069,11 @@
     {
       "slug": "bud-madhyantavibhaga-sa",
       "name_zh": "辯中邊論頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
       "religion": "佛教"
     },
     {
@@ -61867,6 +61852,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seven-valleys-four-valleys",
+      "name_zh": "七谷與四谷（巴哈歐拉）",
+      "religion": "巴哈伊"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -62002,6 +61992,11 @@
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-mulamadhyamakakarika-sa",
+      "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-ratnavali-sa",
@@ -62997,6 +62992,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "plato-euthyphro-el",
+      "name_zh": "歐緒弗洛篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-republic-el",

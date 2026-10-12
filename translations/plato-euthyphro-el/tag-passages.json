@@ -1,0 +1,91 @@
+{
+ "schema_version": 1,
+ "slug": "plato-euthyphro-el",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 歐緒弗洛篇",
+   "last_heading": "2 | 歐緒弗洛起訴父親",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 拜師與第一個定義",
+   "last_heading": "3 | 考察第一個定義：眾神的爭論",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 7e–9a",
+   "last_heading": "6 | 神聖與被愛：歐緒弗洛困境（9e–10c）",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "polytheist",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "7 | 神聖（ὅσιον）與神所愛（θεοφιλές）之別 — Stephanus 10d–11d",
+   "last_heading": "8 | 從 δέος 與 αἰδώς 推論 ὅσιον 為 δίκαιον 之一部分",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | 論虔敬為對神之照料與服務",
+   "last_heading": "11 | 結語",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

@@ -54,15 +54,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "courage",
+    "calling-vocation",
     "faith-doubt",
     "fear-uncertainty",
-    "hope-reason-to-live"
+    "insignificance-history",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "b8409dc4d2fc8b61674c5265bc5801e4d068d085140685e0a01956d2f08d931d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

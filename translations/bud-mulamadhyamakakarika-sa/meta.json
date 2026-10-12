@@ -54,15 +54,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "death",
     "existence-why-born",
-    "faith-doubt",
-    "fear-uncertainty"
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "968973535c5bcc856cd87c26aadcc27e1187739a6b1ea3494376cf3d9436f1c5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

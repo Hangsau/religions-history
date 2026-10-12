@@ -52,15 +52,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "death",
-    "emotions-passions",
-    "existence-why-born",
+    "change-transformation",
     "fear-uncertainty",
-    "freewill-fate-choice"
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ac6862b1615ec720c9703d9e094f1655d03167b4c6add81d20104813df0b585b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

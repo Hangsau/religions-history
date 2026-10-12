@@ -64,15 +64,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "death",
-    "faith-doubt",
-    "fear-uncertainty",
-    "gratitude-contentment"
+    "insignificance-history",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "909878782cd92413a78e08241dae1b237222a247b3ff5aef765de00f7c76b69d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
