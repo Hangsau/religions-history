@@ -1,0 +1,789 @@
+{
+ "schema_version": 1,
+ "slug": "mozi",
+ "chunks_total": 45,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | befriending-the-learned",
+   "last_heading": "3 | on-dyeing",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "essentially-good",
+    "human-as-microcosm",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | on-the-necessity-of-standards",
+   "last_heading": "5 | seven-causes-of-anxiety",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | indulgence-in-excess",
+   "last_heading": "8 | exaltation-of-the-virtuous-i",
+   "semantic_tags": [
+    "asceticism",
+    "economic-justice",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "living-with-unknown",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | exaltation-of-the-virtuous-ii",
+   "last_heading": "9 | exaltation-of-the-virtuous-ii",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "10 | exaltation-of-the-virtuous-iii",
+   "last_heading": "11 | identification-with-the-superior-i",
+   "semantic_tags": [
+    "commandments-law",
+    "non-proselytizing",
+    "prophetic-critique",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "12 | identification-with-the-superior-ii",
+   "last_heading": "12 | identification-with-the-superior-ii",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "13 | identification-with-the-superior-iii",
+   "last_heading": "14 | universal-love-i",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "compassion",
+    "congregational",
+    "divine-kingship",
+    "mandate-of-heaven"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "15 | universal-love-ii",
+   "last_heading": "15 | universal-love-ii",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "economic-justice",
+    "golden-rule",
+    "inclusive-monotheism",
+    "non-violence",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "16 | universal-love-iii",
+   "last_heading": "16 | universal-love-iii",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "golden-rule",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "economic-justice",
+    "golden-rule",
+    "liberation-by-works",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "17 | condemnation-of-offensive-war-i",
+   "last_heading": "18 | condemnation-of-offensive-war-ii",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "golden-rule",
+    "non-violence",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "19 | condemnation-of-offensive-war-iii",
+   "last_heading": "19 | condemnation-of-offensive-war-iii",
+   "semantic_tags": [
+    "non-violence",
+    "prophetic-critique",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "death",
+    "ingroup-outgroup-prejudice",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "20 | economy-of-expenditures-i",
+   "last_heading": "21 | economy-of-expenditures-ii",
+   "semantic_tags": [
+    "commandments-law",
+    "economic-justice",
+    "humility",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "22 | simplicity-in-funerals-iii",
+   "last_heading": "22 | simplicity-in-funerals-iii",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "economic-justice",
+    "essentially-good",
+    "ritual-practice",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "essentially-good",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "23 | will-of-heaven-i",
+   "last_heading": "23 | will-of-heaven-i",
+   "semantic_tags": [
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "24 | will-of-heaven-ii",
+   "last_heading": "24 | will-of-heaven-ii",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "non-violence",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "25 | will-of-heaven-iii",
+   "last_heading": "25 | will-of-heaven-iii",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "non-violence",
+    "prophetic-revelation",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "justice-power",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "26 | on-ghosts-iii",
+   "last_heading": "26 | on-ghosts-iii",
+   "semantic_tags": [
+    "commentarial-layer",
+    "spirit-possession",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "27 | condemnation-of-music-i",
+   "last_heading": "27 | condemnation-of-music-i",
+   "semantic_tags": [
+    "against-idolatry",
+    "asceticism",
+    "economic-justice",
+    "non-violence",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "justice-power",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "28 | anti-fatalism-i",
+   "last_heading": "28 | anti-fatalism-i",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "commandments-law",
+    "compassion",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "29 | anti-fatalism-ii",
+   "last_heading": "30 | anti-fatalism-iii",
+   "semantic_tags": [
+    "accept-fate",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "31 | anti-confucianism-ii",
+   "last_heading": "31 | anti-confucianism-ii",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "non-violence",
+    "prophetic-critique",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "32 | canon-i",
+   "last_heading": "33 | canon-ii",
+   "semantic_tags": [
+    "commentarial-layer"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "34 | exposition-of-canon-i",
+   "last_heading": "34 | exposition-of-canon-i",
+   "semantic_tags": [
+    "commentarial-layer",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "35 | exposition-of-canon-ii",
+   "last_heading": "35 | exposition-of-canon-ii",
+   "semantic_tags": [
+    "commentarial-layer",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "non-dual",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "36 | major-illustrations",
+   "last_heading": "36 | major-illustrations",
+   "semantic_tags": [
+    "compassion",
+    "economic-justice",
+    "essentially-good",
+    "golden-rule",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "responsibility-leadership",
+    "who-am-i",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "37 | minor-illustrations",
+   "last_heading": "37 | minor-illustrations",
+   "semantic_tags": [
+    "commentarial-layer",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "38 | geng-zhu",
+   "last_heading": "38 | geng-zhu",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "economic-justice",
+    "essentially-good",
+    "humility",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "39 | esteem-for-righteousness",
+   "last_heading": "39 | esteem-for-righteousness",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "economic-justice",
+    "prayer",
+    "priesthood",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "40 | gong-meng",
+   "last_heading": "40 | gong-meng",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "non-violence",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "self-effort",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "illness-body",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "41 | lus-question",
+   "last_heading": "41 | lus-question",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "non-violence",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "non-violence",
+    "truthfulness",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "42 | gong-shu",
+   "last_heading": "42 | gong-shu",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "economic-justice",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "43 | fortification-of-the-city-gate",
+   "last_heading": "43 | fortification-of-the-city-gate",
+   "semantic_tags": [
+    "commandments-law",
+    "non-violence",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "economic-justice",
+    "non-violence"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "44 | defense-against-attack-from-an-elevation",
+   "last_heading": "47 | preparation-against-a-sally",
+   "semantic_tags": [
+    "non-violence",
+    "ritual-practice",
+    "study",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "48 | preparation-against-tunnelling",
+   "last_heading": "49 | defence-against-ant-rush",
+   "semantic_tags": [
+    "commandments-law",
+    "monastic",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 42,
+   "first_heading": "50 | sacrifice-against-the-coming-of-the-enemy",
+   "last_heading": "51 | flags-and-pennants",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "52 | commands-and-orders",
+   "last_heading": "52 | commands-and-orders",
+   "semantic_tags": [
+    "commandments-law",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "53 | miscellaneous-measures-in-defence",
+   "last_heading": "53 | miscellaneous-measures-in-defence",
+   "semantic_tags": [
+    "commandments-law",
+    "non-violence",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  }
+ ]
+}

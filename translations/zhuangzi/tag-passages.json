@@ -1,0 +1,819 @@
+{
+ "schema_version": 1,
+ "slug": "zhuangzi",
+ "chunks_total": 43,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | enjoyment-in-untroubled-ease",
+   "last_heading": "1 | enjoyment-in-untroubled-ease",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-immanence",
+    "emptiness",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | adjustment-of-controversies",
+   "last_heading": "2 | adjustment-of-controversies",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "emptiness",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "3 | nourishing-the-lord-of-life",
+   "last_heading": "3 | nourishing-the-lord-of-life",
+   "semantic_tags": [
+    "accept-fate",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "4 | man-in-the-world-associated-with",
+   "last_heading": "4 | man-in-the-world-associated-with",
+   "semantic_tags": [
+    "accept-fate",
+    "emptiness",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "liberation-by-knowledge",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "5 | seal-of-virtue-complete",
+   "last_heading": "5 | seal-of-virtue-complete",
+   "semantic_tags": [
+    "emptiness",
+    "essentially-good",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "6 | great-and-most-honoured-master",
+   "last_heading": "6 | great-and-most-honoured-master",
+   "semantic_tags": [
+    "accept-fate",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "7 | normal-course-for-rulers-and-kings",
+   "last_heading": "8 | webbed-toes",
+   "semantic_tags": [
+    "essentially-good",
+    "liberation-by-knowledge",
+    "non-dual",
+    "secular-state",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "9 | horsess-hoofs",
+   "last_heading": "10 | cutting-open-satchels",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-immanence",
+    "essentially-good",
+    "liberation-by-knowledge",
+    "non-dual",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "nature-animals-ecology",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "11 | letting-be-and-exercising-forbearance",
+   "last_heading": "11 | letting-be-and-exercising-forbearance",
+   "semantic_tags": [
+    "cosmic-egg",
+    "emptiness",
+    "non-violence",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "12 | heaven-and-earth",
+   "last_heading": "12 | heaven-and-earth",
+   "semantic_tags": [
+    "divine-immanence",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "non-dual",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "13 | tian-dao",
+   "last_heading": "13 | tian-dao",
+   "semantic_tags": [
+    "divine-immanence",
+    "emptiness",
+    "meditation",
+    "non-dual",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "14 | revolution-of-heaven",
+   "last_heading": "14 | revolution-of-heaven",
+   "semantic_tags": [
+    "chaos-to-order",
+    "commentarial-layer",
+    "emanation",
+    "emptiness",
+    "non-dual",
+    "prophetic-critique",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "enlightenment",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "15 | ingrained-ideas",
+   "last_heading": "16 | correcting-the-nature",
+   "semantic_tags": [
+    "breath-control",
+    "emptiness",
+    "meditation",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "17 | floods-of-autumn",
+   "last_heading": "17 | floods-of-autumn",
+   "semantic_tags": [
+    "emptiness",
+    "humility",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "emptiness",
+    "humility",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "18 | perfect-enjoyment",
+   "last_heading": "18 | perfect-enjoyment",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "19 | full-understanding-of-life",
+   "last_heading": "19 | full-understanding-of-life",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "20 | tree-on-the-mountain",
+   "last_heading": "20 | tree-on-the-mountain",
+   "semantic_tags": [
+    "accept-fate",
+    "emptiness",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "insignificance-history",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "21 | tian-zi-fang",
+   "last_heading": "21 | tian-zi-fang",
+   "semantic_tags": [
+    "divine-immanence",
+    "emptiness",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "22 | knowledge-rambling-in-the-north",
+   "last_heading": "22 | knowledge-rambling-in-the-north",
+   "semantic_tags": [
+    "breath-control",
+    "emptiness",
+    "enlightenment",
+    "mystical-union",
+    "non-dual",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "loss-grief",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "23 | geng-sang-chu",
+   "last_heading": "23 | geng-sang-chu",
+   "semantic_tags": [
+    "divine-immanence",
+    "emptiness",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "24 | xu-wu-gui",
+   "last_heading": "24 | xu-wu-gui",
+   "semantic_tags": [
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "mystical-union",
+    "non-dual",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "25 | ze-yang",
+   "last_heading": "25 | ze-yang",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "karma-rebirth",
+    "non-dual",
+    "sin-as-disobedience",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "emptiness",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "26 | what-comes-from-without",
+   "last_heading": "26 | what-comes-from-without",
+   "semantic_tags": [
+    "accept-fate",
+    "humility",
+    "non-dual",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "freewill-fate-choice",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "27 | metaphorical-language",
+   "last_heading": "27 | metaphorical-language",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "emptiness",
+    "enlightenment",
+    "mystical-union",
+    "non-dual",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "28 | kings-who-have-wished-to-resign",
+   "last_heading": "28 | kings-who-have-wished-to-resign",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "essentially-good",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "humility",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "29 | robber-zhi",
+   "last_heading": "29 | robber-zhi",
+   "semantic_tags": [
+    "against-idolatry",
+    "humility",
+    "non-dual",
+    "prophetic-critique",
+    "secular-state",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "humility",
+    "non-violence",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "insignificance-history",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "30 | delight-in-the-sword-fight",
+   "last_heading": "30 | delight-in-the-sword-fight",
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "non-dual",
+    "non-violence",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "responsibility-leadership",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "31 | old-fisherman",
+   "last_heading": "31 | old-fisherman",
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "liberation-by-knowledge",
+    "non-dual",
+    "ritual-practice",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "32 | lie-yu-kou",
+   "last_heading": "32 | lie-yu-kou",
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "33 | tian-xia",
+   "last_heading": "33 | tian-xia",
+   "semantic_tags": [
+    "commentarial-layer",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "who-am-i"
+   ]
+  }
+ ]
+}

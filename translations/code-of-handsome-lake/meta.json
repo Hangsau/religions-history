@@ -93,15 +93,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
     "calling-vocation",
-    "change-transformation",
-    "courage"
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "be59b07d5751a1d177401129543e00d844da7e9f0ec0121abbb96c365e7d2103"
+  },
+  "tagging_models": "MiniMax-M3"
 }

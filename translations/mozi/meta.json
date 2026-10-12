@@ -75,16 +75,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage",
-    "death"
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2dfc0c7acefa51b00f2780f26c1e971d54a516e014b4cfedbda7111a14f45abf"
+  },
+  "tagging_models": "MiniMax-M3"
 }
