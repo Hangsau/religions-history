@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
+    "aging-time",
     "death",
+    "existence-why-born",
     "fear-uncertainty",
-    "gratitude-contentment",
-    "insignificance-history",
     "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0ba05c4a5af32ccf397df28c0679cc927eb0f79b0627ea6f4e16e0ed7b66bb40"
+  },
+  "tagging_models": "MiniMax-M3"
 }

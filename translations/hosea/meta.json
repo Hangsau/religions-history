@@ -54,15 +54,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "death",
+    "calling-vocation",
     "faith-doubt",
     "guilt-atonement",
-    "illness-body"
+    "love-sex-intimacy",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0558f74de6bd511745430abe2bbd837ac55c76766ec4a4f168f027bdf8d32276"
+  },
+  "tagging_models": "MiniMax-M3"
 }
