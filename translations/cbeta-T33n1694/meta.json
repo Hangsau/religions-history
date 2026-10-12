@@ -71,5 +71,9 @@
     "source_file": "raw/original.txt",
     "source_sha256": "75a81f13b6c16079f161337b1a51051993b1427c67733b6e2bb5e30298ca0d0f"
   },
-  "tagging_models": "MiniMax-M3"
+  "tagging_models": "MiniMax-M3",
+  "psych_retag": {
+    "reason": "alphabetical-truncation-2026-10-12",
+    "marked_at": "2026-10-12T21:52:07.075124+08:00"
+  }
 }

@@ -51,9 +51,14 @@ def worker_args(fallback: str = '核心') -> list[str]:
     return ['--tier', fallback]
 
 
-def select_source(base: Path, meta: dict,
-                  allow_original: bool = False) -> tuple[Path | None, str | None]:
-    """allow_original: round 2 tags untranslated non-Chinese originals directly."""
+MAX_REPLACEMENT_RATIO = 0.001  # tolerated U+FFFD per character when allow_replacement
+
+
+def select_source(base: Path, meta: dict, allow_original: bool = False,
+                  allow_replacement: bool = False) -> tuple[Path | None, str | None]:
+    """allow_original: tag untranslated non-Chinese originals directly.
+    allow_replacement: accept a few U+FFFD (lost characters); tagging tolerates them,
+    the text itself still needs translation repair."""
     # Import lazily: translate imports this module only for its resume command.
     import translate
     if meta.get('alias_of'):
@@ -82,7 +87,8 @@ def select_source(base: Path, meta: dict,
     body = '\n'.join(line for line in text.splitlines() if not line.startswith('=== '))
     if len(''.join(body.split())) < 100:
         return None, 'short_body_requires_review'
-    if '\ufffd' in text or '<!-- CHUNK ' in text or translate.find_contamination(text):
+    limit = len(text) * MAX_REPLACEMENT_RATIO if allow_replacement else 0
+    if text.count('\ufffd') > limit or '<!-- CHUNK ' in text or translate.find_contamination(text):
         return None, 'source_needs_repair'
     return source, None
 
@@ -91,7 +97,8 @@ def validate_source(entry: dict, translations_dir: Path) -> str | None:
     base = translations_dir / entry['slug']
     try:
         meta = json.loads((base / 'meta.json').read_text(encoding='utf-8'))
-        source, reason = select_source(base, meta, entry.get('source_policy') == 'original')
+        source, reason = select_source(base, meta, entry.get('source_policy') == 'original',
+                                       entry.get('allow_replacement') is True)
         if reason:
             return reason
         if source.relative_to(base).as_posix() != entry['source_file']:

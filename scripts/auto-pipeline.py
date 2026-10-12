@@ -288,7 +288,8 @@ def process_slug(slug: str, tasks: list[str], whitelist: set, psych_whitelist: s
 def tasks_complete(meta: dict, translation_path: Path, tasks: list[str]) -> bool:
     translation_done = translate.has_complete_translation(translation_path)
     tags_done = (meta.get("tag_status") == "done" and bool(meta.get("semantic_tags"))
-                 and meta.get("psych_tag_status") == "done" and bool(meta.get("psych_tags")))
+                 and meta.get("psych_tag_status") == "done" and bool(meta.get("psych_tags"))
+                 and not meta.get("psych_retag"))
     return (("translate" not in tasks or translation_done)
             and ("tag" not in tasks or tags_done))
 

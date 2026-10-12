@@ -1064,6 +1064,7 @@ def merge_meta_tags(slug: str, semantic_tags: list[str], psych_tags: list[str],
     meta["tag_status"] = "done"
     meta["psych_tags"] = psych_tags
     meta["psych_tag_status"] = "done"
+    meta.pop("psych_retag", None)
     if psych_method:
         meta["psych_tag_method"] = psych_method
     else:
@@ -1157,7 +1158,8 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         print(f"  [error] {slug} (tag): translation is incomplete")
         return False
     if skip_done and meta.get("tag_status") == "done" and meta.get("semantic_tags") \
-            and meta.get("psych_tag_status") == "done" and meta.get("psych_tags"):
+            and meta.get("psych_tag_status") == "done" and meta.get("psych_tags") \
+            and not meta.get("psych_retag"):
         print(f"  [skip-done] {slug} (tag)")
         return True
 

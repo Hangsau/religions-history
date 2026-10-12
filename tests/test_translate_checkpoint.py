@@ -309,6 +309,21 @@ class TranslateCheckpointTests(unittest.TestCase):
             self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
         call.assert_not_called()
 
+    def test_psych_retag_reruns_done_book_and_keeps_semantic(self):
+        base, _ = self.make_slug(chapter_chars=50)
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        meta.update(tag_status="done", semantic_tags=["old-sem"], keywords=["k"],
+                    psych_tag_status="done", psych_tags=["a1"], psych_retag={"reason": "x"})
+        (base / "meta.json").write_text(json.dumps(meta), encoding="utf-8")
+        reply = json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"], "keywords": []})
+        with mock.patch.object(translate, "call_m3", return_value=reply) as call:
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, {"death"}, skip_done=True))
+        self.assertEqual(call.call_count, 1)
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertEqual(meta["psych_tags"], ["death"])
+        self.assertEqual(meta["semantic_tags"], ["old-sem"])
+        self.assertNotIn("psych_retag", meta)
+
     def test_psych_tags_keep_most_agreed_not_alphabetical_first(self):
         base, _ = self.make_slug()
         vocab = {"a1", "a2", "a3", "a4", "a5", "zz"}

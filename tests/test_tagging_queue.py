@@ -94,6 +94,16 @@ class TaggingQueueTests(unittest.TestCase):
         self.write_meta()
         self.assertEqual(queue.validate_source(entry, self.translations), 'source_not_verified')
 
+    def test_replacement_chars_need_explicit_tolerance(self):
+        self.raw.write_text('=== 1 | 正文 ===\n' + '寬忍止息瞋恚。' * 400 + '�', encoding='utf-8')
+        self.meta['checksum_sha256'] = hashlib.sha256(self.raw.read_bytes()).hexdigest()
+        self.assertEqual(queue.select_source(self.base, self.meta)[1], 'source_needs_repair')
+        self.assertIsNone(queue.select_source(self.base, self.meta, allow_replacement=True)[1])
+        self.raw.write_text('=== 1 | 正文 ===\n' + '寬忍' * 100 + '�' * 50, encoding='utf-8')
+        self.meta['checksum_sha256'] = hashlib.sha256(self.raw.read_bytes()).hexdigest()
+        self.assertEqual(queue.select_source(self.base, self.meta, allow_replacement=True)[1],
+                         'source_needs_repair')
+
     def test_short_alias_transliteration_and_incomplete_sources_are_deferred(self):
         for fields, reason in [({'alias_of': 'canonical'}, 'alias'),
                                ({'text_role': 'transliteration'}, 'transliteration_requires_review'),
