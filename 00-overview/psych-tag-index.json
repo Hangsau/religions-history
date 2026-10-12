@@ -1986,11 +1986,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "vulgate-leviticus",
-      "name_zh": "利未記（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-matthew",
       "name_zh": "馬太福音（武加大）",
       "religion": "基督教"
@@ -2888,11 +2883,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "hesiod-el",
-      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -3220,11 +3210,6 @@
     {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-leviticus",
-      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -4020,11 +4005,6 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
-    },
-    {
-      "slug": "apastamba-dharmasutra",
-      "name_zh": "阿波斯檀跋法經",
-      "religion": "印度教"
     },
     {
       "slug": "apuleius-metamorphoses-la",
@@ -9218,11 +9198,6 @@
     {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-2-samuel",
-      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -17316,11 +17291,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-job",
-      "name_zh": "約伯記（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
       "religion": "基督教"
@@ -17343,11 +17313,6 @@
     {
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-leviticus",
-      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -21178,11 +21143,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "hesiod-el",
-      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "homer-odyssey-st",
       "name_zh": "奧德賽 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
@@ -22436,11 +22396,6 @@
     {
       "slug": "bible-2-chronicles",
       "name_zh": "歷代志下",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-2-samuel",
-      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -24419,11 +24374,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "hesiod-el",
-      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -24874,11 +24824,6 @@
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
-    },
-    {
-      "slug": "apastamba-dharmasutra",
-      "name_zh": "阿波斯檀跋法經",
-      "religion": "印度教"
     },
     {
       "slug": "apollodorus-bibliotheca-el",
@@ -30236,11 +30181,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "hesiod-el",
-      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -30928,6 +30868,11 @@
     {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -32467,22 +32412,12 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-job",
-      "name_zh": "約伯記（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-psalms",
       "name_zh": "詩篇（武加大）",
       "religion": "基督教"
     }
   ],
   "existence-why-born": [
-    {
-      "slug": "apastamba-dharmasutra",
-      "name_zh": "阿波斯檀跋法經",
-      "religion": "印度教"
-    },
     {
       "slug": "aristotle-metaphysics-el",
       "name_zh": "形上學（希臘原文）",
@@ -36955,11 +36890,6 @@
     {
       "slug": "bible-2-kings",
       "name_zh": "列王紀下",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-2-samuel",
-      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -42058,6 +41988,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
@@ -42545,6 +42480,11 @@
     {
       "slug": "vulgate-judith",
       "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -43783,11 +43723,6 @@
     {
       "slug": "bible-1-timothy",
       "name_zh": "提摩太前書",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-2-samuel",
-      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -45111,6 +45046,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
       "religion": "印加"
@@ -45243,6 +45183,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "beidou-yansheng-jing",
       "name_zh": "太上玄靈北斗本命延生真經",
       "religion": "道教"
@@ -45265,6 +45210,11 @@
     {
       "slug": "bible-2-kings",
       "name_zh": "列王紀下",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -47080,6 +47030,11 @@
     {
       "slug": "vulgate-lamentations",
       "name_zh": "耶利米哀歌（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-leviticus",
+      "name_zh": "利未記（武加大）",
       "religion": "基督教"
     },
     {
@@ -51243,6 +51198,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-jude",
       "name_zh": "猶大書（武加大）",
       "religion": "基督教"
@@ -52121,6 +52081,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
       "religion": "基督教"
@@ -52925,6 +52890,11 @@
   ],
   "marriage-family": [
     {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "bible-malachi",
       "name_zh": "瑪拉基書",
       "religion": "基督教"
@@ -53057,6 +53027,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "apastamba-dharmasutra",
+      "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
@@ -53079,6 +53054,11 @@
     {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -56382,6 +56362,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -56779,6 +56764,11 @@
     {
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-job",
+      "name_zh": "約伯記（武加大）",
       "religion": "基督教"
     },
     {
@@ -57378,6 +57368,11 @@
     {
       "slug": "bible-1-timothy",
       "name_zh": "提摩太前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-samuel",
+      "name_zh": "撒母耳記下",
       "religion": "基督教"
     },
     {
@@ -63129,6 +63124,11 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "hesiod-el",
+      "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "sblgnt-2-thessalonians",

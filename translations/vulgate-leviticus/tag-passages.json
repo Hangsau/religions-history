@@ -1,0 +1,225 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-leviticus",
+ "chunks_total": 12,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一章",
+   "last_heading": "3 |",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 第四章下半 ─ 32-35 節 / 第五章 / 第五章續",
+   "last_heading": "6 | 第七章",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | 第八章後半〜第九章前半",
+   "last_heading": "10 | 第十章",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | 利未記 10:10–11:19",
+   "last_heading": "13 | 大痲風之例",
+   "semantic_tags": [
+    "commandments-law",
+    "dietary-restrictions",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "illness-body",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "13 | 瘋癩的條例續",
+   "last_heading": "15",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "16 |",
+   "last_heading": "18 | 第16章15-34節",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "19 | 第17章1-4節",
+   "last_heading": "21 | 第二十一章（續）",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "21 | 第二十章 後半",
+   "last_heading": "22 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "giving-generosity",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "23 | 利未記 20:26b–22:3",
+   "last_heading": "25 | 第五段續",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "26 | 第二十三章 24-44",
+   "last_heading": "28 | 第十五章 續 / 第二十五章 起",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "28 |",
+   "last_heading": "29 | 第二十五章 39–55；第二十六章 1–15",
+   "semantic_tags": [
+    "commandments-law",
+    "economic-justice",
+    "liberation-by-works",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "30 | 第26章（續）",
+   "last_heading": "32 | 第二十七章（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

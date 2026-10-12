@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
     "body-mind",
     "boundaries-self-worth",
-    "calling-vocation"
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "12be1c4967687801d422863d992fa9a8e696409742063ab165654e89f952607f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

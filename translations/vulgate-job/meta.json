@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
     "death",
-    "evil-cruelty-empathy",
     "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cdf7ac0a54e91194b4439fbacb6dc9f472947b61554353c34ce370bfe22c0c7e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

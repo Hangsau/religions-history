@@ -1,0 +1,276 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-job",
+ "chunks_total": 14,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber Job",
+   "last_heading": "2 | 第二段",
+   "semantic_tags": [
+    "evil-as-deception",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "gratitude-contentment",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | Eliphaz 第一段 / 約伯回應中",
+   "last_heading": "3 | Eliphaz 第一段 / 約伯回應中",
+   "semantic_tags": [
+    "essentially-good",
+    "sacred-language",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "4 | Caput VI",
+   "last_heading": "5 | 友判斷斷之詞 / 約伯嘆生 / 巴爾達的回應",
+   "semantic_tags": [
+    "compassion",
+    "divine-transcendence",
+    "humility",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body",
+    "loneliness-belonging",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "6 | Eliphaz 第二次發言尾（8:11–22）與 約伯回答（9:1–32）",
+   "last_heading": "8 | Caput 11–13",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "mystical-union",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | （續前段，約伯對友人之言）",
+   "last_heading": "12 | 巴爾達德第二次發言",
+   "semantic_tags": [
+    "divine-transcendence",
+    "essentially-flawed",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 巴爾達德第二次發言（續）",
+   "last_heading": "13 |",
+   "semantic_tags": [
+    "divine-transcendence",
+    "mystical-union",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "justice-power",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14",
+   "last_heading": "14",
+   "semantic_tags": [
+    "divine-transcendence",
+    "synagogue-mosque-style",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "15",
+   "last_heading": "25 | 第二十五章",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "26 | 第二十六章",
+   "last_heading": "19",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-transcendence",
+    "essentially-good",
+    "humility",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "20",
+   "last_heading": "22 | Eliu 演說續",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "23 | 第34–36章續",
+   "last_heading": "24 | Caput XXXVI",
+   "semantic_tags": [
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "25 | Caput XXXVII",
+   "last_heading": "25 | 厄里烏續言；上主自旋風中答約伯",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-transcendence",
+    "humility",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "26 | 上主自旋風中顯現",
+   "last_heading": "28 | Descriptio Leviathan",
+   "semantic_tags": [
+    "awe-fear",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "28 | 末章",
+   "last_heading": "28 | 末章",
+   "semantic_tags": [
+    "humility",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

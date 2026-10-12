@@ -74,15 +74,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "work-money"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "89529da60e542950c769adf1badf4b1259a5565f75e50e971618f72e2c1437d7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

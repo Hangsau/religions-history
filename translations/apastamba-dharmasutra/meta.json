@@ -69,15 +69,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "boundaries-self-worth",
     "calling-vocation",
-    "death",
-    "existence-why-born"
+    "guilt-atonement",
+    "marriage-family",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "849c092585e4fc4ce53d2ff10bb6de1c20f55ec2f34be5440aca1234fe777cd4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
