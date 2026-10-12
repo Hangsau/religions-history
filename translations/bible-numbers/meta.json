@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
     "death",
-    "existence-why-born",
-    "faith-doubt"
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "83cd55ca59b7166056d2d1b45097ee4b0b180cea7b106d8d5e985ae42c820fcf"
+  },
+  "tagging_models": "MiniMax-M3"
 }

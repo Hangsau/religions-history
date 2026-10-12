@@ -61,13 +61,14 @@
   "psych_tags": [
     "body-mind",
     "death",
-    "emotions-passions",
-    "fear-uncertainty",
-    "freewill-fate-choice"
+    "freewill-fate-choice",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cc49fb879e8339683922cc8c34723916688b0bd4b5f9e4836d6099380182a38c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

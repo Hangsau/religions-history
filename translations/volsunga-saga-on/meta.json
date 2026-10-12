@@ -72,15 +72,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2955a6e6ec81be17da631871b0592f64e5d70d251bee059188e168d611cc8054"
+  },
+  "tagging_models": "MiniMax-M3"
 }

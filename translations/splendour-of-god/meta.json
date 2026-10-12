@@ -50,15 +50,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "233221d52f275978194234132a1095d5922faaff50af5ed0ef3bc3c8bc819aff"
+  },
+  "tagging_models": "MiniMax-M3"
 }

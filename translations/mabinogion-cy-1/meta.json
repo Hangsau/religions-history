@@ -79,15 +79,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
-    "change-transformation",
-    "childhood-wounds",
-    "communication-being-understood",
-    "courage"
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2cb2e5ffe01f6acf9cd8dc2f19799508ce534d3697c0604b627d3fc707e735f6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
