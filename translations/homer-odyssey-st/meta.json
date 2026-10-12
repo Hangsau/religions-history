@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "calling-vocation",
-    "change-transformation"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f1e754eac150bdf99172c65ae413507744ebe696755bea487ae327a8767ffeff"
+  },
+  "tagging_models": "MiniMax-M3"
 }

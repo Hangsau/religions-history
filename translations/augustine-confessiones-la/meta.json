@@ -95,15 +95,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "calling-vocation",
-    "change-transformation"
+    "faith-doubt",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ba6b42e243ab98614f46d597e8a49c60ccda6082b808904e3185c3f2bcdf7ad4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
-    "death"
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "9430f9e9c9afc74e5a630b0fd666149f1612a87eaaf69601c3339333b44dc616"
+  },
+  "tagging_models": "MiniMax-M3"
 }
