@@ -51,15 +51,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "body-mind",
-    "courage",
+    "addiction-self-destruction",
     "death",
-    "emotions-passions",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "4fdf0443f8880c7a5e96b36ccdf996f786858f4c2589f1d6823e48508d3d7c31"
+  },
+  "tagging_models": "MiniMax-M3"
 }

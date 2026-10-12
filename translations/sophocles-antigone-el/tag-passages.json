@@ -1,0 +1,121 @@
+{
+ "schema_version": 1,
+ "slug": "sophocles-antigone-el",
+ "chunks_total": 6,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Αντιγόνη",
+   "last_heading": "2 | 第二合唱歌（續）：攻城戰與神意",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "commandments-law",
+    "divine-immanence",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 克瑞翁出場與治國演說",
+   "last_heading": "4 | 對話尾聲（克瑞翁與守衛）",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 第一合唱歌：人之頌",
+   "last_heading": "725 | 對話續",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "sacred-language",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "760 | Haemon 離去",
+   "last_heading": "8 | 歌隊第四首合唱歌與安提戈涅訣別",
+   "semantic_tags": [
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | 末段合唱歌與啟示",
+   "last_heading": "9 | 末段合唱歌與啟示",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "11 | 信使報信",
+   "last_heading": "11 | 信使報信",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

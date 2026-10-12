@@ -1,0 +1,137 @@
+{
+ "schema_version": 1,
+ "slug": "sn11-sakka",
+ "chunks_total": 7,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | sn11.1",
+   "last_heading": "4 | 念三寶偈",
+   "semantic_tags": [
+    "divine-kingship",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | sn11.4",
+   "last_heading": "6 | sn11.6",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "humility",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | sn11.7",
+   "last_heading": "11 | sn11.11",
+   "semantic_tags": [
+    "humility",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "syncretic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "12 | sn11.12",
+   "last_heading": "13 | sn11.13",
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "goddess-tradition",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "marriage-family",
+    "parenthood",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "14 | sn11.14",
+   "last_heading": "14 | sn11.14",
+   "semantic_tags": [
+    "commandments-law",
+    "grace-from-god",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "other-power"
+   ],
+   "psych_tags": [
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "15 | sn11.15",
+   "last_heading": "21 | sn11.21",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "liberation-by-works",
+    "monastic",
+    "monotheist-exclusive",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "22 | sn11.22",
+   "last_heading": "25 | sn11.25",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "polytheist",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

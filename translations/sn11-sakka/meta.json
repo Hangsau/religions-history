@@ -51,15 +51,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
-    "calling-vocation",
-    "communication-being-understood",
     "courage",
-    "death"
+    "emotions-passions",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "patience-waiting"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "1f3959203df5d25a1aa8ab390937b48623a40661a61a1483b3a52c7b6753d7da"
+  },
+  "tagging_models": "MiniMax-M3"
 }

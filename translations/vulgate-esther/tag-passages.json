@@ -1,0 +1,110 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-esther",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Liber Esther",
+   "last_heading": "4 | 哈曼得寵，末底改不跪",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "patriarchal",
+    "synagogue-mosque-style",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | Esther 3:9–4:11",
+   "last_heading": "6 | 第六章（續）— 第七章",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "fasting",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | 第七段",
+   "last_heading": "10 | 末底改位列宰相",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "other-power",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | 末底改的夢與解釋",
+   "last_heading": "13 | 末底改勸勉以斯帖",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "theocracy",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "13 | 第十三章",
+   "last_heading": "14",
+   "semantic_tags": [
+    "divine-transcendence",
+    "patriarchal",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

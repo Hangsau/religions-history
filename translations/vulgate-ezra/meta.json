@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
     "fear-uncertainty",
-    "gratitude-contentment",
     "guilt-atonement",
-    "ingroup-outgroup-prejudice"
+    "ingroup-outgroup-prejudice",
+    "loss-grief",
+    "marriage-family"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0b203ef1d9e08f0ea989d2a30d559f4fde743b1603b553fb40a164c664f91a8f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
