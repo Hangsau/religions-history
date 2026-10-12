@@ -68,15 +68,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "boundaries-self-worth",
     "calling-vocation",
-    "childhood-wounds",
-    "death"
+    "fear-uncertainty",
+    "illness-body",
+    "loneliness-belonging",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8e5afe9da551e3a45df538c6079df7646a5d7498669ffc3703b737103d871354"
+  },
+  "tagging_models": "MiniMax-M3"
 }

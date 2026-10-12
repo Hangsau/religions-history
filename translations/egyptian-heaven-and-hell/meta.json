@@ -50,14 +50,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "death",
-    "existence-why-born",
-    "faith-doubt",
     "fear-uncertainty",
-    "gratitude-contentment"
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2595a8970c64d3c91095bacca9e133606dd5534c820094ced2ed2880b6bf6aff"
+  },
+  "tagging_models": "MiniMax-M3"
 }

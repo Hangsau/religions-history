@@ -51,15 +51,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "body-mind",
-    "calling-vocation",
-    "change-transformation"
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "3d0a17e1d64b5781a40e4acea7454dbcf01cd333c7b335f11462e8ffbf1c6c88"
+  },
+  "tagging_models": "MiniMax-M3"
 }

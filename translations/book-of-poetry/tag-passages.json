@@ -1,0 +1,495 @@
+{
+ "schema_version": 1,
+ "slug": "book-of-poetry",
+ "chunks_total": 26,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 七月",
+   "last_heading": "13 | 何人斯",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "oral-tradition",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "14 | 何彼襛矣",
+   "last_heading": "24 | 出其東門",
+   "semantic_tags": [
+    "ancestor-worship",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "marriage-sacred",
+    "prophetic-critique",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "25 | 出車",
+   "last_heading": "36 | 南陔",
+   "semantic_tags": [
+    "commandments-law",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "37 | 卷耳",
+   "last_heading": "48 | 園有桃",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "justice-power",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "49 | 執競",
+   "last_heading": "62 | 將仲子",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "63 | 小宛",
+   "last_heading": "73 | 崧高",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "mandate-of-heaven",
+    "prayer",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "74 | 巧言",
+   "last_heading": "85 | 我將",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "86 | 我行其野",
+   "last_heading": "95 | 文王有聲",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "96 | 斯干",
+   "last_heading": "112 | 木瓜",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "marriage-sacred",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loneliness-belonging",
+    "marriage-family",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "113 | 杕杜",
+   "last_heading": "124 | 桃夭",
+   "semantic_tags": [
+    "marriage-sacred",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "125 | 桑中",
+   "last_heading": "134 | 正月",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "135 | 武",
+   "last_heading": "145 | 河廣",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "146 | 泂酌",
+   "last_heading": "160 | 烈祖",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "161 | 烝民",
+   "last_heading": "172 | 甘棠",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "173 | 生民",
+   "last_heading": "182 | 相鼠",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prayer",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "183 | 瞻卬",
+   "last_heading": "197 | 綢繆",
+   "semantic_tags": [
+    "commandments-law",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "198 | 維天之命",
+   "last_heading": "211 | 苕之華",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "212 | 草蟲",
+   "last_heading": "223 | 蓼蕭",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "marriage-sacred",
+    "prophetic-critique",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loneliness-belonging",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "224 | 蕩",
+   "last_heading": "236 | 訪落",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "237 | 谷風",
+   "last_heading": "249 | 還",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "loneliness-belonging",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "250 | 那",
+   "last_heading": "259 | 采蘋",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "patriarchal",
+    "prophetic-critique",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "260 | 采蘩",
+   "last_heading": "265 | 閟宮",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "marriage-sacred",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gender-body",
+    "gratitude-contentment",
+    "loneliness-belonging",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "266 | 關雎",
+   "last_heading": "273 | 雞鳴",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "marriage-sacred",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "274 | 雨無正",
+   "last_heading": "283 | 駟驖",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "marriage-sacred",
+    "prayer",
+    "prophetic-critique",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "284 | 騶虞",
+   "last_heading": "295 | 鶴鳴",
+   "semantic_tags": [
+    "essentially-good",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "296 | 鹿鳴",
+   "last_heading": "301 | 鼓鍾",
+   "semantic_tags": [
+    "ancestor-worship",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

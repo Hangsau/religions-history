@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "boundaries-self-worth",
     "calling-vocation",
-    "communication-being-understood"
+    "gratitude-contentment",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8bb54eee85fe2d4260fc6e48a157dc8a20a15204674dde3ae0585a7ec364a5c7"
+  },
+  "tagging_models": "MiniMax-M3"
 }

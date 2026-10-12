@@ -1,0 +1,795 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-psalms",
+ "chunks_total": 41,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一篇",
+   "last_heading": "3 | Psalmus 7",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "liberation-by-devotion",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | Psalmus 8",
+   "last_heading": "9 | Psalmus 15",
+   "semantic_tags": [
+    "awe-fear",
+    "created-in-image",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prayer"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "gratitude-contentment",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 第 16 篇（Psalmus 16）",
+   "last_heading": "21 | 第 20 篇",
+   "semantic_tags": [
+    "divine-transcendence",
+    "other-power",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "22 | 第 21 篇",
+   "last_heading": "24 | In finem. Psalmus David",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-kingship",
+    "grace-from-god",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | Psalmus 25 (26)",
+   "last_heading": "13 | Psalmus 27 (28)",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "temple-centered",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "12 | Psalmus 27",
+   "last_heading": "12 | Psalmus 30",
+   "semantic_tags": [
+    "creator-deity",
+    "liberation-by-devotion",
+    "prayer",
+    "sacred-language",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "13 | Psalmus 30 (31) — In te, Domine, speravi",
+   "last_heading": "13 | Psalmus 30 (31) — In te, Domine, speravi",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "14 | Psalmus 31 (32) — Beati quorum remissæ sunt",
+   "last_heading": "14 | Psalmus 31 (32) — Beati quorum remissæ sunt",
+   "semantic_tags": [
+    "divine-transcendence",
+    "forgiveness",
+    "prayer",
+    "salvation-by-faith",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "14 | Psalmus 32",
+   "last_heading": "14 | Psalmus 32",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "16 | Psalmus 35",
+   "last_heading": "18 | Psalmus 38 (39)",
+   "semantic_tags": [
+    "compassion",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "2 | Psalmus 40",
+   "last_heading": "22 | Psalmus 45 (Deus refugium nostrum)",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "divine-transcendence",
+    "messianism",
+    "prayer",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "23 | Psalmus 46 (Omnes gentes, plaudite)",
+   "last_heading": "24 | 詩篇 51",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "divine-kingship",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "25 | 詩篇 52",
+   "last_heading": "27 | Psalmus 58 (57 Vulgate)",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "prayer",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "28 | Psalmus 59 (58 Vulgate)",
+   "last_heading": "28 | Psalmus 64 (65) | In finem. Psalmus David, canticum Jeremiæ et Ezechielis populo transmigrationis, cum inciperent exire",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "N | 詩篇 64/65",
+   "last_heading": "31 | Psalmus 67, pars 2",
+   "semantic_tags": [
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "31 | Psalmus 68",
+   "last_heading": "33 | Psalmus, in Salomonem",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "loneliness-belonging",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "33 | Psalmus 71 (72) — 第二部分",
+   "last_heading": "35 | 詩篇 74（75）",
+   "semantic_tags": [
+    "divine-kingship",
+    "economic-justice",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "36 | 詩篇 75（76）",
+   "last_heading": "36 | 詩篇 75（76）",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "parenthood",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "36 | 第七十七篇 後半",
+   "last_heading": "40 | Psalmus 80 (81)",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "forgiveness",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "81 | Psalmus Asaph",
+   "last_heading": "40 | Psalmus LXXXIV",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "prayer",
+    "prophetic-critique",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "41 | Psalmus LXXXIV (II)",
+   "last_heading": "43 | Psalmus 88",
+   "semantic_tags": [
+    "compassion",
+    "divine-transcendence",
+    "messianism",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "42 | 第 88 篇（續）",
+   "last_heading": "45 | Psalmus 92 (93)",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "grace-from-god",
+    "messianism",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "46 | Psalmus 93 (94)",
+   "last_heading": "46 | Psalmus 93 (94)",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "45 | Psalm 94",
+   "last_heading": "45 | Psalm 94",
+   "semantic_tags": [
+    "against-idolatry",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 28,
+   "first_heading": "46 | 詩篇 96 (Vulgate numbering)",
+   "last_heading": "48 | Psalmus 102",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "49 | Psalmus 103",
+   "last_heading": "50 | Psalmus 105 (104)",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "51 | Psalmus 106",
+   "last_heading": "53 | Psalmus 108 (Vulgata)",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "grace-from-god",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "54 | Psalmus 109 (Vulgata)",
+   "last_heading": "56 | Psalmus 112 (113)",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "grace-from-god",
+    "messianism",
+    "priesthood",
+    "theophany"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "gratitude-contentment",
+    "gratitude-contentment",
+    "gratitude-contentment",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "57 | Psalmus 113 (114)",
+   "last_heading": "117 | Laudate Dominum",
+   "semantic_tags": [
+    "against-idolatry",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prayer",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "gratitude-contentment",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "118 | Confitemini Domino",
+   "last_heading": "56 | 第 118 篇（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "grace-from-god",
+    "monotheist-exclusive",
+    "prayer",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "1 | Psalmus 118 (versus 29-72)",
+   "last_heading": "1 | Psalmus 118 (versus 29-72)",
+   "semantic_tags": [
+    "commandments-law",
+    "grace-from-god",
+    "humility",
+    "prayer",
+    "study",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 36,
+   "first_heading": "58 | Psalm 118 (119) LXX — Jod, Caph, Lamed, Mem, Nun, Samech（續）",
+   "last_heading": "119 | Canticum graduum",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "humility",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "120 | Canticum graduum",
+   "last_heading": "63 | Psalmus 133 (134)",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "pilgrimage",
+    "prayer",
+    "prophetic-revelation",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "patience-waiting",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "64 | Psalmus 134 (135)",
+   "last_heading": "2 | Psalmus 136",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "liberation-by-devotion",
+    "pilgrimage",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "3 | Psalmus 137",
+   "last_heading": "66 | Psalmus 139 (Vulgate 140)",
+   "semantic_tags": [
+    "compassion",
+    "divine-transcendence",
+    "forgiveness",
+    "humility",
+    "liberation-by-devotion",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "67 | Psalmus 140 (Vulgate 141)",
+   "last_heading": "68 | Psalmus 146",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "69 | Psalmus 147",
+   "last_heading": "69 | Psalmus 149",
+   "semantic_tags": [
+    "compassion",
+    "congregational",
+    "divine-transcendence",
+    "prayer"
+   ],
+   "psych_tags": [
+    "gratitude-contentment"
+   ]
+  }
+ ]
+}

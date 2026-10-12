@@ -26,11 +26,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "an7-sevens",
-      "name_zh": "AN7 七法集",
-      "religion": "佛教"
-    },
-    {
       "slug": "an8-eights",
       "name_zh": "AN8 八法集",
       "religion": "佛教"
@@ -74,11 +69,6 @@
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
-    },
-    {
-      "slug": "book-of-poetry",
-      "name_zh": "詩經",
-      "religion": "儒教"
     },
     {
       "slug": "brahma-purana",
@@ -1998,11 +1988,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "an7-sevens",
-      "name_zh": "AN7 七法集",
-      "religion": "佛教"
-    },
-    {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -2045,11 +2030,6 @@
     {
       "slug": "bohutong",
       "name_zh": "白虎通義",
-      "religion": "儒教"
-    },
-    {
-      "slug": "book-of-poetry",
-      "name_zh": "詩經",
       "religion": "儒教"
     },
     {
@@ -3804,11 +3784,6 @@
     {
       "slug": "an6-sixes",
       "name_zh": "AN6 六法集",
-      "religion": "佛教"
-    },
-    {
-      "slug": "an7-sevens",
-      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -5782,11 +5757,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "cherokee-sacred-formulas",
-      "name_zh": "切羅基神聖咒文 (Mooney)",
-      "religion": "美洲"
-    },
-    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -6441,11 +6411,6 @@
     {
       "slug": "book-of-changes",
       "name_zh": "周易",
-      "religion": "儒教"
-    },
-    {
-      "slug": "book-of-poetry",
-      "name_zh": "詩經",
       "religion": "儒教"
     },
     {
@@ -8129,11 +8094,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cherokee-sacred-formulas",
-      "name_zh": "切羅基神聖咒文 (Mooney)",
-      "religion": "美洲"
-    },
-    {
       "slug": "chuanxi-lu",
       "name_zh": "傳習錄",
       "religion": "儒教"
@@ -8584,11 +8544,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-psalms",
-      "name_zh": "詩篇（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
       "religion": "儒教"
@@ -8668,11 +8623,6 @@
     {
       "slug": "an6-sixes",
       "name_zh": "AN6 六法集",
-      "religion": "佛教"
-    },
-    {
-      "slug": "an7-sevens",
-      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -16846,11 +16796,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-psalms",
-      "name_zh": "詩篇（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
       "religion": "基督教"
@@ -21075,11 +21020,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cherokee-sacred-formulas",
-      "name_zh": "切羅基神聖咒文 (Mooney)",
-      "religion": "美洲"
-    },
-    {
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
@@ -21124,11 +21064,6 @@
     {
       "slug": "book-of-changes",
       "name_zh": "周易",
-      "religion": "儒教"
-    },
-    {
-      "slug": "book-of-poetry",
-      "name_zh": "詩經",
       "religion": "儒教"
     },
     {
@@ -23734,11 +23669,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-psalms",
-      "name_zh": "詩篇（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
       "religion": "儒教"
@@ -23783,6 +23713,11 @@
     {
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -28926,11 +28861,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "cherokee-sacred-formulas",
-      "name_zh": "切羅基神聖咒文 (Mooney)",
-      "religion": "美洲"
-    },
-    {
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
@@ -29708,11 +29638,6 @@
     {
       "slug": "vulgate-philippians",
       "name_zh": "腓立比書（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-psalms",
-      "name_zh": "詩篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -31105,11 +31030,6 @@
       "slug": "some-answered-questions",
       "name_zh": "已答之問（Abdu'l-Bahá）",
       "religion": "巴哈伊"
-    },
-    {
-      "slug": "vulgate-psalms",
-      "name_zh": "詩篇（武加大）",
-      "religion": "基督教"
     }
   ],
   "existence-why-born": [
@@ -32356,11 +32276,6 @@
     {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
-      "religion": "古埃及"
-    },
-    {
-      "slug": "egyptian-heaven-and-hell",
-      "name_zh": "埃及的天堂與地獄",
       "religion": "古埃及"
     },
     {
@@ -34906,11 +34821,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "egyptian-heaven-and-hell",
-      "name_zh": "埃及的天堂與地獄",
-      "religion": "古埃及"
-    },
-    {
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
@@ -35351,6 +35261,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-psalms",
+      "name_zh": "詩篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-revelation",
       "name_zh": "啟示錄（武加大）",
       "religion": "基督教"
@@ -35405,6 +35320,11 @@
     {
       "slug": "an2-twos",
       "name_zh": "AN2 二法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -40473,6 +40393,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "cherokee-sacred-formulas",
+      "name_zh": "切羅基神聖咒文 (Mooney)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chinigchinich",
       "name_zh": "欽尼赤尼赤 (路易塞紐宗教)",
       "religion": "美洲"
@@ -41310,6 +41235,11 @@
     {
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-psalms",
+      "name_zh": "詩篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -42554,6 +42484,11 @@
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
       "religion": "基督教"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
     },
     {
       "slug": "cbeta-T01n0002",
@@ -43839,11 +43774,6 @@
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
-    },
-    {
-      "slug": "egyptian-heaven-and-hell",
-      "name_zh": "埃及的天堂與地獄",
-      "religion": "古埃及"
     },
     {
       "slug": "engishiki-jingi-zh",
@@ -47372,6 +47302,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-psalms",
+      "name_zh": "詩篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
@@ -48507,6 +48442,11 @@
       "slug": "cbeta-X14n0290",
       "name_zh": "楞嚴經直指科文",
       "religion": "佛教"
+    },
+    {
+      "slug": "cherokee-sacred-formulas",
+      "name_zh": "切羅基神聖咒文 (Mooney)",
+      "religion": "美洲"
     },
     {
       "slug": "gheranda-samhita",
@@ -50370,6 +50310,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
+    },
+    {
       "slug": "cbeta-T01n0080",
       "name_zh": "佛為首迦長者說業報差別經",
       "religion": "佛教"
@@ -50493,6 +50438,11 @@
       "slug": "deuteronomy",
       "name_zh": "申命記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "egyptian-heaven-and-hell",
+      "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
     },
     {
       "slug": "ezekiel",
@@ -51194,6 +51144,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cherokee-sacred-formulas",
+      "name_zh": "切羅基神聖咒文 (Mooney)",
+      "religion": "美洲"
+    },
+    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -51279,6 +51234,11 @@
       "slug": "bible-ruth",
       "name_zh": "路得記",
       "religion": "基督教"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
     },
     {
       "slug": "burden-of-isis",
@@ -51666,6 +51626,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "egyptian-heaven-and-hell",
+      "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -52048,6 +52013,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cherokee-sacred-formulas",
+      "name_zh": "切羅基神聖咒文 (Mooney)",
+      "religion": "美洲"
+    },
+    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -52279,6 +52249,11 @@
     {
       "slug": "an11-elevens",
       "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -52525,6 +52500,11 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "book-of-poetry",
+      "name_zh": "詩經",
+      "religion": "儒教"
     },
     {
       "slug": "brahma-sutra",
@@ -55707,6 +55687,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "egyptian-heaven-and-hell",
+      "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -56384,6 +56369,11 @@
     {
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-psalms",
+      "name_zh": "詩篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -57510,6 +57500,11 @@
     {
       "slug": "an11-elevens",
       "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an7-sevens",
+      "name_zh": "AN7 七法集",
       "religion": "佛教"
     },
     {
@@ -59602,6 +59597,11 @@
     {
       "slug": "vulgate-judith",
       "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-psalms",
+      "name_zh": "詩篇（武加大）",
       "religion": "基督教"
     },
     {
