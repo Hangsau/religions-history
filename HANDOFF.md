@@ -20,6 +20,14 @@
     → 經文卡（宗教、語言、年代、兩軸標籤、關鍵字、段落標籤、原文連結）。
   - 動工前照 claudehome 設計規範讀 `DESIGN_SYSTEM.md` 定方向；my-site 改動做完直接 push。
 - 文件對齊：CLAUDE.md／README／PLAN 階段表／11-psychology 待辦／MAP 皆更新到實況。
+- **發現並修正 psych_tags 字母序截斷**：`tag_one` 原本 `sorted(psych)[:5]`，長書各段聯集後按字母取前 5，
+  系統性偏向 a–c 標籤（calling-vocation 1705 部、nihilism-void 5 部；約伯記沒有 meaning-of-suffering、
+  論語／古蘭經沒有 loss-grief）。已改為取最多段落共同標出的 5 個（commit 修正後 HALT 重啟 worker）。
+  第一輪 2902 部與第二輪最早 21 部仍是舊截法，要更正只能重標；網站動工前要決定是否重標。
+- 資料瑕疵（未修）：`quran/01-translation.md` 2:154 被切段標題 `=== 154 | 第二章 ===` 從句中切斷（第 368–369 行）。
+- 網站示範稿（artifact，私人）：https://claude.ai/artifact/BCVHFLZWpQ3yNLgnihTqhi
+  「最愛的人走了」一題六傳統並排（論語、莊子、撒母耳記下、約伯記、佛說四願經、古蘭經，原文逐字取自庫內），
+  含入口、問題頁、經文卡三層與資料問題說明，待使用者看過再定方向。
 
 ---
 
