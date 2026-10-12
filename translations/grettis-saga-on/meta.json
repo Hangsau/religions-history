@@ -88,15 +88,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "c8113c493d25d638afc7ea9c6ac7aa0511a1ae321268e33b463da92735de9f55"
+  },
+  "tagging_models": "MiniMax-M3"
 }

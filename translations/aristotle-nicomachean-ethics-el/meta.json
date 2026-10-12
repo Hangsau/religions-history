@@ -85,15 +85,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation"
+    "calling-vocation",
+    "emotions-passions",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ea7a5558a2c521e3684f6e790c8237bc00d7499108594be8f4826092502e942a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

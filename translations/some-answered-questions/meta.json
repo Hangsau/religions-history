@@ -107,14 +107,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death",
-    "evil-cruelty-empathy"
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2910fd6ce20091c8613aedb8c66604a15ea3334e7d8255615e60852b9196351f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

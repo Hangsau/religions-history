@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation"
+    "calling-vocation",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "loss-grief",
+    "memory-reconciliation"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8287c573719b4cf81c125106c0c5bb1853516f55cc0b814dcb04fcc87d411f12"
+  },
+  "tagging_models": "MiniMax-M3"
 }
