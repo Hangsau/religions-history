@@ -45,15 +45,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
+    "calling-vocation",
     "death",
-    "existence-why-born",
     "meaning-of-suffering",
-    "stillness-rest"
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "fc3a575ca18916fffd71eff3da8fc6d7fbde266bd89be573c1eb1f263e34dadb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

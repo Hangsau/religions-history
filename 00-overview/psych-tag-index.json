@@ -3263,11 +3263,6 @@
       "religion": "諾斯底"
     },
     {
-      "slug": "vaisheshika-sutra",
-      "name_zh": "勝論經",
-      "religion": "印度教"
-    },
-    {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
@@ -4229,11 +4224,6 @@
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
-      "religion": "印度教"
-    },
-    {
-      "slug": "brahma-sutra",
-      "name_zh": "梵經",
       "religion": "印度教"
     },
     {
@@ -9496,11 +9486,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-hebrews",
-      "name_zh": "希伯來書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
       "religion": "基督教"
@@ -9629,6 +9614,11 @@
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
     },
     {
       "slug": "brihadaranyaka-upanishad",
@@ -17586,11 +17576,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-hebrews",
-      "name_zh": "希伯來書（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-isaiah",
       "name_zh": "以賽亞書（武加大）",
       "religion": "基督教"
@@ -21993,11 +21978,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "sn6-brahma",
-      "name_zh": "SN6 梵天相應",
-      "religion": "佛教"
-    },
-    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
@@ -22091,11 +22071,6 @@
       "slug": "tianyinzi",
       "name_zh": "天隱子",
       "religion": "道教"
-    },
-    {
-      "slug": "vaisheshika-sutra",
-      "name_zh": "勝論經",
-      "religion": "印度教"
     },
     {
       "slug": "valmiki-ramayana",
@@ -22991,6 +22966,11 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-hebrews",
+      "name_zh": "希伯來書",
       "religion": "基督教"
     },
     {
@@ -25406,11 +25386,6 @@
     {
       "slug": "vulgate-ezekiel",
       "name_zh": "以西結書（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-hebrews",
-      "name_zh": "希伯來書（武加大）",
       "religion": "基督教"
     },
     {
@@ -32620,6 +32595,11 @@
       "religion": "道教"
     },
     {
+      "slug": "vaisheshika-sutra",
+      "name_zh": "勝論經",
+      "religion": "印度教"
+    },
+    {
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
@@ -33379,11 +33359,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-hebrews",
-      "name_zh": "希伯來書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-isaiah",
       "name_zh": "以賽亞書",
       "religion": "基督教"
@@ -33417,11 +33392,6 @@
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
-    },
-    {
-      "slug": "brahma-sutra",
-      "name_zh": "梵經",
-      "religion": "印度教"
     },
     {
       "slug": "bud-mulamadhyamakakarika-sa",
@@ -37578,11 +37548,6 @@
     {
       "slug": "stotraratna-yamuna",
       "name_zh": "讚寶",
-      "religion": "印度教"
-    },
-    {
-      "slug": "vaisheshika-sutra",
-      "name_zh": "勝論經",
       "religion": "印度教"
     },
     {
@@ -43258,11 +43223,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "sn6-brahma",
-      "name_zh": "SN6 梵天相應",
-      "religion": "佛教"
-    },
-    {
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
@@ -43300,11 +43260,6 @@
     {
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
-      "religion": "印度教"
-    },
-    {
-      "slug": "vaisheshika-sutra",
-      "name_zh": "勝論經",
       "religion": "印度教"
     },
     {
@@ -46143,6 +46098,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-hebrews",
+      "name_zh": "希伯來書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
       "religion": "基督教"
@@ -47853,6 +47813,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
@@ -47890,6 +47855,11 @@
     {
       "slug": "vulgate-galatians",
       "name_zh": "加拉太書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-hebrews",
+      "name_zh": "希伯來書（武加大）",
       "religion": "基督教"
     },
     {
@@ -57052,6 +57022,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn6-brahma",
+      "name_zh": "SN6 梵天相應",
+      "religion": "佛教"
+    },
+    {
       "slug": "sutta-nipata",
       "name_zh": "經集",
       "religion": "佛教"
@@ -57060,6 +57035,11 @@
       "slug": "talmud-berakhot",
       "name_zh": "塔木德·祝福章",
       "religion": "猶太教"
+    },
+    {
+      "slug": "vaisheshika-sutra",
+      "name_zh": "勝論經",
+      "religion": "印度教"
     },
     {
       "slug": "var-bhai-gurdas-1-pa",
@@ -57119,6 +57099,11 @@
     {
       "slug": "vulgate-haggai",
       "name_zh": "哈該書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-hebrews",
+      "name_zh": "希伯來書（武加大）",
       "religion": "基督教"
     },
     {
@@ -58141,11 +58126,6 @@
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
-    },
-    {
-      "slug": "brahma-sutra",
-      "name_zh": "梵經",
-      "religion": "印度教"
     },
     {
       "slug": "brahmabindu-upanishad",
@@ -60097,6 +60077,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
+    },
+    {
       "slug": "brahmabindu-upanishad",
       "name_zh": "梵點奧義書",
       "religion": "印度教"
@@ -61932,6 +61917,11 @@
       "religion": "道教"
     },
     {
+      "slug": "vaisheshika-sutra",
+      "name_zh": "勝論經",
+      "religion": "印度教"
+    },
+    {
       "slug": "vaisheshika-sutra-kanada",
       "name_zh": "勝論經（迦那陀）",
       "religion": "印度教"
@@ -62002,6 +61992,11 @@
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
+    },
+    {
+      "slug": "brahma-sutra",
+      "name_zh": "梵經",
+      "religion": "印度教"
     },
     {
       "slug": "brihadaranyaka-upanishad",
@@ -63066,6 +63061,11 @@
     {
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vaisheshika-sutra",
+      "name_zh": "勝論經",
       "religion": "印度教"
     },
     {

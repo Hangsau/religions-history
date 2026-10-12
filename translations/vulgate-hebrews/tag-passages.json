@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-hebrews",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Pauli Epistola ad Hebraeos",
+   "last_heading": "3 | 第三章",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "messianism",
+    "priesthood",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 第四章 4:1–19a",
+   "last_heading": "5 |",
+   "semantic_tags": [
+    "commandments-law",
+    "messianism",
+    "priesthood",
+    "salvation-by-faith",
+    "synagogue-mosque-style",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 |",
+   "last_heading": "6 | 第八章末至第九章",
+   "semantic_tags": [
+    "commandments-law",
+    "forgiveness",
+    "priesthood",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "7 | 第九章 20–28 節；第十章 1–23 節",
+   "last_heading": "9 | 信德的偉人（續）",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "messianism",
+    "priesthood",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "10 |",
+   "last_heading": "11 | 結語勸勉與祝福",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "priesthood",
+    "sacred-language",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

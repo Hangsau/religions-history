@@ -59,15 +59,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
     "body-mind",
-    "change-transformation",
-    "faith-doubt",
-    "fear-uncertainty"
+    "emotions-passions",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "01426685de64f07cc27e0f641398315aab42b94489801b02d220db6f60a57ddc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
