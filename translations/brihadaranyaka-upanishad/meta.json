@@ -47,16 +47,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d05f069d56146293d72de25080dbf9a5cffff97250c8e9d47f6a75f4fb3bef00"
+  },
+  "tagging_models": "MiniMax-M3"
 }

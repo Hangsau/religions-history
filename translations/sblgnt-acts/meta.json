@@ -82,14 +82,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage",
-    "death"
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "10a6eada6427a8afaa687a2e0abe692c54d9305c0bfad5651921c4be8d914ea8"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -53,16 +53,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
-    "change-transformation",
-    "courage",
     "death",
-    "faith-doubt"
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "9e5e352ec83c39de6407d7b1176f710bc5692e64c10b399fbcc95f9fb55139ec"
+  },
+  "tagging_models": "MiniMax-M3"
 }

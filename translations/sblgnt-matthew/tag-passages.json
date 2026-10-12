@@ -1,0 +1,423 @@
+{
+ "schema_version": 1,
+ "slug": "sblgnt-matthew",
+ "chunks_total": 21,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一章",
+   "last_heading": "2 | 第二章",
+   "semantic_tags": [
+    "lineage-importance",
+    "messianism",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 第三章",
+   "last_heading": "4 | chapter 4",
+   "semantic_tags": [
+    "commandments-law",
+    "fasting",
+    "grace-from-god",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | chapter 5",
+   "last_heading": "5 | chapter 5",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "forgiveness",
+    "golden-rule",
+    "humility",
+    "messianism",
+    "non-violence"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "perfectionism-self-criticism"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "6 | chapter 6",
+   "last_heading": "7 | chapter 7",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "fasting",
+    "golden-rule",
+    "humility",
+    "liberation-by-works",
+    "prayer",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "8 | chapter 8",
+   "last_heading": "9 | chapter 9",
+   "semantic_tags": [
+    "awe-fear",
+    "compassion",
+    "heaven-hell",
+    "mystical-union",
+    "priesthood",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "synagogue-mosque-style"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "10 | chapter 10",
+   "last_heading": "10 | chapter 10",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "inclusive-monotheism",
+    "messianism",
+    "other-power",
+    "prophetic-revelation",
+    "proselytizing",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "11 | chapter 11",
+   "last_heading": "11 | chapter 11",
+   "semantic_tags": [
+    "humility",
+    "liberation-by-devotion",
+    "messianism",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "stillness-rest",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "12 | chapter 12",
+   "last_heading": "12 | chapter 12",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "messianism",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "ritual-practice",
+    "synagogue-mosque-style",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "13 | chapter 13",
+   "last_heading": "13 | chapter 13",
+   "semantic_tags": [
+    "apocalypse",
+    "essentially-good",
+    "messianism",
+    "other-power",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "14 | chapter 14",
+   "last_heading": "15 | chapter 15",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "forgiveness",
+    "prayer",
+    "prophetic-critique",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "16 | chapter 16",
+   "last_heading": "17 | chapter 17",
+   "semantic_tags": [
+    "commandments-law",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "truthfulness",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "18 | chapter 18",
+   "last_heading": "20 | chapter 20",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "forgiveness",
+    "humility",
+    "liberation-by-devotion",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "21 | chapter 21",
+   "last_heading": "21 | chapter 21",
+   "semantic_tags": [
+    "commandments-law",
+    "messianism",
+    "prayer",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "existence-why-born",
+    "faith-doubt",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "22 | chapter 22",
+   "last_heading": "22 | chapter 22",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "messianism",
+    "other-power",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "synagogue-mosque-style",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "23 | chapter 23",
+   "last_heading": "23 | chapter 23",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "humility",
+    "priesthood",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "synagogue-mosque-style"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "24 | chapter 24",
+   "last_heading": "24 | chapter 24",
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "living-with-unknown",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "25 | chapter 25",
+   "last_heading": "25 | chapter 25",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "heaven-hell",
+    "messianism",
+    "ultimate-reality",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "26 | chapter 26",
+   "last_heading": "26 | chapter 26",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "compassion",
+    "forgiveness",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "forgiveness",
+    "other-power",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "27 | chapter 27",
+   "last_heading": "27 | chapter 27",
+   "semantic_tags": [
+    "messianism",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "28 | chapter 28",
+   "last_heading": "28 | chapter 28",
+   "semantic_tags": [
+    "commandments-law",
+    "mandate-of-heaven",
+    "messianism",
+    "proselytizing",
+    "salvation-by-faith",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  }
+ ]
+}
