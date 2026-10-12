@@ -1,0 +1,1012 @@
+{
+ "schema_version": 1,
+ "slug": "laxdaela-saga-on",
+ "chunks_total": 61,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | kafli",
+   "last_heading": "4 | 章",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | kafli",
+   "last_heading": "7 | 章",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | Ólafur feilan 之繼承與 Þorgerður 赴挪威",
+   "last_heading": "8 | kafli",
+   "semantic_tags": [
+    "ancestor-worship",
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | kafli",
+   "last_heading": "11 | kafli",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "insignificance-history",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "12 | 章",
+   "last_heading": "13 | 第十三章",
+   "semantic_tags": [
+    "marriage-sacred",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "marriage-family",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "17 |",
+   "last_heading": "17 |",
+   "semantic_tags": [
+    "marriage-sacred",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | kafli",
+   "last_heading": "20 | 第二十章",
+   "semantic_tags": [
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "15 | kafli",
+   "last_heading": "15 | kafli",
+   "semantic_tags": [],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "16 | kafli",
+   "last_heading": "17 | kafli",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "18 | kafli",
+   "last_heading": "27 |",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "19 | kafli",
+   "last_heading": "29 | 霍斯庫爾德與赫魯特和解",
+   "semantic_tags": [
+    "accept-fate",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "30 | Hrútur 安居",
+   "last_heading": "32 |",
+   "semantic_tags": [
+    "marriage-sacred",
+    "patriarchal",
+    "pilgrimage",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "21 | kafli",
+   "last_heading": "34 | 抵達愛爾蘭",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "35 | Óláfr 於愛爾蘭會見 Mýrkjartan 國王",
+   "last_heading": "36 | 奧拉夫獲認親並辭讓王位",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "lineage-importance"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "22 | kafli",
+   "last_heading": "39 | Höskuldur 議親，前往 Alþingi",
+   "semantic_tags": [
+    "marriage-sacred",
+    "oral-tradition",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "23 | 章",
+   "last_heading": "41 | 第二十三章",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "24 | kafli",
+   "last_heading": "43 | Ólafur 在 Hjarðarholt 首冬並 Hrappur 事",
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "25 | kafli",
+   "last_heading": "46 | 第四十六段",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "giving-generosity"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "27 | kafli",
+   "last_heading": "28 | 章",
+   "semantic_tags": [
+    "ancestor-worship",
+    "lineage-importance",
+    "marriage-sacred",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "29 | kafli",
+   "last_heading": "50 |",
+   "semantic_tags": [
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "giving-generosity",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "30 | 章",
+   "last_heading": "31 | kafli",
+   "semantic_tags": [
+    "divine-immanence",
+    "marriage-sacred",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "32 | kafli",
+   "last_heading": "32 | kafli",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "marriage-family",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "33 | 章",
+   "last_heading": "57 | 蓋斯托爾拜訪奧拉夫",
+   "semantic_tags": [
+    "mystical-union",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "34 | kafli",
+   "last_heading": "35 | kafli",
+   "semantic_tags": [
+    "marriage-sacred",
+    "patriarchal",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "gender-body",
+    "guilt-atonement",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "61 | Kotkell 巫法害 Þórðr",
+   "last_heading": "36 | 章",
+   "semantic_tags": [
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "37 | 章",
+   "last_heading": "64 | 埃爾德格里姆之死",
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "65",
+   "last_heading": "38 | kafli",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loneliness-belonging",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "67 | 第六十七段",
+   "last_heading": "39 | 章",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "divine-kingship",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "loss-grief",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "40 | kafli",
+   "last_heading": "70 | 第七十段",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "faith-doubt",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "71 | Kjartan 與國王之會",
+   "last_heading": "72 | 國王議會",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "theocracy",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "73 | 第七十三段",
+   "last_heading": "76 | Bolli 道別 Kjartan",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "proselytizing",
+    "salvation-by-faith",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "42 | kafli",
+   "last_heading": "43 | kafli",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "79 | Kjartan 離開挪威",
+   "last_heading": "44 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "82 | 第八十二段",
+   "last_heading": "84 | 第八十四段",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "prayer",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "46 | kafli",
+   "last_heading": "87 | Kjartan 與 Bolli 爭執",
+   "semantic_tags": [],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "47 | kafli",
+   "last_heading": "90 |",
+   "semantic_tags": [
+    "commandments-law"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "48 | kafli",
+   "last_heading": "92 | 第九十二段",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "49 | 第四十九章",
+   "last_heading": "94 | 第九十四段",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "95 |",
+   "last_heading": "51 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "52 | 章",
+   "last_heading": "53 | kafli",
+   "semantic_tags": [
+    "essentially-good"
+   ],
+   "psych_tags": [
+    "death",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "54 | kafli",
+   "last_heading": "55 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "102 | 拉克斯達拉薩迦",
+   "last_heading": "57 | kafli",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "105 | 遠赴曠野",
+   "last_heading": "107 | 第107段",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "59 | kafli",
+   "last_heading": "59 | kafli",
+   "semantic_tags": [
+    "against-idolatry",
+    "lineage-importance",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "loneliness-belonging",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "60 | kafli",
+   "last_heading": "113 | Þorgils 與同伴約定行程",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "62 | kafli",
+   "last_heading": "63 | kafli",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "117 | Helgi 識眾人",
+   "last_heading": "120 | 第 120 段",
+   "semantic_tags": [
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "65 | kafli",
+   "last_heading": "66 | kafli",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "67 | 第六十七章",
+   "last_heading": "126",
+   "semantic_tags": [
+    "priesthood",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "69 | kafli",
+   "last_heading": "70 | kafli",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "marriage-family",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "130 | Bolli 的婚事",
+   "last_heading": "71 | kafli",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "marriage-family",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "132 | 和解",
+   "last_heading": "135 | 第135段",
+   "semantic_tags": [
+    "accept-fate",
+    "compassion",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "74 | kafli",
+   "last_heading": "75 | kafli",
+   "semantic_tags": [
+    "divine-kingship",
+    "secular-state",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "139 | Halldór 與 Þorsteinn 的爭地之爭",
+   "last_heading": "141 | Guðrún 與 Herdís",
+   "semantic_tags": [
+    "ancestor-worship",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "77 | kafli",
+   "last_heading": "79 | kafli",
+   "semantic_tags": [
+    "lineage-importance",
+    "pilgrimage",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "80 | kafli",
+   "last_heading": "81 | kafli",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "82 | kafli",
+   "last_heading": "147 | 第 147 段",
+   "semantic_tags": [
+    "commandments-law",
+    "evil-as-deception",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "81 | kafli",
+   "last_heading": "83 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "84 | kafli",
+   "last_heading": "85 | 第八十五章",
+   "semantic_tags": [],
+   "psych_tags": [
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "153 | Helgi 與 Bolli 的爭訟",
+   "last_heading": "86 | kafli",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "secular-state",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "87 | 章",
+   "last_heading": "89 | kafli",
+   "semantic_tags": [
+    "marriage-sacred",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  }
+ ]
+}

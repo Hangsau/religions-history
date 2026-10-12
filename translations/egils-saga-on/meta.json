@@ -77,15 +77,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "b4f6a912c7858028787cf43ad86b8a7a10735a05ee0cb061643b7719fd10ceee"
+  },
+  "tagging_models": "MiniMax-M3"
 }
