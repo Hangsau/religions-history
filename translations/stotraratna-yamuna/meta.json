@@ -19,5 +19,61 @@
   "tier": "次要",
   "notes": "耶牟那阿闍梨（Yāmunācārya）著 Śrī Vaiṣṇava 讚頌，羅摩奴闍思想先驅",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "celibate-tradition",
+    "commentarial-layer",
+    "compassion",
+    "cosmic-egg",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "enlightenment",
+    "grace-from-god",
+    "humility",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "sacred-language",
+    "sin-as-disobedience",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "Yamuna",
+    "Nāthamuni",
+    "Nammālvār",
+    "Āḻvār",
+    "Parāśara",
+    "Vyāsa",
+    "acyuta-bhakti",
+    "tattva-jñāna",
+    "bhakti-yoga",
+    "śaraṇaṃ",
+    "caturmukha",
+    "veda",
+    "praṇāma",
+    "muni",
+    "Nārāyaṇa"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "1097cd6f1ec4b6cd3fc3af278bd861e6b28cb53fdb6dc54cb0c97794bb59d7d6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
