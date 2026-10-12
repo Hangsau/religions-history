@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
-    "courage",
-    "death",
-    "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "memory-reconciliation",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "e6dd27c2188e1dd1659d2447e37264a58de93defa472b5e49898bfc1984a4e39"
+  },
+  "tagging_models": "MiniMax-M3"
 }

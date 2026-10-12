@@ -76,15 +76,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "communication-being-understood",
-    "courage",
     "death",
-    "dreams-unconscious"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "1f86f93e7f43d88c898791cad4dd7c4afad5412791cfe5220928c47eb42f0290"
+  },
+  "tagging_models": "MiniMax-M3"
 }

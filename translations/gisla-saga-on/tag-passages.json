@@ -1,0 +1,320 @@
+{
+ "schema_version": 1,
+ "slug": "gisla-saga-on",
+ "chunks_total": 19,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Gísla saga Súrssonar",
+   "last_heading": "2 | Bárðr 之死與決鬥之約",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 縱火與殺人",
+   "last_heading": "5 | Súrssonr 兄弟的娶妻與 Þórdís 的出嫁",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | Gestr 的預言與結義兄弟之約",
+   "last_heading": "7 | 第七章（續）",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 第八章 | Af Gísli ok Vésteini",
+   "last_heading": "8 | 第八段",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | 第十章 索爾克之子們拆夥",
+   "last_heading": "12 | Vésteinn 騎馬赴 Haukadalr",
+   "semantic_tags": [
+    "against-idolatry",
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "10 | Vésteinn 返鄉之行",
+   "last_heading": "13 | Víg Vésteins",
+   "semantic_tags": [
+    "accept-fate",
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | Vésteinn heygðr",
+   "last_heading": "16 | 祕殺 Þorgrímr goði",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "17 | 索爾格林姆下葬",
+   "last_heading": "18 | 再論打球之戲",
+   "semantic_tags": [
+    "feminine-divine",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "17 | 詩的破解、雪崩與 Börkr 之行",
+   "last_heading": "18 | 第二十章 Gísli 前往 Geirþjófsfjörðr",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "19 | 第十九段",
+   "last_heading": "22 | Af draumum Gísla — 伯爾克差人查探",
+   "semantic_tags": [
+    "accept-fate",
+    "other-power",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "1 | 夢境揭示與詩歌",
+   "last_heading": "2 | 與蓋斯爾之母同住",
+   "semantic_tags": [
+    "ancestor-worship",
+    "awe-fear",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "23 | Gísli 藏身 Hergilsey",
+   "last_heading": "25 | 雷弗莊主藏匿基斯利",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "26 | a",
+   "last_heading": "28 | Þorkell Súrsson（索爾克爾·敘爾松）之被殺",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "28 |",
+   "last_heading": "29 |",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "29 | 夢中女子的預言",
+   "last_heading": "32 | Auðr 令 Eyjólfr 蒙羞",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "goddess-tradition",
+    "other-power",
+    "polytheist",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "33 | Enn af draumum Gísla",
+   "last_heading": "34 | 艾約爾弗找到 Gísli",
+   "semantic_tags": [
+    "accept-fate",
+    "other-power",
+    "sin-as-disobedience",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "34 | 懸崖之戰",
+   "last_heading": "35 | Gísli 之死",
+   "semantic_tags": [
+    "accept-fate",
+    "essentially-good"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "37 | 註腳（Fotnoter）",
+   "last_heading": "7 | 第七節",
+   "semantic_tags": [
+    "accept-fate",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "39 | Gísli 之夢 / Auðr 之預示",
+   "last_heading": "41 | 尾段",
+   "semantic_tags": [
+    "accept-fate",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "memory-reconciliation"
+   ]
+  }
+ ]
+}
