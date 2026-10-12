@@ -52,15 +52,16 @@
   "genre": "philosophy-doctrine",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
+    "addiction-self-destruction",
     "body-mind",
-    "change-transformation",
-    "dreams-unconscious",
-    "emotions-passions",
-    "faith-doubt"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "61f5a48b53aeae1aba428898d40eb61b9d1d08f5f31fd63e0f4fda6a4074fac5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

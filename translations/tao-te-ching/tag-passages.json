@@ -1,0 +1,71 @@
+{
+ "schema_version": 1,
+ "slug": "tao-te-ching",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 1",
+   "last_heading": "29 | 29",
+   "semantic_tags": [
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "humility",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "30 | 30",
+   "last_heading": "59 | 59",
+   "semantic_tags": [
+    "divine-immanence",
+    "enlightenment",
+    "humility",
+    "meditation",
+    "non-violence",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "insignificance-history",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "60 | 60",
+   "last_heading": "81 | 81",
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "non-dual",
+    "non-violence",
+    "secular-state",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

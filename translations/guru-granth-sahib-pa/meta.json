@@ -66,15 +66,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "death",
+    "calling-vocation",
     "existence-why-born",
-    "faith-doubt",
-    "fear-uncertainty"
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "40918c59a8fb34d4cfa57e45ea6032329a12cbc789f08562b0c3c5c68c5ec014"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -62,15 +62,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "courage",
+    "calling-vocation",
     "death",
-    "fear-uncertainty",
-    "freewill-fate-choice",
-    "hope-reason-to-live"
+    "hope-reason-to-live",
+    "insignificance-history",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "14bd08a2412874e7c483faaa05fdf0b9372516bddc84610d73682d335f6137a1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

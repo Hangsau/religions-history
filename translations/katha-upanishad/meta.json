@@ -59,16 +59,17 @@
   "era": "axial-age",
   "genre": "philosophy-doctrine",
   "psych_tags": [
-    "body-mind",
     "death",
-    "existence-why-born",
-    "fear-uncertainty",
-    "living-with-unknown"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d201a206060c5df4c8373c6ea4a039aadb66de7df921fc1640af71cd6976e086"
+  },
+  "tagging_models": "MiniMax-M3"
 }

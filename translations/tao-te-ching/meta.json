@@ -54,15 +54,16 @@
   "tag_status": "done",
   "psych_tags": [
     "change-transformation",
-    "courage",
-    "death",
-    "justice-power",
-    "living-with-unknown"
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2dfb74d4c60168c3a3ae4d494575b4013813e1944cfd657989198be3f79349ad"
+  },
+  "tagging_models": "MiniMax-M3"
 }

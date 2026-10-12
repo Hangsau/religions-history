@@ -1,0 +1,87 @@
+{
+ "schema_version": 1,
+ "slug": "yoga-sutra",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | yogasutu | Sāmādhi Pāda（第一品 三摩地）",
+   "last_heading": "1.36 | 第一品：三摩地品",
+   "semantic_tags": [
+    "breath-control",
+    "chanting",
+    "commentarial-layer",
+    "compassion",
+    "extinction-of-self",
+    "meditation",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "1.37 | 第一品：三摩地品",
+   "last_heading": "2.19 | 第二品：修行品",
+   "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "1 | 第二品 Sādhana-pāda（續）— 2.19 至 2.55",
+   "last_heading": "4 | Kaivalya-pāda（獨存章）",
+   "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "4 | 獨離品（Kaivalya Pāda）",
+   "last_heading": "6 | 校勘記",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  }
+ ]
+}
