@@ -62,13 +62,14 @@
   "psych_tags": [
     "body-mind",
     "death",
-    "emotions-passions",
-    "faith-doubt",
-    "freewill-fate-choice"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "aadb1b954a8e53f840051f72ef10597d9f21140398e32272354a9897d1a0f3e5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

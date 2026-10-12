@@ -53,16 +53,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
     "death",
-    "emotions-passions"
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2efed55f3c3fd8812fc7ab2161a9b8084c3fcdecbc02f2ed6f333434daa96ef4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

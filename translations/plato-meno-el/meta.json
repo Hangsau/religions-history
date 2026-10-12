@@ -65,14 +65,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage",
-    "death"
+    "honesty-hypocrisy",
+    "perfectionism-self-criticism",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "3c54c7db477043ee7e857d04117947f3e9f7b08cc6475c7b68a51812096d7fda"
+  },
+  "tagging_models": "MiniMax-M3"
 }
