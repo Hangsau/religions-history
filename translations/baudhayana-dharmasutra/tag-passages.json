@@ -1,0 +1,613 @@
+{
+ "schema_version": 1,
+ "slug": "baudhayana-dharmasutra",
+ "chunks_total": 33,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | sa_baudhAyanadharmasUtra",
+   "last_heading": "1 | 1.2.3.35–47 對師與親屬之禮節",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "lineage-importance",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | 1.2.4.1–8 梵行與吠陀學習",
+   "last_heading": "2 | 水鉢（kamaṇḍalu）行法",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "celibate-tradition",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "1 | 1.4.7 水瓶續",
+   "last_heading": "6 | 第五問 第八至九節 淨法",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caste-system",
+    "commandments-law",
+    "commentarial-layer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "1 | 第一章第五節第十項（續）",
+   "last_heading": "1 | 1.5.11.25-41",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caste-system",
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "2 | 1.5.12",
+   "last_heading": "10 | 衣物、器皿、地面之淨法",
+   "semantic_tags": [
+    "commandments-law",
+    "dietary-restrictions",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "tabula-rasa"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "11 | 灑淨、祭官方位與四姓婚配（1.6.14.13–1.8.16.8）",
+   "last_heading": "14 | 1.9.17.1–15",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "ingroup-outgroup-prejudice",
+    "marriage-family",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "15 | 1.10.18.1–16",
+   "last_heading": "20 | 第二十章",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "marriage-sacred",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "21 | 第二十一章",
+   "last_heading": "1 | 遺精之祭",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "fasting",
+    "lineage-importance",
+    "marriage-sacred",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "2 | 與同族女行",
+   "last_heading": "Baudh 2.2.3.3",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "Baudh 2.2.3.4",
+   "last_heading": "Baudh 2.2.3.6",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caste-system",
+    "commandments-law",
+    "lineage-importance",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "marriage-family",
+    "parenthood",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "19 | 婦女守護、刑罰與不可接近者",
+   "last_heading": "2 | 2.3.5.18 飯食偈",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caste-system",
+    "commandments-law",
+    "marriage-sacred",
+    "patriarchal",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gender-body",
+    "guilt-atonement",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "3 | 2.3.5.19–21 分施對象與食法",
+   "last_heading": "9 | Baudh2.5.8.1 — 洗手往渡口",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "dietary-restrictions",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "10 | Baudh2.5.8.2 — 禁入之處",
+   "last_heading": "18 | Baudh2.5.8.10 — 出水再飲水偈",
+   "semantic_tags": [
+    "commandments-law",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "24 | Baudh 2.5.8.12 — 2.5.9.6 晨間禮敬結尾及五門供奉",
+   "last_heading": "24 | Baudh 2.5.8.12 — 2.5.9.6 晨間禮敬結尾及五門供奉",
+   "semantic_tags": [
+    "commandments-law",
+    "cosmic-egg",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "25 | Baudh 9.6-3 至 9.11 諸天供養",
+   "last_heading": "25 | Baudh 9.6-3 至 9.11 諸天供養",
+   "semantic_tags": [
+    "chanting",
+    "feminine-divine",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "1 | 2.5.9.12",
+   "last_heading": "2 | Baudh2.5.10.3",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chanting",
+    "lineage-importance",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "3 | Baudh2.5.10.4",
+   "last_heading": "21 | Baudh2.6.11.16",
+   "semantic_tags": [
+    "ancestor-worship",
+    "asceticism",
+    "celibate-tradition",
+    "mandate-of-heaven",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "28 | 遊行戒律、四住期論、與 prāṇa-āhuti 之始",
+   "last_heading": "1 | Baudh 2.7.13.9–13",
+   "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "2 | Baudh 2.8.14",
+   "last_heading": "3 | 第二冊第十章第十七節：捨俗之儀",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caste-system",
+    "lineage-importance",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "32 | 第十章 17 節後半",
+   "last_heading": "32 | 第十章 17 節後半",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "chanting",
+    "fasting",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "33 | Baudh 2.10.17.33 – 2.10.18.11",
+   "last_heading": "33 | Baudh 2.10.17.33 – 2.10.18.11",
+   "semantic_tags": [
+    "ancestor-worship",
+    "celibate-tradition",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "prayer",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "gratitude-contentment",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "34 | 牟尼戒與乞食九式（卷二 §18 末─卷三 §1 初）",
+   "last_heading": "Baudh3.1.20 | 撒穀",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "commentarial-layer",
+    "fasting",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "patience-waiting",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "Baudh3.1.21 | 三事皆止",
+   "last_heading": "Baudh3.2.8 | 護我行偈",
+   "semantic_tags": [
+    "celibate-tradition",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "36 | 第三卷 第二章後半至第三章前半",
+   "last_heading": "36 | 第三卷 第二章後半至第三章前半",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "commentarial-layer",
+    "fasting",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "38 | Baudhāyana Dharmasūtra 3.5.6–3.7.5",
+   "last_heading": "3.8.7 | 祭儀開端",
+   "semantic_tags": [
+    "caste-system",
+    "celibate-tradition",
+    "commandments-law",
+    "fasting",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "3.8.8 | 逐日供祭",
+   "last_heading": "Baudh3.9 | 第三書·九",
+   "semantic_tags": [
+    "asceticism",
+    "chanting",
+    "fasting",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "41 | 第三卷 9.6 — 10.12 學習累積與贖罪",
+   "last_heading": "4.1.8",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "commandments-law",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "4.1.9",
+   "last_heading": "4.2 | 補過法初（4.2.1–10）",
+   "semantic_tags": [
+    "breath-control",
+    "commandments-law",
+    "marriage-sacred",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "44 | Baudh4.2.10–4.3.8",
+   "last_heading": "第四卷第五章 | kṛcchra 苦行",
+   "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "divine-immanence",
+    "fasting",
+    "polytheist",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "46 | Baudh 4.5.13–4.6.2",
+   "last_heading": "22 | Baudh4.7.2cd",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "commandments-law",
+    "fasting",
+    "liberation-by-works",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "23 | Baudh4.7.3ab",
+   "last_heading": "45 | Baudh4.8.4ab",
+   "semantic_tags": [
+    "chanting",
+    "fasting",
+    "liberation-by-works",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "48 | 第四書 第八章 末段 終偈",
+   "last_heading": "48 | 第四書 第八章 末段 終偈",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "heaven-hell",
+    "liberation-by-works",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

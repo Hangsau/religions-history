@@ -72,15 +72,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "calling-vocation",
-    "change-transformation",
-    "death",
-    "existence-why-born"
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0f019ca4091b9d91acb7418caddf4b4d61a2e21d48ac5e8ff670d66104f7b43f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

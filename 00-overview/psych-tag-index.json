@@ -2078,11 +2078,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "bud-ratnagotravibhaga-sa",
-      "name_zh": "寶性論（梵文）",
-      "religion": "佛教"
-    },
-    {
       "slug": "bud-saddharmapundarika-sa",
       "name_zh": "妙法蓮華經（梵文）",
       "religion": "佛教"
@@ -3685,11 +3680,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-phaedo-el",
-      "name_zh": "斐多篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
       "religion": "古希臘羅馬"
@@ -3910,6 +3900,11 @@
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
       "religion": "道教"
+    },
+    {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
     },
     {
       "slug": "bhagavata-purana",
@@ -6132,11 +6127,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-phaedo-el",
-      "name_zh": "斐多篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -6457,11 +6447,6 @@
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
       "religion": "道教"
-    },
-    {
-      "slug": "baudhayana-dharmasutra",
-      "name_zh": "包達耶那法經",
-      "religion": "印度教"
     },
     {
       "slug": "bhagavata-purana",
@@ -8946,11 +8931,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-isaiah",
-      "name_zh": "以賽亞書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-jeremiah",
       "name_zh": "耶利米書",
       "religion": "基督教"
@@ -9068,11 +9048,6 @@
     {
       "slug": "bud-lankavatara-sa",
       "name_zh": "楞伽經（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-ratnagotravibhaga-sa",
-      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -16106,11 +16081,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "isaiah",
-      "name_zh": "以賽亞書",
-      "religion": "猶太教"
-    },
-    {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
@@ -16448,11 +16418,6 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "plato-phaedo-el",
-      "name_zh": "斐多篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -17168,18 +17133,8 @@
       "religion": "佛教"
     },
     {
-      "slug": "baudhayana-dharmasutra",
-      "name_zh": "包達耶那法經",
-      "religion": "印度教"
-    },
-    {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-isaiah",
-      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -17225,11 +17180,6 @@
     {
       "slug": "bud-madhyantavibhaga-sa",
       "name_zh": "辯中邊論頌（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-ratnagotravibhaga-sa",
-      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -20918,11 +20868,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "plato-phaedo-el",
-      "name_zh": "斐多篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plotinus-enneads-el",
       "name_zh": "九章集（希臘原文）",
       "religion": "古希臘羅馬"
@@ -23804,11 +23749,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-phaedo-el",
-      "name_zh": "斐多篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
@@ -24136,11 +24076,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-isaiah",
-      "name_zh": "以賽亞書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-jeremiah",
       "name_zh": "耶利米書",
       "religion": "基督教"
@@ -24223,11 +24158,6 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-ratnagotravibhaga-sa",
-      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -29346,11 +29276,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "isaiah",
-      "name_zh": "以賽亞書",
-      "religion": "猶太教"
-    },
-    {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
@@ -29563,6 +29488,11 @@
     {
       "slug": "plato-crito-el",
       "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedo-el",
+      "name_zh": "斐多篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -31419,18 +31349,8 @@
       "religion": "瑣羅亞斯德"
     },
     {
-      "slug": "baudhayana-dharmasutra",
-      "name_zh": "包達耶那法經",
-      "religion": "印度教"
-    },
-    {
       "slug": "bible-genesis",
       "name_zh": "創世記",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-isaiah",
-      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -31456,11 +31376,6 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
-      "religion": "佛教"
-    },
-    {
-      "slug": "bud-ratnagotravibhaga-sa",
-      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -35286,11 +35201,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "isaiah",
-      "name_zh": "以賽亞書",
-      "religion": "猶太教"
-    },
-    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -35888,6 +35798,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-job",
       "name_zh": "約伯記",
       "religion": "基督教"
@@ -35985,6 +35900,11 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -41188,6 +41108,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedo-el",
+      "name_zh": "斐多篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-phaedrus-el",
       "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -42737,11 +42662,6 @@
       "slug": "cbeta-X02n0202",
       "name_zh": "佛說大如意寶珠輪牛王守護神咒經",
       "religion": "佛教"
-    },
-    {
-      "slug": "isaiah",
-      "name_zh": "以賽亞書",
-      "religion": "猶太教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -44318,6 +44238,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "beidou-yansheng-jing",
       "name_zh": "太上玄靈北斗本命延生真經",
       "religion": "道教"
@@ -44380,6 +44305,11 @@
     {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -46048,6 +45978,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "kings-1",
       "name_zh": "列王紀上",
       "religion": "猶太教"
@@ -46684,6 +46619,11 @@
     {
       "slug": "bible-habakkuk",
       "name_zh": "哈巴谷書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -47465,6 +47405,11 @@
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
     },
     {
       "slug": "joel",
@@ -49083,6 +49028,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-yuktisastika-sa",
       "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
@@ -50391,6 +50341,11 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
     },
     {
       "slug": "isha-upanishad",
@@ -52492,6 +52447,11 @@
       "religion": "阿茲特克"
     },
     {
+      "slug": "baudhayana-dharmasutra",
+      "name_zh": "包達耶那法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "bhagavad-gita",
       "name_zh": "薄伽梵歌",
       "religion": "印度教"
@@ -52579,6 +52539,11 @@
     {
       "slug": "bible-hosea",
       "name_zh": "何西阿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-isaiah",
+      "name_zh": "以賽亞書",
       "religion": "基督教"
     },
     {
@@ -52719,6 +52684,11 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -55942,6 +55912,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "isaiah",
+      "name_zh": "以賽亞書",
+      "religion": "猶太教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -56060,6 +56035,11 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "plato-phaedo-el",
+      "name_zh": "斐多篇（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-republic-el",
@@ -59802,6 +59782,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
@@ -61577,6 +61562,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-phaedo-el",
+      "name_zh": "斐多篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-phaedrus-el",
       "name_zh": "斐德羅篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -61901,6 +61891,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnagotravibhaga-sa",
+      "name_zh": "寶性論（梵文）",
       "religion": "佛教"
     },
     {
@@ -62926,6 +62921,11 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-phaedo-el",
+      "name_zh": "斐多篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {

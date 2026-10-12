@@ -55,15 +55,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
-    "death",
-    "faith-doubt",
     "fear-uncertainty",
-    "giving-generosity"
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "e1bf750ef5bb1a066756c82e8126f199ca0133d4d6f307c9a737cf33a0e02c2c"
+  },
+  "tagging_models": "MiniMax-M3"
 }
