@@ -52,15 +52,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
+    "calling-vocation",
     "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "emotions-passions",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ef68ccef1f298fc374a359af02cdce6fa70a9aff540e68a890a8588e994030cf"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -80,15 +80,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "fbec0df84e8b8062ec58b7dbbb360b7a96265071bf28852eab7b47357dc86662"
+  },
+  "tagging_models": "MiniMax-M3"
 }

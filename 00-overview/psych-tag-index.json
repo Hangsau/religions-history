@@ -6,11 +6,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "an1-ones",
-      "name_zh": "AN1 一法集 (~575 經)",
-      "religion": "佛教"
-    },
-    {
       "slug": "an10-tens",
       "name_zh": "AN10 十法集",
       "religion": "佛教"
@@ -1976,11 +1971,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "vulgate-matthew",
-      "name_zh": "馬太福音（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
@@ -3770,11 +3760,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-symposium-el",
-      "name_zh": "會飲篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -3920,11 +3905,6 @@
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
       "religion": "印度教"
-    },
-    {
-      "slug": "an1-ones",
-      "name_zh": "AN1 一法集 (~575 經)",
-      "religion": "佛教"
     },
     {
       "slug": "an10-tens",
@@ -8919,6 +8899,11 @@
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
       "religion": "印度教"
+    },
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
     },
     {
       "slug": "an10-tens",
@@ -17448,11 +17433,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-matthew",
-      "name_zh": "馬太福音",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-psalms",
       "name_zh": "詩篇",
       "religion": "基督教"
@@ -21233,11 +21213,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-symposium-el",
-      "name_zh": "會飲篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -21550,11 +21525,6 @@
     {
       "slug": "vulgate-luke",
       "name_zh": "路加福音（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-matthew",
-      "name_zh": "馬太福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -22173,11 +22143,6 @@
     }
   ],
   "courage": [
-    {
-      "slug": "an1-ones",
-      "name_zh": "AN1 一法集 (~575 經)",
-      "religion": "佛教"
-    },
     {
       "slug": "an8-eights",
       "name_zh": "AN8 八法集",
@@ -24304,11 +24269,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "plato-symposium-el",
-      "name_zh": "會飲篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
@@ -24501,11 +24461,6 @@
     {
       "slug": "vulgate-luke",
       "name_zh": "路加福音（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-matthew",
-      "name_zh": "馬太福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -24748,11 +24703,6 @@
     {
       "slug": "bible-mark",
       "name_zh": "馬可福音",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-matthew",
-      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -30071,11 +30021,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "mahayanasamgraha",
-      "name_zh": "攝大乘論",
-      "religion": "佛教"
-    },
-    {
       "slug": "mandukya-karika",
       "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
@@ -30163,11 +30108,6 @@
     {
       "slug": "plato-crito-el",
       "name_zh": "克里同篇（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "plato-symposium-el",
-      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -30782,6 +30722,11 @@
     {
       "slug": "abhidharmakosa",
       "name_zh": "阿毘達磨俱舍論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
     },
     {
@@ -31525,11 +31470,6 @@
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
-    },
-    {
-      "slug": "bible-matthew",
-      "name_zh": "馬太福音",
-      "religion": "基督教"
     },
     {
       "slug": "book-of-am-tuat",
@@ -33422,11 +33362,6 @@
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
-    },
-    {
-      "slug": "mahayanasamgraha",
-      "name_zh": "攝大乘論",
-      "religion": "佛教"
     },
     {
       "slug": "mandukya-upanishad",
@@ -36061,11 +35996,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "mahayanasamgraha",
-      "name_zh": "攝大乘論",
-      "religion": "佛教"
-    },
-    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -36396,6 +36326,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-matthew",
+      "name_zh": "馬太福音（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-micah",
       "name_zh": "彌迦書（武加大）",
       "religion": "基督教"
@@ -36600,6 +36535,11 @@
     {
       "slug": "bible-mark",
       "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -41828,6 +41768,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "poetic-edda-on",
       "name_zh": "詩體埃達（古諾斯語原文）",
       "religion": "北歐"
@@ -42140,6 +42085,11 @@
     {
       "slug": "vulgate-mark",
       "name_zh": "馬可福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-matthew",
+      "name_zh": "馬太福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -44920,6 +44870,11 @@
     {
       "slug": "bible-malachi",
       "name_zh": "瑪拉基書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -52608,6 +52563,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -52949,6 +52909,11 @@
     {
       "slug": "bible-mark",
       "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-matthew",
+      "name_zh": "馬太福音",
       "religion": "基督教"
     },
     {
@@ -56292,6 +56257,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
@@ -56674,6 +56644,11 @@
     {
       "slug": "vulgate-mark",
       "name_zh": "馬可福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-matthew",
+      "name_zh": "馬太福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -57765,6 +57740,11 @@
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "an1-ones",
+      "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
     },
     {
@@ -61627,6 +61607,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "mandukya-karika",
       "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
@@ -61669,6 +61654,11 @@
     {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -62944,6 +62934,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "mahayanasamgraha",
+      "name_zh": "攝大乘論",
+      "religion": "佛教"
+    },
+    {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
       "religion": "印度教"
@@ -62966,6 +62961,11 @@
     {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-symposium-el",
+      "name_zh": "會飲篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
