@@ -19,5 +19,50 @@
   "tier": "次要",
   "notes": "世親唯識二十論；漢譯《唯識二十論》",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "reincarnation",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "vijñaptimātra",
+    "vijñāna",
+    "cittamātra",
+    "citta",
+    "maha-yan-a",
+    "traidhātuka",
+    "vasubandhu",
+    "svapna",
+    "taimirika",
+    "pūyanadī",
+    "naraka",
+    "śūnyatā",
+    "paramārtha",
+    "āśraya",
+    "vijñapti"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "6d0dcbf9fc062411ea524c5aa17e24104e975edf068a5b9af023f1cb035aa2b9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -19,5 +19,60 @@
   "tier": "次要",
   "notes": "普世傳誦的濕婆讚歌，傳為健闥婆（Puṣpadanta）作",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "awe-fear",
+    "chanting",
+    "compassion",
+    "cosmic-egg",
+    "creator-deity",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "forgiveness",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "meditation",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Mahimna Stava",
+    "Shiva",
+    "Hara",
+    "Brahman",
+    "Brahmā",
+    "Sāṃkhya",
+    "Yoga",
+    "Vaiṣṇava",
+    "Pāśupata",
+    "trayī",
+    "guṇa",
+    "stotra",
+    "puṇya",
+    "svātmārāma",
+    "khaṭvāṅga"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "hope-reason-to-live"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "82f63ab49c46f488151c344c35e39d32c3ebe97e3503f4a2f565b46aeb8e83b2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

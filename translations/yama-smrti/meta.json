@@ -19,5 +19,49 @@
   "tier": "次要",
   "notes": "託名死神閻摩（Yama）的達磨法論，論淨化與贖罪",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "commentarial-layer",
+    "dietary-restrictions",
+    "fasting",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "theocracy"
+  ],
+  "keywords": [
+    "yama",
+    "prāyaścitta",
+    "kṛcchra",
+    "cāndrāyaṇa",
+    "mahāpātaka",
+    "upanayana",
+    "dvija",
+    "agni",
+    "gavāṃ dhenu",
+    "taptakṛcchra",
+    "kāpālika",
+    "mauñjīhoma",
+    "Yama",
+    "āghamarṣaṇa",
+    "pāvamānī"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "40fd7ef4bbfd2f28186ddfa5695942f2923871d354193fbaec215e8ad5d0b4b9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

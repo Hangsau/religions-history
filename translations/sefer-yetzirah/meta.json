@@ -21,5 +21,53 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "chaos-to-order",
+    "commandments-law",
+    "commentarial-layer",
+    "cosmic-egg",
+    "created-in-image",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "human-as-microcosm",
+    "mystical-union",
+    "prophetic-revelation",
+    "sacred-language"
+  ],
+  "keywords": [
+    "Sefer Yetzirah",
+    "ספירות",
+    "אותיות",
+    "יהוה",
+    "צבאות",
+    "אל שדי",
+    "רוח אלהים חיים",
+    "תהו ובהו",
+    "שלשים ושתים נתיבות",
+    "חקק",
+    "כסא הכבוד",
+    "שרפים",
+    "אופנים",
+    "חיות הקודש",
+    "ברית"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "c576c4bce9f3f92150996f0e59efb87f4decefa657fe6e87d7228188604a4e22"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -309,6 +309,17 @@ class TranslateCheckpointTests(unittest.TestCase):
             self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
         call.assert_not_called()
 
+    def test_psych_tags_keep_most_agreed_not_alphabetical_first(self):
+        base, _ = self.make_slug()
+        vocab = {"a1", "a2", "a3", "a4", "a5", "zz"}
+        replies = [json.dumps({"semantic_tags": ["meaning"], "psych_tags": tags, "keywords": []})
+                   for tags in (["a1", "a2", "zz"], ["a3", "a4", "zz"], ["a5", "zz"])]
+        with mock.patch.object(translate, "call_m3", side_effect=replies):
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, vocab))
+        meta = json.loads((base / "meta.json").read_text(encoding="utf-8"))
+        self.assertIn("zz", meta["psych_tags"])
+        self.assertEqual(len(meta["psych_tags"]), 5)
+
     def test_multi_chunk_tags_keep_per_passage_record(self):
         base, _ = self.make_slug()
         replies = [json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"] if i == 2 else [],

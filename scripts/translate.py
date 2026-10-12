@@ -29,6 +29,7 @@ Notes:
 """
 
 import argparse
+import collections
 import hashlib
 import json
 import os
@@ -1172,7 +1173,7 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
 
     preserve_semantic = meta.get("tag_status") == "done" and bool(meta.get("semantic_tags"))
     sem: set[str] = set(meta.get("semantic_tags") or []) if preserve_semantic else set()
-    psych: set[str] = set()
+    psych: collections.Counter[str] = collections.Counter()  # tag -> chunks naming it
     kw: list[str] = list(meta.get("keywords") or []) if preserve_semantic else []
     tag_chunks_total = 1
 
@@ -1181,9 +1182,9 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
             for t in obj.get("semantic_tags", []) or []:
                 if isinstance(t, str) and t in whitelist:
                     sem.add(t)
-        for t in obj.get("psych_tags", []) or []:
+        for t in set(obj.get("psych_tags", []) or []):
             if isinstance(t, str) and t in psych_whitelist:
-                psych.add(t)
+                psych[t] += 1
         if not preserve_semantic:
             for k in obj.get("keywords", []) or []:
                 if isinstance(k, str) and k.strip() and k not in kw:
@@ -1273,11 +1274,13 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
     if sem and not psych:
         # Ritual / dharani / catalogue texts often get an empty psych axis from the
         # per-chunk prompt, and checkpoints make plain retries repeat it verbatim.
-        psych |= _fill_psych_axis(slug, meta, chunk_texts[0], sorted(sem), kw,
-                                  role, psych_whitelist)
+        psych.update(_fill_psych_axis(slug, meta, chunk_texts[0], sorted(sem), kw,
+                                      role, psych_whitelist))
         psych_method = "axis-fill" if psych else None
     semantic_tags = sorted(sem)
-    psych_tags = sorted(psych)[:5]
+    # Keep the 5 tags most chunks agree on (ties alphabetical); alphabetical-only cut
+    # used to favour a–c tags on long books.
+    psych_tags = sorted(t for t, _ in sorted(psych.items(), key=lambda kv: (-kv[1], kv[0]))[:5])
     keywords = kw[:15]
     if not semantic_tags or not psych_tags:
         _set_failure("empty_tag_axis", "scripture", "semantic or psych controlled tag axis was empty")
