@@ -67,14 +67,15 @@
   "tag_status": "done",
   "psych_tags": [
     "addiction-self-destruction",
-    "aging-time",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8ca2f25aafc4ee781d824964997da3d62418000b72e477e9298802a325fffdc3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

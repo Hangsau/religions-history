@@ -70,15 +70,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "calling-vocation",
-    "change-transformation",
     "courage",
-    "death"
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "insignificance-history"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "20fb8bd06d1282d2285968567a012893841d100d64a9cca0de1336093b985e29"
+  },
+  "tagging_models": "MiniMax-M3"
 }
