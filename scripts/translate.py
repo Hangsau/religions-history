@@ -1070,6 +1070,34 @@ def merge_meta_tags(slug: str, semantic_tags: list[str], psych_tags: list[str],
     _atomic_write_text(meta_p, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
 
 
+def _write_tag_passages(slug: str, chunk_texts: list[str], completed: dict[int, str],
+                        whitelist: set[str], psych_whitelist: set[str]) -> None:
+    """Keep per-chunk tags (located by `=== N | label ===` headings) before checkpoints go.
+
+    Book-level tags say a book touches a question; this says which chapters do.
+    """
+    passages = []
+    for i, chunk_text in enumerate(chunk_texts, 1):
+        try:
+            obj = json.loads(completed.get(i) or "")
+        except json.JSONDecodeError:
+            continue
+        headings = [line.strip("= ").strip() for line in chunk_text.splitlines()
+                    if line.startswith("=== ")]
+        passages.append({
+            "chunk": i,
+            "first_heading": headings[0] if headings else None,
+            "last_heading": headings[-1] if headings else None,
+            "semantic_tags": sorted(t for t in obj.get("semantic_tags", []) if t in whitelist),
+            "psych_tags": sorted(t for t in obj.get("psych_tags", []) if t in psych_whitelist),
+        })
+    # Source identity lives in meta.json `tag_source`; chunks follow split_chapters/group_chunks.
+    record = {"schema_version": 1, "slug": slug, "chunks_total": len(chunk_texts),
+              "passages": passages}
+    _atomic_write_text(TRANSLATIONS_DIR / slug / "tag-passages.json",
+                       json.dumps(record, ensure_ascii=False, indent=1) + "\n")
+
+
 def _fill_psych_axis(slug: str, meta: dict, text: str, semantic_tags: list[str],
                      keywords: list[str], role: str, psych_whitelist: set[str]) -> set[str]:
     """One focused re-ask for the psych axis, framed by what brings a reader to the text."""
@@ -1256,6 +1284,8 @@ def tag_one(slug: str, role: str, whitelist: set[str], psych_whitelist: set[str]
         print(f"  [error] {slug} (tag): empty controlled tag axis; metadata unchanged")
         return False
     merge_meta_tags(slug, semantic_tags, psych_tags, keywords, psych_method)
+    if tag_chunks_total > 1:
+        _write_tag_passages(slug, chunk_texts, completed, whitelist, psych_whitelist)
     shutil.rmtree(active, ignore_errors=True)
     _record_completion(slug, "tag", 0, tag_chunks_total)
     print(f"  [done] {slug} (tag)  →  {len(semantic_tags)} semantic, "

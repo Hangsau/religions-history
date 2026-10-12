@@ -279,6 +279,8 @@ def process_slug(slug: str, tasks: list[str], whitelist: set, psych_whitelist: s
             meta["tagging_models"] = translate.PRIMARY_MODEL
             translate._atomic_write_text(meta_path, json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
         touched.append(slug_dir / "meta.json")
+        if (slug_dir / "tag-passages.json").exists():
+            touched.append(slug_dir / "tag-passages.json")
 
     return True, touched
 

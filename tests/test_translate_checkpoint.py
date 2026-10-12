@@ -309,6 +309,17 @@ class TranslateCheckpointTests(unittest.TestCase):
             self.assertFalse(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
         call.assert_not_called()
 
+    def test_multi_chunk_tags_keep_per_passage_record(self):
+        base, _ = self.make_slug()
+        replies = [json.dumps({"semantic_tags": ["meaning"], "psych_tags": ["death"] if i == 2 else [],
+                               "keywords": []}) for i in range(1, 4)]
+        with mock.patch.object(translate, "call_m3", side_effect=replies):
+            self.assertTrue(translate.tag_one("demo", "role", {"meaning"}, {"death"}))
+        record = json.loads((base / "tag-passages.json").read_text(encoding="utf-8"))
+        self.assertEqual(record["chunks_total"], 3)
+        self.assertEqual([p["psych_tags"] for p in record["passages"]], [[], ["death"], []])
+        self.assertEqual(record["passages"][1]["first_heading"], "2 | c2")
+
     def test_empty_psych_axis_gets_one_focused_fill(self):
         base, _ = self.make_slug(chapter_chars=50)
         empty = json.dumps({"semantic_tags": ["meaning"], "psych_tags": [], "keywords": ["x"]})
