@@ -53,15 +53,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "change-transformation",
+    "calling-vocation",
     "faith-doubt",
-    "fear-uncertainty",
-    "freewill-fate-choice",
-    "giving-generosity"
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f6cd1e2c67ca5a38ebb630683b59da0985d56b57aac28762640d0373ea263e19"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -54,14 +54,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death",
-    "emotions-passions"
+    "evil-cruelty-empathy",
+    "illness-body",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "3dfee240672aae3f2a9347c332d59bd8e5366cc03b876c3270f208dd2762c675"
+  },
+  "tagging_models": "MiniMax-M3"
 }

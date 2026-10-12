@@ -49,16 +49,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage"
+    "death",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8c0a9e551f2f8afcbc2b4eda96d713be419b4b1e7ee9b49d24e7958f295fa85d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

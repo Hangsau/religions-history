@@ -1,0 +1,212 @@
+{
+ "schema_version": 1,
+ "slug": "dhammapada",
+ "chunks_total": 10,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | dhp1-20",
+   "last_heading": "2 | dhp21-32",
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | dhp33-43",
+   "last_heading": "4 | dhp44-59",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | dhp60-75",
+   "last_heading": "11 | 老品（dhp146-156）",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "12 | 自品（dhp157-166）",
+   "last_heading": "14 | 佛品（dhp179-196）",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "15 | 樂品（dhp197-208）",
+   "last_heading": "17 | dhp221-234",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "18 | dhp235-255",
+   "last_heading": "19 | dhp256-272",
+   "semantic_tags": [
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "fear-uncertainty",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "20 | dhp273-289",
+   "last_heading": "22 | dhp306-319",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "23 | dhp320-333",
+   "last_heading": "24 | dhp334-359",
+   "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "humility",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "emotions-passions",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "25 | dhp360-382",
+   "last_heading": "25 | dhp360-382",
+   "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

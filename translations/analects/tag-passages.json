@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "slug": "analects",
+ "chunks_total": 10,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | xue-er",
+   "last_heading": "3 | ba-yi",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "lineage-importance",
+    "ritual-practice",
+    "temple-centered",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "responsibility-leadership",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | li-ren",
+   "last_heading": "5 | gong-ye-chang",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | yong-ye",
+   "last_heading": "7 | shu-er",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "ritual-practice",
+    "self-effort",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | tai-bo",
+   "last_heading": "10 | xiang-dang",
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | xian-jin",
+   "last_heading": "12 | yan-yuan",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "golden-rule",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | zi-lu",
+   "last_heading": "13 | zi-lu",
+   "semantic_tags": [
+    "golden-rule",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | xian-wen",
+   "last_heading": "14 | xian-wen",
+   "semantic_tags": [
+    "essentially-good",
+    "golden-rule",
+    "human-as-microcosm",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "15 | wei-ling-gong",
+   "last_heading": "16 | ji-shi",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "17 | yang-huo",
+   "last_heading": "18 | wei-zi",
+   "semantic_tags": [
+    "caste-system",
+    "commentarial-layer",
+    "essentially-good",
+    "ritual-practice",
+    "secular-state",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "19 | zi-zhang",
+   "last_heading": "20 | yao-yue",
+   "semantic_tags": [
+    "commentarial-layer",
+    "golden-rule",
+    "humility",
+    "mandate-of-heaven",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  }
+ ]
+}

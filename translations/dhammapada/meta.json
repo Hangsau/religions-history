@@ -51,16 +51,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "change-transformation",
-    "communication-being-understood",
-    "death"
+    "death",
+    "emotions-passions",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "dfb84228fde08ef324e4f8ea0bb8a9834b62e4336f4a67fe52f8d495d18385d3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
