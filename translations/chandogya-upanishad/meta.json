@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
     "death",
-    "dreams-unconscious",
-    "existence-why-born"
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cb99ee502a44ceb18b79d81aa7819815188064099e2baa7bb016c60b688eb797"
+  },
+  "tagging_models": "MiniMax-M3"
 }

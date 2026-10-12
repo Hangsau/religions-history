@@ -97,15 +97,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth"
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "bc5eaf87cbaa39285ebbb6b505f4d839edc984261a8d6b08cb43fb7d9c3b4533"
+  },
+  "tagging_models": "MiniMax-M3"
 }

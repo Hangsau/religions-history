@@ -96,15 +96,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "bc6128e535a25af932bb7531ac4fd32f403382b51df150333f0c8d850a1ee43d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

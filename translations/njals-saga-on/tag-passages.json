@@ -1,0 +1,1873 @@
+{
+ "schema_version": 1,
+ "slug": "njals-saga-on",
+ "chunks_total": 116,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 1",
+   "last_heading": "3 | 赫魯特南下會莫爾德",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 3",
+   "last_heading": "4 | 4",
+   "semantic_tags": [
+    "against-idolatry",
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 5",
+   "last_heading": "8 | 索提之死",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "6 | 6",
+   "last_heading": "10 | Hrútur 與 Unnur 至議會、Unnur 向其父訴苦",
+   "semantic_tags": [
+    "marriage-sacred",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "freewill-fate-choice",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "7 | 7",
+   "last_heading": "14 | 第14段",
+   "semantic_tags": [
+    "commandments-law",
+    "marriage-sacred",
+    "oral-tradition",
+    "patriarchal",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "courage",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "9 | 9",
+   "last_heading": "11 | 11",
+   "semantic_tags": [
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "gender-body",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "12 | 12",
+   "last_heading": "20 | Hallgerður 遣回 Þjóstólfur",
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "13 | 13",
+   "last_heading": "13 | 13",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "22 | 第二十二段",
+   "last_heading": "22 | 第二十二段",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "14 | 14",
+   "last_heading": "16 | 16",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "communication-being-understood",
+    "loss-grief",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "17 | 17",
+   "last_heading": "19 | 19",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "20 | 20",
+   "last_heading": "22 | 22",
+   "semantic_tags": [
+    "lineage-importance",
+    "multiple-souls",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "courage",
+    "justice-power",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "30 | Hrútur 教授傳喚訴訟法",
+   "last_heading": "32 | 尋 Héðinn 未果、Gunnar 歸報",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "24 | 24",
+   "last_heading": "25 | 25",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "26 | 26",
+   "last_heading": "29 | 29",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "30 | 30",
+   "last_heading": "40 | Gunnar 戰海盜",
+   "semantic_tags": [
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "31 | 31",
+   "last_heading": "33 | 33",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "giving-generosity",
+    "honesty-hypocrisy",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "44 | Gunnar 之議親與 Njáll 之勸阻",
+   "last_heading": "46 | 婚議既定",
+   "semantic_tags": [
+    "marriage-sacred",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "35 | 35",
+   "last_heading": "35 | 35",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "gender-body",
+    "guilt-atonement",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "36 | 36",
+   "last_heading": "50 |",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "37 | 37",
+   "last_heading": "37 | 37",
+   "semantic_tags": [],
+   "psych_tags": [
+    "communication-being-understood",
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "38 | 38",
+   "last_heading": "54 | 和解與 Bergþóra 的不滿",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "39 | 39",
+   "last_heading": "40 | 40",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "41 | 41",
+   "last_heading": "42 | 42",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "43 | 43",
+   "last_heading": "44 | 44",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "61 | 第 61 段",
+   "last_heading": "61 | 第 61 段",
+   "semantic_tags": [],
+   "psych_tags": [
+    "communication-being-understood",
+    "emotions-passions",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "45 | 45",
+   "last_heading": "45 | 45",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "forgiveness",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "46 | 46",
+   "last_heading": "48 | 48",
+   "semantic_tags": [
+    "lineage-importance",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "honesty-hypocrisy",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "49 | 49",
+   "last_heading": "70 | 第77章",
+   "semantic_tags": [
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "50 | 50",
+   "last_heading": "52 | 52",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "priesthood",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "53 | 53",
+   "last_heading": "54 | 54",
+   "semantic_tags": [
+    "against-idolatry",
+    "suffering-as-purifying",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "77 | Gunnar 與 Otkell 之戰並歸家",
+   "last_heading": "56 | 56",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "80 | 庭上和議",
+   "last_heading": "83 | Hildigunnur 與 Njáll對 Gunnar 之言",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "59 | 59",
+   "last_heading": "60 | 60",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "61 | 61",
+   "last_heading": "62 | 62",
+   "semantic_tags": [
+    "accept-fate",
+    "prophetic-critique",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "63 | 63",
+   "last_heading": "64 | 64",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "65 | 65",
+   "last_heading": "94 |",
+   "semantic_tags": [
+    "commandments-law",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "67 | 67",
+   "last_heading": "69 | 69",
+   "semantic_tags": [
+    "accept-fate",
+    "sin-as-disobedience",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "70 | 70",
+   "last_heading": "71 | 71",
+   "semantic_tags": [
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "72 | 72",
+   "last_heading": "73 | 73",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "74 | 74",
+   "last_heading": "75 | 75",
+   "semantic_tags": [
+    "accept-fate",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "76 | 76",
+   "last_heading": "77 | 77",
+   "semantic_tags": [
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "107 | Gunnar 戰歿",
+   "last_heading": "78 | 78",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "79 | 79",
+   "last_heading": "81 | 81",
+   "semantic_tags": [
+    "pilgrimage",
+    "ritual-practice",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "dreams-unconscious",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "82 | 82",
+   "last_heading": "82 | 82",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "83 | 83",
+   "last_heading": "85 | 85",
+   "semantic_tags": [
+    "accept-fate",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "86 | 86",
+   "last_heading": "86 | 86",
+   "semantic_tags": [
+    "ritual-practice",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "courage"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "87 | 87",
+   "last_heading": "87 | 87",
+   "semantic_tags": [
+    "other-power",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "118 | Hrapps dráp Ásvarðar",
+   "last_heading": "118 | Hrapps dráp Ásvarðar",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "88 | 88",
+   "last_heading": "121 | 赫拉普逃至尼亞爾之子",
+   "semantic_tags": [
+    "against-idolatry",
+    "chaos-to-order",
+    "polytheist",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "122 |",
+   "last_heading": "89 | 89",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "125 | 第 125 段",
+   "last_heading": "91 | 91",
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loss-grief",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "128 | 在 Grjótá 對峙",
+   "last_heading": "128 | 在 Grjótá 對峙",
+   "semantic_tags": [
+    "against-idolatry",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "92 | 92",
+   "last_heading": "92 | 92",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "93 | 93",
+   "last_heading": "96 | 96",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "sacred-language",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "97 | 97",
+   "last_heading": "135 | 第五法庭之設立",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "136 | 赫斯庫德受任族長",
+   "last_heading": "98 | 98",
+   "semantic_tags": [
+    "accept-fate",
+    "pilgrimage",
+    "ritual-practice",
+    "sacred-language",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "138 | Höskuldur 抬回 Bergþórshvöllr",
+   "last_heading": "140 | 章節",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "100 | 100",
+   "last_heading": "101 | 101",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "proselytizing",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "102 | 102",
+   "last_heading": "144 | Steinunn 對 Þangbrandur 言",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "proselytizing",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "103 | 103",
+   "last_heading": "105 | 105",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "inclusive-monotheism",
+    "messianism",
+    "prayer",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "106 | 106",
+   "last_heading": "108 | 108",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "109 | 109",
+   "last_heading": "110 | 110",
+   "semantic_tags": [
+    "against-idolatry",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "111 | 111",
+   "last_heading": "112 | 112",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "113 | 113",
+   "last_heading": "114 | 114",
+   "semantic_tags": [
+    "lineage-importance",
+    "priesthood",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "115 | 115",
+   "last_heading": "115 | 115",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "116 | 116",
+   "last_heading": "116 | 116",
+   "semantic_tags": [
+    "multiple-souls",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "117 | 117",
+   "last_heading": "118 | 118",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "119 | 119",
+   "last_heading": "119 | 119",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "161 | 阿斯格里姆與斯卡爾赫丁尋求援助",
+   "last_heading": "161 | 阿斯格里姆與斯卡爾赫丁尋求援助",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "120 | 120",
+   "last_heading": "120 | 120",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "121 | 121",
+   "last_heading": "122 | 122",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": "123 | 123",
+   "last_heading": "123 | 123",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "124 | 124",
+   "last_heading": "124 | 124",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "170 |",
+   "last_heading": "126 | 126",
+   "semantic_tags": [
+    "theodicy",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "127 | 127",
+   "last_heading": "175 |",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": "176 | 176",
+   "last_heading": "178 | Kári 逃出火場",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": "130 | 130",
+   "last_heading": "130 | 130",
+   "semantic_tags": [
+    "accept-fate",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 83,
+   "first_heading": "180 | 第180段",
+   "last_heading": "180 | 第180段",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 84,
+   "first_heading": "131 | 131",
+   "last_heading": "131 | 131",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 85,
+   "first_heading": "132 | 132",
+   "last_heading": "185 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 86,
+   "first_heading": "133 | 133",
+   "last_heading": "134 | 134",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 87,
+   "first_heading": "188 |",
+   "last_heading": "188 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "lineage-importance",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 88,
+   "first_heading": "135 | 135",
+   "last_heading": "135 | 135",
+   "semantic_tags": [
+    "commandments-law",
+    "theocracy"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 89,
+   "first_heading": "192 |",
+   "last_heading": "137 | 137",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 90,
+   "first_heading": "138 | 138",
+   "last_heading": "138 | 138",
+   "semantic_tags": [
+    "commandments-law",
+    "patriarchal",
+    "ritual-practice",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loneliness-belonging",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 91,
+   "first_heading": "198 | 訴訟交接",
+   "last_heading": "198 | 訴訟交接",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 92,
+   "first_heading": "139 | 139",
+   "last_heading": "139 | 139",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 93,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 94,
+   "first_heading": "201 | 第 201 段",
+   "last_heading": "204 |",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 95,
+   "first_heading": "142 | 142",
+   "last_heading": "206 | Mörðr 的公訴與證詞",
+   "semantic_tags": [
+    "commandments-law",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 96,
+   "first_heading": "207 | 東菲爾茲庭訴訟與陪審團之清除",
+   "last_heading": "207 | 東菲爾茲庭訴訟與陪審團之清除",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 97,
+   "first_heading": "208 | Alþingi 庭審 — kviðr 攻防",
+   "last_heading": "208 | Alþingi 庭審 — kviðr 攻防",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 98,
+   "first_heading": "209 | 訴訟程序",
+   "last_heading": "209 | 訴訟程序",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 99,
+   "first_heading": "143 | 143",
+   "last_heading": "143 | 143",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 100,
+   "first_heading": "144 | 144",
+   "last_heading": "144 | 144",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 101,
+   "first_heading": "214 | 莫爾德封閉證據與判決",
+   "last_heading": "215 | 第五法院訴訟",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 102,
+   "first_heading": "145 | 145",
+   "last_heading": "145 | 145",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 103,
+   "first_heading": "218 | 戰鬥尾聲與停戰宣告",
+   "last_heading": "218 | 戰鬥尾聲與停戰宣告",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 104,
+   "first_heading": "219 | 和解",
+   "last_heading": "219 | 和解",
+   "semantic_tags": [
+    "forgiveness",
+    "ritual-practice",
+    "secular-state",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "loss-grief",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 105,
+   "first_heading": "220 | 和解",
+   "last_heading": "220 | 和解",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 106,
+   "first_heading": "146 | 146",
+   "last_heading": "146 | 146",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 107,
+   "first_heading": "222 | Kári 與 Þorgeir 之戰、Hallr 建議和解",
+   "last_heading": "222 | Kári 與 Þorgeir 之戰、Hallr 建議和解",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 108,
+   "first_heading": "147 | 147",
+   "last_heading": "148 | 148",
+   "semantic_tags": [
+    "against-idolatry",
+    "salvation-by-faith",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 109,
+   "first_heading": "149 | 149",
+   "last_heading": "228 | Kári 與 Sigfús synir 的行蹤",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 110,
+   "first_heading": "150 | 150",
+   "last_heading": "230 | 戰鬥與撤退",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 111,
+   "first_heading": "151 | 151",
+   "last_heading": "232 | 第二三二段",
+   "semantic_tags": [
+    "accept-fate",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 112,
+   "first_heading": "152 | 152",
+   "last_heading": "153 | 153",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 113,
+   "first_heading": "154 | 154",
+   "last_heading": "238 | Sigtryggur finnr Bróðir og Óspakur",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 114,
+   "first_heading": "156 | 156",
+   "last_heading": "157 | 157",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 115,
+   "first_heading": "241 | 布利安之戰",
+   "last_heading": "242 | 第一五六章",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 116,
+   "first_heading": "158 | 158",
+   "last_heading": "159 | 159",
+   "semantic_tags": [
+    "accept-fate",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  }
+ ]
+}
