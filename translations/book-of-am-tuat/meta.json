@@ -54,14 +54,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "death",
-    "evil-cruelty-empathy",
     "existence-why-born",
     "fear-uncertainty",
-    "hope-reason-to-live"
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "a79264c0402f86eae2b706cf545385a93dcb6c4850a8a104c4d168e10731e312"
+  },
+  "tagging_models": "MiniMax-M3"
 }

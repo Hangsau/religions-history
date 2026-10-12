@@ -54,14 +54,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "courage",
     "death",
-    "faith-doubt"
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "1b5fe198b3492ab5331af26f5a2fd79fc6b2c0083c691e4089d0eaaf231b5c52"
+  },
+  "tagging_models": "MiniMax-M3"
 }

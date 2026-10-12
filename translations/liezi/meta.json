@@ -53,16 +53,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
-    "change-transformation",
-    "communication-being-understood",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ac8af23e3bb182e60915c78a4f401a9314d15f62fc1308a1806f1f79874cf767"
+  },
+  "tagging_models": "MiniMax-M3"
 }

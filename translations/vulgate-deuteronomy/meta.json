@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "courage",
-    "death",
-    "faith-doubt"
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8051b041d6b958eff3ca913f860cda8a3f601288cd0f147c59cf9d038db8621e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -68,14 +68,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage",
-    "emotions-passions"
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "255af5e9ba02345d1681b8cf7b2d7bd9ea8cd2b65c8e1da84f90e2fe4a6fada8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
