@@ -10,9 +10,15 @@
 - `scripts/tagging_queue.py`: job resolution, manifest validation and per-book source checks.
   Enabled job takes precedence over legacy supervisor tier arguments so existing desktop
   and scheduled launches cannot fall back to the already completed core queue.
-- `scripts/prepare-tagging-queue.py`: builds a disabled manifest for review; refuses to overwrite it.
+- `scripts/prepare-tagging-queue.py`: builds a manifest (disabled unless `--enable "<user instruction>"`);
+  refuses to replace one with untagged entries, archives a finished one as `tagging-queue-<date>.json`.
+  `--allow-original` also queues untranslated non-Chinese originals; their entries carry
+  `source_policy: original` so per-book rechecks accept the foreign source.
 - `auto-pipeline.py --tag-queue`: only tags selected sources, records tag_source and
   tagging_models, leaves translation files/status alone. Source change blocks for review.
+- `translate.tag_one`: an empty psych axis after aggregation gets one focused re-ask
+  (`psych_tag_method: axis-fill` in meta); multi-chunk books also write
+  `translations/<slug>/tag-passages.json` (per-chunk headings + both tag axes).
 
 - `scripts/translate.py`: chunk checkpoints, quota preflight, provider calls, metrics and runtime handoff.
 - `scripts/minimax_quota.py`: read-only quota probe and configurable 5h 5% / weekly 2% reserve policy.
@@ -52,4 +58,7 @@
   in the manifest while other chunks continue. Runtime exposes tag_completed_chunks
   and tag_blocked_chunks. A book with any unresolved chunk cannot publish done tags;
   after remaining work it becomes content_rejected in the ordinary failure ledger.
+  Repair: write a source-bound review `translations/<slug>/reviews/tag-chunk-NNNN.json`
+  (status `reviewed_not_applied`), then `scripts/apply_tag_reviews.py` (check) / `--apply`
+  (takes the generation lock, verifies hashes, writes the chunk, unblocks the slug).
 - `scripts/install-pipeline-task.ps1`: optional Task Scheduler installer; it is not registered automatically.
