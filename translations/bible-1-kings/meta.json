@@ -55,13 +55,14 @@
   "psych_tags": [
     "calling-vocation",
     "death",
-    "existence-why-born",
     "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "5133ee730d3b792bd0dd580efb4fe59b7d9b0ff503a2db0c5c0ae9f346d9b7b9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

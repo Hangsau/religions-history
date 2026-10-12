@@ -73,15 +73,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
     "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "guilt-atonement",
+    "marriage-family",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "a52d7ec2db360f207dbd5b058006ac3bcdc56439146182145049c18c45ad6e23"
+  },
+  "tagging_models": "MiniMax-M3"
 }
