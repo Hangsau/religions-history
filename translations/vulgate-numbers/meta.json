@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
     "death",
-    "emotions-passions"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "17b45a3dcd8bd5861cf79cb28a08c37d85f077e02afc8a18c75ac1e9b68cdfee"
+  },
+  "tagging_models": "MiniMax-M3"
 }

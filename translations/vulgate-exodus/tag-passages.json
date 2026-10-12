@@ -1,0 +1,403 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-exodus",
+ "chunks_total": 21,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Liber Exodus",
+   "last_heading": "2 | 第二章（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "divine-transcendence",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3",
+   "last_heading": "4",
+   "semantic_tags": [
+    "commandments-law",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 第五章",
+   "last_heading": "7 | 第七災前兆：法老心硬；第一災：水變血",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creator-deity",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 蛙災與虱災",
+   "last_heading": "9",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "other-power",
+    "prayer",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "10 | Exodus 9:20–10:7（節選）",
+   "last_heading": "12 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 第十二章 16-39",
+   "last_heading": "14 |",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "15 |",
+   "last_heading": "16 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "15 | 第15章 紅海之歌與瑪拉之水",
+   "last_heading": "19 | 嗎哪的條例；擊磐出水；與亞瑪力之戰",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "mystical-union",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "20 | 亞瑪力之戰與葉忒羅來訪",
+   "last_heading": "25 | 西乃山上神降臨",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "22 | 第二十章（續）：十誡與約的頒布",
+   "last_heading": "24 | 二十一章 28–36 節；二十二章 1–17 節",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "25 |",
+   "last_heading": "27 | 上山領受法版；建造會幕之命",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "28 |",
+   "last_heading": "31 | 祭司胸牌的製作（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "32 | 第29章 33-41節 / 第29章 42-43節 / 第29章 1-21節",
+   "last_heading": "32 | 第29章 33-41節 / 第29章 42-43節 / 第29章 1-21節",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "33 | 亞倫與其子孫承接聖職",
+   "last_heading": "33 | 亞倫與其子孫承接聖職",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "34 |",
+   "last_heading": "34 |",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "36 | 第三章",
+   "last_heading": "2 | 第三十三章1-13",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "monotheist-exclusive",
+    "priesthood",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "38 | 上主顯榮與刻十誡",
+   "last_heading": "40 | 匠人蒙召與會幕材料之奉獻",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "41 | 幕幔與帳幕之構造",
+   "last_heading": "42 | 帳幕器具之製作（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 20,
+   "first_heading": "43 | 帳幕器物之清單",
+   "last_heading": "44 | 法衣與胸牌",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "synagogue-mosque-style",
+    "temple-centered"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 21,
+   "first_heading": "45 | 祭司衣飾的完成與會幕的獻交",
+   "last_heading": "46 | 第十章 34–36",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment"
+   ]
+  }
+ ]
+}
