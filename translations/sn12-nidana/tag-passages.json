@@ -1,0 +1,565 @@
+{
+ "schema_version": 1,
+ "slug": "sn12-nidana",
+ "chunks_total": 32,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | sn12.1",
+   "last_heading": "3 | sn12.3",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | sn12.4",
+   "last_heading": "8 | sn12.8",
+   "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "9 | sn12.9",
+   "last_heading": "12 | sn12.12",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "13 | sn12.13",
+   "last_heading": "16 | sn12.16",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "17 | sn12.17",
+   "last_heading": "18 | sn12.18",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "19 | sn12.19",
+   "last_heading": "21 | sn12.21",
+   "semantic_tags": [
+    "emptiness",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "22 | sn12.22",
+   "last_heading": "23 | 隨順緣起",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "24 | sn12.24",
+   "last_heading": "26 | Ānanda 答十二因緣問",
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "four-noble-truths",
+    "karma-rebirth",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "25 | sn12.25",
+   "last_heading": "26 | sn12.26",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "freewill-fate-choice",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "27 | sn12.27",
+   "last_heading": "30 | sn12.30",
+   "semantic_tags": [
+    "emptiness",
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "31 | sn12.31",
+   "last_heading": "32 | sn12.32",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "37 | 因緣相應 — Kaḷāra Kṣatriya 黑車氏武士經",
+   "last_heading": "40 | 行的定義、集、滅、道與二智",
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge"
+   ],
+   "psych_tags": [
+    "death",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "34 | sn12.34",
+   "last_heading": "43 | 第五 — 諸見永斷",
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "36 | sn12.36",
+   "last_heading": "36 | sn12.36",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 16,
+   "first_heading": "37 | sn12.37",
+   "last_heading": "40 | sn12.40",
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "monastic"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "41 | sn12.41",
+   "last_heading": "42 | sn12.42",
+   "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "43 | sn12.43",
+   "last_heading": "47 | sn12.47",
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "48 | sn12.48",
+   "last_heading": "50 | sn12.50",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "meditation"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "51 | sn12.51",
+   "last_heading": "52 | sn12.52",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-dual",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "53 | sn12.53",
+   "last_heading": "58 | sn12.58",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "59 | sn12.59",
+   "last_heading": "61 | sn12.61",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "62 | sn12.62",
+   "last_heading": "69 | 識食（第三）",
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "64 | sn12.64",
+   "last_heading": "65 | sn12.65",
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "73 | 古城",
+   "last_heading": "66 | sn12.66",
+   "semantic_tags": [
+    "four-noble-truths",
+    "monastic",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "75 | 三時沙門婆羅門",
+   "last_heading": "78 | 蘆束喻終",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "68 | sn12.68",
+   "last_heading": "80 | 第八 那羅達經",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "69 | sn12.69",
+   "last_heading": "69 | sn12.69",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "four-noble-truths",
+    "karma-rebirth"
+   ],
+   "psych_tags": [
+    "change-transformation"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "70 | sn12.70",
+   "last_heading": "70 | sn12.70",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "non-dual"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "85 | 須深經 — 神通問分",
+   "last_heading": "73 | sn12.82",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "sin-as-disobedience",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "74 | sn12.83-92",
+   "last_heading": "75 | sn12.93-213",
+   "semantic_tags": [
+    "chanting",
+    "four-noble-truths",
+    "monastic",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

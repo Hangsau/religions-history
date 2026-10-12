@@ -72,15 +72,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "549f105c91ffb051572205d51311a359e4d5671931e3bf5ee589f7aa135f878a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

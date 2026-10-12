@@ -72,15 +72,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "change-transformation",
-    "death",
-    "dreams-unconscious",
-    "emotions-passions",
-    "existence-why-born"
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "032871ff2992aa2522ee4b43e3c85f37228053eeb8a122c14807c186e26a5a3d"
+  },
+  "tagging_models": "MiniMax-M3"
 }
