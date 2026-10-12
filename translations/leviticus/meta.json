@@ -70,15 +70,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
+    "boundaries-self-worth",
     "death",
     "fear-uncertainty",
-    "gender-body"
+    "guilt-atonement",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8def103e21cf0e1d68cdc7b6bc434dfff1267e29b574479a7939874e34eb7b09"
+  },
+  "tagging_models": "MiniMax-M3"
 }

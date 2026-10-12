@@ -74,15 +74,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
     "calling-vocation",
     "change-transformation",
-    "courage",
-    "death"
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "a5ee8e1bab54fb7d247d7a1aa7feecd9b6b30da2d10efa0102dca840fbac2a5f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

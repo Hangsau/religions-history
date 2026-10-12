@@ -60,15 +60,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "change-transformation",
-    "death",
-    "emotions-passions",
-    "existence-why-born"
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "0bc4b74b79f47ec23c4d8beb6a77a3374eeee4bad6bf2f4e346075a934351016"
+  },
+  "tagging_models": "MiniMax-M3"
 }

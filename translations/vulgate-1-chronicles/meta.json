@@ -55,13 +55,14 @@
   "psych_tags": [
     "calling-vocation",
     "death",
-    "faith-doubt",
-    "fear-uncertainty",
-    "gratitude-contentment"
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "4fbdf1f1b3d28bb758cc05e888dac39b8d47b342fa25e641d64c56e851a53b18"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -51,15 +51,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "body-mind",
     "change-transformation",
     "death",
     "emotions-passions",
-    "fear-uncertainty"
+    "stillness-rest",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "58b2725e16672e0c1904e47fa41e9944a37a3a29bdc6d2fb856d0047f61179fe"
+  },
+  "tagging_models": "MiniMax-M3"
 }

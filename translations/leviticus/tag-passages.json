@@ -1,0 +1,280 @@
+{
+ "schema_version": 1,
+ "slug": "leviticus",
+ "chunks_total": 15,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 1",
+   "last_heading": "3 | 3",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 第四章",
+   "last_heading": "7 | 利未記 5:20-26",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 6",
+   "last_heading": "10 | 利未記 7:26–38",
+   "semantic_tags": [
+    "commandments-law",
+    "dietary-restrictions",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 8",
+   "last_heading": "9 | 9",
+   "semantic_tags": [
+    "awe-fear",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "14 | 第十章",
+   "last_heading": "12 | 12",
+   "semantic_tags": [
+    "commandments-law",
+    "dietary-restrictions",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 13",
+   "last_heading": "21 | 衣皮災病之律例",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14 | 14",
+   "last_heading": "15 | 15",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "guilt-atonement",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "26 | 漏症與月經律例",
+   "last_heading": "17 | 17",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "death",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "18 | 18",
+   "last_heading": "33 | 19:28b-37",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "economic-justice",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "20 | 20",
+   "last_heading": "21 | 21",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sexual-ethics",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "gender-body",
+    "guilt-atonement",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "22 | 22",
+   "last_heading": "23 | 23",
+   "semantic_tags": [
+    "commandments-law",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "23 | 第二十三章",
+   "last_heading": "24 | 第二十四章",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "synagogue-mosque-style",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "25 | 25",
+   "last_heading": "44 | 論禧年之例",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "economic-justice",
+    "liberation-by-works",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "giving-generosity",
+    "justice-power",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "26 | 26",
+   "last_heading": "27 | 27",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creator-deity",
+    "divine-transcendence",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "27 | 第二十七章",
+   "last_heading": "27 | 第二十七章",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": []
+  }
+ ]
+}
