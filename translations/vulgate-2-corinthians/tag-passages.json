@@ -1,0 +1,83 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-2-corinthians",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Pauli Epistola ad Corinthios II",
+   "last_heading": "4 | 第四章",
+   "semantic_tags": [
+    "divine-transcendence",
+    "forgiveness",
+    "grace-from-god",
+    "revealed-text",
+    "spirit-possession",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | 第五章",
+   "last_heading": "4 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "essentially-good",
+    "other-power",
+    "salvation-by-faith",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "8",
+   "last_heading": "8 | 第十章",
+   "semantic_tags": [
+    "compassion",
+    "congregational",
+    "economic-justice",
+    "grace-from-god",
+    "humility",
+    "salvation-by-faith",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "courage",
+    "giving-generosity",
+    "gratitude-contentment",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 第八段",
+   "last_heading": "10 | 第十三章",
+   "semantic_tags": [
+    "congregational",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "synagogue-mosque-style",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

@@ -54,15 +54,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "change-transformation",
     "death",
     "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "98a6247143ef3751be730672e9266d5e93d7f6f36040c95493fb52f8f2f0fbd9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

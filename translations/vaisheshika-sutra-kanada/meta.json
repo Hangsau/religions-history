@@ -47,14 +47,14 @@
   "translation_status": "done",
   "psych_tags": [
     "body-mind",
-    "boundaries-self-worth",
-    "dreams-unconscious",
-    "emotions-passions",
-    "freewill-fate-choice"
+    "living-with-unknown",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "b8e0db1459944e07fd9598413f2fce2b0bf2031e63947008731823bd3d46a8b6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

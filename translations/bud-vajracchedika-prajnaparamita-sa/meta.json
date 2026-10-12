@@ -56,15 +56,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "death",
     "faith-doubt",
-    "living-with-unknown",
+    "fear-uncertainty",
     "meaning-of-suffering",
-    "stillness-rest"
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "933c82e48f9fab6e2105531ea151105488128708d94dc6c5bafdc62ad2ff1593"
+  },
+  "tagging_models": "MiniMax-M3"
 }

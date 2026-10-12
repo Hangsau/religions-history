@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "change-transformation",
-    "death",
+    "calling-vocation",
     "faith-doubt",
-    "fear-uncertainty",
-    "giving-generosity"
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "693d17963fc63ef5edd7d9e4702b7167fcb18347db0bcb517cad3e308e472705"
+  },
+  "tagging_models": "MiniMax-M3"
 }
