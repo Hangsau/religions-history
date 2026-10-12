@@ -3,6 +3,22 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-10-12 晚：重標字母序截斷＋新發現的譯文瑕疵
+
+- **重標 1496 部**（`scripts/prepare-psych-retag.py --apply`）：多段、剛好 5 個 psych_tags、無 tag-passages 的書
+  加 `psych_retag`，排在標籤佇列最前（核心 400、次要 35、總集逐部 1061）；佇列共 3186 條，之後才是第二輪外語 1690 部。
+  semantic_tags／keywords 保留，舊 psych_tags 在新結果出來前照常顯示；重標順便產生 tag-passages.json。
+  已驗證：論語 → 新增 death／meaning-of-suffering，loss-grief 指到〈先進〉段；薄伽梵歌 → freewill-fate-choice、who-am-i。
+- `select_source(allow_replacement=True)`：譯文 U+FFFD ≤0.1% 仍可標籤（重標專用，條目記 `allow_replacement`）。
+- 古蘭經 2:154 接縫標題已刪、句子接回。
+- **新發現，未處理（要另立譯文修復計畫）**：
+  - 107 部譯文共 1342 個 U+FFFD（模型輸出時字元遺失），多為核心書（增支部、懺悔錄、亞里斯多德等）。
+  - 246 部譯文含「原文截斷／文未完／下段續」類接縫註記（摩訶婆羅多 236 處最多）。多半是切段輸入被切在句中、
+    模型自己加註後下段接續，不一定漏字，但接縫兩側分兩次翻譯，可能誤譯或重複。修法方向：只對接縫兩側合併重譯，
+    以字元比對驗證不漏不重。標題樣式在接縫處也常不一致（`=== 2:148 | 黃牛章 ===` vs `=== 155 | 第二章 ===`）。
+
+---
+
 ## 2026-10-12：標籤第二輪（外語原典）啟動＋網站方向
 
 - 使用者：「標籤應該讓 MiniMax 持續做下去」。第一輪佇列封存為 `00-overview/tagging-queue-2026-10-07.json`；
