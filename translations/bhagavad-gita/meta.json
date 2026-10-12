@@ -76,16 +76,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "courage"
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "47c6d1b456b95af07b09c2fd5e5e887a6cb4efd10c54f4f402c4f8d10fcb2210"
+  },
+  "tagging_models": "MiniMax-M3"
 }

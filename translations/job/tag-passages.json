@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "slug": "job",
+ "chunks_total": 11,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一章",
+   "last_heading": "3 | 3",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 4",
+   "last_heading": "7 | 7",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-transcendence",
+    "essentially-flawed",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "8 | 8",
+   "last_heading": "9 | 9",
+   "semantic_tags": [
+    "divine-transcendence",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | 10",
+   "last_heading": "13 | 13",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "human-as-microcosm",
+    "monotheist-exclusive",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "14 | 14",
+   "last_heading": "18 | 18",
+   "semantic_tags": [
+    "creator-deity",
+    "human-as-microcosm",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "justice-power",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "19 | 19",
+   "last_heading": "22 | 22",
+   "semantic_tags": [
+    "created-in-image",
+    "divine-transcendence",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "justice-power",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "23 | 23",
+   "last_heading": "28 | 28",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "essentially-good",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "29 | 29",
+   "last_heading": "31 | 31",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "32 | 第三十二章",
+   "last_heading": "35 | 35",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-transcendence",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "36 | 36",
+   "last_heading": "38 | 38",
+   "semantic_tags": [
+    "awe-fear",
+    "commandments-law",
+    "creator-deity",
+    "divine-transcendence",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "39 | 39",
+   "last_heading": "42 | 42",
+   "semantic_tags": [
+    "creator-deity",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

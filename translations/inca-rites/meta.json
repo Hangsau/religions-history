@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "change-transformation",
+    "calling-vocation",
     "death",
-    "evil-cruelty-empathy",
-    "existence-why-born"
+    "gratitude-contentment",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6e2484fc2e0ad645a374fc2d928274efee699330296830327a2ca4a478a893b2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

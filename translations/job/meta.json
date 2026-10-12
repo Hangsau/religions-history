@@ -54,13 +54,14 @@
     "death",
     "faith-doubt",
     "fear-uncertainty",
-    "guilt-atonement",
-    "honesty-hypocrisy"
+    "justice-power",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8e776c9bed85576f90ab3f52edfe39990fd2f90454f514c48d92e583ec850b43"
+  },
+  "tagging_models": "MiniMax-M3"
 }

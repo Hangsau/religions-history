@@ -3023,11 +3023,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "inca-rites",
-      "name_zh": "印加儀禮與法律",
-      "religion": "印加"
-    },
-    {
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
@@ -3478,16 +3473,6 @@
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
       "religion": "瑣羅亞斯德"
-    },
-    {
-      "slug": "aztec-rva",
-      "name_zh": "阿茲特克儀禮",
-      "religion": "阿茲特克"
-    },
-    {
-      "slug": "bhagavad-gita",
-      "name_zh": "薄伽梵歌",
-      "religion": "印度教"
     },
     {
       "slug": "bhagavata-purana",
@@ -4362,19 +4347,9 @@
       "religion": "瑣羅亞斯德"
     },
     {
-      "slug": "aztec-rva",
-      "name_zh": "阿茲特克儀禮",
-      "religion": "阿茲特克"
-    },
-    {
       "slug": "baopuzi",
       "name_zh": "抱朴子（內外篇）",
       "religion": "道教"
-    },
-    {
-      "slug": "bhagavad-gita",
-      "name_zh": "薄伽梵歌",
-      "religion": "印度教"
     },
     {
       "slug": "bhagavata-purana",
@@ -17026,6 +17001,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "inca-rites",
+      "name_zh": "印加儀禮與法律",
+      "religion": "印加"
+    },
+    {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
@@ -18215,11 +18195,6 @@
     {
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
-      "religion": "印度教"
-    },
-    {
-      "slug": "bhagavad-gita",
-      "name_zh": "薄伽梵歌",
       "religion": "印度教"
     },
     {
@@ -21948,11 +21923,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "inca-rites",
-      "name_zh": "印加儀禮與法律",
-      "religion": "印加"
-    },
-    {
       "slug": "infinite-life-sutra",
       "name_zh": "佛說無量壽經",
       "religion": "佛教"
@@ -22795,11 +22765,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "popol-vuh",
-      "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
-      "religion": "瑪雅"
-    },
-    {
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
       "religion": "錫克教"
@@ -22830,11 +22795,6 @@
       "slug": "aristotle-metaphysics-el",
       "name_zh": "形上學（希臘原文）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "aztec-rva",
-      "name_zh": "阿茲特克儀禮",
-      "religion": "阿茲特克"
     },
     {
       "slug": "bible-1-corinthians",
@@ -23452,16 +23412,6 @@
       "slug": "awakening-of-faith",
       "name_zh": "大乘起信論",
       "religion": "佛教"
-    },
-    {
-      "slug": "aztec-rva",
-      "name_zh": "阿茲特克儀禮",
-      "religion": "阿茲特克"
-    },
-    {
-      "slug": "bhagavad-gita",
-      "name_zh": "薄伽梵歌",
-      "religion": "印度教"
     },
     {
       "slug": "bible-1-corinthians",
@@ -25749,11 +25699,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "popol-vuh",
-      "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
-      "religion": "瑪雅"
-    },
-    {
       "slug": "quran-pickthall",
       "name_zh": "古蘭經 (Pickthall 英譯)",
       "religion": "伊斯蘭"
@@ -26184,6 +26129,11 @@
       "slug": "avesta-sbe31-ae",
       "name_zh": "亞斯納＋維斯佩拉德＋科爾達阿維斯塔（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
+    },
+    {
+      "slug": "aztec-rva",
+      "name_zh": "阿茲特克儀禮",
+      "religion": "阿茲特克"
     },
     {
       "slug": "baudhayana-dharmasutra",
@@ -33877,11 +33827,6 @@
       "religion": "非洲"
     },
     {
-      "slug": "inca-rites",
-      "name_zh": "印加儀禮與法律",
-      "religion": "印加"
-    },
-    {
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
@@ -35402,11 +35347,6 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
-    },
-    {
-      "slug": "inca-rites",
-      "name_zh": "印加儀禮與法律",
-      "religion": "印加"
     },
     {
       "slug": "isha-upanishad",
@@ -38556,6 +38496,11 @@
       "slug": "beidou-yansheng-jing",
       "name_zh": "太上玄靈北斗本命延生真經",
       "religion": "道教"
+    },
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
+      "religion": "印度教"
     },
     {
       "slug": "bible-1-chronicles",
@@ -43763,6 +43708,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "popol-vuh",
+      "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
+      "religion": "瑪雅"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -44072,6 +44022,11 @@
     {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
       "religion": "印度教"
     },
     {
@@ -45184,6 +45139,11 @@
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "aztec-rva",
+      "name_zh": "阿茲特克儀禮",
+      "religion": "阿茲特克"
     },
     {
       "slug": "bible-1-timothy",
@@ -46529,6 +46489,11 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "inca-rites",
+      "name_zh": "印加儀禮與法律",
+      "religion": "印加"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -48318,11 +48283,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "job",
-      "name_zh": "約伯記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -48698,11 +48658,6 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
-    },
-    {
-      "slug": "job",
-      "name_zh": "約伯記",
-      "religion": "猶太教"
     },
     {
       "slug": "lujia-xinyu",
@@ -51078,6 +51033,11 @@
   ],
   "insignificance-history": [
     {
+      "slug": "aztec-rva",
+      "name_zh": "阿茲特克儀禮",
+      "religion": "阿茲特克"
+    },
+    {
       "slug": "bible-ecclesiastes",
       "name_zh": "傳道書",
       "religion": "基督教"
@@ -52595,6 +52555,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
@@ -53591,6 +53556,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "inca-rites",
+      "name_zh": "印加儀禮與法律",
+      "religion": "印加"
+    },
+    {
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
@@ -53959,6 +53929,16 @@
     {
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    },
+    {
+      "slug": "aztec-rva",
+      "name_zh": "阿茲特克儀禮",
+      "religion": "阿茲特克"
+    },
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
       "religion": "印度教"
     },
     {
@@ -57192,6 +57172,16 @@
       "religion": "非洲"
     },
     {
+      "slug": "inca-rites",
+      "name_zh": "印加儀禮與法律",
+      "religion": "印加"
+    },
+    {
+      "slug": "job",
+      "name_zh": "約伯記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
@@ -57230,6 +57220,11 @@
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "popol-vuh",
+      "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
+      "religion": "瑪雅"
     },
     {
       "slug": "samkhya-karika-ishvarakrshna",
@@ -60214,6 +60209,11 @@
     {
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    },
+    {
+      "slug": "bhagavad-gita",
+      "name_zh": "薄伽梵歌",
       "religion": "印度教"
     },
     {
