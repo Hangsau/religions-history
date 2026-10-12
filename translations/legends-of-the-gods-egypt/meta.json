@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
     "calling-vocation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "954c1b1128ce0eb1f11a7cd04fc002b97a2dc2bf3c24f239e8f235825bb35229"
+  },
+  "tagging_models": "MiniMax-M3"
 }

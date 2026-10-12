@@ -84,15 +84,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
     "calling-vocation",
-    "death",
-    "emotions-passions"
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ddd0a397dc07499d8ffe05ba4bf4406d115c7e42c5724fdc2a43fc17f7eb4d93"
+  },
+  "tagging_models": "MiniMax-M3"
 }
