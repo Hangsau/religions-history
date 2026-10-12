@@ -81,15 +81,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "body-mind",
     "calling-vocation",
-    "change-transformation"
+    "honesty-hypocrisy",
+    "responsibility-leadership",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "33df2147f87fb17ab20490d0ad338940d582ce6aa4918e5c85ffe96f409829cc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

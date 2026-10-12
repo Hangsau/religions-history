@@ -76,15 +76,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "courage"
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "memory-reconciliation"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6c99d53f464ac99238a71e3222823d62cee963b722375a78048dc6a8a51f90e4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

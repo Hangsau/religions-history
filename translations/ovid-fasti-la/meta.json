@@ -74,15 +74,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
-    "childhood-wounds"
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "81cbcca9b1feba9eba704e18093a732da7ab28c386a05bf0d99abd59cb8344f2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -1,0 +1,764 @@
+{
+ "schema_version": 1,
+ "slug": "ovid-fasti-la",
+ "chunks_total": 39,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Liber I",
+   "last_heading": "2 | 雅努斯自述",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 與 Janus 論年首之始",
+   "last_heading": "4 | 貨幣・雙門神・和平",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "secular-state",
+    "theophany"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "justice-power",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 歲時記",
+   "last_heading": "6 | 一月十三日 · 維納利亞節",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "7 | 歲時記",
+   "last_heading": "7 | 歲時記",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "8 | 第八段",
+   "last_heading": "8 | 第八段",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "I.10 | Sementiva 祭、卡斯托耳與波魯克斯神廟、卷一末",
+   "last_heading": "2 | Liber II",
+   "semantic_tags": [
+    "goddess-tradition",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "12 | 天琴座隱沒 / 海豚座逃離 / 國父頌",
+   "last_heading": "13 | 第十三段",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "14 | 二月十三日至十五日",
+   "last_heading": "14 | 二月十三日至十五日",
+   "semantic_tags": [
+    "divine-kingship",
+    "patriarchal",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "15 | Faunus 厭衣",
+   "last_heading": "16 | Lupercalia 起源",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "sexual-ethics",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gender-body",
+    "love-sex-intimacy",
+    "play-laughter-lightness"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "17 | Lucina 應允・Aquarius 與雙魚緣起・Quirinus 由來",
+   "last_heading": "17 | Lucina 應允・Aquarius 與雙魚緣起・Quirinus 由來",
+   "semantic_tags": [
+    "divine-transcendence",
+    "goddess-tradition",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "18 | 二月十三日至二十一日：愚人節、亡魂節與塔西塔",
+   "last_heading": "18 | 二月十三日至二十一日：愚人節、亡魂節與塔西塔",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "feminine-divine",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "20 | 界神節慶與塔奎尼烏斯亡命之始",
+   "last_heading": "21 | 第六卷（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "22 | 第二卷中段",
+   "last_heading": "3 | Liber III",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "25 | 三月為歲首之由",
+   "last_heading": "26 | 三月與劫掠薩賓婦女",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "27 | 第 27 段",
+   "last_heading": "28 | Numa 擒 Picus 與 Faunus",
+   "semantic_tags": [
+    "divine-transcendence",
+    "goddess-tradition",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "29 | 三月 — 永火、天象與聖林",
+   "last_heading": "30 | Liber 第三章中段：Veiovis 考源、Pegasus 升天、Ariadne 哀歌",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "love-sex-intimacy",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "31 | 第三卷 505-577",
+   "last_heading": "32 | 第三章（續）",
+   "semantic_tags": [
+    "marriage-sacred",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "33 | 三月 / Anna Perenna / 凱撒",
+   "last_heading": "33 | 三月 / Anna Perenna / 凱撒",
+   "semantic_tags": [
+    "divine-kingship",
+    "goddess-tradition",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "34 | Liber / Bacchus 故事",
+   "last_heading": "35 | 第六卷選段",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "gratitude-contentment",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "36 | 第三十日（已刪節之第六卷殘段，內容延續 Helle 與 Phrixus 故事）",
+   "last_heading": "37 | Liber IV",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "38 | Liber IV",
+   "last_heading": "39 | IV.145–217",
+   "semantic_tags": [
+    "feminine-divine",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "gratitude-contentment",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "40 | Liber IV, 219–285",
+   "last_heading": "41 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "feminine-divine",
+    "pilgrimage",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gender-body",
+    "guilt-atonement",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "42 | Aprilis IV–V（獅子座、穀神節）",
+   "last_heading": "43 | 第 4 卷 417–503 行（Persephone 遭劫與 Ceres 尋女）",
+   "semantic_tags": [
+    "goddess-tradition",
+    "liberation-by-knowledge",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "loss-grief",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "44 |",
+   "last_heading": "45 | 四月",
+   "semantic_tags": [
+    "divine-immanence",
+    "goddess-tradition",
+    "pilgrimage",
+    "polytheist",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "hope-reason-to-live",
+    "loss-grief",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "46 |",
+   "last_heading": "47 | 第47段",
+   "semantic_tags": [
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "48 | lib. iv, 790–860",
+   "last_heading": "50 | Book V",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "5 | Liber V",
+   "last_heading": "52 | Maius 第四段（歲時記 V, 1-110）",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "gratitude-contentment",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "53 | 第五章（續）：花神 Flora 自述",
+   "last_heading": "54 | 第五卷（續）",
+   "semantic_tags": [
+    "goddess-tradition",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "55 | <<<>>>",
+   "last_heading": "56 | Liber V",
+   "semantic_tags": [
+    "feminine-divine",
+    "goddess-tradition",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loss-grief",
+    "love-sex-intimacy",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "57 | Remuria 與小妖節（5 月 13–15 日）",
+   "last_heading": "58 | 第五卷續",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "58 | 第五卷續",
+   "last_heading": "59 | 片段",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "justice-power",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "60 | （Book V, fragments around Ides of May）",
+   "last_heading": "6 | Liber VI",
+   "semantic_tags": [
+    "cosmic-egg",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "63 |",
+   "last_heading": "64 | Liber I, 145–200",
+   "semantic_tags": [
+    "divine-kingship",
+    "goddess-tradition",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "65 |",
+   "last_heading": "66 | 第六冊（續）",
+   "semantic_tags": [
+    "feminine-divine",
+    "goddess-tradition",
+    "marriage-sacred",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "67 | 第六十七段",
+   "last_heading": "68 | 第六冊續",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "69 | 段落 69",
+   "last_heading": "70 | 節錄",
+   "semantic_tags": [
+    "divine-kingship",
+    "feminine-divine",
+    "patriarchal",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "giving-generosity",
+    "guilt-atonement",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "71 | libri sexti reliqua",
+   "last_heading": "72 | 六月日曆續",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "73 | 六月最後一日",
+   "last_heading": "73 | 第六卷末段",
+   "semantic_tags": [
+    "goddess-tradition",
+    "lineage-importance",
+    "polytheist",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "marriage-family",
+    "memory-reconciliation",
+    "parenthood"
+   ]
+  }
+ ]
+}
