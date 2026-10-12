@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
-    "change-transformation",
-    "courage",
     "death",
-    "dreams-unconscious"
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "abd01bd6103a4110933d3d7aa49de68561630b434cabe3eb6c9f798074edfc1f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

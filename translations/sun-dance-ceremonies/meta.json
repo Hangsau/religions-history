@@ -81,15 +81,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "85cedef89477d76ab2aa13115a22f1de85fc3a7d14e92b2528ccf793ac965377"
+  },
+  "tagging_models": "MiniMax-M3"
 }

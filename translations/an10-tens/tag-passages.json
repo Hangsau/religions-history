@@ -1,0 +1,1454 @@
+{
+ "schema_version": 1,
+ "slug": "an10-tens",
+ "chunks_total": 80,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | an10.1",
+   "last_heading": "3 | an10.3",
+   "semantic_tags": [
+    "commandments-law",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | an10.4",
+   "last_heading": "6 | an10.6",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "7 | an10.7",
+   "last_heading": "9 | an10.9",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | an10.10",
+   "last_heading": "13 | an10.13",
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "14 | an10.14",
+   "last_heading": "16 | an10.16",
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "17 | an10.17",
+   "last_heading": "17 | 第七",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "humility",
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "18 | an10.18",
+   "last_heading": "19 | an10.19",
+   "semantic_tags": [
+    "commandments-law",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "20 | an10.20",
+   "last_heading": "21 | an10.21",
+   "semantic_tags": [
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "24 | 如來十力之結",
+   "last_heading": "26 | Dutiyaṁ",
+   "semantic_tags": [
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "reincarnation",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "23 | an10.23",
+   "last_heading": "28 | Tatiyaṁ",
+   "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "monastic",
+    "monotheist-exclusive",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "24 | an10.24",
+   "last_heading": "31 | 第四",
+   "semantic_tags": [
+    "essentially-flawed",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "25 | an10.25",
+   "last_heading": "33 | an10.27",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "34 | 一至四法",
+   "last_heading": "28 | an10.28",
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "38 | 世尊印可",
+   "last_heading": "29 | an10.29",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "40 | 遍處第四至第八並四道",
+   "last_heading": "42 | an10.30",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "43 | 佛德頌",
+   "last_heading": "36 | an10.36",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "reincarnation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "gratitude-contentment",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "37 | an10.37",
+   "last_heading": "41 | an10.41",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "monastic"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "42 | an10.42",
+   "last_heading": "45 | an10.45",
+   "semantic_tags": [
+    "commandments-law",
+    "commandments-law",
+    "commandments-law",
+    "commandments-law",
+    "commandments-law",
+    "commandments-law",
+    "commandments-law",
+    "commandments-law"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "46 | an10.46",
+   "last_heading": "48 | an10.48",
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "49 | an10.49",
+   "last_heading": "58 | 第十誦、罵品第五",
+   "semantic_tags": [
+    "commandments-law",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "communication-being-understood",
+    "ingroup-outgroup-prejudice",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "51 | an10.51",
+   "last_heading": "53 | an10.53",
+   "semantic_tags": [
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "63 | 第三",
+   "last_heading": "4 | 第四",
+   "semantic_tags": [
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "55 | an10.55",
+   "last_heading": "58 | an10.58",
+   "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "70 | an10.59",
+   "last_heading": "70 | an10.59",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "60 | an10.60",
+   "last_heading": "60 | an10.60",
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "meditation",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "72 | 十想續",
+   "last_heading": "73 | 自心品第一結頌",
+   "semantic_tags": [
+    "breath-control",
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "61 | an10.61",
+   "last_heading": "61 | an10.61",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "62 | an10.62",
+   "last_heading": "62 | an10.62",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "63 | an10.63",
+   "last_heading": "67 | an10.67",
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "81 | Sattamaṁ 第七",
+   "last_heading": "83 | AN10 第十法 · 第八",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "existence-why-born",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "69 | an10.69",
+   "last_heading": "70 | an10.70",
+   "semantic_tags": [
+    "chanting",
+    "congregational",
+    "humility",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "71 | an10.71",
+   "last_heading": "74 | an10.74",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "gratitude-contentment",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "75 | an10.75",
+   "last_heading": "75 | an10.75",
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "reincarnation"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "four-noble-truths",
+    "lay-practitioner",
+    "monastic",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "90 | 不可衡量人",
+   "last_heading": "91 | AN10 91",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "76 | an10.76",
+   "last_heading": "76 | an10.76",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "94 | 第六",
+   "last_heading": "80 | an10.80",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "emotions-passions",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "81 | an10.81",
+   "last_heading": "98 | an10.98",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "83 | an10.83",
+   "last_heading": "84 | an10.84",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "emotions-passions",
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "85 | an10.85",
+   "last_heading": "85 | an10.85",
+   "semantic_tags": [
+    "commandments-law",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "meditation",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "perfectionism-self-criticism"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 44,
+   "first_heading": "103 | 第五",
+   "last_heading": "86 | an10.86",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "perfectionism-self-criticism",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "87 | an10.87",
+   "last_heading": "107 | AN10 ||",
+   "semantic_tags": [
+    "extinction-of-self",
+    "humility",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "courage",
+    "emotions-passions",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "108 | Sattamaṁ",
+   "last_heading": "89 | an10.89",
+   "semantic_tags": [
+    "commandments-law",
+    "liberation-by-knowledge",
+    "monastic",
+    "ritual-practice",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "death",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "9 | 第九",
+   "last_heading": "9 | 第九",
+   "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "90 | an10.90",
+   "last_heading": "113 | an10.91",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "114 | 感官享受者的七種組合",
+   "last_heading": "116 | 欲樂人第一結",
+   "semantic_tags": [
+    "economic-justice",
+    "lay-practitioner",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "freewill-fate-choice",
+    "giving-generosity",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "92 | an10.92",
+   "last_heading": "118 | 第二",
+   "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "93 | an10.93",
+   "last_heading": "121 | 第三",
+   "semantic_tags": [
+    "asceticism",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "non-dual",
+    "suffering-as-purifying",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "94 | an10.94",
+   "last_heading": "95 | an10.95",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "125 | 第五品",
+   "last_heading": "129 | 第七經（Sattamaṁ）",
+   "semantic_tags": [
+    "enlightenment",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "freewill-fate-choice",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "98 | an10.98",
+   "last_heading": "99 | an10.99",
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "132",
+   "last_heading": "132",
+   "semantic_tags": [
+    "celibate-tradition",
+    "monastic",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "economic-justice",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "133 | 第二階：戒蘊、根律儀、正知、與初禪",
+   "last_heading": "102 | an10.102",
+   "semantic_tags": [
+    "commandments-law",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "103 | an10.103",
+   "last_heading": "106 | an10.106",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "107 | an10.107",
+   "last_heading": "108 | an10.108",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "109 | an10.109",
+   "last_heading": "113 | an10.113",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "114 | an10.114",
+   "last_heading": "147 | 阿難分別十對",
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "four-noble-truths",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "148 | 第三",
+   "last_heading": "118 | an10.118",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "119 | an10.119",
+   "last_heading": "123 | an10.123",
+   "semantic_tags": [
+    "commandments-law",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "124 | an10.124",
+   "last_heading": "138 | an10.138",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "139 | an10.139",
+   "last_heading": "156 | an10.156-166",
+   "semantic_tags": [
+    "four-noble-truths",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "157 | an10.167",
+   "last_heading": "159 | an10.169",
+   "semantic_tags": [
+    "commandments-law",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "160 | an10.170",
+   "last_heading": "161 | an10.171",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "163 | an10.172",
+   "last_heading": "163 | an10.172",
+   "semantic_tags": [
+    "commentarial-layer",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "164 | AN10.69 大迦旃延答諸比丘",
+   "last_heading": "164 | AN10.69 大迦旃延答諸比丘",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "monastic",
+    "oral-tradition",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "living-with-unknown",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "163 | an10.173",
+   "last_heading": "166 | an10.176",
+   "semantic_tags": [
+    "commandments-law",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "freewill-fate-choice",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "169 | 十不善業道結論與身口善",
+   "last_heading": "69 | an10.69 Cunda Kammāraputta Sutta",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "karma-rebirth",
+    "liberation-by-works",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "167 | an10.177",
+   "last_heading": "173 | Jāṇussoṇi 品第二 終",
+   "semantic_tags": [
+    "ancestor-worship",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "168 | an10.178",
+   "last_heading": "183 | an10.193",
+   "semantic_tags": [
+    "commandments-law",
+    "liberation-by-works",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "184 | an10.194",
+   "last_heading": "179 | 第一誦（終）",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "karma-rebirth",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "191 | an10.212 第二地獄天經",
+   "last_heading": "194 | an10.215",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "lay-practitioner",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": "195 | an10.216",
+   "last_heading": "195 | an10.216",
+   "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "heaven-hell",
+    "karma-rebirth",
+    "reincarnation",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "196 | an10.217",
+   "last_heading": "185 | AN10 三身・四語・三意業",
+   "semantic_tags": [
+    "commandments-law",
+    "four-noble-truths",
+    "karma-rebirth",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "186 | 業分別第七",
+   "last_heading": "198 | an10.219",
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "meditation",
+    "reincarnation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "190 | an10.220",
+   "last_heading": "202 | an10.223",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "karma-rebirth",
+    "non-violence",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "203 | an10.224",
+   "last_heading": "211 | an10.267-746",
+   "semantic_tags": [
+    "commandments-law",
+    "enlightenment",
+    "heaven-hell",
+    "karma-rebirth",
+    "meditation",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "freewill-fate-choice",
+    "who-am-i"
+   ]
+  }
+ ]
+}

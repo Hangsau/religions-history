@@ -89,14 +89,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "courage",
     "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ccf59af447a0c4be15d9cb69f693778112b14f7e9d0c6f4767d26b6fa8bd6930"
+  },
+  "tagging_models": "MiniMax-M3"
 }

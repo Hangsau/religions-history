@@ -1,0 +1,1422 @@
+{
+ "schema_version": 1,
+ "slug": "chilam-balam",
+ "chunks_total": 89,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Title Page",
+   "last_heading": "4 | Plate 1",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | 插圖目錄",
+   "last_heading": "6 | 插圖說明",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | Introduction",
+   "last_heading": "9 | 第一篇",
+   "semantic_tags": [
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | 第一章第三節 · 抄本之傳遞（續）",
+   "last_heading": "12 | 譯者前言（續）",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "multiple-canons",
+    "oral-tradition",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "13 | 翻譯可行性與手稿說明",
+   "last_heading": "15 |",
+   "semantic_tags": [
+    "oral-tradition",
+    "syncretic",
+    "vernacular-translation"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": "16 | Translator's Note",
+   "last_heading": "16 | Translator's Note",
+   "semantic_tags": [
+    "commentarial-layer",
+    "multiple-canons",
+    "oral-tradition",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 7,
+   "first_heading": "17 | 手稿對照表",
+   "last_heading": "17 | 手稿對照表",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 8,
+   "first_heading": "18 | I: 四方位之禮",
+   "last_heading": "19 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 9,
+   "first_heading": "64 | 第四十七章 · 註解續（節錄）",
+   "last_heading": "66 | 註腳 66",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "8 | II. The Rise of Hunac Ceel to Power",
+   "last_heading": "23 | 旅程地名記",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "24 | 第七頁 C 段",
+   "last_heading": "25 |",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "lineage-importance",
+    "priesthood",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "26 | 第十三個紀元 · 卡敦 8 Ahau",
+   "last_heading": "27 | 註解：66:9 — 67:2",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "28 | 註解：Chac-xib-chac 與 canhel",
+   "last_heading": "29 | 第三部註釋（68:1–70:5）",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 14,
+   "first_heading": "30 | 註解 70:6 — 72:11",
+   "last_heading": "30 | 註解 70:6 — 72:11",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 15,
+   "first_heading": "31 | 第七十二至七十四章註釋",
+   "last_heading": "32 | 註腳（74:12–76:8）",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "33 | 第七十六章註解續",
+   "last_heading": "35 | 第78–79節",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "10 | IV: The Building of the Mounds",
+   "last_heading": "11 | V: 關於猶加坦歷史的備忘錄",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "39 | 第39段",
+   "last_heading": "81 | Notes on Chapter 81",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "cyclic-cosmos",
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "hope-reason-to-live",
+    "ingroup-outgroup-prejudice",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "41 | 註釋彙編（續）",
+   "last_heading": "12 | VI: Notes on the Calendar",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "13 | VII: The Armorial Bearings Of Yucatan",
+   "last_heading": "47 | IX: The Interrogation of the Chiefs",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "divine-kingship",
+    "oral-tradition",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "48 | 第四至第七問",
+   "last_heading": "48 | 第四至第七問",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "51 | Untitled",
+   "last_heading": "52 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "mystical-union",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "53 |",
+   "last_heading": "54 |",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "multiple-canons",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "55 | 頁 91–95 註腳",
+   "last_heading": "98:1",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 26,
+   "first_heading": "57 | （章節標題待補）",
+   "last_heading": "60 |",
+   "semantic_tags": [
+    "apocalypse",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "61 | Bolon-ti-ku 之災期",
+   "last_heading": "99 | 註腳",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "divine-kingship",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "64 | 註解續：金星之神、宇舶開因等",
+   "last_heading": "65 | 102:3–103:7 註腳群",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cosmic-egg",
+    "divine-immanence",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "66 | 註釋段",
+   "last_heading": "68 | 106:7 — alternative",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "68 | 107:1 — alternative",
+   "last_heading": "70 | 頁 50–51",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "multiple-canons",
+    "mystical-union",
+    "syncretic",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "71 |",
+   "last_heading": "72 | 第72段",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "multiple-souls",
+    "prophetic-revelation",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "107 | 註釋",
+   "last_heading": "111:2",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 33,
+   "first_heading": "75 | 註釋集",
+   "last_heading": "77 | 第 114 節續 / 註釋",
+   "semantic_tags": [
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "ritual-practice",
+    "syncretic",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "78 | 註釋",
+   "last_heading": "79 | 註釋續",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "oral-tradition",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 35,
+   "first_heading": "115 | 註解 115",
+   "last_heading": "19 | XIII: The Creation of the Uinal",
+   "semantic_tags": [
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "cyclic-cosmos",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "80 | 第四章 · 創世與曆法設立（續）",
+   "last_heading": "116 | 第116-119節 註釋彙編",
+   "semantic_tags": [
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "cyclic-cosmos",
+    "multiple-canons",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "20 | XIV: A HISTORY OF THE SPANISH CONQUEST",
+   "last_heading": "84 | XV: The Prophecy of Chilam Balam and the Story of Antonio Martinez",
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "85 | 第85段",
+   "last_heading": "87 | 註解集（續）",
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "88 | 註釋段落（121:8 – 123:3）",
+   "last_heading": "90 | now returned to their homes again",
+   "semantic_tags": [
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "91 | XVI: A Chapter of Questions and Answers",
+   "last_heading": "93 | Chumayel 第 93 段",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "mystical-union",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "nature-animals-ecology",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "125 | 註釋續",
+   "last_heading": "95 | 註釋段落 (127:4–128:11)",
+   "semantic_tags": [
+    "commentarial-layer",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "96 | Notes 129:1 – 130:13",
+   "last_heading": "24 | XVIII: A Series of Katun-Prophecies",
+   "semantic_tags": [
+    "chanting",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "mystical-union",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "99 | Notes 133:1 — 133:14",
+   "last_heading": "100 | 註解集",
+   "semantic_tags": [
+    "apocalypse",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "polytheist",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 44,
+   "first_heading": "101 | XIX: The First Chronicle",
+   "last_heading": "102 | 135:2-136:1",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "103 | 註釋段落 (136:2 – 138:3)",
+   "last_heading": "104 | 註釋段落",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "26 | XX: The Second Chronicle",
+   "last_heading": "106 | Notes on Chapters 139-140",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "multiple-canons",
+    "oral-tradition",
+    "syncretic",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "27 | XXI: The Third Chronicle",
+   "last_heading": "108 | 註解與跋",
+   "semantic_tags": [
+    "apocalypse",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "oral-tradition",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "109 | 註釋續（142:4–143:3）",
+   "last_heading": "28 | XXII: 卡特恩預言之書",
+   "semantic_tags": [
+    "apocalypse",
+    "cyclic-cosmos",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "112 | 第 112 段",
+   "last_heading": "113 | p. 88 B–C",
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "multiple-canons",
+    "prophetic-revelation",
+    "syncretic",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "114 | 第七節續／第八卡敦後段",
+   "last_heading": "115 | Katun 4 Ahau 與 3 Ahau",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "116 | 禒卷續篇",
+   "last_heading": "117 | 段落 117",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "other-power",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "faith-doubt",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "118 | 第十二個 katun 之末段 — Zaclahtun 之 katun；第十三個 katun 之起；Chable 之 katun；Izamal 之 katun；Uxmal 之 katun 起段",
+   "last_heading": "119 | p. 99 C – p. 102 C（Katun 4 Ahau 等）",
+   "semantic_tags": [
+    "apocalypse",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "salvation-by-faith",
+    "syncretic",
+    "theocracy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "120 | 註解：第 145–146 章各段落",
+   "last_heading": "121 | 147:1-148:4 註釋",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "polytheist",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 54,
+   "first_heading": "122 | 註釋段落 148-151",
+   "last_heading": "152:10 | Xulab",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "152:10 | Xulab",
+   "last_heading": "154:8",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "154:9",
+   "last_heading": "155:6",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "126 | 註腳 155:7 – 157:2",
+   "last_heading": "127 | Notes 157–158",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "created-in-image",
+    "feminine-divine",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "128 | 註釋段（158:9–159:9）",
+   "last_heading": "163:2",
+   "semantic_tags": [
+    "commentarial-layer",
+    "polytheist",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 59,
+   "first_heading": "29 | XXIII: The Last Judgment",
+   "last_heading": "134 | Natzin Yabun Chan 預言 · Chilam Balam（Cabachen, Mani）",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "syncretic",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "135 | p. 107 C",
+   "last_heading": "136 | 166:2",
+   "semantic_tags": [
+    "apocalypse",
+    "monotheist-exclusive",
+    "priesthood",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "sacred-language",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "166 | 註解集",
+   "last_heading": "168:5",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "inclusive-monotheism",
+    "priesthood",
+    "prophetic-revelation",
+    "revealed-text",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "faith-doubt",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "168:6",
+   "last_heading": "31 | Appendix A: The Four World-Quarters",
+   "semantic_tags": [
+    "polytheist",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 63,
+   "first_heading": "141 | Bacabs 與 Pauahtuns 的關係",
+   "last_heading": "32 | Appendix B: The Sacrificial Cenote at Chichen Itza",
+   "semantic_tags": [
+    "ancestor-worship",
+    "pilgrimage",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "144 |",
+   "last_heading": "145 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "pilgrimage",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "146 | 奇琴伊察聖井 — 註釋頁",
+   "last_heading": "146 | 奇琴伊察聖井 — 註釋頁",
+   "semantic_tags": [
+    "commentarial-layer",
+    "pilgrimage",
+    "polytheist",
+    "priesthood",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 66,
+   "first_heading": "33 | Appendix C: The Hunac Ceel Episode",
+   "last_heading": "148 | 段落 148",
+   "semantic_tags": [
+    "divine-kingship",
+    "messianism",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "149 | 段落",
+   "last_heading": "150 | 註釋頁 (177–181)",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "34 | Appendix D: The Maya Prophecies",
+   "last_heading": "153 | 關於 katun 預言的記述",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "oral-tradition",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "154 | 第十三卡盾預言之來源",
+   "last_heading": "156 | 註釋",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "messianism",
+    "multiple-canons",
+    "oral-tradition",
+    "prophetic-revelation",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 70,
+   "first_heading": "35 | Appendix E: Traditions of Caste and Chieftainship Among the Maya",
+   "last_heading": "158 |",
+   "semantic_tags": [
+    "caste-system",
+    "divine-kingship",
+    "lineage-importance",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "159 | 地方治理與 halach-uinic 的權力",
+   "last_heading": "161 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "162 | Mayapan 之聯合政府",
+   "last_heading": "163 | 第 163 段",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "lineage-importance",
+    "multiple-canons",
+    "syncretic",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "164 | 註腳 (Footnotes 188–194)",
+   "last_heading": "165 | 註腳片段",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 74,
+   "first_heading": "36 | Appendix F: Toltec Military Orders in Yucatan",
+   "last_heading": "36 | Appendix F: Toltec Military Orders in Yucatan",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "divine-kingship",
+    "lineage-importance",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "167 | halach-uinics 與 teuctli 的類比",
+   "last_heading": "167 | halach-uinics 與 teuctli 的類比",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 77,
+   "first_heading": "168 | 動物象徵（二）",
+   "last_heading": "169 | 註腳 196:1 – 198:5",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "courage"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "170 | Notes 199–200",
+   "last_heading": "172 | 第 172 段",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "173 |",
+   "last_heading": "173 |",
+   "semantic_tags": [
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "175 | Appendix H: Chronological Summary",
+   "last_heading": "175 | Appendix H: Chronological Summary",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 81,
+   "first_heading": "39 | Bibliography",
+   "last_heading": "39 | Bibliography",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 82,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 83,
+   "first_heading": "178 | 書目 (續)",
+   "last_heading": "178 | 書目 (續)",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 84,
+   "first_heading": "179 | Bibliography (continued)",
+   "last_heading": "179 | Bibliography (continued)",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 85,
+   "first_heading": "180 | 文獻目錄（節錄）",
+   "last_heading": "180 | 文獻目錄（節錄）",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 86,
+   "first_heading": "181 | Bibliography: Manuscripts and Secondary Sources",
+   "last_heading": "181 | Bibliography: Manuscripts and Secondary Sources",
+   "semantic_tags": [
+    "commentarial-layer",
+    "multiple-canons",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 87,
+   "first_heading": "182 | 參考書目（續）",
+   "last_heading": "182 | 參考書目（續）",
+   "semantic_tags": [
+    "commentarial-layer",
+    "multiple-canons",
+    "oral-tradition",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 88,
+   "first_heading": "183 | 文獻引用（續）",
+   "last_heading": "183 | 文獻引用（續）",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 89,
+   "first_heading": "184 | Bibliography / Footnotes",
+   "last_heading": "186 | Errata",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  }
+ ]
+}

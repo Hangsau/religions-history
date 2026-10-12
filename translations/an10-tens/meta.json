@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation"
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "593a12ab3281e7a6726e7ab3c38a43b8e5e1882e36be2dc8946d0cf49427a50f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
