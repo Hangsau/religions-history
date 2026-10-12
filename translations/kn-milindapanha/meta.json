@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "1a8c7a042d26d0d8ba537d8dd663879c62f3d8eed7e60a4e2931f0e387a256ef"
+  },
+  "tagging_models": "MiniMax-M3"
 }
