@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "boundaries-self-worth",
     "calling-vocation",
-    "communication-being-understood",
-    "courage"
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "c594f240fe070d436bad2c9185e1d3c75afe74c5a054d05a74b9cfb75174753e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

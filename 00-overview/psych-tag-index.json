@@ -86,11 +86,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "bible-proverbs",
-      "name_zh": "箴言",
-      "religion": "基督教"
-    },
-    {
       "slug": "book-of-poetry",
       "name_zh": "詩經",
       "religion": "儒教"
@@ -3705,11 +3700,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "gheranda-samhita",
-      "name_zh": "格蘭達本集",
-      "religion": "印度教"
-    },
-    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -6854,11 +6844,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-proverbs",
-      "name_zh": "箴言",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-song-of-songs",
       "name_zh": "雅歌",
       "religion": "基督教"
@@ -9056,11 +9041,6 @@
     {
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-mark",
-      "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -16726,11 +16706,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "ksitigarbha-sutra",
-      "name_zh": "地藏菩薩本願經",
-      "religion": "佛教"
-    },
-    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -17770,11 +17745,6 @@
     {
       "slug": "bible-luke",
       "name_zh": "路加福音",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-mark",
-      "name_zh": "馬可福音",
       "religion": "基督教"
     },
     {
@@ -21283,11 +21253,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "gheranda-samhita",
-      "name_zh": "格蘭達本集",
-      "religion": "印度教"
-    },
-    {
       "slug": "gisla-saga-on",
       "name_zh": "吉斯利薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -22142,11 +22107,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-proverbs",
-      "name_zh": "箴言",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-song-of-songs",
       "name_zh": "雅歌",
       "religion": "基督教"
@@ -22721,16 +22681,6 @@
     {
       "slug": "bible-judges",
       "name_zh": "士師記",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-mark",
-      "name_zh": "馬可福音",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-proverbs",
-      "name_zh": "箴言",
       "religion": "基督教"
     },
     {
@@ -32822,11 +32772,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-mark",
-      "name_zh": "馬可福音（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "vulgate-psalms",
       "name_zh": "詩篇（武加大）",
       "religion": "基督教"
@@ -36826,11 +36771,6 @@
       "religion": "巴哈伊"
     },
     {
-      "slug": "ksitigarbha-sutra",
-      "name_zh": "地藏菩薩本願經",
-      "religion": "佛教"
-    },
-    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -37398,6 +37338,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-nahum",
       "name_zh": "那鴻書",
       "religion": "基督教"
@@ -37410,6 +37355,11 @@
     {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
       "religion": "基督教"
     },
     {
@@ -42858,6 +42808,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
       "religion": "基督教"
@@ -43243,11 +43198,6 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
-    },
-    {
-      "slug": "ksitigarbha-sutra",
-      "name_zh": "地藏菩薩本願經",
-      "religion": "佛教"
     },
     {
       "slug": "navajo-myths",
@@ -47233,6 +47183,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -47457,6 +47412,11 @@
     {
       "slug": "bible-malachi",
       "name_zh": "瑪拉基書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
       "religion": "基督教"
     },
     {
@@ -49817,6 +49777,11 @@
       "slug": "cbeta-X14n0290",
       "name_zh": "楞嚴經直指科文",
       "religion": "佛教"
+    },
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
     },
     {
       "slug": "guanyin-zi",
@@ -52836,6 +52801,11 @@
       "religion": "神道"
     },
     {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -53352,6 +53322,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-mark",
+      "name_zh": "馬可福音",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-micah",
       "name_zh": "彌迦書",
       "religion": "基督教"
@@ -53369,6 +53344,11 @@
     {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
       "religion": "基督教"
     },
     {
@@ -56622,6 +56602,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ksitigarbha-sutra",
+      "name_zh": "地藏菩薩本願經",
+      "religion": "佛教"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -56949,6 +56934,11 @@
     {
       "slug": "vulgate-malachi",
       "name_zh": "瑪拉基書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-mark",
+      "name_zh": "馬可福音（武加大）",
       "religion": "基督教"
     },
     {
@@ -59346,6 +59336,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "gheranda-samhita",
+      "name_zh": "格蘭達本集",
+      "religion": "印度教"
     },
     {
       "slug": "hatha-yoga-pradipika",
@@ -61967,6 +61962,11 @@
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
+    },
+    {
+      "slug": "bible-proverbs",
+      "name_zh": "箴言",
+      "religion": "基督教"
     },
     {
       "slug": "brahma-sutra",

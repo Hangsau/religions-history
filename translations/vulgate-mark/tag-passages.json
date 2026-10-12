@@ -1,0 +1,226 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-mark",
+ "chunks_total": 11,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Evangelium Secundum Marcum",
+   "last_heading": "1 | 第一章 32-45",
+   "semantic_tags": [
+    "compassion",
+    "messianism",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "spirit-possession",
+    "synagogue-mosque-style",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | 第二章 1-17",
+   "last_heading": "2 | 第二章 1-17",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "forgiveness",
+    "messianism",
+    "ritual-practice",
+    "synagogue-mosque-style"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "4 | 第四章",
+   "last_heading": "4 | 第四章",
+   "semantic_tags": [
+    "evil-as-deception",
+    "forgiveness",
+    "other-power",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "faith-doubt",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "evil-as-deception",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "5 | 第四部分",
+   "last_heading": "7 | 第七段",
+   "semantic_tags": [
+    "messianism",
+    "prophetic-revelation",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "8",
+   "last_heading": "10 | 第七章後半至第八章前半",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "compassion",
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "11 | 第八章 22–第九章 9",
+   "last_heading": "10 | 第十章",
+   "semantic_tags": [
+    "apocalypse",
+    "fasting",
+    "marriage-sacred",
+    "messianism",
+    "prayer",
+    "salvation-by-faith",
+    "sexual-ethics",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "11 |",
+   "last_heading": "14 |",
+   "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "liberation-by-devotion",
+    "messianism",
+    "prayer",
+    "salvation-by-faith",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "16 | 第十六段",
+   "last_heading": "18 | 第十三章",
+   "semantic_tags": [
+    "apocalypse",
+    "forgiveness",
+    "inclusive-monotheism",
+    "mandate-of-heaven",
+    "messianism",
+    "prayer",
+    "secular-state",
+    "synagogue-mosque-style",
+    "temple-centered",
+    "theodicy",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "19 | 論末世",
+   "last_heading": "21 |",
+   "semantic_tags": [
+    "apocalypse",
+    "forgiveness",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "22 |",
+   "last_heading": "23 | 第十六章（續）",
+   "semantic_tags": [
+    "compassion",
+    "forgiveness",
+    "messianism",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

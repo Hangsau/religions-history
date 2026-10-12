@@ -62,14 +62,15 @@
   "tag_status": "done",
   "psych_tags": [
     "aging-time",
-    "beauty-wonder-transcendent-moment",
     "body-mind",
-    "change-transformation",
-    "death"
+    "death",
+    "illness-body",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "79e22cac35d04b8aaa076f4db95062b83dc6b5bc61fe7715da304ad7662f6180"
+  },
+  "tagging_models": "MiniMax-M3"
 }

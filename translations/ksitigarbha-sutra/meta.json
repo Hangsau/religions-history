@@ -55,15 +55,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "death",
-    "faith-doubt",
     "fear-uncertainty",
-    "freewill-fate-choice"
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2834fac627d87673ce1db9f66a26d68a9733f505557e4ca8c513c77c59739c60"
+  },
+  "tagging_models": "MiniMax-M3"
 }
