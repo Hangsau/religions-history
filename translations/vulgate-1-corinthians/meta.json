@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
     "boundaries-self-worth",
     "calling-vocation",
-    "courage",
-    "death"
+    "ingroup-outgroup-prejudice",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "38912ce99faa25ee2ce6b1b52d0e5c042b11328a5d0ac3915c945e8b44dd83a7"
+  },
+  "tagging_models": "MiniMax-M3"
 }
