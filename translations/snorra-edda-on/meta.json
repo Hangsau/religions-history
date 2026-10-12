@@ -86,15 +86,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
     "courage",
     "death",
-    "evil-cruelty-empathy"
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "07eb3617750756c7f2513fa286d3c2a5b5cae622e235ac8604c738c175e47a76"
+  },
+  "tagging_models": "MiniMax-M3"
 }
