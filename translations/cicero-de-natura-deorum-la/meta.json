@@ -77,15 +77,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "calling-vocation",
-    "death",
-    "evil-cruelty-empathy"
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "805370b8720e4ad1703178752e23146ca00de43699a78ed49324a01d5db7f76f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -49,15 +49,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
-    "courage"
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "23f570391edb00298e342c1c39e39f529355fdd7de060d01d81a76ef3bbbecad"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -1,0 +1,841 @@
+{
+ "schema_version": 1,
+ "slug": "volsunga-saga",
+ "chunks_total": 49,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 扉頁",
+   "last_heading": "3 |",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 |",
+   "last_heading": "5 | 第 5 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 冰島殖民背景",
+   "last_heading": "8 | 宇宙起源",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | 世界之創造",
+   "last_heading": "10 | 第十段",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | 第二章前段：冰島社會",
+   "last_heading": "13 | 註腳與詩歌傳統",
+   "semantic_tags": [
+    "oral-tradition",
+    "prayer",
+    "priesthood",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "14 | 緒論續",
+   "last_heading": "15 | 前言續",
+   "semantic_tags": [
+    "accept-fate",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "16 | Introduction (continued)",
+   "last_heading": "3 | Translators' Preface",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "18 | 序文（續）",
+   "last_heading": "4 | Chapter I: Of Sigi, the Son of Odin.",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "5 | Chapter II: Of the Birth of Volsung, the Son of Rerir, who was the Son of Sigi.",
+   "last_heading": "24 | 第 24 段",
+   "semantic_tags": [
+    "divine-immanence",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "25 | Chapter IV: How King Siggeir wedded Signy, and bade King Volsung and his son to Gothland.",
+   "last_heading": "8 | Chapter V: Of the Slaying of King Volsung.",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "27 |",
+   "last_heading": "30 | 雷金與芙蕾雅",
+   "semantic_tags": [
+    "accept-fate",
+    "chaos-to-order",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "11 | Chapter VIII: The Death of King Siggeir and of Stigny.",
+   "last_heading": "33 | 西格蒙德與辛菲特利逃出墓冢",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "spirit-possession",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "34 | Helgi Hundingsbane",
+   "last_heading": "36 | Sinfjotli 與 Granmar 之罵戰",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "37 | Helgi and Sigrun",
+   "last_heading": "41 | 戰場上的一個穿藍斗篷之人",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "15 | 第十二章：寶劍格拉姆的斷片，及希約迪斯如何投奔阿爾夫王",
+   "last_heading": "43 |",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "44 | Chapter XIII: Of the Birth and Waxing of Sigurd Fafnir's-bane.",
+   "last_heading": "44 | Chapter XIII: Of the Birth and Waxing of Sigurd Fafnir's-bane.",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "feminine-divine",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "45 | Regin 勸說 Sigurd 去殺 Fafnir",
+   "last_heading": "47 | Regin 向 Sigurd 訴說家史；要求鑄劍",
+   "semantic_tags": [],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "18 | Chapter XV: Of the Welding together of the Shards of the Sward Gram.",
+   "last_heading": "20 | Chapter XVII: Of Sigurd's Avenging of Sigmund his Father.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "51 | 第五章：再戰洪丁之子",
+   "last_heading": "53 | Chapter XVIII: Of the Slaying of the Worm Fafnir.",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "54 | 與法夫尼爾的對話續",
+   "last_heading": "57 | 西格urd斬雷金；啄木鳥之歌；西格urd取法夫尼爾之寶藏",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "23 | Chapter XX: Of Sigurd's Meeting with Brynhild on the Mountain",
+   "last_heading": "60 |",
+   "semantic_tags": [
+    "mystical-union",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "love-sex-intimacy",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "24 | Chapter XXI: More Wise Words of Brynhild.",
+   "last_heading": "26 | Chapter XXIII: Sigurd comes to Hlymdale.",
+   "semantic_tags": [
+    "against-idolatry",
+    "marriage-sacred",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "27 | Chapter XXIV: Sigurd sees Brynhild at Hlymdale.",
+   "last_heading": "28 | 第二十五章：久居基（Gudrun）—— 鳩齊之女——的夢",
+   "semantic_tags": [
+    "marriage-sacred",
+    "patriarchal",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loneliness-belonging",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "67 | 古德龍與布倫希爾特論夢",
+   "last_heading": "69",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "freewill-fate-choice",
+    "loss-grief",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "30 | Chapter XXVII: The Wooing of Brynhild.",
+   "last_heading": "71 | Sigurd 揭露真相",
+   "semantic_tags": [
+    "marriage-sacred",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "love-sex-intimacy",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "31 | Chapter XXVIII: How the Queens held angry converse together at the Bathing.",
+   "last_heading": "73 | 古德隆與布倫希爾德之爭",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "32 | Chapter XXIX: Of Brynhild's great Grief and Mourning.",
+   "last_heading": "75 | 第七十五段",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "marriage-sacred",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "76 |",
+   "last_heading": "33 | Chapter XXX: Of the Slaying of Sigurd Fafnir's-bane.",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "79 | 第五章　西居德之死",
+   "last_heading": "82 | 古德龍之歌第一首",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "35 | Chapter XXXII: Of the Ending of Brynhild.",
+   "last_heading": "36 | Chapter XXXIII: Gudrun wedded to Alii.",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "marriage-sacred",
+    "patriarchal",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "86 | 第86段",
+   "last_heading": "88 | Vingi 的提議與 Guthrun 的警告符文",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "38 | Chapter XXXV: The Dreams of the Wives of the Giukings.",
+   "last_heading": "91 | 第二十九章（續）",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "40 | Chapter XXXVII: The Battle in the Burg of King Atli.",
+   "last_heading": "95 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "42 | 第三十九章：阿特利及其親族與屬下的結局",
+   "last_heading": "43 | Chapter XL: How Gudrun cast herself into the Sea, but was brought ashore again.",
+   "semantic_tags": [
+    "accept-fate",
+    "evil-as-deception",
+    "marriage-sacred",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "44 | Chapter XLI: Of the Wedding and Slaying of Swanhild.",
+   "last_heading": "46 | Chapter XLIII: The Latter End of all the Kin of the Giukings.",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "evil-as-deception",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "47 | Appendix I: Part Of The Second Lay Of Helgi Hundings-Bane",
+   "last_heading": "47 | Appendix I: Part Of The Second Lay Of Helgi Hundings-Bane",
+   "semantic_tags": [
+    "accept-fate",
+    "cosmic-egg",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "105 | 第二夜·西格魯恩再訪塚墓",
+   "last_heading": "105 | 第二夜·西格魯恩再訪塚墓",
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "106 | （續前段：〈卡拉之歌〉片段註解）",
+   "last_heading": "49 | Appendix III: The Lay Called The Short Lay Of Sigurd",
+   "semantic_tags": [
+    "commandments-law",
+    "reincarnation",
+    "ritual-practice",
+    "sexual-ethics",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "109 | 第109段",
+   "last_heading": "110 | 古德龍與岡納爾的離別",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "ritual-practice",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "111 | 第三十六章",
+   "last_heading": "113 | Appendix IV: The Hell-Ride Of Brynhild",
+   "semantic_tags": [
+    "accept-fate",
+    "feminine-divine",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "51 | Appendix V: Fragments Of The Lay Of Brynhild",
+   "last_heading": "116 | Appendix VI: The Second Or Ancient Lay Of Gudrun",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "polytheist",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "117 | 格蕾希爾之飲",
+   "last_heading": "53 | Appendix VII: The Song Of Atli",
+   "semantic_tags": [
+    "accept-fate",
+    "feminine-divine",
+    "oral-tradition",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "121 | Gunnar and Hogni in Atli's hall",
+   "last_heading": "121 | Gunnar and Hogni in Atli's hall",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "122 | 第122段",
+   "last_heading": "54 | Appendix VIII: The Whetting Of Gudrun",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "125 | 古德倫之悲歌（續）",
+   "last_heading": "127 | Hamðismál（哈姆迪爾之古歌）",
+   "semantic_tags": [
+    "accept-fate",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "56 | Appendix X: The Lament Of Oddrun",
+   "last_heading": "129 | Oddrun 之悲歌（續）",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "marriage-sacred",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  }
+ ]
+}
