@@ -3083,11 +3083,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "samuel-2",
-      "name_zh": "撒母耳記下",
-      "religion": "猶太教"
-    },
-    {
       "slug": "samyuktagama",
       "name_zh": "雜阿含經",
       "religion": "佛教"
@@ -3135,11 +3130,6 @@
     {
       "slug": "sn22-khandha",
       "name_zh": "SN22 蘊相應 (159 經)",
-      "religion": "佛教"
-    },
-    {
-      "slug": "sn45-magga",
-      "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
     },
     {
@@ -6402,11 +6392,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "sn45-magga",
-      "name_zh": "SN45 道相應 (180 經)",
-      "religion": "佛教"
-    },
-    {
       "slug": "sn46-bojjhanga",
       "name_zh": "SN46 覺支相應 (184 經)",
       "religion": "佛教"
@@ -9176,11 +9161,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-2-kings",
-      "name_zh": "列王紀下",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-2-peter",
       "name_zh": "彼得後書",
       "religion": "基督教"
@@ -9268,11 +9248,6 @@
     {
       "slug": "bible-judges",
       "name_zh": "士師記",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-leviticus",
-      "name_zh": "利未記",
       "religion": "基督教"
     },
     {
@@ -17001,6 +16976,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn6-brahma",
       "name_zh": "SN6 梵天相應",
       "religion": "佛教"
@@ -22329,11 +22309,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "apu-ollantay",
-      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
-      "religion": "印加"
-    },
-    {
       "slug": "avesta-sbe23",
       "name_zh": "阿維斯塔 SBE 23 (Yasht)",
       "religion": "瑣羅亞斯德"
@@ -24519,11 +24494,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "samuel-2",
-      "name_zh": "撒母耳記下",
-      "religion": "猶太教"
-    },
-    {
       "slug": "sblgnt-1-peter",
       "name_zh": "彼得前書（希臘原文）",
       "religion": "基督教"
@@ -24561,11 +24531,6 @@
     {
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
-      "religion": "佛教"
-    },
-    {
-      "slug": "sn45-magga",
-      "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
     },
     {
@@ -24784,11 +24749,6 @@
       "slug": "apollodorus-bibliotheca-el",
       "name_zh": "書庫·神話全書（希臘原文）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "apu-ollantay",
-      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
-      "religion": "印加"
     },
     {
       "slug": "aristotle-de-anima-el",
@@ -30576,11 +30536,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "sn45-magga",
-      "name_zh": "SN45 道相應 (180 經)",
-      "religion": "佛教"
-    },
-    {
       "slug": "sn46-bojjhanga",
       "name_zh": "SN46 覺支相應 (184 經)",
       "religion": "佛教"
@@ -32305,11 +32260,6 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
-    },
-    {
-      "slug": "samuel-2",
-      "name_zh": "撒母耳記下",
-      "religion": "猶太教"
     },
     {
       "slug": "sblgnt-jude",
@@ -36885,11 +36835,6 @@
     {
       "slug": "bible-jude",
       "name_zh": "猶大書",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-leviticus",
-      "name_zh": "利未記",
       "religion": "基督教"
     },
     {
@@ -42505,11 +42450,6 @@
   ],
   "freewill-fate-choice": [
     {
-      "slug": "apu-ollantay",
-      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
-      "religion": "印加"
-    },
-    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -45138,11 +45078,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-2-kings",
-      "name_zh": "列王紀下",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-2-samuel",
       "name_zh": "撒母耳記下",
       "religion": "基督教"
@@ -45190,6 +45125,11 @@
     {
       "slug": "bible-lamentations",
       "name_zh": "耶利米哀歌",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-leviticus",
+      "name_zh": "利未記",
       "religion": "基督教"
     },
     {
@@ -46855,6 +46795,11 @@
     {
       "slug": "psalms",
       "name_zh": "詩篇",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
       "religion": "猶太教"
     },
     {
@@ -51165,6 +51110,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "apu-ollantay",
+      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
+      "religion": "印加"
+    },
+    {
       "slug": "bible-amos",
       "name_zh": "阿摩司書",
       "religion": "基督教"
@@ -51187,6 +51137,11 @@
     {
       "slug": "bible-joshua",
       "name_zh": "約書亞記",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-leviticus",
+      "name_zh": "利未記",
       "religion": "基督教"
     },
     {
@@ -52021,8 +51976,18 @@
   ],
   "loss-grief": [
     {
+      "slug": "apu-ollantay",
+      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
+      "religion": "印加"
+    },
+    {
       "slug": "bible-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-kings",
+      "name_zh": "列王紀下",
       "religion": "基督教"
     },
     {
@@ -52541,6 +52506,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-john",
       "name_zh": "約翰福音（希臘原文）",
       "religion": "基督教"
@@ -52602,6 +52572,11 @@
     }
   ],
   "love-sex-intimacy": [
+    {
+      "slug": "apu-ollantay",
+      "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
+      "religion": "印加"
+    },
     {
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
@@ -52999,6 +52974,11 @@
     {
       "slug": "bible-1-peter",
       "name_zh": "彼得前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-kings",
+      "name_zh": "列王紀下",
       "religion": "基督教"
     },
     {
@@ -56497,6 +56477,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "samuel-2",
+      "name_zh": "撒母耳記下",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-1-peter",
       "name_zh": "彼得前書（希臘原文）",
       "religion": "基督教"
@@ -56594,6 +56579,11 @@
     {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
     },
     {
@@ -59323,6 +59313,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn47-satipatthana",
       "name_zh": "SN47 念處相應 (104 經)",
       "religion": "佛教"
@@ -61789,6 +61784,11 @@
     {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "sn45-magga",
+      "name_zh": "SN45 道相應 (180 經)",
       "religion": "佛教"
     },
     {

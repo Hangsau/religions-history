@@ -51,15 +51,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
+    "calling-vocation",
     "change-transformation",
-    "courage",
-    "death"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "338dbeec045e6f7fa4942a9ac089aa25db8423518d753a7e6fd5934fc5309dd5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

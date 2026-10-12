@@ -75,15 +75,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "courage",
     "death",
-    "evil-cruelty-empathy",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "90cfd4a96f1a63144dbdc6c5b6faeedc9863291dbd32d0443719a98afd750b2a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -50,13 +50,14 @@
   "psych_tags": [
     "body-mind",
     "boundaries-self-worth",
-    "calling-vocation",
     "death",
-    "fear-uncertainty"
+    "guilt-atonement",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "2b53ac43b5cdc4a920d9cdf24cc115f272ea463dd3efd000266a78b31da41a34"
+  },
+  "tagging_models": "MiniMax-M3"
 }

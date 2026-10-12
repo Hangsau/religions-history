@@ -1,0 +1,305 @@
+{
+ "schema_version": 1,
+ "slug": "apu-ollantay",
+ "chunks_total": 16,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 開始閱讀",
+   "last_heading": "3 | Introduction",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 譯本沿革（續）",
+   "last_heading": "4 | 劇情簡介",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "multiple-canons",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 第二、三幕",
+   "last_heading": "7 | 學者註：奧揚泰之出身",
+   "semantic_tags": [
+    "divine-kingship",
+    "forgiveness",
+    "marriage-sacred",
+    "priesthood",
+    "sin-as-disobedience",
+    "syncretic",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 註 325:1（印加王室譜系）",
+   "last_heading": "4 | Acts and Scenes",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 5,
+   "first_heading": "5 | Ollantay Dramatis Personæ",
+   "last_heading": "10 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-kingship",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "11 |",
+   "last_heading": "7 | Scene 2",
+   "semantic_tags": [
+    "divine-kingship",
+    "forgiveness",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "spirit-possession",
+    "theocracy",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "14",
+   "last_heading": "17 | 第七幕（續）",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "9 | Scene 4",
+   "last_heading": "20 | 詞彙註解",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "21 | Scene 5",
+   "last_heading": "24 | 註釋段落",
+   "semantic_tags": [
+    "divine-kingship",
+    "patriarchal",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "memory-reconciliation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "12 | Scene 2",
+   "last_heading": "27 | Act V",
+   "semantic_tags": [
+    "celibate-tradition",
+    "divine-kingship",
+    "feminine-divine",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "28 | Act III, Scene 1",
+   "last_heading": "29 | 380–381 段註釋",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "patriarchal",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "15 | Scene 2",
+   "last_heading": "32 | 註釋",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "17 | Scene 4",
+   "last_heading": "35 | 場景續（Yma Sumac 與 Cusi Coyllur 相認）",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "monastic",
+    "patriarchal",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "19 | 第六景",
+   "last_heading": "37 | (段落)",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "38 | 圖帕克·尤潘基赦免奧揚泰",
+   "last_heading": "39 | Yma Sumac 出場",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "forgiveness",
+    "grace-from-god",
+    "priesthood",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "40 | 第十二幕續",
+   "last_heading": "42 | 團聚",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "marriage-sacred",
+    "sacred-language",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "hope-reason-to-live",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

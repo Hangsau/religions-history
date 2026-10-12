@@ -72,14 +72,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
     "fear-uncertainty",
-    "freewill-fate-choice"
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "03cb6e045956718a85763cafa8a3166f04ecd85b4bac01c8940d23541bca17d9"
+  },
+  "tagging_models": "MiniMax-M3"
 }
