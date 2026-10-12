@@ -65,13 +65,14 @@
   "psych_tags": [
     "aging-time",
     "body-mind",
-    "change-transformation",
     "death",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "16ce85462cff12dd882ff0ac13dba6149189230d0f38c48114038b62e48bd65a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

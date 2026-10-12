@@ -9154,11 +9154,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "vulgate-romans",
-      "name_zh": "羅馬書（武加大）",
-      "religion": "基督教"
-    },
-    {
       "slug": "xiangshan-yulu",
       "name_zh": "象山語錄",
       "religion": "儒教"
@@ -9553,11 +9548,6 @@
     {
       "slug": "bible-psalms",
       "name_zh": "詩篇",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-revelation",
-      "name_zh": "啟示錄",
       "religion": "基督教"
     },
     {
@@ -21443,11 +21433,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "hatha-yoga-pradipika",
-      "name_zh": "哈達瑜伽明燈",
-      "religion": "印度教"
-    },
-    {
       "slug": "heimskringla",
       "name_zh": "赫姆斯克林格拉",
       "religion": "北歐"
@@ -21801,11 +21786,6 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
-    },
-    {
-      "slug": "sblgnt-1-corinthians",
-      "name_zh": "哥林多前書（希臘原文）",
-      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-corinthians",
@@ -22740,11 +22720,6 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
-    },
-    {
-      "slug": "sblgnt-1-corinthians",
-      "name_zh": "哥林多前書（希臘原文）",
-      "religion": "基督教"
     },
     {
       "slug": "sblgnt-2-john",
@@ -32487,11 +32462,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-revelation",
-      "name_zh": "啟示錄",
-      "religion": "基督教"
-    },
-    {
       "slug": "book-of-am-tuat",
       "name_zh": "阿姆杜阿特之書（幽冥界之書）",
       "religion": "古埃及"
@@ -34566,11 +34536,6 @@
     {
       "slug": "vulgate-isaiah",
       "name_zh": "以賽亞書（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-romans",
-      "name_zh": "羅馬書（武加大）",
       "religion": "基督教"
     },
     {
@@ -43250,11 +43215,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "cath-maige-tuired-en",
-      "name_zh": "第二次莫伊圖拉之戰（英譯）",
-      "religion": "凱爾特"
-    },
-    {
       "slug": "cbeta-T01n0021",
       "name_zh": "梵網六十二見經",
       "religion": "佛教"
@@ -47658,6 +47618,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-zechariah",
       "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
@@ -48009,6 +47974,11 @@
     {
       "slug": "bible-micah",
       "name_zh": "彌迦書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
       "religion": "基督教"
     },
     {
@@ -50261,6 +50231,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
@@ -50350,6 +50325,11 @@
     {
       "slug": "bible-ecclesiastes",
       "name_zh": "傳道書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-revelation",
+      "name_zh": "啟示錄",
       "religion": "基督教"
     },
     {
@@ -57077,6 +57057,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-romans",
+      "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
@@ -57624,6 +57609,11 @@
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "cath-maige-tuired-en",
+      "name_zh": "第二次莫伊圖拉之戰（英譯）",
+      "religion": "凱爾特"
     },
     {
       "slug": "cbeta-T01n0017",
@@ -59426,6 +59416,11 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
+    },
+    {
+      "slug": "hatha-yoga-pradipika",
+      "name_zh": "哈達瑜伽明燈",
+      "religion": "印度教"
     },
     {
       "slug": "heart-sutra-kumarajiva",
@@ -61810,6 +61805,11 @@
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
+    },
+    {
+      "slug": "sblgnt-1-corinthians",
+      "name_zh": "哥林多前書（希臘原文）",
+      "religion": "基督教"
     },
     {
       "slug": "sblgnt-1-john",

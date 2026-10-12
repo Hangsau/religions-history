@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
     "death",
-    "evil-cruelty-empathy",
     "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "fb1aa9a8d4bcd15dc0ed819da97c87b0db7039a6a912ca2b7efd27af01f381e5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

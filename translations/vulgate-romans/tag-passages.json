@@ -1,0 +1,181 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-romans",
+ "chunks_total": 9,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 武加大／保祿書信致羅馬人",
+   "last_heading": "1 | 武加大／保祿書信致羅馬人",
+   "semantic_tags": [
+    "against-idolatry",
+    "essentially-flawed",
+    "grace-from-god",
+    "messianism",
+    "other-power",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "guilt-atonement",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | Romans 1:27–2:25",
+   "last_heading": "2 | Romans 1:27–2:25",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "4 | 第四章",
+   "last_heading": "5 | 第五章",
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "grace-from-god",
+    "messianism",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "5 | 第五章",
+   "last_heading": "5 | 第五章",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-flawed",
+    "grace-from-god",
+    "original-sin",
+    "other-power",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "other-power",
+    "salvation-by-faith",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "8",
+   "last_heading": "9 | 9",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "lineage-importance",
+    "monotheist-exclusive",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "10",
+   "last_heading": "12 | 第 12 章",
+   "semantic_tags": [
+    "inclusive-monotheism",
+    "messianism",
+    "proselytizing",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "gratitude-contentment",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "12 | 第十二至十四章續（節錄）",
+   "last_heading": "13 | Romans 14:3 – 15:9",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "forgiveness",
+    "human-as-microcosm",
+    "sacred-language",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "living-with-unknown",
+    "love-sex-intimacy",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "14 |",
+   "last_heading": "15 | 第十六章（續）",
+   "semantic_tags": [
+    "grace-from-god",
+    "messianism",
+    "proselytizing",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "loneliness-belonging"
+   ]
+  }
+ ]
+}

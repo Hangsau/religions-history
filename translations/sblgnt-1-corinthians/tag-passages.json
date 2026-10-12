@@ -1,0 +1,143 @@
+{
+ "schema_version": 1,
+ "slug": "sblgnt-1-corinthians",
+ "chunks_total": 7,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | chapter 1",
+   "last_heading": "2 | 第二章",
+   "semantic_tags": [
+    "congregational",
+    "grace-from-god",
+    "humility",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "synagogue-mosque-style",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "ingroup-outgroup-prejudice",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | chapter 3",
+   "last_heading": "5 | chapter 5",
+   "semantic_tags": [
+    "against-idolatry",
+    "congregational",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sexual-ethics",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | chapter 6",
+   "last_heading": "8 | chapter 8",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "congregational",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | chapter 9",
+   "last_heading": "13 | 第十章 32-33 節",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "inclusive-monotheism",
+    "liberation-by-devotion",
+    "proselytizing",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | chapter 11",
+   "last_heading": "12 | chapter 12",
+   "semantic_tags": [
+    "congregational",
+    "created-in-image",
+    "patriarchal",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "boundaries-self-worth",
+    "gender-body",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | chapter 13",
+   "last_heading": "19 | 聚會中的秩序與結語",
+   "semantic_tags": [
+    "congregational",
+    "prophetic-revelation",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "love-sex-intimacy",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "15 | chapter 15",
+   "last_heading": "16 | chapter 16",
+   "semantic_tags": [
+    "cosmic-egg",
+    "grace-from-god",
+    "messianism",
+    "other-power",
+    "salvation-by-faith",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "existence-why-born",
+    "hope-reason-to-live",
+    "who-am-i"
+   ]
+  }
+ ]
+}
