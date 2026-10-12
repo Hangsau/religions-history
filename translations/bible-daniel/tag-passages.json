@@ -1,0 +1,136 @@
+{
+ "schema_version": 1,
+ "slug": "bible-daniel",
+ "chunks_total": 7,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "1 | 聖經 (和合本)/但以理書",
+   "last_heading": "1 | 聖經 (和合本)/但以理書",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "humility",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "theocracy",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "fasting",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "messianism",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "divine-transcendence",
+    "heaven-hell",
+    "prophetic-revelation",
+    "theodicy",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

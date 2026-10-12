@@ -50,16 +50,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "boundaries-self-worth",
     "death",
     "existence-why-born",
-    "faith-doubt"
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6ff669edfb68bd85d6e338fdb16448d35e542bcd7d1a21e731990af3771e5e94"
+  },
+  "tagging_models": "MiniMax-M3"
 }

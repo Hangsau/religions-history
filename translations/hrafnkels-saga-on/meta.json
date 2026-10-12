@@ -59,15 +59,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "change-transformation",
-    "courage",
-    "death",
-    "faith-doubt"
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6811a60bb3f4c4bed8a0f395456f6c69acf982e1747eabddccf7050cf2fb6ddb"
+  },
+  "tagging_models": "MiniMax-M3"
 }

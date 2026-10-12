@@ -2953,11 +2953,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "hrafnkels-saga-on",
-      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
-      "religion": "北歐"
-    },
-    {
       "slug": "huangdi-neijing",
       "name_zh": "黃帝內經",
       "religion": "道教"
@@ -2981,11 +2976,6 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
-    },
-    {
-      "slug": "isha-upanishad",
-      "name_zh": "伊舍奧義書",
-      "religion": "印度教"
     },
     {
       "slug": "jain-dasavaikalika-pkt",
@@ -8799,11 +8789,6 @@
       "religion": "道教"
     },
     {
-      "slug": "isha-upanishad",
-      "name_zh": "伊舍奧義書",
-      "religion": "印度教"
-    },
-    {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
@@ -9393,6 +9378,11 @@
     {
       "slug": "bible-1-chronicles",
       "name_zh": "歷代志上",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-1-corinthians",
+      "name_zh": "哥林多前書",
       "religion": "基督教"
     },
     {
@@ -21493,11 +21483,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "hrafnkels-saga-on",
-      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
-      "religion": "北歐"
-    },
-    {
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
@@ -22307,11 +22292,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "bible-1-corinthians",
-      "name_zh": "哥林多前書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-3-john",
       "name_zh": "約翰三書",
       "religion": "基督教"
@@ -22874,11 +22854,6 @@
       "religion": "瑣羅亞斯德"
     },
     {
-      "slug": "bible-1-corinthians",
-      "name_zh": "哥林多前書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-1-samuel",
       "name_zh": "撒母耳記上",
       "religion": "基督教"
@@ -22901,11 +22876,6 @@
     {
       "slug": "bible-acts",
       "name_zh": "使徒行傳",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-daniel",
-      "name_zh": "但以理書",
       "religion": "基督教"
     },
     {
@@ -24914,11 +24884,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "hrafnkels-saga-on",
-      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
-      "religion": "北歐"
-    },
-    {
       "slug": "huangdi-neijing",
       "name_zh": "黃帝內經",
       "religion": "道教"
@@ -25047,11 +25012,6 @@
       "slug": "narratives-rites-laws-yncas",
       "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
       "religion": "印加"
-    },
-    {
-      "slug": "nehemiah",
-      "name_zh": "尼希米記",
-      "religion": "猶太教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -25503,11 +25463,6 @@
     {
       "slug": "bible-1-chronicles",
       "name_zh": "歷代志上",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-1-corinthians",
-      "name_zh": "哥林多前書",
       "religion": "基督教"
     },
     {
@@ -30836,11 +30791,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "hrafnkels-saga-on",
-      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
-      "religion": "北歐"
-    },
-    {
       "slug": "huangting-neijing",
       "name_zh": "黃庭內景經",
       "religion": "道教"
@@ -33256,11 +33206,6 @@
     {
       "slug": "bible-acts",
       "name_zh": "使徒行傳",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-daniel",
-      "name_zh": "但以理書",
       "religion": "基督教"
     },
     {
@@ -37201,19 +37146,9 @@
       "religion": "猶太教"
     },
     {
-      "slug": "hrafnkels-saga-on",
-      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
-      "religion": "北歐"
-    },
-    {
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
-    },
-    {
-      "slug": "isha-upanishad",
-      "name_zh": "伊舍奧義書",
-      "religion": "印度教"
     },
     {
       "slug": "jain-aptamimamsa-sa",
@@ -37755,6 +37690,11 @@
     {
       "slug": "bible-amos",
       "name_zh": "阿摩司書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-daniel",
+      "name_zh": "但以理書",
       "religion": "基督教"
     },
     {
@@ -42838,9 +42778,19 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
     },
     {
       "slug": "jain-aptamimamsa-sa",
@@ -42946,11 +42896,6 @@
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
       "religion": "美洲"
-    },
-    {
-      "slug": "nehemiah",
-      "name_zh": "尼希米記",
-      "religion": "猶太教"
     },
     {
       "slug": "neiguan-jing",
@@ -44392,11 +44337,6 @@
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
-    },
-    {
-      "slug": "nehemiah",
-      "name_zh": "尼希米記",
-      "religion": "猶太教"
     },
     {
       "slug": "samaveda",
@@ -47643,6 +47583,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -47799,6 +47744,11 @@
     }
   ],
   "honesty-hypocrisy": [
+    {
+      "slug": "bible-1-corinthians",
+      "name_zh": "哥林多前書",
+      "religion": "基督教"
+    },
     {
       "slug": "bible-2-john",
       "name_zh": "約翰二書",
@@ -51743,6 +51693,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -51988,6 +51943,11 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "job",
@@ -53051,6 +53011,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -53151,6 +53116,11 @@
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "bible-1-corinthians",
+      "name_zh": "哥林多前書",
+      "religion": "基督教"
     },
     {
       "slug": "bible-1-john",
@@ -53509,6 +53479,11 @@
     {
       "slug": "bible-amos",
       "name_zh": "阿摩司書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-daniel",
+      "name_zh": "但以理書",
       "religion": "基督教"
     },
     {
@@ -56842,6 +56817,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -58011,6 +57991,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "mengzi",
       "name_zh": "孟子",
       "religion": "儒教"
@@ -58029,6 +58014,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "nehemiah",
+      "name_zh": "尼希米記",
+      "religion": "猶太教"
     },
     {
       "slug": "plato-crito-el",
@@ -59935,6 +59925,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hrafnkels-saga-on",
+      "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
       "religion": "美洲"
@@ -61750,6 +61745,11 @@
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
+    },
+    {
+      "slug": "isha-upanishad",
+      "name_zh": "伊舍奧義書",
+      "religion": "印度教"
     },
     {
       "slug": "jain-aptamimamsa-sa",

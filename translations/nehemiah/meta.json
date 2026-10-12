@@ -54,14 +54,15 @@
   "translation_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "courage",
     "faith-doubt",
-    "fear-uncertainty",
-    "giving-generosity"
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "85e3c805864a77ae2417ce792af71a706d35f9a6b3c990e9a6644600fe880137"
+  },
+  "tagging_models": "MiniMax-M3"
 }

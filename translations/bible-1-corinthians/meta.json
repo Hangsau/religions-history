@@ -56,13 +56,14 @@
   "psych_tags": [
     "body-mind",
     "boundaries-self-worth",
-    "communication-being-understood",
-    "courage",
-    "death"
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "9a5c483e5bed15dc2c37d25234b173b70ff74494b9b2587b4718fa821bfe9ce4"
+  },
+  "tagging_models": "MiniMax-M3"
 }
