@@ -19,5 +19,54 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "asceticism",
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Gauḍapāda",
+    "Māṇḍūkyopaniṣad",
+    "Advaita",
+    "Āgamaśāstra",
+    "viśva",
+    "taijasa",
+    "prājña",
+    "turīya",
+    "prajñā",
+    "ākāśa",
+    "prāṇa",
+    "brahman",
+    "bhoktā",
+    "kārikā",
+    "oṃkāra"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5c147e6d4e1340cab7f01362b163fb6f6656228cdf028a036b735dcfec6cd024"
+  },
+  "tagging_models": "MiniMax-M3"
 }

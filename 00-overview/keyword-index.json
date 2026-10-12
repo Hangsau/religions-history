@@ -240,6 +240,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Advaita": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
   "Aegium": [
     {
       "slug": "apuleius-metamorphoses-la",
@@ -942,6 +949,11 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "Arthurian romance": [
@@ -1321,6 +1333,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-ezra",
       "name_zh": "以斯拉記（武加大）",
       "religion": "基督教"
@@ -1441,6 +1458,13 @@
       "slug": "fragments-of-faith-forgotten",
       "name_zh": "被遺忘信仰的碎片 (Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "Baruch": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
     }
   ],
   "Basilides": [
@@ -3670,6 +3694,13 @@
       "religion": "北歐"
     }
   ],
+  "Gauḍapāda": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
   "Gayomart": [
     {
       "slug": "denkard-bk-5",
@@ -4247,6 +4278,13 @@
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
+    }
+  ],
+  "Henpen": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "Henrietta Szold": [
@@ -4968,6 +5006,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -5146,6 +5189,13 @@
       "religion": "印度教"
     }
   ],
+  "Jechonias": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Jeremiah": [
     {
       "slug": "jeremiah",
@@ -5194,6 +5244,11 @@
       "slug": "josephus-works",
       "name_zh": "約瑟夫斯著作",
       "religion": "猶太教"
+    },
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-ecclesiastes",
@@ -5300,6 +5355,13 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    }
+  ],
+  "Joakim": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
     }
   ],
   "Joannes Baptista": [
@@ -5595,6 +5657,13 @@
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
+    }
+  ],
+  "Kelliwic": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "Keresaspa": [
@@ -6281,6 +6350,13 @@
       "religion": "猶太教"
     }
   ],
+  "Lucilius": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Lug": [
     {
       "slug": "cath-maige-tuired-en",
@@ -6354,6 +6430,13 @@
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
+    }
+  ],
+  "Maelgwyn Gwyned": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "Maeve": [
@@ -6815,6 +6898,13 @@
       "religion": "佛教"
     }
   ],
+  "Menevia": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
   "Meroe": [
     {
       "slug": "apuleius-metamorphoses-la",
@@ -7066,6 +7156,11 @@
   ],
   "Moyses": [
     {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
       "religion": "基督教"
@@ -7181,6 +7276,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Māṇḍūkyopaniṣad": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
   "Mūlapariyāya": [
     {
       "slug": "majjhima-nikaya",
@@ -7205,6 +7307,13 @@
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "Nabuchodonosor": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
     }
   ],
   "Naciketas": [
@@ -7636,6 +7745,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
     },
     {
@@ -8300,6 +8414,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Peniarth MS 54": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
+  "Penrionyd": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
   "Pepi II 佩皮二世": [
     {
       "slug": "pyramid-texts-mercer",
@@ -8648,6 +8776,13 @@
       "religion": "基督教"
     }
   ],
+  "Prydain": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
   "Pryderi": [
     {
       "slug": "mabinogion-st",
@@ -8919,6 +9054,13 @@
     {
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "Ratnāvalī": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -9508,6 +9650,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Sedecias": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Sedit": [
     {
       "slug": "creation-myths-primitive-america",
@@ -9548,6 +9697,11 @@
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
+    },
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Set": [
@@ -12105,6 +12259,11 @@
   ],
   "abhyudaya": [
     {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
@@ -12225,6 +12384,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -12240,6 +12404,13 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
+    }
+  ],
+  "ahinsā": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
     }
   ],
   "ahiṃsā": [
@@ -12350,6 +12521,13 @@
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
       "religion": "印度教"
+    }
+  ],
+  "amicitia": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "anagāra": [
@@ -12702,6 +12880,13 @@
       "religion": "佛教"
     }
   ],
+  "aśubha": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "aṣṭāṅga": [
     {
       "slug": "yoga-sutra",
@@ -12742,6 +12927,13 @@
       "slug": "an7-sevens",
       "name_zh": "AN7 七法集",
       "religion": "佛教"
+    }
+  ],
+  "bards": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "barley": [
@@ -12935,6 +13127,13 @@
       "religion": "佛教"
     }
   ],
+  "bhoktā": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
   "bhāvanā 修習": [
     {
       "slug": "an8-eights",
@@ -13069,6 +13268,13 @@
       "religion": "凱爾特"
     }
   ],
+  "boni viri": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "brahma": [
     {
       "slug": "aitareya-upanishad",
@@ -13133,6 +13339,11 @@
     {
       "slug": "atharvaveda-paippalada",
       "name_zh": "阿闥婆吠陀（派拍拉達傳本）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
     }
   ],
@@ -13316,6 +13527,13 @@
       "slug": "inca-rites",
       "name_zh": "印加儀禮與法律",
       "religion": "印加"
+    }
+  ],
+  "chieftains": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "church order": [
@@ -13521,6 +13739,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "deus": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "deva-deha": [
     {
       "slug": "gheranda-samhita",
@@ -13610,6 +13835,11 @@
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-suhrllekha-sa",
@@ -13787,6 +14017,13 @@
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "durgati": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
     }
   ],
   "dvayābhāva": [
@@ -13990,6 +14227,11 @@
   ],
   "fatum": [
     {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -14050,6 +14292,13 @@
       "slug": "vulgate-hosea",
       "name_zh": "何西阿書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "fortuna": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "founding myth": [
@@ -14456,6 +14705,13 @@
       "religion": "佛教"
     }
   ],
+  "holocautomata": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "honor": [
     {
       "slug": "sefaria-rashba-on-megillah",
@@ -14569,6 +14825,11 @@
     }
   ],
   "jejunium": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
@@ -14778,6 +15039,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-shunyatasaptati-sa",
       "name_zh": "七十空性論（梵文）",
       "religion": "佛教"
@@ -14921,6 +15187,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "kuśala": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "kāma": [
     {
       "slug": "ardhanarishvara-stotra",
@@ -14952,6 +15225,11 @@
       "slug": "bud-yuktisastika-sa",
       "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
     }
   ],
   "kūrma": [
@@ -15219,6 +15497,20 @@
       "religion": "印度教"
     }
   ],
+  "mala": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "maledictiones": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "man-being": [
     {
       "slug": "iroquois-cosmology",
@@ -15461,6 +15753,11 @@
   ],
   "mundus": [
     {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
       "religion": "基督教"
@@ -15550,6 +15847,13 @@
       "religion": "佛教"
     }
   ],
+  "naiḥśreyasa": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "namas": [
     {
       "slug": "mahabharata",
@@ -15558,6 +15862,11 @@
     }
   ],
   "naraka": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-vimshatika-sa",
       "name_zh": "唯識二十論（梵文）",
@@ -15568,6 +15877,13 @@
     {
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "natura rerum": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -15791,6 +16107,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "oratio": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "orenda": [
     {
       "slug": "iroquois-cosmology",
@@ -15803,6 +16126,13 @@
       "slug": "an5-fives",
       "name_zh": "AN5 五法集",
       "religion": "佛教"
+    }
+  ],
+  "ovates": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "oñgwe": [
@@ -15835,6 +16165,11 @@
     }
   ],
   "oṃkāra": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    },
     {
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
@@ -16114,6 +16449,11 @@
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
     }
   ],
   "peccavi": [
@@ -16221,6 +16561,11 @@
   ],
   "prajñā": [
     {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-suhrllekha-sa",
       "name_zh": "勸誡王頌（梵文）",
       "religion": "佛教"
@@ -16229,6 +16574,11 @@
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
     }
   ],
   "prajñāna": [
@@ -16399,11 +16749,32 @@
       "religion": "基督教"
     }
   ],
+  "prouidentia": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "proverbs": [
     {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
+    }
+  ],
+  "providentia": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "prājña": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
     }
   ],
   "prāyaścitta": [
@@ -16427,6 +16798,11 @@
     {
       "slug": "garbha-upanishad",
       "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
     },
     {
@@ -17387,6 +17763,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "sugati": [
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "sukha": [
     {
       "slug": "an11-elevens",
@@ -17528,6 +17911,13 @@
       "religion": "基督教"
     }
   ],
+  "taijasa": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
   "taimirika": [
     {
       "slug": "bud-vimshatika-sa",
@@ -17641,6 +18031,11 @@
   ],
   "templum": [
     {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
       "religion": "基督教"
@@ -17672,6 +18067,27 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "three bull-princes": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
+  "three humble princes": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
+  "three pillars of battle": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
     }
   ],
   "thyrsus": [
@@ -17716,6 +18132,13 @@
       "religion": "印度教"
     }
   ],
+  "triads": [
+    {
+      "slug": "welsh-triads",
+      "name_zh": "威爾士三聯",
+      "religion": "凱爾特"
+    }
+  ],
   "trial": [
     {
       "slug": "plato-works",
@@ -17742,6 +18165,13 @@
       "slug": "vulgate-2-kings",
       "name_zh": "列王紀下 (武加大稱 列王紀四)",
       "religion": "基督教"
+    }
+  ],
+  "turīya": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
     }
   ],
   "tuṣita": [
@@ -17796,6 +18226,13 @@
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
+    }
+  ],
+  "uirtus": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "ukāra": [
@@ -18114,6 +18551,13 @@
       "religion": "印度教"
     }
   ],
+  "vires virtutes": [
+    {
+      "slug": "seneca-de-providentia-la",
+      "name_zh": "論天意（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "virtue": [
     {
       "slug": "plato-works",
@@ -18174,6 +18618,13 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
+  "viśva": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
     }
   ],
@@ -18425,6 +18876,13 @@
       "religion": "北歐"
     }
   ],
+  "Ægyptus": [
+    {
+      "slug": "vulgate-baruch",
+      "name_zh": "巴錄書（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Æon": [
     {
       "slug": "thrice-greatest-hermes-1",
@@ -18622,6 +19080,13 @@
       "religion": "印度教"
     }
   ],
+  "Āgamaśāstra": [
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
   "Ānanda": [
     {
       "slug": "an11-elevens",
@@ -18746,6 +19211,11 @@
     {
       "slug": "brahmabindu-upanishad",
       "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mandukya-karika",
+      "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
     },
     {
@@ -19101,6 +19571,11 @@
     {
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-ratnavali-sa",
+      "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
     }
   ],

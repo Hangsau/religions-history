@@ -1,0 +1,155 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-baruch",
+ "chunks_total": 8,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Prophetia Baruch",
+   "last_heading": "1 | Vulgata Clementina/Prophetia Baruch",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "prayer",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creator-deity",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "messianism",
+    "other-power",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "hope-reason-to-live",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "divine-transcendence",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "prayer",
+    "prophetic-critique",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-critique"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  }
+ ]
+}

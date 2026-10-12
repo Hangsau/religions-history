@@ -21,5 +21,56 @@
   "tier": "次要",
   "notes": "deuterocanonical",
   "is_original_language": false,
-  "text_role": "translation"
+  "text_role": "translation",
+  "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "compassion",
+    "creator-deity",
+    "divine-transcendence",
+    "liberation-by-devotion",
+    "messianism",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "prophetic-critique",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Baruch",
+    "Babylon",
+    "Jerusalem",
+    "Nabuchodonosor",
+    "Jechonias",
+    "Joakim",
+    "Sedecias",
+    "templum",
+    "holocautomata",
+    "peccatum",
+    "Moyses",
+    "Ægyptus",
+    "maledictiones",
+    "oratio",
+    "jejunium"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "58d98acc2036e2183f51de20903f3c753e0ac25e8729e23e9d0c3e81314b55b3"
+  },
+  "tagging_models": "MiniMax-M3"
 }

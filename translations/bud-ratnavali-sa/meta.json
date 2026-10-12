@@ -19,5 +19,57 @@
   "tier": "次要",
   "notes": "龍樹致王書，中觀＋菩薩道；漢譯《寶行王正論》",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "compassion",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "non-violence",
+    "self-effort",
+    "theodicy",
+    "truthfulness"
+  ],
+  "keywords": [
+    "śraddhā",
+    "prajñā",
+    "ahinsā",
+    "dharma",
+    "abhyudaya",
+    "naiḥśreyasa",
+    "karma",
+    "kuśala",
+    "aśubha",
+    "naraka",
+    "sugati",
+    "durgati",
+    "Ratnāvalī",
+    "Nāgārjuna",
+    "ahaṃkāra"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4f5696bb20ba815be9f0975963af0c013a663056ee80cdec18e37b9e3ae36cc8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
