@@ -48,16 +48,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
-    "change-transformation",
-    "childhood-wounds",
-    "courage"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cb4e1f1f3cdb5bc80cd205d656189103195483f958a9d52133c85cf9696aefab"
+  },
+  "tagging_models": "MiniMax-M3"
 }

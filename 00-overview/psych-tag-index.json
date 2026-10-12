@@ -2918,11 +2918,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "genesis",
-      "name_zh": "創世記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
       "religion": "印度教"
@@ -3073,11 +3068,6 @@
       "religion": "神道"
     },
     {
-      "slug": "kojiki-zh",
-      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
-      "religion": "神道"
-    },
-    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -3176,11 +3166,6 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
-    },
-    {
-      "slug": "mengzi",
-      "name_zh": "孟子",
-      "religion": "儒教"
     },
     {
       "slug": "odyssey-butler",
@@ -3937,11 +3922,6 @@
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
-      "religion": "神道"
-    },
-    {
-      "slug": "kojiki-zh",
-      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -6602,11 +6582,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "mengzi",
-      "name_zh": "孟子",
-      "religion": "儒教"
-    },
-    {
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
@@ -9172,11 +9147,6 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
-    },
-    {
-      "slug": "mengzi",
-      "name_zh": "孟子",
-      "religion": "儒教"
     },
     {
       "slug": "mimamsa-sutra-jaimini",
@@ -21768,11 +21738,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "genesis",
-      "name_zh": "創世記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
       "religion": "印度教"
@@ -21845,11 +21810,6 @@
     {
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "hesiod-works",
-      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
     },
     {
@@ -21998,11 +21958,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "kojiki-zh",
-      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
-      "religion": "神道"
-    },
-    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -22076,11 +22031,6 @@
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
-    },
-    {
-      "slug": "mengzi",
-      "name_zh": "孟子",
-      "religion": "儒教"
     },
     {
       "slug": "mingru-xuean",
@@ -22700,11 +22650,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "genesis",
-      "name_zh": "創世記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -23155,11 +23100,6 @@
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
       "religion": "佛教"
-    },
-    {
-      "slug": "kojiki-zh",
-      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
-      "religion": "神道"
     },
     {
       "slug": "laxdaela-saga-on",
@@ -25374,11 +25314,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "exodus",
-      "name_zh": "出埃及記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -25392,11 +25327,6 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
-    },
-    {
-      "slug": "genesis",
-      "name_zh": "創世記",
-      "religion": "猶太教"
     },
     {
       "slug": "gisla-saga-on",
@@ -25421,11 +25351,6 @@
     {
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "hesiod-works",
-      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
     },
     {
@@ -25517,6 +25442,11 @@
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "kongzi-jiayu",
@@ -31361,11 +31291,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "exodus",
-      "name_zh": "出埃及記",
-      "religion": "猶太教"
-    },
-    {
       "slug": "ezekiel",
       "name_zh": "以西結書",
       "religion": "猶太教"
@@ -31413,11 +31338,6 @@
     {
       "slug": "hesiod-el",
       "name_zh": "赫西俄德：神譜＋工作與時日（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "hesiod-works",
-      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
     },
     {
@@ -31559,6 +31479,11 @@
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "ksitigarbha-sutra",
@@ -33742,11 +33667,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "hesiod-works",
-      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -35252,11 +35172,6 @@
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
-    },
-    {
-      "slug": "exodus",
-      "name_zh": "出埃及記",
-      "religion": "猶太教"
     },
     {
       "slug": "garbha-upanishad",
@@ -43488,6 +43403,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "gongyang-zhuan",
       "name_zh": "春秋公羊傳",
       "religion": "儒教"
@@ -43523,6 +43448,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "hesiod-works",
+      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
@@ -43551,6 +43481,11 @@
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
+      "religion": "神道"
     },
     {
       "slug": "ksitigarbha-sutra",
@@ -44252,6 +44187,11 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "hesiod-works",
+      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
     },
     {
@@ -48223,8 +48163,18 @@
       "religion": "佛教"
     },
     {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "ezra",
       "name_zh": "以斯拉記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
       "religion": "猶太教"
     },
     {
@@ -52298,6 +52248,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "hesiod-works",
+      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "mandukya-karika",
       "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
@@ -52520,6 +52475,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hesiod-works",
+      "name_zh": "赫西俄德 (神譜 + 工作與時日)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "job",
       "name_zh": "約伯記",
       "religion": "猶太教"
@@ -52528,6 +52488,11 @@
       "slug": "malachi",
       "name_zh": "瑪拉基書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
     },
     {
       "slug": "micah",
@@ -53521,6 +53486,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "ife-mythology",
       "name_zh": "伊費神話 (約魯巴)",
       "religion": "非洲"
@@ -53538,6 +53508,11 @@
     {
       "slug": "kogo-shui-zh",
       "name_zh": "古語拾遺（漢文原文）",
+      "religion": "神道"
+    },
+    {
+      "slug": "kojiki-zh",
+      "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
     },
     {
@@ -57187,6 +57162,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
+    },
+    {
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
@@ -58264,6 +58244,11 @@
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
     },
     {
       "slug": "micah",
@@ -60140,6 +60125,16 @@
       "religion": "佛教"
     },
     {
+      "slug": "exodus",
+      "name_zh": "出埃及記",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "genesis",
+      "name_zh": "創世記",
+      "religion": "猶太教"
+    },
+    {
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
       "religion": "美洲"
@@ -61915,6 +61910,11 @@
       "slug": "mandukya-karika",
       "name_zh": "蛙氏奧義頌（Gauḍapāda）",
       "religion": "印度教"
+    },
+    {
+      "slug": "mengzi",
+      "name_zh": "孟子",
+      "religion": "儒教"
     },
     {
       "slug": "neiguan-jing",

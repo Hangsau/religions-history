@@ -53,16 +53,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "59ae5d6e278ae85469966f65730c33ad13891d6501d8f2ce3f16986cff56b1e4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

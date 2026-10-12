@@ -1,0 +1,503 @@
+{
+ "schema_version": 1,
+ "slug": "mengzi",
+ "chunks_total": 29,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "1 | liang-hui-wang-i",
+   "last_heading": "1 | liang-hui-wang-i",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-kingship",
+    "economic-justice",
+    "essentially-good",
+    "golden-rule",
+    "mandate-of-heaven",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "economic-justice",
+    "essentially-good",
+    "mandate-of-heaven",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "living-with-unknown",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | liang-hui-wang-ii",
+   "last_heading": "2 | liang-hui-wang-ii",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "economic-justice",
+    "golden-rule",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "essentially-good",
+    "humility",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "3 | gong-sun-chou-i",
+   "last_heading": "3 | gong-sun-chou-i",
+   "semantic_tags": [
+    "essentially-good",
+    "golden-rule",
+    "mandate-of-heaven",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "courage",
+    "honesty-hypocrisy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "4 | gong-sun-chou-ii",
+   "last_heading": "4 | gong-sun-chou-ii",
+   "semantic_tags": [
+    "essentially-good",
+    "mandate-of-heaven",
+    "secular-state",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "mandate-of-heaven",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "5 | teng-wen-gong-i",
+   "last_heading": "5 | teng-wen-gong-i",
+   "semantic_tags": [
+    "compassion",
+    "economic-justice",
+    "essentially-good",
+    "golden-rule",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "compassion",
+    "essentially-good",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "6 | teng-wen-gong-ii",
+   "last_heading": "6 | teng-wen-gong-ii",
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "prophetic-critique",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "essentially-good",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "7 | li-lou-i",
+   "last_heading": "7 | li-lou-i",
+   "semantic_tags": [
+    "essentially-good",
+    "golden-rule",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "parenthood",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "8 | li-lou-ii",
+   "last_heading": "8 | li-lou-ii",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "golden-rule",
+    "humility",
+    "lineage-importance",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "9 | wan-zhang-i",
+   "last_heading": "9 | wan-zhang-i",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "essentially-good",
+    "mandate-of-heaven",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "human-as-microcosm",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "10 | wan-zhang-ii",
+   "last_heading": "10 | wan-zhang-ii",
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "golden-rule",
+    "prophetic-critique",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "11 | gaozi-i",
+   "last_heading": "11 | gaozi-i",
+   "semantic_tags": [
+    "essentially-good",
+    "liberation-by-works",
+    "self-effort",
+    "tabula-rasa"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "perfectionism-self-criticism",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "12 | gaozi-ii",
+   "last_heading": "12 | gaozi-ii",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "golden-rule",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "mandate-of-heaven",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "meaning-of-suffering",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "13 | jin-xin-i",
+   "last_heading": "13 | jin-xin-i",
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "humility",
+    "liberation-by-works",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "14 | jin-xin-ii",
+   "last_heading": "14 | jin-xin-ii",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "golden-rule",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "self-effort",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good"
+   ],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  }
+ ]
+}

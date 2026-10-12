@@ -55,14 +55,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
-    "existence-why-born",
-    "faith-doubt"
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "bc4265323226fb45fa250e330734587d836e6d91836ccdef1b6cb2840f19f77f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
