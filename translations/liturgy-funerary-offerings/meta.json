@@ -52,14 +52,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "death",
-    "existence-why-born",
     "fear-uncertainty",
     "gratitude-contentment",
-    "guilt-atonement"
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "cdcbdb9728d6174fe53b26d37a39eb38fc3c6a93df38a52c3e99f4c52edff48c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

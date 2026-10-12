@@ -72,15 +72,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
-    "change-transformation",
     "courage",
-    "death"
+    "death",
+    "loss-grief",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "13e69ec52d17470af62cbda2d213c7090d5d69fea3aac89adbcd078208597b70"
+  },
+  "tagging_models": "MiniMax-M3"
 }

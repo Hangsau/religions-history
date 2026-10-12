@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
-    "death",
-    "emotions-passions",
-    "existence-why-born",
-    "faith-doubt"
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "537a82273e5a5951c2e8f87642312ae3a222d5e8b5a3d8ff87178aa8695ee6b0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
