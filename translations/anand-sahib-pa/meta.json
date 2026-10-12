@@ -21,5 +21,56 @@
   "tier": "次要",
   "notes": "第三世上師阿馬爾達斯所撰《喜樂之歌》（Anand Sahib），40 段，錫克婚禮與慶典必誦的靈性喜樂讚歌",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "chanting",
+    "compassion",
+    "divine-immanence",
+    "divine-transcendence",
+    "enlightenment",
+    "grace-from-god",
+    "inclusive-monotheism",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monotheist-exclusive",
+    "mystical-union",
+    "non-dual",
+    "salvation-by-faith",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "ਅਨੰਦੁ",
+    "ਸਤਿਗੁਰ",
+    "ਸਬਦ",
+    "ਨਾਮ",
+    "ਹਰਿ",
+    "ਵਾਹਿਗੁਰੂ",
+    "ਨਾਨਕ",
+    "ਪੰਚ ਦੂਤ",
+    "ਅਨਹਦ",
+    "ਸਾਚਾ ਨਾਮੁ",
+    "ਕ੍ਰਿਪਾ",
+    "ਮੋਹੁ",
+    "ਭਰਮਿ",
+    "ਗੁਰ ਪ੍ਰਸਾਦਿ",
+    "ਸਚੁ"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "bfa83716d11c471c7039c3d0a58eb4625e355b783ac81faef5256aa7f8add461"
+  },
+  "tagging_models": "MiniMax-M3"
 }

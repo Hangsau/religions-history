@@ -20,5 +20,58 @@
   "tier": "次要",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "semantic_tags": [
+    "apocalypse",
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "divine-transcendence",
+    "feminine-divine",
+    "multiple-canons",
+    "oral-tradition",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "prophetic-revelation",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "syncretic",
+    "temple-centered",
+    "theodicy",
+    "theophany"
+  ],
+  "keywords": [
+    "Chaldean",
+    "Deluge",
+    "George Smith",
+    "British Museum",
+    "Assyrian tablets",
+    "Nineveh",
+    "Assurbanipal",
+    "Erech",
+    "Semitic Babylonian",
+    "flood",
+    "Sargon I",
+    "hieratic form",
+    "Society of Biblical Archaeology",
+    "tablet",
+    "Izdubar"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "a6c323c8d6abcc934f2fed9d5e7d880437ac71fb791631c2e2e494e49b31e395"
+  },
+  "tagging_models": "MiniMax-M3"
 }

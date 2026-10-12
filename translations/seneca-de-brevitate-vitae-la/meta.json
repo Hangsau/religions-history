@@ -21,5 +21,55 @@
   "tier": "次要",
   "notes": "塞內卡論人非命短而是虛擲光陰，斯多噶時間與生死哲思傳世名篇",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "asceticism",
+    "divine-transcendence",
+    "extinction-of-self",
+    "human-as-microcosm",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "non-proselytizing",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Seneca",
+    "brevitas vitae",
+    "mortalium",
+    "natura",
+    "tempus",
+    "avaritia",
+    "vita brevis",
+    "cupiditas",
+    "otium",
+    "Paulinus",
+    "Aristoteles",
+    "Hippocrates",
+    "philosophia",
+    "vita",
+    "mors"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "aging-time",
+    "death",
+    "insignificance-history",
+    "living-with-unknown",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "aa69f2fb6e214f207bff25d09cbd80eaa5f08340b32d1f53581484a409df3a74"
+  },
+  "tagging_models": "MiniMax-M3"
 }

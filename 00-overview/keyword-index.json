@@ -575,6 +575,13 @@
       "religion": "基督教"
     }
   ],
+  "Amardas": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Amaterasu": [
     {
       "slug": "kojiki-chamberlain",
@@ -915,6 +922,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Aristoteles": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Aristotelianism": [
     {
       "slug": "guide-for-the-perplexed-st",
@@ -937,6 +951,13 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    }
+  ],
+  "Arjan": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Arjuna": [
@@ -1055,11 +1076,25 @@
       "religion": "北歐"
     }
   ],
+  "Assurbanipal": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "Assyria": [
     {
       "slug": "vulgate-nahum",
       "name_zh": "那鴻書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Assyrian tablets": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
     }
   ],
   "Astaroth": [
@@ -1591,6 +1626,13 @@
       "religion": "基督教"
     }
   ],
+  "Bhagauti": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Bhagavad Gita": [
     {
       "slug": "bhagavad-gita",
@@ -2026,6 +2068,13 @@
       "religion": "阿茲特克"
     }
   ],
+  "British Museum": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "British Museum Papyrus 10188": [
     {
       "slug": "legends-of-the-gods-egypt",
@@ -2256,11 +2305,25 @@
       "religion": "基督教"
     }
   ],
+  "Chaldean": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "Chamberlain": [
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
+    }
+  ],
+  "Chandi": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Chaos": [
@@ -2804,6 +2867,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Deluge": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "Demeter": [
     {
       "slug": "hesiod-works",
@@ -3016,6 +3086,13 @@
       "slug": "heimskringla",
       "name_zh": "赫姆斯克林格拉",
       "religion": "北歐"
+    }
+  ],
+  "Durga": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Durgā": [
@@ -3296,6 +3373,13 @@
       "slug": "vulgate-jude",
       "name_zh": "猶大書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Erech": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
     }
   ],
   "Eric Bloodaxe": [
@@ -3769,6 +3853,13 @@
       "religion": "北歐"
     }
   ],
+  "George Smith": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "Germanicus": [
     {
       "slug": "ovid-fasti-la",
@@ -3981,6 +4072,13 @@
       "religion": "印度教"
     }
   ],
+  "Guru Angad": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Guru Granth Sahib": [
     {
       "slug": "guru-granth-sahib-st",
@@ -3989,6 +4087,11 @@
     }
   ],
   "Guru Nanak": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
@@ -4436,6 +4539,13 @@
       "slug": "devi-gita",
       "name_zh": "女神之歌",
       "religion": "印度教"
+    }
+  ],
+  "Hippocrates": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Hiraṇyagarbha": [
@@ -5070,6 +5180,13 @@
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
+    }
+  ],
+  "Izdubar": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
     }
   ],
   "Iēsous Christos": [
@@ -6533,6 +6650,13 @@
       "religion": "基督教"
     }
   ],
+  "Mahakhasur": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Mahavira": [
     {
       "slug": "jain-sbe45",
@@ -7630,6 +7754,11 @@
   ],
   "Nineveh": [
     {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    },
+    {
       "slug": "vulgate-jonah",
       "name_zh": "約拿書（武加大）",
       "religion": "基督教"
@@ -8442,6 +8571,13 @@
       "religion": "基督教"
     }
   ],
+  "Paulinus": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Paulos": [
     {
       "slug": "sblgnt-titus",
@@ -8832,6 +8968,13 @@
       "religion": "現代新興"
     }
   ],
+  "Pritham": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "Prometheus": [
     {
       "slug": "apollodorus-bibliotheca-el",
@@ -9137,6 +9280,13 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    }
+  ],
+  "Ramdas": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "Rashba": [
@@ -9621,6 +9771,13 @@
       "religion": "佛教"
     }
   ],
+  "Sargon I": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "Sasanian": [
     {
       "slug": "avesta-sbe23",
@@ -9802,11 +9959,23 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Semitic Babylonian": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "Seneca": [
     {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
+    },
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "seneca-de-providentia-la",
@@ -10092,6 +10261,13 @@
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
+    }
+  ],
+  "Society of Biblical Archaeology": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
     }
   ],
   "Socrates": [
@@ -11860,6 +12036,11 @@
   ],
   "Waheguru": [
     {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
@@ -12946,6 +13127,13 @@
       "religion": "印度教"
     }
   ],
+  "avaritia": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "avatar": [
     {
       "slug": "mahabharata-ganguli",
@@ -13511,6 +13699,13 @@
       "religion": "印度教"
     }
   ],
+  "brevitas vitae": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "brunaöld": [
     {
       "slug": "heimskringla-on",
@@ -13847,6 +14042,13 @@
       "religion": "兩河"
     }
   ],
+  "cupiditas": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "currus-igneus": [
     {
       "slug": "vulgate-2-kings",
@@ -13859,6 +14061,13 @@
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
       "religion": "印度教"
+    }
+  ],
+  "dano": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "darśana": [
@@ -14435,6 +14644,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "flood": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "folk magic": [
     {
       "slug": "carmina-gadelica-2",
@@ -14849,6 +15065,13 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    }
+  ],
+  "hieratic form": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
     }
   ],
   "hieroglyphic": [
@@ -15289,6 +15512,13 @@
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
+    }
+  ],
+  "khanda": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "khaṭvāṅga": [
@@ -15935,6 +16165,20 @@
       "religion": "猶太教"
     }
   ],
+  "mors": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "mortalium": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "mummification": [
     {
       "slug": "egyptian-book-of-dead",
@@ -16068,6 +16312,11 @@
     {
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -16310,6 +16559,13 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    }
+  ],
+  "otium": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "ottappa": [
@@ -16677,6 +16933,13 @@
     {
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "philosophia": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -17298,6 +17561,13 @@
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
+    }
+  ],
+  "rakhsas": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "reason and faith": [
@@ -18147,6 +18417,13 @@
       "religion": "基督教"
     }
   ],
+  "tablet": [
+    {
+      "slug": "chaldean-account-deluge",
+      "name_zh": "迦勒底洪水記",
+      "religion": "兩河"
+    }
+  ],
   "taijasa": [
     {
       "slug": "mandukya-karika",
@@ -18296,6 +18573,13 @@
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "tempus": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "terra repromissionis": [
@@ -18850,11 +19134,25 @@
       "religion": "現代新興"
     }
   ],
+  "vita": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "vita aeterna": [
     {
       "slug": "vulgate-1-john",
       "name_zh": "約翰一書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "vita brevis": [
+    {
+      "slug": "seneca-de-brevitate-vitae-la",
+      "name_zh": "論生命之短暫（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "vitulos aureos": [
@@ -20050,6 +20348,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Δωρία φόρμιγξ": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ζαχαρίας": [
     {
       "slug": "sblgnt-luke",
@@ -20061,6 +20366,11 @@
     {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20083,6 +20393,20 @@
       "slug": "sblgnt-mark",
       "name_zh": "馬可福音（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "Κλωθώ": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Κρόνιε": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Λύκειον": [
@@ -20113,6 +20437,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Πέλοψ": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Πίσα": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Παῦλος": [
     {
       "slug": "sblgnt-1-corinthians",
@@ -20136,6 +20474,13 @@
     {
       "slug": "plotinus-enneads-el",
       "name_zh": "九章集（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Ποσειδᾶν": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20167,6 +20512,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Συρακόσιος": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Σωκράτης": [
     {
       "slug": "plato-meno-el",
@@ -20179,10 +20531,24 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Τάνταλος": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Τίμαιος": [
     {
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Φερένικος": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -20679,6 +21045,13 @@
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "χρυσός": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -21714,6 +22087,20 @@
       "religion": "猶太教"
     }
   ],
+  "ਅਨਹਦ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਅਨੰਦੁ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਓਅੰਕਾਰ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
@@ -21732,6 +22119,20 @@
     {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਕ੍ਰਿਪਾ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਗੁਰ ਪ੍ਰਸਾਦਿ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -21758,6 +22159,11 @@
   ],
   "ਨਾਨਕ": [
     {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -21768,6 +22174,13 @@
       "religion": "錫克教"
     }
   ],
+  "ਨਾਮ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਨਿਰੰਕਾਰ": [
     {
       "slug": "japji-sahib-pa",
@@ -21775,10 +22188,31 @@
       "religion": "錫克教"
     }
   ],
+  "ਪਉੜੀ": [
+    {
+      "slug": "chandi-di-var-pa",
+      "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਪੰਚ ਤੱਤ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਪੰਚ ਦੂਤ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਭਰਮਿ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -21796,10 +22230,31 @@
       "religion": "錫克教"
     }
   ],
+  "ਮੋਹੁ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਵਾਰ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਵਾਹਿਗੁਰੂ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਸਚੁ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -21817,6 +22272,13 @@
       "religion": "錫克教"
     }
   ],
+  "ਸਤਿਗੁਰ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਸਤਿਜੁਗ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
@@ -21831,10 +22293,31 @@
       "religion": "錫克教"
     }
   ],
+  "ਸਬਦ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਸਾਚਾ ਨਾਮੁ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਸੋਹੰਬ੍ਰਹਮ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਹਰਿ": [
+    {
+      "slug": "anand-sahib-pa",
+      "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -22108,6 +22591,20 @@
       "religion": "基督教"
     }
   ],
+  "Ἱέρων": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Ὀλυμπία": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ὑπομονή 忍耐": [
     {
       "slug": "sblgnt-james",
@@ -22115,10 +22612,24 @@
       "religion": "基督教"
     }
   ],
+  "ὕδωρ": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ὕλη": [
     {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ὕμνος": [
+    {
+      "slug": "pindar-olympian-el",
+      "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
