@@ -120,6 +120,11 @@
   ],
   "Abhinavagupta": [
     {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
@@ -840,6 +845,13 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    }
+  ],
+  "Ardhanārīśvarastotra": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
     }
   ],
   "Ares": [
@@ -1574,8 +1586,18 @@
   ],
   "Bhairava": [
     {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
       "religion": "印度教"
     },
     {
@@ -3579,6 +3601,13 @@
       "religion": "美洲"
     }
   ],
+  "Gaurīśvara": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "Gautama": [
     {
       "slug": "nyaya-sutra-gautama",
@@ -3781,6 +3810,13 @@
       "religion": "北歐"
     }
   ],
+  "Guhā": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "Guide for the Perplexed": [
     {
       "slug": "guide-for-the-perplexed-st",
@@ -3960,6 +3996,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Halāyudha": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "Haman": [
     {
       "slug": "vulgate-esther",
@@ -3992,6 +4035,13 @@
     {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
+      "religion": "印度教"
+    }
+  ],
+  "Hara": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
       "religion": "印度教"
     }
   ],
@@ -5452,6 +5502,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Kashmir Śaivism": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    }
+  ],
   "Kassapa": [
     {
       "slug": "sn2-devaputta",
@@ -5649,6 +5706,13 @@
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Kramastotra": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
     }
   ],
   "Krete": [
@@ -6569,6 +6633,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Mañjuśrī": [
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "Maḥmūd": [
     {
       "slug": "seven-valleys-four-valleys",
@@ -7465,6 +7536,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -8529,6 +8605,13 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    }
+  ],
+  "Pārvatī": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
     }
   ],
   "Pārśva": [
@@ -10037,6 +10120,13 @@
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
+    }
+  ],
+  "Tantra": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
     }
   ],
   "Tantrasadbhāva": [
@@ -11925,6 +12015,13 @@
       "religion": "印度教"
     }
   ],
+  "ajam": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    }
+  ],
   "ajñāna": [
     {
       "slug": "abhinavagupta-tantraloka",
@@ -11934,6 +12031,13 @@
     {
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
+      "religion": "印度教"
+    }
+  ],
+  "ajā": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
       "religion": "印度教"
     }
   ],
@@ -12187,6 +12291,20 @@
       "religion": "印度教"
     }
   ],
+  "ardhanārīśvara": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
+  "ardhaṃ vapuḥ": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "arete": [
     {
       "slug": "aristotle-nicomachean-ethics-el",
@@ -12236,6 +12354,13 @@
       "religion": "佛教"
     }
   ],
+  "aupaśama": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "avatar": [
     {
       "slug": "mahabharata-ganguli",
@@ -12265,6 +12390,11 @@
       "slug": "brahmabindu-upanishad",
       "name_zh": "梵點奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "kaivalya-upanishad",
@@ -12528,6 +12658,13 @@
       "religion": "佛教"
     }
   ],
+  "bhāvābhāva": [
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "bhāṣya": [
     {
       "slug": "aitareya-upanishad",
@@ -12660,6 +12797,11 @@
     {
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
     }
   ],
@@ -12859,6 +13001,13 @@
       "slug": "vulgate-titus",
       "name_zh": "提多書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "cidbhāva": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
     }
   ],
   "citta": [
@@ -13120,6 +13269,11 @@
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "garuda-purana",
@@ -13715,6 +13869,11 @@
   ],
   "gāyatrī": [
     {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -13739,6 +13898,13 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "hari": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
     }
   ],
   "harivaṃśa": [
@@ -14091,6 +14257,13 @@
       "religion": "古埃及"
     }
   ],
+  "kailāśa": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    }
+  ],
   "kaivalya": [
     {
       "slug": "kaivalya-upanishad",
@@ -14133,6 +14306,13 @@
     {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
+  "kalyāṇa": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
       "religion": "印度教"
     }
   ],
@@ -14248,6 +14428,11 @@
   ],
   "kleśa": [
     {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -14267,6 +14452,13 @@
       "religion": "印度教"
     }
   ],
+  "kramamudrā": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    }
+  ],
   "krodha": [
     {
       "slug": "vishnu-purana",
@@ -14281,10 +14473,24 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "kāma": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "kāmacchanda 欲貪": [
     {
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
+      "religion": "佛教"
+    }
+  ],
+  "kārikā": [
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -14477,6 +14683,11 @@
     {
       "slug": "garbha-upanishad",
       "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
     }
   ],
@@ -14782,6 +14993,13 @@
       "religion": "美洲"
     }
   ],
+  "mātaḥ-pitā": [
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    }
+  ],
   "mātrā": [
     {
       "slug": "nadabindu-upanishad",
@@ -14905,6 +15123,11 @@
       "slug": "bud-udanavarga-sa",
       "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
     }
   ],
   "niyama": [
@@ -14963,6 +15186,13 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    }
+  ],
+  "nīlakaṃṭha": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
     }
   ],
@@ -15060,6 +15290,11 @@
     {
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
     }
   ],
@@ -15429,6 +15664,13 @@
       "religion": "佛教"
     }
   ],
+  "prakāśa": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    }
+  ],
   "prakṛti": [
     {
       "slug": "devi-gita",
@@ -15447,6 +15689,11 @@
     }
   ],
   "pralaya": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
@@ -15483,6 +15730,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -15634,6 +15886,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
     }
   ],
@@ -16175,6 +16432,13 @@
       "religion": "印度教"
     }
   ],
+  "saṃskṛta": [
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "saṃsāra": [
     {
       "slug": "bhagavata-purana",
@@ -16221,6 +16485,13 @@
     {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    }
+  ],
+  "saṃvit": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
       "religion": "印度教"
     }
   ],
@@ -16320,6 +16591,13 @@
       "religion": "印度教"
     }
   ],
+  "skandhadhātuyāyatana": [
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "skepticism": [
     {
       "slug": "cicero-de-natura-deorum-la",
@@ -16372,6 +16650,13 @@
       "slug": "cath-maige-tuired-en",
       "name_zh": "第二次莫伊圖拉之戰（英譯）",
       "religion": "凱爾特"
+    }
+  ],
+  "spanda": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
     }
   ],
   "sparśa": [
@@ -16686,6 +16971,13 @@
       "religion": "印度教"
     }
   ],
+  "tryambaka": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    }
+  ],
   "turbinis": [
     {
       "slug": "vulgate-2-kings",
@@ -16711,6 +17003,11 @@
     {
       "slug": "bud-udanavarga-sa",
       "name_zh": "優陀那品（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -16754,6 +17051,13 @@
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
+    }
+  ],
+  "unmeṣa": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
     }
   ],
   "upamāna": [
@@ -16940,6 +17244,13 @@
       "slug": "bud-lankavatara-sa",
       "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "vimarśa": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
     }
   ],
   "vimokkha": [
@@ -17241,6 +17552,13 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    }
+  ],
+  "yuktiṣaṣṭikā": [
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
     }
   ],
   "yāmuna": [
@@ -17675,6 +17993,13 @@
       "religion": "印度教"
     }
   ],
+  "ātmā": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    }
+  ],
   "āśrama": [
     {
       "slug": "yajnavalkya-smrti",
@@ -17697,6 +18022,11 @@
     }
   ],
   "īśvara": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    },
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
@@ -17753,8 +18083,18 @@
   ],
   "Śiva": [
     {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
       "religion": "印度教"
     },
     {
@@ -17770,6 +18110,18 @@
     {
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "Śivasaṃkalpa": [
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
     }
   ],
@@ -17833,6 +18185,13 @@
     {
       "slug": "brahmabindu-upanishad",
       "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "śakti": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
       "religion": "印度教"
     }
   ],
@@ -17942,6 +18301,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -18828,6 +19192,13 @@
       "religion": "猶太教"
     }
   ],
+  "בית המדרש": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
   "בית יוסף": [
     {
       "slug": "judges",
@@ -19070,6 +19441,13 @@
       "religion": "猶太教"
     }
   ],
+  "לך לשלום": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
   "מֹשֶׁה": [
     {
       "slug": "joshua",
@@ -19175,6 +19553,13 @@
       "religion": "猶太教"
     }
   ],
+  "סיני ועוקר הרים": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
   "ספק": [
     {
       "slug": "sefaria-shiltei-hagiborim-on-pesachim",
@@ -19186,6 +19571,13 @@
     {
       "slug": "numbers",
       "name_zh": "民數記",
+      "religion": "猶太教"
+    }
+  ],
+  "עובד אדום": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
       "religion": "猶太教"
     }
   ],
@@ -19269,6 +19661,11 @@
       "slug": "micah",
       "name_zh": "彌迦書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
     }
   ],
   "צלם 形像": [
@@ -19296,6 +19693,27 @@
     {
       "slug": "sefaria-shiltei-hagiborim-on-pesachim",
       "name_zh": "Shiltei HaGiborim on Pesachim",
+      "religion": "猶太教"
+    }
+  ],
+  "רב יוסף": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
+  "רבה": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
+  "רבי אבין הלוי": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
       "religion": "猶太教"
     }
   ],
@@ -19341,6 +19759,27 @@
       "religion": "猶太教"
     }
   ],
+  "שכינה": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
+  "שלום": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
+  "שמיני": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
   "שמרון": [
     {
       "slug": "micah",
@@ -19383,6 +19822,18 @@
     {
       "slug": "proverbs",
       "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    }
+  ],
+  "תלמיד חכם": [
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
       "religion": "猶太教"
     }
   ],

@@ -21,5 +21,44 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "awe-fear",
+    "commentarial-layer",
+    "divine-immanence",
+    "oral-tradition",
+    "prayer",
+    "ritual-practice",
+    "study",
+    "synagogue-mosque-style"
+  ],
+  "keywords": [
+    "תלמיד חכם",
+    "שכינה",
+    "תורה",
+    "בית המדרש",
+    "סיני ועוקר הרים",
+    "רב יוסף",
+    "רבה",
+    "רבי אבין הלוי",
+    "לך לשלום",
+    "שלום",
+    "ציון",
+    "שמיני",
+    "עובד אדום"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "patience-waiting"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "601b8e5b1e059cb1a405cab8820d1fa89c7fcd023ab80ef0e36be0075c9cb9dc"
+  },
+  "tagging_models": "MiniMax-M3"
 }

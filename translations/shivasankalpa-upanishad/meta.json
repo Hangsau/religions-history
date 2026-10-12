@@ -19,5 +19,42 @@
   "tier": "次要",
   "notes": null,
   "is_original_language": true,
-  "text_role": "original"
+  "text_role": "original",
+  "semantic_tags": [
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Śivasaṃkalpa",
+    "Śiva",
+    "maheśvara",
+    "puruṣottama",
+    "oṃkāra",
+    "gāyatrī",
+    "kailāśa",
+    "nīlakaṃṭha",
+    "tryambaka",
+    "brahma",
+    "hari",
+    "ātmā",
+    "ajam",
+    "īśvara"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "979a1cba997dceed485a79cf89b53c1239d37f5fa78c2c4cca72b47a2442f1be"
+  },
+  "tagging_models": "MiniMax-M3"
 }

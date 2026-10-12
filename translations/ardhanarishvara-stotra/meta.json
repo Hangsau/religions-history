@@ -19,5 +19,45 @@
   "tier": "次要",
   "notes": "迦爾訶那（Kalhaṇa）著半男半女濕婆讚歌",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "chanting",
+    "creator-deity",
+    "divine-immanence",
+    "feminine-divine",
+    "mystical-union",
+    "non-dual",
+    "sacred-language"
+  ],
+  "keywords": [
+    "ardhanārīśvara",
+    "Śiva",
+    "Pārvatī",
+    "Gaurīśvara",
+    "Ardhanārīśvarastotra",
+    "Halāyudha",
+    "kalyāṇa",
+    "ardhaṃ vapuḥ",
+    "Hara",
+    "Bhairava",
+    "Guhā",
+    "mātaḥ-pitā",
+    "kāma",
+    "ajā",
+    "aupaśama"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "4f6a349a09629ea522fae5962d3d418c4ddd6cd413935c0c23ca693d4c845a8e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

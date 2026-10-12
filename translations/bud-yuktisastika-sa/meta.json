@@ -19,5 +19,39 @@
   "tier": "次要",
   "notes": "龍樹緣起正理六十頌",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "emptiness",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "non-dual"
+  ],
+  "keywords": [
+    "Nāgārjuna",
+    "yuktiṣaṣṭikā",
+    "pratītyasamutpāda",
+    "śūnyatā",
+    "bhāvābhāva",
+    "nirvāṇa",
+    "saṃskṛta",
+    "dharma",
+    "kleśa",
+    "avidyā",
+    "tṛṣṇā",
+    "skandhadhātuyāyatana",
+    "Mañjuśrī",
+    "kārikā"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2a45a0a905ee937d7cda9b5c31e32cca4d28339be2a584a41040e5df0085bd16"
+  },
+  "tagging_models": "MiniMax-M3"
 }

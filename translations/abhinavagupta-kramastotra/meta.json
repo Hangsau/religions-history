@@ -19,5 +19,44 @@
   "tier": "次要",
   "notes": "喀什米爾濕婆派宗師阿毗那婆笈多（Abhinavagupta）所著次第（Krama）派女神讚歌",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "divine-immanence",
+    "emanation",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Abhinavagupta",
+    "Kramastotra",
+    "Śiva",
+    "Bhairava",
+    "prakāśa",
+    "vimarśa",
+    "saṃvit",
+    "śakti",
+    "kramamudrā",
+    "spanda",
+    "cidbhāva",
+    "unmeṣa",
+    "pralaya",
+    "Kashmir Śaivism",
+    "Tantra"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b8b539faff2e71652e24a60f45d3b264b6e4e35703e6938dadcc11771d501276"
+  },
+  "tagging_models": "MiniMax-M3"
 }

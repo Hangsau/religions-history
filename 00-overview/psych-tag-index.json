@@ -3440,6 +3440,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -9604,6 +9609,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
     },
     {
       "slug": "aristotle-metaphysics-el",
@@ -17659,6 +17669,11 @@
       "slug": "tale-of-igor-campaign",
       "name_zh": "伊戈爾遠征記",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
     },
     {
       "slug": "talmud-rodkinson",
@@ -31896,6 +31911,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -32024,6 +32044,11 @@
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
     },
     {
       "slug": "tao-te-ching",
@@ -38353,6 +38378,11 @@
   ],
   "fear-uncertainty": [
     {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "amos",
       "name_zh": "阿摩司書",
       "religion": "猶太教"
@@ -43626,6 +43656,11 @@
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
     },
     {
       "slug": "vaisheshika-sutra",
@@ -50688,6 +50723,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0002",
       "name_zh": "七佛經",
       "religion": "佛教"
@@ -53183,6 +53223,11 @@
   ],
   "love-sex-intimacy": [
     {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
       "religion": "基督教"
@@ -53452,9 +53497,19 @@
   ],
   "meaning-of-suffering": [
     {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
       "religion": "佛教"
+    },
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
     },
     {
       "slug": "bible-1-peter",
@@ -56707,6 +56762,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "vulgate-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（武加大）",
       "religion": "基督教"
@@ -57207,6 +57267,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "talmud-berakhot",
+      "name_zh": "塔木德·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
@@ -57677,6 +57742,11 @@
     }
   ],
   "stillness-rest": [
+    {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
     {
       "slug": "amitabha-sutra",
       "name_zh": "佛說阿彌陀經",
@@ -59078,6 +59148,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -59467,6 +59542,16 @@
   ],
   "who-am-i": [
     {
+      "slug": "abhinavagupta-kramastotra",
+      "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ardhanarishvara-stotra",
+      "name_zh": "半女自在天讚",
+      "religion": "印度教"
+    },
+    {
       "slug": "bible-1-john",
       "name_zh": "約翰一書",
       "religion": "基督教"
@@ -59499,6 +59584,11 @@
     {
       "slug": "bud-trimshika-sa",
       "name_zh": "唯識三十頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
     },
     {
@@ -61239,6 +61329,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-yuktisastika-sa",
+      "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T01n0004",
       "name_zh": "七佛父母姓字經",
       "religion": "佛教"
@@ -62212,6 +62307,11 @@
       "slug": "sefaria-rashba-on-megillah",
       "name_zh": "Rashba on Megillah",
       "religion": "猶太教"
+    },
+    {
+      "slug": "shivasankalpa-upanishad",
+      "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
     },
     {
       "slug": "sn8-vangisa",
