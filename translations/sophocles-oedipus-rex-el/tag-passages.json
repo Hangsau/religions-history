@@ -1,0 +1,187 @@
+{
+ "schema_version": 1,
+ "slug": "sophocles-oedipus-rex-el",
+ "chunks_total": 10,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Οιδίπους Τύραννος",
+   "last_heading": "2 | 王之誓言與歌隊祈神",
+   "semantic_tags": [
+    "messianism",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | 國王的詛咒與宣告",
+   "last_heading": "4 | 對峙與預言",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 提瑞西阿斯預言與克瑞昂對質（後半）",
+   "last_heading": "5.4 | 第二合唱歌（antistrophe）",
+   "semantic_tags": [
+    "accept-fate",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "5.5 | 第三段（epode）",
+   "last_heading": "5.7 | 克瑞昂對話",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "6 | Creon 自辯與 Jocasta 入場",
+   "last_heading": "6 | Creon 自辯與 Jocasta 入場",
+   "semantic_tags": [
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "7 | 第七段",
+   "last_heading": "7 | 第七段",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "9 | 科林斯使者報信後與第一合唱歌",
+   "last_heading": "9 | 第一合唱歌 — 譯文止於「基拉」之殘句，因原文在 εἴθ᾽ ὁ Κυλ 處中斷，下一段（10/13）將接續此句之後。",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "10 | 牧人被帶上 · 歌隊詠嘆 · 伊俄卡斯達之死",
+   "last_heading": "10 | 牧人被帶上 · 歌隊詠嘆 · 伊俄卡斯達之死",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "polytheist",
+    "prophetic-revelation",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "11 | 訊使敘述與伊底帕斯出場",
+   "last_heading": "12 | 終場：流放之請",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "essentially-flawed",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "13 | 退場",
+   "last_heading": "13 | 退場",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  }
+ ]
+}

@@ -52,15 +52,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "change-transformation",
-    "courage",
     "death",
-    "evil-cruelty-empathy",
-    "faith-doubt"
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "justice-power"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ea6b30967edebcffdd48b8d3bcdcf12331c2704f9626c67fe5bd01517bcca40f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -49,15 +49,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "body-mind",
-    "change-transformation",
-    "dreams-unconscious",
     "existence-why-born",
-    "faith-doubt"
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "eb36172289cfc60d57291fd1b9d25056bba625a96fbcd2cc3012cc3f5e9860d6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

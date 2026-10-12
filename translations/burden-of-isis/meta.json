@@ -52,15 +52,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
     "death",
     "fear-uncertainty",
-    "gratitude-contentment",
-    "hope-reason-to-live"
+    "hope-reason-to-live",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ececbdf4cfd017a56d15fb62decfad40c0353a232eaab4ea2be5b469f409a0a5"
+  },
+  "tagging_models": "MiniMax-M3"
 }

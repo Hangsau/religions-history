@@ -56,13 +56,14 @@
   "psych_tags": [
     "calling-vocation",
     "courage",
-    "faith-doubt",
-    "fear-uncertainty",
-    "gratitude-contentment"
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8393b3880b822330226552c8d0342e3aeb742005864fd6ce33600d0e82669d22"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -66,15 +66,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "communication-being-understood",
-    "death",
-    "dreams-unconscious",
-    "emotions-passions",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "da8e74cebd812f1d8e904fa4c1bc3aec2343535cd243140a618a6b3743e118a0"
+  },
+  "tagging_models": "MiniMax-M3"
 }
