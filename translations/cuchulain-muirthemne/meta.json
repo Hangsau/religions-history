@@ -48,15 +48,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "courage"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6c8182b3a405a9927cd82427f98cc699764c4e9aa7f1754ba6e012e918838e72"
+  },
+  "tagging_models": "MiniMax-M3"
 }
