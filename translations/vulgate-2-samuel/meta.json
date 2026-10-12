@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "calling-vocation",
     "death",
-    "evil-cruelty-empathy",
-    "existence-why-born"
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "c707d20129542b656e492d6469cfe550e8770da9cad4be484a7b60679b04a2b6"
+  },
+  "tagging_models": "MiniMax-M3"
 }

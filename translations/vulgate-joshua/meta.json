@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
-    "courage",
-    "death",
-    "faith-doubt"
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "64f9dcdc532315be9bde9b0e689a93236e16cc96d1d02548840c353133fea88b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

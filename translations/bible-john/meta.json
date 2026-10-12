@@ -55,15 +55,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
     "death",
-    "existence-why-born",
     "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "3c4eeb48dc954fc267473d6490715312c4b1b7f070e03bc13714e35f5250f2dc"
+  },
+  "tagging_models": "MiniMax-M3"
 }
