@@ -20,5 +20,57 @@
   "tier": "次要",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-immanence",
+    "divine-kingship",
+    "feminine-divine",
+    "multiple-canons",
+    "oral-tradition",
+    "polytheist",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theocracy",
+    "theophany",
+    "tribal-traditional",
+    "ultimate-reality",
+    "vision-experience"
+  ],
+  "keywords": [
+    "Noqoìlpi",
+    "Gambler",
+    "Navajo",
+    "Kintyèl",
+    "Kinçolíj",
+    "Chaco",
+    "turquoise",
+    "talisman",
+    "pueblo",
+    "Pueblo Chettro Kettle",
+    "creation",
+    "migration",
+    "gambling-god",
+    "Tseçqa",
+    "Qastcèyalçi"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "memory-reconciliation",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2fac15ae70c50f8118b5137482470a278cd41b9c724561e3f632e96b6d51190f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

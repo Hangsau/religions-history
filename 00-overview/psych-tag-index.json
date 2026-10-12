@@ -6902,6 +6902,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "tarka-samgraha",
+      "name_zh": "思擇集",
+      "religion": "印度教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -17301,6 +17306,11 @@
       "religion": "伊斯蘭"
     },
     {
+      "slug": "mishnah-berakhot",
+      "name_zh": "米示拿·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
@@ -17716,6 +17726,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "tarka-samgraha",
+      "name_zh": "思擇集",
+      "religion": "印度教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -17739,6 +17754,11 @@
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
+    },
+    {
+      "slug": "var-bhai-gurdas-1-pa",
+      "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "vasistha-dharmasutra",
@@ -31771,6 +31791,11 @@
       "religion": "伊斯蘭"
     },
     {
+      "slug": "mishnah-berakhot",
+      "name_zh": "米示拿·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
@@ -32338,6 +32363,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-tobit",
+      "name_zh": "多比傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -35504,6 +35534,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "var-bhai-gurdas-1-pa",
+      "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
       "religion": "印度教"
@@ -38284,6 +38319,11 @@
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
+    },
+    {
+      "slug": "var-bhai-gurdas-1-pa",
+      "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "vulgate-1-chronicles",
@@ -43693,9 +43733,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "mishnah-berakhot",
+      "name_zh": "米示拿·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "navajo-myths",
+      "name_zh": "納瓦霍神話",
+      "religion": "美洲"
     },
     {
       "slug": "nehemiah",
@@ -43833,6 +43883,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "tarka-samgraha",
+      "name_zh": "思擇集",
+      "religion": "印度教"
+    },
+    {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
@@ -43950,6 +44005,11 @@
     {
       "slug": "vulgate-revelation",
       "name_zh": "啟示錄（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-tobit",
+      "name_zh": "多比傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -44313,6 +44373,11 @@
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
+    },
+    {
+      "slug": "navajo-myths",
+      "name_zh": "納瓦霍神話",
+      "religion": "美洲"
     },
     {
       "slug": "nyaya-sutra",
@@ -46476,6 +46541,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "mishnah-berakhot",
+      "name_zh": "米示拿·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "sblgnt-hebrews",
       "name_zh": "希伯來書（希臘原文）",
       "religion": "基督教"
@@ -46548,6 +46618,11 @@
     {
       "slug": "vulgate-philippians",
       "name_zh": "腓立比書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-tobit",
+      "name_zh": "多比傳（武加大）",
       "religion": "基督教"
     },
     {
@@ -53471,6 +53546,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "navajo-myths",
+      "name_zh": "納瓦霍神話",
+      "religion": "美洲"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -53777,6 +53857,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-tobit",
+      "name_zh": "多比傳（武加大）",
       "religion": "基督教"
     }
   ],
@@ -57082,6 +57167,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "var-bhai-gurdas-1-pa",
+      "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "vulgate-1-thessalonians",
       "name_zh": "帖撒羅尼迦前書（武加大）",
       "religion": "基督教"
@@ -57267,6 +57357,11 @@
       "slug": "kogo-shui-zh",
       "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
+    },
+    {
+      "slug": "navajo-myths",
+      "name_zh": "納瓦霍神話",
+      "religion": "美洲"
     }
   ],
   "nature-animals-ecology": [
@@ -59483,6 +59578,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mishnah-berakhot",
+      "name_zh": "米示拿·祝福章",
+      "religion": "猶太教"
+    },
+    {
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
       "religion": "道教"
@@ -59870,6 +59970,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "navajo-myths",
+      "name_zh": "納瓦霍神話",
+      "religion": "美洲"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -59888,6 +59993,11 @@
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "vulgate-tobit",
+      "name_zh": "多比傳（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-zephaniah",
@@ -61657,9 +61767,19 @@
       "religion": "儒教"
     },
     {
+      "slug": "tarka-samgraha",
+      "name_zh": "思擇集",
+      "religion": "印度教"
+    },
+    {
       "slug": "tianyinzi",
       "name_zh": "天隱子",
       "religion": "道教"
+    },
+    {
+      "slug": "var-bhai-gurdas-1-pa",
+      "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     },
     {
       "slug": "vulgate-1-john",
@@ -62717,6 +62837,11 @@
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
+    },
+    {
+      "slug": "tarka-samgraha",
+      "name_zh": "思擇集",
+      "religion": "印度教"
     },
     {
       "slug": "vulgate-2-peter",

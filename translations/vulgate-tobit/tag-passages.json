@@ -1,0 +1,235 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-tobit",
+ "chunks_total": 12,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber Tobiae",
+   "last_heading": "1 | Vulgata Clementina/Liber Tobiae",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "compassion",
+    "monotheist-exclusive",
+    "proselytizing",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "courage",
+    "giving-generosity",
+    "gratitude-contentment",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "suffering-as-purifying",
+    "tabula-rasa",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "illness-body",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "heaven-hell",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "loneliness-belonging",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "economic-justice",
+    "golden-rule",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "sin-as-disobedience",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "giving-generosity",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "created-in-image",
+    "heaven-hell",
+    "marriage-sacred",
+    "prayer",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "prayer",
+    "ritual-practice",
+    "sexual-ethics",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "marriage-sacred",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "sexual-ethics",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred",
+    "pilgrimage",
+    "prayer"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "courage",
+    "loss-grief",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "liberation-by-devotion",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "illness-body",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "fasting",
+    "liberation-by-works",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "inclusive-monotheism",
+    "messianism",
+    "pilgrimage",
+    "ritual-practice",
+    "theophany",
+    "ultimate-reality",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": []
+  }
+ ]
+}
