@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
     "boundaries-self-worth",
-    "calling-vocation"
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f3943cddc518dca4b99cda6aca1bdea5d32508674ee5129ffc4cfe5e1c3b491f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

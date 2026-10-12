@@ -1,0 +1,1285 @@
+{
+ "schema_version": 1,
+ "slug": "huainanzi",
+ "chunks_total": 69,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "creator-deity",
+    "divine-transcendence",
+    "dualistic-cosmos",
+    "human-as-microcosm"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "1 | 主術訓",
+   "last_heading": "1 | 主術訓",
+   "semantic_tags": [
+    "divine-immanence",
+    "enlightenment",
+    "humility",
+    "non-dual",
+    "ritual-practice",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "justice-power",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "non-proselytizing",
+    "secular-state",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-immanence",
+    "economic-justice",
+    "humility",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "2 | 人間訓",
+   "last_heading": "2 | 人間訓",
+   "semantic_tags": [
+    "accept-fate",
+    "humility",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "ritual-practice",
+    "study",
+    "syncretic",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "meditation",
+    "messianism",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "monastic",
+    "prayer",
+    "prayer",
+    "ritual-practice",
+    "ritual-practice",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "illness-body",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "prayer"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "3 | 俶真訓",
+   "last_heading": "3 | 俶真訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "divine-immanence",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": [
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "4 | 兵略訓",
+   "last_heading": "4 | 兵略訓",
+   "semantic_tags": [
+    "against-idolatry",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "mandate-of-heaven",
+    "non-violence",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "non-violence",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "secular-state",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "5 | 原道訓",
+   "last_heading": "5 | 原道訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "emptiness",
+    "mystical-union",
+    "non-dual",
+    "non-violence",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "humility",
+    "meditation",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "human-as-microcosm",
+    "meditation",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "6 | 墜形訓",
+   "last_heading": "6 | 墜形訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "human-as-microcosm",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "multiple-souls",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 23,
+   "first_heading": "7 | 墬形訓",
+   "last_heading": "7 | 墬形訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "human-as-microcosm"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "nature-animals-ecology",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "multiple-souls",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "8 | 天文訓",
+   "last_heading": "8 | 天文訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "dualistic-cosmos",
+    "human-as-microcosm"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "chaos-to-order",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "human-as-microcosm",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 28,
+   "first_heading": "9 | 敘目",
+   "last_heading": "9 | 敘目",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "syncretic",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "10 | 時則訓",
+   "last_heading": "10 | 時則訓",
+   "semantic_tags": [
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "responsibility-leadership",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "ritual-practice",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "11 | 本經訓",
+   "last_heading": "11 | 本經訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "golden-rule",
+    "non-dual",
+    "ritual-practice",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "meaning-of-suffering",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "divine-immanence",
+    "extinction-of-self",
+    "human-as-microcosm",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "change-transformation",
+    "death",
+    "gratitude-contentment",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "12 | 氾論訓",
+   "last_heading": "12 | 氾論訓",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "non-dual",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "humility",
+    "non-dual",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "insignificance-history",
+    "perfectionism-self-criticism",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "13 | 泰族訓",
+   "last_heading": "13 | 泰族訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "commentarial-layer",
+    "cosmic-egg",
+    "divine-immanence",
+    "human-as-microcosm",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "ritual-practice",
+    "secular-state",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "responsibility-leadership",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "mandate-of-heaven",
+    "self-effort",
+    "study",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "14 | 精神訓",
+   "last_heading": "14 | 精神訓",
+   "semantic_tags": [
+    "breath-control",
+    "chaos-to-order",
+    "cosmic-egg",
+    "extinction-of-self",
+    "human-as-microcosm",
+    "meditation",
+    "non-dual",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "15 | 繆稱訓",
+   "last_heading": "15 | 繆稱訓",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "essentially-good",
+    "humility",
+    "meditation",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "ritual-practice",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "16 | 脩務訓",
+   "last_heading": "16 | 脩務訓",
+   "semantic_tags": [
+    "enlightenment",
+    "essentially-good",
+    "humility",
+    "meditation",
+    "non-violence",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "secular-state",
+    "self-effort",
+    "study",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "17 | 要略",
+   "last_heading": "17 | 要略",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cosmic-egg",
+    "divine-immanence",
+    "liberation-by-knowledge",
+    "meditation",
+    "ritual-practice",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "18 | 覽冥訓",
+   "last_heading": "18 | 覽冥訓",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "divine-immanence",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "non-dual",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "19 | 詮言訓",
+   "last_heading": "19 | 詮言訓",
+   "semantic_tags": [
+    "divine-immanence",
+    "humility",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "humility",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "20 | 說山訓",
+   "last_heading": "20 | 說山訓",
+   "semantic_tags": [
+    "emptiness",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "enlightenment",
+    "essentially-good",
+    "karma-rebirth",
+    "mystical-union",
+    "non-dual",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "humility",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "21 | 說林訓",
+   "last_heading": "21 | 說林訓",
+   "semantic_tags": [
+    "breath-control",
+    "divine-immanence",
+    "emptiness",
+    "essentially-flawed",
+    "non-dual",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "humility",
+    "ritual-practice",
+    "self-effort",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "responsibility-leadership",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "22 | 道應訓",
+   "last_heading": "22 | 道應訓",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-immanence",
+    "humility",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "meditation",
+    "non-violence",
+    "prayer",
+    "self-effort",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-violence",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "23 | 齊俗訓",
+   "last_heading": "23 | 齊俗訓",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "non-violence",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "change-transformation",
+    "nature-animals-ecology",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "emptiness",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "essentially-good",
+    "humility",
+    "non-dual",
+    "ritual-practice",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  }
+ ]
+}
