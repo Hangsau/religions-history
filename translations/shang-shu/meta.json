@@ -50,16 +50,17 @@
   "tag_status": "done",
   "orthography_normalized": "zh.wikisource 逐章簡繁不一，已做 s2t 白名單正規化（只轉一簡對一繁的無歧義簡化字，文言正字/歧義字保留）；scripts/normalize_wikisource_zh.py；2026-07-04",
   "psych_tags": [
-    "addiction-self-destruction",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage"
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8bcf565b77fd1f355376f7baa61e87cd8dc51dfb0615969c364cbc9d3dbff981"
+  },
+  "tagging_models": "MiniMax-M3"
 }

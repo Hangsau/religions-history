@@ -85,15 +85,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
     "body-mind",
     "calling-vocation",
-    "change-transformation"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d8592128c6831854b5504c84b1fa8f2b9f28d08cc76fd4c7bffaeac4c075f475"
+  },
+  "tagging_models": "MiniMax-M3"
 }
