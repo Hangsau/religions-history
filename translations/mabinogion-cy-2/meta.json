@@ -80,15 +80,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
-    "childhood-wounds",
-    "communication-being-understood"
+    "courage",
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8ed15c5e52a2360079757cded7dccd43594bf5a94034e71da5c8dd9838e2c95e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

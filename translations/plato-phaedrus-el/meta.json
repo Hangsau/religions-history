@@ -72,15 +72,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "03728bd8f7ca50aca25d2b3d256b4799a05fabbf2d9d0f62f6b92d51c0af8d88"
+  },
+  "tagging_models": "MiniMax-M3"
 }
