@@ -67,14 +67,15 @@
   "tag_status": "done",
   "psych_tags": [
     "addiction-self-destruction",
-    "body-mind",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "8b17183103dddcfb81a9da206c8a27992d621c35b358468fb0e66194d8507c83"
+  },
+  "tagging_models": "MiniMax-M3"
 }

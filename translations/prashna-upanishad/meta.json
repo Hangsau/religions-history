@@ -50,15 +50,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
     "death",
-    "dreams-unconscious"
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6e511aff54a3f06800b69eb0a61f01d562b55ed709d803a39e89dd70ca238c00"
+  },
+  "tagging_models": "MiniMax-M3"
 }

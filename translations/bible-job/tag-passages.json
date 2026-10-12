@@ -1,0 +1,201 @@
+{
+ "schema_version": 1,
+ "slug": "bible-job",
+ "chunks_total": 11,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "1 | 聖經 (和合本)/約伯記",
+   "last_heading": "1 | 聖經 (和合本)/約伯記",
+   "semantic_tags": [
+    "divine-transcendence",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "humility",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "essentially-good",
+    "prayer",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "essentially-flawed",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "essentially-flawed",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "humility",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "creator-deity",
+    "divine-transcendence",
+    "humility",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

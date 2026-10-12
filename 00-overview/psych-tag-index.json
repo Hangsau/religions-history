@@ -2938,11 +2938,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "jain-dasavaikalika-pkt",
-      "name_zh": "十誦律要（半摩揭陀原文）",
-      "religion": "耆那教"
-    },
-    {
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
@@ -6157,16 +6152,6 @@
       "religion": "道教"
     },
     {
-      "slug": "jain-acaranga-pkt",
-      "name_zh": "阿闥羅門經（半摩揭陀原文）",
-      "religion": "耆那教"
-    },
-    {
-      "slug": "jain-dasavaikalika-pkt",
-      "name_zh": "十誦律要（半摩揭陀原文）",
-      "religion": "耆那教"
-    },
-    {
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
@@ -6380,11 +6365,6 @@
       "slug": "plotinus-enneads-el",
       "name_zh": "九章集（希臘原文）",
       "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "prashna-upanishad",
-      "name_zh": "問難奧義書",
-      "religion": "印度教"
     },
     {
       "slug": "pyramid-texts-mercer",
@@ -16916,11 +16896,6 @@
       "religion": "瑪雅"
     },
     {
-      "slug": "prashna-upanishad",
-      "name_zh": "問難奧義書",
-      "religion": "印度教"
-    },
-    {
       "slug": "proverbs",
       "name_zh": "箴言",
       "religion": "猶太教"
@@ -21278,11 +21253,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "jain-acaranga-pkt",
-      "name_zh": "阿闥羅門經（半摩揭陀原文）",
-      "religion": "耆那教"
-    },
-    {
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
@@ -21511,11 +21481,6 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
-    },
-    {
-      "slug": "prashna-upanishad",
-      "name_zh": "問難奧義書",
-      "religion": "印度教"
     },
     {
       "slug": "qingjing-jing",
@@ -22556,11 +22521,6 @@
     {
       "slug": "bible-joshua",
       "name_zh": "約書亞記",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-judges",
-      "name_zh": "士師記",
       "religion": "基督教"
     },
     {
@@ -24539,11 +24499,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "jain-acaranga-pkt",
-      "name_zh": "阿闥羅門經（半摩揭陀原文）",
-      "religion": "耆那教"
-    },
-    {
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
@@ -25153,11 +25108,6 @@
     {
       "slug": "bible-joshua",
       "name_zh": "約書亞記",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-judges",
-      "name_zh": "士師記",
       "religion": "基督教"
     },
     {
@@ -31248,11 +31198,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "prashna-upanishad",
-      "name_zh": "問難奧義書",
-      "religion": "印度教"
-    },
-    {
       "slug": "vijnaptimatratasiddhi",
       "name_zh": "成唯識論",
       "religion": "佛教"
@@ -32012,11 +31957,6 @@
       "religion": "瑣羅亞斯德"
     },
     {
-      "slug": "bible-judges",
-      "name_zh": "士師記",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-matthew",
       "name_zh": "馬太福音",
       "religion": "基督教"
@@ -32666,6 +32606,11 @@
     {
       "slug": "bible-jeremiah",
       "name_zh": "耶利米書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
       "religion": "基督教"
     },
     {
@@ -42223,6 +42168,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -42792,6 +42742,11 @@
     {
       "slug": "bible-jonah",
       "name_zh": "約拿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
       "religion": "基督教"
     },
     {
@@ -43923,11 +43878,6 @@
     {
       "slug": "bible-haggai",
       "name_zh": "哈該書",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-job",
-      "name_zh": "約伯記",
       "religion": "基督教"
     },
     {
@@ -45418,11 +45368,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-job",
-      "name_zh": "約伯記",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-joel",
       "name_zh": "約珥書",
       "religion": "基督教"
@@ -45430,6 +45375,11 @@
     {
       "slug": "bible-jude",
       "name_zh": "猶大書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
       "religion": "基督教"
     },
     {
@@ -47488,6 +47438,11 @@
       "slug": "great-learning",
       "name_zh": "大學",
       "religion": "儒教"
+    },
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
     },
     {
       "slug": "lujia-xinyu",
@@ -52092,6 +52047,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
@@ -53222,6 +53182,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bible-job",
+      "name_zh": "約伯記",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-joel",
       "name_zh": "約珥書",
       "religion": "基督教"
@@ -53229,6 +53194,11 @@
     {
       "slug": "bible-jonah",
       "name_zh": "約拿書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-judges",
+      "name_zh": "士師記",
       "religion": "基督教"
     },
     {
@@ -56492,6 +56462,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -56605,6 +56580,11 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
     },
     {
       "slug": "psalms",
@@ -59323,6 +59303,16 @@
       "religion": "道教"
     },
     {
+      "slug": "jain-acaranga-pkt",
+      "name_zh": "阿闥羅門經（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-dasavaikalika-pkt",
+      "name_zh": "十誦律要（半摩揭陀原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -59356,6 +59346,11 @@
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
       "religion": "道教"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
     },
     {
       "slug": "qingjing-jing",
@@ -61725,6 +61720,11 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "prashna-upanishad",
+      "name_zh": "問難奧義書",
+      "religion": "印度教"
     },
     {
       "slug": "proverbs",

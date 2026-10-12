@@ -56,14 +56,15 @@
   "translation_models": "MiniMax-M3",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
-    "evil-cruelty-empathy",
-    "faith-doubt"
+    "faith-doubt",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "d7661b07bddb5764af3b9d0044df8bc0eaff53e522d169e4b8fd34012d8fa8d4"
+  },
+  "tagging_models": "MiniMax-M3"
 }

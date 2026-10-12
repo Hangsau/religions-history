@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-13 00:59:15 +0800
+- 更新時間：2026-10-13 01:04:36 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**176 / 3186** 已完成雙標籤
+- 進度：**181 / 3186** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`sn47-satipatthana`
+- 目前處理：`prashna-upanishad`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
 - 已阻塞待人工處理：0 部
-- M3 執行狀態：**running** — `sn47-satipatthana` (tag)
+- M3 執行狀態：**running** — `prashna-upanishad` (tag)
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。
