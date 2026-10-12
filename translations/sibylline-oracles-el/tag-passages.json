@@ -1,0 +1,652 @@
+{
+ "schema_version": 1,
+ "slug": "sibylline-oracles-el",
+ "chunks_total": 32,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Αβέβαια",
+   "last_heading": "1 | Αβέβαια",
+   "semantic_tags": [
+    "against-idolatry",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "heaven-hell",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | Βιβλίο Α",
+   "last_heading": "4 | Book III — 人類初代至 Noah",
+   "semantic_tags": [
+    "chaos-to-order",
+    "commandments-law",
+    "created-in-image",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "original-sin",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | 挪亞入方舟與大洪水",
+   "last_heading": "7 | 洪水之後",
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 | 論宇宙洪水與基督降世、受難預言",
+   "last_heading": "3 | Βιβλίο Β",
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "divine-transcendence",
+    "heaven-hell",
+    "messianism",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "11 | 倫理誡命續",
+   "last_heading": "12 | 124–185",
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "golden-rule",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 第十三段",
+   "last_heading": "14 | 罪人之永刑",
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "heaven-hell",
+    "ritual-practice",
+    "theodicy",
+    "ultimate-reality",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "15 | 第十五段",
+   "last_heading": "17 | 段落 17",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "compassion",
+    "polytheist",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "18 | Kronos 後裔與列國興衰",
+   "last_heading": "19 | 西比拉神諭集",
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "messianism",
+    "polytheist",
+    "prophetic-revelation",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "20 | 第三卷 異象續：列國遭禍",
+   "last_heading": "21 | 西比拉神諭集第二十一段",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "22 | 十角之預言與諸城禍福",
+   "last_heading": "24 | 異族侵伐與希臘之勸誡",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "commandments-law",
+    "divine-transcendence",
+    "inclusive-monotheism",
+    "messianism",
+    "salvation-by-faith",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "25 | 偶像崇拜之譴責與末世異象",
+   "last_heading": "27 | III.714–779",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "commandments-law",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "28 | 末世預兆與西比拉自述",
+   "last_heading": "30 | 第三卷 · 諸邦災異",
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "31 | 第三十一段",
+   "last_heading": "6 | Βιβλίο Ε",
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "33 | 第三十三段",
+   "last_heading": "34 | 第三卷 130-194 行",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "polytheist",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "35 | 第五卷 195-258 節",
+   "last_heading": "36 | 猶太受安慰與亞細亞諸城之災",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prayer",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 16,
+   "first_heading": "37 | 末世戰禍與終末預言",
+   "last_heading": "38 | 末世預言：諸城傾覆與巴比倫哀歌",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "39 | 埃及的毀滅與天象異兆",
+   "last_heading": "40 | 卷五 516–531 黃道諸星座之戰",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "creator-deity",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "7 | Βιβλίο Ζ",
+   "last_heading": "42 | 推羅、敘利亞與諸邦之預言",
+   "semantic_tags": [
+    "apocalypse",
+    "monotheist-exclusive",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "43 | 末世審判與神諭者自白",
+   "last_heading": "8 | Βιβλίο Η",
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "polytheist",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "45 | 對羅馬的末世審判",
+   "last_heading": "46 | 第三卷（續，行 127–189）",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "47 | 末世異象與審判",
+   "last_heading": "49 | 基督的復活與末世異象",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "messianism",
+    "other-power",
+    "prophetic-revelation",
+    "theodicy",
+    "theophany",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "50 | 第 50 段",
+   "last_heading": "52 | 祈頌全生之神",
+   "semantic_tags": [
+    "against-idolatry",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "loneliness-belonging",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "9 | Βιβλίο ΙΑ",
+   "last_heading": "9 | Βιβλίο ΙΑ",
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "messianism",
+    "polytheist",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theocracy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "55 | 特洛伊之淪陷與後世紛爭",
+   "last_heading": "55 | 特洛伊之淪陷與後世紛爭",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "57 | 埃及之劫與末代凱撒",
+   "last_heading": "10 | Βιβλίο ΙΒ",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "divine-kingship",
+    "messianism",
+    "polytheist",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "60 | 諸王興替與東土災厄",
+   "last_heading": "61 | 諸王更替",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "polytheist",
+    "prophetic-revelation",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "insignificance-history",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "62 | 第六十二段",
+   "last_heading": "64 | ν",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "theocracy",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "65 | 第五卷（續）",
+   "last_heading": "66 | 第 66 段：諸國傾覆與末世祈願（127–173）",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "12 | Βιβλίο ΙΔ",
+   "last_heading": "68 | 第六十八段",
+   "semantic_tags": [
+    "apocalypse",
+    "divine-transcendence",
+    "messianism",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "69 | 第六十九段",
+   "last_heading": "70 | 羅馬王權與災變",
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order",
+    "divine-kingship",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "71 | 第三卷後段：羅馬、埃及與末世",
+   "last_heading": "13 | Βιβλίο ΣΤ",
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "syncretic",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "14 | Πρόλογος",
+   "last_heading": "76 | 生命之始",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "multiple-canons",
+    "prophetic-revelation",
+    "syncretic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

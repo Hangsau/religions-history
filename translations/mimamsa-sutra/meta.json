@@ -61,14 +61,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
+    "death",
     "guilt-atonement",
-    "ingroup-outgroup-prejudice",
-    "meaning-of-suffering",
-    "responsibility-leadership"
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "dab48ccdd884e0bedeaabf217e94de47c9f80b86445622a8d0b6c3762f0497c6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
