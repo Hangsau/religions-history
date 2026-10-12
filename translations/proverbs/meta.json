@@ -47,16 +47,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "communication-being-understood",
-    "death",
-    "emotions-passions",
-    "evil-cruelty-empathy"
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f11bdc3389f91d0274bf0342d5e3f4e53e15678e29794fbfff05d6b7525b8158"
+  },
+  "tagging_models": "MiniMax-M3"
 }

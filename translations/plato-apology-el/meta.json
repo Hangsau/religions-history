@@ -61,12 +61,13 @@
     "calling-vocation",
     "courage",
     "death",
-    "evil-cruelty-empathy",
-    "faith-doubt"
+    "honesty-hypocrisy",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6e161516dafd08990528ef152b8046ffed3fffe6c0f160d677814dba1c23a91c"
+  },
+  "tagging_models": "MiniMax-M3"
 }

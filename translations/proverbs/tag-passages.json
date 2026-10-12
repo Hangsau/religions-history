@@ -1,0 +1,178 @@
+{
+ "schema_version": 1,
+ "slug": "proverbs",
+ "chunks_total": 9,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 第一章",
+   "last_heading": "3 | 第三章",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "essentially-good",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "4 | 第四章",
+   "last_heading": "7 | 7",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "8 | 8",
+   "last_heading": "11 | 11",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "monotheist-exclusive",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "12 | 12",
+   "last_heading": "14 | 14",
+   "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "15 | 15",
+   "last_heading": "17 | 17",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "humility",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "emotions-passions",
+    "gratitude-contentment",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "20 | 20",
+   "last_heading": "23 | 23",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "essentially-good",
+    "humility",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "24 | 24",
+   "last_heading": "27 | 27",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "forgiveness",
+    "humility",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "patience-waiting",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "28 | 28",
+   "last_heading": "30 | 30",
+   "semantic_tags": [
+    "commandments-law",
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "synagogue-mosque-style",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "31 | 31",
+   "last_heading": "31 | 31",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "economic-justice",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "justice-power",
+    "marriage-family",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

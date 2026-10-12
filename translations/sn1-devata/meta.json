@@ -49,16 +49,17 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "translation_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f5f38526ff00ce184b709db32d50d031ef4c4f5f1f59c3e00b6fd9bae6f33828"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -1896,11 +1896,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "proverbs",
-      "name_zh": "箴言",
-      "religion": "猶太教"
-    },
-    {
       "slug": "quran-pickthall",
       "name_zh": "古蘭經 (Pickthall 英譯)",
       "religion": "伊斯蘭"
@@ -1944,11 +1939,6 @@
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
       "religion": "錫克教"
-    },
-    {
-      "slug": "sn1-devata",
-      "name_zh": "SN1 天人相應 (81 經)",
-      "religion": "佛教"
     },
     {
       "slug": "sn12-nidana",
@@ -3198,11 +3188,6 @@
       "religion": "錫克教"
     },
     {
-      "slug": "sn1-devata",
-      "name_zh": "SN1 天人相應 (81 經)",
-      "religion": "佛教"
-    },
-    {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
@@ -3878,11 +3863,6 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
-    },
-    {
-      "slug": "orphic-hymns-el",
-      "name_zh": "俄耳甫斯讚歌（希臘原文）",
-      "religion": "古希臘羅馬"
     },
     {
       "slug": "ovid-fasti-la",
@@ -6169,11 +6149,6 @@
     {
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
-      "religion": "印度教"
-    },
-    {
-      "slug": "gita-govinda",
-      "name_zh": "牧童歌",
       "religion": "印度教"
     },
     {
@@ -17066,6 +17041,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
+    },
+    {
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
@@ -21643,11 +21623,6 @@
       "religion": "美洲"
     },
     {
-      "slug": "orphic-hymns-el",
-      "name_zh": "俄耳甫斯讚歌（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -21811,11 +21786,6 @@
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
       "religion": "錫克教"
-    },
-    {
-      "slug": "sn1-devata",
-      "name_zh": "SN1 天人相應 (81 經)",
-      "religion": "佛教"
     },
     {
       "slug": "sn12-nidana",
@@ -22562,11 +22532,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "gita-govinda",
-      "name_zh": "牧童歌",
-      "religion": "印度教"
-    },
-    {
       "slug": "guo-yu",
       "name_zh": "國語",
       "religion": "儒教"
@@ -22655,11 +22620,6 @@
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
-    },
-    {
-      "slug": "proverbs",
-      "name_zh": "箴言",
-      "religion": "猶太教"
     },
     {
       "slug": "samuel-1",
@@ -24914,11 +24874,6 @@
       "religion": "神道"
     },
     {
-      "slug": "orphic-hymns-el",
-      "name_zh": "俄耳甫斯讚歌（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -25022,11 +24977,6 @@
       "slug": "shang-shu",
       "name_zh": "尚書",
       "religion": "儒教"
-    },
-    {
-      "slug": "sn1-devata",
-      "name_zh": "SN1 天人相應 (81 經)",
-      "religion": "佛教"
     },
     {
       "slug": "sn10-yakkha",
@@ -30631,11 +30581,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "gita-govinda",
-      "name_zh": "牧童歌",
-      "religion": "印度教"
-    },
-    {
       "slug": "gongyang-zhuan",
       "name_zh": "春秋公羊傳",
       "religion": "儒教"
@@ -30969,11 +30914,6 @@
       "slug": "prashna-upanishad",
       "name_zh": "問難奧義書",
       "religion": "印度教"
-    },
-    {
-      "slug": "proverbs",
-      "name_zh": "箴言",
-      "religion": "猶太教"
     },
     {
       "slug": "pyramid-texts-mercer",
@@ -32255,11 +32195,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "proverbs",
-      "name_zh": "箴言",
-      "religion": "猶太教"
-    },
-    {
       "slug": "qingjing-jing",
       "name_zh": "太上老君說常清靜經",
       "religion": "道教"
@@ -32890,16 +32825,6 @@
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
-    },
-    {
-      "slug": "plato-apology-el",
-      "name_zh": "蘇格拉底的申辯（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
-      "slug": "proverbs",
-      "name_zh": "箴言",
-      "religion": "猶太教"
     },
     {
       "slug": "pyramid-texts-mercer",
@@ -37029,11 +36954,6 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
-    },
-    {
-      "slug": "plato-apology-el",
-      "name_zh": "蘇格拉底的申辯（希臘原文）",
-      "religion": "古希臘羅馬"
     },
     {
       "slug": "psalms",
@@ -42688,6 +42608,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -42716,6 +42641,11 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
     },
     {
       "slug": "psalms",
@@ -42816,6 +42746,11 @@
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
     },
     {
       "slug": "sn10-yakkha",
@@ -43378,6 +43313,11 @@
       "slug": "poetic-edda-on",
       "name_zh": "詩體埃達（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
     },
     {
       "slug": "samkhya-sutra-kapila",
@@ -45554,6 +45494,11 @@
       "slug": "mishnah-berakhot",
       "name_zh": "米示拿·祝福章",
       "religion": "猶太教"
+    },
+    {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "pindar-olympian-el",
@@ -47763,6 +47708,11 @@
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
+    },
+    {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "plato-crito-el",
@@ -52399,6 +52349,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
@@ -52871,6 +52826,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
+    },
+    {
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
@@ -53141,6 +53101,11 @@
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "gita-govinda",
+      "name_zh": "牧童歌",
+      "religion": "印度教"
     },
     {
       "slug": "hosea",
@@ -56722,6 +56687,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "orphic-hymns-el",
+      "name_zh": "俄耳甫斯讚歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -56840,6 +56810,11 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
     },
     {
       "slug": "sn10-yakkha",
@@ -59478,6 +59453,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn8-vangisa",
       "name_zh": "SN8 婆耆舍相應",
       "religion": "佛教"
@@ -61762,9 +61742,19 @@
       "religion": "佛教"
     },
     {
+      "slug": "plato-apology-el",
+      "name_zh": "蘇格拉底的申辯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
     },
     {
       "slug": "qingjing-jing",
@@ -61840,6 +61830,11 @@
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "sn1-devata",
+      "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
     },
     {
       "slug": "sn3-kosala",
@@ -62997,6 +62992,11 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "proverbs",
+      "name_zh": "箴言",
+      "religion": "猶太教"
     },
     {
       "slug": "qingjing-jing",

@@ -65,15 +65,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ad56d99ae13f4138a3ea41d17137d9622b15bcdee4fd74b887709b0fcc4415d9"
+  },
+  "tagging_models": "MiniMax-M3"
 }

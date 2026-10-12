@@ -60,14 +60,15 @@
   "tag_status": "done",
   "psych_tags": [
     "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "communication-being-understood",
-    "death",
-    "emotions-passions"
+    "emotions-passions",
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "6a62e5130ccbc401af0edfc7524cf65993679cf5f93f164f08863c161feb12f3"
+  },
+  "tagging_models": "MiniMax-M3"
 }
