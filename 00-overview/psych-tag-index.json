@@ -6577,11 +6577,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "sblgnt-2-corinthians",
-      "name_zh": "哥林多後書（希臘原文）",
-      "religion": "基督教"
-    },
-    {
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
@@ -9463,11 +9458,6 @@
     {
       "slug": "bible-2-chronicles",
       "name_zh": "歷代志下",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-2-corinthians",
-      "name_zh": "哥林多後書",
       "religion": "基督教"
     },
     {
@@ -17236,11 +17226,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "sblgnt-2-corinthians",
-      "name_zh": "哥林多後書（希臘原文）",
-      "religion": "基督教"
-    },
-    {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
@@ -17706,6 +17691,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-zechariah",
+      "name_zh": "撒迦利亞書（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
@@ -17910,11 +17900,6 @@
     {
       "slug": "bible-1-samuel",
       "name_zh": "撒母耳記上",
-      "religion": "基督教"
-    },
-    {
-      "slug": "bible-2-corinthians",
-      "name_zh": "哥林多後書",
       "religion": "基督教"
     },
     {
@@ -22397,11 +22382,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-2-corinthians",
-      "name_zh": "哥林多後書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-3-john",
       "name_zh": "約翰三書",
       "religion": "基督教"
@@ -24947,11 +24927,6 @@
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
-    },
-    {
-      "slug": "epictetus-enchiridion-el",
-      "name_zh": "愛比克泰德手冊（希臘原文）",
-      "religion": "古希臘羅馬"
     },
     {
       "slug": "er-ya",
@@ -31361,11 +31336,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "sblgnt-2-corinthians",
-      "name_zh": "哥林多後書（希臘原文）",
-      "religion": "基督教"
-    },
-    {
       "slug": "sblgnt-2-peter",
       "name_zh": "彼得後書（希臘原文）",
       "religion": "基督教"
@@ -32600,11 +32570,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "epictetus-enchiridion-el",
-      "name_zh": "愛比克泰德手冊（希臘原文）",
-      "religion": "古希臘羅馬"
-    },
-    {
       "slug": "er-ya",
       "name_zh": "爾雅注",
       "religion": "儒教"
@@ -33434,11 +33399,6 @@
     {
       "slug": "vulgate-revelation",
       "name_zh": "啟示錄（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-zechariah",
-      "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
     }
   ],
@@ -34916,6 +34876,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-zechariah",
+      "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
     },
     {
@@ -43283,6 +43248,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
@@ -43530,11 +43500,6 @@
     {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
-      "religion": "基督教"
-    },
-    {
-      "slug": "vulgate-zechariah",
-      "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
     },
     {
@@ -43880,6 +43845,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
@@ -44083,6 +44053,11 @@
     }
   ],
   "giving-generosity": [
+    {
+      "slug": "bible-2-corinthians",
+      "name_zh": "哥林多後書",
+      "religion": "基督教"
+    },
     {
       "slug": "bible-3-john",
       "name_zh": "約翰三書",
@@ -46240,6 +46215,11 @@
     {
       "slug": "bible-1-timothy",
       "name_zh": "提摩太前書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-2-corinthians",
+      "name_zh": "哥林多後書",
       "religion": "基督教"
     },
     {
@@ -52090,11 +52070,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bible-zechariah",
-      "name_zh": "撒迦利亞書",
-      "religion": "基督教"
-    },
-    {
       "slug": "bible-zephaniah",
       "name_zh": "西番雅書",
       "religion": "基督教"
@@ -53251,6 +53226,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "epictetus-enchiridion-el",
+      "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -53764,6 +53744,11 @@
     {
       "slug": "bible-philippians",
       "name_zh": "腓立比書",
+      "religion": "基督教"
+    },
+    {
+      "slug": "bible-zechariah",
+      "name_zh": "撒迦利亞書",
       "religion": "基督教"
     },
     {
@@ -57067,6 +57052,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "sblgnt-2-thessalonians",
       "name_zh": "帖撒羅尼迦後書（希臘原文）",
       "religion": "基督教"
@@ -59705,6 +59695,11 @@
   ],
   "trust-vulnerability": [
     {
+      "slug": "bible-2-corinthians",
+      "name_zh": "哥林多後書",
+      "religion": "基督教"
+    },
+    {
       "slug": "bible-philemon",
       "name_zh": "腓利門書",
       "religion": "基督教"
@@ -61889,6 +61884,11 @@
     {
       "slug": "sblgnt-1-john",
       "name_zh": "約翰一書（希臘原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "sblgnt-2-corinthians",
+      "name_zh": "哥林多後書（希臘原文）",
       "religion": "基督教"
     },
     {

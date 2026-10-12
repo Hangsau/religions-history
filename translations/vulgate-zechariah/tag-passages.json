@@ -1,0 +1,89 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-zechariah",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Prophetia Zachariae",
+   "last_heading": "4 | 第四章",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "temple-centered",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | 第五章",
+   "last_heading": "1 | Zacharias 8",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "messianism",
+    "priesthood",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "2 | Zacharias 9",
+   "last_heading": "9 | 第十二章",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "10 | 第十三章",
+   "last_heading": "10 | 第十四章（續）",
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "messianism",
+    "other-power",
+    "sin-as-disobedience",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "guilt-atonement"
+   ]
+  }
+ ]
+}

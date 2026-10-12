@@ -56,14 +56,15 @@
   "tag_status": "done",
   "psych_tags": [
     "boundaries-self-worth",
-    "courage",
     "death",
-    "emotions-passions",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "843e6ec86a900b7c698a65d13c2579fdb30bacd37dbc339a44d0b206d6e5d64a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

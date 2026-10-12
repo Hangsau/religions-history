@@ -51,15 +51,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
     "death",
-    "faith-doubt"
+    "faith-doubt",
+    "giving-generosity",
+    "guilt-atonement",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "019d5593c58d54a4b43b430ae0bf36e221b05b6db70e8404f1b00ab89f84dd47"
+  },
+  "tagging_models": "MiniMax-M3"
 }

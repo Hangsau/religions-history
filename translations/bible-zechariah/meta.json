@@ -59,11 +59,12 @@
     "fear-uncertainty",
     "guilt-atonement",
     "hope-reason-to-live",
-    "justice-power"
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "3d800ab63c267c1d67117c30f201ea4fe0c68ee98807671fb5dd52d177024553"
+  },
+  "tagging_models": "MiniMax-M3"
 }
