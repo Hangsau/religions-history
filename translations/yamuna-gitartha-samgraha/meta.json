@@ -19,5 +19,44 @@
   "tier": "次要",
   "notes": "室利毘濕奴派宗師雅牟那（Yāmunācārya）以 32 頌總括《薄伽梵歌》要旨，羅摩奴闍神學前驅",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commentarial-layer",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "mystical-union",
+    "non-dual",
+    "theophany",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Nārāyaṇa",
+    "bhakti-yoga",
+    "jñāna-yoga",
+    "karma-yoga",
+    "Gītārtha-saṃgraha",
+    "Yāmuna",
+    "puruṣottama",
+    "śaraṇāgati",
+    "aikāntya-bhakti",
+    "pradhāna-puruṣa",
+    "svadharma",
+    "mokṣa",
+    "Bhagavad-Gītā",
+    "dāsya"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "19e6cfc23cb373d5f80a2858943b4f074e8bdd3ba95ff4f3e40d7841f76af667"
+  },
+  "tagging_models": "MiniMax-M3"
 }

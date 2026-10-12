@@ -20,5 +20,57 @@
   "notes": null,
   "is_original_language": true,
   "text_role": "original",
-  "tradition": "巴利"
+  "tradition": "巴利",
+  "semantic_tags": [
+    "ancestor-worship",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "congregational",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "humility",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-violence",
+    "reincarnation",
+    "ritual-practice",
+    "truthfulness"
+  ],
+  "keywords": [
+    "Saraṇattaya",
+    "三歸依",
+    "Buddha",
+    "Dhamma",
+    "Saṅgha",
+    "Dasasikkhāpada",
+    "十戒",
+    "Dvattiṁsākāra",
+    "三十二身分",
+    "Kumārapañhā",
+    "少年問",
+    "ariyasaccāni",
+    "ariyo aṭṭhaṅgiko maggo",
+    "pañcupādānakkhandhā",
+    "Maṅgalasutta"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "49362838941a63cc74e1d20c095decb6a5dbb0e833f75fd2a75c127c8198dc7f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

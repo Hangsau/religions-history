@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "slug": "kn-khuddakapatha",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | kp1",
+   "last_heading": "4 | kp4",
+   "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "four-noble-truths",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | kp5",
+   "last_heading": "5 | kp5",
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "lay-practitioner",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "6 | kp6",
+   "last_heading": "6 | kp6",
+   "semantic_tags": [
+    "congregational",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "7 | kp7",
+   "last_heading": "8 | kp8",
+   "semantic_tags": [
+    "ancestor-worship",
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "reincarnation",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | kp9",
+   "last_heading": "9 | kp9",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "non-violence"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "insignificance-history",
+    "loneliness-belonging",
+    "love-sex-intimacy",
+    "stillness-rest"
+   ]
+  }
+ ]
+}

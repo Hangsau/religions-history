@@ -19,5 +19,43 @@
   "tier": "次要",
   "notes": "龍樹空性七十頌",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "non-dual"
+  ],
+  "keywords": [
+    "śūnyatā",
+    "pratītyasamutpāda",
+    "Nāgārjuna",
+    "svabhāva",
+    "anitya",
+    "dvādaśāṅga",
+    "nirvāṇa",
+    "māyāmārici",
+    "vikalpa",
+    "avidyā",
+    "saṃskāra",
+    "karma",
+    "buddha",
+    "tathāgata",
+    "kalpanāmātra"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "076f02a8e3a7aae338027162abe515fbf0e2f3592838c60ec71d13334bdad5f6"
+  },
+  "tagging_models": "MiniMax-M3"
 }
