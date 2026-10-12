@@ -65,15 +65,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
     "courage",
     "death",
-    "emotions-passions"
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "7c8fbd318c3350e539bf5834516dd68816757d1cd87f07027bc40ba2b1bd3efe"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -50,14 +50,15 @@
   "translation_status": "done",
   "psych_tags": [
     "body-mind",
-    "change-transformation",
-    "communication-being-understood",
-    "death",
-    "dreams-unconscious"
+    "calling-vocation",
+    "living-with-unknown",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "bbe22d35edbe97ba0607f0ad87999d83b845fc5d90bc7830e6eb98f20b94e026"
+  },
+  "tagging_models": "MiniMax-M3"
 }

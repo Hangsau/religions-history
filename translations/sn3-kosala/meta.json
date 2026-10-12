@@ -52,15 +52,16 @@
   "tag_status": "done",
   "translation_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
-    "communication-being-understood"
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "478f511d1626033398ec9ae3d10a4b3ae8efdfffe2fc1d2e8d648ac441c89985"
+  },
+  "tagging_models": "MiniMax-M3"
 }

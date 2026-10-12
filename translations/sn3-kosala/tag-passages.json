@@ -1,0 +1,183 @@
+{
+ "schema_version": 1,
+ "slug": "sn3-kosala",
+ "chunks_total": 10,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | sn3.1",
+   "last_heading": "4 | sn3.4",
+   "semantic_tags": [
+    "caste-system",
+    "commandments-law",
+    "essentially-flawed",
+    "humility",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "5 | sn3.5",
+   "last_heading": "10 | sn3.10",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "non-violence",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "existence-why-born",
+    "honesty-hypocrisy",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "11 | sn3.11",
+   "last_heading": "9 | 偈頌",
+   "semantic_tags": [
+    "asceticism",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "12 | sn3.12",
+   "last_heading": "12 | sn3.12",
+   "semantic_tags": [
+    "monastic",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "11 | 旃檀鬘讚世尊",
+   "last_heading": "16 | sn3.16",
+   "semantic_tags": [
+    "compassion",
+    "lay-practitioner",
+    "non-violence",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loss-grief",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "17 | sn3.17",
+   "last_heading": "18 | 國王的不放逸",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "lay-practitioner",
+    "monastic",
+    "sacred-language",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "19 | sn3.19",
+   "last_heading": "21 | sn3.20",
+   "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "21 | sn3.21",
+   "last_heading": "2 | 四種人偈頌",
+   "semantic_tags": [
+    "caste-system",
+    "heaven-hell",
+    "karma-rebirth"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "24 | sn3.24",
+   "last_heading": "28 | 山喻偈與結頌",
+   "semantic_tags": [
+    "caste-system",
+    "liberation-by-works",
+    "monastic"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

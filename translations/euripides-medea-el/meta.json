@@ -71,13 +71,14 @@
   "psych_tags": [
     "death",
     "emotions-passions",
-    "evil-cruelty-empathy",
-    "fear-uncertainty",
-    "gender-body"
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "7190ddbef987492d1c5ee8460482d265c1d241f7b6a373737308f0b250d0abe8"
+  },
+  "tagging_models": "MiniMax-M3"
 }
