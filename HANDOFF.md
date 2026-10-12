@@ -3,6 +3,26 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-10-12：標籤第二輪（外語原典）啟動＋網站方向
+
+- 使用者：「標籤應該讓 MiniMax 持續做下去」。第一輪佇列封存為 `00-overview/tagging-queue-2026-10-07.json`；
+  新佇列 1690 部（次要 208、Sefaria 1482，約 148 MB），未翻譯外語原典直接從 `raw/original.txt` 標，
+  條目記 `source_policy: original`。次要先、小檔先，Sefaria 最後。38 部短文、5 部文字異常仍延後待審。
+  希伯來文試標（Rabbeinu Chananel on Yoma）切題。量級與第一輪相當，預計跨多個週窗；額度保留機制自動等待。
+- 新增段落級標籤：多段經典完成時寫 `translations/<slug>/tag-passages.json`（每段起訖章名＋兩軸標籤）。
+  第一輪 2902 部的段落結果當時未保留，只有整部標籤；要補需重標（約第一輪等量額度），暫不做。
+- 為載入新程式碼以 HALT 安全重啟一次 worker；21:16 後 supervisor 正常續跑。
+- 網站（P7）方向：不另建 Astro 站，併入 my-site 為新區塊。
+  - 資料：my-site 加 `tools/sync_religions.py`，只同步 meta、tag-passages、`concepts-psychology.md`
+    （13 領域→48 標籤）成 `data/religions/`；全文不進網站（核心譯文就 185 MB），經文卡連 GitHub 原檔。
+    CI 仿 `sync-from-vortex.yml`：religions-history push → repository_dispatch → my-site 同步。
+  - 頁面：入口＝13 個人生問題領域（引導式，不攤全表）→ 問題頁（同一問題下各宗教並排，列書與章節）
+    → 經文卡（宗教、語言、年代、兩軸標籤、關鍵字、段落標籤、原文連結）。
+  - 動工前照 claudehome 設計規範讀 `DESIGN_SYSTEM.md` 定方向；my-site 改動做完直接 push。
+- 文件對齊：CLAUDE.md／README／PLAN 階段表／11-psychology 待辦／MAP 皆更新到實況。
+
+---
+
 ## 2026-10-11 晚間：標籤佇列停擺修復（57 部 blocked）
 
 - 症狀：10-09 23:13 後無新 commit。標籤佇列 2382 部完成 2325，剩 57 部全 blocked，
