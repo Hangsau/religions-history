@@ -50,15 +50,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "fd2d730a4de1873e8fbfe8871a1d4952dde6ccd2756521a4a6c58ffaa9225149"
+  },
+  "tagging_models": "MiniMax-M3"
 }

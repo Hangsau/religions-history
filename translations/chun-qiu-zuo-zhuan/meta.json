@@ -50,15 +50,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood",
-    "courage"
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "524672b9f5e7c9cedbeee54540db5fef977437c27e1cdacbec9f368623a86084"
+  },
+  "tagging_models": "MiniMax-M3"
 }
