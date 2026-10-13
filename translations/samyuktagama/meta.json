@@ -55,15 +55,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation"
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "7c523d64c92cd0ded723727d393929c70fd3a6fec96b6fdcfeaea8e1e5dc80a2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
