@@ -1616,11 +1616,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "laozi-xianger-zhu",
-      "name_zh": "老子想爾注",
-      "religion": "道教"
-    },
-    {
       "slug": "madhyamagama",
       "name_zh": "中阿含經",
       "religion": "佛教"
@@ -2371,6 +2366,11 @@
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     },
     {
       "slug": "zhonglu-chuandao-ji",
@@ -4622,11 +4622,6 @@
       "religion": "道教"
     },
     {
-      "slug": "laozi-xianger-zhu",
-      "name_zh": "老子想爾注",
-      "religion": "道教"
-    },
-    {
       "slug": "lingbao-bifa",
       "name_zh": "靈寶畢法",
       "religion": "道教"
@@ -4730,11 +4725,6 @@
       "slug": "vulgate-song-of-songs",
       "name_zh": "雅歌（武加大）",
       "religion": "基督教"
-    },
-    {
-      "slug": "xuangang-lun",
-      "name_zh": "玄綱論",
-      "religion": "道教"
     },
     {
       "slug": "yoga-sutra",
@@ -6587,11 +6577,6 @@
       "slug": "vulgate-leviticus",
       "name_zh": "利未記（武加大）",
       "religion": "基督教"
-    },
-    {
-      "slug": "xiangshan-yulu",
-      "name_zh": "象山語錄",
-      "religion": "儒教"
     },
     {
       "slug": "xunzi",
@@ -14011,6 +13996,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "laozi-xianger-zhu",
+      "name_zh": "老子想爾注",
+      "religion": "道教"
+    },
+    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -18273,11 +18263,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "kangcangzi",
-      "name_zh": "亢倉子",
-      "religion": "道教"
-    },
-    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -20992,16 +20977,6 @@
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
       "religion": "儒教"
-    },
-    {
-      "slug": "xiangshan-yulu",
-      "name_zh": "象山語錄",
-      "religion": "儒教"
-    },
-    {
-      "slug": "xuangang-lun",
-      "name_zh": "玄綱論",
-      "religion": "道教"
     },
     {
       "slug": "xunzi",
@@ -26561,11 +26536,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "kangcangzi",
-      "name_zh": "亢倉子",
-      "religion": "道教"
-    },
-    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -27304,11 +27274,6 @@
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
       "religion": "儒教"
-    },
-    {
-      "slug": "wunengzi",
-      "name_zh": "無能子",
-      "religion": "道教"
     },
     {
       "slug": "wuzhen-pian",
@@ -28108,11 +28073,6 @@
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
-    },
-    {
-      "slug": "wunengzi",
-      "name_zh": "無能子",
-      "religion": "道教"
     }
   ],
   "evil-cruelty-empathy": [
@@ -29859,11 +29819,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "laozi-xianger-zhu",
-      "name_zh": "老子想爾注",
-      "religion": "道教"
-    },
-    {
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -29912,11 +29867,6 @@
       "slug": "vulgate-zechariah",
       "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
-    },
-    {
-      "slug": "wunengzi",
-      "name_zh": "無能子",
-      "religion": "道教"
     }
   ],
   "faith-doubt": [
@@ -38503,11 +38453,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "kangcangzi",
-      "name_zh": "亢倉子",
-      "religion": "道教"
-    },
-    {
       "slug": "kings-1",
       "name_zh": "列王紀上",
       "religion": "猶太教"
@@ -39388,11 +39333,6 @@
       "religion": "道教"
     },
     {
-      "slug": "xiangshan-yulu",
-      "name_zh": "象山語錄",
-      "religion": "儒教"
-    },
-    {
       "slug": "yangzi-fayan",
       "name_zh": "揚子法言",
       "religion": "儒教"
@@ -39755,11 +39695,6 @@
       "religion": "耆那教"
     },
     {
-      "slug": "kangcangzi",
-      "name_zh": "亢倉子",
-      "religion": "道教"
-    },
-    {
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
       "religion": "美洲"
@@ -39833,11 +39768,6 @@
       "slug": "wenzhongzi-zhongshuo",
       "name_zh": "中說（文中子）",
       "religion": "儒教"
-    },
-    {
-      "slug": "wunengzi",
-      "name_zh": "無能子",
-      "religion": "道教"
     },
     {
       "slug": "yama-smrti",
@@ -48498,6 +48428,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kangcangzi",
+      "name_zh": "亢倉子",
+      "religion": "道教"
+    },
+    {
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
@@ -48636,6 +48571,21 @@
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "wunengzi",
+      "name_zh": "無能子",
+      "religion": "道教"
+    },
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
+    },
+    {
+      "slug": "xuangang-lun",
+      "name_zh": "玄綱論",
+      "religion": "道教"
     },
     {
       "slug": "zhuangzi",
@@ -48958,6 +48908,11 @@
       "slug": "judges",
       "name_zh": "士師記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kangcangzi",
+      "name_zh": "亢倉子",
+      "religion": "道教"
     },
     {
       "slug": "laxdaela-saga-on",
@@ -54787,6 +54742,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kangcangzi",
+      "name_zh": "亢倉子",
+      "religion": "道教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -55607,8 +55567,18 @@
       "religion": "道教"
     },
     {
+      "slug": "wunengzi",
+      "name_zh": "無能子",
+      "religion": "道教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
+      "religion": "道教"
+    },
+    {
+      "slug": "xuangang-lun",
+      "name_zh": "玄綱論",
       "religion": "道教"
     },
     {
@@ -58328,6 +58298,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "laozi-xianger-zhu",
+      "name_zh": "老子想爾注",
+      "religion": "道教"
+    },
+    {
       "slug": "majjhima-nikaya",
       "name_zh": "中部經典",
       "religion": "佛教"
@@ -58500,6 +58475,11 @@
     {
       "slug": "wenzi",
       "name_zh": "文子",
+      "religion": "道教"
+    },
+    {
+      "slug": "wunengzi",
+      "name_zh": "無能子",
       "religion": "道教"
     },
     {
@@ -61142,6 +61122,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kangcangzi",
+      "name_zh": "亢倉子",
+      "religion": "道教"
+    },
+    {
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
@@ -61155,6 +61140,11 @@
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "laozi-xianger-zhu",
+      "name_zh": "老子想爾注",
+      "religion": "道教"
     },
     {
       "slug": "liezi",
@@ -61617,6 +61607,11 @@
       "religion": "道教"
     },
     {
+      "slug": "wunengzi",
+      "name_zh": "無能子",
+      "religion": "道教"
+    },
+    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -61625,6 +61620,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "xiangshan-yulu",
+      "name_zh": "象山語錄",
+      "religion": "儒教"
     },
     {
       "slug": "yamuna-gitartha-samgraha",

@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-14 01:51:37 +0800
+- 更新時間：2026-10-14 07:49:13 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**438 / 3186** 已完成雙標籤
+- 進度：**443 / 3186** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`bible-psalms`
+- 目前處理：`laozi-xianger-zhu`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
-- 已阻塞待人工處理：2 部 — book-of-changes, madhyamagama
-- M3 執行狀態：**running** — `bible-psalms` (tag)
+- 已阻塞待人工處理：3 部 — book-of-changes, madhyamagama, mahabharata
+- M3 執行狀態：**running** — `laozi-xianger-zhu` (tag)
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。
