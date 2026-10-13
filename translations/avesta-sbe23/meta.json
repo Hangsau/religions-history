@@ -53,15 +53,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
     "courage",
     "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "gratitude-contentment"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "1a22bc4f00f7e85034068c9b498cd0bb78c4352d90036d36e136d43dd35e6134"
+  },
+  "tagging_models": "MiniMax-M3"
 }

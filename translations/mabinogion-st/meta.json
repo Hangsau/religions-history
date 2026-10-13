@@ -51,15 +51,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
-    "calling-vocation"
+    "calling-vocation",
+    "courage",
+    "death",
+    "loss-grief",
+    "love-sex-intimacy"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "07c311fe28786dc450cb8ef2e4d83efd23856cbdc225768e062b33bf592ed995"
+  },
+  "tagging_models": "MiniMax-M3"
 }

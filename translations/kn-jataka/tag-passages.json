@@ -1,0 +1,2950 @@
+{
+ "schema_version": 1,
+ "slug": "kn-jataka",
+ "chunks_total": 160,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | ja1",
+   "last_heading": "21 | ja21",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "22 | ja22",
+   "last_heading": "40 | ja40",
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "karma-rebirth",
+    "non-violence",
+    "reincarnation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "41 | ja41",
+   "last_heading": "66 | ja66",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "love-sex-intimacy",
+    "patience-waiting",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "67 | ja67",
+   "last_heading": "84 | ja84",
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "karma-rebirth",
+    "liberation-by-works",
+    "meditation",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "85 | ja85",
+   "last_heading": "107 | ja107",
+   "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "108 | ja108",
+   "last_heading": "128 | ja128",
+   "semantic_tags": [
+    "commentarial-layer",
+    "meditation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "129 | ja129",
+   "last_heading": "145 | ja145",
+   "semantic_tags": [
+    "asceticism",
+    "commentarial-layer",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "146 | ja146",
+   "last_heading": "161 | ja161",
+   "semantic_tags": [
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "162 | ja162",
+   "last_heading": "177 | ja177",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "178 | ja178",
+   "last_heading": "196 | ja196",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "197 | ja197",
+   "last_heading": "217 | ja217",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "monastic",
+    "multiple-canons",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "218 | ja218",
+   "last_heading": "240 | Mahāpiṅgalajātaka",
+   "semantic_tags": [
+    "asceticism",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "241 | Sabbadāṭhijātaka",
+   "last_heading": "254 | ja254",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "karma-rebirth",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 14,
+   "first_heading": "255 | ja255",
+   "last_heading": "263 | ja263",
+   "semantic_tags": [
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "264 | ja264",
+   "last_heading": "275 | ja275",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "commandments-law",
+    "compassion",
+    "meditation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "276 | ja276",
+   "last_heading": "290 | ja290",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "non-violence",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "291 | ja291",
+   "last_heading": "304 | ja304",
+   "semantic_tags": [
+    "essentially-flawed",
+    "four-noble-truths",
+    "karma-rebirth",
+    "non-violence",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "fear-uncertainty",
+    "illness-body",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "305 | ja305",
+   "last_heading": "314 | ja314",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "monastic",
+    "non-violence",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "315 | ja315",
+   "last_heading": "327 | ja327",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "328 | ja328",
+   "last_heading": "331 | ja331",
+   "semantic_tags": [
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "332 | ja332",
+   "last_heading": "339 | ja339",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "divine-kingship",
+    "enlightenment",
+    "essentially-good",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "340 | ja340",
+   "last_heading": "350 | ja350",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "marriage-family",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "351 | ja351",
+   "last_heading": "358 | ja358",
+   "semantic_tags": [
+    "compassion",
+    "essentially-flawed",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "359 | ja359",
+   "last_heading": "369 | ja369",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "extinction-of-self",
+    "liberation-by-works",
+    "meditation",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "370 | ja370",
+   "last_heading": "377 | ja377",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "essentially-flawed",
+    "humility",
+    "meditation",
+    "non-violence",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "378 | ja378",
+   "last_heading": "381 | ja381",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "gratitude-contentment",
+    "insignificance-history",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "382 | ja382",
+   "last_heading": "385 | ja385",
+   "semantic_tags": [
+    "divine-immanence",
+    "feminine-divine",
+    "humility",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "386 | ja386",
+   "last_heading": "392 | ja392",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "reincarnation",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "393 | ja393",
+   "last_heading": "399 | ja399",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "monastic",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "illness-body",
+    "meaning-of-suffering",
+    "memory-reconciliation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "400 | ja400",
+   "last_heading": "404 | ja404",
+   "semantic_tags": [
+    "commentarial-layer",
+    "congregational",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "405 | ja405",
+   "last_heading": "406 | ja406",
+   "semantic_tags": [
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "reincarnation",
+    "suffering-as-purifying",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "407 | ja407",
+   "last_heading": "412 | ja412",
+   "semantic_tags": [
+    "asceticism",
+    "essentially-flawed",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "413 | ja413",
+   "last_heading": "417 | ja417",
+   "semantic_tags": [
+    "asceticism",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "guilt-atonement",
+    "loneliness-belonging",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "418 | ja418",
+   "last_heading": "423 | ja423",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "424 | ja424",
+   "last_heading": "429 | ja429 — Mahāsuvajātaka（大金鵠本生）三",
+   "semantic_tags": [
+    "asceticism",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "meditation",
+    "non-violence",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "430 | ja430",
+   "last_heading": "435 | ja435",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "essentially-flawed",
+    "meditation",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "436 | ja436",
+   "last_heading": "440 | ja440",
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "marriage-sacred",
+    "non-violence",
+    "other-power",
+    "sexual-ethics",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "441 | ja441",
+   "last_heading": "444 | ja444",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "enlightenment",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "445 | ja445",
+   "last_heading": "449 | ja449",
+   "semantic_tags": [
+    "commentarial-layer",
+    "karma-rebirth",
+    "liberation-by-works",
+    "lineage-importance",
+    "monastic",
+    "non-violence",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "evil-cruelty-empathy",
+    "gratitude-contentment",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "450 | ja450",
+   "last_heading": "453 | ja453",
+   "semantic_tags": [
+    "compassion",
+    "congregational",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "non-violence",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "454 | ja454",
+   "last_heading": "457 | ja457",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "gratitude-contentment",
+    "loss-grief",
+    "memory-reconciliation",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "458 | ja458",
+   "last_heading": "460 | ja460",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "461 | ja461",
+   "last_heading": "464 | ja464",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "465 | ja465",
+   "last_heading": "465 | ja465",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "non-violence",
+    "other-power"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "466 | ja466",
+   "last_heading": "468 | ja468",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "91 | Mahākaṇhajātaka",
+   "last_heading": "472 | ja472",
+   "semantic_tags": [
+    "caste-system",
+    "divine-immanence",
+    "lay-practitioner",
+    "monastic",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "giving-generosity",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "473 | ja473",
+   "last_heading": "476 | ja476",
+   "semantic_tags": [
+    "compassion",
+    "humility",
+    "lay-practitioner",
+    "monastic",
+    "oral-tradition",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "477 | ja477",
+   "last_heading": "479 | ja479",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "living-with-unknown",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "480 | ja480",
+   "last_heading": "482 | ja482",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "enlightenment",
+    "liberation-by-works",
+    "meditation",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "freewill-fate-choice",
+    "loneliness-belonging",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "483 | ja483",
+   "last_heading": "484 | ja484",
+   "semantic_tags": [
+    "compassion",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "485 | ja485",
+   "last_heading": "487 | Uddālakajātaka",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "488 | ja488",
+   "last_heading": "490 | ja490",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "fasting",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "491 | Mahāmorajātaka",
+   "last_heading": "493 | ja493",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "monastic",
+    "non-violence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "494 | ja494",
+   "last_heading": "495 | ja495",
+   "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "115 | Dasabrāhmaṇajātakaṁ (十婆羅門本生)",
+   "last_heading": "496 | ja496",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "celibate-tradition",
+    "liberation-by-works",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "497 | ja497",
+   "last_heading": "119 | Cittasambhūtajātakaṁ",
+   "semantic_tags": [
+    "caste-system",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "pilgrimage",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "120 | ja499",
+   "last_heading": "123 |",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "sacred-language",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "loss-grief",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "501 | ja501",
+   "last_heading": "503 | ja503",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "504 | ja504",
+   "last_heading": "128 | Bhallātiyajātakaṁ aṭṭhamaṁ",
+   "semantic_tags": [
+    "compassion",
+    "mystical-union",
+    "non-violence",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "505 | ja505",
+   "last_heading": "506 | ja506",
+   "semantic_tags": [
+    "against-idolatry",
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "132 | Campeyyajātakaṁ",
+   "last_heading": "507 | ja507",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "meditation",
+    "mystical-union",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "emotions-passions",
+    "love-sex-intimacy",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "508 | ja508",
+   "last_heading": "136 | 第 136 段",
+   "semantic_tags": [
+    "essentially-flawed",
+    "karma-rebirth",
+    "monastic",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "illness-body",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "510 | ja510",
+   "last_heading": "140 | Kiṁchandajātakaṁ",
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "512 | ja512",
+   "last_heading": "513 | ja513",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "144 | Jayaddisajātakaṁ tatiyaṁ",
+   "last_heading": "146 | Chaddanta Jātaka (四本生象)",
+   "semantic_tags": [
+    "compassion",
+    "meditation",
+    "monastic",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "515 | ja515",
+   "last_heading": "148 | Sambhavajātaka",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "monastic",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "516 | ja516",
+   "last_heading": "150 | Mahākapi-jātaka",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "non-violence",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "517 | ja517",
+   "last_heading": "518 | ja518",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-works",
+    "messianism",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "154 | Paṇḍaranāgarājajātaka",
+   "last_heading": "156 | Sambulājātakaṁ",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "520 | ja520",
+   "last_heading": "521 | ja521",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-kingship",
+    "monastic",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "160 | Tesakuṇajātakaṁ",
+   "last_heading": "522 | ja522",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "heaven-hell",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "162 | Sarabhaṅgajātakaṁ",
+   "last_heading": "162 | Sarabhaṅgajātakaṁ",
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "523 | ja523",
+   "last_heading": "523 | ja523",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 76,
+   "first_heading": "164 | Alambusājātaka (Alambusā 本生)",
+   "last_heading": "524 | ja524",
+   "semantic_tags": [
+    "asceticism",
+    "awe-fear",
+    "monastic",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "166 | 本段",
+   "last_heading": "166 | 本段",
+   "semantic_tags": [
+    "asceticism",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "enlightenment",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loss-grief",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "167 | Saṅkhapālajātakaṁ",
+   "last_heading": "169 | Cūḷasutasomajātaka (五)",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "karma-rebirth",
+    "monastic",
+    "non-violence",
+    "reincarnation",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "526 | ja526",
+   "last_heading": "171 | 段",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": "527 | ja527",
+   "last_heading": "174 |",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": "175 | Ummādantījātaka",
+   "last_heading": "175 | Ummādantījātaka",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "karma-rebirth",
+    "liberation-by-works"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 83,
+   "first_heading": "528 | ja528",
+   "last_heading": "178 | Paṇṇāsanipātaṁ niṭṭhitaṁ",
+   "semantic_tags": [
+    "asceticism",
+    "karma-rebirth",
+    "monastic",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 84,
+   "first_heading": "529 | ja529",
+   "last_heading": "180 | Soṇaka 王出家授記",
+   "semantic_tags": [
+    "asceticism",
+    "divine-kingship",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 85,
+   "first_heading": "181 | Soṇakajātaka",
+   "last_heading": "183 | (continued)",
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "liberation-by-works",
+    "monastic",
+    "sin-as-disobedience",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 86,
+   "first_heading": "184 | 桑奇伽本生",
+   "last_heading": "531 | ja531",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "messianism",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 87,
+   "first_heading": "186 | 第 186 段",
+   "last_heading": "187 | Kusajātaka",
+   "semantic_tags": [
+    "reincarnation"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 88,
+   "first_heading": "532 | ja532",
+   "last_heading": "532 | ja532",
+   "semantic_tags": [
+    "caste-system",
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 89,
+   "first_heading": "189 | Nanda-jātaka (本生譯注續)",
+   "last_heading": "189 | Nanda-jātaka (本生譯注續)",
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "monastic",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 90,
+   "first_heading": "533 | ja533",
+   "last_heading": "533 | ja533",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "monastic",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 91,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 92,
+   "first_heading": "192 | 本段",
+   "last_heading": "193 | Cūḷahaṁsajātaka（粗品小鴻雁本生）",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 93,
+   "first_heading": "534 | ja534",
+   "last_heading": "195 |",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-devotion",
+    "non-violence",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 94,
+   "first_heading": "196 |",
+   "last_heading": "535 | Sudhābhojanajātaka",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "humility",
+    "messianism",
+    "non-violence",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 95,
+   "first_heading": "199 | 故事",
+   "last_heading": "200 |",
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 96,
+   "first_heading": "201 | 大喜本生（Mahājanaka Jataka）",
+   "last_heading": "536 | ja536",
+   "semantic_tags": [
+    "asceticism",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 97,
+   "first_heading": "204 | Puṇṇamukha 生 (片段)",
+   "last_heading": "205 | Phussakokila — punṇamukha",
+   "semantic_tags": [
+    "compassion",
+    "marriage-sacred",
+    "patriarchal",
+    "reincarnation",
+    "sexual-ethics",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 98,
+   "first_heading": "206 |",
+   "last_heading": "207 | 二十五惡婦相",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "lay-practitioner",
+    "marriage-sacred",
+    "patriarchal",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gender-body",
+    "loss-grief",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 99,
+   "first_heading": "208 | 小部·本生 (547 故事) 第 208 段",
+   "last_heading": "210 | Kuṇālajātaka",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "enlightenment",
+    "monastic",
+    "non-violence",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "insignificance-history",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 100,
+   "first_heading": "537 | ja537",
+   "last_heading": "212 | 段",
+   "semantic_tags": [
+    "compassion",
+    "non-violence",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 101,
+   "first_heading": "213 | 第 213 段",
+   "last_heading": "213 | 第 213 段",
+   "semantic_tags": [
+    "caste-system",
+    "messianism",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 102,
+   "first_heading": "214 | Sutasoma Jātaka — Verse Section",
+   "last_heading": "214 | Sutasoma Jātaka — Verse Section",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 103,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 104,
+   "first_heading": "215 | Mahāsutasomajātaka (五)",
+   "last_heading": "538 | ja538",
+   "semantic_tags": [
+    "compassion",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 105,
+   "first_heading": "217 | 小部·本生 (547 故事) — 翻譯（第 217 段）",
+   "last_heading": "217 | 小部·本生 (547 故事) — 翻譯（第 217 段）",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "reincarnation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 106,
+   "first_heading": "218 | 第 218 段",
+   "last_heading": "218 | 第 218 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 107,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 108,
+   "first_heading": "219 | 第一",
+   "last_heading": "539 | ja539",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 109,
+   "first_heading": "221 |",
+   "last_heading": "222 | 222",
+   "semantic_tags": [
+    "asceticism",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "loss-grief",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 110,
+   "first_heading": "223 | 第七段 123",
+   "last_heading": "224 | 段落 224",
+   "semantic_tags": [
+    "asceticism",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 111,
+   "first_heading": "225 | Mahājanakajātaka (Mahājanaka-jātaka, second)",
+   "last_heading": "540 | ja540",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "compassion",
+    "four-noble-truths",
+    "lay-practitioner",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 112,
+   "first_heading": "227 |",
+   "last_heading": "228 | Sāma-jātaka (片段)",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "other-power",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 113,
+   "first_heading": "229 | Suvaṇṇasāmajātaka",
+   "last_heading": "541 | ja541",
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 114,
+   "first_heading": "231 | Mātali 偈頌",
+   "last_heading": "232 | 小部·本生 (547 故事)",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "non-violence",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 115,
+   "first_heading": "233 | 第 233 段",
+   "last_heading": "234 | 第 234 段",
+   "semantic_tags": [
+    "four-noble-truths",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 116,
+   "first_heading": "235 | pākaṁ puññakammānaṁ",
+   "last_heading": "236 | Nimi-jātaka (Nimi 王本生)",
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 117,
+   "first_heading": "237 | ja542",
+   "last_heading": "238 | 小部·本生 238",
+   "semantic_tags": [
+    "compassion"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 118,
+   "first_heading": "239 | 段落 239",
+   "last_heading": "240 | 本段",
+   "semantic_tags": [
+    "caste-system",
+    "compassion",
+    "divine-kingship",
+    "mystical-union",
+    "self-effort",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 119,
+   "first_heading": "241 | === (續)",
+   "last_heading": "241 | === (續)",
+   "semantic_tags": [
+    "caste-system",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 120,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 121,
+   "first_heading": "242 |",
+   "last_heading": "242 |",
+   "semantic_tags": [
+    "commentarial-layer",
+    "marriage-sacred",
+    "other-power",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 122,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 123,
+   "first_heading": "243 | Umaṅgajātakaṁ",
+   "last_heading": "243 | Umaṅgajātakaṁ",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "living-with-unknown",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 124,
+   "first_heading": "543 | ja543",
+   "last_heading": "543 | ja543",
+   "semantic_tags": [
+    "divine-immanence",
+    "liberation-by-devotion",
+    "non-violence",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 125,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 126,
+   "first_heading": "245 | Somadatta 與 Bhūridatta",
+   "last_heading": "246 | 第 246 段",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "oral-tradition",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 127,
+   "first_heading": "247 | 段 247",
+   "last_heading": "248 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 128,
+   "first_heading": "249 | Tittira Jātaka (Vagga 21, Sutta 249)",
+   "last_heading": "250 | Bhūridattajātaka",
+   "semantic_tags": [
+    "against-idolatry",
+    "caste-system",
+    "priesthood",
+    "prophetic-critique",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 129,
+   "first_heading": "544 | Candakumārajātaka",
+   "last_heading": "252 |",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 130,
+   "first_heading": "253 | 第三百五十三則（斷片）",
+   "last_heading": "254 |",
+   "semantic_tags": [
+    "asceticism",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "non-violence",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 131,
+   "first_heading": "255 | 段落 255",
+   "last_heading": "256 | Candakumārajātakaṁ (七週一輪)",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "non-violence",
+    "prophetic-critique",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 132,
+   "first_heading": "545 | ja545",
+   "last_heading": "258 |",
+   "semantic_tags": [
+    "commentarial-layer",
+    "karma-rebirth",
+    "monastic",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 133,
+   "first_heading": "259 | Alāta-candaka-jātaka",
+   "last_heading": "260 | Kosambiya-Jātaka",
+   "semantic_tags": [
+    "fasting",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "meditation",
+    "other-power",
+    "reincarnation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "ingroup-outgroup-prejudice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 134,
+   "first_heading": "261 |",
+   "last_heading": "262 |",
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "non-violence",
+    "reincarnation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 135,
+   "first_heading": "263 | Mahānāradakassapajātakaṁ",
+   "last_heading": "263 | Mahānāradakassapajātakaṁ",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 136,
+   "first_heading": "264 | ja546 / Vidhurajātaka / 1 Dohaḷakaṇḍa",
+   "last_heading": "265.2 | Maṇikaṇḍa",
+   "semantic_tags": [
+    "celibate-tradition",
+    "divine-kingship",
+    "marriage-sacred",
+    "multiple-souls",
+    "polytheist",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 137,
+   "first_heading": "266 | 第二六六段",
+   "last_heading": "267 | Akkhakaṇḍa（骰子品） / Gharāvāsapañhā（居家問） / Lakkhaṇakaṇḍa（相品·起首）",
+   "semantic_tags": [
+    "celibate-tradition",
+    "congregational",
+    "heaven-hell",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 138,
+   "first_heading": "268 | Lakkhaṇa Kaṇḍa",
+   "last_heading": "269 | 7. Antarapeyyāla",
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "divine-kingship",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "patience-waiting",
+    "responsibility-leadership",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 139,
+   "first_heading": "270 | 本生段",
+   "last_heading": "271 | Sādhunaradhammakaṇḍa",
+   "semantic_tags": [
+    "karma-rebirth"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 140,
+   "first_heading": "272 | Kāḷāgirikaṇḍa",
+   "last_heading": "273 | 段落 273",
+   "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "reincarnation"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 141,
+   "first_heading": "274 |",
+   "last_heading": "547 | ja547",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "essentially-good",
+    "liberation-by-works",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 142,
+   "first_heading": "277 | Vessantara 故事片段",
+   "last_heading": "278 | Hemavantaṁ",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "marriage-sacred",
+    "monastic",
+    "sacred-language",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 143,
+   "first_heading": "279 | Vessantara 出家偈",
+   "last_heading": "280 | 〔威薩他那羅本生（Vessantara）〕",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "liberation-by-works",
+    "monastic",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 144,
+   "first_heading": "281 |",
+   "last_heading": "281 |",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "compassion",
+    "marriage-sacred",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "giving-generosity",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 145,
+   "first_heading": "283 | 本段",
+   "last_heading": "284 | Jūjakapabba",
+   "semantic_tags": [
+    "asceticism",
+    "caste-system",
+    "compassion",
+    "lay-practitioner",
+    "marriage-sacred",
+    "monastic",
+    "non-violence"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "fear-uncertainty",
+    "giving-generosity",
+    "loneliness-belonging",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 146,
+   "first_heading": "285 | Vessantara 段落",
+   "last_heading": "286 | Cūḷavanavaṇṇanā",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "giving-generosity",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 147,
+   "first_heading": "6 | Cūḷavanavaṇṇanā（小林讚）",
+   "last_heading": "287 | Cūḷavanavaṇṇanā / Mahāvanavaṇṇanā",
+   "semantic_tags": [
+    "asceticism"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 148,
+   "first_heading": "288 | Vessantara 本生 · 森林描寫",
+   "last_heading": "288 | Vessantara 本生 · 森林描寫",
+   "semantic_tags": [
+    "asceticism",
+    "commentarial-layer",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 149,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 150,
+   "first_heading": "289 | 本段",
+   "last_heading": "289 | 本段",
+   "semantic_tags": [
+    "asceticism",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "nature-animals-ecology",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 151,
+   "first_heading": "290 | Dārakapabba",
+   "last_heading": "290 | Dārakapabba",
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "giving-generosity",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 152,
+   "first_heading": "291 |",
+   "last_heading": "291 |",
+   "semantic_tags": [
+    "caste-system",
+    "compassion",
+    "liberation-by-works",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 153,
+   "first_heading": "293 | Maddīpabba",
+   "last_heading": "293 | Maddīpabba",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "non-violence",
+    "reincarnation",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "loneliness-belonging",
+    "loss-grief",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 154,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 155,
+   "first_heading": "294 | 段",
+   "last_heading": "295 | Maddīpabba / Sakkapabba",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "liberation-by-devotion",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 156,
+   "first_heading": "296 | Sakkapabba",
+   "last_heading": "297 |",
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "pilgrimage",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "loss-grief",
+    "love-sex-intimacy",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 157,
+   "first_heading": "298 | 第十二品 車匠業 / 第十一品 待定",
+   "last_heading": "298 | 第十二品 車匠業 / 第十一品 待定",
+   "semantic_tags": [
+    "compassion",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 158,
+   "first_heading": "299 | 維山塔羅本生",
+   "last_heading": "299 | 維山塔羅本生",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "liberation-by-works",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 159,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 160,
+   "first_heading": "300 | Vessantara 故事續",
+   "last_heading": "301 | Vessantara 生為大施主，昇天",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "liberation-by-works",
+    "reincarnation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "hope-reason-to-live",
+    "who-am-i"
+   ]
+  }
+ ]
+}
