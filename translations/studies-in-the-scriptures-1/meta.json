@@ -112,15 +112,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "faith-doubt",
+    "hope-reason-to-live",
+    "justice-power",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "662b102941f91946db61c5ecc15061cf50e3764e029e29b1efb58cd61ae1643f"
+  },
+  "tagging_models": "MiniMax-M3"
 }

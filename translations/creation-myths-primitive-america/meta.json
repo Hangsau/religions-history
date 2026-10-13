@@ -90,15 +90,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "f0fc2c00283a84cb227e15cfbc0417549d2d9637156413935daf6c90c2bdfa62"
+  },
+  "tagging_models": "MiniMax-M3"
 }
