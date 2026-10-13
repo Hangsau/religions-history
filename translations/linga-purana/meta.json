@@ -115,15 +115,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth"
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "92c82c95bc41bf20c63a4aa2dd6bc6f4a0b38fa17f7fa67706e73b2461ca082a"
+  },
+  "tagging_models": "MiniMax-M3"
 }
