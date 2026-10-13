@@ -51,15 +51,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation"
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "ab6465311ada3cc70f3c2d0a524c37ee508cef50cf99a8fffac2f4174f043646"
+  },
+  "tagging_models": "MiniMax-M3"
 }
