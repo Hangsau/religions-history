@@ -4602,11 +4602,6 @@
       "religion": "道教"
     },
     {
-      "slug": "huashu",
-      "name_zh": "化書",
-      "religion": "道教"
-    },
-    {
       "slug": "jindan-sibaizi",
       "name_zh": "金丹四百字",
       "religion": "道教"
@@ -6479,11 +6474,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "guanyin-zi",
-      "name_zh": "關尹子",
-      "religion": "道教"
-    },
-    {
       "slug": "guo-yu",
       "name_zh": "國語",
       "religion": "儒教"
@@ -6492,11 +6482,6 @@
       "slug": "hanshi-waizhuan",
       "name_zh": "韓詩外傳",
       "religion": "儒教"
-    },
-    {
-      "slug": "huashu",
-      "name_zh": "化書",
-      "religion": "道教"
     },
     {
       "slug": "jain-dasavaikalika-pkt",
@@ -14731,11 +14716,6 @@
       "religion": "瑪雅"
     },
     {
-      "slug": "yuhuang-benxing-jing",
-      "name_zh": "高上玉皇本行集經",
-      "religion": "道教"
-    },
-    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
@@ -18208,11 +18188,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "guanyin-zi",
-      "name_zh": "關尹子",
-      "religion": "道教"
-    },
-    {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
       "religion": "儒教"
@@ -20789,11 +20764,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "huashu",
-      "name_zh": "化書",
-      "religion": "道教"
-    },
-    {
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
       "religion": "古希臘羅馬"
@@ -20981,11 +20951,6 @@
     {
       "slug": "xunzi",
       "name_zh": "荀子",
-      "religion": "儒教"
-    },
-    {
-      "slug": "yangzi-fayan",
-      "name_zh": "揚子法言",
       "religion": "儒教"
     },
     {
@@ -26626,11 +26591,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "lingbao-bifa",
-      "name_zh": "靈寶畢法",
-      "religion": "道教"
-    },
-    {
       "slug": "liturgy-funerary-offerings",
       "name_zh": "葬祭供養儀軌",
       "religion": "古埃及"
@@ -27294,11 +27254,6 @@
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
-    },
-    {
-      "slug": "yangzi-fayan",
-      "name_zh": "揚子法言",
-      "religion": "儒教"
     },
     {
       "slug": "yinfu-jing",
@@ -32851,11 +32806,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "yuhuang-benxing-jing",
-      "name_zh": "高上玉皇本行集經",
-      "religion": "道教"
-    },
-    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
@@ -38278,11 +38228,6 @@
       "religion": "北歐"
     },
     {
-      "slug": "guanyin-zi",
-      "name_zh": "關尹子",
-      "religion": "道教"
-    },
-    {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
@@ -38531,11 +38476,6 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
-    },
-    {
-      "slug": "lingbao-bifa",
-      "name_zh": "靈寶畢法",
-      "religion": "道教"
     },
     {
       "slug": "liturgy-funerary-offerings",
@@ -39331,11 +39271,6 @@
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
-    },
-    {
-      "slug": "yangzi-fayan",
-      "name_zh": "揚子法言",
-      "religion": "儒教"
     },
     {
       "slug": "yoruba-religion",
@@ -42076,9 +42011,9 @@
       "religion": "儒教"
     },
     {
-      "slug": "yangzi-fayan",
-      "name_zh": "揚子法言",
-      "religion": "儒教"
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "religion": "道教"
     }
   ],
   "guilt-atonement": [
@@ -44513,6 +44448,11 @@
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
     }
   ],
   "hope-reason-to-live": [
@@ -45550,6 +45490,11 @@
       "slug": "vulgate-zephaniah",
       "name_zh": "西番雅書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "yuhuang-benxing-jing",
+      "name_zh": "高上玉皇本行集經",
+      "religion": "道教"
     },
     {
       "slug": "zechariah",
@@ -46702,11 +46647,6 @@
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
       "religion": "印度教"
-    },
-    {
-      "slug": "guanyin-zi",
-      "name_zh": "關尹子",
-      "religion": "道教"
     },
     {
       "slug": "huangdi-neijing",
@@ -48388,6 +48328,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "guanyin-zi",
+      "name_zh": "關尹子",
+      "religion": "道教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -48401,6 +48346,11 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "huashu",
+      "name_zh": "化書",
+      "religion": "道教"
     },
     {
       "slug": "isaiah",
@@ -49118,6 +49068,11 @@
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
     },
     {
       "slug": "yoruba-religion",
@@ -58233,6 +58188,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "guanyin-zi",
+      "name_zh": "關尹子",
+      "religion": "道教"
+    },
+    {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
@@ -58260,6 +58220,11 @@
     {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
+      "religion": "道教"
+    },
+    {
+      "slug": "huashu",
+      "name_zh": "化書",
       "religion": "道教"
     },
     {
@@ -58300,6 +58265,11 @@
     {
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
+      "religion": "道教"
+    },
+    {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
       "religion": "道教"
     },
     {
@@ -61052,6 +61022,11 @@
       "religion": "諾斯底"
     },
     {
+      "slug": "guanyin-zi",
+      "name_zh": "關尹子",
+      "religion": "道教"
+    },
+    {
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
@@ -61069,6 +61044,11 @@
     {
       "slug": "huainanzi",
       "name_zh": "淮南子",
+      "religion": "道教"
+    },
+    {
+      "slug": "huashu",
+      "name_zh": "化書",
       "religion": "道教"
     },
     {
@@ -61149,6 +61129,11 @@
     {
       "slug": "liezi",
       "name_zh": "列子",
+      "religion": "道教"
+    },
+    {
+      "slug": "lingbao-bifa",
+      "name_zh": "靈寶畢法",
       "religion": "道教"
     },
     {
@@ -61630,6 +61615,11 @@
       "slug": "yamuna-gitartha-samgraha",
       "name_zh": "雅牟那薄伽梵歌要義",
       "religion": "印度教"
+    },
+    {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
     },
     {
       "slug": "yinfu-jing",
@@ -62759,6 +62749,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "guanyin-zi",
+      "name_zh": "關尹子",
+      "religion": "道教"
+    },
+    {
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
@@ -63067,6 +63062,11 @@
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "yangzi-fayan",
+      "name_zh": "揚子法言",
+      "religion": "儒教"
     },
     {
       "slug": "yogacarabhumi",
