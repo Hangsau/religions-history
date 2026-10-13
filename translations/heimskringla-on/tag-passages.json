@@ -1,0 +1,4748 @@
+{
+ "schema_version": 1,
+ "slug": "heimskringla-on",
+ "chunks_total": 294,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Prologus (Heimskringla)",
+   "last_heading": "2 |",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | Ynglinga saga",
+   "last_heading": "4 | 赫尼爾與密米爾的交換",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 奧丁分國，以及關於蓋芙瓊（Gefjon）之事",
+   "last_heading": "8 | Óðinn 的立法",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "9 | Njörðr 的婚配",
+   "last_heading": "7 | 第十二至十四章",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "goddess-tradition",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "8 | Svegðir 與 Vanlandi",
+   "last_heading": "8 | Svegðir 與 Vanlandi",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "9 | Ynglinga saga 17–21",
+   "last_heading": "24 | Frá Alreki ok Eiríki",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "11 | Alrekr 和 Eiríkr 之死 / Álfr 和 Yngvi / Hugleikr",
+   "last_heading": "28 | Dauði Jörundar（Jörundr 之死）",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "chaos-to-order",
+    "divine-kingship",
+    "ritual-practice",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "13 | Óðinn ferð ok dauði Jörundar konungs (28-29)",
+   "last_heading": "14 | 30. Fra Agli Tunnudólgi",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "15 | Óttarr Vendilkráka 與 Aðils 登位",
+   "last_heading": "15 | Óttarr Vendilkráka 與 Aðils 登位",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "33 | Dauði Aðils konungs",
+   "last_heading": "34 | Fall Hrólfs kraka",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "35 | Frá Eysteini ok Sölva Jóta konungi",
+   "last_heading": "18 | 第38—40章",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "19 | Hjörvarðr 之婚配",
+   "last_heading": "45 | 伊瓦爾·維德福米之事",
+   "semantic_tags": [
+    "marriage-sacred",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "46 | 奧拉夫·特雷泰利亞之事",
+   "last_heading": "52 | 關於國王 Hálfdan m",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "23 | Óláfr konungr ok Guðröðr",
+   "last_heading": "24 | Óláfr ok Rögnvaldr",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "patriarchal",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "3 | Saga Hálfdanar svarta",
+   "last_heading": "3 | Saga Hálfdanar svarta",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 17,
+   "first_heading": "26 | Hálfdan 國王之行程與 Sygnafylki、Upland；Hálfdan 與 Gandálf 諸子之戰；Hálfdan 娶 Ragnhildr",
+   "last_heading": "8 | 哈爾德爾出生",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "messianism",
+    "patriarchal",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "dreams-unconscious",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "9 | 哈爾夫丹納之食物消失",
+   "last_heading": "4 | 國王 Haraldr 的誓言",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "other-power",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "5 | Orkar 河谷之戰",
+   "last_heading": "31 | 或羅斯達、加烏達達爾、史佳拉達爾戰役；赫羅德勞格自降為伯爵；哈拉爾國王迎娶奧莎",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "32 | 第十章 — 索爾斯克爾之戰；第十一章 — 阿恩維德與奧茲比雅恩之死",
+   "last_heading": "33 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "13 | 哈拉爾國王取得 Sygnafylki 之後",
+   "last_heading": "17 | Orrosta á Gautlandi",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "36 | Haraldr konungr — Fall Hrana gauzka ok orrosta í Hafrsfirði",
+   "last_heading": "37 | 第20-22章",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "38 | Haraldr 征伐西方群島",
+   "last_heading": "39 | （無標題）",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "theocracy",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "40 | 女巫被焚與 Haraldr 之子；Þjóðólfr of Hvinr；Upphaf Torfeinars jarls",
+   "last_heading": "29 | Guthormr 侯爵之死",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "30 | Rögnvaldr Mœrajarl 之焚死",
+   "last_heading": "30 | Rögnvaldr Mœrajarl 之焚死",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "31 | Hálfdan háleggr 之死",
+   "last_heading": "31 | Hálfdan háleggr 之死",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "43 | 關於 Gunnhildr 與諸 Finnar",
+   "last_heading": "44 | 36–38",
+   "semantic_tags": [
+    "against-idolatry",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "45 | Haraldr hárfagri kappar",
+   "last_heading": "47 | Haukr 將 Hákon 帶至英王 Aðalstein 處；後者欲殺之",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "honesty-hypocrisy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "47 (續) | Hákon Aðalsteinsfóstri 受洗",
+   "last_heading": "45 | 國王哈拉爾德之死",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "46 | Ólafr 與 Sigröðr 之死",
+   "last_heading": "49 | 埃里克與貢希爾德之子",
+   "semantic_tags": [
+    "accept-fate",
+    "caesaropapism",
+    "divine-kingship",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "5 | Saga Hákonar góða",
+   "last_heading": "5 | Saga Hákonar góða",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "oral-tradition",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "52 | 戰於恩罕格與古德隆之子戰歿",
+   "last_heading": "11 | Hákon 國王的立法",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "12 | Hákon jarl hinn ríki 的撫養",
+   "last_heading": "14 | Jamtaland 與 Helsingjaland 的殖民",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "55 |",
+   "last_heading": "55 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "proselytizing",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 37,
+   "first_heading": "56 |",
+   "last_heading": "57 | 18. 農民逼迫 Hákon 獻祭 / 19. 在 Mœri 的祭典",
+   "semantic_tags": [
+    "caesaropapism",
+    "monotheist-exclusive",
+    "polytheist",
+    "prayer",
+    "proselytizing",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "58 | 第20章 Ögvaldsnes 之戰",
+   "last_heading": "60 | （Hákonssona þáttr 續）",
+   "semantic_tags": [
+    "against-idolatry",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "61 | Frœðarberg 之戰",
+   "last_heading": "61 | 第26章 起",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "62 | 第二十八章續・戰備",
+   "last_heading": "63 | Hákonarmál",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "64 | 海達爾戰役與哈康國王之死",
+   "last_heading": "65 | Hákonarmál",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "6 | 哈拉爾德灰氈王與哈康伯爵的故事",
+   "last_heading": "67 | Haraldr konungr lét Eyvind festa sér fyrir þetta mál sinn dóm",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "68 | Frá Gunnhildar sonum ok kristnihaldi þeirra",
+   "last_heading": "68 | （無標題）",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "polytheist",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "69 | Gunnhildr 諸子與 Grjótgarðr 的計議",
+   "last_heading": "7 | Frá Gráfeld",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "70 | Dráp Tryggva konungs",
+   "last_heading": "72 | Frá Hákoni jarli ok Gunnhildar sonum",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "73 | Frá Hákoni jarli ok Gunnhildar sonum",
+   "last_heading": "17 | Hallæri í Noregi",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "18 | Frá Íslendingum ok Eyvindi skáldaspilli",
+   "last_heading": "76 | Ástríðr 之逃亡；Hákon 之使節",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "4 | Hákon 之使節往 Svía 國王",
+   "last_heading": "77 | Sigurðr Eiríksson, Klerkon",
+   "semantic_tags": [
+    "chaos-to-order"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "78 | Ólafr í Garðaríki; Hákon jarl hjá Danakonungi; Gullharaldr krefr ríkisskipti",
+   "last_heading": "78 | Ólafr í Garðaríki; Hákon jarl hjá Danakonungi; Gullharaldr krefr ríkisskipti",
+   "semantic_tags": [
+    "caste-system",
+    "divine-kingship",
+    "sacred-language",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 51,
+   "first_heading": "79 | （無題）",
+   "last_heading": "80 | Sendiboð Haralds Gormssonar til Noregs / Svikrœði Haralds konungs ok Hákonar jarls við Gullharald",
+   "semantic_tags": [
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "81 | （段落延續前章，含第 12–15 章部分）",
+   "last_heading": "81 | （段落延續前章，含第 12–15 章部分）",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "82 | Ferð Gunnhildar sona or landi.",
+   "last_heading": "83 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "83 | 18. Hákon jarl 與國王 Ragnfreð 於 Sogn 的第二戰",
+   "last_heading": "84 | 20. Fall Tíðindaskopta",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "85 | janda setja ... hversu hann var ríkr ok ágætr",
+   "last_heading": "89 | Óláfr Tryggvason 之征伐",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "love-sex-intimacy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "90 | 丹尼維克之戰",
+   "last_heading": "90 | 丹尼維克之戰",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "28 | Hákon jarl kastar trú sinni, blótar ok herjar á Gautland.",
+   "last_heading": "30 | Ferð Ólafs Tryggvasonar af Vindlandi.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "31 | Hernaðr Ólafs Tryggvasonar.",
+   "last_heading": "35 | Ólafr þiggr hundinn Víga",
+   "semantic_tags": [
+    "commentarial-layer",
+    "mandate-of-heaven",
+    "mystical-union",
+    "oral-tradition",
+    "polytheist",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "91 |",
+   "last_heading": "92 | Fall Haralds Gormssonar",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caesaropapism",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "93 | Ferð Jómsvíkinga í Noreg",
+   "last_heading": "94 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "95 | Vagn Ákason 與 Sveinn Hákonarson 之戰",
+   "last_heading": "96 | Hjálmsvikinga ok Búa — dráp Þorkels leiru",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "97 | Dauði Haralds konungs grenska",
+   "last_heading": "98 | 第49章 哈拉爾國王之子奧拉夫出生；第50章 哈康伯爵；第51章 索里斯·克洛卡尋找奧拉夫·特里格瓦松之行",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "99 | 52. Ólafr Tryggvason kom í Noreg.",
+   "last_heading": "100 | 第53章 — Hákon jarl 之逃亡",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "101 | Hákon jarl 之逃亡與奧拉夫·特里格瓦松之報仇",
+   "last_heading": "102 | 57. 奧拉夫·特里格瓦松於挪威取得王位",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "polytheist",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "103 | Óláfr Tryggvason 接受王位",
+   "last_heading": "103 | Óláfr Tryggvason 接受王位",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "103.58 | Loðinn 的婚配",
+   "last_heading": "103.59 | Óláfr 國王使 Víkr 基督教化",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "104 | Óláfr Tryggvason 之治：基督教傳播",
+   "last_heading": "105 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "divine-transcendence",
+    "prayer",
+    "proselytizing",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "106 | 第63-65章",
+   "last_heading": "107 | 第六十九章：國王 Ólafr 與 Sigríðr stórráða 之會談",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "proselytizing",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "108 | 第69章 · 第70章",
+   "last_heading": "73 | Frá Járnskeggja",
+   "semantic_tags": [
+    "against-idolatry",
+    "chaos-to-order",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "74 | Veizla á Hlöðum",
+   "last_heading": "77 | 建城",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "congregational",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "78 | 國王 Ólafr 娶妻",
+   "last_heading": "114 | 埃溫德之死；哈洛加蘭受洗；索爾吉爾・希亞爾塔爾之戰",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "proselytizing",
+    "ritual-practice",
+    "salvation-by-faith",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "115 | 哈洛加蘭受洗",
+   "last_heading": "115 | Frá Sigurði biskupi ok píningu Rauðs",
+   "semantic_tags": [
+    "against-idolatry",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "116 | Auðr ok Rauðr — Orð sjálfan kominn",
+   "last_heading": "117 | 88. Frá Íslendingum",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "proselytizing",
+    "sin-as-disobedience",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "118 | 89. Skírðir Íslendingar",
+   "last_heading": "94 | Fall Guðröðar konungs",
+   "semantic_tags": [
+    "divine-kingship",
+    "inclusive-monotheism",
+    "proselytizing",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "119 | 第119段",
+   "last_heading": "97 | Eiríkr 之東征",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": "121 | Eiríkr jarl fór til Danmerkr",
+   "last_heading": "122 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "marriage-sacred",
+    "polytheist",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "giving-generosity",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "123 | 船員名單與冰島、格陵蘭基督教化",
+   "last_heading": "123 | 船員名單與冰島、格陵蘭基督教化",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "proselytizing",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "124 | k ríkismenn...",
+   "last_heading": "109 (119) | 諸侯會商",
+   "semantic_tags": [
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "126 | （標題待補）",
+   "last_heading": "113 | 戰鬥之始",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "128 | 114 (124) Flótti Sveins Danakonungs ok Ólafs Svíakonungs",
+   "last_heading": "118 | Uppganga á Orminn",
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": "130 | Hroðinn Ormrinn langi",
+   "last_heading": "131 | 121 (131). 關於 Eiríkr 伯爵",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": "132 | Saga Ólafs hins helga",
+   "last_heading": "132 | Saga Ólafs hins helga",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "patriarchal",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 83,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 84,
+   "first_heading": "133 | Óttarr svarti 的詩段；第一次海戰；瑞典的劫掠",
+   "last_heading": "134 | 戰役記述",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 85,
+   "first_heading": "135 | 第九場戰役與第十、第十一、第十二章節",
+   "last_heading": "135 | 第九場戰役與第十、第十一、第十二章節",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "sacred-language",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 86,
+   "first_heading": "136 |",
+   "last_heading": "136 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 87,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 88,
+   "first_heading": "138 | Frá ferð Óláfs konungs í Vestrlönd",
+   "last_heading": "20 | Frá Einari þambarskelfi",
+   "semantic_tags": [
+    "divine-kingship",
+    "divine-transcendence"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 89,
+   "first_heading": "21 | Frá Erlingi Skjálgssyni",
+   "last_heading": "139 | Frá Erlingi hersi / Frá Eiríki jarli",
+   "semantic_tags": [
+    "divine-kingship",
+    "liberation-by-works",
+    "sacred-language",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 90,
+   "first_heading": "140 | Óláfr helgi 與 Aðalráðr 之子的戰役",
+   "last_heading": "140 | Óláfr helgi 與 Aðalráðr 之子的戰役",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 91,
+   "first_heading": "141 | Ferð Ólafs konungs til Noregs",
+   "last_heading": "141 | Ferð Ólafs konungs til Noregs",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 92,
+   "first_heading": "142 |",
+   "last_heading": "143 | 第三十一章、第三十二章",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "oral-tradition",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 93,
+   "first_heading": "144 | Óláfr konungr kemr á fund Sigurðar konungs",
+   "last_heading": "144 | Óláfr konungr kemr á fund Sigurðar konungs",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 94,
+   "first_heading": "145 | Málstefna Óláfs konungs ok Sigurðar konungs",
+   "last_heading": "145 | Málstefna Óláfs konungs ok Sigurðar konungs",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 95,
+   "first_heading": "145 |",
+   "last_heading": "147 cont. | Gefit Óláfi konungsnafn",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "patience-waiting",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 96,
+   "first_heading": "147 cont. | Ferð Ólafs konungs um Upplönd",
+   "last_heading": "148 | （無題）",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 97,
+   "first_heading": "149 | 第40章 — 41章節錄",
+   "last_heading": "149 | 第40章 — 41章節錄",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "marriage-sacred",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 98,
+   "first_heading": "151 |",
+   "last_heading": "152 | 內斯雅之戰（續）",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 99,
+   "first_heading": "153 | Ferð Sveins jarls or landi",
+   "last_heading": "52 | Sveinn 伯爵與 Óláfr 瑞典國王之謀議",
+   "semantic_tags": [
+    "marriage-sacred",
+    "prayer",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 100,
+   "first_heading": "53 | Sveinn 伯爵之死",
+   "last_heading": "155 | 第54-56節",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "prophetic-critique",
+    "ritual-practice",
+    "secular-state",
+    "temple-centered",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 101,
+   "first_heading": "156 | 57. Frá sendimönnum Ólafs Svíakonungs ok dauða Ásgauts ármanns",
+   "last_heading": "156 | 57. Frá sendimönnum Ólafs Svíakonungs ok dauða Ásgauts ármanns",
+   "semantic_tags": [
+    "commandments-law",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 102,
+   "first_heading": "157 |",
+   "last_heading": "158 | Dráp Eilífs gauzka",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 103,
+   "first_heading": "159 |",
+   "last_heading": "164 | Fall Hróa",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 104,
+   "first_heading": "165 | Fall Guðleiks ok Þorgauts skarða",
+   "last_heading": "68 | 第六十八章",
+   "semantic_tags": [
+    "commandments-law",
+    "economic-justice",
+    "oral-tradition",
+    "ritual-practice",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 105,
+   "first_heading": "69 | 比約恩·斯塔拉里的旅程",
+   "last_heading": "165 | Frá Hjalta Skeggjasyni（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 106,
+   "first_heading": "166 | Frá Sigvati skáld",
+   "last_heading": "167 | Óláfr sæski konungr mælir til Hjalta",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "oral-tradition",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 107,
+   "first_heading": "168 | 第72章前段 — Ingigerðr 與 Hjalti 的密談",
+   "last_heading": "169 | 第73章·上普蘭陷落之後",
+   "semantic_tags": [
+    "against-idolatry",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "marriage-family",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 108,
+   "first_heading": "170 |",
+   "last_heading": "171 | 74. 受阻的 Upplendinga 國王們",
+   "semantic_tags": [
+    "divine-kingship",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 109,
+   "first_heading": "172 | Frá brœðrum Ólafs konungs. Frá landsdeild í Svíþjóð ok lögum.",
+   "last_heading": "173 | （段落 77–78）",
+   "semantic_tags": [
+    "congregational",
+    "divine-kingship",
+    "multiple-canons",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "parenthood",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 110,
+   "first_heading": "174 | （Ingigerðr 公主與 jarl 議事；Hjalti 告別 Óláfr konungr）",
+   "last_heading": "175 | Uppsala þingi",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "justice-power",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 111,
+   "first_heading": "176 |",
+   "last_heading": "177 | 第82章 — Hrœrekr 國王的背叛",
+   "semantic_tags": [
+    "against-idolatry",
+    "mandate-of-heaven",
+    "marriage-sacred",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "hope-reason-to-live",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 112,
+   "first_heading": "178 |",
+   "last_heading": "180 | Oláfr konungr veit Hróerek",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 113,
+   "first_heading": "181 | Frá tilrœði Hrœreks konungs",
+   "last_heading": "182 | Hrœrekr 國王赴格林蘭; Þórarinn Nefjólfsson",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 114,
+   "first_heading": "183 | Úfreksfjörðr 之戰",
+   "last_heading": "91 | 英吉格麗德差人送信往西約特蘭",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 115,
+   "first_heading": "185 | Óláfr konungr undirbýr herferð móti Svíakonungi",
+   "last_heading": "185 | Óláfr konungr undirbýr herferð móti Svíakonungi",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 116,
+   "first_heading": "186 | Austrferð Sigvats skálds",
+   "last_heading": "186 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 117,
+   "first_heading": "187 | Rognvaldr jarl gaf Sigvati gullhring",
+   "last_heading": "187 | Rognvaldr jarl gaf Sigvati gullhring",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 118,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 119,
+   "first_heading": "188 | 92. 關於亞斯垂德",
+   "last_heading": "190 | Saga Emundar lögmanns",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 120,
+   "first_heading": "190 |",
+   "last_heading": "191 | Óláfr helgi 的審判",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "temple-centered",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 121,
+   "first_heading": "192 | Óláfr sæenski (Ólafr konungr)",
+   "last_heading": "193 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 122,
+   "first_heading": "194 | Jakob konungsson yrkðr til konungs. — Sœttarfundr konunga ok tenningakast.",
+   "last_heading": "196 |",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "divine-kingship",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 123,
+   "first_heading": "197 | Frá Einari jarli ok Brúsa jarli.",
+   "last_heading": "102 | 諸侯之和解",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 124,
+   "first_heading": "198 | Einarr 伯爵之死",
+   "last_heading": "200 | Óláfr konungr leggr Orkn eyjum undir sik",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "divine-kingship",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 125,
+   "first_heading": "200 | Sátt jarlanna ok Óláfs konungs",
+   "last_heading": "109 | Brúsi jarl 之出航",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 126,
+   "first_heading": "110 | 論 Brúsi jarl 與 Þorfinnr jarl",
+   "last_heading": "111 | Háleygir 之事",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 127,
+   "first_heading": "112 | Ásmundr Grankelsson 之事",
+   "last_heading": "206 | á Eggju",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "polytheist",
+    "proselytizing",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 128,
+   "first_heading": "115 | 無題",
+   "last_heading": "208 | Óláfr konungr kristnar Dalverja",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "proselytizing",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 129,
+   "first_heading": "209 |",
+   "last_heading": "210 | 119. Skírðr Dalaguðbrandr",
+   "semantic_tags": [
+    "against-idolatry",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 130,
+   "first_heading": "211 | 第120章",
+   "last_heading": "212 | 121. Sœtt Ólafs konunga ok Einars þambarskelfis.",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 131,
+   "first_heading": "213 | 122. Sœtt Ólafs konungs ok Erlings Skjálgssonar.",
+   "last_heading": "213 | 122. Sœtt Ólafs konungs ok Erlings Skjálgssonar.",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 132,
+   "first_heading": "214 |",
+   "last_heading": "215 |",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "oral-tradition",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 133,
+   "first_heading": "216 | Ásbjörn heima — Dráp Selþóris",
+   "last_heading": "217 | Frá Skjálgi Erlingssyni ok Þórarni Nefjólfssyni",
+   "semantic_tags": [
+    "commandments-law",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage"
+   ]
+  },
+  {
+   "chunk": 134,
+   "first_heading": "218 | 第127章",
+   "last_heading": "129 | Frá Þóri hund ok Ásbirni selsbana.",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "synagogue-mosque-style",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 135,
+   "first_heading": "130 | Frá því er Ólafr konungr kristnar Vörs ok Valdres.",
+   "last_heading": "222 | Ásbjarnar selsbana 之死",
+   "semantic_tags": [
+    "caesaropapism",
+    "prayer",
+    "proselytizing",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 136,
+   "first_heading": "223 |",
+   "last_heading": "225 | Þórarinn ok Einarr",
+   "semantic_tags": [
+    "commandments-law",
+    "proselytizing",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 137,
+   "first_heading": "226 | 135. Frá svörum Íslendinga",
+   "last_heading": "139 | 克努特大帝之發軔",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "marriage-sacred",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 138,
+   "first_heading": "228 | Frá sendimönnum Knúts konungs",
+   "last_heading": "228 | Frá sendimönnum Knúts konungs",
+   "semantic_tags": [
+    "divine-kingship",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 139,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "secular-state"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 140,
+   "first_heading": "229 |",
+   "last_heading": "230 | 第 142 章",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 141,
+   "first_heading": "231 | 143. Bjarmalands ferð.",
+   "last_heading": "231 | 143. Bjarmalands ferð.",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 142,
+   "first_heading": "232 | Óláfr Tryggvason — kaupferð til Bjarmalands",
+   "last_heading": "232 | Óláfr Tryggvason — kaupferð til Bjarmalands",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 143,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 144,
+   "first_heading": "233 |",
+   "last_heading": "145 | 索拉爾夫之死",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 145,
+   "first_heading": "236 |",
+   "last_heading": "237 | —",
+   "semantic_tags": [
+    "commandments-law",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 146,
+   "first_heading": "238 |",
+   "last_heading": "239 | Óláfr digri 與瑞典國王關於土地劃分之爭；Steinn Skaptason 故事開始",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 147,
+   "first_heading": "240 |",
+   "last_heading": "241 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "marriage-sacred",
+    "priesthood",
+    "sacred-language",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 148,
+   "first_heading": "242 |",
+   "last_heading": "243 | Ferð Finns Árnasonar á Hálogaland",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 149,
+   "first_heading": "244 |",
+   "last_heading": "246 | 第 150 章：Hárekr 與 Ásmundr Grankelsson 的紛爭",
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 150,
+   "first_heading": "246 | 151. Þóroddr 之 saga",
+   "last_heading": "247 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 151,
+   "first_heading": "248 |",
+   "last_heading": "250 | 第 153 章 Karl inn mœrski 之故事",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 152,
+   "first_heading": "153 | Saga Karls hins mœrska",
+   "last_heading": "252 | Leifr 與 Þrándr 之交易與 Karl 之死",
+   "semantic_tags": [
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 153,
+   "first_heading": "253 | 第 154-155 章",
+   "last_heading": "253 | 第 154-155 章",
+   "semantic_tags": [
+    "divine-kingship",
+    "prophetic-revelation",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 154,
+   "first_heading": "255 | Hörðaknútr til konungs tekinn",
+   "last_heading": "256 | 赫納爾於斯堪尼亞",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prayer",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 155,
+   "first_heading": "257 | Orrosta fyrir ánni Helgu",
+   "last_heading": "162 | Frá Knúti konungi ok Úlfi jarli",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 156,
+   "first_heading": "163 | Víg Úlfs jarls",
+   "last_heading": "261 | 168. Um ferð Háreks or Þjóttu",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 157,
+   "first_heading": "169 | （無題）",
+   "last_heading": "263 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "honesty-hypocrisy",
+    "memory-reconciliation",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 158,
+   "first_heading": "264 | （無題）",
+   "last_heading": "175 | （無標題）",
+   "semantic_tags": [
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 159,
+   "first_heading": "176 | Grjótgarðr 之死",
+   "last_heading": "268 | Knútr konungr gerist vinr Þóris ok Knúts ok gefr þeim Finnferð",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 160,
+   "first_heading": "269 | Knútr konungr lýsir yfir því at gefa Hákoni jarli Nóreg",
+   "last_heading": "269 | Knútr konungr lýsir yfir því at gefa Hákoni jarli Nóreg",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 161,
+   "first_heading": "270 | Frá Þórarni loftungu",
+   "last_heading": "270 | Frá Þórarni loftungu",
+   "semantic_tags": [],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 162,
+   "first_heading": "270 | 186. Erlingr Skjálgsson 之死",
+   "last_heading": "270 | 186. Erlingr Skjálgsson 之死",
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 163,
+   "first_heading": "271 |",
+   "last_heading": "271 |",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 164,
+   "first_heading": "187 | Herhlaup Egða",
+   "last_heading": "273 | Frá urðarbroti",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 165,
+   "first_heading": "274 |",
+   "last_heading": "275 | 第 190 與 191 章",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 166,
+   "first_heading": "276 |",
+   "last_heading": "277 | Frá Kálfi Árnasyni",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "prayer",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 167,
+   "first_heading": "278 | Kálfr 之行與 Hákon jarl 之死",
+   "last_heading": "197 | Bjarnar stallara 旅程",
+   "semantic_tags": [
+    "divine-kingship",
+    "other-power",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 168,
+   "first_heading": "280 |",
+   "last_heading": "202 | Óláfr 國王之事",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 169,
+   "first_heading": "203 | Óláfr 自 Garðaríki 之東行",
+   "last_heading": "209 | Ferð Ólafs konungs til Járnberalands",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 170,
+   "first_heading": "210 | Ferð Ólafs konungs til Járnberalands",
+   "last_heading": "216 | Tala Ólafs konungs",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "death",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 171,
+   "first_heading": "288 | 217. Málstefna Ólafs konunge",
+   "last_heading": "218 | Gizurr 之詩；Þorfinnr munnr 之詩；Þormóðr 之詩",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-immanence",
+    "priesthood",
+    "prophetic-critique",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 172,
+   "first_heading": "219 | Óláfr 國王之靈魂之贈",
+   "last_heading": "224 | Frá Þórði Fólasyni",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 173,
+   "first_heading": "225 | Frá búnaði Ólafs konungs",
+   "last_heading": "230 | 主教 Sigurðr 的演說",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 174,
+   "first_heading": "295 | Frá lendum mönnum",
+   "last_heading": "235 | 論農夫軍之列陣",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "priesthood"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 175,
+   "first_heading": "297 | 戰陣部署與戰前激勵",
+   "last_heading": "298 | Upphaf Stiklastaða orrostu / 第 238 章：斯蒂克萊斯塔迪之戰的開端",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 176,
+   "first_heading": "299 | Fall Ólafs konungs",
+   "last_heading": "242 | 國王對 Þórir hundr 所顯之聖跡",
+   "semantic_tags": [
+    "against-idolatry",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 177,
+   "first_heading": "243 | 關於 Kálfr Árnason 的兄弟們",
+   "last_heading": "302 | Dauði Þormóðs Kolbrúnarskálds",
+   "semantic_tags": [],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 178,
+   "first_heading": "303 | um ok mælti: Furðu bleikr...",
+   "last_heading": "305 | 251",
+   "semantic_tags": [
+    "pilgrimage",
+    "sacred-language",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 179,
+   "first_heading": "305 | 251. 國王奧拉夫遺體的運送",
+   "last_heading": "1 | Sveinn Alfífusonar — upphaf ríkis",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 180,
+   "first_heading": "2 | Frá lögum Sveins konungs",
+   "last_heading": "258 | Tekinn upp heilagr dómr konungs",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 181,
+   "first_heading": "308 | Ólafs saga helga — jarteinir við uppgröft",
+   "last_heading": "309 | 259. 聖王奧拉夫之聖蹟",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 182,
+   "first_heading": "310 | Óláfr 國王的家族",
+   "last_heading": "312 | 索恩達爾之戰續",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "prophetic-revelation",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 183,
+   "first_heading": "313 | 奧拉夫之子特里格維王之死",
+   "last_heading": "313 | 麥格納斯善王傳",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "patriarchal",
+    "salvation-by-faith",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 184,
+   "first_heading": "314 | Ynglinga saga 81",
+   "last_heading": "315 | 8.",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 185,
+   "first_heading": "316 | Álfhildr 來到宮廷 / Sighvatr skáld 之詩",
+   "last_heading": "317 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "pilgrimage",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 186,
+   "first_heading": "13 | Hárekr 之死",
+   "last_heading": "320 | Magnús hinn góði 制定法律",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 187,
+   "first_heading": "320b | Frá Knýtlingum",
+   "last_heading": "320c | Magnús konungr 取得丹麥",
+   "semantic_tags": [
+    "divine-kingship",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 188,
+   "first_heading": "321 | 馬格努斯國王的出征",
+   "last_heading": "321 | 馬格努斯國王的出征",
+   "semantic_tags": [
+    "divine-kingship",
+    "sacred-language",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 189,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 190,
+   "first_heading": "322 | 第二十四章 賜斯韋恩伯爵名號",
+   "last_heading": "323 | 26–27",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "patriarchal",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 191,
+   "first_heading": "324 | 第二十八章　瑪格納斯國王之夢",
+   "last_heading": "325 | 赫姆斯克林格拉（古諾斯語原文）",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 192,
+   "first_heading": "326 |",
+   "last_heading": "326 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 193,
+   "first_heading": "327 | Orrosta við Helganes",
+   "last_heading": "327 | Orrosta við Helganes",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 194,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 195,
+   "first_heading": "328 | Magnús ok Sveinn at Helganesi",
+   "last_heading": "328 | Magnús ok Sveinn at Helganesi",
+   "semantic_tags": [
+    "against-idolatry",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 196,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 197,
+   "first_heading": "329 | úizt af skyndingu",
+   "last_heading": "2 | Haraldr kom í Garðaríki",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 198,
+   "first_heading": "3 | Haraldr gékk á mála í Miklagagði",
+   "last_heading": "335 | Haraldr vann hina þriðju borg",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 199,
+   "first_heading": "336 | Frá Ulfi ok Halldóri",
+   "last_heading": "335 | Haraldr vann hina fjórðu borg",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 200,
+   "first_heading": "336 | Haraldr vann hina fjórðu borg",
+   "last_heading": "336 | Haraldr vann hina fjórðu borg",
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 201,
+   "first_heading": "336 | 第336段",
+   "last_heading": "337 | 第14章 第15章",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "pilgrimage",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 202,
+   "first_heading": "16 | Haraldr 居 Ellipaltar，遊歷東國",
+   "last_heading": "20 | Haraldr 之征伐",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 203,
+   "first_heading": "340 | 哈拉爾與斯韋恩於厄勒松會面；哈拉爾夜宿險遭刺殺；哈拉爾投奔瑪格努斯；瑪格努斯將半國分予哈拉爾",
+   "last_heading": "341 | 24.",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 204,
+   "first_heading": "342 | Haraldr konungr gaf Steigarþóri ok Magnús konungr svaraði — Sátt Magnús ok Haraldar — Vetrnótt í Þrándheimi — Sveinn snýr heim — Konungs lægi",
+   "last_heading": "342 | Haraldr konungr gaf Steigarþóri ok Magnús konungr svaraði — Sátt Magnús ok Haraldar — Vetrnótt í Þrándheimi — Sveinn snýr heim — Konungs lægi",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "oral-tradition",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 205,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 206,
+   "first_heading": "343 | （第 343 段）",
+   "last_heading": "29 | Líkferð Magnús konungs til Noregs",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 207,
+   "first_heading": "30 | Frá Sveini konungi Úlfssyni",
+   "last_heading": "32 | 32.",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 208,
+   "first_heading": "346 | 第35章：Haraldr 國王從 Jótland 海角撤退",
+   "last_heading": "346 | 第35章：Haraldr 國王從 Jótland 海角撤退",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 209,
+   "first_heading": "347 | Haraldr konungr ok Sveinn Danakonungr í hafsíldum",
+   "last_heading": "347 | Haraldr konungr ok Sveinn Danakonungr í hafsíldum",
+   "semantic_tags": [
+    "accept-fate",
+    "prayer",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 210,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "economic-justice",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 211,
+   "first_heading": "347 | Haraldr konungr sendi gjöf til Íslands",
+   "last_heading": "350 | Frá Magnúsi konungi",
+   "semantic_tags": [
+    "ritual-practice",
+    "secular-state",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 212,
+   "first_heading": "351 | Upphaf Hákonar hvíta Ívarssonar",
+   "last_heading": "350 | 45. 艾納爾之死 / 46. 哈拉爾王與芬恩·奧納松",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "divine-kingship",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 213,
+   "first_heading": "47 | Finnr Árnason 之行",
+   "last_heading": "51 | Ásmundar 之死",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 214,
+   "first_heading": "52 | Hákon Ívarsson 之婚配",
+   "last_heading": "55 | Ferð Finns Árnasonar or landi",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 215,
+   "first_heading": "355 | Frá Guthormi Gunnhildarsyni / Viðskipti Guthorms ok Margaðs Írakonungs",
+   "last_heading": "355 | Frá Guthormi Gunnhildarsyni / Viðskipti Guthorms ok Margaðs Írakonungs",
+   "semantic_tags": [
+    "accept-fate",
+    "grace-from-god",
+    "pilgrimage",
+    "prayer",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 216,
+   "first_heading": "357 | Haraldr 國王對丹麥的戰事；造大船；征召",
+   "last_heading": "63 | Haraldr 王之軍隊",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 217,
+   "first_heading": "359 | 尼薩爾戰役 · 戰船佈陣續",
+   "last_heading": "66 | (no label)",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 218,
+   "first_heading": "67 | 論哈拉爾德國王",
+   "last_heading": "363 | Frá ferðum Hákonar jarls；Sætt Haralds konungs ok Sveins konungs",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 219,
+   "first_heading": "364 | Haralds konungs ok Sveins konungs",
+   "last_heading": "366 | Halls Koðránsbana 之戰",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "other-power",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 220,
+   "first_heading": "366 | Frá Haraldi konungi",
+   "last_heading": "368 | 81. 托斯蒂雅爾尋求斯溫王",
+   "semantic_tags": [],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "justice-power",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 221,
+   "first_heading": "81. 托斯蒂雅爾尋求斯溫王",
+   "last_heading": "83 | Draumr Gyrdar",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 222,
+   "first_heading": "84 | Draumr Þórdar",
+   "last_heading": "86 | Vestrferð Haralds konungs",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 223,
+   "first_heading": "371 | Frá fylking jarlanna / Dráp Mörukára jarls",
+   "last_heading": "91 | Ráð Tosta ja",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 224,
+   "first_heading": "91 | rls",
+   "last_heading": "96 | Haraldr Sigurðarson 國王之死",
+   "semantic_tags": [
+    "accept-fate",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 225,
+   "first_heading": "97 | 雞暴風雨",
+   "last_heading": "376 | Frá Vilhjálmi bastarði ok falli Haralds konungs",
+   "semantic_tags": [
+    "against-idolatry",
+    "chaos-to-order",
+    "divine-kingship",
+    "patriarchal",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 226,
+   "first_heading": "102",
+   "last_heading": "379 | （段落）",
+   "semantic_tags": [
+    "accept-fate",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 227,
+   "first_heading": "11 | Saga Ólafs kyrra",
+   "last_heading": "11 | Saga Ólafs kyrra",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 228,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 229,
+   "first_heading": "381 | 第六節續",
+   "last_heading": "10 | Frá vísindamanni.",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 230,
+   "first_heading": "383 | 第十一章",
+   "last_heading": "12 | Saga Magnús konungs berfœtts",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 231,
+   "first_heading": "385 | 章節",
+   "last_heading": "386 | 6. Steigar-Þórir 與 Egill 之死",
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 232,
+   "first_heading": "387 | Frá refsingum við Þrœndi.",
+   "last_heading": "388 | Sigurðr Sveinki",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "original-sin",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 233,
+   "first_heading": "389 | 本段",
+   "last_heading": "2 | 第十章 — 國王 Magnús 西行",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 234,
+   "first_heading": "3 | 第十一章 — 關於 Guðröðr 國王之子 Lögmaðr",
+   "last_heading": "13 | Deila Magnús konungs ok Inga konungs",
+   "semantic_tags": [
+    "divine-kingship",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 235,
+   "first_heading": "392 | 14. Frá Norðmönnum",
+   "last_heading": "17 | 諸王之和解",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 236,
+   "first_heading": "18 | Magnús 國王之婚",
+   "last_heading": "23 | 奧拉夫王顯神蹟於火災",
+   "semantic_tags": [
+    "against-idolatry",
+    "marriage-sacred",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 237,
+   "first_heading": "396 | 24–26 奇跡、愛爾蘭戰役、馬格努斯東歸",
+   "last_heading": "27 | Magnús 國王之死",
+   "semantic_tags": [
+    "accept-fate",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 238,
+   "first_heading": "13 | Saga Sigurðar jórsalafara, Eysteins ok Ólafs",
+   "last_heading": "13 | Saga Sigurðar jórsalafara, Eysteins ok Ólafs",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "pilgrimage",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 239,
+   "first_heading": "400 | Óláfr helgi (Óláfr inn helgi) — Sigurðr Jórsalafari fararhluti — Spánsferð",
+   "last_heading": "9. Frá Roðgeiri konungi.",
+   "semantic_tags": [
+    "against-idolatry",
+    "pilgrimage",
+    "polytheist",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 240,
+   "first_heading": "402 | Sigurðr konungr fór til Jórsala / Unnin Sætt",
+   "last_heading": "13 | 宴會與核桃之事",
+   "semantic_tags": [
+    "commandments-law",
+    "pilgrimage",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 241,
+   "first_heading": "14 | 西格爾德國王返鄉",
+   "last_heading": "407 | Frá Ívari Ingimundarsyni",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "illness-body",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 242,
+   "first_heading": "406 | 19. Frá Sigurði konungi / 20. Draumr Sigurðar konungs Jórsalafara",
+   "last_heading": "22 | Hér hefr þingaþátt",
+   "semantic_tags": [
+    "divine-kingship",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 243,
+   "first_heading": "408 |",
+   "last_heading": "23. (22).",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "multiple-canons",
+    "ritual-practice",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 244,
+   "first_heading": "24. (23).",
+   "last_heading": "25. (24).",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 245,
+   "first_heading": "411 |",
+   "last_heading": "413 | Sigurð Jórsalafari 統治時期續",
+   "semantic_tags": [],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 246,
+   "first_heading": "414 | 第 28（27）章：Smálönd 改信基督教",
+   "last_heading": "414 | 30. (29). Frá Sigurði konungi ok Óttari birting.",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "proselytizing",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 247,
+   "first_heading": "415 | Óttarr birtingr 的勇敢與西格爾德王的獎賞",
+   "last_heading": "416 | 第31–32章",
+   "semantic_tags": [
+    "fasting",
+    "prophetic-critique",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 248,
+   "first_heading": "417 | 第33-34章",
+   "last_heading": "36 | 36. (35). 論泳",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "lineage-importance",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 249,
+   "first_heading": "37 | 哈拉爾與斯韋恩·黎姆希爾達松",
+   "last_heading": "421 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "pilgrimage",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 250,
+   "first_heading": "422 | Sigurðr konungr fær Ceciliu",
+   "last_heading": "425 | Sigurðr 國王之崩",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 251,
+   "first_heading": "14 | Saga Magnús blinda ok Haralds gilla",
+   "last_heading": "14 | Saga Magnús blinda ok Haralds gilla",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "oral-tradition",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 252,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 253,
+   "first_heading": "425 | Fyrileif 之戰前夕",
+   "last_heading": "428 | 商議",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-immanence",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 254,
+   "first_heading": "427 | Sigurðr 的第三個計策",
+   "last_heading": "9 | Konungahelli 的神跡",
+   "semantic_tags": [],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 255,
+   "first_heading": "429 | galnir ok bitu alt þat",
+   "last_heading": "430 | Önnur orrosta",
+   "semantic_tags": [
+    "chaos-to-order",
+    "polytheist",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 256,
+   "first_heading": "431 |",
+   "last_heading": "434 | Frá Haraldi konungi gilla ok Magnúsi byskupi",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 257,
+   "first_heading": "433 | Haraldr harðráði — 贈主教禮物",
+   "last_heading": "434 | 14.—15. Sigurðr 之歷程與 Sigurðr slemir 在冰島",
+   "semantic_tags": [
+    "pilgrimage"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "giving-generosity"
+   ]
+  },
+  {
+   "chunk": 258,
+   "first_heading": "435 | （接續前段，內容如下）",
+   "last_heading": "435 | （接續前段，內容如下）",
+   "semantic_tags": [
+    "ancestor-worship",
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 259,
+   "first_heading": "436 | Haraldr konungr drapinn",
+   "last_heading": "436 | Haraldr konungr drapinn",
+   "semantic_tags": [
+    "against-idolatry",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 260,
+   "first_heading": "15 | Saga Inga Haraldssonar ok brœðra hans",
+   "last_heading": "438 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "patriarchal"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 261,
+   "first_heading": "439 |",
+   "last_heading": "439 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 262,
+   "first_heading": "440 | Dráp Benteins",
+   "last_heading": "440 | Dráp Benteins",
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 263,
+   "first_heading": "441 | 第七至八章片段",
+   "last_heading": "442 | 第九、十章片段",
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 264,
+   "first_heading": "443 | 第443段",
+   "last_heading": "12",
+   "semantic_tags": [
+    "accept-fate",
+    "prayer",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 265,
+   "first_heading": "445 | Sigurðr ok fall Óttars birtings; upphaf Eysteins konungs",
+   "last_heading": "445 | Sigurðr ok fall Óttars birtings; upphaf Eysteins konungs",
+   "semantic_tags": [
+    "against-idolatry",
+    "lineage-importance",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 266,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 267,
+   "first_heading": "16 | 鄂姆爾國王兄弟之始",
+   "last_heading": "447 | Eysteinn konungr barðist við Leikberg.",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "pilgrimage",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 268,
+   "first_heading": "448 | Fœddr Hákon herðibreiðr.",
+   "last_heading": "448 | við Hvítabœ — Langatún brennt",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 269,
+   "first_heading": "448 | Frá Haralds sonum",
+   "last_heading": "4 | Jarðtegnir Ólafs konungs við Ríkarð prest",
+   "semantic_tags": [
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 270,
+   "first_heading": "450 | （無標題）",
+   "last_heading": "451 | 第 26 章 — 國王們的會議",
+   "semantic_tags": [],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 271,
+   "first_heading": "452 | Frá Gregorius Dagssyni",
+   "last_heading": "29 | 格雷戈里·達格松之事",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 272,
+   "first_heading": "30 | 英吉國王與艾斯泰因國王的和解",
+   "last_heading": "456 | （詩節片段）",
+   "semantic_tags": [
+    "against-idolatry",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 273,
+   "first_heading": "16 | Sagan af Hákoni herðibreið",
+   "last_heading": "460 | 議策",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 274,
+   "first_heading": "459 | 6. Gregorius 的演說及其迴響",
+   "last_heading": "460 | 6. Erling skakka 的回答與建議",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 275,
+   "first_heading": "461 | 7. 國王 Hákon 的軍隊",
+   "last_heading": "461 | 7. 國王 Hákon 的軍隊",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 276,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 277,
+   "first_heading": "461 | 第九章",
+   "last_heading": "11 | Flótti Hákonar konungs.",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 278,
+   "first_heading": "463 | 第十二章：碼頭之戰（節錄）",
+   "last_heading": "14 | Gregorius Dagsson 之死",
+   "semantic_tags": [
+    "against-idolatry",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 279,
+   "first_heading": "15 | Gregorius Dagsson 之死",
+   "last_heading": "17 | 因吉王的話",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loneliness-belonging",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 280,
+   "first_heading": "18 | 因吉王陣亡",
+   "last_heading": "18 | 因吉王陣亡",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 281,
+   "first_heading": "468 | （本章無標題，待補）",
+   "last_heading": "468 | （本章無標題，待補）",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 282,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 283,
+   "first_heading": "469 | 第21章 奧拉夫國王的神蹟",
+   "last_heading": "17 | Saga Magnús konungs Erlingssonar",
+   "semantic_tags": [
+    "pilgrimage"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 284,
+   "first_heading": "2 | Magnús 國王前往丹麥之行程",
+   "last_heading": "473 | 第三章續 / 第四章 4. / 第五章 5.",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 285,
+   "first_heading": "474 |",
+   "last_heading": "2 | 哈康王軍將之逃",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 286,
+   "first_heading": "3 | 王 Sigurðr 之初起",
+   "last_heading": "4 | Sigurðr 伯爵之判決",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "ritual-practice",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 287,
+   "first_heading": "477 |",
+   "last_heading": "477 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 288,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 289,
+   "first_heading": "478 | 13. Frá fylking Sigurðar jarls",
+   "last_heading": "19 | 厄林與希辛人之事",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "ritual-practice",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 290,
+   "first_heading": "481 |",
+   "last_heading": "483 | Valdimarr Danakonungr hafði þá spurt þau tíðindi af Noregi",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 291,
+   "first_heading": "483.1 | Frá Erlingi ok Víkverjum",
+   "last_heading": "484 | Erlingr 與 Þrœndir 之事",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-revelation",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 292,
+   "first_heading": "485 | Valdimarr 在 Haugar 召開會議；Erlings ferð til Jótlands",
+   "last_heading": "487 | Bardagi á Stöngum.",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "commandments-law",
+    "ritual-practice",
+    "secular-state",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 293,
+   "first_heading": "488 | Bardagi á Ryðjökli.",
+   "last_heading": "38 | 論 Nikolás",
+   "semantic_tags": [
+    "ancestor-worship",
+    "prayer",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 294,
+   "first_heading": "39 | 論 Eiríkr 與 Nikolás",
+   "last_heading": "491 | 赫姆斯克林格拉 — 終卷殘段",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  }
+ ]
+}

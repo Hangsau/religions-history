@@ -96,15 +96,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "dc987c2fdf9ad078b78f41ff5321c696e9051cad32a4b15beec2acc74e88fd37"
+  },
+  "tagging_models": "MiniMax-M3"
 }

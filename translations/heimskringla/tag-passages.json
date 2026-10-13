@@ -1,0 +1,5231 @@
+{
+ "schema_version": 1,
+ "slug": "heimskringla",
+ "chunks_total": 304,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Hakon the Good's Saga",
+   "last_heading": "4 | Eric's death",
+   "semantic_tags": [
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 |",
+   "last_heading": "7 | 第九章 關於 King Tryggve",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | Chapter X. Of Gunhild's sons.",
+   "last_heading": "12 | 伯爵哈康大帝之誕生",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "parenthood",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "13 | 惡王厄斯泰因",
+   "last_heading": "8 | Chapter XVII. The Thing at Froste",
+   "semantic_tags": [
+    "commandments-law",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "9 | Chapter XVII.–XVIII.",
+   "last_heading": "11 | 第二十一章 國王 Hakon 之法",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "12 | 第二十二章 論艾瑞克之子",
+   "last_heading": "15 | 第二十六章",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "15 | 第二十七章續～第二十八章",
+   "last_heading": "17 | 第三十一章",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "essentially-good",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "18 | 海盍恩中箭與逝世",
+   "last_heading": "20 |",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "21 | Halfdan the Black's Saga",
+   "last_heading": "第六章：蘭希爾德之夢",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "24 | 第七章 哈夫丹之夢 / 第八章 宴席上肉食消失",
+   "last_heading": "3 | Harald Harfager's Saga",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "27 | 第四章・國王 Harald 的誓言；第五章・Orkadal 之戰",
+   "last_heading": "第九章・哈拉爾王之家事",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "第十章・索爾斯基爾之戰",
+   "last_heading": "32 | 第十五章",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "33 | 第十五章。King Harald 在農夫 Aake 的宴會上，以及 Aake 的謀殺。",
+   "last_heading": "34 | 第二十七章續（哥特蘭戰役詩文） / 第二十八章 哈夫爾峽灣之戰",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "gratitude-contentment",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "35 | Chapter XX. King Harald the supreme sovereign in Norway. Of the settlement of distant lands.",
+   "last_heading": "37 | 第二十三章—第二十四章",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "Chapter XXIII | 第二十三章 Harald 國王剪髮",
+   "last_heading": "39 | 第二十六章 — Thiodolf of Hume, the Scald",
+   "semantic_tags": [
+    "lineage-importance",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "death",
+    "living-with-unknown",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "40 | 第二十七章—第三十章",
+   "last_heading": "34 | 第三十四章",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "35 | 第三十五章",
+   "last_heading": "44 | Chapter XXXVIII. Of King Biorn's Death.",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "spirit-possession",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "44 | Chapter XXXIX. Of the Reconciliation of the Kings.",
+   "last_heading": "46.4 | 第四十四章　Eric 被立為王（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "patriarchal",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "47 | 第四十五章至第四十六章",
+   "last_heading": "49 | King Olaf Trygvason's Saga/Part I / VI.",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "patriarchal",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "50 |",
+   "last_heading": "51 | Chapter IV. Hakon's embassy to Sweden.",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "suffering-as-purifying",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "52 | 第七章：Olaf 殺死 Klerkon",
+   "last_heading": "53 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "prayer",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "54 | Chapter X. Councils held by Earl Hakon and King Harald.",
+   "last_heading": "57 | Chapter XIII. Harald Graafeld 殞命於 Lymfiord 地峽",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "56 | Harald Greyskin 之死",
+   "last_heading": "57.1 | Chapter XVII. Earl Harkon's battle with Ragnfrid.",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "58 | 第十七章；第十八章",
+   "last_heading": "59 | Earl Hakon's battles and marriage",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "60 | 第二十章 / 第二十一章",
+   "last_heading": "61 | 第二十一章續 / 第二十二章",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "62 | 第二十三章 至 第二十六章",
+   "last_heading": "64 | 第二十七章末至第二十八章：哈康伯爵背棄基督信仰，洗劫哥特蘭",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "divine-kingship",
+    "polytheist",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "65 | 第二十九章至第三十一章：皇帝奧托返國與奧拉夫·特里格維松的劫掠",
+   "last_heading": "66 | 第三十二章　國王奧拉夫在錫利群島受洗",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "67 | 第三十二章",
+   "last_heading": "68 | 第三十三章　奧拉夫迎娶居達",
+   "semantic_tags": [
+    "monastic",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "67 | Olaf Tryggvesson 與 Gyda 的婚事；Alfin 的決鬥；Vige 犬的由來",
+   "last_heading": "68 | 第三十六章：哈拉爾・戈姆松王與其征伐冰島",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "69 | 第六十九段",
+   "last_heading": "71 | Chapter XL — Earls Hakon and Eric gather forces against the Jomsvikings",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "71.1 | Chapter XLI — The expedition of the Jomsburg vikings to Norway",
+   "last_heading": "73 | Chapter XLIV.—Earl Sigvald's flight",
+   "semantic_tags": [
+    "against-idolatry",
+    "chaos-to-order"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "73 | Chapter XLV.—Bue Digre throws himself overboard",
+   "last_heading": "XLVIII | Haraldr Grǫenski 之死",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "76 | 齊格莉德之焚殺與奧拉夫誕生",
+   "last_heading": "78 | Chapter LII. Olaf Tryggvesson comes to Norway.",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "79 | Earl Hakon 之逃亡",
+   "last_heading": "81 | Earl Hakon's head",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "82 | Chapter LVI.–LVIII.",
+   "last_heading": "83 | Chapter LIX",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "84 | Chapter LIX. King Olaf baptizes the country of Viken.",
+   "last_heading": "84 | Chapter LX. Of the Hordaland people.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "proselytizing",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "85 | Chapter LXI. Rogaland baptized.",
+   "last_heading": "87 | Chapter LXVII. Olaf Haraldsson baptized.",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "87 | Chapter LXVIII. Meeting of King Olaf and Sigrid the Haughty at Konghelle.",
+   "last_heading": "90 | 第七十三章（續）/ 第七十四章 / 第七十五章",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-revelation",
+    "ritual-practice",
+    "spirit-possession",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "第七十四章：Lade 的宴會",
+   "last_heading": "92 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship",
+    "proselytizing",
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "93 | Chapter LXXXII",
+   "last_heading": "94 | Chapter LXXXIII–LXXXV",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "patriarchal",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "95 | 第八十五章續／第八十六章／第八十七章",
+   "last_heading": "96 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-immanence",
+    "prayer",
+    "proselytizing",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "spirit-possession",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "97 | LXXXVIII 論冰島人",
+   "last_heading": "99 | 第九十二章：奧拉夫王之技藝",
+   "semantic_tags": [
+    "against-idolatry",
+    "priesthood",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "100 | Chapter XCII",
+   "last_heading": "101 | Chapter XCV–XCVI",
+   "semantic_tags": [
+    "caesaropapism",
+    "commentarial-layer",
+    "divine-kingship",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "102 | 第九十七章：埃里克伯爵在波羅的海沿岸的劫掠",
+   "last_heading": "104 | 第 104 章",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "105 | 第一百零一章 Olaf 的戰爭徵集",
+   "last_heading": "106 | Chapter CV. Earl Rognvald sends messengers to King Olaf.",
+   "semantic_tags": [
+    "proselytizing",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "107 | Chapter CVI. King Olaf begins his expedition to Vendland.",
+   "last_heading": "110 | 第一百一十一章 The consultation of the kings.",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "polytheist",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "110 | Chapter CXII | Of King Olaf's people",
+   "last_heading": "113 | Chapter CXIV. Of King Olaf.",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "112 | 第十一四章至十一六章",
+   "last_heading": "113 | 章節 CXVII-CXVIII",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "114 | Chapter CXIX — Olaf gives his men sharp swords / Chapter CXX — The Serpent boarded",
+   "last_heading": "116 | 第一二二章 — 島民間的傳聞",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "116 | 第 116 段",
+   "last_heading": "118 | King Olaf Trygvason's Saga/Part II — VI",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "salvation-by-faith",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "119 |",
+   "last_heading": "120 | 第四章至第六章",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "121 | Olafs 冒險（續）",
+   "last_heading": "123 | Harald Gormsson 的困境與 Hakon 的計策",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "124 | Earl Hakon 與國王 Harald 召開的會議",
+   "last_heading": "XIII. Harald Graafeld 亡於 Lymfiord 地峽",
+   "semantic_tags": [
+    "divine-kingship",
+    "secular-state",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "125 | Harald Greyskin 陣亡 · Gold Harald 之死 · 國土瓜分",
+   "last_heading": "130 | Hakon 伯爵與 Ragnfrid 之戰",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "127 | Chapter XVII. Another battle between Earl Hakon and Ragnfrid.",
+   "last_heading": "Skopte the Newsman's death",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "129 | 第二十章（續）",
+   "last_heading": "133 | 第二十五章",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "134 | 第二十六章",
+   "last_heading": "133 | 第二十八章 Earl Hakon 背棄基督教信仰，並劫掠哥特蘭",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "134 | Chapter XXIX – Chapter XXXI",
+   "last_heading": "134 | Chapter XXIX – Chapter XXXI",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "135 | 第三十一章（續）／第三十二、三十三章",
+   "last_heading": "137 | 第三十六章 哈拉爾·戈爾姆松王與其征伐冰島",
+   "semantic_tags": [
+    "marriage-sacred",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "138 | Chapter XXXVIII",
+   "last_heading": "139 | 第三十九章：瓊斯堡維京人的莊嚴誓約／第四十章：艾里克伯爵與哈康伯爵準備戰爭徵調",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "140 | Chapter XLI. The expedition of the Jomsburg vikings to Norway.",
+   "last_heading": "142 | Chapter XLIII. Beginning of the battle with the Jomsburg vikings.",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "oral-tradition",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "142 | 第四十三章～第四十五章",
+   "last_heading": "145 | Chapter XLVII. Death of Gissur of Valders",
+   "semantic_tags": [
+    "against-idolatry",
+    "feminine-divine"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "144 | 第四十八章",
+   "last_heading": "147 | Chapter L. About Earl Hakon.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "polytheist",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "148 | Chapter LI. Thorer Klakke's Journey to discover Olaf Tryggvesson.",
+   "last_heading": "148 | Chapter LIII",
+   "semantic_tags": [
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "149 | Chapter LIV–LV",
+   "last_heading": "152 | Olaf Tryggvesson 於全體大會被立為王",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "patriarchal",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "153 | Lodin's 婚姻",
+   "last_heading": "154 | Chapter LXI.（續）Olaf 國王在 Gulathing 推動洗禮",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "prophetic-revelation",
+    "proselytizing",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "155 | Chapter LXII. Skialg 之子 Erling 的求婚",
+   "last_heading": "156 | 巫術者之焚燒",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "divine-kingship",
+    "marriage-sacred",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "marriage-family",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "157 | 第七十章。艾維因·凱爾達之死",
+   "last_heading": "158 | Chapter LXXI.Of King Olaf and Odin's apparition.",
+   "semantic_tags": [
+    "against-idolatry",
+    "prophetic-revelation",
+    "spirit-possession",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "159 | Chapter LXXIII—LXXV",
+   "last_heading": "161 | Chapter LXXVIII–LXXXII",
+   "semantic_tags": [
+    "against-idolatry",
+    "proselytizing",
+    "ritual-practice",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "162 | Harek 被帶往 Olaf 國王處",
+   "last_heading": "165 | Thorer Hiort 之死",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "proselytizing",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "164 | Chapter LXXXV（續）／Chapter LXXXVI／Chapter LXXXVII",
+   "last_heading": "165 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-immanence",
+    "evil-as-deception",
+    "proselytizing",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "166 | Chapter LXXXVIII.Of the Icelanders.",
+   "last_heading": "167b | 第九十章 吟唱詩人 Halfred 受洗",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "proselytizing",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "168 | 第九十章（續）與第九十一至九十二章",
+   "last_heading": "170 | Chapter XCVI. Of Earl Eric, the son of Hakon.",
+   "semantic_tags": [
+    "divine-kingship",
+    "proselytizing",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "171 | 第九十七章·Earl Eric's foray on the Baltic coasts",
+   "last_heading": "172 | Chapter C. King Olaf gets Thyri in marriage.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "173 | Chapter C — Ol往外遠征籌備",
+   "last_heading": "174 | 朗蛇號船員名錄與奧拉夫國王的佈道",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prophetic-revelation",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "marriage-family",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": "175 | 第一百零四章（續）／第一百零五章 Earl Rognvald sends messengers to King Olaf",
+   "last_heading": "176 | 第一○八章 — 歐拉夫王出征文德蘭",
+   "semantic_tags": [
+    "marriage-sacred",
+    "proselytizing"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "177 | Chapter CVIII–CIX",
+   "last_heading": "178 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "patriarchal",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "179 | Chapter CXI",
+   "last_heading": "181 | Chapter CXV. The Battle begins",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "182 | Chapter CXVI. Flight of King Swend and King Olaf the Swede",
+   "last_heading": "183 | Serpent 號遭接舷戰",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "184 | 第一百二十一章",
+   "last_heading": "186 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "chaos-to-order",
+    "secular-state",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": "6 | King Olaf Trygvason's Saga/Part III",
+   "last_heading": "6 | King Olaf Trygvason's Saga/Part III",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 83,
+   "first_heading": "188 |",
+   "last_heading": "3 | 第六章。奧拉夫於愛沙尼亞獲釋。",
+   "semantic_tags": [
+    "against-idolatry",
+    "oral-tradition",
+    "suffering-as-purifying",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 84,
+   "first_heading": "190 | 第七章 克拉克龍被奧拉夫殺",
+   "last_heading": "191 | Chapter VIII (cont.) / Chapter IX",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 85,
+   "first_heading": "192 | Harald Blaatand 與 Hakon 伯爵議事／Gold Harald 之計",
+   "last_heading": "195 | 第十三章：哈拉爾・格拉費爾德戰死於 Lymfiord 地頸",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 86,
+   "first_heading": "194 | 第二十三章（續）",
+   "last_heading": "197 | Chapter XVII. 伯爵哈康與 Ragnfrid 之戰",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "temple-centered",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 87,
+   "first_heading": "196 | Chapter XVII–XVIII",
+   "last_heading": "197 | 哈弗金 Earl 之戰與婚姻",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 88,
+   "first_heading": "198 | 第二十一章 · 奧拉夫·特里格維松從俄羅斯出發",
+   "last_heading": "199 | 第二十一章續 ／ 第二十二章",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 89,
+   "first_heading": "200 | 第二十三章",
+   "last_heading": "202 | 第二十七章（續）及第二十八章",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "proselytizing",
+    "sin-as-disobedience",
+    "spirit-possession",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 90,
+   "first_heading": "203 | Chapter XXIX–XXXI",
+   "last_heading": "203 | Chapter XXIX–XXXI",
+   "semantic_tags": [],
+   "psych_tags": [
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 91,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 92,
+   "first_heading": "204 | 第三十二章：奧拉夫國王在夕利群島受洗",
+   "last_heading": "207 | 國王 Olaf 獲得其犬 Vige",
+   "semantic_tags": [
+    "against-idolatry",
+    "marriage-sacred",
+    "prayer",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 93,
+   "first_heading": "206 | 第二十九章（續）",
+   "last_heading": "207 | Chapter XXXVII. (cont.) — 海寇航行 / Chapter XXXVIII. Harald Gormson's death",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "spirit-possession",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 94,
+   "first_heading": "208 | 第三十九章 約姆斯堡維京人的莊嚴誓約",
+   "last_heading": "209.1 | 第四十一章：尤姆斯堡（the Jomsburg）維京人征伐挪威",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 95,
+   "first_heading": "210 | Chapter XLII–XLIII",
+   "last_heading": "212 | Chapter XLVI–XLVII（續）",
+   "semantic_tags": [
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 96,
+   "first_heading": "213 | Chapter XLVIII",
+   "last_heading": "214 | Sigrid the Haughty 與 Olaf Haraldson 的誕生",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "marriage-sacred",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 97,
+   "first_heading": "215 | Chapter L.About Earl Hakon. / Chapter LI.Thorer Klakke's Journey to discover Olaf Tryggvesson.",
+   "last_heading": "215 | Chapter L.About Earl Hakon. / Chapter LI.Thorer Klakke's Journey to discover Olaf Tryggvesson.",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gender-body",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 98,
+   "first_heading": "216 | Chapter LII. Olaf Tryggvesson comes to Norway.",
+   "last_heading": "216 | Chapter LII. Olaf Tryggvesson comes to Norway.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "oral-tradition",
+    "proselytizing",
+    "ritual-practice",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 99,
+   "first_heading": "217 | Chapter LIII.Eari Ha-kon's flight.",
+   "last_heading": "219 | Earl Hakon's head.",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 100,
+   "first_heading": "220 | Chapter LVII 段落續",
+   "last_heading": "221 | Chapter LIX. 國王 Olaf 為 Viken 地區施洗。",
+   "semantic_tags": [
+    "against-idolatry",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "marriage-sacred",
+    "polytheist",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 101,
+   "first_heading": "222 | Chapter LX. Of the Hordaland people.",
+   "last_heading": "222 | Chapter LX. Of the Hordaland people.",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "proselytizing",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 102,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 103,
+   "first_heading": "223 |",
+   "last_heading": "224 | 第六十三章至六十六章",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "secular-state",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 104,
+   "first_heading": "225 |",
+   "last_heading": "227 | Chapter LXXII. The Thing in Drontheim.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theocracy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 105,
+   "first_heading": "227 | Chapter LXXIII. Of Skiaegge, or Iron Beard.",
+   "last_heading": "230 | Chapter LXXX. Of Thangbrand the priest.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 106,
+   "first_heading": "230 | Chapter LXXXI. Of Sigurd and Hauk.",
+   "last_heading": "234 | 第八十五章 — Thorer Hiort 之死",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "proselytizing",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 107,
+   "first_heading": "233 | Chapter LXXXV.—LXXXVII.",
+   "last_heading": "235 | Chapter LXXXVII",
+   "semantic_tags": [
+    "against-idolatry",
+    "multiple-canons",
+    "prayer",
+    "proselytizing",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 108,
+   "first_heading": "236 | Chapter LXXXVIII. Of the Icelanders.",
+   "last_heading": "238 | Chapter XC. Halfred the scald baptized.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "priesthood",
+    "proselytizing",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 109,
+   "first_heading": "237 | 第九十章 / 第九十一章 / 第九十二章",
+   "last_heading": "239 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "guilt-atonement",
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 110,
+   "first_heading": "240 | Earl Eric's foray on the Baltic coasts.",
+   "last_heading": "241 | Chapter C. King Olaf gets Thyri in marriage.",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 111,
+   "first_heading": "242 | Chapter CI.Olaf's levy for war.",
+   "last_heading": "244 | 第一百零四章（續）與第一百零五章",
+   "semantic_tags": [
+    "commandments-law",
+    "marriage-sacred",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "gender-body",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 112,
+   "first_heading": "245 | 第一百零五章 — Earl Rognvald 遣使者至 Olaf 國王處",
+   "last_heading": "246 | 第一百零八章",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "marriage-sacred",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 113,
+   "first_heading": "247 | 第一百零九章",
+   "last_heading": "249 | Chapter CXII 續",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 114,
+   "first_heading": "250 | Chapter CXIII — 戰船封鎖準備接戰",
+   "last_heading": "251 | 戰鬥之歌（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 115,
+   "first_heading": "252 |",
+   "last_heading": "253 | Chapter CXXI.The Serpent's decks cleared.",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 116,
+   "first_heading": "254 | Chapter CXXII.Of the report among the people of the island.",
+   "last_heading": "255 | 卷末",
+   "semantic_tags": [
+    "accept-fate",
+    "syncretic",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 117,
+   "first_heading": "7 | Magnus Barefoot's Saga",
+   "last_heading": "257 | King Hakon's Death and King Magnus's Reign",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 118,
+   "first_heading": "258 | 索爾吉爾與斯韋恩叛亂",
+   "last_heading": "259 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 119,
+   "first_heading": "260 | 段落 260",
+   "last_heading": "262 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 120,
+   "first_heading": "263 | 斯溫克與國王馬格努斯的協議",
+   "last_heading": "264 |",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 121,
+   "first_heading": "265 |",
+   "last_heading": "266 | 註",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 122,
+   "first_heading": "267 | 267",
+   "last_heading": "269 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "secular-state",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 123,
+   "first_heading": "270 | 第270段",
+   "last_heading": "272 | 馬格努斯與愛爾蘭戰役",
+   "semantic_tags": [
+    "other-power",
+    "pilgrimage",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "loneliness-belonging",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 124,
+   "first_heading": "273 | 第273段",
+   "last_heading": "275 | Magnus Erlingson's Saga",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 125,
+   "first_heading": "276 |",
+   "last_heading": "277 | 戰事與求和",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 126,
+   "first_heading": "278 |",
+   "last_heading": "280 | 海戰與哈康之死",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 127,
+   "first_heading": "281 |",
+   "last_heading": "283 |",
+   "semantic_tags": [
+    "caesaropapism",
+    "chaos-to-order",
+    "commentarial-layer",
+    "essentially-flawed",
+    "polytheist",
+    "sacred-language",
+    "secular-state",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 128,
+   "first_heading": "284 | ===渡河與史林之役",
+   "last_heading": "285 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 129,
+   "first_heading": "286 | （段落 286）",
+   "last_heading": "287 | 對話：Erling Skakke 與 Archbishop Eystein",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "priesthood",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 130,
+   "first_heading": "288 |",
+   "last_heading": "290 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 131,
+   "first_heading": "291 |",
+   "last_heading": "293 | 段落 293",
+   "semantic_tags": [
+    "against-idolatry",
+    "priesthood",
+    "prophetic-revelation",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 132,
+   "first_heading": "294 | 厄靈與 Olaf 在維肯的衝突",
+   "last_heading": "295 | 北歐史海姆克林格拉 295",
+   "semantic_tags": [
+    "caesaropapism",
+    "chaos-to-order",
+    "divine-kingship",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 133,
+   "first_heading": "296 |",
+   "last_heading": "297 | 第 297 段",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 134,
+   "first_heading": "298 | 第 298 段",
+   "last_heading": "9 | Saga of Hakon Herdebreid",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 135,
+   "first_heading": "300 | Olav Tryggvason's Wars",
+   "last_heading": "302 | 第302段",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 136,
+   "first_heading": "303 |",
+   "last_heading": "307 | 第307段",
+   "semantic_tags": [],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 137,
+   "first_heading": "308 | 格列格里烏斯與哈康王之衝突",
+   "last_heading": "309 |",
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 138,
+   "first_heading": "310 |",
+   "last_heading": "311 | 311",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 139,
+   "first_heading": "312 | (無標題)",
+   "last_heading": "315 |",
+   "semantic_tags": [],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 140,
+   "first_heading": "316 | Harald in Africa and Sicily",
+   "last_heading": "318 | Haraldr harðráði — Sicily 第三座城堡",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "patience-waiting",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 141,
+   "first_heading": "319 | Harald Harald Fairhair's siege",
+   "last_heading": "321 | 哈拉爾在西格里亞之遭遇",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "pilgrimage",
+    "prayer",
+    "sacred-language",
+    "syncretic",
+    "theocracy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice",
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 142,
+   "first_heading": "322 | 哈拉爾德歸返北地",
+   "last_heading": "323 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 143,
+   "first_heading": "324 | Harald 與 Svein 夜談 / 暗殺未遂",
+   "last_heading": "326 | 哈拉爾與馬格納斯分金",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "other-power",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 144,
+   "first_heading": "327 | 第327段",
+   "last_heading": "329 | 瑪格努斯王之死與哈拉爾即位",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "pilgrimage",
+    "prayer",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 145,
+   "first_heading": "330",
+   "last_heading": "332 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 146,
+   "first_heading": "333 |",
+   "last_heading": "334 | Haraldr harðráði 的治績",
+   "semantic_tags": [
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 147,
+   "first_heading": "335 | Mary Church 建築期間",
+   "last_heading": "336 | Harald Fairhair 和 Einar Tambaskelfer 的衝突",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "priesthood",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 148,
+   "first_heading": "337 | 段落 337",
+   "last_heading": "339 |",
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "marriage-sacred",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "marriage-family",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 149,
+   "first_heading": "340 | Asmund 與 Hakon Ivarson 的故事",
+   "last_heading": "342 | 哈拉爾德·哈德拉德傳奇／第二部",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "death",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 150,
+   "first_heading": "343 | 西居爾之子古托姆",
+   "last_heading": "345 | Harald 在 Limfjord 之事",
+   "semantic_tags": [
+    "divine-transcendence",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 151,
+   "first_heading": "346 |",
+   "last_heading": "347 | 海事戰役 · 赫姆斯克林格拉",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 152,
+   "first_heading": "348 | 海戰（赫德蘭外海）",
+   "last_heading": "349 | 海戰敘事續",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 153,
+   "first_heading": "350 |",
+   "last_heading": "351 | 第 351 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 154,
+   "first_heading": "352 |",
+   "last_heading": "354 |",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 155,
+   "first_heading": "355 | 第355段",
+   "last_heading": "357 | Harald 之求婚",
+   "semantic_tags": [
+    "divine-kingship",
+    "messianism",
+    "prayer",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 156,
+   "first_heading": "358 |",
+   "last_heading": "359 | 托斯提伯爵赴挪威說服哈拉爾",
+   "semantic_tags": [
+    "divine-kingship",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 157,
+   "first_heading": "360 |",
+   "last_heading": "361 | Harald Hardrada's invasion of England",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 158,
+   "first_heading": "362 | 斯坦福橋之戰（下）",
+   "last_heading": "364 | 斯坦福橋之戰",
+   "semantic_tags": [
+    "divine-kingship",
+    "other-power",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 159,
+   "first_heading": "365 |",
+   "last_heading": "366 | 戰鬥續述",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "divine-kingship",
+    "essentially-good"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 160,
+   "first_heading": "367 | 哈拉爾·西居爾松之死與英格蘭局勢",
+   "last_heading": "368 | 威廉征服後續",
+   "semantic_tags": [
+    "divine-kingship",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 161,
+   "first_heading": "369 | Harald Fairhair's End",
+   "last_heading": "371 | 詩歌與和約",
+   "semantic_tags": [
+    "ancestor-worship",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 162,
+   "first_heading": "12 | Saga of King Harald Grafeld and of Earl Hakon Son of Sigurd",
+   "last_heading": "374 | 古恩希爾德與諸子",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "giving-generosity",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 163,
+   "first_heading": "375 | 古恩希爾德諸子與格里奧特高德之計",
+   "last_heading": "376 | 第七章續、第八章",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "living-with-unknown",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 164,
+   "first_heading": "377 | Chapter VIII. Earl Eric's birth. / Chapter IX. King Tryggve Olafsson's murder.",
+   "last_heading": "380 | Chapter XIII. Of Earl Hakon and Gunhild's sons.",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 165,
+   "first_heading": "381 | Chapter XIV. Sigurd Sieve's murder.",
+   "last_heading": "13 | 盲者馬格努斯與哈拉德·吉列 saga",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 166,
+   "first_heading": "383 | Harald Sigurdson and Magnus 對峙",
+   "last_heading": "384 | Harald 逃亡與 Magnus 統治",
+   "semantic_tags": [
+    "against-idolatry",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 167,
+   "first_heading": "385 | 段落 385",
+   "last_heading": "386 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 168,
+   "first_heading": "387 | 第 387 段",
+   "last_heading": "387 | 第 387 段",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 169,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 170,
+   "first_heading": "388 | （無標題）",
+   "last_heading": "390 | Olver's Stand at Skurbagar",
+   "semantic_tags": [
+    "apocalypse",
+    "prayer",
+    "priesthood",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 171,
+   "first_heading": "391 |",
+   "last_heading": "392 |",
+   "semantic_tags": [
+    "ritual-practice",
+    "suffering-as-purifying",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 172,
+   "first_heading": "393 | 本段",
+   "last_heading": "395 | Harald Gille 與 Sigurd Slembidjakn",
+   "semantic_tags": [
+    "lineage-importance",
+    "pilgrimage",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "courage",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 173,
+   "first_heading": "396 | 第 396 段",
+   "last_heading": "397 | 段落",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 174,
+   "first_heading": "14 | Saga of Magnus the Good",
+   "last_heading": "14 | Saga of Magnus the Good",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 175,
+   "first_heading": "399 | 馬格努斯・奧拉夫松返回挪威",
+   "last_heading": "401 | 國王馬格努斯",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "oral-tradition",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 176,
+   "first_heading": "402 | 西格瓦特之歌",
+   "last_heading": "403 | 西格瓦特詩歌 · 聖奧拉夫聖祠與聖日",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "goddess-tradition",
+    "messianism",
+    "monotheist-exclusive",
+    "theocracy",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 177,
+   "first_heading": "404 | 第 404 段",
+   "last_heading": "405 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship",
+    "pilgrimage",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 178,
+   "first_heading": "406 | Sigvat 的諫言詩",
+   "last_heading": "407 | （無標題）",
+   "semantic_tags": [
+    "commandments-law",
+    "prophetic-critique",
+    "sacred-language",
+    "secular-state",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 179,
+   "first_heading": "408 | Chapter",
+   "last_heading": "410 | 史文受封伯爵與約姆斯堡之戰",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 180,
+   "first_heading": "411 | （接續上段）",
+   "last_heading": "413 | 聖奧拉夫顯靈與馬格努斯對斯韋恩之戰",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 181,
+   "first_heading": "414 | 海戰之敘",
+   "last_heading": "415 | 第 415 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 182,
+   "first_heading": "416 |",
+   "last_heading": "417 | 第 417 段",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 183,
+   "first_heading": "418 |",
+   "last_heading": "420 | 第 420 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 184,
+   "first_heading": "421 | Saga of Olaf Haraldson/Part I",
+   "last_heading": "422 | 奧拉夫首次東征",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 185,
+   "first_heading": "423 |",
+   "last_heading": "425 |",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "other-power"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 186,
+   "first_heading": "426 |",
+   "last_heading": "427 |",
+   "semantic_tags": [
+    "polytheist",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 187,
+   "first_heading": "428 | 第428段",
+   "last_heading": "429 | 第 429 段",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 188,
+   "first_heading": "430 | 厄靈（Erling）與其治下",
+   "last_heading": "431 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 189,
+   "first_heading": "432 | 奧拉夫王於 Saela 登陸與俘虜 Hrane 子伯爵 Hakon",
+   "last_heading": "433 |",
+   "semantic_tags": [
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 190,
+   "first_heading": "434 | Olav Haraldsson 抵達繼父 Sigurd Syr 處（續前）",
+   "last_heading": "436 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 191,
+   "first_heading": "437 | 第 437 段",
+   "last_heading": "439 | h.",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "polytheist",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 192,
+   "first_heading": "440 |",
+   "last_heading": "441 | Steinker 與 Earl Svein 的對峙",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 193,
+   "first_heading": "442 |",
+   "last_heading": "443 | 第443段",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 194,
+   "first_heading": "444 | 海戰",
+   "last_heading": "446 | Earl Svein 戰敗出航",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 195,
+   "first_heading": "16 | Saga of Olaf Haraldson/Part II",
+   "last_heading": "448 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 196,
+   "first_heading": "449 |",
+   "last_heading": "451 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "priesthood",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 197,
+   "first_heading": "452 | 第452段",
+   "last_heading": "453 | 第 453 段",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 198,
+   "first_heading": "454 |",
+   "last_heading": "455 | 第 1017 年",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 199,
+   "first_heading": "456 |",
+   "last_heading": "458 | 段落 458",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 200,
+   "first_heading": "459 | 第 459 段",
+   "last_heading": "459 | 第 459 段",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 201,
+   "first_heading": "460 |",
+   "last_heading": "462 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "lineage-importance",
+    "oral-tradition",
+    "sacred-language",
+    "vernacular-translation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 202,
+   "first_heading": "463 |",
+   "last_heading": "465 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "marriage-sacred",
+    "patriarchal",
+    "prayer",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 203,
+   "first_heading": "466 | 赫姆斯克林格拉 第466段",
+   "last_heading": "468 | 第 468 段",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 204,
+   "first_heading": "469 | 歐拉夫之治與諸子",
+   "last_heading": "470 | 第 470 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "parenthood",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 205,
+   "first_heading": "471 |",
+   "last_heading": "17 | Saga of Olaf Haraldson/Part III",
+   "semantic_tags": [
+    "commandments-law",
+    "marriage-sacred",
+    "prophetic-critique",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 206,
+   "first_heading": "474 | Thorgny 的演說與和解",
+   "last_heading": "475 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "marriage-sacred",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 207,
+   "first_heading": "476 |",
+   "last_heading": "477 | 段落 477",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 208,
+   "first_heading": "478 |",
+   "last_heading": "480 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "priesthood",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 209,
+   "first_heading": "481 |",
+   "last_heading": "483 | 第 483 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 210,
+   "first_heading": "484 | 第484段",
+   "last_heading": "486 | 西格瓦特詩歌與奧洛夫王",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood"
+   ]
+  },
+  {
+   "chunk": 211,
+   "first_heading": "487 | Olav Haraldssons Saga 87",
+   "last_heading": "488 | 奧拉夫國王迎娶阿斯特里德",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 212,
+   "first_heading": "489 |",
+   "last_heading": "491 | 第491段",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 213,
+   "first_heading": "492 |",
+   "last_heading": "493 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "multiple-canons",
+    "patriarchal",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 214,
+   "first_heading": "494 |",
+   "last_heading": "494 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 215,
+   "first_heading": "495 |",
+   "last_heading": "495 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "priesthood",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 216,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 217,
+   "first_heading": "497 |",
+   "last_heading": "18 | Saga of Olaf Haraldson/Part IV",
+   "semantic_tags": [
+    "divine-kingship",
+    "patriarchal",
+    "prayer",
+    "priesthood",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 218,
+   "first_heading": "500 | 第500段",
+   "last_heading": "502 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "sacred-language",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 219,
+   "first_heading": "503 |",
+   "last_heading": "505 | 索爾芬與布魯斯 / Olaf Haraldson 之事",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "lineage-importance",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 220,
+   "first_heading": "506 |",
+   "last_heading": "508 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "prayer",
+    "proselytizing",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 221,
+   "first_heading": "509 | 段落",
+   "last_heading": "511 | 第511段",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "priesthood",
+    "proselytizing",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 222,
+   "first_heading": "512 | Gudbrand 與 Olaf 王對峙",
+   "last_heading": "514 | 第514段",
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "divine-transcendence",
+    "proselytizing",
+    "ritual-practice",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 223,
+   "first_heading": "515 |",
+   "last_heading": "516 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "secular-state",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 224,
+   "first_heading": "517 | Sigurd Håkonsson 與 Asbjorn 的故事（續）",
+   "last_heading": "519 |",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 225,
+   "first_heading": "520 | 章節標題待校",
+   "last_heading": "521 | 第521段",
+   "semantic_tags": [
+    "commandments-law",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 226,
+   "first_heading": "522 |",
+   "last_heading": "523 |",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 227,
+   "first_heading": "524 | (none)",
+   "last_heading": "19 | Saga of Olaf Haraldson/Part V",
+   "semantic_tags": [
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 228,
+   "first_heading": "527 |",
+   "last_heading": "528 | 第528段",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "proselytizing",
+    "temple-centered",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 229,
+   "first_heading": "529 |",
+   "last_heading": "531 | 托拉林·內菲尤夫松赴冰島議會",
+   "semantic_tags": [],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 230,
+   "first_heading": "532 |",
+   "last_heading": "534 | 第 534 段",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 231,
+   "first_heading": "535 |",
+   "last_heading": "536 | 第536段",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 232,
+   "first_heading": "537 | 段落",
+   "last_heading": "539 | ...",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "secular-state",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 233,
+   "first_heading": "540 |",
+   "last_heading": "542 | Chapter",
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 234,
+   "first_heading": "543 | 543",
+   "last_heading": "545 |",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 235,
+   "first_heading": "546 | 第 546 段",
+   "last_heading": "547 | 547",
+   "semantic_tags": [
+    "against-idolatry",
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "patriarchal",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 236,
+   "first_heading": "548 |",
+   "last_heading": "549 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 237,
+   "first_heading": "550 | 章節標題依原文為準",
+   "last_heading": "552 | 奧拉夫·哈拉爾德松薩迦 第六部",
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 238,
+   "first_heading": "553 | 第 553 段",
+   "last_heading": "554 |",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "polytheist",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 239,
+   "first_heading": "555 | 段落 555",
+   "last_heading": "557 | 第557段",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 240,
+   "first_heading": "558 | （本段無標題）",
+   "last_heading": "560 | 段",
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 241,
+   "first_heading": "561 | Leif 於集會收取稅銀",
+   "last_heading": "562 |",
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 242,
+   "first_heading": "563 |",
+   "last_heading": "565 | 克努特與哈康伯爵聯軍征奧拉夫",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 243,
+   "first_heading": "566 |",
+   "last_heading": "568 | 赫姆斯克林格拉 第568段",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 244,
+   "first_heading": "569 |",
+   "last_heading": "571 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 245,
+   "first_heading": "572 | 第572段",
+   "last_heading": "574",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "prayer",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 246,
+   "first_heading": "575 | 第 575 段",
+   "last_heading": "577 |",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 247,
+   "first_heading": "578 | 第 578 段",
+   "last_heading": "580 | (章節標題待補)",
+   "semantic_tags": [
+    "commandments-law",
+    "polytheist",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 248,
+   "first_heading": "581 | 克努特王統治挪威",
+   "last_heading": "583 |",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "syncretic",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 249,
+   "first_heading": "584 | (標題僅於第 1 段出現，此處省略)",
+   "last_heading": "585 |",
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 250,
+   "first_heading": "586 | 第 586 段",
+   "last_heading": "586 | 第 586 段",
+   "semantic_tags": [
+    "against-idolatry",
+    "lineage-importance",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 251,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 252,
+   "first_heading": "588 |",
+   "last_heading": "590 | 第590段",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "prophetic-revelation",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 253,
+   "first_heading": "591 |",
+   "last_heading": "593 | 593",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "prophetic-revelation",
+    "secular-state",
+    "sin-as-disobedience",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 254,
+   "first_heading": "594 | Chapter",
+   "last_heading": "596 |",
+   "semantic_tags": [
+    "messianism",
+    "prayer",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 255,
+   "first_heading": "597 | （第 597 段）",
+   "last_heading": "599 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 256,
+   "first_heading": "600 | 第六百段",
+   "last_heading": "602 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "prophetic-revelation",
+    "theocracy",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 257,
+   "first_heading": "603 | 戰役前夕：洗禮與奧拉夫王",
+   "last_heading": "605 | Saga of Olaf Haraldson/Part VIII",
+   "semantic_tags": [
+    "against-idolatry",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "freewill-fate-choice",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 258,
+   "first_heading": "606 | 章節標題待補",
+   "last_heading": "607 | 第 607 段",
+   "semantic_tags": [
+    "commandments-law",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 259,
+   "first_heading": "608 | Stiklestad 戰前",
+   "last_heading": "610 | Stiklestad 之戰前夕",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 260,
+   "first_heading": "611 | 第611段",
+   "last_heading": "613 | Stiklestad 之會",
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 261,
+   "first_heading": "614 |",
+   "last_heading": "615 | Stiklestad 之戰前夕",
+   "semantic_tags": [
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 262,
+   "first_heading": "616 | 第六百一十六段",
+   "last_heading": "617 | 第 617 段",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 263,
+   "first_heading": "618 | 斯蒂克萊斯塔德之戰",
+   "last_heading": "620 | 赫姆斯克林格拉 第620段",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 264,
+   "first_heading": "621 | Thormod 和 Kimbe",
+   "last_heading": "623 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 265,
+   "first_heading": "624 |",
+   "last_heading": "626 | 第626段",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 266,
+   "first_heading": "627 | 段落 627",
+   "last_heading": "629 | 段落 629",
+   "semantic_tags": [
+    "heaven-hell",
+    "pilgrimage",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 267,
+   "first_heading": "630 |",
+   "last_heading": "633 | (無標題)",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 268,
+   "first_heading": "23 | Saga of Olaf Kyrre",
+   "last_heading": "635 | 段落 635",
+   "semantic_tags": [
+    "divine-kingship",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 269,
+   "first_heading": "636 | 聖奧拉夫神蹟與奧拉夫 Kyrre 治世",
+   "last_heading": "636 | 聖奧拉夫神蹟與奧拉夫 Kyrre 治世",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 270,
+   "first_heading": "638 | 國王與老農夫",
+   "last_heading": "24 | Saga of Sigurd the Crusader and His Brothers Eystein and Olaf",
+   "semantic_tags": [
+    "divine-kingship",
+    "pilgrimage",
+    "secular-state",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 271,
+   "first_heading": "641 | Sigurd 遠征西班牙",
+   "last_heading": "642",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "proselytizing",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 272,
+   "first_heading": "643 | Sigurd 之遠征：Iviza、Minorca 戰役；抵達西西里；Sigurd 立 Roger 為王；Roger 大帝世系；Sigurd 前往巴勒斯坦",
+   "last_heading": "645 | 西格爾德王進入君士坦丁堡",
+   "semantic_tags": [
+    "divine-kingship",
+    "pilgrimage",
+    "prophetic-revelation",
+    "sacred-language",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 273,
+   "first_heading": "646 | 齊格國王十字軍東征與厄伊斯坦國王功業",
+   "last_heading": "646 | 齊格國王十字軍東征與厄伊斯坦國王功業",
+   "semantic_tags": [
+    "divine-kingship",
+    "pilgrimage",
+    "secular-state",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 274,
+   "first_heading": "647 | Eystein 收服 Jamtaland 與其生平",
+   "last_heading": "647 | Eystein 收服 Jamtaland 與其生平",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "emotions-passions",
+    "loss-grief",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 275,
+   "first_heading": "649 | 第三十七章（續）",
+   "last_heading": "650 | （Sigurd 國王之夢與諸王之死；Sigurd Hranason 之爭）",
+   "semantic_tags": [
+    "divine-kingship",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 276,
+   "first_heading": "651 | Sigurd 與 Eystein 兄弟就 Sigurd Hranason 一案交鋒",
+   "last_heading": "652 |",
+   "semantic_tags": [
+    "commandments-law",
+    "secular-state",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 277,
+   "first_heading": "653 |",
+   "last_heading": "654 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "prayer",
+    "sin-as-disobedience",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 278,
+   "first_heading": "655 |",
+   "last_heading": "657 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "commentarial-layer",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "communication-being-understood",
+    "death",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 279,
+   "first_heading": "658 | Thorarin 的笑話；Sigurd 國王的聖書",
+   "last_heading": "660 | Sigurd 國王的夢境與異象",
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "humility",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 280,
+   "first_heading": "661 |",
+   "last_heading": "663 | Harald Gille 與 King Sigurd、King Magnus",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "multiple-canons",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "dreams-unconscious",
+    "justice-power",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 281,
+   "first_heading": "664 | 第六百六十四段",
+   "last_heading": "666 |",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "prayer",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "gratitude-contentment",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 282,
+   "first_heading": "667 | 第一卷片段",
+   "last_heading": "668 | 國王西格urd的統治",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "marriage-sacred",
+    "priesthood"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "marriage-family",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 283,
+   "first_heading": "25 | Saga of Sigurd, Inge, and Eystein, the Sons of Harald",
+   "last_heading": "670 | 670",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 284,
+   "first_heading": "671 | 段落 671",
+   "last_heading": "672 | 第六百七十二段",
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 285,
+   "first_heading": "673 |",
+   "last_heading": "674 |",
+   "semantic_tags": [
+    "ritual-practice",
+    "secular-state",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 286,
+   "first_heading": "675 | 段落 675",
+   "last_heading": "676 | 海姆斯克林格拉 第 676 段",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 287,
+   "first_heading": "677 | 段落 677",
+   "last_heading": "678 | 索倫之死與西格爾德",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 288,
+   "first_heading": "679 | Harald Gille 之死後諸王與 Ottar 之死",
+   "last_heading": "680 |",
+   "semantic_tags": [
+    "chaos-to-order",
+    "lineage-importance",
+    "pilgrimage",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 289,
+   "first_heading": "681 | 第681段",
+   "last_heading": "682 | 章節",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "secular-state",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 290,
+   "first_heading": "683 |",
+   "last_heading": "685 |",
+   "semantic_tags": [
+    "mystical-union",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "faith-doubt",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 291,
+   "first_heading": "686 | 段 686",
+   "last_heading": "687 | === 〔中略段落〕",
+   "semantic_tags": [
+    "ancestor-worship",
+    "pilgrimage",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 292,
+   "first_heading": "688 |",
+   "last_heading": "689 | 第689段",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 293,
+   "first_heading": "690 |",
+   "last_heading": "26 | Ynglinga Saga",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 294,
+   "first_heading": "693 | Chapter IV（續）. Of Odin's war with the people of Vanaland",
+   "last_heading": "695 | 第七章",
+   "semantic_tags": [
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 295,
+   "first_heading": "696 | Chapter VIII.–XI.",
+   "last_heading": "XIV | Fiolner 王之死",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 296,
+   "first_heading": "698 | Chapter XIV 續 / Chapter XV / Chapter XVI",
+   "last_heading": "699 | 第七章 續",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 297,
+   "first_heading": "700 | Chapter XVIII — Of Domald's death",
+   "last_heading": "701 | 第二十二章　阿格尼",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 298,
+   "first_heading": "702 | 第二十三章（續）／第二十四章",
+   "last_heading": "705 | Chapter XXVIII. Jorund's death",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 299,
+   "first_heading": "706 | Chapter XXIX. Of King Ane's death",
+   "last_heading": "707 | Chapter XXXI | Of King Ottar",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 300,
+   "first_heading": "707 | King Frode / King Ottar; Vendelcrow",
+   "last_heading": "708 | Chapter XXXIII—XXXV",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 301,
+   "first_heading": "709 | 第三十五章（續）",
+   "last_heading": "710 | Chapter XL.The burning in Upsal.",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 302,
+   "first_heading": "711 | 第三十七章（續）／第四十一章 · 希奧爾華德之婚",
+   "last_heading": "713 | Chapter XLIII–XLV",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "marriage-sacred",
+    "ritual-practice",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 303,
+   "first_heading": "45 | Chapter XLVI. Of Olaf the Tree-feller.",
+   "last_heading": "715 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 304,
+   "first_heading": "52 | 第五章 — The Discovery of America 殘篇（第 716/717 段）",
+   "last_heading": "717 | Chapter LIV–LV",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "divine-kingship",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  }
+ ]
+}
