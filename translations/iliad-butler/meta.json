@@ -54,15 +54,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "calling-vocation",
-    "change-transformation",
-    "courage"
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "16219f4f9b35f8639d2c9673eb0193d9f9e02833ccf88389a8fc7df5801ac018"
+  },
+  "tagging_models": "MiniMax-M3"
 }

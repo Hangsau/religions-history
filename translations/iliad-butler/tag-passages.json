@@ -1,0 +1,2153 @@
+{
+ "schema_version": 1,
+ "slug": "iliad-butler",
+ "chunks_total": 123,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Book I",
+   "last_heading": "2 | 第二段",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | Book I (continued)",
+   "last_heading": "4 | 阿基里斯與阿伽門農的爭執",
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "prayer",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "5 | 第一章（續）",
+   "last_heading": "7 |",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "8 |",
+   "last_heading": "9 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "insignificance-history",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "10 | 書中段落",
+   "last_heading": "2 | Book II",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "13 | 第二卷（續）",
+   "last_heading": "14 | 第十四段",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "divine-kingship",
+    "divine-transcendence",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "15 |",
+   "last_heading": "16 | 第二卷續（節錄）",
+   "semantic_tags": [
+    "against-idolatry",
+    "cosmic-egg",
+    "divine-kingship",
+    "prophetic-revelation",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "insignificance-history",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "17 | 第二卷（節錄）",
+   "last_heading": "18 | 第九卷前半（Agamemnon 集會）",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theodicy",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "19 | Book II (續)",
+   "last_heading": "20 | 書目（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "patriarchal",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "21 | Catalogue of Ships (continued)",
+   "last_heading": "22 | Catalogue of Ships (cont.)",
+   "semantic_tags": [
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "23 | 第二卷續（艦隊名錄）",
+   "last_heading": "24 | 第二章（續）",
+   "semantic_tags": [
+    "divine-kingship",
+    "divine-transcendence",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "25 | Book II: The Catalogue of Ships (continued)",
+   "last_heading": "27 | Book III",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "28 | Book III: 帕里斯與墨涅拉奧斯之約",
+   "last_heading": "29 |",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "30 | Book III (cont.)",
+   "last_heading": "31 | 第三卷續",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "32 | 第三卷（續）",
+   "last_heading": "34 |",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "4 | Book IV",
+   "last_heading": "36 | Book IV — The breaking of the oaths",
+   "semantic_tags": [
+    "divine-kingship",
+    "multiple-canons",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "37 | Book IV",
+   "last_heading": "38 | Book IV (excerpt)",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "39 |",
+   "last_heading": "40 |",
+   "semantic_tags": [
+    "commandments-law",
+    "patriarchal",
+    "prayer"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "courage",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "41 | Diomedes 與 Sthenelus 之言",
+   "last_heading": "43 | Book V (續)",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "44 | Book IX",
+   "last_heading": "45 |",
+   "semantic_tags": [
+    "against-idolatry",
+    "chaos-to-order",
+    "cosmic-egg",
+    "mandate-of-heaven",
+    "polytheist",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "46 | Book IX (continued)",
+   "last_heading": "47 | <未命名>",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "48 |",
+   "last_heading": "49 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "50 | Book IX (excerpt, Achilles' reply to the envoys)",
+   "last_heading": "51 | Phoenix 的懇求",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "52 | Phoenix 勸誡 Achilles（續）",
+   "last_heading": "53 | 不和女神與金蘋果（續）",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "54 | Phoenix and Ajax plead with Achilles",
+   "last_heading": "55 | Book IX (continued)",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "feminine-divine",
+    "messianism",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "6 | Book V",
+   "last_heading": "57 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "58 | Book V (excerpt, continued)",
+   "last_heading": "59 | Book V (續)",
+   "semantic_tags": [
+    "awe-fear",
+    "divine-immanence",
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "60 | Iliad V (Excerpt)",
+   "last_heading": "61 | Book V",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "62 | Book V: Diomed's Glorious Exploits (continued)",
+   "last_heading": "63 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "multiple-canons",
+    "polytheist",
+    "suffering-as-purifying",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 30,
+   "first_heading": "64 | Book V",
+   "last_heading": "66 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "67 | Book V (cont.) — Sarpedon and Tlepolemus",
+   "last_heading": "68 | Book V (excerpt)",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "69 | Book V",
+   "last_heading": "71 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "7 | Book VI",
+   "last_heading": "73 | Book VI (continued)",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "74 | Diomed 與 Glaucus 對峙",
+   "last_heading": "75 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "lineage-importance",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "76 | Book VI — Hector and Hecuba",
+   "last_heading": "77 |",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "78 |",
+   "last_heading": "80 | Book 6, Hector and Andromache; Paris",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "marriage-sacred",
+    "polytheist",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "8 | Book VII",
+   "last_heading": "83 | 第八卷：集會與拒戰（續）",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "84 |",
+   "last_heading": "85 | Book VII — 決鬥與休戰（Hector 與 Ajax 交鋒後由傳令官調解）",
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "86 |",
+   "last_heading": "88 |",
+   "semantic_tags": [
+    "commandments-law",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "89 | Book VIII",
+   "last_heading": "91 |",
+   "semantic_tags": [
+    "accept-fate",
+    "caesaropapism",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "92 |",
+   "last_heading": "93 |",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "94 | Book VIII (續)",
+   "last_heading": "95 | Book V (Excerpt)",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "96 |",
+   "last_heading": "98 |",
+   "semantic_tags": [
+    "accept-fate",
+    "caesaropapism",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "10 | Book X",
+   "last_heading": "100 | Book X",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "101 | Book X",
+   "last_heading": "103 | BOOK X (Dolonia) — 第 103 段",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "104 | Book 10 (Dolon's scouting mission)",
+   "last_heading": "106 | Book 10 (Dolon's capture and the Thracian raid)",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "107 | Book X (續)",
+   "last_heading": "11 | Book XI",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "110 | Book VIII (continued)",
+   "last_heading": "111 | Book V, lines 159-240",
+   "semantic_tags": [
+    "accept-fate",
+    "awe-fear",
+    "divine-kingship",
+    "polytheist",
+    "sin-as-disobedience",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "112 | Book V (continued)",
+   "last_heading": "114 | Book VIII (續)",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "115 |",
+   "last_heading": "117 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "118 | 節錄",
+   "last_heading": "120 |",
+   "semantic_tags": [
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "121 | Book XI, Nestor's speech: the Pylian-Epean war",
+   "last_heading": "123 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "12 | Book XII",
+   "last_heading": "126 | Book XII (continued)",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "127 | Book XII",
+   "last_heading": "129 |",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "polytheist",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "130 |",
+   "last_heading": "132",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "13 | Book XIII",
+   "last_heading": "134 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "135 | Book XIII",
+   "last_heading": "136 | Book XIII (continued)",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "137 | Book XIII — Idomenus and Meriones",
+   "last_heading": "138 |",
+   "semantic_tags": [
+    "accept-fate",
+    "commandments-law",
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "139 | Book XIII",
+   "last_heading": "139 | Book XIII",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "emotions-passions"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "140 | Book V (continued)",
+   "last_heading": "141 | 卷十三 · 戰鬥",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "142 | Book XIII (continued)",
+   "last_heading": "143 | Book XIII (續)",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "144 | Book 5 (continued)",
+   "last_heading": "145 | Book XIV (續)",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "146 |",
+   "last_heading": "147 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "14 | Book XIV",
+   "last_heading": "150 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "151 | Zeus 與 Hera 密謀；Venus 借出魔帶",
+   "last_heading": "1 | ...",
+   "semantic_tags": [
+    "divine-immanence",
+    "multiple-canons",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "154 | Book XIV",
+   "last_heading": "155 | 赫克托耳被艾杰克斯以石擊倒",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "156 | 第九卷·節錄",
+   "last_heading": "15 | Book XIX",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "159 | Book XIX (excerpt)",
+   "last_heading": "160 | Sthenelus and the folly of Jove",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "sin-as-disobedience",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "161 |",
+   "last_heading": "162 |",
+   "semantic_tags": [
+    "compassion",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "163 | Phoenix 安撫 Achilles；Zeus 命 Minerva 餵以甘露",
+   "last_heading": "164 | Book XIX: Achilles arms for battle",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "16 | Book XV",
+   "last_heading": "166 | Book VIII",
+   "semantic_tags": [
+    "accept-fate",
+    "caesaropapism",
+    "divine-kingship",
+    "polytheist",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "167 | Book V",
+   "last_heading": "167 | Book V",
+   "semantic_tags": [
+    "accept-fate",
+    "cosmic-egg",
+    "divine-transcendence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "169 | Book XVI",
+   "last_heading": "171 | Book XV (continued)",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": "172 | Book XV",
+   "last_heading": "173 | Book XV",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "174 | Book V (excerpt, continued)",
+   "last_heading": "175 | Book 15: Hector at the ships",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "176 | Iliad XV",
+   "last_heading": "176 | Iliad XV",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 80,
+   "first_heading": "177 | Book XV",
+   "last_heading": "17 | Book XVI",
+   "semantic_tags": [
+    "against-idolatry",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": "179 | Book XVI",
+   "last_heading": "180 | Book XVI",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "multiple-souls"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": "181 | 第二十五卷 佩洛普斯央請阿基里斯收受賠禮",
+   "last_heading": "183 | 第 183 段",
+   "semantic_tags": [
+    "commandments-law",
+    "divine-immanence",
+    "lineage-importance",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 83,
+   "first_heading": "184 | Book V (excerpt, continued)",
+   "last_heading": "186 | Book 16 (excerpt)",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-kingship",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 84,
+   "first_heading": "187 | Book XVI",
+   "last_heading": "188 | Book 16 (cont.)",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 85,
+   "first_heading": "189 | Sarpedon 之死 · 戰場",
+   "last_heading": "190 | Zeus spares Sarpedon; Patroclus slays many",
+   "semantic_tags": [
+    "divine-kingship",
+    "other-power",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 86,
+   "first_heading": "191 | Book 16 — Cebriones slain",
+   "last_heading": "193 | Patroclus 臨終之言",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "suffering-as-purifying",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 87,
+   "first_heading": "194 | Book XVII",
+   "last_heading": "194 | Book XVII",
+   "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "honesty-hypocrisy",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 88,
+   "first_heading": "195 |",
+   "last_heading": "195 |",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 89,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 90,
+   "first_heading": "196 | (本段標題)",
+   "last_heading": "197 |",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 91,
+   "first_heading": "198 | Book XVI",
+   "last_heading": "199 | (Book 17, lines 306-380)",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 92,
+   "first_heading": "200 |",
+   "last_heading": "201 | 第十七章（續）",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 93,
+   "first_heading": "202 | Book XVII, lines 458–535",
+   "last_heading": "203 | 第十七卷 · 門農之子門諾提俄斯之死與戰甲被奪",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "other-power",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 94,
+   "first_heading": "204 |",
+   "last_heading": "206 |",
+   "semantic_tags": [
+    "accept-fate",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 95,
+   "first_heading": "207 | Book XVIII",
+   "last_heading": "208 | Thetis 探望悲悼的 Achilles",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "goddess-tradition",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 96,
+   "first_heading": "209 |",
+   "last_heading": "210 | Book XVIII",
+   "semantic_tags": [
+    "divine-immanence",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 97,
+   "first_heading": "211 | Book XIX (continued)",
+   "last_heading": "212 |",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 98,
+   "first_heading": "213 | 第十八卷（續）",
+   "last_heading": "215 |",
+   "semantic_tags": [
+    "cosmic-egg",
+    "creator-deity",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 99,
+   "first_heading": "216 | Achilles' Shield — the Shield of Achilles",
+   "last_heading": "218 | Book XX",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-transcendence",
+    "multiple-canons",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "living-with-unknown",
+    "play-laughter-lightness"
+   ]
+  },
+  {
+   "chunk": 100,
+   "first_heading": "219 |",
+   "last_heading": "220 | 第20卷續",
+   "semantic_tags": [
+    "divine-transcendence",
+    "other-power",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 101,
+   "first_heading": "221 | Book XX (續)",
+   "last_heading": "222 | Book XX — Aeneas vs. Achilles",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "divine-transcendence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 102,
+   "first_heading": "223 |",
+   "last_heading": "225 | Book XX — Hector vs Achilles: Polydamus; Hector saved by Apollo",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 103,
+   "first_heading": "226 | 段落 226",
+   "last_heading": "228 | Book 21 (excerpt)",
+   "semantic_tags": [
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 104,
+   "first_heading": "229 | Book XXI (續)",
+   "last_heading": "230 |",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-immanence",
+    "polytheist",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 105,
+   "first_heading": "231 |",
+   "last_heading": "233 | Book XXI — Xanthus Scorched by Hephaestus",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 106,
+   "first_heading": "234 | Book XXI — Minerva and Juno assist the Achaeans",
+   "last_heading": "235 | (段落)",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 107,
+   "first_heading": "236 | Book XXII",
+   "last_heading": "238 | Book XXII",
+   "semantic_tags": [
+    "accept-fate",
+    "divine-immanence",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 108,
+   "first_heading": "239 |",
+   "last_heading": "241 |",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 109,
+   "first_heading": "242 | Book XXII",
+   "last_heading": "243 | Book XXII",
+   "semantic_tags": [
+    "against-idolatry",
+    "polytheist",
+    "ritual-practice",
+    "theophany",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 110,
+   "first_heading": "244 | 第 244 段",
+   "last_heading": "245 | Book XXIV — Achilles drags Hector",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 111,
+   "first_heading": "246 | Book XXII: The Death of Hector",
+   "last_heading": "23 | Book XXIII",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 112,
+   "first_heading": "249 | Book XXIII — Patroclus' Ghost",
+   "last_heading": "250 |",
+   "semantic_tags": [
+    "ancestor-worship",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 113,
+   "first_heading": "251 |",
+   "last_heading": "252 | Funeral Games for Patroclus",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 114,
+   "first_heading": "253 | 伊利亞德 — Butler 1898",
+   "last_heading": "255 | 第 255 段",
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 115,
+   "first_heading": "256 |",
+   "last_heading": "258 | 第 23 卷：賽後獎品分配",
+   "semantic_tags": [
+    "commandments-law",
+    "prayer",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 116,
+   "first_heading": "259 | 奈斯托耳自述早年競技",
+   "last_heading": "260 | Book 23: Funeral Games – Boxing & Wrestling",
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "courage",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 117,
+   "first_heading": "261 |",
+   "last_heading": "263 | Book XXIII: Funeral Games — Archery and Javelin Contests",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "aging-time"
+   ]
+  },
+  {
+   "chunk": 118,
+   "first_heading": "24 | Book XXIV",
+   "last_heading": "265 |",
+   "semantic_tags": [
+    "compassion",
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 119,
+   "first_heading": "266 | Zeus sends Iris to Priam",
+   "last_heading": "267 | Book XXIV",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 120,
+   "first_heading": "268 |",
+   "last_heading": "270 | Hermes 受遣護送 Priam",
+   "semantic_tags": [
+    "compassion",
+    "divine-immanence",
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 121,
+   "first_heading": "271 | Hermes leads Priam to Achilles' tent",
+   "last_heading": "273 | Priam and Achilles: the ransom",
+   "semantic_tags": [
+    "accept-fate",
+    "compassion",
+    "divine-transcendence",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 122,
+   "first_heading": "274 |",
+   "last_heading": "275 |",
+   "semantic_tags": [
+    "divine-transcendence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 123,
+   "first_heading": "276 | Book XXIV (continued)",
+   "last_heading": "278 | 第二十四卷末段",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}
