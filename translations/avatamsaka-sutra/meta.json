@@ -56,15 +56,16 @@
   "translation_status": "done",
   "translation_models": "MiniMax-M3",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
     "calling-vocation",
-    "change-transformation"
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "1c71670fa81e5c078fed307c4a142076fe3122a8f0e27ab41ad392905b6d9462"
+  },
+  "tagging_models": "MiniMax-M3"
 }
