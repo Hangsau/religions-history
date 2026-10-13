@@ -100,15 +100,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "death"
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tag_source": {
+    "source_file": "01-translation.md",
+    "source_sha256": "12e4a34529151aa57702e15d0a8e8ac6e8debe0c7fa0f413121fbed5cc47a00f"
+  },
+  "tagging_models": "MiniMax-M3"
 }
