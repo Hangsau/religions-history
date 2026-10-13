@@ -1644,11 +1644,6 @@
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
-    },
-    {
-      "slug": "zhonglu-chuandao-ji",
-      "name_zh": "鍾呂傳道集",
-      "religion": "道教"
     }
   ],
   "aging-time": [
@@ -4610,11 +4605,6 @@
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
-    },
-    {
-      "slug": "laozi-heshanggong",
-      "name_zh": "老子河上公章句",
-      "religion": "道教"
     },
     {
       "slug": "lingbao-bifa",
@@ -18243,11 +18233,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "laozi-heshanggong",
-      "name_zh": "老子河上公章句",
-      "religion": "道教"
-    },
-    {
       "slug": "lingbao-bifa",
       "name_zh": "靈寶畢法",
       "religion": "道教"
@@ -18446,16 +18431,6 @@
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
-    },
-    {
-      "slug": "zhengmeng",
-      "name_zh": "正蒙",
-      "religion": "儒教"
-    },
-    {
-      "slug": "zhonglu-chuandao-ji",
-      "name_zh": "鍾呂傳道集",
-      "religion": "道教"
     },
     {
       "slug": "zhouyi-cantong-qi",
@@ -20799,16 +20774,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "laozi-heshanggong",
-      "name_zh": "老子河上公章句",
-      "religion": "道教"
-    },
-    {
-      "slug": "lujia-xinyu",
-      "name_zh": "新語",
-      "religion": "儒教"
-    },
-    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -20944,18 +20909,8 @@
       "religion": "基督教"
     },
     {
-      "slug": "wenzhongzi-zhongshuo",
-      "name_zh": "中說（文中子）",
-      "religion": "儒教"
-    },
-    {
       "slug": "xunzi",
       "name_zh": "荀子",
-      "religion": "儒教"
-    },
-    {
-      "slug": "zhengmeng",
-      "name_zh": "正蒙",
       "religion": "儒教"
     }
   ],
@@ -26551,11 +26506,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "laozi-heshanggong",
-      "name_zh": "老子河上公章句",
-      "religion": "道教"
-    },
-    {
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
@@ -27231,11 +27181,6 @@
       "religion": "凱爾特"
     },
     {
-      "slug": "wenzhongzi-zhongshuo",
-      "name_zh": "中說（文中子）",
-      "religion": "儒教"
-    },
-    {
       "slug": "wuzhen-pian",
       "name_zh": "悟真篇",
       "religion": "道教"
@@ -27274,6 +27219,11 @@
       "slug": "zhengmeng",
       "name_zh": "正蒙",
       "religion": "儒教"
+    },
+    {
+      "slug": "zhonglu-chuandao-ji",
+      "name_zh": "鍾呂傳道集",
+      "religion": "道教"
     },
     {
       "slug": "zhou-li",
@@ -32396,11 +32346,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "lujia-xinyu",
-      "name_zh": "新語",
-      "religion": "儒教"
-    },
-    {
       "slug": "mahaparinirvana-sutra-northern",
       "name_zh": "大般涅槃經（北本）",
       "religion": "佛教"
@@ -32801,19 +32746,9 @@
       "religion": "基督教"
     },
     {
-      "slug": "wenzhongzi-zhongshuo",
-      "name_zh": "中說（文中子）",
-      "religion": "儒教"
-    },
-    {
       "slug": "zechariah",
       "name_zh": "撒迦利亞書",
       "religion": "猶太教"
-    },
-    {
-      "slug": "zhengmeng",
-      "name_zh": "正蒙",
-      "religion": "儒教"
     }
   ],
   "fear-uncertainty": [
@@ -38493,11 +38428,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "lujia-xinyu",
-      "name_zh": "新語",
-      "religion": "儒教"
-    },
-    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -39698,11 +39628,6 @@
       "slug": "vulgate-james",
       "name_zh": "雅各書（武加大）",
       "religion": "基督教"
-    },
-    {
-      "slug": "wenzhongzi-zhongshuo",
-      "name_zh": "中說（文中子）",
-      "religion": "儒教"
     },
     {
       "slug": "yama-smrti",
@@ -44370,11 +44295,6 @@
       "religion": "耆那教"
     },
     {
-      "slug": "lujia-xinyu",
-      "name_zh": "新語",
-      "religion": "儒教"
-    },
-    {
       "slug": "plato-apology-el",
       "name_zh": "蘇格拉底的申辯（希臘原文）",
       "religion": "古希臘羅馬"
@@ -48388,6 +48308,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "laozi-heshanggong",
+      "name_zh": "老子河上公章句",
+      "religion": "道教"
+    },
+    {
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
@@ -48873,6 +48798,11 @@
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
     },
     {
       "slug": "mabinogion-cy-1",
@@ -54792,6 +54722,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
+    },
+    {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
@@ -55517,6 +55452,11 @@
       "religion": "道教"
     },
     {
+      "slug": "wenzhongzi-zhongshuo",
+      "name_zh": "中說（文中子）",
+      "religion": "儒教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -55555,6 +55495,16 @@
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
+    },
+    {
+      "slug": "zhengmeng",
+      "name_zh": "正蒙",
+      "religion": "儒教"
+    },
+    {
+      "slug": "zhonglu-chuandao-ji",
+      "name_zh": "鍾呂傳道集",
+      "religion": "道教"
     },
     {
       "slug": "zhoudunyi-tongshu",
@@ -56561,6 +56511,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
+    },
+    {
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -56714,6 +56669,11 @@
       "slug": "wenchang-yinzhiwen",
       "name_zh": "文昌帝君陰騭文",
       "religion": "道教"
+    },
+    {
+      "slug": "wenzhongzi-zhongshuo",
+      "name_zh": "中說（文中子）",
+      "religion": "儒教"
     },
     {
       "slug": "wenzi",
@@ -58261,6 +58221,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "laozi-heshanggong",
+      "name_zh": "老子河上公章句",
+      "religion": "道教"
     },
     {
       "slug": "laozi-xianger-zhu",
@@ -61122,6 +61087,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "laozi-heshanggong",
+      "name_zh": "老子河上公章句",
+      "religion": "道教"
+    },
+    {
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
@@ -61135,6 +61105,11 @@
       "slug": "lingbao-bifa",
       "name_zh": "靈寶畢法",
       "religion": "道教"
+    },
+    {
+      "slug": "lujia-xinyu",
+      "name_zh": "新語",
+      "religion": "儒教"
     },
     {
       "slug": "mahaparinirvana-sutra-northern",
@@ -61587,6 +61562,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "wenzhongzi-zhongshuo",
+      "name_zh": "中說（文中子）",
+      "religion": "儒教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -61635,6 +61615,11 @@
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
+    },
+    {
+      "slug": "zhengmeng",
+      "name_zh": "正蒙",
+      "religion": "儒教"
     },
     {
       "slug": "zhoudunyi-tongshu",
@@ -62799,6 +62784,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "laozi-heshanggong",
+      "name_zh": "老子河上公章句",
+      "religion": "道教"
+    },
+    {
       "slug": "liezi",
       "name_zh": "列子",
       "religion": "道教"
@@ -63054,6 +63044,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "wenzhongzi-zhongshuo",
+      "name_zh": "中說（文中子）",
+      "religion": "儒教"
+    },
+    {
       "slug": "wenzi",
       "name_zh": "文子",
       "religion": "道教"
@@ -63072,6 +63067,11 @@
       "slug": "yogacarabhumi",
       "name_zh": "瑜伽師地論",
       "religion": "佛教"
+    },
+    {
+      "slug": "zhengmeng",
+      "name_zh": "正蒙",
+      "religion": "儒教"
     },
     {
       "slug": "zhoudunyi-tongshu",
