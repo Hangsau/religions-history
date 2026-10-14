@@ -1,0 +1,85 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T03n0171",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "liberation-by-works",
+    "marriage-sacred",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "mystical-union",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "loss-grief",
+    "love-sex-intimacy",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "reincarnation",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-works",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "work-money"
+   ]
+  }
+ ]
+}

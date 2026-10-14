@@ -55,7 +55,6 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "faith-doubt",
     "meaning-of-suffering",
     "who-am-i",
     "wisdom-learning-curiosity"
@@ -65,9 +64,5 @@
     "source_file": "raw/original.txt",
     "source_sha256": "0ac17b023a82b517191d963a5e4afec80dda0915d8bd4b59bd736c9bed43b75a"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
