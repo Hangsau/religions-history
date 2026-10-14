@@ -54,20 +54,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
-    "existence-why-born",
-    "living-with-unknown",
-    "loss-grief",
-    "meaning-of-suffering"
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "97df1e1432957304da208a803ff1f6dfbd30ef0d35f832eb341b8d8d0b0c33af"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

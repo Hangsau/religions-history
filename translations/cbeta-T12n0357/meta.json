@@ -62,19 +62,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "fear-uncertainty",
-    "giving-generosity",
+    "faith-doubt",
     "insignificance-history",
-    "meaning-of-suffering"
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "895ce12b68df103bcd5aab2b0b85be39943a26261b597da6970d9acc60be391d"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
