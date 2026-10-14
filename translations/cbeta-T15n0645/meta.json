@@ -61,17 +61,13 @@
     "calling-vocation",
     "change-transformation",
     "faith-doubt",
-    "fear-uncertainty",
-    "giving-generosity"
+    "giving-generosity",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "0ad3fd069fab95faaf45ef36cbb6c78d0c2e1c62710fbfeaa0cc6873587270c7"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

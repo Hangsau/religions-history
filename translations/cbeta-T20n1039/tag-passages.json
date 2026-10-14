@@ -1,0 +1,73 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T20n1039",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  }
+ ]
+}

@@ -56,20 +56,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
     "emotions-passions",
-    "fear-uncertainty"
+    "faith-doubt",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "5e23cdc6ec702e2f953e6844b2fe36967e0ecb709576433e29e45ab165d490ac"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

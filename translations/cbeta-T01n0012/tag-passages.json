@@ -1,0 +1,84 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T01n0012",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lay-practitioner",
+    "meditation",
+    "monastic",
+    "multiple-canons",
+    "ritual-practice",
+    "syncretic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  }
+ ]
+}
