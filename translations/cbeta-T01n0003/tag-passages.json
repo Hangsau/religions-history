@@ -1,0 +1,84 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T01n0003",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "asceticism",
+    "cyclic-cosmos",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "four-noble-truths",
+    "liberation-by-works",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "monastic",
+    "multiple-canons",
+    "mystical-union",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  }
+ ]
+}

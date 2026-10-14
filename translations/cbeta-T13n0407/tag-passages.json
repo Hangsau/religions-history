@@ -1,0 +1,67 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T13n0407",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "compassion",
+    "emanation",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "emanation",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  }
+ ]
+}
