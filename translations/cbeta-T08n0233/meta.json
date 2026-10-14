@@ -55,20 +55,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
-    "calling-vocation",
     "faith-doubt",
     "fear-uncertainty",
-    "insignificance-history"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "888489fd52885d71a2d000bebdd04e3501ae5b8b4dcc4356c191011939a624d4"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
