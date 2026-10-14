@@ -2268,11 +2268,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "hanshi-waizhuan",
-      "name_zh": "韓詩外傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
@@ -2291,11 +2286,6 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
-    },
-    {
-      "slug": "kongzi-jiayu",
-      "name_zh": "孔子家語",
-      "religion": "儒教"
     },
     {
       "slug": "lingbao-bifa",
@@ -2326,11 +2316,6 @@
       "slug": "shenxian-zhuan",
       "name_zh": "神仙傳",
       "religion": "道教"
-    },
-    {
-      "slug": "shuoyuan",
-      "name_zh": "說苑",
-      "religion": "儒教"
     },
     {
       "slug": "vulgate-ecclesiastes",
@@ -6389,11 +6374,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "chuanxi-lu",
-      "name_zh": "傳習錄",
-      "religion": "儒教"
-    },
-    {
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
@@ -6424,11 +6404,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "hanshi-waizhuan",
-      "name_zh": "韓詩外傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
@@ -6437,11 +6412,6 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
-    },
-    {
-      "slug": "kongzi-jiayu",
-      "name_zh": "孔子家語",
-      "religion": "儒教"
     },
     {
       "slug": "leviticus",
@@ -6477,11 +6447,6 @@
       "slug": "sblgnt-1-corinthians",
       "name_zh": "哥林多前書（希臘原文）",
       "religion": "基督教"
-    },
-    {
-      "slug": "shuoyuan",
-      "name_zh": "說苑",
-      "religion": "儒教"
     },
     {
       "slug": "vasistha-dharmasutra",
@@ -18103,11 +18068,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "hanshi-waizhuan",
-      "name_zh": "韓詩外傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
@@ -18136,11 +18096,6 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
-    },
-    {
-      "slug": "kongzi-jiayu",
-      "name_zh": "孔子家語",
-      "religion": "儒教"
     },
     {
       "slug": "lingbao-bifa",
@@ -18226,11 +18181,6 @@
       "slug": "shenxian-zhuan",
       "name_zh": "神仙傳",
       "religion": "道教"
-    },
-    {
-      "slug": "shuoyuan",
-      "name_zh": "說苑",
-      "religion": "儒教"
     },
     {
       "slug": "sn2-devaputta",
@@ -18672,11 +18622,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "hanshi-waizhuan",
-      "name_zh": "韓詩外傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "sblgnt-2-john",
       "name_zh": "約翰二書（希臘原文）",
       "religion": "基督教"
@@ -18685,11 +18630,6 @@
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
-    },
-    {
-      "slug": "shuoyuan",
-      "name_zh": "說苑",
-      "religion": "儒教"
     },
     {
       "slug": "vulgate-song-of-songs",
@@ -20539,11 +20479,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "chuanxi-lu",
-      "name_zh": "傳習錄",
-      "religion": "儒教"
-    },
-    {
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
@@ -20577,6 +20512,11 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
     },
     {
       "slug": "harivamsha",
@@ -20634,11 +20574,6 @@
       "religion": "神道"
     },
     {
-      "slug": "kongzi-jiayu",
-      "name_zh": "孔子家語",
-      "religion": "儒教"
-    },
-    {
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
@@ -20689,14 +20624,14 @@
       "religion": "基督教"
     },
     {
-      "slug": "sendai-kuji-hongi-zh",
-      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
-      "religion": "神道"
-    },
-    {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sn10-yakkha",
@@ -25994,11 +25929,6 @@
       "slug": "chinigchinich",
       "name_zh": "欽尼赤尼赤 (路易塞紐宗教)",
       "religion": "美洲"
-    },
-    {
-      "slug": "chuanxi-lu",
-      "name_zh": "傳習錄",
-      "religion": "儒教"
     },
     {
       "slug": "chun-qiu-zuo-zhuan",
@@ -39430,11 +39360,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "sendai-kuji-hongi-zh",
-      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
-      "religion": "神道"
-    },
-    {
       "slug": "sophocles-antigone-el",
       "name_zh": "安提戈涅（希臘原文）",
       "religion": "古希臘羅馬"
@@ -50146,6 +50071,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "snorra-edda-is",
       "name_zh": "散文埃達（古諾斯語原文）",
       "religion": "北歐"
@@ -54412,6 +54342,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
@@ -54565,6 +54500,11 @@
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
       "religion": "佛教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "ksitigarbha-sutra",
@@ -54925,6 +54865,11 @@
       "slug": "shiva-purana",
       "name_zh": "濕婆往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "shurangama-sutra",
@@ -56411,6 +56356,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "heimskringla-on",
       "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
       "religion": "北歐"
@@ -56439,6 +56389,11 @@
       "slug": "joshua",
       "name_zh": "約書亞記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "liji",
@@ -56546,8 +56501,18 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sendai-kuji-hongi-zh",
+      "name_zh": "先代舊事本紀（漢文原文，全十卷）",
+      "religion": "神道"
+    },
+    {
       "slug": "shang-shu",
       "name_zh": "尚書",
+      "religion": "儒教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
       "religion": "儒教"
     },
     {
@@ -58056,6 +58021,11 @@
       "slug": "cbeta-X14n0293",
       "name_zh": "楞嚴經懸談",
       "religion": "佛教"
+    },
+    {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
     },
     {
       "slug": "corpus-hermeticum-el",
@@ -60857,6 +60827,11 @@
       "religion": "瑪雅"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -61040,6 +61015,11 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "kurma-purana",
@@ -62669,6 +62649,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chuanxi-lu",
+      "name_zh": "傳習錄",
+      "religion": "儒教"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -62719,6 +62704,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "hanshi-waizhuan",
+      "name_zh": "韓詩外傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "heart-sutra-xuanzang",
       "name_zh": "般若波羅蜜多心經",
       "religion": "佛教"
@@ -62762,6 +62752,11 @@
       "slug": "kn-milindapanha",
       "name_zh": "小部·彌蘭王問經",
       "religion": "佛教"
+    },
+    {
+      "slug": "kongzi-jiayu",
+      "name_zh": "孔子家語",
+      "religion": "儒教"
     },
     {
       "slug": "laozi-heshanggong",
@@ -62917,6 +62912,11 @@
       "slug": "shivasankalpa-upanishad",
       "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "shuoyuan",
+      "name_zh": "說苑",
+      "religion": "儒教"
     },
     {
       "slug": "sn2-devaputta",
