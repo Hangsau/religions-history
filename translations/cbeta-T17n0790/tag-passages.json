@@ -1,0 +1,84 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T17n0790",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "ingroup-outgroup-prejudice",
+    "loneliness-belonging",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "extinction-of-self",
+    "monastic",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "loss-grief",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "reincarnation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  }
+ ]
+}

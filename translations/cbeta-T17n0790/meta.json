@@ -55,19 +55,15 @@
   "tag_status": "done",
   "psych_tags": [
     "change-transformation",
-    "death",
-    "faith-doubt",
+    "communication-being-understood",
     "guilt-atonement",
-    "insignificance-history"
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "08a4d7e785b3a13e31b7a77b2bd23a2f9fe7f4cb4af38082ed8b9f76c764cf17"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

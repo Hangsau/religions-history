@@ -59,18 +59,14 @@
   "psych_tags": [
     "calling-vocation",
     "faith-doubt",
+    "giving-generosity",
     "gratitude-contentment",
-    "insignificance-history",
-    "meaning-of-suffering"
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "f1bf3e67395dea022da7008397de561d0911b8945351acda569322dbf1666e0f"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

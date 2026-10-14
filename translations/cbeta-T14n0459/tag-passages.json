@@ -1,0 +1,82 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T14n0459",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-devotion",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "giving-generosity",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "illness-body",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}
