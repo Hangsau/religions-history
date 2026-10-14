@@ -1626,19 +1626,9 @@
       "religion": "印度教"
     },
     {
-      "slug": "shenxian-zhuan",
-      "name_zh": "神仙傳",
-      "religion": "道教"
-    },
-    {
       "slug": "sn4-mara",
       "name_zh": "SN4 魔羅相應",
       "religion": "佛教"
-    },
-    {
-      "slug": "tianxian-zhengli",
-      "name_zh": "天仙正理直論",
-      "religion": "道教"
     },
     {
       "slug": "yoga-sutra",
@@ -4662,11 +4652,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "shenxian-zhuan",
-      "name_zh": "神仙傳",
-      "religion": "道教"
-    },
-    {
       "slug": "sn35-salayatana",
       "name_zh": "SN35 六入相應 (248 經)",
       "religion": "佛教"
@@ -6482,11 +6467,6 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
-    },
-    {
-      "slug": "jiayi-xinshu",
-      "name_zh": "新書",
-      "religion": "儒教"
     },
     {
       "slug": "jin-si-lu",
@@ -13751,6 +13731,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    },
+    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -13784,11 +13769,6 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
-    },
-    {
-      "slug": "guliang-zhuan",
-      "name_zh": "春秋穀梁傳",
-      "religion": "儒教"
     },
     {
       "slug": "guo-yu",
@@ -14474,11 +14454,6 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
-    },
-    {
-      "slug": "tianxian-zhengli",
-      "name_zh": "天仙正理直論",
-      "religion": "道教"
     },
     {
       "slug": "valmiki-ramayana",
@@ -18178,11 +18153,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "guliang-zhuan",
-      "name_zh": "春秋穀梁傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "guo-yu",
       "name_zh": "國語",
       "religion": "儒教"
@@ -18201,11 +18171,6 @@
       "slug": "huashu",
       "name_zh": "化書",
       "religion": "道教"
-    },
-    {
-      "slug": "jiayi-xinshu",
-      "name_zh": "新書",
-      "religion": "儒教"
     },
     {
       "slug": "jin-si-lu",
@@ -18365,11 +18330,6 @@
     {
       "slug": "tao-te-ching",
       "name_zh": "道德經",
-      "religion": "道教"
-    },
-    {
-      "slug": "tianxian-zhengli",
-      "name_zh": "天仙正理直論",
       "religion": "道教"
     },
     {
@@ -18764,11 +18724,6 @@
     {
       "slug": "da-dai-liji",
       "name_zh": "大戴禮記",
-      "religion": "儒教"
-    },
-    {
-      "slug": "er-ya",
-      "name_zh": "爾雅注",
       "religion": "儒教"
     },
     {
@@ -20674,11 +20629,6 @@
       "religion": "兩河"
     },
     {
-      "slug": "er-ya",
-      "name_zh": "爾雅注",
-      "religion": "儒教"
-    },
-    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -20702,11 +20652,6 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
-    },
-    {
-      "slug": "guliang-zhuan",
-      "name_zh": "春秋穀梁傳",
-      "religion": "儒教"
     },
     {
       "slug": "harivamsha",
@@ -20747,11 +20692,6 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
-    },
-    {
-      "slug": "jiayi-xinshu",
-      "name_zh": "新書",
-      "religion": "儒教"
     },
     {
       "slug": "joshua",
@@ -20872,11 +20812,6 @@
       "slug": "tain-bo-cuailnge-ga",
       "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
       "religion": "凱爾特"
-    },
-    {
-      "slug": "tianxian-zhengli",
-      "name_zh": "天仙正理直論",
-      "religion": "道教"
     },
     {
       "slug": "valmiki-ramayana",
@@ -26241,11 +26176,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "er-ya",
-      "name_zh": "爾雅注",
-      "religion": "儒教"
-    },
-    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -26424,11 +26354,6 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
-    },
-    {
-      "slug": "jiayi-xinshu",
-      "name_zh": "新書",
-      "religion": "儒教"
     },
     {
       "slug": "job",
@@ -26846,6 +26771,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "shenxian-zhuan",
+      "name_zh": "神仙傳",
+      "religion": "道教"
+    },
+    {
       "slug": "shivasankalpa-upanishad",
       "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
@@ -27014,6 +26944,11 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     },
     {
       "slug": "valmiki-ramayana",
@@ -27915,11 +27850,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "er-ya",
-      "name_zh": "爾雅注",
-      "religion": "儒教"
-    },
-    {
       "slug": "euripides-medea-el",
       "name_zh": "美狄亞（希臘原文）",
       "religion": "古希臘羅馬"
@@ -28430,11 +28360,6 @@
       "slug": "cbeta-T54n2141B",
       "name_zh": "波斯教殘經",
       "religion": "佛教"
-    },
-    {
-      "slug": "guliang-zhuan",
-      "name_zh": "春秋穀梁傳",
-      "religion": "儒教"
     },
     {
       "slug": "ife-mythology",
@@ -41751,11 +41676,6 @@
       "religion": "古希臘羅馬"
     },
     {
-      "slug": "er-ya",
-      "name_zh": "爾雅注",
-      "religion": "儒教"
-    },
-    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -43726,6 +43646,11 @@
       "slug": "gisla-saga-on",
       "name_zh": "吉斯利薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
     },
     {
       "slug": "hosea",
@@ -46602,6 +46527,11 @@
       "slug": "science-and-health-1906",
       "name_zh": "科學與健康暨解經之鑰（1906）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "shenxian-zhuan",
+      "name_zh": "神仙傳",
+      "religion": "道教"
     }
   ],
   "ingroup-outgroup-prejudice": [
@@ -48740,6 +48670,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "habakkuk",
       "name_zh": "哈巴谷書",
       "religion": "猶太教"
@@ -48768,6 +48703,11 @@
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     },
     {
       "slug": "job",
@@ -54497,6 +54437,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -54605,6 +54550,11 @@
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     },
     {
       "slug": "job",
@@ -55589,6 +55539,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    },
+    {
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
@@ -56481,6 +56436,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "guliang-zhuan",
+      "name_zh": "春秋穀梁傳",
+      "religion": "儒教"
+    },
+    {
       "slug": "haggai",
       "name_zh": "哈該書",
       "religion": "猶太教"
@@ -56499,6 +56459,11 @@
       "slug": "huainanzi",
       "name_zh": "淮南子",
       "religion": "道教"
+    },
+    {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
     },
     {
       "slug": "joshua",
@@ -58386,6 +58351,11 @@
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     },
     {
       "slug": "tianyinzi",
@@ -61052,6 +61022,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jiayi-xinshu",
+      "name_zh": "新書",
+      "religion": "儒教"
+    },
+    {
       "slug": "jindan-sibaizi",
       "name_zh": "金丹四百字",
       "religion": "道教"
@@ -61485,6 +61460,11 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     },
     {
       "slug": "tianyinzi",
@@ -62724,6 +62704,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "er-ya",
+      "name_zh": "爾雅注",
+      "religion": "儒教"
+    },
+    {
       "slug": "fragments-of-faith-forgotten",
       "name_zh": "被遺忘信仰的碎片 (Mead)",
       "religion": "諾斯底"
@@ -63012,6 +62997,11 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "tianxian-zhengli",
+      "name_zh": "天仙正理直論",
+      "religion": "道教"
     },
     {
       "slug": "vaisheshika-sutra",

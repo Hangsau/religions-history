@@ -1,0 +1,418 @@
+{
+ "schema_version": 1,
+ "slug": "jiayi-xinshu",
+ "chunks_total": 22,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 佚文",
+   "last_heading": "1 | 佚文",
+   "semantic_tags": [
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | 卷一",
+   "last_heading": "2 | 卷一",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "3 | 卷七",
+   "last_heading": "3 | 卷七",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "compassion",
+    "essentially-good",
+    "humility",
+    "mandate-of-heaven",
+    "prophetic-revelation",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "golden-rule",
+    "humility",
+    "mandate-of-heaven"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "4 | 卷三",
+   "last_heading": "4 | 卷三",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "economic-justice",
+    "humility",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "prophetic-critique",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "insignificance-history",
+    "justice-power",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "5 | 卷九",
+   "last_heading": "5 | 卷九",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "secular-state",
+    "theocracy",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "divine-kingship",
+    "essentially-good",
+    "humility",
+    "mandate-of-heaven",
+    "theocracy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "gratitude-contentment",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "6 | 卷二",
+   "last_heading": "6 | 卷二",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "justice-power",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "humility",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "7 | 卷五",
+   "last_heading": "7 | 卷五",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "meaning-of-suffering",
+    "parenthood",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "essentially-flawed",
+    "essentially-good",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "freewill-fate-choice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "8 | 卷八",
+   "last_heading": "8 | 卷八",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "ritual-practice",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "priesthood",
+    "ritual-practice",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "tabula-rasa"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "9 | 卷六",
+   "last_heading": "9 | 卷六",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-kingship",
+    "human-as-microcosm",
+    "mandate-of-heaven",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "mandate-of-heaven",
+    "theodicy",
+    "theophany"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "10 | 卷十",
+   "last_heading": "10 | 卷十",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "lineage-importance",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "11 | 卷四",
+   "last_heading": "11 | 卷四",
+   "semantic_tags": [
+    "against-idolatry"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "economic-justice",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  }
+ ]
+}

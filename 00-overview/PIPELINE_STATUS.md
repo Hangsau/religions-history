@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-14 07:57:31 +0800
+- 更新時間：2026-10-14 08:03:28 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**453 / 3186** 已完成雙標籤
+- 進度：**458 / 3186** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`wenzhongzi-zhongshuo`
+- 目前處理：`guliang-zhuan`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
 - 已阻塞待人工處理：3 部 — book-of-changes, madhyamagama, mahabharata
-- M3 執行狀態：**running** — `wenzhongzi-zhongshuo` (tag)
+- M3 執行狀態：**running** — `guliang-zhuan` (tag)
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。

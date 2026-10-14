@@ -75,20 +75,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "3aa2ecadba286293426d0a9486e2df4ccf318c299ee93facc93eef8c5326b6e6"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
