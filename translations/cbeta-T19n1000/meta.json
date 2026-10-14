@@ -58,18 +58,14 @@
   "psych_tags": [
     "calling-vocation",
     "death",
-    "fear-uncertainty",
     "gratitude-contentment",
-    "guilt-atonement"
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "faac941eac817911ed85c8bb2123823a6c8a91b02b25a9235e854829ec55b26b"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
