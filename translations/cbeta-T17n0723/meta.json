@@ -56,19 +56,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
+    "change-transformation",
     "death",
-    "existence-why-born",
-    "gratitude-contentment",
-    "guilt-atonement"
+    "guilt-atonement",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "b0c4702497189a6b56b86d988684c52b02d8e25e95fd2239562af280419df20b"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

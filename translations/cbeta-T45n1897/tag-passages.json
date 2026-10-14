@@ -1,0 +1,65 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T45n1897",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "monotheist-exclusive",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "humility",
+    "lineage-importance",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "giving-generosity",
+    "gratitude-contentment",
+    "responsibility-leadership",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "monastic",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "responsibility-leadership",
+    "stillness-rest"
+   ]
+  }
+ ]
+}
