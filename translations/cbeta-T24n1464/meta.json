@@ -79,20 +79,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
     "boundaries-self-worth",
-    "calling-vocation",
-    "communication-being-understood"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "851b4396d70efd0a8bd74b99a4713eb2685c06ce386e87249a3348bf77f25e86"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
