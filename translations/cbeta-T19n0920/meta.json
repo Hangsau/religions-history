@@ -63,19 +63,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "existence-why-born",
     "faith-doubt",
     "fear-uncertainty",
-    "gratitude-contentment"
+    "illness-body",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "aed32acc41ec0541adb9fe0ff0d6f2e3c91a09b4413c8f6775a98fe4865483d7"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
