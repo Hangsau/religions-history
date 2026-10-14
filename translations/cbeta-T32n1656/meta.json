@@ -66,20 +66,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
     "death",
-    "emotions-passions"
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "04a61889d6b0ec9e29e9ea46f9b33173d6c75739f3edfdd58f9d9800d5bca4ae"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
