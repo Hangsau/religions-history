@@ -1,0 +1,70 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T18n0899",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-works",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

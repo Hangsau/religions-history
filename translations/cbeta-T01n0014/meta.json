@@ -52,19 +52,15 @@
   "tag_status": "done",
   "psych_tags": [
     "body-mind",
-    "existence-why-born",
+    "death",
     "insignificance-history",
     "meaning-of-suffering",
-    "stillness-rest"
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "36c235e5f07108e71f30c94ab807ec72045078207fdd8f3ddd4c0c782fbe563d"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

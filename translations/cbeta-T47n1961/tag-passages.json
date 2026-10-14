@@ -1,0 +1,71 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T47n1961",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "grace-from-god",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "salvation-by-faith",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "bardo",
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "meditation",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live"
+   ]
+  }
+ ]
+}

@@ -54,20 +54,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
-    "death",
-    "existence-why-born",
-    "faith-doubt",
-    "fear-uncertainty"
+    "change-transformation",
+    "courage",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "0c8d5316138e8bb6c8ddc51069e010a12c7434526925ef020da841a4d0210215"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
