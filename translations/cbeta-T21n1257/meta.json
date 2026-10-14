@@ -62,20 +62,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "courage",
     "fear-uncertainty",
-    "freewill-fate-choice"
+    "living-with-unknown",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "179bbbb3050e5c19c336b2df25ce2f0cc36c3693e0b36871e8d443129d399439"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
