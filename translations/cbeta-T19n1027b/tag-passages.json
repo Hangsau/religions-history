@@ -1,0 +1,73 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T19n1027b",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "commandments-law",
+    "monotheist-exclusive",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  }
+ ]
+}

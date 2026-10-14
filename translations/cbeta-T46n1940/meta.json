@@ -60,18 +60,14 @@
   "psych_tags": [
     "body-mind",
     "calling-vocation",
-    "change-transformation",
     "fear-uncertainty",
-    "guilt-atonement"
+    "guilt-atonement",
+    "illness-body"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "02985511bdadcb19c74e3537b50851ed3639d92abe74fb07138d38ea00aba3bd"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
