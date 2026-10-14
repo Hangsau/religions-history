@@ -64,20 +64,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
     "calling-vocation",
     "change-transformation",
-    "courage",
-    "emotions-passions"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "5f8a17c04ced37e712ebd48bd338638ed48a957b9a41cf4f438601fca3f32937"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
