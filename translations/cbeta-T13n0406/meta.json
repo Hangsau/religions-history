@@ -62,16 +62,12 @@
     "fear-uncertainty",
     "guilt-atonement",
     "hope-reason-to-live",
-    "illness-body"
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "494b499d5506a157ad1db04d77376a81574eddea9222c4a9b2681e5842d328aa"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

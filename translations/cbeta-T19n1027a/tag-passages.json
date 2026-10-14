@@ -1,0 +1,73 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T19n1027a",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "meditation",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "chanting",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "non-violence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  }
+ ]
+}
