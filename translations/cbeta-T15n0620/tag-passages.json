@@ -1,0 +1,123 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T15n0620",
+ "chunks_total": 6,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "breath-control",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "emotions-passions",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "freewill-fate-choice",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "awe-fear",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+   ]
+  }
+ ]
+}
