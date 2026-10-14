@@ -59,20 +59,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
-    "change-transformation",
-    "faith-doubt",
+    "existence-why-born",
     "fear-uncertainty",
-    "freewill-fate-choice"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "bd5dec9a1cda7a27c483dfc3b47039236cca7cf1acfb954668062d2f0fdec011"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
