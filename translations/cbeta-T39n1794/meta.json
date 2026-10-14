@@ -60,19 +60,15 @@
   "tag_status": "done",
   "psych_tags": [
     "addiction-self-destruction",
-    "body-mind",
-    "change-transformation",
     "courage",
-    "death"
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "4c67e7572893623e43ea790c60134bd7fdffb6461e18cbbfb21a8f7dfe6c8751"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
