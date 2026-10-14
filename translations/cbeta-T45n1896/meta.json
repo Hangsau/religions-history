@@ -64,20 +64,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
     "change-transformation",
-    "death",
-    "faith-doubt"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "71f76dd0c57071e28eed3f6de56a07b517b94dd8b15ab15be2f4895b95aca299"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
