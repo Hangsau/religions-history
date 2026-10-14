@@ -1,0 +1,101 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T45n1898",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "monastic",
+    "monotheist-exclusive",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "lineage-importance",
+    "multiple-canons",
+    "pilgrimage",
+    "ritual-practice",
+    "syncretic",
+    "temple-centered",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "monastic",
+    "pilgrimage",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "lineage-importance",
+    "monastic",
+    "non-violence",
+    "priesthood",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "divine-kingship",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "justice-power",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  }
+ ]
+}
