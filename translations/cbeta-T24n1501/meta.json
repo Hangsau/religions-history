@@ -54,20 +54,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
+    "boundaries-self-worth",
     "calling-vocation",
     "change-transformation",
-    "courage",
     "giving-generosity",
-    "gratitude-contentment"
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "15b96531a6e0fa72b579da1e796b32b17bc61ad6bd99d473be6299dee96ba98b"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
