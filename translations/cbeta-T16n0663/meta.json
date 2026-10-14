@@ -78,20 +78,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
     "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "ad90909bd12a1903d869991dbbd37f22df26ea1c5e9e2d06b0e33a44bdf4f557"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
