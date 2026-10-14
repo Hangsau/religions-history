@@ -53,20 +53,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "existence-why-born",
     "faith-doubt",
     "fear-uncertainty",
+    "insignificance-history",
     "meaning-of-suffering",
-    "who-am-i"
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "2586445bac4c8b92d879f05bb9f54435b62951029ccbdab3daa94eb6eed6c059"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
