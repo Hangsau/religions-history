@@ -65,20 +65,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
     "change-transformation",
-    "courage",
-    "death"
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "c6886ed6ee486206e3efdf80e4efa72ebe51dc4b5df0d9a7275bb97ad5af13c7"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
