@@ -1,0 +1,939 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T46n1916",
+ "chunks_total": 50,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001a",
+   "last_heading": "1 | 卷001a",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷001b",
+   "last_heading": "2 | 卷001b",
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "patience-waiting",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "meditation"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "3 | 卷002",
+   "last_heading": "3 | 卷002",
+   "semantic_tags": [
+    "commandments-law",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "emotions-passions",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "4 | 卷003a",
+   "last_heading": "4 | 卷003a",
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "self-effort",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 16,
+   "first_heading": "5 | 卷003b",
+   "last_heading": "5 | 卷003b",
+   "semantic_tags": [
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "6 | 卷004",
+   "last_heading": "6 | 卷004",
+   "semantic_tags": [
+    "breath-control",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "emotions-passions",
+    "fear-uncertainty",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "four-noble-truths",
+    "meditation",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "emotions-passions",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "courage",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "7 | 卷005",
+   "last_heading": "7 | 卷005",
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "other-power",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "patience-waiting",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "perfectionism-self-criticism",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "meditation",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "8 | 卷006",
+   "last_heading": "8 | 卷006",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "giving-generosity",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "other-power"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "other-power"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "meditation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "mystical-union",
+    "non-dual"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "9 | 卷007",
+   "last_heading": "9 | 卷007",
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "10 | 卷008",
+   "last_heading": "10 | 卷008",
+   "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "commentarial-layer",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "death",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "human-as-microcosm",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "11 | 卷009",
+   "last_heading": "11 | 卷009",
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "emotions-passions",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "12 | 卷010",
+   "last_heading": "12 | 卷010",
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "emptiness",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "fear-uncertainty",
+    "insignificance-history",
+    "perfectionism-self-criticism",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest"
+   ]
+  }
+ ]
+}

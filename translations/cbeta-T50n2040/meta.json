@@ -94,20 +94,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
     "calling-vocation",
-    "change-transformation",
-    "courage"
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "5d426592879421bcd79f2eb943b80bafb44afc5666d9b3881a4e5a26add7ff8a"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
