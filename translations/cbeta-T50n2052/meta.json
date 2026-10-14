@@ -62,19 +62,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "courage",
     "death",
     "fear-uncertainty",
-    "gratitude-contentment"
+    "gratitude-contentment",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "af5347efd35fe6f4182cc796d75f701fe86c848f3b8e58f9db9a709f346977f0"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

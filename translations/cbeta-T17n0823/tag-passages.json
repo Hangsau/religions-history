@@ -1,0 +1,88 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T17n0823",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "awe-fear",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "congregational",
+    "enlightenment",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}
