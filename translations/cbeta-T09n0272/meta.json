@@ -91,20 +91,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "6d16f358e08229ed1df44e5d79eab398aebf8d1e454274e0cf00f34e57373c4c"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
