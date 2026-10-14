@@ -2,15 +2,15 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-14 08:51:26 +0800
+- 更新時間：2026-10-14 08:54:29 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**473 / 3186** 已完成雙標籤
+- 進度：**478 / 3186** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`mingru-xuean`
+- 目前處理：`cbeta-T14n0484`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
 - 已阻塞待人工處理：3 部 — book-of-changes, madhyamagama, mahabharata
-- M3 執行狀態：**running** — `mingru-xuean` (tag)
+- M3 執行狀態：**running** — `cbeta-T14n0484` (tag)
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。

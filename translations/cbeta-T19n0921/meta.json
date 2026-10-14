@@ -51,19 +51,13 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "gratitude-contentment",
     "guilt-atonement",
-    "insignificance-history",
-    "meaning-of-suffering"
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "cf04e0428ee3a422b37796479de071eb85113bcf6e30f61c3998da385d9a2237"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
