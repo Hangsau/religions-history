@@ -74,18 +74,14 @@
   "psych_tags": [
     "calling-vocation",
     "change-transformation",
-    "courage",
-    "death",
-    "evil-cruelty-empathy"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "90ee2879374adda994761cfda3292d9d7ad0ff7b565bd50312d2847a0330e467"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
