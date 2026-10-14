@@ -76,20 +76,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation",
-    "courage"
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "340812502f3a44d34016702ac65e69453dac25daaa9d3d103b41f3dce44cccd3"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
