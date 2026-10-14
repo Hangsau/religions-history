@@ -62,20 +62,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "calling-vocation",
     "death",
     "faith-doubt",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "4c6fb89d7436370f8866da8e2e3b490fa897aa15e15de2b4c143602ed54506e6"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
