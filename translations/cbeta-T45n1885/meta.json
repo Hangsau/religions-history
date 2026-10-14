@@ -57,20 +57,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "death",
-    "fear-uncertainty",
-    "insignificance-history",
-    "living-with-unknown",
-    "meaning-of-suffering"
+    "calling-vocation",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "902f7ab4591311667982a75a939b9843a4b1cccc87479304e5f9dd9a843ca972"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

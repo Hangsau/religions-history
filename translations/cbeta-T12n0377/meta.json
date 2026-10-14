@@ -64,20 +64,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "death",
     "faith-doubt",
-    "fear-uncertainty",
-    "giving-generosity"
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "5bfdb8170e4fd65f0886da41eb1b6bb1282a13124cf42bbb7a8b24bbcebfa515"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
