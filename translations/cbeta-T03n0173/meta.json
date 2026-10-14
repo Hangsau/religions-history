@@ -59,20 +59,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
-    "courage",
-    "death",
-    "giving-generosity"
+    "giving-generosity",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "223220405e6038d7c22e28a844a5da336d6fcc855331b05acb7cd5b681503306"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
