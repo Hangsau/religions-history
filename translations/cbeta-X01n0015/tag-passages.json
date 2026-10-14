@@ -1,0 +1,66 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-X01n0015",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷1",
+   "last_heading": "1 | 卷1",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "karma-rebirth",
+    "monastic",
+    "non-dual",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}
