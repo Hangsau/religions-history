@@ -72,18 +72,14 @@
   "psych_tags": [
     "calling-vocation",
     "change-transformation",
-    "death",
-    "existence-why-born",
-    "living-with-unknown"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "bb96a93994affc4302c91bac086eb76d40b19276618baf5dc1b5140ea03b018e"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
