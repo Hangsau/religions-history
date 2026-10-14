@@ -2,15 +2,17 @@
 
 > 由 `scripts/auto-pipeline.py` 自動產生，勿手改。
 
-- 更新時間：2026-10-15 05:17:32 +0800
+- 更新時間：2026-10-15 05:32:22 +0800
 - 佇列 tier：**標籤補齊**
-- 進度：**1409 / 3186** 已完成雙標籤
+- 進度：**1412 / 3186** 已完成雙標籤
 - 本輪任務：雙標籤
-- 目前處理：`cbeta-T54n2128`
+- 目前處理：`(等待供應商恢復)`
 - P0 尚未完整翻譯：0 部
 - 一般失敗待重試：0 部
 - 已阻塞待人工處理：7 部 — book-of-changes, madhyamagama, mahabharata, cbeta-T15n0603, cbeta-T17n0817, cbeta-T14n0481, cbeta-T15n0624
-- M3 執行狀態：**running** — `cbeta-T54n2128` (tag)
+- M3 執行狀態：**waiting_provider** — `cbeta-T31n1602` (tag chunk 67/67)
+- 限制偵測：2026-10-15T05:32:20.380569+08:00；下次重試：2026-10-15T05:37:20.380569+08:00
+- 最後錯誤：`timeout after 360s`
 
 
 流程：選定來源文本 → `semantic_tags`/`psych_tags`/`keywords` 回填 `meta.json`；翻譯完成度獨立計算。
