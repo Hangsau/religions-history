@@ -54,20 +54,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
-    "death",
     "fear-uncertainty",
-    "illness-body"
+    "gratitude-contentment",
+    "illness-body",
+    "insignificance-history"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "a802e762c9bc46c62c6d80f12f94a8d0fc29232cfae5c19580030c4ba23df74f"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

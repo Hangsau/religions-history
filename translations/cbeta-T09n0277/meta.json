@@ -57,19 +57,15 @@
   "tag_status": "done",
   "psych_tags": [
     "body-mind",
-    "calling-vocation",
+    "change-transformation",
     "faith-doubt",
-    "fear-uncertainty",
-    "guilt-atonement"
+    "guilt-atonement",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "268bf8f708581fff23fe7ca2bee8654961c37f51c06eb9d7a5b6744be02fb460"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

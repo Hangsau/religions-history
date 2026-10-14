@@ -1,0 +1,64 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T46n1941",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "guilt-atonement",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  }
+ ]
+}
