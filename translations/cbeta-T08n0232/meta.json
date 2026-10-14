@@ -54,17 +54,13 @@
     "faith-doubt",
     "fear-uncertainty",
     "meaning-of-suffering",
-    "stillness-rest",
-    "who-am-i"
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "808b141a10cff7d5d2b76c0506b4b4a622428632755ed64bb0f7bd1d2ea40794"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
