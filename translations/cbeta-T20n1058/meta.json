@@ -56,19 +56,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "death",
-    "faith-doubt",
     "fear-uncertainty",
-    "guilt-atonement"
+    "guilt-atonement",
+    "illness-body",
+    "memory-reconciliation"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "4b74d9cb2b88adfdb625d8c9129e3932bca4d5d9789fd735faabca4485c0c2d8"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
