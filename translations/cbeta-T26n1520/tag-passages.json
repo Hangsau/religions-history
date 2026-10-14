@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T26n1520",
+ "chunks_total": 5,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "mystical-union"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

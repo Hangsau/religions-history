@@ -60,20 +60,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "calling-vocation",
     "fear-uncertainty",
     "giving-generosity",
-    "gratitude-contentment"
+    "insignificance-history",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "15370c637130136ad47a2495bdca2a25c132d0ab6f8416d69e00cb37065c118e"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
