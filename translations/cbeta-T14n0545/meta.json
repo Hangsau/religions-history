@@ -65,19 +65,15 @@
   "tag_status": "done",
   "psych_tags": [
     "change-transformation",
-    "evil-cruelty-empathy",
     "faith-doubt",
     "fear-uncertainty",
-    "gratitude-contentment"
+    "gratitude-contentment",
+    "guilt-atonement"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "dd2f379678295996b34a49e79d030bef63563357205e779f421ca9c32a2fffd2"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
