@@ -1,0 +1,132 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T19n0925",
+ "chunks_total": 6,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "illness-body",
+    "living-with-unknown"
+   ]
+  }
+ ]
+}

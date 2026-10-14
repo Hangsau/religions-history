@@ -52,20 +52,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "death",
     "fear-uncertainty",
-    "gratitude-contentment",
-    "guilt-atonement"
+    "hope-reason-to-live",
+    "illness-body",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "d750f0c5ce676826d49bf0b9d7441085740dc3f7e71201cd359fcd1da7cc2c90"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

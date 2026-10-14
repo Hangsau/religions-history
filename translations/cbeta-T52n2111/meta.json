@@ -66,18 +66,14 @@
   "psych_tags": [
     "change-transformation",
     "death",
-    "evil-cruelty-empathy",
     "faith-doubt",
-    "freewill-fate-choice"
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "19b03c3ea28e7f8fcfba7fbbfdcd429ae6822a9fc3ff5cde5b5e608741a9a00a"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
