@@ -1,0 +1,90 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T38n1770",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}
