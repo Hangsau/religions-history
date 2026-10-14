@@ -64,18 +64,14 @@
   "psych_tags": [
     "calling-vocation",
     "death",
-    "fear-uncertainty",
     "gratitude-contentment",
-    "guilt-atonement"
+    "responsibility-leadership",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "a45e8e607ba54815ab6b3945546205b415997a328b13439bd44654975b53534c"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
