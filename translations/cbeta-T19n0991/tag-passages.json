@@ -1,0 +1,77 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T19n0991",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "lineage-importance",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "nature-animals-ecology",
+    "stillness-rest"
+   ]
+  }
+ ]
+}

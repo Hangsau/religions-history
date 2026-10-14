@@ -56,9 +56,9 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "faith-doubt",
-    "living-with-unknown",
+    "calling-vocation",
     "meaning-of-suffering",
+    "stillness-rest",
     "who-am-i",
     "wisdom-learning-curiosity"
   ],
@@ -67,9 +67,5 @@
     "source_file": "raw/original.txt",
     "source_sha256": "5f395405f4ca0a64074b8a90912993e1fb69482483e652cd4ef86ff6b46879eb"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
