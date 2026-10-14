@@ -71,20 +71,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
     "calling-vocation",
-    "change-transformation",
-    "death"
+    "death",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "e3882da56a580f4c5f9908d135399ba2ce9b564a1651cd441375c4a08062d316"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
