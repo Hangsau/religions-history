@@ -1,0 +1,102 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T18n0894a",
+ "chunks_total": 7,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "monastic",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "celibate-tradition",
+    "chanting",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": "3 | 卷003",
+   "last_heading": "3 | 卷003",
+   "semantic_tags": [
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "mandate-of-heaven",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  }
+ ]
+}

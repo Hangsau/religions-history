@@ -76,19 +76,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "death",
-    "existence-why-born",
     "faith-doubt",
-    "giving-generosity"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "5b5a56388757ee676cfce8909537136637ce40abb9f541069f535531adcf2db6"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
