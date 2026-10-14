@@ -59,20 +59,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
+    "existence-why-born",
     "fear-uncertainty",
     "guilt-atonement",
-    "meaning-of-suffering"
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "840508624ba00308096654d974cacf022db926136a33dacad8187faa8f8332c6"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
