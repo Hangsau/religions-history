@@ -58,20 +58,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
     "calling-vocation",
     "death",
-    "fear-uncertainty",
-    "insignificance-history"
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "8a938687332d62ff15eb6edeca54b1e9f36aae52622b7d0570563102cf4f6cae"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

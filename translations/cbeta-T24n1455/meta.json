@@ -60,19 +60,15 @@
   "tag_status": "done",
   "psych_tags": [
     "addiction-self-destruction",
-    "body-mind",
     "boundaries-self-worth",
-    "fear-uncertainty",
-    "giving-generosity"
+    "calling-vocation",
+    "responsibility-leadership",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "8cb5b6138534fc4358508afe22f36abc2d34806ddbe91b2f084160b7abd3a885"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

@@ -58,8 +58,8 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
+    "death",
     "fear-uncertainty",
-    "gratitude-contentment",
     "guilt-atonement",
     "illness-body"
   ],
@@ -68,9 +68,5 @@
     "source_file": "raw/original.txt",
     "source_sha256": "9f97aba7fd48c8574f9559f304aee916881138a99936ae23f8747c89e9620c27"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
