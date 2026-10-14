@@ -63,20 +63,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "change-transformation",
     "existence-why-born",
-    "faith-doubt",
-    "insignificance-history"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "5e2e3977217537ce4c56b9f17a7395ac51127dbfe75e2f3955e589d3c4a0d04d"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
