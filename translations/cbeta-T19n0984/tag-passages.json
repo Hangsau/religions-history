@@ -1,0 +1,131 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T19n0984",
+ "chunks_total": 7,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "chanting",
+    "monastic",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "lay-practitioner",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "ingroup-outgroup-prejudice"
+   ]
+  }
+ ]
+}

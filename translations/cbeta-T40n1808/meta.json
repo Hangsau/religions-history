@@ -55,10 +55,10 @@
   ],
   "tag_status": "done",
   "psych_tags": [
+    "aging-time",
     "boundaries-self-worth",
     "calling-vocation",
     "guilt-atonement",
-    "honesty-hypocrisy",
     "responsibility-leadership"
   ],
   "psych_tag_status": "done",
@@ -66,9 +66,5 @@
     "source_file": "raw/original.txt",
     "source_sha256": "c66a7e631b44e9a1e0c4822d8040148283b7759ad44ac091281665bd9f9bb562"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
