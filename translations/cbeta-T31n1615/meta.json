@@ -55,20 +55,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
-    "freewill-fate-choice",
+    "change-transformation",
+    "gratitude-contentment",
     "justice-power",
     "meaning-of-suffering",
-    "patience-waiting"
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "c0549f03dd58222cb96b1c16661ae3a9c6390e5701af48d3734387adb23d6a08"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
