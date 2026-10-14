@@ -70,20 +70,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "courage",
     "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "dedb3280995c4eccf95e61ae51ba318d304c9f52e1d6165b4970c6f28163d354"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
