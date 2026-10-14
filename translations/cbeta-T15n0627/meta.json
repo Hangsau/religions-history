@@ -65,19 +65,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
-    "evil-cruelty-empathy",
-    "existence-why-born"
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "02738541bffec8ffb08f0f45adea22c680bed8ca06e72d1f18fb2a7e6a46497f"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
