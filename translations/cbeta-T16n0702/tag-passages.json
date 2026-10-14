@@ -1,0 +1,85 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T16n0702",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "gratitude-contentment",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "illness-body",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-knowledge",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  }
+ ]
+}

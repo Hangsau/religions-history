@@ -1,0 +1,84 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T15n0607",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "karma-rebirth",
+    "meditation",
+    "reincarnation",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "reincarnation",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "existence-why-born",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "essentially-flawed",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

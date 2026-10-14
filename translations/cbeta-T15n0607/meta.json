@@ -62,19 +62,15 @@
   "tag_status": "done",
   "psych_tags": [
     "body-mind",
+    "change-transformation",
     "death",
-    "existence-why-born",
-    "fear-uncertainty",
-    "illness-body"
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "d6dca34f9d3371acc9046da50c959e8ce1c9596fba5827104d97a53e78be1270"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

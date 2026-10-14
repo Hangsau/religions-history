@@ -1,0 +1,86 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T01n0081",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commandments-law",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "reincarnation",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "meditation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "karma-rebirth",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "heaven-hell",
+    "karma-rebirth",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  }
+ ]
+}

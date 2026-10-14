@@ -57,20 +57,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "death",
     "faith-doubt",
-    "fear-uncertainty",
-    "giving-generosity"
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "73990531cd1df47ce83d9d128b24a945f97db9ecec0f3a3e93e06c7dde2a2fdb"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
