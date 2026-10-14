@@ -65,19 +65,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "existence-why-born",
-    "faith-doubt",
-    "fear-uncertainty"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "d6714fcdfcf147a0db312249cfab4161ea3bf09dd04376f47c9c06a2e2a6b592"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
