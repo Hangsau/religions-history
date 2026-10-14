@@ -88,20 +88,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "07545e807fb108ed221f17eefdaf1871397277b5d5eaf92ab46578025c6afe2f"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
