@@ -58,20 +58,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
+    "body-mind",
     "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation",
-    "emotions-passions",
-    "fear-uncertainty"
+    "honesty-hypocrisy",
+    "responsibility-leadership",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "55cb9ea48fad39e06160eb62baa40e2dee5f610a46e51e3002244671906c74cc"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
