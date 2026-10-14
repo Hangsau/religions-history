@@ -61,20 +61,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "cf5f6f4564cf16ca4dede6374c709516f5f9ffad36a5408d8525fc37c8e23a9c"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
