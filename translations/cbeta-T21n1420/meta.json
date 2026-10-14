@@ -58,19 +58,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "death",
     "fear-uncertainty",
-    "giving-generosity",
-    "hope-reason-to-live"
+    "illness-body",
+    "meaning-of-suffering",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "14f6aaacb208575c0b526642163a785efcf3da7dfc67412646cf272b04de3c72"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
