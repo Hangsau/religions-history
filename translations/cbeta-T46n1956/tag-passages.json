@@ -1,0 +1,85 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T46n1956",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "forgiveness",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "heaven-hell",
+    "liberation-by-devotion",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-works",
+    "monastic",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

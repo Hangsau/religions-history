@@ -58,19 +58,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "death",
     "gratitude-contentment",
-    "stillness-rest",
-    "trust-vulnerability"
+    "insignificance-history",
+    "loneliness-belonging",
+    "loss-grief"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "a4db30f9ef4ac14df2898243bebe06748240c55abd43f5899f0b68b6c4d5a02c"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
