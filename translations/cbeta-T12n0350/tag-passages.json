@@ -1,0 +1,68 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T12n0350",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "humility",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "calling-vocation",
+    "freewill-fate-choice",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "illness-body",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "emptiness",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-dual",
+    "self-effort",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "honesty-hypocrisy",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}
