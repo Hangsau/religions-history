@@ -62,20 +62,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
+    "addiction-self-destruction",
     "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation",
-    "existence-why-born",
-    "faith-doubt"
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "e5b7c7b287e6cbe2d512dcd380a3e27929ef9e8d8401614a2d9f51ee3fec8119"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

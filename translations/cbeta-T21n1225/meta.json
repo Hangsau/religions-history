@@ -53,19 +53,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "dreams-unconscious",
     "fear-uncertainty",
-    "freewill-fate-choice",
-    "guilt-atonement"
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "e54b782c6517116dba6964b68c65b1072109cdb8a201562808923e99e4bfa913"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

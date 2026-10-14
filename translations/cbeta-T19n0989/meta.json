@@ -51,20 +51,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "fear-uncertainty",
-    "giving-generosity",
     "gratitude-contentment",
-    "living-with-unknown"
+    "hope-reason-to-live",
+    "insignificance-history",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "3d408353978188fc537bafde5dd51537f57730cb5cce130d2a4f19752f00ae31"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
