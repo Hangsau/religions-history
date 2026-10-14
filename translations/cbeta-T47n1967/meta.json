@@ -62,20 +62,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
     "calling-vocation",
-    "change-transformation",
     "death",
-    "emotions-passions"
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "6bf1e3e1651c567a72a89a36bc838bbeaa32e82d655a3ac1b6669f6a9d2f161a"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

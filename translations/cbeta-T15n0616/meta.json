@@ -62,20 +62,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "emotions-passions",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "0b02c1a54d492c3bf600fe462d7fe299dd5d777120711261cdceb3e13c31bd57"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
