@@ -1,0 +1,555 @@
+{
+ "schema_version": 1,
+ "slug": "jin-si-lu",
+ "chunks_total": 30,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 前引",
+   "last_heading": "1 | 前引",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | 卷01",
+   "last_heading": "2 | 卷01",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "human-as-microcosm",
+    "mystical-union",
+    "non-dual",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "essentially-flawed",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "human-as-microcosm",
+    "non-dual",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "3 | 卷02",
+   "last_heading": "3 | 卷02",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-immanence",
+    "essentially-good",
+    "humility",
+    "sacred-language",
+    "self-effort",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "liberation-by-works",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "self-effort",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "perfectionism-self-criticism",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "self-effort",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "insignificance-history",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "4 | 卷03",
+   "last_heading": "4 | 卷03",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "lineage-importance",
+    "monastic",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "memory-reconciliation",
+    "perfectionism-self-criticism",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "5 | 卷04",
+   "last_heading": "5 | 卷04",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-immanence",
+    "humility",
+    "meditation",
+    "ritual-practice",
+    "self-effort",
+    "study",
+    "theophany"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "emotions-passions",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "humility",
+    "meditation",
+    "ritual-practice",
+    "self-effort",
+    "study"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "6 | 卷05",
+   "last_heading": "6 | 卷05",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "emotions-passions",
+    "perfectionism-self-criticism"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "humility"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "perfectionism-self-criticism"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "7 | 卷06",
+   "last_heading": "7 | 卷06",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "lineage-importance",
+    "marriage-sacred",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "marriage-family",
+    "parenthood",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "8 | 卷07",
+   "last_heading": "8 | 卷07",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "self-effort",
+    "study",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "humility",
+    "mandate-of-heaven",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "9 | 卷08",
+   "last_heading": "9 | 卷08",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "essentially-good",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "10 | 卷09",
+   "last_heading": "10 | 卷09",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "divine-kingship",
+    "lineage-importance",
+    "patriarchal",
+    "ritual-practice",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "economic-justice",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "11 | 卷10",
+   "last_heading": "11 | 卷10",
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "golden-rule",
+    "humility",
+    "ritual-practice",
+    "secular-state"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "honesty-hypocrisy",
+    "patience-waiting",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "12 | 卷11",
+   "last_heading": "12 | 卷11",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "humility",
+    "ritual-practice",
+    "sacred-language",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "patience-waiting",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "13 | 卷12",
+   "last_heading": "13 | 卷12",
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-good",
+    "humility",
+    "meditation",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "fear-uncertainty",
+    "perfectionism-self-criticism",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "14 | 卷13",
+   "last_heading": "14 | 卷13",
+   "semantic_tags": [
+    "commentarial-layer",
+    "essentially-good",
+    "human-as-microcosm",
+    "non-dual",
+    "prophetic-critique",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "15 | 卷14",
+   "last_heading": "15 | 卷14",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "self-effort",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "humility",
+    "liberation-by-works",
+    "lineage-importance",
+    "mystical-union",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "16 | 原序",
+   "last_heading": "17 | 尹序",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "monotheist-exclusive",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "calling-vocation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "18 | 後序·提要",
+   "last_heading": "18 | 後序·提要",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "monastic",
+    "study"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

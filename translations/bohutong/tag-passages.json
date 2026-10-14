@@ -1,0 +1,465 @@
+{
+ "schema_version": 1,
+ "slug": "bohutong",
+ "chunks_total": 25,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷01",
+   "last_heading": "1 | 卷01",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "patriarchal",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gender-body",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "commentarial-layer",
+    "divine-kingship",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "patriarchal",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷02",
+   "last_heading": "2 | 卷02",
+   "semantic_tags": [
+    "ancestor-worship",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "3 | 卷03",
+   "last_heading": "3 | 卷03",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "patriarchal",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "giving-generosity",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "commentarial-layer",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "multiple-canons",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "4 | 卷04",
+   "last_heading": "4 | 卷04",
+   "semantic_tags": [
+    "caesaropapism",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "patriarchal",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "lineage-importance",
+    "patriarchal",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "5 | 卷05",
+   "last_heading": "5 | 卷05",
+   "semantic_tags": [
+    "ancestor-worship",
+    "caesaropapism",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "sacred-language",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "justice-power",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "priesthood",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "6 | 卷06",
+   "last_heading": "6 | 卷06",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "economic-justice",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "7 | 卷07",
+   "last_heading": "7 | 卷07",
+   "semantic_tags": [
+    "commentarial-layer",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "patriarchal",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "8 | 卷08",
+   "last_heading": "8 | 卷08",
+   "semantic_tags": [
+    "ancestor-worship",
+    "cosmic-egg",
+    "divine-immanence",
+    "essentially-good",
+    "human-as-microcosm",
+    "lineage-importance",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "commentarial-layer",
+    "cosmic-egg",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "mandate-of-heaven",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "mandate-of-heaven",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "9 | 卷09",
+   "last_heading": "9 | 卷09",
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred",
+    "patriarchal",
+    "ritual-practice",
+    "sexual-ethics",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "marriage-family",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "marriage-sacred",
+    "patriarchal",
+    "ritual-practice",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "gender-body",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "10 | 卷10",
+   "last_heading": "10 | 卷10",
+   "semantic_tags": [
+    "commandments-law",
+    "heaven-hell",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "mandate-of-heaven",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "lineage-importance",
+    "mandate-of-heaven",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}

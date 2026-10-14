@@ -64,20 +64,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
-    "calling-vocation",
-    "courage",
     "death",
-    "fear-uncertainty"
+    "justice-power",
+    "loss-grief",
+    "meaning-of-suffering",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "b774d40da0947679b352e47a53e033c348bc363556f2fdefabfd93ab5d7636a1"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

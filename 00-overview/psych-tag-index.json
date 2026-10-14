@@ -1611,11 +1611,6 @@
       "religion": "耆那教"
     },
     {
-      "slug": "jin-si-lu",
-      "name_zh": "近思錄",
-      "religion": "儒教"
-    },
-    {
       "slug": "madhyamagama",
       "name_zh": "中阿含經",
       "religion": "佛教"
@@ -1637,11 +1632,6 @@
     }
   ],
   "aging-time": [
-    {
-      "slug": "bohutong",
-      "name_zh": "白虎通義",
-      "religion": "儒教"
-    },
     {
       "slug": "cbeta-T01n0003",
       "name_zh": "毘婆尸佛經",
@@ -2301,11 +2291,6 @@
       "slug": "huangting-waijing",
       "name_zh": "黃庭外景經",
       "religion": "道教"
-    },
-    {
-      "slug": "jin-si-lu",
-      "name_zh": "近思錄",
-      "religion": "儒教"
     },
     {
       "slug": "kongzi-jiayu",
@@ -4749,11 +4734,6 @@
       "religion": "基督教"
     },
     {
-      "slug": "bohutong",
-      "name_zh": "白虎通義",
-      "religion": "儒教"
-    },
-    {
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
@@ -6419,11 +6399,6 @@
       "religion": "兩河"
     },
     {
-      "slug": "da-dai-liji",
-      "name_zh": "大戴禮記",
-      "religion": "儒教"
-    },
-    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -6444,11 +6419,6 @@
       "religion": "印度教"
     },
     {
-      "slug": "gongyang-zhuan",
-      "name_zh": "春秋公羊傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "guo-yu",
       "name_zh": "國語",
       "religion": "儒教"
@@ -6467,11 +6437,6 @@
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
-    },
-    {
-      "slug": "jin-si-lu",
-      "name_zh": "近思錄",
-      "religion": "儒教"
     },
     {
       "slug": "kongzi-jiayu",
@@ -6542,11 +6507,6 @@
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
       "religion": "印度教"
-    },
-    {
-      "slug": "zhou-li",
-      "name_zh": "周禮",
-      "religion": "儒教"
     }
   ],
   "calling-vocation": [
@@ -13761,11 +13721,6 @@
       "religion": "猶太教"
     },
     {
-      "slug": "gongyang-zhuan",
-      "name_zh": "春秋公羊傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
@@ -14766,11 +14721,6 @@
       "slug": "bible-titus",
       "name_zh": "提多書",
       "religion": "基督教"
-    },
-    {
-      "slug": "bohutong",
-      "name_zh": "白虎通義",
-      "religion": "儒教"
     },
     {
       "slug": "book-of-changes",
@@ -18123,11 +18073,6 @@
       "religion": "儒教"
     },
     {
-      "slug": "da-dai-liji",
-      "name_zh": "大戴禮記",
-      "religion": "儒教"
-    },
-    {
       "slug": "dingguan-jing",
       "name_zh": "洞玄靈寶定觀經",
       "religion": "道教"
@@ -18722,11 +18667,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "da-dai-liji",
-      "name_zh": "大戴禮記",
-      "religion": "儒教"
-    },
-    {
       "slug": "guo-yu",
       "name_zh": "國語",
       "religion": "儒教"
@@ -18797,11 +18737,6 @@
       "slug": "bible-joshua",
       "name_zh": "約書亞記",
       "religion": "基督教"
-    },
-    {
-      "slug": "bohutong",
-      "name_zh": "白虎通義",
-      "religion": "儒教"
     },
     {
       "slug": "book-of-changes",
@@ -20614,11 +20549,6 @@
       "religion": "凱爾特"
     },
     {
-      "slug": "da-dai-liji",
-      "name_zh": "大戴禮記",
-      "religion": "儒教"
-    },
-    {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -20642,11 +20572,6 @@
       "slug": "fortytwo-chapters-sutra",
       "name_zh": "四十二章經",
       "religion": "佛教"
-    },
-    {
-      "slug": "gongyang-zhuan",
-      "name_zh": "春秋公羊傳",
-      "religion": "儒教"
     },
     {
       "slug": "grettis-saga-on",
@@ -21064,6 +20989,11 @@
       "slug": "bible-revelation",
       "name_zh": "啟示錄",
       "religion": "基督教"
+    },
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
     },
     {
       "slug": "book-of-am-tuat",
@@ -27159,11 +27089,6 @@
       "slug": "zhonglu-chuandao-ji",
       "name_zh": "鍾呂傳道集",
       "religion": "道教"
-    },
-    {
-      "slug": "zhou-li",
-      "name_zh": "周禮",
-      "religion": "儒教"
     },
     {
       "slug": "zhouyi-cantong-qi",
@@ -38078,11 +38003,6 @@
       "religion": "諾斯底"
     },
     {
-      "slug": "gongyang-zhuan",
-      "name_zh": "春秋公羊傳",
-      "religion": "儒教"
-    },
-    {
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -39151,11 +39071,6 @@
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
-    },
-    {
-      "slug": "zhou-li",
-      "name_zh": "周禮",
-      "religion": "儒教"
     },
     {
       "slug": "zhuangzi",
@@ -40272,11 +40187,6 @@
       "slug": "vulgate-titus",
       "name_zh": "提多書（武加大）",
       "religion": "基督教"
-    },
-    {
-      "slug": "zhou-li",
-      "name_zh": "周禮",
-      "religion": "儒教"
     }
   ],
   "gratitude-contentment": [
@@ -46809,6 +46719,11 @@
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "insignificance-history": [
@@ -48490,6 +48405,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
+    {
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
@@ -48663,6 +48583,11 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     },
     {
       "slug": "grettis-saga-on",
@@ -48953,6 +48878,11 @@
       "slug": "zephaniah",
       "name_zh": "西番雅書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "living-with-unknown": [
@@ -50004,6 +49934,11 @@
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     },
     {
       "slug": "homer-greek",
@@ -51085,6 +51020,11 @@
       "slug": "bible-zephaniah",
       "name_zh": "西番雅書",
       "religion": "基督教"
+    },
+    {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
     },
     {
       "slug": "book-of-am-tuat",
@@ -54307,6 +54247,11 @@
       "religion": "赫爾墨斯"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
@@ -54430,6 +54375,11 @@
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     },
     {
       "slug": "guide-for-the-perplexed-st",
@@ -56036,6 +55986,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "bohutong",
+      "name_zh": "白虎通義",
+      "religion": "儒教"
+    },
+    {
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
@@ -56406,6 +56361,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
@@ -56429,6 +56389,11 @@
       "slug": "gautama-dharmasutra",
       "name_zh": "喬達摩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "gongyang-zhuan",
+      "name_zh": "春秋公羊傳",
+      "religion": "儒教"
     },
     {
       "slug": "great-learning",
@@ -56463,6 +56428,11 @@
     {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
+      "religion": "儒教"
+    },
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
       "religion": "儒教"
     },
     {
@@ -56659,6 +56629,11 @@
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ],
   "stillness-rest": [
@@ -60887,6 +60862,11 @@
       "religion": "赫爾墨斯"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "daniel",
       "name_zh": "但以理書",
       "religion": "猶太教"
@@ -61024,6 +61004,11 @@
     {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
+      "religion": "儒教"
+    },
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
       "religion": "儒教"
     },
     {
@@ -62689,6 +62674,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "da-dai-liji",
+      "name_zh": "大戴禮記",
+      "religion": "儒教"
+    },
+    {
       "slug": "diamond-mulamadhyamaka",
       "name_zh": "中論",
       "religion": "佛教"
@@ -62742,6 +62732,11 @@
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "jin-si-lu",
+      "name_zh": "近思錄",
+      "religion": "儒教"
     },
     {
       "slug": "kabbalah-unveiled",
@@ -63129,6 +63124,11 @@
       "slug": "sblgnt-james",
       "name_zh": "雅各書（希臘原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "zhou-li",
+      "name_zh": "周禮",
+      "religion": "儒教"
     }
   ]
 }

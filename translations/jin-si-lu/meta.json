@@ -85,20 +85,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "change-transformation",
+    "responsibility-leadership",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "2172d281f6fffbc897d2a0d3696c8316a3e18e02d6001dddf2ddcdf5b0c78105"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
