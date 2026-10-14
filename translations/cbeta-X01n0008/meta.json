@@ -77,20 +77,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "cdd194e4190705e6a324c7a2f721b2b6aec6e11299cd81db7794658d38b354f0"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
