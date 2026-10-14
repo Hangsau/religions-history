@@ -78,20 +78,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
     "calling-vocation",
-    "change-transformation",
-    "courage",
-    "death"
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "f28306d955bfcb230410770df33f90825bc09911ca8d9e87fcc4bdda3fbc6598"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

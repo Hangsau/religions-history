@@ -81,20 +81,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
     "calling-vocation",
-    "change-transformation",
-    "communication-being-understood"
+    "death",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "114f569582eb60d151e89f176fffd10356e59c644180c9ecc8538bbbc8dafde1"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
