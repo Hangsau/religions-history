@@ -60,18 +60,14 @@
   "psych_tags": [
     "boundaries-self-worth",
     "calling-vocation",
-    "guilt-atonement",
-    "honesty-hypocrisy",
-    "patience-waiting"
+    "illness-body",
+    "responsibility-leadership",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "53ae26f3ee036aba7b317c88a820b0dd360980a226f21a003d248d29028af834"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
