@@ -55,20 +55,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "courage",
     "faith-doubt",
-    "fear-uncertainty",
-    "insignificance-history",
-    "living-with-unknown"
+    "living-with-unknown",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "ae81870cd6cc13d0a602ab1220696048b228fd3f79e62941c04a647d18ac744d"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
