@@ -1,0 +1,82 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T21n1238",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "lay-practitioner",
+    "monastic",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "multiple-canons",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "fear-uncertainty",
+    "illness-body",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "humility",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "ingroup-outgroup-prejudice",
+    "trust-vulnerability"
+   ]
+  }
+ ]
+}

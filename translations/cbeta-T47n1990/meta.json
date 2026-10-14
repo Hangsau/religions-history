@@ -54,19 +54,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
-    "insignificance-history",
-    "meaning-of-suffering"
+    "communication-being-understood",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "a297416a479cdf7a9661ea9f1dff0b677308b04c53b945005879a344da509efb"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
