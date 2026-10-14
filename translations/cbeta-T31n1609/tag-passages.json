@@ -1,0 +1,55 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T31n1609",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commentarial-layer",
+    "karma-rebirth",
+    "monastic",
+    "multiple-canons",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "multiple-souls",
+    "other-power"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "karma-rebirth",
+    "meditation",
+    "monastic",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "who-am-i"
+   ]
+  }
+ ]
+}

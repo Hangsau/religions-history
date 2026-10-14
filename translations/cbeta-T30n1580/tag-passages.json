@@ -1,0 +1,68 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T30n1580",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  }
+ ]
+}
