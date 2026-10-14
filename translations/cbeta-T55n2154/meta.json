@@ -84,17 +84,13 @@
     "calling-vocation",
     "courage",
     "death",
-    "existence-why-born",
-    "faith-doubt"
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "752317bc6e88c09e005feb54cfd479b3eca46a13dbb15a3f6d5d482938784ad1"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
