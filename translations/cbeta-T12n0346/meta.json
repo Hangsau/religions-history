@@ -70,17 +70,13 @@
     "calling-vocation",
     "change-transformation",
     "death",
-    "emotions-passions",
-    "existence-why-born"
+    "fear-uncertainty",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "1c33612cc604913a3a97746d9f7b1e3b3861c0d7adbe8896e4ca5601edbbaf35"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

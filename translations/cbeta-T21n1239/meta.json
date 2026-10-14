@@ -61,17 +61,13 @@
     "boundaries-self-worth",
     "calling-vocation",
     "death",
-    "evil-cruelty-empathy",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "illness-body"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "8668eb756493c0563a5cd6ab7b7ba60c30ee3b8be6f1afc4991c09f3d6a4af9d"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
