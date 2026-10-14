@@ -57,20 +57,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "body-mind",
     "boundaries-self-worth",
     "calling-vocation",
-    "death",
-    "evil-cruelty-empathy"
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "26cbef40e992b0ad5cceb1d50bb460e5e75f9ba74fcff2d18b21e1721c18f47c"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
