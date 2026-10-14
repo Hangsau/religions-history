@@ -52,20 +52,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "boundaries-self-worth",
     "calling-vocation",
-    "fear-uncertainty",
-    "insignificance-history",
-    "meaning-of-suffering"
+    "courage",
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "4e37bbb03d9d8fe00ed5e169f2b3b1723f49a9e899b96b0f1186c4dcb3ed3969"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

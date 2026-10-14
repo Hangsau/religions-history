@@ -1,0 +1,64 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T45n1894",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "monastic",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "compassion",
+    "monastic",
+    "non-violence",
+    "revealed-text",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "commentarial-layer",
+    "humility",
+    "monastic",
+    "non-violence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest"
+   ]
+  }
+ ]
+}

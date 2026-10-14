@@ -61,19 +61,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "death",
+    "change-transformation",
     "faith-doubt",
-    "freewill-fate-choice",
-    "giving-generosity"
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "424be1c4b8c9febeb958f7289bffad0f5f0d475effba867bc6f9f3ce85f8500f"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

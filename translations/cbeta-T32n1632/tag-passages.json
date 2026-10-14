@@ -1,0 +1,59 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T32n1632",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commentarial-layer",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "syncretic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "monastic",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "emptiness",
+    "enlightenment",
+    "non-dual",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

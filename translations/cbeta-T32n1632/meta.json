@@ -56,20 +56,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "fear-uncertainty",
+    "existence-why-born",
     "honesty-hypocrisy",
     "living-with-unknown",
-    "meaning-of-suffering",
-    "who-am-i"
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "467ce814c6d793c7bbc9214575d8544892fe514ec507cb54b84e5d8d064df07f"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
