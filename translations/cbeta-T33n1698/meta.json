@@ -56,19 +56,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "faith-doubt",
-    "fear-uncertainty",
     "insignificance-history",
-    "meaning-of-suffering"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "27673536570a510f3fd58f4c55ee1fed96418d5fefe382723fafb00d3855c2e3"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
