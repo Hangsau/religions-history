@@ -1,0 +1,658 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T15n0643",
+ "chunks_total": 33,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "other-power",
+    "ritual-practice",
+    "sacred-language",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "evil-as-deception",
+    "meditation",
+    "mystical-union",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "body-mind",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "3 | 卷003",
+   "last_heading": "3 | 卷003",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "mystical-union",
+    "ritual-practice",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "four-noble-truths",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "4 | 卷004",
+   "last_heading": "4 | 卷004",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "illness-body",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "5 | 卷005",
+   "last_heading": "5 | 卷005",
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "monastic",
+    "priesthood",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "karma-rebirth",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-flawed",
+    "karma-rebirth",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "6 | 卷006",
+   "last_heading": "6 | 卷006",
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "mandate-of-heaven",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "mystical-union",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "loss-grief",
+    "love-sex-intimacy",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "7 | 卷007",
+   "last_heading": "7 | 卷007",
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "meditation",
+    "meditation",
+    "monastic",
+    "monastic",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "divine-immanence",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "love-sex-intimacy",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "8 | 卷008",
+   "last_heading": "8 | 卷008",
+   "semantic_tags": [
+    "asceticism",
+    "celibate-tradition",
+    "compassion",
+    "divine-transcendence",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "freewill-fate-choice",
+    "gender-body"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "ritual-practice",
+    "sexual-ethics",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "self-effort",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "9 | 卷009",
+   "last_heading": "9 | 卷009",
+   "semantic_tags": [
+    "compassion",
+    "lay-practitioner",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "guilt-atonement",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "meditation",
+    "self-effort",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "10 | 卷010",
+   "last_heading": "10 | 卷010",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "memory-reconciliation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  }
+ ]
+}
