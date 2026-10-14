@@ -1,0 +1,87 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T02n0101",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "compassion",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "breath-control",
+    "commandments-law",
+    "compassion",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "who-am-i"
+   ]
+  }
+ ]
+}

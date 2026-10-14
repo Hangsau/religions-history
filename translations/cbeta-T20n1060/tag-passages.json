@@ -1,0 +1,82 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T20n1060",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "monastic",
+    "other-power",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "enlightenment",
+    "liberation-by-devotion",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "other-power",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  }
+ ]
+}

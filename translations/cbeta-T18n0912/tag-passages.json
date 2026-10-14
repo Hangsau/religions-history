@@ -1,0 +1,82 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T18n0912",
+ "chunks_total": 4,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "mystical-union",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "justice-power",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "liberation-by-devotion",
+    "mystical-union",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "who-am-i"
+   ]
+  }
+ ]
+}
