@@ -71,17 +71,13 @@
     "calling-vocation",
     "death",
     "faith-doubt",
-    "fear-uncertainty",
-    "gratitude-contentment"
+    "meaning-of-suffering",
+    "stillness-rest"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "206f71558846935986fc50ae133ea6b0bbe39894aa2c74458d895d02b1a05053"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
