@@ -71,18 +71,14 @@
   "psych_tags": [
     "calling-vocation",
     "change-transformation",
-    "courage",
-    "death",
-    "emotions-passions"
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "daa1a34c1615f568b0fca043202446768f7ec194b7436d326451403a2af642e1"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

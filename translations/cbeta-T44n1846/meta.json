@@ -70,20 +70,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
     "calling-vocation",
     "change-transformation",
-    "courage"
+    "faith-doubt",
+    "stillness-rest",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "1c82a730838605024ac6fcdf52633476ad5a98f0311df5d5032112189232ce7b"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
