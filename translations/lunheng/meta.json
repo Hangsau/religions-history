@@ -99,20 +99,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation"
+    "death",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "cfcca2beb3dbfef31748f58c5262a30de6e4250a9d14c8c03c33205d9b12df81"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
