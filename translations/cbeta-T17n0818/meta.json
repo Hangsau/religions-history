@@ -54,20 +54,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "beauty-wonder-transcendent-moment",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "change-transformation"
+    "death",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "1d548e0eae15570f31210c86766353f7f1c8c98a32633d03eba9feef86404baf"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

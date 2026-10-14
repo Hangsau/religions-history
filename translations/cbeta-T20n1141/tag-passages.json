@@ -1,0 +1,111 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T20n1141",
+ "chunks_total": 6,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "liberation-by-devotion",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "compassion",
+    "liberation-by-devotion",
+    "meditation",
+    "mystical-union",
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "2 | 卷002",
+   "last_heading": "2 | 卷002",
+   "semantic_tags": [
+    "chanting",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-works",
+    "meditation",
+    "mystical-union",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "liberation-by-devotion",
+    "meditation",
+    "monastic",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  }
+ ]
+}
