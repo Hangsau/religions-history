@@ -64,19 +64,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "courage",
-    "death",
     "fear-uncertainty",
-    "illness-body"
+    "insignificance-history",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "ce123423423d82399ac316d7024e84877537c9b4353f54e8cbb819e137bf8dfc"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
