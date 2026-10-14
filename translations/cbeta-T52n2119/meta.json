@@ -60,19 +60,15 @@
   "tag_status": "done",
   "psych_tags": [
     "aging-time",
-    "body-mind",
     "calling-vocation",
     "change-transformation",
-    "death"
+    "death",
+    "gratitude-contentment"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "d86ccddab2dcd64471844802a7f075abf7111aa1ea9858a5192afdcb618296c4"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
