@@ -56,19 +56,15 @@
   "tag_status": "done",
   "psych_tags": [
     "addiction-self-destruction",
-    "body-mind",
     "death",
     "emotions-passions",
-    "existence-why-born"
+    "guilt-atonement",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "13067568b236eb8f91e17fffade9f94689ec1a61a483b21d23f19ecf5df48b56"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
