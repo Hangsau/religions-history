@@ -93,20 +93,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "aging-time",
-    "body-mind",
-    "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "ffcbb983280ef4e0a9578c85f8585f852ce7cd76f506f8fb9fa58f9e47ca2d17"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
