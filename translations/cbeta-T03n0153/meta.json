@@ -66,20 +66,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "calling-vocation",
     "courage",
     "death",
-    "emotions-passions",
-    "fear-uncertainty"
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "854495fe5762fd36da2373646a8690ccd6e401ac1bdbac9c04e957c4f52bbfe4"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
