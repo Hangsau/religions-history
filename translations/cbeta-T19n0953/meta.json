@@ -66,19 +66,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
     "courage",
-    "death",
-    "evil-cruelty-empathy"
+    "fear-uncertainty",
+    "illness-body",
+    "trust-vulnerability"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "9fe732b98464aadfb0f8612a7dfce0710d079fffd3a9ca94772fe6e7e2227c81"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }

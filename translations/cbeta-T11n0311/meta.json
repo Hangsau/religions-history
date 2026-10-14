@@ -72,20 +72,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
-    "boundaries-self-worth",
-    "calling-vocation",
-    "courage"
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "34e62935ead5a0b7bc61bf7a08e46c4da73f091bd3f846d452fe5f4ba9125553"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
