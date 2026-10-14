@@ -1,0 +1,62 @@
+{
+ "schema_version": 1,
+ "slug": "cbeta-T24n1476",
+ "chunks_total": 3,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | 卷001",
+   "last_heading": "1 | 卷001",
+   "semantic_tags": [
+    "commandments-law",
+    "lay-practitioner",
+    "monastic"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "commandments-law",
+    "lay-practitioner",
+    "monastic",
+    "ritual-practice",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "feminine-divine",
+    "lay-practitioner",
+    "monastic",
+    "mystical-union",
+    "ritual-practice",
+    "sexual-ethics",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "emotions-passions",
+    "fear-uncertainty"
+   ]
+  }
+ ]
+}

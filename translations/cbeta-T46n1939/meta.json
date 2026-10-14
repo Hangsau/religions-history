@@ -55,19 +55,15 @@
   "tag_status": "done",
   "psych_tags": [
     "calling-vocation",
-    "change-transformation",
-    "illness-body",
+    "existence-why-born",
+    "fear-uncertainty",
     "meaning-of-suffering",
-    "patience-waiting"
+    "wisdom-learning-curiosity"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "00453071c1d845199d207f05bccdfc0ab0fc01ecb8baaf8062e06168cb7ca352"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
