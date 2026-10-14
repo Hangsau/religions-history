@@ -61,16 +61,12 @@
     "change-transformation",
     "death",
     "faith-doubt",
-    "fear-uncertainty"
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "bdca5b35f25d211b35cb9bf875b3230eb5deb6dfc7e2785ba180e37e5004b1ca"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
