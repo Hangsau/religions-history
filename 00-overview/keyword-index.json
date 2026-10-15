@@ -27,6 +27,13 @@
       "religion": "美洲"
     }
   ],
+  "1893": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "1898": [
     {
       "slug": "creation-myths-primitive-america",
@@ -1008,6 +1015,13 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    }
+  ],
+  "Arahant": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "Arahato": [
@@ -2261,6 +2275,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
@@ -2399,8 +2418,20 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
+      "religion": "佛教"
+    }
+  ],
+  "Buddhavaṁsa": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
       "religion": "佛教"
     }
   ],
@@ -2514,6 +2545,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Cambridge University Press": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "Camlan": [
     {
       "slug": "mabinogion-cy-2",
@@ -2533,6 +2571,13 @@
       "slug": "vulgate-judges",
       "name_zh": "士師記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Canopus": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "Canticum Canticorum": [
@@ -3528,6 +3573,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Dorothy Field": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    }
+  ],
   "Dragon": [
     {
       "slug": "babylonian-legends-creation",
@@ -3605,6 +3657,13 @@
       "religion": "兩河"
     }
   ],
+  "E.A. Wallis Budge": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "E.A.Wallis Budge": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -3680,6 +3739,13 @@
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
+    }
+  ],
+  "Egyptian Funeral Archaeology": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "Egyptian Mysteries": [
@@ -4008,6 +4074,20 @@
     {
       "slug": "hervarar-saga-on",
       "name_zh": "赫爾沃爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Eyjafjörður": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
+  "Eyjólfur": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
       "religion": "北歐"
     }
   ],
@@ -4513,6 +4593,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Glúmr": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Gnosis": [
     {
       "slug": "thrice-greatest-hermes-1",
@@ -4547,6 +4634,13 @@
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
+    }
+  ],
+  "Gobind Singh": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     }
   ],
   "Golden Age 黃金時代": [
@@ -4591,6 +4685,13 @@
       "religion": "印度教"
     }
   ],
+  "Granth Sāhib": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    }
+  ],
   "Great Lakes": [
     {
       "slug": "iroquois-cosmology",
@@ -4603,6 +4704,13 @@
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
+    }
+  ],
+  "Greek": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "Greek hexameter": [
@@ -4714,6 +4822,11 @@
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     }
   ],
   "Guru Angad": [
@@ -5234,6 +5347,13 @@
       "religion": "印度教"
     }
   ],
+  "Hindu Monotheism": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    }
+  ],
   "Hippocrates": [
     {
       "slug": "seneca-de-brevitate-vitae-la",
@@ -5396,6 +5516,13 @@
     {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Hreiðar": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
       "religion": "北歐"
     }
   ],
@@ -5740,6 +5867,13 @@
       "religion": "印度教"
     }
   ],
+  "Ingjaldur": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Inti": [
     {
       "slug": "inca-rites",
@@ -5842,6 +5976,13 @@
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
+    }
+  ],
+  "Islām": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     }
   ],
   "Israel": [
@@ -7081,6 +7222,13 @@
       "religion": "印度教"
     }
   ],
+  "L. Cranmer-Byng": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    }
+  ],
   "L.H. Mills": [
     {
       "slug": "avesta-sbe31",
@@ -7518,6 +7666,11 @@
     }
   ],
   "Macauliffe": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
     {
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
@@ -8081,6 +8234,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Memphis": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "Menander": [
     {
       "slug": "kn-milindapanha",
@@ -8425,6 +8585,13 @@
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
       "religion": "錫克教"
+    }
+  ],
+  "Mummy": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "Murias": [
@@ -8953,6 +9120,13 @@
       "slug": "poetic-edda-bellows",
       "name_zh": "詩體埃達 (Bellows 譯)",
       "religion": "北歐"
+    }
+  ],
+  "Northbrook Society": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     }
   ],
   "Northmen": [
@@ -10311,6 +10485,20 @@
       "religion": "基督教"
     }
   ],
+  "Ptolemy III": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
+  "Ptolemy V": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "Ptolemæus": [
     {
       "slug": "vulgate-1-maccabees",
@@ -10791,6 +10979,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Rosetta Stone": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "Rudra": [
     {
       "slug": "garuda-purana",
@@ -10883,6 +11078,13 @@
       "religion": "印度教"
     }
   ],
+  "S. A. Kapadia": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    }
+  ],
   "SBE31": [
     {
       "slug": "avesta-sbe31",
@@ -10944,6 +11146,13 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "Sahampatī": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "Sakharof": [
@@ -11031,6 +11240,13 @@
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
+    }
+  ],
+  "Sammāsambuddha": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "Sammāsambuddhassa": [
@@ -11573,6 +11789,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Sikh": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    }
+  ],
   "Sikh Gurus": [
     {
       "slug": "sikh-religion-macauliffe",
@@ -11584,6 +11807,13 @@
     {
       "slug": "guru-granth-sahib-st",
       "name_zh": "錫克教根本經 Shri Guru Granth Sahib",
+      "religion": "錫克教"
+    }
+  ],
+  "Sikhs": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
       "religion": "錫克教"
     }
   ],
@@ -11604,6 +11834,13 @@
       "slug": "vulgate-numbers",
       "name_zh": "民數記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Sineru": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "Sion": [
@@ -11854,6 +12091,13 @@
       "slug": "carmina-gadelica-2",
       "name_zh": "Carmina Gadelica Vol 2",
       "religion": "凱爾特"
+    }
+  ],
+  "Stele of Canopus": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "Stobaeus": [
@@ -12285,6 +12529,11 @@
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "Tattvasamāsa": [
@@ -12292,6 +12541,13 @@
       "slug": "samkhya-sutra-kapila",
       "name_zh": "數論經（迦毗羅）",
       "religion": "印度教"
+    }
+  ],
+  "Teg Bahādur": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     }
   ],
   "Telemachus": [
@@ -13378,6 +13634,13 @@
       "religion": "北歐"
     }
   ],
+  "Vors": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Vrindavan": [
     {
       "slug": "gita-govinda",
@@ -13589,6 +13852,13 @@
       "religion": "印度教"
     }
   ],
+  "Víga-Glúms saga": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Vóden": [
     {
       "slug": "snorra-edda-on",
@@ -13743,6 +14013,11 @@
     }
   ],
   "Wisdom of the East": [
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
     {
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
@@ -14698,6 +14973,13 @@
       "religion": "印度教"
     }
   ],
+  "anāgāmitāya": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    }
+  ],
   "anṛta": [
     {
       "slug": "jain-sastravarttasamuccaya-sa",
@@ -15147,6 +15429,11 @@
     {
       "slug": "an4-fours",
       "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    },
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
       "religion": "佛教"
     },
     {
@@ -15752,6 +16039,13 @@
       "religion": "印度教"
     }
   ],
+  "caṅkama": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    }
+  ],
   "caṇḍakāpāli": [
     {
       "slug": "gheranda-samhita",
@@ -16079,6 +16373,13 @@
       "religion": "印度教"
     }
   ],
+  "dasasahassīlokadhātū": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    }
+  ],
   "daēva": [
     {
       "slug": "avesta-sbe23-ae",
@@ -16098,6 +16399,13 @@
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "demotic": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "desertum": [
@@ -16411,6 +16719,11 @@
   ],
   "dosa": [
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
       "religion": "佛教"
@@ -16440,6 +16753,20 @@
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
+    }
+  ],
+  "duggati": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    }
+  ],
+  "dukkha": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
     }
   ],
   "duodecim tribus": [
@@ -16582,6 +16909,13 @@
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "ekadhammaṁ": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
     }
   ],
   "elder": [
@@ -17020,6 +17354,13 @@
       "religion": "北歐"
     }
   ],
+  "goðorðsmaðr": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
   "grace": [
     {
       "slug": "vulgate-titus",
@@ -17369,6 +17710,13 @@
       "religion": "古埃及"
     }
   ],
+  "hieroglyphics": [
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
   "himsā": [
     {
       "slug": "jain-acaranga-pkt",
@@ -17455,6 +17803,13 @@
     {
       "slug": "kormaks-saga-on",
       "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
+  "höfðingi": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
       "religion": "北歐"
     }
   ],
@@ -18004,6 +18359,11 @@
   ],
   "kodha": [
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn7-brahmana",
       "name_zh": "SN7 婆羅門相應",
       "religion": "佛教"
@@ -18239,8 +18599,20 @@
   ],
   "lobha": [
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
+      "religion": "佛教"
+    }
+  ],
+  "lobhasutta": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
       "religion": "佛教"
     }
   ],
@@ -18256,6 +18628,13 @@
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "lokanāyaka": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "lomaharṣaṇa": [
@@ -18451,6 +18830,13 @@
       "religion": "耆那教"
     }
   ],
+  "makkha": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    }
+  ],
   "makāra": [
     {
       "slug": "nadabindu-upanishad",
@@ -18508,6 +18894,13 @@
       "slug": "vulgate-ezekiel",
       "name_zh": "以西結書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "mandārava": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "manna": [
@@ -18684,6 +19077,11 @@
     }
   ],
   "moha": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
     {
       "slug": "jain-isibhasiyaim-pkt",
       "name_zh": "仙人所說（半摩揭陀原文）",
@@ -18874,6 +19272,13 @@
       "religion": "美洲"
     }
   ],
+  "māna": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    }
+  ],
   "māra": [
     {
       "slug": "therigatha",
@@ -18946,6 +19351,13 @@
     {
       "slug": "bud-vimshatika-sa",
       "name_zh": "唯識二十論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "naruttama": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
       "religion": "佛教"
     }
   ],
@@ -19350,6 +19762,13 @@
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
       "religion": "印度教"
+    }
+  ],
+  "pajaha": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
     }
   ],
   "palingenesia": [
@@ -20405,6 +20824,13 @@
       "religion": "耆那教"
     }
   ],
+  "pāṭihīra": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    }
+  ],
   "pīti": [
     {
       "slug": "an11-elevens",
@@ -20509,6 +20935,13 @@
       "slug": "chandi-di-var-pa",
       "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "ratanamaṇḍita": [
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     }
   ],
   "ratio": [
@@ -20713,6 +21146,16 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     }
   ],
   "sacrificium": [
@@ -20749,6 +21192,13 @@
       "slug": "therigatha",
       "name_zh": "長老尼偈",
       "religion": "佛教"
+    }
+  ],
+  "saga": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     }
   ],
   "salat": [
@@ -22478,6 +22928,20 @@
       "religion": "北歐"
     }
   ],
+  "vipassanā": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    }
+  ],
+  "vipassino": [
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    }
+  ],
   "viprā": [
     {
       "slug": "baudhayana-dharmasutra",
@@ -23106,6 +23570,13 @@
     {
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Þverá": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
       "religion": "北歐"
     }
   ],
@@ -62159,6 +62630,13 @@
       "religion": "佛教"
     }
   ],
+  "冰島": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    }
+  ],
   "准提佛母": [
     {
       "slug": "cbeta-T20n1075",
@@ -65449,6 +65927,13 @@
       "slug": "mahaparinirvana-sutra-northern",
       "name_zh": "大般涅槃經（北本）",
       "religion": "佛教"
+    }
+  ],
+  "北歐": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     }
   ],
   "北臺": [
@@ -72145,6 +72630,11 @@
     {
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
       "religion": "北歐"
     }
   ],
@@ -186748,6 +187238,13 @@
     {
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "維加-格盧姆薩迦": [
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
       "religion": "北歐"
     }
   ],

@@ -20,5 +20,58 @@
   "tier": "次要",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "semantic_tags": [
+    "caesaropapism",
+    "commentarial-layer",
+    "divine-immanence",
+    "divine-kingship",
+    "economic-justice",
+    "mandate-of-heaven",
+    "multiple-canons",
+    "multiple-souls",
+    "oral-tradition",
+    "polytheist",
+    "priesthood",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "syncretic",
+    "temple-centered",
+    "theocracy",
+    "theophany",
+    "vernacular-translation"
+  ],
+  "keywords": [
+    "Rosetta Stone",
+    "E.A. Wallis Budge",
+    "Mummy",
+    "Egyptian Funeral Archaeology",
+    "Cambridge University Press",
+    "sacred-texts.com",
+    "1893",
+    "Stele of Canopus",
+    "Ptolemy V",
+    "Ptolemy III",
+    "hieroglyphics",
+    "demotic",
+    "Greek",
+    "Memphis",
+    "Canopus"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "gratitude-contentment",
+    "justice-power",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "800d2ba5fdb1446cafe455661d73d49dbe72da3b6ef188ebb9563b69ad60b23a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

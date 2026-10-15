@@ -361,6 +361,11 @@
       "religion": "凱爾特"
     },
     {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
+    },
+    {
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
       "religion": "古希臘羅馬"
@@ -1523,6 +1528,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -1616,6 +1626,11 @@
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-eclogues",
@@ -2195,6 +2210,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
       "religion": "儒教"
@@ -2208,6 +2228,11 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -2453,6 +2478,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -4829,6 +4859,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -4892,6 +4927,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -5002,6 +5042,11 @@
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-sutra",
@@ -5854,6 +5899,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kojiki-zh",
@@ -7812,6 +7862,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "sendai-kuji-hongi-zh",
       "name_zh": "先代舊事本紀（漢文原文，全十卷）",
       "religion": "神道"
@@ -8447,6 +8507,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "satvata-tantra",
@@ -16053,6 +16118,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
@@ -16783,6 +16853,11 @@
       "slug": "tain-bo-cuailnge-ga",
       "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
       "religion": "凱爾特"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -20702,6 +20777,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -21032,6 +21112,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -21225,6 +21310,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -25824,6 +25914,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -26042,6 +26137,16 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samkhya-karika",
@@ -34441,6 +34546,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -34504,6 +34614,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -34699,6 +34814,11 @@
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "ruth",
@@ -35828,6 +35948,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -35906,6 +36031,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "sblgnt-1-corinthians",
@@ -38601,6 +38731,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -40073,6 +40208,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-sastravarttasamuccaya-sa",
       "name_zh": "諸論義集（梵文原文）",
       "religion": "耆那教"
@@ -40086,6 +40226,11 @@
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
       "religion": "儒教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kojiki-zh",
@@ -42737,6 +42882,16 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -44744,6 +44899,16 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -44852,6 +45017,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid",
@@ -46536,6 +46706,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -47618,6 +47793,11 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samuel-1",
@@ -49785,6 +49965,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika",
@@ -54002,6 +54187,11 @@
       "slug": "huashu",
       "name_zh": "化書",
       "religion": "道教"
+    },
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
     },
     {
       "slug": "jain-sastravarttasamuccaya-sa",
@@ -60486,6 +60676,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -60544,6 +60739,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -60734,6 +60934,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika-ishvarakrshna",
@@ -61901,6 +62106,11 @@
       "slug": "sutta-nipata",
       "name_zh": "經集",
       "religion": "佛教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "vishnu-purana",
@@ -63148,6 +63358,11 @@
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -66354,6 +66569,11 @@
       "religion": "道教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -66377,6 +66597,11 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -72137,6 +72362,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-khuddakapatha",
       "name_zh": "小部·小誦",
       "religion": "佛教"
@@ -74023,6 +74258,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -75758,6 +75998,11 @@
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
+    },
+    {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
     },
     {
       "slug": "jain-sutrakrtanga-pkt",
@@ -77709,6 +77954,11 @@
       "religion": "道教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
@@ -77962,6 +78212,11 @@
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "ruth",
@@ -78384,6 +78639,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "ruth",
@@ -82283,6 +82543,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -82446,6 +82711,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika",
@@ -85350,6 +85620,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-isibhasiyaim-pkt",
       "name_zh": "仙人所說（半摩揭陀原文）",
       "religion": "耆那教"
@@ -85408,6 +85683,11 @@
       "slug": "plato-protagoras-el",
       "name_zh": "普羅塔哥拉篇（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "sblgnt-3-john",
@@ -91607,6 +91887,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -91615,6 +91900,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-khuddakapatha",
@@ -91715,6 +92005,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samaveda",
@@ -97909,6 +98204,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -97987,6 +98287,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -98182,6 +98487,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika",
@@ -102076,6 +102386,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-isibhasiyaim-pkt",
       "name_zh": "仙人所說（半摩揭陀原文）",
       "religion": "耆那教"
@@ -102094,6 +102409,11 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -102189,6 +102509,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "sblgnt-james",
@@ -105398,6 +105723,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-dasavaikalika-pkt",
       "name_zh": "十誦律要（半摩揭陀原文）",
       "religion": "耆那教"
@@ -105421,6 +105751,11 @@
       "slug": "kings-2",
       "name_zh": "列王紀下",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -105643,6 +105978,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -105791,6 +106131,11 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid",
@@ -106890,6 +107235,16 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -107557,6 +107912,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -107650,6 +108010,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -114254,6 +114619,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -114307,6 +114677,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -114472,6 +114847,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika",
@@ -115334,6 +115714,11 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samuel-2",
@@ -124788,6 +125173,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -124846,6 +125236,11 @@
       "slug": "kaivalya-upanishad",
       "name_zh": "獨存奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -124976,6 +125371,11 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samyuktagama",
@@ -127990,6 +128390,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -130597,6 +131002,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -130695,6 +131105,16 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "satvata-tantra",
@@ -131662,6 +132082,11 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samkhya-karika",
@@ -137331,6 +137756,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
@@ -137584,6 +138014,11 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samaveda",
@@ -141843,6 +142278,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -142011,6 +142451,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-sutra",
@@ -142383,6 +142828,11 @@
       "slug": "nihon-shoki-zh",
       "name_zh": "日本書紀（漢文原文，全三十卷）",
       "religion": "神道"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "seneca-de-brevitate-vitae-la",
@@ -144537,6 +144987,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -145689,6 +146144,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
@@ -145909,9 +146369,19 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samaveda",
@@ -146032,6 +146502,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -152253,9 +152728,19 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -152391,6 +152876,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samaveda",
@@ -152978,6 +153468,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -154130,6 +154625,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "satvata-tantra",
@@ -155429,9 +155929,19 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samaveda",
@@ -155542,6 +156052,11 @@
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid",
@@ -158706,6 +159221,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
@@ -158909,6 +159429,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid",
@@ -161193,6 +161718,16 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -161306,6 +161841,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -162023,6 +162563,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samuel-1",
@@ -163587,6 +164132,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -163770,6 +164320,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samuel-1",
@@ -164387,6 +164942,11 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "sblgnt-acts",
@@ -166191,6 +166751,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -166219,6 +166784,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-jataka",
@@ -166339,6 +166909,11 @@
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika",
@@ -167146,6 +167721,16 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samkhya-sutra",
@@ -177140,6 +177725,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -177203,6 +177793,11 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -177570,9 +178165,19 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samaveda",
@@ -177823,6 +178428,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -182197,6 +182807,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -182432,9 +183047,19 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "rigveda",
       "name_zh": "梨俱吠陀",
       "religion": "印度教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samaveda",
@@ -182615,6 +183240,11 @@
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -184109,6 +184739,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-2",
       "name_zh": "撒母耳記下",
       "religion": "猶太教"
@@ -184811,6 +185446,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -184864,6 +185504,11 @@
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -190183,6 +190828,11 @@
       "religion": "道教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -190251,6 +190901,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -190451,6 +191106,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samkhya-karika",
@@ -191698,6 +192358,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samuel-2",
@@ -193967,6 +194632,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -194085,6 +194755,11 @@
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -196889,6 +197564,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "samkhya-karika",
@@ -200398,6 +201078,11 @@
       "religion": "道教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -200451,6 +201136,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -200608,6 +201298,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -200761,6 +201456,11 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -203537,6 +204237,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogo-shui-zh",
       "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
@@ -203720,6 +204425,16 @@
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
       "religion": "美洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "sappho-poetry",
@@ -205231,6 +205946,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -205304,6 +206024,11 @@
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -206568,6 +207293,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -206636,6 +207366,11 @@
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "vishnu-purana",
@@ -209320,6 +210055,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
@@ -209443,6 +210183,11 @@
       "slug": "tertullian-de-praescriptione-la",
       "name_zh": "斥異端的抗辯（拉丁原文）",
       "religion": "基督教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -212637,6 +213382,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
@@ -212907,6 +213657,16 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -213100,6 +213860,11 @@
       "slug": "utpaladeva-shivastotravali",
       "name_zh": "濕婆讚頌鬘",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid",
@@ -213764,6 +214529,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -213822,6 +214592,11 @@
       "slug": "tale-of-igor-ru",
       "name_zh": "伊戈爾遠征記（古東斯拉夫原文）",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -219081,6 +219856,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -219169,6 +219949,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -219461,6 +220246,11 @@
       "religion": "非洲"
     },
     {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
@@ -219694,6 +220484,11 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
@@ -223973,6 +224768,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "itivuttaka",
+      "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -224051,6 +224851,11 @@
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
     },
     {
       "slug": "kn-cariyapitaka",
@@ -224346,6 +225151,11 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
     },
     {
       "slug": "samaveda",
@@ -225295,6 +226105,16 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "religion-of-sikhs",
+      "name_zh": "錫克教宗教 (Field)",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "rosetta-stone",
+      "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
     },
     {
       "slug": "shankhayana-grhyasutra",
@@ -227944,6 +228764,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-buddhavamsa",
+      "name_zh": "小部·佛種姓",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -228252,6 +229077,11 @@
       "slug": "vedanta-upadeshasahasri",
       "name_zh": "千則教誨",
       "religion": "印度教"
+    },
+    {
+      "slug": "viga-glums-saga-on",
+      "name_zh": "維加-格盧姆薩迦",
+      "religion": "北歐"
     },
     {
       "slug": "virgil-aeneid-la",
