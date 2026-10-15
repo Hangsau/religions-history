@@ -1209,6 +1209,11 @@
   ],
   "Aristoteles": [
     {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -1480,6 +1485,11 @@
     }
   ],
   "Athens": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
@@ -3193,6 +3203,13 @@
       "religion": "印度教"
     }
   ],
+  "Cicero": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Cilicia": [
     {
       "slug": "vulgate-judith",
@@ -3388,6 +3405,18 @@
       "slug": "miwok-myths",
       "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
+  "Cratippus": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Creation": [
@@ -3745,6 +3774,13 @@
       "religion": "基督教"
     }
   ],
+  "Demetrius Phalereus": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Demiurge": [
     {
       "slug": "fragments-of-faith-forgotten",
@@ -3755,6 +3791,13 @@
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
+    }
+  ],
+  "Demosthenes": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Demotic Magical Papyrus": [
@@ -7105,6 +7148,13 @@
       "religion": "基督教"
     }
   ],
+  "Jesucristo": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "Jesus": [
     {
       "slug": "vulgate-ezra",
@@ -7935,6 +7985,13 @@
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
+    }
+  ],
+  "Kutam Tawi": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "Kuvera": [
@@ -8799,6 +8856,13 @@
       "religion": "基督教"
     }
   ],
+  "Malinero'okai": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "Manasseh": [
     {
       "slug": "vulgate-prayer-of-manasseh",
@@ -8939,6 +9003,13 @@
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
+    }
+  ],
+  "Marcus fili": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Marduk": [
@@ -9420,6 +9491,13 @@
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Mochomo": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "Modern Library": [
@@ -10383,6 +10461,13 @@
       "religion": "印度教"
     }
   ],
+  "Nāradasmṛti": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "Nārāda": [
     {
       "slug": "satvata-tantra",
@@ -10597,6 +10682,13 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    }
+  ],
+  "Omteme": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "Ondegardo": [
@@ -11043,6 +11135,13 @@
       "religion": "基督教"
     }
   ],
+  "Pascola": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "Pasenadi": [
     {
       "slug": "sn3-kosala",
@@ -11177,6 +11276,13 @@
       "slug": "mabinogion-st",
       "name_zh": "Mabinogion 馬比諾吉昂 (Welsh)",
       "religion": "凱爾特"
+    }
+  ],
+  "Peripatetici": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Persephone": [
@@ -11360,6 +11466,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Platonici": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Pleroma": [
     {
       "slug": "fragments-of-faith-forgotten",
@@ -11485,6 +11598,13 @@
       "slug": "seneca-de-ira-la",
       "name_zh": "論憤怒（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Potam": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "Powys": [
@@ -12585,6 +12705,13 @@
       "religion": "印加"
     }
   ],
+  "San Pedro": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "Sanhedrin": [
     {
       "slug": "talmud-rodkinson",
@@ -13331,6 +13458,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Socratici": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Sohila": [
     {
       "slug": "sikh-religion-macauliffe",
@@ -13580,6 +13714,13 @@
       "slug": "digha-nikaya",
       "name_zh": "長部經典",
       "religion": "佛教"
+    }
+  ],
+  "Surem": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "Surtr": [
@@ -14132,6 +14273,13 @@
       "slug": "vulgate-luke",
       "name_zh": "路加福音（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Theophrastus": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Theosophical Publishing House": [
@@ -15782,6 +15930,13 @@
       "religion": "印度教"
     }
   ],
+  "Yaqui": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "Yasht": [
     {
       "slug": "avesta-sbe23",
@@ -15881,6 +16036,13 @@
       "slug": "shiva-mahimna-stava",
       "name_zh": "濕婆威德讚",
       "religion": "印度教"
+    }
+  ],
+  "Yomumuli": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "Yoruba": [
@@ -16129,6 +16291,13 @@
       "slug": "jain-isibhasiyaim-pkt",
       "name_zh": "仙人所說（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "abhidharmasamuccaya": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
     }
   ],
   "abhiññā": [
@@ -16602,6 +16771,13 @@
       "religion": "印度教"
     }
   ],
+  "anthropological paper": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "antichristus": [
     {
       "slug": "vulgate-1-john",
@@ -16824,6 +17000,13 @@
       "religion": "佛教"
     }
   ],
+  "artha": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
   "arthavāda": [
     {
       "slug": "mimamsa-sutra",
@@ -17016,7 +17199,26 @@
       "religion": "印度教"
     }
   ],
+  "aṣṭādaśa dhātavaḥ": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "aṣṭādaśapada": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "aṣṭāṅga": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    },
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
@@ -17840,6 +18042,13 @@
       "religion": "基督教"
     }
   ],
+  "caritra": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "cariyā": [
     {
       "slug": "kn-cariyapitaka",
@@ -18256,6 +18465,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "daṇḍa": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "death": [
     {
       "slug": "plato-works",
@@ -18301,6 +18517,13 @@
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "deva-bhadra-sūri": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     }
   ],
   "deva-deha": [
@@ -18474,6 +18697,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -18557,6 +18785,20 @@
     {
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "dhātavaḥ": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "dhātu": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -18761,6 +19003,13 @@
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
+    }
+  ],
+  "dvādaśāyatanāni": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
     }
   ],
   "dvādaśāṅga": [
@@ -19074,6 +19323,13 @@
       "religion": "兩河"
     }
   ],
+  "folk literature": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
+    }
+  ],
   "folk magic": [
     {
       "slug": "carmina-gadelica-2",
@@ -19384,6 +19640,13 @@
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "grāhya-grāhaka": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     }
   ],
   "guru": [
@@ -19802,6 +20065,13 @@
       "religion": "基督教"
     }
   ],
+  "honestas": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "honor": [
     {
       "slug": "sefaria-rashba-on-megillah",
@@ -20151,6 +20421,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     },
     {
       "slug": "ramanuja-vedarthasamgraha",
@@ -20680,6 +20955,13 @@
       "religion": "印度教"
     }
   ],
+  "kārya-kāraṇa": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
   "kūrma": [
     {
       "slug": "agni-purana",
@@ -20718,6 +21000,13 @@
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
       "religion": "印度教"
+    }
+  ],
+  "kṣaṇa": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
     }
   ],
   "kṣaṇikatva": [
@@ -21024,6 +21313,11 @@
       "slug": "bud-lankavatara-sa",
       "name_zh": "楞伽經（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     }
   ],
   "mahāmatta": [
@@ -21706,6 +22000,13 @@
       "religion": "印度教"
     }
   ],
+  "mātṛkā": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "māyā": [
     {
       "slug": "brahma-purana",
@@ -21994,6 +22295,13 @@
       "religion": "耆那教"
     }
   ],
+  "nyāyâvatāra": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
   "nāda": [
     {
       "slug": "shiva-puja-stava",
@@ -22067,6 +22375,13 @@
       "religion": "印度教"
     }
   ],
+  "officium": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ogha": [
     {
       "slug": "sn1-devata",
@@ -22101,6 +22416,11 @@
     }
   ],
   "oratio": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
@@ -22470,6 +22790,13 @@
       "religion": "佛教"
     }
   ],
+  "pañcaskandhāḥ": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "pañcaviṃśa": [
     {
       "slug": "shankhayana-aranyaka",
@@ -22618,6 +22945,11 @@
     }
   ],
   "philosophia": [
+    {
+      "slug": "cicero-de-officiis-la",
+      "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
@@ -22861,6 +23193,11 @@
   ],
   "pramāṇa": [
     {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
@@ -22883,6 +23220,18 @@
       "slug": "bud-vigrahavyavartani-sa",
       "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
+  "pratyaksa": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     }
   ],
   "pratyakṣa": [
@@ -23722,6 +24071,20 @@
       "religion": "佛教"
     }
   ],
+  "rājaśāsana": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
+  "rājā": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "rāma": [
     {
       "slug": "agni-purana",
@@ -23750,11 +24113,25 @@
       "religion": "佛教"
     }
   ],
+  "rūpa": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "sabbaṁ kammāni ācarin": [
     {
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
+    }
+  ],
+  "sabhya": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
     }
   ],
   "sac-cid-ānanda": [
@@ -23783,6 +24160,13 @@
       "slug": "augustine-confessiones-la",
       "name_zh": "懺悔錄（拉丁原文）",
       "religion": "基督教"
+    }
+  ],
+  "sacred-texts": [
+    {
+      "slug": "yaqui-myths",
+      "name_zh": "雅基神話與傳說",
+      "religion": "美洲"
     }
   ],
   "sacred-texts.com": [
@@ -24258,6 +24642,13 @@
       "religion": "佛教"
     }
   ],
+  "saṃjñā": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "saṃkleśa": [
     {
       "slug": "bud-madhyantavibhaga-sa",
@@ -24273,6 +24664,11 @@
     }
   ],
   "saṃskāra": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-shunyatasaptati-sa",
       "name_zh": "七十空性論（梵文）",
@@ -24489,6 +24885,20 @@
       "religion": "印度教"
     }
   ],
+  "siddharṣi-gaṇi": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
+  "siddhasena": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
   "siddhayogeśvarī": [
     {
       "slug": "malinivijayottara-tantra",
@@ -24514,6 +24924,13 @@
     {
       "slug": "bud-yuktisastika-sa",
       "name_zh": "六十如理論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "skandhās": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -24801,6 +25218,20 @@
       "religion": "耆那教"
     }
   ],
+  "sādṛśya": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
+  "sākṣin": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "sāmānya": [
     {
       "slug": "tarka-samgraha",
@@ -25003,6 +25434,13 @@
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
       "religion": "印度教"
+    }
+  ],
+  "tarka": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     }
   ],
   "tat tvam asi": [
@@ -25544,6 +25982,11 @@
   ],
   "upādāna": [
     {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
@@ -25705,6 +26148,11 @@
   ],
   "vedanā": [
     {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
@@ -25815,6 +26263,11 @@
     }
   ],
   "vijñāna": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "bud-lankavatara-sa",
       "name_zh": "楞伽經（梵文）",
@@ -26034,6 +26487,13 @@
       "religion": "印度教"
     }
   ],
+  "vivāda": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
+    }
+  ],
   "vivāha": [
     {
       "slug": "ashvalayana-grhyasutra",
@@ -26044,6 +26504,13 @@
       "slug": "shankhayana-grhyasutra",
       "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
+    }
+  ],
+  "vivṛti": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
     }
   ],
   "viññāṇa": [
@@ -26112,6 +26579,13 @@
       "slug": "seneca-de-vita-beata-la",
       "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "vyavahāra": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
+      "religion": "印度教"
     }
   ],
   "vyāhṛti": [
@@ -26912,6 +27386,13 @@
       "religion": "印度教"
     }
   ],
+  "ākāra": [
+    {
+      "slug": "jain-nyayavatara-sa",
+      "name_zh": "入正理論（梵文原文，含註）",
+      "religion": "耆那教"
+    }
+  ],
   "ākāśa": [
     {
       "slug": "brahmabindu-upanishad",
@@ -27061,6 +27542,13 @@
       "slug": "shivasankalpa-upanishad",
       "name_zh": "濕婆意願奧義書",
       "religion": "印度教"
+    }
+  ],
+  "āyatanāni": [
+    {
+      "slug": "bud-abhidharmasamuccaya-sa",
+      "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
     }
   ],
   "āśrama": [
@@ -30279,6 +30767,13 @@
     {
       "slug": "harivamsha",
       "name_zh": "訶利世系",
+      "religion": "印度教"
+    }
+  ],
+  "ṛṇādāna": [
+    {
+      "slug": "narada-smrti",
+      "name_zh": "那羅陀法論",
       "religion": "印度教"
     }
   ],
