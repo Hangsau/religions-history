@@ -21,5 +21,61 @@
   "tier": "次要",
   "notes": "塞內卡 3 卷論憤怒之害與克制之道，斯多噶情緒治療（therapy of passions）代表作",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "asceticism",
+    "breath-control",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-transcendence",
+    "essentially-flawed",
+    "essentially-good",
+    "extinction-of-self",
+    "forgiveness",
+    "four-noble-truths",
+    "humility",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-violence",
+    "polytheist",
+    "ritual-practice",
+    "secular-state",
+    "self-effort",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "ira",
+    "Novatus",
+    "Seneca",
+    "insania",
+    "furor",
+    "libido",
+    "metus",
+    "audacia",
+    "adfectus",
+    "virtus",
+    "vitium",
+    "Posidonius",
+    "Aristoteles",
+    "cupiditas ulciscendae iniuriae",
+    "inpatientia"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "emotions-passions",
+    "evil-cruelty-empathy",
+    "meaning-of-suffering",
+    "patience-waiting"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f1273a894d5d07ba83be5a2c54234ea4dbbbe9adc2fe3fa7abb079d07470dcaf"
+  },
+  "tagging_models": "MiniMax-M3"
 }

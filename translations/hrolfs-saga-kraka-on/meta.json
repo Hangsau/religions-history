@@ -19,5 +19,61 @@
   "tier": "次要",
   "notes": "《赫羅爾夫·克拉基薩迦》古諾斯語原文，丹麥傳奇王與其勇士團，與 Beowulf 共享 Hrothgar 傳統。",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "ancestor-worship",
+    "chaos-to-order",
+    "divine-kingship",
+    "lineage-importance",
+    "marriage-sacred",
+    "multiple-souls",
+    "oral-tradition",
+    "other-power",
+    "patriarchal",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "spirit-possession",
+    "theocracy",
+    "theodicy",
+    "theophany",
+    "tribal-traditional",
+    "truthfulness"
+  ],
+  "keywords": [
+    "Hálfdan",
+    "Fróði",
+    "Helgi",
+    "Hróarr",
+    "Reginn",
+    "Vífill",
+    "Danmörk",
+    "trúnaðareiðr",
+    "konungr",
+    "brenna",
+    "fólki-flýja",
+    "Hopp",
+    "Hó",
+    "fylgjur",
+    "galdramenn"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "78c211222a8ec67b77ee5bdb46d55dd0cf3de74cfd90897ac03b15f468734de2"
+  },
+  "tagging_models": "MiniMax-M3"
 }
