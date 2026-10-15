@@ -21,5 +21,61 @@
   "tier": "次要",
   "notes": "《同盟者薩迦》古諾斯語原文，諷刺八酋長結盟訟事的短家族薩迦。is.wikisource 逐章子頁。",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-transcendence",
+    "economic-justice",
+    "lineage-importance",
+    "marriage-sacred",
+    "mystical-union",
+    "oral-tradition",
+    "patriarchal",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "secular-state",
+    "sin-as-disobedience",
+    "theocracy",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Ófeigur",
+    "Oddur",
+    "Gunnlaug",
+    "Miðfjörður",
+    "Reykjir",
+    "Vali",
+    "Skíðason",
+    "Vatnsnes",
+    "Strandir",
+    "kaupferð",
+    "knörr",
+    "ferja",
+    "höfðingjar",
+    "ætt",
+    "vinsæll"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ab71d513528fc492d9fee5a2c50dbc983aee31c0ec9e50c4d10007bfac538599"
+  },
+  "tagging_models": "MiniMax-M3"
 }

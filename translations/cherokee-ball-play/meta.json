@@ -19,5 +19,56 @@
   "verified": true,
   "tier": "次要",
   "is_original_language": false,
-  "notes": null
+  "notes": null,
+  "semantic_tags": [
+    "ancestor-worship",
+    "chanting",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "fasting",
+    "goddess-tradition",
+    "heaven-hell",
+    "oral-tradition",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "theodicy",
+    "tribal-traditional",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Cherokee",
+    "ball play",
+    "James Mooney",
+    "American Anthropologist",
+    "hickory staff",
+    "bear sinew",
+    "Pontiac",
+    "Fort Mackinaw",
+    "Ojibwa",
+    "La Crosse",
+    "Raquette",
+    "tribal championship",
+    "Native American",
+    "hickory sticks",
+    "Holston river"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "play-laughter-lightness"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b9c083502046e5007d58a2c3e6df7397152baa00169bd740554324eeb376fa97"
+  },
+  "tagging_models": "MiniMax-M3"
 }

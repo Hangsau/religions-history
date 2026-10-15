@@ -19,5 +19,61 @@
   "tier": "次要",
   "notes": "《赫爾沃爾與海德雷克薩迦》古諾斯語原文，傳奇薩迦，含詛咒魔劍 Tyrfingr 與謎語競賽（Heiðreksgátur）。",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "ancestor-worship",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "divine-transcendence",
+    "feminine-divine",
+    "lineage-importance",
+    "marriage-sacred",
+    "oral-tradition",
+    "other-power",
+    "patriarchal",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "suffering-as-purifying",
+    "theocracy",
+    "theodicy",
+    "theophany",
+    "tribal-traditional",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Tyrfingr",
+    "Sigrlami",
+    "Arngrímr",
+    "Angantýr",
+    "Hervarðr",
+    "Hjálmarr",
+    "dvergar",
+    "berserkir",
+    "Garðaríki",
+    "Uppsala",
+    "bragarfull",
+    "heitstrenging",
+    "Eyfura",
+    "Haddingjar",
+    "öldungssögur"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death",
+    "loss-grief",
+    "responsibility-leadership"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "b9cba923ac2b906377f238458f4a9d9e0a63565d77ea76ca05b93ceba2f1f21a"
+  },
+  "tagging_models": "MiniMax-M3"
 }

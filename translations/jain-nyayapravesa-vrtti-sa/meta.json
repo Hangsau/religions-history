@@ -19,5 +19,49 @@
   "tier": "次要",
   "notes": "耆那阿闍梨訶利跋陀羅為陳那《因明入正理論》所作疏釋，耆那量論傳統釋經文本",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-dual",
+    "non-violence",
+    "ritual-practice",
+    "study",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "nyāyapraveśa",
+    "Haribhadrasūri",
+    "sādhana",
+    "dūṣaṇa",
+    "pratyakṣa",
+    "anumāna",
+    "parasaṃvit",
+    "jineśvara",
+    "sarvajña",
+    "pravṛtti",
+    "padārtha",
+    "vākyārtha",
+    "ātmasaṃvit",
+    "samyagjñāna",
+    "sattvānukampā"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "honesty-hypocrisy",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "5b74f09ff7a11df25b64697f5587e84b2eb65c686bf5235ac92051d785a73c09"
+  },
+  "tagging_models": "MiniMax-M3"
 }
