@@ -1302,6 +1302,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "svacchanda-tantra",
+      "name_zh": "自在坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
       "religion": "印度教"
@@ -2063,6 +2068,11 @@
     {
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "apastamba-shulbasutra",
+      "name_zh": "阿波斯檀波繩法經",
       "religion": "印度教"
     },
     {
@@ -8556,6 +8566,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kwakiutl-tales",
+      "name_zh": "夸夸嘉夸族傳說 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
@@ -9094,6 +9109,11 @@
       "slug": "sun-dance-ceremonies",
       "name_zh": "太陽舞與其他儀式 (Oglala Sioux)",
       "religion": "美洲"
+    },
+    {
+      "slug": "svacchanda-tantra",
+      "name_zh": "自在坦特羅",
+      "religion": "印度教"
     },
     {
       "slug": "tain-bo-cuailnge-ga",
@@ -12233,6 +12253,11 @@
     {
       "slug": "angirasa-smrti",
       "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
+    {
+      "slug": "apastamba-shulbasutra",
+      "name_zh": "阿波斯檀波繩法經",
       "religion": "印度教"
     },
     {
@@ -17181,6 +17206,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kwakiutl-tales",
+      "name_zh": "夸夸嘉夸族傳說 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "laozi-xianger-zhu",
       "name_zh": "老子想爾注",
       "religion": "道教"
@@ -17711,6 +17741,16 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-works",
+      "name_zh": "索福克里斯戲劇",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sturlunga-saga-on",
+      "name_zh": "斯圖爾隆加薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "sun-dance-ceremonies",
       "name_zh": "太陽舞與其他儀式 (Oglala Sioux)",
       "religion": "美洲"
@@ -17719,6 +17759,11 @@
       "slug": "sutta-nipata",
       "name_zh": "經集",
       "religion": "佛教"
+    },
+    {
+      "slug": "svacchanda-tantra",
+      "name_zh": "自在坦特羅",
+      "religion": "印度教"
     },
     {
       "slug": "taiji-tushuo",
@@ -28268,6 +28313,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kwakiutl-tales",
+      "name_zh": "夸夸嘉夸族傳說 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "laozi-heshanggong",
       "name_zh": "老子河上公章句",
       "religion": "道教"
@@ -28868,9 +28918,19 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-works",
+      "name_zh": "索福克里斯戲劇",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "splendour-of-god",
       "name_zh": "上帝的光輝 (巴哈歐拉著作節錄)",
       "religion": "巴哈伊"
+    },
+    {
+      "slug": "sturlunga-saga-on",
+      "name_zh": "斯圖爾隆加薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "sukhmani-sahib-pa",
@@ -34115,6 +34175,11 @@
     {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-works",
+      "name_zh": "索福克里斯戲劇",
       "religion": "古希臘羅馬"
     },
     {
@@ -40065,6 +40130,11 @@
       "religion": "現代新興"
     },
     {
+      "slug": "sturlunga-saga-on",
+      "name_zh": "斯圖爾隆加薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
@@ -41536,6 +41606,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kwakiutl-tales",
+      "name_zh": "夸夸嘉夸族傳說 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
@@ -41713,6 +41788,11 @@
     {
       "slug": "sophocles-oedipus-colonus-el",
       "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "sophocles-works",
+      "name_zh": "索福克里斯戲劇",
       "religion": "古希臘羅馬"
     },
     {
@@ -50332,6 +50412,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "sophocles-works",
+      "name_zh": "索福克里斯戲劇",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "studies-in-the-scriptures-1",
       "name_zh": "聖經研究 第一卷：諸世代的神聖計畫（Russell）",
       "religion": "現代新興"
@@ -51338,6 +51423,11 @@
     }
   ],
   "perfectionism-self-criticism": [
+    {
+      "slug": "apastamba-shulbasutra",
+      "name_zh": "阿波斯檀波繩法經",
+      "religion": "印度教"
+    },
     {
       "slug": "cbeta-T01n0011",
       "name_zh": "尼拘陀梵志經",
@@ -52361,6 +52451,11 @@
       "slug": "shuoyuan",
       "name_zh": "說苑",
       "religion": "儒教"
+    },
+    {
+      "slug": "sturlunga-saga-on",
+      "name_zh": "斯圖爾隆加薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "tain-bo-cuailnge-ga",
@@ -55915,6 +56010,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "svacchanda-tantra",
+      "name_zh": "自在坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
@@ -56592,6 +56692,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kwakiutl-tales",
+      "name_zh": "夸夸嘉夸族傳說 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "maidu-texts",
       "name_zh": "邁杜文本 (Dixon)",
       "religion": "美洲"
@@ -56670,6 +56775,11 @@
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
+    },
+    {
+      "slug": "sturlunga-saga-on",
+      "name_zh": "斯圖爾隆加薩迦（古諾斯語原文）",
+      "religion": "北歐"
     },
     {
       "slug": "tertullian-de-praescriptione-la",
@@ -61864,6 +61974,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "svacchanda-tantra",
+      "name_zh": "自在坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "taiji-tushuo",
       "name_zh": "太極圖說",
       "religion": "儒教"
@@ -62144,6 +62259,11 @@
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
+    },
+    {
+      "slug": "apastamba-shulbasutra",
+      "name_zh": "阿波斯檀波繩法經",
+      "religion": "印度教"
     },
     {
       "slug": "aristophanes-frogs-el",
@@ -65787,6 +65907,11 @@
     }
   ],
   "work-money": [
+    {
+      "slug": "apastamba-shulbasutra",
+      "name_zh": "阿波斯檀波繩法經",
+      "religion": "印度教"
+    },
     {
       "slug": "brhaspati-smrti-vyavahara",
       "name_zh": "祭主法論·訴訟篇",
