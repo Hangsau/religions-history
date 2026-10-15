@@ -1258,6 +1258,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -1311,6 +1316,11 @@
       "slug": "duren-jing",
       "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -1471,6 +1481,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -2285,6 +2300,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -2333,6 +2353,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "engishiki-jingi-zh",
@@ -2443,6 +2468,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "itivuttaka",
@@ -3532,6 +3562,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
@@ -3555,6 +3590,11 @@
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "joel",
@@ -3871,6 +3911,11 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -5224,6 +5269,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
       "religion": "佛教"
@@ -5292,6 +5342,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kirana-tantra",
@@ -5724,6 +5779,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -6246,6 +6306,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -6319,6 +6384,11 @@
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-uttaradhyayana-pkt",
@@ -6690,6 +6760,11 @@
     {
       "slug": "bud-abhidharmasamuccaya-sa",
       "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -9268,6 +9343,11 @@
     {
       "slug": "bud-abhidharmasamuccaya-sa",
       "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -16543,6 +16623,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -17235,6 +17320,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-divinatione-la",
       "name_zh": "論占卜（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -17278,6 +17368,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "enuma-elish-stc",
@@ -17398,6 +17493,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jicarilla-apache-texts",
@@ -18064,6 +18164,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -21487,6 +21592,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -21560,6 +21670,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "ekottarikagama",
@@ -21780,6 +21895,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -22741,6 +22861,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -26839,6 +26964,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -26934,6 +27064,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -26997,6 +27132,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -27738,6 +27878,11 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -35836,6 +35981,11 @@
       "religion": "道教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "key-of-gold-czech-tales",
       "name_zh": "金鑰匙：捷克民間故事",
       "religion": "斯拉夫"
@@ -37595,6 +37745,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "cabala-mathers",
       "name_zh": "卡巴拉 (Mathers 譯)",
       "religion": "猶太教"
@@ -37990,6 +38145,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
@@ -38033,6 +38193,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-uttaradhyayana-pkt",
@@ -38550,6 +38715,16 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kurma-purana",
@@ -39164,6 +39339,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -39212,6 +39392,11 @@
       "slug": "duren-jing",
       "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "enuma-elish-stc",
@@ -39274,9 +39459,19 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kirana-tantra",
@@ -40001,6 +40196,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-2",
       "name_zh": "歷代志下",
       "religion": "猶太教"
@@ -40044,6 +40244,11 @@
       "slug": "duren-jing",
       "name_zh": "靈寶無量度人上品妙經",
       "religion": "道教"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "engishiki-jingi-zh",
@@ -40111,6 +40316,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
@@ -40119,6 +40329,11 @@
       "slug": "jin-si-lu",
       "name_zh": "近思錄",
       "religion": "儒教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kings-2",
@@ -40695,6 +40910,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -41813,6 +42033,11 @@
       "religion": "瑪雅"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-divinatione-la",
       "name_zh": "論占卜（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -41851,6 +42076,11 @@
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "er-ya",
@@ -42553,6 +42783,11 @@
       "slug": "cbeta-X14n0298",
       "name_zh": "楞嚴經直解",
       "religion": "佛教"
+    },
+    {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
     },
     {
       "slug": "code-of-handsome-lake",
@@ -44187,6 +44422,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chuanxi-lu",
       "name_zh": "傳習錄",
       "religion": "儒教"
@@ -44245,6 +44485,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "epictetus-enchiridion-el",
@@ -44392,6 +44637,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -44435,6 +44685,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -46384,6 +46639,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -46456,6 +46716,11 @@
     {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -46632,6 +46897,11 @@
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-dhurtakhyana-pkt",
@@ -47484,6 +47754,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -48401,6 +48676,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
       "religion": "古希臘羅馬"
@@ -48536,6 +48816,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-dhurtakhyana-pkt",
       "name_zh": "騙徒故事（俗語原文）",
       "religion": "耆那教"
@@ -48594,6 +48879,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -49905,6 +50195,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-officiis-la",
       "name_zh": "論義務（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -49963,6 +50258,11 @@
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jiayi-xinshu",
@@ -50200,6 +50500,11 @@
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -52097,6 +52402,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -52421,6 +52731,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -56798,6 +57113,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -64428,6 +64748,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "key-of-gold-czech-tales",
       "name_zh": "金鑰匙：捷克民間故事",
       "religion": "斯拉夫"
@@ -66247,6 +66572,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-divinatione-la",
       "name_zh": "論占卜（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -66606,6 +66936,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -69229,6 +69564,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "kirana-tantra",
       "name_zh": "光線怛特羅",
       "religion": "印度教"
@@ -69871,6 +70211,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "creation-myths-primitive-america",
       "name_zh": "原始美洲創世神話 (Curtin)",
       "religion": "美洲"
@@ -69944,6 +70289,11 @@
       "slug": "jonah",
       "name_zh": "約拿書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kitab-i-iqan-ighan",
@@ -70488,6 +70838,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -70511,6 +70866,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "euripides-bacchae-el",
@@ -70596,6 +70956,11 @@
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -71245,6 +71610,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "kings-2",
       "name_zh": "列王紀下",
       "religion": "猶太教"
@@ -71539,6 +71909,11 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -75484,6 +75859,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "euripides-hippolytus-el",
       "name_zh": "希波呂托斯（希臘原文）",
       "religion": "古希臘羅馬"
@@ -75532,6 +75912,11 @@
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "kirana-tantra",
@@ -77126,6 +77511,11 @@
       "slug": "joel",
       "name_zh": "約珥書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kings-2",
@@ -78935,6 +79325,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -79000,6 +79395,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
       "religion": "佛教"
@@ -79023,6 +79423,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -80934,6 +81339,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -81107,6 +81517,11 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -81776,6 +82191,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "guliang-zhuan",
       "name_zh": "春秋穀梁傳",
       "religion": "儒教"
@@ -81990,6 +82410,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -86195,6 +86620,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
@@ -89174,6 +89604,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -95212,6 +95647,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "folk-tales-from-russian",
       "name_zh": "俄羅斯民間故事",
       "religion": "斯拉夫"
@@ -95267,6 +95707,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
       "religion": "佛教"
@@ -95280,6 +95725,11 @@
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -95751,6 +96201,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -101604,6 +102059,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
       "religion": "古希臘羅馬"
@@ -101677,6 +102137,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "itivuttaka",
@@ -101762,6 +102227,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -102428,6 +102898,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -105931,6 +106406,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "folk-tales-from-russian",
       "name_zh": "俄羅斯民間故事",
       "religion": "斯拉夫"
@@ -105994,6 +106474,11 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -106410,6 +106895,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -109193,6 +109683,11 @@
       "religion": "瑪雅"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -111452,6 +111947,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-officiis-la",
       "name_zh": "論義務（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -111595,6 +112095,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jicarilla-apache-texts",
@@ -112146,6 +112651,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -118599,6 +119109,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "kirana-tantra",
       "name_zh": "光線怛特羅",
       "religion": "印度教"
@@ -120185,6 +120700,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -129288,6 +129808,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "kirana-tantra",
       "name_zh": "光線怛特羅",
       "religion": "印度教"
@@ -132270,6 +132795,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -132368,6 +132898,11 @@
       "slug": "judges",
       "name_zh": "士師記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kings-1",
@@ -132924,6 +133459,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -135132,6 +135672,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -135546,6 +136091,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -136134,6 +136684,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -136161,6 +136716,11 @@
     {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -136663,6 +137223,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -142011,6 +142576,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -142106,6 +142676,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-nyayavatara-sa",
       "name_zh": "入正理論（梵文原文，含註）",
       "religion": "耆那教"
@@ -142149,6 +142724,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -142890,6 +143470,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -147472,6 +148057,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
@@ -150614,6 +151204,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-legibus-la",
       "name_zh": "論法律（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -150657,6 +151252,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "epic-of-gilgamesh-st",
@@ -150807,6 +151407,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-dhurtakhyana-pkt",
@@ -151421,6 +152026,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
@@ -151575,6 +152185,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -157463,6 +158078,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-divinatione-la",
       "name_zh": "論占卜（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -157485,6 +158105,11 @@
     {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -157553,6 +158178,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
       "religion": "佛教"
@@ -157566,6 +158196,11 @@
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -158155,6 +158790,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-legibus-la",
       "name_zh": "論法律（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -158273,6 +158913,11 @@
       "slug": "hrolfs-saga-kraka-on",
       "name_zh": "赫羅爾夫·克拉基薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jiayi-xinshu",
@@ -160594,6 +161239,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -160646,6 +161296,11 @@
     {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -160797,6 +161452,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-dhurtakhyana-pkt",
@@ -164001,6 +164661,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -164064,6 +164729,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "engishiki-jingi-zh",
@@ -164201,6 +164871,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -164224,6 +164899,11 @@
       "slug": "kangcangzi",
       "name_zh": "亢倉子",
       "religion": "道教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -166738,6 +167418,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -166801,6 +167486,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "engishiki-jingi-zh",
@@ -166898,6 +167588,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jiayi-xinshu",
       "name_zh": "新書",
       "religion": "儒教"
@@ -166916,6 +167611,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kings-1",
@@ -167880,6 +168580,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -168510,6 +169215,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -169642,6 +170352,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jeremiah",
       "name_zh": "耶利米書",
       "religion": "猶太教"
@@ -170623,6 +171338,11 @@
     {
       "slug": "bud-abhidharmasamuccaya-sa",
       "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -172326,6 +173046,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "contemplation-sutra",
       "name_zh": "佛說觀無量壽佛經",
       "religion": "佛教"
@@ -172369,6 +173094,11 @@
       "slug": "harivamsha",
       "name_zh": "訶利世系",
       "religion": "印度教"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "itivuttaka",
@@ -173313,6 +174043,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-sutrakrtanga-pkt",
       "name_zh": "修多羅經（半摩揭陀原文）",
       "religion": "耆那教"
@@ -173321,6 +174056,11 @@
       "slug": "katha-upanishad",
       "name_zh": "迦塔奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kings-2",
@@ -173822,6 +174562,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -183220,6 +183965,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -183322,6 +184072,11 @@
     {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -183535,6 +184290,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
       "religion": "佛教"
@@ -183608,6 +184368,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -184724,6 +185489,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -188577,6 +189347,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -188639,6 +189414,11 @@
     {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -188782,6 +189562,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
       "religion": "耆那教"
@@ -188830,6 +189615,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -190719,6 +191509,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "esther",
       "name_zh": "以斯帖記",
       "religion": "猶太教"
@@ -190757,6 +191552,11 @@
       "slug": "heroic-ballads-servia",
       "name_zh": "塞爾維亞英雄敘事詩",
       "religion": "斯拉夫"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "kings-2",
@@ -191995,6 +192795,11 @@
     {
       "slug": "bud-buddhacarita-sa",
       "name_zh": "佛所行讚（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -197168,6 +197973,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "key-of-gold-czech-tales",
       "name_zh": "金鑰匙：捷克民間故事",
       "religion": "斯拉夫"
@@ -197842,6 +198652,11 @@
     {
       "slug": "bud-abhidharmasamuccaya-sa",
       "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -198588,6 +199403,11 @@
       "slug": "hrolfs-saga-kraka-on",
       "name_zh": "赫羅爾夫·克拉基薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-dasavaikalika-pkt",
@@ -200767,6 +201587,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ercheng-yishu",
       "name_zh": "二程遺書",
       "religion": "儒教"
@@ -200882,6 +201707,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-dhurtakhyana-pkt",
       "name_zh": "騙徒故事（俗語原文）",
       "religion": "耆那教"
@@ -200925,6 +201755,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -202584,6 +203419,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-divinatione-la",
       "name_zh": "論占卜（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -202712,6 +203552,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jicarilla-apache-texts",
@@ -204116,6 +204961,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
@@ -204555,6 +205405,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -207743,6 +208598,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-officiis-la",
       "name_zh": "論義務（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -207771,6 +208631,11 @@
       "slug": "ecclesiastes",
       "name_zh": "傳道書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "euripides-hippolytus-el",
@@ -207853,6 +208718,11 @@
       "religion": "道教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
       "religion": "佛教"
@@ -207901,6 +208771,11 @@
       "slug": "josephus-works",
       "name_zh": "約瑟夫斯著作",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -211037,6 +211912,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -211140,6 +212020,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jain-dhurtakhyana-pkt",
@@ -211632,6 +212517,11 @@
       "slug": "cbeta-T53n2122",
       "name_zh": "法苑珠林",
       "religion": "佛教"
+    },
+    {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
     },
     {
       "slug": "chronicles-1",
@@ -212726,6 +213616,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -212794,6 +213689,11 @@
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jiayi-xinshu",
@@ -214218,6 +215118,11 @@
       "religion": "道教"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "engishiki-jingi-zh",
       "name_zh": "延喜式·神祇式（漢文原文，卷一至十）",
       "religion": "神道"
@@ -214311,6 +215216,11 @@
       "slug": "iroquois-book-of-rites",
       "name_zh": "易洛魁儀禮之書 (Hale)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jiayi-xinshu",
@@ -216795,6 +217705,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -216868,6 +217783,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "epic-of-gilgamesh-st",
@@ -217020,6 +217940,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-dhurtakhyana-pkt",
       "name_zh": "騙徒故事（俗語原文）",
       "religion": "耆那教"
@@ -217068,6 +217993,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -217974,6 +218904,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -220517,6 +221452,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -220574,6 +221514,11 @@
     {
       "slug": "egyptian-heaven-and-hell",
       "name_zh": "埃及的天堂與地獄",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
     },
     {
@@ -220752,6 +221697,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
+    },
+    {
       "slug": "jain-dhurtakhyana-pkt",
       "name_zh": "騙徒故事（俗語原文）",
       "religion": "耆那教"
@@ -220775,6 +221725,11 @@
       "slug": "joshua",
       "name_zh": "約書亞記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -221749,6 +222704,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chronicles-1",
       "name_zh": "歷代志上",
       "religion": "猶太教"
@@ -221907,6 +222867,11 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jicarilla-apache-texts",
@@ -222468,6 +223433,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -227266,6 +228236,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "chuanxi-lu",
       "name_zh": "傳習錄",
       "religion": "儒教"
@@ -227334,6 +228309,11 @@
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
     },
     {
       "slug": "epictetus-enchiridion-el",
@@ -227604,6 +228584,11 @@
       "slug": "katyayana-smrti",
       "name_zh": "迦旃延那法論",
       "religion": "印度教"
+    },
+    {
+      "slug": "kempis-imitatio-christi-la",
+      "name_zh": "效法基督（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "key-of-gold-czech-tales",
@@ -228620,6 +229605,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -232418,6 +233408,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
@@ -232566,6 +233561,11 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "itivuttaka",
@@ -233705,6 +234705,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "egyptian-ideas-future-life",
+      "name_zh": "埃及人的來世觀",
+      "religion": "古埃及"
+    },
+    {
       "slug": "kitab-i-iqan-ighan",
       "name_zh": "篤信經（確信之書，Kitáb-i-Íqán）",
       "religion": "巴哈伊"
@@ -233977,6 +234982,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -234231,6 +235241,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-dashabhumika-sa",
+      "name_zh": "十地經（梵文）",
       "religion": "佛教"
     },
     {
@@ -236604,6 +237619,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "chinook-texts",
+      "name_zh": "奇努克文本 (Boas)",
+      "religion": "美洲"
+    },
+    {
       "slug": "cicero-de-divinatione-la",
       "name_zh": "論占卜（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -236747,6 +237767,11 @@
       "slug": "isaiah",
       "name_zh": "以賽亞書",
       "religion": "猶太教"
+    },
+    {
+      "slug": "ishtar-and-izdubar",
+      "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
+      "religion": "兩河"
     },
     {
       "slug": "jeremiah",
