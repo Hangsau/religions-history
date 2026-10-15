@@ -1,0 +1,1247 @@
+{
+ "schema_version": 1,
+ "slug": "theragatha",
+ "chunks_total": 65,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | thag1.1",
+   "last_heading": "9 | thag1.9",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "10 | thag1.10",
+   "last_heading": "20 | thag1.20",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "21 | thag1.21",
+   "last_heading": "33 | thag1.33",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "34 | thag1.34",
+   "last_heading": "45 | thag1.45",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "46 | thag1.46",
+   "last_heading": "58 | thag1.58",
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "59 | thag1.59",
+   "last_heading": "70 | thag1.70",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": "71 | thag1.71",
+   "last_heading": "83 | thag1.83",
+   "semantic_tags": [
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "emotions-passions",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "84 | thag1.84",
+   "last_heading": "96 | thag1.96",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "death",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "97 | thag1.97",
+   "last_heading": "108 | thag1.108",
+   "semantic_tags": [
+    "commentarial-layer",
+    "enlightenment",
+    "extinction-of-self",
+    "monastic",
+    "non-violence",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "illness-body",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": "109 | thag1.109",
+   "last_heading": "119 | thag1.119",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "meditation",
+    "monastic",
+    "other-power",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "120 | thag1.120",
+   "last_heading": "128 | thag2.8",
+   "semantic_tags": [
+    "emptiness",
+    "extinction-of-self",
+    "four-noble-truths",
+    "monastic",
+    "non-dual"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "129 | thag2.9",
+   "last_heading": "137 | thag2.17",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "death",
+    "living-with-unknown",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "138 | thag2.18",
+   "last_heading": "146 | thag2.26",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "illness-body",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "147 | thag2.27",
+   "last_heading": "155 | thag2.35",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "extinction-of-self",
+    "humility",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "fear-uncertainty",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "156 | thag2.36",
+   "last_heading": "163 | thag2.43",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "164 | thag2.44",
+   "last_heading": "171 | thag3.2",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "reincarnation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "172 | thag3.3",
+   "last_heading": "178 | thag3.9",
+   "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "179 | thag3.10",
+   "last_heading": "184 | thag3.15",
+   "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": "185 | thag3.16",
+   "last_heading": "189 | thag4.4",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "190 | thag4.5",
+   "last_heading": "195 | thag4.10",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "196 | thag4.11",
+   "last_heading": "199 | thag5.2",
+   "semantic_tags": [
+    "asceticism",
+    "compassion",
+    "four-noble-truths",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "200 | thag5.3",
+   "last_heading": "204 | thag5.7",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "205 | thag5.8",
+   "last_heading": "208 | thag5.11",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "change-transformation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "209 | thag5.12",
+   "last_heading": "212 | thag6.3",
+   "semantic_tags": [
+    "enlightenment",
+    "grace-from-god",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive",
+    "other-power",
+    "reincarnation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "stillness-rest",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "213 | thag6.4",
+   "last_heading": "216 | thag6.7",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "non-violence",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "217 | thag6.8",
+   "last_heading": "220 | thag6.11",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "illness-body",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": "221 | thag6.12",
+   "last_heading": "224 | thag7.1",
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "death",
+    "emotions-passions",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "225 | thag7.2",
+   "last_heading": "227 | thag7.4",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "228 | thag7.5",
+   "last_heading": "230 | thag8.2",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "emotions-passions",
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "231 | thag8.3",
+   "last_heading": "232 | thag9.1",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "233 | thag10.1",
+   "last_heading": "234 | thag10.2",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "loneliness-belonging",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "235 | thag10.3",
+   "last_heading": "236 | thag10.4",
+   "semantic_tags": [
+    "breath-control",
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "237 | thag10.5",
+   "last_heading": "238 | thag10.6",
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "239 | thag10.7",
+   "last_heading": "240 | thag11.1",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "241 | thag12.1",
+   "last_heading": "242 | thag12.2",
+   "semantic_tags": [
+    "four-noble-truths",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "243 | thag13.1",
+   "last_heading": "244 | thag14.1",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "245 | thag14.2",
+   "last_heading": "245 | thag14.2",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "non-dual",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "246 | thag15.1",
+   "last_heading": "246 | thag15.1",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "247 | thag15.2",
+   "last_heading": "247 | thag15.2",
+   "semantic_tags": [
+    "emptiness",
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "248 | thag16.1",
+   "last_heading": "248 | thag16.1",
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "249 | thag16.2",
+   "last_heading": "249 | thag16.2",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "meditation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "emotions-passions",
+    "insignificance-history",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "250 | thag16.3",
+   "last_heading": "250 | thag16.3",
+   "semantic_tags": [
+    "enlightenment",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "251 | thag16.4",
+   "last_heading": "251 | thag16.4",
+   "semantic_tags": [
+    "asceticism",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "252 | thag16.5",
+   "last_heading": "252 | thag16.5",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "body-mind",
+    "emotions-passions",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "253 | thag16.6",
+   "last_heading": "253 | thag16.6",
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "monastic",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "254 | thag16.7",
+   "last_heading": "254 | thag16.7",
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": "255 | thag16.8",
+   "last_heading": "255 | thag16.8",
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "monastic",
+    "non-violence",
+    "reincarnation",
+    "sin-as-disobedience",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "256 | thag16.9",
+   "last_heading": "256 | thag16.9",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "reincarnation",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "death",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": "257 | thag16.10",
+   "last_heading": "257 | thag16.10",
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "non-violence",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "insignificance-history",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "258 | thag17.1",
+   "last_heading": "258 | thag17.1",
+   "semantic_tags": [
+    "apocalypse",
+    "chanting",
+    "compassion",
+    "liberation-by-works",
+    "meditation",
+    "monastic",
+    "monotheist-exclusive",
+    "ritual-practice",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "259 | thag17.2",
+   "last_heading": "259 | thag17.2",
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "death",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "260 | thag17.3",
+   "last_heading": "260 | thag17.3",
+   "semantic_tags": [
+    "commentarial-layer",
+    "monastic",
+    "monotheist-exclusive",
+    "reincarnation"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "loneliness-belonging",
+    "loss-grief",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "monastic",
+    "monotheist-exclusive"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "261 | thag18.1",
+   "last_heading": "261 | thag18.1",
+   "semantic_tags": [
+    "asceticism",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": "262 | thag19.1",
+   "last_heading": "262 | thag19.1",
+   "semantic_tags": [
+    "asceticism",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "extinction-of-self",
+    "four-noble-truths",
+    "meditation",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "existence-why-born",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "263 | thag20.1",
+   "last_heading": "263 | thag20.1",
+   "semantic_tags": [
+    "asceticism",
+    "enlightenment",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "non-violence",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "death",
+    "insignificance-history",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "monastic",
+    "self-effort",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "liberation-by-knowledge",
+    "mystical-union",
+    "non-dual",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "264 | thag21.1",
+   "last_heading": "264 | thag21.1",
+   "semantic_tags": [
+    "compassion",
+    "extinction-of-self",
+    "four-noble-truths",
+    "liberation-by-knowledge",
+    "meditation",
+    "monastic",
+    "self-effort"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "enlightenment",
+    "four-noble-truths",
+    "lineage-importance",
+    "monastic",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "enlightenment",
+    "extinction-of-self",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "monastic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

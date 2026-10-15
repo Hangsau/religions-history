@@ -48,6 +48,13 @@
       "religion": "古埃及"
     }
   ],
+  "1917": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "1920": [
     {
       "slug": "book-of-kells",
@@ -867,6 +874,13 @@
       "religion": "古埃及"
     }
   ],
+  "Andhaka": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "Angantýr": [
     {
       "slug": "hervarar-saga-on",
@@ -1653,6 +1667,13 @@
       "religion": "巴哈伊"
     }
   ],
+  "B. M. Kulda": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Ba": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -2059,6 +2080,13 @@
       "religion": "印度教"
     }
   ],
+  "Bhalliya": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
+    }
+  ],
   "Bharata": [
     {
       "slug": "valmiki-ramayana",
@@ -2182,6 +2210,13 @@
       "religion": "佛教"
     }
   ],
+  "Bohemia": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Book of Am-Tuat": [
     {
       "slug": "egyptian-heaven-and-hell",
@@ -2229,6 +2264,13 @@
       "slug": "gunnlaugs-saga-on",
       "name_zh": "貢勞格薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "Božena Němcová": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Brahma": [
@@ -2916,6 +2958,11 @@
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "Chinigchinich": [
@@ -3300,6 +3347,13 @@
       "religion": "基督教"
     }
   ],
+  "Czech folk tales": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Cú Chulainn": [
     {
       "slug": "cuchulain-muirthemne",
@@ -3317,6 +3371,13 @@
       "slug": "book-of-kells",
       "name_zh": "凱爾斯之書",
       "religion": "凱爾特"
+    }
+  ],
+  "Dabba": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "Dadistan-i Denig": [
@@ -4706,6 +4767,13 @@
       "religion": "印度教"
     }
   ],
+  "Garutmān": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "Garuḍa": [
     {
       "slug": "garuda-purana",
@@ -5180,6 +5248,13 @@
       "slug": "vulgate-habakkuk",
       "name_zh": "哈巴谷書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Habsburg": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Haddingjar": [
@@ -6569,6 +6644,11 @@
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "Janaka": [
@@ -6923,6 +7003,13 @@
       "religion": "基督教"
     }
   ],
+  "Josef Baudiš": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Joseph Smith": [
     {
       "slug": "book-of-mormon-1830",
@@ -7089,6 +7176,11 @@
   ],
   "Kailāsa": [
     {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "satvata-tantra",
       "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
@@ -7209,6 +7301,13 @@
       "religion": "印度教"
     }
   ],
+  "Kaṅkhārevata": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
+    }
+  ],
   "Kaṇāda": [
     {
       "slug": "vaisheshika-sutra",
@@ -7230,6 +7329,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Ketill": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Ketill Flatnose": [
     {
       "slug": "laxdaela-saga-on",
@@ -7241,6 +7347,13 @@
     {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Ketill raumur": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
       "religion": "北歐"
     }
   ],
@@ -7331,6 +7444,13 @@
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
       "religion": "美洲"
+    }
+  ],
+  "Kirana-tantra": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
     }
   ],
   "Kjöl": [
@@ -8037,6 +8157,13 @@
       "religion": "古埃及"
     }
   ],
+  "Long Count": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
+    }
+  ],
   "Lotus Sutra": [
     {
       "slug": "lotus-sutra",
@@ -8242,6 +8369,13 @@
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
+    }
+  ],
+  "Mahākoṭṭhika": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "Mahākāla": [
@@ -8584,6 +8718,18 @@
       "slug": "chilam-balam",
       "name_zh": "契倫·巴蘭之書 (Chumayel)",
       "religion": "瑪雅"
+    },
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
+    }
+  ],
+  "Maya astronomy": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "Mayapán": [
@@ -8919,6 +9065,13 @@
       "religion": "北歐"
     }
   ],
+  "Mjöll": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Moab": [
     {
       "slug": "vulgate-ruth",
@@ -8978,6 +9131,13 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    }
+  ],
+  "Morley": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "Mormuzd Rassam": [
@@ -9356,6 +9516,13 @@
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
       "religion": "佛教"
+    }
+  ],
+  "Nandikeśvara": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
     }
   ],
   "Nanea": [
@@ -10133,6 +10300,13 @@
       "religion": "北歐"
     }
   ],
+  "Ormr skeljamoli": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Orní": [
     {
       "slug": "ife-mythology",
@@ -10333,6 +10507,13 @@
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
+    }
+  ],
+  "Palenque": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "Pali": [
@@ -10695,6 +10876,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Pilindavaccha": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
+    }
+  ],
   "Pippalāda": [
     {
       "slug": "prashna-upanishad",
@@ -10886,6 +11074,13 @@
       "religion": "印度教"
     }
   ],
+  "Prague University": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Prajapati": [
     {
       "slug": "shankhayana-aranyaka",
@@ -11020,6 +11215,13 @@
       "religion": "基督教"
     }
   ],
+  "Protestantism": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Prudentia": [
     {
       "slug": "vulgate-proverbs",
@@ -11151,6 +11353,13 @@
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
+    }
+  ],
+  "Puṇṇa": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "Pwyll": [
@@ -11430,6 +11639,13 @@
       "religion": "非洲"
     }
   ],
+  "Raumsdal": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Records of Ancient Matters": [
     {
       "slug": "kojiki-chamberlain",
@@ -11647,6 +11863,13 @@
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "Ruskin House": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Russell": [
@@ -12590,6 +12813,13 @@
       "religion": "非洲"
     }
   ],
+  "Slavic folklore": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Snorri Sturluson": [
     {
       "slug": "heimskringla",
@@ -12690,6 +12920,13 @@
       "slug": "denkard-bk-5",
       "name_zh": "Pahlavi Texts Part V (Contents of the Nasks)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Spinden": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "Spirit": [
@@ -12805,6 +13042,13 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Subhūti": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "Sufism": [
@@ -13021,6 +13265,13 @@
       "slug": "samkhya-sutra",
       "name_zh": "數論經",
       "religion": "印度教"
+    }
+  ],
+  "Sītavana": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "Sītā": [
@@ -13328,6 +13579,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "The Twelve Months": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Thebes": [
     {
       "slug": "legends-of-the-gods-egypt",
@@ -13415,6 +13673,11 @@
       "slug": "demotic-magical-papyrus",
       "name_zh": "倫敦與萊頓世俗體魔法紙草",
       "religion": "古埃及"
+    },
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "Thoth": [
@@ -14627,6 +14890,13 @@
       "religion": "北歐"
     }
   ],
+  "Vítazko": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Vóden": [
     {
       "slug": "snorra-edda-on",
@@ -14684,6 +14954,13 @@
       "slug": "samaveda",
       "name_zh": "沙摩吠陀",
       "religion": "印度教"
+    }
+  ],
+  "Vīra": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "W.H.T. Gairdner": [
@@ -16248,6 +16525,13 @@
       "religion": "印度教"
     }
   ],
+  "bhagavan": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "bhagavat": [
     {
       "slug": "bud-lalitavistara-sa",
@@ -16749,6 +17033,13 @@
       "religion": "印度教"
     }
   ],
+  "brahmaviṣṇuloka": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "brahāraññe": [
     {
       "slug": "kn-cariyapitaka",
@@ -16862,6 +17153,13 @@
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
       "religion": "印度教"
+    }
+  ],
+  "calendrics": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "captivitas": [
@@ -16984,6 +17282,13 @@
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
+    }
+  ],
+  "chronology": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "church order": [
@@ -17818,6 +18123,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
     }
   ],
   "dūṣaṇa": [
@@ -18168,6 +18478,20 @@
       "religion": "北歐"
     }
   ],
+  "fylkiskonungar": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
+  "fésköð": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "fólki-flýja": [
     {
       "slug": "hrolfs-saga-kraka-on",
@@ -18490,6 +18814,13 @@
       "religion": "印度教"
     }
   ],
+  "haab": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
+    }
+  ],
   "haereses": [
     {
       "slug": "tertullian-de-praescriptione-la",
@@ -18629,6 +18960,13 @@
       "slug": "vulgate-titus",
       "name_zh": "提多書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "hernaðr": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
     }
   ],
   "hersir": [
@@ -19378,6 +19716,13 @@
       "religion": "北歐"
     }
   ],
+  "kaṅkhā": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
+    }
+  ],
   "kenning": [
     {
       "slug": "poetic-edda-bellows",
@@ -19404,6 +19749,13 @@
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "kin": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "kinsman-redeemer": [
@@ -19503,6 +19855,20 @@
       "slug": "gunnlaugs-saga-on",
       "name_zh": "貢勞格薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "kāla": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    }
+  ],
+  "kālakūṭa": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
     }
   ],
   "kāma": [
@@ -20059,6 +20425,13 @@
       "religion": "基督教"
     }
   ],
+  "manndráp": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "mantra": [
     {
       "slug": "angirasa-smrti",
@@ -20168,6 +20541,13 @@
     {
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
+      "religion": "印度教"
+    }
+  ],
+  "maṅgalaśloka": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
       "religion": "印度教"
     }
   ],
@@ -20766,6 +21146,13 @@
       "religion": "美洲"
     }
   ],
+  "norðan úr Noregi": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "novissimus-dierum": [
     {
       "slug": "vulgate-micah",
@@ -21157,6 +21544,11 @@
     {
       "slug": "sn1-devata",
       "name_zh": "SN1 天人相應 (81 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
       "religion": "佛教"
     }
   ],
@@ -22221,6 +22613,13 @@
       "religion": "基督教"
     }
   ],
+  "překlad": [
+    {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "pūjā": [
     {
       "slug": "matrkabheda-tantra",
@@ -22332,6 +22731,13 @@
       "slug": "seneca-de-vita-beata-la",
       "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "raudra": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
     }
   ],
   "reason and faith": [
@@ -22543,6 +22949,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "key-of-gold-czech-tales",
+      "name_zh": "金鑰匙：捷克民間故事",
+      "religion": "斯拉夫"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -22728,6 +23139,13 @@
       "religion": "印度教"
     }
   ],
+  "samāhita": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
+    }
+  ],
   "sanaka": [
     {
       "slug": "malinivijayottara-tantra",
@@ -22789,6 +23207,13 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    }
+  ],
+  "santusita": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "sanātana": [
@@ -23343,6 +23768,13 @@
     {
       "slug": "utpaladeva-shivastotravali",
       "name_zh": "濕婆讚頌鬘",
+      "religion": "印度教"
+    }
+  ],
+  "stuti": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
       "religion": "印度教"
     }
   ],
@@ -23985,6 +24417,13 @@
       "religion": "北歐"
     }
   ],
+  "tun": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
+    }
+  ],
   "turbinis": [
     {
       "slug": "vulgate-2-kings",
@@ -24077,6 +24516,13 @@
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
+    }
+  ],
+  "uinal": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
     }
   ],
   "uirtus": [
@@ -24244,6 +24690,13 @@
       "religion": "基督教"
     }
   ],
+  "vanskörungur": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "varg í véum": [
     {
       "slug": "volsunga-saga-on",
@@ -24399,10 +24852,24 @@
       "religion": "印度教"
     }
   ],
+  "vigesimal": [
+    {
+      "slug": "maya-hieroglyphic-writing",
+      "name_zh": "瑪雅象形文字書 (節錄)",
+      "religion": "瑪雅"
+    }
+  ],
   "vigrahavyāvartanī": [
     {
       "slug": "bud-vigrahavyavartani-sa",
       "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "vijitāvī": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
       "religion": "佛教"
     }
   ],
@@ -24463,6 +24930,13 @@
       "slug": "jain-sastravarttasamuccaya-sa",
       "name_zh": "諸論義集（梵文原文）",
       "religion": "耆那教"
+    }
+  ],
+  "vimutta": [
+    {
+      "slug": "theragatha",
+      "name_zh": "長老偈",
+      "religion": "佛教"
     }
   ],
   "vimutti": [
@@ -25159,6 +25633,20 @@
       "religion": "北歐"
     }
   ],
+  "Þorstein": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
+  "Þorsteinn": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Þorsteinn Egilsson": [
     {
       "slug": "gunnlaugs-saga-on",
@@ -25259,6 +25747,13 @@
     {
       "slug": "gunnlaugs-saga-on",
       "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "úthlaupsmenn": [
+    {
+      "slug": "vatnsdaela-saga-on",
+      "name_zh": "瓦特斯達拉薩迦",
       "religion": "北歐"
     }
   ],
@@ -25784,6 +26279,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
@@ -25826,6 +26326,13 @@
     {
       "slug": "utpaladeva-shivastotravali",
       "name_zh": "濕婆讚頌鬘",
+      "religion": "印度教"
+    }
+  ],
+  "Śiva-Śakti": [
+    {
+      "slug": "kirana-tantra",
+      "name_zh": "光線怛特羅",
       "religion": "印度教"
     }
   ],
