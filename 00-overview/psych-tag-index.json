@@ -575,6 +575,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sappho-poetry",
+      "name_zh": "莎孚詩集",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "saundarya-lahari",
       "name_zh": "美之波濤",
       "religion": "印度教"
@@ -2024,6 +2029,11 @@
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ashvalayana-grhyasutra",
+      "name_zh": "阿溼縛羅衍那家庭經",
+      "religion": "印度教"
     },
     {
       "slug": "atharvaveda-paippalada",
@@ -8656,6 +8666,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "sappho-poetry",
+      "name_zh": "莎孚詩集",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "saundarya-lahari",
       "name_zh": "美之波濤",
       "religion": "印度教"
@@ -8849,6 +8864,11 @@
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
       "religion": "印度教"
+    },
+    {
+      "slug": "therigatha",
+      "name_zh": "長老尼偈",
+      "religion": "佛教"
     },
     {
       "slug": "thrice-greatest-hermes-1",
@@ -11589,6 +11609,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "jain-dhurtakhyana-pkt",
+      "name_zh": "騙徒故事（俗語原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "joshua",
       "name_zh": "約書亞記",
       "religion": "猶太教"
@@ -11781,9 +11806,19 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "aristophanes-frogs-el",
+      "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ashvalayana-grhyasutra",
+      "name_zh": "阿溼縛羅衍那家庭經",
+      "religion": "印度教"
     },
     {
       "slug": "atharvaveda-paippalada",
@@ -16491,6 +16526,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-dhurtakhyana-pkt",
+      "name_zh": "騙徒故事（俗語原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-sbe22",
       "name_zh": "耆那經典 SBE 22 (Acaranga + Kalpa)",
       "religion": "耆那教"
@@ -17094,6 +17134,11 @@
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "therigatha",
+      "name_zh": "長老尼偈",
+      "religion": "佛教"
     },
     {
       "slug": "thrice-greatest-hermes-1",
@@ -20731,6 +20776,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-dhurtakhyana-pkt",
+      "name_zh": "騙徒故事（俗語原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -21268,8 +21318,18 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "aristophanes-frogs-el",
+      "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ashtavakra-gita",
       "name_zh": "八曲之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ashvalayana-grhyasutra",
+      "name_zh": "阿溼縛羅衍那家庭經",
       "religion": "印度教"
     },
     {
@@ -27195,6 +27255,11 @@
     {
       "slug": "jain-aptamimamsa-sa",
       "name_zh": "可信者審思（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-dhurtakhyana-pkt",
+      "name_zh": "騙徒故事（俗語原文）",
       "religion": "耆那教"
     },
     {
@@ -38110,6 +38175,11 @@
       "religion": "印加"
     },
     {
+      "slug": "aristophanes-frogs-el",
+      "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
       "religion": "古希臘羅馬"
@@ -39159,6 +39229,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "sappho-poetry",
+      "name_zh": "莎孚詩集",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sblgnt-2-timothy",
       "name_zh": "提摩太後書（希臘原文）",
       "religion": "基督教"
@@ -39204,6 +39279,11 @@
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ashvalayana-grhyasutra",
+      "name_zh": "阿溼縛羅衍那家庭經",
+      "religion": "印度教"
     },
     {
       "slug": "bible-1-thessalonians",
@@ -40111,6 +40191,11 @@
       "religion": "斯拉夫"
     },
     {
+      "slug": "therigatha",
+      "name_zh": "長老尼偈",
+      "religion": "佛教"
+    },
+    {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
@@ -40441,6 +40526,11 @@
       "slug": "ruth",
       "name_zh": "路得記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "sappho-poetry",
+      "name_zh": "莎孚詩集",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "saundarya-lahari",
@@ -48472,6 +48562,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "therigatha",
+      "name_zh": "長老尼偈",
+      "religion": "佛教"
+    },
+    {
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
@@ -49049,6 +49144,11 @@
     }
   ],
   "parenthood": [
+    {
+      "slug": "ashvalayana-grhyasutra",
+      "name_zh": "阿溼縛羅衍那家庭經",
+      "religion": "印度教"
+    },
     {
       "slug": "cbeta-T02n0141",
       "name_zh": "佛說阿遬達經",
@@ -54689,6 +54789,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aristophanes-frogs-el",
+      "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristotle-de-anima-el",
       "name_zh": "論靈魂（希臘原文）",
       "religion": "古希臘羅馬"
@@ -59074,6 +59179,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "jain-dhurtakhyana-pkt",
+      "name_zh": "騙徒故事（俗語原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "jain-sbe45",
       "name_zh": "耆那經典 SBE 45 (Uttaradhyayana + Sutrakritanga)",
       "religion": "耆那教"
@@ -59354,6 +59464,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "sappho-poetry",
+      "name_zh": "莎孚詩集",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sblgnt-1-corinthians",
       "name_zh": "哥林多前書（希臘原文）",
       "religion": "基督教"
@@ -59532,6 +59647,11 @@
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
       "religion": "印度教"
+    },
+    {
+      "slug": "therigatha",
+      "name_zh": "長老尼偈",
+      "religion": "佛教"
     },
     {
       "slug": "thrice-greatest-hermes-1",
@@ -59764,6 +59884,11 @@
       "slug": "analects",
       "name_zh": "論語",
       "religion": "儒教"
+    },
+    {
+      "slug": "aristophanes-frogs-el",
+      "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristotle-de-anima-el",

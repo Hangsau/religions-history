@@ -21,5 +21,60 @@
   "tier": "次要",
   "notes": "阿里斯托芬喜劇，狄俄倪索斯下冥府，含厄琉息斯祕儀與來世諷喻",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "against-idolatry",
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "compassion",
+    "divine-immanence",
+    "messianism",
+    "multiple-canons",
+    "mystical-union",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "prophetic-critique",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "temple-centered",
+    "theocracy",
+    "theodicy",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Διόνυσος",
+    "Ἅιδης",
+    "Ξακός",
+    "Εὐριπίδης",
+    "Σοφοκλέης",
+    "Κέρβερος",
+    "Ἀνδρομέδα",
+    "Βάτραχοι",
+    "τραγῳδία",
+    "χορός",
+    "λίμνη",
+    "μύσται",
+    "Ἴακχος",
+    "Πλούτων",
+    "Χάρων"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "575d2dcdfa7a2cd37c248d7d0bf197fc5874ceaa816790d8e58288decce4bf5b"
+  },
+  "tagging_models": "MiniMax-M3"
 }

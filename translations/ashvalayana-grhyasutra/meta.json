@@ -19,5 +19,58 @@
   "tier": "次要",
   "notes": "梨俱吠陀傳承的家庭祭儀經（gṛhyasūtra），規範生命禮儀（saṃskāra）與家庭火祭",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "ancestor-worship",
+    "caste-system",
+    "chanting",
+    "commandments-law",
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "heaven-hell",
+    "lineage-importance",
+    "marriage-sacred",
+    "oral-tradition",
+    "polytheist",
+    "prayer",
+    "priesthood",
+    "reincarnation",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "temple-centered",
+    "theophany"
+  ],
+  "keywords": [
+    "pāka-yajña",
+    "agnihotra",
+    "havis",
+    "ājya",
+    "sviṣṭakṛt",
+    "brahma",
+    "devatā",
+    "pitṛ",
+    "bali",
+    "sthāṇḍila",
+    "pavitra",
+    "caula-karma",
+    "upanayana",
+    "godāna",
+    "vivāha"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7aa442e10c615d1e7bb1c20874a52e1d5ad345fc8f7f8eef0f442f62967c2c0d"
+  },
+  "tagging_models": "MiniMax-M3"
 }

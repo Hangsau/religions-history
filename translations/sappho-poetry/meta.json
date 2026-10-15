@@ -20,5 +20,51 @@
   "tier": "次要",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "semantic_tags": [
+    "awe-fear",
+    "divine-immanence",
+    "feminine-divine",
+    "goddess-tradition",
+    "marriage-sacred",
+    "mystical-union",
+    "oral-tradition",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany"
+  ],
+  "keywords": [
+    "Sappho",
+    "Edwin Marion Cox",
+    "J.B. Hare",
+    "1925",
+    "public domain",
+    "copyright",
+    "Poems of Sappho",
+    "Lesbos",
+    "Mytilene",
+    "Eresus",
+    "Aphrodite",
+    "Charaxus",
+    "Doricha",
+    "Terpander",
+    "Alcaeus"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "loneliness-belonging",
+    "love-sex-intimacy",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2d0875a1a01e808192302401203faa579a7bf75d649d37c4ab1b4b3f23805dae"
+  },
+  "tagging_models": "MiniMax-M3"
 }
