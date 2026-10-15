@@ -1,0 +1,1091 @@
+{
+ "schema_version": 1,
+ "slug": "demotic-magical-papyrus",
+ "chunks_total": 74,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Title Page",
+   "last_heading": "1 | Title Page",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | Preface",
+   "last_heading": "2 | Preface",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 4,
+   "first_heading": "3 | Contents",
+   "last_heading": "3 | Contents",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 5,
+   "first_heading": "4 | Introduction",
+   "last_heading": "4 | Introduction",
+   "semantic_tags": [
+    "multiple-canons",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "multiple-canons",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "sacred-language",
+    "vernacular-translation"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "illness-body",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 16,
+   "first_heading": "5 | Col. I",
+   "last_heading": "5 | Col. I",
+   "semantic_tags": [
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "6 | Col II.",
+   "last_heading": "6 | Col II.",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 19,
+   "first_heading": "7 | Col. III",
+   "last_heading": "7 | Col. III",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "8 | Col. IV.",
+   "last_heading": "8 | Col. IV.",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "9 | Col V.",
+   "last_heading": "9 | Col V.",
+   "semantic_tags": [
+    "mystical-union",
+    "prayer",
+    "ritual-practice",
+    "syncretic",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "10 | Col VI.",
+   "last_heading": "10 | Col VI.",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "11 | Col. VII",
+   "last_heading": "11 | Col. VII",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "12 | Col. VII",
+   "last_heading": "12 | Col. VII",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "13 | Col. IX",
+   "last_heading": "13 | Col. IX",
+   "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "14 | Col. X",
+   "last_heading": "14 | Col. X",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "15 | Col. XI",
+   "last_heading": "15 | Col. XI",
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "16 | Col. XII",
+   "last_heading": "16 | Col. XII",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "17 | Col. XIII",
+   "last_heading": "17 | Col. XIII",
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "freewill-fate-choice",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "18 | Col. XIV",
+   "last_heading": "18 | Col. XIV",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": "19 | Col. XV",
+   "last_heading": "19 | Col. XV",
+   "semantic_tags": [
+    "feminine-divine",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": "20 | Col. XVI",
+   "last_heading": "20 | Col. XVI",
+   "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "21 | Col. XVII",
+   "last_heading": "21 | Col. XVII",
+   "semantic_tags": [
+    "chanting",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "creator-deity",
+    "divine-transcendence",
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "22 | Col. XVIII",
+   "last_heading": "22 | Col. XVIII",
+   "semantic_tags": [
+    "mystical-union",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "23 | Col. XIX",
+   "last_heading": "23 | Col. XIX",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": "24 | Col. XX",
+   "last_heading": "24 | Col. XX",
+   "semantic_tags": [
+    "chanting",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "25 | Col. XXI",
+   "last_heading": "25 | Col. XXI",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "26 | Col. XXII",
+   "last_heading": "26 | Col. XXII",
+   "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "27 | Col. XXIII",
+   "last_heading": "27 | Col. XXIII",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 58,
+   "first_heading": "28 | Col. XXIV",
+   "last_heading": "28 | Col. XXIV",
+   "semantic_tags": [
+    "ancestor-worship",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": "29 | Col. XXV",
+   "last_heading": "29 | Col. XXV",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "30 | Col. XXVI",
+   "last_heading": "30 | Col. XXVI",
+   "semantic_tags": [
+    "multiple-canons",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "31 | Col. XXVII",
+   "last_heading": "31 | Col. XXVII",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "32 | Col. XXVIII",
+   "last_heading": "32 | Col. XXVIII",
+   "semantic_tags": [
+    "mystical-union",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": "33 | Col. XXIX",
+   "last_heading": "33 | Col. XXIX",
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "dreams-unconscious"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "vision-experience"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 66,
+   "first_heading": "34 | Verso Col. I",
+   "last_heading": "37 | Verso Col. IV.",
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "38 | Verso Col. V",
+   "last_heading": "40 | Verso Col. VII",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "illness-body",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "41 | Verso Col. VIII",
+   "last_heading": "45 | Verso Col. XII",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "46 | Verso Col. XIII",
+   "last_heading": "49 | Verso Col. XVI",
+   "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "50 | Verso Col. XVII",
+   "last_heading": "53 | Verso Col. XX",
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "fear-uncertainty",
+    "illness-body",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "54 | Verso Col. XXI",
+   "last_heading": "58 | Verso Col. XXV",
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "59 | Verso Col. XXVI",
+   "last_heading": "64 | Verso Col. XXXI",
+   "semantic_tags": [
+    "chanting",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "65 | Verso Col. XXXII",
+   "last_heading": "66 | Verso Col. XXXIII",
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "67 | Correspondence of Columns",
+   "last_heading": "67 | Correspondence of Columns",
+   "semantic_tags": [],
+   "psych_tags": []
+  }
+ ]
+}

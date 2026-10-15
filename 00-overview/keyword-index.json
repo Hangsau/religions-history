@@ -41,6 +41,13 @@
       "religion": "美洲"
     }
   ],
+  "1904": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "1920": [
     {
       "slug": "book-of-kells",
@@ -799,6 +806,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Amon": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "Amoraim": [
     {
       "slug": "legends-of-the-jews",
@@ -1280,6 +1294,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Ashanti": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
   "Ashem Vohu": [
     {
       "slug": "avesta-sbe04-ae",
@@ -1577,6 +1598,13 @@
       "slug": "jain-dhurtakhyana-pkt",
       "name_zh": "騙徒故事（俗語原文）",
       "religion": "耆那教"
+    }
+  ],
+  "Aṅgiras": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
     }
   ],
   "Aṅguttara Nikāya": [
@@ -2904,6 +2932,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Chinyanja": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
   "Chobar": [
     {
       "slug": "vulgate-ezekiel",
@@ -3006,6 +3041,11 @@
     }
   ],
   "Clarendon Press": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    },
     {
       "slug": "sikh-religion-macauliffe",
       "name_zh": "錫克教（Macauliffe）",
@@ -3503,6 +3543,13 @@
       "slug": "gnostics-and-their-remains",
       "name_zh": "諾斯底與其遺存 (King)",
       "religion": "諾斯底"
+    }
+  ],
+  "Demotic Magical Papyrus": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
     }
   ],
   "Denkard": [
@@ -4244,6 +4291,13 @@
       "religion": "北歐"
     }
   ],
+  "Exeter College": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
   "Eyfura": [
     {
       "slug": "hervarar-saga-on",
@@ -4399,6 +4453,13 @@
       "slug": "miwok-myths",
       "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
+    }
+  ],
+  "Folk-Lore Society": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
     }
   ],
   "Fomoire": [
@@ -4934,6 +4995,20 @@
       "religion": "北歐"
     }
   ],
+  "Grevel": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
+  "Griffith": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "Grjótteigsseli": [
     {
       "slug": "hrafnkels-saga-on",
@@ -5359,6 +5434,13 @@
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
+    }
+  ],
+  "Hausa": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
     }
   ],
   "Haṭha-yoga": [
@@ -7204,6 +7286,13 @@
       "religion": "古埃及"
     }
   ],
+  "Khons": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "Khuddaka Nikāya": [
     {
       "slug": "kn-jataka",
@@ -7732,6 +7821,13 @@
       "religion": "現代新興"
     }
   ],
+  "Leiden": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "Lemuel": [
     {
       "slug": "book-of-mormon-1830",
@@ -7934,6 +8030,13 @@
       "religion": "印度教"
     }
   ],
+  "London": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "Lotus Sutra": [
     {
       "slug": "lotus-sutra",
@@ -7984,6 +8087,13 @@
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
+    }
+  ],
+  "Maalam Shaihua": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
     }
   ],
   "Mabinogi": [
@@ -10142,6 +10252,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Oxford": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
   "Oyo": [
     {
       "slug": "yoruba-religion",
@@ -11151,6 +11268,20 @@
       "religion": "伊斯蘭"
     }
   ],
+  "R. R. Marett": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
+  "R. Sutherland Rattray": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
   "Ra": [
     {
       "slug": "book-of-am-tuat",
@@ -11290,6 +11421,13 @@
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "Rattray": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
     }
   ],
   "Records of Ancient Matters": [
@@ -11925,6 +12063,13 @@
       "slug": "tertullian-de-praescriptione-la",
       "name_zh": "斥異端的抗辯（拉丁原文）",
       "religion": "基督教"
+    }
+  ],
+  "Saund_1.27": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
     }
   ],
   "Saundaryalaharī": [
@@ -13265,6 +13410,13 @@
       "religion": "美洲"
     }
   ],
+  "Thompson": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    }
+  ],
   "Thoth": [
     {
       "slug": "burden-of-isis",
@@ -13596,6 +13748,13 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    }
+  ],
+  "Twi": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
     }
   ],
   "Tyre": [
@@ -15232,6 +15391,13 @@
       "religion": "基督教"
     }
   ],
+  "aghora": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "agni": [
     {
       "slug": "yama-smrti",
@@ -15919,6 +16085,13 @@
     {
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "aśvaghoṣa": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
       "religion": "佛教"
     }
   ],
@@ -16648,6 +16821,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-shunyatasaptati-sa",
       "name_zh": "七十空性論（梵文）",
       "religion": "佛教"
@@ -17116,6 +17294,11 @@
   ],
   "demotic": [
     {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    },
+    {
       "slug": "rosetta-stone",
       "name_zh": "羅塞塔石碑",
       "religion": "古埃及"
@@ -17228,6 +17411,11 @@
   ],
   "dharma": [
     {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
+    {
       "slug": "apastamba-dharmasutra",
       "name_zh": "阿波斯檀跋法經",
       "religion": "印度教"
@@ -17250,6 +17438,11 @@
     {
       "slug": "bud-ratnavali-sa",
       "name_zh": "寶行王正論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
       "religion": "佛教"
     },
     {
@@ -17890,6 +18083,11 @@
   ],
   "folk-lore": [
     {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    },
+    {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
@@ -18023,6 +18221,13 @@
     {
       "slug": "bud-prajnaparamita-hrdaya-sa",
       "name_zh": "般若波羅蜜多心經（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "gautama": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
       "religion": "佛教"
     }
   ],
@@ -18637,6 +18842,13 @@
       "religion": "基督教"
     }
   ],
+  "ikṣvāku": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "illuminated manuscript": [
     {
       "slug": "book-of-kells",
@@ -18750,6 +18962,11 @@
     }
   ],
   "japa": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
     {
       "slug": "matrkabheda-tantra",
       "name_zh": "母字辨怛特羅",
@@ -19048,6 +19265,20 @@
       "slug": "shankhayana-grhyasutra",
       "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
+    }
+  ],
+  "kapila": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "kapilavastu": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
     }
   ],
   "kappa": [
@@ -19366,6 +19597,11 @@
   ],
   "kṣatriya": [
     {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
       "religion": "印度教"
@@ -19592,6 +19828,11 @@
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
     }
   ],
   "magic power": [
@@ -19644,6 +19885,13 @@
       "religion": "印度教"
     }
   ],
+  "mahākāvya": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "mahāmati": [
     {
       "slug": "bud-lankavatara-sa",
@@ -19681,6 +19929,13 @@
     {
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
+      "religion": "印度教"
+    }
+  ],
+  "mahārṣayaḥ": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
       "religion": "印度教"
     }
   ],
@@ -19806,6 +20061,11 @@
   ],
   "mantra": [
     {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
+    {
       "slug": "cbeta-T32n1683",
       "name_zh": "犍稚梵讚",
       "religion": "佛教"
@@ -19838,8 +20098,20 @@
   ],
   "mantreśvara": [
     {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "mrgendra-agama",
       "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
+  "mantrāṇava": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
       "religion": "印度教"
     }
   ],
@@ -19897,6 +20169,13 @@
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
       "religion": "印度教"
+    }
+  ],
+  "medicine": [
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
     }
   ],
   "medicus": [
@@ -20129,6 +20408,13 @@
       "religion": "印度教"
     }
   ],
+  "munī": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "murmur": [
     {
       "slug": "vulgate-4-esdras",
@@ -20197,6 +20483,13 @@
       "slug": "miwok-myths",
       "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
+    }
+  ],
+  "mālinīvijayottaratantra": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
     }
   ],
   "māna": [
@@ -20449,6 +20742,13 @@
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
+      "religion": "印度教"
+    }
+  ],
+  "niṣkṛti": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
       "religion": "印度教"
     }
   ],
@@ -20735,6 +21035,11 @@
   ],
   "papyrus": [
     {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    },
+    {
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
@@ -20772,6 +21077,11 @@
     {
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
       "religion": "印度教"
     }
   ],
@@ -21109,6 +21419,13 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    }
+  ],
+  "pitr": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
     }
   ],
   "pitṛ": [
@@ -21476,6 +21793,11 @@
   ],
   "proverbs": [
     {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    },
+    {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
@@ -21510,6 +21832,11 @@
     }
   ],
   "prāyaścitta": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
     {
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
@@ -21594,6 +21921,11 @@
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
       "religion": "美洲"
+    },
+    {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
     },
     {
       "slug": "mythology-mission-indians",
@@ -21691,6 +22023,11 @@
     }
   ],
   "purāṇa": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
@@ -22201,6 +22538,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "demotic-magical-papyrus",
+      "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -22386,6 +22728,27 @@
       "religion": "印度教"
     }
   ],
+  "sanaka": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    }
+  ],
+  "sanandana": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    }
+  ],
+  "sanatkumāra": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "sanctificatio": [
     {
       "slug": "vulgate-1-maccabees",
@@ -22425,6 +22788,13 @@
     {
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "sanātana": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
       "religion": "印度教"
     }
   ],
@@ -22539,6 +22909,13 @@
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
       "religion": "印度教"
+    }
+  ],
+  "saundarananda": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
     }
   ],
   "savana": [
@@ -22793,6 +23170,13 @@
       "religion": "印度教"
     }
   ],
+  "siddhayogeśvarī": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "silver hand": [
     {
       "slug": "cath-maige-tuired-en",
@@ -22829,6 +23213,11 @@
     }
   ],
   "smṛti": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
     {
       "slug": "vasistha-dharmasutra",
       "name_zh": "婆私吒法經",
@@ -23172,10 +23561,24 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "sūtaka": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    }
+  ],
   "sūtra": [
     {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    }
+  ],
+  "sṛṣṭyadhikāra": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
       "religion": "印度教"
     }
   ],
@@ -23234,6 +23637,11 @@
     }
   ],
   "tapas": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "kn-petavatthu",
       "name_zh": "小部·餓鬼事",
@@ -23502,6 +23910,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "transliteration": [
+    {
+      "slug": "hausa-folklore",
+      "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
   "trayī": [
     {
       "slug": "shiva-mahimna-stava",
@@ -23675,6 +24090,13 @@
     {
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "umā": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
       "religion": "印度教"
     }
   ],
@@ -23880,6 +24302,11 @@
     }
   ],
   "veda": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
@@ -24277,6 +24704,13 @@
       "slug": "seneca-de-vita-beata-la",
       "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "vyāhṛti": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
     }
   ],
   "vyāsa": [
@@ -25160,6 +25594,11 @@
   ],
   "āśrama": [
     {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
       "religion": "印度教"
@@ -25175,6 +25614,13 @@
       "slug": "bud-vimshatika-sa",
       "name_zh": "唯識二十論（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "āṅgirasasmṛti": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
     }
   ],
   "Īśvara": [
@@ -25472,6 +25918,11 @@
       "slug": "abhinavagupta-kramastotra",
       "name_zh": "阿毗那婆笈多次第讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
     }
   ],
   "śaraṇaṃ": [
@@ -25503,6 +25954,11 @@
     }
   ],
   "śiva": [
+    {
+      "slug": "malinivijayottara-tantra",
+      "name_zh": "摩利尼勝上坦特羅",
+      "religion": "印度教"
+    },
     {
       "slug": "mrgendra-agama",
       "name_zh": "獸主阿含",
@@ -25549,6 +26005,11 @@
   ],
   "śruti": [
     {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
+    {
       "slug": "baudhayana-dharmasutra",
       "name_zh": "包達耶那法經",
       "religion": "印度教"
@@ -25576,6 +26037,13 @@
       "religion": "印度教"
     }
   ],
+  "śrāddha": [
+    {
+      "slug": "angirasa-smrti",
+      "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    }
+  ],
   "śrī": [
     {
       "slug": "cbeta-T32n1683",
@@ -25587,6 +26055,13 @@
     {
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
+      "religion": "佛教"
+    }
+  ],
+  "śākya": [
+    {
+      "slug": "bud-saundarananda-sa",
+      "name_zh": "孫陀羅難陀詩（梵文）",
       "religion": "佛教"
     }
   ],
