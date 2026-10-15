@@ -1738,6 +1738,11 @@
       "slug": "saundarya-lahari",
       "name_zh": "美之波濤",
       "religion": "印度教"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
     }
   ],
   "Bharata": [
@@ -2818,6 +2823,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Dakṣiṇā": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "Daniel": [
     {
       "slug": "vulgate-daniel",
@@ -3028,6 +3040,11 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
     }
   ],
@@ -6262,6 +6279,13 @@
       "religion": "印度教"
     }
   ],
+  "Kālikā": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "Kālindī": [
     {
       "slug": "shiva-purana",
@@ -6568,6 +6592,13 @@
       "religion": "基督教"
     }
   ],
+  "Liber Sapientiae": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Libnah": [
     {
       "slug": "pearl-of-great-price",
@@ -6833,6 +6864,34 @@
     {
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
+      "religion": "印度教"
+    }
+  ],
+  "Mahākāla": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
+  "Mahākālī": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
+  "Mahātripurasundarī": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
+  "Mahāvidyā": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
     }
   ],
@@ -8143,6 +8202,11 @@
     {
       "slug": "bud-suhrllekha-sa",
       "name_zh": "勸誡王頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -11274,6 +11338,13 @@
       "religion": "猶太教"
     }
   ],
+  "Toḍalatantra": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "Trakíá": [
     {
       "slug": "snorra-edda-on",
@@ -11460,6 +11531,13 @@
     {
       "slug": "devi-gita",
       "name_zh": "女神之歌",
+      "religion": "印度教"
+    }
+  ],
+  "Tārā": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
     }
   ],
@@ -11988,6 +12066,11 @@
     {
       "slug": "vulgate-psalms",
       "name_zh": "詩篇（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
     }
   ],
@@ -13111,6 +13194,11 @@
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "animi bonum": [
@@ -13181,6 +13269,13 @@
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    }
+  ],
+  "anupapatti": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
     }
   ],
   "anupubba": [
@@ -13698,6 +13793,13 @@
       "religion": "印度教"
     }
   ],
+  "bhāva": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "bhāvanā 修習": [
     {
       "slug": "an8-eights",
@@ -14002,6 +14104,11 @@
       "slug": "bud-shunyatasaptati-sa",
       "name_zh": "七十空性論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
     }
   ],
   "buddhadhātu": [
@@ -14243,6 +14350,20 @@
       "religion": "基督教"
     }
   ],
+  "corpus": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "corruptio": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "cosmic dualism": [
     {
       "slug": "denkard-3-bahman-yasht",
@@ -14260,6 +14381,13 @@
       "slug": "iroquois-cosmology",
       "name_zh": "易洛魁宇宙觀 (Hewitt)",
       "religion": "美洲"
+    }
+  ],
+  "creatio": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "creation": [
@@ -14339,6 +14467,13 @@
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
+    }
+  ],
+  "dakṣiṇāmūrti": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
     }
   ],
   "dano": [
@@ -14598,6 +14733,13 @@
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "diabolus": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "diaspora": [
@@ -15366,6 +15508,13 @@
       "religion": "基督教"
     }
   ],
+  "hetu": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "hetvābhāsa": [
     {
       "slug": "nyaya-sutra-gautama",
@@ -15471,6 +15620,13 @@
       "religion": "基督教"
     }
   ],
+  "impius": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "incantation": [
     {
       "slug": "carmina-gadelica-2",
@@ -15496,6 +15652,13 @@
     {
       "slug": "vulgate-prayer-of-manasseh",
       "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
+  "invidia": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
     }
   ],
@@ -15586,10 +15749,24 @@
       "religion": "基督教"
     }
   ],
+  "justitia": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "justitia Dei": [
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "justus": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
     }
   ],
@@ -16483,6 +16660,11 @@
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "mortalium": [
@@ -16516,6 +16698,13 @@
       "slug": "stotraratna-yamuna",
       "name_zh": "讚寶",
       "religion": "印度教"
+    }
+  ],
+  "murmuratio": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "muṇī": [
@@ -16757,6 +16946,13 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    }
+  ],
+  "niḥsvabhāva": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
     }
   ],
   "niḥśreyasa": [
@@ -17460,11 +17656,30 @@
       "religion": "印度教"
     }
   ],
+  "pratijñā": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "pratyakṣa": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
+    },
     {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
       "religion": "印度教"
+    }
+  ],
+  "pratyaya": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
     }
   ],
   "pratītyasamutpāda": [
@@ -17838,6 +18053,11 @@
     {
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
+      "religion": "印度教"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
     }
   ],
@@ -18238,6 +18458,11 @@
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "saptadhātu": [
@@ -18258,6 +18483,13 @@
     {
       "slug": "cbeta-T32n1683",
       "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    }
+  ],
+  "sarvabhāva": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -18589,6 +18821,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "spiritus Domini": [
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "srauta": [
     {
       "slug": "maitrayani-samhita",
@@ -18649,6 +18888,11 @@
     {
       "slug": "bud-shunyatasaptati-sa",
       "name_zh": "七十空性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     }
   ],
@@ -19375,6 +19619,13 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    }
+  ],
+  "vigrahavyāvartanī": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
     }
   ],
   "vijñapti": [
@@ -20361,6 +20612,13 @@
       "religion": "印度教"
     }
   ],
+  "Śavarūpa": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
   "Śaṅkara": [
     {
       "slug": "chandogya-upanishad",
@@ -20444,6 +20702,11 @@
     {
       "slug": "shivasankalpa-upanishad",
       "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
     }
   ],
@@ -20542,6 +20805,13 @@
     {
       "slug": "kaivalya-upanishad",
       "name_zh": "獨存奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "śavarūpa": [
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
     }
   ],
@@ -20647,6 +20917,13 @@
       "religion": "佛教"
     }
   ],
+  "śūnya": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
+    }
+  ],
   "śūnyatā": [
     {
       "slug": "bud-madhyantavibhaga-sa",
@@ -20666,6 +20943,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -22840,6 +23122,13 @@
       "slug": "gheranda-samhita",
       "name_zh": "格蘭達本集",
       "religion": "印度教"
+    }
+  ],
+  "ṣaṭkoṭi": [
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
+      "religion": "佛教"
     }
   ],
   "ἀγορά": [

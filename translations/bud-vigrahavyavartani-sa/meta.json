@@ -19,5 +19,51 @@
   "tier": "次要",
   "notes": "龍樹破斥論，梵文原典；漢譯《迴諍論》",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "commentarial-layer",
+    "compassion",
+    "emptiness",
+    "enlightenment",
+    "four-noble-truths",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "self-effort",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Nāgārjuna",
+    "vigrahavyāvartanī",
+    "svabhāva",
+    "śūnyatā",
+    "niḥsvabhāva",
+    "bhāva",
+    "hetu",
+    "pratyaya",
+    "pratijñā",
+    "ṣaṭkoṭi",
+    "buddha",
+    "anupapatti",
+    "śūnya",
+    "sarvabhāva",
+    "pratyakṣa"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "f738057221f09a2755c3a5d9130435e0123eb1fe504bf041681101c7711960b2"
+  },
+  "tagging_models": "MiniMax-M3"
 }

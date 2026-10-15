@@ -19,5 +19,58 @@
   "tier": "次要",
   "notes": "性力派怛特羅，列十大明妃（Daśamahāvidyā）女神及其男神配偶與修法",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "breath-control",
+    "celibate-tradition",
+    "chanting",
+    "divine-immanence",
+    "divine-transcendence",
+    "emanation",
+    "enlightenment",
+    "feminine-divine",
+    "goddess-tradition",
+    "liberation-by-devotion",
+    "liberation-by-knowledge",
+    "meditation",
+    "multiple-souls",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+  ],
+  "keywords": [
+    "Toḍalatantra",
+    "Kālikā",
+    "Mahākāla",
+    "Dakṣiṇā",
+    "Śiva",
+    "Devī",
+    "Mahāvidyā",
+    "Bhairava",
+    "Tārā",
+    "Mahātripurasundarī",
+    "Śavarūpa",
+    "śavarūpa",
+    "Mahākālī",
+    "pūjā",
+    "dakṣiṇāmūrti"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "death",
+    "stillness-rest",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "eb2015c739b3bfcc703075edf61fa284fbe1f099eaad24ba8db419f3f15dd04e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

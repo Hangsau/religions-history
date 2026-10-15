@@ -246,11 +246,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cbeta-T27n1545",
-      "name_zh": "阿毘達磨大毘婆沙論",
-      "religion": "佛教"
-    },
-    {
       "slug": "cbeta-T28n1554",
       "name_zh": "入阿毘達磨論",
       "religion": "佛教"
@@ -328,11 +323,6 @@
     {
       "slug": "cbeta-X02n0207",
       "name_zh": "十六大羅漢因果識見頌",
-      "religion": "佛教"
-    },
-    {
-      "slug": "cbeta-X04n0223",
-      "name_zh": "華嚴經合論",
       "religion": "佛教"
     },
     {
@@ -458,11 +448,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cbeta-T27n1545",
-      "name_zh": "阿毘達磨大毘婆沙論",
-      "religion": "佛教"
-    },
-    {
       "slug": "cbeta-T40n1808",
       "name_zh": "四分律刪補隨機羯磨",
       "religion": "佛教"
@@ -577,11 +562,6 @@
     {
       "slug": "cbeta-T19n1001",
       "name_zh": "法華曼荼羅威儀形色法經",
-      "religion": "佛教"
-    },
-    {
-      "slug": "cbeta-X04n0223",
-      "name_zh": "華嚴經合論",
       "religion": "佛教"
     },
     {
@@ -1067,11 +1047,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cbeta-T27n1545",
-      "name_zh": "阿毘達磨大毘婆沙論",
-      "religion": "佛教"
-    },
-    {
       "slug": "cbeta-T28n1548",
       "name_zh": "舍利弗阿毘曇論",
       "religion": "佛教"
@@ -1187,11 +1162,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cbeta-X04n0223",
-      "name_zh": "華嚴經合論",
-      "religion": "佛教"
-    },
-    {
       "slug": "cbeta-X13n0285",
       "name_zh": "楞嚴經文句",
       "religion": "佛教"
@@ -1300,6 +1270,11 @@
       "slug": "tianyinzi",
       "name_zh": "天隱子",
       "religion": "道教"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
     },
     {
       "slug": "vaisheshika-sutra",
@@ -1779,11 +1754,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cbeta-T27n1545",
-      "name_zh": "阿毘達磨大毘婆沙論",
-      "religion": "佛教"
-    },
-    {
       "slug": "cbeta-T30n1583",
       "name_zh": "菩薩善戒經",
       "religion": "佛教"
@@ -1896,11 +1866,6 @@
     {
       "slug": "cbeta-T55n2182",
       "name_zh": "律宗章疏",
-      "religion": "佛教"
-    },
-    {
-      "slug": "cbeta-X04n0223",
-      "name_zh": "華嚴經合論",
       "religion": "佛教"
     },
     {
@@ -5936,11 +5901,6 @@
       "religion": "佛教"
     },
     {
-      "slug": "cbeta-T27n1545",
-      "name_zh": "阿毘達磨大毘婆沙論",
-      "religion": "佛教"
-    },
-    {
       "slug": "cbeta-T28n1546",
       "name_zh": "阿毘曇毘婆沙論",
       "religion": "佛教"
@@ -8874,6 +8834,11 @@
       "slug": "thrice-greatest-hermes-3",
       "name_zh": "三度偉大的赫爾墨斯 Vol 3",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
     },
     {
       "slug": "valmiki-ramayana",
@@ -14846,6 +14811,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T27n1545",
+      "name_zh": "阿毘達磨大毘婆沙論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T28n1547",
       "name_zh": "鞞婆沙論",
       "religion": "佛教"
@@ -17076,6 +17046,11 @@
       "religion": "道教"
     },
     {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
@@ -17233,6 +17208,11 @@
     {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -17926,6 +17906,11 @@
     {
       "slug": "bud-shunyatasaptati-sa",
       "name_zh": "七十空性論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -21121,6 +21106,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-zechariah",
       "name_zh": "撒迦利亞書（武加大）",
       "religion": "基督教"
@@ -21530,6 +21520,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -38540,6 +38535,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-zephaniah",
       "name_zh": "西番雅書（武加大）",
       "religion": "基督教"
@@ -38594,6 +38594,11 @@
     {
       "slug": "bud-mulamadhyamakakarika-sa",
       "name_zh": "中論本頌（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -44752,6 +44757,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T27n1545",
+      "name_zh": "阿毘達磨大毘婆沙論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T28n1546",
       "name_zh": "阿毘曇毘婆沙論",
       "religion": "佛教"
@@ -47097,6 +47107,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X04n0223",
+      "name_zh": "華嚴經合論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X04n0225",
       "name_zh": "華嚴經合論簡要",
       "religion": "佛教"
@@ -48559,6 +48574,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -51975,6 +51995,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T27n1545",
+      "name_zh": "阿毘達磨大毘婆沙論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T28n1546",
       "name_zh": "阿毘曇毘婆沙論",
       "religion": "佛教"
@@ -53075,6 +53100,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X04n0223",
+      "name_zh": "華嚴經合論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X05n0227",
       "name_zh": "華嚴經行願品疏",
       "religion": "佛教"
@@ -53628,6 +53658,11 @@
       "slug": "tianyinzi",
       "name_zh": "天隱子",
       "religion": "道教"
+    },
+    {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
     },
     {
       "slug": "vedanta-upadeshasahasri",
@@ -54601,6 +54636,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -56579,6 +56619,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-T27n1545",
+      "name_zh": "阿毘達磨大毘婆沙論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-T28n1546",
       "name_zh": "阿毘曇毘婆沙論",
       "religion": "佛教"
@@ -58334,6 +58379,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "cbeta-X04n0223",
+      "name_zh": "華嚴經合論",
+      "religion": "佛教"
+    },
+    {
       "slug": "cbeta-X04n0225",
       "name_zh": "華嚴經合論簡要",
       "religion": "佛教"
@@ -59269,6 +59319,11 @@
       "religion": "道教"
     },
     {
+      "slug": "todala-tantra",
+      "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
       "religion": "印度教"
@@ -59336,6 +59391,11 @@
     {
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-wisdom",
+      "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -59538,6 +59598,11 @@
     {
       "slug": "bud-vajracchedika-prajnaparamita-sa",
       "name_zh": "金剛般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-vigrahavyavartani-sa",
+      "name_zh": "迴諍論（梵文）",
       "religion": "佛教"
     },
     {
@@ -60808,6 +60873,11 @@
     {
       "slug": "cbeta-T26n1544",
       "name_zh": "阿毘達磨發智論",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-T27n1545",
+      "name_zh": "阿毘達磨大毘婆沙論",
       "religion": "佛教"
     },
     {
@@ -62333,6 +62403,11 @@
     {
       "slug": "cbeta-X03n0221",
       "name_zh": "續華嚴經略疏刊定記",
+      "religion": "佛教"
+    },
+    {
+      "slug": "cbeta-X04n0223",
+      "name_zh": "華嚴經合論",
       "religion": "佛教"
     },
     {
