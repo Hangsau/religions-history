@@ -1,6 +1,11 @@
 {
   "accept-fate": [
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -371,6 +376,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "samuel-2",
       "name_zh": "撒母耳記下",
       "religion": "猶太教"
@@ -511,6 +521,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "ambrose-de-officiis-la",
@@ -671,6 +686,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lankavatara-sa",
@@ -1583,6 +1603,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -1766,6 +1791,11 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "rastafarian-bible",
@@ -2088,6 +2118,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -2848,6 +2883,11 @@
       "slug": "pueblo-folk-stories",
       "name_zh": "普韋布洛民間故事 (Lummis)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "religion-indians-california",
@@ -4081,6 +4121,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -5664,6 +5709,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "religion-of-sikhs",
       "name_zh": "錫克教宗教 (Field)",
       "religion": "錫克教"
@@ -5846,6 +5896,11 @@
   ],
   "awe-fear": [
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ambrose-de-officiis-la",
       "name_zh": "論教職者的義務（拉丁原文）",
       "religion": "基督教"
@@ -5983,6 +6038,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -6818,6 +6878,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -8050,6 +8115,11 @@
       "religion": "道教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -8113,6 +8183,11 @@
       "slug": "origin-myth-of-acoma",
       "name_zh": "阿科馬創世神話",
       "religion": "美洲"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
     },
     {
       "slug": "plotinus-enneads-el",
@@ -8909,6 +8984,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
@@ -9394,6 +9474,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -9454,6 +9539,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -9486,6 +9576,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -9658,6 +9753,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -12209,6 +12309,11 @@
       "slug": "pueblo-folk-stories",
       "name_zh": "普韋布洛民間故事 (Lummis)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "shankhayana-grhyasutra",
@@ -17143,6 +17248,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -17246,6 +17356,11 @@
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
     },
     {
       "slug": "pima-nights",
@@ -17444,6 +17559,11 @@
     }
   ],
   "chaos-to-order": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
@@ -17920,6 +18040,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -18292,6 +18417,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -18594,6 +18724,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -22407,6 +22542,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -22562,6 +22702,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -22654,6 +22799,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -23356,6 +23506,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -27694,6 +27849,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -27859,6 +28019,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -27946,6 +28111,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -28261,6 +28431,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -28428,6 +28603,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -36611,6 +36791,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -36803,6 +36988,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -38850,6 +39040,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -38975,6 +39170,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pima-nights",
       "name_zh": "皮馬印第安夜話 (創世神話集)",
       "religion": "美洲"
@@ -39012,6 +39212,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -40219,6 +40424,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -40349,6 +40559,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pima-nights",
       "name_zh": "皮馬印第安夜話 (創世神話集)",
       "religion": "美洲"
@@ -40401,6 +40616,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -40599,6 +40819,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -41116,6 +41341,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -41261,6 +41491,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pima-nights",
       "name_zh": "皮馬印第安夜話 (創世神話集)",
       "religion": "美洲"
@@ -41328,6 +41563,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -41586,6 +41826,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -43073,6 +43318,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -43135,6 +43385,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -43742,6 +43997,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -43925,6 +44185,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -45577,6 +45842,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -46284,6 +46554,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -46427,6 +46702,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -47899,6 +48179,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -48059,6 +48344,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pima-nights",
       "name_zh": "皮馬印第安夜話 (創世神話集)",
       "religion": "美洲"
@@ -48131,6 +48421,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -48441,6 +48736,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -48713,6 +49013,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -49886,6 +50191,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -50046,6 +50356,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pearl-of-great-price",
       "name_zh": "無價珍珠",
       "religion": "現代新興"
@@ -50153,6 +50468,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -51168,6 +51488,11 @@
       "slug": "brhaspati-smrti-vyavahara",
       "name_zh": "祭主法論·訴訟篇",
       "religion": "印度教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "cath-maige-tuired-ga",
@@ -53492,6 +53817,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -53572,6 +53902,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
@@ -53619,6 +53954,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -58178,6 +58518,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -64526,6 +64871,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -66050,6 +66400,11 @@
   ],
   "essentially-good": [
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -66128,6 +66483,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -67310,6 +67670,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "sblgnt-3-john",
       "name_zh": "約翰三書（希臘原文）",
       "religion": "基督教"
@@ -67487,6 +67852,11 @@
   ],
   "evil-as-deception": [
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -67530,6 +67900,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "cbeta-T01n0023",
@@ -67967,6 +68342,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "religion-indians-california",
       "name_zh": "加州印第安人的宗教 (Kroeber)",
       "religion": "美洲"
@@ -68136,6 +68516,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -71748,6 +72133,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -72223,6 +72613,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -72522,6 +72917,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -73194,6 +73594,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -76994,6 +77399,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -77234,6 +77644,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -77352,6 +77767,11 @@
       "slug": "pueblo-folk-stories",
       "name_zh": "普韋布洛民間故事 (Lummis)",
       "religion": "美洲"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "sappho-poetry",
@@ -77925,6 +78345,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -78863,6 +79288,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -79377,6 +79807,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -80860,6 +81295,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -81452,6 +81892,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -81520,6 +81965,11 @@
       "slug": "ovid-metamorphoses-la",
       "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
     },
     {
       "slug": "plato-gorgias-el",
@@ -81663,6 +82113,11 @@
     }
   ],
   "humility": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "ambrose-de-officiis-la",
       "name_zh": "論教職者的義務（拉丁原文）",
@@ -81816,6 +82271,11 @@
     {
       "slug": "bud-abhidharmasamuccaya-sa",
       "name_zh": "大乘阿毗達磨集論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -83214,6 +83674,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "religion-of-sikhs",
       "name_zh": "錫克教宗教 (Field)",
       "religion": "錫克教"
@@ -83900,6 +84365,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -87908,6 +88378,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "religion-of-sikhs",
       "name_zh": "錫克教宗教 (Field)",
       "religion": "錫克教"
@@ -88117,6 +88592,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -91119,6 +91599,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -97292,6 +97777,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -97384,6 +97874,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -97741,6 +98236,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -103819,6 +104319,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -103947,6 +104452,11 @@
       "slug": "ovid-metamorphoses-la",
       "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
     },
     {
       "slug": "pirkei-avot",
@@ -104473,6 +104983,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -108166,6 +108681,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pindar-pythian-el",
       "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
@@ -108188,6 +108708,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -108331,6 +108856,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -108505,6 +109035,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -111613,6 +112148,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -111753,6 +112293,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -111825,6 +112370,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -113075,6 +113625,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "lujia-xinyu",
       "name_zh": "新語",
       "religion": "儒教"
@@ -113135,6 +113690,11 @@
       "religion": "神道"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "plato-laws-el",
       "name_zh": "法律篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -113148,6 +113708,11 @@
       "slug": "poetic-edda-on",
       "name_zh": "詩體埃達（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "rastafarian-bible",
@@ -113287,6 +113852,11 @@
   ],
   "marriage-sacred": [
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -113420,6 +113990,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
     },
     {
       "slug": "bud-lalitavistara-sa",
@@ -113977,6 +114552,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
@@ -114366,6 +114946,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -120859,6 +121444,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -121406,6 +121996,11 @@
   ],
   "messianism": [
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ambrose-de-officiis-la",
       "name_zh": "論教職者的義務（拉丁原文）",
       "religion": "基督教"
@@ -121578,6 +122173,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -121974,6 +122574,11 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "rastafarian-bible",
@@ -122475,6 +123080,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -131628,6 +132238,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -131728,6 +132343,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -131740,6 +132360,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -134725,6 +135350,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -134798,6 +135428,11 @@
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
     },
     {
       "slug": "pearl-of-great-price",
@@ -137602,6 +138237,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -137685,6 +138325,11 @@
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
     },
     {
       "slug": "peyote-cult",
@@ -138704,6 +139349,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -138964,6 +139614,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -144696,6 +145351,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -144856,6 +145516,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -144948,6 +145613,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -149368,6 +150038,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -150029,6 +150704,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -153509,6 +154189,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -153654,6 +154339,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -153751,6 +154441,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -154138,6 +154833,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -154255,6 +154955,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -160348,6 +161053,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -160433,6 +161143,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -160490,6 +161205,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -160704,6 +161424,11 @@
     }
   ],
   "patriarchal": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
@@ -161195,6 +161920,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
@@ -161379,6 +162109,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -162392,6 +163127,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -162477,6 +163217,11 @@
       "religion": "伊斯蘭"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
@@ -162547,6 +163292,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -163724,6 +164474,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -163879,6 +164634,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "pima-nights",
       "name_zh": "皮馬印第安夜話 (創世神話集)",
       "religion": "美洲"
@@ -163976,6 +164736,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -164231,6 +164996,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -164483,6 +165253,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -167401,6 +168176,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -167513,6 +168293,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -167956,6 +168741,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -170013,6 +170803,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -170168,6 +170963,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -170225,6 +171025,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -170509,6 +171314,11 @@
     }
   ],
   "prophetic-critique": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "amos",
       "name_zh": "阿摩司書",
@@ -171412,6 +172222,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "ambrose-de-officiis-la",
       "name_zh": "論教職者的義務（拉丁原文）",
       "religion": "基督教"
@@ -171614,6 +172429,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -173791,6 +174611,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
+      "religion": "佛教"
+    },
+    {
       "slug": "bud-lalitavistara-sa",
       "name_zh": "方廣大莊嚴經（梵文）",
       "religion": "佛教"
@@ -175686,6 +176511,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -176558,6 +177388,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
@@ -176620,6 +177455,11 @@
     {
       "slug": "nyaya-sutra",
       "name_zh": "正理經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
       "religion": "印度教"
     },
     {
@@ -176783,6 +177623,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -177072,6 +177917,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -186990,6 +187840,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -187235,6 +188090,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -187357,6 +188217,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -187872,6 +188737,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -188074,6 +188944,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -192282,6 +193157,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -192452,6 +193332,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -192534,6 +193419,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -194239,6 +195129,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -195510,6 +196405,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -200738,6 +201638,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -200945,6 +201850,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -202330,6 +203240,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
@@ -202455,6 +203370,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -202664,6 +203584,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -204592,6 +205517,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -204722,6 +205652,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -204789,6 +205724,11 @@
     {
       "slug": "ramanuja-gitabhashya",
       "name_zh": "薄伽梵歌釋（羅摩奴闍）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -205138,6 +206078,11 @@
     }
   ],
   "spirit-possession": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
@@ -206439,6 +207384,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "laxdaela-saga-on",
       "name_zh": "拉克斯達拉薩迦",
       "religion": "北歐"
@@ -206823,6 +207773,11 @@
     {
       "slug": "bud-bodhicaryavatara-sa",
       "name_zh": "入菩薩行論（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -208173,6 +209128,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -208325,6 +209285,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -211933,6 +212898,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
@@ -212410,6 +213380,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -215082,6 +216057,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -215639,6 +216619,11 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -216826,6 +217811,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -216951,6 +217941,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -216994,6 +217989,11 @@
       "slug": "psalms",
       "name_zh": "詩篇",
       "religion": "猶太教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
     },
     {
       "slug": "rastafarian-bible",
@@ -217252,6 +218252,11 @@
     }
   ],
   "theocracy": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
@@ -218503,6 +219508,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
@@ -218694,6 +219704,11 @@
     }
   ],
   "theodicy": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
@@ -218897,6 +219912,11 @@
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -221470,6 +222490,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
+      "religion": "印度教"
+    },
+    {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
       "religion": "非洲"
@@ -221842,6 +222867,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -222124,6 +223154,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -225027,6 +226062,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -225207,6 +226247,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
       "religion": "印度教"
@@ -225304,6 +226349,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -225758,6 +226808,11 @@
     }
   ],
   "tribal-traditional": [
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
@@ -226561,6 +227616,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -226773,6 +227833,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -232026,6 +233091,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -232181,6 +233251,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
@@ -232303,6 +233378,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -232763,6 +233843,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -233010,6 +234095,11 @@
     {
       "slug": "bud-dashabhumika-sa",
       "name_zh": "十地經（梵文）",
+      "religion": "佛教"
+    },
+    {
+      "slug": "bud-jatakamala-sa",
+      "name_zh": "本生鬘（梵文）",
       "religion": "佛教"
     },
     {
@@ -237133,6 +238223,11 @@
       "religion": "北歐"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -237323,6 +238418,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "pancavimsha-brahmana",
+      "name_zh": "二十五梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "perfect-enlightenment-sutra",
       "name_zh": "大方廣圓覺修多羅了義經",
       "religion": "佛教"
@@ -237440,6 +238540,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
@@ -238582,6 +239687,11 @@
       "slug": "abhinavagupta-tantrasara",
       "name_zh": "坦特羅精要",
       "religion": "印度教"
+    },
+    {
+      "slug": "aeschylus-works",
+      "name_zh": "埃斯庫羅斯戲劇 (含宗教面)",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "agni-purana",
@@ -241314,6 +242424,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kubjikamata-tantra",
+      "name_zh": "俱毗迦教坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -241501,6 +242616,11 @@
     {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
+      "religion": "印度教"
+    },
+    {
+      "slug": "ramayana-southern",
+      "name_zh": "羅摩衍那（南方校本）",
       "religion": "印度教"
     },
     {
