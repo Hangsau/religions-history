@@ -19,5 +19,62 @@
   "tier": "次要",
   "notes": "祭主（Bṛhaspati）法論訴訟篇，補注《摩奴法論》的司法程序，印度古代法學高峰文本",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "ancestor-worship",
+    "caesaropapism",
+    "caste-system",
+    "commandments-law",
+    "commentarial-layer",
+    "divine-kingship",
+    "economic-justice",
+    "lineage-importance",
+    "marriage-sacred",
+    "non-violence",
+    "oral-tradition",
+    "patriarchal",
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "secular-state",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "study",
+    "theocracy",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness"
+  ],
+  "keywords": [
+    "vyavahāra",
+    "dharma",
+    "ahiṃsā",
+    "rājan",
+    "Bṛhaspati",
+    "varṇāśrama",
+    "dhanahiṃsā",
+    "pāruṣya",
+    "parastrīsaṃgraha",
+    "sāhasa",
+    "steya",
+    "vivāda",
+    "bhṛtya",
+    "dāyabhāga",
+    "sākṣin"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "boundaries-self-worth",
+    "honesty-hypocrisy",
+    "justice-power",
+    "responsibility-leadership",
+    "work-money"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "7ec48753f3ef0e81b2069576d48cc4d6e1b97e461da8d97f39f9b20ca313addf"
+  },
+  "tagging_models": "MiniMax-M3"
 }

@@ -46,6 +46,13 @@
       "religion": "非洲"
     }
   ],
+  "1901": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
+    }
+  ],
   "1903": [
     {
       "slug": "folk-tales-from-russian",
@@ -112,6 +119,13 @@
       "slug": "sappho-poetry",
       "name_zh": "莎孚詩集",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "1936": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "2 Esdras": [
@@ -1123,6 +1137,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Apostolus": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "Appamādavagga": [
     {
       "slug": "dhammapada",
@@ -1708,6 +1729,13 @@
     {
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
+      "religion": "美洲"
+    }
+  ],
+  "Awatovi": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
       "religion": "美洲"
     }
   ],
@@ -2731,6 +2759,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
+    },
+    {
       "slug": "ishtar-and-izdubar",
       "name_zh": "伊什塔爾與伊茲杜巴（吉爾伽美什）",
       "religion": "兩河"
@@ -2863,6 +2896,13 @@
     {
       "slug": "brihadaranyaka-upanishad",
       "name_zh": "大林間奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "Bṛhaspati": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
       "religion": "印度教"
     }
   ],
@@ -3283,6 +3323,11 @@
   ],
   "Christus": [
     {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "augustine-de-civitate-dei-la",
       "name_zh": "上帝之城（拉丁原文）",
       "religion": "基督教"
@@ -3630,6 +3675,13 @@
       "religion": "基督教"
     }
   ],
+  "Crow Clan": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    }
+  ],
   "Cruachan": [
     {
       "slug": "cuchulain-muirthemne",
@@ -3893,6 +3945,13 @@
       "slug": "valmiki-ramayana",
       "name_zh": "羅摩衍那（Valmiki, critical）",
       "religion": "印度教"
+    }
+  ],
+  "De officiis ministrorum": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "Deirdre": [
@@ -4276,6 +4335,11 @@
       "slug": "babylonian-legends-creation",
       "name_zh": "巴比倫創世傳說",
       "religion": "兩河"
+    },
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "E. Sidney Hartland": [
@@ -4339,6 +4403,13 @@
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
+    }
+  ],
+  "Edmund Nequatewa": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "Edward Hubert Wood": [
@@ -4422,6 +4493,13 @@
     {
       "slug": "rosetta-stone",
       "name_zh": "羅塞塔石碑",
+      "religion": "古埃及"
+    }
+  ],
+  "Egyptian Magic": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
       "religion": "古埃及"
     }
   ],
@@ -6487,6 +6565,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Hopi": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    }
+  ],
   "Hopp": [
     {
       "slug": "hrolfs-saga-kraka-on",
@@ -7886,6 +7971,13 @@
       "religion": "猶太教"
     }
   ],
+  "Kachina Clan": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    }
+  ],
   "Kah'-kool": [
     {
       "slug": "miwok-dawn-of-world",
@@ -8046,6 +8138,13 @@
       "slug": "miwok-dawn-of-world",
       "name_zh": "世界之曙 (米沃克神話)",
       "religion": "美洲"
+    }
+  ],
+  "Kegan Paul": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "Kelliwic": [
@@ -9847,6 +9946,13 @@
       "religion": "猶太教"
     }
   ],
+  "MignePatrologiaLatina": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "Miklagarðr": [
     {
       "slug": "hrafnkels-saga-on",
@@ -9894,6 +10000,13 @@
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
+    }
+  ],
+  "Mishongnovi": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "Miss Kingsley": [
@@ -10198,6 +10311,13 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Museum of Northern Arizona": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "Muḥammad": [
@@ -11221,6 +11341,13 @@
       "religion": "印加"
     }
   ],
+  "One Horned Fraternity": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    }
+  ],
   "Onondaga": [
     {
       "slug": "code-of-handsome-lake",
@@ -11561,6 +11688,13 @@
       "slug": "euripides-hippolytus-el",
       "name_zh": "希波呂托斯（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Palotquopi": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "Pan": [
@@ -13836,6 +13970,13 @@
       "religion": "印度教"
     }
   ],
+  "Shung-opovi": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    }
+  ],
   "Sian": [
     {
       "slug": "carmina-gadelica-2",
@@ -14010,6 +14151,13 @@
       "slug": "sun-dance-ceremonies",
       "name_zh": "太陽舞與其他儀式 (Oglala Sioux)",
       "religion": "美洲"
+    }
+  ],
+  "Sir J. Norman Lockyer": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "Six Nations": [
@@ -14218,6 +14366,11 @@
     }
   ],
   "Spiritus": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
@@ -17295,6 +17448,11 @@
   ],
   "ahiṃsā": [
     {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    },
+    {
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
@@ -17818,6 +17976,13 @@
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "astronomer": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "asubhanimitta 不淨": [
@@ -18475,6 +18640,13 @@
       "religion": "印度教"
     }
   ],
+  "bhṛtya": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    }
+  ],
   "bindu": [
     {
       "slug": "shiva-puja-stava",
@@ -19065,6 +19237,13 @@
       "religion": "佛教"
     }
   ],
+  "clan histories": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    }
+  ],
   "codanādharma": [
     {
       "slug": "mrgendra-agama",
@@ -19389,6 +19568,13 @@
       "religion": "基督教"
     }
   ],
+  "dedication": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
+    }
+  ],
   "demotic": [
     {
       "slug": "demotic-magical-papyrus",
@@ -19501,6 +19687,13 @@
       "religion": "佛教"
     }
   ],
+  "dhanahiṃsā": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    }
+  ],
   "dharani": [
     {
       "slug": "cbeta-T19n0941",
@@ -19542,6 +19735,11 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
       "religion": "印度教"
     },
     {
@@ -19752,6 +19950,13 @@
       "religion": "印度教"
     }
   ],
+  "discere": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "divinatio": [
     {
       "slug": "cicero-de-divinatione-la",
@@ -19771,6 +19976,13 @@
       "slug": "plato-works",
       "name_zh": "柏拉圖對話集 (sacred-texts 選)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "docere": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "doctrina": [
@@ -19979,6 +20191,13 @@
       "religion": "印度教"
     }
   ],
+  "dāyabhāga": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    }
+  ],
   "dīkṣā": [
     {
       "slug": "abhinavagupta-tantrasara",
@@ -20045,6 +20264,13 @@
       "religion": "佛教"
     }
   ],
+  "enchantments": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
+    }
+  ],
   "ephod": [
     {
       "slug": "samuel-1",
@@ -20060,6 +20286,11 @@
     }
   ],
   "episcopus": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "tertullian-de-praescriptione-la",
       "name_zh": "斥異端的抗辯（拉丁原文）",
@@ -20323,6 +20554,13 @@
       "slug": "folk-tales-from-russian",
       "name_zh": "俄羅斯民間故事",
       "religion": "斯拉夫"
+    }
+  ],
+  "formulæ": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "fornication": [
@@ -21126,6 +21364,11 @@
     }
   ],
   "humilitas": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "kempis-imitatio-christi-la",
       "name_zh": "效法基督（拉丁原文）",
@@ -22301,6 +22544,11 @@
       "slug": "demotic-magical-papyrus",
       "name_zh": "倫敦與萊頓世俗體魔法紙草",
       "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "magic power": [
@@ -23050,6 +23298,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
+    },
+    {
       "slug": "maidu-texts",
       "name_zh": "邁杜文本 (Dixon)",
       "religion": "美洲"
@@ -23575,6 +23828,11 @@
       "slug": "chinook-texts",
       "name_zh": "奇努克文本 (Boas)",
       "religion": "美洲"
+    },
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "otium": [
@@ -23814,6 +24072,13 @@
       "slug": "jain-nyayapravesa-vrtti-sa",
       "name_zh": "因明入正理論疏（梵文原文）",
       "religion": "耆那教"
+    }
+  ],
+  "parastrīsaṃgraha": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
     }
   ],
   "paratantra": [
@@ -24708,6 +24973,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
+    },
+    {
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
@@ -24944,6 +25214,13 @@
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
+    }
+  ],
+  "pāruṣya": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
     }
   ],
   "pātimokkha 波羅提木叉": [
@@ -25288,6 +25565,13 @@
       "religion": "佛教"
     }
   ],
+  "rājan": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    }
+  ],
   "rājaśāsana": [
     {
       "slug": "narada-smrti",
@@ -25377,6 +25661,13 @@
       "religion": "基督教"
     }
   ],
+  "sacerdotium": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "sacramentum": [
     {
       "slug": "augustine-confessiones-la",
@@ -25422,6 +25713,11 @@
     {
       "slug": "demotic-magical-papyrus",
       "name_zh": "倫敦與萊頓世俗體魔法紙草",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
       "religion": "古埃及"
     },
     {
@@ -25741,6 +26037,11 @@
     }
   ],
   "sapientia": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "cicero-tusculanae-la",
       "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
@@ -26174,6 +26475,13 @@
       "religion": "印度教"
     }
   ],
+  "silentium": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "silver hand": [
     {
       "slug": "cath-maige-tuired-en",
@@ -26301,6 +26609,13 @@
       "religion": "印度教"
     }
   ],
+  "spells": [
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
+    }
+  ],
   "spirit of wisdom": [
     {
       "slug": "denkard-3-bahman-yasht",
@@ -26334,6 +26649,13 @@
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
+    }
+  ],
+  "steya": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
     }
   ],
   "sthālīpāka": [
@@ -26505,7 +26827,19 @@
       "religion": "耆那教"
     }
   ],
+  "sāhasa": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    }
+  ],
   "sākṣin": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    },
     {
       "slug": "narada-smrti",
       "name_zh": "那羅陀法論",
@@ -26638,6 +26972,13 @@
       "slug": "chaldean-account-deluge",
       "name_zh": "迦勒底洪水記",
       "religion": "兩河"
+    }
+  ],
+  "tacere": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "taijasa": [
@@ -26952,6 +27293,11 @@
   ],
   "timor Domini": [
     {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-sirach",
       "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
@@ -26962,6 +27308,11 @@
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
       "religion": "美洲"
+    },
+    {
+      "slug": "egyptian-magic",
+      "name_zh": "埃及魔法",
+      "religion": "古埃及"
     }
   ],
   "tomb": [
@@ -27058,6 +27409,13 @@
       "slug": "shankhayana-aranyaka",
       "name_zh": "僧佉衍那森林書",
       "religion": "印度教"
+    }
+  ],
+  "truth": [
+    {
+      "slug": "hopi-myths",
+      "name_zh": "霍皮傳說 (Voth)",
+      "religion": "美洲"
     }
   ],
   "tryambaka": [
@@ -27418,6 +27776,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    },
+    {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
       "religion": "印度教"
@@ -27495,6 +27858,13 @@
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "verecundia": [
+    {
+      "slug": "ambrose-de-officiis-la",
+      "name_zh": "論教職者的義務（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "veritas": [
@@ -27814,6 +28184,11 @@
   ],
   "vivāda": [
     {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    },
+    {
       "slug": "narada-smrti",
       "name_zh": "那羅陀法論",
       "religion": "印度教"
@@ -27912,6 +28287,11 @@
     }
   ],
   "vyavahāra": [
+    {
+      "slug": "brhaspati-smrti-vyavahara",
+      "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    },
     {
       "slug": "narada-smrti",
       "name_zh": "那羅陀法論",
@@ -29548,6 +29928,11 @@
   ],
   "Γοργίας": [
     {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
       "religion": "古希臘羅馬"
@@ -29656,6 +30041,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Καλλικλῆς": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -29867,6 +30259,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Πῶλος": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Σάκας": [
     {
       "slug": "aristophanes-birds-el",
@@ -29939,6 +30338,11 @@
     {
       "slug": "plato-crito-el",
       "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -30019,6 +30423,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Χαιρεφῶν": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -30134,6 +30545,13 @@
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "διάλογος": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -30339,6 +30757,11 @@
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -30636,6 +31059,11 @@
     {
       "slug": "aristotle-metaphysics-el",
       "name_zh": "形上學（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -32298,6 +32726,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἀπόκρισις": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἀρετή": [
     {
       "slug": "aristotle-politics-el",
@@ -32437,6 +32872,11 @@
       "slug": "aristotle-metaphysics-el",
       "name_zh": "形上學（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "ἐντελέχεια": [
@@ -32453,6 +32893,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "ἐπίδειξις": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἐπιστήμη": [
     {
       "slug": "aristotle-metaphysics-el",
@@ -32464,6 +32911,20 @@
     {
       "slug": "plato-symposium-el",
       "name_zh": "會飲篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἐρώτησις": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἑορτή": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -32548,6 +33009,13 @@
     {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἰατρική": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -32654,6 +33122,13 @@
     {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ῥητορική": [
+    {
+      "slug": "plato-gorgias-el",
+      "name_zh": "高爾吉亞篇（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
