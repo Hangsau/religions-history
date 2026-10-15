@@ -39,6 +39,11 @@
       "slug": "creation-myths-primitive-america",
       "name_zh": "原始美洲創世神話 (Curtin)",
       "religion": "美洲"
+    },
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "1903": [
@@ -74,6 +79,13 @@
       "slug": "key-of-gold-czech-tales",
       "name_zh": "金鑰匙：捷克民間故事",
       "religion": "斯拉夫"
+    }
+  ],
+  "1919": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "1920": [
@@ -997,6 +1009,13 @@
       "religion": "印度教"
     }
   ],
+  "Antelope Boy": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
   "Anthropological Papers": [
     {
       "slug": "jicarilla-apache-texts",
@@ -1267,6 +1286,13 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    }
+  ],
+  "Arizona": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Arjan": [
@@ -1583,6 +1609,13 @@
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Aunt Naomi": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "Aurōra": [
@@ -2321,6 +2354,13 @@
       "religion": "北歐"
     }
   ],
+  "Bloch Publishing": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Boaz": [
     {
       "slug": "vulgate-ruth",
@@ -2703,6 +2743,13 @@
       "religion": "古埃及"
     }
   ],
+  "Brute": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Brynhild": [
     {
       "slug": "volsunga-saga",
@@ -2962,6 +3009,13 @@
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Casa Grande": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Casleu": [
@@ -3403,6 +3457,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Comalk Hawkkih": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
+    }
+  ],
   "Conchobar": [
     {
       "slug": "tain-bo-cuailnge-ga",
@@ -3502,6 +3563,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    },
+    {
       "slug": "yaqui-myths",
       "name_zh": "雅基神話與傳說",
       "religion": "美洲"
@@ -3524,6 +3590,11 @@
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
+    },
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Creation myth 創世神話": [
@@ -4207,6 +4278,13 @@
       "religion": "兩河"
     }
   ],
+  "E. Sidney Hartland": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
+    }
+  ],
   "E.A. Wallis Budge": [
     {
       "slug": "rosetta-stone",
@@ -4263,6 +4341,13 @@
       "religion": "古埃及"
     }
   ],
+  "Edward Hubert Wood": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
+    }
+  ],
   "Edward Sullivan": [
     {
       "slug": "book-of-kells",
@@ -4289,6 +4374,13 @@
       "slug": "sappho-poetry",
       "name_zh": "莎孚詩集",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Eeheetoy": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Efnisien": [
@@ -4510,6 +4602,11 @@
   ],
   "Ennius": [
     {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -4534,6 +4631,13 @@
       "slug": "carmina-gadelica-2",
       "name_zh": "Carmina Gadelica Vol 2",
       "religion": "凱爾特"
+    }
+  ],
+  "Epaminondas": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Epiktētos": [
@@ -4739,6 +4843,13 @@
       "religion": "北歐"
     }
   ],
+  "Fairy Princess of Ergetz": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Falias": [
     {
       "slug": "cath-maige-tuired-ga",
@@ -4795,6 +4906,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Feeaught": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
+    }
+  ],
   "Filius": [
     {
       "slug": "vulgate-1-john",
@@ -4819,6 +4937,13 @@
       "slug": "cath-maige-tuired-ga",
       "name_zh": "第二次莫伊圖拉之戰（古愛爾蘭語原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "Fiote": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Fir Bolg": [
@@ -4847,6 +4972,13 @@
       "religion": "美洲"
     }
   ],
+  "Fjort": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
+    }
+  ],
   "Flood": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -4870,8 +5002,20 @@
   ],
   "Folk-Lore Society": [
     {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
+    },
+    {
       "slug": "hausa-folklore",
       "name_zh": "豪薩民俗",
+      "religion": "非洲"
+    }
+  ],
+  "Folklore": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
       "religion": "非洲"
     }
   ],
@@ -4941,6 +5085,13 @@
       "slug": "avesta-sbe23-ae",
       "name_zh": "耶什特讚歌集（阿維斯塔原文）",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "French Congo": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Frey": [
@@ -5300,6 +5451,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Gertrude Landa": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Gheraṇḍa": [
     {
       "slug": "gheranda-samhita",
@@ -5312,6 +5470,13 @@
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
+    }
+  ],
+  "Giant of the Flood": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "Gilgamesh": [
@@ -5338,6 +5503,13 @@
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
+    }
+  ],
+  "Gloucester": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Glúmr": [
@@ -5430,6 +5602,13 @@
       "slug": "brahma-samhita",
       "name_zh": "梵讚集",
       "religion": "印度教"
+    }
+  ],
+  "Graecus": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Granth Sāhib": [
@@ -6120,6 +6299,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Hesiodus": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Hiawatha": [
     {
       "slug": "code-of-handsome-lake",
@@ -6139,6 +6325,13 @@
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Higgledy-Piggledy Palace": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "Hikoshirō Hoshino": [
@@ -6284,6 +6477,13 @@
     {
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Homerus": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -7029,6 +7229,13 @@
       "religion": "美洲"
     }
   ],
+  "J. William Lloyd": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
+    }
+  ],
   "J.B. Hare": [
     {
       "slug": "sappho-poetry",
@@ -7379,6 +7586,13 @@
       "religion": "佛教"
     }
   ],
+  "Jewish Fairy Tales": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Jewish War": [
     {
       "slug": "josephus-works",
@@ -7609,6 +7823,13 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    }
+  ],
+  "Juwerta Mahkai": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Jófríðr": [
@@ -8721,6 +8942,11 @@
       "slug": "demotic-magical-papyrus",
       "name_zh": "倫敦與萊頓世俗體魔法紙草",
       "religion": "古埃及"
+    },
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Long Count": [
@@ -8779,6 +9005,13 @@
     {
       "slug": "religion-luiseno-indians",
       "name_zh": "路易塞紐印第安人的宗教 (DuBois)",
+      "religion": "美洲"
+    }
+  ],
+  "Lummis": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
       "religion": "美洲"
     }
   ],
@@ -9135,6 +9368,13 @@
       "religion": "印度教"
     }
   ],
+  "Mano": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
   "Manopubbaṅgamā": [
     {
       "slug": "dhammapada",
@@ -9277,6 +9517,13 @@
       "slug": "carmina-gadelica-1",
       "name_zh": "Carmina Gadelica Vol 1",
       "religion": "凱爾特"
+    }
+  ],
+  "Mary H. Kingsley": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Mashya": [
@@ -9551,6 +9798,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Metate": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
   "Metternich Stele": [
     {
       "slug": "legends-of-the-gods-egypt",
@@ -9640,6 +9894,13 @@
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
+    }
+  ],
+  "Miss Kingsley": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Mithra": [
@@ -9739,6 +10000,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Moehahdheck": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
+    }
+  ],
   "Moggallāna": [
     {
       "slug": "kn-vimanavatthu",
@@ -9770,6 +10038,20 @@
       "slug": "yucatan-before-after-conquest",
       "name_zh": "尤卡坦征服前後 (Landa)",
       "religion": "瑪雅"
+    }
+  ],
+  "Moon-maiden": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
+  "Moqui": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
     }
   ],
   "Mordecai": [
@@ -10075,6 +10357,13 @@
       "religion": "印度教"
     }
   ],
+  "Naevius": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Nagi Tanka": [
     {
       "slug": "sun-dance-ceremonies",
@@ -10340,6 +10629,13 @@
       "slug": "book-of-am-tuat",
       "name_zh": "阿姆杜阿特之書（幽冥界之書）",
       "religion": "古埃及"
+    }
+  ],
+  "New York": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "Newark": [
@@ -11198,6 +11494,13 @@
       "religion": "印加"
     }
   ],
+  "Page Index": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Pahlavi": [
     {
       "slug": "bundahishn",
@@ -11230,6 +11533,13 @@
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
+    }
+  ],
+  "Palace of the Eagles": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "Palenque": [
@@ -11321,6 +11631,13 @@
       "slug": "atharvaveda-saunaka",
       "name_zh": "阿闥婆吠陀（Śaunaka）",
       "religion": "印度教"
+    }
+  ],
+  "Parrhasius": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Parāśara": [
@@ -11447,6 +11764,13 @@
       "slug": "udana",
       "name_zh": "自說經",
       "religion": "佛教"
+    }
+  ],
+  "Pecos": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
     }
   ],
   "Peleus": [
@@ -11634,6 +11958,13 @@
       "religion": "佛教"
     }
   ],
+  "Pima": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
+    }
+  ],
   "Pippalāda": [
     {
       "slug": "prashna-upanishad",
@@ -11697,6 +12028,13 @@
     {
       "slug": "cicero-de-officiis-la",
       "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Plautus": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -11784,6 +12122,13 @@
     {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Polycletos": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -11917,6 +12262,13 @@
       "slug": "seven-valleys-four-valleys",
       "name_zh": "七谷與四谷（巴哈歐拉）",
       "religion": "巴哈伊"
+    }
+  ],
+  "Preface": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Prefatory Note": [
@@ -12062,6 +12414,13 @@
       "slug": "vulgate-1-maccabees",
       "name_zh": "瑪加伯上（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Pueblo": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
     }
   ],
   "Pueblo Chettro Kettle": [
@@ -12263,6 +12622,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "Quères": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
   "R. R. Marett": [
     {
       "slug": "hausa-folklore",
@@ -12418,6 +12784,13 @@
       "religion": "佛教"
     }
   ],
+  "Rattlesnake": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
   "Rattray": [
     {
       "slug": "hausa-folklore",
@@ -12458,6 +12831,13 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    }
+  ],
+  "Red Slipper": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
     }
   ],
   "Reginn": [
@@ -12535,6 +12915,13 @@
       "slug": "mabinogion-cy-2",
       "name_zh": "馬比諾吉昂 第二卷（威爾斯原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "Richard Edward Dennett": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
     }
   ],
   "Rizwan": [
@@ -12705,6 +13092,13 @@
       "religion": "基督教"
     }
   ],
+  "Ruth Landa": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Rādhā": [
     {
       "slug": "gita-govinda",
@@ -12766,6 +13160,13 @@
       "slug": "avesta-sbe31",
       "name_zh": "阿維斯塔 SBE 31 (Yasna + Visperad + Khordah)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Sacaton": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Sach": [
@@ -13882,6 +14283,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Star-Child": [
+    {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    }
+  ],
   "Stele of Canopus": [
     {
       "slug": "rosetta-stone",
@@ -14532,6 +14940,11 @@
   ],
   "Themistocles": [
     {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
@@ -14584,6 +14997,13 @@
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Thin Buckskin": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "Thing": [
@@ -14642,6 +15062,13 @@
     {
       "slug": "maidu-texts",
       "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
+    }
+  ],
+  "Thunder-knives": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
       "religion": "美洲"
     }
   ],
@@ -15001,6 +15428,13 @@
       "religion": "斯拉夫"
     }
   ],
+  "Turquoise": [
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
+    }
+  ],
   "Tuscaroras": [
     {
       "slug": "iroquois-cosmology",
@@ -15034,6 +15468,13 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    }
+  ],
+  "Tée-wahn": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
     }
   ],
   "Tāraka": [
@@ -16595,6 +17036,13 @@
       "slug": "vulgate-haggai",
       "name_zh": "哈該書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Zuñi": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
     }
   ],
   "abbambha-pariggaha": [
@@ -19325,6 +19773,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "doctrina": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "doctrines": [
     {
       "slug": "cabala-mathers",
@@ -19851,7 +20306,19 @@
       "religion": "非洲"
     }
   ],
+  "folk-stories": [
+    {
+      "slug": "pueblo-folk-stories",
+      "name_zh": "普韋布洛民間故事 (Lummis)",
+      "religion": "美洲"
+    }
+  ],
   "folklore": [
+    {
+      "slug": "fjort-religion",
+      "name_zh": "Fjort 民族宗教 (西非)",
+      "religion": "非洲"
+    },
     {
       "slug": "folk-tales-from-russian",
       "name_zh": "俄羅斯民間故事",
@@ -21650,6 +22117,11 @@
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
       "religion": "美洲"
+    },
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
+      "religion": "美洲"
     }
   ],
   "levo": [
@@ -22585,6 +23057,11 @@
     {
       "slug": "miwok-myths",
       "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "pima-nights",
+      "name_zh": "皮馬印第安夜話 (創世神話集)",
       "religion": "美洲"
     }
   ],
@@ -23633,6 +24110,11 @@
     {
       "slug": "cicero-de-officiis-la",
       "name_zh": "論義務（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -24943,6 +25425,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "jewish-fairy-tales",
+      "name_zh": "猶太童話與傳說",
+      "religion": "猶太教"
+    },
+    {
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
@@ -25254,6 +25741,11 @@
     }
   ],
   "sapientia": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
@@ -27232,6 +27724,11 @@
     }
   ],
   "virtus": [
+    {
+      "slug": "cicero-tusculanae-la",
+      "name_zh": "圖斯庫盧姆論辯（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "seneca-de-ira-la",
       "name_zh": "論憤怒（拉丁原文）",

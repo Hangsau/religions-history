@@ -1,0 +1,1874 @@
+{
+ "schema_version": 1,
+ "slug": "pima-nights",
+ "chunks_total": 125,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Title Page",
+   "last_heading": "2 | Author's Errata",
+   "semantic_tags": [
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | The Story of these Stories",
+   "last_heading": "3 | The Story of these Stories",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "insignificance-history",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "4 | The Traditions Of The Pimas",
+   "last_heading": "4 | The Traditions Of The Pimas",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": "5 | The Story of the Creation",
+   "last_heading": "5 | The Story of the Creation",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-immanence"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "cyclic-cosmos",
+    "divine-immanence"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 17,
+   "first_heading": "6 | Juhwerta Mahkai's Song of Creation",
+   "last_heading": "7 | Notes on Story of Creation",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "polytheist"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 18,
+   "first_heading": "8 | The Story of the Flood",
+   "last_heading": "8 | The Story of the Flood",
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "marriage-sacred",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "feminine-divine",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty",
+    "gender-body",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "chaos-to-order"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "essentially-good",
+    "oral-tradition",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "dreams-unconscious"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "9 | Songs",
+   "last_heading": "9 | Songs",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "10 | Notes on the Story of the Flood",
+   "last_heading": "10 | Notes on the Story of the Flood",
+   "semantic_tags": [
+    "feminine-divine",
+    "marriage-sacred",
+    "oral-tradition",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "gender-body",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "body-mind"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "non-violence",
+    "oral-tradition",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 33,
+   "first_heading": "11 | The Story Of Ah-ahn-he-eat-toe-pahk Mahkai",
+   "last_heading": "11 | The Story Of Ah-ahn-he-eat-toe-pahk Mahkai",
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "childhood-wounds",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "humility",
+    "lineage-importance",
+    "self-effort",
+    "spirit-possession",
+    "truthfulness",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "divine-immanence",
+    "essentially-good",
+    "humility",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "boundaries-self-worth",
+    "giving-generosity"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "12 | Notes on the Story of Ah-ahn-he-eat-toe-pahk Mahkai",
+   "last_heading": "12 | Notes on the Story of Ah-ahn-he-eat-toe-pahk Mahkai",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession",
+    "syncretic",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "13 | The Story of Vandaih, The Man-Eagle",
+   "last_heading": "13 | The Story of Vandaih, The Man-Eagle",
+   "semantic_tags": [
+    "essentially-good",
+    "oral-tradition",
+    "theophany",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "honesty-hypocrisy",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "humility",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "change-transformation",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "spirit-possession",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "14 | Notes on the Story of Vandaih",
+   "last_heading": "14 | Notes on the Story of Vandaih",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "fasting",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "awe-fear",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "addiction-self-destruction"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "15 | The Story of the Turquoises and the Red Bird",
+   "last_heading": "15 | The Story of the Turquoises and the Red Bird",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "emotions-passions"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order"
+   ],
+   "psych_tags": [
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "16 | Notes on the Story of the Turquoises",
+   "last_heading": "16 | Notes on the Story of the Turquoises",
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "play-laughter-lightness"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": "17 | The Story of Wayhohm, Toehahvs and Tottai",
+   "last_heading": "17 | The Story of Wayhohm, Toehahvs and Tottai",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": "18 | Notes on the Story of Wayhohm",
+   "last_heading": "18 | Notes on the Story of Wayhohm",
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": "19 | The Story of Hawawk",
+   "last_heading": "19 | The Story of Hawawk",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "gender-body",
+    "loneliness-belonging",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "evil-as-deception",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "childhood-wounds",
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "evil-as-deception",
+    "oral-tradition",
+    "sin-as-disobedience",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": "20 | Notes on the Story of Hawawk",
+   "last_heading": "20 | Notes on the Story of Hawawk",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "reincarnation",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "play-laughter-lightness"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 64,
+   "first_heading": "21 | The Story of Tawquahdahmawks and her Canal",
+   "last_heading": "21 | The Story of Tawquahdahmawks and her Canal",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "divine-immanence",
+    "feminine-divine",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gender-body",
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "22 | Notes on the Story of Tawquahdahmawks",
+   "last_heading": "22 | Notes on the Story of Tawquahdahmawks",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "23 | How Nooee Killed Ee-Ee-Toy",
+   "last_heading": "23 | How Nooee Killed Ee-Ee-Toy",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cosmic-egg",
+    "creator-deity",
+    "divine-kingship",
+    "mystical-union",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "24 | Songs",
+   "last_heading": "25 | Notes on How Nooee Killed Ee-Ee-Toy",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "polytheist",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "26 | Ee-Ee-Toy's Resurrection and Speech to Juhwerta Mahkai",
+   "last_heading": "26 | Ee-Ee-Toy's Resurrection and Speech to Juhwerta Mahkai",
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "syncretic",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "stillness-rest",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "syncretic",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "27 | Notes On Ee-ee-toy's Resurrection",
+   "last_heading": "27 | Notes On Ee-ee-toy's Resurrection",
+   "semantic_tags": [
+    "mystical-union",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "28 | The Story Of Ee-ee-toy's Army",
+   "last_heading": "28 | The Story Of Ee-ee-toy's Army",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 76,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "illness-body",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "29 | Songs",
+   "last_heading": "29 | Songs",
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "30 | The Destruction of the Vahahkkees",
+   "last_heading": "30 | The Destruction of the Vahahkkees",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "prophetic-revelation",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 83,
+   "first_heading": "31 | Songs",
+   "last_heading": "31 | Songs",
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 84,
+   "first_heading": "32 | Notes on the Story of Ee-Ee-Toy's Army and that of the Destruction of the Vahakkees",
+   "last_heading": "32 | Notes on the Story of Ee-Ee-Toy's Army and that of the Destruction of the Vahakkees",
+   "semantic_tags": [
+    "commentarial-layer",
+    "lineage-importance",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 85,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "marriage-sacred",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 86,
+   "first_heading": "33 | The Story of Sohahnee Mahkai and Kawkoinpuh",
+   "last_heading": "33 | The Story of Sohahnee Mahkai and Kawkoinpuh",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 87,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 88,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 89,
+   "first_heading": "34 | Notes on the Story of Sohahnee Mahkai",
+   "last_heading": "34 | Notes on the Story of Sohahnee Mahkai",
+   "semantic_tags": [
+    "theodicy"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 90,
+   "first_heading": "35 | The Story Of Pahtahnkum",
+   "last_heading": "35 | The Story Of Pahtahnkum",
+   "semantic_tags": [
+    "lineage-importance",
+    "oral-tradition",
+    "suffering-as-purifying",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "childhood-wounds",
+    "loss-grief",
+    "meaning-of-suffering",
+    "parenthood",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 91,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "childhood-wounds",
+    "fear-uncertainty",
+    "loss-grief",
+    "parenthood",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 92,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 93,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 94,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 95,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 96,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 97,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 98,
+   "first_heading": "36 | The Song of Koelhahah About Her Son",
+   "last_heading": "37 | Notes on the Story of Pahtahnkum",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 99,
+   "first_heading": "38 | The Story of the Gambler's War",
+   "last_heading": "38 | The Story of the Gambler's War",
+   "semantic_tags": [
+    "oral-tradition",
+    "suffering-as-purifying",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 100,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 101,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 102,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "mystical-union",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 103,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "other-power",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 104,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-good",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "ingroup-outgroup-prejudice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 105,
+   "first_heading": "39 | Notes on the Story of the Gambler's War",
+   "last_heading": "39 | Notes on the Story of the Gambler's War",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 106,
+   "first_heading": "40 | The Story Of Nahvahchoo",
+   "last_heading": "40 | The Story Of Nahvahchoo",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 107,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "mystical-union",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 108,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 109,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 110,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 111,
+   "first_heading": "41 | Notes on the Story of Nahvahchoo",
+   "last_heading": "41 | Notes on the Story of Nahvahchoo",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 112,
+   "first_heading": "42 | The Story of Corn and Tobacco",
+   "last_heading": "42 | The Story of Corn and Tobacco",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-immanence",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 113,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "gratitude-contentment",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 114,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 115,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 116,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 117,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 118,
+   "first_heading": "43 | Notes on the Story of Corn and Tobacco",
+   "last_heading": "43 | Notes on the Story of Corn and Tobacco",
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 119,
+   "first_heading": "44 | The Story of the Children of Cloud",
+   "last_heading": "44 | The Story of the Children of Cloud",
+   "semantic_tags": [
+    "divine-immanence",
+    "lineage-importance",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "tabula-rasa",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 120,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 121,
+   "first_heading": "45 | Notes on the Story of Cloud",
+   "last_heading": "45 | Notes on the Story of Cloud",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "feminine-divine",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 122,
+   "first_heading": "46 | The Story of Tcheunassat Seeven",
+   "last_heading": "46 | The Story of Tcheunassat Seeven",
+   "semantic_tags": [
+    "divine-kingship",
+    "feminine-divine",
+    "marriage-sacred",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 123,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "other-power",
+    "spirit-possession",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 124,
+   "first_heading": "47 | Songs",
+   "last_heading": "48 | The Legend of Blackwater",
+   "semantic_tags": [
+    "awe-fear",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 125,
+   "first_heading": "49 | « Previous: Errata",
+   "last_heading": "49 | « Previous: Errata",
+   "semantic_tags": [],
+   "psych_tags": []
+  }
+ ]
+}
