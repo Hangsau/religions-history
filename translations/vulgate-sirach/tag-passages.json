@@ -1,0 +1,894 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-sirach",
+ "chunks_total": 47,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber Ecclesiasticus",
+   "last_heading": "1 | Vulgata Clementina/Liber Ecclesiasticus",
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "revealed-text",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "grace-from-god",
+    "humility",
+    "ritual-practice",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "patience-waiting",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "forgiveness",
+    "grace-from-god",
+    "humility",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "parenthood",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "grace-from-god",
+    "liberation-by-knowledge",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "giving-generosity",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "grace-from-god",
+    "humility",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-immanence",
+    "golden-rule",
+    "humility",
+    "marriage-sacred",
+    "priesthood",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "marriage-family",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "golden-rule",
+    "humility",
+    "sexual-ethics",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "illness-body",
+    "loss-grief",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "humility",
+    "prayer",
+    "theocracy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "essentially-good",
+    "grace-from-god",
+    "humility",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "patience-waiting",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "giving-generosity",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "essentially-good",
+    "humility",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "existence-why-born",
+    "insignificance-history",
+    "loneliness-belonging",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "essentially-flawed"
+   ],
+   "psych_tags": [
+    "death",
+    "giving-generosity",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "prayer",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "created-in-image",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "sin-as-disobedience",
+    "theodicy",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "boundaries-self-worth",
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "humility",
+    "prayer",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "responsibility-leadership",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "humility",
+    "self-effort",
+    "sin-as-disobedience",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "death",
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "loneliness-belonging",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "forgiveness",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "created-in-image",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-immanence",
+    "liberation-by-knowledge",
+    "monotheist-exclusive",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "enlightenment",
+    "essentially-good",
+    "liberation-by-knowledge",
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "fear-uncertainty",
+    "marriage-family",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-transcendence",
+    "essentially-good",
+    "marriage-sacred",
+    "patriarchal",
+    "sexual-ethics",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gender-body",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "communication-being-understood",
+    "evil-cruelty-empathy",
+    "gratitude-contentment",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "economic-justice",
+    "humility",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "giving-generosity",
+    "gratitude-contentment",
+    "marriage-family",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "essentially-good",
+    "humility",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "giving-generosity",
+    "gratitude-contentment",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "commandments-law",
+    "humility",
+    "ritual-practice",
+    "study"
+   ],
+   "psych_tags": [
+    "addiction-self-destruction",
+    "honesty-hypocrisy",
+    "stillness-rest",
+    "wisdom-learning-curiosity",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "humility",
+    "monotheist-exclusive"
+   ],
+   "psych_tags": [
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "economic-justice",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "compassion",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "guilt-atonement",
+    "insignificance-history",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "compassion",
+    "essentially-good",
+    "heaven-hell",
+    "humility",
+    "prayer",
+    "suffering-as-purifying",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body",
+    "trust-vulnerability",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "wisdom-learning-curiosity",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "sin-as-disobedience",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "memory-reconciliation",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "body-mind",
+    "gender-body",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "creator-deity",
+    "divine-transcendence",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "lineage-importance",
+    "messianism",
+    "priesthood",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "lineage-importance",
+    "priesthood",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "monotheist-exclusive",
+    "patriarchal",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "faith-doubt",
+    "guilt-atonement",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "lineage-importance",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "faith-doubt",
+    "guilt-atonement",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "priesthood",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "monotheist-exclusive",
+    "prayer",
+    "prayer",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "gratitude-contentment",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "liberation-by-devotion",
+    "monotheist-exclusive",
+    "prayer",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}

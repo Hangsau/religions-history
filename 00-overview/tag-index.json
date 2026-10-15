@@ -428,6 +428,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristophanes-clouds-el",
       "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
@@ -1763,6 +1768,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -2360,9 +2370,19 @@
       "religion": "儒教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -2538,6 +2558,11 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "welsh-triads",
@@ -3310,6 +3335,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     },
     {
       "slug": "njals-saga-on",
@@ -4984,6 +5014,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -5037,6 +5072,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "origin-myth-of-acoma",
@@ -5243,6 +5283,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -5961,6 +6006,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -6239,6 +6289,11 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-zephaniah",
@@ -7328,6 +7383,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nadabindu-upanishad",
@@ -8489,6 +8549,11 @@
       "religion": "耆那教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -8541,6 +8606,11 @@
     {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -11171,6 +11241,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -11198,6 +11273,11 @@
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -16063,6 +16143,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -16135,6 +16220,16 @@
     {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -16322,6 +16417,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -16740,6 +16840,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -17054,6 +17159,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -20957,6 +21067,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
@@ -21075,6 +21190,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -21574,6 +21694,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -26039,6 +26164,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
@@ -26157,6 +26287,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -26451,6 +26586,11 @@
     {
       "slug": "vulgate-3-esdras",
       "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -34776,6 +34916,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -34894,6 +35039,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nihongi-aston",
@@ -35123,6 +35273,11 @@
     {
       "slug": "vulgate-prayer-of-manasseh",
       "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -36093,6 +36248,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "leviticus",
       "name_zh": "利未記",
       "religion": "猶太教"
@@ -36332,6 +36492,11 @@
     {
       "slug": "apollodorus-bibliotheca-el",
       "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -36915,6 +37080,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -37088,6 +37258,11 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "xunzi",
@@ -37407,6 +37582,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -37436,6 +37616,11 @@
     {
       "slug": "apollodorus-bibliotheca-el",
       "name_zh": "書庫·神話全書（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -37964,6 +38149,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogo-shui-zh",
       "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
@@ -38042,6 +38232,16 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -38271,6 +38471,11 @@
     {
       "slug": "vulgate-judith",
       "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -38786,9 +38991,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -39088,6 +39303,11 @@
     {
       "slug": "vulgate-prayer-of-manasseh",
       "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -40488,6 +40708,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -41052,6 +41282,11 @@
     {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -42932,9 +43167,19 @@
       "religion": "伊斯蘭"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -43372,6 +43617,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -43466,6 +43716,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -45009,9 +45264,19 @@
       "religion": "儒教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -45329,6 +45594,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
@@ -45408,6 +45678,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -46791,9 +47066,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -47338,6 +47623,11 @@
     {
       "slug": "vulgate-revelation",
       "name_zh": "啟示錄（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -48102,6 +48392,11 @@
     {
       "slug": "vulgate-micah",
       "name_zh": "彌迦書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -50165,6 +50460,11 @@
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "pistis-sophia",
@@ -61016,6 +61316,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -61104,6 +61409,11 @@
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nadabindu-upanishad",
@@ -61364,6 +61674,11 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "wunengzi",
@@ -62375,6 +62690,11 @@
     {
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -63665,6 +63985,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-wisdom",
       "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
@@ -64050,6 +64375,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -66879,6 +67209,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -67541,6 +67876,11 @@
       "religion": "巴哈伊"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -67573,6 +67913,11 @@
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -68947,6 +69292,11 @@
     {
       "slug": "vulgate-prayer-of-manasseh",
       "name_zh": "瑪拿西禱辭（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -72662,6 +73012,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
@@ -72964,6 +73319,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
@@ -73022,6 +73382,11 @@
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     },
     {
       "slug": "nihongi-aston",
@@ -73394,6 +73759,11 @@
       "slug": "sutta-nipata",
       "name_zh": "經集",
       "religion": "佛教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-tobit",
@@ -74523,6 +74893,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
       "religion": "神道"
@@ -74800,6 +75175,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -76330,6 +76710,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -76368,6 +76753,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -76607,6 +76997,11 @@
     {
       "slug": "vulgate-revelation",
       "name_zh": "啟示錄（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -76940,6 +77335,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -78424,6 +78824,11 @@
       "religion": "墨家"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nihongi-aston",
       "name_zh": "日本書紀 (英譯)",
       "religion": "神道"
@@ -78746,6 +79151,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -82938,6 +83348,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -82995,6 +83410,11 @@
     {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -85962,6 +86382,11 @@
     {
       "slug": "kn-petavatthu",
       "name_zh": "小部·餓鬼事",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
       "religion": "佛教"
     },
     {
@@ -92237,6 +92662,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -92280,6 +92710,11 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -92444,6 +92879,11 @@
     {
       "slug": "vulgate-judith",
       "name_zh": "猶滴傳（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -98639,6 +99079,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -98717,6 +99162,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nadabindu-upanishad",
@@ -99052,6 +99502,11 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-wisdom",
@@ -102761,6 +103216,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -102809,6 +103269,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "pindar-pythian-el",
@@ -106208,6 +106673,11 @@
       "religion": "墨家"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "narratives-rites-laws-yncas",
       "name_zh": "印加儀禮與法律紀事 (Molina／Salcamayhua, Markham 英譯)",
       "religion": "印加"
@@ -106535,6 +107005,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -107732,6 +108207,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristophanes-clouds-el",
       "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
@@ -108127,6 +108607,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -108205,6 +108690,11 @@
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -108414,6 +108904,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -115049,6 +115544,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -115142,6 +115642,11 @@
       "slug": "mishkat-al-anwar",
       "name_zh": "Mishkat al-Anwar 光明壁龕 (Ghazali)",
       "religion": "伊斯蘭"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nadabindu-upanishad",
@@ -115549,6 +116054,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristophanes-frogs-el",
@@ -116353,6 +116863,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -125633,6 +126148,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -125706,6 +126226,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -128690,6 +129215,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -129012,6 +129542,11 @@
     {
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -131387,6 +131922,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
@@ -131424,6 +131964,11 @@
     {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     },
     {
@@ -132409,6 +132954,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "neiguan-jing",
       "name_zh": "太上老君內觀經",
       "religion": "道教"
@@ -132614,6 +133169,11 @@
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristophanes-frogs-el",
@@ -138176,6 +138736,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kormaks-saga-on",
       "name_zh": "科爾馬克薩迦",
       "religion": "北歐"
@@ -138284,6 +138849,11 @@
       "slug": "mishnah-berakhot",
       "name_zh": "米示拿·祝福章",
       "religion": "猶太教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -142818,6 +143388,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
       "religion": "印度教"
@@ -145357,6 +145932,11 @@
       "religion": "墨家"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nihon-shoki-zh",
       "name_zh": "日本書紀（漢文原文，全三十卷）",
       "religion": "神道"
@@ -146667,6 +147247,16 @@
       "slug": "mishnah-berakhot",
       "name_zh": "米示拿·祝福章",
       "religion": "猶太教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -153183,6 +153773,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -153241,6 +153836,11 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -153935,6 +154535,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "welsh-triads",
       "name_zh": "威爾士三聯",
       "religion": "凱爾特"
@@ -153974,6 +154579,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -155027,6 +155637,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nehemiah",
       "name_zh": "尼希米記",
       "religion": "猶太教"
@@ -155136,6 +155751,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -156239,6 +156859,16 @@
       "religion": "印度教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -156608,6 +157238,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -159541,9 +160176,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -160051,6 +160696,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -160110,6 +160760,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -162113,6 +162768,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -162418,6 +163078,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-wisdom",
       "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
@@ -162468,6 +163133,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristophanes-clouds-el",
@@ -164722,6 +165392,11 @@
       "religion": "猶太教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nahum",
       "name_zh": "那鴻書",
       "religion": "猶太教"
@@ -165209,6 +165884,11 @@
     {
       "slug": "vulgate-revelation",
       "name_zh": "啟示錄（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -167331,6 +168011,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -167364,6 +168049,11 @@
       "slug": "medicine-buddha-sutra",
       "name_zh": "藥師琉璃光如來本願功德經",
       "religion": "佛教"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "navajo-myths",
@@ -168348,6 +169038,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "yuhuang-benxing-jing",
       "name_zh": "高上玉皇本行集經",
       "religion": "道教"
@@ -168407,6 +169102,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -178365,6 +179065,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogo-shui-zh",
       "name_zh": "古語拾遺（漢文原文）",
       "religion": "神道"
@@ -178530,9 +179235,19 @@
       "religion": "猶太教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -179065,6 +179780,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -179190,6 +179910,11 @@
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristophanes-frogs-el",
@@ -183382,6 +184107,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
@@ -183485,6 +184215,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "mythology-mission-indians",
@@ -185209,6 +185944,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "ksitigarbha-sutra",
       "name_zh": "地藏菩薩本願經",
       "religion": "佛教"
@@ -185606,6 +186346,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -191513,6 +192258,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kongzi-jiayu",
       "name_zh": "孔子家語",
       "religion": "儒教"
@@ -191601,6 +192351,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "neiguan-jing",
@@ -191915,6 +192670,11 @@
     {
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -192900,6 +193660,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nihon-shoki-zh",
       "name_zh": "日本書紀（漢文原文，全三十卷）",
       "religion": "神道"
@@ -193037,6 +193802,11 @@
     {
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -195152,9 +195922,19 @@
       "religion": "儒教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "narratives-rites-laws-yncas",
@@ -195494,6 +196274,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -196787,6 +197572,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     },
     {
       "slug": "mozi",
@@ -198284,6 +199074,11 @@
       "slug": "vedanta-vivekacudamani",
       "name_zh": "明辨寶鬘（分別智頂珠）",
       "religion": "印度教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     },
     {
       "slug": "wenzhongzi-zhongshuo",
@@ -201858,6 +202653,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -202193,6 +202993,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -202364,6 +203169,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -204972,6 +205782,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -205373,6 +206188,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -206516,6 +207336,11 @@
       "religion": "墨家"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -206791,6 +207616,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -206846,6 +207676,11 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristophanes-frogs-el",
@@ -208100,6 +208935,11 @@
     {
       "slug": "vulgate-nehemiah",
       "name_zh": "尼希米記（武加大稱 2 Esdras）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -210610,6 +211450,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
@@ -211000,6 +211845,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -211099,6 +211949,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -214212,6 +215067,16 @@
       "religion": "伊斯蘭"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -214722,6 +215587,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -215164,6 +216034,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    },
+    {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
       "religion": "美洲"
@@ -215453,6 +216328,11 @@
     {
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     },
     {
@@ -220711,6 +221591,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -220829,6 +221714,11 @@
       "slug": "mozi",
       "name_zh": "墨子",
       "religion": "墨家"
+    },
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     },
     {
       "slug": "nihon-shoki-zh",
@@ -221303,6 +222193,11 @@
     {
       "slug": "vulgate-proverbs",
       "name_zh": "箴言（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -225738,6 +226633,11 @@
       "religion": "墨家"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "nadabindu-upanishad",
       "name_zh": "聲點奧義書",
       "religion": "印度教"
@@ -226288,6 +227188,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
@@ -226597,6 +227502,11 @@
     {
       "slug": "vulgate-4-esdras",
       "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -229534,6 +230444,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    },
+    {
       "slug": "kojiki-zh",
       "name_zh": "古事記（上代日本語原文，漢文・萬葉假名）",
       "religion": "神道"
@@ -229592,6 +230507,11 @@
       "slug": "mingru-xuean",
       "name_zh": "明儒學案",
       "religion": "儒教"
+    },
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     },
     {
       "slug": "mythology-mission-indians",

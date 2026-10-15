@@ -307,6 +307,11 @@
       "slug": "vulgate-4-esdras",
       "name_zh": "4 以斯拉（武加大附錄）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "Aeneadum": [
@@ -2695,6 +2700,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Central Sierra Miwok": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "Cephalus": [
     {
       "slug": "plato-republic-el",
@@ -2934,6 +2946,13 @@
       "religion": "基督教"
     }
   ],
+  "Circular assembly houses": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "Cittavagga": [
     {
       "slug": "dhammapada",
@@ -3095,6 +3114,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Coyote": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "Creation": [
     {
       "slug": "babylonian-legends-creation",
@@ -3112,6 +3138,13 @@
       "slug": "ovid-metamorphoses",
       "name_zh": "變形記 (奧維德)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Creator omnipotens": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "Creon": [
@@ -3774,6 +3807,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Edward Winslow Gifford": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "Edwin Marion Cox": [
     {
       "slug": "sappho-poetry",
@@ -4096,6 +4136,13 @@
       "religion": "非洲"
     }
   ],
+  "Euelpides": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Euphratem": [
     {
       "slug": "vulgate-3-esdras",
@@ -4293,6 +4340,13 @@
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
+    }
+  ],
+  "Flute-player": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     }
   ],
   "Fomoire": [
@@ -5972,6 +6026,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
+    {
       "slug": "shankhayana-aranyaka",
       "name_zh": "僧佉衍那森林書",
       "religion": "印度教"
@@ -6112,6 +6171,11 @@
       "slug": "vulgate-joshua",
       "name_zh": "約書亞記（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "Ithaca": [
@@ -6124,6 +6188,13 @@
       "slug": "odyssey-butler",
       "name_zh": "奧德賽（Butler 譯）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Itthivimāna": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "Itzá": [
@@ -6297,6 +6368,13 @@
     {
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
+      "religion": "美洲"
+    }
+  ],
+  "Jamestown": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
     }
   ],
@@ -6512,6 +6590,11 @@
     {
       "slug": "vulgate-matthew",
       "name_zh": "馬太福音（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     }
   ],
@@ -8560,6 +8643,13 @@
       "religion": "猶太教"
     }
   ],
+  "Miwok": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "Miðfjörður": [
     {
       "slug": "bandamanna-saga-on",
@@ -8598,6 +8688,13 @@
       "slug": "virgil-eclogues",
       "name_zh": "牧歌 (維吉爾)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Moggallāna": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "Moksha": [
@@ -10336,6 +10433,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Pisthetairos": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Pistis Sophia": [
     {
       "slug": "gnostics-and-their-remains",
@@ -10668,6 +10772,13 @@
       "religion": "基督教"
     }
   ],
+  "Ptolemaeus Evergetes": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "Ptolemy III": [
     {
       "slug": "rosetta-stone",
@@ -10804,6 +10915,13 @@
       "slug": "shiva-mahimna-stava",
       "name_zh": "濕婆威德讚",
       "religion": "印度教"
+    }
+  ],
+  "Pīṭhavagga": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "Qastcèyalçi": [
@@ -12218,6 +12336,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Soulsbyville": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "Spanish Conquest": [
     {
       "slug": "chilam-balam",
@@ -12262,6 +12387,11 @@
     {
       "slug": "vulgate-acts",
       "name_zh": "使徒行傳（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     }
   ],
@@ -12821,6 +12951,13 @@
       "religion": "猶太教"
     }
   ],
+  "Tereus": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Terpander": [
     {
       "slug": "sappho-poetry",
@@ -12929,6 +13066,13 @@
       "slug": "kogoshui",
       "name_zh": "古語拾遺",
       "religion": "神道"
+    }
+  ],
+  "Thomas Williams": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     }
   ],
   "Thoth": [
@@ -13247,6 +13391,13 @@
     {
       "slug": "creation-myths-primitive-america",
       "name_zh": "原始美洲創世神話 (Curtin)",
+      "religion": "美洲"
+    }
+  ],
+  "Tuolumne County": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
     }
   ],
@@ -13730,6 +13881,13 @@
       "slug": "heimskringla",
       "name_zh": "赫姆斯克林格拉",
       "religion": "北歐"
+    }
+  ],
+  "Vimānavatthu": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "Vindhya": [
@@ -14238,6 +14396,13 @@
       "slug": "masnavi-rumi-st",
       "name_zh": "瑪斯納維 (Rumi 蘇菲詩)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "William Fuller": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     }
   ],
   "William Morris": [
@@ -15512,6 +15677,13 @@
       "religion": "印度教"
     }
   ],
+  "añjali": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    }
+  ],
   "aśubha": [
     {
       "slug": "bud-ratnavali-sa",
@@ -15766,6 +15938,13 @@
       "religion": "印度教"
     }
   ],
+  "bharadvāja": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "bhava": [
     {
       "slug": "sn12-nidana",
@@ -15857,6 +16036,13 @@
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
       "religion": "印度教"
+    }
+  ],
+  "bhisī": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "bhoktā": [
@@ -16417,6 +16603,13 @@
       "religion": "佛教"
     }
   ],
+  "codanādharma": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "codices": [
     {
       "slug": "aztec-rva",
@@ -16713,6 +16906,11 @@
     {
       "slug": "cbeta-T32n1683",
       "name_zh": "犍稚梵讚",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
       "religion": "佛教"
     },
     {
@@ -17129,6 +17327,11 @@
     {
       "slug": "kn-petavatthu",
       "name_zh": "小部·餓鬼事",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
       "religion": "佛教"
     }
   ],
@@ -17825,6 +18028,13 @@
       "religion": "基督教"
     }
   ],
+  "harāditya": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "hatthī": [
     {
       "slug": "jain-dhurtakhyana-pkt",
@@ -18053,6 +18263,13 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "humilitas": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "hákonungr": [
@@ -18287,6 +18504,11 @@
   ],
   "justitia": [
     {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-wisdom",
       "name_zh": "智慧篇（武加大）",
       "religion": "基督教"
@@ -18352,6 +18574,13 @@
       "slug": "poetic-edda-on",
       "name_zh": "詩體埃達（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "jātivāda": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "jīva": [
@@ -18476,6 +18705,11 @@
     {
       "slug": "kn-petavatthu",
       "name_zh": "小部·餓鬼事",
+      "religion": "佛教"
+    },
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
       "religion": "佛教"
     }
   ],
@@ -18727,7 +18961,19 @@
       "religion": "佛教"
     }
   ],
+  "kāmika": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "kāpālika": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    },
     {
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
@@ -18853,6 +19099,11 @@
     {
       "slug": "vulgate-romans",
       "name_zh": "羅馬書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     }
   ],
@@ -19169,6 +19420,13 @@
       "religion": "印度教"
     }
   ],
+  "mandata aeterna": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "mandatum": [
     {
       "slug": "vulgate-1-john",
@@ -19231,6 +19489,13 @@
     {
       "slug": "utpaladeva-shivastotravali",
       "name_zh": "濕婆讚頌鬘",
+      "religion": "印度教"
+    }
+  ],
+  "mantreśvara": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     }
   ],
@@ -19576,6 +19841,13 @@
       "religion": "美洲"
     }
   ],
+  "myths": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
   "māna": [
     {
       "slug": "itivuttaka",
@@ -19895,6 +20167,13 @@
       "religion": "印度教"
     }
   ],
+  "nārāyaṇāśrama": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "nīlakaṃṭha": [
     {
       "slug": "shivasankalpa-upanishad",
@@ -20121,6 +20400,13 @@
     {
       "slug": "brahma-samhita",
       "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
+  "parameśa": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     }
   ],
@@ -20376,6 +20662,11 @@
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
       "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "peccavi": [
@@ -20439,6 +20730,13 @@
       "slug": "kitab-al-khazari",
       "name_zh": "庫薩里 (Judah Halevi)",
       "religion": "猶太教"
+    }
+  ],
+  "phonograph": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     }
   ],
   "physis": [
@@ -20792,6 +21090,13 @@
       "religion": "基督教"
     }
   ],
+  "prophetae": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "proselytis": [
     {
       "slug": "vulgate-tobit",
@@ -21046,6 +21351,11 @@
       "slug": "kn-petavatthu",
       "name_zh": "小部·餓鬼事",
       "religion": "佛教"
+    },
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "puḍhavi-kamma": [
@@ -21177,6 +21487,13 @@
     {
       "slug": "an11-elevens",
       "name_zh": "AN11 十一法集",
+      "religion": "佛教"
+    }
+  ],
+  "pīṭha": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
       "religion": "佛教"
     }
   ],
@@ -21382,6 +21699,13 @@
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
+    }
+  ],
+  "rudra": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     }
   ],
   "ríastarthae": [
@@ -21723,6 +22047,11 @@
     {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
       "religion": "基督教"
     },
     {
@@ -22408,6 +22737,13 @@
       "religion": "印度教"
     }
   ],
+  "sāṃnidhya": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "sīla": [
     {
       "slug": "an11-elevens",
@@ -22655,6 +22991,13 @@
       "religion": "基督教"
     }
   ],
+  "temptatio": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
+    }
+  ],
   "tempus": [
     {
       "slug": "seneca-de-brevitate-vitae-la",
@@ -22737,6 +23080,13 @@
       "slug": "euripides-bacchae-el",
       "name_zh": "酒神的女信徒（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "timor Domini": [
+    {
+      "slug": "vulgate-sirach",
+      "name_zh": "德訓篇（武加大）",
+      "religion": "基督教"
     }
   ],
   "title page": [
@@ -22922,6 +23272,13 @@
       "religion": "印度教"
     }
   ],
+  "umāpati": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "underworld": [
     {
       "slug": "book-of-gates",
@@ -23015,6 +23372,20 @@
       "slug": "sn3-kosala",
       "name_zh": "SN3 拘薩羅相應",
       "religion": "佛教"
+    }
+  ],
+  "utentbe": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
+    }
+  ],
+  "utne": [
+    {
+      "slug": "miwok-myths",
+      "name_zh": "米沃克神話 (Barrett)",
+      "religion": "美洲"
     }
   ],
   "vairāgya": [
@@ -23275,6 +23646,13 @@
       "religion": "佛教"
     }
   ],
+  "vimāna": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
+    }
+  ],
   "vinaya": [
     {
       "slug": "jain-uttaradhyayana-pkt",
@@ -23498,6 +23876,13 @@
       "slug": "grettis-saga-on",
       "name_zh": "格雷提爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "vāc": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
     }
   ],
   "vākyārtha": [
@@ -24264,12 +24649,24 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    },
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
+      "religion": "佛教"
     }
   ],
   "āsava": [
     {
       "slug": "therigatha",
       "name_zh": "長老尼偈",
+      "religion": "佛教"
+    }
+  ],
+  "āsīvisa": [
+    {
+      "slug": "kn-vimanavatthu",
+      "name_zh": "小部·天宮事",
       "religion": "佛教"
     }
   ],
@@ -24612,6 +25009,13 @@
       "religion": "印度教"
     }
   ],
+  "śabdamātra": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
   "śakti": [
     {
       "slug": "abhinavagupta-kramastotra",
@@ -24644,6 +25048,13 @@
     {
       "slug": "todala-tantra",
       "name_zh": "托陀羅怛特羅",
+      "religion": "印度教"
+    }
+  ],
+  "śiva": [
+    {
+      "slug": "mrgendra-agama",
+      "name_zh": "獸主阿含",
       "religion": "印度教"
     }
   ],
@@ -24879,6 +25290,13 @@
     {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Διβυκὸν ὄρνεον": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25172,6 +25590,13 @@
     {
       "slug": "pindar-pythian-el",
       "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Σάκας": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25561,6 +25986,13 @@
       "religion": "基督教"
     }
   ],
+  "κανοῦν": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "καρτερία": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -25579,6 +26011,20 @@
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "κολοιός": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "κορώνη": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25647,6 +26093,13 @@
     {
       "slug": "aristophanes-clouds-el",
       "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "μυρρίνα": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25895,6 +26348,13 @@
     {
       "slug": "plotinus-enneads-el",
       "name_zh": "九章集（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "τέττιγες": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -27500,6 +27960,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ἀθηναῖοι": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ἀθῆναι": [
     {
       "slug": "sophocles-oedipus-colonus-el",
@@ -27544,6 +28011,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Ἄπολλον ἀποτρόπαιε": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -27603,6 +28077,13 @@
       "religion": "基督教"
     }
   ],
+  "ἔποψ": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἔργα 行為": [
     {
       "slug": "sblgnt-james",
@@ -27642,6 +28123,13 @@
     {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Ἔποψ": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -27727,6 +28215,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ὄρνιθες": [
+    {
+      "slug": "aristophanes-birds-el",
+      "name_zh": "鳥（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
