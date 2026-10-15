@@ -1,0 +1,1200 @@
+{
+ "schema_version": 1,
+ "slug": "maidu-texts",
+ "chunks_total": 78,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Title Page",
+   "last_heading": "2 | Contents",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | Introduction",
+   "last_heading": "3 | Introduction",
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 4,
+   "first_heading": "4 | Creation Myth.--Part I.",
+   "last_heading": "4 | Creation Myth.--Part I.",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-kingship",
+    "multiple-canons",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "meaning-of-suffering",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "cyclic-cosmos",
+    "oral-tradition",
+    "sacred-language"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 9,
+   "first_heading": "5 | 2. Creation Myth.--Part II",
+   "last_heading": "5 | 2. Creation Myth.--Part II",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "revealed-text",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-transcendence",
+    "other-power",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "theophany"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "trust-vulnerability",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "essentially-flawed",
+    "marriage-sacred",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "death",
+    "gender-body",
+    "hope-reason-to-live",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "evil-as-deception",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "oral-tradition",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cosmic-egg",
+    "creator-deity",
+    "cyclic-cosmos"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "change-transformation",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "6 | 3. Coyote's Adventures",
+   "last_heading": "6 | 3. Coyote's Adventures",
+   "semantic_tags": [
+    "oral-tradition",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "gender-body",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "death",
+    "gender-body",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "sexual-ethics",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "body-mind",
+    "calling-vocation",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred",
+    "multiple-souls",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "marriage-sacred",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "7 | 4. Coyote And Muskrat",
+   "last_heading": "7 | 4. Coyote And Muskrat",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creator-deity",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "essentially-flawed",
+    "evil-as-deception",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": "8 | 5. Coyote, The Mountain-Tossing People, and the Wind-Man.",
+   "last_heading": "8 | 5. Coyote, The Mountain-Tossing People, and the Wind-Man.",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chanting",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "sacred-language",
+    "spirit-possession",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "illness-body",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "essentially-flawed",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": "9 | 6. Thunder-Boy and Lizard-Man",
+   "last_heading": "9 | 6. Thunder-Boy and Lizard-Man",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "10 | 7. Thunder-Boy and Lizard-Man (variant)",
+   "last_heading": "10 | 7. Thunder-Boy and Lizard-Man (variant)",
+   "semantic_tags": [
+    "chaos-to-order",
+    "sacred-language",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "other-power",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": "11 | 8. Thunder and Mosquito, and the Theft of Fire",
+   "last_heading": "11 | 8. Thunder and Mosquito, and the Theft of Fire",
+   "semantic_tags": [
+    "divine-immanence",
+    "oral-tradition",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "divine-immanence",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "compassion",
+    "evil-as-deception",
+    "humility",
+    "theophany"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "courage",
+    "evil-cruelty-empathy"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "insignificance-history",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "oral-tradition",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 55,
+   "first_heading": "12 | 9. Sun-Man and Frog-Woman",
+   "last_heading": "12 | 9. Sun-Man and Frog-Woman",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "oral-tradition",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "evil-cruelty-empathy",
+    "loss-grief",
+    "parenthood",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "divine-kingship",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "gender-body",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "13 | 10. The Girls Who Married the Stars",
+   "last_heading": "13 | 10. The Girls Who Married the Stars",
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "14 | 11. Rolling Skull",
+   "last_heading": "14 | 11. Rolling Skull",
+   "semantic_tags": [
+    "chaos-to-order",
+    "mystical-union",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": "15 | 12. Night-Hawk-Man",
+   "last_heading": "15 | 12. Night-Hawk-Man",
+   "semantic_tags": [
+    "ritual-practice",
+    "spirit-possession",
+    "tabula-rasa"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "gender-body"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": "16 | 13. The Serpent-Lover",
+   "last_heading": "16 | 13. The Serpent-Lover",
+   "semantic_tags": [
+    "divine-immanence",
+    "marriage-sacred",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "calling-vocation",
+    "fear-uncertainty",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "17 | 14. Bat-Man",
+   "last_heading": "17 | 14. Bat-Man",
+   "semantic_tags": [
+    "marriage-sacred",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "loss-grief",
+    "marriage-family",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": "18 | 15. The Frightener",
+   "last_heading": "18 | 15. The Frightener",
+   "semantic_tags": [
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "prayer",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "19 | 16. Fisher-Man",
+   "last_heading": "19 | 16. Fisher-Man",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "ingroup-outgroup-prejudice",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": "20 | 17. Mountain-Lion and His Children",
+   "last_heading": "20 | 17. Mountain-Lion and His Children",
+   "semantic_tags": [
+    "against-idolatry",
+    "evil-as-deception",
+    "oral-tradition",
+    "suffering-as-purifying",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "marriage-family",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "mystical-union",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loneliness-belonging",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "21 | 18. Mouse-Man",
+   "last_heading": "21 | 18. Mouse-Man",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown"
+   ]
+  }
+ ]
+}

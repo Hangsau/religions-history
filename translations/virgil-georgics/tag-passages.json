@@ -1,0 +1,1227 @@
+{
+ "schema_version": 1,
+ "slug": "virgil-georgics",
+ "chunks_total": 79,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Title Page",
+   "last_heading": "2 | [Latin]",
+   "semantic_tags": [],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "3 | First Book",
+   "last_heading": "3 | First Book",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "patience-waiting"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "divine-kingship",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "living-with-unknown",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "polytheist",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "gratitude-contentment",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "polytheist",
+    "prayer",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language",
+    "secular-state",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "4 | [Latin]",
+   "last_heading": "4 | [Latin]",
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "nature-animals-ecology",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cosmic-egg",
+    "goddess-tradition",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology",
+    "stillness-rest",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "5 | Second Book",
+   "last_heading": "5 | Second Book",
+   "semantic_tags": [
+    "chanting",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "humility",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "wisdom-learning-curiosity",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "ritual-practice",
+    "theophany",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "nature-animals-ecology",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "insignificance-history",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "divine-kingship",
+    "golden-rule"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": "6 | [Latin]",
+   "last_heading": "6 | [Latin]",
+   "semantic_tags": [
+    "divine-immanence",
+    "goddess-tradition",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "patriarchal",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "patience-waiting",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "gratitude-contentment",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "7 | Third Book",
+   "last_heading": "7 | Third Book",
+   "semantic_tags": [
+    "caesaropapism",
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "sacred-language",
+    "sexual-ethics"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "love-sex-intimacy",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "love-sex-intimacy",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "8 | [Latin]",
+   "last_heading": "8 | [Latin]",
+   "semantic_tags": [
+    "divine-kingship",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "meaning-of-suffering",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "divine-transcendence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "love-sex-intimacy",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "illness-body",
+    "living-with-unknown",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "suffering-as-purifying"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "illness-body",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "9 | Fourth Book",
+   "last_heading": "9 | Fourth Book",
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-kingship",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "calling-vocation",
+    "gratitude-contentment",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "celibate-tradition",
+    "divine-immanence",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "divine-kingship",
+    "mystical-union",
+    "other-power",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "nature-animals-ecology",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "existence-why-born",
+    "faith-doubt",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "mystical-union",
+    "polytheist",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "mystical-union",
+    "polytheist",
+    "ritual-practice",
+    "ritual-practice",
+    "suffering-as-purifying",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-immanence",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 71,
+   "first_heading": "10 | [Latin]",
+   "last_heading": "10 | [Latin]",
+   "semantic_tags": [
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-kingship",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "responsibility-leadership",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cosmic-egg",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology",
+    "work-money"
+   ]
+  },
+  {
+   "chunk": 74,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creator-deity",
+    "cyclic-cosmos",
+    "divine-immanence",
+    "messianism",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "gratitude-contentment",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "nature-animals-ecology"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-transcendence",
+    "polytheist",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "guilt-atonement",
+    "loss-grief",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "goddess-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "nature-animals-ecology"
+   ]
+  }
+ ]
+}

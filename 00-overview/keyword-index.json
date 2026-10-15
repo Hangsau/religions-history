@@ -48,6 +48,13 @@
       "religion": "古埃及"
     }
   ],
+  "1911": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "1917": [
     {
       "slug": "key-of-gold-czech-tales",
@@ -775,6 +782,13 @@
       "religion": "美洲"
     }
   ],
+  "American Ethnological Society": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
+    }
+  ],
   "American Ethnology": [
     {
       "slug": "cherokee-sacred-formulas",
@@ -786,6 +800,13 @@
     {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
+      "religion": "美洲"
+    }
+  ],
+  "American Museum of Natural History": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
     }
   ],
@@ -955,6 +976,13 @@
       "religion": "印度教"
     }
   ],
+  "Anthropological Papers": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "Antichristus": [
     {
       "slug": "vulgate-2-john",
@@ -1088,6 +1116,13 @@
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
+    }
+  ],
+  "Arabic text": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
     }
   ],
   "Arahant": [
@@ -1477,6 +1512,13 @@
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Atsugewi": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Atticus": [
@@ -2890,6 +2932,11 @@
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Chaco": [
@@ -3328,6 +3375,16 @@
   ],
   "Coyote": [
     {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
+    },
+    {
       "slug": "miwok-myths",
       "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
@@ -3390,6 +3447,13 @@
       "slug": "tain-bo-cuailnge-ga",
       "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
       "religion": "凱爾特"
+    }
+  ],
+  "Culture Heroes": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
     }
   ],
   "Cura Valdez": [
@@ -4257,6 +4321,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Emergence": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "Emperor Meiji": [
     {
       "slug": "kogoshui",
@@ -4544,6 +4615,13 @@
       "religion": "北歐"
     }
   ],
+  "Fauns": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Fedelm": [
     {
       "slug": "tain-bo-cuailnge-ga",
@@ -4671,6 +4749,13 @@
       "slug": "popol-vuh",
       "name_zh": "波波爾·烏 (基切馬雅創世史詩)",
       "religion": "瑪雅"
+    }
+  ],
+  "Franz Boas": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Fravaši": [
@@ -4990,6 +5075,13 @@
       "religion": "神道"
     }
   ],
+  "Genesee": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
+    }
+  ],
   "George Smith": [
     {
       "slug": "babylonian-legends-creation",
@@ -5000,6 +5092,20 @@
       "slug": "chaldean-account-deluge",
       "name_zh": "迦勒底洪水記",
       "religion": "兩河"
+    }
+  ],
+  "Georgicon": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Georgics": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Germanicus": [
@@ -6260,6 +6366,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "Ibn al-Arabi": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "Iceland": [
     {
       "slug": "eyrbyggja-saga-on",
@@ -6688,6 +6801,13 @@
       "religion": "美洲"
     }
   ],
+  "J. W. MacKail": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "J. W. Powell": [
     {
       "slug": "creation-myths-primitive-america",
@@ -7057,6 +7177,13 @@
       "slug": "vulgate-hosea",
       "name_zh": "何西阿書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Jicarilla Apache": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
     }
   ],
   "Jina": [
@@ -8030,6 +8157,11 @@
   ],
   "Latin": [
     {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-jeremiah",
       "name_zh": "耶利米書（武加大）",
       "religion": "基督教"
@@ -8173,6 +8305,13 @@
       "religion": "基督教"
     }
   ],
+  "Leyden": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
+    }
+  ],
   "Lia Fáil": [
     {
       "slug": "cath-maige-tuired-ga",
@@ -8185,6 +8324,13 @@
       "slug": "vulgate-song-of-songs",
       "name_zh": "雅歌（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Liber": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Liber Exodus": [
@@ -8335,6 +8481,13 @@
       "religion": "猶太教"
     }
   ],
+  "Love": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "Lucilius": [
     {
       "slug": "seneca-de-providentia-la",
@@ -8439,6 +8592,13 @@
       "slug": "aztec-rva",
       "name_zh": "阿茲特克儀禮",
       "religion": "阿茲特克"
+    }
+  ],
+  "Maecenas": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Maelgwyn Gwyned": [
@@ -8585,6 +8745,13 @@
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "Maidu": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Maimonides": [
@@ -9142,6 +9309,13 @@
       "religion": "佛教"
     }
   ],
+  "Minerva": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Minos": [
     {
       "slug": "plato-laws-el",
@@ -9252,6 +9426,11 @@
     {
       "slug": "virgil-eclogues",
       "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -9392,6 +9571,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "Muhyi'ddin": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "Muirthemne": [
     {
       "slug": "cuchulain-muirthemne",
@@ -9438,6 +9624,13 @@
     {
       "slug": "mythology-mission-indians",
       "name_zh": "傳教區印第安人的神話 (DuBois)",
+      "religion": "美洲"
+    }
+  ],
+  "Myths": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
     }
   ],
@@ -9640,6 +9833,13 @@
       "religion": "印度教"
     }
   ],
+  "Naiyenesgani": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "Nakulapita": [
     {
       "slug": "sn22-khandha",
@@ -9823,6 +10023,13 @@
       "religion": "古埃及"
     }
   ],
+  "Neptune": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "New Kingdom": [
     {
       "slug": "book-of-am-tuat",
@@ -9967,6 +10174,13 @@
       "slug": "religion-of-sikhs",
       "name_zh": "錫克教宗教 (Field)",
       "religion": "錫克教"
+    }
+  ],
+  "Northeastern Maidu": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Northmen": [
@@ -10602,6 +10816,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Owl": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "Oxford": [
     {
       "slug": "hausa-folklore",
@@ -10621,6 +10842,13 @@
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
+    }
+  ],
+  "P. Vergili Maronis": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "PER-EM-HRU": [
@@ -10703,6 +10931,13 @@
     {
       "slug": "euripides-hippolytus-el",
       "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Pan": [
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -10878,6 +11113,13 @@
     {
       "slug": "sn22-khandha",
       "name_zh": "SN22 蘊相應 (159 經)",
+      "religion": "佛教"
+    }
+  ],
+  "Paṭiccasamuppāda": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
       "religion": "佛教"
     }
   ],
@@ -11130,11 +11372,25 @@
       "religion": "諾斯底"
     }
   ],
+  "Pliny Earle Goddard": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "Plotinus 普羅提諾": [
     {
       "slug": "plotinus-enneads",
       "name_zh": "普羅提諾九章集",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Plumas County": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Plutarch": [
@@ -11892,6 +12148,13 @@
       "religion": "北歐"
     }
   ],
+  "Reynold Nicholson": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "Rhadamanthys": [
     {
       "slug": "plato-laws-el",
@@ -11946,6 +12209,13 @@
       "slug": "talmud-rodkinson",
       "name_zh": "塔木德 (Rodkinson 選譯)",
       "religion": "猶太教"
+    }
+  ],
+  "Roland B. Dixon": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Romaharṣaṇa": [
@@ -13256,6 +13526,13 @@
       "religion": "佛教"
     }
   ],
+  "Sufi poetry": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "Sufism": [
     {
       "slug": "mishkat-al-anwar",
@@ -13565,6 +13842,13 @@
       "religion": "印度教"
     }
   ],
+  "Tales": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    }
+  ],
   "Talisman": [
     {
       "slug": "gnostics-and-their-remains",
@@ -13645,6 +13929,13 @@
       "slug": "cbeta-T20n1107",
       "name_zh": "聖多羅菩薩梵讚",
       "religion": "佛教"
+    }
+  ],
+  "Tarjuman al-Ashwaq": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
     }
   ],
   "Tarquinius": [
@@ -13843,6 +14134,13 @@
       "religion": "基督教"
     }
   ],
+  "Theosophical Publishing House": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "Theosophy": [
     {
       "slug": "gnostics-and-their-remains",
@@ -13914,6 +14212,13 @@
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "Thunder-Boy": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "Tiamat": [
@@ -14007,6 +14312,13 @@
       "religion": "美洲"
     }
   ],
+  "Tom Young": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
+    }
+  ],
   "Torah": [
     {
       "slug": "genesis",
@@ -14046,6 +14358,13 @@
       "slug": "todala-tantra",
       "name_zh": "托陀羅怛特羅",
       "religion": "印度教"
+    }
+  ],
+  "Traditions": [
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
     }
   ],
   "Trakíá": [
@@ -14763,6 +15082,11 @@
     {
       "slug": "virgil-eclogues",
       "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -16636,6 +16960,11 @@
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
     }
   ],
   "avijñāna": [
@@ -17170,6 +17499,11 @@
       "slug": "cbeta-T32n1683",
       "name_zh": "犍稚梵讚",
       "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
     }
   ],
   "bodhicitta": [
@@ -17679,6 +18013,13 @@
       "religion": "基督教"
     }
   ],
+  "commentary": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "confessio": [
     {
       "slug": "augustine-confessiones-la",
@@ -17797,6 +18138,13 @@
     {
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
+      "religion": "美洲"
+    }
+  ],
+  "creation myth": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
       "religion": "美洲"
     }
   ],
@@ -18012,6 +18360,11 @@
     {
       "slug": "therigatha",
       "name_zh": "長老尼偈",
+      "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
       "religion": "佛教"
     }
   ],
@@ -18326,6 +18679,11 @@
     {
       "slug": "itivuttaka",
       "name_zh": "如是語經",
+      "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
       "religion": "佛教"
     }
   ],
@@ -18899,6 +19257,13 @@
       "religion": "印度教"
     }
   ],
+  "gazelles": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "genesis": [
     {
       "slug": "iroquois-cosmology",
@@ -19269,6 +19634,13 @@
       "slug": "hatha-yoga-pradipika",
       "name_zh": "哈達瑜伽明燈",
       "religion": "印度教"
+    }
+  ],
+  "heart": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
     }
   ],
   "heaven and hell": [
@@ -19702,6 +20074,11 @@
     {
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
+      "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
       "religion": "佛教"
     }
   ],
@@ -21134,6 +21511,13 @@
       "religion": "印度教"
     }
   ],
+  "monks": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "moral-instruction": [
     {
       "slug": "proverbs",
@@ -21242,6 +21626,13 @@
       "religion": "巴哈伊"
     }
   ],
+  "mystical odes": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
+    }
+  ],
   "mystical union": [
     {
       "slug": "masnavi-rumi-st",
@@ -21260,6 +21651,11 @@
     {
       "slug": "british-guiana-legends",
       "name_zh": "英屬圭亞那原住民傳說與神話 (Brett)",
+      "religion": "美洲"
+    },
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
       "religion": "美洲"
     },
     {
@@ -21423,6 +21819,13 @@
       "religion": "猶太教"
     }
   ],
+  "nerañjarā": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
+    }
+  ],
   "neti neti": [
     {
       "slug": "vedanta-upadeshasahasri",
@@ -21481,6 +21884,13 @@
       "slug": "guru-granth-sahib-pa",
       "name_zh": "古魯格蘭特薩希卜（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "nirodha": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
     }
   ],
   "nirvikalpa": [
@@ -21681,6 +22091,13 @@
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "oral tradition": [
+    {
+      "slug": "maidu-texts",
+      "name_zh": "邁杜文本 (Dixon)",
+      "religion": "美洲"
     }
   ],
   "oratio": [
@@ -22103,10 +22520,22 @@
       "religion": "佛教"
     }
   ],
+  "paṭhamabodhisutta": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
+    }
+  ],
   "paṭiccasamuppāda": [
     {
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
+      "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
       "religion": "佛教"
     }
   ],
@@ -22735,6 +23164,11 @@
       "slug": "demotic-magical-papyrus",
       "name_zh": "倫敦與萊頓世俗體魔法紙草",
       "religion": "古埃及"
+    },
+    {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
     },
     {
       "slug": "mythology-mission-indians",
@@ -23378,6 +23812,11 @@
       "religion": "古埃及"
     },
     {
+      "slug": "jicarilla-apache-texts",
+      "name_zh": "希卡里亞阿帕契文本 (Goddard)",
+      "religion": "美洲"
+    },
+    {
       "slug": "key-of-gold-czech-tales",
       "name_zh": "金鑰匙：捷克民間故事",
       "religion": "斯拉夫"
@@ -23396,6 +23835,11 @@
       "slug": "rosetta-stone",
       "name_zh": "羅塞塔石碑",
       "religion": "古埃及"
+    },
+    {
+      "slug": "virgil-georgics",
+      "name_zh": "農事詩 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "sacrificium": [
@@ -23488,6 +23932,13 @@
       "religion": "印度教"
     }
   ],
+  "sambodhi": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
+    }
+  ],
   "sambuddha": [
     {
       "slug": "sn2-devaputta",
@@ -23500,6 +23951,13 @@
       "slug": "isha-upanishad",
       "name_zh": "伊舍奧義書",
       "religion": "印度教"
+    }
+  ],
+  "samudaya": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
     }
   ],
   "samvatsara": [
@@ -24621,6 +25079,11 @@
       "slug": "sn12-nidana",
       "name_zh": "SN12 因緣相應 (93 經)",
       "religion": "佛教"
+    },
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
     }
   ],
   "tejaḥ": [
@@ -24628,6 +25091,13 @@
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
       "religion": "印度教"
+    }
+  ],
+  "temple": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
     }
   ],
   "templum": [
@@ -25098,6 +25568,13 @@
       "religion": "佛教"
     }
   ],
+  "uruvelā": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
+      "religion": "佛教"
+    }
+  ],
   "utentbe": [
     {
       "slug": "miwok-myths",
@@ -25393,6 +25870,13 @@
     {
       "slug": "an4-fours",
       "name_zh": "AN4 四法集",
+      "religion": "佛教"
+    }
+  ],
+  "vimuttisukha": [
+    {
+      "slug": "udana",
+      "name_zh": "自說經",
       "religion": "佛教"
     }
   ],
@@ -29810,6 +30294,13 @@
       "slug": "shiva-upanishad",
       "name_zh": "濕婆奧義書",
       "religion": "印度教"
+    }
+  ],
+  "Ṣúfiism": [
+    {
+      "slug": "tarjuman-al-ashwaq",
+      "name_zh": "Tarjuman al-Ashwaq 渴愛之詮 (Ibn Arabi)",
+      "religion": "伊斯蘭"
     }
   ],
   "ṣaḍāśraya": [
