@@ -1,0 +1,470 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-2-maccabees",
+ "chunks_total": 26,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber II Machabaeorum",
+   "last_heading": "1 | Vulgata Clementina/Liber II Machabaeorum",
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "ritual-practice",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "hope-reason-to-live",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "prayer",
+    "priesthood",
+    "revealed-text",
+    "ritual-practice",
+    "salvation-by-faith",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "priesthood",
+    "sacred-language",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "prayer",
+    "priesthood",
+    "salvation-by-faith",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "gratitude-contentment"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "secular-state",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "justice-power",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "priesthood",
+    "sacred-language",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "sacred-language",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-kingship",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "creator-deity",
+    "prophetic-revelation",
+    "theodicy",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "monotheist-exclusive",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "monotheist-exclusive",
+    "other-power",
+    "prayer",
+    "prophetic-revelation",
+    "sacred-language",
+    "salvation-by-faith"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "divine-transcendence",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "humility",
+    "prayer",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "gratitude-contentment",
+    "guilt-atonement",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "prayer",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "hope-reason-to-live",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "salvation-by-faith",
+    "secular-state",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "ingroup-outgroup-prejudice",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "prayer",
+    "ritual-practice",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "death",
+    "gratitude-contentment",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "fasting",
+    "prayer",
+    "ritual-practice",
+    "sin-as-disobedience",
+    "theodicy",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "priesthood",
+    "prophetic-revelation",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "prophetic-revelation",
+    "temple-centered",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "divine-transcendence",
+    "messianism",
+    "prayer",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "prayer",
+    "salvation-by-faith",
+    "temple-centered",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  }
+ ]
+}

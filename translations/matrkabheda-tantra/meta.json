@@ -19,5 +19,61 @@
   "tier": "次要",
   "notes": "性力派（Śākta）怛特羅，論母音字母（mātṛkā）神秘學與煉金、瑜伽修法",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "caste-system",
+    "chanting",
+    "commandments-law",
+    "compassion",
+    "cosmic-egg",
+    "divine-immanence",
+    "emanation",
+    "feminine-divine",
+    "goddess-tradition",
+    "grace-from-god",
+    "liberation-by-devotion",
+    "lineage-importance",
+    "meditation",
+    "mystical-union",
+    "non-dual",
+    "other-power",
+    "priesthood",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "syncretic",
+    "temple-centered",
+    "theophany"
+  ],
+  "keywords": [
+    "Mātṛkābhedatantra",
+    "Bhairava",
+    "Caṇḍikā",
+    "Kālikā",
+    "Śaṅkara",
+    "Tripurā",
+    "kailāsa",
+    "siddha",
+    "mantra",
+    "japa",
+    "pūjā",
+    "pārada",
+    "sambala",
+    "guṭikā",
+    "Kālītantra"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "2078ebb415a5bde4691edaddc024afae585001116853ff6ed289110ae1d4c8bf"
+  },
+  "tagging_models": "MiniMax-M3"
 }
