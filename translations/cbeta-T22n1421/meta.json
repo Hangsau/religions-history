@@ -96,20 +96,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "body-mind",
     "boundaries-self-worth",
     "calling-vocation",
-    "change-transformation"
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "responsibility-leadership"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "d34e2b2e839a53a527fcb7bbc3a54f6a2953441e118d5ee0cadabeddb76b5aba"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
