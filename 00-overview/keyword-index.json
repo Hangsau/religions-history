@@ -41,6 +41,13 @@
       "religion": "美洲"
     }
   ],
+  "1903": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "1904": [
     {
       "slug": "demotic-magical-papyrus",
@@ -53,6 +60,13 @@
       "slug": "jicarilla-apache-texts",
       "name_zh": "希卡里亞阿帕契文本 (Goddard)",
       "religion": "美洲"
+    }
+  ],
+  "1913": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "1917": [
@@ -1773,6 +1787,13 @@
       "religion": "基督教"
     }
   ],
+  "Baba Yaga": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Babism": [
     {
       "slug": "some-answered-questions",
@@ -1903,6 +1924,13 @@
       "slug": "markandeya-purana",
       "name_zh": "摩根德耶往世書",
       "religion": "印度教"
+    }
+  ],
+  "Balkan": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "Balor": [
@@ -2288,6 +2316,13 @@
       "slug": "kn-jataka",
       "name_zh": "小部·本生 (547 故事)",
       "religion": "佛教"
+    }
+  ],
+  "Bogatir": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Bohemia": [
@@ -4658,6 +4693,13 @@
       "religion": "北歐"
     }
   ],
+  "Father Frost": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Fauns": [
     {
       "slug": "virgil-georgics",
@@ -5123,6 +5165,13 @@
       "slug": "maidu-texts",
       "name_zh": "邁杜文本 (Dixon)",
       "religion": "美洲"
+    }
+  ],
+  "George Rapall Noyes": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "George Smith": [
@@ -6788,6 +6837,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ivanoushka the Simpleton": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Iwerddon": [
     {
       "slug": "mabinogion-cy-1",
@@ -7600,6 +7656,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Karájich": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
   "Kashmir Śaivism": [
     {
       "slug": "abhinavagupta-kramastotra",
@@ -7883,6 +7946,13 @@
       "religion": "美洲"
     }
   ],
+  "Kossovo": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
   "Kouretes": [
     {
       "slug": "apollodorus-bibliotheca-el",
@@ -8013,6 +8083,13 @@
       "slug": "apollodorus-bibliotheca-el",
       "name_zh": "書庫·神話全書（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Kósovo": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "Kāivalya": [
@@ -8299,6 +8376,13 @@
       "slug": "book-of-mormon-1830",
       "name_zh": "摩門經（1830 初版）",
       "religion": "現代新興"
+    }
+  ],
+  "Leonard Bacon": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "Lesbos": [
@@ -9029,6 +9113,27 @@
       "slug": "cicero-de-legibus-la",
       "name_zh": "論法律（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Marko": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Marko Kraljevits": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Marko Krályevich": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "Mars": [
@@ -12457,6 +12562,20 @@
       "religion": "現代新興"
     }
   ],
+  "Russian": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Russian folk tales": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Ruth": [
     {
       "slug": "vulgate-ruth",
@@ -13053,6 +13172,20 @@
       "religion": "基督教"
     }
   ],
+  "Servia": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
+  "Servian Popular Poetry": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
   "Set": [
     {
       "slug": "book-of-gates",
@@ -13070,6 +13203,13 @@
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
+    }
+  ],
+  "Seven Simeons": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Seven Tablets": [
@@ -13408,6 +13548,13 @@
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
+    }
+  ],
+  "Slavic": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Slavic folklore": [
@@ -14642,6 +14789,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Tsarevna Frog": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "Tseçqa": [
     {
       "slug": "navajo-myths",
@@ -14702,6 +14856,13 @@
       "slug": "miwok-myths",
       "name_zh": "米沃克神話 (Barrett)",
       "religion": "美洲"
+    }
+  ],
+  "Turkish conquest": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "Tuscaroras": [
@@ -15149,6 +15310,13 @@
       "slug": "fostbraedra-saga-on",
       "name_zh": "結義兄弟薩迦",
       "religion": "北歐"
+    }
+  ],
+  "Verra Xenophontovna Kalamatiano de Blumenthal": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "Verðandi": [
@@ -16670,6 +16838,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "amātya": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    }
+  ],
   "anagāra": [
     {
       "slug": "jain-acaranga-pkt",
@@ -17014,6 +17189,13 @@
       "religion": "印度教"
     }
   ],
+  "arthaśāstra": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    }
+  ],
   "ascensio": [
     {
       "slug": "vulgate-2-kings",
@@ -17128,6 +17310,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    },
+    {
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
@@ -17168,6 +17355,13 @@
     {
       "slug": "samkhya-sutra",
       "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
+  "avīci": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
       "religion": "印度教"
     }
   ],
@@ -17279,6 +17473,11 @@
       "slug": "jain-sastravarttasamuccaya-sa",
       "name_zh": "諸論義集（梵文原文）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
     },
     {
       "slug": "samkhya-sutra",
@@ -17469,6 +17668,13 @@
     {
       "slug": "mrgendra-agama",
       "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
+  "bharga": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
       "religion": "印度教"
     }
   ],
@@ -17870,6 +18076,13 @@
       "religion": "印度教"
     }
   ],
+  "brahmasūtra": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    }
+  ],
   "brahmavidyā": [
     {
       "slug": "kaivalya-upanishad",
@@ -17886,6 +18099,13 @@
     {
       "slug": "kirana-tantra",
       "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    }
+  ],
+  "brahmaṇya": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
       "religion": "印度教"
     }
   ],
@@ -17995,6 +18215,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "bādarāyaṇa": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
     }
   ],
   "bāla": [
@@ -18467,6 +18694,11 @@
   ],
   "daṇḍa": [
     {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    },
+    {
       "slug": "narada-smrti",
       "name_zh": "那羅陀法論",
       "religion": "印度教"
@@ -18738,6 +18970,11 @@
   ],
   "dharmaśāstra": [
     {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    },
+    {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
       "religion": "印度教"
@@ -18995,6 +19232,13 @@
     {
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
+      "religion": "印度教"
+    }
+  ],
+  "dvija-pūjā": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
       "religion": "印度教"
     }
   ],
@@ -19316,6 +19560,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "flint": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "flood": [
     {
       "slug": "chaldean-account-deluge",
@@ -19337,6 +19588,13 @@
       "religion": "凱爾特"
     }
   ],
+  "folk tales": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
+    }
+  ],
   "folk-lore": [
     {
       "slug": "hausa-folklore",
@@ -19347,6 +19605,13 @@
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
+    }
+  ],
+  "folklore": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "fornication": [
@@ -19875,6 +20140,13 @@
       "religion": "印度教"
     }
   ],
+  "hayduk": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
+    }
+  ],
   "haṃsa": [
     {
       "slug": "nadabindu-upanishad",
@@ -19953,6 +20225,13 @@
       "slug": "vatnsdaela-saga-on",
       "name_zh": "瓦特斯達拉薩迦",
       "religion": "北歐"
+    }
+  ],
+  "heroic ballads": [
+    {
+      "slug": "heroic-ballads-servia",
+      "name_zh": "塞爾維亞英雄敘事詩",
+      "religion": "斯拉夫"
     }
   ],
   "hersir": [
@@ -20218,6 +20497,11 @@
       "slug": "an6-sixes",
       "name_zh": "AN6 六法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
     }
   ],
   "industry liberty justice": [
@@ -20295,6 +20579,13 @@
       "slug": "quran-pickthall",
       "name_zh": "古蘭經 (Pickthall 英譯)",
       "religion": "伊斯蘭"
+    }
+  ],
+  "janārdana": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
     }
   ],
   "japa": [
@@ -20426,6 +20717,11 @@
       "slug": "jain-nyayavatara-sa",
       "name_zh": "入正理論（梵文原文，含註）",
       "religion": "耆那教"
+    },
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
     },
     {
       "slug": "ramanuja-vedarthasamgraha",
@@ -21719,6 +22015,13 @@
       "religion": "美洲"
     }
   ],
+  "mithyā": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    }
+  ],
   "moha": [
     {
       "slug": "itivuttaka",
@@ -21836,6 +22139,13 @@
       "slug": "seneca-de-brevitate-vitae-la",
       "name_zh": "論生命之短暫（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "mukti": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
     }
   ],
   "mummification": [
@@ -21958,6 +22268,13 @@
       "religion": "美洲"
     }
   ],
+  "mādhva": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    }
+  ],
   "mālinīvijayottaratantra": [
     {
       "slug": "malinivijayottara-tantra",
@@ -22059,6 +22376,11 @@
       "slug": "bud-vimshatika-sa",
       "name_zh": "唯識二十論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
     }
   ],
   "naruttama": [
@@ -22330,6 +22652,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -22366,6 +22693,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "nṛpa": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
     }
   ],
   "nṛsiṃha": [
@@ -23558,6 +23892,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    },
+    {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
       "religion": "印度教"
@@ -24057,6 +24396,20 @@
       "religion": "佛教"
     }
   ],
+  "rāja-dharma": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    }
+  ],
+  "rāja-guṇa": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    }
+  ],
   "rāja-yoga": [
     {
       "slug": "hatha-yoga-pradipika",
@@ -24079,6 +24432,11 @@
     }
   ],
   "rājā": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
+      "religion": "印度教"
+    },
     {
       "slug": "narada-smrti",
       "name_zh": "那羅陀法論",
@@ -24600,6 +24958,13 @@
       "religion": "耆那教"
     }
   ],
+  "satya": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    }
+  ],
   "satyaloka": [
     {
       "slug": "nadabindu-upanishad",
@@ -24952,6 +25317,11 @@
     {
       "slug": "angirasa-smrti",
       "name_zh": "恩吉羅娑法論",
+      "religion": "印度教"
+    },
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
       "religion": "印度教"
     },
     {
@@ -25677,6 +26047,13 @@
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
       "religion": "美洲"
+    }
+  ],
+  "touchstone": [
+    {
+      "slug": "folk-tales-from-russian",
+      "name_zh": "俄羅斯民間故事",
+      "religion": "斯拉夫"
     }
   ],
   "traditions": [
@@ -26548,6 +26925,11 @@
   ],
   "viṣṇu": [
     {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -26596,6 +26978,11 @@
     }
   ],
   "vyāsa": [
+    {
+      "slug": "madhva-anuvyakhyana",
+      "name_zh": "隨釋",
+      "religion": "印度教"
+    },
     {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
@@ -27888,6 +28275,13 @@
     {
       "slug": "mrgendra-agama",
       "name_zh": "獸主阿含",
+      "religion": "印度教"
+    }
+  ],
+  "śakratva": [
+    {
+      "slug": "katyayana-smrti",
+      "name_zh": "迦旃延那法論",
       "religion": "印度教"
     }
   ],
@@ -30524,6 +30918,20 @@
       "religion": "錫克教"
     }
   ],
+  "ਅਸਟਪਦੀ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਅੰਮ੍ਰਿਤ ਨਾਮੁ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਓਅੰਕਾਰ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
@@ -30535,6 +30943,13 @@
     {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਕਲਿ ਕਲੇਸ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -30566,6 +30981,13 @@
       "religion": "錫克教"
     }
   ],
+  "ਗੁਰੂ ਗ੍ਰੰਥ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਚੌਰਾਸੀਹ ਲੱਖ ਜੋਨ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
@@ -30577,6 +30999,20 @@
     {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਜਪ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਜਮ ਤ੍ਰਾਸਾ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -30592,6 +31028,11 @@
       "religion": "錫克教"
     },
     {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
       "slug": "var-bhai-gurdas-1-pa",
       "name_zh": "婆伊古爾達斯頌歌·第一（旁遮普原文，古木基文字）",
       "religion": "錫克教"
@@ -30601,6 +31042,13 @@
     {
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਨਾਮੁ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -30615,6 +31063,13 @@
     {
       "slug": "chandi-di-var-pa",
       "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਪ੍ਰਭ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -30672,6 +31127,11 @@
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "ਸਚੁ": [
@@ -30699,6 +31159,11 @@
     {
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
@@ -30730,6 +31195,20 @@
       "religion": "錫克教"
     }
   ],
+  "ਸਿਮਰਨ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
+  "ਸੁਖਮਨੀ ਸਾਹਿਬ": [
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    }
+  ],
   "ਸੋਹੰਬ੍ਰਹਮ": [
     {
       "slug": "var-bhai-gurdas-1-pa",
@@ -30742,6 +31221,11 @@
       "slug": "anand-sahib-pa",
       "name_zh": "喜樂之歌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    },
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
     }
   ],
   "ੴ": [
@@ -30753,6 +31237,11 @@
     {
       "slug": "japji-sahib-pa",
       "name_zh": "晨禱（旁遮普原文，古木基文字）",
+      "religion": "錫克教"
+    },
+    {
+      "slug": "sukhmani-sahib-pa",
+      "name_zh": "安寧明珠（旁遮普原文，古木基文字）",
       "religion": "錫克教"
     }
   ],
