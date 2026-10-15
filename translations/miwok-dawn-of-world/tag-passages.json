@@ -1,0 +1,1321 @@
+{
+ "schema_version": 1,
+ "slug": "miwok-dawn-of-world",
+ "chunks_total": 88,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Start Reading",
+   "last_heading": "1 | Start Reading",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | Page Index",
+   "last_heading": "2 | Page Index",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": "3 | Contents",
+   "last_heading": "3 | Contents",
+   "semantic_tags": [
+    "ancestor-worship",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "spirit-possession"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 5,
+   "first_heading": "4 | Illustrations",
+   "last_heading": "4 | Illustrations",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 6,
+   "first_heading": "5 | Preface",
+   "last_heading": "5 | Preface",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "polytheist",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 7,
+   "first_heading": "6 | Introduction",
+   "last_heading": "6 | Introduction",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "insignificance-history",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": "7 | Note",
+   "last_heading": "9 | HowWit'-tab-bahthe Robin Got His Red Breast",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "giving-generosity",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "10 | HowAh-ha'-leStole the Sun For the Valley People",
+   "last_heading": "10 | HowAh-ha'-leStole the Sun For the Valley People",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "theophany",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "courage",
+    "existence-why-born",
+    "insignificance-history"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "divine-immanence",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "chaos-to-order",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "existence-why-born",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "11 | HowAh-ha'-leStole The Morning",
+   "last_heading": "11 | HowAh-ha'-leStole The Morning",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": "12 | HowTol'-le-loogot the Fire for the Mountain People",
+   "last_heading": "12 | HowTol'-le-loogot the Fire for the Mountain People",
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 19,
+   "first_heading": "13 | Why the Lizard Man did not Restore Dead People to Life",
+   "last_heading": "13 | Why the Lizard Man did not Restore Dead People to Life",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "tabula-rasa",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "14 | The Coyote and the Lizard",
+   "last_heading": "14 | The Coyote and the Lizard",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "15 | How the People Got Five Fingers; How they Obtained Fire; and How They Broke up into Tribes",
+   "last_heading": "15 | How the People Got Five Fingers; How they Obtained Fire; and How They Broke up into Tribes",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "sin-as-disobedience",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "evil-cruelty-empathy",
+    "gratitude-contentment",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": "16 | The Birth ofWek'-wekand the Creation of Man",
+   "last_heading": "16 | The Birth ofWek'-wekand the Creation of Man",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "17 | Ke'-lokand hisHan-na'-boo",
+   "last_heading": "17 | Ke'-lokand hisHan-na'-boo",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "oral-tradition",
+    "ritual-practice",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "18 | The Creation of Man",
+   "last_heading": "18 | The Creation of Man",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 31,
+   "first_heading": "19 | How they got the Fire",
+   "last_heading": "19 | How they got the Fire",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creator-deity",
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "20 | HowKah'-koolthe Raven Became a Great Hunter",
+   "last_heading": "20 | HowKah'-koolthe Raven Became a Great Hunter",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-transcendence",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "illness-body"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "21 | HowKah'-kah-looThe Ravens Became People",
+   "last_heading": "21 | HowKah'-kah-looThe Ravens Became People",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "22 | The Bear and the Fawns",
+   "last_heading": "22 | The Bear and the Fawns",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "insignificance-history",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": "23 | The Bear and the Fawns",
+   "last_heading": "23 | The Bear and the Fawns",
+   "semantic_tags": [
+    "multiple-souls",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": "24 | How the Children ofHe-le'-jahBecame People",
+   "last_heading": "24 | How the Children ofHe-le'-jahBecame People",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": "25 | The Greed ofHis'-sikthe Skunk",
+   "last_heading": "25 | The Greed ofHis'-sikthe Skunk",
+   "semantic_tags": [
+    "divine-kingship",
+    "oral-tradition",
+    "suffering-as-purifying",
+    "theocracy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "giving-generosity",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": "26 | Nek'-na-ka'-tahThe Rock Maiden",
+   "last_heading": "26 | Nek'-na-ka'-tahThe Rock Maiden",
+   "semantic_tags": [
+    "creator-deity",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 43,
+   "first_heading": "27 | The Jealousy ofWek'-wekand the Death ofLo'-wut",
+   "last_heading": "27 | The Jealousy ofWek'-wekand the Death ofLo'-wut",
+   "semantic_tags": [
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "theodicy",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loneliness-belonging",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": "28 | The Defeat ofO-la'-nahthe Coyote-Man",
+   "last_heading": "28 | The Defeat ofO-la'-nahthe Coyote-Man",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": "29 | HowSah'-teSet The World On Fire",
+   "last_heading": "29 | HowSah'-teSet The World On Fire",
+   "semantic_tags": [
+    "ancestor-worship",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-immanence",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "honesty-hypocrisy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-immanence",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-immanence",
+    "oral-tradition",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "memory-reconciliation",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": "30 | HowCha'-kathe Tule-wren Shot out the Sun",
+   "last_heading": "31 | HowWek'-wekWas Saved From the Flood",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "change-transformation",
+    "fear-uncertainty",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": "32 | Why the Bodega Bay Indians can not Stand Cold",
+   "last_heading": "32 | Why the Bodega Bay Indians can not Stand Cold",
+   "semantic_tags": [
+    "ancestor-worship",
+    "creation-ex-nihilo",
+    "essentially-flawed",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "illness-body",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": "33 | Yel'-lo-kinAndOo-wel'-lin, The Man-eating Giants",
+   "last_heading": "33 | Yel'-lo-kinAndOo-wel'-lin, The Man-eating Giants",
+   "semantic_tags": [
+    "chaos-to-order",
+    "polytheist",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "loss-grief",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo"
+   ],
+   "psych_tags": [
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 56,
+   "first_heading": "34 | O-wel'-linthe Rock Giant",
+   "last_heading": "34 | O-wel'-linthe Rock Giant",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "evil-cruelty-empathy",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "ritual-practice",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "death"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": "35 | Tim-me-la'-lethe Thunder",
+   "last_heading": "35 | Tim-me-la'-lethe Thunder",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "change-transformation",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": "36 | Wek'-wek'sSearch for his Father",
+   "last_heading": "36 | Wek'-wek'sSearch for his Father",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-kingship",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "polytheist",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "guilt-atonement",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "oral-tradition",
+    "ritual-practice",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": "37 | Wek-wek'sSearch for his Sister",
+   "last_heading": "37 | Wek-wek'sSearch for his Sister",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loneliness-belonging",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 66,
+   "first_heading": "38 | Wek'-wek'sVisit to the Underworld People",
+   "last_heading": "38 | Wek'-wek'sVisit to the Underworld People",
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 67,
+   "first_heading": "39 | Tah'-lowThe Thunder AndTah'-kip'The Lightning",
+   "last_heading": "40 | He'-koo-lāsThe Sun-Woman",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "divine-immanence",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 68,
+   "first_heading": "41 | HowO'-yeThe Coyote-Man Discovered His Wife",
+   "last_heading": "41 | HowO'-yeThe Coyote-Man Discovered His Wife",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 69,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "polytheist",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "ingroup-outgroup-prejudice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 70,
+   "first_heading": "42 | Part 2: Present Day Myths",
+   "last_heading": "45 | HowToo-le'-ze, The Timber-Wolf Hunts Deer",
+   "semantic_tags": [
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 71,
+   "first_heading": "46 | Too'-cha-mo, The Stump, AndChoo'-koo Heng-il'-nah-as'-se, The Lost Dog",
+   "last_heading": "48 | O-lel'-lethe Mysterious Bird of the Cold Springs",
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 72,
+   "first_heading": "49 | Soo-koo'-meThe Great Horned Owl",
+   "last_heading": "51 | Ki'-ki'-ahThe Mountain Bluejay",
+   "semantic_tags": [
+    "oral-tradition",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "emotions-passions",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 73,
+   "first_heading": "52 | Where the Ducks and Geese go to Breed",
+   "last_heading": "54 | WhereKoo'-tahthe Money-clam Came From",
+   "semantic_tags": [
+    "chaos-to-order",
+    "cyclic-cosmos",
+    "oral-tradition",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 74,
+   "first_heading": "55 | Ghosts Follow the Pathway of the Wind",
+   "last_heading": "57 | Ghosts May Come Back inSoo-koo'-methe Owl",
+   "semantic_tags": [
+    "ancestor-worship",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death"
+   ]
+  },
+  {
+   "chunk": 75,
+   "first_heading": "58 | A Hole in the Nose Saves Turning into a Fish",
+   "last_heading": "60 | Ghosts Hide in Stumps and Whirlwinds",
+   "semantic_tags": [
+    "multiple-souls",
+    "reincarnation",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 76,
+   "first_heading": "61 | Ghosts Hunt for a Big Animal in the Ocean",
+   "last_heading": "61 | Ghosts Hunt for a Big Animal in the Ocean",
+   "semantic_tags": [
+    "ancestor-worship",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 77,
+   "first_heading": "62 | Wah-tib'-sahthe Sign of Death",
+   "last_heading": "65 | The Earthquake",
+   "semantic_tags": [
+    "polytheist",
+    "spirit-possession",
+    "tribal-traditional",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 78,
+   "first_heading": "66 | Noise",
+   "last_heading": "68 | How the World Grew",
+   "semantic_tags": [
+    "chaos-to-order",
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "existence-why-born"
+   ]
+  },
+  {
+   "chunk": 79,
+   "first_heading": "69 | How Witches Kill People",
+   "last_heading": "71 | The Devil of San Rafael",
+   "semantic_tags": [
+    "evil-as-deception",
+    "oral-tradition",
+    "ritual-practice",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "loneliness-belonging"
+   ]
+  },
+  {
+   "chunk": 80,
+   "first_heading": "72 | Ho-hā'-pethe River Mermaid",
+   "last_heading": "72 | Ho-hā'-pethe River Mermaid",
+   "semantic_tags": [
+    "ancestor-worship",
+    "divine-immanence",
+    "feminine-divine",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 81,
+   "first_heading": "73 | Che-ha-lum'-cheThe Rock Giant Of Calaveras County",
+   "last_heading": "74 | Oo'-leThe Rock Giant of the Chowchilla Foothills",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice"
+   ]
+  },
+  {
+   "chunk": 82,
+   "first_heading": "75 | Loo'-poo-oi'-yesThe Rock Giant of Tamalpais",
+   "last_heading": "76 | Kā'-lum-methe Rock Giant of Wennok Valley",
+   "semantic_tags": [
+    "ancestor-worship",
+    "chaos-to-order",
+    "oral-tradition",
+    "spirit-possession",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "ingroup-outgroup-prejudice",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 83,
+   "first_heading": "77 | Scientific Names of the Animals",
+   "last_heading": "77 | Scientific Names of the Animals",
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 84,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 85,
+   "first_heading": "78 | Scientific Names of the Trees and other Plants",
+   "last_heading": "78 | Scientific Names of the Trees and other Plants",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 86,
+   "first_heading": "79 | Bibliography of California Mythology",
+   "last_heading": "79 | Bibliography of California Mythology",
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 87,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "oral-tradition"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 88,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": []
+  }
+ ]
+}

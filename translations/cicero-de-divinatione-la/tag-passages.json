@@ -1,0 +1,947 @@
+{
+ "schema_version": 1,
+ "slug": "cicero-de-divinatione-la",
+ "chunks_total": 65,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Liber I",
+   "last_heading": "1 | Liber I",
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "caesaropapism",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "responsibility-leadership",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "faith-doubt",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "existence-why-born",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-immanence",
+    "polytheist",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "liberation-by-knowledge",
+    "non-dual",
+    "other-power",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "death",
+    "dreams-unconscious",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "stillness-rest"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "divine-immanence",
+    "spirit-possession",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "trust-vulnerability",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "spirit-possession",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "dreams-unconscious"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "other-power",
+    "polytheist",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "priesthood",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic",
+    "theocracy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "divine-kingship",
+    "polytheist",
+    "theophany"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "prophetic-revelation",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "who-am-i",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "spirit-possession",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "polytheist",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "other-power",
+    "prophetic-revelation"
+   ],
+   "psych_tags": [
+    "death",
+    "freewill-fate-choice",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "chaos-to-order",
+    "prophetic-revelation",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "dreams-unconscious"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "2 | Liber II",
+   "last_heading": "2 | Liber II",
+   "semantic_tags": [
+    "commentarial-layer"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "study",
+    "theodicy",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 37,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 38,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 39,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 40,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "divine-immanence",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "living-with-unknown",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 41,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 42,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 43,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 44,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 45,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 46,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "syncretic"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 47,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "prophetic-revelation",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 48,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "temple-centered",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 49,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "secular-state",
+    "syncretic",
+    "temple-centered"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 50,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "polytheist",
+    "priesthood",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 51,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 52,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "faith-doubt",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 53,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "cyclic-cosmos",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 54,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 55,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 56,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "faith-doubt"
+   ]
+  },
+  {
+   "chunk": 57,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist",
+    "priesthood",
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 58,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "polytheist"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 59,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "faith-doubt",
+    "living-with-unknown",
+    "trust-vulnerability",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 60,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "ritual-practice",
+    "syncretic"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 61,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "evil-as-deception"
+   ],
+   "psych_tags": [
+    "dreams-unconscious",
+    "faith-doubt",
+    "living-with-unknown"
+   ]
+  },
+  {
+   "chunk": 62,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "dreams-unconscious",
+    "insignificance-history",
+    "memory-reconciliation"
+   ]
+  },
+  {
+   "chunk": 63,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "faith-doubt",
+    "living-with-unknown",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 64,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty"
+   ]
+  },
+  {
+   "chunk": 65,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commentarial-layer",
+    "secular-state",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "wisdom-learning-curiosity"
+   ]
+  }
+ ]
+}
