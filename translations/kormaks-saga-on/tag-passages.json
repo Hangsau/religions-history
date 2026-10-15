@@ -1,0 +1,540 @@
+{
+ "schema_version": 1,
+ "slug": "kormaks-saga-on",
+ "chunks_total": 36,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | kafli",
+   "last_heading": "1 | kafli",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": "2 | kafli",
+   "last_heading": "2 | kafli",
+   "semantic_tags": [
+    "ancestor-worship",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "death",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": "3 | kafli",
+   "last_heading": "3 | kafli",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "love-sex-intimacy",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [],
+   "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 5,
+   "first_heading": "4 | kafli",
+   "last_heading": "4 | kafli",
+   "semantic_tags": [
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": "5 | kafli",
+   "last_heading": "5 | kafli",
+   "semantic_tags": [
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "fear-uncertainty",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "emotions-passions",
+    "giving-generosity",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": "6 | kafli",
+   "last_heading": "6 | kafli",
+   "semantic_tags": [
+    "marriage-sacred",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": "7 | kafli",
+   "last_heading": "7 | kafli",
+   "semantic_tags": [
+    "ancestor-worship",
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "love-sex-intimacy",
+    "marriage-family",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred",
+    "patriarchal",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "loneliness-belonging",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": "8 | kafli",
+   "last_heading": "8 | kafli",
+   "semantic_tags": [
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": "9 | kafli",
+   "last_heading": "9 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "courage",
+    "fear-uncertainty",
+    "freewill-fate-choice",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "awe-fear",
+    "ritual-practice",
+    "sacred-language"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": "10 | kafli",
+   "last_heading": "10 | kafli",
+   "semantic_tags": [
+    "commandments-law",
+    "oral-tradition",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": "11 | kafli",
+   "last_heading": "11 | kafli",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "emotions-passions",
+    "honesty-hypocrisy",
+    "illness-body",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "ritual-practice",
+    "theophany"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": "12 | kafli",
+   "last_heading": "12 | kafli",
+   "semantic_tags": [
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "lineage-importance",
+    "other-power",
+    "polytheist",
+    "prayer",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": "13 | kafli",
+   "last_heading": "14 | kafli",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "honesty-hypocrisy",
+    "justice-power",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": "15 | kafli",
+   "last_heading": "15 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "honesty-hypocrisy",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": "16 | kafli",
+   "last_heading": "16 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "oral-tradition",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "aging-time",
+    "death",
+    "fear-uncertainty",
+    "freewill-fate-choice"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "accept-fate",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "responsibility-leadership"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": "17 | kafli",
+   "last_heading": "17 | kafli",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "freewill-fate-choice",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": "18 | kafli",
+   "last_heading": "18 | kafli",
+   "semantic_tags": [
+    "accept-fate"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": "19 | kafli",
+   "last_heading": "19 | kafli",
+   "semantic_tags": [
+    "divine-kingship",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "loneliness-belonging",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "marriage-sacred",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": "20 | kafli",
+   "last_heading": "20 | kafli",
+   "semantic_tags": [
+    "marriage-sacred",
+    "oral-tradition"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "guilt-atonement",
+    "love-sex-intimacy",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": "21 | kafli",
+   "last_heading": "21 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "honesty-hypocrisy",
+    "justice-power",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": "22 | kafli",
+   "last_heading": "22 | kafli",
+   "semantic_tags": [
+    "against-idolatry",
+    "feminine-divine",
+    "mystical-union",
+    "other-power",
+    "ritual-practice",
+    "spirit-possession"
+   ],
+   "psych_tags": [
+    "calling-vocation",
+    "faith-doubt",
+    "fear-uncertainty",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "body-mind",
+    "justice-power",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": "23 | kafli",
+   "last_heading": "23 | kafli",
+   "semantic_tags": [
+    "other-power",
+    "ritual-practice"
+   ],
+   "psych_tags": [
+    "courage",
+    "justice-power",
+    "trust-vulnerability"
+   ]
+  },
+  {
+   "chunk": 33,
+   "first_heading": "24 | kafli",
+   "last_heading": "24 | kafli",
+   "semantic_tags": [
+    "marriage-sacred"
+   ],
+   "psych_tags": [
+    "boundaries-self-worth",
+    "freewill-fate-choice",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 34,
+   "first_heading": "25 | kafli",
+   "last_heading": "25 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "tribal-traditional"
+   ],
+   "psych_tags": [
+    "communication-being-understood",
+    "love-sex-intimacy"
+   ]
+  },
+  {
+   "chunk": 35,
+   "first_heading": "26 | kafli",
+   "last_heading": "26 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "marriage-sacred",
+    "tribal-traditional",
+    "truthfulness"
+   ],
+   "psych_tags": [
+    "courage",
+    "freewill-fate-choice",
+    "loss-grief",
+    "love-sex-intimacy",
+    "marriage-family"
+   ]
+  },
+  {
+   "chunk": 36,
+   "first_heading": "27 | kafli",
+   "last_heading": "27 | kafli",
+   "semantic_tags": [
+    "accept-fate",
+    "polytheist"
+   ],
+   "psych_tags": [
+    "courage",
+    "death",
+    "loss-grief",
+    "love-sex-intimacy"
+   ]
+  }
+ ]
+}

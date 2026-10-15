@@ -19,5 +19,60 @@
   "tier": "次要",
   "notes": "詩人薩迦（skáld saga）；sagadb.org 古諾斯語原文。",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "against-idolatry",
+    "ancestor-worship",
+    "awe-fear",
+    "commandments-law",
+    "divine-kingship",
+    "feminine-divine",
+    "lineage-importance",
+    "marriage-sacred",
+    "mystical-union",
+    "oral-tradition",
+    "other-power",
+    "patriarchal",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "spirit-possession",
+    "theophany",
+    "tribal-traditional",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Haraldur hárfagri",
+    "Kormákur",
+    "Ögmundur",
+    "Ásmundur",
+    "Helga",
+    "Fróði jarl",
+    "víking",
+    "hólmganga",
+    "fóstra",
+    "Noregur",
+    "garpur",
+    "vesturvíking",
+    "Eiríkur blóðex",
+    "Gunnhildr",
+    "Fróði"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "courage",
+    "death",
+    "freewill-fate-choice",
+    "loss-grief",
+    "love-sex-intimacy"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "ab6f1bf922b14471b03fefcfb111556b4be62d3052ee5a2dbf6e1aa24ecdb24e"
+  },
+  "tagging_models": "MiniMax-M3"
 }

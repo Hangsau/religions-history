@@ -21,5 +21,55 @@
   "tier": "次要",
   "notes": "索福克勒斯《伊底帕斯在科羅諾斯》希臘原文（單頁）。老與死的和解，對照 X 無常·老·死。獨立新收",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "ancestor-worship",
+    "divine-immanence",
+    "divine-transcendence",
+    "forgiveness",
+    "pilgrimage",
+    "polytheist",
+    "prayer",
+    "prophetic-revelation",
+    "ritual-practice",
+    "sacred-language",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Οἰδίπους",
+    "Κολωνός",
+    "Ἀθῆναι",
+    "Ποσειδῶν",
+    "Προμηθεύς",
+    "Φοῖβος",
+    "Ἀπόλλων",
+    "Σκότος",
+    "δαίμων",
+    "ξενόστασις",
+    "σεμναὶ θεαί",
+    "οἰκτίρατε",
+    "ἄθλιον εἴδωλον",
+    "χρησμός",
+    "Oedipus"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loneliness-belonging",
+    "loss-grief",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "fc317cc927e0f44d989bd195e92b790633be5d8d6a158f1544075190996908e1"
+  },
+  "tagging_models": "MiniMax-M3"
 }

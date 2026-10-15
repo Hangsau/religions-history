@@ -622,6 +622,13 @@
       "religion": "錫克教"
     }
   ],
+  "Amaryllis": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Amaterasu": [
     {
       "slug": "kojiki-chamberlain",
@@ -1299,6 +1306,13 @@
       "religion": "基督教"
     }
   ],
+  "Augustus": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Aulis": [
     {
       "slug": "lucretius-de-rerum-natura-la",
@@ -1879,6 +1893,13 @@
       "religion": "佛教"
     }
   ],
+  "Bhāgavata": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
   "Bhāgavata Purāṇa": [
     {
       "slug": "bhagavata-purana",
@@ -2025,6 +2046,13 @@
     {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
+      "religion": "印度教"
+    }
+  ],
+  "Brahma-saṃhitā": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     }
   ],
@@ -3479,6 +3507,20 @@
       "religion": "基督教"
     }
   ],
+  "Eclogae Vergilii": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Eclogues": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Edfu": [
     {
       "slug": "legends-of-the-gods-egypt",
@@ -3539,6 +3581,13 @@
     {
       "slug": "hrafnkels-saga-on",
       "name_zh": "赫拉夫恩克爾薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Eiríkur blóðex": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
       "religion": "北歐"
     }
   ],
@@ -4028,6 +4077,20 @@
       "religion": "北歐"
     }
   ],
+  "Fróði": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
+  "Fróði jarl": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Funeral Rite": [
     {
       "slug": "burden-of-isis",
@@ -4115,6 +4178,13 @@
       "religion": "美洲"
     }
   ],
+  "Galatea": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Galgalis": [
     {
       "slug": "vulgate-2-kings",
@@ -4160,6 +4230,13 @@
       "slug": "virgil-aeneid-la",
       "name_zh": "伊尼德（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Garga": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
     }
   ],
   "Garuḍa": [
@@ -4369,6 +4446,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Govinda": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
   "Great Lakes": [
     {
       "slug": "iroquois-cosmology",
@@ -4440,6 +4524,11 @@
     }
   ],
   "Gunnhildr": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    },
     {
       "slug": "njals-saga-on",
       "name_zh": "尼雅爾薩迦（古諾斯語原文）",
@@ -4740,6 +4829,13 @@
       "religion": "北歐"
     }
   ],
+  "Haraldur hárfagri": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Hari": [
     {
       "slug": "bhagavata-purana",
@@ -4818,6 +4914,13 @@
     {
       "slug": "heimskringla-on",
       "name_zh": "赫姆斯克林格拉（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Helga": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
       "religion": "北歐"
     }
   ],
@@ -6250,6 +6353,13 @@
       "religion": "佛教"
     }
   ],
+  "Jīva-gosvāmi": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
   "Ka": [
     {
       "slug": "liturgy-funerary-offerings",
@@ -6552,6 +6662,13 @@
       "religion": "現代新興"
     }
   ],
+  "Kormákur": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Kosala": [
     {
       "slug": "sn3-kosala",
@@ -6751,6 +6868,11 @@
     {
       "slug": "bhagavata-purana",
       "name_zh": "薄伽梵往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     },
     {
@@ -7193,6 +7315,13 @@
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "MacKail": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Macauliffe": [
@@ -7738,6 +7867,13 @@
       "religion": "猶太教"
     }
   ],
+  "Meliboeus": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Mem Loimis": [
     {
       "slug": "creation-myths-primitive-america",
@@ -7959,6 +8095,13 @@
       "slug": "vulgate-ruth",
       "name_zh": "路得記（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Modern Library": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Moksha": [
@@ -8581,6 +8724,13 @@
       "religion": "美洲"
     }
   ],
+  "Noregur": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Norns": [
     {
       "slug": "volsunga-saga",
@@ -8882,6 +9032,11 @@
     }
   ],
   "Oedipus": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
@@ -10331,6 +10486,11 @@
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "Romulus": [
@@ -10387,6 +10547,13 @@
     {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
+      "religion": "印度教"
+    }
+  ],
+  "Rādhā-kṛṣṇa": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     }
   ],
@@ -12029,6 +12196,13 @@
       "religion": "猶太教"
     }
   ],
+  "Tityrus": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Tlaloc": [
     {
       "slug": "aztec-rva",
@@ -12664,6 +12838,13 @@
       "religion": "基督教"
     }
   ],
+  "Vergil": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Verðandi": [
     {
       "slug": "poetic-edda-on",
@@ -12731,6 +12912,11 @@
     {
       "slug": "virgil-aeneid",
       "name_zh": "伊尼德 (維吉爾)",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -14127,6 +14313,20 @@
       "religion": "佛教"
     }
   ],
+  "anādi": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
+  "anṛta": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "aparā prakṛti": [
     {
       "slug": "saundarya-lahari",
@@ -14444,6 +14644,11 @@
   ],
   "bandha": [
     {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "samkhya-sutra",
       "name_zh": "數論經",
       "religion": "印度教"
@@ -14481,6 +14686,13 @@
     {
       "slug": "seneca-de-vita-beata-la",
       "name_zh": "論幸福生活（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "beech": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
       "religion": "古希臘羅馬"
     }
   ],
@@ -15595,6 +15807,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
       "religion": "印度教"
@@ -15734,6 +15951,13 @@
       "slug": "vulgate-joel",
       "name_zh": "約珥書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "dig-darśanī-ṭīkā": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
     }
   ],
   "divine love": [
@@ -16209,6 +16433,13 @@
       "religion": "北歐"
     }
   ],
+  "fóstra": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "gambling-god": [
     {
       "slug": "navajo-myths",
@@ -16228,6 +16459,13 @@
       "slug": "garbha-upanishad",
       "name_zh": "胎藏奧義書",
       "religion": "印度教"
+    }
+  ],
+  "garpur": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
     }
   ],
   "gate gate pāragate": [
@@ -16674,6 +16912,13 @@
       "religion": "佛教"
     }
   ],
+  "hiṃsā": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "holocautomata": [
     {
       "slug": "vulgate-baruch",
@@ -16727,6 +16972,11 @@
     {
       "slug": "gisla-saga-on",
       "name_zh": "吉斯利薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    },
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
       "religion": "北歐"
     }
   ],
@@ -16949,6 +17199,13 @@
       "slug": "yamuna-gitartha-samgraha",
       "name_zh": "雅牟那薄伽梵歌要義",
       "religion": "印度教"
+    }
+  ],
+  "jñānayoga": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "jötnar": [
@@ -17254,6 +17511,11 @@
   ],
   "krodha": [
     {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
@@ -17308,6 +17570,13 @@
     {
       "slug": "yama-smrti",
       "name_zh": "閻摩法論",
+      "religion": "印度教"
+    }
+  ],
+  "kāraṇa": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     }
   ],
@@ -17637,6 +17906,13 @@
       "religion": "耆那教"
     }
   ],
+  "maitrī": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "makāra": [
     {
       "slug": "nadabindu-upanishad",
@@ -17881,6 +18157,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "kaivalya-upanishad",
       "name_zh": "獨存奧義書",
       "religion": "印度教"
@@ -18070,6 +18351,13 @@
     {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
+      "religion": "印度教"
+    }
+  ],
+  "namaḥ": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     }
   ],
@@ -18521,6 +18809,13 @@
       "slug": "sn2-devaputta",
       "name_zh": "SN2 天子相應",
       "religion": "佛教"
+    }
+  ],
+  "parama-brahma": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
     }
   ],
   "parameṣṭhin": [
@@ -19363,6 +19658,11 @@
   ],
   "puṇya": [
     {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    },
+    {
       "slug": "shiva-mahimna-stava",
       "name_zh": "濕婆威德讚",
       "religion": "印度教"
@@ -19380,6 +19680,13 @@
       "slug": "an11-elevens",
       "name_zh": "AN11 十一法集",
       "religion": "佛教"
+    }
+  ],
+  "pāpa": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "pārada": [
@@ -19701,6 +20008,13 @@
       "religion": "佛教"
     }
   ],
+  "sac-cid-ānanda": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
   "sacca": [
     {
       "slug": "sn10-yakkha",
@@ -19892,6 +20206,13 @@
     {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
+      "religion": "印度教"
+    }
+  ],
+  "sandarbha": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     }
   ],
@@ -20100,6 +20421,11 @@
     {
       "slug": "jain-dhurtakhyana-pkt",
       "name_zh": "騙徒故事（俗語原文）",
+      "religion": "耆那教"
+    },
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
       "religion": "耆那教"
     },
     {
@@ -20476,6 +20802,13 @@
     {
       "slug": "jain-nyayapravesa-vrtti-sa",
       "name_zh": "因明入正理論疏（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
+  "sādhu": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
       "religion": "耆那教"
     }
   ],
@@ -20943,6 +21276,11 @@
       "slug": "bud-yuktisastika-sa",
       "name_zh": "六十如理論（梵文）",
       "religion": "佛教"
+    },
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "udal rights": [
@@ -21220,6 +21558,13 @@
       "religion": "基督教"
     }
   ],
+  "vesturvíking": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "vicegerent": [
     {
       "slug": "mishkat-al-anwar",
@@ -21303,6 +21648,13 @@
       "slug": "an7-sevens",
       "name_zh": "AN7 七法集",
       "religion": "佛教"
+    }
+  ],
+  "vimukti": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
     }
   ],
   "vimutti": [
@@ -21504,6 +21856,13 @@
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
+    }
+  ],
+  "víking": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
     }
   ],
   "víkingr": [
@@ -21743,6 +22102,13 @@
       "religion": "北歐"
     }
   ],
+  "Ásmundur": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
+      "religion": "北歐"
+    }
+  ],
   "Ásíá": [
     {
       "slug": "snorra-edda-on",
@@ -21832,6 +22198,13 @@
     {
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "Ögmundur": [
+    {
+      "slug": "kormaks-saga-on",
+      "name_zh": "科爾馬克薩迦",
       "religion": "北歐"
     }
   ],
@@ -22093,10 +22466,24 @@
       "religion": "印度教"
     }
   ],
+  "ādharma": [
+    {
+      "slug": "jain-sastravarttasamuccaya-sa",
+      "name_zh": "諸論義集（梵文原文）",
+      "religion": "耆那教"
+    }
+  ],
   "ādhyātmika": [
     {
       "slug": "brahmabindu-upanishad",
       "name_zh": "梵點奧義書",
+      "religion": "印度教"
+    }
+  ],
+  "ādi": [
+    {
+      "slug": "brahma-samhita",
+      "name_zh": "梵讚集",
       "religion": "印度教"
     }
   ],
@@ -22880,6 +23267,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Κολωνός": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Κρίτων": [
     {
       "slug": "plato-crito-el",
@@ -22926,6 +23320,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Οἰδίπους": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -22983,6 +23384,20 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ποσειδῶν": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Προμηθεύς": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Πρὸς Ἑβραίους": [
     {
       "slug": "sblgnt-hebrews",
@@ -23001,6 +23416,13 @@
     {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Σκότος": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23074,6 +23496,13 @@
     {
       "slug": "plato-crito-el",
       "name_zh": "克里同篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Φοῖβος": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23151,6 +23580,13 @@
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "δαίμων": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23423,6 +23859,20 @@
       "religion": "基督教"
     }
   ],
+  "ξενόστασις": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "οἰκτίρατε": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "οἰωνοί": [
     {
       "slug": "xenophon-memorabilia-el",
@@ -23504,6 +23954,13 @@
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "σεμναὶ θεαί": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23652,6 +24109,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "χρησμός": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25149,10 +25613,24 @@
       "religion": "基督教"
     }
   ],
+  "ἄθλιον εἴδωλον": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "ἄπολις": [
     {
       "slug": "aristotle-politics-el",
       "name_zh": "政治學（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Ἀθῆναι": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25168,6 +25646,13 @@
       "slug": "sblgnt-revelation",
       "name_zh": "啟示錄（希臘原文）",
       "religion": "基督教"
+    }
+  ],
+  "Ἀπόλλων": [
+    {
+      "slug": "sophocles-oedipus-colonus-el",
+      "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Ἄιδης": [
@@ -118130,6 +118615,11 @@
   ],
   "拉丁文": [
     {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "vulgate-2-chronicles",
       "name_zh": "歷代志下（武加大）",
       "religion": "基督教"
@@ -165269,6 +165759,13 @@
       "slug": "vulgate-1-timothy",
       "name_zh": "提摩太前書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "牧歌": [
+    {
+      "slug": "virgil-eclogues",
+      "name_zh": "牧歌 (維吉爾)",
+      "religion": "古希臘羅馬"
     }
   ],
   "牧牛": [
