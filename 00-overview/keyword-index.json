@@ -104,6 +104,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-numbers",
       "name_zh": "民數記（武加大）",
       "religion": "基督教"
@@ -264,6 +269,13 @@
       "slug": "apuleius-metamorphoses-la",
       "name_zh": "金驢記（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Aegyptus": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "Aeneadum": [
@@ -455,6 +467,13 @@
       "slug": "denkard-bk-7-8",
       "name_zh": "Dinkard Books 8-9",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "Aidoneia": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Ailill": [
@@ -737,6 +756,13 @@
       "religion": "猶太教"
     }
   ],
+  "Amorrhaeus": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Amos": [
     {
       "slug": "amos",
@@ -885,6 +911,11 @@
     }
   ],
   "Aphrodite": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
@@ -1081,6 +1112,11 @@
     }
   ],
   "Artemis": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "sophocles-oedipus-rex-el",
       "name_zh": "伊底帕斯王（希臘原文）",
@@ -2564,6 +2600,13 @@
       "religion": "神道"
     }
   ],
+  "Chananæi": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Chandi": [
     {
       "slug": "chandi-di-var-pa",
@@ -2983,6 +3026,13 @@
       "religion": "印加"
     }
   ],
+  "Cypris": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Cyrus": [
     {
       "slug": "vulgate-ezra",
@@ -3376,6 +3426,11 @@
     }
   ],
   "Dominus": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-hosea",
       "name_zh": "何西阿書（武加大）",
@@ -3806,6 +3861,13 @@
       "slug": "orphic-hymns-el",
       "name_zh": "俄耳甫斯讚歌（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Esdrae": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "Esther": [
@@ -5096,6 +5158,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Hippolytus": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Hiraṇyagarbha": [
     {
       "slug": "manu-smrti",
@@ -6381,6 +6450,13 @@
       "religion": "猶太教"
     }
   ],
+  "Kailāsa": [
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "Kalendas": [
     {
       "slug": "ovid-fasti-la",
@@ -6718,6 +6794,11 @@
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     }
   ],
@@ -8179,6 +8260,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
       "religion": "基督教"
@@ -8923,6 +9009,13 @@
       "religion": "印度教"
     }
   ],
+  "Nārāda": [
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "Nārāyaṇa": [
     {
       "slug": "garuda-purana",
@@ -9404,11 +9497,25 @@
       "religion": "佛教"
     }
   ],
+  "Pallantides": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Pandavas": [
     {
       "slug": "mahabharata-ganguli",
       "name_zh": "摩訶婆羅多（Ganguli 英譯）",
       "religion": "印度教"
+    }
+  ],
+  "Pandion": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Pandora": [
@@ -9670,10 +9777,22 @@
       "religion": "美洲"
     }
   ],
+  "Phaedra": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Pharao": [
     {
       "slug": "vulgate-3-esdras",
       "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -9681,6 +9800,20 @@
     {
       "slug": "vulgate-3-esdras",
       "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
+  "Pherezæi": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
+  "Philisthæi": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -9736,6 +9869,13 @@
       "slug": "pistis-sophia",
       "name_zh": "信仰智慧 (Pistis Sophia, Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "Pittheus": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Pius Aeneas": [
@@ -9852,6 +9992,11 @@
     }
   ],
   "Poseidon": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "homer-odyssey-st",
       "name_zh": "奧德賽 (Pope/Bryant 英譯)",
@@ -11740,6 +11885,13 @@
       "religion": "佛教"
     }
   ],
+  "Sātvatatantra": [
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "Sāvatthī": [
     {
       "slug": "sn1-devata",
@@ -12114,6 +12266,13 @@
       "religion": "佛教"
     }
   ],
+  "Theseus": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Thessalia": [
     {
       "slug": "apuleius-metamorphoses-la",
@@ -12318,6 +12477,13 @@
     {
       "slug": "lucretius-de-rerum-natura-la",
       "name_zh": "物性論（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Troezen": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -13975,6 +14141,11 @@
       "slug": "ashvalayana-grhyasutra",
       "name_zh": "阿溼縛羅衍那家庭經",
       "religion": "印度教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
     }
   ],
   "agnus-Dei": [
@@ -14005,6 +14176,11 @@
     {
       "slug": "samkhya-sutra",
       "name_zh": "數論經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     }
   ],
@@ -14341,6 +14517,13 @@
       "religion": "印度教"
     }
   ],
+  "aphros": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "apostle": [
     {
       "slug": "vulgate-titus",
@@ -14509,6 +14692,11 @@
     {
       "slug": "garuda-purana",
       "name_zh": "金翅鳥往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     }
   ],
@@ -14789,6 +14977,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "shvetashvatara-upanishad",
       "name_zh": "白騾奧義書",
       "religion": "印度教"
@@ -14988,6 +15181,13 @@
     {
       "slug": "vulgate-titus",
       "name_zh": "提多書（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "blasphemia": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -15219,6 +15419,11 @@
       "slug": "kn-cariyapitaka",
       "name_zh": "小部·所行藏",
       "religion": "佛教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
     },
     {
       "slug": "sn56-sacca",
@@ -15644,6 +15849,13 @@
       "religion": "錫克教"
     }
   ],
+  "darśa-pūrṇamāsa": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
+    }
+  ],
   "darśana": [
     {
       "slug": "nyaya-sutra-gautama",
@@ -15669,6 +15881,13 @@
     {
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "desertum": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -16200,6 +16419,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "erōs": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "eternal life": [
     {
       "slug": "epic-of-gilgamesh-st",
@@ -16651,6 +16877,13 @@
       "religion": "印度教"
     }
   ],
+  "guṇatraya": [
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    }
+  ],
   "guṭikā": [
     {
       "slug": "matrkabheda-tantra",
@@ -16698,6 +16931,13 @@
     {
       "slug": "vaikhanasa-dharmasutra",
       "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    }
+  ],
+  "gṛhyasūtra": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
     }
   ],
@@ -16761,6 +17001,11 @@
     {
       "slug": "ashvalayana-grhyasutra",
       "name_zh": "阿溼縛羅衍那家庭經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
     }
   ],
@@ -16991,6 +17236,11 @@
     {
       "slug": "tertullian-de-praescriptione-la",
       "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -17328,6 +17578,13 @@
       "slug": "jain-acaranga-pkt",
       "name_zh": "阿闥羅門經（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "kanyā": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
     }
   ],
   "kappa": [
@@ -17791,6 +18048,11 @@
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
     }
   ],
   "maenad": [
@@ -17832,6 +18094,11 @@
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     }
   ],
@@ -17972,6 +18239,13 @@
       "religion": "基督教"
     }
   ],
+  "manna": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "mantra": [
     {
       "slug": "cbeta-T32n1683",
@@ -17986,6 +18260,11 @@
     {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
     },
     {
@@ -18247,6 +18526,13 @@
       "slug": "stotraratna-yamuna",
       "name_zh": "讚寶",
       "religion": "印度教"
+    }
+  ],
+  "murmur": [
+    {
+      "slug": "vulgate-4-esdras",
+      "name_zh": "4 以斯拉（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "murmuratio": [
@@ -19261,6 +19547,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -19469,6 +19760,13 @@
       "religion": "印度教"
     }
   ],
+  "prājāpatya": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
+    }
+  ],
   "prāyaścitta": [
     {
       "slug": "baudhayana-dharmasutra",
@@ -19582,6 +19880,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -19672,6 +19975,11 @@
     {
       "slug": "ashvalayana-grhyasutra",
       "name_zh": "阿溼縛羅衍那家庭經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
     }
   ],
@@ -20676,6 +20984,13 @@
       "religion": "兩河"
     }
   ],
+  "sthālīpāka": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
+    }
+  ],
   "sthāṇḍila": [
     {
       "slug": "ashvalayana-grhyasutra",
@@ -20768,6 +21083,11 @@
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
       "religion": "印度教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
     }
   ],
   "svātantrya-śakti": [
@@ -20833,6 +21153,11 @@
   ],
   "sāvitrī": [
     {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -20842,6 +21167,11 @@
     {
       "slug": "garbha-upanishad",
       "name_zh": "胎藏奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     }
   ],
@@ -20879,6 +21209,13 @@
       "slug": "therigatha",
       "name_zh": "長老尼偈",
       "religion": "佛教"
+    }
+  ],
+  "sōphronein": [
+    {
+      "slug": "euripides-hippolytus-el",
+      "name_zh": "希波呂托斯（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "sūtra": [
@@ -21010,6 +21347,11 @@
     {
       "slug": "nyaya-sutra-gautama",
       "name_zh": "正理經（喬達摩）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     }
   ],
@@ -21788,6 +22130,11 @@
       "slug": "ashvalayana-grhyasutra",
       "name_zh": "阿溼縛羅衍那家庭經",
       "religion": "印度教"
+    },
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
     }
   ],
   "viññāṇa": [
@@ -21980,6 +22327,13 @@
     {
       "slug": "maitrayani-samhita",
       "name_zh": "梅特拉雅尼本集（黑耶柔吠陀）",
+      "religion": "印度教"
+    }
+  ],
+  "yajña": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
       "religion": "印度教"
     }
   ],
@@ -22508,6 +22862,13 @@
       "religion": "佛教"
     }
   ],
+  "āhutī": [
+    {
+      "slug": "shankhayana-grhyasutra",
+      "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
+    }
+  ],
   "āhāra 食": [
     {
       "slug": "sn46-bojjhanga",
@@ -22812,6 +23173,11 @@
     {
       "slug": "matsya-purana",
       "name_zh": "魚往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "satvata-tantra",
+      "name_zh": "薩埵婆多坦特羅",
       "religion": "印度教"
     },
     {
@@ -23131,6 +23497,13 @@
       "religion": "印度教"
     }
   ],
+  "Αἴτνα": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Βάτραχοι": [
     {
       "slug": "aristophanes-frogs-el",
@@ -23163,6 +23536,13 @@
     {
       "slug": "plato-meno-el",
       "name_zh": "美諾篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Δήλος": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23223,6 +23603,11 @@
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Θετταλία": [
@@ -23243,6 +23628,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Κασταλία": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23316,6 +23708,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Μοῖσαι": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ξακός": [
     {
       "slug": "aristophanes-frogs-el",
@@ -23341,6 +23740,13 @@
     {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Παρνασσός": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23412,6 +23818,13 @@
       "religion": "基督教"
     }
   ],
+  "Πυθιόνικοι": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Σεμέλη": [
     {
       "slug": "homeric-hymns-el",
@@ -23437,6 +23850,13 @@
     {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Συράκοσαι": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23478,10 +23898,24 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Τάρταρος": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Τίμαιος": [
     {
       "slug": "plato-timaeus-el",
       "name_zh": "蒂邁歐篇（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Τυφώς": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23503,6 +23937,13 @@
     {
       "slug": "sophocles-oedipus-colonus-el",
       "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Φυλακτήτης": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -23748,6 +24189,13 @@
     {
       "slug": "epictetus-enchiridion-el",
       "name_zh": "愛比克泰德手冊（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "κεραυνός": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -24090,6 +24538,13 @@
     {
       "slug": "epicurus-letter-menoeceus-el",
       "name_zh": "致美諾寇的信（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "φόρμιγξ": [
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25650,6 +26105,11 @@
   ],
   "Ἀπόλλων": [
     {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "sophocles-oedipus-colonus-el",
       "name_zh": "伊底帕斯在科羅諾斯（希臘原文）",
       "religion": "古希臘羅馬"
@@ -25823,6 +26283,11 @@
     {
       "slug": "pindar-olympian-el",
       "name_zh": "奧林匹亞頌歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "pindar-pythian-el",
+      "name_zh": "皮托競技凱歌（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],

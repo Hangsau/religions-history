@@ -21,5 +21,60 @@
   "tier": "次要",
   "notes": "歐里庇得斯悲劇，阿芙羅狄忒與阿爾忒彌斯之爭釀成希波呂托斯之死，論貞潔、慾望與神怒",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "celibate-tradition",
+    "compassion",
+    "divine-immanence",
+    "divine-kingship",
+    "divine-transcendence",
+    "feminine-divine",
+    "goddess-tradition",
+    "humility",
+    "marriage-sacred",
+    "mystical-union",
+    "polytheist",
+    "prayer",
+    "ritual-practice",
+    "sacred-language",
+    "self-effort",
+    "sexual-ethics",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "theophany",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Aphrodite",
+    "Artemis",
+    "Hippolytus",
+    "Phaedra",
+    "Theseus",
+    "Poseidon",
+    "Cypris",
+    "Troezen",
+    "Pittheus",
+    "Pandion",
+    "Pallantides",
+    "erōs",
+    "aphros",
+    "sōphronein",
+    "Aidoneia"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "death",
+    "guilt-atonement",
+    "loss-grief",
+    "love-sex-intimacy",
+    "meaning-of-suffering"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "8de12adb077cab5f1b19bc228850f835b0864cd898fde6abb5ff4c4972662e32"
+  },
+  "tagging_models": "MiniMax-M3"
 }

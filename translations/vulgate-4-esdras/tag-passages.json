@@ -1,0 +1,618 @@
+{
+ "schema_version": 1,
+ "slug": "vulgate-4-esdras",
+ "chunks_total": 32,
+ "passages": [
+  {
+   "chunk": 1,
+   "first_heading": "1 | Vulgata Clementina/Liber Quartus Esdrae",
+   "last_heading": "1 | Vulgata Clementina/Liber Quartus Esdrae",
+   "semantic_tags": [
+    "commandments-law",
+    "forgiveness",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "gratitude-contentment",
+    "guilt-atonement"
+   ]
+  },
+  {
+   "chunk": 2,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 3,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "compassion",
+    "grace-from-god",
+    "messianism",
+    "salvation-by-faith",
+    "universal-resurrection",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "hope-reason-to-live",
+    "loss-grief",
+    "parenthood"
+   ]
+  },
+  {
+   "chunk": 4,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "original-sin",
+    "prophetic-revelation",
+    "theophany",
+    "vision-experience"
+   ],
+   "psych_tags": []
+  },
+  {
+   "chunk": 5,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-critique",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 6,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "divine-transcendence",
+    "original-sin",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "insignificance-history",
+    "justice-power",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 7,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 8,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "fasting",
+    "suffering-as-purifying",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "loneliness-belonging",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 9,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "theodicy",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 10,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "fasting",
+    "prayer",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "hope-reason-to-live"
+   ]
+  },
+  {
+   "chunk": 11,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 12,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "other-power",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy",
+    "universal-resurrection"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 13,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "original-sin",
+    "prayer",
+    "salvation-by-faith",
+    "suffering-as-purifying",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "guilt-atonement",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 14,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "messianism",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "existence-why-born",
+    "faith-doubt",
+    "insignificance-history",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 15,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "divine-transcendence",
+    "forgiveness",
+    "prayer",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 16,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "creator-deity",
+    "forgiveness",
+    "heaven-hell",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "existence-why-born",
+    "faith-doubt",
+    "fear-uncertainty",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 17,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "sin-as-disobedience",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 18,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "suffering-as-purifying",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 19,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "temple-centered",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loss-grief",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 20,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "divine-kingship",
+    "messianism",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "who-am-i"
+   ]
+  },
+  {
+   "chunk": 21,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 22,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "divine-kingship",
+    "messianism",
+    "prayer",
+    "prophetic-revelation",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "living-with-unknown",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 23,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality",
+    "universal-resurrection",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "loneliness-belonging",
+    "loss-grief"
+   ]
+  },
+  {
+   "chunk": 24,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "monotheist-exclusive",
+    "prophetic-revelation",
+    "theophany",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "hope-reason-to-live",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 25,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "ultimate-reality",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "faith-doubt",
+    "hope-reason-to-live",
+    "living-with-unknown",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 26,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "salvation-by-faith",
+    "theodicy",
+    "ultimate-reality",
+    "universal-resurrection",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "death",
+    "faith-doubt",
+    "hope-reason-to-live",
+    "meaning-of-suffering",
+    "wisdom-learning-curiosity"
+   ]
+  },
+  {
+   "chunk": 27,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "messianism",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "vision-experience"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 28,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "commandments-law",
+    "heaven-hell",
+    "other-power",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "evil-cruelty-empathy",
+    "fear-uncertainty",
+    "insignificance-history",
+    "justice-power"
+   ]
+  },
+  {
+   "chunk": 29,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "apocalypse",
+    "prophetic-revelation",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 30,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "against-idolatry",
+    "apocalypse",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy"
+   ],
+   "psych_tags": [
+    "death",
+    "fear-uncertainty",
+    "loss-grief",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 31,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "commandments-law",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "divine-transcendence",
+    "prophetic-revelation",
+    "sin-as-disobedience",
+    "theodicy",
+    "ultimate-reality"
+   ],
+   "psych_tags": [
+    "fear-uncertainty",
+    "guilt-atonement",
+    "justice-power",
+    "meaning-of-suffering"
+   ]
+  },
+  {
+   "chunk": 32,
+   "first_heading": null,
+   "last_heading": null,
+   "semantic_tags": [
+    "sin-as-disobedience",
+    "sin-as-disobedience"
+   ],
+   "psych_tags": [
+    "death",
+    "guilt-atonement"
+   ]
+  }
+ ]
+}
