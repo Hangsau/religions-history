@@ -81,6 +81,13 @@
       "religion": "斯拉夫"
     }
   ],
+  "1915": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    }
+  ],
   "1917": [
     {
       "slug": "key-of-gold-czech-tales",
@@ -448,6 +455,20 @@
       "slug": "songs-of-russian-people",
       "name_zh": "俄羅斯人民之歌",
       "religion": "斯拉夫"
+    }
+  ],
+  "Africa": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    }
+  ],
+  "African Culture": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Afrinagan": [
@@ -1519,6 +1540,13 @@
       "religion": "基督教"
     }
   ],
+  "Atharvan": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    }
+  ],
   "Atharvaveda": [
     {
       "slug": "atharvaveda-saunaka",
@@ -2464,6 +2492,11 @@
       "slug": "egyptian-ideas-future-life",
       "name_zh": "埃及人的來世觀",
       "religion": "古埃及"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Boreās": [
@@ -2491,6 +2524,11 @@
     {
       "slug": "brahmanda-purana",
       "name_zh": "梵卵往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
       "religion": "印度教"
     },
     {
@@ -2705,6 +2743,13 @@
       "religion": "北歐"
     }
   ],
+  "Brentano's": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
+    }
+  ],
   "Bres": [
     {
       "slug": "cath-maige-tuired-en",
@@ -2729,6 +2774,13 @@
       "slug": "volsunga-saga-on",
       "name_zh": "沃爾松傳奇（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "Brian Brown": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Bride": [
@@ -3521,6 +3573,13 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    }
+  ],
+  "Congo": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Constance Goddard Du Bois": [
@@ -4482,6 +4541,13 @@
       "religion": "非洲"
     }
   ],
+  "Egypt": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    }
+  ],
   "Egyptian": [
     {
       "slug": "egyptian-ideas-future-life",
@@ -4508,6 +4574,13 @@
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "Egyptian magic": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Egyptian papyrus": [
@@ -4796,6 +4869,11 @@
     }
   ],
   "Ethiopia": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    },
     {
       "slug": "rastafarian-bible",
       "name_zh": "Rastafarian 黑人聖經",
@@ -5794,6 +5872,13 @@
       "religion": "猶太教"
     }
   ],
+  "Guinea": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    }
+  ],
   "Gunnhildr": [
     {
       "slug": "kormaks-saga-on",
@@ -6342,6 +6427,11 @@
       "slug": "thrice-greatest-hermes-2",
       "name_zh": "三度偉大的赫爾墨斯 Vol 2 (Hermetica)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Hermeticism": [
@@ -6588,6 +6678,11 @@
     {
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
+      "religion": "古埃及"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
       "religion": "古埃及"
     }
   ],
@@ -7149,6 +7244,18 @@
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
       "religion": "古埃及"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
+    }
+  ],
+  "Islam": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Islām": [
@@ -8140,6 +8247,13 @@
       "religion": "美洲"
     }
   ],
+  "Ke'gemini": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
+    }
+  ],
   "Kegan Paul": [
     {
       "slug": "egyptian-magic",
@@ -8214,6 +8328,13 @@
     {
       "slug": "legends-of-the-gods-egypt",
       "name_zh": "諸神傳說（古埃及文本）",
+      "religion": "古埃及"
+    }
+  ],
+  "Khenti Amenti": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
       "religion": "古埃及"
     }
   ],
@@ -8734,6 +8855,13 @@
       "slug": "vulgate-jeremiah",
       "name_zh": "耶利米書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "Latin America": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Latin epic": [
@@ -10735,6 +10863,11 @@
       "slug": "egyptian-book-of-dead",
       "name_zh": "古埃及死者之書",
       "religion": "古埃及"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Neptune": [
@@ -10782,6 +10915,13 @@
       "slug": "snorra-edda-is",
       "name_zh": "散文埃達（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "Niger": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Nihongi": [
@@ -11535,6 +11675,11 @@
       "slug": "pyramid-texts-mercer",
       "name_zh": "金字塔銘文",
       "religion": "古埃及"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Ouiot": [
@@ -11723,6 +11868,13 @@
       "slug": "hesiod-works",
       "name_zh": "赫西俄德 (神譜 + 工作與時日)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Papyrus of Hunefer": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Paralipomenon": [
@@ -12341,6 +12493,11 @@
   ],
   "Prajapati": [
     {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "shankhayana-aranyaka",
       "name_zh": "僧佉衍那森林書",
       "religion": "印度教"
@@ -12513,6 +12670,13 @@
       "slug": "legends-of-the-jews",
       "name_zh": "猶太人的傳說 (Ginzberg)",
       "religion": "猶太教"
+    }
+  ],
+  "Ptah-Hotep": [
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Ptolemaeus": [
@@ -15058,6 +15222,13 @@
       "religion": "美洲"
     }
   ],
+  "The Negro": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    }
+  ],
   "The One 太一": [
     {
       "slug": "plotinus-enneads",
@@ -15209,6 +15380,11 @@
       "slug": "thrice-greatest-hermes-1",
       "name_zh": "三度偉大的赫爾墨斯 Vol 1 (Mead)",
       "religion": "諾斯底"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "Thunder-Boy": [
@@ -15741,6 +15917,13 @@
       "slug": "epic-of-gilgamesh-st",
       "name_zh": "吉爾伽美什史詩",
       "religion": "兩河"
+    }
+  ],
+  "United States": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Unity": [
@@ -16585,6 +16768,13 @@
       "religion": "佛教"
     }
   ],
+  "W.E.B. Du Bois": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
+    }
+  ],
   "W.H.T. Gairdner": [
     {
       "slug": "mishkat-al-anwar",
@@ -16669,6 +16859,13 @@
     {
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
+      "religion": "非洲"
+    }
+  ],
+  "West Indies": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
       "religion": "非洲"
     }
   ],
@@ -17149,6 +17346,13 @@
       "slug": "homer-iliad-pope",
       "name_zh": "伊利亞德 (Pope/Bryant 英譯)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Zimbabwe": [
+    {
+      "slug": "dahomey-religion",
+      "name_zh": "達荷美宗教",
+      "religion": "非洲"
     }
   ],
   "Zohar": [
@@ -17796,6 +18000,13 @@
       "religion": "印度教"
     }
   ],
+  "anyābhilāṣitā-śūnyaṃ": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    }
+  ],
   "anādi": [
     {
       "slug": "brahma-samhita",
@@ -17815,6 +18026,13 @@
       "slug": "jain-sastravarttasamuccaya-sa",
       "name_zh": "諸論義集（梵文原文）",
       "religion": "耆那教"
+    }
+  ],
+  "apah": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
     }
   ],
   "aparā prakṛti": [
@@ -17864,6 +18082,13 @@
       "slug": "bud-udanavarga-sa",
       "name_zh": "優陀那品（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "aprārabdha": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
     }
   ],
   "apsaras": [
@@ -17997,6 +18222,13 @@
       "slug": "sn11-sakka",
       "name_zh": "SN11 帝釋相應",
       "religion": "佛教"
+    }
+  ],
+  "atharvaveda": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
     }
   ],
   "audacia": [
@@ -18407,6 +18639,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    },
+    {
       "slug": "gita-govinda",
       "name_zh": "牧童歌",
       "religion": "印度教"
@@ -18424,6 +18661,13 @@
     {
       "slug": "utpaladeva-shivastotravali",
       "name_zh": "濕婆讚頌鬘",
+      "religion": "印度教"
+    }
+  ],
+  "bhakti-rasāmṛta-sindhu": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
       "religion": "印度教"
     }
   ],
@@ -18576,6 +18820,20 @@
     {
       "slug": "mandukya-karika",
       "name_zh": "蛙氏奧義頌（Gauḍapāda）",
+      "religion": "印度教"
+    }
+  ],
+  "bhrgu": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    }
+  ],
+  "bhāgavata": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
       "religion": "印度教"
     }
   ],
@@ -18794,6 +19052,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
@@ -18811,6 +19074,11 @@
     {
       "slug": "shivasankalpa-upanishad",
       "name_zh": "濕婆意願奧義書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
       "religion": "印度教"
     }
   ],
@@ -19033,6 +19301,13 @@
       "slug": "an3-threes",
       "name_zh": "AN3 三法集",
       "religion": "佛教"
+    }
+  ],
+  "caitanya-deva": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
     }
   ],
   "cakra": [
@@ -19390,6 +19665,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    },
+    {
       "slug": "guide-for-the-perplexed-st",
       "name_zh": "迷途指津 (Maimonides)",
       "religion": "猶太教"
@@ -19691,6 +19971,13 @@
     {
       "slug": "brhaspati-smrti-vyavahara",
       "name_zh": "祭主法論·訴訟篇",
+      "religion": "印度教"
+    }
+  ],
+  "dhara": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
       "religion": "印度教"
     }
   ],
@@ -20207,6 +20494,11 @@
     {
       "slug": "kirana-tantra",
       "name_zh": "光線怛特羅",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
       "religion": "印度教"
     }
   ],
@@ -20809,6 +21101,13 @@
       "slug": "denkard-3-bahman-yasht",
       "name_zh": "Pahlavi Texts Part III",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "gopatha-brahmana": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
     }
   ],
   "gopi": [
@@ -21608,6 +21907,13 @@
       "religion": "佛教"
     }
   ],
+  "jaya": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    }
+  ],
   "jejunium": [
     {
       "slug": "vulgate-baruch",
@@ -22089,6 +22395,13 @@
       "religion": "印度教"
     }
   ],
+  "kleśa-ghnī": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    }
+  ],
   "knörr": [
     {
       "slug": "bandamanna-saga-on",
@@ -22278,9 +22591,19 @@
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
     }
   ],
   "kṛṣṇa": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    },
     {
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
@@ -22459,6 +22782,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "loka": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
+    }
+  ],
   "lokanāyaka": [
     {
       "slug": "kn-buddhavamsa",
@@ -22524,6 +22854,13 @@
     {
       "slug": "satvata-tantra",
       "name_zh": "薩埵婆多坦特羅",
+      "religion": "印度教"
+    }
+  ],
+  "madhusūdana": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
       "religion": "印度教"
     }
   ],
@@ -22686,6 +23023,13 @@
       "slug": "jain-uttaradhyayana-pkt",
       "name_zh": "後篇經（半摩揭陀原文）",
       "religion": "耆那教"
+    }
+  ],
+  "mahāyogī": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
     }
   ],
   "maitrī": [
@@ -23700,6 +24044,13 @@
       "religion": "佛教"
     }
   ],
+  "nārada-pañcarātra": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    }
+  ],
   "nārāyaṇa": [
     {
       "slug": "garbha-upanishad",
@@ -24505,6 +24856,13 @@
       "religion": "美洲"
     }
   ],
+  "prabhu": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
+    }
+  ],
   "pradhāna-puruṣa": [
     {
       "slug": "yamuna-gitartha-samgraha",
@@ -24756,6 +25114,13 @@
       "religion": "瑪雅"
     }
   ],
+  "prema-bhakti": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    }
+  ],
   "presbyteros": [
     {
       "slug": "sblgnt-titus",
@@ -24864,6 +25229,13 @@
       "religion": "印度教"
     }
   ],
+  "prārabdha": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
+    }
+  ],
   "prāyaścitta": [
     {
       "slug": "angirasa-smrti",
@@ -24878,6 +25250,11 @@
     {
       "slug": "parashara-smrti",
       "name_zh": "廣博仙法論（行儀・贖罪）",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
       "religion": "印度教"
     },
     {
@@ -25230,6 +25607,13 @@
       "religion": "佛教"
     }
   ],
+  "pātāla": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
+    }
+  ],
   "pāva-kamma": [
     {
       "slug": "jain-isibhasiyaim-pkt",
@@ -25336,6 +25720,11 @@
       "slug": "tarka-samgraha",
       "name_zh": "思擇集",
       "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
     }
   ],
   "qof": [
@@ -25397,6 +25786,13 @@
       "slug": "chandi-di-var-pa",
       "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "rasātala": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
     }
   ],
   "ratanamaṇḍita": [
@@ -25488,6 +25884,13 @@
       "religion": "古埃及"
     }
   ],
+  "retas": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    }
+  ],
   "retribution": [
     {
       "slug": "code-of-hammurabi-st",
@@ -25528,6 +25931,13 @@
       "slug": "tain-bo-cuailnge-ga",
       "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
       "religion": "凱爾特"
+    }
+  ],
+  "rādhā-govinda": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
     }
   ],
   "rāga": [
@@ -25754,6 +26164,11 @@
       "slug": "virgil-georgics",
       "name_zh": "農事詩 (維吉爾)",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "wisdom-of-the-egyptians",
+      "name_zh": "埃及智慧書（含普塔霍特普訓誡）",
+      "religion": "古埃及"
     }
   ],
   "sacrificium": [
@@ -26733,6 +27148,13 @@
       "religion": "伊斯蘭"
     }
   ],
+  "suveda": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    }
+  ],
   "svabhāva": [
     {
       "slug": "bud-shunyatasaptati-sa",
@@ -26757,6 +27179,13 @@
       "slug": "bud-vimshatika-sa",
       "name_zh": "唯識二十論（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "svayambhu": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
     }
   ],
   "sviṣṭakṛt": [
@@ -26799,6 +27228,13 @@
       "religion": "印度教"
     }
   ],
+  "sweat": [
+    {
+      "slug": "gopatha-brahmana",
+      "name_zh": "牛道梵書",
+      "religion": "印度教"
+    }
+  ],
   "synagogue": [
     {
       "slug": "sefaria-rashba-on-megillah",
@@ -26811,6 +27247,13 @@
       "slug": "jain-nyayapravesa-vrtti-sa",
       "name_zh": "因明入正理論疏（梵文原文）",
       "religion": "耆那教"
+    }
+  ],
+  "sādhana-bhakti": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
     }
   ],
   "sādhu": [
@@ -26855,6 +27298,13 @@
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
+      "religion": "印度教"
+    }
+  ],
+  "sāmānya-bhakti": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
       "religion": "印度教"
     }
   ],
@@ -27750,6 +28200,11 @@
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
     }
   ],
   "varṇa": [
@@ -28256,6 +28711,18 @@
       "slug": "mahabharata",
       "name_zh": "摩訶婆羅多",
       "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
+      "religion": "印度教"
+    }
+  ],
+  "viṣṇu-bhakti": [
+    {
+      "slug": "bhaktirasamrtasindhu",
+      "name_zh": "巴克提甘露味海",
+      "religion": "印度教"
     }
   ],
   "vowel-points": [
@@ -28486,6 +28953,11 @@
     {
       "slug": "shankhayana-grhyasutra",
       "name_zh": "商佉衍那家庭經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
       "religion": "印度教"
     }
   ],
@@ -29072,6 +29544,13 @@
     {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    }
+  ],
+  "ādideva": [
+    {
+      "slug": "vishnu-smrti",
+      "name_zh": "毗濕奴法論",
       "religion": "印度教"
     }
   ],
