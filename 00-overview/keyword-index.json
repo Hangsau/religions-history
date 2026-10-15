@@ -92,6 +92,11 @@
   ],
   "Aaron": [
     {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-numbers",
       "name_zh": "民數記（武加大）",
       "religion": "基督教"
@@ -1047,6 +1052,13 @@
       "religion": "錫克教"
     }
   ],
+  "Asaph": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Asar": [
     {
       "slug": "book-of-am-tuat",
@@ -1224,6 +1236,13 @@
       "slug": "ovid-metamorphoses-la",
       "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Austmaðr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Autos Sacramentales": [
@@ -1633,6 +1652,13 @@
       "religion": "非洲"
     }
   ],
+  "Bergfinnr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Berðlu-Kári": [
     {
       "slug": "egils-saga-on",
@@ -1877,6 +1903,13 @@
       "slug": "ovid-metamorphoses-la",
       "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Borgarfjörðr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Brahma": [
@@ -2404,6 +2437,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Charcamis": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Cherokee": [
     {
       "slug": "cherokee-sacred-formulas",
@@ -2884,10 +2924,22 @@
       "religion": "耆那教"
     }
   ],
+  "Dauid": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "David": [
     {
       "slug": "vulgate-1-chronicles",
       "name_zh": "歷代志上（武加大）",
+      "religion": "基督教"
+    },
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
       "religion": "基督教"
     },
     {
@@ -3262,6 +3314,13 @@
       "religion": "凱爾特"
     }
   ],
+  "Egill": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Egungun": [
     {
       "slug": "yoruba-religion",
@@ -3511,6 +3570,13 @@
     {
       "slug": "vulgate-esther",
       "name_zh": "以斯帖記（武加大）",
+      "religion": "基督教"
+    }
+  ],
+  "Euphratem": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
       "religion": "基督教"
     }
   ],
@@ -4101,6 +4167,13 @@
       "slug": "sibylline-oracles",
       "name_zh": "西比拉神諭集",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Grenjum": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Grjótteigsseli": [
@@ -5530,6 +5603,13 @@
       "religion": "基督教"
     }
   ],
+  "Jerosolymis": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Jerusalem": [
     {
       "slug": "book-of-mormon-1830",
@@ -5764,6 +5844,13 @@
       "religion": "基督教"
     }
   ],
+  "Josias": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "Jove": [
     {
       "slug": "virgil-aeneid",
@@ -5818,6 +5905,13 @@
       "slug": "apu-ollantay",
       "name_zh": "阿普·奧揚泰 (克丘亞語戲劇)",
       "religion": "印加"
+    }
+  ],
+  "Jófríðr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Jökulsá": [
@@ -5899,6 +5993,11 @@
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
       "religion": "印度教"
     }
   ],
@@ -6530,6 +6629,11 @@
     }
   ],
   "Levitæ": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-numbers",
       "name_zh": "民數記（武加大）",
@@ -7552,6 +7656,11 @@
     }
   ],
   "Moyses": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-baruch",
       "name_zh": "巴錄書（武加大）",
@@ -8762,6 +8871,11 @@
   ],
   "Pascha": [
     {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-john",
       "name_zh": "約翰福音（武加大）",
       "religion": "基督教"
@@ -8934,6 +9048,20 @@
       "slug": "peyote-cult",
       "name_zh": "佩約特儀式 (烏羽玉聖餐宗教)",
       "religion": "美洲"
+    }
+  ],
+  "Pharao": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
+  "Phase": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "Philo of Alexandria": [
@@ -9883,6 +10011,11 @@
   ],
   "Salomon": [
     {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-song-of-songs",
       "name_zh": "雅歌（武加大）",
       "religion": "基督教"
@@ -10080,6 +10213,13 @@
       "slug": "devi-gita",
       "name_zh": "女神之歌",
       "religion": "印度教"
+    }
+  ],
+  "Saul": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "Saundaryalaharī": [
@@ -10471,6 +10611,13 @@
       "religion": "美洲"
     }
   ],
+  "Skalla-Grímr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Skaði": [
     {
       "slug": "volsunga-saga-on",
@@ -10562,6 +10709,11 @@
     }
   ],
   "Solomon": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    },
     {
       "slug": "vulgate-ecclesiastes",
       "name_zh": "傳道書（武加大）",
@@ -10894,6 +11046,11 @@
       "slug": "samkhya-karika-ishvarakrshna",
       "name_zh": "數論頌（自在黑）",
       "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
     }
   ],
   "Sītā": [
@@ -11131,6 +11288,13 @@
       "slug": "lamentations",
       "name_zh": "耶利米哀歌",
       "religion": "猶太教"
+    }
+  ],
+  "Tertullianus": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "Teton": [
@@ -11732,6 +11896,13 @@
       "slug": "fragments-of-faith-forgotten",
       "name_zh": "被遺忘信仰的碎片 (Mead)",
       "religion": "諾斯底"
+    }
+  ],
+  "Valfell": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "Valföðr": [
@@ -13006,6 +13177,13 @@
       "religion": "印度教"
     }
   ],
+  "ahaṅkāra": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
   "ahimsa": [
     {
       "slug": "jain-dasavaikalika-pkt",
@@ -13362,6 +13540,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "arcæ Domini": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
+    }
+  ],
   "ardhamātrā": [
     {
       "slug": "nadabindu-upanishad",
@@ -13509,6 +13694,11 @@
       "slug": "ramanuja-vedarthasamgraha",
       "name_zh": "吠陀義綱要",
       "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
     }
   ],
   "avijjā": [
@@ -13530,6 +13720,13 @@
       "slug": "an11-elevens",
       "name_zh": "AN11 十一法集",
       "religion": "佛教"
+    }
+  ],
+  "aviveka": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
     }
   ],
   "aśubha": [
@@ -13579,6 +13776,13 @@
       "slug": "an7-sevens",
       "name_zh": "AN7 七法集",
       "religion": "佛教"
+    }
+  ],
+  "bandha": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
     }
   ],
   "bards": [
@@ -13784,6 +13988,13 @@
       "slug": "an1-ones",
       "name_zh": "AN1 一法集 (~575 經)",
       "religion": "佛教"
+    }
+  ],
+  "bhikṣu": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
     }
   ],
   "bhoktā": [
@@ -14008,6 +14219,13 @@
       "religion": "印度教"
     }
   ],
+  "brahmacārī": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    }
+  ],
   "brahman": [
     {
       "slug": "atharvaveda-paippalada",
@@ -14082,6 +14300,11 @@
       "slug": "sn56-sacca",
       "name_zh": "SN56 諦相應 (131 經)",
       "religion": "佛教"
+    },
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
     },
     {
       "slug": "vasistha-dharmasutra",
@@ -14742,6 +14965,13 @@
       "religion": "基督教"
     }
   ],
+  "diaconus": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "diaspora": [
     {
       "slug": "sblgnt-james",
@@ -14791,6 +15021,13 @@
       "religion": "兩河"
     }
   ],
+  "draumr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "dravya": [
     {
       "slug": "tarka-samgraha",
@@ -14817,6 +15054,13 @@
       "religion": "佛教"
     }
   ],
+  "duḥkha": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
   "dvayābhāva": [
     {
       "slug": "bud-madhyantavibhaga-sa",
@@ -14840,6 +15084,11 @@
     {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
       "religion": "印度教"
     },
     {
@@ -14892,6 +15141,11 @@
   ],
   "ecclesia": [
     {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-1-corinthians",
       "name_zh": "哥林多前書（武加大）",
       "religion": "基督教"
@@ -14930,6 +15184,13 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
+    }
+  ],
+  "episcopus": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "episkopos": [
@@ -15063,6 +15324,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    },
+    {
       "slug": "vulgate-hebrews",
       "name_zh": "希伯來書（武加大）",
       "religion": "基督教"
@@ -15165,6 +15431,13 @@
       "slug": "dadestan-i-denig",
       "name_zh": "Dadestan-i Denig (宗教裁判)",
       "religion": "瑣羅亞斯德"
+    }
+  ],
+  "fylgja": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
     }
   ],
   "gambling-god": [
@@ -15315,6 +15588,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -15386,6 +15664,20 @@
       "slug": "bud-astasahasrika-prajnaparamita-sa",
       "name_zh": "八千頌般若波羅蜜多（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "gṛhastha": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    }
+  ],
+  "haereses": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "hajj": [
@@ -15611,6 +15903,13 @@
       "slug": "gisla-saga-on",
       "name_zh": "吉斯利薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "idololatria": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "idolum": [
@@ -16093,6 +16392,13 @@
       "religion": "佛教"
     }
   ],
+  "kveldúlfr": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "kāma": [
     {
       "slug": "ardhanarishvara-stotra",
@@ -16159,6 +16465,20 @@
       "religion": "印度教"
     }
   ],
+  "kṣatriya": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    }
+  ],
+  "kṣaṇikatva": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
   "kṣānti": [
     {
       "slug": "bud-suhrllekha-sa",
@@ -16173,11 +16493,25 @@
       "religion": "北歐"
     }
   ],
+  "landseti": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "langskip": [
     {
       "slug": "egils-saga-on",
       "name_zh": "埃吉爾薩迦（古諾斯語原文）",
       "religion": "北歐"
+    }
+  ],
+  "lapsus": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "laṅkāpuri": [
@@ -16370,6 +16704,13 @@
       "religion": "佛教"
     }
   ],
+  "mahān": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
   "mahāpātaka": [
     {
       "slug": "vasistha-dharmasutra",
@@ -16477,6 +16818,13 @@
       "slug": "vishnu-purana",
       "name_zh": "毗濕奴往世書",
       "religion": "印度教"
+    }
+  ],
+  "martyr": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     }
   ],
   "mastaba": [
@@ -16630,6 +16978,11 @@
     {
       "slug": "kurma-purana",
       "name_zh": "龜往世書",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
       "religion": "印度教"
     },
     {
@@ -16959,6 +17312,13 @@
     {
       "slug": "vaisheshika-sutra",
       "name_zh": "勝論經",
+      "religion": "印度教"
+    }
+  ],
+  "niṣṭhika": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
       "religion": "印度教"
     }
   ],
@@ -17546,6 +17906,13 @@
       "religion": "印度教"
     }
   ],
+  "praescriptione": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "prajnaparamita": [
     {
       "slug": "bud-astasahasrika-prajnaparamita-sa",
@@ -17610,6 +17977,11 @@
     {
       "slug": "samkhya-karika",
       "name_zh": "數論頌",
+      "religion": "印度教"
+    },
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
       "religion": "印度教"
     },
     {
@@ -17895,6 +18267,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    },
+    {
       "slug": "yoga-sutra",
       "name_zh": "瑜伽經",
       "religion": "印度教"
@@ -18171,6 +18548,13 @@
       "religion": "基督教"
     }
   ],
+  "regula": [
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
+    }
+  ],
   "religio": [
     {
       "slug": "lucretius-de-rerum-natura-la",
@@ -18281,6 +18665,13 @@
       "slug": "sn10-yakkha",
       "name_zh": "SN10 夜叉相應",
       "religion": "佛教"
+    }
+  ],
+  "sacerdotes": [
+    {
+      "slug": "vulgate-3-esdras",
+      "name_zh": "3 以斯拉（武加大附錄）",
+      "religion": "基督教"
     }
   ],
   "sacramentum": [
@@ -18577,6 +18968,11 @@
     {
       "slug": "mimamsa-sutra",
       "name_zh": "彌曼差經",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
       "religion": "印度教"
     }
   ],
@@ -19061,6 +19457,13 @@
       "religion": "印度教"
     }
   ],
+  "tanmātra": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
   "tapas": [
     {
       "slug": "prashna-upanishad",
@@ -19298,6 +19701,13 @@
       "religion": "印度教"
     }
   ],
+  "triṣṭubh": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
+    }
+  ],
   "tryambaka": [
     {
       "slug": "shivasankalpa-upanishad",
@@ -19422,6 +19832,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    },
+    {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
       "religion": "印度教"
@@ -19486,6 +19901,13 @@
       "religion": "印度教"
     }
   ],
+  "vaiśya": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    }
+  ],
   "vajrapada": [
     {
       "slug": "bud-ratnagotravibhaga-sa",
@@ -19518,6 +19940,11 @@
     {
       "slug": "manu-smrti",
       "name_zh": "摩奴法典",
+      "religion": "印度教"
+    },
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
       "religion": "印度教"
     },
     {
@@ -19555,6 +19982,11 @@
       "slug": "stotraratna-yamuna",
       "name_zh": "讚寶",
       "religion": "印度教"
+    },
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
     }
   ],
   "vedanā": [
@@ -19588,6 +20020,11 @@
       "slug": "seneca-de-vita-beata-la",
       "name_zh": "論幸福生活（拉丁原文）",
       "religion": "古希臘羅馬"
+    },
+    {
+      "slug": "tertullian-de-praescriptione-la",
+      "name_zh": "斥異端的抗辯（拉丁原文）",
+      "religion": "基督教"
     },
     {
       "slug": "vulgate-2-john",
@@ -19783,6 +20220,13 @@
       "slug": "vulgate-tobit",
       "name_zh": "多比傳（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "viveka": [
+    {
+      "slug": "samkhya-sutra",
+      "name_zh": "數論經",
+      "religion": "印度教"
     }
   ],
   "viveka-khyāti": [
@@ -20214,6 +20658,13 @@
       "religion": "北歐"
     }
   ],
+  "Þorsteinn Egilsson": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "Þriði": [
     {
       "slug": "snorra-edda-is",
@@ -20268,10 +20719,24 @@
       "religion": "北歐"
     }
   ],
+  "álft": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
   "óðul": [
     {
       "slug": "eyrbyggja-saga-on",
       "name_zh": "艾爾比格亞薩迦（古諾斯語原文）",
+      "religion": "北歐"
+    }
+  ],
+  "örn": [
+    {
+      "slug": "gunnlaugs-saga-on",
+      "name_zh": "貢勞格薩迦（古諾斯語原文）",
       "religion": "北歐"
     }
   ],
@@ -20542,6 +21007,11 @@
     }
   ],
   "āśrama": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
+    },
     {
       "slug": "yajnavalkya-smrti",
       "name_zh": "祭皮衣仙法論",
@@ -20915,6 +21385,13 @@
       "slug": "bud-suhrllekha-sa",
       "name_zh": "勸誡王頌（梵文）",
       "religion": "佛教"
+    }
+  ],
+  "śūdra": [
+    {
+      "slug": "vaikhanasa-dharmasutra",
+      "name_zh": "韋卡納薩法經",
+      "religion": "印度教"
     }
   ],
   "śūnya": [

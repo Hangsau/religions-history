@@ -19,5 +19,53 @@
   "tier": "次要",
   "notes": "《蛇舌貢勞格薩迦》古諾斯語原文，詩人貢勞格與情敵的三角戀與決鬥。",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "accept-fate",
+    "chaos-to-order",
+    "divine-kingship",
+    "feminine-divine",
+    "lineage-importance",
+    "marriage-sacred",
+    "oral-tradition",
+    "patriarchal",
+    "ritual-practice",
+    "sacred-language",
+    "theodicy",
+    "tribal-traditional",
+    "truthfulness",
+    "vernacular-translation",
+    "vision-experience"
+  ],
+  "keywords": [
+    "Þorsteinn Egilsson",
+    "Borgarfjörðr",
+    "Valfell",
+    "Bergfinnr",
+    "Grenjum",
+    "álft",
+    "örn",
+    "draumr",
+    "kveldúlfr",
+    "Skalla-Grímr",
+    "Egill",
+    "Jófríðr",
+    "landseti",
+    "Austmaðr",
+    "fylgja"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "calling-vocation",
+    "death",
+    "honesty-hypocrisy",
+    "loss-grief",
+    "marriage-family"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "91114cc58e3e904a55a668fe73b49736cf1c274e002cfb00987224ced214b007"
+  },
+  "tagging_models": "MiniMax-M3"
 }

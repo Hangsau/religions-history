@@ -19,5 +19,60 @@
   "tier": "次要",
   "notes": "託名迦毗羅（Kapila）之數論經，晚出但為數論派系統經典",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "asceticism",
+    "commentarial-layer",
+    "cosmic-egg",
+    "creation-ex-nihilo",
+    "cyclic-cosmos",
+    "dualistic-cosmos",
+    "emanation",
+    "enlightenment",
+    "extinction-of-self",
+    "karma-rebirth",
+    "liberation-by-knowledge",
+    "lineage-importance",
+    "meditation",
+    "multiple-souls",
+    "non-dual",
+    "reincarnation",
+    "revealed-text",
+    "ritual-practice",
+    "self-effort",
+    "suffering-as-purifying",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "Sāṅkhya",
+    "Kapila",
+    "puruṣa",
+    "prakṛti",
+    "duḥkha",
+    "mokṣa",
+    "avidyā",
+    "bandha",
+    "viveka",
+    "triṣṭubh",
+    "aviveka",
+    "kṣaṇikatva",
+    "mahān",
+    "ahaṅkāra",
+    "tanmātra"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "change-transformation",
+    "existence-why-born",
+    "insignificance-history",
+    "meaning-of-suffering",
+    "who-am-i"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "85e324f388bc7596e0c354c258ac95829f405a83097802179a5dbb0d06b06a15"
+  },
+  "tagging_models": "MiniMax-M3"
 }

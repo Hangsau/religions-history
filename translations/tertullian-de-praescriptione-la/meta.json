@@ -21,5 +21,61 @@
   "tier": "次要",
   "notes": "特土良以法律程序論證異端無權引用聖經，早期護教與正統界定文本",
   "text_role": "original",
-  "is_original_language": true
+  "is_original_language": true,
+  "semantic_tags": [
+    "against-idolatry",
+    "commandments-law",
+    "commentarial-layer",
+    "congregational",
+    "creation-ex-nihilo",
+    "creator-deity",
+    "essentially-good",
+    "messianism",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "non-dual",
+    "oral-tradition",
+    "priesthood",
+    "prophetic-revelation",
+    "ritual-practice",
+    "salvation-by-faith",
+    "sin-as-disobedience",
+    "spirit-possession",
+    "synagogue-mosque-style",
+    "syncretic",
+    "theodicy",
+    "truthfulness",
+    "ultimate-reality"
+  ],
+  "keywords": [
+    "haereses",
+    "praescriptione",
+    "fides",
+    "Tertullianus",
+    "Saul",
+    "Dauid",
+    "Solomon",
+    "idololatria",
+    "martyr",
+    "episcopus",
+    "diaconus",
+    "lapsus",
+    "regula",
+    "veritas",
+    "ecclesia"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "faith-doubt",
+    "fear-uncertainty",
+    "honesty-hypocrisy",
+    "ingroup-outgroup-prejudice",
+    "trust-vulnerability"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "576cff6fa064f5e941c686654aa4e6185f6f879e1718c406595458d98e794635"
+  },
+  "tagging_models": "MiniMax-M3"
 }
