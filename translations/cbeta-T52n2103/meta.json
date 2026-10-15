@@ -115,20 +115,16 @@
   ],
   "tag_status": "done",
   "psych_tags": [
-    "addiction-self-destruction",
-    "aging-time",
-    "beauty-wonder-transcendent-moment",
-    "body-mind",
-    "boundaries-self-worth"
+    "calling-vocation",
+    "death",
+    "faith-doubt",
+    "meaning-of-suffering",
+    "who-am-i"
   ],
   "psych_tag_status": "done",
   "tag_source": {
     "source_file": "raw/original.txt",
     "source_sha256": "8c4e3931c1f8a65ac02d888e77a846994ae10557f3c304d1f6c9f8e5fe48e967"
   },
-  "tagging_models": "MiniMax-M3",
-  "psych_retag": {
-    "reason": "alphabetical-truncation-2026-10-12",
-    "marked_at": "2026-10-12T21:52:07.075124+08:00"
-  }
+  "tagging_models": "MiniMax-M3"
 }
