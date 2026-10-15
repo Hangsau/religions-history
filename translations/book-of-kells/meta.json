@@ -20,5 +20,62 @@
   "tier": "次要",
   "is_original_language": false,
   "notes": null,
-  "text_role": "translation"
+  "text_role": "translation",
+  "semantic_tags": [
+    "against-idolatry",
+    "ancestor-worship",
+    "apocalypse",
+    "awe-fear",
+    "commentarial-layer",
+    "created-in-image",
+    "divine-immanence",
+    "lineage-importance",
+    "monastic",
+    "monotheist-exclusive",
+    "multiple-canons",
+    "oral-tradition",
+    "pilgrimage",
+    "prayer",
+    "priesthood",
+    "prophetic-revelation",
+    "revealed-text",
+    "ritual-practice",
+    "sacred-language",
+    "study",
+    "syncretic",
+    "theophany",
+    "vernacular-translation",
+    "vision-experience"
+  ],
+  "keywords": [
+    "Book of Kells",
+    "Edward Sullivan",
+    "Trinity College Dublin",
+    "manuscript",
+    "Illumination",
+    "Celtic",
+    "1920",
+    "Prefatory Note",
+    "Alfred de Burgh",
+    "D'Olier",
+    "public domain",
+    "illuminated manuscript",
+    "paleography",
+    "punctuation marks",
+    "second edition"
+  ],
+  "tag_status": "done",
+  "psych_tags": [
+    "beauty-wonder-transcendent-moment",
+    "calling-vocation",
+    "fear-uncertainty",
+    "memory-reconciliation",
+    "wisdom-learning-curiosity"
+  ],
+  "psych_tag_status": "done",
+  "tag_source": {
+    "source_file": "raw/original.txt",
+    "source_sha256": "443af7599321230c9579271b2dd4e8b32cac45834578e2951d5d80cfb805d639"
+  },
+  "tagging_models": "MiniMax-M3"
 }

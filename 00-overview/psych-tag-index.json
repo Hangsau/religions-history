@@ -550,6 +550,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "cbeta-T03n0165",
       "name_zh": "頂生王因緣經",
       "religion": "佛教"
@@ -611,6 +616,11 @@
     }
   ],
   "body-mind": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
     {
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
@@ -1981,6 +1991,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -2034,6 +2049,11 @@
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristotle-nicomachean-ethics-el",
@@ -2289,6 +2309,11 @@
       "slug": "book-of-changes",
       "name_zh": "周易",
       "religion": "儒教"
+    },
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     },
     {
       "slug": "book-of-poetry",
@@ -8386,6 +8411,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    },
+    {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
@@ -9286,6 +9316,11 @@
       "slug": "an9-nines",
       "name_zh": "AN9 九法集",
       "religion": "佛教"
+    },
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "ashtavakra-gita",
@@ -16361,6 +16396,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "code-of-handsome-lake",
       "name_zh": "英俊湖法典 (塞內卡先知啟示)",
       "religion": "美洲"
@@ -21538,6 +21578,11 @@
       "religion": "古希臘羅馬"
     },
     {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
       "religion": "古希臘羅馬"
@@ -21806,6 +21851,11 @@
       "slug": "book-of-gates",
       "name_zh": "門之書",
       "religion": "古埃及"
+    },
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     },
     {
       "slug": "book-of-mormon-1830",
@@ -27568,6 +27618,11 @@
       "religion": "佛教"
     },
     {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    },
+    {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
       "religion": "神道"
@@ -30866,6 +30921,11 @@
       "religion": "神道"
     },
     {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    },
+    {
       "slug": "linga-purana",
       "name_zh": "林伽往世書",
       "religion": "印度教"
@@ -33449,6 +33509,11 @@
     }
   ],
   "honesty-hypocrisy": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "bandamanna-saga-on",
       "name_zh": "同盟者薩迦（古諾斯語原文）",
@@ -36666,6 +36731,11 @@
       "religion": "美洲"
     },
     {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    },
+    {
       "slug": "mimamsa-sutra-jaimini",
       "name_zh": "彌曼差經（闍彌尼）",
       "religion": "印度教"
@@ -38808,6 +38878,11 @@
       "slug": "chun-qiu-zuo-zhuan",
       "name_zh": "春秋左傳",
       "religion": "儒教"
+    },
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "code-of-hammurabi-st",
@@ -48137,6 +48212,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "cicero-de-natura-deorum-la",
       "name_zh": "論神性（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -49469,6 +49549,11 @@
       "religion": "基督教"
     },
     {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "carmina-gadelica-2",
       "name_zh": "Carmina Gadelica Vol 2",
       "religion": "凱爾特"
@@ -50748,6 +50833,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "code-of-hammurabi-st",
       "name_zh": "漢摩拉比法典",
       "religion": "兩河"
@@ -50846,6 +50936,11 @@
       "slug": "joshua",
       "name_zh": "約書亞記",
       "religion": "猶太教"
+    },
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
     },
     {
       "slug": "kongzi-jiayu",
@@ -51092,6 +51187,11 @@
     {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     },
     {
@@ -55274,6 +55374,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
       "slug": "agni-purana",
       "name_zh": "火神往世書",
       "religion": "印度教"
@@ -55337,6 +55442,11 @@
       "slug": "ardhanarishvara-stotra",
       "name_zh": "半女自在天讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
     },
     {
       "slug": "aristophanes-frogs-el",
@@ -59599,6 +59709,11 @@
       "religion": "儒教"
     },
     {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
+    {
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
@@ -60456,6 +60571,11 @@
       "religion": "印度教"
     },
     {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
       "slug": "aitareya-upanishad",
       "name_zh": "愛多列雅奧義書（含注）",
       "religion": "印度教"
@@ -60524,6 +60644,11 @@
       "slug": "bible-proverbs",
       "name_zh": "箴言",
       "religion": "基督教"
+    },
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     },
     {
       "slug": "brahma-sutra",

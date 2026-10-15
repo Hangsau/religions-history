@@ -41,6 +41,13 @@
       "religion": "美洲"
     }
   ],
+  "1920": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "1921": [
     {
       "slug": "babylonian-legends-creation",
@@ -163,6 +170,11 @@
     {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     }
   ],
@@ -594,6 +606,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Alfred de Burgh": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "Alföðr": [
     {
       "slug": "snorra-edda-is",
@@ -1010,6 +1029,13 @@
       "religion": "印加"
     }
   ],
+  "Aquilo": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Arabic original": [
     {
       "slug": "guide-for-the-perplexed-st",
@@ -1377,6 +1403,13 @@
     {
       "slug": "iliad-butler",
       "name_zh": "伊利亞德（Butler 譯）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Atticus": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -2106,6 +2139,13 @@
       "religion": "古埃及"
     }
   ],
+  "Book of Kells": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "Book of Mormon": [
     {
       "slug": "book-of-mormon-1830",
@@ -2648,6 +2688,13 @@
       "religion": "兩河"
     }
   ],
+  "Celtic": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "Cephalus": [
     {
       "slug": "plato-republic-el",
@@ -3144,6 +3191,13 @@
     {
       "slug": "tain-bo-cuailnge-ga",
       "name_zh": "奪牛長征記（古愛爾蘭語原文，兩傳本）",
+      "religion": "凱爾特"
+    }
+  ],
+  "D'Olier": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
       "religion": "凱爾特"
     }
   ],
@@ -3713,6 +3767,13 @@
       "religion": "古埃及"
     }
   ],
+  "Edward Sullivan": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "Edwin Marion Cox": [
     {
       "slug": "sappho-poetry",
@@ -3725,6 +3786,13 @@
       "slug": "mabinogion-cy-1",
       "name_zh": "馬比諾吉昂 第一卷（威爾斯原文）",
       "religion": "凱爾特"
+    }
+  ],
+  "Egeria": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Egill": [
@@ -3886,6 +3954,13 @@
       "slug": "cuchulain-muirthemne",
       "name_zh": "Cuchulain of Muirthemne (Ulster Cycle)",
       "religion": "凱爾特"
+    }
+  ],
+  "Emperor Meiji": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
     }
   ],
   "Engaddi": [
@@ -4546,6 +4621,13 @@
       "religion": "北歐"
     }
   ],
+  "Genchi Katō": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "George Smith": [
     {
       "slug": "babylonian-legends-creation",
@@ -4591,6 +4673,13 @@
       "slug": "plato-republic-el",
       "name_zh": "理想國（希臘原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Gleanings from Ancient Stories": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
     }
   ],
   "Glúmr": [
@@ -5340,6 +5429,13 @@
       "religion": "基督教"
     }
   ],
+  "Hikoshirō Hoshino": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "Himavat": [
     {
       "slug": "devi-gita",
@@ -5664,6 +5760,13 @@
       "religion": "瑣羅亞斯德"
     }
   ],
+  "Hōsei College": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "Iamblichus": [
     {
       "slug": "thrice-greatest-hermes-1",
@@ -5811,6 +5914,13 @@
       "slug": "homer-greek",
       "name_zh": "伊利亞德 + 奧德賽 (希臘原文)",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Illumination": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     }
   ],
   "Immanuel": [
@@ -6949,7 +7059,26 @@
       "religion": "猶太教"
     }
   ],
+  "Kogoshui": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
+  "Kogoshūi": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "Kojiki": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    },
     {
       "slug": "kojiki-chamberlain",
       "name_zh": "古事記",
@@ -8014,6 +8143,13 @@
       "religion": "諾斯底"
     }
   ],
+  "Marcus": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Marcus Garvey": [
     {
       "slug": "rastafarian-bible",
@@ -8031,6 +8167,13 @@
       "slug": "enuma-elish-stc",
       "name_zh": "創世七碑（埃努瑪·埃利什）",
       "religion": "兩河"
+    }
+  ],
+  "Marius": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Mars": [
@@ -8657,6 +8800,13 @@
       "religion": "印度教"
     }
   ],
+  "Mālinīvijaya": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    }
+  ],
   "Mālinīvijayottara": [
     {
       "slug": "abhinavagupta-tantraloka",
@@ -9023,6 +9173,13 @@
       "religion": "北歐"
     }
   ],
+  "Nihongi": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "Nile": [
     {
       "slug": "apuleius-metamorphoses-la",
@@ -9194,6 +9351,11 @@
     }
   ],
   "Numa": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
@@ -9587,6 +9749,13 @@
       "slug": "yoruba-religion",
       "name_zh": "約魯巴宗教與神話",
       "religion": "非洲"
+    }
+  ],
+  "Orithyia": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Orkney": [
@@ -10389,6 +10558,13 @@
       "religion": "巴哈伊"
     }
   ],
+  "Prefatory Note": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "Priest": [
     {
       "slug": "josephus-works",
@@ -10422,6 +10598,13 @@
       "slug": "chandi-di-var-pa",
       "name_zh": "旃荼女神頌（旁遮普原文，古木基文字）",
       "religion": "錫克教"
+    }
+  ],
+  "Proculus Iulius": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Prometheus": [
@@ -10651,7 +10834,19 @@
       "religion": "印加"
     }
   ],
+  "Quintus": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Quirinus": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
@@ -10973,6 +11168,11 @@
     }
   ],
   "Romulus": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "ovid-fasti-la",
       "name_zh": "歲時記（拉丁原文）",
@@ -11660,6 +11860,20 @@
       "slug": "samuel-1",
       "name_zh": "撒母耳記上",
       "religion": "猶太教"
+    }
+  ],
+  "Shinto": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
+  "Shintō": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
     }
   ],
   "Shipapu": [
@@ -12472,6 +12686,13 @@
       "religion": "印度教"
     }
   ],
+  "Tantrasāra": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    }
+  ],
   "Tantrāloka": [
     {
       "slug": "abhinavagupta-tantraloka",
@@ -12496,6 +12717,13 @@
       "slug": "cbeta-T20n1107",
       "name_zh": "聖多羅菩薩梵讚",
       "religion": "佛教"
+    }
+  ],
+  "Tarquinius": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "Tarshis": [
@@ -12696,6 +12924,13 @@
       "religion": "北歐"
     }
   ],
+  "Third and Enlarged Edition": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "Thoth": [
     {
       "slug": "burden-of-isis",
@@ -12859,6 +13094,13 @@
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
       "religion": "印度教"
+    }
+  ],
+  "Trinity College Dublin": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     }
   ],
   "Tripurasundarī": [
@@ -13074,6 +13316,13 @@
       "slug": "ovid-metamorphoses-la",
       "name_zh": "變形記（拉丁原文）",
       "religion": "古希臘羅馬"
+    }
+  ],
+  "Tōkyō Imperial University": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
     }
   ],
   "Ugra-daṇḍa": [
@@ -14286,6 +14535,13 @@
       "religion": "印度教"
     }
   ],
+  "Zaidan Hōjin Meiji Seitoku Kinen Gakkai": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
+    }
+  ],
   "Zand": [
     {
       "slug": "bundahishn",
@@ -14691,6 +14947,11 @@
     {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     },
     {
@@ -16885,6 +17146,13 @@
       "religion": "印度教"
     }
   ],
+  "dīkṣā": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    }
+  ],
   "dūṣaṇa": [
     {
       "slug": "jain-nyayapravesa-vrtti-sa",
@@ -17738,6 +18006,13 @@
       "religion": "佛教"
     }
   ],
+  "historia": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "hiṃsā": [
     {
       "slug": "jain-sastravarttasamuccaya-sa",
@@ -17844,6 +18119,13 @@
       "slug": "vulgate-1-maccabees",
       "name_zh": "瑪加伯上（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "illuminated manuscript": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     }
   ],
   "impius": [
@@ -18028,6 +18310,11 @@
     {
       "slug": "abhinavagupta-tantraloka",
       "name_zh": "坦特羅光輝",
+      "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     },
     {
@@ -18846,6 +19133,11 @@
   ],
   "mala": [
     {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
       "slug": "seneca-de-providentia-la",
       "name_zh": "論天意（拉丁原文）",
       "religion": "古希臘羅馬"
@@ -18940,6 +19232,13 @@
       "slug": "utpaladeva-shivastotravali",
       "name_zh": "濕婆讚頌鬘",
       "religion": "印度教"
+    }
+  ],
+  "manuscript": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     }
   ],
   "manvantara": [
@@ -19106,6 +19405,11 @@
     }
   ],
   "mokṣa": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
     {
       "slug": "brahma-purana",
       "name_zh": "梵天往世書",
@@ -19771,6 +20075,13 @@
       "religion": "佛教"
     }
   ],
+  "paleography": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    }
+  ],
   "palingenesia": [
     {
       "slug": "sblgnt-titus",
@@ -19810,6 +20121,13 @@
     {
       "slug": "brahma-samhita",
       "name_zh": "梵讚集",
+      "religion": "印度教"
+    }
+  ],
+  "parameśvara": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     }
   ],
@@ -20177,6 +20495,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "poema": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "pontifex": [
     {
       "slug": "vulgate-hebrews",
@@ -20264,6 +20589,11 @@
     {
       "slug": "abhinavagupta-kramastotra",
       "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     }
   ],
@@ -20583,6 +20913,11 @@
       "religion": "兩河"
     },
     {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
+    },
+    {
       "slug": "cherokee-sacred-formulas",
       "name_zh": "切羅基神聖咒文 (Mooney)",
       "religion": "美洲"
@@ -20610,6 +20945,13 @@
       "slug": "navajo-myths",
       "name_zh": "納瓦霍神話",
       "religion": "美洲"
+    }
+  ],
+  "punctuation marks": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     }
   ],
   "puruṣa": [
@@ -20895,6 +21237,13 @@
       "slug": "vulgate-ezekiel",
       "name_zh": "以西結書（武加大）",
       "religion": "基督教"
+    }
+  ],
+  "quercus": [
+    {
+      "slug": "cicero-de-legibus-la",
+      "name_zh": "論法律（拉丁原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "quorum": [
@@ -21613,6 +21962,11 @@
       "slug": "abhinavagupta-kramastotra",
       "name_zh": "阿毗那婆笈多次第讚",
       "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
     }
   ],
   "saṅgha": [
@@ -21646,6 +22000,13 @@
       "slug": "sefaria-rashba-on-megillah",
       "name_zh": "Rashba on Megillah",
       "religion": "猶太教"
+    }
+  ],
+  "second edition": [
+    {
+      "slug": "book-of-kells",
+      "name_zh": "凱爾斯之書",
+      "religion": "凱爾特"
     }
   ],
   "seed-syllable": [
@@ -24015,6 +24376,11 @@
   ],
   "Śakti": [
     {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
       "slug": "saundarya-lahari",
       "name_zh": "美之波濤",
       "religion": "印度教"
@@ -24022,6 +24388,13 @@
     {
       "slug": "shiva-puja-stava",
       "name_zh": "濕婆供養讚",
+      "religion": "印度教"
+    }
+  ],
+  "Śambhunātha": [
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     }
   ],
@@ -24099,6 +24472,11 @@
     {
       "slug": "abhinavagupta-kramastotra",
       "name_zh": "阿毗那婆笈多次第讚",
+      "religion": "印度教"
+    },
+    {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
       "religion": "印度教"
     },
     {
@@ -24359,6 +24737,11 @@
   ],
   "śāstra": [
     {
+      "slug": "abhinavagupta-tantrasara",
+      "name_zh": "坦特羅精要",
+      "religion": "印度教"
+    },
+    {
       "slug": "bud-ratnagotravibhaga-sa",
       "name_zh": "寶性論（梵文）",
       "religion": "佛教"
@@ -24556,6 +24939,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ζεῦ βασιλεῦ": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Θετταλία": [
     {
       "slug": "plato-crito-el",
@@ -24647,6 +25037,13 @@
       "religion": "基督教"
     }
   ],
+  "Μεγακλέης": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Μενοικεύς": [
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -24693,6 +25090,13 @@
     {
       "slug": "pindar-pythian-el",
       "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Πασίας": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -24792,6 +25196,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Στρεψιάδης": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Στωικός": [
     {
       "slug": "epictetus-enchiridion-el",
@@ -24821,6 +25232,11 @@
     }
   ],
   "Σωκράτης": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    },
     {
       "slug": "plato-crito-el",
       "name_zh": "克里同篇（希臘原文）",
@@ -24862,6 +25278,13 @@
     {
       "slug": "pindar-pythian-el",
       "name_zh": "皮托競技凱歌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "Φειδιππίδης": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -24991,6 +25414,13 @@
     {
       "slug": "xenophon-memorabilia-el",
       "name_zh": "回憶蘇格拉底（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "δανειστής": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25213,6 +25643,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "μναῖ": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "μύσται": [
     {
       "slug": "aristophanes-frogs-el",
@@ -25237,6 +25674,13 @@
       "slug": "corpus-hermeticum-el",
       "name_zh": "赫爾墨斯文集（希臘原文，八篇）",
       "religion": "赫爾墨斯"
+    }
+  ],
+  "νυκτῶν": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
     }
   ],
   "νόμος": [
@@ -25337,10 +25781,24 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "προμνήστρι᾿": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "πρόνοια": [
     {
       "slug": "marcus-aurelius-meditations-el",
       "name_zh": "沉思錄（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "πόλεμος": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -25461,6 +25919,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "τόκος": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "τύχη": [
     {
       "slug": "epicurus-letter-menoeceus-el",
@@ -25510,6 +25975,13 @@
     {
       "slug": "aristophanes-frogs-el",
       "name_zh": "蛙（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "χρέος": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -27035,6 +27507,13 @@
       "religion": "古希臘羅馬"
     }
   ],
+  "Ἀμεινίας": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
   "Ἀνδρομέδα": [
     {
       "slug": "aristophanes-frogs-el",
@@ -27184,6 +27663,13 @@
     {
       "slug": "homeric-hymns-el",
       "name_zh": "荷馬諸頌（希臘原文）",
+      "religion": "古希臘羅馬"
+    }
+  ],
+  "ἵππος": [
+    {
+      "slug": "aristophanes-clouds-el",
+      "name_zh": "雲（希臘原文）",
       "religion": "古希臘羅馬"
     }
   ],
@@ -72614,6 +73100,13 @@
       "slug": "quran",
       "name_zh": "古蘭經",
       "religion": "伊斯蘭"
+    }
+  ],
+  "古語拾遺": [
+    {
+      "slug": "kogoshui",
+      "name_zh": "古語拾遺",
+      "religion": "神道"
     }
   ],
   "古諾斯語": [
