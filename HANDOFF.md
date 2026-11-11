@@ -3,6 +3,18 @@
 > 狀態快照。每次工作結束更新。
 > 規範見 `CLAUDE.md` + `PLAN.md` + `STRATEGY.md`。
 
+## 2026-11-11：管線人工暫停（MiniMax 已停訂）＋刊版效能修正
+
+- **管線已人工暫停**：使用者 2026-11-11 指示「minimax 暫停了，就先暫停吧」。已寫入 `logs/pipeline-HALT.flag`；
+  刪除該檔才會恢復。暫停前狀態：10-16 起卡在 `waiting_quota`（`kaushitaki-brahmana` tag 72/141），
+  watcher 已空轉重試 1121 次。MiniMax 訂閱 2026-11-11 已結束，恢復前要先決定改用哪個模型。
+- 標籤佇列停在 1648 / 3186；未標 1530 部（約 124 MB），其中 1482 部是 Sefaria 希伯來文、48 部次要；另有 8 部 blocked 待審。
+- 刊版每 30 秒重讀全庫（717 MB）拖慢整台電腦，已改成檔案快取＋背景執行緒（commit 52968c4a3），細節見 MAP.md。
+  桌面看板尚未實機驗證新版刷新。
+- 待使用者決定：是否放棄剩餘 Sefaria 標籤、改把力氣放在網站區塊（P7，my-site 尚未動工）與譯文瑕疵修復。
+
+---
+
 ## 2026-10-12 晚：重標字母序截斷＋新發現的譯文瑕疵
 
 - **重標 1496 部**（`scripts/prepare-psych-retag.py --apply`）：多段、剛好 5 個 psych_tags、無 tag-passages 的書
