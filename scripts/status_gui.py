@@ -11,9 +11,11 @@
 
 import json
 import os
+import queue
 import re
 import subprocess
 import sys
+import threading
 import time
 import tkinter as tk
 from collections import Counter
@@ -26,7 +28,7 @@ import tagging_queue
 
 REFRESH_MS = 30_000
 RUNTIME_STALE_SECS = 20 * 60
-FAILED_CHUNK_RE = re.compile(r"CHUNK \d+/\d+ FAILED")
+FAILED_CHUNK_RE = status.FAILED_CHUNK_RE
 SCRIPTS = Path(__file__).resolve().parent
 PIDFILE = status.LOGS / "supervisor.pid"
 HALT = status.LOGS / "pipeline-HALT.flag"  # 存在即人工暫停：刊版不復活 supervisor
@@ -195,12 +197,12 @@ def load_runtime(now: float | None = None) -> dict:
 
 def publication_blockers(root: Path | None = None) -> list[str]:
     """Return translation slugs whose publishable file still has a failed chunk."""
-    translations = root or status.TRANSLATIONS_DIR
+    translations = Path(root or status.TRANSLATIONS_DIR)
     blocked = []
-    for path in translations.glob("*/01-translation.md"):
+    for name in status.list_subdirs(translations):
         try:
-            if FAILED_CHUNK_RE.search(path.read_text(encoding="utf-8", errors="replace")):
-                blocked.append(path.parent.name)
+            if status.translation_file_facts(translations / name / "01-translation.md")[1]:
+                blocked.append(name)
         except OSError:
             continue
     return sorted(blocked)
@@ -218,6 +220,21 @@ def completion_counts(metas: list[dict]) -> dict:
             and status.semantic_complete(m)
             and status.psych_complete(m)),
     }
+
+
+def _load_metric_events(path) -> list[tuple[float, str, str]]:
+    """解析 metrics 檔最後 5 萬行成 (時間戳, 事件, 結果)；檔案沒變由 status._cached 擋掉重解析。
+    （append-only；限制解析行數，刊版刷新時間不隨專案長大。）"""
+    events = []
+    for line in status.read_tail_lines(path, max_lines=50000):
+        try:
+            event = json.loads(line)
+            stamp = datetime.fromisoformat(event["timestamp"]).timestamp()
+        except (json.JSONDecodeError, KeyError, TypeError, ValueError):
+            continue
+        events.append((stamp, event.get("event", "attempt"),
+                       str(event.get("outcome") or "unknown")))
+    return events
 
 
 def operations_summary(now: float | None = None) -> dict:
@@ -254,23 +271,17 @@ def operations_summary(now: float | None = None) -> dict:
                for hours in (1, 6, 24)}
     metrics = status.LOGS / "pipeline-metrics.jsonl"
     try:
-        # The file is append-only and currently small; cap parsed lines so board
-        # refresh time stays bounded as the project grows.
-        lines = metrics.read_text(encoding="utf-8", errors="replace").splitlines()[-50000:]
+        events = status._cached(metrics, "metrics_events", _load_metric_events)
     except OSError:
-        lines = []
-    for line in lines:
-        try:
-            event = json.loads(line)
-            age_h = (current - datetime.fromisoformat(event["timestamp"]).timestamp()) / 3600
-        except (json.JSONDecodeError, KeyError, TypeError, ValueError):
-            continue
+        events = []
+    for stamp, kind, outcome in events:
+        age_h = (current - stamp) / 3600
         for hours, summary in windows.items():
             if 0 <= age_h <= hours:
-                if event.get("event", "attempt") == "attempt":
+                if kind == "attempt":
                     summary["attempts"] += 1
-                    summary["outcomes"][str(event.get("outcome") or "unknown")] += 1
-                elif event.get("event") == "book_completed":
+                    summary["outcomes"][outcome] += 1
+                elif kind == "book_completed":
                     summary["completed"] += 1
     return {
         "due": due, "deferred": deferred, "blocked": blocked,
@@ -429,7 +440,7 @@ def translation_activity(now: float, runtime: dict | None = None) -> dict:
     lines = []
     if run_log.exists():
         try:
-            lines = [l for l in run_log.read_text(encoding="utf-8", errors="replace").splitlines()
+            lines = [l for l in status.read_tail_lines(run_log, marker="supervisor run @")
                      if l.strip()]
             d["last_ago"] = fmt_ago(now - run_log.stat().st_mtime)
         except OSError:
@@ -583,6 +594,8 @@ class Board:
 
         self.rows = {}   # key -> (canvas, count_label)
         self._refresh_job = None
+        self._collecting = False
+        self._results = queue.Queue()
         self._build_static()
         self.refresh()
 
@@ -783,58 +796,100 @@ class Board:
                 pass
         self._refresh_job = self.root.after(REFRESH_MS, self.refresh)
 
-    def refresh(self):
+    def _cancel_job(self):
         if self._refresh_job is not None:
             try:
                 self.root.after_cancel(self._refresh_job)
             except (tk.TclError, ValueError):
                 pass
             self._refresh_job = None
+
+    def refresh(self):
+        """主執行緒只排程；I/O 全在背景執行緒，結果經 queue 回主執行緒套用。"""
+        try:
+            self._cancel_job()
+            if self._collecting:
+                # 收集中再按「立即重新整理」：只把取件排回去。排 30 秒刷新會把取件取消掉，結果永遠沒人收。
+                self._refresh_job = self.root.after(200, self._poll)
+                return
+            self._collecting = True
+            if not getattr(self, "_first_drawn", False):
+                self.stamp.config(text="讀取中…")
+            threading.Thread(target=self._worker, daemon=True).start()
+            self._refresh_job = self.root.after(200, self._poll)
+        except tk.TclError:
+            return
+
+    def _worker(self):
+        """背景執行緒：不可碰任何 Tk 物件。"""
         try:
             ensure_supervisor()  # 每次刷新順手確保管線活著（刊版兼監督）
-            d = collect()
-            ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
-            self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
-            self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
-            self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
-            self._draw_activity(d["act"])
-            ops = d["ops"]
-            window_text = "　".join(
-                f"{h}h：完成 {ops['windows'][h]['completed']}／請求 {ops['windows'][h]['attempts']}"
-                for h in (1, 6, 24))
-            reason_text = "、".join(f"{code} {count}" for code, count in ops["reasons"]) or "無"
-            self.ops_label.config(
-                text=f"佇列：到期 {ops['due']} · 延後 {ops['deferred']} · blocked {ops['blocked']}\n"
-                     f"{window_text}\n失敗原因：{reason_text} · 嘗試分布 {ops['attempts']}",
-                fg=BAD if ops["blocked"] else FG)
+            self._results.put(("ok", collect()))
+        except Exception as exc:  # noqa: BLE001
+            self._results.put(("error", exc))
 
-            for label, key, c, tot, pct in d["coverage"]:
-                self._draw_bar("cov:" + key, c, tot, pct)
-            for t, done, tot, pct in d["tiers"]:
-                self._draw_bar("tier:" + t, done, tot, pct)
-
-            self.dl_label.config(
-                text=f"最新收錄：{d['dl_newest']}（{d['dl_newest_ago']}）"
-                     f"　·　近 30 分 +{d['dl_landed_30m']} 部")
-            self.dl_log.config(
-                text=f"下載日誌 {d['dl_log_name']}（{d['dl_log_ago']}）：{d['dl_log_tail']}")
-
-            blockers = d["publish_blockers"]
-            blocker_text = (f"發布阻塞：{len(blockers)} 份翻譯仍含 FAILED chunk"
-                            + (f"（{', '.join(blockers[:5])}{'…' if len(blockers) > 5 else ''}）"
-                               if blockers else "；完整翻譯門檻通過"))
-            self.tr_label.config(
-                text=f"已翻譯 {d['tr_done']} / {d['n']}　·　semantic tags {d['semantic_done']} / {d['n']}\n"
-                     f"psych tags {d['psych_done']} / {d['n']}　·　三軸全完成 {d['fully_done']} / {d['n']}\n"
-                     f"{blocker_text}",
-                fg=BAD if blockers else DONE)
-            self.cls_label.config(
-                text=f"日誌已分類 {d['classify_ok']} 部\n最新：{d['classify_last']}")
-        except Exception as exc:
-            self.pipe.config(text=f"⚠ 刊版刷新失敗：{type(exc).__name__}: {exc}", fg=BAD)
-            self.stamp.config(text="本次資料未更新；30 秒後自動重試")
-        finally:
+    def _poll(self):
+        self._refresh_job = None
+        try:
+            try:
+                kind, payload = self._results.get_nowait()
+            except queue.Empty:
+                self._refresh_job = self.root.after(200, self._poll)
+                return
+            self._collecting = False
+            try:
+                if kind == "ok":
+                    self._apply(payload)
+                    self._first_drawn = True
+                else:
+                    raise payload
+            except tk.TclError:
+                raise
+            except Exception as exc:
+                self.pipe.config(text=f"⚠ 刊版刷新失敗：{type(exc).__name__}: {exc}", fg=BAD)
+                self.stamp.config(text="本次資料未更新；30 秒後自動重試")
             self._schedule_refresh()
+        except tk.TclError:
+            return  # 視窗已銷毀，安靜結束
+
+    def _apply(self, d):
+        ts = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
+        self.big.config(text=f"{d['n']} 部 · {d['religions']} 宗教 · {d['mb']:.0f} MB")
+        self.stamp.config(text=f"更新於 {ts} +0800　（每 30 秒自動刷新）")
+        self.pipe.config(text=d["pipe"]["text"], fg=d["pipe"]["color"])
+        self._draw_activity(d["act"])
+        ops = d["ops"]
+        window_text = "　".join(
+            f"{h}h：完成 {ops['windows'][h]['completed']}／請求 {ops['windows'][h]['attempts']}"
+            for h in (1, 6, 24))
+        reason_text = "、".join(f"{code} {count}" for code, count in ops["reasons"]) or "無"
+        self.ops_label.config(
+            text=f"佇列：到期 {ops['due']} · 延後 {ops['deferred']} · blocked {ops['blocked']}\n"
+                 f"{window_text}\n失敗原因：{reason_text} · 嘗試分布 {ops['attempts']}",
+            fg=BAD if ops["blocked"] else FG)
+
+        for label, key, c, tot, pct in d["coverage"]:
+            self._draw_bar("cov:" + key, c, tot, pct)
+        for t, done, tot, pct in d["tiers"]:
+            self._draw_bar("tier:" + t, done, tot, pct)
+
+        self.dl_label.config(
+            text=f"最新收錄：{d['dl_newest']}（{d['dl_newest_ago']}）"
+                 f"　·　近 30 分 +{d['dl_landed_30m']} 部")
+        self.dl_log.config(
+            text=f"下載日誌 {d['dl_log_name']}（{d['dl_log_ago']}）：{d['dl_log_tail']}")
+
+        blockers = d["publish_blockers"]
+        blocker_text = (f"發布阻塞：{len(blockers)} 份翻譯仍含 FAILED chunk"
+                        + (f"（{', '.join(blockers[:5])}{'…' if len(blockers) > 5 else ''}）"
+                           if blockers else "；完整翻譯門檻通過"))
+        self.tr_label.config(
+            text=f"已翻譯 {d['tr_done']} / {d['n']}　·　semantic tags {d['semantic_done']} / {d['n']}\n"
+                 f"psych tags {d['psych_done']} / {d['n']}　·　三軸全完成 {d['fully_done']} / {d['n']}\n"
+                 f"{blocker_text}",
+            fg=BAD if blockers else DONE)
+        self.cls_label.config(
+            text=f"日誌已分類 {d['classify_ok']} 部\n最新：{d['classify_last']}")
 
 
 def main():

@@ -238,3 +238,88 @@ class IdleSupervisorTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FileCacheTests(unittest.TestCase):
+    def _count_reads(self):
+        real = status_gui.status._read_translation_facts
+        calls = []
+
+        def counting(path):
+            calls.append(str(path))
+            return real(path)
+        return calls, mock.patch.object(status_gui.status, "_read_translation_facts", counting)
+
+    def test_same_translation_file_is_read_once(self):
+        st = status_gui.status
+        with tempfile.TemporaryDirectory() as td:
+            f = Path(td) / "01-translation.md"
+            f.write_text("完整譯文" * 50, encoding="utf-8")
+            calls, patch = self._count_reads()
+            with patch:
+                self.assertTrue(st.translation_file_complete(f))
+                self.assertTrue(st.translation_file_complete(f))
+            self.assertEqual(len(calls), 1)
+
+    def test_changed_file_is_reread(self):
+        st = status_gui.status
+        with tempfile.TemporaryDirectory() as td:
+            f = Path(td) / "01-translation.md"
+            f.write_text("完整譯文" * 50, encoding="utf-8")
+            self.assertTrue(st.translation_file_complete(f))
+            f.write_text("<!-- CHUNK 1/2 FAILED -->" + "x" * 200, encoding="utf-8")
+            self.assertFalse(st.translation_file_complete(f))
+            self.assertEqual(st.translation_file_facts(f), (True, True))
+
+    def test_load_all_reparses_only_changed_meta(self):
+        st = status_gui.status
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            for name, val in (("a", 1), ("b", 2)):
+                (root / name).mkdir()
+                (root / name / "meta.json").write_text(json.dumps({"slug": name, "v": val}), encoding="utf-8")
+            (root / "bad").mkdir()
+            (root / "bad" / "meta.json").write_text("{oops", encoding="utf-8")
+            with mock.patch.object(st, "TRANSLATIONS_DIR", root):
+                first = st.load_all()
+                self.assertEqual([m["slug"] for m in first], ["a", "b"])
+                real = st._load_json
+                calls = []
+                with mock.patch.object(st, "_load_json", lambda p: (calls.append(str(p)), real(p))[1]):
+                    self.assertEqual(st.load_all(), first)
+                    self.assertEqual([c for c in calls if not c.endswith("bad" + os.sep + "meta.json")], [])
+                    (root / "b" / "meta.json").write_text(
+                        json.dumps({"slug": "b", "v": 22, "pad": "x" * 10}), encoding="utf-8")
+                    calls.clear()
+                    second = st.load_all()
+                self.assertEqual(second[1]["v"], 22)
+                self.assertTrue(any(c.endswith("b" + os.sep + "meta.json") for c in calls))
+                self.assertFalse(any(c.endswith("a" + os.sep + "meta.json") for c in calls))
+
+    def test_blockers_and_complete_share_one_read(self):
+        st = status_gui.status
+        with tempfile.TemporaryDirectory() as td:
+            d = Path(td) / "book"
+            d.mkdir()
+            f = d / "01-translation.md"
+            f.write_text("完整譯文" * 50, encoding="utf-8")
+            calls, patch = self._count_reads()
+            with patch:
+                self.assertEqual(status_gui.publication_blockers(Path(td)), [])
+                self.assertTrue(st.translation_file_complete(f))
+            self.assertEqual(len(calls), 1)
+
+
+class TailReadTests(unittest.TestCase):
+    def test_tail_lines_match_full_read_semantics(self):
+        st = status_gui.status
+        with tempfile.TemporaryDirectory() as td:
+            f = Path(td) / "log.txt"
+            lines = [f"行{i} " + "字" * (i % 7) for i in range(400)]
+            lines[150] = "supervisor run @ A"
+            lines[300] = "supervisor run @ B"
+            f.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            self.assertEqual(st.read_tail_lines(f, max_lines=50, block=64), lines[-50:])
+            self.assertEqual(st.read_tail_lines(f, max_lines=5000, block=64), lines)
+            self.assertEqual(st.read_tail_lines(f, marker="supervisor run @", block=64), lines[300:])
+            self.assertEqual(st.read_tail_lines(f, marker="nope", block=64), lines)

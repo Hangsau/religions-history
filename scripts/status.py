@@ -10,7 +10,10 @@ Usage:
 """
 
 import json
+import os
+import re
 import subprocess
+import threading
 from collections import Counter
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -36,12 +39,81 @@ def bar(pct: float, width: int = 24) -> str:
     return "█" * n + "·" * (width - n)
 
 
+FAILED_CHUNK_RE = re.compile(r"CHUNK \d+/\d+ FAILED")
+
+# (kind, path) -> (st_mtime_ns, st_size, value)；檔案沒變就不重讀（刊版每 30 秒掃一次全庫）
+_FILE_CACHE: dict[tuple[str, str], tuple[int, int, object]] = {}
+_FILE_CACHE_LOCK = threading.Lock()
+
+
+def _cached(path, kind: str, loader):
+    """以 mtime_ns + size 為憑證的檔案快取；stat 失敗的 OSError 交給呼叫端。"""
+    key = (kind, str(path))
+    st = os.stat(path)
+    with _FILE_CACHE_LOCK:
+        hit = _FILE_CACHE.get(key)
+    if hit is not None and hit[0] == st.st_mtime_ns and hit[1] == st.st_size:
+        return hit[2]
+    value = loader(path)
+    with _FILE_CACHE_LOCK:
+        _FILE_CACHE[key] = (st.st_mtime_ns, st.st_size, value)
+    return value
+
+
+def _load_json(path):
+    with open(path, encoding="utf-8") as f:
+        return json.loads(f.read())
+
+
+def read_tail_lines(path, *, marker: str | None = None, max_lines: int | None = None,
+                    block: int = 1 << 20) -> list[str]:
+    """從檔尾往回讀：回傳最後 max_lines 行，或從「最後一個含 marker 的行」到檔尾。
+    兩者皆不指定＝整檔；找不到 marker 就回整檔。OSError 往外拋。"""
+    with open(path, "rb") as f:
+        size = f.seek(0, os.SEEK_END)
+        pos, buf = size, b""
+        while True:
+            if pos == 0:
+                lines = buf.decode("utf-8", errors="replace").splitlines()
+                break
+            step = min(block, pos)
+            pos -= step
+            f.seek(pos)
+            buf = f.read(step) + buf
+            text = buf.decode("utf-8", errors="replace")
+            parts = text.splitlines()[1:]  # 第一行可能被切半，丟掉
+            if marker is not None:
+                idx = max((i for i, l in enumerate(parts) if marker in l), default=None)
+                if idx is not None:
+                    return parts[idx:]
+            if max_lines is not None and len(parts) > max_lines:
+                return parts[-max_lines:]
+    if marker is not None:
+        idx = max((i for i, l in enumerate(lines) if marker in l), default=None)
+        if idx is not None:
+            lines = lines[idx:]
+    if max_lines is not None:
+        lines = lines[-max_lines:]
+    return lines
+
+
+def list_subdirs(root) -> list[str]:
+    """第一層資料夾名（依名稱排序）；root 不存在回空。"""
+    try:
+        with os.scandir(root) as it:
+            return sorted(e.name for e in it if e.is_dir())
+    except OSError:
+        return []
+
+
 def load_all() -> list[dict]:
+    """回傳所有 meta（依資料夾名排序）。回傳物件來自快取，唯讀，勿就地修改。"""
+    root = Path(TRANSLATIONS_DIR)
     out = []
-    for p in sorted(TRANSLATIONS_DIR.glob("*/meta.json")):
+    for name in list_subdirs(root):
         try:
-            out.append(json.loads(p.read_text(encoding="utf-8")))
-        except (json.JSONDecodeError, OSError):
+            out.append(_cached(root / name / "meta.json", "meta", _load_json))
+        except (json.JSONDecodeError, OSError, UnicodeDecodeError):
             continue
     return out
 
@@ -58,11 +130,22 @@ def psych_complete(meta: dict) -> bool:
     return meta.get("psych_tag_status") == "done" and filled(meta.get("psych_tags"))
 
 
+def _read_translation_facts(path) -> tuple[bool, bool]:
+    with open(path, encoding="utf-8", errors="replace") as f:
+        text = f.read()
+    return "<!-- CHUNK " in text, bool(FAILED_CHUNK_RE.search(text))
+
+
+def translation_file_facts(path) -> tuple[bool, bool]:
+    """(含未完成 chunk 標記, 含 FAILED chunk)；檔案沒變不重讀。OSError 往外拋。"""
+    return _cached(path, "tr_facts", _read_translation_facts)
+
+
 def translation_file_complete(path: Path) -> bool:
-    if not path.exists() or path.stat().st_size <= 100:
-        return False
     try:
-        return "<!-- CHUNK " not in path.read_text(encoding="utf-8", errors="replace")
+        if os.stat(path).st_size <= 100:
+            return False
+        return not translation_file_facts(path)[0]
     except OSError:
         return False
 
@@ -89,9 +172,10 @@ def classification_complete(meta: dict) -> bool:
 def collection_activity(now: float) -> tuple[str | None, float, int]:
     """Metadata/tag edits are not new downloads; measure original text arrivals."""
     arrivals = []
-    for path in TRANSLATIONS_DIR.glob("*/raw/original.txt"):
+    root = Path(TRANSLATIONS_DIR)
+    for name in list_subdirs(root):
         try:
-            arrivals.append((path.stat().st_mtime, path.parent.parent.name))
+            arrivals.append((os.stat(root / name / "raw" / "original.txt").st_mtime, name))
         except OSError:
             continue
     if not arrivals:
